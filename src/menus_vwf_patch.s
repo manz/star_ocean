@@ -71,16 +71,21 @@ get_letter_width:
     phx
     tax
     cpx.w #0x00a6
-    bmi _load_length
+    bmi _next
     lda.w #0x0008
     bra _end
- _load_length:
 
+_next:
+    lda.b 0xf0
+    cmp.w #0xdede
+    bne _load_length
+    lda.w #0x000b ; fix the letter length to 12px - 1 wide for naming screen
+    bra _end
+
+_load_length:
     lda.l length_table_copy, x
     and.w #0x00ff
-    cmp.w #0x0008
-    bcc _end
-    lda.w #0x0008
+
 _end:
     plx
     rts
