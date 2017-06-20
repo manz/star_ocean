@@ -1,5 +1,7 @@
 display_description_text:                           ; CODE XREF: sub_CABB07+7P
 {
+    pha
+    pei (0xf0)
     php
     phb
     sep #0x20
@@ -10,9 +12,6 @@ display_description_text:                           ; CODE XREF: sub_CABB07+7P
     stz.b 0x2e
     sta.b 0x20
 
-    lda.w #0x0000
-    sta.l 0x7ffffc ; clear line length
-
     lda.b 0x06
     xba
     and.w #0xFF00
@@ -22,7 +21,20 @@ display_description_text:                           ; CODE XREF: sub_CABB07+7P
     stx.b 0x22
     plb
 
+    lda.w #0x0000
+    sta.l 0x7ffffc ; clear line length
+
+    cpx.w #0x3aca ; name write address
+    beq setup_fixed
+    cpx.w #0x3b96
+    beq setup_fixed
+    stz.b 0xf0
+
     jsr.w clear_all_lines
+    bra loc_C6F7E9
+setup_fixed:
+    lda.w #0xdede
+    sta.b 0xf0
 
 loc_C6F7E9:                             ; CODE XREF: display_item+57j
                                          ; display_item+64j
@@ -84,6 +96,9 @@ loc_C6F837:                             ; CODE XREF: display_item+23j
 
     plb
     plp
+    pla
+    sta 0xf0
+    pla
     rtl
 
 line_return_auto:
