@@ -1,0 +1,12 @@
+language: python
+python:
+  - '3.4'
+install: "pip install -r requirements.txt"
+script: ./build.py
+deploy:
+  provider: releases
+  api_key:
+    secure: b2+W6r9MAmQbPpvlrfH4MId9g1EX72Rj0tD+wGIwTF153CYLddU8z2ISdKSc354YvuQGBR2TmW2JWGpvfngfUt5zBqpM7I3j4S8CEFDx5gu4p468kKhEsADOGCZsJYM6xONs8iqoImpGWoodbS8C6LHWYMnuLXNJskZxby+Ao7PFTL4SGQwhTSspLmWLxUWe7R1m8X7mcckRKzHQrMi11f3lzX85yPuKLKXbLKq4T5Ndn/asq+KN74JFlspcUuSekF6kn9GBoGtCDpjLaAzz00fQmXXDQPiMl0GRW6jN4kRyscJpHqOy9NqT6BoEao7U0bIMlCZCyPvNz7zaRIGZ+qyTieZO1jgzJcR7F1dzkVur6tjYnLCmBPtMzOKsleeuEJpdY1nEzI+flyqywq7N9ad0uW7Z/Wdgw0ulVM1xfJWw3WEQE/ZalNtI2bQXgmqKlCBpMmCAJqGnx1Y7n440/dAgNetiosuq2iTjVaqMax/216rMfFIMlnFDAZ9Vadiy5OUbNEKvjpCFQvcpzHy4BuRRjyN1FZzVhsqYpl7s8ng+kpcH+nieWQgrhlo5egOtx2yOkDEx3tLQ3NfpuBJ0OSgaG5NAFIadWJItpD/MtK6I9+St/JENSiUkbreysGJiwehAEBBynBJSbLpPcBtSU3bXsFCtRqt+YxMLaG+gdcU=
+  file: so.ips
+  on:
+    repo: manz/star_ocean
