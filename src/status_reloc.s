@@ -1,13 +1,18 @@
 display_status:
+    pei (0xf0)
+    stz.b 0xf0
 loc_C6F72C:
     lda.w 0x3000, Y
     and.w #0x00ff
-    cmp.w #0x000D             ; seems to be newline char
+    cmp.w #0x000D           ; seems to be newline char
     beq loc_C6F76D
-    cmp.w #0x00FF          ; end of string char
+    cmp.w #0x00FF           ; end of string char
     beq loc_C6F77C
     sec                     ; ignore first 0x10 char
     sbc.w #0x0010
+    bpl _positive           ; avoids crashes when encountering < 0x10 chars
+    lda.w #0x0000
+_positive:
     sta.l 0x7ffffe
     asl
     asl
@@ -45,7 +50,8 @@ loc_C6F76D:                             ; CODE XREF: sub_C6F6F9+39j
 ; ---------------------------------------------------------------------------
 loc_C6F77C:                             ; CODE XREF: sub_C6F6F9+3Ej
     jsr.w handle_dangling_char
-
+    pla
+    sta 0xf0
     plb
     plp
     rtl
