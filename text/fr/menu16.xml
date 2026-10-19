@@ -22,12 +22,12 @@
 <sn:string id="0xEA93">Consulter les objets précieux.</sn:string>
 <sn:string id="0xEA9C">Équipement optimal. Les emplacements “autre" restent vides.</sn:string>
 <sn:string id="0xEA9D">En changeant un équipement sauf “autre", se commute automatiquement sur "Non".</sn:string>
-<sn:string id="0xEDE6">Talent</sn:string>
-<sn:string id="0xEDE7">Objets</sn:string>
-<sn:string id="0xEDE8">Tactique</sn:string>
-<sn:string id="0xEDE9">Config.</sn:string>
+<sn:string id="0xEDE6">Talents</sn:string>
+<sn:string id="0xEDE7">Bagage</sn:string>
+<sn:string id="0xEDE8">Stratégie</sn:string>
+<sn:string id="0xEDE9">Paramétrage</sn:string>
 <sn:string id="0xEDEA">Équiper</sn:string>
-<sn:string id="0xEDEB">Formation</sn:string>
+<sn:string id="0xEDEB">Formations</sn:string>
 <sn:string id="0xEDEC">Statut</sn:string>
 <sn:string id="0xEDED">Sauver</sn:string>
 <sn:string id="0xEDEE">Charger</sn:string>
@@ -35,7 +35,7 @@
 <sn:string id="0xEDF0"></sn:string>
 <sn:string id="0xEDF2">Nommer</sn:string>
 <sn:string id="0xEDFF">Échange</sn:string>
-<sn:string id="0xEE00">Savoir</sn:string>
+<sn:string id="0xEE00">Savoirs</sn:string>
 <sn:string id="0xEE48"></sn:string>
 <sn:string id="0xEEB6">Choisir les objets avec le curseur puis “Appliquer".</sn:string>
 <sn:string id="0xEEB7"></sn:string>

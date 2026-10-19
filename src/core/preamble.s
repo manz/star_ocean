@@ -8,6 +8,16 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
+; Bank padding the menu code can reach with `jsr` from its own bank.
+.pool code_c6 {
+    range 0xC6FE63 0xC6FFFF
+    strategy order
+}
+.pool code_c8 {
+    range 0xC8FAA7 0xC8FFFF
+    strategy order
+}
+
 ; Cart SRAM once the header says 32 KB: the game keeps its saves at $70:6000-$7E67, below is ours.
 .pool sram {
     bss

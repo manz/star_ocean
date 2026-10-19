@@ -1,5 +1,6 @@
-"""Run the patch's SRAM text routines on every scene in kintsuki: each block unpacks to $70:0000 byte for byte
-and each message selected lands at $7E:B873 as the ROM has it.
+"""Run the patch's SRAM text routines on every scene in kintsuki: each block the patched scene table points at
+unpacks to $70:0000 byte for byte and each message selected lands at $7E:B873 as the block has it (the Japanese
+blocks of the translated scenes hold other data now: tools/encode_menus.py text16).
 
 Own process: kintsuki allows one emulator per process.
 """
@@ -31,7 +32,8 @@ def _call(emu: Emu, target: int, *, a8: int = 0, x16: int = 0, y16: int = 0, m16
 
 
 def check() -> list[str]:
-    patch, rom = build(), Rom()
+    patch = build()
+    rom = Rom().with_ips(patch.ips)
     unpack, select = patch.symbols["text_unpack_sram"], patch.symbols["text_select_message"]
     sram_text, sram_text_size = patch.symbols["sram_text"], patch.symbols["sram_text_size"]
     emu = Emu()

@@ -18,6 +18,23 @@ class Rom:
         self.data = path.read_bytes()
         self._config = config
 
+    def with_ips(self, ips: Path) -> Rom:
+        """This ROM with `ips` applied, in memory only (the build never writes a patched ROM: kintsuki
+        soft-patches at load)."""
+        data, patch, i = bytearray(self.data), ips.read_bytes(), 5  # after "PATCH"
+        while patch[i : i + 3] != b"EOF":
+            offset, size = int.from_bytes(patch[i : i + 3], "big"), int.from_bytes(patch[i + 3 : i + 5], "big")
+            i += 5
+            if size:
+                chunk, i = patch[i : i + size], i + size
+            else:  # RLE run
+                chunk, i = patch[i + 2 : i + 3] * int.from_bytes(patch[i : i + 2], "big"), i + 3
+            data.extend(bytes(max(0, offset + len(chunk) - len(data))))
+            data[offset : offset + len(chunk)] = chunk
+        patched = Rom.__new__(Rom)
+        patched.data, patched._config = bytes(data), self._config
+        return patched
+
     @cached_property
     def bus(self) -> Bus:
         cfg = load_a816_toml(self._config)

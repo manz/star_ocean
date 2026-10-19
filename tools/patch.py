@@ -13,7 +13,7 @@ from a816.module_builder import build_with_imports
 from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 
-from tools import encode_menus, encode_text, menu_font
+from tools import encode_menus, encode_text, menu_font, menu_font16
 from tools.rom import DEFAULT_ROM, ROOT
 
 BUILD = ROOT / "build"
@@ -35,6 +35,7 @@ def build_assets() -> None:
     (GEN / "dialog_font_low.bin").write_bytes(font[: DIALOG_FONT_GLYPHS * DIALOG_FONT_RECORD])
     encode_text.build(ROOT / "text" / "fr", GEN)
     menu_font.build(out=GEN / "menu_font8.bin")
+    menu_font16.build(out=GEN)
     encode_menus.build(ROOT / "text" / "fr", GEN)
 
 
