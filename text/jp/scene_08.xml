@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[color][0x6][item][0x8a][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[color][0x5]10[color][0x2]フォルを手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[color][0x6][item][0x89][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[color][0x6][item][0x89][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[color][0x6][item][0x8c][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[color][0x6][item][0x89][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[color][0x6][item][0x8c][0x13][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">旅人ラドル「ますます迷ったみたいだ。もうやだよ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">立て札の裏だ。
+すり減っていて、よめない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">北束：クール村
+クール村の北：メトークス山[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">“道中気をつけよう”
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">北束：ホットの町
+ホットの町の北：メトークス山[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">立て札の裏だ。
+なにも書いていない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">束：クール村
+西：クラトス海岸[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">立て札の裏だ。
+なにも書いていない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">束：ホットの町
+西：クラート海岸[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">立て札の裏だ。
+なんか書いてあるようだがよめない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">西：クール村
+南：クラトスの町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">“道中気をつけよう”
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">西：ホットの町
+南：クラート村[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">持ち物がいっぱいです[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[end][0xff]</sn:pointer>
+
+</sn:script>

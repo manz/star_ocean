@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">イヴィーナ「ご武運をお析りしています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">スイッチを切り替えますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[end]</sn:pointer>
+
+<sn:pointer id="3">スイッチを押しますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">ラスボス[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]「あなた達は？[page]
+？？？「私はイヴィーナ。反リヴォース派のリーダーです。[page]
+[nick:ロニキス]「あなたが[speed][0xa]・・・。[speed][0x0]私は連邦の[nick:ロニキス]・Ｊ・ケニーです。[page]
+イヴィーナ「知っています。でも、なぜローク人を？[page]
+[nick:ロニキス]「彼らはちょっとした理由で我々と一緒に行動しました。その時から私は彼らの能力を高く評価しており、今回の任務には欠かせないと判断しました。[page]
+イヴィーナ「わかりました。では一度街へ[speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「いえ、できればこのまま一気にジエ・リヴォースの所まで迫りたい。[page]
+イヴィーナ「え？[page]
+[nick:ロニキス]「チャンスは今しかありません。[page]
+イヴィーナ「[speed][0xa]・・・[speed][0x0]わかりました。では1階まで案内いたします。[page]
+[nick:ラティ]「あ[speed][0xa]、[speed][0x0]ちょっと待って下さい。そもそもジエって何者なんですか？そいつがみんなを不幸にしたげんきょうと一言で言われても、その理由すらハッキリ聞いていないんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">イヴィーナ「[speed][0xa]・・・[speed][0x0]私は、みなさんにあやまらなければならないのかもしれません。[page]
+[nick:ラティ]「え？[page]
+イヴィーナ「私も決して全ての話に無関係では無いからです[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">イヴィーナ「ファーゲットは水も緑も、資源にとぼしい荒廃した惑星です。[page]
+「人々が生きていくために[page]
+「人々が生活していく新天地を探すために[page]
+「私たちは空間理論と遺伝子操作の研究を長い間行ってきました。もともと私はその研究機関で働いていたのです。[page]
+「すくなくとも私は人々のための研究だと教えられていました。ですが真実は地球に侵攻するための、生体兵器の開発が目的だったのです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">イヴィーナ「真実を知って私はそれをそしするためにレジスタンスに入ることを決意しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">イヴィーナ「ジエはその遺伝子の研究過程で生まれたゆいいつの成功体、強じんな肉体と知能をあわせ持つ超人類と呼べる存在です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">イヴィーナ「しかし本当に危険なのは彼の遺伝子に組み込まれた、地球に対して向けられた破壊の本能ではないでしょうか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]「破壊の本能？[page]
+イヴィーナ「はい。ジエは反乱を起こし独裁体制を作り上げましたが、その時に研究者たちをざん殺してしまいました。ですがその研究者たちの狂気の思想はジエの本能に刻み込まれているのです。それはもちろんジエ本人は気づいてないことでしょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">イヴィーナ「私たちは自らが引き起こしたあやまちを清算するために、彼を剖さなければなりません。ですが私たちにはその剖すための力が足りず、被害者であるあなたたちの力を借りなければならないというのが現実なのです[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]わかりました。行きましょう！[page]
+イヴィーナ「それでは途中まで案内いたします。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">イヴィーナ「ご武運をお析りしています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">メテオスオームを覚えました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[pos][0x3e][0x0]リヴォースタワー[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">ＨＰ・ＭＰが回復した[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

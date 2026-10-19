@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x28][0x0]アストラル城下町の港[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x28][0x0]アストラル城下町の港[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]「今日は痩れたからライアスさんの所に泊まりましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]「今日は痩れたから宿屋で休みましょう。[page]
+[nick:シウス]「そうだな、俺も休みたい気分だぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:イリア]「今日は痩れたから宿屋で休みましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">船員「[color][0x4]タトローイ[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">船員「お金が足りないよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[end]</sn:pointer>
+
+<sn:pointer id="8">[end][0xff]</sn:pointer>
+
+</sn:script>

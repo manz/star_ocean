@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[mode8][0x0][nick:ロニキス]「レゾニアの密使によれば謎の第3勢力とやらは、ウイルスを入手するためにロークに向かった。[page]
+[nick:イリア]「今から数えれば何百年も前の話ですよね。[page]
+[nick:ロニキス]「そうだ。我々が考えるよりもはるかに文明の進んだ連中に違いない。そいつらがロークに訪れる前に我々は時間移転し、我々もウイルスを入手する。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:イリア]「ただし、門が私たちを曼け入れてくれたらの話だけどね[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ロニキス]「ゲートよ！私たちの願いを聞いてほしい！！どうか私たちを300年前のロークへと導いてもらいたいのだ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">？？？「・・・我は時を守護する者。
+わけを聞けば、皆を助けたいが策に窮す様子。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">守護者「よかろう。武器や通信機などをすべて捨てよ。異世界に持ち込むことはまかりならん。[page]
+守護者「ならば門を開こうではないか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ロニキス]「やったぞ！[page]
+[nick:イリア]「私たちは歴史の流れから見て、少なくとも間違いを犯しているわけではないという証撫よ、これは。[page]
+[nick:ロニキス]「よし、それじゃあ飛び込むぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[mode8][0x38][speed][0x19]・・・[nick:ドーン]、[speed][0x3]待ってろ。
+今、助けてやるからな[speed][0x19]・・・・・[speed][0x0]。[mode8][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="8">[mode8][0x18][nick:ラティ]「みんな、本当にありがとう[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[mode8][0x18][nick:シウス]「しけたツラすんなよ。2度と会えないってわけでもないんだろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[mode8][0x18][nick:シウス]「俺はおまえたちと一緒に旅ができてけっこう楽しかったぜ。お礼なら逆に言いたいくらいさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[mode8][0x18][nick:アシュレイ]「なさけない顔をするでない。もう2度と会えないってわけでもないのじゃろう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[mode8][0x18][nick:ヨシュア]「よい経験をさせてもらった、と言ってはなんか優等生ですけど、[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[mode8][0x18][nick:ヨシュア]「みんなと出会えたことが自分にとって本当の実りだったような気がします。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[mode8][0x18][nick:フィア]「[nick:ラティ]、元気だしな。[speed][0xf]・・・[speed][0x3]でも、自分たちの住んでいる場所が・・・[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[mode8][0x18][nick:フィア]「いかにちっぽけな所だったのか、こんな世界があるなんてな[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[mode8][0x18][nick:マーヴェル]「みなさんお元気で、私はみなさんのことは決して忘れませんから[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[mode8][0x18][nick:ペリシー]「私たちずっとみんなとトモダチだよ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[mode8][0x18][nick:ミリー]「さようなら[speed][0xf]・・・[speed][0x3]みんな[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+</sn:script>

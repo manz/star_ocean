@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x20][0x0]ヴァン・イ・イル城下町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:シウス]「いや、魔界討伐に名乗りをあげる奴なんざそんなにいるわけがねぇ。案外簡単に会えるかもしれねぇぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:アシュレイ]「ワシが話をつけよう。[page]
+[nick:ロニキス]「え？[page]
+[nick:アシュレイ]「わしに任せておけ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:シウス]「いや、魔界討伐に名乗りをあげる奴なんざそんなにいるわけがねぇ。案外簡単に会えるかもしれねぇぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ヨシュア]「それは言えてますね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:シウス]「だろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]「まず城に行こう。[page]
+[nick:イリア]「国王がそんな簡単に会ってくれるかしら？大統領やアイドルにいきなり会いに行くようなものですよ。[page]
+[nick:ロニキス]「しょうがないだろう。コネも何もないんだ。[page]
+[nick:イリア]「[speed][0xa]・・・[speed][0x0]たしかにそうですよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ロニキス]「まずは国王に会いに行こう。[page]
+[nick:イリア]「国王が見ず知らずの人間にいきなり会ってくれるかしら？大統領やアイドルにいきなり会いに行くようなものですよ。[page]
+[nick:ロニキス]「しょうがないだろう。コネも何もないんだ。[page]
+[nick:イリア]「まぁ、たしかにそうですけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">衛兵「ようこそヴァン城下へ！[speed][0xa]・・・[speed][0x0]本当の名前はヴァン・イ・イルというんだけど、言いにくいからみんなそう呼ばないんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">若者「ヴァン・イ・イル城[speed][0xa]・・・[speed][0x0]略してヴァン城[speed][0xa]・・・[speed][0x0]なんか楽器みたいな名だな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">トんでる娘リーザ「枯れ葉舞う季節[speed][0xa]・・・[speed][0x0]降り積もる落ち葉のように私の想いは募る[speed][0xa]・・・[speed][0x0]ああ、詩人だわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">目つきの悪い若者「ん？なに見てんだよ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">衛兵「ヴァン国王はずいぶん前から魔界討伐の方法について悩んでおられるようでした。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">たたずむ少女「水面に映らないだけで××より下だなんて[speed][0xa]・・・[speed][0x0]ひどいわボブったら。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">エアリナ「おいしく料理するにはおいしい素材が必要よ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:アシュレイ]「ぶしつけじゃが、[nick:ラティ]よ。おまえは剣の道を何と心得る？[page]
+[nick:ラティ]「えっ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">1．強く在ることを求める・・・
+2．好きだから・・・・・[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:アシュレイ]「強く在りたいと願う、それは大事な事じゃ。腕前も磨き上げる力ともなる。だが、ならば強さの極みに達した時、ヌシはどうするのだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">1．強さに絆りは無い
+2．そこが極みならば、そこで絆わり[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:アシュレイ]「ふむ、絆わりは無いか。まだ若いヌシに聞いても、先など見えぬ故にそのような答えが返ってきてもしょうがないか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:アシュレイ]「理屈をこねればそうなるな。極みはたしかに絆わりよ。つまり、強さのみを求めれば、ヌシはそこで絆わりということじゃ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:アシュレイ]「して、おまえの言う強さとは相対的なものか？それとも絶対的なものか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">1．相対的なもの
+2．絶対的なもの[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:アシュレイ]「つまりヌシは何者よりも強くなりたいと考えておるのじゃな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]「自分より強い者がいなくなったときがヌシの極みということになるな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:アシュレイ]「ならばヌシは絶対的に判断しているのではないか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:アシュレイ]「強く在りたいと願うのは、何者よりも強くなりたいということではないのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:アシュレイ]「ならばヌシは相対的に判断しておるではないか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:アシュレイ]「ふむ、己の目標は己の中にあるということじゃな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:アシュレイ]「みんなのため、か。みんなを護る力があればよいというのじゃな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:アシュレイ]「ならば必要以上の力もいらぬということじゃな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:アシュレイ]「少々つじつまがあっておらんような気がするがの。今ヌシは剣の道を志すのはみんなのためと答えたのじゃぞ？なのに必要以上の力を欲するのは何故じゃ？答えに偽りが含まれてはおらんか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]つまらぬことを聞いてしまったな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:シウス]「[speed][0xa]・・・[speed][0x0]退屈だぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">行商人「わいは行商人や、なんか買っていかへんかいな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ラティ]「寝てる[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:マーヴェル]「あ[speed][0xa]・・・[speed][0x0]あ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:マーヴェル]「そんな[speed][0xa]・・・[speed][0x0]ヨシュア兄さん[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">子供「お母さん！いまおねぇちゃんが消えちゃったよ！？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">母親「なにいってるのこの子は[speed][0xa]・・・[speed][0x0]夢でも見たの？[page]
+子供「違うよ！それに[speed][0xa]・・・[speed][0x0]泣いてたよ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:ペリシー]「[nick:イリア]おねーさんはお酒が好きなんだって♪カンチョウは[speed][0xa]・・・[speed][0x0]なんだっけ。タケマツ？あれ？ちがうなぁなんだっけ？[page]
+[end]</sn:pointer>
+
+</sn:script>

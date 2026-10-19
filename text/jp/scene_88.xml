@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">ジエ「貴様ら[speed][0x14]。[speed][0x0]私のやることをとことん邪魔するつもりらしいな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]「当たり前だ！！おまえのやることは人々を苦しめることだぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">ジエ「なに！[speed][0x14]？[speed][0x0]本当に人々を苦しめているのは連邦のほうだ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ロニキス]「何だと！？連邦のどこが人を苦しめているというんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">ジエ「無理やり、連邦という社交クラブに入らせ[speed][0x14]、[speed][0x0]資源を奪い[speed][0x14]、[speed][0x0]人々を奴隷とする、それのどこが苦しめていないというんだ！？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]「無理やりなんかじゃないわ[speed][0x14]。[speed][0x0]ちゃんと合意の元よ、それに資源も奪っているわけじゃないし、奴隷なんかもしていないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">ジエ「合意[speed][0x1e]？[speed][0x0]あんなに強大な武力を携えて惑星まで行き、のど元に武器を突きつけ、その状態での話し合いが公平といえるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]「別に、武器を突きつけてるわけではない。それはおまえのゆがんだ解釈だ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">ジエ「ふん、おまえらのような官憲のイヌじゃわからないのさ。そして、我々のように苦しめられているものの痛みが！！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ロニキス]「それは、おまえの被害もうそうだ。だからといって侵略をしていいわけは無い。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">ジエ「強者の論理だな[speed][0x14]。[speed][0x0]おまえらとは話をしていても無駄なようだな[speed][0x14]。[speed][0x0]死ね[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">ジエ「[speed][0x8]く、くそお[speed][0x14]・・・！[speed][0x0]ムーアの末えいどもがそろって邪魔をしやがって！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:イリア]「ムーアの末えい？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">ジエ「くっ[speed][0x14]、[speed][0x0]ははは[speed][0x14]！[speed][0x0]やはり何も知らずにここまで来たのか。[page]
+ジエ「[speed][0xa]・・・[speed][0x0]連邦のサルどものことは知らん。だが、もとをただせばローク人とファーゲット人は同じムーアの血でつながっているんだよ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">ジエ「[speed][0xa]・・・[speed][0x0]地球から異変によって異空間にとばされたムーア人の中で奇跡的に生き残った者たちがたどり着いた先は、惑星ロークとこの荒れ果てたファーゲットだったのさ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]「やっぱり[speed][0xa]・・・[speed][0x0]パージ神殿のホログラフィはそういう意味だったのね[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">ジエ「まあそんな人種がどうした、という話などしても無意味だ。ローク人だろうが、ファーゲット人だろうが、ましてや造られた化物だろうが・・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">ジエ「だが俺は、そんなことも知らずに
+えい華を極めたかのようにヌクヌクと生きてきた地球人だけは憎くてしょうがないんだよ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">ジエ「ほう[speed][0xa]・・・・・[speed][0x0]そこの女。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">ジエ「その服装から見るとローク人のようだな。だが、惑星ロークのムーア人は絶滅したのではなかったか？[page]
+ジエ「おまえの存在は興味深いな。フフフ。まあいい、こいつらを皆殺しにした後ゆっくり調べてやるさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">ジエ「今度は手を抜かんぞ！貴様らがいかに無力な存在かを思い知らせてやる！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]「やったか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ミリー]「た、剖したの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:シウス]「よし、やったぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:アシュレイ]「剖したのか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ラティ]「やったか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">ジエ「[speed][0xa]・・・[speed][0x0]く、これで絆わったわけではないぞ。ふふ、私のような者が必ずまた現れる。[speed][0x14]そ[speed][0x8]、その時をたのしみにして、[speed][0x14]い[speed][0x0]、いるんだな[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ロニキス]「イヴィーナが、ジエをつき動かしているものが遺伝子に刻まれた破壊の本能だと言っていたが[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ロニキス]「私がこの男の中に見えたものは、自らを造りだした者と自分自身に対する純粋な憎しみ[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]「それに、悲しみ[speed][0xa]・・・[speed][0x0]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ロニキス]「ああ[speed][0x14]。[speed][0x0]絆わってみれば、この男もただのひがい者だったんだ[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+</sn:script>

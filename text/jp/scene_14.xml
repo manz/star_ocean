@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">ドクター「今まで、未確認生命体が艦内に侵入したことなど、一度もなかったのに[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">ドクター「もう少し時間がかかりそうです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">ドクター「艦長が艦橋に来てほしいそうだ。左側のエレベーターに乗ればいいよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">ドクター「どうかしましたか？[page]
+[nick:ラティ]「なんでもないです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]「これは？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]「驚くのも無理は無いけど、
+これが私たちの医療手段なの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ロニキス]「ドクター、後は頼んだぞ。[page]
+ドクター「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]「さて、君たちはここにいても仕方がない。せっかくだから艦の中でも見て回るか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]「艦長、それは保護条約に違反します。[page]
+[nick:ロニキス]「いまさらそれもないだろ？私は艦橋に行く。君が案内してやってくれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:イリア]「あ、艦長！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]「もうっ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ミリー]「どうだったんですか？[page]
+[nick:ロニキス]「そう急かさないでくれよ。今からドクターが話してくれるから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ミリー]「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">ドクター「オホン。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">ドクター「えー[speed][0x14]、[speed][0x0]調査の結果、病原園は発見できました。その正体もわかりました。[page]
+ドクター「ですが、この病気を治療するのは現代の地球の医学では、無理です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ミリー]「そんなすごい力があるんでしょ？！ちゃんと調べたの？[speed][0xa]・・・[speed][0x1]ねぇ！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">ドクター「お嬢さん、非常に高度な医学力があるからこそ逆にはっきり無理だとわかるということもあるんですよ[speed][0x14]・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">ドクター「[speed][0x14]・・・[speed][0x0]この園はものすごいスピードで自らを変化させていきます。[page]
+ドクター「これではどんなワクチンもすぐに効果がなくなってしまいます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">ドクター「一応[speed][0x14]・・・[speed][0x0]方法が無いわけではありません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">ドクター「このウイルスの組成を見る限り、これは天然のウイルスです。ですから最初に保園していた生物、
+つまり宿主（ホスト）を発見し、血液を入手すれば免疫血清が作れますから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ミリー]「助かる[speed][0xa]？[speed][0x1]いえ[speed][0xf]、[speed][0x1]助かるんですか？[speed][0x0][page]
+ドクター「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]「でも2、3時間で石化してしまうんですよ。その生物を捜す暇なんてありませんよ。[page]
+ドクター「奇妙な話ですが、石化しても分子構造はそのまま保たれているんです。
+ですから血清さえ手に入れれば元に戻すことも可能です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:イリア]「理解できなくても大丈夫よ。
+とにかく元に戻せるっていうことよ。[page]
+[nick:ロニキス]「だが簡単な話ではないな。レゾニアが敵である我々に宿主のことを教えてくれるはずがない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]「そうね。でも、一番の疑問点はその化学兵器を惑星ロークに使用したことかしら？[page]
+[nick:ラティ]「ローク？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ロニキス]「君たちの住む惑星につけた名前さ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ロニキス]「[nick:イリア]の言うとおり、たしかにローク人を石にした所でレゾニアにはなんの利益も無い。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">転送デッキにて未確認生命体発見！繰り返す・・・[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]「未確認生命体？[page]
+[nick:ロニキス]「ありえん事だ。行ってみよう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]「ドクター、ローク人の身体の組成で地球人やその他の惑星の人間型生物と異なるところはありましたか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">ドクター「そうですね。内睦、筋肉、神経などの基本システムは地球人とほとんど変わりませんが、一つだけ大きく異なるところがありました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]「血ね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">ドクター「そうです。血液の組成があらゆる面で地球人とは大きく異なります。いろいろ異なりますが、
+わかりやすいところでは酸素を運ぶヘモグロビンもローク人は銅を基本に作られています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ロニキス]「なにが言いたいんだ、[nick:イリア]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]「あくまで、可能性ですが、ローク人を石にすることによりなにか得られるのではないかと？
+そうすることにより化学兵器をロークに落とした理由が説明できますし。[page]
+[nick:ロニキス]「何かとは？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:イリア]「例えば未知の物質とか・・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ロニキス]「まさか[speed][0xa]・・・・[speed][0x19]、[speed][0x1]兵器か？[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:イリア]「可能性はあります。しかも、レーダーにもうつらない不可視の物質。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ミリー]「じゃあ、武器を作るために私たちを殺しているのですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:イリア]「まだ、決まったわけじゃないのよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ラティ]「でも、それなら納得がいきます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ロニキス]「とにかく、もしそうならロークから石像の幾つかが消えているはずだ。それを探査しよう。私は艦橋に行く。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:イリア]「ドクター、この血液が石化することによってできる物質から作られるもので、兵器になりそうなものをコンピュータでシミュレートしてみてください。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">ドクター「組み合わせは何万通りですよ？[page]
+[nick:イリア]「やるしかないのよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">ドクター「わかりました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]「俺が、今の日常が退屈だなんて思ったからこうなったんだ[speed][0xf]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ミリー]「何言ってんの？関係あるわけないでしょ。[page]
+[nick:ラティ]「でも[speed][0xf]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ミリー]「それより、私にもっと力があれば[speed][0xf]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">ドクター「艦長が艦橋に来てほしいそうだ。左側のエレベーターに乗ればいいよ。[page]
+[nick:ラティ]「わかりました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:ミリー]「何かしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ラティ]「さぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">ドクター「重要な器官が石化し始めました。危篤状態です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:ラティ]「[nick:ドーン]・・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ドーン]「[speed][0xf]・・・[speed][0x5]艦長[speed][0xf]・・・。
+[speed][0x0]お[speed][0x14]、[speed][0x0]お願いがあります。[page]
+[nick:ロニキス]「何だね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ドーン]「[speed][0xf]・・・[speed][0x0]せめて、
+[speed][0xf]・・[speed][0x0]最期は家で[speed][0xf]・・・。[speed][0x0][page]
+[nick:ロニキス]「最期だなんて[speed][0xa]・・[speed][0x0]君は少しの間、眠るだけだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ドーン]「でも血清が手に入らなかったら[speed][0xf]・・・。[speed][0x0][page]
+[nick:ロニキス]「[speed][0xa]・・・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ドーン]「[speed][0x6]お願いします。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]わかった。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ロニキス]「転送の準備を。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">ドクター「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ミリー]「私たちも[nick:ドーン]と一緒に行かせて下さい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:ロニキス]「君たちは[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ラティ]「必ず戻ってきますから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]わかった。その代わりに[nick:イリア]を付き添わせるぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ラティ]、[nick:ミリー]「ありがとうございます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[pos][0x2c][0x0]カルナス戦艦医療施設[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[pos][0x2c][0x0]カルナス戦艦医療施設[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="1">ラティ[end]</sn:pointer>
+
+<sn:pointer id="2">ミリー[end]</sn:pointer>
+
+<sn:pointer id="3">ドーン[end]</sn:pointer>
+
+<sn:pointer id="4">ロニキス[end]</sn:pointer>
+
+<sn:pointer id="5">イリア[end]</sn:pointer>
+
+<sn:pointer id="6">シウス[end]</sn:pointer>
+
+<sn:pointer id="7">ヨシュア[end]</sn:pointer>
+
+<sn:pointer id="8">ティニ[end]</sn:pointer>
+
+<sn:pointer id="9">マーヴェ[end]</sn:pointer>
+
+<sn:pointer id="10">アシュ[end]</sn:pointer>
+
+<sn:pointer id="11">ペリシー[end]</sn:pointer>
+
+<sn:pointer id="12">フィア[end]</sn:pointer>
+
+<sn:pointer id="13">ルーン[end]</sn:pointer>
+
+<sn:pointer id="17">ラティクス[end]</sn:pointer>
+
+<sn:pointer id="18">ミリー[end]</sn:pointer>
+
+<sn:pointer id="19">ドーン[end]</sn:pointer>
+
+<sn:pointer id="20">ロニキス[end]</sn:pointer>
+
+<sn:pointer id="21">イリア[end]</sn:pointer>
+
+<sn:pointer id="22">シウス[end]</sn:pointer>
+
+<sn:pointer id="23">ヨシュア[end]</sn:pointer>
+
+<sn:pointer id="24">ティニーク[end]</sn:pointer>
+
+<sn:pointer id="25">マーヴェル[end]</sn:pointer>
+
+<sn:pointer id="26">アシュレイ[end]</sn:pointer>
+
+<sn:pointer id="27">ペリシー[end]</sn:pointer>
+
+<sn:pointer id="28">フィア[end]</sn:pointer>
+
+<sn:pointer id="29">ルーン[end]</sn:pointer>
+
+<sn:pointer id="100">／[end]</sn:pointer>
+
+<sn:pointer id="101">HP[end]</sn:pointer>
+
+<sn:pointer id="102">MP[end]</sn:pointer>
+
+<sn:pointer id="103">L[end]</sn:pointer>
+
+<sn:pointer id="104">R[end]</sn:pointer>
+
+<sn:pointer id="105">しょうひMP[end]</sn:pointer>
+
+<sn:pointer id="106">－－[end]</sn:pointer>
+
+<sn:pointer id="107">：[end]</sn:pointer>
+
+<sn:pointer id="108">MUSIC[end]</sn:pointer>
+
+<sn:pointer id="109">SOUND[end]</sn:pointer>
+
+<sn:pointer id="110">こうげきりょく[end]</sn:pointer>
+
+<sn:pointer id="111">→[end]</sn:pointer>
+
+<sn:pointer id="112">よろしいですか？[end]</sn:pointer>
+
+<sn:pointer id="113">はい　　いいえ[end]</sn:pointer>
+
+<sn:pointer id="114">X[end]</sn:pointer>
+
+<sn:pointer id="115">Y[end]</sn:pointer>
+
+<sn:pointer id="116">A[end]</sn:pointer>
+
+<sn:pointer id="117">B[end]</sn:pointer>
+
+<sn:pointer id="200">ひっさつわざ1[end]</sn:pointer>
+
+<sn:pointer id="201">ひっさつわざ1[end]</sn:pointer>
+
+<sn:pointer id="2000">ファイアボルト[end]</sn:pointer>
+
+<sn:pointer id="2001">アイスニードル[end]</sn:pointer>
+
+<sn:pointer id="2002">グレイブ[end]</sn:pointer>
+
+<sn:pointer id="2003">ウィンドブレイド[end]</sn:pointer>
+
+<sn:pointer id="2004">シャドウボルト[end]</sn:pointer>
+
+<sn:pointer id="2005">イラプション[end]</sn:pointer>
+
+<sn:pointer id="2006">ブリザード[end]</sn:pointer>
+
+<sn:pointer id="2007">アースグレイブ[end]</sn:pointer>
+
+<sn:pointer id="2008">サンダーボルト[end]</sn:pointer>
+
+<sn:pointer id="2009">ウーンズ[end]</sn:pointer>
+
+<sn:pointer id="2010">レイ[end]</sn:pointer>
+
+<sn:pointer id="2011">トラクタービーム[end]</sn:pointer>
+
+<sn:pointer id="2012">エクスプロード[end]</sn:pointer>
+
+<sn:pointer id="2013">Sクリスタル[end]</sn:pointer>
+
+<sn:pointer id="2014">アースクェイク[end]</sn:pointer>
+
+<sn:pointer id="2015">サンダーストーム[end]</sn:pointer>
+
+<sn:pointer id="2016">ワードオブデス[end]</sn:pointer>
+
+<sn:pointer id="2017">ライトクロス[end]</sn:pointer>
+
+<sn:pointer id="2018">プリズミックソル[end]</sn:pointer>
+
+<sn:pointer id="2019">スターフレア[end]</sn:pointer>
+
+<sn:pointer id="2020">エクステンション[end]</sn:pointer>
+
+<sn:pointer id="2021">グレムリンレアー[end]</sn:pointer>
+
+<sn:pointer id="2022">メテオスォーム[end]</sn:pointer>
+
+<sn:pointer id="2023">ダークサークル[end]</sn:pointer>
+
+<sn:pointer id="2024">ヒール[end]</sn:pointer>
+
+<sn:pointer id="2025">ディープミスト[end]</sn:pointer>
+
+<sn:pointer id="2026">プレス[end]</sn:pointer>
+
+<sn:pointer id="2027">フィクスクラウド[end]</sn:pointer>
+
+<sn:pointer id="2028">アンチドート[end]</sn:pointer>
+
+<sn:pointer id="2029">サイレンス[end]</sn:pointer>
+
+<sn:pointer id="2030">アシッドレイン[end]</sn:pointer>
+
+<sn:pointer id="2031">キュアオール[end]</sn:pointer>
+
+<sn:pointer id="2032">グロース[end]</sn:pointer>
+
+<sn:pointer id="2033">キュアライト[end]</sn:pointer>
+
+<sn:pointer id="2034">プロテクション[end]</sn:pointer>
+
+<sn:pointer id="2035">ディスペル[end]</sn:pointer>
+
+<sn:pointer id="2036">ヘイスト[end]</sn:pointer>
+
+<sn:pointer id="2037">ディレイ[end]</sn:pointer>
+
+<sn:pointer id="2038">フェアリィヒール[end]</sn:pointer>
+
+<sn:pointer id="2039">フェアリィライト[end]</sn:pointer>
+
+<sn:pointer id="2040">グラビティプレス[end]</sn:pointer>
+
+<sn:pointer id="2041">レイズデッド[end]</sn:pointer>
+
+<sn:pointer id="2500">＜ち＞[end]</sn:pointer>
+
+<sn:pointer id="2501">＜みず＞[end]</sn:pointer>
+
+<sn:pointer id="2502">＜ひ＞[end]</sn:pointer>
+
+<sn:pointer id="2503">＜かみなり＞[end]</sn:pointer>
+
+<sn:pointer id="2504">＜かぜ＞[end]</sn:pointer>
+
+<sn:pointer id="2505">＜ひかり＞[end]</sn:pointer>
+
+<sn:pointer id="2506">＜やみ＞[end]</sn:pointer>
+
+<sn:pointer id="2507">のぞくせいによわい[end]</sn:pointer>
+
+<sn:pointer id="3000">そうはざん[end]</sn:pointer>
+
+<sn:pointer id="3001">くうはざん[end]</sn:pointer>
+
+<sn:pointer id="3002">しょうれつは[end]</sn:pointer>
+
+<sn:pointer id="3003">しょうれいは[end]</sn:pointer>
+
+<sn:pointer id="3004">らいめいけん[end]</sn:pointer>
+
+<sn:pointer id="3005">ぐれんけん[end]</sn:pointer>
+
+<sn:pointer id="3006">せんこうけん[end]</sn:pointer>
+
+<sn:pointer id="3007">そうりゅうせい[end]</sn:pointer>
+
+<sn:pointer id="3008">すざくしょうげ[end]</sn:pointer>
+
+<sn:pointer id="3009">しちせいらいめ[end]</sn:pointer>
+
+<sn:pointer id="3010">しちせいせんこ[end]</sn:pointer>
+
+<sn:pointer id="3011">しちせいそうは[end]</sn:pointer>
+
+<sn:pointer id="3012">こうりゅうは[end]</sn:pointer>
+
+<sn:pointer id="3013">こくりゅうてん[end]</sn:pointer>
+
+<sn:pointer id="3014">ひりゅうてんら[end]</sn:pointer>
+
+<sn:pointer id="3015">そうりゅうてん[end]</sn:pointer>
+
+<sn:pointer id="3128">きこうしょう[end]</sn:pointer>
+
+<sn:pointer id="3129">りゅうせいしょ[end]</sn:pointer>
+
+<sn:pointer id="3130">れんきけん[end]</sn:pointer>
+
+<sn:pointer id="3131">きこうしゅう[end]</sn:pointer>
+
+<sn:pointer id="3132">そうりゅうせい[end]</sn:pointer>
+
+<sn:pointer id="3133">げんぶはおうけ[end]</sn:pointer>
+
+<sn:pointer id="3134">びゃっここうは[end]</sn:pointer>
+
+<sn:pointer id="3135">すざくしょうげ[end]</sn:pointer>
+
+<sn:pointer id="3136">おうかはっけし[end]</sn:pointer>
+
+<sn:pointer id="3137">うらおうかさく[end]</sn:pointer>
+
+<sn:pointer id="3160">そうはざん[end]</sn:pointer>
+
+<sn:pointer id="3161">しょうれつは[end]</sn:pointer>
+
+<sn:pointer id="3162">しょうれいは[end]</sn:pointer>
+
+<sn:pointer id="3163">らいめいけん[end]</sn:pointer>
+
+<sn:pointer id="3164">ぐれんけん[end]</sn:pointer>
+
+<sn:pointer id="3165">せんこうけん[end]</sn:pointer>
+
+<sn:pointer id="3166">そうりゅうしょ[end]</sn:pointer>
+
+<sn:pointer id="3167">げんぶしょうら[end]</sn:pointer>
+
+<sn:pointer id="3168">びゃっこしょう[end]</sn:pointer>
+
+<sn:pointer id="3169">しちせいらいめ[end]</sn:pointer>
+
+<sn:pointer id="3170">しちせいぐれん[end]</sn:pointer>
+
+<sn:pointer id="3171">しちせいそうは[end]</sn:pointer>
+
+<sn:pointer id="3224">せんぷうこん[end]</sn:pointer>
+
+<sn:pointer id="3225">ぐれんせんぷう[end]</sn:pointer>
+
+<sn:pointer id="3226">しっぷうこん[end]</sn:pointer>
+
+<sn:pointer id="3227">しっぷうはりけ[end]</sn:pointer>
+
+<sn:pointer id="3228">はおうしっぷう[end]</sn:pointer>
+
+<sn:pointer id="3229">むひょうとうこ[end]</sn:pointer>
+
+<sn:pointer id="3230">すいげつりょう[end]</sn:pointer>
+
+<sn:pointer id="3231">しちせいらんぶ[end]</sn:pointer>
+
+<sn:pointer id="3232">おうかはっけし[end]</sn:pointer>
+
+<sn:pointer id="3256">レイヴンオーブ[end]</sn:pointer>
+
+<sn:pointer id="3257">フレアオーブ[end]</sn:pointer>
+
+<sn:pointer id="3258">ヘイルオーブ[end]</sn:pointer>
+
+<sn:pointer id="3259">サンダーオーブ[end]</sn:pointer>
+
+<sn:pointer id="3260">アーククリスタル[end]</sn:pointer>
+
+<sn:pointer id="3261">シールクリスタル[end]</sn:pointer>
+
+<sn:pointer id="3262">サザンクロス[end]</sn:pointer>
+
+<sn:pointer id="3263">セブンス・スター[end]</sn:pointer>
+
+<sn:pointer id="3264">ギャラクシィ[end]</sn:pointer>
+
+<sn:pointer id="3265">デスクリスタル[end]</sn:pointer>
+
+<sn:pointer id="3288">そうはざん[end]</sn:pointer>
+
+<sn:pointer id="3289">しょうれつは[end]</sn:pointer>
+
+<sn:pointer id="3290">らいめいけん[end]</sn:pointer>
+
+<sn:pointer id="3291">ぐれんけん[end]</sn:pointer>
+
+<sn:pointer id="3292">せんこうけん[end]</sn:pointer>
+
+<sn:pointer id="3293">そうりゅうせい[end]</sn:pointer>
+
+<sn:pointer id="3294">すざくしょうげ[end]</sn:pointer>
+
+<sn:pointer id="3295">しちせいらいめ[end]</sn:pointer>
+
+<sn:pointer id="3296">しちせいそうは[end]</sn:pointer>
+
+<sn:pointer id="3320">Sダンス[end]</sn:pointer>
+
+<sn:pointer id="3321">Pダンス[end]</sn:pointer>
+
+<sn:pointer id="3322">Mダンス[end]</sn:pointer>
+
+<sn:pointer id="3323">Mパンチ[end]</sn:pointer>
+
+<sn:pointer id="3324">Sみっそ[end]</sn:pointer>
+
+<sn:pointer id="3325">ねりちゃぎ[end]</sn:pointer>
+
+<sn:pointer id="3326">えいやぁとぉ[end]</sn:pointer>
+
+<sn:pointer id="3327">JCサマー[end]</sn:pointer>
+
+<sn:pointer id="3328">パニックダンス[end]</sn:pointer>
+
+<sn:pointer id="3329">Cポーズ[end]</sn:pointer>
+
+<sn:pointer id="3330">ドリームコンボ[end]</sn:pointer>
+
+<sn:pointer id="3331">そらをみろ[end]</sn:pointer>
+
+<sn:pointer id="3352">レイヴンソード[end]</sn:pointer>
+
+<sn:pointer id="3353">Dソード[end]</sn:pointer>
+
+<sn:pointer id="3354">3VOLLEY[end]</sn:pointer>
+
+<sn:pointer id="3355">3WAY[end]</sn:pointer>
+
+<sn:pointer id="3356">Aスプレッド[end]</sn:pointer>
+
+<sn:pointer id="3357">GGブレス[end]</sn:pointer>
+
+<sn:pointer id="3358">SVショット[end]</sn:pointer>
+
+<sn:pointer id="3359">UHテラー[end]</sn:pointer>
+
+<sn:pointer id="3360">Vテラー[end]</sn:pointer>
+
+<sn:pointer id="4000">せんじんをきれ[end]</sn:pointer>
+
+<sn:pointer id="4001">まあいをとれ[end]</sn:pointer>
+
+<sn:pointer id="4002">みかたをまもれ[end]</sn:pointer>
+
+<sn:pointer id="4003">みずからをまもれ[end]</sn:pointer>
+
+<sn:pointer id="4004">われわれをだいいちに[end]</sn:pointer>
+
+<sn:pointer id="4005">せんとうをゆうりに[end]</sn:pointer>
+
+<sn:pointer id="4006">ほどよくかんがえて[end]</sn:pointer>
+
+<sn:pointer id="4007">じゅもんはつかわずに[end]</sn:pointer>
+
+<sn:pointer id="4008">よりょくはのこすな[end]</sn:pointer>
+
+<sn:pointer id="4009">とおくをねらえ[end]</sn:pointer>
+
+<sn:pointer id="4012">かいふくをじゅうし[end]</sn:pointer>
+
+<sn:pointer id="4013">こうげきをじゅうし[end]</sn:pointer>
+
+<sn:pointer id="4016">ちからをつかいきれ[end]</sn:pointer>
+
+<sn:pointer id="4017">ひっさつわざはつかうな[end]</sn:pointer>
+
+<sn:pointer id="5000">マンドレイク[end]</sn:pointer>
+
+<sn:pointer id="5001">セボリー[end]</sn:pointer>
+
+<sn:pointer id="5002">アルテミスリーフ[end]</sn:pointer>
+
+<sn:pointer id="5003">シャドゥフラウア[end]</sn:pointer>
+
+<sn:pointer id="5004">ラベンダー[end]</sn:pointer>
+
+<sn:pointer id="5005">マジックカード[end]</sn:pointer>
+
+<sn:pointer id="5006">マジックカラー[end]</sn:pointer>
+
+<sn:pointer id="5007">リサーチペン[end]</sn:pointer>
+
+<sn:pointer id="5008">クリエイターペン[end]</sn:pointer>
+
+<sn:pointer id="5009">スミスハンマー[end]</sn:pointer>
+
+<sn:pointer id="5010">ミックスハンマー[end]</sn:pointer>
+
+<sn:pointer id="5011">スペクタクルズ[end]</sn:pointer>
+
+<sn:pointer id="5012">ダマスクス[end]</sn:pointer>
+
+<sn:pointer id="5013">ミスリル[end]</sn:pointer>
+
+<sn:pointer id="5014">オリハルコン[end]</sn:pointer>
+
+<sn:pointer id="5015">ルーンメタル[end]</sn:pointer>
+
+<sn:pointer id="5016">ムーナイト[end]</sn:pointer>
+
+<sn:pointer id="5017">ミーティアライト[end]</sn:pointer>
+
+<sn:pointer id="5018">けんじゃのいし[end]</sn:pointer>
+
+<sn:pointer id="5019">ルビー[end]</sn:pointer>
+
+<sn:pointer id="5020">スタールビー[end]</sn:pointer>
+
+<sn:pointer id="5021">サファイア[end]</sn:pointer>
+
+<sn:pointer id="5022">グリーンベリル[end]</sn:pointer>
+
+<sn:pointer id="5023">クリスタル[end]</sn:pointer>
+
+<sn:pointer id="5024">ダイヤモンド[end]</sn:pointer>
+
+<sn:pointer id="5025">レインボーダイヤ[end]</sn:pointer>
+
+<sn:pointer id="5026">シルバー[end]</sn:pointer>
+
+<sn:pointer id="5027">ゴールド[end]</sn:pointer>
+
+<sn:pointer id="5028">アイアン[end]</sn:pointer>
+
+<sn:pointer id="5029">トランペット[end]</sn:pointer>
+
+<sn:pointer id="5030">クラリネット[end]</sn:pointer>
+
+<sn:pointer id="5031">ハーモニカ[end]</sn:pointer>
+
+<sn:pointer id="5032">しゃみせん[end]</sn:pointer>
+
+<sn:pointer id="5033">ギター[end]</sn:pointer>
+
+<sn:pointer id="5034">トロンボーン[end]</sn:pointer>
+
+<sn:pointer id="5035">バイオリン[end]</sn:pointer>
+
+<sn:pointer id="5036">サックス[end]</sn:pointer>
+
+<sn:pointer id="5037">こくもつ[end]</sn:pointer>
+
+<sn:pointer id="5038">くだもの[end]</sn:pointer>
+
+<sn:pointer id="5039">やさい[end]</sn:pointer>
+
+<sn:pointer id="5040">にくるい[end]</sn:pointer>
+
+<sn:pointer id="5041">ぎょかいるい[end]</sn:pointer>
+
+<sn:pointer id="5042">？WEAPON[end]</sn:pointer>
+
+<sn:pointer id="5067">？GUARD[end]</sn:pointer>
+
+<sn:pointer id="5082">？ITEM[end]</sn:pointer>
+
+<sn:pointer id="5097">？JEM[end]</sn:pointer>
+
+<sn:pointer id="5104">？JEWELRY[end]</sn:pointer>
+
+<sn:pointer id="5114">？HERB[end]</sn:pointer>
+
+<sn:pointer id="5119">？FOOD[end]</sn:pointer>
+
+<sn:pointer id="5126">バブルポーション[end]</sn:pointer>
+
+<sn:pointer id="5127">メルトポーション[end]</sn:pointer>
+
+<sn:pointer id="5128">スティンクポット[end]</sn:pointer>
+
+<sn:pointer id="5129">ビターポーション[end]</sn:pointer>
+
+<sn:pointer id="5130">フルーツポット[end]</sn:pointer>
+
+<sn:pointer id="5131">フレッシュボトル[end]</sn:pointer>
+
+<sn:pointer id="5132">ポイズンボム[end]</sn:pointer>
+
+<sn:pointer id="5133">キラーポイズン[end]</sn:pointer>
+
+<sn:pointer id="5134">スイートポット[end]</sn:pointer>
+
+<sn:pointer id="5135">リキュールボトル[end]</sn:pointer>
+
+<sn:pointer id="5136">スイートシロップ[end]</sn:pointer>
+
+<sn:pointer id="5137">サワーシロップ[end]</sn:pointer>
+
+<sn:pointer id="5138">ミックスシロップ[end]</sn:pointer>
+
+<sn:pointer id="5139">ホーリィミスト[end]</sn:pointer>
+
+<sn:pointer id="5140">スティンクボム[end]</sn:pointer>
+
+<sn:pointer id="5141">ピコピヨボム[end]</sn:pointer>
+
+<sn:pointer id="5142">フェアリィグラス[end]</sn:pointer>
+
+<sn:pointer id="5143">フェアリィミスト[end]</sn:pointer>
+
+<sn:pointer id="5144">マインドボム[end]</sn:pointer>
+
+<sn:pointer id="5145">ギガマインドボム[end]</sn:pointer>
+
+<sn:pointer id="5146">リザレクトミスト[end]</sn:pointer>
+
+<sn:pointer id="5147">リザレクトボトル[end]</sn:pointer>
+
+<sn:pointer id="5148">フレアボム[end]</sn:pointer>
+
+<sn:pointer id="5149">メガフレアボム[end]</sn:pointer>
+
+<sn:pointer id="5150">キュアポイズン[end]</sn:pointer>
+
+<sn:pointer id="5151">キュアパラライズ[end]</sn:pointer>
+
+<sn:pointer id="5152">キュアストーン[end]</sn:pointer>
+
+<sn:pointer id="5153">ウィッチパウダー[end]</sn:pointer>
+
+<sn:pointer id="5154">エルヴンパウダー[end]</sn:pointer>
+
+<sn:pointer id="5155">シンデレラグラス[end]</sn:pointer>
+
+<sn:pointer id="5156">[end]</sn:pointer>
+
+<sn:pointer id="5157">ウィルポーション[end]</sn:pointer>
+
+<sn:pointer id="5158">マイトポーション[end]</sn:pointer>
+
+<sn:pointer id="5159">スペルポーション[end]</sn:pointer>
+
+<sn:pointer id="5160">[end]</sn:pointer>
+
+<sn:pointer id="5161">フレアリング[end]</sn:pointer>
+
+<sn:pointer id="5162">バーサークリング[end]</sn:pointer>
+
+<sn:pointer id="5163">アクアリング[end]</sn:pointer>
+
+<sn:pointer id="5164">ピヨハン[end]</sn:pointer>
+
+<sn:pointer id="5165">エメラルドリング[end]</sn:pointer>
+
+<sn:pointer id="5166">フェアリィリング[end]</sn:pointer>
+
+<sn:pointer id="5167">ルナテックリング[end]</sn:pointer>
+
+<sn:pointer id="5168">スターリング[end]</sn:pointer>
+
+<sn:pointer id="5169">メンタルリング[end]</sn:pointer>
+
+<sn:pointer id="5170">レジストリング[end]</sn:pointer>
+
+<sn:pointer id="5171">リフレクトリング[end]</sn:pointer>
+
+<sn:pointer id="5172">ヒールリング[end]</sn:pointer>
+
+<sn:pointer id="5173">シールドリング[end]</sn:pointer>
+
+<sn:pointer id="5174">プロテクトリング[end]</sn:pointer>
+
+<sn:pointer id="5175">レビテートリング[end]</sn:pointer>
+
+<sn:pointer id="5176">シルバーリング[end]</sn:pointer>
+
+<sn:pointer id="5177">ゴールドリング[end]</sn:pointer>
+
+<sn:pointer id="5178">ブローチ[end]</sn:pointer>
+
+<sn:pointer id="5179">ゴールドブローチ[end]</sn:pointer>
+
+<sn:pointer id="5180">プリティアイドル[end]</sn:pointer>
+
+<sn:pointer id="5181">ルビーペルシャ[end]</sn:pointer>
+
+<sn:pointer id="5182">ネックレス[end]</sn:pointer>
+
+<sn:pointer id="5183">クラウン[end]</sn:pointer>
+
+<sn:pointer id="5184">カエル[end]</sn:pointer>
+
+<sn:pointer id="5185">マジカルペルシャ[end]</sn:pointer>
+
+<sn:pointer id="5186">シルバーアイドル[end]</sn:pointer>
+
+<sn:pointer id="5187">ゴールドアイドル[end]</sn:pointer>
+
+<sn:pointer id="5188">タリスマン[end]</sn:pointer>
+
+<sn:pointer id="5189">ルナタリスマン[end]</sn:pointer>
+
+<sn:pointer id="5190">ルナタブレット[end]</sn:pointer>
+
+<sn:pointer id="5191">スターネックレス[end]</sn:pointer>
+
+<sn:pointer id="5192">スタークレスト[end]</sn:pointer>
+
+<sn:pointer id="5193">フィートシンボル[end]</sn:pointer>
+
+<sn:pointer id="5194">ミスティシンボル[end]</sn:pointer>
+
+<sn:pointer id="5195">ポイズンチェック[end]</sn:pointer>
+
+<sn:pointer id="5196">パラライチェック[end]</sn:pointer>
+
+<sn:pointer id="5197">ストーンチェック[end]</sn:pointer>
+
+<sn:pointer id="5198">パープルミスト[end]</sn:pointer>
+
+<sn:pointer id="5199">マジックミスト[end]</sn:pointer>
+
+<sn:pointer id="5200">リバースドール[end]</sn:pointer>
+
+<sn:pointer id="5201">マジカルドロップ[end]</sn:pointer>
+
+<sn:pointer id="5202">ドリームクラウン[end]</sn:pointer>
+
+<sn:pointer id="5203">シルバーアンク[end]</sn:pointer>
+
+<sn:pointer id="5204">ぶさいくなゆびわ[end]</sn:pointer>
+
+<sn:pointer id="5205">へんなにんぎょう[end]</sn:pointer>
+
+<sn:pointer id="5206">センスないゆびわ[end]</sn:pointer>
+
+<sn:pointer id="5207">へっぽこなかざり[end]</sn:pointer>
+
+<sn:pointer id="5208">へんなかたまり[end]</sn:pointer>
+
+<sn:pointer id="5209">はずかしいかざり[end]</sn:pointer>
+
+<sn:pointer id="5210">わらえるかたまり[end]</sn:pointer>
+
+<sn:pointer id="5211">せいぶつりろん[end]</sn:pointer>
+
+<sn:pointer id="5212">やくそうずかん[end]</sn:pointer>
+
+<sn:pointer id="5213">せいしんがくろん[end]</sn:pointer>
+
+<sn:pointer id="5214">たのしいこうぶつ[end]</sn:pointer>
+
+<sn:pointer id="5215">どうぐずかん[end]</sn:pointer>
+
+<sn:pointer id="5216">おりょうりずかん[end]</sn:pointer>
+
+<sn:pointer id="5217">がくてん[end]</sn:pointer>
+
+<sn:pointer id="5218">しんぴのようせい[end]</sn:pointer>
+
+<sn:pointer id="5219">しょくざいえらび[end]</sn:pointer>
+
+<sn:pointer id="5220">ドワーフぎじゅつ[end]</sn:pointer>
+
+<sn:pointer id="5221">しょくにんごころ[end]</sn:pointer>
+
+<sn:pointer id="5222">バイエル[end]</sn:pointer>
+
+<sn:pointer id="5223">えごころのすべて[end]</sn:pointer>
+
+<sn:pointer id="5224">ぶんぽうろん[end]</sn:pointer>
+
+<sn:pointer id="5225">ぶきのすべて[end]</sn:pointer>
+
+<sn:pointer id="5226">ヘルメスのりろん[end]</sn:pointer>
+
+<sn:pointer id="5227">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5228">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5229">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5230">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5231">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5232">よげんしょ[end]</sn:pointer>
+
+<sn:pointer id="5233">どーじん[end]</sn:pointer>
+
+<sn:pointer id="5234">どーじん[end]</sn:pointer>
+
+<sn:pointer id="5235">どーじん[end]</sn:pointer>
+
+<sn:pointer id="5236">どーじん[end]</sn:pointer>
+
+<sn:pointer id="5237">どーじん[end]</sn:pointer>
+
+<sn:pointer id="5238">フルーツパフェ[end]</sn:pointer>
+
+<sn:pointer id="5239">アップルパイ[end]</sn:pointer>
+
+<sn:pointer id="5240">シャーベット[end]</sn:pointer>
+
+<sn:pointer id="5241">オレンジシェイク[end]</sn:pointer>
+
+<sn:pointer id="5242">フルーツケーキ[end]</sn:pointer>
+
+<sn:pointer id="5243">ワイン[end]</sn:pointer>
+
+<sn:pointer id="5244">シチュー[end]</sn:pointer>
+
+<sn:pointer id="5245">サラダ[end]</sn:pointer>
+
+<sn:pointer id="5246">ロールキャベツ[end]</sn:pointer>
+
+<sn:pointer id="5247">ホイコーロー[end]</sn:pointer>
+
+<sn:pointer id="5248">せんそうゼリー[end]</sn:pointer>
+
+<sn:pointer id="5249">まつたけボイル[end]</sn:pointer>
+
+<sn:pointer id="5250">ステーキ130[end]</sn:pointer>
+
+<sn:pointer id="5251">ステーキ240[end]</sn:pointer>
+
+<sn:pointer id="5252">ぢどりくしやき[end]</sn:pointer>
+
+<sn:pointer id="5253">ユッケジャン[end]</sn:pointer>
+
+<sn:pointer id="5254">ハンバーグ[end]</sn:pointer>
+
+<sn:pointer id="5255">エスカルゴ[end]</sn:pointer>
+
+<sn:pointer id="5256">とろ[end]</sn:pointer>
+
+<sn:pointer id="5257">おおとろ[end]</sn:pointer>
+
+<sn:pointer id="5258">えびフライ[end]</sn:pointer>
+
+<sn:pointer id="5259">たいさし[end]</sn:pointer>
+
+<sn:pointer id="5260">サザエつぼやき[end]</sn:pointer>
+
+<sn:pointer id="5261">シーフードスパ[end]</sn:pointer>
+
+<sn:pointer id="5262">いちのくら[end]</sn:pointer>
+
+<sn:pointer id="5263">せんちゅう[end]</sn:pointer>
+
+<sn:pointer id="5264">やえがき”む”[end]</sn:pointer>
+
+<sn:pointer id="5265">たまのひかり[end]</sn:pointer>
+
+<sn:pointer id="5266">びじょうぶ[end]</sn:pointer>
+
+<sn:pointer id="5267">こくりゅう[end]</sn:pointer>
+
+<sn:pointer id="5268">シーフォンチュー[end]</sn:pointer>
+
+<sn:pointer id="5269">さんぞうしゅ[end]</sn:pointer>
+
+<sn:pointer id="5270">やすいさしみ[end]</sn:pointer>
+
+<sn:pointer id="5271">まずいシチュー[end]</sn:pointer>
+
+<sn:pointer id="5272">かたいステーキ[end]</sn:pointer>
+
+<sn:pointer id="5273">まずいデザート[end]</sn:pointer>
+
+<sn:pointer id="5274">からいケーキ[end]</sn:pointer>
+
+<sn:pointer id="5275">VICTORY[end]</sn:pointer>
+
+<sn:pointer id="5276">CRITICAL[end]</sn:pointer>
+
+<sn:pointer id="5277">PHOENIX[end]</sn:pointer>
+
+<sn:pointer id="5278">TREASURE[end]</sn:pointer>
+
+<sn:pointer id="5279">UPSTART[end]</sn:pointer>
+
+<sn:pointer id="5280">はやぶさのぞう[end]</sn:pointer>
+
+<sn:pointer id="5281">ししのぞう[end]</sn:pointer>
+
+<sn:pointer id="5282">あくまのぞう[end]</sn:pointer>
+
+<sn:pointer id="5283">どくろのぞう[end]</sn:pointer>
+
+<sn:pointer id="5284">しょうぞうがA[end]</sn:pointer>
+
+<sn:pointer id="5285">しょうぞうがB[end]</sn:pointer>
+
+<sn:pointer id="5286">しょうぞうがC[end]</sn:pointer>
+
+<sn:pointer id="5287">しょうぞうがD[end]</sn:pointer>
+
+<sn:pointer id="5288">しょうぞうがE[end]</sn:pointer>
+
+<sn:pointer id="5289">しょうぞうがF[end]</sn:pointer>
+
+<sn:pointer id="5290">しょうぞうがG[end]</sn:pointer>
+
+<sn:pointer id="5291">しょうぞうがH[end]</sn:pointer>
+
+<sn:pointer id="5292">しょうぞうがI[end]</sn:pointer>
+
+<sn:pointer id="5293">しょうぞうがJ[end]</sn:pointer>
+
+<sn:pointer id="5294">しょうぞうがK[end]</sn:pointer>
+
+<sn:pointer id="5295">しょうぞうがL[end]</sn:pointer>
+
+<sn:pointer id="5296">らくがき[end]</sn:pointer>
+
+<sn:pointer id="5297">らくがき[end]</sn:pointer>
+
+<sn:pointer id="5298">せんしのつぼ[end]</sn:pointer>
+
+<sn:pointer id="5299">もんしょうのつぼ[end]</sn:pointer>
+
+<sn:pointer id="5300">マジカルジャー[end]</sn:pointer>
+
+<sn:pointer id="5301">サンタブーツ[end]</sn:pointer>
+
+<sn:pointer id="5302">ブルーベリィ[end]</sn:pointer>
+
+<sn:pointer id="5303">ブラックベリィ[end]</sn:pointer>
+
+<sn:pointer id="5304">アクアベリィ[end]</sn:pointer>
+
+<sn:pointer id="5305">[end]</sn:pointer>
+
+<sn:pointer id="5306">[end]</sn:pointer>
+
+<sn:pointer id="5307">ストラングソード[end]</sn:pointer>
+
+<sn:pointer id="5308">マーヴェルソード[end]</sn:pointer>
+
+<sn:pointer id="5309">メテオクラッシュ[end]</sn:pointer>
+
+<sn:pointer id="5310">ムーンファルクス[end]</sn:pointer>
+
+<sn:pointer id="5311">ソウルイーター[end]</sn:pointer>
+
+<sn:pointer id="5312">スティルソード[end]</sn:pointer>
+
+<sn:pointer id="5313">ミスリルソード[end]</sn:pointer>
+
+<sn:pointer id="5314">シルヴァンス[end]</sn:pointer>
+
+<sn:pointer id="5315">ダマスクスソード[end]</sn:pointer>
+
+<sn:pointer id="5316">ドワーヴンソード[end]</sn:pointer>
+
+<sn:pointer id="5317">エアスラッシュ[end]</sn:pointer>
+
+<sn:pointer id="5318">ホーリィソード[end]</sn:pointer>
+
+<sn:pointer id="5319">デュエルソード[end]</sn:pointer>
+
+<sn:pointer id="5320">[end]</sn:pointer>
+
+<sn:pointer id="5321">アストラルソード[end]</sn:pointer>
+
+<sn:pointer id="5322">エレメントソード[end]</sn:pointer>
+
+<sn:pointer id="5323">イグニートソード[end]</sn:pointer>
+
+<sn:pointer id="5324">バハムートティア[end]</sn:pointer>
+
+<sn:pointer id="5325">グローサルソード[end]</sn:pointer>
+
+<sn:pointer id="5326">ガンブレイド[end]</sn:pointer>
+
+<sn:pointer id="5327">シルバーソード[end]</sn:pointer>
+
+<sn:pointer id="5328">メテオストライク[end]</sn:pointer>
+
+<sn:pointer id="5329">スレイヤーソード[end]</sn:pointer>
+
+<sn:pointer id="5330">ドゥームブレイド[end]</sn:pointer>
+
+<sn:pointer id="5331">ヴォーパルソード[end]</sn:pointer>
+
+<sn:pointer id="5332">ベルセルクソード[end]</sn:pointer>
+
+<sn:pointer id="5333">クラックブレード[end]</sn:pointer>
+
+<sn:pointer id="5334">CSSS[end]</sn:pointer>
+
+<sn:pointer id="5335">アサシンダガー[end]</sn:pointer>
+
+<sn:pointer id="5336">フレアバゼラード[end]</sn:pointer>
+
+<sn:pointer id="5337">ブラッディソード[end]</sn:pointer>
+
+<sn:pointer id="5338">アイスコフィン[end]</sn:pointer>
+
+<sn:pointer id="5339">エレメントエッジ[end]</sn:pointer>
+
+<sn:pointer id="5340">ドラゴンエッジ[end]</sn:pointer>
+
+<sn:pointer id="5341">ラウンデルダガー[end]</sn:pointer>
+
+<sn:pointer id="5342">フェイムフェイス[end]</sn:pointer>
+
+<sn:pointer id="5343">メタルファング[end]</sn:pointer>
+
+<sn:pointer id="5344">ブレイズナックル[end]</sn:pointer>
+
+<sn:pointer id="5345">ペインセスタス[end]</sn:pointer>
+
+<sn:pointer id="5346">ドラゴンクロウ[end]</sn:pointer>
+
+<sn:pointer id="5347">ネコファング♪[end]</sn:pointer>
+
+<sn:pointer id="5348">[end]</sn:pointer>
+
+<sn:pointer id="5349">セントハルバード[end]</sn:pointer>
+
+<sn:pointer id="5350">スピニングスピア[end]</sn:pointer>
+
+<sn:pointer id="5351">メックハルバード[end]</sn:pointer>
+
+<sn:pointer id="5352">ドラゴンランス[end]</sn:pointer>
+
+<sn:pointer id="5353">フレイムランサー[end]</sn:pointer>
+
+<sn:pointer id="5354">フレアスプレッド[end]</sn:pointer>
+
+<sn:pointer id="5355">シルヴァンボウ[end]</sn:pointer>
+
+<sn:pointer id="5356">エルヴンボウ[end]</sn:pointer>
+
+<sn:pointer id="5357">ライトニングボウ[end]</sn:pointer>
+
+<sn:pointer id="5358">ラピッドボウ[end]</sn:pointer>
+
+<sn:pointer id="5359">[end]</sn:pointer>
+
+<sn:pointer id="5360">オーラブレード[end]</sn:pointer>
+
+<sn:pointer id="5361">アークウィンド[end]</sn:pointer>
+
+<sn:pointer id="5362">シウススペシャル[end]</sn:pointer>
+
+<sn:pointer id="5363">ムラサマブレード[end]</sn:pointer>
+
+<sn:pointer id="5364">おまもり[end]</sn:pointer>
+
+<sn:pointer id="5365">カイザーナックル[end]</sn:pointer>
+
+<sn:pointer id="5366">デスブリンガー[end]</sn:pointer>
+
+<sn:pointer id="5367">ホーリィオーブ[end]</sn:pointer>
+
+<sn:pointer id="5368">ほうてんげき[end]</sn:pointer>
+
+<sn:pointer id="5369">Qきょくパンチ♪[end]</sn:pointer>
+
+<sn:pointer id="5370">なまくらソード[end]</sn:pointer>
+
+<sn:pointer id="5371">ガラクタ[end]</sn:pointer>
+
+<sn:pointer id="5372">[end]</sn:pointer>
+
+<sn:pointer id="5373">ロングソード[end]</sn:pointer>
+
+<sn:pointer id="5374">サーベル[end]</sn:pointer>
+
+<sn:pointer id="5375">シンクレアー[end]</sn:pointer>
+
+<sn:pointer id="5376">ワルーンソード[end]</sn:pointer>
+
+<sn:pointer id="5377">トゥハンドソード[end]</sn:pointer>
+
+<sn:pointer id="5378">クレイモア[end]</sn:pointer>
+
+<sn:pointer id="5379">ツヴァイハンダー[end]</sn:pointer>
+
+<sn:pointer id="5380">フランヴェルジュ[end]</sn:pointer>
+
+<sn:pointer id="5381">スモールソード[end]</sn:pointer>
+
+<sn:pointer id="5382">グラディウス[end]</sn:pointer>
+
+<sn:pointer id="5383">バゼラード[end]</sn:pointer>
+
+<sn:pointer id="5384">ロッド[end]</sn:pointer>
+
+<sn:pointer id="5385">ルビーワンド[end]</sn:pointer>
+
+<sn:pointer id="5386">クレストロッド[end]</sn:pointer>
+
+<sn:pointer id="5387">ナックル[end]</sn:pointer>
+
+<sn:pointer id="5388">ハードナックル[end]</sn:pointer>
+
+<sn:pointer id="5389">ハグナク[end]</sn:pointer>
+
+<sn:pointer id="5390">セスタス[end]</sn:pointer>
+
+<sn:pointer id="5391">こん[end]</sn:pointer>
+
+<sn:pointer id="5392">スピア[end]</sn:pointer>
+
+<sn:pointer id="5393">ロングスピア[end]</sn:pointer>
+
+<sn:pointer id="5394">ハルバード[end]</sn:pointer>
+
+<sn:pointer id="5395">さんせつこん[end]</sn:pointer>
+
+<sn:pointer id="5396">ショートボウ[end]</sn:pointer>
+
+<sn:pointer id="5397">ロングボウ[end]</sn:pointer>
+
+<sn:pointer id="5398">クロスボウ[end]</sn:pointer>
+
+<sn:pointer id="5399">アルヴァレスト[end]</sn:pointer>
+
+<sn:pointer id="5400">[end]</sn:pointer>
+
+<sn:pointer id="5401">レザーアーマー[end]</sn:pointer>
+
+<sn:pointer id="5402">バンデッドメイル[end]</sn:pointer>
+
+<sn:pointer id="5403">リングメイル[end]</sn:pointer>
+
+<sn:pointer id="5404">ブリガンディ[end]</sn:pointer>
+
+<sn:pointer id="5405">プレートメイル[end]</sn:pointer>
+
+<sn:pointer id="5406">スチールアーマー[end]</sn:pointer>
+
+<sn:pointer id="5407">ローブ[end]</sn:pointer>
+
+<sn:pointer id="5408">シルクローブ[end]</sn:pointer>
+
+<sn:pointer id="5409">アンバーローブ[end]</sn:pointer>
+
+<sn:pointer id="5410">シルバーローブ[end]</sn:pointer>
+
+<sn:pointer id="5411">ホーリィクローク[end]</sn:pointer>
+
+<sn:pointer id="5412">ぶどうぎ[end]</sn:pointer>
+
+<sn:pointer id="5413">チャイナどうぎ[end]</sn:pointer>
+
+<sn:pointer id="5414">ちゅうかどうぎ[end]</sn:pointer>
+
+<sn:pointer id="5415">バトルスーツ[end]</sn:pointer>
+
+<sn:pointer id="5416">そまつなビキニ[end]</sn:pointer>
+
+<sn:pointer id="5417">ビキニ[end]</sn:pointer>
+
+<sn:pointer id="5418">プリティビキニ[end]</sn:pointer>
+
+<sn:pointer id="5419">ねこスーツ[end]</sn:pointer>
+
+<sn:pointer id="5420">レザーヘルム[end]</sn:pointer>
+
+<sn:pointer id="5421">バンデッドヘルム[end]</sn:pointer>
+
+<sn:pointer id="5422">アイアンヘルム[end]</sn:pointer>
+
+<sn:pointer id="5423">プレートヘルム[end]</sn:pointer>
+
+<sn:pointer id="5424">スチールヘルム[end]</sn:pointer>
+
+<sn:pointer id="5425">ウッドシールド[end]</sn:pointer>
+
+<sn:pointer id="5426">ラウンドシールド[end]</sn:pointer>
+
+<sn:pointer id="5427">ナイツシールド[end]</sn:pointer>
+
+<sn:pointer id="5428">ファインシールド[end]</sn:pointer>
+
+<sn:pointer id="5429">レザーグリーブ[end]</sn:pointer>
+
+<sn:pointer id="5430">アイアングリーブ[end]</sn:pointer>
+
+<sn:pointer id="5431">プレートグリーブ[end]</sn:pointer>
+
+<sn:pointer id="5432">シルバーグリーブ[end]</sn:pointer>
+
+<sn:pointer id="5433">ブーツ[end]</sn:pointer>
+
+<sn:pointer id="5434">スエードブーツ[end]</sn:pointer>
+
+<sn:pointer id="5435">レザーブーツ[end]</sn:pointer>
+
+<sn:pointer id="5436">サンダル[end]</sn:pointer>
+
+<sn:pointer id="5437">ぶどうシューズ[end]</sn:pointer>
+
+<sn:pointer id="5438">チャイナシューズ[end]</sn:pointer>
+
+<sn:pointer id="5439">ちゅうかシューズ[end]</sn:pointer>
+
+<sn:pointer id="5440">ドワーヴンメイル[end]</sn:pointer>
+
+<sn:pointer id="5441">リフレックス[end]</sn:pointer>
+
+<sn:pointer id="5442">ミスリルメッシュ[end]</sn:pointer>
+
+<sn:pointer id="5443">シルヴァンメイル[end]</sn:pointer>
+
+<sn:pointer id="5444">デュエルスーツ[end]</sn:pointer>
+
+<sn:pointer id="5445">マジカルビキニ[end]</sn:pointer>
+
+<sn:pointer id="5446">ねこアーマー[end]</sn:pointer>
+
+<sn:pointer id="5447">[end]</sn:pointer>
+
+<sn:pointer id="5448">ドワーヴンヘルム[end]</sn:pointer>
+
+<sn:pointer id="5449">ミスリルヘルム[end]</sn:pointer>
+
+<sn:pointer id="5450">シルヴァンヘルム[end]</sn:pointer>
+
+<sn:pointer id="5451">ハーミットヘルム[end]</sn:pointer>
+
+<sn:pointer id="5452">デュエルヘルム[end]</sn:pointer>
+
+<sn:pointer id="5453">ねこバンド[end]</sn:pointer>
+
+<sn:pointer id="5454">エルヴンキャップ[end]</sn:pointer>
+
+<sn:pointer id="5455">[end]</sn:pointer>
+
+<sn:pointer id="5456">ドワーヴンブーツ[end]</sn:pointer>
+
+<sn:pointer id="5457">エルヴンブーツ[end]</sn:pointer>
+
+<sn:pointer id="5458">ミスリルグリーブ[end]</sn:pointer>
+
+<sn:pointer id="5459">シルヴァンブーツ[end]</sn:pointer>
+
+<sn:pointer id="5460">[end]</sn:pointer>
+
+<sn:pointer id="5461">[end]</sn:pointer>
+
+<sn:pointer id="5462">[end]</sn:pointer>
+
+<sn:pointer id="5463">[end]</sn:pointer>
+
+<sn:pointer id="5464">[end]</sn:pointer>
+
+<sn:pointer id="5465">[end]</sn:pointer>
+
+<sn:pointer id="5466">アンクシールド[end]</sn:pointer>
+
+<sn:pointer id="5467">ドワーヴンガード[end]</sn:pointer>
+
+<sn:pointer id="5468">ミスリルシールド[end]</sn:pointer>
+
+<sn:pointer id="5469">シルヴァンガード[end]</sn:pointer>
+
+<sn:pointer id="5470">スターガード[end]</sn:pointer>
+
+<sn:pointer id="5471">[end]</sn:pointer>
+
+<sn:pointer id="5472">[end]</sn:pointer>
+
+<sn:pointer id="5473">[end]</sn:pointer>
+
+<sn:pointer id="5474">[end]</sn:pointer>
+
+<sn:pointer id="5475">レイブンオーブ[end]</sn:pointer>
+
+<sn:pointer id="5476">アストラルリング[end]</sn:pointer>
+
+<sn:pointer id="5477">フェザーリング[end]</sn:pointer>
+
+<sn:pointer id="5478">[end]</sn:pointer>
+
+<sn:pointer id="5479">ロングソード＋1[end]</sn:pointer>
+
+<sn:pointer id="5480">ロングソード＋2[end]</sn:pointer>
+
+<sn:pointer id="5481">クレイモア＋1[end]</sn:pointer>
+
+<sn:pointer id="5482">クレイモア＋2[end]</sn:pointer>
+
+<sn:pointer id="5483">グラディウス＋1[end]</sn:pointer>
+
+<sn:pointer id="5484">グラディウス＋2[end]</sn:pointer>
+
+<sn:pointer id="5485">ナックル＋1[end]</sn:pointer>
+
+<sn:pointer id="5486">ナックル＋2[end]</sn:pointer>
+
+<sn:pointer id="5487">ロングスピア＋1[end]</sn:pointer>
+
+<sn:pointer id="5488">ロングスピア＋2[end]</sn:pointer>
+
+<sn:pointer id="5489">シルバーナックル[end]</sn:pointer>
+
+<sn:pointer id="5490">ワールウィンド[end]</sn:pointer>
+
+<sn:pointer id="5491">ハトのえさ[end]</sn:pointer>
+
+<sn:pointer id="5492">いしころ[end]</sn:pointer>
+
+<sn:pointer id="5493">ごうかなけん[end]</sn:pointer>
+
+<sn:pointer id="5494">ごうかなよろい[end]</sn:pointer>
+
+<sn:pointer id="5495">ごうかなつえ[end]</sn:pointer>
+
+<sn:pointer id="5496">ごうかなローブ[end]</sn:pointer>
+
+<sn:pointer id="5497">ミラージュマント[end]</sn:pointer>
+
+<sn:pointer id="5498">ミラージュローブ[end]</sn:pointer>
+
+<sn:pointer id="5499">スタークローク[end]</sn:pointer>
+
+<sn:pointer id="5500">[end]</sn:pointer>
+
+<sn:pointer id="5501">[end]</sn:pointer>
+
+<sn:pointer id="5502">つるはし[end]</sn:pointer>
+
+<sn:pointer id="5503">バニーホイッスル[end]</sn:pointer>
+
+<sn:pointer id="5504">フォースソード[end]</sn:pointer>
+
+<sn:pointer id="5505">はっけおうぎしょ[end]</sn:pointer>
+
+<sn:pointer id="5506">おムスビ[end]</sn:pointer>
+
+<sn:pointer id="5507">セントエルモ[end]</sn:pointer>
+
+<sn:pointer id="5508">オカリナ[end]</sn:pointer>
+
+<sn:pointer id="5509">ひうちいし[end]</sn:pointer>
+
+<sn:pointer id="5510">トライエンブレム[end]</sn:pointer>
+
+<sn:pointer id="8000">とうぞく[end]</sn:pointer>
+
+<sn:pointer id="8001">おやぶんベアード[end]</sn:pointer>
+
+<sn:pointer id="8002">フエルウォーム[end]</sn:pointer>
+
+<sn:pointer id="8003">ロバーアクス[end]</sn:pointer>
+
+<sn:pointer id="8004">プリシラ[end]</sn:pointer>
+
+<sn:pointer id="8005">ヴォーパルバニー[end]</sn:pointer>
+
+<sn:pointer id="8006">アームドナイト[end]</sn:pointer>
+
+<sn:pointer id="8007">コボルド[end]</sn:pointer>
+
+<sn:pointer id="8008">マンドレイク[end]</sn:pointer>
+
+<sn:pointer id="8009">ホーンドウルフ[end]</sn:pointer>
+
+<sn:pointer id="8010">スライム[end]</sn:pointer>
+
+<sn:pointer id="8011">アサシンバグ[end]</sn:pointer>
+
+<sn:pointer id="8012">ヴェルカント[end]</sn:pointer>
+
+<sn:pointer id="8013">ヴェルカントボス[end]</sn:pointer>
+
+<sn:pointer id="8014">リトルバニー[end]</sn:pointer>
+
+<sn:pointer id="8015">マギウス[end]</sn:pointer>
+
+<sn:pointer id="8016">ガブリエル[end]</sn:pointer>
+
+<sn:pointer id="8017">ルインガーダー[end]</sn:pointer>
+
+<sn:pointer id="8018">ウルフシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8019">メールシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8020">ダースウィドゥ[end]</sn:pointer>
+
+<sn:pointer id="8021">サキュバス[end]</sn:pointer>
+
+<sn:pointer id="8022">ウィスパー[end]</sn:pointer>
+
+<sn:pointer id="8023">DARKEYE？[end]</sn:pointer>
+
+<sn:pointer id="8024">ストローパー[end]</sn:pointer>
+
+<sn:pointer id="8025">アスピテル[end]</sn:pointer>
+
+<sn:pointer id="8026">メフィティス[end]</sn:pointer>
+
+<sn:pointer id="8027">ブラキオン[end]</sn:pointer>
+
+<sn:pointer id="8028">ペリュトン[end]</sn:pointer>
+
+<sn:pointer id="8029">ドーラ[end]</sn:pointer>
+
+<sn:pointer id="8030">クレリック[end]</sn:pointer>
+
+<sn:pointer id="8031">バンデッド[end]</sn:pointer>
+
+<sn:pointer id="8032">チンケシーフ[end]</sn:pointer>
+
+<sn:pointer id="8033">レッサーアサシン[end]</sn:pointer>
+
+<sn:pointer id="8034">バーグラー[end]</sn:pointer>
+
+<sn:pointer id="8035">ブッシュワーカー[end]</sn:pointer>
+
+<sn:pointer id="8036">ルーター[end]</sn:pointer>
+
+<sn:pointer id="8037">ブラッドウォーム[end]</sn:pointer>
+
+<sn:pointer id="8038">サンドウォーム[end]</sn:pointer>
+
+<sn:pointer id="8039">ラルヴァ[end]</sn:pointer>
+
+<sn:pointer id="8040">リザードアクス[end]</sn:pointer>
+
+<sn:pointer id="8041">ドラゴンアクス[end]</sn:pointer>
+
+<sn:pointer id="8042">ドゥームアクス[end]</sn:pointer>
+
+<sn:pointer id="8043">プリティベル[end]</sn:pointer>
+
+<sn:pointer id="8044">メイリィ[end]</sn:pointer>
+
+<sn:pointer id="8045">グリムフローラ[end]</sn:pointer>
+
+<sn:pointer id="8046">サーベルバニー[end]</sn:pointer>
+
+<sn:pointer id="8047">キラー・ラビ[end]</sn:pointer>
+
+<sn:pointer id="8048">パンクポンク[end]</sn:pointer>
+
+<sn:pointer id="8049">サーグェン[end]</sn:pointer>
+
+<sn:pointer id="8050">グラディエイター[end]</sn:pointer>
+
+<sn:pointer id="8051">スレイヤー[end]</sn:pointer>
+
+<sn:pointer id="8052">コボルドキング[end]</sn:pointer>
+
+<sn:pointer id="8053">オーガ[end]</sn:pointer>
+
+<sn:pointer id="8054">クラウドオーガ[end]</sn:pointer>
+
+<sn:pointer id="8055">シャドウフラウア[end]</sn:pointer>
+
+<sn:pointer id="8056">アルラウネ[end]</sn:pointer>
+
+<sn:pointer id="8057">イッチェル[end]</sn:pointer>
+
+<sn:pointer id="8058">ダイアウルフ[end]</sn:pointer>
+
+<sn:pointer id="8059">シャドウビースト[end]</sn:pointer>
+
+<sn:pointer id="8060">パイルビースト[end]</sn:pointer>
+
+<sn:pointer id="8061">ブラックスライム[end]</sn:pointer>
+
+<sn:pointer id="8062">フッド[end]</sn:pointer>
+
+<sn:pointer id="8063">ファットフッド[end]</sn:pointer>
+
+<sn:pointer id="8064">キラービー[end]</sn:pointer>
+
+<sn:pointer id="8065">ドラゴンフライ[end]</sn:pointer>
+
+<sn:pointer id="8066">グレイヴビット[end]</sn:pointer>
+
+<sn:pointer id="8067">サベイジ[end]</sn:pointer>
+
+<sn:pointer id="8068">カンニバル[end]</sn:pointer>
+
+<sn:pointer id="8069">バーサーカー[end]</sn:pointer>
+
+<sn:pointer id="8070">ジャイアント[end]</sn:pointer>
+
+<sn:pointer id="8071">ヒルジャイアント[end]</sn:pointer>
+
+<sn:pointer id="8072">ガルガンチュア[end]</sn:pointer>
+
+<sn:pointer id="8073">プリティバニー[end]</sn:pointer>
+
+<sn:pointer id="8074">サンドバニー[end]</sn:pointer>
+
+<sn:pointer id="8075">クニークルス[end]</sn:pointer>
+
+<sn:pointer id="8076">フロードシェリー[end]</sn:pointer>
+
+<sn:pointer id="8077">パイルシェリー[end]</sn:pointer>
+
+<sn:pointer id="8078">エルダーマギウス[end]</sn:pointer>
+
+<sn:pointer id="8079">エンジェルナイト[end]</sn:pointer>
+
+<sn:pointer id="8080">スターセラフ[end]</sn:pointer>
+
+<sn:pointer id="8081">レスフィーナ[end]</sn:pointer>
+
+<sn:pointer id="8082">ハウンドシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8083">ジャガーシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8084">テイパーシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8085">フラックシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8086">デュエルシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8087">ネクロシェイプ[end]</sn:pointer>
+
+<sn:pointer id="8088">スキュラ[end]</sn:pointer>
+
+<sn:pointer id="8089">イーブルテラト[end]</sn:pointer>
+
+<sn:pointer id="8090">アルクメーネ[end]</sn:pointer>
+
+<sn:pointer id="8091">ダークストーカー[end]</sn:pointer>
+
+<sn:pointer id="8092">デステラー[end]</sn:pointer>
+
+<sn:pointer id="8093">レディ・エルビス[end]</sn:pointer>
+
+<sn:pointer id="8094">プチデビル[end]</sn:pointer>
+
+<sn:pointer id="8095">スペンドデビル[end]</sn:pointer>
+
+<sn:pointer id="8096">キラーウィスパー[end]</sn:pointer>
+
+<sn:pointer id="8097">メデューサアイ[end]</sn:pointer>
+
+<sn:pointer id="8098">ドラゴンアイ[end]</sn:pointer>
+
+<sn:pointer id="8099">デーモニックアイ[end]</sn:pointer>
+
+<sn:pointer id="8100">ゲレル[end]</sn:pointer>
+
+<sn:pointer id="8101">ペトロゲレル[end]</sn:pointer>
+
+<sn:pointer id="8102">オティフ[end]</sn:pointer>
+
+<sn:pointer id="8103">アスピテルMK2[end]</sn:pointer>
+
+<sn:pointer id="8104">プロトアスピテル[end]</sn:pointer>
+
+<sn:pointer id="8105">アスピテルMK3[end]</sn:pointer>
+
+<sn:pointer id="8106">ウォルザ[end]</sn:pointer>
+
+<sn:pointer id="8107">ダーク・ロウ[end]</sn:pointer>
+
+<sn:pointer id="8108">ゲディス[end]</sn:pointer>
+
+<sn:pointer id="8109">アラコッラ[end]</sn:pointer>
+
+<sn:pointer id="8110">ガル[end]</sn:pointer>
+
+<sn:pointer id="8111">アンホーリィエル[end]</sn:pointer>
+
+<sn:pointer id="8112">スティージ[end]</sn:pointer>
+
+<sn:pointer id="8113">カルライーグル[end]</sn:pointer>
+
+<sn:pointer id="8114">コカトリス[end]</sn:pointer>
+
+<sn:pointer id="8115">デスチャロナ[end]</sn:pointer>
+
+<sn:pointer id="8116">ロマンサ[end]</sn:pointer>
+
+<sn:pointer id="8117">カーナ[end]</sn:pointer>
+
+<sn:pointer id="8118">ドロウレクター[end]</sn:pointer>
+
+<sn:pointer id="8119">アコライト[end]</sn:pointer>
+
+<sn:pointer id="8120">フライア[end]</sn:pointer>
+
+<sn:pointer id="8121">ラプターキング[end]</sn:pointer>
+
+<sn:pointer id="8122">ケブラーテネス[end]</sn:pointer>
+
+<sn:pointer id="8123">フェザント[end]</sn:pointer>
+
+<sn:pointer id="8124">アーキオーニス[end]</sn:pointer>
+
+<sn:pointer id="8125">アスティラゴア[end]</sn:pointer>
+
+<sn:pointer id="8126">ジャンブリン[end]</sn:pointer>
+
+<sn:pointer id="8127">モノグロス[end]</sn:pointer>
+
+<sn:pointer id="8128">ヨチョール[end]</sn:pointer>
+
+<sn:pointer id="8129">アスデモウス[end]</sn:pointer>
+
+<sn:pointer id="8130">ジエ・リヴォース[end]</sn:pointer>
+
+<sn:pointer id="8131">ネオ・リヴォース[end]</sn:pointer>
+
+<sn:pointer id="8132">デル・アーガスィ[end]</sn:pointer>
+
+<sn:pointer id="8133">カンタロス[end]</sn:pointer>
+
+<sn:pointer id="8134">リュシオル[end]</sn:pointer>
+
+<sn:pointer id="8135">アクリス[end]</sn:pointer>
+
+<sn:pointer id="8136">タラカーン[end]</sn:pointer>
+
+<sn:pointer id="8137">ティニーク[end]</sn:pointer>
+
+<sn:pointer id="10000">DEPATURES[end]</sn:pointer>
+
+<sn:pointer id="10001">NEW　AGE[end]</sn:pointer>
+
+<sn:pointer id="10002">TENSE　ATMOSPHERE[end]</sn:pointer>
+
+<sn:pointer id="10003">DANCIN’　SWORD[end]</sn:pointer>
+
+<sn:pointer id="10004">FIRST　EXPERIENCE[end]</sn:pointer>
+
+<sn:pointer id="10005">PURPOSE[end]</sn:pointer>
+
+<sn:pointer id="10006">DREAM　AND　REALITY[end]</sn:pointer>
+
+<sn:pointer id="10007">NEW　HUMAN　RACE[end]</sn:pointer>
+
+<sn:pointer id="10008">INNOCENCE[end]</sn:pointer>
+
+<sn:pointer id="10009">SUNNY　PLACE[end]</sn:pointer>
+
+<sn:pointer id="10010">SECRETLY[end]</sn:pointer>
+
+<sn:pointer id="10011">CALM　TIME[end]</sn:pointer>
+
+<sn:pointer id="10012">WHAT　SHOULD　BE[end]</sn:pointer>
+
+<sn:pointer id="10013">ENCOURAGE[end]</sn:pointer>
+
+<sn:pointer id="10014">NEW　WORLD[end]</sn:pointer>
+
+<sn:pointer id="10015">TACTICS[end]</sn:pointer>
+
+<sn:pointer id="10016">NEXT　STEP[end]</sn:pointer>
+
+<sn:pointer id="10017">SPACE　PEACE[end]</sn:pointer>
+
+<sn:pointer id="10018">ONE　CHALLENGE[end]</sn:pointer>
+
+<sn:pointer id="10019">STREAM　OF　WIND[end]</sn:pointer>
+
+<sn:pointer id="10020">PAST　DAYS[end]</sn:pointer>
+
+<sn:pointer id="10021">FAR　TO　GET[end]</sn:pointer>
+
+<sn:pointer id="10022">REFINEMENT[end]</sn:pointer>
+
+<sn:pointer id="10023">DIM[end]</sn:pointer>
+
+<sn:pointer id="10024">PURGE　THYSELF[end]</sn:pointer>
+
+<sn:pointer id="10025">TRUE　FIGURE[end]</sn:pointer>
+
+<sn:pointer id="10026">CREVICE[end]</sn:pointer>
+
+<sn:pointer id="10027">LABO　OF　TAS[end]</sn:pointer>
+
+<sn:pointer id="10028">AN　IDEAL[end]</sn:pointer>
+
+<sn:pointer id="10029">IMMEDIATELY　BEFORE[end]</sn:pointer>
+
+<sn:pointer id="10030">AMBITION[end]</sn:pointer>
+
+<sn:pointer id="10031">DEMAND[end]</sn:pointer>
+
+<sn:pointer id="10032">HIGH　TENSION[end]</sn:pointer>
+
+<sn:pointer id="10033">BOTH　SIDES’　CASE[end]</sn:pointer>
+
+<sn:pointer id="10034">REUNION[end]</sn:pointer>
+
+<sn:pointer id="10035">RELIEF[end]</sn:pointer>
+
+<sn:pointer id="10036">ANCIENT　RUIN[end]</sn:pointer>
+
+<sn:pointer id="10037">SEPARATION[end]</sn:pointer>
+
+<sn:pointer id="10038">TAKE　A　FANCY[end]</sn:pointer>
+
+<sn:pointer id="10039">FOR　ACHIEVE[end]</sn:pointer>
+
+<sn:pointer id="10040">CALMNESS[end]</sn:pointer>
+
+<sn:pointer id="10041">ONLY　WARRIOR[end]</sn:pointer>
+
+<sn:pointer id="10042">CALM　DISRUPTED[end]</sn:pointer>
+
+<sn:pointer id="10043">FLASHED[end]</sn:pointer>
+
+<sn:pointer id="10044">THE　STRONG[end]</sn:pointer>
+
+<sn:pointer id="10045">ALL　FOR　ONE[end]</sn:pointer>
+
+<sn:pointer id="10046">VRSS[end]</sn:pointer>
+
+</sn:script>

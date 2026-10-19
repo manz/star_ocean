@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">マルトス「近づくな！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">マルトス「[speed][0x14]・・・[speed][0x0]私に触れてはいけない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ミリー]「お父さん[speed][0x14]・・・・・・。[speed][0x0][page]
+マルトス「もう、助からん。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ミリー]「こんな時に、お父さんのそばにいることも、手を握ることもできないの？
+[end]</sn:pointer>
+
+<sn:pointer id="4">[speed][0x14]・・・・[speed][0x0]こんなのってないよ[speed][0x14]・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">マルトス「[nick:ラティ]君、それに[nick:ドーン]君。
+娘を町まで送り届けてくれないか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ドーン]「[nick:ミリー]、[speed][0x14]・・・[speed][0x0]行こう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">マルトス「[speed][0x1][nick:ミリー]！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">マルトス「来るなと言ったろう！[page]
+[nick:ミリー]「でも・・・[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">老人「若者は少なくなるばかり。この村もどうなるのか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">子供「お父さん、今度はなに買ってきてくれるのかしら。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">子供「早く明日にならないかなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">妻「明日、夫が出稼ぎから帰ってくるんです。半年ぶりなんですよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]
+（石になっている・・・。
+まるで生きているようだ。）[page]
+[end]</sn:pointer>
+
+</sn:script>

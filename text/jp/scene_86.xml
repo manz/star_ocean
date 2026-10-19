@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="1">[mode8][0x18][nick:シウス]「300年後に生きるおまえまで名が届くような剣士になってやるさ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[mode8][0x18][nick:シウス]「オヤジも[speed][0x1e]、[speed][0x3]真紅の楯も[speed][0x1e]
+[speed][0x3]もちろんおまえもおよびもつかないような[speed][0xa]、[speed][0x3]なぁ[speed][0x14]、[speed][0x3][nick:ラティ]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[mode8][0x18][nick:シウス]「俺はまだアストラルには帰れねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[mode8][0x18][nick:シウス]「もっと強く、今よりも強くならねぇと！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[mode8][0x18][nick:フィア]「[nick:シウス]、おまえは一体どこにいるんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[mode8][0x18][nick:フィア]「[nick:ラティ]、私はおまえのこの気持ちをどうしたらいいんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[mode8][0x18][nick:フィア]「[speed][0xa]・・・[speed][0x3]300年後[speed][0x1e]？
+[speed][0x3]そんなことが信じられると思うのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[mode8][0x18][nick:フィア]「今でも振り向けば、おまえが現れるような気がして[speed][0xa]・・・[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[mode8][0x18][nick:フィア]「[nick:シウス]、おまえもこんな孤独な旅を続けているのか[speed][0xa]・・・[speed][0x3]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[mode8][0x18][nick:フィア]「[speed][0xa]・・・[speed][0x3]私に[speed][0x46]は[speed][0x3]つらすぎる[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[mode8][0x18][nick:フィア]「[speed][0xf]・・・[speed][0x3][nick:ラティ][speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[mode8][0x18][nick:フィア]「また一人で行ってしまうつもりだったのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[mode8][0x18][nick:シウス]「[speed][0xf]・・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[mode8][0x18][nick:フィア]「私じゃダメか？[speed][0x1e]・・・[speed][0x3]私は、おまえの背中を追っていければ[speed][0x14]、[speed][0x3]それでいいから[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[mode8][0x18][nick:シウス]「[speed][0xa]・・・[speed][0x3]らしくねぇセリフだな[speed][0x3c]。[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[mode8][0x18][nick:シウス]「行こうぜ。俺たちはいつだって対等だったはず[speed][0xa]・・・[speed][0x1e]。[speed][0x3]そうだろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[mode8][0x18][nick:フィア]「どうしても行くのか？ライアス様もおまえを引き留めようとしないし、どうして？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[mode8][0x18][nick:シウス]「[speed][0xa]・・・[speed][0x3]まだダメなんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[mode8][0x18][nick:フィア]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[mode8][0x18][nick:シウス]「300年後に生きるあいつまで名がとどくような剣士にならねぇと[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[mode8][0x18][nick:シウス]「オヤジも[speed][0x1e]、[speed][0x3]真紅の楯も[speed][0x1e]
+[speed][0x3]もちろんあいつもおよびもつかないような[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[mode8][0x18][nick:フィア]「[speed][0xa]・・・[speed][0x3]わかった。でも必ず戻ってこいよ。待ってるからな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[mode8][0x18][nick:シウス]「ああ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[mode8][0x18][nick:シウス]「見てろよ、[nick:ラティ]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[mode8][0x18]若者Ａ「俺は世界一の剣士をめざすぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[mode8][0x18]若者Ｂ「へっ、なに言ってんだか。ムリムリ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[mode8][0x18]若者Ａ「なんだと？この野郎！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[mode8][0x18][nick:アシュレイ]「[speed][0xa]・・・[speed][0x3][nick:ラティ]よ。剣の道は厳しく果てしない[speed][0x28]。[speed][0x3]だが、ヌシならやれると信じておるぞ・・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[mode8][0x18][nick:アシュレイ]「デルよ。真紅の楯と呼ばれたヌシも逝き、ワシも目的を遂げることはできそうもない・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[mode8][0x18][nick:アシュレイ]「老いさらばえる前に己の剣の知識を誰かに伝えたかったが[speed][0xa]・・・[speed][0x1e]。[speed][0x3]ワシは、どうすればよいのだ・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[mode8][0x18][nick:ヨシュア]「エリス[speed][0xa]・・・[speed][0x3]おまえは一体どこにいるんだ[speed][0xa]・・・[speed][0x3]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[mode8][0x18][nick:マーヴェル]「あの・・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[mode8][0x18][nick:マーヴェル]「迷惑でなければ、ご一緒させてもらえますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[mode8][0x18][nick:ヨシュア]「[speed][0xa]・・・[speed][0x3]ええ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[mode8][0x18][nick:ヨシュア]「最近ふと思ったことがあるんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[mode8][0x18][nick:ヨシュア]「笑わないでくださいね[speed][0x1e]。[speed][0x3]あなたに、どことなく僕の妹の面影が見え隠れして[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[mode8][0x18][nick:ヨシュア]「どうしたんですか[speed][0x14]？[speed][0x3]なぜ泣いて[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[mode8][0x18][nick:マーヴェル]「あ、ご、ごめんなさい[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[mode8][0x18][nick:マーヴェル]「私たちはやはり、もう2度と一緒になれない運命だったんですね[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[mode8][0x18][nick:マーヴェル]「あなたを追っても迷惑がかかるだけ[speed][0x1]・・・[speed][0x3]。
+さようなら[speed][0xa]・・[speed][0x1e]・[speed][0x3]兄さん[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[mode8][0x18][nick:マーヴェル]「兄さん[speed][0xa]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[mode8][0x18]解説マン「おぉっと！！挑戦者が現れました！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[mode8][0x18][nick:ティニーク]「みんな強い人たちばかりだったなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[mode8][0x18][nick:ティニーク]「僕も、もっともっと修行して強くなるっス！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[mode8][0x18][nick:ティニーク]「よーし、がんばるぞぉ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[mode8][0x18][nick:ペリシー]「みんな元気ぃー？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[mode8][0x18][nick:ペリシー]「[nick:ミリー]はどお？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[mode8][0x18][nick:ペリシー]「[nick:ラティ][speed][0xf]・・・[speed][0x3]会いたいよぉ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[mode8][0x18][pos][0x24][0x0][speed][0x1]時は少しだけ流れ・・・[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[mode8][0x18][nick:マーヴェル]「用意はいいですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[mode8][0x18][nick:シウス]「300年後だぜ。ほんとにできるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[mode8][0x18][nick:アシュレイ]「300年後じゃぞ。ほんとにできるのかの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[mode8][0x18][nick:マーヴェル]「ええ、魔力付与によって保存性を高めることも可能ですし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[mode8][0x18][nick:ヨシュア]「じゃあ、この樹の種を目印にしましょう。でも[nick:ラティ]たち、気づいてくれるでしょうか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[mode8][0x18][nick:シウス]「あいつもけっこう鈍感だが、[nick:ミリー]がいるから心配ないだろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[mode8][0x18][nick:アシュレイ]「あやつもけっこう鈍感じゃが、[nick:ミリー]がおるから大丈夫じゃろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[mode8][0x18][nick:ペリシー]「あたしはこれ！オカリナを埋める！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[mode8][0x18][nick:シウス]「しょうがねぇ、俺はこれだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[mode8][0x18][nick:アシュレイ]「ワシはこれを贈ろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[mode8][0x18][nick:マーヴェル]「それじゃあ、みんないいですね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[mode8][0x18][speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="62">[mode8][0x18][speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="63">[mode8][0x18][nick:イリア]「ほんと、その通りだわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[mode8][0x18][nick:ラティ]「[nick:イリア]さん？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[mode8][0x18][nick:イリア]
+（あなたと一緒の星にうまれていたら[speed][0x14]、[speed][0x3]私[speed][0xf]・・・[speed][0x3]。）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[mode8][0x18][nick:イリア]
+（[nick:ミリー]を大事にしなきゃだめよ[speed][0x14]？[speed][0x3]あんないい子めったにいないんだから。）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[mode8][0x18][nick:ロニキス]「[nick:イリア]、いいのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[mode8][0x18][nick:イリア]「ええ[speed][0x14]。[speed][0x3][nick:ラティ]との内緒話は、もうおしまい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[mode8][0x18][nick:ラティ]「[speed][0xf]・・・・[speed][0x3]お元気で[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[mode8][0x18][nick:ミリー]「さようなら[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[mode8][0x18][nick:ラティ]「[speed][0xf]・・・[speed][0x3]なんか気が抜けたな[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[mode8][0x18][nick:ミリー]「[speed][0xf]・・・[speed][0x3]そんな、元気出しなさいよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[mode8][0x18][nick:ミリー]「でも、やっぱり気になる。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[mode8][0x18][nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[mode8][0x18][nick:ミリー]「さっき[nick:イリア]さんとなに話してたの[speed][0xf]？[speed][0x3]なんか赤面してたし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[mode8][0x18][nick:ラティ]「べ[speed][0x14]、[speed][0x3]別になんでもないよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[mode8][0x18][nick:ミリー]「あーっ何よ[speed][0xa]！[speed][0x3]
+やっぱり変な話なんでしょ？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[mode8][0x18]マルトス「[nick:ミリー]！何やっとるんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[mode8][0x18][nick:ミリー]「お父さん！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[mode8][0x18][nick:ドーン]「あれ？こんなところにこんな樹があったっけ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[mode8][0x18][nick:ミリー]「あ[speed][0x14]・・・[speed][0x3]あ！[speed][0x3c]
+[speed][0x3]みんなが[speed][0x14]・・・・[speed][0x3]私たちに[speed][0x14]・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[mode8][0x18][nick:ラティ]「今度こそ本当のお別れですね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[mode8][0x18][nick:ロニキス]「ああ[speed][0x14]、[speed][0x3]でもまた迎えにくるかもな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[mode8][0x18][nick:イリア]「ふふ[speed][0x14]。[speed][0x3]そうならないことを析るわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[mode8][0x18][nick:ミリー]「また、いつでもってわけにはいかないけど、遊びに来てくださいね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[mode8][0x18][nick:ロニキス]「そうだな[speed][0x14]。[speed][0x3]でも、ロークはこのまま発展しない文明のほうがいいのかもしれないな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[mode8][0x18][nick:イリア]「そうね[speed][0x1e]。[speed][0x3]発展しても空気はよどみ[speed][0xf]、[speed][0x3]水は汚れ[speed][0xf]、[speed][0x3]木々は死に[speed][0xf]・・・[speed][0x3]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[mode8][0x18][nick:イリア]「なにもいいことは無いのかもしれない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[mode8][0x18][nick:ラティ]「そんなことは無いですよ[speed][0x14]。[speed][0x3]その発展のおかげで僕達は会えたし[speed][0xf]、[speed][0x3]ワクワクするような冒険もできた。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[mode8][0x18][nick:ラティ]「大丈夫です[speed][0x14]。[speed][0x3]僕達はロークをよりよくしていきますよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[mode8][0x18][nick:ロニキス]「そうだな。また、そのころ来てみるよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[mode8][0x18][nick:ラティ]「じゃあ、また。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[mode8][0x18][nick:ミリー]「もう会えないかもしれないけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[mode8][0x18][nick:イリア]「あなた達と旅ができてよかったわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[mode8][0x18][nick:ラティ]「これからが僕達の本当の冒険の始まりなんですよ。[page]
+[end]</sn:pointer>
+
+</sn:script>

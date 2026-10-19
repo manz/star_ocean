@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">ここは古都だが入り口がふさがって入れそうにない。あきらめよう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ロニキス]「[nick:ラティ]、どうした？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ラティ]「え[speed][0xa]？[speed][0x0]いえ[speed][0x14]。[speed][0x0]みんなに何も言わずに出てきたのが心残りで[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]「[speed][0xa]・・・[speed][0x0]しかたないわ。わけを説明して、そうですか。さようなら。とはならないでしょう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:イリア]「”私たちは300年後の未来からやって来た。[speed][0x1e]”[speed][0x0]と言ったところで理解してもらえるわけないもの[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]「寂しいけどね[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ロニキス]「俺たちの存在は、夢の中でのことだったと彼らに思えるようにスッと消えてしまうほうがいいんだよ[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]「でも、今までの記憶は決して消せません[speed][0x14]。[speed][0x0]少なくとも俺は忘れられません！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]「そんなことは、みんなわかっているのよ[speed][0x14]。
+[speed][0x0]艦長だってね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:イリア]「さあ、行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">何も書いてない[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">西：シルヴァラント城下町[page]
+[end]</sn:pointer>
+
+</sn:script>

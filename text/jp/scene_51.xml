@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x30][0x0]シルヴァラント城下町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]「ん？[page]
+[nick:イリア]「紙ヒコーキ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]「字が書いてあるわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]「何書いてあるの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:イリア]「あ、ちょっと[nick:ラティ]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:シウス]「[nick:ラティ]の奴、どうしたんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:アシュレイ]「血相変えて走っていきおった[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]「国王と謁見したいのだが[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">守衛「そのエンブレムはヴァン王国の[speed][0xa]・・・・[speed][0x0]少々お待ちください。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">大臣「どうぞこちらへ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ラティ]「[speed][0x1][nick:ミリー]？！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]＆[nick:ミリー]「あ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ミリー]「[nick:ラティ]！[page]
+[nick:ラティ]「[nick:ミリー]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">守衛「寒いなぁ[speed][0xa]・・・。[speed][0x0]いつまで続くんだろ、こんなこと。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">守衛「ほんと、寒いよなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">巡回兵「異常無し[speed][0xa]・・・[speed][0x0]おや？他国の一般人はこちらには来れないはずですが？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">巡回兵「一般の人は許可が出ないと街の外に出られないんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">巡回兵「あの巨大な砂時計、意味あるのかなぁ。今何時かわかんないもんなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">ごつい傭兵「さすがにこの辺りは魔物が強くてきついぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">道具屋「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">食べ物屋「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">女の子「ここは雪の降る町[color][0x4]シルヴァラント城下[color][0x2]です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">行商人サンタ「いいものがあるけど買うかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">兵士「さっきあやしい男を見たんだけど、どこに行ったんだ？コラ出てこい！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:マーヴェル]「[speed][0xa]・・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]あたし寒い所ニガテなの。寒いニャン！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]う〜ん。[page]
+[nick:ラティ]「どうした？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ミリー]「ん？いや、何でもないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]どうかしたんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:アシュレイ]「いやなに、少し昔の事を思い出していただけじゃよ。[page]
+[end]</sn:pointer>
+
+</sn:script>

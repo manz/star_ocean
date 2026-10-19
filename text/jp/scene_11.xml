@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x44][0x0]メトークス山[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x38][0x0]メトークス山頂上[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x44][0x0]メトークス山[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x44][0x0]メトークス山[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ドーン]「ここにはフェルウォームがいるから気をつけろよ。[page]
+[nick:ミリー]「あいつにくっつかれると卵をつけられるからね。[page]
+[nick:ラティ]「卵がふ化すると大変だからな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x38][0x0]メトークス山頂上[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">水を飲みますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ドーン]「大丈夫か？[page]
+[nick:ミリー]「ええ。[page]
+[nick:ラティ]「ちゃんとフェルウォームの卵を落としておけよ。[page]
+[nick:ミリー]「わかってる。
+ふ化したら大変だからでしょ。[page]
+[nick:ラティ]「ああ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ミリー]「大丈夫？[page]
+[nick:ドーン]「[speed][0x1]さわるな！！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ミリー]「何よ、心配してるのにその態度は。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ドーン]「いや[speed][0x14]、[speed][0x0]何でもないから心配するな[speed][0x14]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ラティ]「お前、まさか・・・！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ドーン]「[speed][0x14]・・・[speed][0x0]どうやら鳩にさわった時に感染したらしいな。[page]
+[nick:ミリー]「そんな[speed][0x14]・・・。[speed][0x0][page]
+[nick:ラティ]「家に戻った方がいい。[page]
+[nick:ドーン]「いや[speed][0x14]、[speed][0x0]まだ石化は始まっていないから大丈夫だ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ミリー]「でも・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ドーン]「[speed][0x1]大丈夫だっ！！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]「あの花を持って帰れば[speed][0x14]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">？？？「ここに、人はいないはずだったのだが[speed][0x14]・・・。[speed][0x0][page]
+？？？「つい30分前に、探査したときはいなかったのですが。[page]
+？？？「まあ、見られたからには仕方ない。彼らにも協力してもらおうじゃないか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]「おまえたちは誰だ？！[page]
+[nick:ミリー]「あなたたちも薬草を取りに来たの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">？？？「そんなに怖がる必要はない[speed][0x14]・・・[speed][0x0]と言っても無理だな。[page]
+？？？「私の名は[nick:ロニキス]・Ｊ・ケニー。
+なにから説明するか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ドーン]「どこから現れたんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ミリー]「[speed][0x1]近づかないで！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">？？？「私は[nick:イリア]・シルベストリ。
+私が艦長の代わりに説明します。[page]
+イリア「先に断っておきますが、
+私たちはあなたたちの味方よ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ミリー]「ほんと？[page]
+[nick:ドーン]「そんなわけないっ！
+こんな怪しいやつらが味方なわけないだろ！[page]
+[nick:ラティ]「[speed][0x14]・・・[speed][0x0]俺たちは、
+薬草を取りに来ただけなんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]「病気を治すなら、
+この薬草よりいいものがあるわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ラティ]「あなたたちは一体・・・？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]「少しは話を聞く気になった？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]「話だけなら・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]「きっとすぐには信じられないとおもうけど[speed][0x14]・・、[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]「私は遠いところから、
+あなたたちを助けるために来たの。[page]
+[nick:ラティ]「[speed][0xa]・・・[speed][0x0]それなら、なぜ、
+もっと早く来てくれなかったんですか？[page]
+[nick:イリア]「私たちは、“未開惑星保護条約”というもので、発展途上の人々には接触をとらないと決めているの。[page]
+[nick:ラティ]「発展途上・・・？[page]
+[nick:イリア]「私たちは空の上から[speed][0x14]・・・[speed][0x0]、
+ほかの星から来たのよ。
+今回のことも特例なの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]「空の上？ほかの星？[page]
+[nick:ミリー]「神様？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:イリア]「私たちは神様ではないわ。
+あなたたちと同じような”人”よ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]「しっぽは無いけどね。[page]
+[nick:ミリー]「あ、ほんとだ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]「ところが私たちと敵対する勢力
+“レゾニア”が未開惑星保護条約を破り、[page]
+[nick:イリア]「こともあろうにここに蔓延している伝染病の原因となった化学兵器を撃ちこんだ[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ラティ]「それじゃあ、そのレゾニアっていう奴らのせいでみんなが石に？[page]
+[nick:イリア]「その通りよ。[page]
+[nick:ミリー]「そんな[speed][0xa]・・・[speed][0x0]許せない[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]「私たちはその伝染病の調査と治療のために訪れたのよ。[page]
+[nick:ロニキス]「だから、我々は君たちを助けに来たというわけだ。君たちが想像もつかない方法でね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ミリー]「まだ信じられないけど、
+病気を治せるなら・・・。[page]
+[nick:ラティ]「俺もあまり信じられないけど、
+ここにいる友人を治せるのなら・・。[page]
+[nick:イリア]「治せるかどうかはわからないけど、
+私たちと一緒にきて、ワクチンを作ることができれば[speed][0x14]・・・[speed][0x0]。[page]
+[nick:ラティ]「空の上に行くんですか？[page]
+[nick:ロニキス]「まあね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ロニキス]「さて[speed][0x14]、[speed][0x0]一度君たちが我々と一緒にきたらこの惑星には二度と戻れないだろう。[page]
+[nick:ロニキス]「先ほどの未開惑星保護条約というもののせいでね。[page]
+[nick:ロニキス]「今ならまだ私たちとの出会いもただの夢物語として済ませてしまえる。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ドーン]「俺はこの人たちと行くぜ。
+ここにいてもどうせ石になっちまうだけなんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ミリー]「わたしには、お父さんやみんなと永遠に別れるか、[nick:ドーン]と別れるかなんて、決められない[speed][0x14]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ラティ]「[nick:ミリー]、俺たちも[nick:ドーン]と一緒に行こう。[page]
+[nick:ラティ]「ここに残っていても俺たちは、悔しいけど何もできない。[page]
+[nick:ラティ]「[color][0x4]クラトス[color][0x2]のみんなともう会えなくなるのは辛いけど、それ以上にみんなを助けたい！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:イリア]「決まったみたいね。
+それじゃ、早速行くわよ。[page]
+[nick:イリア]「少しだけ目をつむっててちょうだい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ミリー]「え・・・？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:シウス]「そうか、人捜しとはまた厄介だな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]「ええ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:イリア]「そういう[nick:シウス]は何か目的があって旅してるわけ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:シウス]「[speed][0xa]・・・・・・・[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="47">[pos][0x0][0x20]剣の腕を磨くためさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:イリア]「あら[speed][0xa]、[speed][0x0]十分強いじゃない。[page]
+[nick:シウス]「ふん、世の中は広いってことさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ラティ]「[nick:シウス]、そういえば遺跡がこの山道にあるって言ってなかったか？[page]
+[nick:シウス]「おう、そうそう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:シウス]「たしかこの岩陰に入口があったと思ったんだが[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:シウス]「行ってみるか。見ておくだけでも価値はあるさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[mode8][0x18][nick:ミリー]「[speed][0x1]きゃぁ[speed][0x1e]ぁぁぁぁぁぁ[mode8][0x0][speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="53">旅人「ここの水は、うまいなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ドーン]「そういえば、春はもうすぎていたな。[page]
+[nick:ラティ]「ああ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ミリー]「お別れですね。[page]
+[nick:イリア]「ええ。[page]
+[nick:ロニキス]「未開惑星保護条約に関しては気にしなくてもいい。君たちについてはすでにそういうレベルの問題じゃないし、それに・・・[page]
+[nick:ミリー]「それに？[page]
+[nick:ロニキス]「どうせ誰も信じないだろう。[page]
+[nick:ラティ]「そうですね。[page]
+[nick:ロニキス]「じゃあ、私達はここでお別れだ。もう会うことも無いだろう[speed][0xa]・・・。[speed][0x0][page]
+[nick:イリア]「じゃあね。[nick:ミリー]、[nick:ラティ][speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[pos][0x24][0x0][speed][0x1]時は少しだけ流れ・・・[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:マーヴェル]「用意はいいですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:シウス]「300年後だぜ。ほんとにできるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:アシュレイ]「300年後じゃぞ。ほんとにできるのかの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:マーヴェル]「ええ、魔力付与によって保存性を高めることも可能ですし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ヨシュア]「じゃあ、この樹の種を目印にしましょう。でも[nick:ラティ]たち、気づいてくれるでしょうか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:シウス]「あいつもけっこう鈍感だが、[nick:ミリー]がいるから心配ないだろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:アシュレイ]「あやつもけっこう鈍感じゃが、[nick:ミリー]がおるから大丈夫じゃろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:ペリシー]「あたしはこれ！オカリナを埋める！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:シウス]「しょうがねぇ、俺はこれだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:アシュレイ]「ワシはこれを贈ろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:マーヴェル]「それじゃあ、みんないいですね？[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

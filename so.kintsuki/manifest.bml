@@ -1,0 +1,10 @@
+game
+  sha256: 0000000000000000000000000000000000000000000000000000000000000000
+  label:  Star Ocean
+  name:   Star Ocean
+  title:  Star Ocean
+  region: NTSC
+  revision: 1.0
+  board: SHVC-LN3B-01
+    memory type=ROM content=Program size=0x800000
+    memory type=RAM content=Save size=0x2000

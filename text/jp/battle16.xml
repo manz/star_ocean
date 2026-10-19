@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="1">テストメッセージ[end]</sn:pointer>
+
+<sn:pointer id="4">ＭＰが足りない[end]</sn:pointer>
+
+<sn:pointer id="7">はレベルアップ！[end]</sn:pointer>
+
+<sn:pointer id="8">を手に入れた！[end]</sn:pointer>
+
+<sn:pointer id="9">を覚えた！[end]</sn:pointer>
+
+<sn:pointer id="10">バックアタック！[end]</sn:pointer>
+
+<sn:pointer id="11">ボースサイドアタック！[end]</sn:pointer>
+
+<sn:pointer id="2000">敵単体に火の球で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2001">敵単体に氷の針で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2002">敵単体に土の柱で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2003">敵単体に風の刃で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2004">敵単体に闇の泡で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2005">一定範囲にマグマの噴火で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2006">敵全体に氷の吹雪で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2007">一定範囲に岩の柱で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2008">狭い範囲に雷を落とす[end]</sn:pointer>
+
+<sn:pointer id="2009">敵単体に影なるもので攻撃[end]</sn:pointer>
+
+<sn:pointer id="2010">敵全体を光線で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2011">一定範囲の重力を操り攻撃[end]</sn:pointer>
+
+<sn:pointer id="2012">敵全体を核爆発で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2013">[end]</sn:pointer>
+
+<sn:pointer id="2014">敵全体を地震と岩で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2015">敵全体を荒れ狂う雷で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2016">敵単体を死の言葉に包み込む[end]</sn:pointer>
+
+<sn:pointer id="2017">敵全体を光の球で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2018">[end]</sn:pointer>
+
+<sn:pointer id="2019">敵全体に大爆発で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2020">敵全体を消滅する[end]</sn:pointer>
+
+<sn:pointer id="2021">魔界の生物を召喚して攻撃[end]</sn:pointer>
+
+<sn:pointer id="2022">隕石を落として敵全体を攻撃[end]</sn:pointer>
+
+<sn:pointer id="2023">闇の球に敵を包み込む[end]</sn:pointer>
+
+<sn:pointer id="2024">味方1人のＨＰを少し回復[end]</sn:pointer>
+
+<sn:pointer id="2025">濃い霧で敵全員の命中率を低下[end]</sn:pointer>
+
+<sn:pointer id="2026">巨大なおもりで敵にダメージ[end]</sn:pointer>
+
+<sn:pointer id="2027">特殊な雲で敵の動きをとめる[end]</sn:pointer>
+
+<sn:pointer id="2028">味方1人を解毒する[end]</sn:pointer>
+
+<sn:pointer id="2029">一定範囲の敵の呪文を封じる[end]</sn:pointer>
+
+<sn:pointer id="2030">酸の雨で敵全体の攻撃力を低下[end]</sn:pointer>
+
+<sn:pointer id="2031">味方全体のＨＰを回復[end]</sn:pointer>
+
+<sn:pointer id="2032">味方1人の攻撃力を上げる[end]</sn:pointer>
+
+<sn:pointer id="2033">味方1人のＨＰを回復[end]</sn:pointer>
+
+<sn:pointer id="2034">味方全員の防御力を上げる[end]</sn:pointer>
+
+<sn:pointer id="2035">味方1人の異常状態を回復[end]</sn:pointer>
+
+<sn:pointer id="2036">味方全員の移動速度を上げる[end]</sn:pointer>
+
+<sn:pointer id="2037">敵全員の移動速度を下げる[end]</sn:pointer>
+
+<sn:pointer id="2038">味方1人のＨＰをかなり回復[end]</sn:pointer>
+
+<sn:pointer id="2039">味方全員のＨＰをかなり回復[end]</sn:pointer>
+
+<sn:pointer id="2040">敵単体に重力歪曲で攻撃[end]</sn:pointer>
+
+<sn:pointer id="2041">味方1人を戦闘不能から回復[end]</sn:pointer>
+
+<sn:pointer id="5000">劇薬につき取り扱い注意[end]</sn:pointer>
+
+<sn:pointer id="5001">ＨＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5002">薬草の一種[end]</sn:pointer>
+
+<sn:pointer id="5003">光に照らすと枯れてしまう花[end]</sn:pointer>
+
+<sn:pointer id="5004">薬草の一種[end]</sn:pointer>
+
+<sn:pointer id="5005">白紙のカード[end]</sn:pointer>
+
+<sn:pointer id="5006">特殊な絵の具[end]</sn:pointer>
+
+<sn:pointer id="5007">特殊なペン[end]</sn:pointer>
+
+<sn:pointer id="5009">特殊な大金槌[end]</sn:pointer>
+
+<sn:pointer id="5011">敵のＨＰ、ＭＰ、弱点を知る[end]</sn:pointer>
+
+<sn:pointer id="5012">鉱物の一種[end]</sn:pointer>
+
+<sn:pointer id="5019">宝石の一種[end]</sn:pointer>
+
+<sn:pointer id="5028">鉄[end]</sn:pointer>
+
+<sn:pointer id="5029">楽器の一種[end]</sn:pointer>
+
+<sn:pointer id="5037">食材の一種[end]</sn:pointer>
+
+<sn:pointer id="5042">武器類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5067">防具類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5082">道具類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5097">宝石類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5104">装飾品と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5114">薬草類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5119">食物類と思われる未鑑定品[end]</sn:pointer>
+
+<sn:pointer id="5126">ブクブクと泡立つ薬[end]</sn:pointer>
+
+<sn:pointer id="5127">どろどろした薬[end]</sn:pointer>
+
+<sn:pointer id="5128">凄い臭いのする薬[end]</sn:pointer>
+
+<sn:pointer id="5129">苦みのある薬[end]</sn:pointer>
+
+<sn:pointer id="5130">芳醇な果実のような薬[end]</sn:pointer>
+
+<sn:pointer id="5131">ＨＰ完全回復[end]</sn:pointer>
+
+<sn:pointer id="5132">敵一体を毒に侵す爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="5133">複数の敵を毒に侵す爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="5134">甘い香りのする薬[end]</sn:pointer>
+
+<sn:pointer id="5135">毒・麻痺・石化回復[end]</sn:pointer>
+
+<sn:pointer id="5136">ＨＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5137">ＭＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5138">ＨＰ、ＭＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5139">一定範囲の味方のＨＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5140">敵一体をピヨらせる爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="5141">敵複数をピヨらせる爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="5142">30秒間ＭＰ未消賃[end]</sn:pointer>
+
+<sn:pointer id="5143">複数の味方が30秒間ＭＰ未消賃[end]</sn:pointer>
+
+<sn:pointer id="5144">敵一体の精神力にダメージ[end]</sn:pointer>
+
+<sn:pointer id="5145">敵複数の精神力にダメージ[end]</sn:pointer>
+
+<sn:pointer id="5146">一定範囲の味方の行動不能を回復[end]</sn:pointer>
+
+<sn:pointer id="5147">味方一人の行動不能を回復[end]</sn:pointer>
+
+<sn:pointer id="5148">敵一体を炎で攻撃する[end]</sn:pointer>
+
+<sn:pointer id="5149">敵複数を炎で攻撃[end]</sn:pointer>
+
+<sn:pointer id="5150">毒を回復。ＨＰも回復[end]</sn:pointer>
+
+<sn:pointer id="5151">麻痺を回復。ＨＰも回復[end]</sn:pointer>
+
+<sn:pointer id="5152">石化を回復[end]</sn:pointer>
+
+<sn:pointer id="5153">呪文ダメージ減少[end]</sn:pointer>
+
+<sn:pointer id="5154">10秒間無敵になるが・・・[end]</sn:pointer>
+
+<sn:pointer id="5155">店頭価格割引[end]</sn:pointer>
+
+<sn:pointer id="5156">未定[end]</sn:pointer>
+
+<sn:pointer id="5157">ＧＵＴＳ30％上昇[end]</sn:pointer>
+
+<sn:pointer id="5158">直接攻撃のダメージ30％上昇[end]</sn:pointer>
+
+<sn:pointer id="5159">魔法攻撃のダメージ30％上昇[end]</sn:pointer>
+
+<sn:pointer id="5160">未定[end]</sn:pointer>
+
+<sn:pointer id="5161">装飾品の一種[end]</sn:pointer>
+
+<sn:pointer id="5204">これは一体？[end]</sn:pointer>
+
+<sn:pointer id="5211">本の一種[end]</sn:pointer>
+
+<sn:pointer id="5238">食べ物の一種[end]</sn:pointer>
+
+<sn:pointer id="5262">日本酒の一種[end]</sn:pointer>
+
+<sn:pointer id="5268">中国酒の一種[end]</sn:pointer>
+
+<sn:pointer id="5269">おいしくないお酒[end]</sn:pointer>
+
+<sn:pointer id="5270">おいしくない食べ物[end]</sn:pointer>
+
+<sn:pointer id="5275">全員のＧＵＴＳ上昇[end]</sn:pointer>
+
+<sn:pointer id="5276">全員のクリティカル率上昇[end]</sn:pointer>
+
+<sn:pointer id="5277">各人1回だけ行動不能時に回復[end]</sn:pointer>
+
+<sn:pointer id="5278">アイテム入手率上昇[end]</sn:pointer>
+
+<sn:pointer id="5279">フォル入手金額上昇[end]</sn:pointer>
+
+<sn:pointer id="5280">鳥系の敵を消滅できる[end]</sn:pointer>
+
+<sn:pointer id="5281">獣系の敵を消滅できる[end]</sn:pointer>
+
+<sn:pointer id="5282">悪魔系の敵を消滅できる[end]</sn:pointer>
+
+<sn:pointer id="5283">不死系の敵を消滅できる[end]</sn:pointer>
+
+<sn:pointer id="5284">肖像画の中の1つ[end]</sn:pointer>
+
+<sn:pointer id="5296">肖像画らしいが誰なのか不明[end]</sn:pointer>
+
+<sn:pointer id="5298">つぼの一種[end]</sn:pointer>
+
+<sn:pointer id="5300">ハイテクなつぼ？[end]</sn:pointer>
+
+<sn:pointer id="5301">子供の夢を叶えるブーツ[end]</sn:pointer>
+
+<sn:pointer id="5302">ＨＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5303">ＭＰ回復[end]</sn:pointer>
+
+<sn:pointer id="5304">毒の除去[end]</sn:pointer>
+
+<sn:pointer id="5305">未定[end]</sn:pointer>
+
+<sn:pointer id="5306">未定[end]</sn:pointer>
+
+<sn:pointer id="5307">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5320">未定[end]</sn:pointer>
+
+<sn:pointer id="5321">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5348">未定[end]</sn:pointer>
+
+<sn:pointer id="5349">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5359">未定[end]</sn:pointer>
+
+<sn:pointer id="5360">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5372">未定[end]</sn:pointer>
+
+<sn:pointer id="5373">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5400">未定[end]</sn:pointer>
+
+<sn:pointer id="5401">鎧の一種[end]</sn:pointer>
+
+<sn:pointer id="5420">兜の一種[end]</sn:pointer>
+
+<sn:pointer id="5425">盾の一種[end]</sn:pointer>
+
+<sn:pointer id="5429">脚拌の一種[end]</sn:pointer>
+
+<sn:pointer id="5433">靴の一種[end]</sn:pointer>
+
+<sn:pointer id="5440">鎧の一種[end]</sn:pointer>
+
+<sn:pointer id="5447">未定[end]</sn:pointer>
+
+<sn:pointer id="5448">兜の一種[end]</sn:pointer>
+
+<sn:pointer id="5455">未定[end]</sn:pointer>
+
+<sn:pointer id="5456">靴の一種[end]</sn:pointer>
+
+<sn:pointer id="5460">未定[end]</sn:pointer>
+
+<sn:pointer id="5461">未定[end]</sn:pointer>
+
+<sn:pointer id="5462">未定[end]</sn:pointer>
+
+<sn:pointer id="5463">未定[end]</sn:pointer>
+
+<sn:pointer id="5464">未定[end]</sn:pointer>
+
+<sn:pointer id="5465">未定[end]</sn:pointer>
+
+<sn:pointer id="5466">盾の一種[end]</sn:pointer>
+
+<sn:pointer id="5471">未定[end]</sn:pointer>
+
+<sn:pointer id="5472">未定[end]</sn:pointer>
+
+<sn:pointer id="5473">未定[end]</sn:pointer>
+
+<sn:pointer id="5474">未定[end]</sn:pointer>
+
+<sn:pointer id="5475">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5476">装飾品の一種[end]</sn:pointer>
+
+<sn:pointer id="5477">装飾品の一種[end]</sn:pointer>
+
+<sn:pointer id="5478">未定[end]</sn:pointer>
+
+<sn:pointer id="5479">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5491">ハトにあげるエサ[end]</sn:pointer>
+
+<sn:pointer id="5492">いしころ[end]</sn:pointer>
+
+<sn:pointer id="5493">リッチな剣[end]</sn:pointer>
+
+<sn:pointer id="5494">リッチな鎧[end]</sn:pointer>
+
+<sn:pointer id="5495">リッチな杖[end]</sn:pointer>
+
+<sn:pointer id="5496">リッチなローブ[end]</sn:pointer>
+
+<sn:pointer id="5497">マントの一種[end]</sn:pointer>
+
+<sn:pointer id="5498">ローブの一種[end]</sn:pointer>
+
+<sn:pointer id="5499">鎧の一種[end]</sn:pointer>
+
+<sn:pointer id="5500">未定[end]</sn:pointer>
+
+<sn:pointer id="5501">未定[end]</sn:pointer>
+
+<sn:pointer id="5502">つるはし[end]</sn:pointer>
+
+<sn:pointer id="5503">武器の一種[end]</sn:pointer>
+
+<sn:pointer id="5504">バーニーを呼ぶフエ[end]</sn:pointer>
+
+<sn:pointer id="5505">本の一種[end]</sn:pointer>
+
+<sn:pointer id="5506">食べ物の一種[end]</sn:pointer>
+
+<sn:pointer id="5507">装飾品の一種[end]</sn:pointer>
+
+<sn:pointer id="10000">ファイアボルト[end]</sn:pointer>
+
+<sn:pointer id="10001">アイスニードル[end]</sn:pointer>
+
+<sn:pointer id="10002">グレイブ[end]</sn:pointer>
+
+<sn:pointer id="10003">ウインドブレイド[end]</sn:pointer>
+
+<sn:pointer id="10004">シャドウボルト[end]</sn:pointer>
+
+<sn:pointer id="10005">イラプション[end]</sn:pointer>
+
+<sn:pointer id="10006">ブリザード[end]</sn:pointer>
+
+<sn:pointer id="10007">アースグレイブ[end]</sn:pointer>
+
+<sn:pointer id="10008">サンダーボルト[end]</sn:pointer>
+
+<sn:pointer id="10009">ウーンズ[end]</sn:pointer>
+
+<sn:pointer id="10010">レイ[end]</sn:pointer>
+
+<sn:pointer id="10011">トラクタービーム[end]</sn:pointer>
+
+<sn:pointer id="10012">エクスプロード[end]</sn:pointer>
+
+<sn:pointer id="10013">Ｓクリスタル[end]</sn:pointer>
+
+<sn:pointer id="10014">アースクェイク[end]</sn:pointer>
+
+<sn:pointer id="10015">サンダーストーム[end]</sn:pointer>
+
+<sn:pointer id="10016">ワードオブデス[end]</sn:pointer>
+
+<sn:pointer id="10017">ライトクロス[end]</sn:pointer>
+
+<sn:pointer id="10018">プリズミックソル[end]</sn:pointer>
+
+<sn:pointer id="10019">スターフレア[end]</sn:pointer>
+
+<sn:pointer id="10020">エクステンション[end]</sn:pointer>
+
+<sn:pointer id="10021">グレムリンレアー[end]</sn:pointer>
+
+<sn:pointer id="10022">メテオスォーム[end]</sn:pointer>
+
+<sn:pointer id="10023">ダークサークル[end]</sn:pointer>
+
+<sn:pointer id="10024">ヒール[end]</sn:pointer>
+
+<sn:pointer id="10025">ディープミスト[end]</sn:pointer>
+
+<sn:pointer id="10026">プレス[end]</sn:pointer>
+
+<sn:pointer id="10027">フィクスクラウド[end]</sn:pointer>
+
+<sn:pointer id="10028">アンチドート[end]</sn:pointer>
+
+<sn:pointer id="10029">サイレンス[end]</sn:pointer>
+
+<sn:pointer id="10030">アシッドレイン[end]</sn:pointer>
+
+<sn:pointer id="10031">キュアオール[end]</sn:pointer>
+
+<sn:pointer id="10032">グロース[end]</sn:pointer>
+
+<sn:pointer id="10033">キュアライト[end]</sn:pointer>
+
+<sn:pointer id="10034">プロテクション[end]</sn:pointer>
+
+<sn:pointer id="10035">ディスペル[end]</sn:pointer>
+
+<sn:pointer id="10036">ヘイスト[end]</sn:pointer>
+
+<sn:pointer id="10037">ディレイ[end]</sn:pointer>
+
+<sn:pointer id="10038">フェアリーヒール[end]</sn:pointer>
+
+<sn:pointer id="10039">フェアリィライト[end]</sn:pointer>
+
+<sn:pointer id="10040">グラビティプレス[end]</sn:pointer>
+
+<sn:pointer id="10041">レイズデッド[end]</sn:pointer>
+
+<sn:pointer id="10042">双破斬[end]</sn:pointer>
+
+<sn:pointer id="10043">空破斬[end]</sn:pointer>
+
+<sn:pointer id="10044">衝裂破[end]</sn:pointer>
+
+<sn:pointer id="10045">衝霊破[end]</sn:pointer>
+
+<sn:pointer id="10046">雷鳴剣[end]</sn:pointer>
+
+<sn:pointer id="10047">紅蓮剣[end]</sn:pointer>
+
+<sn:pointer id="10048">閃光剣[end]</sn:pointer>
+
+<sn:pointer id="10049">蒼龍醒雷斬[end]</sn:pointer>
+
+<sn:pointer id="10050">朱雀翔撃破[end]</sn:pointer>
+
+<sn:pointer id="10051">七星雷鳴剣[end]</sn:pointer>
+
+<sn:pointer id="10052">七星閃光剣[end]</sn:pointer>
+
+<sn:pointer id="10053">七星双破斬[end]</sn:pointer>
+
+<sn:pointer id="10057">吼竜破[end]</sn:pointer>
+
+<sn:pointer id="10058">黒竜天雷破[end]</sn:pointer>
+
+<sn:pointer id="10059">緋竜天雷破[end]</sn:pointer>
+
+<sn:pointer id="10060">蒼龍天雷破[end]</sn:pointer>
+
+<sn:pointer id="10061">七星招雷破[end]</sn:pointer>
+
+<sn:pointer id="10062">訃虎招来[end]</sn:pointer>
+
+<sn:pointer id="10063">蒼龍招来[end]</sn:pointer>
+
+<sn:pointer id="10064">玄武招来[end]</sn:pointer>
+
+<sn:pointer id="10065">白虎招来[end]</sn:pointer>
+
+<sn:pointer id="10066">七星紅蓮剣[end]</sn:pointer>
+
+<sn:pointer id="10067">レイヴンソード[end]</sn:pointer>
+
+<sn:pointer id="10068">ダンシングソード[end]</sn:pointer>
+
+<sn:pointer id="10069">3ＶＯＬＬＥＹ[end]</sn:pointer>
+
+<sn:pointer id="10070">3ＷＡＹ[end]</sn:pointer>
+
+<sn:pointer id="10080">アクアスプレッド[end]</sn:pointer>
+
+<sn:pointer id="10081">ギャラクシィＧＢ[end]</sn:pointer>
+
+<sn:pointer id="10082">シルヴァンショット[end]</sn:pointer>
+
+<sn:pointer id="10083">アンホーリィテラー[end]</sn:pointer>
+
+<sn:pointer id="10084">ヴィクトリーテラー[end]</sn:pointer>
+
+<sn:pointer id="10085">気功掌[end]</sn:pointer>
+
+<sn:pointer id="10086">流星掌[end]</sn:pointer>
+
+<sn:pointer id="10087">練気拳[end]</sn:pointer>
+
+<sn:pointer id="10088">気功蹴[end]</sn:pointer>
+
+<sn:pointer id="10091">蒼龍醒雷破[end]</sn:pointer>
+
+<sn:pointer id="10092">玄武覇王拳[end]</sn:pointer>
+
+<sn:pointer id="10093">白虎吼破弾[end]</sn:pointer>
+
+<sn:pointer id="10094">朱雀翔撃破[end]</sn:pointer>
+
+<sn:pointer id="10095">桜花八卦掌[end]</sn:pointer>
+
+<sn:pointer id="10096">裏桜花炸光[end]</sn:pointer>
+
+<sn:pointer id="10097">レイヴンオーブ[end]</sn:pointer>
+
+<sn:pointer id="10098">フレアオーブ[end]</sn:pointer>
+
+<sn:pointer id="10099">ヘイルオーブ[end]</sn:pointer>
+
+<sn:pointer id="10100">サンダーオーブ[end]</sn:pointer>
+
+<sn:pointer id="10101">アーククリスタル[end]</sn:pointer>
+
+<sn:pointer id="10102">シールクリスタル[end]</sn:pointer>
+
+<sn:pointer id="10103">サザンクロス[end]</sn:pointer>
+
+<sn:pointer id="10104">セブンススター[end]</sn:pointer>
+
+<sn:pointer id="10105">ギャラクシィ[end]</sn:pointer>
+
+<sn:pointer id="10106">シャイニングダンス[end]</sn:pointer>
+
+<sn:pointer id="10107">プリズミックダンス[end]</sn:pointer>
+
+<sn:pointer id="10108">マジカルダンス[end]</sn:pointer>
+
+<sn:pointer id="10109">マルチプルぱんち[end]</sn:pointer>
+
+<sn:pointer id="10110">スプレッドミサイル[end]</sn:pointer>
+
+<sn:pointer id="10111">ねりちゃぎっ[end]</sn:pointer>
+
+<sn:pointer id="10112">えぃやぁとぉ[end]</sn:pointer>
+
+<sn:pointer id="10113">ＪＰサマーソルト[end]</sn:pointer>
+
+<sn:pointer id="10114">パニックダンス[end]</sn:pointer>
+
+<sn:pointer id="10115">チャーミングポーズ[end]</sn:pointer>
+
+<sn:pointer id="10116">ドリームコンボ[end]</sn:pointer>
+
+<sn:pointer id="10117">そらをみろ[end]</sn:pointer>
+
+<sn:pointer id="10118">旋風棍[end]</sn:pointer>
+
+<sn:pointer id="10120">紅蓮旋風棍[end]</sn:pointer>
+
+<sn:pointer id="10121">疾風棍[end]</sn:pointer>
+
+<sn:pointer id="10122">疾風破裏拳[end]</sn:pointer>
+
+<sn:pointer id="10123">覇王疾風棍[end]</sn:pointer>
+
+<sn:pointer id="10124">霧氷凍棍[end]</sn:pointer>
+
+<sn:pointer id="10126">水月両断破[end]</sn:pointer>
+
+<sn:pointer id="10128">七星乱舞[end]</sn:pointer>
+
+<sn:pointer id="10129">デスクリスタル[end]</sn:pointer>
+
+</sn:script>

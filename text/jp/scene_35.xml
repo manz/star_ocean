@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x37][0x0]ライアスの屋敷[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x5c][0x0]廊下[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x5c][0x0]寝室[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x5c][0x0]客間[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x5c][0x0]書斎[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x5c][0x0]宿屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x3a][0x0]アストラル城下町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]「[nick:アシュレイ]さんを追いかけよう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:アシュレイ]「魔物の首を持って城に行って事情を説明してくれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:アシュレイ]「ライアス大丈夫か？しっかりしろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">兵士「ライアス様がこんなことになるなんて[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">兵士「魔物め許せん！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">鍵がかかっています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[mode8][0x0][nick:アシュレイ]「[speed][0x1]ライアス？！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:アシュレイ]「[nick:フィア][speed][0xa]・・・[speed][0x0]何ということを！！[page]
+[nick:フィア]「くっ[speed][0xa]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:アシュレイ]「待て！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ラティ]「今のはまさか[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:アシュレイ]「信じられん[speed][0xa]・・・！！[speed][0x0]これは何かの間違いだ[speed][0xa]・・・[speed][0x0]。[page]
+[nick:イリア]「とにかく、追いかけましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:アシュレイ]「う、うむ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]「あそこだ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[mode8][0x0][nick:イリア]「鐘の音[speed][0x1e]？[speed][0x0]何かあったのかしら。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]「[nick:シウス]、どうした？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:シウス]「[speed][0x14]・・・[speed][0x0]この音は、アストラル騎士団の暗号音だ[speed][0xf]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:シウス]「んなバカな！！アイツがそんなことするわけねぇだろうがっ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:シウス]「場所は[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:シウス]「先回りできるか[speed][0xa]・・・[speed][0x0]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ラティ]「おいっ、[nick:シウス]！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[mode8][0x0][nick:イリア]「鐘の音[speed][0x1e]？[speed][0x0]何かあったのかしら。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ロニキス]「何を考えているんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]えーっと、せ、聖域の神様に析りを捧げていたんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ロニキス]「聖域？[speed][0xa]・・・[speed][0x0]ああ、[nick:ミリー]たちは“宇宙”をそう呼んでいるんだったな。けど[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]「こんなことを言うのもなんだが、その聖域に踏み込んでなお、神の存在を信じ続けられるものなのか？我々にしてみれば神の存在や信仰なんてものは前世紀の遺物のようなものだからな。[page]
+[nick:ミリー]「[nick:ロニキス]さんが私たちよりはるかに文明が進化した世界の人だというのは分かりますけど[speed][0xa]・・・[speed][0x0]、それは違うと思います。[page]
+[nick:ロニキス]「え？[page]
+[nick:ミリー]「自分が見たことや聞いたことがすべてではありませんよね？[page]
+[nick:ロニキス]「まぁ、そうだが。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ロニキス]「我々にとってはこのロークの存在自体も小説じみた夢物語のようなカンジがしてな。神がどうこう言っていると少々バカバカしいというか[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ミリー]「[nick:ロニキス]さんはこの世界を信じられないんですか？私や[nick:ラティ]と出会ったことも、[nick:ドーン]があんなことになったのも、すべて夢物語だったと言っていたいんですか？そりゃあ私だって、あれが夢だったらどんなにいいかと[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ロニキス]「あ[speed][0xa]、[speed][0x0]いや[speed][0xa]、[speed][0x0]そんなに怒んないでくれ。にわかに信じ難いなって、ただそれだけのつもりなんだから[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ミリー]「だったら[nick:ロニキス]さんも紋章術をならってみればいいんですよ。私は、紋章法術という癒しの力しか使えませんけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ロニキス]「本気で言ってるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ミリー]「ええ[speed][0xa]。[speed][0x0][nick:ロニキス]さんが私たち特有だと思っている力が自分でも使えるということになったら、それはきっと世界というのは1つなんだって[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ロニキス]「たしかにな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ミリー]「ね♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">宿屋の主人「よく眠れたかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">泊まりますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[end]</sn:pointer>
+
+<sn:pointer id="44">お金が足りません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ラティ]「早く魔物の首を持って城に行こう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ラティ]「早く追いかけよう。[page]
+[end]</sn:pointer>
+
+</sn:script>

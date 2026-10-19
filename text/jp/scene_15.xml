@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ミリー]「今のはなに？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]「ここは一体どこだ？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ロニキス]「これが私たちの船さ。[page]
+[nick:ミリー]「やっぱり神様？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]「神様ではないわ。私たちは
+あなたたちよりちょっと進んでいるだけなの。[page]
+[nick:イリア]「あなたたちもいずれ、こういう力を
+手に入れることができるわ。[page]
+[nick:ラティ]「[speed][0x14]・・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ロニキス]「では、早速メディカルセンターに
+彼を運ぼう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x32][0x0]カルナス戦艦転送室[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">乗組員「艦長、この生物です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]「何だ？これは！？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ラティ]「フェルウォームだ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ロニキス]「それは何だ！？[page]
+[nick:ラティ]「やっぱりメトークス山で卵がついていたんだ。[page]
+[nick:イリア]「それならなぜ、乗艦時にセンサーに反応しなかったのでしょう？[page]
+[nick:ロニキス]「わからん。今はこいつらを片付けるのが先決だ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">乗組員「でも、[color][0x6]フェイザー[color][0x2]が効きませんよ。[page]
+[nick:ロニキス]「なにっ？！そんなはずは・・[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]「僕たちに任せてください。[page]
+[nick:ロニキス]「大丈夫か？[page]
+[nick:ラティ]「行くぞ[nick:ミリー]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]「大丈夫か？[page]
+[nick:ラティ]「ええ。これで全部でしょうか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]「[speed][0x1]危ない！！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]「[speed][0x1]イタッ！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ラティ]「くそっ、まだいたか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]「大丈夫？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ラティ]「ああ、かすりキズさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ロニキス]「消えた[speed][0x14]・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ロニキス]「君が襲われたとき、その生物が消えたんだ。今、死骸も見えない[speed][0x14]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ミリー]「え？いますよ[end]</sn:pointer>
+
+<sn:pointer id="22">[pos][0x0][0x20]ココに。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ロニキス]「[speed][0x1]なに？？？[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]「そう、君たちには見えるのね[speed][0x14]・・・。[speed][0x0][page]
+[nick:イリア]「君の血がかかった瞬間に見えなくなったわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]「ちょっとメディカルセンターに行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ロニキス]「後は頼んだぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ロニキス]「ドクター、[nick:ドーン]君は寸分の狂いなく、ベッドの上に転送させるんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">ドクター「わかりました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ロニキス]「[nick:イリア]、頼んだぞ。[page]
+[nick:イリア]「はい、艦長。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[mode8][0x18][nick:ミリー]「[speed][0x1e]ぁぁぁぁぁぁぁぁぁぁ・・・[speed][0x0][page]
+[mode8][0x0][end]</sn:pointer>
+
+<sn:pointer id="31">転送士官「ここは、転送室です。
+ある程度の大きさまでなら、
+10万キロ以内に転送可能です。[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x50][0x0]ムーア城[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">大臣「豪華な装備は返してもらいます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">大臣ボルク「実は、このムーア城内で困ったことが起こりましてな[speed][0xa]・・・[speed][0x0]。[page]
+[nick:ラティ]「[speed][0xa]・・・[speed][0x0]はぁ。[page]
+大臣ボルク「城の宝物殿から突然魔物がわいてくるようになったのです。我々は処置に困り、宝物殿の入口は現在ふさいでおります。どうかこの魔物が溢れ出る原因を突き止めてはもらえないでしょうか？宝物殿の中には強力な武具もいくつか有ります。必要であれば使ってもらってもかまいません。[page]
+[nick:ラティ]「わかりました。引き曼けましょう。[page]
+大臣ボルク「ありがとうございます！宝物殿のものはきちんと返して下さいますようお願いします。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]
+（さすがにくれるわけないわね[speed][0xa]・・・。[speed][0x0]）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">大臣ボルク「では、案内いたしますので、よろしくお願いします。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">ムーア国王「おお、そのエンブレムを託された者がついに訪れたか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">国王「大臣よ、周りの者を下げさせよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">大臣「はっ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">ムーア国王「これを持って行くのだ。吉報を待っておるぞ。[page]
+[color][0x6]ムーアエンブレム[color][0x2]を入手しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">ムーア国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">大臣「期待しております。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">妃「頑張って下さいね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">側近「国王を命に代えてもお守りするのが我々の役目！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">側近「この命、国王とお妃様にささげます！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">メイド「ここのお城の地下にはでっかい宝物殿があるのよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">メイド「あまりバタバタ歩かないで下さいね。ホコリが飛ぶから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">衛兵「いきなり宝物殿に魔物が現れるなんて[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">衛兵「前ムーア国王は平和主義的な考えがあって、この国はあまり軍備が充実していません。今は魔界という共通の敵がいますからいいのですが、もし魔界の王アスモデウスが剖されることがあったら・・・なんだか逆に嫌な予感がしてしまいます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">賢者グレイス「メトークス山には隠された遺跡があるというウワサですが、定かではありません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">宮廷料理人パスタ「知識や技術は後からどうにでもなる。料理人に真に必要なものは味覚だ！万人を喰らせる味を創造する天性の才能！これだっ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">動物好きの衛兵「実は密かに自室に犬を飼ってるんです。見つけても騒がないで下さい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">衛兵「ここは謁見の間です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">衛兵「ここは宝物殿です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">大臣ボルク「ここです。手強い魔物もいますので、宝物殿の武具は必須ですぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">大臣ボルク「よくぞ魔物を退治してくれました！これはお礼です。[page]
+[color][0x5]20000[color][0x2]フォルもらいました。
+ＳＰ50を獲得しました。[page]
+[color][0x6][item][0x2c][0x14][color][0x2]を手に入れました。[page]
+大臣ボルク「それでは宝物殿の武具は返してもらいますぞ。[page]
+大臣ボルク「謁見の間にどうぞ。[page]
+[end]</sn:pointer>
+
+</sn:script>

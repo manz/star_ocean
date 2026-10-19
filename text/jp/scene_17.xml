@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">「紅の炎は汝の敵、その逆は汝の道と知れ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">スイッチを切り替えますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:シウス]「[speed][0xa]・・・・。[speed][0x0][page]
+[nick:ヨシュア]「妹を捜しているんです。[page]
+[nick:シウス]「あ？[page]
+[nick:ヨシュア]「幼い頃に生き別れになった妹を、捜しているんです[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ヨシュア]「両親は殺されました。僕は崖下に突き落とされましたが、一命を取り留めることができました。ですが、妹は生死すら定かではありません[speed][0xa]・・・。[speed][0x0]仇は忘れようも無い[speed][0xa]・・・[speed][0x0]あの圧剖的な殺意の眼差しと、世に二つあるとは思えない真紅に彩られた“紋章の楯”・・・！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:シウス]「真紅の、紋章の[speed][0xa]・・・[speed][0x0]楯？[speed][0x1e][speed][0x0]そいつはもしかして[speed][0xa]・・・[speed][0x0]エダール剣術の使い手の中で最も名高い[speed][0xa]・・・。[speed][0x0][page]
+[nick:ヨシュア]「知っているんですか？！[page]
+[nick:シウス]「いや、そんなはずはねぇ。[speed][0x19][speed][0x0]俺の勘違いだ[speed][0xa]・・・。[speed][0x0][page]
+[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そうですか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:シウス]「要するに、オメェも“[color][0x6]真実の瞳[color][0x2]”を探してるってことだろ？[speed][0x14][speed][0xa]・・・[speed][0x0]いこうぜ。一人じゃ奥は辛いぜ？[page]
+[nick:ヨシュア]「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:シウス]「おう、遅ぇぞ！何やってんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]「あら、ごめんなさい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:アシュレイ]「さて[speed][0xa]・・・[speed][0x0][color][0x6]真実の瞳[color][0x2]はたしか伝承によると、神殿の最も深い場所に保管されておるはずだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ラティ]「ということはひたすら奥を目指せばいいんですね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:アシュレイ]「うむ。だが先ほどの翼人の若者のことが気掛かりじゃな。なにか急いでいたようだが、一人では危険だということに、気が付いていないわけでもあるまいに[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:イリア]「ここで会ったのも何かの縁。彼がむざむざ死ぬところは見たくありませんし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:アシュレイ]「そうじゃな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]「あれは、[nick:ヨシュア]さん？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]「助けましょう！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:アシュレイ]「危ない所じゃったの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ヨシュア]「ありがとうございます[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:アシュレイ]「勇敢[speed][0xa]・・・[speed][0x0]と、かろうじて言い換えることはできても、賢明とは決して言えん行動じゃと思うが、どうかの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ヨシュア]「[speed][0xa]・・・・。[speed][0x0][page]
+[nick:アシュレイ]「話してみる気にはならんか？この先一人では辛かろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ヨシュア]「実は[speed][0xa]・・・[speed][0x0]幼い頃に生き別れになった妹を探しているんです[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[mode8][0x0][nick:ヨシュア]「両親は殺されました。僕は崖下に突き落とされましたが、一命を取り留めることができました。ですが、妹は生死すら定かではありません[speed][0xa]・・・。[speed][0x0]仇は忘れようも無い[speed][0xa]・・・[speed][0x0]あの圧剖的な殺意の眼差しと、世に二つあるとは思えない、真紅に彩られた“紋章の楯”[speed][0xa]・・・[speed][0x0]！！[page]
+[nick:アシュレイ]「真紅の紋章の楯じゃと？！[page]
+[nick:ヨシュア]「知っているんですか？！[page]
+[nick:アシュレイ]「いや、確実ではない以上、うかつに語るのはよそう[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そうですか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:アシュレイ]「お主も“[color][0x6]真実の瞳[color][0x2]”を探しておるのじゃろう？ワシらが同行しては迷惑かの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ヨシュア]「とんでもない！こちらこそ、お願いします。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ラティ]「何だあの怪物は？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">ＳＰ6獲得しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">ＳＰ3獲得しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">ＳＰ3獲得しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">ＳＰ3獲得しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">ＳＰ3獲得しました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[pos][0x50][0x0]パージ神殿[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

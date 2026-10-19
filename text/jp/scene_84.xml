@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ペリシー]「まだ見てないところあるよ！もっと見ようよぉ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ペリシー]「あれ？たしかこの辺にあたしぃのトモダチが寝てたはずなんだけど[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「と、友達ぃ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ペリシー]「うん。こーんな[end]</sn:pointer>
+
+<sn:pointer id="3">ずんぐりむっくりの、むっちゃらもっちゃらの、つぶれアンマンみたいなウサギなんだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]ず[speed][0xa]、[speed][0x0]ずんぐり？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]む[speed][0xa]、[speed][0x0]むっちゃら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]「それに似た石像なら確か見たことあるぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ペリシー]「ビンゴ！寝てると石みたくなっちゃうんだよ！どこでみたの？行こうよそこに！[page]
+[nick:ラティ]「それを捜すのか？[speed][0xa]・・・[speed][0x0]とにかく一度戻ろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ラティ]「しらないなぁ。[page]
+[nick:ペリシー]「そう[speed][0xa]・・・[speed][0x0]。あ！もしかしてどこかの店にまちがえて売られちゃったのかも！[page]
+[nick:ラティ]「え？[page]
+[nick:ペリシー]「彼、寝てると石みたくなっちゃうんだよ！[page]
+[nick:ラティ]「それを捜すのか？[speed][0xa]・・・[speed][0x0]とにかく一度戻ろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">サキュバス「なあに？あなたたちは。ここの宝箱は全部わたしがもらうことに決めたのよ！おとなしくそのことを国王に伝えてらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">サキュバス「やっぱり気が変わったわ。ここで死んでしまいなさいな！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[color][0x6][item][0x75][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[color][0x6][item][0x77][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[color][0x6][item][0x75][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[color][0x6][item][0x78][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[color][0x6][item][0x77][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[color][0x6][item][0x78][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[color][0x6][item][0x75][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[color][0x6][item][0x76][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[color][0x6][item][0x1f][0x14][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[color][0x6][item][0x81][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[color][0x6][item][0x20][0x14][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">ネコ奥義を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">今は必要なさそうだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[color][0x6][item][0x1b][0x14][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[color][0x6][item][0x81][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[color][0x6][item][0x31][0x14][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]「勝手に取っちゃまずいな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">持ち物がいっぱいです[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[end]</sn:pointer>
+
+<sn:pointer id="30">[pos][0x58][0x0]宝物殿[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

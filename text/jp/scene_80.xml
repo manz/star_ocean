@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:イリア]「文字が刻まれているわ。[page]
+「王家に伝わる一文を4人の鎧騎士と見立てるならば、すなわち兜は4つ。その兜を脱ぎ捨て、地に並べよ。汝がそろえた兜、それすなわち扉開く鍵と知るべし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]「これはどういう意味なんでしょう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]「王家に伝わる一文[speed][0xa]・・・[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="3">あれのことかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ロニキス]「アストラル国王から聞いたあの言葉か。[page]
+[nick:イリア]「ええ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">1．思い出す
+2．知ってるからいい[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]「運命と嘆くな[page]
+「勇気を持て[page]
+「君の嗣子（しし）末代まで[page]
+「力絶やすこと無く[page]
+「[speed][0xa]・・・[speed][0x0]でしたよね。[page]
+[nick:ロニキス]「ああ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:イリア]「これはパスワードよね。つまり、一文から4文字抜き取ってそれを入力しろ、ということになるわ。[page]
+[nick:ラティ]「王家に伝わる一文を“4人の鎧騎士”と見立てるならば、すなわち兜は4つ[speed][0xa]・・・[speed][0x0][page]
+[nick:ロニキス]「兜を“脱ぎ捨て”地に並べよ[speed][0xa]・・・[speed][0x0]？[page]
+[nick:イリア]「汝が“そろえた”兜[speed][0xa]・・・[speed][0x0]ともあるわ。つまり自分で並べかえろってことよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]「これはパスワード入力機かしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[mode8][0x20]候補となる4つの文字は？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">1．だ・と・ち・も
+2．ち・も・ん・く
+3．や・み・も・く
+4．き・ゆ・ち・う[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[mode8][0x0][end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]「開いたぞ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]「[speed][0xa]ち[speed][0x0]・[speed][0xa]き[speed][0x0]・[speed][0xa]ゆ[speed][0x0]・[speed][0xa]う[speed][0xa]・・・[speed][0x0]？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:イリア]「[speed][0x1]チキユウ？[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]「チキュウ[speed][0xa]・・・[speed][0x0]地球？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:イリア]「どうして[speed][0xa]？[speed][0x0]単なる偶然[speed][0xa]？[speed][0x0]どうして惑星の名前がパスワードなの？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ロニキス]「[nick:イリア]落ち着け。ここで考えていても始まらん。[speed][0xa]・・・[speed][0x0]とにかく中に入ろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]「そ[speed][0x5]、[speed][0x0]そうよね。とにかく中に入れば何かわかるかもしれないわね[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">最初の一文字は？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">2文字目は？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">3文字目は？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">4文字目は？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[pos][0x0][0x0]1．[pos][0x18][0x0][end]</sn:pointer>
+
+<sn:pointer id="24">[pos][0x0][0x10]2．[pos][0x18][0x10][end]</sn:pointer>
+
+<sn:pointer id="25">[pos][0x0][0x20]3．[pos][0x18][0x20][end]</sn:pointer>
+
+<sn:pointer id="26">[pos][0x0][0x30]4．[pos][0x18][0x30][end]</sn:pointer>
+
+<sn:pointer id="27">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">だ[end]</sn:pointer>
+
+<sn:pointer id="29">ち[end]</sn:pointer>
+
+<sn:pointer id="30">や[end]</sn:pointer>
+
+<sn:pointer id="31">き[end]</sn:pointer>
+
+<sn:pointer id="32">と[end]</sn:pointer>
+
+<sn:pointer id="33">も[end]</sn:pointer>
+
+<sn:pointer id="34">み[end]</sn:pointer>
+
+<sn:pointer id="35">ゆ[end]</sn:pointer>
+
+<sn:pointer id="36">ち[end]</sn:pointer>
+
+<sn:pointer id="37">ん[end]</sn:pointer>
+
+<sn:pointer id="38">も[end]</sn:pointer>
+
+<sn:pointer id="39">ち[end]</sn:pointer>
+
+<sn:pointer id="40">も[end]</sn:pointer>
+
+<sn:pointer id="41">く[end]</sn:pointer>
+
+<sn:pointer id="42">く[end]</sn:pointer>
+
+<sn:pointer id="43">う[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]「あれは？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ロニキス]「空中投影[speed][0xa]？[speed][0x0]ん[speed][0xa]？・・・[speed][0x0]あれは[speed][0xa]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]「地球の世界地図だわ[speed][0xa]・・・[speed][0x0]でも、太平洋の中央にある島はなに？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ロニキス]「あんな島はどこにもないぞ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:イリア]「いえ、伝説上の話であればあそこには島がありました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:イリア]「[speed][0xa]・・・[speed][0x0]ムー大陸[speed][0xa]・・・！[speed][0x0][page]
+[nick:ロニキス]「たしかに、それが一体どうしてここで？[page]
+[nick:ミリー]「あ、人が！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">？？？「危険極まる秘宝ゆえにこの地に封印した、[color][0x6]真実の瞳[color][0x2]を求めてここを訪れた者が邪な心の持ち主ではないことを我々は析っている。そして我らが引き起こした過ちを清算する力のある者たちであることも[speed][0xa]・・・。[speed][0x0][page]
+？？？「[color][0x6]真実の瞳[color][0x2]は異世界同士をつなげるゲートを作り出すものだ。我々は自らが培ってきたテクノロジーと、この惑星の原住種族ルーンたちから授かった紋章術を用いてこれを作り出した。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">？？？「だが目的に達する前に取り返しのつかない事態が起こってしまった。異世界の魔物を呼び出してしまったのだ。だがそれでも我々は異空間を開く実験を中断するわけにはいかなかった。それが数少ない同胞の強い願いだったのだ。[page]
+？？？「我々はただ、生きて再び母星へと戻りたかっただけなのだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ラティ]「これが[speed][0xa]・・・[speed][0x0][color][0x6]真実の瞳[color][0x2][speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「うまく理解できん。一体どういうことか[nick:イリア]、わかるか？[page]
+[nick:イリア]「旧異種族というのは、地球で言うところのムー大陸からこの惑星に来たのかしら[speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「来た、というか自らの意思とは関係無く来てしまったという感じじゃないか？[page]
+[nick:イリア]「ええ、でも[speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「そういえばヴァン国王に謁見したときに、成人の姿をもっていきなり現れた、大地に降臨した、と言っていただろう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:イリア]「ムー大陸は隕石の落下で沈没してしまった伝説の大陸よ。そしてそこに住んでいた人々は超高度な文明を持っていた・・・。[page]
+[nick:ロニキス]「たしかそうだったな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:イリア]「仮説ですが、歪曲した空間に巻き込まれて見たことも無い場所に現れてしまうという事例は連邦でもいくつか報告されています。行方不明となった子供が時間的に移動不可能な何百キロも離れた場所で発見されたりといった話とか[speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「隕石の落下で発生した歪曲空間に巻き込まれて、ということか？確かに、だがそれはあくまでいくら大きく見ても一つの惑星の中での出来事だ。地球から惑星ロークへなどという大規模な報告例は聞いたことが無い。[page]
+[nick:イリア]「そうですね。でも、だとすればなぜ[color][0x6]真実の瞳[color][0x2]などというものを作り出したか説明がつきます。[speed][0xa]・・・[speed][0x0]ただ、戻りたかっただけ[speed][0xa]・・・。[speed][0x0][page]
+[nick:ロニキス]「そう言っていたな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:イリア]「真実を知る術は無いのだけれど・・・。[page]
+[nick:イリア]「運命と嘆くな[page]
+「君の後維ぎ、末代まで力絶やすこと無く。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:イリア]「伝えられる遺文に彼らムーア人の思いが込められているような、そんな気がするわ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[pos][0x38][0x0]パージ神殿深層部[page]
+[end]</sn:pointer>
+
+</sn:script>

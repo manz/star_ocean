@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x5c][0x0]宿屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x5c][0x0]民家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x2a][0x0]道具屋・スキルギルド[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ラティ]「俺、何やってんだ？イヤリングのことはどうした？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">バダム「お、あんたたちか。悪いが仕事はあの人にやってもらうことになったんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]「えっ？
+[nick:イリア]「そんな！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">？？？「おう、さっきのコンビじゃねぇか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">？？？「なんだ、先約がいたのか。だったら俺の出る幕じゃねぇだろうが。[page]
+主人「いやあ、頼りなかったもんでつい[speed][0xa]・・・。[speed][0x0]
+だってとても[color][0x3]弱そう[color][0x2]なんですよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">？？？「わかった。俺がこいつに予備の剣を貸す。それでいいだろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[color][0x6][item][0xfd][0x14][color][0x2]と[color][0x6][item][0xb][0x15][color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">主人「ちょっとちょっと！[speed][0xa]・・・・・[speed][0x0]あんたも付いて行ってくれ。それならいい。
+この人たちだけじゃ不安だ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">？？？「ふむ、いいだろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">？？？「ということだ。あんたらも[color][0x4]ポートミス[color][0x2]に行きたいんだろ？[page]
+[nick:ラティ]「すいません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">？？？「お互い様さ。おれは[nick:シウス]＝ウォーレン、よろしくな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]「僕は[name:ラティクス]＝ファーレンス。[nick:ラティ]と呼んでください。[page]
+[nick:シウス]「おっと、かた苦しいのはやめてくれ。俺は[nick:シウス]でいい。[page]
+[nick:ラティ]「それじゃあ、[nick:ラティ]と呼んでくれ、かな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]「私は[nick:イリア]＝シルベストリ。私も呼び捨てでいいわ。よろしくね、[nick:シウス]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">主人「それじゃあ明日の昼に[color][0x6]通行証[color][0x2]を渡すからまた明日来てくれ。
+これは宿代だ。[page]
+[color][0x5]200[color][0x2]フォル手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]「ありがとう[nick:ラティ][speed][0xa]・・・[speed][0x0]ふふっ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]「店の人に聞いてきてくれないの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:イリア]「早く、渡しなさいよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ラティ]「何見てるんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:イリア]「え？[speed][0xa]・・・[speed][0x0]なんでもないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]「あ、きれいなイヤリング[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]「やっぱりそう思った？私もちょっといいかなって思ったのよ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">1．プレゼントしましょうか？
+2．[nick:イリア]さんなら似合うかな？
+3．でも安物みたいだな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]「やぁだ[speed][0xa]・・・、[speed][0x0]セリフ言う相手が違うんじゃな〜い？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ラティ]「えっ？そ、そんなつもりじゃあ[speed][0xa]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]「ふふっ[speed][0x5]、[speed][0x0][nick:ミリー]に言ったらきっと喜ぶわよ？[page]
+[nick:イリア]「でもせっかくだから、甘えちゃおうかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ラティ]「じゃあ、ちょっとそれ貸してください。店の人に聞いてきますから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]「[nick:イリア]さんならきっと似合いますよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]「そぉ[speed][0xa]？[speed][0x0]ありがと♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ラティ]「でもよく見ると安物みたいだなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]「あら、こういうのは値段じゃないわよ。自分が好きになれるか、心がこもっているかとか、そういうものでしょ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]「[nick:イリア]さん、また何か見つけたんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:イリア]「やだ、そんなんじゃないわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]「それともまた何か[nick:ラティ]にプレゼントしてもらおうかしら？[page]
+？？？「プレゼントがどうかしたんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ラティ]「い[speed][0x5]、[speed][0x0]いや別になんでもないんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ミリー]「ふ〜ん[speed][0xa]・・・。[speed][0x0][page]
+[nick:イリア]「あ、あのね[nick:ミリー]、これには全然深いイミは[speed][0xa]・・・。[speed][0x0][page]
+[nick:ミリー]「[nick:イリア]さんは黙ってて下さいっ。[page]
+[nick:イリア]「はい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ミリー]「どうして隠すの？[page]
+[nick:ラティ]「い、いやぁ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ミリー]「[nick:ラティ]〜ッ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:シウス]「よお[nick:ラティ]！ちょっとこっちにこねぇか？[page]
+[nick:ラティ]「え[speed][0x5]？[speed][0x0]ああ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:フィア]「まて、[nick:シウス]！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ラティ]「[nick:イリア]さん、どうかしたんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:イリア]「いえ、何でもないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]「あ、きれいなイヤリング[speed][0xa]・・・[speed][0x0]。[page]
+？？？「イヤリングがどうかしたの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ミリー]「今これのこと言ってたの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]「ほら、やることあるでしょ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">1．[nick:ミリー]にあげるか。
+2．[nick:イリア]さんにあげたいな。
+3．話をそらす[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:ラティ]「ちょっと待ってろよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:ラティ]「ちょっとまってて下さい、[nick:イリア]さん。[page]
+[nick:イリア]「え？なんでそうなるの？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ラティ]「そういえばこの間[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ミリー]「誰もそんな話聞いてないわよっ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ラティ]「寝てる[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ミリー]「そのイヤリングきれいよねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]痩れる。[page]
+[nick:イリア]「年ごろの女の子なんてあんなものよ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">バダム「ああ、そのイヤリングかい？いいよいいよ、どうせ安物だし。持ってってよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">バダム「いらっしゃ・・・おっ♪あんたら冒険者だな。ちょいと話だけでも聞いてくれないか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">1．聞かせてくれ
+2．結構です
+3．道具を買いたい[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">バダム「また明日来てくれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">バダム「ちゃんと[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてくれよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:シウス]「ほらよ。持ってきたぜ。[page]
+バダム「お♪早かったな。
+これは報酬だ。[page]
+[color][0x5]600[color][0x2]フォル手に入れた。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">バダム「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">？？？「おう、おまえらも冒険者なのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">娘「さぁ、そんな二人は知らないけど[speed][0xa]・・・[speed][0x0]。それにしてもどこではぐれたかもわからないってどういうこと？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">女「そこの人、すごく言葉遣いがわるいのよ。
+親の顔が見てみたいわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">女「こんにちは。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">宿屋の娘「よく眠れましたか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">宿屋の娘「一泊[color][0x5]10[color][0x2]フォルです。泊まりますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[end]</sn:pointer>
+
+<sn:pointer id="71">お金が足りません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[end]</sn:pointer>
+
+<sn:pointer id="73">女剣士「あんたら冒険者かい？あたしは師匠の墓参りにわざわざ[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだ。こればかりはどうしてもすっぽかす気になれなくてね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">剣士「[color][0x4]アストラル[color][0x2]に有名な鍛冶師がいるらしいぜ。さすがは剣の王国と謳われるだけのことはあるよな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">娘「冒険者はけっこう来るから、顔なんかいちいち覚えてないわ。ごめんなさいね、役に立てなくて。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">娘「この辺りはいいわよ。[color][0x4]シルヴァラント[color][0x2]の方にいったらきっと魔物がすごくておちおち外も出歩けないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">老婆「捜し人？わしゃあ、外に出んからのう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">老婆「孫が魔物を剖すと勇んで[color][0x4]シルヴァラント[color][0x2]に行ってしもうた[speed][0xa]・・・[speed][0x0]。あ奴の父親もそうじゃった。わしはただそばにいてくれさえすればええと言っとるのに・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">アドバイザー「話を聞くかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">アドバイザー「スキルを覚えることの目的は大きく分けて3つある。[page]
+「一つはスキル自体のボーナス効果を得ること。たとえばある知識のスキルを覚えるとＩＮＴが上昇する、みたいなやつだな。[page]
+「二つ目は特定のスキルの組み合わせによって覚える特技コマンドを修得すること。細工とか、ダッシュとか10種類以上あるから全部覚えようと思ったら大変だな。[page]
+「そして最後は1番目に言ったのと似てるけどちょっと違う。戦闘用のスキルを覚えることだ。戦闘用のスキルは覚えることで有利になるし、戦闘内容にもバリエーションができる。リンクコンボなんて覚えたらバトルジャンキーになってもおかしくないぜ。[page]
+「長くなったがようするに、スキルポイントはよく考えて、目的を持って使うのがよろしいと、そういうことだな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[end]</sn:pointer>
+
+<sn:pointer id="82">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">1知識関連スキルＬＶ1　300
+2感覚関連スキルＬＶ1　100
+3技術関連スキルＬＶ1　600[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[end]</sn:pointer>
+
+<sn:pointer id="85">ギルドマスター「精進しなよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">ギルドマスター「お金が足りないぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">ギルドマスター「もう、持っているぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">説明員「私はスキルセットの内訳をみなさんに教えています。
+どれの説明をしましょうか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">1．知識関連スキルＬＶ1
+2．感覚関連スキルＬＶ1
+3．技術関連スキルＬＶ1[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">説明員「知識関連スキルＬＶ1の内訳は、
+薬草学と
+鉱物学と
+レシピよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">説明員「感覚関連スキルＬＶ1の内訳は、
+めききと
+美的感覚と
+忍耐よ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">説明員「技術関連スキルＬＶ1の内訳は、
+ダッシュと
+ほうちょうと
+デッサンと
+口笛よ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[end]</sn:pointer>
+
+<sn:pointer id="94">バダム「実は[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてほしい物があるんだ。最近はメトークス山道も物騒だからな。[page]
+「もちろん報酬は支払うし、[color][0x4]ポートミス[color][0x2]への通行証も付けるし、悪い話じゃないだろ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:イリア]「[color][0x4]ポートミス[color][0x2]って・・・？[page]
+バダム「ここから北にある町です。[page]
+[nick:イリア]「[color][0x6]通行証[color][0x2]が必要なの？[page]
+バダム「そうだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">1．仕事を曼けたい
+2．断る[page]
+[end]</sn:pointer>
+
+<sn:pointer id="97">[end]</sn:pointer>
+
+<sn:pointer id="98">バダム「気持ちはうれしいんだが、それなりの武器くらい持ってないとねぇ。[page]
+[nick:イリア]「仕方ないわ。出直しましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="99">バダム「そうか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="100">バダム「そうか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="101">バダム「いらっしゃい[page]
+[end]</sn:pointer>
+
+<sn:pointer id="102">[end]</sn:pointer>
+
+<sn:pointer id="103">バダム「約東はおとといのはずだぞ。とにかく急いでくれよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="104">バダム「約東は昨日のはずだぞ。とにかく急いでくれよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="105">バダム「何日待たせるんだ！！とにかく急いでくれよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="106">バダム「ほら、これが[color][0x6]通行証[color][0x2]だ。[page]
+[color][0x6]通行証[color][0x2]を手に入れました。[page]
+バダム「ちゃんと[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてくれよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="107">[nick:ペリシー]「ここにあたしのトモダチがいるの？[page]
+[nick:ラティ]「たぶん[speed][0xa]・・・。[speed][0x0]石像であんなブサイクなウサギ（？）みたいな奴はあんまり無いと思うしなぁ。[page]
+[nick:ペリシー]「ブサイクじゃないよ！ラブラブなんだからっ！[page]
+[nick:ラティ]「ら[speed][0xa]、[speed][0x0]らぶらぶ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="108">バダム「どうかしたのかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="109">[nick:ラティ]「前にここまで運んできた彫像がありましたよね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="110">バダム「ああ、これだろ？これがどうかしたのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="111">[nick:ペリシー]「ばーにぃだ！[page]
+バダム「へ[speed][0xa]？[speed][0x0]ばーにい？[page]
+[nick:ペリシー]「ねぇこれあたしのトモダチなんだから返して〜！[page]
+バダム「んなこと言われてもねぇ[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="112">[nick:ペリシー]「ばーにぃったら、起きてよお！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="113">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]目が覚めたかや？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="114">バダム「せ[speed][0xa]、[speed][0x0]石像が動いた[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

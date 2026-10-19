@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">兵士「通ってよし！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">兵士「通ってよし！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[speed][0x1]「クシュンッ！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ロニキス]「どうした？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ミリー]「だれか、この“麗しい”[nick:ミリー]ちゃんのウワサしてるのかナ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ミリー]「ま[speed][0x5]、[speed][0x0]いっか。それより早く[nick:ロニキス]さんの服探しましょうね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ロニキス]「おお[speed][0x5]、[speed][0x0]そうだったな。[page]
+[nick:ミリー]「わたしがかっこＥの選んであげますから。[page]
+[nick:ロニキス]「わ[speed][0x5]、[speed][0x0]わるいな[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">れいくんげんき？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">北：ヴァン城下町
+南：イオニス[page]
+[end]</sn:pointer>
+
+</sn:script>

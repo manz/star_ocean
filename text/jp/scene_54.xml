@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x5c][0x0]宿屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x5c][0x0]宿屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x58][0x0]民家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x56][0x0]武具屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x50][0x0]食料品店[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x56][0x0]道具屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x44][0x0]スキルギルド[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">宿屋の親父「よく眠れたかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">宿屋の親父「いらっしゃい。
+お金が足りないのかい？いいよ、今日はただで泊めてあげるよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">宿屋の親父「いらっしゃい。
+一泊[color][0x5]30[color][0x2]フォルだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">泊まりますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[end]</sn:pointer>
+
+<sn:pointer id="13">お金が足りません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[end]</sn:pointer>
+
+<sn:pointer id="15">隻眼の傭兵「俺は[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだが、結局金と左目を引き換えさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">傭兵ウォルス「アストラル騎士団は大陸最強との噂が高い。俺程度じゃとてもかなわんな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">老婆「錬金術なんて夢みたいなもの、本気でできると考えておるのかねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">老人「才能が無いと嘆く前にまず努力じゃ。努力すればきっと報われる！！忘れるでないぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">武具屋「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">若い剣士「いい剣は腕のいい鍛冶師に頼むしかないのかなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">女剣士「アストラル騎士団に紅一点、女性の騎士長がいるらしいの。騎士団長ライアス様の娘という話だけど、あーもう、ステキよねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:シウス]「[speed][0xa]・・・[speed][0x0]。[page]
+[nick:ラティ]「[nick:シウス]、どうした？[page]
+[nick:シウス]「いや、別に[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[end]</sn:pointer>
+
+<sn:pointer id="24">女剣士「あ、あなたはもしかして、ライアス様とともに魔界大戦で戦ったという[speed][0xa]・・・！[speed][0x0][page]
+[nick:アシュレイ]「古い話じゃ。あまりもちださんでくれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">食料品店「いらっしゃい[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">道具屋「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">冒険者「エダール剣術を習いたいんだが、入門できるだろうか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">むさくるしい男「アストラル騎士団の長は相当な腕前らしいな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">1知識関連スキルＬＶ1　　300
+2知識関連スキルＬＶ2　　600
+3技術関連スキルＬＶ2　1200
+4戦闘関連スキルＬＶ1　1000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[end]</sn:pointer>
+
+<sn:pointer id="32">ギルドマスター「精進しなよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">ギルドマスター「お金が足りないぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">ギルドマスター「もう、持っているぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">アドバイザー「話を聞きますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">アドバイザー「特技コマンドを覚えようにも必要なスキルが見当たらないってことありませんでしたか？[page]
+「そんなときはどんどん先の町に進んで新しいスキルセットを買うことをおすすめします。[page]
+「あたりまえすぎてつまらなかった？ごめんなさいね。それじゃあ、私のおすすめスキルを一つ。“努力”なんていかが？[page]
+「スキル修得に必要なスキルポイントが減るのよ。広くスキルを覚えようと思ったときなんか便利ですよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[end]</sn:pointer>
+
+<sn:pointer id="38">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">1．知識関連スキルＬＶ1
+2．知識関連スキルＬＶ2
+3．技術関連スキルＬＶ2
+4．戦闘関連スキルＬＶ1[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">説明員「知識関連スキルＬＶ1の内訳は、
+薬草学と
+鉱物学と
+レシピです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">説明員「知識関連スキルＬＶ2の内訳は、
+道具知識と
+オタマジャクシと
+生物学です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">説明員「技術関連スキルＬＶ2の内訳は、
+クラフトと
+文筆と
+調教です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">説明員「戦闘関連スキルＬＶ1の内訳は、
+衝撃波と
+真空波と
+めくりです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:フィア]「ん、[nick:ラティ]か[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「元気ないな。どうしたんだ？[page]
+[nick:フィア]「なんか、おまえには情けない所ばかり見られてるような気がするよ。[page]
+[nick:ラティ]「そんなことないさ。[page]
+[nick:フィア]「いや、ライアス様が殺され、自分も濡れ衣を着せられ[speed][0xa]・・・[speed][0x0]あいつがいてくれたらって、気弱になってる自分が嫌でな[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">1．はげます
+2・一人にしておいてあげる[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]精神的にまいってる時はそんなもんだろ？早く元気出してくれよ。迷いを残したまま敵と戦ってもいいことなんか一つもないぜ？[page]
+[nick:フィア]「[speed][0xa]・・・[speed][0x0]そうだよな、すまない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:フィア]「ん、[nick:ラティ]か[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「元気だせよ[speed][0xa]・・・。[speed][0x0][page]
+[nick:フィア]「すまん。少しだけ一人にさせてくれないか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:フィア]「[nick:ラティ]か。[page]
+[nick:ラティ]「邪魔だった？[page]
+[nick:フィア]「いや、暇つぶしになってちょうどいい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:ラティ]「[nick:フィア]って、[nick:シウス]と幼なじみなのか？[page]
+[nick:フィア]「ん？ああ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:フィア]「私は孤児でな。幼い頃にライアス様に引き取られたんだ。[page]
+[nick:ラティ]「ライアス様って、[nick:シウス]の親父だろ？[page]
+[nick:フィア]「そうだ。だから私はあいつの妹みたいな感じだったのさ。もっとも今じゃどっちがどっちかわかんないけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ラティ]「聞いていいか？[page]
+[nick:フィア]「なんだ？[page]
+[nick:ラティ]「[nick:シウス]はなぜ旅をしてるんだ？武者修行にしては俺たちが初めて[color][0x4]アストラル[color][0x2]に行った時の様子が普通じゃなかったし。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ラティ]「何がおかしいんだ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:フィア]「いや、その辺のワケはあいつにも聞かないでやってくれ。結構照れ屋だからな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:フィア]「[nick:ラティ]か。[page]
+[nick:ラティ]「邪魔だった？[page]
+[nick:フィア]「いや、暇つぶしになってちょうどいい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ラティ]「[nick:フィア]って、[nick:シウス]と幼なじみなのか？[page]
+[nick:フィア]「ん？ああ[speed][0xa]・・・。[speed][0x0]そうか、あいつと多少は面識があるんだったな。[page]
+[nick:ラティ]「ああ、ちょっとね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:フィア]「私は孤児でな。幼い頃にライアス様に引き取られたんだ。[page]
+[nick:ラティ]「ライアス様って、[nick:シウス]の親父だろ？[page]
+[nick:フィア]「そうだ。だから私はあいつの妹みたいな感じだったのさ。子供のころからずっと一緒で、でも[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「でも？[page]
+[nick:フィア]「あいつは父親の顔に泥を塗るようなマネをしたのさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:フィア]「ライアス様は[nick:シウス]の才能を見いだして、あいつを騎士長に推したんだが、まわりの連中の中傷がひどくて。あいつは耐えられなくなって逃げたんだ！[page]
+[nick:ラティ]「[nick:シウス]が？！[page]
+[nick:フィア]「そりゃあ、確認したわけじゃない。でも、それ以外考えられない！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:フィア]「自分の力に自身があれば騎士長になってたはずさ。結果的にあいつは自分の父親をも信じられず[speed][0xa]・・・[speed][0x0]。[page]
+[nick:ラティ]「わかった[speed][0xa]・・・[speed][0x0]聞いて悪かったよ。[page]
+[nick:フィア]「いや、いいんだ。[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

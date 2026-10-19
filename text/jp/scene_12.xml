@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x44][0x0]クラトスの町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ミリー]「早く[nick:ドーン]の所に行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ミリー]「ごめん、みんな[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">？？？「待てよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ミリー]「[speed][0xf]・・・[speed][0x0][nick:ドーン][speed][0xf]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ドーン]「一人で行くつもりだったのか？[page]
+[nick:ミリー]「[speed][0xf]・・・・。[speed][0x0][page]
+[nick:ドーン]「[color][0x4]メトークス山頂[color][0x2]に薬草を採りに行く気なんだろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ドーン]「おまえの考えていることなんて
+なんでもお見通しさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ドーン]「あんな危険な所に一人で[speed][0xa]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ミリー]「ごめん[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ドーン]「[speed][0xf]・・・[speed][0x0]顔、あげろよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ミリー]「え？[page]
+[nick:ドーン]「元気だせよ[speed][0xf]・・・。[speed][0x0]薬草さえあればきっと親父さん元気になるから[speed][0xa]・・・[speed][0x0]、な？[page]
+[nick:ミリー]「[speed][0xa]・・・[speed][0x0]うん[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ミリー]「でも[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ドーン]「俺は、おまえが悲しんでる顔を見るのが一番嫌なんだ[speed][0x14]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ミリー]「[nick:ドーン]？[page]
+[nick:ドーン]「俺は、[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ドーン]「おまえが[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ドーン]「う[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]「[nick:ドーン]、どうしたの？大丈夫？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ドーン]「近づくなっ！！
+[speed][0x18][speed][0x0]い[speed][0x5]、[speed][0x0]いや[speed][0x5]、[speed][0x0]何でもないから[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ミリー]「でも[speed][0xf]・・・[speed][0x0]あ、ちょっと待ってて、人を呼んでくるから！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ミリー]「[nick:ラティ]！！[nick:ドーン]が[speed][0xa]・・・[speed][0x0]！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ドーン]「[speed][0xa]・・・[speed][0x0]痛っ[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ドーン]「ちぇっ[speed][0xa]・・・。[speed][0x0]いつも困った時の第一声は“[nick:ラティ]”[speed][0xa]・・・[speed][0x0]なんだよな[speed][0xa]・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ミリー]「[nick:ラティ]！！[nick:ドーン]が[speed][0xa]・・・[speed][0x0]！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ラティ]「急ごう！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ミリー]「大丈夫？[page]
+[nick:ドーン]「は？[speed][0x8][speed][0x0]なんのことだ？[page]
+[nick:ミリー]「だって[speed][0x8]、[speed][0x0]さっき[speed][0xa]・・・！！[speed][0x0][page]
+[nick:ドーン]「何でもないって言っただろ[speed][0x8]？[speed][0x0]早とちりすんなよ、立ちくらみだって。[page]
+[nick:ドーン]「それより[nick:ラティ]、[color][0x4]メトークス山頂[color][0x2]に薬草を採りに行こうぜ。[nick:ミリー]の親父さんを助けるんだ。[page]
+[nick:ラティ]「ああ。
+それなら[color][0x4]クール[color][0x2]の北か・・・。[page]
+[nick:ドーン]「そうだな。あそこはフェルウォームが出るから気をつけないとな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[pos][0x44][0x0][nick:ラティ]の家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[mode8][0x38][pos][0x46][0x0]その日の夜[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[mode8][0x0][nick:ラティ]の母親「お茶がはいったわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ミリー]「どうもすみません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">母親「ゆっくりしていってね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ドーン]「しかし今日の盗賊は楽勝だったな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ミリー]「何言ってんのよ。
+結構危なかったくせに。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ミリー]「[nick:ラティ]、どうしたの？
+元気無いわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">母親「最近いつもこうなのよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ドーン]「じゃあな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ラティ]「ああ。[page]
+[nick:ミリー]「明日は元気な顔みせてね[speed][0x19]、[speed][0x0][nick:ラティ]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ミリー]「おじゃましました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">母親「また遊びにきてね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ラティ]「暇って事は、平和って事だから[speed][0xf]、か・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">母親「こんな夜更けにどうしたの？[nick:ミリー]ちゃん。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">鍵がかかっています。[page]
+[end]</sn:pointer>
+
+</sn:script>

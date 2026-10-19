@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:イリア]「バダムさんが言ってた武器屋ってどこにあるのかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:シウス]「俺はこの町はよく知らねぇ。[page]
+[nick:ラティ]「なら、探そうか。[page]
+[nick:イリア]「そうね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x4a][0x0]ポートミス[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x4a][0x0]ポートミス[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:シウス]「休むのは後にしようぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">年頃のアリサ「私ねぇ、一度だけ翼の生えた人を見たことがあるの♪
+きれいで、ホント天使みたいだったわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">赤鼻のオヤジ「定期船に乗ればアストラル王国の[color][0x4]オタニム[color][0x2]に行けるぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">今風の若者「ムーア国王ってあんま顔見たことないぜ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">清楚な女性「[color][0x4]ポートミス[color][0x2]の通行が不便になったのは北方の蛮族が現れるようになってからなんです。これも魔界の勢力が関わりあるんでしょうか・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">そばかすの娘「テリーったら何してるのかしら。また待ち合わせの時間忘れてるの？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">そばかすの娘「私のことなんてどうでもいいんでしょ？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">テリー「ごめんキャンディ！！許してくれ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">チョビン「ぼく・・・この名前嫌なんだよなぁ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">おねぇさん「キツネ見た[speed][0x14]？[speed][0x0]カワイーけど捕まえられるのかなぁ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">旅人ラドル「最近物忘れがはげしくてね。よく道に迷うんだ。でも君のことは覚えてるよ。ありがとうな。[page]
+[color][0x6]スペルポーション[color][0x2]を手に入れた。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">旅人ラドル「最近物忘れがはげしくてね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ラティ]「はれ？なんか[speed][0xa]・・・[speed][0x0]体が、変らぞ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ラティ]「なんかＥ感じら♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:マーヴェル]「[speed][0xa]・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:マーヴェル]「[color][0x4]タトローイ[color][0x2]の闘技場は優勝者の職業によって賞品を変えてくれるっていう話、知ってますか？。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ミリー]「あれ？みつかっちゃった♪[page]
+[nick:ラティ]「みつかったじゃないだろ？何やってんだこんな所で。[page]
+[nick:ミリー]「え？私が見当たらなかったら[nick:ラティ]見つけてくれるかなぁって[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">1．捜すにきまってるだろ
+2．偶然だよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]「捜すに決まってるだろ？！[page]
+[nick:ミリー]「そう？よかった♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ラティ]「今は偶然通りかかっただけさ。[page]
+[nick:ミリー]「[speed][0xa]・・・[speed][0x0]そうなの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ミリー]「[nick:マーヴェル]さんってどうしてそんなにキレーなんですかぁ？！ウェストも足もこーんなに細くて、もう私初めて会ったときからファンですから！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:マーヴェル]「やだ、やめてよ[nick:ミリー]ちゃん。[page]
+[nick:ミリー]「本気ですよぉ！　なんか特別なダイエットとかしたんですか？ほんとに私と同じ人とは思えないくらい！[page]
+[nick:マーヴェル]「[speed][0xa]・・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ミリー]「私なんか気に触ることいいました？[page]
+[nick:マーヴェル]「いえ、なんでもないわ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ミリー]「[nick:ラティ]、[nick:マーヴェル]さんってほんとーに奇麗だと思わない？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">1．うん
+2．本人の前じゃちょっと言えないよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]「ああ、確かにね。[page]
+[nick:ミリー]「でしょ？でしょ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]「そういうこと本人の前で平気で言えるかよ。[page]
+[nick:ミリー]「なによ！やましい気持ちが無いなら別に相づちくらいうってくれてもいいじゃない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ヨシュア]「あのオカリナの猫さんがいませんが、どこ行ったんでしょう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ヨシュア]「あの猫さん、城の方を歩き回ってたんですか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ヨシュア]「こうふらふらと歩いている時でもフと偶然でもいいから妹に会えないか、なんて考えてしまいます[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ペリシー]「町っていろんなものがあるね♪見ててぜーんぜん飽きないよ♥[page]
+[end]</sn:pointer>
+
+</sn:script>

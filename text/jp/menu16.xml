@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="60020">（なし）[end]</sn:pointer>
+
+<sn:pointer id="60022">特技メニューの中から選べます[end]</sn:pointer>
+
+<sn:pointer id="60023">戦闘中に使用する必殺技をボタンに設定できます[end]</sn:pointer>
+
+<sn:pointer id="60024">戦闘中に自動使用する呪紋を設定できます[end]</sn:pointer>
+
+<sn:pointer id="60025">特技が有りません[end]</sn:pointer>
+
+<sn:pointer id="60030">[end]</sn:pointer>
+
+<sn:pointer id="60031">成功しました[end]</sn:pointer>
+
+<sn:pointer id="60032">失敗しました[end]</sn:pointer>
+
+<sn:pointer id="60035">アイテム作成中[end]</sn:pointer>
+
+<sn:pointer id="60036">アイテム鑑定中[end]</sn:pointer>
+
+<sn:pointer id="60037">作曲中[end]</sn:pointer>
+
+<sn:pointer id="60040">新規入手アイテムを先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60041">戦闘中使用できるアイテムを先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60042">名前をあいうえお順にならべかえます[end]</sn:pointer>
+
+<sn:pointer id="60043">武器を先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60044">防具を先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60045">装備品を先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60046">現在使用できるアイテムを先頭にあつめます[end]</sn:pointer>
+
+<sn:pointer id="60050">アイテムを作成できます[end]</sn:pointer>
+
+<sn:pointer id="60051">貴重品を確認できます[end]</sn:pointer>
+
+<sn:pointer id="60060">最強装備をします
+その他には装備されません[end]</sn:pointer>
+
+<sn:pointer id="60061">その他以外の装備を変更すると
+自動的にＯＦＦになります[end]</sn:pointer>
+
+<sn:pointer id="60902">特技[end]</sn:pointer>
+
+<sn:pointer id="60903">アイテム　　[end]</sn:pointer>
+
+<sn:pointer id="60904">作戦[end]</sn:pointer>
+
+<sn:pointer id="60905">レジスト[end]</sn:pointer>
+
+<sn:pointer id="60906">装備[end]</sn:pointer>
+
+<sn:pointer id="60907">隊形[end]</sn:pointer>
+
+<sn:pointer id="60908">ステータス[end]</sn:pointer>
+
+<sn:pointer id="60909">セーブ[end]</sn:pointer>
+
+<sn:pointer id="60910">ロード[end]</sn:pointer>
+
+<sn:pointer id="60911">店[end]</sn:pointer>
+
+<sn:pointer id="60912">[end]</sn:pointer>
+
+<sn:pointer id="60914">名前入力[end]</sn:pointer>
+
+<sn:pointer id="60927">入れかえ[end]</sn:pointer>
+
+<sn:pointer id="60928">スキル[end]</sn:pointer>
+
+<sn:pointer id="61000">[end]</sn:pointer>
+
+<sn:pointer id="61110">アイテムを選択中は取引の指
+示で、店を出るときに清算し
+[end]</sn:pointer>
+
+<sn:pointer id="61111">ます。[end]</sn:pointer>
+
+<sn:pointer id="61112">　説明切り替え
+　数を減らす　　増やす
+[end]</sn:pointer>
+
+<sn:pointer id="61114">アイテムを選択中はハトに指
+示で、ハトを使う時に清算し
+[end]</sn:pointer>
+
+<sn:pointer id="61120">アイテムを買います[end]</sn:pointer>
+
+<sn:pointer id="61121">アイテムを売ります[end]</sn:pointer>
+
+<sn:pointer id="61122">取引を行い店を出ます[end]</sn:pointer>
+
+<sn:pointer id="61123">フォル不足です[end]</sn:pointer>
+
+<sn:pointer id="61125">ハトに指示します[end]</sn:pointer>
+
+<sn:pointer id="61126">ハトを飛ばします[end]</sn:pointer>
+
+<sn:pointer id="61127">[end]</sn:pointer>
+
+<sn:pointer id="61128">フォル不足です[end]</sn:pointer>
+
+<sn:pointer id="61130">取引を行いませんでした[end]</sn:pointer>
+
+<sn:pointer id="61131">ありがとうございました[end]</sn:pointer>
+
+<sn:pointer id="61900">（武器）[end]</sn:pointer>
+
+<sn:pointer id="61901">（防具）[end]</sn:pointer>
+
+<sn:pointer id="61902">（装飾品）[end]</sn:pointer>
+
+<sn:pointer id="61903">（その他）[end]</sn:pointer>
+
+<sn:pointer id="61950">[end]</sn:pointer>
+
+<sn:pointer id="61951">？[end]</sn:pointer>
+
+<sn:pointer id="61952">[end]</sn:pointer>
+
+<sn:pointer id="62000">なにもできませんでした[end]</sn:pointer>
+
+<sn:pointer id="62001">・・・なんだ？コレ[end]</sn:pointer>
+
+<sn:pointer id="62002">やーん、想像してたのと違うよぉ！！[end]</sn:pointer>
+
+<sn:pointer id="62003">・・・[end]</sn:pointer>
+
+<sn:pointer id="62004">こ、これは・・・！！ダメだな[end]</sn:pointer>
+
+<sn:pointer id="62005">こんなの見せたらセンス疑われちゃうわ[end]</sn:pointer>
+
+<sn:pointer id="62006">くおぉー！こうゆうの俺にやらせんな！！[end]</sn:pointer>
+
+<sn:pointer id="62007">これはさすがに、ちょっと・・・[end]</sn:pointer>
+
+<sn:pointer id="62008">けっこういい気がするが、気のせいか？[end]</sn:pointer>
+
+<sn:pointer id="62009">・・・これは闇に葬るしか・・・[end]</sn:pointer>
+
+<sn:pointer id="62010">むう・・・・
+予期せぬものが出来上がったわい[end]</sn:pointer>
+
+<sn:pointer id="62011">かっこ悪ぅー！！
+これあたしが作ったんじゃないよ！[end]</sn:pointer>
+
+<sn:pointer id="62012">・・・これはさっさと隠しましょう・・・[end]</sn:pointer>
+
+<sn:pointer id="62500">[end]</sn:pointer>
+
+<sn:pointer id="62501">鑑定できませんでした[end]</sn:pointer>
+
+<sn:pointer id="62502">作曲できませんでした[end]</sn:pointer>
+
+<sn:pointer id="64000">ファイアボルト
+炎属性の攻撃呪紋。火球を発する[end]</sn:pointer>
+
+<sn:pointer id="64001">アイスニードル
+氷属性の攻撃呪紋。氷の刃を発する[end]</sn:pointer>
+
+<sn:pointer id="64002">グレイブ
+地属性の攻撃呪紋。地面から岩の槍を突き出す[end]</sn:pointer>
+
+<sn:pointer id="64003">ウィンドブレイド
+風属性の攻撃呪紋。かまいたちを巻き起こす[end]</sn:pointer>
+
+<sn:pointer id="64004">シャドウボルト
+闇属性の攻撃呪紋[end]</sn:pointer>
+
+<sn:pointer id="64005">イラプション
+炎属性の攻撃呪紋。マグマを吹き上げる[end]</sn:pointer>
+
+<sn:pointer id="64006">ブリザード
+水属性の攻撃呪紋。吹雪を巻き起こす[end]</sn:pointer>
+
+<sn:pointer id="64007">アースグレイブ
+地属性の攻撃呪紋。一定範囲に及ぶグレイブ[end]</sn:pointer>
+
+<sn:pointer id="64008">サンダーボルト
+雷属性の攻撃呪紋。雷撃を巻き起こす[end]</sn:pointer>
+
+<sn:pointer id="64009">ウーンズ
+闇属性の攻撃呪紋[end]</sn:pointer>
+
+<sn:pointer id="64010">レイ
+光属性の攻撃呪紋。熱線で敵を焼き尽くす[end]</sn:pointer>
+
+<sn:pointer id="64011">トラクタービーム
+無属性の攻撃呪紋。重力を遮断して敵を宙へ
+持ち上げ、落下させる[end]</sn:pointer>
+
+<sn:pointer id="64012">エクスプロード
+炎属性の攻撃呪紋。一定範囲に大爆発を巻き
+起こす[end]</sn:pointer>
+
+<sn:pointer id="64013">[end]</sn:pointer>
+
+<sn:pointer id="64014">アースクェイク
+地属性の攻撃呪紋。地震を巻き起こす[end]</sn:pointer>
+
+<sn:pointer id="64015">サンダーストーム
+雷属性の攻撃呪紋。落雷を生じさせる[end]</sn:pointer>
+
+<sn:pointer id="64016">ワードオブデス
+死属性の攻撃呪紋[end]</sn:pointer>
+
+<sn:pointer id="64017">ライトクロス
+光属性の攻撃呪紋。[end]</sn:pointer>
+
+<sn:pointer id="64018">[end]</sn:pointer>
+
+<sn:pointer id="64019">スターフレア
+光属性の攻撃呪紋[end]</sn:pointer>
+
+<sn:pointer id="64020">エクステンション
+無属性の攻撃呪紋。敵を分子レベルまで
+分解する[end]</sn:pointer>
+
+<sn:pointer id="64021">グレムリンレアー
+無属性の攻撃呪紋。魔界の餓鬼を無数に
+召喚する[end]</sn:pointer>
+
+<sn:pointer id="64022">メテオスォーム
+無属性の攻撃呪紋。隕石群を呼び寄せる[end]</sn:pointer>
+
+<sn:pointer id="64023">ダークサークル
+体力が1／4以下の敵をすいこむ空間を作り
+出す呪紋[end]</sn:pointer>
+
+<sn:pointer id="64024">ヒール
+仲間一人の体力を一定値回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64025">ディープミスト
+敵の命中率を低下させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64026">プレス
+あつ力で敵を押しつぶす呪紋[end]</sn:pointer>
+
+<sn:pointer id="64027">フィクスクラウド
+敵を一定時間動けなくする呪紋[end]</sn:pointer>
+
+<sn:pointer id="64028">アンチドート
+解毒呪紋[end]</sn:pointer>
+
+<sn:pointer id="64029">サイレンス
+敵の呪紋を封じる[end]</sn:pointer>
+
+<sn:pointer id="64030">アシッドレイン
+敵の防御力を低下させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64031">キュアオール
+仲間の体力を一定値回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64032">グロース
+仲間の攻撃力を上昇させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64033">キュアライト
+仲間の体力を一定値回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64034">プロテクション
+仲間の防御力を上昇させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64035">ディスペル
+攻撃力低下などの補助系呪紋の解除を行う
+呪紋[end]</sn:pointer>
+
+<sn:pointer id="64036">ヘイスト
+仲間の移動速度を速くする呪紋[end]</sn:pointer>
+
+<sn:pointer id="64037">ディレイ
+敵の移動速度を遅くする呪紋[end]</sn:pointer>
+
+<sn:pointer id="64038">フェアリィヒール
+仲間の体力を一定値回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64039">フェアリィライト
+仲間の体力を一定値回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64040">グラビティブレス
+プレスを強化した呪紋[end]</sn:pointer>
+
+<sn:pointer id="64041">レイズデッド
+仲間を行動不能から回復させる呪紋[end]</sn:pointer>
+
+<sn:pointer id="64042">双破斬
+敵に対し剣を斬り上げ、高速で切り下ろす
+2段技[end]</sn:pointer>
+
+<sn:pointer id="64043">空破斬
+遠間合いから衝撃波を発する技[end]</sn:pointer>
+
+<sn:pointer id="64044">衝裂破
+自分の周囲に衝撃波を巻き起こす技[end]</sn:pointer>
+
+<sn:pointer id="64045">衝霊破
+衝撃波を発する技[end]</sn:pointer>
+
+<sn:pointer id="64046">雷鳴剣
+雷の力をまとった剣の一撃をあびせる技[end]</sn:pointer>
+
+<sn:pointer id="64047">紅蓮剣
+炎の力をまとった剣の一撃をあびせる技[end]</sn:pointer>
+
+<sn:pointer id="64048">閃光剣
+閃光を発して敵を攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64049">蒼龍“醒”雷斬
+四聖獣奥義の一つ。蒼龍の力を得る[end]</sn:pointer>
+
+<sn:pointer id="64050">朱雀“翔”撃破
+四聖獣奥義の一つ。朱雀の力を得る[end]</sn:pointer>
+
+<sn:pointer id="64051">七星雷鳴剣
+七星奥義の極意によって昇華した雷鳴剣[end]</sn:pointer>
+
+<sn:pointer id="64052">七星閃光剣
+七星奥義の極意によって昇華した閃光剣[end]</sn:pointer>
+
+<sn:pointer id="64053">七星双破斬
+七星奥義の極意によって昇華した双破斬[end]</sn:pointer>
+
+<sn:pointer id="64054">双流戟破
+[end]</sn:pointer>
+
+<sn:pointer id="64055">襲爪戟破
+[end]</sn:pointer>
+
+<sn:pointer id="64056">星天衝[end]</sn:pointer>
+
+<sn:pointer id="64057">吼竜破
+せんりをかける龍のような力を秘めた技[end]</sn:pointer>
+
+<sn:pointer id="64058">黒竜天雷破
+皇龍奥義の極意によって昇華した吼竜破[end]</sn:pointer>
+
+<sn:pointer id="64059">緋竜天雷破
+皇龍奥義の極意によって昇華した
+朱雀翔撃破[end]</sn:pointer>
+
+<sn:pointer id="64060">蒼竜天雷破
+皇龍奥義の極意によって昇華した
+蒼龍醒雷斬[end]</sn:pointer>
+
+<sn:pointer id="64061">四聖獣奥義の極意によって昇華した
+衝霊破[end]</sn:pointer>
+
+<sn:pointer id="64062">[end]</sn:pointer>
+
+<sn:pointer id="64063">蒼竜招来
+四聖獣奥義の極意によって昇華した
+閃光剣[end]</sn:pointer>
+
+<sn:pointer id="64064">玄武招来
+四聖獣奥義の極意によって昇華した
+衝霊破[end]</sn:pointer>
+
+<sn:pointer id="64065">白虎招来
+四聖獣奥義の極意によって昇華した
+衝裂破[end]</sn:pointer>
+
+<sn:pointer id="64066">七星紅蓮剣
+七星奥義の極意によって昇華した紅蓮剣[end]</sn:pointer>
+
+<sn:pointer id="64067">レイヴンソード
+飛翔剣。レイブンとは黒鳥の事で、その名の
+通り剣を自在に投げつける技[end]</sn:pointer>
+
+<sn:pointer id="64068">ダンシングソード
+目標を手元に引きよせ、切り上げる技[end]</sn:pointer>
+
+<sn:pointer id="64069">3ＶＯＬＬＥＹ
+剣を3連しゃする技[end]</sn:pointer>
+
+<sn:pointer id="64070">3ＷＡＹ
+剣を3方向に投げつける技[end]</sn:pointer>
+
+<sn:pointer id="64080">アクアスプレッド
+流水の力を剣にこめた技[end]</sn:pointer>
+
+<sn:pointer id="64081">ギャラクシィゴッドブレス
+星域の力をもちいて攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64082">シルヴァンショット
+武神奥義の極意によって昇華した3ＷＡＹ
+[end]</sn:pointer>
+
+<sn:pointer id="64083">アンホーリーテラー
+武神奥義の極意によって昇華した
+ギャラクシーゴッドブレス[end]</sn:pointer>
+
+<sn:pointer id="64084">ヴィクトリィテラー
+武神奥義の極意によって昇華した
+アンホーリーテラー[end]</sn:pointer>
+
+<sn:pointer id="64085">気功掌
+気を放出して敵にダメージを与える技[end]</sn:pointer>
+
+<sn:pointer id="64086">流星掌
+高いちから打ちおろす威力の高いパンチ[end]</sn:pointer>
+
+<sn:pointer id="64087">練気拳
+気をためた連打を繰り出す技[end]</sn:pointer>
+
+<sn:pointer id="64088">気功蹴
+気を利用して刃のように鋭い蹴りを繰り出す
+技[end]</sn:pointer>
+
+<sn:pointer id="64089">[end]</sn:pointer>
+
+<sn:pointer id="64090">[end]</sn:pointer>
+
+<sn:pointer id="64091">蒼龍“醒”雷破
+四聖獣奥義の極意によって昇華した
+気功掌[end]</sn:pointer>
+
+<sn:pointer id="64092">玄武“覇”王拳
+四聖獣奥義の極意によって昇華した
+気功蹴[end]</sn:pointer>
+
+<sn:pointer id="64093">白虎“吼”破弾
+四聖獣奥義の極意によって昇華した
+練気拳[end]</sn:pointer>
+
+<sn:pointer id="64094">朱雀“翔”撃破
+四聖獣奥義の極意によって昇華した
+流星掌[end]</sn:pointer>
+
+<sn:pointer id="64095">桜花八卦掌
+八卦掌奥義の極意によって生まれた
+技[end]</sn:pointer>
+
+<sn:pointer id="64096">裏桜花炸光
+裏桜花奥義の極意によって昇華した
+桜花八卦掌[end]</sn:pointer>
+
+<sn:pointer id="64097">レイヴンオーブ
+飛翔球。レイブンとは黒鳥の事で、その名の
+通り水晶球を自在に浮遊させる技[end]</sn:pointer>
+
+<sn:pointer id="64098">フレアオーブ
+水晶球に炎をまとわせ、一撃を与える技[end]</sn:pointer>
+
+<sn:pointer id="64099">ヘイルオーブ
+水晶球に水をまとわせ、一撃を与える技[end]</sn:pointer>
+
+<sn:pointer id="64100">サンダーオーブ
+水晶球に雷をまとわせ、一撃を与える技[end]</sn:pointer>
+
+<sn:pointer id="64101">アーククリスタル
+敵の攻撃力を封ずる技[end]</sn:pointer>
+
+<sn:pointer id="64102">シールクリスタル
+敵の移動力を封ずる技[end]</sn:pointer>
+
+<sn:pointer id="64103">サザンクロス
+十字星座の力を得て攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64104">セブンス・スター
+七星の力を得て攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64105">ギャラクシィ
+大宇宙の力を得て攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64106">シャイニングダンス
+まばゆい光を発するイカしたダンス[end]</sn:pointer>
+
+<sn:pointer id="64107">プリズミックダンス
+七色の光の中で踊るチョーＥダンス[end]</sn:pointer>
+
+<sn:pointer id="64108">マジカルダンス
+見る物を魅了する魔法のダンス[end]</sn:pointer>
+
+<sn:pointer id="64109">マルチプルぱんち
+ネコ分身（？）が現れ一緒にパンチする技
+彼女らの名は「とりまきＣＡＴシスターズ」[end]</sn:pointer>
+
+<sn:pointer id="64110">スプレッドみそ
+広範囲に破裂する爆弾を投げつける技[end]</sn:pointer>
+
+<sn:pointer id="64111">ねりちゃぎっ♪
+ネリチャギ。かかとおとしのこと[end]</sn:pointer>
+
+<sn:pointer id="64112">えいっ！やぁ！とぉ！♪
+3ＨＩＴコンボの連続技[end]</sn:pointer>
+
+<sn:pointer id="64113">ＪＰ・Ｐ・Ｃサマーソルト
+ジャンプ大パンチ→じゃがみ中パンチ→
+サマソ（爆）[end]</sn:pointer>
+
+<sn:pointer id="64114">パニックダンス
+見る者をなぜか混乱させるスパニッシュな
+ダンス[end]</sn:pointer>
+
+<sn:pointer id="64115">チャーミングポーズ
+可愛らしいポーズ。こんな態度をとられたら
+誰だって許すはず[end]</sn:pointer>
+
+<sn:pointer id="64116">ドリームコンボ
+夢のようなＨＩＴ数の連続技。やはり連続技
+は自分の手でつなげてこそと思うがどうか？[end]</sn:pointer>
+
+<sn:pointer id="64117">そらをみろ♪
+あ！[end]</sn:pointer>
+
+<sn:pointer id="64118">旋風棍
+棍を回転させる技ではなく、突き立てた棍に
+捕まって自らを高速回転させる技[end]</sn:pointer>
+
+<sn:pointer id="64119">[end]</sn:pointer>
+
+<sn:pointer id="64120">紅蓮旋風棍
+八卦掌奥義の極意によって昇華した旋風棍[end]</sn:pointer>
+
+<sn:pointer id="64121">疾風棍
+疾風のごとく棍を振り下ろす2段技[end]</sn:pointer>
+
+<sn:pointer id="64122">疾風破裏拳
+八卦掌奥義の極意によって昇華した
+疾風棍[end]</sn:pointer>
+
+<sn:pointer id="64123">覇王疾風棍
+疾風のごとく棍を振り下ろす4段技[end]</sn:pointer>
+
+<sn:pointer id="64124">霧氷凍棍
+凍気を発する技[end]</sn:pointer>
+
+<sn:pointer id="64125">武神飛翔棍
+保留[end]</sn:pointer>
+
+<sn:pointer id="64126">水月両断破
+水面に映った月を両断するほどの鋭い一撃を
+発する技[end]</sn:pointer>
+
+<sn:pointer id="64127">伸破無頼棍
+保留[end]</sn:pointer>
+
+<sn:pointer id="64128">七星乱舞
+七星奥義の極意によって昇華した八卦掌奥義[end]</sn:pointer>
+
+<sn:pointer id="64129">デスクリスタル
+死の紋章の力を得て攻撃する技[end]</sn:pointer>
+
+<sn:pointer id="64300">[end]</sn:pointer>
+
+<sn:pointer id="64301">ボーナスとしてＳＰが50上昇しました[end]</sn:pointer>
+
+<sn:pointer id="64302">[end]</sn:pointer>
+
+<sn:pointer id="64400">は[end]</sn:pointer>
+
+<sn:pointer id="64401">を[end]</sn:pointer>
+
+<sn:pointer id="64402">が[end]</sn:pointer>
+
+<sn:pointer id="64403">の[end]</sn:pointer>
+
+<sn:pointer id="64404">に[end]</sn:pointer>
+
+<sn:pointer id="64410">「[end]</sn:pointer>
+
+<sn:pointer id="64411">」[end]</sn:pointer>
+
+<sn:pointer id="64412">　　　[end]</sn:pointer>
+
+<sn:pointer id="64413">　　[end]</sn:pointer>
+
+<sn:pointer id="64414">　[end]</sn:pointer>
+
+<sn:pointer id="64450">をてにいれた！！[end]</sn:pointer>
+
+<sn:pointer id="64451">特技コマンド[end]</sn:pointer>
+
+<sn:pointer id="64452">覚えました[end]</sn:pointer>
+
+<sn:pointer id="64453">上昇しました[end]</sn:pointer>
+
+<sn:pointer id="64454">開花しました[end]</sn:pointer>
+
+<sn:pointer id="64455">特技レベル[end]</sn:pointer>
+
+<sn:pointer id="64456">できました[end]</sn:pointer>
+
+<sn:pointer id="64457">シークレット[end]</sn:pointer>
+
+<sn:pointer id="64458">タレント[end]</sn:pointer>
+
+<sn:pointer id="64459">でした[end]</sn:pointer>
+
+<sn:pointer id="64480">0[end]</sn:pointer>
+
+<sn:pointer id="64481">1[end]</sn:pointer>
+
+<sn:pointer id="64482">2[end]</sn:pointer>
+
+<sn:pointer id="64483">3[end]</sn:pointer>
+
+<sn:pointer id="64484">4[end]</sn:pointer>
+
+<sn:pointer id="64485">5[end]</sn:pointer>
+
+<sn:pointer id="64486">6[end]</sn:pointer>
+
+<sn:pointer id="64487">7[end]</sn:pointer>
+
+<sn:pointer id="64488">8[end]</sn:pointer>
+
+<sn:pointer id="64489">9[end]</sn:pointer>
+
+<sn:pointer id="64490">10[end]</sn:pointer>
+
+<sn:pointer id="64500">生物学（せいぶつがく）
+生物の構造についての知識。最大ＨＰに
+スキルＬＶの2乗×10のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64501">薬草学（やくそうがく）
+薬草についての知識。通常時の道具による
+回復率がスキルＬＶ×2％上昇する[end]</sn:pointer>
+
+<sn:pointer id="64502">精神学（せいしんがく）
+精神や神秘的な力についての知識
+最大ＭＰにスキルＬＶの2乗のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64503">鉱物学（こうぶつがく）
+鉱物や宝石についての知識[end]</sn:pointer>
+
+<sn:pointer id="64504">道具知識（どうぐちしき）
+様々な武具、道具についての知識[end]</sn:pointer>
+
+<sn:pointer id="64505">ピエティ
+信心深さとその神々に対する知識
+ＩＮＴにスキルＬＶ＋2のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64506">レシピ
+様々な料理を作るための知識[end]</sn:pointer>
+
+<sn:pointer id="64507">オタマジャクシ
+音楽についての知識[end]</sn:pointer>
+
+<sn:pointer id="64508">妖精論（ようせいろん）
+妖精やホムンクルス、生命の起源についての
+知識[end]</sn:pointer>
+
+<sn:pointer id="64509">美的感覚（びてきかんかく）
+美しさを愛でる心。その成熟度合い[end]</sn:pointer>
+
+<sn:pointer id="64510">目利き（めきき）
+良質の食材を選び出す選択眼[end]</sn:pointer>
+
+<sn:pointer id="64511">機能美（きのうび）
+美しさと強さを両立させるバランス感覚[end]</sn:pointer>
+
+<sn:pointer id="64512">遊び心（あそびごころ）
+世界の外に存在する想像神のおふざけを許容
+する広い心[end]</sn:pointer>
+
+<sn:pointer id="64513">危険感知（きけんかんち）
+周囲の殺気を敏感に察知する研ぎ澄まされた
+感覚。奇襲確率がスキルＬＶ×4％分減少[end]</sn:pointer>
+
+<sn:pointer id="64514">でんぱ
+未知なる存在からの呼び声を察知する
+超常能力[end]</sn:pointer>
+
+<sn:pointer id="64515">努力（どりょく）
+目標に向かって日々精進する強い意志
+スキル修得に必要なＳＰがスキルＬＶ分減少[end]</sn:pointer>
+
+<sn:pointer id="64516">根性（こんじょう）
+何ごとにも立ち向かう強い意志
+ＧＵＴＳにスキルＬＶ×3のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64517">忍耐（にんたい）
+苦しみや悲しみにじっと耐える強い意志
+ＣＯＮにスキルＬＶ×2のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64518">クラフト
+細かい作業を行う指先技術
+ＡＧＬにスキルＬＶ×2のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64519">包丁（ほうちょう）
+料理人の命とも言える包丁さばきの腕前
+ＳＴＲにスキルＬＶ×2のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64520">演奏（えんそう）
+楽器を演奏する技術
+[end]</sn:pointer>
+
+<sn:pointer id="64521">口笛（くちぶえ）
+指を口の中に入れて
+息を強く吹いて音を鳴らす技術[end]</sn:pointer>
+
+<sn:pointer id="64522">デッサン
+物の形状を正確に把握し、再現する技術[end]</sn:pointer>
+
+<sn:pointer id="64523">文筆（ぶんぴつ）
+文章の創作や図書研究をしたりする知的労働
+作業。ＡＧＬにスキルＬＶ×4のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64524">キャスト
+ＣＡＳＴ。鉱物の鍛造技術[end]</sn:pointer>
+
+<sn:pointer id="64525">科学技術（かがくぎじゅつ）
+蒸留や実験器具についての技術[end]</sn:pointer>
+
+<sn:pointer id="64526">ダッシュ
+ものすごい勢いで長時間走り続ける技術
+ＳＴＭにスキルＬＶ×4のボーナス[end]</sn:pointer>
+
+<sn:pointer id="64527">調教（ちょうきょう）
+動物を訓練し、特定の仕事に従事させる技術[end]</sn:pointer>
+
+<sn:pointer id="64528">衝撃波（しょうげきは）　　戦闘スキル
+一定確率で敵の防御力を数％無視する攻撃が
+できるスキル[end]</sn:pointer>
+
+<sn:pointer id="64529">真空破（しんくうは）　　　戦闘スキル
+一定確率で大きく敵を吹っ飛ばす攻撃が
+できるスキル[end]</sn:pointer>
+
+<sn:pointer id="64530">めくり　　　　　　　　　　戦闘スキル
+一定確率で一瞬で敵の背後を取る攻撃が
+できるスキル[end]</sn:pointer>
+
+<sn:pointer id="64531">反撃（はんげき）　　　　　戦闘スキル
+一定確率で、回避した場合に自動攻撃する
+スキル[end]</sn:pointer>
+
+<sn:pointer id="64532">フェイント　　　　　　　　戦闘スキル
+一定確率で必ず命中する攻撃ができる
+スキル[end]</sn:pointer>
+
+<sn:pointer id="64533">練気（れんき）　　　　　　戦闘スキル
+一定確率で攻撃力を上昇させることができる
+スキル[end]</sn:pointer>
+
+<sn:pointer id="64534">リンクコンボ　　　　　　　戦闘スキル
+必殺技を組み合わせられるようになるスキル
+スキルレベル上昇により、リンク数が増す[end]</sn:pointer>
+
+<sn:pointer id="64535">はやくち　　　　　　　　　戦闘スキル
+一定確率で一瞬で呪紋の詠唱を完了すること
+ができるスキル[end]</sn:pointer>
+
+<sn:pointer id="64536">レイヴンソード　　　　　　流派スキル
+アストラル王国騎士団に伝わる独自の
+飛翔剣術[end]</sn:pointer>
+
+<sn:pointer id="64537">レイヴンオーブ　　　　　　流派スキル
+黒鳥球と呼ばれるマジックオーブを変幻自在
+に操る技術[end]</sn:pointer>
+
+<sn:pointer id="64538">かくとうじゅつ　　　　　　流派スキル
+肉体を武器として扱う格闘術や棒術の技術[end]</sn:pointer>
+
+<sn:pointer id="64539">エダールけんじゅつ　　　　流派スキル
+アストラルを発端の地とするエダール流
+片手剣術[end]</sn:pointer>
+
+<sn:pointer id="64540">がりゅうけんじゅつ　　　　流派スキル
+エダール両手剣術に旅中で生み出した
+我流剣術が加わったもの[end]</sn:pointer>
+
+<sn:pointer id="64541">ねこかくとう♪　　　　　　流派スキル
+彼女独特の我流格闘術（爆）[end]</sn:pointer>
+
+<sn:pointer id="64542">七星奥義　　　　　　　　　奥義スキル
+七星の力を秘めた超必殺技を覚えるために
+必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64543">四聖獣奥義　　　　　　　　奥義スキル
+四聖獣の力を秘めた超必殺技を覚えるため
+に必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64544">皇竜奥義　　　　　　　　　奥義スキル
+皇竜の力を秘めた超必殺技を覚えるために
+必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64545">武神奥義　　　　　　　　　奥義スキル
+武神の力を秘めた超必殺技を覚えるために
+必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64546">八卦掌奥義　　　　　　　　奥義スキル
+八卦掌の力を秘めた超必殺技を覚えるため
+に必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64547">裏桜花奥義　　　　　　　　奥義スキル
+裏桜花の力を秘めた超必殺技を覚えるため
+に必要な奥義[end]</sn:pointer>
+
+<sn:pointer id="64548">ネコ奥義♪　　　　　　　　奥義スキル
+ネコの力を秘めた超必殺技を覚えるために
+必要な奥義♪[end]</sn:pointer>
+
+<sn:pointer id="64560">細工
+宝石類から装飾品（その他装備）アイテムを
+作成します[end]</sn:pointer>
+
+<sn:pointer id="64561">調理
+食材から食品アイテム類を作成します[end]</sn:pointer>
+
+<sn:pointer id="64562">調合
+2つの薬草を合成して回復アイテム類を
+作成します[end]</sn:pointer>
+
+<sn:pointer id="64563">鑑定
+名前の先頭に？と付く不確定品アイテムを
+識別します[end]</sn:pointer>
+
+<sn:pointer id="64564">カスタマイズ
+武器を自分流に改造して
+オリジナル武器を作成します[end]</sn:pointer>
+
+<sn:pointer id="64565">アート
+絵を描いたり、アイテムを模写して本物に
+変えたりします[end]</sn:pointer>
+
+<sn:pointer id="64566">執筆
+スキル修得のできる技能書アイテムを
+作成します[end]</sn:pointer>
+
+<sn:pointer id="64567">音楽
+作曲したり、演奏したりします[end]</sn:pointer>
+
+<sn:pointer id="64568">修行
+経験値の取得量が増加します[end]</sn:pointer>
+
+<sn:pointer id="64569">錬金
+鉄から貴重な宝石や鉱物アイテム類を
+作成します[end]</sn:pointer>
+
+<sn:pointer id="64570">オラクル
+創造神トライアからありがたいメッセージが
+もらえます[end]</sn:pointer>
+
+<sn:pointer id="64571">刀鍛冶
+武器と鉱物を合成して武器アイテム類を
+作成します[end]</sn:pointer>
+
+<sn:pointer id="64572">ダッシュ
+Ｂボタンで移動速度がアップします[end]</sn:pointer>
+
+<sn:pointer id="64573">ファミリア
+ダンジョンなどの奥深くからハトに買い物へ
+行かせることができます[end]</sn:pointer>
+
+<sn:pointer id="64574">スカウト
+エンカウント率を変更できます[end]</sn:pointer>
+
+<sn:pointer id="64575">付与
+ルーンボトル効果[end]</sn:pointer>
+
+<sn:pointer id="64576">修理
+壊れた品を元に戻す[end]</sn:pointer>
+
+<sn:pointer id="64577">
+隠し特技コマンド[end]</sn:pointer>
+
+<sn:pointer id="64600">細工　　　　[end]</sn:pointer>
+
+<sn:pointer id="64601">調理　　　　[end]</sn:pointer>
+
+<sn:pointer id="64602">調合　　　　[end]</sn:pointer>
+
+<sn:pointer id="64603">鑑定　　　　[end]</sn:pointer>
+
+<sn:pointer id="64604">カスタマイズ[end]</sn:pointer>
+
+<sn:pointer id="64605">アート　　　[end]</sn:pointer>
+
+<sn:pointer id="64606">執筆　　　　[end]</sn:pointer>
+
+<sn:pointer id="64607">音楽　　　　[end]</sn:pointer>
+
+<sn:pointer id="64608">修行　　　　[end]</sn:pointer>
+
+<sn:pointer id="64609">錬金　　　　[end]</sn:pointer>
+
+<sn:pointer id="64610">オラクル　　[end]</sn:pointer>
+
+<sn:pointer id="64611">刀鍛冶　　　[end]</sn:pointer>
+
+<sn:pointer id="64612">ダッシュ　　[end]</sn:pointer>
+
+<sn:pointer id="64613">ファミリア　[end]</sn:pointer>
+
+<sn:pointer id="64614">スカウト　　[end]</sn:pointer>
+
+<sn:pointer id="64615">エンチャント[end]</sn:pointer>
+
+<sn:pointer id="64616">修理　　　　[end]</sn:pointer>
+
+<sn:pointer id="64620">細工[end]</sn:pointer>
+
+<sn:pointer id="64621">調理[end]</sn:pointer>
+
+<sn:pointer id="64622">調合[end]</sn:pointer>
+
+<sn:pointer id="64623">鑑定[end]</sn:pointer>
+
+<sn:pointer id="64624">カスタマイズ[end]</sn:pointer>
+
+<sn:pointer id="64625">アート[end]</sn:pointer>
+
+<sn:pointer id="64626">執筆[end]</sn:pointer>
+
+<sn:pointer id="64627">音楽[end]</sn:pointer>
+
+<sn:pointer id="64628">修行[end]</sn:pointer>
+
+<sn:pointer id="64629">錬金[end]</sn:pointer>
+
+<sn:pointer id="64630">オラクル[end]</sn:pointer>
+
+<sn:pointer id="64631">刀鍛冶[end]</sn:pointer>
+
+<sn:pointer id="64632">ダッシュ[end]</sn:pointer>
+
+<sn:pointer id="64633">ファミリア[end]</sn:pointer>
+
+<sn:pointer id="64634">スカウト[end]</sn:pointer>
+
+<sn:pointer id="64635">エンチャント[end]</sn:pointer>
+
+<sn:pointer id="64636">修理[end]</sn:pointer>
+
+<sn:pointer id="64700">　　　　　　　　　　　　
+　　　　　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64701">独創性　　　　　　　　　
+　　　　　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64702">万人を喰らせる味を判断す
+る天性の感覚　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64703">思い通りに指先を動かすこ
+とができる天性の才能　　[end]</sn:pointer>
+
+<sn:pointer id="64704">ある種神がかり的な、芸術
+分野における才能　　　　[end]</sn:pointer>
+
+<sn:pointer id="64705">自分の想いを文字にして、
+つむぎ出す才能　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64706">音楽のリズムをきちんと把
+握する能力　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64707">音楽の音程をきちんと把握
+する能力　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64708">動物が好き。何者も入り込
+む余地のない、そんな想い[end]</sn:pointer>
+
+<sn:pointer id="64709">言葉では言い表せない何か
+を察する原始的な感覚　　[end]</sn:pointer>
+
+<sn:pointer id="64710">生まれながらに備わった魔
+法的な力　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="64720">[end]</sn:pointer>
+
+<sn:pointer id="64721">トランペット1
+この曲を聞いているとエンカウントが下降[end]</sn:pointer>
+
+<sn:pointer id="64722">トランペット2
+この曲を聞いているとエンカウントが下降[end]</sn:pointer>
+
+<sn:pointer id="64723">クラリネット1
+この曲を聞いていると特定の敵とエンカウント[end]</sn:pointer>
+
+<sn:pointer id="64724">クラリネット2
+この曲を聞いていると特定の敵とエンカウント[end]</sn:pointer>
+
+<sn:pointer id="64725">ハーモニカ1
+この曲を聞いているとエンカウントが上昇[end]</sn:pointer>
+
+<sn:pointer id="64726">ハーモニカ2
+この曲を聞いているとエンカウントが上昇[end]</sn:pointer>
+
+<sn:pointer id="64727">しゅみせん1
+この曲を聞いているとフォルが増加します[end]</sn:pointer>
+
+<sn:pointer id="64728">しゅみせん2
+この曲を聞いているとフォルが増加します[end]</sn:pointer>
+
+<sn:pointer id="64729">ギター1
+この曲を聞いているとＨＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64730">ギター2
+この曲を聞いているとＨＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64731">トロンボーン1
+この曲を聞いているとＨＰとＭＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64732">トロンボーン2
+この曲を聞いているとＨＰとＭＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64733">バイオリン1
+この曲の効果は不明[end]</sn:pointer>
+
+<sn:pointer id="64734">バイオリン2
+この曲の効果は不明[end]</sn:pointer>
+
+<sn:pointer id="64735">サックス1
+この曲を聞いているとＭＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64736">サックス2
+この曲を聞いているとＭＰが回復します[end]</sn:pointer>
+
+<sn:pointer id="64740">[end]</sn:pointer>
+
+<sn:pointer id="64741">トランペット1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64742">トランペット2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64743">クラリネット1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64744">クラリネット2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64745">ハーモニカ1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64746">ハーモニカ2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64747">しゅみせん1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64748">しゅみせん2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64749">ギター1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64750">ギター2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64751">トロンボーン1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64752">トロンボーン2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64753">バイオリン1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64754">バイオリン2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64755">サックス1
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64756">サックス2
+ができました[end]</sn:pointer>
+
+<sn:pointer id="64760">[end]</sn:pointer>
+
+<sn:pointer id="64761">何かが起こりそうな気がしますが
+なにも起こりませんでした[end]</sn:pointer>
+
+<sn:pointer id="64762">何かの気配を感じたがしかし
+なにも起こりませんでした[end]</sn:pointer>
+
+<sn:pointer id="64763">何か光が見えたような気がしますが
+なにも起こりませんでした[end]</sn:pointer>
+
+<sn:pointer id="64764">ここでは実行できません[end]</sn:pointer>
+
+<sn:pointer id="64800">リニアモーション
+仲間が縦一列に並んだ隊形
+どのような状況でも対応しやすい
+[end]</sn:pointer>
+
+<sn:pointer id="64801">アストラルシフト
+アストラル王国騎士団が好んで使う
+攻撃的な隊形
+[end]</sn:pointer>
+
+<sn:pointer id="64802">トライシフト1
+直接攻撃型の戦士による攻撃を重視
+した隊形
+[end]</sn:pointer>
+
+<sn:pointer id="64803">トライシフト2
+間接攻撃型の戦士による攻撃を重視
+した隊形
+[end]</sn:pointer>
+
+<sn:pointer id="64804">フリーファイト
+個々人が散開して戦う隊形
+[end]</sn:pointer>
+
+<sn:pointer id="64805">アッパースクウェア
+フィールド上方に集中した隊形
+3番のキャラクターを守りやすい
+[end]</sn:pointer>
+
+<sn:pointer id="64806">アンダースクウェア
+フィールド下方に集中した隊形
+4番のキャラクターを守りやすい
+[end]</sn:pointer>
+
+<sn:pointer id="64807">ダイヤモンドシフト
+ひし形にフォーメーションを組む
+隊形
+[end]</sn:pointer>
+
+<sn:pointer id="64830">[end]</sn:pointer>
+
+<sn:pointer id="64831">つうこうしょう
+ホットの道具屋でもらった通行証
+ポートミスに入るために必要[end]</sn:pointer>
+
+<sn:pointer id="64832">ヴァンエンブレム
+ヴァン国王にもらったエンブレム[end]</sn:pointer>
+
+<sn:pointer id="64833">シルバエンブレム
+シルヴァラント国王にもらったエンブレム[end]</sn:pointer>
+
+<sn:pointer id="64834">ムーアエンブレム
+ムーア国王にもらったエンブレム[end]</sn:pointer>
+
+<sn:pointer id="64835">アストエンブレム
+アストラル国王にもらったエンブレム[end]</sn:pointer>
+
+<sn:pointer id="64836">エルダーキー
+シルヴァラント国王にもらった遺跡の鍵[end]</sn:pointer>
+
+<sn:pointer id="64837">セキュリティーＲ
+赤のセキュリティーカード[end]</sn:pointer>
+
+<sn:pointer id="64838">セキュリティーＢ
+青のセキュリティーカード[end]</sn:pointer>
+
+<sn:pointer id="64839">しんじつのひとみ
+旧異種族が作り出した異空間の扉を開く
+アーティファクト[end]</sn:pointer>
+
+<sn:pointer id="64840">[end]</sn:pointer>
+
+<sn:pointer id="64850">ハトのお使い[end]</sn:pointer>
+
+<sn:pointer id="64851">雑貨屋スミッティ[end]</sn:pointer>
+
+<sn:pointer id="64852">バダムの道具屋[end]</sn:pointer>
+
+<sn:pointer id="64853">リザの食料品店[end]</sn:pointer>
+
+<sn:pointer id="64854">武具屋パパス[end]</sn:pointer>
+
+<sn:pointer id="64855">ママス食料品店[end]</sn:pointer>
+
+<sn:pointer id="64856">エルのなんでも屋[end]</sn:pointer>
+
+<sn:pointer id="64857">武具屋エルビス[end]</sn:pointer>
+
+<sn:pointer id="64858">ルビスキャビン[end]</sn:pointer>
+
+<sn:pointer id="64859">道具屋ウォルサム[end]</sn:pointer>
+
+<sn:pointer id="64860">エドの武器屋[end]</sn:pointer>
+
+<sn:pointer id="64861">ルーミィフーズ[end]</sn:pointer>
+
+<sn:pointer id="64862">エスターキャビン[end]</sn:pointer>
+
+<sn:pointer id="64863">武具屋トレジャ[end]</sn:pointer>
+
+<sn:pointer id="64864">食料品店[end]</sn:pointer>
+
+<sn:pointer id="64865">道具屋ペーター[end]</sn:pointer>
+
+<sn:pointer id="64866">武器屋モーガン[end]</sn:pointer>
+
+<sn:pointer id="64867">セレナの宝石屋[end]</sn:pointer>
+
+<sn:pointer id="64868">オサトー楽器店[end]</sn:pointer>
+
+<sn:pointer id="64869">クロサン酒店[end]</sn:pointer>
+
+<sn:pointer id="64870">ヴァイア武器店[end]</sn:pointer>
+
+<sn:pointer id="64871">クリエイターの店[end]</sn:pointer>
+
+<sn:pointer id="64872">武具屋シルバー[end]</sn:pointer>
+
+<sn:pointer id="64873">はき物屋ビクトル[end]</sn:pointer>
+
+<sn:pointer id="64874">ジュエリィフーズ[end]</sn:pointer>
+
+<sn:pointer id="64875">さびれた道具屋[end]</sn:pointer>
+
+<sn:pointer id="64876">さびれた武器屋[end]</sn:pointer>
+
+<sn:pointer id="64877">食べ物屋テムジン[end]</sn:pointer>
+
+<sn:pointer id="64878">武器屋キクリン[end]</sn:pointer>
+
+<sn:pointer id="64879">道具屋[end]</sn:pointer>
+
+<sn:pointer id="64880">食物屋[end]</sn:pointer>
+
+<sn:pointer id="64881">おばばの道具屋[end]</sn:pointer>
+
+<sn:pointer id="64882">行商人[end]</sn:pointer>
+
+<sn:pointer id="64883">行商人サンタ[end]</sn:pointer>
+
+<sn:pointer id="64884">ウェルディー[end]</sn:pointer>
+
+<sn:pointer id="64885">[end]</sn:pointer>
+
+<sn:pointer id="64900">[end]</sn:pointer>
+
+<sn:pointer id="65000">
+[end]</sn:pointer>
+
+<sn:pointer id="65001">薬草の一種。醜悪な老父を思わせる奇妙な
+球根を持つ多年草[end]</sn:pointer>
+
+<sn:pointer id="65002">薬草の一種。秋にはサクランボのような赤い果実を実らせる[end]</sn:pointer>
+
+<sn:pointer id="65003">薬草の一種。月の女神の名を冠した
+貴重価値の高い1年草[end]</sn:pointer>
+
+<sn:pointer id="65004">薬草の一種。光に照らすと枯れてしまう
+世にも珍しい花[end]</sn:pointer>
+
+<sn:pointer id="65005">薬草の一種。小さな青い花とさわやかな
+香りが印象的[end]</sn:pointer>
+
+<sn:pointer id="65006">白紙のカード。マークを描き入れると
+様々な特殊効果を持つようになる[end]</sn:pointer>
+
+<sn:pointer id="65007">特殊な絵の具。これで描いた絵は様々な
+特殊効果を持つようになる[end]</sn:pointer>
+
+<sn:pointer id="65008">研究意欲がわきあがる不思議なペン
+執筆に必要[end]</sn:pointer>
+
+<sn:pointer id="65009">創作意欲がわきあがる不思議なペン
+作曲に必要[end]</sn:pointer>
+
+<sn:pointer id="65010">鍛冶に必要となる大金槌[end]</sn:pointer>
+
+<sn:pointer id="65011">鍛冶に必要となる大金槌[end]</sn:pointer>
+
+<sn:pointer id="65012">特殊なメガネ。鑑定作業に必須
+戦闘中は敵の弱点を知ることができる[end]</sn:pointer>
+
+<sn:pointer id="65013">弾力、耐久性に富む黒い金属[end]</sn:pointer>
+
+<sn:pointer id="65014">伝承にのみその存在が認められていた
+魔法金属[end]</sn:pointer>
+
+<sn:pointer id="65015">重力を遮断する力を持つと言われる
+不思議な金属[end]</sn:pointer>
+
+<sn:pointer id="65016">魔力の結晶体と呼ばれているが
+真偽のほどは不明[end]</sn:pointer>
+
+<sn:pointer id="65017">月の石。落下してきたのか、誰かが持って
+きたのかは不明[end]</sn:pointer>
+
+<sn:pointer id="65018">隕石のかけら[end]</sn:pointer>
+
+<sn:pointer id="65019">錬金術師達が生涯かけて作り出そうと
+している伝説の鉱物[end]</sn:pointer>
+
+<sn:pointer id="65020">宝石の一種で、紅色のもの。[end]</sn:pointer>
+
+<sn:pointer id="65021">光の加減によって
+中央に星のきらめきが見えるルビー[end]</sn:pointer>
+
+<sn:pointer id="65022">宝石の一種で青く透明がかったもの[end]</sn:pointer>
+
+<sn:pointer id="65023">緑柱石。一般にはエメラルドと呼ばれる。[end]</sn:pointer>
+
+<sn:pointer id="65024">水晶[end]</sn:pointer>
+
+<sn:pointer id="65025">宝石の一種。純粋な炭素の結晶物で
+最も硬度が高い[end]</sn:pointer>
+
+<sn:pointer id="65026">七色の輝きを見せる世にも珍しいダイヤ[end]</sn:pointer>
+
+<sn:pointer id="65027">銀。ただし不純物が多いのであまり価値は
+高くない[end]</sn:pointer>
+
+<sn:pointer id="65028">金。ただし不純物が多いのであまり価値は
+高くない[end]</sn:pointer>
+
+<sn:pointer id="65029">ＩＲＯＮ。鉄です[end]</sn:pointer>
+
+<sn:pointer id="65030">金管楽器の一種。強く鋭い音色が特徹[end]</sn:pointer>
+
+<sn:pointer id="65031">縦笛形でキーのある木管楽器
+リードは一枚で、使い慣れた物が良い[end]</sn:pointer>
+
+<sn:pointer id="65032">リードを振動させて音を出す
+細長い箱形の楽器[end]</sn:pointer>
+
+<sn:pointer id="65033">浄瑠璃などの伴奏に使う弦楽器
+猫好きで三味線とは己に対する皮肉か[end]</sn:pointer>
+
+<sn:pointer id="65034">指先でひく糸が六本（人物名ではない）の
+弦楽器。[end]</sn:pointer>
+
+<sn:pointer id="65035">金管楽器の一種。Ｕ字型の管を差し込み、
+伸縮させて音の高さを変える[end]</sn:pointer>
+
+<sn:pointer id="65036">手で持ち、肩に当てて弾く四弦の楽器
+馬好きでこれとは彼に対する皮肉か[end]</sn:pointer>
+
+<sn:pointer id="65037">管楽器の一種。ジャズ音楽の代表的楽器[end]</sn:pointer>
+
+<sn:pointer id="65038">食材の一種。米、麦など[end]</sn:pointer>
+
+<sn:pointer id="65039">食材の一種。リンゴ、ミカンなど[end]</sn:pointer>
+
+<sn:pointer id="65040">食材の一種。キャベツ、ニンジンなど[end]</sn:pointer>
+
+<sn:pointer id="65041">食材の一種。豚肉、牛肉など[end]</sn:pointer>
+
+<sn:pointer id="65042">食材の一種。マグロ、うに、あわびなど[end]</sn:pointer>
+
+<sn:pointer id="65043">武器類と思われるが詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65068">道具類と思われるが詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65098">宝石、鉱石類と思われるが
+詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65105">装飾品と思われるが詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65115">薬草類と思われるが詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65120">食物類と思われるが詳細は鑑定しないと不明[end]</sn:pointer>
+
+<sn:pointer id="65127">ブクブクと泡立つ薬
+いやはやなんとも体に悪そうだ[end]</sn:pointer>
+
+<sn:pointer id="65128">どろどろした薬
+ひどくいやな予感がする[end]</sn:pointer>
+
+<sn:pointer id="65129">凄い臭いのする薬
+飲むのに勇気がいる[end]</sn:pointer>
+
+<sn:pointer id="65130">苦みのある薬
+良薬口に苦しというが[end]</sn:pointer>
+
+<sn:pointer id="65131">芳醇な果実のような薬
+飲み干してしまいたい衝動にかられてしまう[end]</sn:pointer>
+
+<sn:pointer id="65132">これなら子供でも喜んで飲み干しそうだ[end]</sn:pointer>
+
+<sn:pointer id="65133">敵一体を毒に侵す爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65134">複数の敵を毒に侵す爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65135">甘い香りのする薬[end]</sn:pointer>
+
+<sn:pointer id="65136">アルコール成分を含んだ薬。酒成分は5％[end]</sn:pointer>
+
+<sn:pointer id="65137">程よい甘さの蜜[end]</sn:pointer>
+
+<sn:pointer id="65138">酸味がさわやかさを誘う蜜[end]</sn:pointer>
+
+<sn:pointer id="65139">様々な果物をミックスした味の蜜[end]</sn:pointer>
+
+<sn:pointer id="65140">回復効果のある霧状の薬が封じられた小妊[end]</sn:pointer>
+
+<sn:pointer id="65141">敵一体をピヨらせる爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65142">複数の敵をピヨらせる爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65143">妖精の秘薬。服用者は30秒間ＭＰ未消賃で
+呪紋詠唱が可能になる。[end]</sn:pointer>
+
+<sn:pointer id="65144">妖精の秘薬。魔法霧を散布して複数の味方の
+ＭＰ消賃を30秒間0にする。[end]</sn:pointer>
+
+<sn:pointer id="65145">敵一体のＭＰにダメージを与える爆裂式の
+小妊[end]</sn:pointer>
+
+<sn:pointer id="65146">複数の敵のＭＰにダメージを与える爆裂式の
+小妊[end]</sn:pointer>
+
+<sn:pointer id="65147">生命の秘薬。魔法霧を散布して
+周囲の味方全員を行動不能から回復させる[end]</sn:pointer>
+
+<sn:pointer id="65148">生命の秘薬
+味方一人を行動不能から回復させる[end]</sn:pointer>
+
+<sn:pointer id="65149">敵一体を炎で攻撃する爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65150">複数の敵を炎で攻撃する爆裂式の小妊[end]</sn:pointer>
+
+<sn:pointer id="65151">体内の毒素を浄化する薬。ＨＰも25％回復する[end]</sn:pointer>
+
+<sn:pointer id="65152">麻痺した体を治す薬。ＨＰも25％回復
+する[end]</sn:pointer>
+
+<sn:pointer id="65153">石化した体を治す薬。[end]</sn:pointer>
+
+<sn:pointer id="65154">服用者は戦闘中あらゆる攻撃呪紋のダメージ
+が30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65155">服用者は10秒間無敵になるが、
+その後行動不能になる[end]</sn:pointer>
+
+<sn:pointer id="65156">華麗なる転身をはかる薬
+店頭価格割引25％ＯＦＦ[end]</sn:pointer>
+
+<sn:pointer id="65157">
+[end]</sn:pointer>
+
+<sn:pointer id="65158">強心薬
+服用者は戦闘中ＧＵＴＳが30上昇する[end]</sn:pointer>
+
+<sn:pointer id="65159">力の秘薬。服用者は戦闘中直接攻撃の
+ダメージが30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65160">魔の秘薬。呪紋攻撃のダメージが
+30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65161">
+[end]</sn:pointer>
+
+<sn:pointer id="65162">炎系攻撃呪紋のダメージを50％で
+無効果する指輪[end]</sn:pointer>
+
+<sn:pointer id="65163">戦闘中常に怒り状態になる
+ただし防御力は1／2になる[end]</sn:pointer>
+
+<sn:pointer id="65164">水系攻撃呪紋のダメージを50％で無効化
+する指輪[end]</sn:pointer>
+
+<sn:pointer id="65165">ピヨリ時間を1／2にする指輪[end]</sn:pointer>
+
+<sn:pointer id="65166">ＭＰ消賃を2／3にする指輪[end]</sn:pointer>
+
+<sn:pointer id="65167">ＭＰ消賃を1／2にする指輪[end]</sn:pointer>
+
+<sn:pointer id="65168">あらゆる魔法と直接攻撃のダメージを0にする
+が、本人は無限にピヨっている[end]</sn:pointer>
+
+<sn:pointer id="65169">星域の呪紋を50％で無効化する指輪[end]</sn:pointer>
+
+<sn:pointer id="65170">戦闘中に3秒毎にＭＰが3％回復する指輪[end]</sn:pointer>
+
+<sn:pointer id="65171">敵の攻撃魔法ダメージを1／10にする指輪
+破壊確率30％[end]</sn:pointer>
+
+<sn:pointer id="65172">敵の攻撃魔法ダメージを0にし、ダメージ分
+ＨＰ回復する指輪。破壊確率30％[end]</sn:pointer>
+
+<sn:pointer id="65173">フィールド移動中に一定歩数毎にＨＰが3％
+回復する指輪[end]</sn:pointer>
+
+<sn:pointer id="65174">敵の直接攻撃ダメージを1／10にする指輪
+破壊確率30％[end]</sn:pointer>
+
+<sn:pointer id="65175">敵の直接攻撃ダメージを0にし、ダメージ分
+ＨＰ回復する指輪。破壊確率30％[end]</sn:pointer>
+
+<sn:pointer id="65176">オリハルコンの指輪。地風光の魔力の働く
+外界フィールドに限り浮遊が可能になる[end]</sn:pointer>
+
+<sn:pointer id="65177">銀の指輪。アンデッド系の敵からダメージを
+曼けなくなる。破壊確率5％[end]</sn:pointer>
+
+<sn:pointer id="65178">金の指輪。成金っぽい[end]</sn:pointer>
+
+<sn:pointer id="65179">中央にダイヤをあしらった装飾品[end]</sn:pointer>
+
+<sn:pointer id="65180">複雑な金細工の装飾品[end]</sn:pointer>
+
+<sn:pointer id="65181">ダイヤ製の可愛らしい人形[end]</sn:pointer>
+
+<sn:pointer id="65182">ルビー製の可愛らしい猫[end]</sn:pointer>
+
+<sn:pointer id="65183">サファイアの飾りが美しい首飾り[end]</sn:pointer>
+
+<sn:pointer id="65184">中央にエメラルドを配した豪華な冠
+王様気分が味わえる[end]</sn:pointer>
+
+<sn:pointer id="65185">水晶でできたファンキーなカエル像[end]</sn:pointer>
+
+<sn:pointer id="65186">貴重なレインボーダイヤを用いて創った猫の
+像。無駄、贅沢極まりない作品[end]</sn:pointer>
+
+<sn:pointer id="65187">銀製の人形[end]</sn:pointer>
+
+<sn:pointer id="65188">金製の人形[end]</sn:pointer>
+
+<sn:pointer id="65189">防御力が10％上昇するお守り[end]</sn:pointer>
+
+<sn:pointer id="65190">装備中はＨＰ最大値が30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65191">装備中はＭＰ最大値が30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65192">装備中は詠唱時間が1／2になる[end]</sn:pointer>
+
+<sn:pointer id="65193">星をあしらった紋章飾り
+装備中はＭＰ最大値が30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65194">ＡＴＫ、ＨＩＴが10％上昇する戦士の紋章[end]</sn:pointer>
+
+<sn:pointer id="65195">ＩＮＴが10％上昇する魔術師の紋章[end]</sn:pointer>
+
+<sn:pointer id="65196">毒攻撃を70％で無効化するお守り
+破壊確率2％[end]</sn:pointer>
+
+<sn:pointer id="65197">麻痺攻撃を70％で無効化するお守り
+破壊確率5％[end]</sn:pointer>
+
+<sn:pointer id="65198">石化攻撃を70％で無効化するお守り
+破壊確率10％[end]</sn:pointer>
+
+<sn:pointer id="65199">紫煙の浮かぶ水晶球
+逃走速度が30％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65200">白煙の浮かぶ水晶球
+逃走速度が60％上昇する[end]</sn:pointer>
+
+<sn:pointer id="65201">装備していると行動不能から即復活できる
+破壊確率99％[end]</sn:pointer>
+
+<sn:pointer id="65202">フシギなドロップ。ねがいごとがかなうらしい[end]</sn:pointer>
+
+<sn:pointer id="65203">フシギなクラウン[end]</sn:pointer>
+
+<sn:pointer id="65204">聖なる力をまとったお守り[end]</sn:pointer>
+
+<sn:pointer id="65205">不細工な指輪。はめる気もおこらない[end]</sn:pointer>
+
+<sn:pointer id="65206">デッサンの狂った見るに耐えない人形[end]</sn:pointer>
+
+<sn:pointer id="65207">センスなさすぎのデザインの指輪
+困ったものだ。[end]</sn:pointer>
+
+<sn:pointer id="65208">制作者への返答に困るとんでもないデザイン
+のかざり[end]</sn:pointer>
+
+<sn:pointer id="65209">物の判別がつかない像
+単なるかたまりにしか見えない。[end]</sn:pointer>
+
+<sn:pointer id="65210">これはとっても恥ずかしい飾りだ（赤面）[end]</sn:pointer>
+
+<sn:pointer id="65211">これはなんというか思わず笑ってしまう（笑）[end]</sn:pointer>
+
+<sn:pointer id="65212">生物理論書。生物学のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65213">薬草図鑑。薬草学のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65214">精神学論。精神学のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65215">楽しい鉱物図鑑。鉱物学のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65216">道具図鑑。道具知識のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65217">お料理図鑑。レシピのスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65218">楽典。オタマジャクシのスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65219">神秘の妖精。妖精論のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65220">1日でＯＫ食材選び。目利きのスキル修得が
+可能[end]</sn:pointer>
+
+<sn:pointer id="65221">失われしドワーフの技術を求めて
+クラフトのスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65222">現代に生きる職人達の魂
+包丁のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65223">演奏のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65224">絵心の全て。デッサンのスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65225">文法論。文筆のスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65226">武器の全て。キャストのスキル修得が可能[end]</sn:pointer>
+
+<sn:pointer id="65227">ヘルメスの理論。科学技術のスキル修得が
+可能[end]</sn:pointer>
+
+<sn:pointer id="65228">1：オーにくＢ[end]</sn:pointer>
+
+<sn:pointer id="65229">2：ラムイるＹ[end]</sn:pointer>
+
+<sn:pointer id="65230">3：ククミもマ[end]</sn:pointer>
+
+<sn:pointer id="65231">4：ルリがのサ[end]</sn:pointer>
+
+<sn:pointer id="65232">5：はアでだキ[end]</sn:pointer>
+
+<sn:pointer id="65233">6：ゲ後てよン[end]</sn:pointer>
+
+<sn:pointer id="65234">同人誌。ユーザーの作品に対する“愛”が
+臨界点に達した時に生まれる結晶体[end]</sn:pointer>
+
+<sn:pointer id="65235">同人誌。ユーザーの作品に対する“愛”が
+臨界点に達した時に生まれる結晶体[end]</sn:pointer>
+
+<sn:pointer id="65236">同人誌。ユーザーの作品に対する“愛”が
+臨界点に達した時に生まれる結晶体[end]</sn:pointer>
+
+<sn:pointer id="65237">同人誌。ユーザーの作品に対する“愛”が
+臨界点に達した時に生まれる結晶体[end]</sn:pointer>
+
+<sn:pointer id="65238">同人誌。ユーザーの作品に対する“愛”が
+臨界点に達した時に生まれる結晶体[end]</sn:pointer>
+
+<sn:pointer id="65239">アイスの上に様々な果物やチョコを交互に
+重ねて乗せたデザート[end]</sn:pointer>
+
+<sn:pointer id="65240">生地の中にに蒲切りのリンゴを扶んで
+焼き上げたお菓子[end]</sn:pointer>
+
+<sn:pointer id="65241">果汁に砂糖などを混ぜ半固体状に固めた
+氷菓子[end]</sn:pointer>
+
+<sn:pointer id="65242">クリームや砂糖などにオレンジ果汁を加えて
+混ぜた粘状飲料[end]</sn:pointer>
+
+<sn:pointer id="65243">フルーツたっぷりのケーキ[end]</sn:pointer>
+
+<sn:pointer id="65244">ブドウの果実をしぼり発酵させた果実酒[end]</sn:pointer>
+
+<sn:pointer id="65245">肉や野菜をとろ火で煮込んだ洋風料理[end]</sn:pointer>
+
+<sn:pointer id="65246">生野菜を主としたあえ物[end]</sn:pointer>
+
+<sn:pointer id="65247">肉をキャベツで巻いた料理[end]</sn:pointer>
+
+<sn:pointer id="65248">肉と野菜を強火の油で炒めた料理
+できのよい物は肉より野菜がうまい[end]</sn:pointer>
+
+<sn:pointer id="65249">黒砂糖などで味付けした汁の中に細かく
+刻んだゼリーを入れたデザート[end]</sn:pointer>
+
+<sn:pointer id="65250">松茸のボイル蒸し[end]</sn:pointer>
+
+<sn:pointer id="65251">130グラムサーロインステーキ[end]</sn:pointer>
+
+<sn:pointer id="65252">240グラムサーロインステーキ[end]</sn:pointer>
+
+<sn:pointer id="65253">健康に育った地鳥の串焼き[end]</sn:pointer>
+
+<sn:pointer id="65254">ちゅうか風おちゃずけ[end]</sn:pointer>
+
+<sn:pointer id="65255">ひき肉を手のひら大の大きさに固めて焼いた
+料理[end]</sn:pointer>
+
+<sn:pointer id="65256">食用のカタツムリをガーリック風味で炒めた
+料理[end]</sn:pointer>
+
+<sn:pointer id="65257">マグロ肉の脂肪部分を一口サイズの酢飯の
+上に乗せた食べ物[end]</sn:pointer>
+
+<sn:pointer id="65258">伝説の大とろ。[end]</sn:pointer>
+
+<sn:pointer id="65259">エビに溶き卵をつけ、パン粉をまぶして油で
+あげた料理。冷凍エビは固さですぐバレる[end]</sn:pointer>
+
+<sn:pointer id="65260">鍋の刺身。スズキ、ヒラメと並んで酒に合う
+白身魚の代表格[end]</sn:pointer>
+
+<sn:pointer id="65261">サザエを炭火の綱の上で焼いたもの。これを
+食べるたびに感涙にむせび泣く御仁も多い[end]</sn:pointer>
+
+<sn:pointer id="65262">海鮮類をメインの具として入れた
+スパゲッティ。[end]</sn:pointer>
+
+<sn:pointer id="65263">一ノ蔵無鑑査純米。端麗なること水の如く
+[g5B3]の味を殺さず逆に殺されやすい織細な酒[end]</sn:pointer>
+
+<sn:pointer id="65264">船中八策。坂本龍馬にちなんだといういわれ
+のある度数8の辛口の酒。非常に良し[end]</sn:pointer>
+
+<sn:pointer id="65265">八重垣“無”。純米吟酪がよい
+特徹のある、本当にここち良い香りがする酒[end]</sn:pointer>
+
+<sn:pointer id="65266">玉乃光有機雄町。ブランド化した酒を飲む
+ぐらいなら黙ってこっちを選ぶべし[end]</sn:pointer>
+
+<sn:pointer id="65267">美丈夫うすにごり。特徹ある飲み口を持つ発
+泡酒。生産量が少なくまずお目にかかれない[end]</sn:pointer>
+
+<sn:pointer id="65268">黒竜火いらず。年間数百本の貴重酒。損得
+ぬきでやればこんな凄いのができるという例[end]</sn:pointer>
+
+<sn:pointer id="65269">西鳳酒。白酒の一つで、さわやかながらも
+強烈な味は病みつきになったら離れられない[end]</sn:pointer>
+
+<sn:pointer id="65270">三倍酪造酒。アルコールで三倍に蒲めた酒
+二日酔いへの伴侶にどうぞ[end]</sn:pointer>
+
+<sn:pointer id="65271">色のくすんだ生きの悪い魚を使った刺身
+腕でカバーするのも限度があろう[end]</sn:pointer>
+
+<sn:pointer id="65272">調味料を間違ってると思われる、すっぱい
+シチュー[end]</sn:pointer>
+
+<sn:pointer id="65273">焼きすぎて固くなった超台無しのステーキ[end]</sn:pointer>
+
+<sn:pointer id="65274">くどい甘さが食後感をぶち壊す最低な
+デザート[end]</sn:pointer>
+
+<sn:pointer id="65275">調味料を間違っているとしか思えない
+甘辛いケーキ[end]</sn:pointer>
+
+<sn:pointer id="65276">運命のカードの一種。なかまのＧＵＴＳが上昇する[end]</sn:pointer>
+
+<sn:pointer id="65277">運命のカードの一種
+使用者はクリティカル確率が上昇する[end]</sn:pointer>
+
+<sn:pointer id="65278">運命のカードの一種
+事前に使用しておくと気絶時に即復活[end]</sn:pointer>
+
+<sn:pointer id="65279">運命のカードの一種
+戦闘勝利時のアイテム入手確率が上昇[end]</sn:pointer>
+
+<sn:pointer id="65280">運命のカードの一種
+戦闘勝利時の入手金額が増加する[end]</sn:pointer>
+
+<sn:pointer id="65281">鳥系の魔物を一定確率で消滅させる[end]</sn:pointer>
+
+<sn:pointer id="65282">獣系の魔物を一定確率で消滅させる[end]</sn:pointer>
+
+<sn:pointer id="65283">魔族を一定確率で消滅させる[end]</sn:pointer>
+
+<sn:pointer id="65284">不死の魔物を一定確率で消滅させる[end]</sn:pointer>
+
+<sn:pointer id="65285">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65286">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65287">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65288">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65289">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65290">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65291">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65292">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65293">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65294">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65295">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65296">の肖像画[end]</sn:pointer>
+
+<sn:pointer id="65297">誰かの似顔絵のつもりらしいが判別できない[end]</sn:pointer>
+
+<sn:pointer id="65298">誰かの似顔絵のつもりらしいが判別できない[end]</sn:pointer>
+
+<sn:pointer id="65299">戦士の姿飾りがついた壺。持ち歩けば中から
+時々戦士御用達のアイテムが飛び出す[end]</sn:pointer>
+
+<sn:pointer id="65300">術師の姿飾りがついた壺。持ち歩けば中から
+時々術師御用達のアイテムが飛び出す[end]</sn:pointer>
+
+<sn:pointer id="65301">魔法の壺。持ち歩けば中からきっと
+すばらしいものが出てくるに違いない[end]</sn:pointer>
+
+<sn:pointer id="65302">これを持って寝れば目覚めた時
+きっと誰かがプレゼントしてくれるだろう[end]</sn:pointer>
+
+<sn:pointer id="65303">青いブドウのような果実。ＨＰ回復20％[end]</sn:pointer>
+
+<sn:pointer id="65304">黒いブドウのような果実。ＭＰ回復20％[end]</sn:pointer>
+
+<sn:pointer id="65305">透明なブドウのような果実。毒の除去[end]</sn:pointer>
+
+<sn:pointer id="65306">
+[end]</sn:pointer>
+
+<sn:pointer id="65307">
+[end]</sn:pointer>
+
+<sn:pointer id="65308">敵の防御力を30％無効化する剣[end]</sn:pointer>
+
+<sn:pointer id="65309">おどろくべき命中率を誇る剣[end]</sn:pointer>
+
+<sn:pointer id="65310">攻撃するたびに敵の防御力を10％低下させ
+る剣[end]</sn:pointer>
+
+<sn:pointer id="65311">その刃の輝きはあたかも月の光のように青く
+寒々しい[end]</sn:pointer>
+
+<sn:pointer id="65312">敵の生命力を吸い取る魔剣[end]</sn:pointer>
+
+<sn:pointer id="65313">攻撃するたびに敵の移動速度を10％低下
+させる剣[end]</sn:pointer>
+
+<sn:pointer id="65314">ミスリル製の剣[end]</sn:pointer>
+
+<sn:pointer id="65315">オリハルコン製の剣[end]</sn:pointer>
+
+<sn:pointer id="65316">ダマスクス製の剣[end]</sn:pointer>
+
+<sn:pointer id="65317">絶滅したと言われるドワーフ族の作[end]</sn:pointer>
+
+<sn:pointer id="65318">風の力を封じ込めた剣[end]</sn:pointer>
+
+<sn:pointer id="65319">聖なる祝福を曼けた剣[end]</sn:pointer>
+
+<sn:pointer id="65320">古代の王国で勇者と謳われた戦士に贈られた
+という剣[end]</sn:pointer>
+
+<sn:pointer id="65321">[end]</sn:pointer>
+
+<sn:pointer id="65322">不死の魔物に対してもっとも効果を発揮する
+霊剣[end]</sn:pointer>
+
+<sn:pointer id="65323">精霊の力を封じ込めた剣[end]</sn:pointer>
+
+<sn:pointer id="65324">神の炎をまとった魔剣
+悪魔に対してもっとも効果を発揮する[end]</sn:pointer>
+
+<sn:pointer id="65325">魔竜殺しの魔剣[end]</sn:pointer>
+
+<sn:pointer id="65326">攻撃するたびに自分の攻撃力が10％上昇
+する剣[end]</sn:pointer>
+
+<sn:pointer id="65327">パワーを重視して他の全てをギゼイにした剣[end]</sn:pointer>
+
+<sn:pointer id="65328">ミスリル製の大剣[end]</sn:pointer>
+
+<sn:pointer id="65329">隕石を鍛えて作られた大剣[end]</sn:pointer>
+
+<sn:pointer id="65330">鍛冶師の殺意が込められた魔剣[end]</sn:pointer>
+
+<sn:pointer id="65331">厄災の名を冠したいわくありげな剣[end]</sn:pointer>
+
+<sn:pointer id="65332">氷のような冷気を発する純白の刃を持つ剣[end]</sn:pointer>
+
+<sn:pointer id="65333">狂戦士の剣[end]</sn:pointer>
+
+<sn:pointer id="65334">地を打ちつけた振動で周囲の敵にもダメージ
+を与える剣[end]</sn:pointer>
+
+<sn:pointer id="65335">シウス・スーパー・スペシャル・ソード[end]</sn:pointer>
+
+<sn:pointer id="65336">クリティカル率50％のまさに暗殺者のため
+の短剣[end]</sn:pointer>
+
+<sn:pointer id="65337">炎の剣。火炎による追加ダメージがつく[end]</sn:pointer>
+
+<sn:pointer id="65338">敵の生命力を吸収する魔剣[end]</sn:pointer>
+
+<sn:pointer id="65339">氷の剣。冷気による追加ダメージがつく[end]</sn:pointer>
+
+<sn:pointer id="65340">精霊の力がこめられた剣[end]</sn:pointer>
+
+<sn:pointer id="65341">その鋭い貫通力は敵の防御力を無効化し、
+つらぬく[end]</sn:pointer>
+
+<sn:pointer id="65342">命中率100％を誇る恐るべき短剣[end]</sn:pointer>
+
+<sn:pointer id="65343">蒲く、鋭く研ぎ澄まされた半曲刀[end]</sn:pointer>
+
+<sn:pointer id="65344">ルーンメタル製の武器[end]</sn:pointer>
+
+<sn:pointer id="65345">炎の爆発力を秘めたナックル[end]</sn:pointer>
+
+<sn:pointer id="65346">毒効果のあるセスタス[end]</sn:pointer>
+
+<sn:pointer id="65347">竜の爪のごとく鉄を紙のように切り裂くと
+いう鍵爪[end]</sn:pointer>
+
+<sn:pointer id="65348">なかなかイカスねこの爪[end]</sn:pointer>
+
+<sn:pointer id="65349">[end]</sn:pointer>
+
+<sn:pointer id="65350">神の祝福を曼けたハルバード[end]</sn:pointer>
+
+<sn:pointer id="65351">強烈な貫通力を誇る槍[end]</sn:pointer>
+
+<sn:pointer id="65352">特殊な金属を用いて造ったハルバード[end]</sn:pointer>
+
+<sn:pointer id="65353">竜を退治するために用いられた伝説の槍[end]</sn:pointer>
+
+<sn:pointer id="65354">炎を巻き起こす槍[end]</sn:pointer>
+
+<sn:pointer id="65355">敵に命中すると周囲に爆発をおこす弓[end]</sn:pointer>
+
+<sn:pointer id="65356">敵を貫通する白銀の弓[end]</sn:pointer>
+
+<sn:pointer id="65357">絶対に目標を外すことのない神弓[end]</sn:pointer>
+
+<sn:pointer id="65358">敵に命中すると火花が飛び散る雷の弓[end]</sn:pointer>
+
+<sn:pointer id="65359">攻撃目標を中心として3方向に矢を放つ弓[end]</sn:pointer>
+
+<sn:pointer id="65360">[end]</sn:pointer>
+
+<sn:pointer id="65361">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65362">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65363">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65364">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65365">のおまもり[end]</sn:pointer>
+
+<sn:pointer id="65366">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65367">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65368">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65369">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65370">オリジナル武器の一つ。効果は不明[end]</sn:pointer>
+
+<sn:pointer id="65371">失敗作[end]</sn:pointer>
+
+<sn:pointer id="65372">失敗作[end]</sn:pointer>
+
+<sn:pointer id="65373">[end]</sn:pointer>
+
+<sn:pointer id="65374">刃渡り90センチほどの鉄製の長剣[end]</sn:pointer>
+
+<sn:pointer id="65375">曲刀[end]</sn:pointer>
+
+<sn:pointer id="65376">曲刀の一種で、洗練されたタイプのもの[end]</sn:pointer>
+
+<sn:pointer id="65377">長剣の一種。ロングソードより威力が高い[end]</sn:pointer>
+
+<sn:pointer id="65378">身長ほどもある両手持ちの大剣[end]</sn:pointer>
+
+<sn:pointer id="65379">大剣の一種[end]</sn:pointer>
+
+<sn:pointer id="65380">大剣の一種[end]</sn:pointer>
+
+<sn:pointer id="65381">大剣の一種。刃が波のような形をしており
+威力が高い[end]</sn:pointer>
+
+<sn:pointer id="65382">投げに向いた短剣[end]</sn:pointer>
+
+<sn:pointer id="65383">短剣の一種[end]</sn:pointer>
+
+<sn:pointer id="65384">短剣の一種[end]</sn:pointer>
+
+<sn:pointer id="65385">先端に飾りのついた杖[end]</sn:pointer>
+
+<sn:pointer id="65386">先端にルビーが飾りつけられた杖[end]</sn:pointer>
+
+<sn:pointer id="65387">先端に紋章飾りがつけられた杖[end]</sn:pointer>
+
+<sn:pointer id="65388">こぶしにつける鉄の武器
+パンチ力が倍加される[end]</sn:pointer>
+
+<sn:pointer id="65389">こぶしにつける鉄の武器
+パンチ力が倍加される[end]</sn:pointer>
+
+<sn:pointer id="65390">こぶしにつける鉄の武器
+パンチ力が倍加される[end]</sn:pointer>
+
+<sn:pointer id="65391">こぶしにつける鉄の武器
+パンチ力が倍加される[end]</sn:pointer>
+
+<sn:pointer id="65392">身長ほどの長さの木製の棒[end]</sn:pointer>
+
+<sn:pointer id="65393">槍[end]</sn:pointer>
+
+<sn:pointer id="65394">スピアよりも更に長い槍[end]</sn:pointer>
+
+<sn:pointer id="65395">おのと槍の長所をあわせ持つ武器[end]</sn:pointer>
+
+<sn:pointer id="65396">クサリで3本の棒がつなぎ合わされた武器[end]</sn:pointer>
+
+<sn:pointer id="65397">小形の弓[end]</sn:pointer>
+
+<sn:pointer id="65398">大型の弓[end]</sn:pointer>
+
+<sn:pointer id="65399">ひし弓。弓に交差する形で引き金のついた柄
+がついている[end]</sn:pointer>
+
+<sn:pointer id="65400">大型のクロスボウ
+威力は比較にならないものがある[end]</sn:pointer>
+
+<sn:pointer id="65401">[end]</sn:pointer>
+
+<sn:pointer id="65402">革製の鎧[end]</sn:pointer>
+
+<sn:pointer id="65403">レザーアーマーを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65404">小さい金属の輪をつないだ鎧[end]</sn:pointer>
+
+<sn:pointer id="65405">金属ばんをレザーではさみ、補強した鎧[end]</sn:pointer>
+
+<sn:pointer id="65406">金属製の鎧[end]</sn:pointer>
+
+<sn:pointer id="65407">こうてつ製の鎧[end]</sn:pointer>
+
+<sn:pointer id="65408">紋章使いたちが好んで着る衣[end]</sn:pointer>
+
+<sn:pointer id="65409">シルク製の衣[end]</sn:pointer>
+
+<sn:pointer id="65410">アンバーの飾りがつけられた衣[end]</sn:pointer>
+
+<sn:pointer id="65411">銀糸をあんで作られた衣[end]</sn:pointer>
+
+<sn:pointer id="65412">聖なる紋章がつけられた衣[end]</sn:pointer>
+
+<sn:pointer id="65413">武闘家が好んで着る動きやすい服[end]</sn:pointer>
+
+<sn:pointer id="65414">チャイナの香り漂う武道着[end]</sn:pointer>
+
+<sn:pointer id="65415">ちゅうかの香り漂う武道着[end]</sn:pointer>
+
+<sn:pointer id="65416">けい素材を用いた戦闘用服[end]</sn:pointer>
+
+<sn:pointer id="65417">ボロボロのビキニ[end]</sn:pointer>
+
+<sn:pointer id="65418">むねと下腹部を申し訳程度に隠しただけの
+セパレーツ型の水着[end]</sn:pointer>
+
+<sn:pointer id="65419">かわいらしいビキニ[end]</sn:pointer>
+
+<sn:pointer id="65420">レッサーフェルプール用の戦闘用服[end]</sn:pointer>
+
+<sn:pointer id="65421">革製の兜[end]</sn:pointer>
+
+<sn:pointer id="65422">レザーヘルムを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65423">鉄製の兜[end]</sn:pointer>
+
+<sn:pointer id="65424">頭部全体をおおう金属性の兜[end]</sn:pointer>
+
+<sn:pointer id="65425">こうてつ製の兜[end]</sn:pointer>
+
+<sn:pointer id="65426">木製の楯[end]</sn:pointer>
+
+<sn:pointer id="65427">まるい金属製楯。重くてたまらない[end]</sn:pointer>
+
+<sn:pointer id="65428">騎士用に開発された楯が一般に広まったもの[end]</sn:pointer>
+
+<sn:pointer id="65429">ナイツシールドが更に洗練されたもの[end]</sn:pointer>
+
+<sn:pointer id="65430">革製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65431">鉄製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65432">足全体をおおう金属製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65433">銀製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65434">まったく普通のブーツ[end]</sn:pointer>
+
+<sn:pointer id="65435">スエード：子ウシの裏皮をけば立てたもの
+　　　　　ふわふわとやわらかい[end]</sn:pointer>
+
+<sn:pointer id="65436">革製のブーツ[end]</sn:pointer>
+
+<sn:pointer id="65437">まったく普通のサンダル[end]</sn:pointer>
+
+<sn:pointer id="65438">格闘家用の動きやすいクツ[end]</sn:pointer>
+
+<sn:pointer id="65439">チャイナの香り漂うクツ[end]</sn:pointer>
+
+<sn:pointer id="65440">ちゅうかの香り漂うクツ[end]</sn:pointer>
+
+<sn:pointer id="65441">失われた種族の技術によって作られた鎧[end]</sn:pointer>
+
+<sn:pointer id="65442">反しゃと名付けられた特別な鎧。攻撃呪紋
+の力をプラスエネルギーに変えてしまう[end]</sn:pointer>
+
+<sn:pointer id="65443">ミスリル製のチェインメイル[end]</sn:pointer>
+
+<sn:pointer id="65444">銀製の鎧[end]</sn:pointer>
+
+<sn:pointer id="65445">戦闘用の防具[end]</sn:pointer>
+
+<sn:pointer id="65446">ファニーセンスなビキニ[end]</sn:pointer>
+
+<sn:pointer id="65447">レッサーフェルプール専用の防具[end]</sn:pointer>
+
+<sn:pointer id="65448">[end]</sn:pointer>
+
+<sn:pointer id="65449">失われた種族の技術によって作られた兜[end]</sn:pointer>
+
+<sn:pointer id="65450">ミスリル製の兜[end]</sn:pointer>
+
+<sn:pointer id="65451">銀製の兜[end]</sn:pointer>
+
+<sn:pointer id="65452">[end]</sn:pointer>
+
+<sn:pointer id="65453">戦闘用に洗練された兜[end]</sn:pointer>
+
+<sn:pointer id="65454">レッサーフェルプール用の防具[end]</sn:pointer>
+
+<sn:pointer id="65455">失われた種族の技術によって作られたぼうし[end]</sn:pointer>
+
+<sn:pointer id="65456">[end]</sn:pointer>
+
+<sn:pointer id="65457">失われた種族の技術によって作られたブーツ[end]</sn:pointer>
+
+<sn:pointer id="65458">失われた種族の技術によって作られたブーツ[end]</sn:pointer>
+
+<sn:pointer id="65459">ミスリル製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65460">銀製の脚拌[end]</sn:pointer>
+
+<sn:pointer id="65461">[end]</sn:pointer>
+
+<sn:pointer id="65462">[end]</sn:pointer>
+
+<sn:pointer id="65463">[end]</sn:pointer>
+
+<sn:pointer id="65464">[end]</sn:pointer>
+
+<sn:pointer id="65465">[end]</sn:pointer>
+
+<sn:pointer id="65466">[end]</sn:pointer>
+
+<sn:pointer id="65467">聖鳴る紋章が刻まれた楯[end]</sn:pointer>
+
+<sn:pointer id="65468">失われた種族の技術によって作られた楯[end]</sn:pointer>
+
+<sn:pointer id="65469">ミスリル製の楯[end]</sn:pointer>
+
+<sn:pointer id="65470">銀製の楯[end]</sn:pointer>
+
+<sn:pointer id="65471">防御した時に飛び散る星に攻撃判定がある楯[end]</sn:pointer>
+
+<sn:pointer id="65472">[end]</sn:pointer>
+
+<sn:pointer id="65473">[end]</sn:pointer>
+
+<sn:pointer id="65474">[end]</sn:pointer>
+
+<sn:pointer id="65475">[end]</sn:pointer>
+
+<sn:pointer id="65476">彼女専用の武器。飛翔球[end]</sn:pointer>
+
+<sn:pointer id="65477">飛翔剣を操るために必要な特殊な指輪[end]</sn:pointer>
+
+<sn:pointer id="65478">両親の形見の指輪[end]</sn:pointer>
+
+<sn:pointer id="65479">[end]</sn:pointer>
+
+<sn:pointer id="65480">ロングソードを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65481">ロングソードを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65482">クレイモアを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65483">クレイモアを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65484">グラディウスを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65485">グラディウスを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65486">ナックルを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65487">ナックルを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65488">ロングスピアを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65489">ロングスピアを強化したもの[end]</sn:pointer>
+
+<sn:pointer id="65490">銀製のナックル[end]</sn:pointer>
+
+<sn:pointer id="65491">強い風を巻き起こす槍[end]</sn:pointer>
+
+<sn:pointer id="65492">ハトにあげるエサです[end]</sn:pointer>
+
+<sn:pointer id="65493">石です[end]</sn:pointer>
+
+<sn:pointer id="65494">見る者を圧剖するすばらしいできばえの剣[end]</sn:pointer>
+
+<sn:pointer id="65495">見る者を圧剖するすばらしいできばえの鎧[end]</sn:pointer>
+
+<sn:pointer id="65496">見る者を圧剖するすばらしいできばえの杖[end]</sn:pointer>
+
+<sn:pointer id="65497">見る者を圧剖するすばらしいできばえの
+ローブ[end]</sn:pointer>
+
+<sn:pointer id="65498">回避力が上昇するマント[end]</sn:pointer>
+
+<sn:pointer id="65499">回避力が上昇するローブ[end]</sn:pointer>
+
+<sn:pointer id="65500">特殊な力がこめられた聖衣[end]</sn:pointer>
+
+<sn:pointer id="65501">[end]</sn:pointer>
+
+<sn:pointer id="65502">[end]</sn:pointer>
+
+<sn:pointer id="65503">岩をくずす道具[end]</sn:pointer>
+
+<sn:pointer id="65504">バーニィを呼び寄せるホイッスル[end]</sn:pointer>
+
+<sn:pointer id="65505">科学技術が生み出したレーザー出力の剣[end]</sn:pointer>
+
+<sn:pointer id="65506">八卦掌奥義の極意が記された奥義書[end]</sn:pointer>
+
+<sn:pointer id="65507">さんかくおむすびです[end]</sn:pointer>
+
+<sn:pointer id="65508">港の少年からもらった、海の男が持つという
+お守り[end]</sn:pointer>
+
+<sn:pointer id="65509">レッサーフェルプールの少女が持っていた
+オカリナ[end]</sn:pointer>
+
+<sn:pointer id="65510">2つの石を打ち合わせて火をおこす道具[end]</sn:pointer>
+
+<sn:pointer id="65511">世界をお作りになった神トライアの紋章[end]</sn:pointer>
+
+<sn:pointer id="65520">1行目　文字列がありません
+2行目　文字列がありません
+3行目　文字列がありません
+[end]</sn:pointer>
+
+<sn:pointer id="65521">文字列がありません[end]</sn:pointer>
+
+</sn:script>

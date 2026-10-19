@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">真紅の楯[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">テスト[page]
+[end][0x80]</sn:pointer>
+
+</sn:script>

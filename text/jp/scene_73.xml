@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x50][0x0]ドゥルス[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">レミア「んしょ！んしょ！いっぱい作るんだ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">若者「今はまだいいが、もし戦いに巻き込まれたらこんな村、一瞬でなくなってしまうだろうな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">少年「リンちゃんち、どこかへ行っちゃった[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">おじさん「そこの家は今は誰もおらんよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">母親「レミア、もう家に入りなさい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">娘レミア「空が[speed][0xa]・・・。[speed][0x0][page]
+[end][0x83]</sn:pointer>
+
+</sn:script>

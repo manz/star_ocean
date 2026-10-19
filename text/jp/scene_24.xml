@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x56][0x0]武器屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x5c][0x0]酒場[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x5c][0x0]宿屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x50][0x0]食料品店[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x44][0x0]スキルギルド[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x5c][0x0]民家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x5c][0x0]民家[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x56][0x0]道具屋[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:シウス]「バダムに頼まれたんだが・・・。[page]
+武器屋の主人「おお、あんたらか。この品物をバダムに届けてくれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:シウス]「こんなにデケぇの持っていくのかよ。[page]
+武器屋の主人「しっかり頼むぞ。[page]
+[nick:シウス]「まかしときな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[color][0x6]彫像[color][0x2]を手に入れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">パパス「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">おばさん「また海賊が襲ってきたんですって？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">おばさん「ムーア国王も軍隊を強化しようとは思わないのかねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">おばさん「冒険者ってなにやってんのかねぇ。毎日ブラブラしてるうちの亭主も同じようなもんかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">丸顔の老婆「海賊のせいで定期船が欠航したら困るじゃけん・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">丸顔の老婆「わしが生きてるうちに、平和になるかのう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">丸顔の老婆「[color][0x4]シルヴァラント[color][0x2]の方では魔界の勢力の動きが活発らしいのう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">カウンターの男「いらっしゃい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">マスター「荒っぽい連中が多くてまいるぜ。まったく！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">船乗り「ぷはーー。この一杯のために俺は生きてるんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">船乗り「ここの酒もまずまずだが[color][0x4]シルヴァラント[color][0x2]のやつの方がうめぇな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">道具屋のおばば「よく来たね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">宿屋の主人「よく眠れたかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルです。泊まりますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[end]</sn:pointer>
+
+<sn:pointer id="26">お金が足りません。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[end]</sn:pointer>
+
+<sn:pointer id="28">客「うーん、なかなかいい部屋ね。このじゅうたんが気に入ったわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">客「なんだこの部屋は！！じゅうたんもありゃしねぇ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">お手伝いをしてる男の子「カウンターがちょっと高いんだよなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">1知識関連スキルＬＶ2　　600
+2感覚関連スキルＬＶ1　　100
+3感覚関連スキルＬＶ2　　200
+4戦闘関連スキルＬＶ1　1000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[end]</sn:pointer>
+
+<sn:pointer id="34">ギルドマスター「精進しなよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">ギルドマスター「お金が足りないぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">ギルドマスター「もう、持っているぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">冒険者「[color][0x4]メトークス山[color][0x2]に遺跡があるって話を聞いたんだが・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">母親「メリィは甘いものが好きでこまるわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">母親「メリィになにあげたの！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">メリィ「パフェが食べたいの[speed][0xa]・・・。[speed][0x0]でも虫歯になるからダメって、お母さんが[speed][0x14]。[speed][0x0]メリィ毎日歯みがいてるんだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">メリィ「おいしい♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">メリィ「ちょっと歯が痛いの・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">1．知識関連スキルＬＶ2
+2．感覚関連スキルＬＶ1
+3．感覚関連スキルＬＶ2
+4．戦闘関連スキルＬＶ1[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">説明員「知識関連スキルＬＶ2の内訳は、
+道具知識と
+オタマジャクシと
+生物学です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">説明員「感覚関連スキルＬＶ1の内訳は、
+めききと
+美的感覚
+忍耐です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">説明員「感覚関連スキルＬＶ2の内訳は、
+危険感知と
+遊び心と
+根性です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">説明員「戦闘関連スキルＬＶ1の内訳は、
+衝撃波と
+真空波と
+めくりです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[end]</sn:pointer>
+
+<sn:pointer id="51">アドバイザー「話を聞くかい？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">アドバイザー「特技コマンドを修得しようと思ったら、スキル画面でＸボタンを押して、特技修得度をマメに確認するのを忘れちゃダメよ。[page]
+「ためしにスキルを一つとって特技修得度を確認してみてね。
+　ちょうり★☆☆
+みたいな表示があるはずだから。[page]
+「この★は、その特技コマンドの修得に必要なスキルの数を示し、自分が修得に必要なスキルを現在いくつ覚えているかを表しているのよ。[page]
+「そして1つの特技コマンドを覚えるために必要なスキルは、見ればわかると思うけどだいたい1〜3個。特技コマンドの名前と、スキル名を確認すればだいたい必要なスキルが想像できるはずよ。[mode8][0x20]「ちょうり」だったら、「レシピ」と「ほうちょう」と・・・？とかね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[end]</sn:pointer>
+
+<sn:pointer id="54">1．パフェをあげる
+2．あげない[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">メリィ「あっパフェ！！くれるの？わーーい♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:シウス]「ああ、うめぇ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:シウス]「おー、[nick:ラティ]！！おめぇも一杯どうだ？[page]
+[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">1．一杯だけなら・・・
+2．俺はいいよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:シウス]「おう！！おりの酒が飲めねぇてぇろか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ラティ]「なんかヤバそうだぞ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:シウス]「いいからろめ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:ラティ]「いや、俺は[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">ガホ！ゴクッ[speed][0x5][speed][0x0]ゴクッ[speed][0x5][speed][0x0]ゴクッ[speed][0x5]・・・☆○×！！！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:シウス]「おやじぃ！！酒だぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:アシュレイ]「うまい酒じゃ。五睦六腑に染み渡るわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:アシュレイ]「戦闘スキルは買っておるか？覚えた方がよいぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:フィア]「まだこの町でゆっくりしていくのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:フィア]「まだこの町でゆっくりしていくのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:ラティ]「こんな所でぼーっと立ってどうしたんだ？[page]
+[nick:フィア]「[speed][0xa]・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">アーク「なんだとテメェ！もう一度言ってみろ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:シウス]「弱ぇークセにいばれんじゃねぇよ、このボンクラ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">ジョー「この野郎[speed][0xa]・・・[speed][0x0]ぶっ殺す！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:シウス]「それわ俺のセリフら！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">マスター「ああああ、ワシの店がぁ〜[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">1．[nick:シウス]に加勢する
+2．見守る[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:ラティ]「[nick:シウス][speed][0xa]・・・[speed][0x0]俺もかしぇーする、ぞ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:ラティ]「[nick:シウス]！！俺も加勢するぞ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:フィア]「[speed][0xa]・・・[speed][0x0][nick:アシュレイ]殿。[page]
+[nick:アシュレイ]「“殿”なんぞやめい！　せめて“さん”くらいにせんか。[page]
+[nick:フィア]「[speed][0xa]・・・[speed][0x0]どうして、今だに旅を続けていらっしゃるんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:フィア]「あなたほどの方であれば各国からお呼びがかかってもおかしくはないはずです。事実ライアス様も何度と無く誘いの声をかけたとか[speed][0xa]・・・。[speed][0x0][page]
+[nick:アシュレイ]「あやつのは昔のよしみよ。それにワシはまだやらねばならん事があるのでの。[page]
+[nick:フィア]「差し支えなければ話してもらえますか？[page]
+[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]すまんな。[page]
+[nick:フィア]「[speed][0xa]・・・[speed][0x0]そうですか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:シウス]「おめぇ[speed][0xa]・・・[speed][0x0]なんでこんな所に？！[page]
+[nick:フィア]「真っ昼間から酒など飲んで、大層な身分だな。[page]
+[nick:シウス]「[speed][0xa]・・・・・。[speed][0x0][page]
+[nick:フィア]「おまえがこんな所でのんきにしている間に、何があったか教えてやろうか？！[page]
+[nick:シウス]「あ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:フィア]「お前の父、ライアス様が殺されたんだぞ！？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:シウス]「なんだって？！そんな簡単に殺されるようなタマじゃねぇだろう！[page]
+[nick:フィア]「[speed][0xa]・・・[speed][0x0]魔界の刺客に襲われたんだ。私は濡れ衣を着せられて、[color][0x4]アストラル[color][0x2]を捨てなければならなくなった。[page]
+[nick:シウス]「[speed][0xa]・・・[speed][0x0]濡れ衣だと？[page]
+[nick:フィア]「たぶん、刺客は私に化けて襲ったんだ[speed][0xa]・・・。[speed][0x0]ライアス様にはほとんど抵抗した様子がなかった。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:シウス]「親父が[speed][0xa]・・・！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:フィア]「どこに行く？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:シウス]「俺にはかまうな。俺は一人でやっていくつもりだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:ラティ]「寝てる[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x30][0x0]七星の遺跡地下[var][0x80][0x36]階[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">「欲を捨てよ、さすれば道は開かん。と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">「すべて、解放せよ。さすれば道は開かん。」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">「見られるのはハズカシイ」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">「夢がない」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">「冒険者は宝の夢を追う」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">「逆に開け、
+さすれば道は開かん。」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">「美しくない」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">「美しい像を望む」
+と書いてある。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">「死の罠に気をつけろ・・・。」[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">トライアの一人「よく来たの・・・。
+たのしんでくれたまえ・・・。[page]
+トライアの一人「動かせる石像は重要かもしれんぞ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">「空っぽだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">冒険者クマ「き、気をつけろ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[end]</sn:pointer>
+
+<sn:pointer id="25">[end]</sn:pointer>
+
+<sn:pointer id="26">[end][0xff]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[mode8][0x0][nick:ミリー]「[nick:ラティ][speed][0xf]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ミリー]「なんて書いてあるの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[speed][0x3]クールでの奇病は強力な伝染病だった。
+法術もほとんど効かない。[page]
+しかも[speed][0x14]、[speed][0x3]私もその病気にかかってしまった。[page]
+空気感染の心配は無いが患者の肌に触れるだけで感染してしまう。[page]
+潜伏期間は約1〜2時間。発病すると3日ほどで体中が完全に石になってしまう。[page]
+もう、クールは駄目だ。
+絶対に近づくな。
+　　　　　　マルトス・キリート[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ドーン]「[nick:ミリー]、待て！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x44][0x0]クラトスの町[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]「なんだ？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">「うわぁ盗賊だぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">「きゃぁぁぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ドーン]「[nick:ラティ]、なにやってんだ！早く盗賊をやっつけようぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ドーン]「[nick:ミリー]は北に走っていったぞ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ドーン]「[nick:ラティ]、なにやってんだ！早く盗賊をやっつけようぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ドーン]「やっつけてやるぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ラティ]「行くぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ミリー]「[nick:ラティ]、また遅刻よ。
+もう[nick:ドーン]は中に入っちゃったわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ドーン]「[nick:ラティ]、なにやってんだ！早く盗賊をやっつけようぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ドーン]「何やってんだ、早く追わなきゃ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">盗賊ビッツ「思ったより手ごわそうですぜ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">親分ベアード「情けねぇ！たった二人の小僧にてこずりやがって！！この俺様が・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]「俺たちは小僧じゃない！[speed][0x14]！[speed][0x0]
+れっきとした自警団員だ！！[page]
+[nick:ドーン]「ザコの親分のくせにいばってんじゃねぇぞ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ミリー]「そうよっ[speed][0xa]！[speed][0x0]ヨワヨワのくせにっ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">親分ベアード「ななな、なんだとお！？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">盗賊ビッツ「親分やっちまいましょう！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">町の人「やぁ、助かったよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ラティ]「これが仕事ですから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ミリー]「あら[speed][0x1e]、[speed][0x0]かっこいいじゃない？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">男「早くあいつらをなんとかしてくれ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">男「よう、[nick:ラティ]。
+自警団に出勤しなくていいのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">男「[nick:ミリー]なら北門から出て行ったぞ。一人で大丈夫なのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">男「今日も署くなりそうだなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">娘「助けて！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">女「[nick:ドーン]も自警団に行ったわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">女「[color][0x4]クール[color][0x2]に行ったマルトスさん大丈夫かしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ラティ]「何か変わったことはありませんか？[page]
+おばさん「平和なものよ。
+あなたたちのおかげさね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">シーナ「[nick:ラティ]がケガしたらシーナが治してあげる！キラキラ〜って。[page]
+[nick:ラティ]「はは、ありがとな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">男「よう、見回りご苦労さん。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">女「[nick:ミリー]ちゃんが血相変えて北の方に走っていったけど、何かあったの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">女「あら、今日は[nick:ミリー]ちゃんと一緒じゃないのね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ミリー]「シーナちゃん元気になってよかったですね。[page]
+女「ええ、マルトスさんによろしく言っておいてちょうだいね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">子供「眠いよ・・・。母ちゃん起きろってうるさいんだもん・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">おじいさん「[nick:ミリー]が[color][0x4]クール[color][0x2]の方に走って行ったぞ。[page]
+おじいさん「[color][0x4]クール[color][0x2]の北の[color][0x4]メトークス山[color][0x2]にまで行っていたら、危険じゃの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">おじいさん「最近[color][0x4]クール[color][0x2]に行っていないのぉ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">おじいさん「北のほうに行く用があったら
+よろしく言っておいてくれ。[page]
+[nick:ラティ]「はい。[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

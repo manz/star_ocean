@@ -1,0 +1,8 @@
+build/
+.venv/
+__pycache__/
+*.ips
+*.sfc
+*.kss
+extracted/
+so.kintsuki/map.bin

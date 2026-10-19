@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x40][0x0]オラクルルーム[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x30][0x0]オラクルルームレベル2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x30][0x0]オラクルルームレベル4[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x30][0x0]オラクルルームレベル6[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x30][0x0]オラクルルームレベル8[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x28][0x0]オラクルルームレベル10[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]「オラクルルームレベル2と書いてある。でも、なにかの力で封印されてるみたいだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]「オラクルルームレベル4と書いてある。でも、なにかの力で封印されてるみたいだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ラティ]「オラクルルームレベル6と書いてある。でも、なにかの力で封印されてるみたいだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ラティ]「オラクルルームレベル8と書いてある。でも、なにかの力で封印されてるみたいだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ラティ]「オラクルルームレベル10と書いてある。でも、なにかの力で封印されてるみたいだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">トライアの一人「過去のロークに新しいダンジョンを創造しておいた。楽しむがよい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">男「ルームの外で、左の出口は過去のロークのタトローイへ行ける。[page]
+男「右の出口はリヴォースタワーへ行くことができる。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">女の人「オラクルルームでは、創造神トライアたちのお話を聞けるわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">女の人「ここは、オラクルームのレベル2よ。ここに入れたのなら外の部屋の入り方もわかるわよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">男「あなたは、ローク人じゃないかって？[page]
+男「細かいことを気にしちゃだめだよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">男の子「ぼく、ハンセイしているんだ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">男の子「隣の部屋って行くいみあるのかなぁ・・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">ささっち「自転車のって旅に行きたい！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">じゅん「北海道ったら、
+やっぱ博多ラーメンっす。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">みやもと「[nick:ヨシュア]のこと可愛いがってあげてね♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">かわかみ「ラーメン食ったけどべんとうも食います。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">ヨ※ュア「絵ばっかり描いていたら、
+”ギター”のスキルがさがちゃった・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">けんいち「あさかビーム！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">けんいち「ゲーム中でとても見にくいＭＡＰは全部、私の描いたものです。[page]
+けんいち「ハッハッハー・・わかりにくくてゴメンナサイ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">にしたに「買ってくれてどうもありがとう。
+借りてる人は、今すぐ買いましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">まりちー「子ねこちゃんは仲間になったかな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">はまやん「ちはーす、グラフィックのはまやんっす。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">とく「めしー。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">やまちゃん「しょっくらあじ。
+むねがいたい。
+[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">はっしぃ「サウンドドライバーはぼくが作ったんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">まさきんぐ「コロす！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">まさきんぐ「えー、まず初めに・・・・。
+すいません、すいません。
+あやまり役のきかく、マサキングです。[page]
+まさきんぐ「ＳＦＣの開発もこれで最後。ちょっと残念です。ですが、まあＳＦＣでＲＰＧ2本やってみていろいろ勉強になりましたので、それを次回に活かせればと思っています。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">まさきんぐ「[speed][0x1e]・・・[speed][0x0]かたくるしいですね。
+この話し方やめます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">まさきんぐ「んで、このゲームですがハッキリ言ってとおっても難産でした。[page]
+まさきんぐ「どうしようもないくらい。
+マジで。[page]
+まさきんぐ「あなたがプレイしてみてハラの立つことがあったらその分だけ次回作に期待してみてくれません？[page]
+まさきんぐ「次は、マジでスゴイから。
+ＲＰＧ2作の集大成＋アルファだ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">すとれとの分身その1「サウンド処理はプログラムだけでやってるのさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">すとれと「すいません・・・。
+このゲームはおもしろかった？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">1．はい
+2．まあまあ
+3．いいえ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">すとれと「ホッ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">すとれと「ごめんなさい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">すとれと「すいません。
+次回がんばります。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">すとれと「すいません・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">すとれとの分身その2「かく大縮小もチップはつかってないんだぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">シナリオとしてのすとれと「すいません。（こればっか）
+今回はちょいと失敗したかも・・。[page]
+すとれと「しかし、いま頭の中には
+すごい（？）ものが浮かびつつあります。[page]
+すとれと「自分でも、思わず期待しちゃっています。[page]
+すとれと「ああ、はやく書きたい・・。[page]
+[end]</sn:pointer>
+
+</sn:script>

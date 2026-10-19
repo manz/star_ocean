@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x30][0x0]七星の遺跡地下[var][0x80][0x36]階[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">ルーター「ゲヘヘヘ。
+お宝はおれのものだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[color][0x6]エクステンション[color][0x2]を手に入れた。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[end][0x83]</sn:pointer>
+
+</sn:script>

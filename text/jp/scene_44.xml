@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x36][0x0]タトローイ闘技場[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">娘「んもう！こんなとこじゃ何にも見えないわ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">娘「私、あなたが戦ってる所を見たいわ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">老人「ワシがあと10虚若かったらのう。あんな魔物ギタギタにしてやったものを。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">老婆「キャーキャー♥あらやだ、年がいもなく叫んでしまったわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">少年「おすすめは錬金術と刀鍛冶、それに細工かな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">娘「一応お話は誰を仲間にするか、などによって分岐してるんですって。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">老婆「音楽や演奏は必要な才能がたくんあって完璧に修得するのは大変じゃ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">老人「フガフガ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">老人「だんだん刺激に鈍感になってきてのう。なんかえぇことないかのう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">少年「剣闘士ってもうかるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">格闘娘「やっぱコンボよ！自分でつなげなきゃ本当の快感は得られないわっ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">男「あのう、娘が迷子になったんですけど知りません？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">娘「やっと70％くらいかしら[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">少女「ちょっと子供には刺激強いわね、これ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">老婆「ここにいると嫌なことも忘れてしまうわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">若者「僕はモンスター捕獲隊の者です。でもまだ弱いのしか捕えたことないですけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">男「うおぉぉぉぉ！！ド迫力だぜ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">娘「後少しだわ[speed][0xa]・・・[speed][0x0]頑張るのよ、わたし！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">剣士「なんだありゃ？人気だけのシロウトじゃないのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">弟「ねぇちゃん、恥ずかしいから大声出すなよ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">姉「きゃあ〜！！がんばれぇ〜っ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">若者「いや〜闘技場はいいっぺよ。よかんべ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">おタネ「イタタ、暦が痛い[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">老人「おタネさん、大丈夫かの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">少年「うわっ！[speed][0xa][speed][0x0]すげぇ！！[speed][0xa][speed][0x0]すげぇぞ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">男「後半の観客っておざなりだぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">若者「クソ、俺もいつか観客席じゃなくて、戦いの舞台で歓声をあげさせてやるぜ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">少女「あんなもの身につけて重くないのかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">娘「もうだめ[speed][0xa]・・・。[speed][0x0]これ以上見てると失神しちゃいそう♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">老婆「あれはのう[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">少女「あの怪獣なんていうの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">男「最強ランクの魔物に勝てる人なんているんでしょうか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">ピコ「どこかで聞いたことある？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">ナノ「なんです〜。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">メガ「四つ子[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">ギガ「僕たち[speed][0xa]・・・[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">若者「ここまでの人全員話しかけました？頑張ってね。彼（誰？）も頑張りましたから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">若者「すげぇ[speed][0x5]・・・[speed][0x0]同じ顔が4つ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">剣士「料理の命は味覚！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">娘「それぞれの特技レベルはね[speed][0x5]・・・[speed][0x0]必要とされるスキルのレベルの平均値で決定されるのよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">娘「うるっさいわねぇ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">通りすがりの男の娘「前の席いっぱい開いてるのに[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">通りすがりの男「どさくさにまぎれて座りました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">娘「もう痩れたよ〜。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">母親「娘の父の妻よ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">父親「娘の父です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">老人「婆さんの夫じゃ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">娘「私、おばあちゃんの孫です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">老婆「ここは予約席じゃ。今日は家族できてるんじゃよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">ジジイ「フォッフォッフォッ。予約席はワシが独り占めぢゃ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">男「立派な鍛冶師になれば強力な武器を作るのも夢じゃないとか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">少女「もっと前に行って見ようよぉ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">娘「ロバートったら、まだ来ないのかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">男「隣の女の子かわいいなぁ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">老婆「うひょひょひょひょ。だんだんハイになってきたわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">男「彼女とやっとデートにこぎつけたのに[speed][0xa]・・・[speed][0x0]剣士カインの観戦だなんて（涙）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">娘「何よこの男。カイン様が負けたら急にニヤニヤして[speed][0xa]・・・[speed][0x0]チョムカ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">男「へへっ、カイン負けやがった。ざまぁみやがれ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">娘「ああ〜ん！カイン様負けちゃったわぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">男「さてと。トイレにでも行ってくるか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">少女「人がいっぱい[speed][0xa]・・・。[speed][0x0]何人いるのかなあ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">剣士「俺も子供のころこっそりと婆ちゃんからこづかいもらったっけ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">少女「え？でも・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">老婆「ほれ、こづかいあげるから、母さんには内緒じゃぞ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">若者「す、すごい！！噂通りですね。[color][0x4]エクダート[color][0x2]からわざわざ来たかいがありました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">剣士「むぅ、あの太刀筋[speed][0xa]・・・[speed][0x0]エダール剣術の使い手だな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">老婆「はっ！イカンイカン。眠っておった・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">老婆「あたしの若い頃は闘技場の英雄のような男がおったんじゃ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">老人「だめじゃ！[speed][0xf][speed][0x0]何やっとる！[speed][0xf][speed][0x0]ああっ[speed][0xa][speed][0x0]お♪[speed][0xa][speed][0x0]よしっそこじゃあ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">男「うおぉぉーっ！！燃えるぜ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">男「うわっ！！おっと！落っこちるとこだった[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">女「あなたは剣士？戦わないの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">老婆「声がうるさくてよく聞こえんわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">男「や[speed][0x5]、[speed][0x0]奴、いま技に残像が[speed][0x8]・・・[speed][0x0]！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">少女「前のおじいちゃんうるさいわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">男「あの怪物強すぎじゃないのか・・・？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">少年「俺もいつか闘技場で戦うんだ！[speed][0xa]・・・[speed][0x0]でも怖いなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">少女「ガンバレーお父ちゃーん！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">少年「いけーっ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">爺「はぁはぁ・・・ここで観戦しとると若返るわい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">娘「きゃー！ミカエル様ステキィ〜ッ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">男「ここは観客席だよ。あぶないから飛び降りないでね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">男「おおっ！？今の技は一体？隠し技か？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">少女「あの怪獣こわいよぉ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">男「あの剣士強いぜ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">老婆「そこじゃ、いけー！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">男「う〜ん、もう少し見てからにしないか・・・？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">女「ねぇ、どこかべつの所に行きましょうよ。二人っきりになれるような・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">女「もっとう〜んと近くで観戦したいわ・・・。そう、返り血を浴びそうなくらいで。キャ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">剣士「今日は強い奴が集まってるな。これじゃあモンスター捕獲隊も大変だなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">少女「お父さんどこ行っちゃったのかなぁ・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">男「うう、目が悪くてよく見えません・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">娘「ハイランダーの剣士って豪快でかっこいいわ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">剣士「み、見るだけではものたりん！だが・・・勝てん！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:アシュレイ]「ふん、どいつもこいつもカナヅチみたいな奴ばかりじゃな。[page]
+[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">[nick:アシュレイ]「ん[speed][0x5]？[speed][0x0]技に“おぼれとる”者しかおらんと言ったんじゃ。あれでは平均より上なぞ絶対に狙えん。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="97">[nick:アシュレイ]「足を運ぶだけムダじゃったか[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="98">解説マン「挑戦者が現れました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="99">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="100">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="101">[end]</sn:pointer>
+
+<sn:pointer id="102">解説マン「では戦闘を開始します。
+では、一回目だぁ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="103">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="104">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="105">解説マン「続いて、2匹目。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="106">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="107">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="108">解説マン「続いて、3匹目。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="109">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="110">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="111">解説マン「続いて、4匹目。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="112">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="113">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="114">解説マン「[nick:ラティ]選手、[memberD]ランク4人ぬきを果たしました！次はいよいよ5人目です！[page]
+解説マン「こっ、この効果音は！なんと[nick:ラティ]選手に乱入者登場です！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="115">ＷＥ　ＨＡＶＥ　Ａ　ＮＥＷ
+　ＣＨＡＬＬＥＮＧＥＲ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="116">？？？「あなたの闘い見てると血がたぎるね！私の名は[nick:ティニーク]・アルカナ。挑戦を曼けてもらうっス！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="117">解説マン「こ、これは驚きました！　なんと[nick:ティニーク]選手、彼は伝説の種族リカントロープです！たしか彼らは武道の天才と言われております！これはあやうし[nick:ラティ]選手！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="118">解説マン「最後の闘いです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="119">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="120">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="121">解説マン「今回再び勇者が誕生しました！
+[memberD]ランクの勝利を手にした人物、その名も[end]</sn:pointer>
+
+<sn:pointer id="122">[leader]！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="123">解説マン「勇者に花東を送るロイヤルプリンスは[memberD]さんです！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="124">解説マン「勇者に花東を送るロイヤルプリンセスは[memberD]さんです！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="125">解説マン「[leader]さんには賞品が与えられます！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="126">[memberD]をもらいました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="127">解説マン「それともう一つ、七星奥義書を授けましょう。[page]
+七星奥義を覚えました。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="128">解説マン「それでは、最後にもう一度勇者に拍手を！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="129">解説マン「スィーユウ、ネクスツッ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="130">解説マン「ああーっと、[leader]
+力尽きた！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="131">[nick:イリア]「すごい迫力よね。でも、こんな大勢の前で闘うなんて[speed][0xa]・・・[speed][0x0]ちょっとはずかしいわね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="132">[nick:ロニキス]「う〜む。闘技場というものが本当にあるとは・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="133">[nick:ミリー]「わあぁ[speed][0x5]・・・[speed][0x0]、本当にすごいわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="134">[nick:フィア]「真の賛辞は強い者にのみ贈られる。これが[color][0x4]アストラル[color][0x2]の真理なのさ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="135">[nick:ヨシュア]「むやみに闘うことに意味はあるんでしょうか？こんな所で血を流して[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="136">1．強くなりたいという思いは無駄？
+2．闘いに理由が必要なら・・・
+3．理由なんか無いさ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="137">[nick:ラティ]「強くなりたいという思いは無駄ではないと思うけど[speed][0xa]・・・。[speed][0x0][page]
+[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]たしかにそうですね。でも、ならば[nick:ラティ]さんはなぜ強くなりたいんですか？[page]
+[nick:ラティ]「それは[speed][0xa]・・・。[speed][0x0][page]
+[nick:ヨシュア]「相当根本的な部分の話なので深くは聞きませんが、そこが重要だと思うんです。僕は本当はむやみやたらと、たとえ敵であっても殺すようなまねはしたくないんです。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="138">[nick:ヨシュア]「僕が力を欲したのは[speed][0xa]・・・[speed][0x0]妹を捜すための手段としてですから[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="139">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]その妹さんが、理由はどうあれ、両手を血で染めるようなマネをしていたら[speed][0xa]・・・[speed][0x0]どうしますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="140">[nick:ヨシュア]「そういうことをしているとは考えられませんね。僕の妹に会ったこともない人に[speed][0xa]・・・[speed][0x0]笑えない冗談です。そんな話は2度としないで下さい。[page]
+[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]ごめんなさい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="141">[nick:ラティ]「闘うことに理由が必要なら、それはやっぱり強くなりたいと思うことなんじゃないですか？[page]
+[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]なぜ強くなりたいんですか？そこの理由が重要だと思うんです。そこが蒲いと僕も含めて、やってることは単なる殺りくとかわりありませんよね。[page]
+[nick:ラティ]「まあ、たしかに[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="142">[nick:ラティ]「闘うことに意味なんかないんじゃないですか？[page]
+[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]意味は無い？[nick:ラティ]さんにとってはそうなんですか？！それじゃあ単なる人殺しと同じじゃありませんか！[page]
+[nick:ラティ]「[speed][0xa]・・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="143">[nick:ペリシー]「すごいすごい！あたしもネコ奥義とかほしいなぁ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="144">[nick:ラティ]「こういうのキライですか？[page]
+[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]いえ。でも、どうして？[page]
+[nick:ラティ]「なんか、元気なさそうだったから[speed][0xa]・・・。[speed][0x0][page]
+[nick:マーヴェル]「何でもないのよ。ごめんなさいね、心配かけて。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="145">[nick:シウス]「あーなんだよ、あの闘い方はよぉ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="146">[nick:シウス]「かーっくだらねぇ！攻め方しらないんじゃねぇのか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="147">[nick:シウス]「こうなったら俺様が[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="148">[nick:シウス]「弱い！弱すぎるぞ貴様ら！俺がぶちのめしてやるからよ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="149">[nick:シウス]「どうだい、イカしただろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="150">解説マン「ああーっと、乱入者力尽きた！！[page]
+[end]</sn:pointer>
+
+</sn:script>

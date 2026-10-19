@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:マーヴェル]「真紅の楯・・・！！[page]
+真紅の楯「ギ[speed][0xa]・・・[speed][0x0]グ。コノ先ニハ進マセルワケニハイカネェナア。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:アシュレイ]「貴様[speed][0xa]・・・[speed][0x0]真紅の楯、いや、アーガスィの影だな？！[speed][0x1e][speed][0x0]待ちわびたぞ、貴様と会えるこの時を！[page]
+真紅の楯「誰ダ？貴様ハ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">（[nick:アシュレイ]・・・！！）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:アシュレイ]「我が戦友の名を語る不届きな奴め！この場で成敗してくれるわ！[page]
+真紅の楯「成敗ダト？クックックッ、笑ワセルナ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">真紅の楯「ココヲ訪レタ者ハ、全員皆殺シダ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">（俺を殺してくれ！）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:マーヴェル]「真紅の楯[speed][0xa]・・・！！[speed][0x0][page]
+真紅の楯「ギ[speed][0xa]・・・[speed][0x0]グ。コノ先ニハ進マセルワケニハイカネェナア。[page]
+[nick:マーヴェル]「おまえこそ、両親の仇！わたしから全てを奪った張本人！こんな所で会えるなんて[speed][0xa]・・・[speed][0x0]この時をどれほど待ったか！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]「今回は助勢させてもらうよ、[nick:マーヴェル]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:マーヴェル]「ありがとう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">真紅の楯「ククク笑ワセルワ。ココヲ訪レタ者ハ、全員皆殺シダ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ロニキス]「おまえはたしか、[nick:マーヴェル]の仇の[speed][0xa]・・・[speed][0x0]真紅の楯[speed][0xa]・・・！！[speed][0x0][page]
+真紅の楯「仇ダ？知ラネェナ[speed][0xa]・・・。[speed][0x0]ソレニコノ先ニハ進マセルワケニハイカネェナ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">真紅の楯「ココヲ訪レタ者ハ、全員皆殺シダ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">真紅の楯「コノ先ニハ進マセルワケニハイカネェナア。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:アシュレイ]「貴様[speed][0xa]・・・[speed][0x0]真紅の楯、いや、アーガスィの影だな？！[speed][0x1e][speed][0x0]待ちわびたぞ、貴様と会えるこの時を！[page]
+真紅の楯「誰ダ？貴様ハ[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">（[nick:アシュレイ]・・・！！）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:アシュレイ]「我が戦友の名を語る不届きな奴め！この場で成敗してくれるわ！[page]
+真紅の楯「成敗ダト？クックックッ、笑ワセルナ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">真紅の楯「ココヲ訪レタ者ハ、全員皆殺シダ！！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">（俺を殺してくれ！）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]やったか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ロニキス]「[nick:マーヴェル]、やったぞ。仇を討ったんだ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]「まだ絆わっていない！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">真紅の楯「ま、待て[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:アシュレイ]「その声[speed][0xa]・・・[speed][0x0]まさかヌシは？！[page]
+[nick:ラティ]「[speed][0xa]・・・？[speed][0x0][page]
+真紅の楯「[speed][0xa]・・・[speed][0x0][nick:アシュレイ]よ、ひさしぶりだな[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ラティ]「ど、どういうことですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]「なんということだ！ワシは、友を手にかけてしまったというのか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]「だって、真紅の楯の影じゃなかったの？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">真紅の楯「[speed][0xa]・・・[speed][0x0][nick:アシュレイ]よ、気に、するな[speed][0xa]・・・。[speed][0x0]現身の臆に捕らわれたときから俺はこうなる運命だったのだ。[page]
+[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]だが[speed][0xa]・・・！[speed][0x0][page]
+真紅の楯「[speed][0xa]・・・[speed][0x0]それよりも、[color][0x4]アストラル[color][0x2]が危ない！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:アシュレイ]「なんじゃと？[page]
+真紅の楯「い、急げ！影が、ライアスに託された“刃無き剣”を、狙って[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]「ヤイバナキツルギ？[page]
+[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]なぜそんなものを狙って[color][0x4]アストラル[color][0x2]に？ただの工芸品のはずじゃが？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]やったか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]「[nick:マーヴェル]やったぞ！ついに仇をとったんじゃないか！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]「まだ絆わっていない！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">真紅の楯「ま、待て[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ラティ]「[speed][0xa]・・・・・。[speed][0x0][page]
+真紅の楯「[speed][0xa]・・・[speed][0x0]呪いから開放してくれたこと、感謝するぞ[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「感謝[speed][0xa]・・・？[speed][0x0][page]
+真紅の楯「いや、[speed][0xa]・・・[speed][0x0]それよりも、[color][0x4]アストラル[color][0x2]が、危ない。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:シウス]「なんだって？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:フィア]「なんだって？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">真紅の楯「い、急げ！影が、ライアスに託された“刃無き剣”を、狙って[speed][0xa]・・・！！[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ラティ]「ヤイバナキツルギ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:シウス]「[speed][0xa]・・・[speed][0x0]なぜそんなものを狙って[color][0x4]アストラル[color][0x2]に？あれはただの工芸品のはずだろ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:フィア]「[speed][0xa]・・・[speed][0x0]刃無き剣[speed][0xa]・・・[speed][0x0]あれは単なる飾り物だろ？なぜそんなものを狙って？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ロニキス]「だがどうして忠告なんか[speed][0xa]・・・[speed][0x0]。敵じゃなかったのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:イリア]「それより、せっかくの忠告を無駄にはできないわ。急いで戻らないと[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ロニキス]「戻るっていったって、今から[color][0x4]アストラル[color][0x2]まで？間に合うのか？[page]
+[nick:イリア]「[speed][0xa]・・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ラティ]「[color][0x6]真実の瞳[color][0x2]は使えないんですか？もともと空間を開くものなんですよね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]「やってみる価値はあるわね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ラティ]「これは？[page]
+[nick:イリア]「なにこれ？ずいぶん近代的な建物ね[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:ロニキス]「ここに、アスモデウスがいるのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ロニキス]「しかし、魔界[speed][0xa]・・・[speed][0x0]というには、ずいぶん場違いな[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[pos][0x58][0x0]魔界[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">戻りますか？[page]
+[end]</sn:pointer>
+
+</sn:script>

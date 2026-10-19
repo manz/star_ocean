@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x28][0x0]タトローイ闘技場控え室[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">案内1「闘いの参加資格は特にありません。闘いは呪紋でも武器でも素手でもかまいません。参加者は闘いのレベルを選択することができます。レベルとはつまり敵の強さで、最低Ｈ〜最高Ａまでの8段階存在します。各レベルは5人抜きすれば勝利となり、強さに見合った商品が送られます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">案内2「闘いの前には一旦全ての回復薬と食べ物類を預からせてもらいます。そのかわりこちらから規定数の回復薬をご用意致します。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">案内3「Ａランクのチャンピオンになられた方は再度Ａランクに挑戦することが出来ます。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">案内4「ここは、選手入場口です。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">案内4「闘いに参加なさいますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[leader]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[end]</sn:pointer>
+
+<sn:pointer id="9">[end]</sn:pointer>
+
+<sn:pointer id="10">戦士Ａ「俺はＤランクまではいったんだが、それ以上のランクの敵は斬っても全く手応えがないんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">戦士Ｂ「分裂するのは反則だよなぁ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">戦士Ｃ「ハメだよ、ハメ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">女「あなたも出場するのかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">冒険者「この闘技場に出すための怪物を生け捕りにしてくることを専門に行っている冒険者のグループがいるらしいぜ。生け捕りにするなんて、相当な実力が無いとムリだろうな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">女の子「闘いの勝者に花東を渡す役って女の子みんなの憧れなのよね・・・。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">案内4「どなたが出場しますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">「[leader]さんは[end]</sn:pointer>
+
+<sn:pointer id="19">[memberD]ランクへの挑戦になります。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+<sn:pointer id="21">[pos][0x0][0x0]1．[leader][end]</sn:pointer>
+
+<sn:pointer id="22">[pos][0x0][0x10]2．[leader][end]</sn:pointer>
+
+<sn:pointer id="23">[pos][0x0][0x20]3．[leader][end]</sn:pointer>
+
+<sn:pointer id="24">[pos][0x0][0x30]4．[leader][end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]「おめでとう[nick:ラティ]。[page]
+[nick:ラティ]「ええ、でもあの乱入してきた人、何だったんでしょう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]「さあ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]「君は！[page]
+[nick:ティニーク]「[speed][0xa]・・・[speed][0x0]いやあ、あなたは強い！で、どうかお願いしまス！私を一緒に連れていってくれないっスか？一生のお願いっス！！[page]
+[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">1．別にＯＫだよ
+2．ちょっと遠慮させてほしい[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]「君みたな奴が仲間にいたら心強いな。よろしく頼むよ。[page]
+[nick:ティニーク]「ほんとっスか？恩にきるですよ！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]「う〜ん、悪いけど[speed][0xa]・・・。[speed][0x0][page]
+[nick:ティニーク]「[speed][0xa]・・・[speed][0x0]そうですか。しかたないっスよね。じゃあお元気で、私ももっと修行するっス。[page]
+[end][0xff]</sn:pointer>
+
+</sn:script>

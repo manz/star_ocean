@@ -1,0 +1,11 @@
+rom_size = 0x800000  # 6 MB S-DD1 cart expanded to 8 MB: pages 6-7 hold the patch's data
+board = "SHVC-LN3B-01"
+entrypoint = "star_ocean.s"
+module-paths = ["src"]
+include-paths = ["src", "build/gen"]
+
+# ROM pages 6-7 (physical 0x600000-0x7FFFFF) have no fixed bus address: code reads them through the E window
+# with $4806 set to 6 or 7. The patch addresses them as pseudo-banks $40-$5F (sram_text.s translates).
+[map.1]
+address = "40-5f:0000-ffff"
+base = 0x600000

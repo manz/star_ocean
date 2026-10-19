@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x3e][0x0]シルヴァラントの港[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">船乗り「話は聞いています。どこに行きますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">1．ポートミス（ムーア王国）
+2．オタニム（アストラル王国）
+3．南束の無人島[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">船乗り「なんだお前たちは。ここは使えないぞ。帰った帰った！[page]
+[end][0x83]</sn:pointer>
+
+</sn:script>

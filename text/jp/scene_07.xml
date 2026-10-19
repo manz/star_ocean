@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ドーン]「あいつ、きっと親父を心配して[color][0x4]クール[color][0x2]に行ったんだ！！急ごう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x40][0x0]星の船落下地点[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x40][0x0]星の船落下地点[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]「やだ・・・、よく考えたら私この格好、[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]「確かに・・・思いっ切りアヤシイですよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">1．僕が探してきます
+2．関係ないですよ[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]「ちょっとここで待っててくれます？俺が探してきますから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:イリア]「ごめんなさいね。今ごろ艦長も困ってるかもしれないわね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]「じゃあ、よろしくね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ラティ]「関係ないんじゃないですか？少し変わった人がいるな、みたいなくらいで。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]「そんなこと言わずに町で服を探してきてくれないかしら。
+よろしく頼むわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:イリア]「どこいくつもり？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ラティ]「服を探さなくちゃ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]「どうした？[nick:ドーン]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ドーン]「[speed][0xf]いや、[speed][0x0]なんでもない[speed][0xf]・・・・[speed][0x0]。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]「服は見つかった？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ラティ]「う[speed][0x14]、[speed][0x0]うーん。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ラティ]「[nick:イリア]さん、大丈夫ですか？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]「え[speed][0xa]、[speed][0x0]ええ[speed][0x14]。[speed][0x0]なんともないわ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]「みんな？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ラティ]「暗くて見えませんね。
+たぶん近くにいると思うんだけど。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:イリア]「そうね。[page]
+[nick:イリア]「でも、私が転んだせいで飛び込むタイミングが大幅にずれたから、[page]
+[nick:イリア]「はなればなれになっている可能性もあるわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]「[nick:イリア]さん！服持ってきましたよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ラティ]「はい、これです。[page]
+[nick:イリア]「ありがとう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]「のぞいちゃダメよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]「ちょっと古びてるけど、文句は言えないわね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]「やだ・・。サイズぴったりよ[speed][0xf]、[speed][0x0]これ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]「これ、なんか濡れてるわ。どこから持ってきたの？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]「艦長たちを捜さないといけないけど、とりあえずもう一度村に入りましょう。[page]
+[nick:ラティ]「旅支度をしないといけませんしね。[page]
+[nick:イリア]「そうね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]「それじゃあ行きましょ。[color][0x4]ホット[color][0x2]の町は北よね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]「それじゃあ行きましょ。[color][0x4]ホット[color][0x2]の町は北よね？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:イリア]「私は艦長たちのことを聞いてみるわ。[nick:ラティ]も一応聞いてみてちょうだい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">1．わかったよ（本気）
+2．わかったよ（ウソ）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]「じゃあ、またここで落ち合いましょ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]「ホント？[speed][0x14][speed][0xa]・・・[speed][0x0]頼むわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:シウス]「この村なんにもねぇんだよなぁ。俺は村の中ブラブラしてるからよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:イリア]「私は艦長たちのことを聞いてみるわ。[nick:ラティ]も一応聞いてみてちょうだい。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">1．わかったよ（本気）
+2．わかったよ（ウソ）[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:イリア]「じゃあ、またここで落ち合いましょ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]「ホント？[speed][0x14][speed][0xa]・・・[speed][0x0]頼むわよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:シウス]「この村なんにもねぇんだよなぁ。俺は村の中ブラブラしてるからよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:イリア]「ここで少し休憩でもして行きましょう。[page]
+[nick:シウス]「こんな村にいつまでいてもしょうがねぇぞ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]「ここで少し休憩でもして行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:イリア]「ここで少し休憩でもして行きましょう。[page]
+[nick:シウス]「こんな村にいつまでいてもしょうがねぇぞ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:イリア]「ここで少し休憩でもして行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:イリア]「休むのはほどほどにしましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:イリア]「休むのはほどほどにしましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">若者「いやあ、びっくりしましたよ！いきなりものすごい音がしたと思ったら、あたり一面このありさまだったんですから。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">娘「一体これはなんなのかしら？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">父親ダラン「いても立ってもいられなくて[color][0x4]トロップ[color][0x2]から来てしまいました。てっきり流れ星が落ちてきたと思っていたんですけど、これはなんなのでしょう？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">息子ロト「これが本当に空からおっこちてきたのかなあ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">老人「いやな予感がするわい。これも魔物の仕業なのかのう[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">老婆「世の中には不思議なことがあるもんじゃのう[speed][0xa]・・・。[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ミリー]「[nick:ロニキス]さん！[page]
+[nick:ロニキス]「やあ、もう会うことも無いとか言っていたが・・・。[page]
+[nick:イリア]「あなた達の力を貸して欲しいの。[page]
+[nick:ラティ]「どういうことですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:ロニキス]「[speed][0xa]・・・・・・[speed][0x0]というわけなんだ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ラティ]「行きましょう！
+[speed][0xa]・・・[speed][0x0]でも、僕たちだけじゃ[speed][0xa]・・・。[speed][0x0][page]
+[nick:イリア]「その事なら大丈夫よ。[page]
+[nick:ラティ]「え？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:イリア]「これは[speed][0xa]・・・[speed][0x0]？！[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ラティ]「僕が知ってるのより新しいけど[speed][0xa]・・・[speed][0x0]間違いなく星の船です！[page]
+[nick:イリア]「これが、星の船[speed][0xa]・・・。[speed][0x0][page]
+[nick:ラティ]「[nick:イリア]さんどうしたんですか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:イリア]「い、いえ。なんでもないわ。これが例の第3勢力の船ね。おそらく、すでに脱出してローク人に紛れて行動しているわね。急ぎましょう。[page]
+[nick:ラティ]「そうですね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:イリア]「休憩してる暇があったらすぐにでも魔界に行った方がいいんじゃない？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:イリア]「街を巡っているだけで本当にみんなと合流できるのかしら[speed][0xa]・・・？[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:イリア]「休憩でもしていく？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:ロニキス]「本来の目的を忘れるんじゃないぞ。私達が今すべきことは魔界に行くことだからな。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:ロニキス]「[nick:ラティ]はどうするんだ？　私はブラブラしてるとするよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:ミリー]「[nick:ドーン]を助けるためにも、早く魔界に行こうよ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:ミリー]「少し休んでいこうか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:シウス]「アスモデウスを退治しにいくんだろ？こんな所で遊んでていいのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:シウス]「先に行ってるぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:アシュレイ]「今はゆっくりしておる時ではないと思うがの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:アシュレイ]「ゆっくりしているヒマは無いと思うがの。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:フィア]「魔界には行かないのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[nick:フィア]「[speed][0xa]・・・[speed][0x0]ゆっくりしてていいのか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[nick:ヨシュア]「少し休んで行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:マーヴェル]「町によって行くんですね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:イリア]「それじゃあ行きましょ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[nick:イリア]「[nick:ラティ]は休憩になった？そろそろ[color][0x4]パージ神殿[color][0x2]に行きましょう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:イリア]「それじゃあ先に進みましょ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:ロニキス]「さてと。休憩するのはこれくらいにして、各国の王に謁見してこようか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:ロニキス]「休むのはこれくらいにしておこう。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:ミリー]「神殿ってたしか[color][0x4]タトローイ[color][0x2]の西だっけ？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:シウス]「さっさと魔界に行こうぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:シウス]「[color][0x4]パージ神殿[color][0x2]にいかなきゃならねぇんだろ？だったらさっさと行こうぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:シウス]「俺はなんかフラフラしてるより闘ってた方が性にあうぜ。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:アシュレイ]「国王から[color][0x6]真実の瞳[color][0x2]についての情報を得にいかんか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:フィア]「[color][0x4]パージ神殿[color][0x2]の場所は覚えているか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:フィア]「そろそろ先に行こうか。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:ヨシュア]「魔界には行かないんですか？[color][0x4]シルヴァラント[color][0x2]からでしたよね。[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:ヨシュア]「[color][0x6]真実の瞳[color][0x2]を手に入れるためにも、早く謁見を済ませてしまいませんか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ヨシュア]「たまにはこういうのもいいですね。[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">帰りますか？[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[end]</sn:pointer>
+
+<sn:pointer id="2">[end][0x80]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="60000">ダミーアイテム[end]</sn:pointer>
+
+<sn:pointer id="60010">とくぎ　　　　アイテム　　　せんじゅつ　　レジスト[end]</sn:pointer>
+
+<sn:pointer id="60011">そうび　　　　スキル　　　　ステータス　　セーブ[end]</sn:pointer>
+
+<sn:pointer id="60012">さくせん
+
+いれかえ
+
+たいけい[end]</sn:pointer>
+
+<sn:pointer id="60014">　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　　　　　　　　　　　　　　　　　　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="60015">　　　　　　　　　　　　　　　　　　　　　　　　　　　　
+　　　　　　　　　　　／　　　　　　　／　　　　　　　　
+LV　　　　　　　　／　　　　　　　／　　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="60016">／[end]</sn:pointer>
+
+<sn:pointer id="60017">HP[end]</sn:pointer>
+
+<sn:pointer id="60018">MP[end]</sn:pointer>
+
+<sn:pointer id="60019">NEXT[end]</sn:pointer>
+
+<sn:pointer id="60020">TIME　？？：？？　　G　？？？？？？？　　C　？？？？？[end]</sn:pointer>
+
+<sn:pointer id="60025">
+　　なまえ
+[end]</sn:pointer>
+
+<sn:pointer id="60030">どのアイテムをつかいますか[end]</sn:pointer>
+
+<sn:pointer id="60031">だれにつかいますか[end]</sn:pointer>
+
+<sn:pointer id="60032">ぜんごどちらにつかいますか[end]</sn:pointer>
+
+<sn:pointer id="60033">だれがつかいますか[end]</sn:pointer>
+
+<sn:pointer id="60034">どのアイテムをすてますか[end]</sn:pointer>
+
+<sn:pointer id="60035">アイテムクリエーション
+
+[end]</sn:pointer>
+
+<sn:pointer id="60036">きちょうひん[end]</sn:pointer>
+
+<sn:pointer id="60040">さくせんをせんたくできます[end]</sn:pointer>
+
+<sn:pointer id="60041">さくせんはありません[end]</sn:pointer>
+
+<sn:pointer id="60050">せっていをへんこうできます[end]</sn:pointer>
+
+<sn:pointer id="60051">　　　　　　　　　　　　はやい　　　　　　　　　おそい
+メッセージスピード　　　1　2　3　4　5　6　7　8
+
+
+サウンドしゅつりょく　　ステレオ　モノラル　サラウンド
+
+
+キーカスタマイズ　　　　けってい　　
+
+　　　　　　　　　　　　キャンセル　
+
+　　　　　　　　　　　　メニュー　　
+
+　　　　　　　　　　　　もくひょう　
+
+　　　　　　　　　　　　ひっさつわざ1　
+
+　　　　　　　　　　　　ひっさつわざ2　
+
+
+ウインドウカラー
+
+カラーブライト[end]</sn:pointer>
+
+<sn:pointer id="60060">
+
+
+
+
+ぶき
+
+からだ
+
+たて
+
+あたま
+
+あし
+
+そのた1
+
+そのた2[end]</sn:pointer>
+
+<sn:pointer id="60062">
+そうびメニュー
+
+
+さいきょうそうび
+
+
+イクイップウイザード
+　　ON　　OFF[end]</sn:pointer>
+
+<sn:pointer id="60065">（なし）[end]</sn:pointer>
+
+<sn:pointer id="60066">EW[end]</sn:pointer>
+
+<sn:pointer id="60067">　ON[end]</sn:pointer>
+
+<sn:pointer id="60068">OFF[end]</sn:pointer>
+
+<sn:pointer id="60070">いれかえがめん[end]</sn:pointer>
+
+<sn:pointer id="60071">たいけいをせんたくできます[end]</sn:pointer>
+
+<sn:pointer id="60073">リニアモーション
+
+アストラルシフト
+
+トライシフト1
+
+トライシフト2
+
+フリーファイト
+
+アッパースクウェア
+
+アンダースクウェア
+
+ダイヤモンドシフト
+
+[end]</sn:pointer>
+
+<sn:pointer id="60075">　　　　　　　　　　　　
+　　　　　　　LV　　　
+HP　　　　　／　　　　
+MP　　　　　／　　　　
+[end]</sn:pointer>
+
+<sn:pointer id="60080">HP　　　　　／　　　　
+MP　　　　　／　　　
+EXP
+NEXT
+STR
+INT
+AGL
+CON
+GUTS
+STM
+
+こうげき
+
+ぼうぎょ
+
+めいちゅう
+
+かいひ
+
+[end]</sn:pointer>
+
+<sn:pointer id="60081">ぶき
+
+からだ
+
+たて
+
+あたま
+
+あし
+
+そのた1
+
+そのた2
+
+こうぶつ
+
+[end]</sn:pointer>
+
+<sn:pointer id="60085">タレント[end]</sn:pointer>
+
+<sn:pointer id="60086">（なし）[end]</sn:pointer>
+
+<sn:pointer id="60090">　　　　　
+TIME　
+　　：　　[end]</sn:pointer>
+
+<sn:pointer id="60091">データをえらんでください[end]</sn:pointer>
+
+<sn:pointer id="60095">　　　　　
+データが　
+ありません[end]</sn:pointer>
+
+<sn:pointer id="60110">みせ[end]</sn:pointer>
+
+<sn:pointer id="60112">かう　　ハトをつかう[end]</sn:pointer>
+
+<sn:pointer id="60114">かう　　うる　　みせをでる[end]</sn:pointer>
+
+<sn:pointer id="60115">かう　　うる　　せいさん[end]</sn:pointer>
+
+<sn:pointer id="60116">もっているかず[end]</sn:pointer>
+
+<sn:pointer id="60117">フォル[end]</sn:pointer>
+
+<sn:pointer id="60118">かい[end]</sn:pointer>
+
+<sn:pointer id="60119">うり[end]</sn:pointer>
+
+<sn:pointer id="60120">せいさんご[end]</sn:pointer>
+
+<sn:pointer id="60130">イクイップウイザード[end]</sn:pointer>
+
+<sn:pointer id="60131">そうびはじどうてきにへんこうされました[end]</sn:pointer>
+
+<sn:pointer id="60140">なまえ[end]</sn:pointer>
+
+<sn:pointer id="60141">ニックネーム[end]</sn:pointer>
+
+<sn:pointer id="60142">けってい[end]</sn:pointer>
+
+<sn:pointer id="60143">おわり[end]</sn:pointer>
+
+<sn:pointer id="60145">なまえをへんこうできます[end]</sn:pointer>
+
+<sn:pointer id="60170">だれをいれかえますか[end]</sn:pointer>
+
+<sn:pointer id="60171">だれといれかえますか[end]</sn:pointer>
+
+<sn:pointer id="60180">
+　　
+
+　　SP
+[end]</sn:pointer>
+
+<sn:pointer id="60200">[end]</sn:pointer>
+
+<sn:pointer id="60220">[end]</sn:pointer>
+
+<sn:pointer id="60221">ひっさつわざのせってい[end]</sn:pointer>
+
+<sn:pointer id="60222">じゅもんのせってい[end]</sn:pointer>
+
+<sn:pointer id="60223">とくぎがありません[end]</sn:pointer>
+
+<sn:pointer id="60225">　　ボタン
+S
+
+L
+
+
+　　ボタン
+S
+
+L
+[end]</sn:pointer>
+
+<sn:pointer id="60380">
+　　　　　スキルLV　SP　　　　　　　　スキルLV　SP[end]</sn:pointer>
+
+<sn:pointer id="60445">あいうえおぁぃぅぇぉかきくけこがぎぐげごさしすせそざじずぜぞたちつてとだぢづでどなにぬねのぱぴぷぺぽはひふへほばびぶべぼまみむめもー　っ　ヴや　ゆ　よゃ　ゅ　ょらりるれろわ　を　んアイウエオァィゥェォカキクケコガギグゲゴサシスセソザジズゼゾタチツテトダヂヅデドナニヌネノパピプペポハヒフヘホバビブベボマミムメモー　ッ　ヴヤ　ユ　ヨャ　ュ　ョラリルレロワ　ヲ　ンABCDEFGHIJKLMNOPQRSTUVWXYZ　　　　0123456789！”♪→％＆＋－※／[end]</sn:pointer>
+
+<sn:pointer id="60530">
+アイテムメニュー
+
+
+
+
+
+アイテムクリエーション
+
+
+きちょうひん[end]</sn:pointer>
+
+<sn:pointer id="60580">とくぎしゅうとくど[end]</sn:pointer>
+
+<sn:pointer id="60581">とくぎべつスキルしゅうとくど[end]</sn:pointer>
+
+<sn:pointer id="60585">
+とくぎめい　　　　　　　　　スキルめい　　　LV　SP[end]</sn:pointer>
+
+<sn:pointer id="60586">
+
+　　　　　　　　　　　　　　　　　　　スキルLV　　SP
+
+
+
+
+とくぎLV[end]</sn:pointer>
+
+<sn:pointer id="60590">
+よろしいですか？
+　　　はい　　　いいえ[end]</sn:pointer>
+
+<sn:pointer id="63200">あ　い　う　え　お　　　　　　ぁ　ぃ　ぅ　ぇ　ぉ[end]</sn:pointer>
+
+<sn:pointer id="63201">か　き　く　け　こ　　　　　　が　ぎ　ぐ　げ　ご[end]</sn:pointer>
+
+<sn:pointer id="63202">さ　し　す　せ　そ　　　　　　ざ　じ　ず　ぜ　ぞ[end]</sn:pointer>
+
+<sn:pointer id="63203">た　ち　つ　て　と　　　　　　だ　ぢ　づ　で　ど[end]</sn:pointer>
+
+<sn:pointer id="63204">な　に　ぬ　ね　の　　　　　　ぱ　ぴ　ぷ　ぺ　ぽ[end]</sn:pointer>
+
+<sn:pointer id="63205">は　ひ　ふ　へ　ほ　　　　　　ば　び　ぶ　べ　ぼ[end]</sn:pointer>
+
+<sn:pointer id="63206">ま　み　む　め　も　　　　　　ー　　　っ　　　ヴ[end]</sn:pointer>
+
+<sn:pointer id="63207">や　　　ゆ　　　よ　　　　　　ゃ　　　ゅ　　　ょ[end]</sn:pointer>
+
+<sn:pointer id="63208">ら　り　る　れ　ろ　　　　　　わ　　　を　　　ん[end]</sn:pointer>
+
+<sn:pointer id="63209">ア　イ　ウ　エ　オ　　　　　　ァ　ィ　ゥ　ェ　ォ[end]</sn:pointer>
+
+<sn:pointer id="63210">カ　キ　ク　ケ　コ　　　　　　ガ　ギ　グ　ゲ　ゴ[end]</sn:pointer>
+
+<sn:pointer id="63211">サ　シ　ス　セ　ソ　　　　　　ザ　ジ　ズ　ゼ　ゾ[end]</sn:pointer>
+
+<sn:pointer id="63212">タ　チ　ツ　テ　ト　　　　　　ダ　ヂ　ヅ　デ　ド[end]</sn:pointer>
+
+<sn:pointer id="63213">ナ　ニ　ヌ　ネ　ノ　　　　　　パ　ピ　プ　ペ　ポ[end]</sn:pointer>
+
+<sn:pointer id="63214">ハ　ヒ　フ　ヘ　ホ　　　　　　バ　ビ　ブ　ベ　ボ[end]</sn:pointer>
+
+<sn:pointer id="63215">マ　ミ　ム　メ　モ　　　　　　ー　　　ッ　　　ヴ[end]</sn:pointer>
+
+<sn:pointer id="63216">ヤ　　　ユ　　　ヨ　　　　　　ャ　　　ュ　　　ョ[end]</sn:pointer>
+
+<sn:pointer id="63217">ラ　リ　ル　レ　ロ　　　　　　ワ　　　ヲ　　　ン[end]</sn:pointer>
+
+<sn:pointer id="63218">A　B　C　D　E　　　　　　F　G　H　I　J[end]</sn:pointer>
+
+<sn:pointer id="63219">K　L　M　N　O　　　　　　P　Q　R　S　T[end]</sn:pointer>
+
+<sn:pointer id="63220">U　V　W　X　Y　　　　　　Z　　　　　　　　[end]</sn:pointer>
+
+<sn:pointer id="63221">0　1　2　3　4　　　　　　5　6　7　8　9[end]</sn:pointer>
+
+<sn:pointer id="63222">！　”　♪　→　％　　　　　　＆　＋　－　※　／[end]</sn:pointer>
+
+<sn:pointer id="63250">[end]</sn:pointer>
+
+<sn:pointer id="63251">とくぎLV[end]</sn:pointer>
+
+<sn:pointer id="63252">TIME[end]</sn:pointer>
+
+<sn:pointer id="63253">フォル[end]</sn:pointer>
+
+<sn:pointer id="63254">エンカウント[end]</sn:pointer>
+
+<sn:pointer id="63255">NPC[end]</sn:pointer>
+
+<sn:pointer id="63256">しょうひMP[end]</sn:pointer>
+
+<sn:pointer id="63257">MASTER[end]</sn:pointer>
+
+<sn:pointer id="63258">[end]</sn:pointer>
+
+<sn:pointer id="63260">／[end]</sn:pointer>
+
+<sn:pointer id="63261">LV[end]</sn:pointer>
+
+<sn:pointer id="63262">HP[end]</sn:pointer>
+
+<sn:pointer id="63263">MP[end]</sn:pointer>
+
+<sn:pointer id="63264">EXP[end]</sn:pointer>
+
+<sn:pointer id="63265">NEXT[end]</sn:pointer>
+
+<sn:pointer id="63266">STR[end]</sn:pointer>
+
+<sn:pointer id="63267">INT[end]</sn:pointer>
+
+<sn:pointer id="63268">AGL[end]</sn:pointer>
+
+<sn:pointer id="63269">CON[end]</sn:pointer>
+
+<sn:pointer id="63270">GUTS[end]</sn:pointer>
+
+<sn:pointer id="63271">STM[end]</sn:pointer>
+
+<sn:pointer id="63272">こうげき[end]</sn:pointer>
+
+<sn:pointer id="63273">ぼうぎょ[end]</sn:pointer>
+
+<sn:pointer id="63274">めいちゅう[end]</sn:pointer>
+
+<sn:pointer id="63275">かいひ[end]</sn:pointer>
+
+<sn:pointer id="63276">ぞくせい[end]</sn:pointer>
+
+<sn:pointer id="63277">[end]</sn:pointer>
+
+<sn:pointer id="63280">ぶき[end]</sn:pointer>
+
+<sn:pointer id="63281">からだ[end]</sn:pointer>
+
+<sn:pointer id="63282">たて[end]</sn:pointer>
+
+<sn:pointer id="63283">あたま[end]</sn:pointer>
+
+<sn:pointer id="63284">あし[end]</sn:pointer>
+
+<sn:pointer id="63285">そのた1[end]</sn:pointer>
+
+<sn:pointer id="63286">そのた2[end]</sn:pointer>
+
+<sn:pointer id="63287">こうぶつ[end]</sn:pointer>
+
+<sn:pointer id="63290">しゅぞく[end]</sn:pointer>
+
+<sn:pointer id="63291">しょくぎょう[end]</sn:pointer>
+
+<sn:pointer id="63400">しゅぎょうする[end]</sn:pointer>
+
+<sn:pointer id="63401">しゅぎょうしない[end]</sn:pointer>
+
+<sn:pointer id="63410">なにもしない[end]</sn:pointer>
+
+<sn:pointer id="63411">てきからにげる[end]</sn:pointer>
+
+<sn:pointer id="63412">てきをさがす[end]</sn:pointer>
+
+<sn:pointer id="63415">はとをだす[end]</sn:pointer>
+
+<sn:pointer id="63417">じっこう[end]</sn:pointer>
+
+<sn:pointer id="63420">さっきょく[end]</sn:pointer>
+
+<sn:pointer id="63421">えんそう[end]</sn:pointer>
+
+<sn:pointer id="63425">さっきょくメニュー[end]</sn:pointer>
+
+<sn:pointer id="63430">ほそくせつめいはありません[end]</sn:pointer>
+
+<sn:pointer id="63431">ほそくせつめい[end]</sn:pointer>
+
+<sn:pointer id="63432">HPかいふく[end]</sn:pointer>
+
+<sn:pointer id="63433">MPかいふく[end]</sn:pointer>
+
+<sn:pointer id="63434">HP／MPかいふく[end]</sn:pointer>
+
+<sn:pointer id="63435">[end]</sn:pointer>
+
+<sn:pointer id="63500">せいぶつがく[end]</sn:pointer>
+
+<sn:pointer id="63501">やくそうがく[end]</sn:pointer>
+
+<sn:pointer id="63502">せいしんがく[end]</sn:pointer>
+
+<sn:pointer id="63503">こうぶつがく[end]</sn:pointer>
+
+<sn:pointer id="63504">どうぐちしき[end]</sn:pointer>
+
+<sn:pointer id="63505">ピエティ[end]</sn:pointer>
+
+<sn:pointer id="63506">レシピ[end]</sn:pointer>
+
+<sn:pointer id="63507">オタマジャクシ[end]</sn:pointer>
+
+<sn:pointer id="63508">ようせいろん[end]</sn:pointer>
+
+<sn:pointer id="63509">びてきかんかく[end]</sn:pointer>
+
+<sn:pointer id="63510">めきき[end]</sn:pointer>
+
+<sn:pointer id="63511">きのうび[end]</sn:pointer>
+
+<sn:pointer id="63512">あそびごころ[end]</sn:pointer>
+
+<sn:pointer id="63513">きけんかんち[end]</sn:pointer>
+
+<sn:pointer id="63514">でんぱ[end]</sn:pointer>
+
+<sn:pointer id="63515">どりょく[end]</sn:pointer>
+
+<sn:pointer id="63516">こんじょう[end]</sn:pointer>
+
+<sn:pointer id="63517">にんたい[end]</sn:pointer>
+
+<sn:pointer id="63518">クラフト[end]</sn:pointer>
+
+<sn:pointer id="63519">ほうちょう[end]</sn:pointer>
+
+<sn:pointer id="63520">えんそう[end]</sn:pointer>
+
+<sn:pointer id="63521">くちぶえ[end]</sn:pointer>
+
+<sn:pointer id="63522">デッサン[end]</sn:pointer>
+
+<sn:pointer id="63523">ぶんぴつ[end]</sn:pointer>
+
+<sn:pointer id="63524">キャスト[end]</sn:pointer>
+
+<sn:pointer id="63525">かがくぎじゅつ[end]</sn:pointer>
+
+<sn:pointer id="63526">ダッシュ[end]</sn:pointer>
+
+<sn:pointer id="63527">ちょうきょう[end]</sn:pointer>
+
+<sn:pointer id="63528">しょうげきは[end]</sn:pointer>
+
+<sn:pointer id="63529">しんくうは[end]</sn:pointer>
+
+<sn:pointer id="63530">めくり[end]</sn:pointer>
+
+<sn:pointer id="63531">はんげき[end]</sn:pointer>
+
+<sn:pointer id="63532">フェイント[end]</sn:pointer>
+
+<sn:pointer id="63533">れんき[end]</sn:pointer>
+
+<sn:pointer id="63534">リンクコンボ[end]</sn:pointer>
+
+<sn:pointer id="63535">はやくち[end]</sn:pointer>
+
+<sn:pointer id="63536">レイヴンソード[end]</sn:pointer>
+
+<sn:pointer id="63537">レイヴンオーブ[end]</sn:pointer>
+
+<sn:pointer id="63538">かくとうじゅつ[end]</sn:pointer>
+
+<sn:pointer id="63539">エダールけんぎ[end]</sn:pointer>
+
+<sn:pointer id="63540">がりゅうけん[end]</sn:pointer>
+
+<sn:pointer id="63541">ねこかくとう[end]</sn:pointer>
+
+<sn:pointer id="63542">しちせいおうぎ[end]</sn:pointer>
+
+<sn:pointer id="63543">しせいじゅう[end]</sn:pointer>
+
+<sn:pointer id="63544">こうりゅうおうぎ[end]</sn:pointer>
+
+<sn:pointer id="63545">ぶしんおうぎ[end]</sn:pointer>
+
+<sn:pointer id="63546">はっけしょう[end]</sn:pointer>
+
+<sn:pointer id="63547">うらおうか[end]</sn:pointer>
+
+<sn:pointer id="63548">ネコおうぎ♪[end]</sn:pointer>
+
+<sn:pointer id="63549">もんしょう[end]</sn:pointer>
+
+<sn:pointer id="63550">じゃんく[end]</sn:pointer>
+
+<sn:pointer id="63551">ラプスそうぎほう[end]</sn:pointer>
+
+<sn:pointer id="63570">さいく[end]</sn:pointer>
+
+<sn:pointer id="63571">ちょうり[end]</sn:pointer>
+
+<sn:pointer id="63572">ちょうごう[end]</sn:pointer>
+
+<sn:pointer id="63573">かんてい[end]</sn:pointer>
+
+<sn:pointer id="63574">カスタマイズ[end]</sn:pointer>
+
+<sn:pointer id="63575">アート[end]</sn:pointer>
+
+<sn:pointer id="63576">しっぴつ[end]</sn:pointer>
+
+<sn:pointer id="63577">おんがく[end]</sn:pointer>
+
+<sn:pointer id="63578">しゅぎょう[end]</sn:pointer>
+
+<sn:pointer id="63579">れんきん[end]</sn:pointer>
+
+<sn:pointer id="63580">オラクル[end]</sn:pointer>
+
+<sn:pointer id="63581">かたなかじ[end]</sn:pointer>
+
+<sn:pointer id="63582">ダッシュ[end]</sn:pointer>
+
+<sn:pointer id="63583">ファミリア[end]</sn:pointer>
+
+<sn:pointer id="63584">スカウト[end]</sn:pointer>
+
+<sn:pointer id="63585">エンチャント[end]</sn:pointer>
+
+<sn:pointer id="63586">しゅうり[end]</sn:pointer>
+
+<sn:pointer id="63587">？？？？[end]</sn:pointer>
+
+<sn:pointer id="63600">[end]</sn:pointer>
+
+<sn:pointer id="63601">つうこうしょう[end]</sn:pointer>
+
+<sn:pointer id="63602">ヴァンエンブレム[end]</sn:pointer>
+
+<sn:pointer id="63603">シルバエンブレム[end]</sn:pointer>
+
+<sn:pointer id="63604">ムーアエンブレム[end]</sn:pointer>
+
+<sn:pointer id="63605">アストエンブレム[end]</sn:pointer>
+
+<sn:pointer id="63606">エルダーキー[end]</sn:pointer>
+
+<sn:pointer id="63607">セキュリティーR[end]</sn:pointer>
+
+<sn:pointer id="63608">セキュリティーB[end]</sn:pointer>
+
+<sn:pointer id="63609">しんじつのひとみ[end]</sn:pointer>
+
+<sn:pointer id="63610">[end]</sn:pointer>
+
+<sn:pointer id="63650">[end]</sn:pointer>
+
+<sn:pointer id="63651">どれを「さいく」しますか[end]</sn:pointer>
+
+<sn:pointer id="63652">どれを「ちょうり」しますか[end]</sn:pointer>
+
+<sn:pointer id="63653">「ちょうごう」するものを2つえらんでください[end]</sn:pointer>
+
+<sn:pointer id="63654">どれを「かんてい」しますか[end]</sn:pointer>
+
+<sn:pointer id="63655">ほんとうに「カスタマイズ」してよろしいですか[end]</sn:pointer>
+
+<sn:pointer id="63656">どれを「ふくせい」しますか[end]</sn:pointer>
+
+<sn:pointer id="63657">どのスキルについてかきますか[end]</sn:pointer>
+
+<sn:pointer id="63658">どのほうせきをさくせいしますか[end]</sn:pointer>
+
+<sn:pointer id="63659">「ぶき」をえらんでください[end]</sn:pointer>
+
+<sn:pointer id="63660">「きんぞく」をえらんでください[end]</sn:pointer>
+
+<sn:pointer id="63700">[end]</sn:pointer>
+
+<sn:pointer id="63701">トランペット1[end]</sn:pointer>
+
+<sn:pointer id="63702">トランペット2[end]</sn:pointer>
+
+<sn:pointer id="63703">クラリネット1[end]</sn:pointer>
+
+<sn:pointer id="63704">クラリネット2[end]</sn:pointer>
+
+<sn:pointer id="63705">ハーモニカ1[end]</sn:pointer>
+
+<sn:pointer id="63706">ハーモニカ2[end]</sn:pointer>
+
+<sn:pointer id="63707">しゃみせん1[end]</sn:pointer>
+
+<sn:pointer id="63708">しゃみせん2[end]</sn:pointer>
+
+<sn:pointer id="63709">ギター1[end]</sn:pointer>
+
+<sn:pointer id="63710">ギター2[end]</sn:pointer>
+
+<sn:pointer id="63711">トロンボーン1[end]</sn:pointer>
+
+<sn:pointer id="63712">トロンボーン2[end]</sn:pointer>
+
+<sn:pointer id="63713">バイオリン1[end]</sn:pointer>
+
+<sn:pointer id="63714">バイオリン2[end]</sn:pointer>
+
+<sn:pointer id="63715">サックス1[end]</sn:pointer>
+
+<sn:pointer id="63716">サックス2[end]</sn:pointer>
+
+<sn:pointer id="63900">＝ファーレンス[end]</sn:pointer>
+
+<sn:pointer id="63901">＝キリート[end]</sn:pointer>
+
+<sn:pointer id="63902">＝マルトー[end]</sn:pointer>
+
+<sn:pointer id="63903">＝J＝ケニー[end]</sn:pointer>
+
+<sn:pointer id="63904">＝シルベストリ[end]</sn:pointer>
+
+<sn:pointer id="63905">＝ウォーレン[end]</sn:pointer>
+
+<sn:pointer id="63906">＝ジェランド[end]</sn:pointer>
+
+<sn:pointer id="63907">＝アルカナ[end]</sn:pointer>
+
+<sn:pointer id="63908">＝フローズン[end]</sn:pointer>
+
+<sn:pointer id="63909">＝バーンベルト[end]</sn:pointer>
+
+<sn:pointer id="63910">　[end]</sn:pointer>
+
+<sn:pointer id="63911">＝メル[end]</sn:pointer>
+
+<sn:pointer id="63912">[end]</sn:pointer>
+
+<sn:pointer id="63920">フェルプール[end]</sn:pointer>
+
+<sn:pointer id="63921">ヒューマン[end]</sn:pointer>
+
+<sn:pointer id="63922">ハイランダー[end]</sn:pointer>
+
+<sn:pointer id="63923">フェザーフォルク[end]</sn:pointer>
+
+<sn:pointer id="63924">ムーア[end]</sn:pointer>
+
+<sn:pointer id="63925">リカントロープ[end]</sn:pointer>
+
+<sn:pointer id="63926">レッサーフェルプール[end]</sn:pointer>
+
+<sn:pointer id="63927">？？？[end]</sn:pointer>
+
+<sn:pointer id="63930">けんし[end]</sn:pointer>
+
+<sn:pointer id="63931">ほうじゅつし[end]</sn:pointer>
+
+<sn:pointer id="63932">もんしょうつかい[end]</sn:pointer>
+
+<sn:pointer id="63933">ぶとうか[end]</sn:pointer>
+
+<sn:pointer id="63934">エンシャントマスター[end]</sn:pointer>
+
+<sn:pointer id="63935">ねこかくとうか[end]</sn:pointer>
+
+<sn:pointer id="63936">きし[end]</sn:pointer>
+
+<sn:pointer id="63940">オリジナリティ[end]</sn:pointer>
+
+<sn:pointer id="63941">みかく[end]</sn:pointer>
+
+<sn:pointer id="63942">きようなゆびさき[end]</sn:pointer>
+
+<sn:pointer id="63943">デザインセンス[end]</sn:pointer>
+
+<sn:pointer id="63944">ぶんさい[end]</sn:pointer>
+
+<sn:pointer id="63945">リズムかん[end]</sn:pointer>
+
+<sn:pointer id="63946">おんかん[end]</sn:pointer>
+
+<sn:pointer id="63947">どうぶつずき[end]</sn:pointer>
+
+<sn:pointer id="63948">やせいのかん[end]</sn:pointer>
+
+<sn:pointer id="63949">マナのしゅくふく[end]</sn:pointer>
+
+<sn:pointer id="64042">ソウハザン[end]</sn:pointer>
+
+<sn:pointer id="64043">クウハザン[end]</sn:pointer>
+
+<sn:pointer id="64044">ショウレツハ[end]</sn:pointer>
+
+<sn:pointer id="64045">ショウレイハ[end]</sn:pointer>
+
+<sn:pointer id="64046">ライメイケン[end]</sn:pointer>
+
+<sn:pointer id="64047">グレンケン[end]</sn:pointer>
+
+<sn:pointer id="64048">センコウケン[end]</sn:pointer>
+
+<sn:pointer id="64049">ソウリュウセイライザン[end]</sn:pointer>
+
+<sn:pointer id="64050">スザクショウゲキハ[end]</sn:pointer>
+
+<sn:pointer id="64051">シチセイライメイケン[end]</sn:pointer>
+
+<sn:pointer id="64052">シチセイセンコウケン[end]</sn:pointer>
+
+<sn:pointer id="64053">シチセイソウハザン[end]</sn:pointer>
+
+<sn:pointer id="64054">ソウリュウゲキハ[end]</sn:pointer>
+
+<sn:pointer id="64055">シュウソウゲキハ[end]</sn:pointer>
+
+<sn:pointer id="64056">セイテンショウ[end]</sn:pointer>
+
+<sn:pointer id="64057">コウリュウハ[end]</sn:pointer>
+
+<sn:pointer id="64058">コクリュウテンライハ[end]</sn:pointer>
+
+<sn:pointer id="64059">ヒリュウテンラライハ[end]</sn:pointer>
+
+<sn:pointer id="64060">ソウリュウテンライハ[end]</sn:pointer>
+
+<sn:pointer id="64061">[end]</sn:pointer>
+
+<sn:pointer id="64062">[end]</sn:pointer>
+
+<sn:pointer id="64063">ソウリュウショライ[end]</sn:pointer>
+
+<sn:pointer id="64064">ゲンブショウライ[end]</sn:pointer>
+
+<sn:pointer id="64065">ビャッコショウライ[end]</sn:pointer>
+
+<sn:pointer id="64066">シチセイグレンケン[end]</sn:pointer>
+
+<sn:pointer id="64067">[end]</sn:pointer>
+
+<sn:pointer id="64068">[end]</sn:pointer>
+
+<sn:pointer id="64069">[end]</sn:pointer>
+
+<sn:pointer id="64070">[end]</sn:pointer>
+
+<sn:pointer id="64080">[end]</sn:pointer>
+
+<sn:pointer id="64081">[end]</sn:pointer>
+
+<sn:pointer id="64082">[end]</sn:pointer>
+
+<sn:pointer id="64083">[end]</sn:pointer>
+
+<sn:pointer id="64084">[end]</sn:pointer>
+
+<sn:pointer id="64085">キコウショウ[end]</sn:pointer>
+
+<sn:pointer id="64086">リュウセイショ[end]</sn:pointer>
+
+<sn:pointer id="64087">レンキケン[end]</sn:pointer>
+
+<sn:pointer id="64088">キコウシュウ[end]</sn:pointer>
+
+<sn:pointer id="64089">リュウセイナゲ[end]</sn:pointer>
+
+<sn:pointer id="64090">センプウナゲ[end]</sn:pointer>
+
+<sn:pointer id="64091">ソウリュウセイライハ[end]</sn:pointer>
+
+<sn:pointer id="64092">ゲンブハオウケン[end]</sn:pointer>
+
+<sn:pointer id="64093">ビャッココウハダン[end]</sn:pointer>
+
+<sn:pointer id="64094">スザクショウゲキハ[end]</sn:pointer>
+
+<sn:pointer id="64095">オウカハッケショウ[end]</sn:pointer>
+
+<sn:pointer id="64096">ウラオウカサクコウ[end]</sn:pointer>
+
+<sn:pointer id="64097">[end]</sn:pointer>
+
+<sn:pointer id="64098">[end]</sn:pointer>
+
+<sn:pointer id="64099">[end]</sn:pointer>
+
+<sn:pointer id="64100">[end]</sn:pointer>
+
+<sn:pointer id="64101">[end]</sn:pointer>
+
+<sn:pointer id="64102">[end]</sn:pointer>
+
+<sn:pointer id="64103">[end]</sn:pointer>
+
+<sn:pointer id="64104">[end]</sn:pointer>
+
+<sn:pointer id="64105">[end]</sn:pointer>
+
+<sn:pointer id="64106">[end]</sn:pointer>
+
+<sn:pointer id="64107">[end]</sn:pointer>
+
+<sn:pointer id="64108">[end]</sn:pointer>
+
+<sn:pointer id="64109">[end]</sn:pointer>
+
+<sn:pointer id="64110">[end]</sn:pointer>
+
+<sn:pointer id="64111">[end]</sn:pointer>
+
+<sn:pointer id="64112">[end]</sn:pointer>
+
+<sn:pointer id="64113">[end]</sn:pointer>
+
+<sn:pointer id="64114">[end]</sn:pointer>
+
+<sn:pointer id="64115">[end]</sn:pointer>
+
+<sn:pointer id="64116">[end]</sn:pointer>
+
+<sn:pointer id="64117">[end]</sn:pointer>
+
+<sn:pointer id="64118">センプウコン[end]</sn:pointer>
+
+<sn:pointer id="64119">[end]</sn:pointer>
+
+<sn:pointer id="64120">グレンセンプウコン[end]</sn:pointer>
+
+<sn:pointer id="64121">シップウコン[end]</sn:pointer>
+
+<sn:pointer id="64122">シップウハリケーン[end]</sn:pointer>
+
+<sn:pointer id="64123">ハオウシップウコン[end]</sn:pointer>
+
+<sn:pointer id="64124">ムヒョウトウコン[end]</sn:pointer>
+
+<sn:pointer id="64125">ブシンヒショウコン[end]</sn:pointer>
+
+<sn:pointer id="64126">スイゲツリョウダンハ[end]</sn:pointer>
+
+<sn:pointer id="64127">シンハブライコン[end]</sn:pointer>
+
+<sn:pointer id="64128">シチセイランブ[end]</sn:pointer>
+
+<sn:pointer id="64129">[end]</sn:pointer>
+
+</sn:script>
