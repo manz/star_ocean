@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x3e][0x0]Port d'Otanim[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x3e][0x0]Port d'Otanim[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ミリー]
+Hé, [nick:シウス] ! À propos de [nick:ラティ][speed][0xa]... [speed][0x0][page]
+[nick:シウス]
+Oui ? Qu'est-ce qu'il y a ?[page]
+[nick:ミリー]
+[nick:ラティ] est gentiment stupide,
+donc je ne sais pas quoi faire.[page]
+[nick:シウス]
+C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
+... Différent ![page]
+[nick:ミリー]
+Mais en y repensant, il peut
+aller avec une autre fille.[page]
+[nick:シウス]
+Hum...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ミリー]
+Hé, [nick:アシュレイ] ! À propos de [nick:ラティ]...[page]
+[nick:アシュレイ]
+Oui ? Qu'est-ce qu'il y a ?[page]
+[nick:ミリー]
+[nick:ラティ] est gentiment stupide,
+donc je ne sais pas quoi faire.[page]
+[nick:アシュレイ]
+C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
+... Différent ![page]
+[nick:ミリー]
+Mais en y repensant, il peut
+aller avec une autre fille.[page]
+[nick:アシュレイ]
+Hum...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ミリー]
+Hé, [nick:イリア] ! À propos de [nick:ラティ]...[page]
+[nick:イリア]
+Oui, qu'y a-t-il ?[page]
+[nick:ミリー]
+[nick:ラティ] est gentiment stupide,
+donc je ne sais pas quoi faire.[page]
+[nick:イリア]
+C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
+... Différent ![page]
+[nick:ミリー]
+Mais en y repensant, il peut
+aller avec une autre fille.[page]
+[nick:イリア]
+MWA AH AH AH AH AH ! [page]
+[nick:イリア]
+[speed][0xa]... [speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]
+Je pense qu'il serait judicieux
+d'aller un peu plus loin[speed][0xa]... [speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]
+Tu prendras bien soin de [nick:ミリー], d'accord ?[page]
+[nick:ラティ]
+Tout est si soudain[speed][0xa]... [speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]
+Ce ne serait pas une bonne idée
+que j'y aille tout seul.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Marin
+Alors ? On veut s'embarquer
+pour [color][0x4] Portmith[color][0x2]?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[end]</sn:pointer>
+
+<sn:pointer id="10">[end]</sn:pointer>
+
+<sn:pointer id="11">Marin
+Où vous allez ? Si vous embarquez,
+faut payer d'avance. C'est [color][0x5]200[color][0x2]Fol par personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">1. Portmith (Royaume de Moore)
+2. Tropp (Royaume d'Astral)
+3. Ecdart (Royaume de Van)
+4. Sylvalant[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[end]</sn:pointer>
+
+<sn:pointer id="14">Marin
+Y'a pas assez d'sous ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:シウス]
+Nous y voilà !
+C'est le royaume d'Astral,[color][0x4]Otanim[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+Comment se rend-on au
+[color][0x4]château d'Astral[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:シウス]
+T[speed][0x14]-Tu[speed][0x0] veux aller là-bas ?[page]
+[nick:イリア]
+C'est dangereux ?[page]
+[nick:シウス]
+Non[speed][0xf],[speed][0x0], c'est pas ça.
+C'est juste que ça n'en vaut pas la peine[speed][0xa]... [speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Passeur
+Si vous allez à [color][0x4]Astral[color][0x2],
+faut visiter la ville.
+Le picrate qu'ils produisent est le top du top ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:イリア]
+Ho, c'est bon[speed][0x1e].[speed][0x0] Ils mettent
+du jus de fruits[speed][0x14] ? [speed][0x0]Du riz[speed][0x14] ? [speed][0x0]De l'orge, peut-être ?[page]
+Passeur
+Du riz, bien sûr ![page]
+[nick:イリア]
+C'est fort ?[page]
+Passeur
+Nan ! Ca tape à moins de 20 degrés.
+Si tu veux d'la boisson [speed][0x14]d'homme[speed][0x0], vaut mieux qu't'ailles à [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:イリア]
+En route ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]
+Pour aller où ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]
+Hein ?[page]
+[nick:ラティ]
+[color][0x4]Astral[color][0x2] ou [color][0x4]Sylvalant[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Heu[speed][0xa]... [speed][0x0] Eh bien[speed][0x14],[speed][0x0] le plus proche est le mieux, j'imagine.[page]
+[end]</sn:pointer>
+
+</sn:script>

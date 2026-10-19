@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:イリア]
+Qu'est-ce que c'est ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ロニキス]
+Voilà d'autres trucs dégueu[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]
+À quoi est-ce que ça peut bien servir ?[page]
+[nick:ラティ]
+J'ai vu beaucoup de ces monstres auparavant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ミリー]
+HAAAA ! C'est[speed][0xa]...[speed][0x0] Vivant ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:イリア]
+Ça doit être une sorte de laboratoire[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]
+Je me demande si on peut accéder à leurs données.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[mode8][0x20][color][0x3]CECI EST UN LABORATOIRE
+DE RECHERCHES QUANTIQUES.
+QUE VOULEZ-VOUS ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[mode8][0x0][nick:イリア]
+Un laboratoire de recherches quantiques ?
+Pourquoi implanter une telle installation
+dans un endroit pareil ?[page]
+[nick:ラティ]
+Ça ne colle pas. Ce n'est pas le genre
+d'endroit que les monstres pourraient
+utiliser pour envahir le monde.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[mode8][0x20]CONNEXION.[page]
+[color][0x3]À QUOI SE CONNECTER ?[page]
+[color][0x2]&gt;&gt; BASE DE DONNÉES.[page]
+[color][0x3]ACCÈS AUTORISE. QUEL EST VOTRE IDENTIFIANT ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[mode8][0x0][nick:イリア]
+Mon identifiant ?[page]
+[nick:ロニキス]
+Essaie "Asmodeus".[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[mode8][0x20]&gt;&gt; ASMODEUS.[page]
+[color][0x3]IDENTIFIANT ACCEPTE. ENTREZ VOTRE MOT DE PASSE.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[mode8][0x0][nick:ロニキス]
+On dirait que j'avais raison ![page]
+[nick:イリア]
+Oui, mais on a fait le plus simple.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[mode8][0x20]&gt;&gt; ******[page]
+[color][0x3]CODE INCORRECT !
+ENTREZ VOTRE MOT DE PASSE.[color][0x2][page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[mode8][0x0][nick:イリア]
+C'est pas cool ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[mode8][0x20][color][0x3]LE DELAI EST ECOULE. ALERTE ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[mode8][0x0][nick:イリア]
+Un délai ?
+Oh non ! Le système de sécurité s'est activé ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">???
+Vous ?! Mais qu'est-ce que vous faites ici ?[page]
+[nick:ラティ]
+On est venus s'occuper de vous et d'Asmodeus
+une bonne fois pour toutes ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">???
+Tsss ! C'est fort présomptueux de la part de
+quelqu'un qui ne sait même pas à quoi
+ressemble Asmodeus ![page]
+Je [speed][0xa]suis[speed][0x0] Asmodeus ![end]</sn:pointer>
+
+<sn:pointer id="18">Asmodeus
+À moins que tu penses pouvoir le trouver dans les parties
+les plus éloignées du bâtiment ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Asmodeus
+Hé, vous ! Occupez-vous d'eux ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ラティ]
+Il est parti[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">???
+Finissons-en avec lui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]
+Attendez ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">???
+Notre mission était de ramener un peu de son sang,
+pas d'y laisser notre peau ! Fichons le camp ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ラティ]
+Ils ont disparu ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+Ils sont partis[speed][0xa]...[speed][0x0]
+On ne pouvait rien faire. C'était impossible de les arrêter, car
+le vol du virus était prédestiné.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Asmodeus
+Ha[speed][0xa],[speed][0x0] misérables insectes !
+Vous ne partirez pas d'ici vivants ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ミリー]
+[speed][0xa]...[speed][0x0]On l'a vaincu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Oui[speed][0xa]...[speed][0x0] On va prendre un peu de son sang.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Gremlins appris.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[pos][0x48][0x0]Laboratoire de recherches quantiques[page]
+[end]</sn:pointer>
+
+</sn:script>

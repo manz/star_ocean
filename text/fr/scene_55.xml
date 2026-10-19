@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x48][0x0]Portes de Moore[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Garde
+Vous pouvez entrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Garde
+Ha, j'crois qu'ça va pas être possible !
+Z'avez rien à faire ici ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Garde
+Vous pouvez entrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Garde
+Ha, j'crois qu'ça va pas être possible !
+Z'avez rien à faire ici ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Chancelier Bolc
+Je me demande comment vous pourrez m'aider, vu que le roi Van vous a demandé de chercher l'[color][0x6]œil de vérité[color][0x2].
+Alors ? Allez-vous m'écouter ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]
+Pourquoi pas ?[page]
+[nick:ラティ]
+Ouais, c'est bon ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Chancelier Bolc
+Merci. Si vous voulez bien vous donner la peine d'entrer[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ロニキス]
+Nous souhaiterions une audience auprès du roi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Garde
+Voici l'emblème de Van[speed][0xa]...[speed][0x0]
+Attendez un instant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Chancelier
+Par ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]
+Qu'est-ce que tu fiches là ?[page]
+[nick:ペリシー]
+J'ai entendu les gardes dire qu'il y avait un énoooooorme trésor ici ![page]
+[nick:ラティ]
+[speed][0xa]...[speed][0x0]Tu veux parler du trésor de Moore?[page]
+[nick:ペリシー]
+Ouais, c'est bien ça♪[page]
+[nick:ラティ]
+Et donc ?[page]
+[nick:ペリシー]
+Ben on y va♥[page]
+[nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ペリシー]
+Tu es là, [nick:ラティ] ?! Alors, on peut se comporter comme prince et princesse ![page]
+[nick:ラティ]
+Hé ! C'est illégal de piquer dans la caisse ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]
+C'est la crise pour les princesses ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ペリシー]
+Mais je suis si pauvre ! Je n'ai plus un centime.[page]
+[nick:ラティ]
+[speed][0xa]...[speed][0x0]Argh ! Et voilà qu'on parle en rimes ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ラティ]
+Bon ça suffit, on y va ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ペリシー]
+Nooon !!
+Mooon préééécieuuuuuuuuuux !!!![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ペリシー]
+[nick:ラティ], tu[speed][0xa]...[speed][0x1e][speed][0x0] Tu me détestes, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">1. Pourquoi dis-tu ça ?!
+2. Pas plus que les yeux de mouton en gelée[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]
+Ce n'est pas le fait de t'aimer ou non, c'est juste qu'il y a des choses qui ne se font pas. Compris ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ペリシー]
+Bon[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]
+[speed][0xa]...[speed][0x0]Oh, d'accord[speed][0xa]...[speed][0x0][page]
+[nick:ペリシー]
+Yeah ! T'es le meilleur, [nick:ラティ] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ペリシー]
+T'es un sacré rapace, [nick:ラティ] ![page]
+[end]</sn:pointer>
+
+</sn:script>

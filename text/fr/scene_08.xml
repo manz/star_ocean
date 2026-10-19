@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[color][0x6][item][0x8a][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[color][0x5]10[color][0x2] Fol empochés ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[color][0x6][item][0x89][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[color][0x6][item][0x89][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[color][0x6][item][0x8c][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[color][0x6][item][0x89][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[color][0x6][item][0x8c][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Raddle le voyageur
+J'ai l'impression de m'être encore perdu. Ça commence à me les briser menu-menu[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">C'est le dos du panneau.
+C'est usé et illisible.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Nord-Est : Laponia
+Nord de Laponia Mt Metox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Il est écrit
+"Prenez garde sur le chemin !"[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Nord-Est : Thermonia
+Nord de Thermonia Mt Metox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">C'est l'envers du panneau.
+Il n'y a rien d'écrit...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Est : Laponia
+Ouest : Plage de Crat[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Si tu veux lire le panneau,
+tu devrais te mettre du bon côté ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Est : Thermonia
+Ouest : Plage de Crat[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">C'est le dos du panneau.
+Il y a quelque chose d'écrit,
+mais c'est illisible[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Ouest : Laponia
+Sud : Crat[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Il est écrit :
+"Faites attention sur le chemin!"[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Ouest : Thermonia
+Sud : Village de Crat[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Tu ne peux pas en porter plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[end]</sn:pointer>
+
+</sn:script>

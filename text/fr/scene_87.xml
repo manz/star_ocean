@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">C'est écrit :
+"Attention aux vers cruels !"[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Nord : Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[color][0x6][item][0xfe][0x13][color][0x2] Reçu ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]
+Commençons par faire ensemble le tour de la ville.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:シウス]
+On se reposera plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]
+Commençons par faire ensemble le tour de la ville.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:シウス]
+On se reposera plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:イリア]
+Je me demande si on trouvera quelque chose sur eux ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+Il semblerait que ni [nick:ロニキス] ni [nick:ミリー] ne soient venus ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:シウス]
+On devrait pas plutôt aller à [color][0x4]Portmith[color][0x2] ? Ça craint ici, y'a rien à picoler.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]
+Je me demande si on trouvera quelque chose sur eux ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:イリア]
+Il semblerait que ni [nick:ロニキス] ni [nick:ミリー] ne soient venus ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:シウス]
+On devrait pas plutôt aller à [color][0x4]Portmith[color][0x2] ? Ça craint ici, y'a rien à picoler.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+Faisons une pause ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:シウス]
+Y'a que dalle dans ce bled pour se reposer, t'façon.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:イリア]
+Faisons une pause ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:シウス]
+Y'a que dalle dans ce bled pour se reposer, t'façon.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]
+En route pour [color][0x4]Portmith[color][0x2], droit au Nord ! Il semblerait que ça soit la plus grosse ville du secteur. Il parait qu'il y a beaucoup de monde là-bas, dont des gens du [color][0x4]château de Moore[color][0x2].[page]
+[nick:シウス]
+Grouillons-nous d'en finir avec ce que l'autre type nous a demandé.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Tu penses que ça serait mieux d'aller prendre le bateau à [color][0x4]Portmith[color][0x2] et de marcher jusqu'au [color][0x4]château d'Astral[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+En route pour [color][0x4]Portmith[color][0x2], droit au Nord ! Il semblerait que ça soit la plus grosse ville du secteur. Il parait qu'il y a beaucoup de monde là-bas, dont des gens du [color][0x4]château de Moore[color][0x2].[page]
+[nick:シウス]
+Grouillons-nous d'en finir avec ce que l'autre type nous a demandé.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Tu penses que ça serait mieux d'aller prendre le bateau à [color][0x4]Portmith[color][0x2] et de marcher jusqu'au [color][0x4]château d'Astral[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]
+Vous ne croyez pas qu'on devrait se dépêcher d'aller dans le monde démoniaque au lieu de glandouiller ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+On va vraiment retrouver les autres juste en se baladant[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]
+On peut faire une pause ? J'ai les pieds en compote ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ロニキス]
+N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]
+Qu'est-ce que tu vas faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ミリー]
+Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ミリー]
+On ne pourrait pas se reposer un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:シウス]
+On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:シウス]
+J'pars devant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:フィア]
+Nous n'allons plus dans le monde démoniaque?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:フィア]
+[speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ヨシュア]
+On va s'arrêter un moment, nous repartirons ensuite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:マーヴェル]
+Nous allons nous arrêter dans cette ville, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]
+Dans ce cas, allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:イリア]
+Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:イリア]
+Bien, allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ロニキス]
+Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ロニキス]
+Faisons une pause, à présent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ミリー]
+Le temple était à l'ouest de [color][0x4]Tatroï[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:シウス]
+Viens, on s'casse au monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:シウス]
+On devait pas aller au [color][0x4]temple de Parj[color][0x2] ? Allez, on bouge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:シウス]
+J'préfère mille fois poutrer du streum que rester là à glander.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:アシュレイ]
+On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:フィア]
+Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:フィア]
+En route.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ヨシュア]
+On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ヨシュア]
+On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ヨシュア]
+Parfois, c'est bien aussi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">Vous ne pouvez rien porter
+de plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[end]</sn:pointer>
+
+</sn:script>

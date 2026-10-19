@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:マーヴェル]
+Le Bouclier écarlate !!![page]
+Bouclier écarlate
+Mouahahah[speed][0xa]...[speed][0x0]VOUS NE PASSEREZ PAS ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:アシュレイ]
+Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] J'ai fini par me lasser d'attendre cette chance de te rencontrer ![page]
+Bouclier écarlate
+QUI ÊTES-VOUS[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">([nick:アシュレイ]... !!)[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:アシュレイ]
+Vil mécréant ! Tu as volé le nom de mon camarade de guerre ! Tu vas t'en mordre les doigts ![page]
+Bouclier écarlate
+M'EN MORDRE LES DOIGTS ? LAISSE-MOI RIRE...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Bouclier écarlate
+JE VAIS TOUS VOUS ANÉANTIR ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">(Tue-moi, je t'en prie...)[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:マーヴェル]
+Le Bouclier écarlate !!![page]
+Bouclier écarlate
+Mouahahah[speed][0xa]...[speed][0x0]VOUS NE PASSEREZ PAS ![page]
+[nick:マーヴェル]
+Tu as assassiné mes parents ! C'est toi qui me les as pris ! Je n'aurais jamais espéré te trouver dans un endroit pareil[speed][0xa]...[speed][0x0] J'ai tellement attendu ce moment ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]
+Nous sommes avec toi, [nick:マーヴェル].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:マーヴェル]
+Merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Bouclier écarlate
+MOUHAHAHA ! VOUS ME FAITES RIRE. JE VAIS TOUS VOUS ANÉANTIR.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ロニキス]
+C'est vous qui avez assassiné la famille de [nick:マーヴェル][speed][0xa]...[speed][0x0]Le Bouclier écarlate[speed][0xa]... !![speed][0x0][page]
+Bouclier écarlate
+ASSASSINÉ ? JE NE SAIS PAS DE QUOI VOUS PARLEZ[speed][0xa]...[speed][0x0] EN TOUT CAS, VOUS NE PASSEREZ PAS ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Bouclier écarlate
+JE VAIS TOUS VOUS ANÉANTIR !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Bouclier écarlate
+VOUS NE PASSEREZ PAS ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:アシュレイ]
+Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] J'ai fini par me lasser d'attendre cette chance de te rencontrer ![page]
+Bouclier écarlate
+QUI ÊTES-VOUS[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">([nick:アシュレイ]... !!)[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:アシュレイ]
+Vil mécréant ! Tu as volé le nom de mon camarade de guerre ! Tu vas t'en mordre les doigts ![page]
+Bouclier écarlate
+M'EN MORDRE LES DOIGTS ? LAISSE-MOI RIRE...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Bouclier écarlate
+JE VAIS TOUS VOUS ANÉANTIR ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">(Tue-moi, je t'en prie...)[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]
+[speed][0xa]...[speed][0x0] On a réussi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ロニキス]
+On a réussi, [nick:マーヴェル]. On l'a vaincu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]
+On n'en a pas fini ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Bouclier écarlate
+A-Attendez[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:アシュレイ]
+Cette voix[speed][0xa]...[speed][0x0] C'est toi ?[page]
+[nick:ラティ]
+[speed][0xa]... ?[speed][0x0][page]
+Bouclier écarlate
+[speed][0xa]...[speed][0x0] [nick:アシュレイ], ça fait un bail, hein[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ラティ]
+Il se passe quoi là ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]
+Qu'est-ce qu'il s'est passé ? Ai-je attaqué un allié ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Ce n'est pas l'ombre du Bouclier écarlate que nous avons vaincu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Bouclier écarlate
+[speed][0xa]...[speed][0x0][nick:アシュレイ], ne sois pas troublée[speed][0xa]...[speed][0x0] Quand j'ai été capturé par le miroir de la réalité, c'est devenu ma destinée.[page]
+[nick:アシュレイ]
+[speed][0xa]...[speed][0x0] Mais [speed][0xa]... ![speed][0x0][page]
+Bouclier écarlate
+[speed][0xa]...[speed][0x0]Ne vous souciez pas de moi. Faites vite, [color][0x4]Astral[color][0x2] est en danger ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:アシュレイ]
+Que dis-tu ?[page]
+Bouclier écarlate
+Vite ! Mon ombre est à la recherche de l'épée sans lame, elle m'a été offerte par Ryas[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]
+L'épée sans lame ?[page]
+[nick:アシュレイ]
+Pourquoi aller à [color][0x4]Astral[color][0x2] pour ça ? J'ai toujours cru que ce n'était qu'une œuvre d'art.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]
+[speed][0xa]...[speed][0x0] On a réussi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]
+On a réussi, [nick:マーヴェル]. On l'a vaincu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]
+On n'en a pas fini ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Bouclier écarlate
+A-Attendez[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ラティ]
+[speed][0xa].....[speed][0x0][page]
+Bouclier écarlate
+[speed][0xa]...[speed][0x0] Merci d'avoir levé la malédiction[speed][0xa]...[speed][0x0][page]
+[nick:ラティ]
+Merci [speed][0xa]...?[speed][0x0][page]
+Bouclier écarlate
+Aucune importance à présent[speed][0xa]...[speed][0x0] [color][0x4]Astral[color][0x2] court un grand danger.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:シウス]
+Quoi ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:フィア]
+Quoi ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Bouclier écarlate
+Vite ! Mon ombre est à la recherche de l'épée sans lame, elle m'a été offerte par Ryas[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ラティ]
+L'épée sans lame ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:シウス]
+Pourquoi aller à [color][0x4]Astral[color][0x2] pour ça ? J'ai toujours cru que c'était qu'une foutue babiole.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:フィア]
+L'épée sans lame[speed][0xa]...[speed][0x0] C'est pas un objet de déco tout ce qu'il y a de plus banal ? Pourquoi voudrait-il d'un truc pareil ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ロニキス]
+Pourquoi nous avoir dit ça[speed][0xa]...[speed][0x0] c'est pas censé être un ennemi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:イリア]
+En tout cas, on ne peut pas ignorer ce qu'il nous a dit. Il nous fait nous hâter.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ロニキス]
+Nous retournons à [color][0x4]Astral[color][0x2] maintenant ? On arrivera à temps ?[page]
+[nick:イリア]
+[speed][0xa].....[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ラティ]
+On ne pourrait pas utiliser l'[color][0x6]œil de vérité[color][0x2] ? C'est bien censé ouvrir des portails entre différents endroits, non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]
+Ça en vaut la peine.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ラティ]
+C'est quoi ÇA ?[page]
+[nick:イリア]
+Ça ? Ce bâtiment semble utiliser une technologie très avancée[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:ロニキス]
+Asmodeus est à l'intérieur ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ロニキス]
+C'est vraiment étrange de trouver ça ici, un endroit qu'on appelle monde démoniaque[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[pos][0x58][0x0]Monde démoniaque[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Partir ?[page]
+[end]</sn:pointer>
+
+</sn:script>

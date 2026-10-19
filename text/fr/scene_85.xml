@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x28][0x0]Entrée de l'arène de Tatroï[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Information 1
+Il n'y a pas d'équipement requis pour participer. Lors du combat, vous pouvez
+utiliser vos sorts, vos armes ou vos seules mains ! Les participants peuvent
+choisir le niveau de leurs adversaires qui vont du rang H, le plus facile,
+au rang A, le plus dur. Vous gagnez si vous battez 5 adversaires et vos gains
+seront basés sur vos talents.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Information 2
+Avant un combat, nous gardons vos provisions et vos potions, mais en échange
+nous vous fournirons quelques soins à utiliser pendant vos matchs.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Information 3
+Ceux qui arrivent au stade de champions de rang A peuvent revenir
+affronter les combattants de rang A n'importe quand.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Information 4
+Cette entrée est réservée aux combattants.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Information 4
+Voulez-vous participer à un match ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[leader][end]</sn:pointer>
+
+<sn:pointer id="7">[memberD][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[end]</sn:pointer>
+
+<sn:pointer id="9">[end]</sn:pointer>
+
+<sn:pointer id="10">Combattant A
+J'ai finalement atteint le rang D, mais aucune de mes attaques
+n'arrive à effleurer les ennemis de rang supérieur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Guerrier B
+C'est interdit de tricher, hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Guerrier C
+Pathétique ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Femme
+Vous allez participer, vous aussi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Aventurier
+Il paraît qu'ils ont un groupe d'aventuriers spécialisé dans la capture
+de monstres qu'ils utilisent dans les combats. Ils les capturent vivants[speed][0xa]...[speed][0x0]
+Ces types-là doivent être vraiment costauds ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Fille
+Toutes les filles espèrent remettre le bouquet de fleurs au gagnant ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Information 4
+Qui veut participer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[leader] veut[end]</sn:pointer>
+
+<sn:pointer id="19">combattre en rang [memberD].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+<sn:pointer id="21">[pos][0x0][0x0]1. [leader][end]</sn:pointer>
+
+<sn:pointer id="22">[pos][0x0][0x10]2. [leader][end]</sn:pointer>
+
+<sn:pointer id="23">[pos][0x0][0x20]3. [leader][end]</sn:pointer>
+
+<sn:pointer id="24">[pos][0x0][0x30]4. [leader][end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+Félicitations, [nick:ラティ] ![page]
+[nick:ラティ]
+Merci, mais qui est le type qui est intervenu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Je n'en ai pas la moindre idée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]
+Toi ![page]
+[nick:ティニーク]
+Waah ! Quelle force ! S'il te plaît, je peux venir avec toi ?
+C'est le rêve de ma vie ![page]
+[nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">1. Ça me va.
+2. Sans façon ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]
+Je me sentirai plus en sécurité
+si tu es à nos côtés.[page]
+[nick:ティニーク]
+Vraiment ? Je t'en dois une ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]
+Désolé, mais[speed][0xa]...[speed][0x0][page]
+[nick:ティニーク]
+Je vois[speed][0xa]...[speed][0x0]
+Dans ce cas, je vais continuer à m'entraîner.[page]
+[end]</sn:pointer>
+
+</sn:script>

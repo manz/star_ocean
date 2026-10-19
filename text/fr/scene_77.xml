@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[end]</sn:pointer>
+
+<sn:pointer id="1">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[end]</sn:pointer>
+
+<sn:pointer id="4">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[end]</sn:pointer>
+
+<sn:pointer id="7">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[end]</sn:pointer>
+
+<sn:pointer id="10">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[end]</sn:pointer>
+
+<sn:pointer id="13">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[end]</sn:pointer>
+
+<sn:pointer id="16">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[end]</sn:pointer>
+
+<sn:pointer id="19">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[color][0x6]Mithril[color][0x2]obtenu[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">PankPonk
+Gné hé hé ! Tu ne passeras pas ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[pos][0x40][0x0]Mine abandonnée - Niv.1[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[pos][0x40][0x0]Mine abandonnée - Niv.2[page]
+[end]</sn:pointer>
+
+</sn:script>

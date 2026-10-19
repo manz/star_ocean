@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">Soldat
+Attendez, vous ne pouvez passer ici sans permission. Avez-vous quelque chose pour prouver votre habilitation ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ロニキス]
+Et avec cet emblème ?[page]
+Soldat
+C'est celui du château de Van[speed][0xa]...[speed][0x0] ! Bon, circulez ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Soldat
+Si vous ne pouvez pas le prouver, je ne peux pas vous laisser passer. Rentrez chez vous ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Soldat
+Circulez ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Soldat
+Circulez ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:シウス]
+Hé, [nick:ラティ]. Tu peux m'avancer un peu de thunes ?[page]
+[nick:ラティ]
+Gné ?[page]
+[nick:シウス]
+Ouais, j'voulais aller faire un peu de shopping, là.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">1. Lui prêter 1000 Fol
+2. Qu'il aille se faire voir[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:シウス]
+Merci ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:シウス]
+Rhhaaa... Fais pas ton rat ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+Commençons par faire ensemble le tour de la ville.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:シウス]
+On se reposera plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:フィア]
+Tu veux te reposer, là maintenant ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:アシュレイ]
+On se reposera plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ミリー]
+Commençons par unir nos forces, tous ensemble.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ロニキス]
+Nous nous reposerons quand nous aurons fini ce que nous avons en cours.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:イリア]
+Vous ne croyez pas qu'on devrait se dépêcher d'aller dans le monde démoniaque au lieu de glandouiller ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+On va vraiment retrouver les autres juste en se baladant[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]
+On peut faire une pause ? J'ai les pieds en compote ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ロニキス]
+N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ロニキス]
+Qu'est-ce que tu vas faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ミリー]
+Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ミリー]
+On ne pourrait pas se reposer un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:シウス]
+On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:シウス]
+J'pars devant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:フィア]
+Nous n'allons plus dans le monde démoniaque?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:フィア]
+[speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ヨシュア]
+On va s'arrêter un moment, nous repartirons ensuite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:マーヴェル]
+Nous allons nous arrêter dans cette ville, c'est ça?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:シウス]
+Merci pour les brouzoufs. Tiens j'tai ramené ça.[page]
+[color][0x6][item][0x22][0x15][color][0x2] reçu !
+[color][0x6][item][0xff][0x14][color][0x2] reçu !
+[color][0x6][item][0x3][0x15][color][0x2] reçu !
+[color][0x6][item][0x37][0x15][color][0x2] reçu ![page]
+[color][0x6][item][0x16][0x15][color][0x2] reçu !
+[color][0x6][item][0x2f][0x15][color][0x2] reçu !
+[color][0x6][item][0x33][0x15][color][0x2] reçu ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ラティ]
+J'sais pas si c'est juste moi, mais il me semble pas qu'on puisse avoir tout ça avec seulement [color][0x5]1000[color][0x2] Fol[speed][0xa]...[speed][0x0][page]
+[nick:シウス]
+J'te raconterais ptet un jour ! AHAHAH ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]
+Dans ce cas, on y va.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:イリア]
+Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]
+Bien, allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ロニキス]
+Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ロニキス]
+Faisons une pause, à présent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ミリー]
+Le temple était à l'ouest de [color][0x4]Tatroï[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:シウス]
+Viens, on s'casse au monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:シウス]
+On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?  Allez, on bouge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:シウス]
+J'préfère mille fois poutrer du streum que rester là à glander.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:アシュレイ]
+On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:フィア]
+Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:フィア]
+En route.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ヨシュア]
+On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ヨシュア]
+On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ヨシュア]
+Parfois, c'est bien aussi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Il n'y a rien d'écrit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">Ouest : Ville fortifiée de Van[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">Comment va Mo'e ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Est : Dulce[page]
+[end]</sn:pointer>
+
+</sn:script>

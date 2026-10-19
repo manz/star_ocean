@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x50][0x0]Dulce[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Lemia
+Je vais m'en payer une bonne tranche !♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Petit jeune
+Jusqu'à maintenant, tout va bien, mais si on entre
+en guerre notre village disparaîtra sans laisser de traces ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Garçon
+Où a bien pu passer Lin ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Vieil homme
+Plus personne n'habite ici...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Mère
+Lemia ! Rentre immédiatement !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Lemia
+Le ciel est[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x40][0x0]Port de Tropp[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Marin
+Oh les gars, j'irais n'importe où pour des oursins. Les oursins de Ganze sont les meilleurs, ceux de Nona ne valent pas un pet de lapin.[end]</sn:pointer>
+
+<sn:pointer id="2">Marin
+Vous embarquez ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Marin
+Foutrequeue ! Qu'est-ce que j'aimerais avoir mon bateau pour sillonner les sept mers !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Marin
+Le navire lèvera bientôt l'ancre pour [color][0x4]Portmith[color][0x2].
+Si l'explosion qui a eu lieu sur le continent de Moore vous intéresse, vous devriez embarquer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]
+En y repensant, ce n'est pas sur la route d'[color][0x4]Astral[color][0x2] ?[page]
+[nick:イリア]
+Je crois que c'est au cœur du continent Astral...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:シウス]
+On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?[page]
+[nick:シウス]
+C'est au nord-ouest de [color][0x4]Tatroï[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:イリア]
+Ce n'est pas sur la route du [color][0x4] temple de Parj[color][0x2] ?[page]
+[nick:ラティ]
+C'est au nord-ouest de [color][0x4]Tatroï[color][0x2], il me semble...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Marin
+Le bateau va bientôt appareiller pour [color][0x4]Portmith[color][0x2].
+Si vous voulez monter, il faut payer d'avance.
+C'est [color][0x5]60[color][0x2] Fol par personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Marin
+Vous voulez aller à [color][0x4]Ecdart[color][0x2] ?
+Si c'est le cas, il faut payer d'avance.
+Ce sera [color][0x5]80[color][0x2] Fol par personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Marin
+Je crois qu'il en manque ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[end]</sn:pointer>
+
+<sn:pointer id="12">[end]</sn:pointer>
+
+<sn:pointer id="13">Marin
+Où allez-vous ? Si vous embarquez, il faut payer d'avance.
+C'est [color][0x5]200[color][0x2] Fol par personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">1. Portmith (Royaume de Moore)
+2. Otanim (Royaume Astral)
+3. Ecdart (Royaume de Van)
+4. Sylvalant [page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[end]</sn:pointer>
+
+<sn:pointer id="16">Marin
+Va falloir allonger l'oseille ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">Roi de Sylvalant
+Enfin, vous venez à moi, porteurs de l'emblème.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Roi
+Chancelier, faites sortir les gardes.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Chancelier
+Immédiatement, Votre Majesté.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Roi
+Ce qui a été transmis de générations en générations dans notre famille est la localisation de l'entrée du monde démoniaque. Elle serait sur une île déserte au sud-est du continent de Sylvalant.[page]
+[nick:ロニキス]
+Une île déserte[speed][0xa]...[speed][0x0] ?[page]
+Roi
+Tout à fait. À l'est de la ville, vous trouverez un port. N'hésitez pas à y aller. Vous pourrez vous rendre aisément dans les royaumes de Moore et Astral, et bien sûr aussi sur l'île déserte.[page]
+[nick:ロニキス]
+Merci.[page]
+Roi
+Prenez également ceci.[page]
+Vous recevez l'[color][0x6]emblème de Sylvalant[color][0x2] et la [color][0x6]clé de l'aîné[color][0x2].[page]
+[nick:ロニキス]
+À quoi sert cette clé ?[page]
+Roi
+Encore aujourd'hui, il reste de nombreuses ruines des anciens sur le continent de Sylvalant. Et dans ces ruines, on ne peut y entrer qu'en utilisant cette clé.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ロニキス]
+Merci.[page]
+Roi
+J'espère que vous trouverez une utilité à cette clé.[page]
+[nick:ロニキス]
+J'espère aussi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Roi de Sylvalant
+L'heure est venue d'affronter Asmodeus. Je prierai pour votre victoire.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Chancelier
+Faites de votre mieux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Reine
+Je prie du fond de mon cœur que vous ne vous épuisiez pas trop[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Étudiant
+En continuant loin au nord de[color][0x4]Sylvalant[color][0x2], vous trouverez des ruines des anciens. Mais c'est bien trop dangereux pour moi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Vieux sage
+Jerand, le dernier mage, a été dévoré lors de la guerre contre le monde démoniaque. Nous avons perdu ce jour-là un grand héros[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Zel le chevalier
+Les monstres se sont tenus tranquilles ces derniers temps. Est-ce le calme avant la tempête ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Kurt le chevalier
+Pensez-vous que les troupes du monde démoniaque ne nous ont pas attaqués dernièrement, car ils n'ont plus de vivres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Jeune soldat
+Je suis enfin rentré chez moi après un long temps d'absence.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Pilon le sage
+Selon la légende, à l'origine, seules les entités magiques dont parlent les runes vivaient ici[speed][0xa]...[speed][0x0] Si c'est le cas, alors d'où viennent nos ancêtres ? Et il semblerait que les anciens n'avaient pas de queue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Tork le garde
+Servir[speed][0xa]...[speed][0x0] Quel grand mot ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Yarma le garde
+Un an, c'est bien trop court. Bon sang, j'aurais voulu en avoir deux[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Mage
+Je travaille pour devenir un plus grand mage que Jerand.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Homme
+Il parait que vous pouvez créer de nombreux accessoires avec des gemmes. Avez-vous essayé ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Jon le peintre
+Il existe un art secret très utile[speed][0x1e]...[speed][0x0] Mais c'est un secret !
+Mais cependant, il faut être persévérant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ヨシュア]
+Oh, [nick:ラティ]. Que font les autres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Mage
+Je me souviens du visage, mais je ne savais pas que vous étiez lui[speed][0xa]...[speed][0x0][page]
+[nick:ヨシュア]
+Oui, je suis [nick:ヨシュア] Jerand.[page]
+Mage
+Oh[speed][0xa]...[speed][0x0] J'étais un étudiant de Jerand quand c'est arrivé. Si seulement j'avais été plus fort[speed][0xa]...[speed][0x0][page]
+[nick:ヨシュア]
+[speed][0xa]...[speed][0x0] Je ne suis pas ici pour vous faire des reproches. Relevez-vous.[page]
+Mage
+[speed][0xa].....[speed][0x0][page]
+[nick:ヨシュア]
+Je veux juste savoir qui a tué mes parents. Et savoir ce qu'est devenue ma sœur[speed][0xa]...[speed][0x0][page]
+Mage
+Je suis certain que c'est quelqu'un lié au monde démoniaque. Mais la vérité se trouve au fin fond des ténèbres.[page]
+[nick:ヨシュア]
+Je vois[speed][0xa]...[speed][0x0] Et pour ma sœur[speed][0xa]... ?[speed][0x0][page]
+Mage
+[speed][0xa]...[speed][0x0] Je ne l'ai pas revue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Mage
+Navré de ne pouvoir vous apporter plus d'aide[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ヨシュア]
+Pas besoin de vous excuser[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:アシュレイ]
+J'aimerais que vous maitrisiez cet arcane.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]
+Vous êtes venus.[page]
+[nick:ラティ]
+[speed][0xa]...[speed][0x0] Qu'est-ce qu'il y a ?[page]
+[nick:アシュレイ]
+Lorsque je vous accompagnais en voyage, j'ai bien vu votre style de combat.[page]
+[nick:ラティ]
+Oui, et ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:アシュレイ]
+Laisserez-vous un vétéran profiter d'un dernier moment d'égoïsme ?[page]
+[nick:ラティ]
+[speed][0xa]...[speed][0x0] Dites voir ?[page]
+[nick:アシュレイ]
+En raison d'un vil complot d'un monstre ayant pris l'apparence d'un vieux camarade de guerre, j'ai perdu l'usage de mon bras et je ne peux plus manier l'épée[speed][0xa]...[speed][0x0] Je suis à la recherche d'un disciple digne de recevoir mes enseignements.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:アシュレイ]
+Accepterez-vour les secrets de ces arcanes ?[page]
+[nick:ラティ]
+Êtes-vous certain que j'en sois digne ? [page]
+[nick:アシュレイ]
+Il ne fait aucun doute que vous l'êtes ![page]
+[nick:ラティ]
+Dans ce cas, j'en suis honoré.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Vous avez appris l'arcane du dragon empereur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Étudiant
+Selon les sources que j'ai pu consulter, il semblerait qu'il existe des réalités alternatives où vivent les créateurs de notre monde. Il semblerait que ce soit en rapport avec l'antichambre de l'oracle[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Kanoi l'étudiant
+Il semblerait qu'il y ait une entrée de ruines dans une des fissures sur la face nord des falaises de Sylvalant.[page]
+[end]</sn:pointer>
+
+</sn:script>

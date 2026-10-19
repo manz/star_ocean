@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x20][0x0]Ville fortifiée de Van I Il[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:シウス]
+Nan, il devrait pas y'avoir beaucoup de types qui se revendiquent membres des forces anti-monde démoniaque. On devrait pouvoir le trouver plus facilement que tu le penses.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:アシュレイ]
+Je devrais aller leur parler.[page]
+[nick:ロニキス]
+Hein ?![page]
+[nick:アシュレイ]
+Je m'en charge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:シウス]
+Nan, il devrait pas y'avoir beaucoup de types qui se revendiquent membres des forces anti-monde démoniaque. On devrait pouvoir le trouver plus facilement que tu le penses.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ヨシュア]
+Allons leur parler.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:シウス]
+Tu crois pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]
+Commençons par aller au château.[page]
+[nick:イリア]
+Obtiendrons-nous facilement une audience ? C'est un peu comme si nous allions la fleur au fusil aborder le président ou n'importe quelle vedette.[page]
+[nick:ロニキス]
+Nous n'avons pas le choix. Et nous ne connaissons personne sur place.[page]
+[nick:イリア]
+[speed][0xa]...[speed][0x0] Tu as raison.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ロニキス]
+Commençons par aller voir le roi.[page]
+[nick:イリア]
+Obtiendrons-nous facilement une audience ? C'est un peu comme si nous allions la fleur au fusil aborder le président ou n'importe quelle vedette.[page]
+[nick:ロニキス]
+Nous n'avons pas le choix. Et nous n'avons aucune connaissance pour nous introduire.[page]
+[nick:イリア]
+[speed][0xa]...[speed][0x0] Tu dois avoir raison.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Garde
+Bienvenue dans la ville fortifiée de Van ! Son vrai nom est Van I Il, mais c'est difficile à prononcer, personne ne l'appelle comme ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Jeune homme
+La ville fortifie de Van I Il[speed][0xa]...[speed][0x0] Pour faire court, le château de Van[speed][0xa]...[speed][0x0] C'est un drôle de château, hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Leeza
+C'est la saison où les feuilles se mettent à danser[speed][0xa]...[speed][0x0]
+Et au sol, elles s'accumulent une à une[speed][0xa]...[speed][0x0]
+Tout comme le font mes pensées.[speed][0xa]...[speed][0x0]
+Eh oui, je suis une poétesse.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Jeune homme laid
+Tu veux ma photo ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Garde
+Il semblerait que le roi de Van soit préoccupé par la lutte contre l'influence du monde démoniaque depuis des années.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Fille
+Bob n'est qu'un crétin[speed][0xa]...[speed][0x0] Il est allé faire de sales commentaires quand il a rencontré mes parents.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Elina
+Recherchez-vous de bons ingrédients pour de la bonne cuisine ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:アシュレイ]
+Pardonnez mon impolitesse de vous demander ça,[nick:ラティ], mais pourquoi suivez-vous la voie de l'épée ?[page]
+[nick:ラティ]
+Hein ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">1. Je souhaite être plus fort
+2. Parce que j'aime ça[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:アシュレイ]
+C'est important de vouloir être plus fort. Les compétences viennent s'additionner à la force. Cependant, que ferez-vous quand vous aurez atteint ses limites ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">1. La force ne connait pas de limites
+2. Mes limites la déterminent[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:アシュレイ]
+En effet, aucune limite. Vous êtes encore jeune, et vous ignorez tous des évènements qui vous attendent. Je m'attendais à une autre réponse de votre part.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:アシュレイ]
+C'est exactement ça, quand on regarde la nature même de la force. Vos limites la déterminent En d'autres termes, si vous ne cherchez que la force et uniquement la force, c'est là que tout s'arrête.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:アシュレイ]
+La force dont vous parlez, est-elle relative ou absolue ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">1. Relative
+2. Absolue[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:アシュレイ]
+Donc vous souhaitez devenir plus fort que les autres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:アシュレイ]
+Quand ceux qui sont plus forts que vous disparaissent, alors vous atteignez vos limites ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:アシュレイ]
+Ne croyez-vous donc pas alors en l'absolu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:アシュレイ]
+Si vous souhaitez devenir plus fort, plus fort que tous les autres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:アシュレイ]
+Ne croyez-vous donc pas alors en la relativité ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:アシュレイ]
+Hmmm... Ça ne serait le but que vous poursuivez au fond de vous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:アシュレイ]
+Pour le bien de tous ? Vous me dites que vous voulez avoir la force de protéger tout le monde ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:アシュレイ]
+Alors, vous n'avez donc pas besoin de plus de force que le nécessaire, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:アシュレイ]
+Il semblerait que vous ne soyez pas vraiment cohérent. N'aviez-vous pas répondu que vous suiviez la voie de l'épée pour le bien de tous ? Alors, pourquoi vouloir plus de force que nécessaire ? Êtes-vous certain de me dire la vérité ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:アシュレイ]
+[speed][0xa]...[speed][0x0] Pardonnez-moi pour cette inintéressante lecture.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:シウス]
+[speed][0xa]...[speed][0x0] Bon sang, j'en ai ma claque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Vendeur itinérant
+Je suis un vendeur itinérant. Quelque chose vous intéresse ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ラティ]
+Il dort[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:マーヴェル]
+Ah[speed][0xa]...[speed][0x0] !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:マーヴェル]
+Impossible[speed][0xa]...[speed][0x0] [nick:ヨシュア][speed][0xa]... !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Enfant
+Mamaaaan !! Ma sœur a disparu ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Femme
+De quoi tu parles ? Tu as fait un cauchemar ?[page]
+Enfant
+Mais non! Et même qu'elle pleurait[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:ペリシー]
+Dis, [nick:イリア] raconte qu'elle aime l'alcool ♪ Mais et [nick:ロニキス][speed][0xa]...[speed][0x0] ? C'était quoi ? Des champignons ? Non je ne crois pas.[page]
+[end]</sn:pointer>
+
+</sn:script>

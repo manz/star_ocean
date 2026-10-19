@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">Docteur
+Jusqu'à maintenant, aucune forme de vie inconnue n'avait pu s'introduire dans le vaisseau...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Docteur
+Il semblerait que ça prenne un petit peu plus de temps.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Docteur
+Je crois que que le capitaine vous attend sur le pont. Vous n'avez qu'à prendre l'ascenseur de gauche.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Docteur
+Quelque chose ne va pas ?[page]
+[nick:ラティ]
+Non, ce n'est rien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]
+Qu'est-ce que c'est ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]
+Je comprends que ça aussi puisse vous surprendre, mais c'est bien de cette manière que nous administrons les soins médicaux aux malades.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ロニキス]
+Docteur, je vous le confie.[page]
+Docteur
+Très bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]
+Bon, vous voilà parmi nous et je n'ai pas vraiment voix au chapitre. Tant qu'à être ici, que diriez-vous d'une petite visite du vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]
+Capitaine, c'est une violation du traité de protection ![page]
+[nick:ロニキス]
+C'est un peu tard pour dire ça, ne crois-tu pas ? Fais leur faire le tour du propriétaire. Je serai sur le pont.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:イリア]
+Capitaine ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+Allez, du balais ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ミリー]
+Alors ?[page]
+[nick:ロニキス]
+Minute papillon. Le docteur a quelque chose à vous dire.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ミリー]
+Oui, madame.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Docteur
+Ahem.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Docteur
+Alors[speed][0x14],[speed][0x0] suite à un certain nombre d'expériences, j'ai pu isoler le germe responsable de l'épidémie.[page]
+Docteur
+Cependant, il est impossible de la contrer avec la médecine moderne terrienne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ミリー]
+Je croyais que votre médecine était très avancée ! Vous êtes sûr d'avoir tout essayé ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Docteur
+Mademoiselle, même si notre technologie médicale très développée, il existe des situations où nous sommes totalement impuissants[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Docteur
+[speed][0x14]...[speed][0x0]Cette bactérie mute à une allure vertigineuse.[page]
+Docteur
+Quel que soit le vaccin employé il sera rapidement sans effet.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Docteur
+Mais[speed][0x14]...[speed][0x0] Ça ne signifie pas que tout est perdu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Docteur
+En étudiant sa structure, nous pouvons dire qu'il est d'origine naturelle.[page]
+Par conséquent, si nous pouvions trouver le patient zéro, en d'autres termes le premier porteur de la maladie, et que nous puissions avoir un échantillon de son sang, nous pourrions élaborer un antidote.  [page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ミリー]
+Alors, il peut être guéri ?[page]
+Docteur
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]
+Mais d'ici deux à trois heures, il sera changé en pierre. Nous n'avons pas le temps pour ça.[page]
+Docteur
+C'est curieux, mais même pétrifiée, la structure moléculaire est préservée. Par conséquent, il sera tout à fait possible de le ramener à son état normal avec le sérum.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:イリア]
+Peu importe si vous ne comprenez pas tout. En résumé, il est possible de le soigner.[page]
+[nick:ロニキス]
+Mais ça ne sera pas si simple. Resonia ne nous renseignera jamais sur le patient 0.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]
+Exact. Mais il faudrait déjà commencer par savoir si c'est bien sur la planète Roak que le virus a été utilisé pour la première fois.[page]
+[nick:ラティ]
+La planète Roak ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:ロニキス]
+C'est ainsi que nous appelons la planète sur laquelle vous vivez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ロニキス]
+Comme tu l'as dit, [nick:イリア], Resonia n'a rien à gagner en changeant les habitants de Roak en pierre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Une forme de vie non identifiée est détectée sur le pont du transporteur ! Je répète...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]
+Une forme de vie non identifiée ?[page]
+[nick:ロニキス]
+Impossible. Allons voir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Docteur, le métabolisme des habitants de Roak est-il le même que celui des autres formes de vie de type humain comme les terriens ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Docteur
+Eh bien, les organes internes, les muscles et le système nerveux sont assez similaires à ceux des terriens, mais il y a cependant une différence importante.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]
+Leur sang, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">Docteur
+Tout à fait. Leur composition sanguine diffère de celle des humains en bien des aspects. Il y a de nombreuses différences, mais l'une des plus évidentes à comprendre est que leur hémoglobine servant au transport de l'oxygène est constituée de cuivre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ロニキス]
+Qu'essaies-tu de dire, [nick:イリア] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]
+C'est juste une hypothèse, mais peut-être qu'il y a quelque chose à gagner à pétrifier les habitants de Roak ? S'il y en avait une, ça expliquerait la raison pour laquelle Resonia a lancé son arme chimique sur Roak.[page]
+[nick:ロニキス]
+Quel bénéfice en tirer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:イリア]
+Pourquoi pas une quelconque substance inconnue ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ロニキス]
+Comme par exemple[speed][0xa]...[speed][0x19] [speed][0x1]Pour une arme ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:イリア]
+C'est une possibilité. En particulier une substance indétectable au radar.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ミリー]
+Ils nous tueraient pour faire une arme ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:イリア]
+Nous n'avons encore aucune certitude.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ラティ]
+Je commence à comprendre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ロニキス]
+En tout cas, si c'est bien ça, un certain nombre de statues devraient manquer sur Roak.  Allons vérifier. Je serai sur le pont.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:イリア]
+Docteur, en dehors de tout ce qui peut être créé en changeant le sang en pierre, pourriez-vous faire une simulation sur votre ordinateur de ce qui peut être utilisé comme arme ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">Docteur
+Mais il existe des millions de possibilités ![page]
+[nick:イリア]
+Faites tout ce qui est en votre pouvoir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Docteur
+Compris.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]
+Et tout ça juste parce que je pensais que ma vie était ennuyeuse à mourir [speed][0xf]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ミリー]
+Mais qu'est-ce que tu racontes ? Ça n'a rien à voir ![page]
+[nick:ラティ]
+Mais[speed][0xf]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ミリー]
+En tout cas, si j'étais plus forte, je[speed][0xf]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">Docteur
+Il semblerait que le capitaine vous demande sur le pont. Prenez l'ascenseur de gauche pour vous y rendre.[page]
+[nick:ラティ]
+Reçu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:ミリー]
+Je me demande pourquoi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ラティ]
+Aucune idée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">Docteur
+Un de ses organes vitaux a entamé le processus de pétrification. Il est aux portes de la mort.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:ラティ]
+[nick:ドーン]... ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ドーン]
+[speed][0xf]...[speed][0x5]Capitaine[speed][0xf]...
+[speed][0x0]J'ai[speed][0x14]...[speed][0x0]une dernière volonté...[page]
+[nick:ロニキス]
+Dis-moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ドーン]
+Je[speed][0xf]...[speed][0x0] Je voudrais...
+[speed][0xf]...[speed][0x0]Passer mes derniers instants[speed][0xf]...[speed][0x0]
+Chez moi...[page]
+[nick:ロニキス]
+Qu'entends-tu par tes derniers instants[speed][0xa]...[speed][0x0] Tu vas juste t'endormir un petit moment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ドーン]
+Mais si vous n'obtenez pas le sérum[speed][0xf]...[speed][0x0][page]
+[nick:ロニキス]
+[speed][0xa]......[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ドーン]
+[speed][0x6]S'il vous plait...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Très bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ロニキス]
+Préparez-vous pour le transport.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">Docteur
+Oui, capitaine.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ミリー]
+Laissez-nous accompagner [nick:ドーン], s'il vous plait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:ロニキス]
+Vous[speed][0xa]...[speed][0x0] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ラティ]
+Nous reviendrons, je vous le promets.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Dans ce cas, [nick:イリア] vous accompagnera.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ラティ] et [nick:ミリー]
+Merci ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[pos][0x2c][0x0]Centre médical du Calnus[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[pos][0x2c][0x0]Centre médical du Calnus[page]
+[end]</sn:pointer>
+
+</sn:script>

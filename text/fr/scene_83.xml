@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">Ivina
+Je prie pour votre réussite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Activer l'interrupteur ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[end]</sn:pointer>
+
+<sn:pointer id="3">Pousser le bouton ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">Dernier Boss[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]
+Qui êtes-vous ?[page]
+???
+Je suis Ivina, chef de la faction Anti-Rivorse.[page]
+[nick:ロニキス]
+Oh, c'est toi[speed][0xa]...[speed][0x0] Je suis [nick:ロニキス] J. Kenny, de la Fédération.[page]
+Ivina
+Je sais. Mais pourquoi avoir amené des Roakiens ?[page]
+[nick:ロニキス]
+Ils nous ont aidés par le passé. Leur potentiel a hautement évolué depuis, et je pense que j'aurai besoin d'eux pour cette mission.[page]
+Ivina
+Compris. Bien, allons en ville[speed][0xa]...[speed][0x0][page]
+[nick:ロニキス]
+Non ! Si possible, nous préfèrerions aller voir Jay Rivorse.[page]
+Ivina
+Hein ?[page]
+[nick:ロニキス]
+C'est notre seule chance.[page]
+Ivina
+[speed][0xa][speed][0x0]Bon. Je vais vous montrer le premier niveau.[page]
+[nick:ラティ]
+Hé[speed][0xa],[speed][0x0] attends une minute ! Qui est ce Jay ? J'ai cru comprendre qu'il avait causé beaucoup de souffrances, mais j'ignore pourquoi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Ivina
+[speed][0xa]...[speed][0x0] Je devrais vous présenter des excuses[page]
+[nick:ラティ]
+Hein ? Comment ça ?[page]
+Ivina
+Je suis en partie responsable de ce qui s'est passé[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Ivina
+Farget est une planète désolée, avec peu de ressources naturelles, d'eau ou de plantes.[page]
+Nous avons mené de longues recherches sur la bio-ingénierie ou le voyage spatial afin de trouver un nouvel endroit où vivre.[page]
+Je travaillais alors au laboratoire de recherches.[page]
+Je pensais que ces projets étaient destinés au bien de l'humanité, mais en vérité ça servait à développer une nouvelle arme biologique destinée à l'invasion de la Terre.[end]</sn:pointer>
+
+<sn:pointer id="9">Ivina
+Dès que j'ai compris le fin mot de l'histoire, j'ai décidé de rejoindre la résistance pour empêcher cette atrocité.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Ivina
+Jay est le résultat de nos recherches en génétique. C'est l'assemblage parfait d'un corps surpuissant et d'une intelligence supérieure. Il est presque l'égal d'un dieu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Ivina
+Mais ce qui le rend dangereux est dans ses gênes. Quand il a été conçu, les scientifiques ont programmé ses instincts destructeurs vis-à-vis de la Terre directement dans son ADN[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]
+Des instincts destructeurs ?[page]
+Ivina
+Oui. Jay a lancé une révolution et s'est ensuite proclamé dictateur. Il a éliminé tous les scientifiques, mais c'est le résultat de sa programmation ADN. Je doute que Jay ait conscience de ce qu'il a fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Ivina
+Nous devons l'arrêter et réparer nos erreurs, mais nous n'avons pas les moyens d'y arriver par nous-mêmes. C'est pour ça qu'on a besoin de l'aide de ceux qui pourraient être[speed][0xa]...[speed][0x0] ses prochaines victimes.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]
+Ok ! [speed][0xa][speed][0x0] C'est parti ![page]
+Ivina
+Parfait. Je vais vous accompagner.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Ivina
+Je vais prier pour votre réussite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Astre appris.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[pos][0x3e][0x0]Tour Rivorse[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">PV et MP restaurés.[page]
+[end]</sn:pointer>
+
+</sn:script>

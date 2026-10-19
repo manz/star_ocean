@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x3e][0x0]Portes du château Astral[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x3e][0x0]Portes du château Astral[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Garde
+Voici le château Astral.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Gardien de la porte
+Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Garde
+Vous devriez rentrer vous coucher.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Gardien de la porte
+Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]
+Nous avons tué le monstre.
+Laissez-nous voir le roi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]
+Nous demandons audience au roi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Garde
+Veuillez attendre, s'il vous plaît.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ラティ]
+[nick:フィア] ![page]
+[nick:フィア]
+Ma parole, c'est [nick:ラティ] et ses amis !
+Votre voyage se passe bien ?[page]
+[nick:ラティ]
+Oui, et grâce à vous, nous avons pu retrouver nos amis.[page]
+[nick:フィア]
+Je n'ai fait que vous parler du temple. J'ignore si c'était utile ou non, mais le reste est de votre fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ミリー]
+Salut, je m'appelle [nick:ミリー] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]
+Moi c'est [nick:ロニキス]. Enchanté de faire ta connaissance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:マーヴェル]
+Je m'appelle [nick:マーヴェル].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:フィア]
+Je suis [nick:フィア], capitaine des chevaliers du royaume d'Astral ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]
+Tu es chevalier et tu es une FEMME ?[page]
+[nick:フィア]
+Mon utérus n'a rien à voir là-dedans.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[end]</sn:pointer>
+
+<sn:pointer id="18">1. Nous voulons vous aider
+2. On n'a rien de spécial à demander[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]
+Tu pourrais nous aider, [nick:フィア] ? [page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0] Tu veux que je vienne avec vous ?[page]
+[nick:ラティ]
+Ouaip ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:シウス]
+Avoir une autre pisseuse dans l'équipe m'importe peu.[page]
+[nick:フィア]
+Mais ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:フィア]
+Bien. Vous[speed][0xa]...[speed][0x0] Vous vouliez aussi une audience auprès du roi, non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:フィア]
+Je vais vous guider.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ロニキス]
+Nous voudrions voir le roi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Garde
+Par ici.[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x56][0x0]Brico-malin[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x50][0x0]Epicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x5c][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x5c][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x5c][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Homme
+J'me demande si la marée est pour bientôt[speed][0x5]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Vieillard
+Si vous voulez de bonnes armes, mieux vaut aller à [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Femme
+Comme la guerre avec les monstres fait de plus en plus rage, la population du village décroît dangereusement[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Femme
+Si vous continuez au nord, vous arriverez à [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Vieil homme
+Avez-vous bien dormi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Vieil homme
+Bienvenue.
+Une nuit coûte [color][0x5]30[color][0x2] Fol.
+Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[end]</sn:pointer>
+
+<sn:pointer id="14">vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[end]</sn:pointer>
+
+<sn:pointer id="16">Temujin l'épicier
+Soyez les bienvenus ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Barman
+Bonjour.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Mère de Lemia
+Ma fille fait les plus beaux bonhommes de neige de la région ![page]
+[end]</sn:pointer>
+
+</sn:script>

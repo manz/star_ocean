@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x4c][0x0]Tropp[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Jeune fille
+Bienvenue dans la ville portuaire de[color][0x4] Tropp[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Jeune homme
+Qu'y a-t-il de plus chouette au monde que ce trou perdu[speed][0xa] ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Jeune homme
+On s'ennuie à mort ici ! Y a rien à faire !
+Mais d'un autre côté, les monstres ne s'intéressent pas à notre petit village...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Jeune fille
+Ça fait peur, hein ? Je ne pensais pas qu'une météorite tomberait du ciel[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Jeune fille
+Le temps est splendide aujourd'hui[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Jeune homme
+Il paraît qu'il y a un navire qui part bientôt pour [color][0x4]Portmith[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Jeune homme
+Si vous prenez le navire qui est au port, vous arriverez à Ecdart. Après c'est [color][0x4]Ionis[color][0x2], et ensuite c'est la ville de [color][0x4]Van[color][0x2].[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x56][0x0]Maison du bricolage[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x50][0x0]Épicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Maître de la guilde
+
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.
+[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">1. Savoir niveau 1   300
+2. Savoir niveau 2   600
+3. Savoir niveau 3  1200
+4. Combat niveau 2  2000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[end]</sn:pointer>
+
+<sn:pointer id="11">Maître de la Guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Maître de la Guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Maître de la Guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Conseiller
+Le nombre maximum de points de compétences possible est de 999, donc il est inutile d'être cupide et de les économiser.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?
+[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">1. Savoir niveau 1
+2. Savoir niveau 2
+3. Savoir niveau 3
+4. Combat niveau 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Mentor
+Savoir niveau 1 consiste en
+Botanique, minéralogie et cordon bleu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Mentor
+Savoir niveau 2 consiste en
+connaissance des outils, solfège et biologie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Mentor
+Savoir niveau 3 consiste en
+folklore, psychologie et piété.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Mentor
+Combat niveau 2 consiste en
+riposte, feinte et concentration[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[end]</sn:pointer>
+
+<sn:pointer id="22">Femme
+Mon mari a emmené les enfants à [color][0x4]Moore[color][0x2].
+Il est trop curieux, ça finira par lui jouer des tours.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Femme
+Mon mari ne fait rien d'autre que gaffer tout le temps.
+Je vais finir par aller voir ailleurs, à ce rythme ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Aventurier
+J'ai accepté un job qui consiste à chercher
+des pierres dans le royaume de Van[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">Homme
+De ce que j'ai entendu, il y a eu une grosse explosion
+à [color][0x4]Crat[color][0x2]. C'était une météorite?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Je viens de [color][0x4]Dulce[color][0x2]. La région de [color][0x4]Sylvalant[color][0x2]
+est trop dangereuse et n'est vraiment pas un endroit où il fait bon vivre ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Aventurier
+Mon voyage est devenu plus facile maintenant que
+je maîtrise Marathon et Observation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Morgan l'armurier
+Bienvenue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Peter le vendeur
+Salut ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Restaurant
+Bonjour. Que désirez-vous manger ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">1. Steak 130
+2. Spaghetti aux fruits de mer
+3. Ragoût de tripes au saindoux
+4. Rien du tout[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">Souhaitez-vous un dessert ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">1. Parfait aux fruits
+2. Tarte aux pommes
+3. Sherbert
+4. Ça ira, merci ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Vous n'avez pas assez pour payer l'addition.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Merci♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Tenancier
+Bien le bonjour ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Vieille aubergiste
+Avez-vous bien dormi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Vieille aubergiste
+Bonjour. Une nuit coûte [color][0x5]30[color][0x2] Fol.
+Voulez-vous dormir un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[end]</sn:pointer>
+
+<sn:pointer id="40">Désolé, c'est insuffisant pour payer la note.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">Vieil homme
+Ce siècle touche à son terme[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Vieil homme
+Je me demandais si une nouvelle guerre allait se produire et voilà
+que le monde tombe en morceaux[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

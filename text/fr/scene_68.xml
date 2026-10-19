@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x50][0x0]Épicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x56][0x0]Quincaillerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:シウス]
+Patron ! Fais péter la boutanche, et magne-toi ![page]
+[nick:イリア]
+Surveille un peu tes manières ![page]
+[nick:ラティ]
+Oui, sois un peu plus poli, quand tu commandes ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+De toute façon, ce que tu dis n'a aucun sens[speed][0x19].[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="11">Tu veux juste une "boutanche", mais il en existe un nombre infini de variétés ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:シウス]
+Tant que je peux me la vider dans le gosier, c'est une boutanche.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]
+Ha, vraiment ? Cette personne ici souhaite avoir votre alcool le plus bas de gamme que vous puissiez avoir[speed][0xf].[speed][0x0]
+La pire piquette. Demain, il faut qu'il ait une énorme GUEULE DE BOIS ★[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:シウス]
+Hé, ho ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]
+Et je ne fais que commencer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:イリア]
+Patron, alors, qu'avez-vous à nous proposer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Barman
+Euh, nous avons du bijoubu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]
+Parfait.
+Un verre, s'il vous plaît.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Barman
+Euh, nous avons du senchuu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:イリア]
+Du sec ? Parfait.
+Un verre, s'il vous plaît.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ラティ]
+[nick:イリア], depuis quand es-tu devenue experte en alcools locaux ?[page]
+[nick:イリア]
+Les hommes ne remarquent jamais les petits détails.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ミリー]
+Un milk-shake à l'ananas, s'il vous plaît[speed][0xa].[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ミリー]
+Un milk-shake aux myrtilles, s'il vous plaît[speed][0xa].[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Barman
+Avec plaisir ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+Patron, s'il vous plaît.[page]
+Barman
+Bien sûr, qu'est-ce que je vous sers ?[page]
+[nick:イリア]
+Voyons[speed][0xa]...[speed][0x0]
+Pourquoi pas un verre de mukansa ?[page]
+Barman
+Je vois que j'ai affaire à un connaisseur. Le mukansa est un alcool exceptionnel dont le goût est à la hauteur de son prix.[page]
+[nick:イリア]
+Hé hé ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Tu tiens l'alcool [speed][0xf] ?[speed][0x0]
+Vieillard ♪[page]
+[nick:アシュレイ]
+Tu ne devrais pas te moquer de tes aînés. C'est du petit lait, pour moi. Je prendrai un verre d'hiirazu, s'il vous plaît.[page]
+[nick:イリア]
+Oh [speed][0xa]♪[speed][0x0]
+Je ne savais pas que tu étais un amateur d'alcool.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]
+[nick:イリア], depuis quand es-tu devenue experte en alcools locaux ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Les hommes ne remarquent jamais les petits détails.[speed][0x14][speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="29">Tu ne trouves pas ?[page]
+[nick:アシュレイ]
+Si.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ミリー]
+Un milk-shake à l'ananas, s'il vous plaît[speed][0xa]...[speed][0x0][page]
+Barman
+Tout de suite, mademoiselle.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]
+Patron, s'il vous plaît.[page]
+Barman
+Bien sûr, qu'est-ce que je vous sers ?[page]
+[nick:イリア]
+Voyons[speed][0xa]...[speed][0x0]
+Pourquoi pas un verre de senchuu ?[page]
+Barman
+Je vois que j'ai affaire à un connaisseur.[page]
+[nick:イリア]
+Juste un petit peu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]
+[nick:イリア], depuis quand es-tu devenue experte en alcools locaux ?[page]
+[nick:イリア]
+Les hommes ne remarquent jamais les petits détails.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ミリー]
+Un milk-shake aux framboises, s'il vous plaît[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">1. Sans alcool
+2. Avec alcool[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ラティ]
+Un soda à l'ananas, s'il vous plaît.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ラティ]
+Je peux prendre un verre moi aussi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Barman
+Bien sûr ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ロニキス]
+A[speed][0xa]-[speed][0x0]Alors, on peut commencer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:イリア]
+Ah, oui, désolée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:マーヴェル]
+Hum[speed][0xa]...[speed][0x0]
+Je ne me sens pas très bien[speed][0xa]...[speed][0x0]
+Je vais aller prendre l'air[speed][0xa]...[speed][0x0][page]
+[nick:ロニキス]
+D[speed][0xa]-[speed][0x0]D'accord.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[mode8][0x18][speed][0x3][nick:ロニキス]
+Ahem[speed][0xe]...[speed][0x0] Alors[speed][0xe]...[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="43">[mode8][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">Barman
+Désolé pour l'attente. Voici vos boissons, bien fraîches.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:シウス]
+Santé à tous ![end]</sn:pointer>
+
+<sn:pointer id="46">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:イリア]
+Santé ♪[end]</sn:pointer>
+
+<sn:pointer id="48">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:イリア]
+Santé ♪[end]</sn:pointer>
+
+<sn:pointer id="50">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:イリア]
+Santé ♪[end]</sn:pointer>
+
+<sn:pointer id="52">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ミリー]
+Le milk-shake est pour moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:アシュレイ]
+Mmmm[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:フィア]
+Je ne suis pas vraiment amatrice d'alcool, mais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:イリア]
+Whhhaaa ! C'est vraiment bon ![speed][0x1e][speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="57">[nick:イリア]
+Tiens, [nick:ラティ], goûte ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:ラティ]
+Waouh[speed][0xa],[speed][0x0] ça déboite ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:アシュレイ]
+Cet arôme, cette saveur, ce goût qu'il laisse dans la bouche[speed][0xa]...[speed][0x0] Je ne m'en lasserai jamais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:アシュレイ]
+Mmmm ! Cet arôme et cette saveur[speed][0xa]...[speed][0x0] C'est clair que c'est un bon cru.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:フィア]
+C'est clair [speed][0xa]![speed][0x0] Ça se boit comme du petit-lait ! ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:イリア]
+Tu vois ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ミリー]
+Hé, monsieur, vous vous êtes trompé ! J'avais demandé à l'ananas, et c'est à la mangue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:ミリー]
+Hé, monsieur, vous vous êtes trompé ! J'avais demandé à la myrtille, et c'est à la mangue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:ミリー]
+Hé, monsieur, vous vous êtes trompé ! J'avais demandé à la pomme, et c'est à la mangue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:ミリー]
+Hé, monsieur, vous vous êtes trompé ! J'avais demandé à la fraise, et c'est à la mangue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[mode8][0x38][pos][0x44][0x0]Plusieurs heures après...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[mode8][0x0][nick:ロニキス]
+Oh punaise[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:ロニキス]
+[nick:ラティ], allez, debout[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:ロニキス]
+[nick:イリア], tu vas attraper
+froid.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:ロニキス]
+Même [nick:ミリー][speed][0xa]...[speed][0x0] Hé bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:ロニキス]
+Punaise[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:ラティ]
+À quoi tu t'attendais ? [nick:ミリー] est allée boire avec [nick:イリア][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:ラティ]
+On sait tous qu'elle est comme ça quand elle a bu[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">Qu'elle est comment ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[end]</sn:pointer>
+
+<sn:pointer id="77">[nick:ラティ]
+Gnn[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:ラティ]
+Gnnn, [nick:ロニキス][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:ロニキス]
+[nick:ラティ], qu'est-ce qu'il t'arrive [speed][0xa]?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[nick:ラティ]
+Oooh[speed][0xa]... Ma tête... ★[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="81">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:ロニキス]
+Oh, [nick:マーヴェル][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:ヨシュア]
+Maintenant que j'y pense[speed][0xa]...[speed][0x0]
+Je me demande comment va [nick:マーヴェル].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:ロニキス]
+Oui, c'est vrai.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:ロニキス]
+[nick:マーヴェル], ça va ?[page]
+[nick:マーヴェル]
+Oui.
+Laissez-moi vous accompagner encore un peu. Je vous demande juste de ne pas m'arrêter la prochaine fois.[page]
+[nick:ロニキス]
+D'accord[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:イリア]
+Les préparatifs sont terminés. Nous partirons bientôt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:ロニキス]
+Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+[nick:ラティ]
+[color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
+[nick:ロニキス]
+Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+[nick:マーヴェル]
+Je ne sais pas quoi dire. J'ai du mal à croire que vous êtes en route pour aller tuer Asmodeus, le roi du monde démoniaque[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Comment ça ?
+Tu ne viens pas avec nous ?[page]
+[nick:マーヴェル]
+Si, laissez-moi vous accompagner, je vous promets que je ne vous gênerai pas.[page]
+[nick:イリア]
+En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerions un paradoxe.[page]
+[nick:マーヴェル]
+Hein ?[page]
+[nick:イリア]
+Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:ミリー]
+Quoi ? Vous avez laissé [nick:マーヴェル] partir ?![page]
+[nick:ミリー]
+[speed][0xa]...[speed][0x0] Mais pourquoi[speed][0xa]...[speed][0x0]
+Est-ce que j'ai fait quelque chose de mal ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:シウス]
+M[speed][0xa]...[speed][0x0] Moi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:ロニキス]
+Non, c'est pas ça[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:イリア]
+Les préparatifs sont terminés.  Nous partirons bientôt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ロニキス]
+Ah [speed][0xa]?[speed][0x0] D'accord.[page]
+[nick:ラティ]
+[color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
+[nick:ロニキス]
+Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[nick:シウス]
+Je n'avais pas la moindre idée que votre but était de tuer Asmodeus, le roi du monde démoniaque ! Je pensais juste que vous étiez à la recherche de vos potes, où un truc du genre ![page]
+[nick:イリア]
+Comment ça ?
+Tu ne viens pas avec nous ?[page]
+[nick:シウス]
+Si, bien sûr que si ! Vous pouvez compter sur moi ![page]
+[nick:イリア]
+En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerions un paradoxe.[page]
+[nick:シウス]
+Hein ?![page]
+[nick:イリア]
+Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:イリア]
+Hâtons-nous d'aller au royaume de Van.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">[nick:ロニキス]
+[nick:マーヴェル], ça va ?[page]
+[nick:マーヴェル]
+Oui.[page]
+[nick:アシュレイ]
+Ravi de l'entendre. Je suis certain que ton aide nous sera précieuse dans la suite de notre périple.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="97">[nick:イリア]
+Les préparatifs sont terminés. Nous partirons bientôt.[page]
+[nick:ロニキス]
+Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+[nick:ラティ]
+[color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
+[nick:ロニキス]
+Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="98">[nick:アシュレイ]
+Je n'avais pas la moindre idée que vous vouliez en finir avec Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez simplement à la recherche de vous amis, mais il s'avère que mon hypothèse était erronée.[page]
+[nick:イリア]
+Il faut que nous le fassions, quel qu'en soit le prix.[page]
+[nick:アシュレイ]
+Il semblerait que votre détermination soit sans failles.[page]
+[nick:イリア]
+En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerions un paradoxe.[page]
+[nick:アシュレイ]
+Hein ?[page]
+[nick:イリア]
+Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="99">[nick:ロニキス]
+Salut.[page]
+[nick:マーヴェル]
+Bonjour.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="100">[nick:ラティ]
+Tu as des nouvelles de [nick:ミリー] ?[page]
+[nick:イリア]
+Non, où est-elle ? Je pensais qu'elle était avec toi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="101">[nick:ロニキス]
+Désolé[speed][0xa]...[speed][0x0] Lorsque nous étions en chemin, nous avons été attaqués par des monstres, et nous avons été séparés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="102">[nick:ラティ]
+Quoi ?! Non !!![page]
+[nick:ロニキス]
+J'ai été gravement blessé dans l'attaque et j'ai perdu connaissance. C'est là que [nick:マーヴェル] m'est venue en aide.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="103">[nick:マーヴェル]
+Il n'y avait aucune fille lorsque je l'ai trouvé. Les monstres du secteur ne sont pas du genre à enlever les gens, ils tuent leurs proies sur place. Et comme je n'ai vu aucun corps dans les environs, je pense raisonnablement qu'elle est toujours en vie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="104">[nick:イリア]
+Nous devrions partir bientôt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="105">[nick:イリア]
+Les préparatifs sont terminés.  Nous partirons bientôt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="106">[nick:ロニキス]
+Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+[nick:ラティ]
+[color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
+[nick:ロニキス]
+Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="107">[nick:ヨシュア]
+Je n'aurais jamais pensé que vous prévoyez de faire un truc aussi dingue, tuer Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez juste à la recherche de vos amis.[page]
+[nick:イリア]
+Comment ça ?
+Tu ne viens pas avec nous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="108">[nick:フィア]
+Si, je vais pas vous lâcher comme ça. C'est clair que c'est un de ces fils de pute du monde démoniaque qui nous a attaqués, mon beau-père et moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="109">[nick:ヨシュア]
+Je vous accompagnerai aussi loin que je le pourrai. Si je commence à vous ralentir, je quitterai le groupe.[page]
+[nick:イリア]
+En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerons un paradoxe.[page]
+[nick:ヨシュア]
+Hein ?[page]
+[nick:イリア]
+Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="110">[nick:ラティ]
+[nick:イリア], ça va ?[page]
+[nick:イリア]
+Hic[speed][0xa]...[speed][0x0] Oo[speed][0xa]ooooo[speed][0x19][speed][0xa]...[speed][0x0]
+C[speed][0xa]aaa[speed][0x19][speed][0xa] punaise[speed][0xa]...[speed][0x0]
+Je[speed][0xa],[speed][0x0] je[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="111">[nick:ラティ]
+[nick:ミリー], ça va ?[page]
+[nick:ミリー]
+Laisse-moi tranquille, [nick:ラティ][speed][0xa]...[speed][0x0]
+ZZZzzzzz....[page]
+[end]</sn:pointer>
+
+<sn:pointer id="112">Barman
+Pas de problème. On est de toute façon fermé pour le reste de la journée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="113">Barman
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="114">Aventurier
+Je voudrais apprendre autant que possible d'arcanes. Mais comment faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="115">Femme
+Vous venez du royaume d'Astral ? Le château de Van est juste un peu plus loin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="116">Jeune homme
+Mmmm... Qu'est-ce que je vais bien pouvoir faire aujourd'hui ?
+Un truc de cool, de toute façon. Mais hors de question de cuisiner avec des ingrédients que je n'aime pas. Tu vois ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="117">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="118">1. Sens niveau 1  100
+2. Sens niveau 2  200
+3. Sens niveau 3  300
+4. Technique niveau 2 1200[page]
+[end]</sn:pointer>
+
+<sn:pointer id="119">[end]</sn:pointer>
+
+<sn:pointer id="120">Maître de la guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="121">Maître de la guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="122">Maître de la guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="123">Entraîneur
+Le Cran, quel paramètre mystérieux. Je parie que tout un tas de personnes voient ça sur leur écran de statut et se demandent à quoi ça peut bien servir.[page]
+Entraîneur
+Ce paramètre indique le Cran de la personne. Plus il est élevé, plus les effets bonus vont se produire long des longs combats.[page]
+Entraîneur
+Les dommages que vous infligez aux ennemis peuvent être doublés, par exemple. Ou encore vous pourrez survivre à un coup fatal. Le Cran est un paramètre très utile.[page]
+Entraîneur
+Est-ce à présent un peu plus clair pour vous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="124">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="125">1. Sens niveau 1
+2. Sens niveau 2
+3. Sens niveau 3
+4. Technique niveau 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="126">Mentor
+Sens niveau 1 comprend :
+Expert, sens du danger et stoïcisme.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="127">Mentor
+Sens niveau 2 comprend :
+Sens de l'esthétique, sens de l'humour et persévérance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="128">Mentor
+Sens niveau 3 comprend :
+Fonctionnalité, ondes radio et obstination.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="129">Mentor
+Technique niveau 2 comprend :
+Doigté, écriture et domptage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="130">[end]</sn:pointer>
+
+<sn:pointer id="131">Aubergiste
+Avez-vous bien dormi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="132">Aubergiste
+Bienvenue.
+C'est [color][0x5]30[color][0x2] fols la nuit.
+Voulez-vous une chambre ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="133">[end]</sn:pointer>
+
+<sn:pointer id="134">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="135">[end]</sn:pointer>
+
+<sn:pointer id="136">Weldy
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="137">Vaia
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="138">Jun
+Nous avons en stock de nombreux articles pour la création d'objets. N'hésitez pas à faire le tour de la boutique.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="139">Jeune homme
+Vous pourrez en savoir plus sur les objets inconnus en vous servant d'Identifier.[page]
+Jeune homme
+Pour apprendre Identifier ? Alors[speed][0x1e]...[speed][0x0]
+Tout ce que je sais c'est qu'il faut apprendre un paquet de trucs.[page]
+[end]</sn:pointer>
+
+</sn:script>

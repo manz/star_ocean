@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x56][0x0]Quincaillerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x56][0x0]Magasin de musique[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[pos][0x50][0x0]Épicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">1. Sens niveau 1  100
+2. Sens niveau 2  200
+3. Sens niveau 3  300
+4. Technique niveau 2 1200[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[end]</sn:pointer>
+
+<sn:pointer id="13">Maître de la guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Maître de la guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Maître de la guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Conseiller
+Vous pourrez combiner des mouvements fatals comme bon vous semblera pour créer de puissants enchaînements en apprenant le savoir Combo.[page]
+Conseiller
+Par contre, ça consomme tous vos PM d'un coup à chaque fois, mais ça vaut la peine si on ne laisse pas la moindre chance à l'ennemi de contre-attaquer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">1. Sens niveau 1
+2. Sens niveau 2
+3. Sens niveau 3
+4. Technique niveau 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Mentor
+Sens niveau 1 comprend :
+Expert, sens du danger et stoïcisme.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Mentor
+Sens niveau 2 comprend :
+Sens de l'esthétique, sens de l'humour et persévérance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Mentor
+Sens niveau 3 comprend :
+Efficacité, ondes radio et obstination.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Mentor
+Technique niveau 2 comprend :
+Doigté, écriture et domptage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[end]</sn:pointer>
+
+<sn:pointer id="24">Fille
+Ce bijou est tellement beau...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">Femme
+[color][0x4]Ionis[color][0x2] se trouve au sud d'ici. Le château de Van est juste après.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Homme
+*Baille* Bon sang ce que j'ai sommeil[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Aventurier
+Il parait que le roi de Van recrute des soldats pour fonder un corps d'élite anti-démons[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Aubergiste
+Avez-vous passé une bonne nuit ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Aubergiste
+Bienvenue.
+C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[end]</sn:pointer>
+
+<sn:pointer id="31">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[end]</sn:pointer>
+
+<sn:pointer id="33">Expert en pêche
+S'tu veux bouffer du bon poisson, va à c'te boutique. C'est là qu'on trouve les meilleurs.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Homme de bon goût
+Mmmmm ! Ce thon est délicieux. Et le poulpe est si noir et frais ! Hin ? Oui, la truite fario est bien sauvage. Quoi ? Les truites ne vivent pas dans l'océan, voyons.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Selena
+Et pourquoi pas un bijou ? Une belle pierre vous fera briller de l'intérieur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Père d'Osato
+Bienvenue ! Lorsque j'étais jeune, j'ai été la première personne à avoir une trompette d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Commerçant
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Kurosan
+De l'alcool supérieur aux meilleures eaux, j'ai tout ce qu'il vos faut ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Belnar l'écolier
+Saviez-vous que vous pouviez faire de nombreux médicaments en mélangeant deux herbes ?[page]
+Belnar l'écolier
+Par exemple, avec deux sauges, vous pouvez faire un remède qui restaure des PV.[page]
+Belnar l'écolier
+Vous tirerez grand bénéfice à essayer de multiples combinaisons pour créer des remèdes.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Homme
+Héhé, ce pigeon est tellement adorable, tu ne trouves pas ? Je l'ai pris sous mon aile, et à présent il m'assiste.[page]
+Homme
+Vous devez vraiment aimer les animaux pour faire ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">Kuralin
+Mon amoureux sait faire de l'alchimie ♪
+Je me suis lassée des bijoux à présent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ラティ]
+[nick:ミリー] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:ミリー]
+[speed][0x1][nick:ラティ][speed][0xa] ?[speed][0x0][nick:ラティ] ??[page]
+[nick:ラティ]
+Dieu merci, tu vas bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ミリー]
+Oui, mais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:シウス]
+C'est elle que tu avais perdue ?[page]
+[nick:ラティ]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:シウス]
+Moi c'est [nick:シウス]. Enchanté.[page]
+[nick:ミリー]
+Je suis [nick:ミリー]. Tu voyages avec [nick:ラティ] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:アシュレイ]
+C'est elle que tu avais perdue ?[page]
+[nick:ラティ]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:アシュレイ]
+Je m'appelle [nick:アシュレイ]. Tout le plaisir est pour moi, mademoiselle.[page]
+[nick:ミリー]
+Je suis [nick:ミリー]. Tu voyages avec [nick:ラティ] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:シウス]
+C'est elle que tu avais perdue ?[page]
+[nick:ラティ]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:シウス]
+Moi c'est [nick:シウス]. Enchanté.[page]
+[nick:ヨシュア]
+Et moi c'est [nick:ヨシュア].[page]
+[nick:ミリー]
+Je suis [nick:ミリー]. Vous voyagez avec [nick:ラティ] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:ラティ]
+Maintenant que j'y pense[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:イリア]
+Où est [nick:ドーン] ?[page]
+[nick:ミリー]
+Ils étaient déjà partis quand je me suis réveillée ce matin.[page]
+[nick:ラティ]
+Ils ?[page]
+[nick:ミリー]
+Oui, il est parti escorter une magicienne, [nick:マーヴェル] je crois , à [color][0x4]Ionis[color][0x2].[page]
+[nick:イリア]
+[speed][0x1]Une femme ?![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ラティ]
+Pourquoi ça te met tant en colère ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:イリア]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ミリー]
+Hier, nous avons appris qu'un dénommé Bouclier écarlate était dans une ville appelée [color][0x4]Ionis[color][0x2]. [nick:マーヴェル] a brutalement eu une expression terrifiante[speed][0xa]...[speed][0x1e][speed][0x0]Oui, [nick:マーヴェル] est une femme magnifique, aussi ![end]</sn:pointer>
+
+<sn:pointer id="56">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">Un teint lumineux,[page]
+un style parfait,[page]
+et des jambes interminaaaaables ![end]</sn:pointer>
+
+<sn:pointer id="58">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ミリー]
+La première fois qu'on s'est rencontrées, c'est moi qui l'ai convaincue de se joindre à nous quand elle nous a dit qu'elle était en voyage. Même si nous sommes deux filles, c'était plus fort que moi ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:ラティ]
+[speed][0xa]...[speed][0x0] [nick:ミリー] ça suffit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ミリー]
+Mais quoi ?[end]</sn:pointer>
+
+<sn:pointer id="62">Ah ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ミリー]
+[nick:イリア], ne tire pas de conclusions hâtives, d'accord ? [nick:ロニキス] n'est pas parti avec elle avec des idées tordues en tête[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:イリア]
+Oui, je sais bien qu'il ne ferait pas une chose pareille. [color][0x4]Ionis[color][0x2] est la ville voisine, c'est bien ça ? Allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:ラティ]
+[speed][0xa]...[speed][0x0] Mais pourquoi [color][0x4]Ionis[color][0x2] ?[page]
+[nick:ミリー]
+[nick:マーヴェル] parlait de se venger de son ennemi juré[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:ラティ]
+Et ce serait lui, le chevalier qui est arrivé à [color][0x4]Ionis[color][0x2] ?[page]
+[nick:ミリー]
+Il y a des chances[speed][0xa].[speed][0x0] Et ils m'ont laissée ici.[page]
+[nick:ラティ]
+Tu ne crois qu'on devrait les rejoindre ?[page]
+[nick:ミリー]
+Si.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:シウス]
+J'ai déjà entendu parler du Bouclier écarlate. On raconte que c'est le plus puissant maître du style de combat d'Edarl. Et c'est aussi un célèbre guerrier. Ça me semble louche que quelqu'un paisse le haïr à mort.[page]
+[nick:ラティ]
+Je ne sais pas trop quoi en penser[speed][0xa]...[speed][0x0] Mais on devrait y aller, tu ne crois pas ?[page]
+[nick:ミリー]
+Ouais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:ラティ]
+Il y a un problème ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:アシュレイ]
+Non[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:ラティ]
+Tu penses qu'on devrait y aller aussi ?[page]
+[nick:ミリー]
+Ouais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:シウス]
+Le Bouclier écarlate, encore...[page]
+[nick:ミリー]
+Tu le connais ?[page]
+[nick:シウス]
+J'en ai déjà entendu parler. On raconte que c'est le plus puissant maître du style de combat d'Edarl. Et c'est aussi un célèbre guerrier. Ça me semble louche que quelqu'un paisse le haïr à mort.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:ヨシュア]
+Maintenant que tu le dis, quand je t'en avais parlé, tu semblais savoir quelque chose. C'était donc ça.[page]
+[nick:シウス]
+[speed][0xa]...[speed][0x0][page]
+[nick:ミリー]
+Quand l'as-tu rencontré, [nick:ヨシュア] ?[page]
+[nick:シウス]
+Il est à la recherche de sa sœur, ils se sont perdus de vue. Et c'est à cause du Bouclier écarlate.[page]
+[nick:ヨシュア]
+Tout ce dont je me souviens, c'est de cet homme arborant un bouclier écarlate. C'est tout. Ne faites pas de conclusions hâtives. Nous pourrions faire de graves erreurs.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:シウス]
+D'accord, d'accord.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:ラティ]
+Je ne sais pas trop quoi en penser[speed][0xa]...[speed][0x0] Mais on devrait y aller, tu ne crois pas ?[page]
+[nick:ミリー]
+Ouais.[page]
+[end]</sn:pointer>
+
+</sn:script>

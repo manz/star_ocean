@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x30][0x0]Château de Van I Il[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x28][0x0]Château de Van I Il[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Garde
+Vous pouvez entrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Garde
+Vous n'avez rien à faire ici, filez de là ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Roi de Van
+Quand vous aurez rencontré chaque roi de chaque royaume, n'oubliez pas de revenir ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Roi de Van
+Puissiez-vous ramener l'[color][0x6]œil de la vérité[color][0x2] indemne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Roi de Van
+L'avenir de notre monde est entre vos mains. Ne perdez jamais espoir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Chancelier
+Afin d'éviter toute panique inutile, veuillez garder secrète l'existence de l'[color][0x6]œil de la vérité[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Reine
+Puisse votre avenir avoir l'éclat du soleil.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Étudiant excité
+Je fais des recherches sur les différentes races existantes[speed][0xa].[speed][0x0] Il semblerait que l'une d'elles, apparentée aux chats, les Felpurrs, perdure à ce jour. Oh, j'aimerais tellement voir une femme-chat [speed][0xa]!!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Peintre royal
+Lorsqu'on insuffle une âme aux peintures, elles en deviennent magiques. Lorsque j'ai envie de quelque chose, je n'ai qu'à le dessiner. C'est bien mieux que devoir les acheter ! Ahahahah ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Garde
+Les Higlanders sont enviés de tous ceux qui étudient l'escrime. Ça doit être tellement bien d'avoir ça dans le sang ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Vénérable du Sommet
+Nous avons collecté quelques informations sur les derniers monstres capturés. Apparemment, Asmodeus, roi du monde démoniaque, est en train de réaliser une arme pire que tout ce que l'on puisse imaginer. Quand il y a eu l'explosion sur le continent de Moore, j'ai eu peur. Mais il parait que ça n'a rien à voir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Vénérable du Sommet
+Alors, ils auraient une nouvelle arme... Notre royaume n'est pas pourvu de stratégie offensive[speed][0xa]...[speed][0x0] Si seulement nous pouvions pénétrer dans le monde démoniaque[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Sage Riddo
+Il n'y a aucun moyen d'ouvrir et de refermer librement les portes du monde démoniaque d'ici. Par contre, depuis l'autre côté, c'est une autre histoire[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Servante
+Tout le monde est si triste et de mauvais poil ces derniers temps ! J'ai horreur de ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Servante Juliette
+Roméo et moi avons trippé quand on a su qu'on avait les noms de héros d'une histoire très populaire. Vous trouvez ça bizarre, vous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Servante Juliette
+Oh Roméo ! Pourquoi es-tu Roméo ?[page]
+Garde Roméo
+Dois-je l'écouter encore ou lui répondre[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Officier
+Hey, toi ! Pourquoi as-tu quitté ton poste ?! Reviens ici et plus vite que ça ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Garde Roméo
+D-Désolé...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Servante Juliette
+On non, Roméo !
+Ne me laisse pas seule ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Roméo
+Attends-moi, Juliette ! Car sans faute, je reviendrai à tes côtés ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Officier
+Hey ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Soldat
+J'ai pas envie d'aller bosser. Dites à personne que je suis là, hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Jeune fille
+Tu sais ce que sont les "dons innés", hein ? J'espère que oui ! Ce sont toutes les compétences que tu peux apprendre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">Chevalier indécis
+En ce moment, j'hésite à améliorer cette épée. Si je manque mon coup, elle ne vaudra pas plus qu'un bout de ferraille. Il faut pas mal de courage pour modifier son propre équipement.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Enoru au cœur brisé
+Est-ce que tu pourrais aimer quelqu'un juste s'il t'offrait dix cadeaux ? Tu ne pourrais pas, hein ? Je pense que personne ne pourrait.[page]
+Enoru au cœur brisé
+Je pense que ce qui compte le plus c'est le respect mutuel, et le temps qu'on passe ensemble. Si seulement j'avais réalisé ça plus tôt...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Vank le sage
+J'ai entendu parler d'un miroir qui pouvait faire une copie exacte de tout ce qui se reflétait dedans.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Garde
+Que voulez-vous ? Si c'est pour entrer au château, déclinez vos intentions.[page]
+[nick:ロニキス]
+Nous aimerions vous venir en aide dans votre lutte contre le monde démoniaque. Pourrions-nous obtenir une audience auprès du roi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Garde
+Hey.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Chancelier
+Ah, c'est vous. Le roi vous attend. Par ici, je vous prie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">Garde
+Que voulez-vous ? Si c'est pour entrer au château, déclinez vos intentions.[page]
+[nick:アシュレイ]
+Quelles mauvaises manières, si je puis me permettre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">Garde
+Oh ! V[speed][0xa]...[speed][0x0] Vous êtes [speed][0xa]...[speed][0x0]?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">Garde
+P[speed][0xa]...[speed][0x0] Pardonnez mon impolitesse ![page]
+[nick:アシュレイ]
+Je fermerai les yeux sur votre indélicatesse pour l'instant. Pourriez-vous nous obtenir une audience avec le roi ? Nous aimerions prêter main-forte à votre royaume dans sa lutte contre le monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Garde
+Hey.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Chancelier
+Sire [nick:アシュレイ] , le roi vous attend. Par ici, je vous prie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Roi de Van
+Voici donc ceux qui souhaitent s'entretenir avec moi.[page]
+Chancelier
+Tout à fait, votre grandeur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Roi de Van
+Alors, ainsi, vous prétendez vouloir nous aider à lutter contre Asmodeus, le roi du monde démoniaque.[page]
+[nick:ロニキス]
+Tout à fait.[page]
+Roi de Van
+Et combien de chances pensez-vous avoir de réussir ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ロニキス]
+Nous l'ignorons.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Roi de Van
+Je vois. En d'autres circonstances, des étrangers surestimant leurs compétences seraient jetés dehors sans autre forme de procès. Mais[speed][0xa]...[speed][0x0] Bon. Je devrais d'abord vous mettre à l'épreuve. S'il s'avère que vous n'êtes pas à la hauteur de vous dires, nous ne pourrons vous accepter à nos côtés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Chancelier
+Ainsi, après toutes ces années, vous allez[speed][0xa]...[speed][0x0][page]
+Roi de Van
+Exactement. Conduisez ces personnes au labyrinthe du jugement.[page]
+[nick:ラティ]
+Le labyrinthe du jugement ?[page]
+Roi de Van
+Vous comprendrez quand vous y serez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">Roi de Van
+Pour pénétrer dans le monde démoniaque, il faut à la fois connaitre l'emplacement de la porte et le moyen de l'ouvrir. Et ces informations sont hautement confidentielles et ne peuvent être révélées à n'importe qui.[page]
+[nick:ロニキス]
+[speed][0xa]...[speed][0x0][page]
+Roi de Van
+En principe, c'est impossible d'ouvrir la porte de notre côté. Elle ne s'ouvre que lorsque les monstres du monde démoniaque viennent envahir notre monde. Il y a quelques années, un homme a tenté de s'y aventurer quand la porte  était ouverte depuis l'autre côté. Il est revenu à moitié mort. Selon lui, le monde démoniaque porte bien son nom et aucun mot n'est assez fort pour décrire l'horreur qu'il y règne. Maintenant que vous savez ce qui vous attend, voulez-vous toujours y aller ?[page]
+[nick:ロニキス]
+Notre choix est fait.[page]
+Roi de Van
+Parfait[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Votre Altesse. Vous disiez qu'il est impossible d'ouvrir la porte depuis ce côté ?[page]
+Roi de Van
+J'ai dit "en principe". Ça ne veut pas dire qu'on ne peut pas. En fait, celui qui a à l'origine relié notre monde à celui des démons venait d'ici.[page]
+[nick:ロニキス]
+De ce côté ?[page]
+Roi de Van
+"Les Anciens"[speed][0xa]...[speed][0x0] C'est comme ça qu'on les appelle. Vous avez sûrement déjà dû entendre parler d'eux. Cependant, leur véritable nom est "Mooriens".[page]
+[nick:ラティ]
+Moore ?
+Comme le château de Moore ?[page]
+Roi de Van
+D'après la légende, ils ont baptisé le continent d'où ils venaient comme eux. En d'autres termes, ce sont les premiers habitants du continent de Moore.[page]
+[nick:ラティ]
+Alors, ils s'appelaient "Moore" au départ ?[page]
+Roi de Van
+C'est ça. La légende dit aussi que les ancêtres des Mooriens n'avaient pas d'enfants, mais étaient tous des adultes, soudainement apparus de nulle part. Ils sont tombés du ciel, portant le nom que les dieux leur avaient donné.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]
+(Apparus de nulle part ? Ça ne serait pas[speed][0xa]...[speed][0x0])[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Roi de Van
+Ils ont construit un artefact et se sont servis de sa puissance pour ouvrir les portes vers l'autre monde.[page]
+[nick:ロニキス]
+Pourquoi ont-ils fait ça ? Je ne pense pas qu'il puisse y avoir ne serait-ce qu'une seule bonne raison à faire une telle chose.[page]
+Roi de Van
+Malheureusement, ce n'est pas à nous d'en juger. L'artefact est appelé l'[color][0x6]œil de la vérité[color][0x2]. On raconte que c'est une gemme écarlate, de la taille d'un poing.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ラティ]
+À propos de l'[color][0x6]œil de la vérité[color][0x2], il ne montre pas les images de tout ce que voudrait voir celui qui le possède ?[page]
+Roi de Van
+C'est la version la plus répandue de la légende, sans nul doute. Beaucoup ont couru après l'[color][0x6]œil de la vérité[color][0x2] sans jamais le trouver.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">Roi de Van
+Les Moorians ont laissé quelques indices sur l'endroit où se trouve l'[color][0x6]œil de la vérité[color][0x2] aux familles royales des quatre royaumes. On raconte que sans les quatre indices, il est impossible de deviner sa localisation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:イリア]
+En d'autres termes, si quelqu'un a besoin de l'[color][0x6]œil de la vérité[color][0x2] en cas d'urgence, il faut le consentement des quatre familles royales ?[page]
+Roi de Van
+Exactement[speed][0x1e].[speed][0x0] Maintenant que vous savez tout, vous devez partir secrètement en quête de l'[color][0x6]œil de la vérité[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Roi de Van
+Apportez-le.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">Chancelier
+Oui, Votre Altesse.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">Chancelier
+Tenez[speed][0xa]...[speed][0x0][page]
+[nick:ロニキス]
+Qu'est-ce que c'est ?[page]
+Roi de Van
+Prenez cet emblème et allez rendre visite aux rois de chaque royaume. Cet emblème atteste que vous savez tout au sujet de l'[color][0x6]œil de la vérité[color][0x2].[page]
+Vous recevez l'[color][0x6]emblème de Van[color][0x2].[page]
+Roi de Van
+Une fois que vous aurez rencontré les trois autres rois, je serai en mesure de vous révéler le secret de mon royaume.[page]
+Prenez ce grimoire avez vous. J'espère qu'il vous sera utile dans vos aventures. Et que les vents vous soient favorables.[page]
+Vous avez appris 4 animaux sacrés. [page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Roi de Van
+Ainsi, vous avez rencontré tous les rois des autres royaumes.[page]
+[nick:ロニキス]
+C'est ça.[page]
+[nick:ロニキス]
+Le roi de Moore nous a remis la clé de ruines, le roi d'Astral nous a récité des phrases devant renfermer un sens caché, et le roi de Sylvalant nous a donné l'emplacement des portes vers le monde démoniaque.[page]
+Roi de Van
+Parfait. Vous avez également les emblèmes prouvant votre venue dans les différents royaumes ?[page]
+[nick:ロニキス]
+Oui.[page]
+Roi de Van
+À présent vous devez vous rendre au temple de Parj.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ヨシュア]
+Au temple de Parj ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:ラティ]
+Au temple de Parj ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:アシュレイ]
+Au temple de Parj ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:フィア]
+Au temple de Parj ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:シウス]
+Au temple de Parj ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:イリア]
+Nous n'avons rien trouvé là-bas la dernière fois que nous y sommes allés[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">Roi de Van
+On raconte que le temple de Parj se trouve sur le continent d'Astral. J'aimerais que vous vous y rendiez pour voir ce qu'il y a là-bas.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">Roi de Van
+C'est l'[color][0x6]œil de la vérité[color][0x2][speed][0xa]...[speed][0x0] Je savais que vous le ramèneriez indemne.[page]
+Roi de Van
+Alors, vous allez enfin vous rendre au monde démoniaque ?[page]
+[nick:ロニキス]
+Oui. Il est censé y avoir une porte secrète sur une île déserte au sud-est de [color][0x4]Sylvalant[color][0x2].[page]
+Roi de Van
+Puissiez-vous revenir victorieux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">Monstre
+C'est trop tard ! Notre grand roi Asmodeus a déjà terminé de créer son arme ultime ! Il ne vous reste plus d'autre choix que de vous rendre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">Roi de Van
+Que... Que se passe-t-il ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">Monstre
+Oh ce que c'est amusant ! Radier de la carte un village tout entier juste pour montrer qu'on en a dans le pantalon ![page]
+[nick:ラティ]
+Quoi ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:シウス]
+Mais pourquoi[speed][0xa]...[speed][0x0] ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:アシュレイ]
+Mais quelle folie !! Vous allez payer pour ce que vous avez fait ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:フィア]
+Mais mon dieu, qu'avez-vous fait[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:マーヴェル]
+Terrifiant ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">Monstre
+Je ne vous le redirai qu'une fois. Rendez-vous sur-le-champ, sinon...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:ラティ]
+Ne la laissez pas partir ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">Soldat
+C'est abominable ! Selon le rapport des troupes, le village de [color][0x4]Dulce[color][0x2] a été désintégré dans une énorme explosion ! C'est impossible qu'il y ait le moindre survivant.[page]
+[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Vite, au monde démoniaque. Je ne n'ose même pas imaginer ce qu'il se passerait s'ils se servaient de cette arme sur [color][0x4]Van[color][0x2] ou [color][0x4]Astral[color][0x2]...[page]
+[nick:イリア]
+C'est certain ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:シウス]
+Ils vont payer pour ça[speed][0xa]...[speed][0x0] Qu'ils crèvent tout sur-le-champ ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:フィア]
+Asmodeus[speed][0xa]...[speed][0x0] Tu vas payer ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:ヨシュア]
+Nous allons venger ceux qui sont morts par ta faute, Asmodeus ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:ロニキス]
+Allons voir le roi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">Garde
+Vous êtes [nick:ロニキス], c'est ça ? Un instant, je vous prie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">Garde
+Par ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">Roi de Van
+Ce que vous avez fait est extraordinaire. Vous êtes les plus grands héros que notre planète a connu. Vos noms vont rester gravés dans l'Histoire.[page]
+[nick:ロニキス]
+Merci.[page]
+Roi de Van
+La paix va arriver petit à petit au fil du temps, mais nous devons nous réjouir de la mort du roi du monde démoniaque. Héros, je parle au nom de tous mes sujets, et je vous remercie du fond de mon cœur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[nick:ラティ]
+Eh ben[speed][0xa]...[speed][0x0] Il s'en est passé des choses, hein ?[page]
+[nick:ミリー]
+Ouais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:ロニキス]
+Je commençais à perdre la forme, alors c'était une bonne occasion de faire de l'exercice.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:イリア]
+Je trouve ça étrange qu'il y ait une civilisation si développée sur cette planète.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[nick:ロニキス]
+Nous avons accompli notre mission, c'est tout ce qui compte, tu ne penses pas ?[page]
+[nick:イリア]
+Si, mais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:ロニキス]
+Tu t'inquiètes trop. Mais ta perpétuelle méfiance nous a vraiment aidés dans pas mal de situations, quand même.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:ラティ]
+Demain, nous irons saluer les autres[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:イリア]
+Ça ne sera pas pareil sans eux...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:ロニキス]
+Nous partirons tôt demain
+matin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:ロニキス]
+Allons voir le roi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">Garde
+Vous êtes [nick:ロニキス],  c'est ça ? Un moment je vous prie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">Garde
+Veuillez me suivre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:ミリー]
+Les hommes ne sont pas autorisés ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:イリア]
+Oh, on devrait peut-être laisser venir [nick:ラティ], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:フィア]
+Désolé. Ne vous inquiétez pas, ce n'est rien. Vraiment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:マーヴェル]
+T'inquiète pas. On on racontera rien à personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:ロニキス]
+Elles parlent de quelque chose là-bas, mais elles disent que les hommes ne peuvent pas y aller[speed][0xa]...[speed][0x0] Mais de quoi peuvent-elles bien parler ? Même [nick:イリア] est dans le coup.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ミリー]
+Les hommes ne sont pas autorisés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[nick:イリア]
+[nick:ラティ] ne pourrait pas se joindre à nous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:ミリー]
+Les hommes ne sont pas autorisés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">[nick:マーヴェル]
+T'inquiète pas. On on racontera rien à personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="97">[nick:ロニキス]
+Elles parlent de quelque chose là-bas, mais elles disent que les hommes ne peuvent pas y aller[speed][0xa]...[speed][0x0] Mais qu'est-ce qu'il se passe là-bas ? Même [nick:イリア] est dans le coup.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="98">???
+Tu ne crois pas ? C'est exactement ce que je pensais aussi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="99">???
+Oui, je suppose...[page]
+???
+Alors[speed][0xa]...[speed][0x0] T'en penses quoi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="100">???
+*rires*[page]
+???
+Ouais[speed][0xa]...[speed][0x0] Carrément ![page]
+???
+C'est exactement ce que je disais ![page]
+???
+Quoi ???!![page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x0][0x48]Ecdart[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]
+On dirait [nick:ミリー] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]
+C'est elle ! Rattrapons-la ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Guerrier baraqué
+C'est vrai qu'ils montent une force anti-monde démoniaque au royaume de Van ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Greluche
+J'ai trouvé ça par terre. Je ne sais pas ce que c'est.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">Greluche
+Qu'est-ce que c'était ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Gamin
+Quand j's'rai grand, j's'rai musicien ! J'jouerai du trombacoulisse pistonneux !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Greluche
+C'est la ville portuaire d'[color][0x4]Ecdart[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Aventurier
+On dit que la famille royale de Van se transmet un arcane de génération en génération. Ça te dirait de le connaître ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Greluche
+Il est mignon mon chien, hein ?[speed][0x14][speed][0x0]
+Il s'appelle Lucky ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Greluche
+Hé, tiens-toi tranquille ![page]
+[end]</sn:pointer>
+
+</sn:script>

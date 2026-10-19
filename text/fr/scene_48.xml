@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ヨシュア]
+Il pleut[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">???
+La pluie essaie de te retenir à l'intérieur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ヨシュア]
+[nick:フィア][speed][0xa]...[speed][0x0] Pourquoi ?[page]
+[nick:フィア]
+J'ai mes propres raisons pour ne pas vouloir franchir les portes du château.[page]
+[nick:ヨシュア]
+Puisque c'est ainsi[speed][0xa]...[speed][0x0][page]
+[nick:フィア]
+Je me disais que j'aurais pu en profiter pour voir si je ne trouvais pas quelqu'un. Quand j'habitais Astral, y'avait un crétin qui s'est tiré comme ça, sans dire un mot. Il s'appelle [nick:シウス][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ヨシュア]
+Dans ce cas, pourquoi ne viendrais-tu pas avec nous ? Il me semble l'avoir déjà mentionné au temple de Parj, je suis à la recherche de ma sœur, que j'ai perdue de vue il y a bien longtemps[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">???
+[speed][0x1]Attends !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:フィア]
+Dis[speed][0xa]...[speed][0x0] C'est pas toi qui voyageais avec [nick:ラティ] et les autres ?[page]
+[nick:ヨシュア]
+[speed][0xa]...[speed][0x0] La solitude est un fardeau trop lourd pour moi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:フィア]
+Dis-moi tout !! Même si[speed][0x14][speed][0xa]...[speed][0x0] Même si je suis recherchée, je suis toujours fière d'être un chevalier d'Astral[speed][0xa]...[speed][0x0] !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ヨシュア]
+[speed][0xa]...[speed][0x0] Tu sais, à rester sur le qui vive, tu vas finir par te briser. Et ça, je ne peux pas le permettre.[page]
+[nick:フィア]
+[speed][0xa].....[speed][0x0][page]
+[nick:ヨシュア]
+N'hésite pas à venir me parler si tu ne te sens pas bien. Veux-tu que nous fassions un bout de chemin ensemble ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]
+Attends !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:フィア]
+[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+[speed][0xa]...[speed][0x0][nick:ラティ] et les autres veulent te parler. Veux-tu revenir avec nous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:フィア]
+Tu es venue pour me dire ça ?[page]
+[nick:イリア]
+Heu [speed][0x14]?![speed][0x5]...[speed][0x0] Ouais[speed][0xa].[speed][0x0] J'aurai pas dû ?[page]
+[nick:フィア]
+[speed][0xa].....[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:フィア]
+T'es en train de me dire que t'es venue me chercher juste parce que [nick:ラティ] veut me parler ?[page]
+[nick:イリア]
+[speed][0xa]...[speed][0x0] Euh, ben oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]
+[speed][0xa]...[speed][0x0]S'il te plait, écoute moi.[speed][0x1e][speed][0x0] Quels qu'en soient les enjeux, nous ne pouvons être impliqués dans les conflits de ce monde.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:フィア]
+Maintenant que j'y pense, les runes disaient quelque chose de très étrange[speed][0xa]...[speed][0x0] Ça parlait d'axe temporel et de sceau.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]
+En réalité, nous ne sommes pas de cette planète. Nous avons une mission très spécifique, et nous ne sommes là que temporairement[speed][0xa]...[speed][0x0] Nous ne pouvons vraiment pas nous en mêler, car il faut que nous ayons le moins d'interactions possible. Ce n'est pas du tout parce que nous ne vous faisons pas confiance.[page]
+[nick:フィア]
+Tu n'as pas besoin d'en dire plus.[speed][0x1e][speed][0x0] Merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:イリア]
+Qu'est-ce que c'est que cette lumière ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+Qu'est-ce qu'il se passe ? Une météorite ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]
+Ça pourrait pas être le vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:シウス]
+Bordel, il se passe quoi ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:イリア]
+Ça pourrait être une météorite...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:アシュレイ]
+Qu'est-ce que c'était ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:イリア]
+Ça pourrait être une météorite...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:フィア]
+Qu'est-ce qu'il s'est passé ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Ça pourrait être une météorite...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ヨシュア]
+Même la magie ne peut créer une lumière d'une telle intensité !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]
+Ça pourrait pas être le vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ヨシュア]
+Le vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ラティ]
+Heu, eh bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:アシュレイ]
+Le vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ラティ]
+Heu, eh bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:フィア]
+Le vaisseau ? Qu'est-ce que c'est ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]
+Heu, eh bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:イリア]
+[speed][0xa]...[speed][0x0] Ça m'inquiète. On devrait aller voir ça immédiatement.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">1. Après en être arrivés là ?!
+2. Partir sur-le-champs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ラティ]
+Après en être arrivés là[speed][0xa]... ?![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:イリア]
+[speed][0xa]...[speed][0x0]Tu dois avoir raison.[speed][0x1e][speed][0x0] Allons à [color][0x4]Tropp[color][0x2] pour l'instant. Il nous faut aussi conclure un accord avec le port d'ici.[page]
+[nick:ラティ]
+D'accord.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ラティ]
+Je crois que ce que dans mon monde on appelle un vaisseau vient juste de s'écraser.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:イリア]
+S'écraser ?[page]
+[nick:ラティ]
+Ouais. Il y a tout un tas de drôles de vaisseaux dans notre monde. Je te parie que c'était ça[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Bon, d'accord. [speed][0x1e][speed][0x0] Allons à [color][0x4]Tropp[color][0x2] pour l'instant. Nous pouvons aussi trouver un accord avec le port d'ici pour aller à [color][0x4]Portmith[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:シウス]
+Ouais. Ça te dérange pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:アシュレイ]
+Ça ne te pose pas de problème ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ヨシュア]
+J'ai vraiment envie d'aller voir ce que c'était. La source d'une telle lumière m'intrigue au plus haut point.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:フィア]
+Moi aussi ça m'intrigue[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:シウス]
+T'es sérieux ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:アシュレイ]
+Tout à fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ヨシュア]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[end]</sn:pointer>
+
+<sn:pointer id="49">Comment va Ray ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">Est : Tatroï
+Ouest : Tropp[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Comment va Mo ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">Nord : Temple de Parj[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">Il n'y a rien d'écrit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">Nord-Ouest : Tropp[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x4a][0x0]Village de Laponia[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x4a][0x0]Village de Laponia[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x4a][0x0]Village de Laponia[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ドーン]
+Hey ! Dépêchons-nous de retrouver
+[nick:ミリー] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]
+Par là, c'est le [color][0x4]Mt Métox[color][0x2].
+Elle court un grand danger en s'y aventurant toute seule.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ドーン]
+C'est [nick:ミリー][speed][0xf].[speed][0x0] Rattrapons-la ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Jeune homme
+Arrivez-vous de [color][0x4]Clatos[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Vieille femme
+Tous les hommes du village sont partis pour survivre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Femme
+Aujourd'hui, il faut que je cuisine de mon mieux. Pour demain, vous savez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Vieil homme
+C'est le [color][0x4]village de Laponia[color][0x2]. Au Nord, il y a le [color][0x4]Mt Métox[color][0x2], mais c'est très dangereux.[page]
+Vieil homme
+Mieux vaut rester ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Vieil homme
+Vous ne devriez pas me toucher, je
+suis déjà contaminé.[page]
+Vieil homme
+C'en est fini de Laponia... 
+Je vais finir mes derniers jours ici. Mais avec des plantes médicinales[page]
+ poussant au [color][0x4]Mt Métox[color][0x2], je pourrais être sauvé...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]
+(Il a été changé en pierre...
+Ne disait-il pas que le [color][0x4]Mt Métox[color][0x2] se trouvait au Nord ?)[page]
+[end]</sn:pointer>
+
+</sn:script>

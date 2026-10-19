@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[color][0x6]Carte d'accès B[color][0x2] obtenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[color][0x6]Carte d'accès R[color][0x2] obtenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:イリア]
+Mais[speed][0xa]...[speed][0x0] On dirait une sorte de carte d'accès.[page]
+[nick:ロニキス]
+Mais pourquoi faire ? Aucune des civilisations de Roak n'était assez avancée techniquement pour utiliser ça[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ラティ]
+Nom de... ?!
+Qu'est-ce que c'est que ce machin ?[page]
+[nick:ロニキス]
+Cette technologie n'a pas lieu d'être sur cette planète arriérée ![page]
+[nick:イリア]
+[speed][0xa]......[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x38][0x0]Sanctuaire de Parj[page]
+[end]</sn:pointer>
+
+</sn:script>

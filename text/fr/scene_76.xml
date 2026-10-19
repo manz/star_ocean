@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x3e][0x0]Port de Sylvalant[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]
+Ca ne serait pas bon pour moi
+que j'y aille seul ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Marin
+J'ai reçu des ordres...
+Vous allez où ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">1. Portmith (Royaume de Moore)
+2. Otanim (Royaume d'Astral)
+3. Ile déserte au sud-est[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">Marin
+Qu'est-c'vous voulez ? Z'avez rien
+à fiche sur c'bateau. Rentrez chez vous ![page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ヨシュア]
+Maintenant que j'y pense, lorsque mes parents sont décédés,
+j'ai été jeté du haut d'une falaise et laissé pour mort,
+mais un homme est venu me sauver.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:イリア]
+Où est-ce qu'il habite ?[page]
+[nick:ヨシュア]
+Peu après cette trace.[page]
+[nick:イリア]
+Alors on va aller lui faire un p'tit coucou.
+Tu ne l'as pas vu depuis longtemps, ça lui
+fera sûrement plaisir de te revoir.[page]
+[nick:ヨシュア]
+Tu crois ? Ca me fait plaisir que tu dises ça, mais
+ça ne fera pas un détour ?[page]
+[end]</sn:pointer>
+
+</sn:script>

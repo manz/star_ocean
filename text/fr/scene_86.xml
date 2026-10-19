@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="1">[mode8][0x18][nick:シウス]
+Je suis devenu un célèbre combattant, tellement célèbre que 300 ans après, vous savez qui je suis.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[mode8][0x18][nick:シウス]
+Et aussi mon père[speed][0x1e],[speed][0x3] et le Bouclier écarlate[speed][0x1e],[speed][0x3] et toi aussi bien sûr[speed][0xa],[speed][0x3][nick:ラティ] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[mode8][0x18][nick:シウス]
+Je ne peux pas encore rentrer à Astral.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[mode8][0x18][nick:シウス]
+Je dois devenir plus fort, bien plus fort que je ne le suis aujourd'hui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[mode8][0x18][nick:フィア]
+[nick:シウス], où es-tu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[mode8][0x18][nick:フィア]
+[nick:ラティ], je ne sais plus où j'en suis avec ce que je ressens pour toi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[mode8][0x18][nick:フィア]
+300 ans dans le futur ? Tu crois vraiment que je vais gober ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[mode8][0x18][nick:フィア]
+Même maintenant, quand je vais me promener, je rêve que tu es là[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[mode8][0x18][nick:フィア]
+[nick:シウス], finalement tu continues toi aussi seul ton voyage[speed][0xa]...[speed][0x3] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[mode8][0x18][nick:フィア]
+[speed][0xa]...[speed][0x3] C'est juste que c'est trop difficile pour moi[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[mode8][0x18][nick:フィア]
+[speed][0xf]...[speed][0x3][nick:ラティ][speed][0xf]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[mode8][0x18][nick:フィア]
+Tu vas encore repartir tout seul ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[mode8][0x18][nick:シウス]
+[speed][0xf]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[mode8][0x18][nick:フィア]
+Est-ce que je peux venir avec toi[speed][0x1e] ?[speed][0x3] Ça ne te dérange pas [speed][0x14]?[speed][0x3] Tout ce dont j'ai besoin c'est d'être à tes côtés[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[mode8][0x18][nick:シウス]
+[speed][0xa]...[speed][0x3]Whaa, c'est pas vraiment dans tes habitudes de dire des trucs pareils[speed][0x3c].[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[mode8][0x18][nick:シウス]
+Allez viens[speed][0xa]...[speed][0x1e][speed][0x3] On est faits du même bois, tu crois pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[mode8][0x18][nick:フィア]
+Tu pars quoi qu'il advienne ? Et Ryas n'essaie même pas de t'arrêter ? Pourquoi ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[mode8][0x18][nick:シウス]
+[speed][0xa]...[speed][0x3] Je ne suis toujours pas prêt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[mode8][0x18][nick:フィア]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[mode8][0x18][nick:シウス]
+Il faut que je devienne un célèbre chevalier, tellement célèbre qu'on parlera encore de moi dans 300 ans[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[mode8][0x18][nick:シウス]
+Et de mon père aussi[speed][0x1e],[speed][0x3] et du Bouclier écarlate[speed][0x1e],[speed][0x3] et de lui aussi bien sûr[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[mode8][0x18][nick:フィア]
+D'accord[speed][0xa]...[speed][0x3] Mais tu me promets que tu reviendras un jour ? Je t'attendrai.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[mode8][0x18][nick:シウス]
+Bien sûr.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[mode8][0x18][nick:シウス]
+Regarde-moi, [nick:ラティ] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[mode8][0x18]Jeune homme A
+Un jour, je serai le meilleur chevalier du monde ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[mode8][0x18]Jeune homme B
+Arrête de dire n'importe quoi. Ça n'arrivera jamais, et tu le sais bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[mode8][0x18]Jeune homme A
+Quoi ?! Va te faire foutre ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[mode8][0x18][nick:アシュレイ]
+[nick:ラティ]. La voie de l'épée est difficile et ne se termine jamais.[speed][0x28][speed][0x3] Mais je suis certain que tu peux la suivre ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[mode8][0x18][nick:アシュレイ]
+Del... Bouclier Écarlate. Toi aussi tu as rejoint tes ancêtres, je crains que je n'atteigne jamais mon but...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[mode8][0x18][nick:アシュレイ]
+Avant que le temps ne fasse des ravages sur mon corps, mon vœu le plus cher était de transmettre mon savoir en maniement de l'épée[speed][0xa]...[speed][0x1e][speed][0x3] Que dois-je faire à présent ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[mode8][0x18][nick:ヨシュア]
+Eris[speed][0xa]...[speed][0x3] Où es-tu[speed][0xa]...[speed][0x3] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[mode8][0x18][nick:マーヴェル]
+Hum...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[mode8][0x18][nick:マーヴェル]
+Si cela ne t'ennuie pas, pourrais-je venir avec toi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[mode8][0x18][nick:ヨシュア]
+[speed][0xa]...[speed][0x3] Bien sûr.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[mode8][0x18][nick:ヨシュア]
+Je pensais à un truc y'a pas longtemps.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[mode8][0x18][nick:ヨシュア]
+Mais promets-moi de ne pas rire.[speed][0x1e][speed][0x3] Je ne sais pas pourquoi, mais ça m'arrive de voir le visage de ma sœur quand je te regarde[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[mode8][0x18][nick:ヨシュア]
+Qu'est-ce qui ne va pas [speed][0x14]?[speed][0x3] Pourquoi pleures-tu [speed][0xa]?[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[mode8][0x18][nick:マーヴェル]
+Oh, je suis désolée[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[mode8][0x18][nick:マーヴェル]
+Ce sera le destin si on ne se recroise pas[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[mode8][0x18][nick:マーヴェル]
+Si je viens avec toi, je ne ferai que te ralentir[speed][0x1]...[speed][0x3]
+Adieu[speed][0xa]...[speed][0x1e][speed][0x3] Mon frère[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[mode8][0x18][nick:マーヴェル]
+Mon frère[speed][0xa]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[mode8][0x18]Commentateur
+Oh ! Et voici un nouveau challenger ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[mode8][0x18][nick:ティニーク]
+Ils étaient tous vraiment très forts.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[mode8][0x18][nick:ティニーク]
+Je vais m'entraîner sans relâche pour devenir très fort, moi aussi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[mode8][0x18][nick:ティニーク]
+Allez, c'est parti ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[mode8][0x18][nick:ペリシー]
+Vous n'avez rien ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[mode8][0x18][nick:ペリシー]
+Comment ça va, [nick:ミリー] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[mode8][0x18][nick:ペリシー]
+[nick:ラティ][speed][0xf]...[speed][0x3] Tu m'as tellement manqué.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[mode8][0x18][pos][0x24][0x0][speed][0x1]Quelques instants plus tard...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[mode8][0x18][nick:マーヴェル]
+Sommes-nous prêts ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[mode8][0x18][nick:シウス]
+300 ans... Pourrons-nous vraiment le faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[mode8][0x18][nick:アシュレイ]
+300 ans dans le futur... En sommes-nous capables ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[mode8][0x18][nick:マーヴェル]
+Oui, en utilisant mes pouvoirs magiques, je peux augmenter ses capacités de conservation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[mode8][0x18][nick:ヨシュア]
+Okay, allons planter cet arbre comme signal. Mais tu penses que [nick:ラティ] et les autres le remarqueront ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[mode8][0x18][nick:シウス]
+Il est un peu dur à la comprenette mais avec [nick:ミリー] avec lui, on n'a pas à s'inquiéter.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[mode8][0x18][nick:アシュレイ]
+Il est un peu neuneu mais avec [nick:ミリー] à ses cotés, pas la peine de s'inquiéter.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[mode8][0x18][nick:ペリシー]
+Je vais aller enterrer cet ocarina ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[mode8][0x18][nick:シウス]
+Oh bon, il est à moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[mode8][0x18][nick:アシュレイ]
+Je devrais leur donner ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[mode8][0x18][nick:マーヴェル]
+Alors, on a tous terminé, c'est bon ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[mode8][0x18][speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="62">[mode8][0x18][speed][0x3][mode8][0x18][end]</sn:pointer>
+
+<sn:pointer id="63">[mode8][0x18][nick:イリア]
+Oui, tout à fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[mode8][0x18][nick:ラティ]
+[nick:イリア] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[mode8][0x18][nick:イリア]
+(Si seulement nous étions nés sur la même planète[speed][0x14],[speed][0x3] je[speed][0xf]...[speed][0x3])[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[mode8][0x18][nick:イリア]
+(Tu as intérêt de bien prendre soin de [nick:ミリー], pigé [speed][0x14] ?[speed][0x3] C'est vraiment quelqu'un de bien, tu sais.)[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[mode8][0x18][nick:ロニキス]
+[nick:イリア], tu as fini ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[mode8][0x18][nick:イリア]
+Oui.[speed][0x14][speed][0x3] Ma petite discussion secrète avec[nick:ラティ] est terminée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[mode8][0x18][nick:ラティ]
+[speed][0xf]...[speed][0x3] Fais attention à toi[speed][0xf]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[mode8][0x18][nick:ミリー]
+Adieu[speed][0xf]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[mode8][0x18][nick:ラティ]
+[speed][0xf]...[speed][0x3] C'est plutôt triste, tu ne trouves pas[speed][0xf]...[speed][0x3] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[mode8][0x18][nick:ミリー]
+[speed][0xf]...[speed][0x3] Allez, souris un peu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[mode8][0x18][nick:ミリー]
+Dis, j'ai une question à te poser.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[mode8][0x18][nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[mode8][0x18][nick:ミリー]
+[nick:イリア] t'a parlé tout à l'heure[speed][0xf].[speed][0x3] Et tu t'es mis à rougir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[mode8][0x18][nick:ラティ]
+Ce[speed][0x14]...[speed][0x3] C'était rien du tout.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[mode8][0x18][nick:ミリー]
+C'est bon[speed][0xa] ![speed][0x3]
+C'était bien un truc comme ÇA ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[mode8][0x18]Maltos
+[nick:ミリー] ! Mais qu'est-ce que tu fais ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[mode8][0x18][nick:ミリー]
+Papa ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[mode8][0x18][nick:ドーン]
+Tiens ? Je ne me souviens pas d'un arbre à cet endroit là.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[mode8][0x18][nick:ミリー]
+Oh[speed][0x14]...[speed][0x3] OH ![speed][0x3c]
+[speed][0x3]Ils sont tous[speed][0x14]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[mode8][0x18][nick:ラティ]
+On se dit au revoir pour de vrai, alors ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[mode8][0x18][nick:ロニキス]
+Oui[speed][0x14],[speed][0x3] mais on pourrait revenir un de ces quatre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[mode8][0x18][nick:イリア]
+Hé hé[speed][0x14][speed][0x3] J'espère que ça ne sera pas parce que vous y serez obligés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[mode8][0x18][nick:ミリー]
+Je sais que venir juste comme ça ne sera pas facile, mais ça nous fera plaisir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[mode8][0x18][nick:ロニキス]
+Bien sûr.[speed][0x14][speed][0x3] Mais ce serait mieux pour Roak de rester sous sa forme primitive.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[mode8][0x18][nick:イリア]
+Oui.[speed][0x1e][speed][0x3] Si votre civilisation évolue, l'air va devenir pollué[speed][0xf],[speed][0x3] l'eau va devenir sale[speed][0xf],[speed][0x3] et les arbres mourront[speed][0xf]...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[mode8][0x18][nick:イリア]
+Vous ne tirerez aucun bénéfice d'une civilisation plus avancée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[mode8][0x18][nick:ラティ]
+C'est faux.[speed][0x14][speed][0x3] Nous avons pu voir l'avancement de notre planète[speed][0xf],[speed][0x3] et nous avons vécu une extraordinaire aventure.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[mode8][0x18][nick:ラティ]
+Ne t'inquiète pas.[speed][0x14][speed][0x3] Nous ferons de Roak une meilleure planète.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[mode8][0x18][nick:ロニキス]
+Tu as raison. Nous reviendrons quand tu l'auras fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[mode8][0x18][nick:ラティ]
+À bientôt.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[mode8][0x18][nick:ミリー]
+Nous pourrons ne jamais nous revoir, tu sais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[mode8][0x18][nick:イリア]
+Je suis vraiment heureuse d'avoir vécu tout ça avec vous.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[mode8][0x18][nick:ラティ]
+C'est maintenant que notre véritable aventure commence.[page]
+[end]</sn:pointer>
+
+</sn:script>

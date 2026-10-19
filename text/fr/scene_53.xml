@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x50][0x0]Épicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x56][0x0]Magasin d'équipement[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Vieil homme
+Dans mon jeune temps, il y a eu une guerre très meurtrière, la guerre contre le monde démoniaque[speed][0xa]...[speed][0x0] La guerre actuelle ne se compare même pas avec ces sombres années.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Homme
+Il parait que certaines anciennes ruines qui existaient bien avant la guerre contre le monde démoniaque sont encore intactes et se trouvent sur chaque continent. [page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Femme
+Il parait qu'un aventurier qui se croit tout permis est venu en ville il y a peu. Pensez-vous qu'il est toujours là ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Femme
+Il y a eu pas mal d'aventuriers à partir pour les [color][0x4]grottes d'Astral[color][0x2] aujourd'hui[speed][0xa]...[speed][0x0] Ils disent tous qu'ils y vont pour tester leurs compétences, mais selon moi c'est bien trop dangereux[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Vieil homme branché
+À chaque fois que je vais voir les combats à l'arène, je retrouve l'excitation de mes 20 ans.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Vendeur
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Vendeur
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Vendeur
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Barman
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Yama
+La perle de l'industrie ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Homme
+Ici, on sert de la boisson d'homme ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Vieille femme
+Avez-vous passé une bonne nuit ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Vieille femme
+Bienvenue.
+C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Souhaitez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[end]</sn:pointer>
+
+<sn:pointer id="25">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[end]</sn:pointer>
+
+<sn:pointer id="27">Aventurier
+En continuant vers l'ouest, vous pourrez aller à la ville portuaire de [color][0x4]Tropp[color][0x2]. Mais c'est assez loin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Homme
+Vous pourrez vous rendre au [color][0x4]château d'Astral[color][0x2] en prenant le cargo qui navigue sur la rivière.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">1. Connaissance niveau 2  600
+2. Sens niveau 2  200
+3. Technique niveau 2  1200
+4. Combat niveau 2 2000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[end]</sn:pointer>
+
+<sn:pointer id="32">Maître de la guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">Maître de la guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Maître de la guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Conseiller
+Souhaitez-vous entendre mes conseils ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Conseiller
+Puisque le moment est opportun, nous parlerons brièvement des compétences de combat.[page]
+Il ne fait aucun doute que vous comprendrez quand vous essaierez de les apprendre par vous même, mais vous n'êtes pas en mesure de toutes les utiliser actuellement. [page]
+La plupart d'entre elles possèdent des probabilités d'action et des effets bonus. Ces probabilités augmentent en fonction de leur niveau.[page]
+Mais si les effets bonus sont actifs en permanence, vous allez être désavantagé. Par exemple, une compétence de combat permettant d'envoyer un ennemi en l'air est utile, mais si elle était active en permanence, vous ne pourriez pas être en mesure de mettre en place des combos.[page]
+Vous saisissez ce que j'essaie de vous dire ? Vous ne devriez pas monter vos compétences de combat à leur niveau maximal, l'effet sera inverse de celui recherché.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[end]</sn:pointer>
+
+<sn:pointer id="38">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">1. Connaissance niveau 2
+2. Sens niveau 2
+3. Technique niveau 2
+4. Combat niveau 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Mentor
+Connaissance niveau 2 comprend :
+Connaissance des outils, solfège et biologie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">Mentor
+Sens niveau 2 comprend :
+Sens de l'esthétique, sens de l'humour et persévérance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">Mentor
+Technique niveau 2 comprend :
+Doigté, écriture et domptage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Mentor
+Combat niveau 2 comprend :
+Riposte, feinte et concentrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">Ça va ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ミリー]
+Ah, tu as repris tes esprits[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:イリア]
+Ça va ? Je pense que tu en as un peu trop fait cette fois.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:ロニキス]
+Est-il vivant ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:シウス]
+Ah cool. J'pensais pas qu'il se réveillerait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:フィア]
+Peux-tu bouger ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:アシュレイ]
+[speed][0xa]...[speed][0x0] Nous avons perdu. Mais par chance, nous sommes tous toujours en vie.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ヨシュア]
+Peux-tu te mettre debout ? Nous pourrons toujours réessayer plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[nick:マーヴェル]
+[speed][0xa]...[speed][0x0] Je suis tellement heureuse que tu aies survécu[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ペリシー]
+J'ai bien cru que tu allais m'abandonner et aller tout seul au paradis.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ティニーク]
+Faisons de notre mieux, comme toujours ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ラティ]
+[speed][0xa]...[speed][0x0] Où suis-je ? À l'auberge ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ミリー]
+Suis-je en vie ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:イリア]
+[speed][0xa]...[speed][0x0] Je suis[speed][0xa]...[speed][0x0] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ロニキス]
+Gnnn[speed][0xa]...[speed][0x0] Ouch ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:シウス]
+J'ai[speed][0xa]...[speed][0x0] J'ai perdu[speed][0xa]...[speed][0x0] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:フィア]
+[speed][0xa]...[speed][0x0] Quelle honte[speed][0xa]...[speed][0x0] J'ai échoué[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:アシュレイ]
+Ouch[speed][0xa]...[speed][0x0] Quelle raclée mémorable[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ヨシュア]
+[speed][0xa]...[speed][0x0] Ou suis-je ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:マーヴェル]
+[speed][0xa]...[speed][0x0]Arrgh, Dieu merci[speed][0xa]...[speed][0x0] Je ne suis pas encore morte.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:ペリシー]
+J'ai bien cru que j'allais mourir ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:ティニーク]
+Ouch ![speed][0xa]...[speed][0x0]Hé bien, j'ai perdu[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x0][0x28]Quai de chargement de Tatroï[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]
+Oh[speed][0x5],[speed][0x0] c'est toi[speed][0x5]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:アシュレイ]
+J'allais à [color][0x4]Astral[color][0x2], on pourrait s'y rendre ensemble, non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">1. Ouais, pourquoi pas ?
+2. Je n'allais pas à Astral.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:アシュレイ]
+Pour être honnête, je t'ai observé pendant ton combat dans l'arène.[page]
+[nick:ラティ]
+Oh[speed][0x5] ?[speed][0x0] Et alors ?[page]
+[nick:アシュレイ]
+Franchement, tu es un peu brut, mais tu as d'énormes qualités.[page]
+[nick:ラティ]
+V[speed][0x5]-[speed][0x0]vraiment ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:イリア]
+Pourquoi tu rougis ? C'est juste un [speed][0xa]compliment[speed][0x0]♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:アシュレイ]
+Ha ha ! Quelle délicate façon de lui expliquer !
+Tu ne devrais pas être si gentille avec lui ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]
+Ha ha ! C'est vrai. C'est la première fois qu'on me complimente sur mes talents à l'épée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:アシュレイ]
+Qui t'as appris à te battre ?
+De ce que j'en ai vu, ça ressemblait au style d'Edarl mais légèrement différent.[page]
+[nick:ラティ]
+C'est mon père qui m'a appris à me battre.[page]
+[nick:アシュレイ]
+Améliorer une technique qui était déjà parfaite est impossible si on n'a pas déjà de grandes aptitudes...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:イリア]
+Oh !! [nick:ラティ], il semble qu'on arrive trop tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ラティ]
+En avant ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:アシュレイ]
+Un bon instructeur, des talents innés[speed][0xa]...[speed][0x0]
+C'est la chance qui nous a fait nous rencontrer ici[speed][0xa]...[speed][0x0]
+Que les dieux en soient remerciés ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:アシュレイ]
+Je vois. Pas de chance...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]
+Ça ne serait pas une bonne idée que j'y aille tout seul.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Marin
+Z'allez au [color][0x4]château d'Astral[color][0x2] ? Si c'est l'cas, faut payer d'avance.
+C'est 80 Fol chacun.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Marin
+J'crois qu'tes poches sont aussi vide que l'cerveau d'une blonde ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+Hé, stop ! Tu sais ce qu'il arrivera si nous allons à Astral maintenant ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:フィア]
+J'attendrai ici. Je ne peux pas me montrer à [color][0x4]Astral[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x4c][0x0]Otanim[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Gamin
+Whaaaa ! Il a des ailes ![page]
+Fillette
+Il est tellement beau ♥[page]
+Chelsea
+Il est extraordinaire ♥[page]
+Myuki
+Whaa ! C'est un pluméen, c'est ça ? Il est tellement beau ![page]
+Mary
+Quelle bande de groupies vous faites, toutes les deux ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">1. Aider [nick:ヨシュア]
+2. Aller l'admirer[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ラティ]
+Dégagez, c'est pas une bête de foire.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">Chelsea
+C'est quoi ton problème ?[page]
+C'est bon, juste encore un peu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]
+Ça va ?[page]
+[nick:ヨシュア]
+[speed][0xa]...[speed][0x0] Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ヨシュア]
+Je devrais m'y habituer, mais ça me déstabilise vraiment quand les gens se pressent autour de moi de la sorte.[page]
+[nick:ラティ]
+Euh, ouais.[page]
+[nick:ヨシュア]
+Je pense souvent que ça serait mieux si je n'avais pas d'ailes, mais c'est le corps que mes parents m'ont donné...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]
+Tu es tellement populaire, [nick:ヨシュア] ![page]
+[nick:ヨシュア]
+Crois-tu que le moment soit approprié ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:シウス]
+[speed][0x1]Hé vous là ![speed][0x5]![speed][0x1] C'est pas carnaval [speed][0x5]![speed][0x1] Foutez le camp d'ici ![speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="9">[nick:シウス]
+Ça va ?[page]
+[nick:ヨシュア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:シウス]
+[nick:ラティ], t'avais quoi dans ta tronche d'aller piailler avec ces groupies ?[page]
+[nick:ヨシュア]
+[nick:シウス], tout va bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:アシュレイ]
+Hé ! Vous faites quoi, là ? C'est pas une bête de foire ![end]</sn:pointer>
+
+<sn:pointer id="12">[nick:アシュレイ]
+Ça va ?[page]
+[nick:ヨシュア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:アシュレイ]
+Tu n'aurais pas dû aller là-bas et les encourager.[page]
+[nick:ヨシュア]
+[nick:アシュレイ], tout va bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:フィア]
+Hé, vous ! [nick:ヨシュア] n'est pas une bête de foire ![end]</sn:pointer>
+
+<sn:pointer id="15">[nick:フィア]
+Ça va ?[page]
+[nick:ヨシュア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:フィア]
+[nick:ラティ], tu trouves ça drôle d'aller te joindre à eux et de te moquer ?[page]
+[nick:ヨシュア]
+[nick:フィア], tout va bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:イリア]
+Qu'est ce que tu fais ?! On n'est pas au cirque ![end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]
+Ça va ?[page]
+[nick:ヨシュア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:イリア]
+[nick:ラティ], tu n'aurais jamais du te joindre à eux et agir de la sorte. Je t'ai mal jugé.[page]
+[nick:ヨシュア]
+[nick:イリア], tout va bien[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Mage
+Connaissez-vous l'orichalque ? Il parait que c'est un métal possédant la magie d'annuler la gravité.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Jeune homme
+Savez-vous d'où sortent les monstres du monde démoniaque ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Rudoa l'aventurier
+En continuant au sud de la ville et en suivant le continent, vous irez à [color][0x4]Tatroï[color][0x2], une ville célèbre pour son arène.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Peintre en devenir
+Qu'en dites-vous ? Je vous fais un portrait pour [color][0x5]5[color][0x2] Fol.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">1. Faire un portrait de [nick:ラティ]
+2. Faire un portrait de [nick:イリア]
+3. Décliner[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[end]</sn:pointer>
+
+<sn:pointer id="28">Vous obtenez une [color][0x6]peinture ♂[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Vous obtenez une [color][0x6]peinture ♀[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:シウス]
+Bon sang ce que j'ai envie de me tirer dans une plus grosse ville.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ヨシュア]
+Ça va bien maintenant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ペリシー]
+Miaaaaou.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">Peintre en devenir
+Quelle femme sublime ! Je vous en prie, laissez-moi faire un portrait de vous.[page]
+[nick:マーヴェル]
+Hein ? Non-non merci[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Rosario
+Vous ne pensez qu'il n'y a pas de bons peintres par ici ? J'aimerais devenir apprenti.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Rosario
+Ooohhh.... Gnnnn... Quoi ? Non je ne suis pas bourré.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Chelsea
+Vous connaissez le groupe les Stalkers [speed][0xf]?[speed][0x0] Ils sont géniaux ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Mary
+On vend des livres sur les Stalkers [speed][0xf]♥[speed][0x0]
+C'est [color][0x4]980[color][0x2] Fol. Vous en voulez un ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">1. Acheter un livre
+2. Décliner[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Vous obtenez un [color][0x6]FanArt 4[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Vous ne pouvez rien porter de plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[end]</sn:pointer>
+
+<sn:pointer id="43">Myuki
+La voix de Morilyn est tellement suave[speed][0xf].[speed][0x0] Haaaaaaaan[speed][0x5] [speed][0x0]♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">Myuki
+C'est tellement agréable de contempler les étoiles tout seul la nuit[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">Ray
+Mon plat favori ? Je raffole du chou farci.[page]
+Ray
+En mangeant votre plat préféré, vous récupérez tous vous PV et PM.[page]
+Je ne prends jamais aucun médicament, ils sont mauvais pour la santé.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">Jeune homme
+On raconte que les felpurrs excellent dans tout ce qui touche au rythme. Mais moi, je suis sourd ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">Rowell le chevalier
+Il parait qu'on peut remporter un arcane à l'arène de [color][0x4]Tatroï[color][0x2]... Vous pense que c'est vrai ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Fille
+Vous êtes à [color][0x4]Otanim[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ロニキス]
+[nick:ラティ], que veux tu faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">La porte est verrouillée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:イリア]
+Allons d'abord passer la nuit à l'auberge.[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:イリア]
+Il faut revenir au château avec la tête du monstre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:シウス]
+Désolé.[page]
+[nick:ラティ]
+Dépêchons-nous ![page]
+[nick:シウス]
+Hé !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Veuve Noire
+[speed][0xa]...[speed][0x0] Sombres idiots !
+J'aurais atteint mon but si vous ne vous étiez pas pointés[speed][0xa]...[speed][0x0][page]
+[nick:シウス]
+Qu'est-ce que t'as dit ?![page]
+Veuve noire
+Vous m'ennuyez[speed][0xa]...[speed][0x0]
+Je vais débarrasser le monde de votre inopportune présence ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:フィア]
+Je vais ramener la tête du monstre au château. Vous serez récompensés plus tard, allez donc attendre à l'auberge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:シウス]
+Un instant[speed][0x1e][speed][0xa]...[speed][0x0]
+J'arrive.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:フィア]
+Fais ce que tu veux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:フィア]
+[speed][0xa]...[speed][0x0]Sombres crétins ![page]
+[nick:アシュレイ]
+[nick:フィア] !
+Sais-tu ce que tu as fait ?[page]
+[nick:フィア]
+Hé hé ! Tu parles de la mort de ce vieillard sénile ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Veuve noire
+J'aurais atteint mon but si vous ne vous étiez pas ramenés[speed][0xa]...[speed][0x0][page]
+[nick:アシュレイ]
+[speed][0xa]...[speed][0x0]Assassins ![page]
+Veuve noire
+Vous m'ennuyez...
+Je vais vous éliminer ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:アシュレイ]
+Je vais retourner voir Ryas.
+Ramenez cette tête au château et expliquez-leur la situation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[color][0x6][item][0x9d][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[color][0x6][item][0x9d][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[color][0x6][item][0x9f][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[color][0x6][item][0x9d][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[color][0x6][item][0x9f][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[color][0x6][item][0xa4][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[color][0x6][item][0xa2][0x13][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Activer l'interrupteur ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[end]</sn:pointer>
+
+<sn:pointer id="18">Activer l'interrupteur ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[end]</sn:pointer>
+
+<sn:pointer id="20">Impossible de transporter plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[end]</sn:pointer>
+
+<sn:pointer id="22">Rien n'est écrit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Grotte d'Astral.
+TRES TRES DANGEREUX !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">PV et PM restaurés.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[pos][0x3e][0x0]Grotte d'Astral[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x40][0x0]Port d'Ecdart[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Marin
+C'est pas pour chicaner, mais c'est caoutchouteux. Et pourtant, j'mange des limaces de mer et des algues! Les ormeaux sont meilleurs cuits, cela dit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Marin
+Vous allez à [color][0x4]Tropp[color][0x2]? Si c'est le cas, il faut payer d'avance. C'est 80 Fol chacun.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Marin
+T'as pas assez ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[end]</sn:pointer>
+
+<sn:pointer id="5">[end]</sn:pointer>
+
+<sn:pointer id="6">Où vous allez ? Si vous embarquez, faut payer d'avance. C'est [color][0x5] 200[color][0x2] Fol par personne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">1. Portmith (Royaume de Moore)
+2. Tropp (Royaume d'Astral)
+3. Ecdart (Royaume de Van)
+4. Sylvalant[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[end]</sn:pointer>
+
+<sn:pointer id="9">Marin
+T'as pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[end]</sn:pointer>
+
+</sn:script>

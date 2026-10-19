@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ドーン]
+Comme elle s'inquiétait pour son
+père, elle a dû se rendre à
+[color][0x4]Laponia[color][0x2].[page]
+Vite, dépêchons nous ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x40][0x0]Zone de crash du vaisseau[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x40][0x0]Zone de crash du vaisseau[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]
+Maintenant que j'y pense, avec ces fringues...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]
+C'est sûr que ça passe pas inaperçu ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">1. Je vais lui en chercher
+2. C'est pas mes affaires[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]
+Peux-tu attendre ici quelques instants ? Je vais t'en chercher d'autres.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:イリア]
+Ça doit être pareil pour le capitaine en ce moment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:イリア]
+Merci d'aller chercher de quoi me changer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ラティ]
+Arf... Tout le monde va me prendre pour un pervers.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:イリア]
+Quoi qu'il en soit, pourrais-tu aller en ville et me rapporter de quoi me changer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:イリア]
+Où penses-tu aller ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ラティ]
+Je dois aller chercher des habits.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]
+Qu'est-ce qui ne va pas, [nick:ドーン] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ドーン]
+[speed][0xf]Non,[speed][0x0] c'est rien[speed][0xf]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:イリア]
+Tu as trouvé des vêtements ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ラティ]
+Ouch...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ラティ]
+[nick:イリア], ça va ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:イリア]
+Oh[speed][0xa]...[speed][0x0] Oui[speed][0x14].[speed][0x0] Ça va.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]
+Où sont passés les autres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ラティ]
+Il fait nuit noire, je n'y vois goutte. Ils ne doivent pas être bien loin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:イリア]
+Oui.[page]
+[nick:イリア]
+Nous n'avons pas tous sauté en même temps, de ce dont je m'en souvienne, il est probable qu'une grande distance nous sépare.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ラティ]
+[nick:イリア] ! Je t'ai rapporté de quoi te changer ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ラティ]
+Te voilà.[page]
+[nick:イリア]
+Merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Ferme les yeux ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+Ils sont un peu vieux, mais je ne vais pas me plaindre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Oh mais... Ils me vont à merveille[speed][0xf]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]
+Ah mais, ils sont trempés ! Où les as-tu récupérés ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Nous  devons retrouver [nick:ロニキス] et [nick:ミリー], commençons par faire le tour du village.[page]
+[nick:ラティ]
+Nous devons aussi nous préparer pour notre voyage.[page]
+[nick:イリア]
+Tout à fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]
+Allez, c'est parti. La ville de [color][0x4]Thermonia[color][0x2] est au Nord, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]
+Allez, c'est parti. La ville de [color][0x4]Thermonia[color][0x2] est au Nord, c'est ça ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:イリア]
+Je vais voir si je peux en savoir plus sur [nick:ロニキス] et [nick:ミリー], essaie toi aussi de ton coté, si tu veux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">1. Pas de soucis !
+2. Bon d'accord...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]
+Parfait, on se retrouve ici plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]
+Vraiment ?[speed][0x14][speed][0xa] ...[speed][0x0]
+Alors, fais-le.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:シウス]
+Y'a que dalle ici. J'vais aller faire un tour dans le village.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:イリア]
+J'ai demandé si quelqu'un avait entendu parler de [nick:ロニキス] et [nick:ミリー]. Tu pourrais faire de même, si ça te dit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">1. Oui, tu as raison.
+2. Ouais, c'est ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:イリア]
+D'accord, on se retrouve ici tout à l'heure.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]
+Vraiment ?[speed][0x14][speed][0xa]...[speed][0x0]
+Alors, fais-le.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:シウス]
+Y'a que dalle ici. J'vais faire un tour au village, j'suppose.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:イリア]
+Faisons une pause ici.[page]
+[nick:シウス]
+Ça sert à rien de s'éterniser dans ce bled, tu sais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:イリア]
+Faisons une pause ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:イリア]
+Faisons une pause ici.[page]
+[nick:シウス]
+Ça sert à rien de s'éterniser dans ce bled, tu sais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:イリア]
+Faisons une pause ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:イリア]
+La pause a assez duré.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:イリア]
+La pause a assez duré.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Jeune homme
+Ahh !! Vous m'avez fait peur ! Pile quand il y a eu ce drôle de bruit, c'était comme ça dans tout le secteur.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">Fille
+Mais qu'est-ce que c'est que ce machin ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">Dalan
+J'ai fait tout le chemin depuis [color][0x4]Tropp[color][0x2] pour le voir.
+J'étais persuadé que c'était une comète qui s'était écrasée. Mais qu'est-ce que ça peut bien être ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">Lot
+C'est vraiment tombé du ciel ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">Vieil homme
+J'ai un mauvais pressentiment. Je suppose que les monstres sont derrière tout ça[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">Vieille femme
+Il se passe vraiment de drôles de choses dans ce monde[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ミリー]
+[nick:ロニキス] ![page]
+[nick:ロニキス]
+Eh bien, nous ne devions jamais nous revoir, mais...[page]
+[nick:イリア]
+Nous aimerions que vous nous veniez en aide.[page]
+[nick:ラティ]
+Avec quoi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:ロニキス]
+[speed][0xa].....[speed][0x0] Voilà la situation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ラティ]
+Allons-y ! [speed][0xa]...[speed][0x0] Mais juste nous, ça ne risque pas d'être un peu[speed][0xa]...[speed][0x0] ?[page]
+[nick:イリア]
+Ne t'inquiète pas pour ça.[page]
+[nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:イリア]
+Qu'est-ce que c'est[speed][0xa]...[speed][0x0] ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ラティ]
+Il est plus récent que celui que je connais, mais aucun doute là dessus, c'est le vaisseau ![page]
+[nick:イリア]
+Un vaisseau[speed][0xa]...[speed][0x0][page]
+[nick:ラティ]
+[nick:イリア], qu'est-ce qui ne va pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:イリア]
+Non, c'est rien. C'est le vaisseau de ce groupe mystérieux, non ? Ils ont peut-être déjà inoculé le virus dans les Roakiens. Dépêchons-nous.[page]
+[nick:ラティ]
+Tu as raison.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:イリア]
+Ne penses-tu pas que nous devrions nous hâter d'aller au monde démoniaque au lieu de nous reposer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:イリア]
+Est-il vraiment possible de retrouver les autres uniquement en parcourant les différentes villes [speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:イリア]
+Pourrions-nous faire une pause ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:ロニキス]
+N'oublie pas notre but principal. Nous devons nous rendre au plus vite dans le monde démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:ロニキス]
+Qu'est-ce que tu vas faire [nick:ラティ] ? Je pense que je vais juste aller faire un tour.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:ミリー]
+Allons vite au monde démoniaque, nous pourrons enfin sauver [nick:ドーン].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:ミリー]
+On ne pourrait pas se reposer un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:シウス]
+On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:シウス]
+j'pars devant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:アシュレイ]
+Je ne pense pas que ce soit le moment de se reposer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:フィア]
+On ne va pas dans le monde
+démoniaque ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[nick:フィア]
+[speed][0xa]...[speed][0x0] C'est bon pour souffler un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[nick:ヨシュア]
+Faisons une pause, nous nous remettrons en route plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:マーヴェル]
+On ne va pas s'arrêter longtemps ici, hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:イリア]
+Dans ce cas, allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[nick:イリア]
+Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:イリア]
+Bien, allons-y.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:ロニキス]
+Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:ロニキス]
+Faisons une pause, à présent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:ミリー]
+Le temple était à l'ouest de [color][0x4]Tatroï[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:シウス]
+Viens, on s'casse au monde
+démoniaque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:シウス]
+On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?  Allez, on bouge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:シウス]
+J'préfère mille fois poutrer du streum que rester là à glander.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:アシュレイ]
+On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:フィア]
+Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:フィア]
+En route.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:ヨシュア]
+On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:ヨシュア]
+On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ヨシュア]
+Parfois, c'est bien aussi.[page]
+[end]</sn:pointer>
+
+</sn:script>

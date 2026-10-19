@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x37][0x0]Manoir de Ryas[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x58][0x0]Couloir[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x58][0x0]Chambre[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x58][0x0]Chambre d'amis[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[pos][0x58][0x0]Étude[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Tenancier
+Vous avez entendu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Tenancier
+Il parait que Ryas, le capitaine de la cavalerie, a été assassiné. On raconte que c'est sa fille, [nick:フィア], qui l'a fait ! Je ne sais pas quoi penser de tout ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Tu vas dormir ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:アシュレイ]
+Regarde les rues et les maisons d'[color][0x4]Astral[color][0x2]. Ce qui est différent des autres royaumes, c'est qu'on peut entrer au château à tout moment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:フィア]
+D'une certaine manière, nous avons pu sauver la vie de mon beau-père. Merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Ryas
+Faites comme chez vous.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Ryas
+Mais que... ?
+Quelle impolitesse de nous interrompre ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[mode8][0x20]1. Technique niveau 3  5000
+2. Combat niveau 1   1000
+3. Combat niveau 2   2000
+4. Combat niveau 3  20000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[mode8][0x0][end]</sn:pointer>
+
+<sn:pointer id="21">[mode8][0x0]Maître de la guilde
+
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[mode8][0x0]Maître de la guilde
+
+Vous n'avez pas assez d'argent.
+[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[mode8][0x0]Maître de la guilde
+
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Conseiller
+Avez-vous gagné des niveaux dans votre savoir de Style ?[page]
+Conseiller
+En améliorant votre Style, la consommation de PM des attaques létales diminue.[page]
+Conseiller
+Et il y a encore un secret à son sujet... Mais je ne vous dirai pas quoi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">1. Technique niveau 3
+2. Combat niveau 1
+3. Combat niveau 2
+4. Combat niveau 3[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Mentor
+Technique niveau 3 comprend :
+Technoscience, interprétation et invocation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Mentor
+Combat niveau 1 comprend :
+Onde de choc, impact aérien et volte face.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Mentor
+Combat niveau 2 comprend :
+Riposte, feinte et concentrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Mentor
+Combat niveau 3 comprend :
+Combo et prolixe.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[end]</sn:pointer>
+
+<sn:pointer id="32">Maman
+Il n'y en a plus pour longtemps, fais preuve d'un peu de patience.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">Petit garçon
+J'ai faim ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">Petite fille
+T'es bien un garçon. T'as qu'à attendre. Maman, j'ai faim ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Loid l'étudiant
+Que savez-vous à propos des pluméens ? Ils ressemblent à des anges et ont des ailes comme les oiseaux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Mage héraldique
+Je suis en train de faire des recherches sur le phénomène des transformations humano-bestiales. La race dont traite mon étude est les lycanthropes et ne recense que peu d'individus. Pour des raisons indéterminées, ils peuvent passer de forme humaine à animale. Mais pourquoi donc ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Aubergiste
+Avez-vous passé une bonne nuit ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Aubergiste
+C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[end]</sn:pointer>
+
+<sn:pointer id="41">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]
+Pas besoin d'aller à l'auberge, nous avons tout ce qu'il faut chez Ryas.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[end]</sn:pointer>
+
+<sn:pointer id="44">[end]</sn:pointer>
+
+<sn:pointer id="45">Soldat assassin
+Ne restez pas derrière moi. Même moi, je suis incapable de stopper la fureur de mon bras.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">Chevalier
+S'il fallait citer trois des plus valeureux combattants de la guerre contre le monde démoniaque, Ryas est le premier qui me vient à l'esprit ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">Barman
+Vous avez entendu ? Il parrait que [nick:フィア] a poignardé Ryas, son beau-père, celui qui l'a élevée. Mais où va le monde...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Avec ces monstres qui prennent forme humaine, on n'est même plus en sécurité quand on vient en ville.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">Barman
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:フィア]
+Warren ! Tu as des invités ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">???
+Je t'ai déjà demandé mille fois de ne pas m'appeler comme ça à la maison[speed][0xa]...[speed][0x0] Si tu me cherches, je serai en bas.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:フィア]
+Beau-papa, voici les invités.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">Ryas
+[speed][0x1][nick:アシュレイ] ?[speed][0x1e][speed][0x0][speed][0x1][nick:アシュレイ] ?![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">Ryas
+Ça fait un bail, hein.[page]
+[nick:アシュレイ]
+Ouais, c'est bon de te revoir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:アシュレイ]
+Où est le gamin ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:アシュレイ]
+[nick:シウス] est au château ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">Ryas
+Hmmm[speed][0xa],[speed][0x0] il faudra qu'on reparle de ça plus tard[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">Ryas
+Et sinon, qui sont ces gens ?[page]
+[nick:アシュレイ]
+Nous les avons rencontrés en route.[page]
+Ryas
+Je vois. Si ce sont des amis de [nick:アシュレイ], alors ce sont des invités de marque.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">Ryas
+Merci de votre visite. C'est assez rustique, mais faites comme chez vous tant que vous êtes ici à [color][0x4]Astral[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:ラティ]
+Assez rustique [speed][0x14]?[speed][0x0] Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:イリア]
+La Terre est un bel endroit pour finir ses vieux jours. Mais si j'ai envie d'y prendre ma retraite, j'ai intérêt à monter en grade..[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:イリア]
+Bon[speed][0x14],[speed][0x0] ben quitte à être ici, autant se faire plaisir.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:ラティ]
+Ouais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:イリア]
+Bon[speed][0x14],[speed][0x0] qu'est-ce qu'on fait maintenant ? Il faut retrouver le capitaine et [nick:ミリー], alors[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">1. Faire un tour en ville
+2. Se reposer[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:イリア]
+D'accord, on reviendra un peu plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:アシュレイ]
+Tu t'es mis à fumer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">Ryas
+Hein ? Euh, oui[speed][0xa]...[speed][0x0] Depuis que mon fils est parti[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:アシュレイ]
+[nick:シウス][speed][0xa]...[speed][0x0][speed][0x14][speed][0x0] Mais qu'est-ce qu'il s'est passé ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">Ryas
+Quand mon fils est entré dans la cavalerie, ils ont créé un poste d'assistant-capitaine dans la 1ère division.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">Ryas
+Nous n'avons pas réussi à trouver quelqu'un d'assez compétent pour le poste, j'ai alors recommandé [nick:シウス], mais comme on s'y attendait, beaucoup s'y sont opposés. C'est en effet en grande partie ma faute s'il s'est retrouvé dans une situation délicate[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">Ryas
+Je n'ai pas recommandé [nick:シウス], car je suis son père.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:アシュレイ]
+Je sais bien tout ça. Et je connais les compétences de [nick:シウス].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:アシュレイ]
+Mais il n'en était probablement pas conscient à ce moment-là.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">Ryas
+Je pensais qu'il avançait vite, mais[speed][0xa]...[speed][0x0][page]
+[nick:アシュレイ]
+Une fois que le doute s'installe, on ne commence pas à douter de tout [speed][0x14]?[speed][0x0] Même de la cavalerie[speed][0xf],[speed][0x0] même de son père[speed][0x1e],[speed][0x0] et même de soi[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">Ryas
+Oui[speed][0xa]...[speed][0x0] Ça s'est même aggravé quand [nick:フィア] a été fortement blessée. Parler de [nick:シウス] devant elle est devenu tabou.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">Ryas
+C'est que[speed][0xa]...[speed][0x0] Euh[speed][0x14], [speed][0x0]ses sentiments sont paradoxaux, car elle aimait [nick:シウス][speed][0xa]...[speed][0x0]B[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:アシュレイ]
+C'est compliqué les filles, à cet âgé-là. Quand la situation devient trop compliquée, attendre que le temps fasse sont affaire est la seule chose à faire, tu ne penses pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">Ryas
+Même si[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:イリア]
+Devrions-nous partir ?[page]
+[nick:アシュレイ]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:フィア]
+[nick:アシュレイ], tu pars vraiment ?[page]
+[nick:アシュレイ]
+Quand Ryas aura repris conscience, transmettez-lui mes amitiés.[page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0] D'accord.[page]
+[nick:アシュレイ]
+Et[speed][0xa]...[speed][0x0][page]
+[nick:フィア]
+Oui ?[page]
+[nick:アシュレイ]
+Ce n'est pas la peine de s'inquiéter pour [nick:シウス]. C'est certain qu'il va revenir à la maison, un jour.[page]
+[nick:フィア]
+C'est pas ça du tout ! [speed][0xa]...[speed][0x0] Il est revenu et nous a tous trahis[speed][0xa]... !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:アシュレイ]
+C'est peut-être le cas, mais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">1. [nick:シウス] aurait fait ça...
+2. Ne rien dire[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:ラティ]
+[nick:シウス] aurait fait ça[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:フィア]
+Vous le connaissez ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:ラティ]
+Si je ne me trompe pas de personne...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:フィア]
+Je vois[speed][0xa]...[speed][0x0] Alors, il est toujours en vie [speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:フィア]
+Si vous le revoyez, faites-lui une commission de ma part. Dites-lui que c'est [speed][0x14][speed][0x0][speed][0x5]un sacré connard[speed][0x0].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:ラティ]
+D[speed][0x5]-[speed][0x0]D'accord.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:ラティ]
+(Il me tuera si je lui dis ça[speed][0xa]...[speed][0x0])[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:フィア]
+Bon, et maintenant ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ラティ]
+Nous cherchons nos amis depuis que nous avons été séparés.[page]
+[nick:フィア]
+Vous avez une idée de là où ils sont ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[nick:ラティ]
+Aucune[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:フィア]
+Alors, pourquoi ne pas commencer par le [color][0x4]temple de Parj[color][0x2] ?[page]
+[nick:ラティ]
+Le temple[speed][0xa]...[speed][0x0] de Parj ?[page]
+[nick:フィア]
+C'est une ruine des Anciens, on raconte que l'[color][0x6]œil de vérité[color][0x2] y est caché.[page]
+[nick:アシュレイ]
+L'[color][0x6]œil de vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
+[nick:フィア]
+Oui, c'est ce qu'on dit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">[nick:イリア]
+Où allons-nous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="97">1. Direction le temple de Parj
+2. Fouillons encore la ville[page]
+[end]</sn:pointer>
+
+<sn:pointer id="98">[end]</sn:pointer>
+
+<sn:pointer id="99">Tenancier
+Je mets ça au nom d'[nick:イリア], c'est bon ?[page]
+[nick:イリア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="100">[nick:イリア]
+[nick:ラティ], que faire à présent ? Je pense que ce n'est pas une mauvaise idée d'inspecter [color][0x4]Astral[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="101">1. Se reposer
+2. Faire un tour en ville[page]
+[end]</sn:pointer>
+
+<sn:pointer id="102">[end]</sn:pointer>
+
+<sn:pointer id="103">[end]</sn:pointer>
+
+<sn:pointer id="104">[nick:イリア]
+D'accord, on reviendra plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="105">Tenancier
+[nick:シウス], le fils de Warren ? [speed][0xf]...[speed][0x0] C'est vrai que vous lui ressemblez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="106">[nick:イリア]
+Devrions-nous partir ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="107">[nick:シウス]
+Ouais.[page]
+[nick:イリア]
+Tu en es certain, [nick:シウス] ?[page]
+[nick:シウス]
+Hein ?[page]
+[nick:イリア]
+Pour elle.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="108">[nick:シウス]
+[speed][0xf]...[speed][0x0] C'est pas un problème pour moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="109">[nick:シウス]
+Quoi ?[page]
+Soldat
+[nick:フィア] m'a chargé de vous remettre ceci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="110">[nick:シウス]
+Qu'est-ce que c'est ?[page]
+Soldat
+C'est votre récompense pour avoir vaincu le monstre la nuit dernière.[page]
+Vous recevez : [color][0x6][item][0x23][0x14][color][0x2]
+Vous recevez :  [color][0x6][item][0x45][0x14][color][0x2]
+Vous gagnez 30 PS.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="111">Soldat
+C'est un message pour [nick:ラティ] et [nick:イリア].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="112">[nick:イリア]
+Qu'est-ce que ça peut bien être ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="113">Soldat
+Si vous cherchez quelqu'un, elle vous conseille de vous rendre au [color][0x4]temple de Parj[color][0x2].[page]
+[nick:ラティ]
+Le temple[speed][0xa]...[speed][0x0] de Parj ?[page]
+Soldat
+C'est une ruine des Anciens, on raconte que l'[color][0x6]œil de vérité[color][0x2] y est caché.[page]
+[nick:シウス]
+L'[color][0x6]œil de vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
+Soldat
+Oui, c'est ce qu'on dit.[page]
+[nick:シウス]
+Ça m'est égal de faire le tour des villes pendant notre voyage vers [color][0x4]Sylvalant[color][0x2]. Ça ne me gène pas non plus de suivre les conseils de [nick:フィア]. Je vous laisse choisir, l'un comme l'autre je vous accompagne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="114">[nick:イリア]
+Où allons-nous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="115">1. Direction le temple de Parj
+2. Fouillons encore la ville[page]
+[end]</sn:pointer>
+
+<sn:pointer id="116">[end]</sn:pointer>
+
+<sn:pointer id="117">Tenancier
+Je mets ça au nom d'[nick:イリア], c'est bon ?[page]
+[nick:イリア]
+Oui, merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="118">[nick:イリア]
+[nick:ラティ], que faire à présent ? Je pense que ce n'est pas une mauvaise idée d'inspecter [color][0x4]Astral[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="119">1. Se reposer
+2. Faire un tour en ville[page]
+[end]</sn:pointer>
+
+<sn:pointer id="120">[end]</sn:pointer>
+
+<sn:pointer id="121">[end]</sn:pointer>
+
+<sn:pointer id="122">[nick:イリア]
+D'accord, on reviendra plus tard.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="123">Ryas
+C'est sûrement ce qu'il cherchait. Qu'est-ce que ça peut bien valoir un machin pareil[speed][0xa]...[speed][0x0] ?[page]
+[nick:ラティ]
+On dirait une garde d'épée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="124">[nick:イリア]
+Montre-moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="125">[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Un sabre laser ![page]
+[nick:イリア]
+Il est vraiment puissant en plus. Je n'en ai jamais vu semblable, même à la Fédération.[page]
+[nick:ロニキス]
+Ça pourrait être un sacré atout contre Asmodeus ![page]
+[nick:イリア]
+Oui. C'est certain qu'ils en ont peur.[page]
+Vous recevez : [color][0x6][item][0x80][0x15][color][0x2] x 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="126">[nick:フィア]
+C'est sûrement ce qu'il cherchait. Qu'est-ce que ça peut bien valoir un machin pareil[speed][0xa]...[speed][0x0] ?[page]
+[nick:ラティ]
+On dirait une garde d'épée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="127">[nick:イリア]
+Montre-moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="128">[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Un sabre laser ![page]
+[nick:イリア]
+Il est vraiment puissant en plus. Je n'en ai jamais vu semblable, même à la Fédération.[page]
+[nick:ロニキス]
+Ça pourrait être un sacré atout contre Asmodeus ![page]
+[nick:イリア]
+Oui. C'est certain qu'ils en ont peur.[page]
+Vous recevez : [color][0x6][item][0x80][0x15][color][0x2] x 2[page]
+[end]</sn:pointer>
+
+</sn:script>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[speed][0x2][nick:ラティ]
+Le sol, il bouge[speed][0xf]...[speed][0x2]![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ミリー]
+Et juste avant, les portes se sont ouvertes toutes seules...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ラティ]
+Whaaa.... J'ai jamais vu un truc pareil ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[speed][0x2][nick:ロニキス]
+Maintenant que j'y pense, je ne vous ai toujours pas demandé vos noms.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]
+Je suis [name:ラティクス] Farrence.
+[nick:ミリー]
+Et moi [nick:ミリー] Kiliet.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ドーン]
+[speed][0x14]...[speed][0x2][nick:ドーン][speed][0x1e] [speed][0x2]Marto[speed][0x14]...[speed][0x2][page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:イリア]
+Capitaine, son état s'aggrave.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]
+Il faut faire vite[speed][0x0] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ロニキス]
+Pas le temps de trainer. Il faut faire vite avant que l'équipe de maintenance ne se rende compte de quoi que ce soit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[pos][0x20][0x0]Salle des officiers - Calnus[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[pos][0x20][0x0]Salle des officiers - Calnus[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:イリア]
+C'est le salon de l'équipage. Ici, nous pouvons nous immerger dans une multitude de réalités virtuelles, mais la plupart d'entre nous s'en servent pour retourner dans leur terre natale.[page]
+[nick:イリア]
+[nick:ラティ], ça vous tenterait d'essayer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:イリア]
+Faites-moi le savoir quand vous en aurez assez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Équipe de maintenance
+Capitaine, je n'ai reçu aucun ordre de départ.[page]
+[nick:ロニキス]
+Moi si. Pas d'inquiétude. Laissez-nous passer.[page]
+Équipe de maintenance
+Oui, Capitaine ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Membre de l'équipage
+Aucun obstacle détecté sur la trajectoire du vaisseau.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Membre de l'équipage
+Arrêtez de me déconcentrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Membre de l'équipage
+Mais qu'est-ce que c'est que ce truc ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Membre de l'équipage
+Tout est OK, j'ai dit. Oh, vous êtes les gens de Roak ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Femme
+Sécurité ! À la salle du transporteur immédiatement ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Femme
+De ce que j'en vois, vous n'êtes pas si différents de nous.[page]
+[nick:ラティ]
+Ce n'est pas trop difficile de se déplacer sans queue ?[page]
+Femme
+Je n'y avais jamais pensé jusqu'à maintenant...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Femme
+Nous collectons des informations sur les formes de vie non identifiées dans notre base de données.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Femme
+Comme c'est mignon ♥[speed][0x14] [speed][0x0]C'est une vraie queue ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">[nick:ロニキス]
+Avez-vous déjà fait le tour de tout le vaisseau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:イリア]
+En avez-vous assez ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[end]</sn:pointer>
+
+<sn:pointer id="25">[end]</sn:pointer>
+
+<sn:pointer id="26">Homme
+Il s'est passé quelque chose ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">Homme
+Je suis en train d'étudier en ce moment l'astrophysique.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[pos][0x32][0x0]Ascenseur[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[pos][0x32][0x0]Ascenseur[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:イリア]
+C'est le sas d'entrée du Calnus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]
+[nick:イリア], emmène [nick:ラティ] et ses camarades au centre médical. Je suis déjà en route.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]
+Reçu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ラティ]
+Mais d'où sortait cette voix ?[page]
+[nick:イリア]
+Nous nous servons d'une chose appelée communicateur pour parler à tout moment à des personnes éloignées.[page]
+[nick:イリア]
+Pour l'instant, il semblerait que le docteur souhaite s'entretenir avec nous.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ミリー]
+Est-il guéri ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]
+Aucune idée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ロニキス]
+Vite [nick:ラティ], au pont transporteur ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Voulez-vous souffler un peu ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[end]</sn:pointer>
+
+<sn:pointer id="39">[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ロニキス]
+On n'a pas le temps. Il faut y aller avant que l'équipe de maintenance ne se rende compte de ce que nous allons faire.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:ミリー]
+C'est le sas d'entrée. Mais il semblerait que nous ne puissions sortir maintenant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:イリア]
+Ces deux cercles au sol sont des ascenseurs.[page]
+[nick:ラティ]
+Des ascenseurs ?[page]
+[nick:イリア]
+Ils servent à passer d'un étage à un autre. Celui de gauche permet de gagner le pont et vous avez accès à un certain nombre d'étages avec celui de droite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:ロニキス]
+Ah, vous êtes là. [nick:イリア] va vous expliquer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:イリア]
+Nous avons comparé le nombre d'habitants de Roak avec celui des statues humanoïdes, il y avait 20 millions de statues de moins. Comment ont-ils pu les prendre sans que nous ne nous apercevions de rien ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:ラティ]
+Alors, il faut[speed][0xf]...[speed][0x0][page]
+[nick:イリア]
+Nous ne savons pas encore si ça concerne une arme.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:ロニキス]
+Mais j'ai bien du mal à penser que ce soit dans un but pacifique.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">[nick:ロニキス]
+[speed][0x0]À ce sujet, il a été décidé que nous allons faire route pour la Terre. En tant que diplomates, nous voulions que Resonia nous héberge. Ça m'a l'air d'une requête raisonnable, et comme je veux que vous me fassiez votre rapport, vous allez nous accompagner.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Docteur
+Capitaine, les conditions de  [nick:ドーン], elles...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ロニキス]
+J'arrive.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:ミリー]
+Je viens aussi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[pos][0x2c][0x0]Pont du Calnus[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:ロニキス]
+Nous faisons route à présent vers une planète appelée la Terre. Vos chambres sont prêtes, n'hésitez pas à vous y reposer.[page]
+[nick:ラティ]
+Très bien. Merci.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">Chef de bord
+Nous faisons route vers le secteur Alpha, Marque 269, Point 001, vitesse de distorsion 6.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ラティ]
+[nick:ミリー], regarde.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ミリー]
+C'est tellement beau[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[nick:ミリー]
+On dirait un [speed][0xa]océan d'étoiles[speed][0x7], tu ne trouves pas[speed][0xa]... ?[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:ロニキス]
+Nous allons entrer en orbite et rejoindre les quartiers généraux de la fédération terrienne.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:ラティ]
+Quelque chose approche ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:ミリー]
+Qu'est-ce que c'est que ÇA ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:イリア]
+Où ? De quoi tu parles ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ロニキス]
+Mais que... ? C'est sorti de nulle part ?! Une distorsion spatiale ?![page]
+Officier scientifique
+Il semblerait que non. Nous n'avons détecté aucune onde gravitationnelle avant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ラティ]
+[speed][0xa]...[speed][0x0] Je vous avais pourtant dit que quelque chose approchait[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:イリア]
+Maintenant que tu le dis, seuls vous deux aviez pu le voir ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:イリア]
+[speed][0x1]De la matière invisible !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:ロニキス]
+Ce vaisseau... ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">Officier radio
+Capitaine, nous recevons un signal du vaisseau non identifié ![page]
+[nick:ロニキス]
+Mettez les haut-parleurs.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">Nous venons en tant qu'ambassadeurs de Resonia. Nos intentions ne sont pas hostiles. Je répète...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:イリア]
+Tout est en place, capitaine. Nous sommes parés au décollage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:ロニキス]
+Bien.
+Verrouille le sas d'entrée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:ラティ]
+Vous allez piloter le vaisseau juste à vous deux ?[page]
+[nick:ロニキス]
+Oui, grâce à l'ordinateur.[page]
+[nick:ラティ]
+Un ordinateur ?[page]
+[nick:ロニキス]
+C'est ça. Ce n'est pas évident à expliquer, mais c'est une machine qui nous aide dans bien des domaines.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:ロニキス]
+Attention au décollage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">[nick:イリア]
+La planète Stream[speed][0xa]...[speed][0x0] Nous risquons la cour martiale ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:ロニキス]
+Si nous ne réussissons pas, nous finirons nos jours au bagne. Mais impossible de faire marche arrière maintenant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">[nick:イリア]
+Jamais je n'aurais dû signer pour être sous vos ordres, capitaine[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:ミリー]
+[speed][0xa]...[speed][0x0] Je suis désolée[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">[nick:イリア]
+Tu n'as pas à l'être[speed][0xa]...[speed][0x0] Ne t'inquiète pas, je dis ça mais je n'hésite pas une seconde à me rendre sur la planète Stream.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">[nick:イリア]
+À vos ordres Capitaine[speed][0xa].[speed][0x0] Allons-y.[page]
+[nick:ロニキス]
+C'est parti[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:ラティ]
+À propos, c'est QUOI au juste la planète Stream ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:イリア]
+À vrai dire, on ne le sait pas non plus vraiment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[nick:ロニキス]
+Nous l'avons découverte par hasard lors d'une exploration spatiale lointaine.[page]
+[nick:イリア]
+Il parait qu'elle abritait une civilisation très avancée et cela bien avant qu'on commence l'exploration spatiale.[page]
+[nick:イリア]
+Mais nous ne savons strictement rien d'elle.[page]
+[nick:ラティ]
+Qu'est-ce qu'il y a là-bas ?[page]
+[nick:ロニキス]
+Une porte du temps. Nous nous en servirons pour aller dans le passé de Roak.[page]
+[nick:イリア]
+Elle est interdite d'accès et son véritablement fonctionnement est inconnu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:イリア]
+Nous n'allons pas tarder à entrer dans l'orbite de la planète Stream.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:ロニキス]
+Bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[mode8][0x20][nick:イリア]
+(La porte vivante[speed][0xa]...[speed][0x0] J'espère que le gardien de la porte nous laissera passer[speed][0xa]...[speed][0x0])[page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[pos][0x2c][0x0]Pont du Calnus[page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:イリア]
+Oui ?[page]
+[nick:ロニキス]
+Il semblerait que nous ayons à nouveau besoin de leur aide.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:シウス]
+Hey ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:アシュレイ]
+Ça fait un bail. J'espère que tu as continué à t'entrainer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:ヨシュア]
+[nick:ラティ] et [nick:ミリー],
+quel plaisir de vous revoir ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:マーヴェル]
+Ravi de vous revoir. Comment allez-vous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="90">[nick:フィア]
+...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="91">[nick:ペリシー]
+...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="92">[nick:ティニーク]
+...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="93">[nick:ラティ]
+Vous êtes tous là ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="94">[nick:ミリー]
+Tout se passe vraiment bien ?[page]
+[nick:イリア]
+Cette fois j'ai l'approbation
+de l'amiral de la fédération.
+Nous sommes dans une situation
+d'extrême urgence.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="95">[nick:シウス]
+Maintenant c'est à notre tour de les aider. Allons leur montrer qui commande ici ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="96">[end]</sn:pointer>
+
+<sn:pointer id="97">[nick:ロニキス]
+Très bien, dans ce cas, en route pour Farget ![page]
+[end]</sn:pointer>
+
+</sn:script>

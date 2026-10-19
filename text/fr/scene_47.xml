@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:フィア]
+Ça ne me dérange pas d'aller dans les grottes, mais hors de question que j'aille à [color][0x4]Astral[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:イリア]
+Attends. Tu sais ce qu'il va se passer si on va à Astral maintenant ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">Garde
+Écoutez mon conseil, arrêtez-vous avant qu'il ne soit trop tard. Il n'y a que des aventuriers ou des types bourrés pour oser entrer là-dedans.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Garde
+Mieux vaut partir tant que vous le pouvez encore.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:フィア]
+Ouch ! T'abandonnes, pas, toi, hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:シウス]
+Ils ont fermé les voies maritimes. [color][0x4]Astral[color][0x2] est entouré de falaises. Si on veut foutre le camp, c'est le seul moyen.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]
+[nick:シウス].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ラティ]
+C'est elle[speed][0xa]...[speed][0x1] La fille de ce matin ![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:フィア]
+Je t'en prie[str][0x1d][speed][0x14],[speed][0x0] [nick:シウス][speed][0xa]...[speed][0x0] Laisse-moi partir !! Je t'en supplie ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:フィア]
+Je[speed][0x8]...[speed][0x0] Je pensais qu'on était amis ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:シウス]
+Mais que[speed][0x19]...[speed][0x1], Mais t'es qui, bordel ?![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:シウス]
+Si tu prétends être elle, essaie au moins de parler comme elle [speed][0x1]!!!!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:シウス]
+La [nick:フィア] que je connais parle comme un type ! Si tu essaies de te faire passer pour elle[speed][0xa]...[speed][0x1] Je vais te buter !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:フィア]
+Arf[speed][0xa]...[speed][0x0] Il semblerait que je manque vraiment de chance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:シウス]
+Alors, tu montres ta vraie forme ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">???
+Tu n'es pas le seul à parler comme un charretier.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:シウス]
+[nick:フィア][speed][0xa]...[speed][0x0][page]
+[nick:フィア]
+Pourquoi ne pas rester transformé un peu plus longtemps ? Ça me permettrait de pas voir ta sale face.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:フィア]
+Tu vas regretter d'avoir blessé Warren [speed][0x1]!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Fausse [nick:フィア]
+Argh ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]
+Ne la laissez pas s'enfuir ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:イリア]
+Je ne sais pas ce qu'il vous arrive tous les deux, mais ça ne serait pas une bonne occasion pour vous réconcilier ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:シウス]
+[speed][0x1] Quoi !![speed][0xa]☆[speed][0x0][page]
+[nick:イリア]
+Tu ne crois pas que ça puisse être de ta faute si elle s'exprime de la sorte ? Vous êtes des amis d'enfance après tout.[page]
+[nick:シウス]
+[speed][0x14]...[speed][0x1]... !!!☆ C[speed][0x14]-[speed][0x0]c'est pas le moment de parler de ça ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Garde A
+Félicitations, [nick:フィア]. Que faites-vous dans un endroit par...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Garde B
+Hé ! Mais...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+On est en sécurité maintenant[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:フィア]
+[speed][0xa]...[speed][0x0] Qu'est-ce que tu comptes faire ?[page]
+[nick:ラティ]
+[speed][0xa]......[speed][0x0][page]
+[nick:フィア]
+Aider quelqu'un que tu connais même pas à s'échapper[speed][0xa]...[speed][0x0] Je suis tellement heureuse que je n'arrive pas à sécher mes larmes[speed][0x5]...[speed][0x0] Et si je vous avais dit que je mentais ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Vous êtes une femme pleine de charme.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:フィア]
+[speed][0xa]...[speed][0x0] On dirait bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Bien sûr, si ça avait été moi, je n'aurais pas prétendu être si dangereuse.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:フィア]
+Bonne idée.[page]
+[nick:イリア]
+Allons-y, [nick:ラティ]. Nous devons vite retrouver les autres[speed][0xa]...B[speed][0x0] Si on continue à lambiner de la sorte, Dieu sait quand nous atteindrons la prochaine ville.[page]
+[nick:ラティ]
+Tu as raison.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:フィア]
+Vous cherchez quelqu'un ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:イリア]
+[speed][0xa]...[speed][0x0] Oui, pourquoi ?[page]
+[nick:フィア]
+Et si vous me preniez avec vous ? J'ai fait mes preuves dans la recherche de personnes disparues.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]
+Merci, mais sans façon[speed][0x14][speed][0x0][speed][0xa]...[speed][0x0] Pour parler franchement, nous ne voulons pas être mouillés dans vos affaires. Vous devriez comprendre par vous même pourquoi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">1. La laisser parler
+2. Ne rien dire[page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ラティ]
+Peut-on au moins entendre ce qu'elle a à dire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]
+[speed][0xa]...[speed][0x0] D'accord, si ça te chante.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:フィア]
+Avez-vous déjà entendu parler du joyau appelé [color][0x6]œil de vérité[color][0x2] ? C'est un artefact créé par les anciens. On raconte qu'il peut montrer à celui qui le possède tout ce qu'il désire[speed][0xa]...[speed][0x0] De ce que j'en sais, il serait au [color][0x4]temple de Parj[color][0x2].[page]
+[nick:ラティ]
+Et il pourrait nous montrer où [nick:ミリー] et les autres se trouvent ?[page]
+[nick:フィア]
+Oui[speed][0x14][speed][0xa]...[speed][0x0] Il y a des chances.[page]
+[nick:イリア]
+Vous n'en êtes pas sûre ?[page]
+[nick:フィア]
+Non.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:イリア]
+Que faire ? Au point où nous en sommes, aller à [color][0x4]Sylvalant[color][0x2] ou au [color][0x4]temple de Parj[color][0x2] c'est du pareil au même[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">1. Aller au temple de Parj
+2. Rejoindre la ville la plus proche[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:フィア]
+Laissez-moi vous accompagner au temple de Parj à la recherche de l'[color][0x6]œil de vérité[color][0x2]. Je vous laisserai tranquille après ça. Et nous ne nous reverrons très certainement plus jamais[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+[speed][0xa].....[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:フィア]
+Bon ben je vais rester ici et ne pas vous déranger plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+</sn:script>

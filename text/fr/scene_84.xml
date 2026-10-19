@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ペリシー]
+On n'a pas fouillé partout!
+Il faut chercher encore![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ペリシー]
+Hein ? Mon ami dort dans le coin, mais maintenant, il est[speed][0xa]...[speed][0x0][page]
+[nick:ラティ]
+A[speed][0xa]-[speed][0x0]ami ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ペリシー]
+Ouais.[end]</sn:pointer>
+
+<sn:pointer id="3">C'est un mini-mignon lapinounet d'amourichou !
+Il est énorme, aussi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ラティ]
+[speed][0xa]...[speed][0x0]M[speed][0xa]-[speed][0x0]mini-mignon ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]
+[speed][0xa]...[speed][0x0][speed][0xa][speed][0x0]Énorme ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ラティ]
+Je suis presque sûr d'avoir déjà vu une statue qui ressemble à ça...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ペリシー]
+Bingo ! Il ressemble à une statue quand il dort !
+Où est-ce que tu l'as vu ? Il faut y aller ![page]
+[nick:ラティ]
+C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ラティ]
+J'sais pas...[page]
+[nick:ペリシー]
+Oh[speed][0xa]...[speed][0x0] Je sais ! Peut-être que quelqu'un l'a vendu dans une boutique ![page]
+[nick:ラティ]
+Hein ?[page]
+[nick:ペリシー]
+Il ressemble à une statue quand il dort ![page]
+[nick:ラティ]
+C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Succube
+Que voulez-vous VOUS ? J'ai décidé que tous les trésors seraient miens !
+Maintenant, soyez de bons petits gars et de gentilles petites filles et allez avertir le roi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Succube
+Oubliez ça, j'ai changé d'avis...
+Il est temps pour vous de mourir !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[color][0x6][item][0x76][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[color][0x6][item][0x1f][0x14][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[color][0x6][item][0x20][0x14][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Arcane chat obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Ce n'est pas utile pour le moment.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[color][0x6][item][0x1b][0x14][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[color][0x6][item][0x31][0x14][color][0x2] obtenu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]
+Ce ne serait pas une bonne idée de prendre ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Impossible d'en porter plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[end]</sn:pointer>
+
+<sn:pointer id="30">[pos][0x58][0x0]Salle du trésor[page]
+[end]</sn:pointer>
+
+</sn:script>

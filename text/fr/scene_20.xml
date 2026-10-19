@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x5c][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x56][0x0]Magasin général[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">Petite vieille
+Ho ! C'est rare d'avoir de la visite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">1. Demander des habits
+2. Ne rien demander[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ラティ]
+Je peux voir ce que vous avez comme habits de femme ?[page]
+Petite vieille
+Quelle drôle d'idée ! Enfin, si c'est ce que vous voulez...
+Ça doit être une nouvelle mode ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Petite vieille
+Voici ceux de ma fille. Elle est mariée, maintenant.
+Ils sont un peu usés, mais vous pouvez les prendre si vous voulez.[page]
+[nick:ラティ]
+Merci[page]
+Petite vieille
+Ho, de rien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[end]</sn:pointer>
+
+<sn:pointer id="8">Petite vieille
+Je me demande comment va ma fille...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">Propriétaire
+Ha ! De nouveaux visages !
+Soyez les bienvenus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">1. Demander des habits
+2. Faire des emplettes[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]
+Heu[speed][0xa]...[speed][0x0]Comment dire ?
+Vous avez des habits pour femme ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Propriétaire
+C'est pour faire un cadeau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ラティ]
+Non, non ! Ça ne va pas ! Je cherche quelque chose de plus classique.[page]
+Propriétaire
+Et ça ? C'est la grande mode chez les aventuriers.[page]
+[nick:ラティ]
+C'est parfait ![page]
+Propriétaire
+Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">1. Il a l'air étrange, mais tant pis
+2. Partir[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ラティ]
+Je vais prendre ça ![page]
+Propriétaire
+Hé hé ! Merci à vous ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[end]</sn:pointer>
+
+<sn:pointer id="17">[end]</sn:pointer>
+
+<sn:pointer id="18">Vieil homme
+Bienvenue ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Vieille femme
+Avez-vous bien dormi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Vieille femme
+Bonjour ! Une nuit coûte [color][0x5]30[color][0x2] Fol.
+Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[end]</sn:pointer>
+
+<sn:pointer id="22">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[end]</sn:pointer>
+
+<sn:pointer id="24">Aventurier
+Je n'ai vu personne qui ressemble à ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">Aventurier
+Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce qu'on s'y fait chier ! [page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">Petite Lily
+N'est-elle pas adorable ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">1. Ouais !
+2. Bof bof ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Petite Lily
+Hi hi♪ Je vois...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Petite Lily
+V[speed][0xa]-[speed][0x0]vraiment ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Petite Lily
+J'en ai ras le bol de trimer dans cette foutue boutique ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:フィア]
+Est-ce que [nick:ミリー] joue dehors avec le chat ?
+Elle adore les chats...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:ロニキス]
+[nick:イリア] joue aussi avec les chats ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:ヨシュア]
+J'aime bien ces villages où il n'y a pas trop de monde...[page]
+[end]</sn:pointer>
+
+</sn:script>

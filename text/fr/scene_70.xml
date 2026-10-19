@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x58][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x56][0x0]Quincaillerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">1. Technique niveau 1  600
+2. Technique niveau 2  1200
+3. Technique niveau 3  5000
+4. Combat niveau 2  2000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[end]</sn:pointer>
+
+<sn:pointer id="10">Maître de la guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Maître de la guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Maître de la guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Conseiller
+Le mystérieux paramètre END. C'est votre endurance. Après une longue bataille, elle vous permet de récupérer automatiquement vos PV et PM.[page]
+Conseiller
+Votre endurance diminue en combat selon vos actions. Si vous voulez récupérer beaucoup de PM et PV après une bataille, il ne faut rien faire en combat.[page]
+Conseiller
+Ne vous inquiétez pas. Vous pourrez toujours combattre même si vous vous retrouvez à court d'endurance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Mentor
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">1. Technique niveau 1
+2. Technique niveau 2
+3. Technique niveau 3
+4. Combat niveau 2[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Mentor
+Technique niveau 1 comprend :
+Marathon, couteau de cuisine, dessin et appel.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Mentor
+Technique niveau 2 comprend :
+Doigté, écriture et domptage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Mentor
+Technique niveau 3 comprend :
+Technoscience, interprétation et moulage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Mentor
+Combat niveau 2 comprend :
+Riposte, feinte et concentrer.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[end]</sn:pointer>
+
+<sn:pointer id="21">Aubergiste bien gaulée
+Avez-vous bien dormi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Aubergiste bien gaulée
+Bienvenue.
+C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[end]</sn:pointer>
+
+<sn:pointer id="24">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Capitaine, tu penses quoi de ce que nous a dit le roi de Van ?[page]
+[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Dieu, c'est ça[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Originellement, les moorians étaient les Adam et Eve de ce monde, tu ne crois pas ?[page]
+[nick:ロニキス]
+Probablement[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Allons voir quels étranges pouvoirs se trouvent sur cette planète au quotidien. Aussi bien, les dieux et bouddhas existent aussi. Du point de vue des Roakiens, ils tombent du ciel. Et c'est exactement ce qu'on a fait. Et nous ne sommes certainement pas des dieux, même en faisant preuve d'imagination, donc les Moorians ne le sont pas plus que nous.[page]
+[nick:ロニキス]
+Probablement pas. Mais, tu sais, ce monstre a aussi des monstres provenant du monde démoniaque. Ils doit donc y avoir des dieux.[page]
+[nick:イリア]
+De toute mon existence, je n'ai jamais rien vu de semblable.[page]
+[nick:ロニキス]
+Ahah[speed][0xa],[speed][0x0] moi non plus.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:イリア]
+Il y a longtemps, les gens expliquaient ce qu'il ne comprenaient pas au surnaturel. Si c'était un phénomène bénéfique, c'était associé aux dieux. Et si au contraire c'était néfaste, c'était associé aux démons.[page]
+[nick:ロニキス]
+C'est exact. La religion provient de ce type de concepts et les alimente.[page]
+[nick:イリア]
+Tout à fait. Même sur terre[speed][0xa]...[speed][0x0] En Europe au moyen-âge, il y avait des légendes sur une bête appelée Cerbère. Cerbère serait apparu de nulle part en rugissant, et aurait calciné une région tout entière en un battement de cils. Sais-tu ce que c'était en réalité ?[page]
+[nick:ロニキス]
+Aucune idée.[page]
+[nick:イリア]
+La foudre.[page]
+[nick:ロニキス]
+Intéressant.[page]
+[nick:イリア]
+Je sais qu'il y a des choses que nous ne comprenons pas. En fait[speed][0xa]...[speed][0x0] "Héraut", c'est ça ? J'ai vraiment été surprise par les aptitudes de [nick:ミリー], mais je pense que même ça, ça peut s'expliquer par la science.[page]
+[nick:ロニキス]
+Héhé[speed][0xa],[speed][0x0] je vois. En d'autres termes, tu n'en sais pas plus sur ce que le roi a dit.[page]
+[nick:イリア]
+Tu trouves ça drôle ?[page]
+[nick:ロニキス]
+Pas vraiment.[page]
+[nick:イリア]
+J'ai le sentiment que si on oublie la science et qu'on se met à croire à la sorcellerie, on aura sacrément régressé[speed][0xa]...[speed][0x0][page]
+[nick:ロニキス]
+Ouais[speed][0xa]...[speed][0x0] C'est clair que c'est pas comme ça qu'on va avancer. Et[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Et ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:ロニキス]
+Je commence à me dire que c'est trop facile de croire au destin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]
+Tu parles de[speed][0xa]...[speed][0x0] ta femme ?[page]
+[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Ouais.[page]
+[nick:イリア]
+Personne ne sait à quoi était due sa maladie, on n'aurait pas pu l'aider avec la médecine moderne[speed][0xa]...[speed][0x0] C'est vraiment triste[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ロニキス]
+[speed][0xa]...[speed][0x0] Oui. Et si on avait pu la soigner avec un sort ou quoi que ce soit venant de cette planète[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:ロニキス]
+Ça va me hanter le reste de ma vie[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]
+C'est bien naturel[speed][0xa]...[speed][0x0] Mais ils n'ont pas dit que Héraut n'a aucun effet sur le virus envoyé par Resonia ?[page]
+[nick:ロニキス]
+[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]
+Pour le reste de ta vie[speed][0xa]...[speed][0x14][speed][0x0] Mais personne n'aurait rien pu faire, capitaine[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ロニキス]
+Je[speed][0xa]...[speed][0x0] Je suis certain qu'on le découvrira en continuant notre périple.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:ロニキス]
+Il se fait tard, allons dormir.[page]
+[nick:イリア]
+[speed][0xa]...[speed][0x0] Tu as raison.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ロニキス]
+Merci, [nick:イリア][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Aubergiste bien gaulée
+Bonjour, avez-vous passé une bonne nuit ?[page]
+[nick:ラティ]
+Oui.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ロニキス]
+Tu n'as pas oublié ce que nous avons à faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">1. Je m'en souviens.
+2. Rappelle-moi-le.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ロニキス]
+Il n'y a rien de plus à dire dans ce cas.[page]
+[nick:ラティ]
+Tout à fait.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:ロニキス]
+Nous devons rencontrer le roi de chaque royaume et rassembler des informations sur la localisation de l'[color][0x6]œil de vérité[color][0x2].[page]
+[nick:ラティ]
+Ah oui, c'est vrai.[page]
+[nick:ロニキス]
+Quand nous serons face à eux, cet emblème attestera de notre connaissance sur l'[color][0x6]œil de vérité[color][0x2].
+[nick:ラティ]
+Exact.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">Femme
+Van est un ancien royaume regorgeant d'histoire.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Chevalier
+Il parait que des monstres viennent d'un endroit très loin, bien après [color][0x4]Sylvalant[color][0x2][speed][0xa]...[speed][0x0] L'entrée du monde démoniaque ne doit pas se trouver bien loin.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">Jeune fille
+Mon amoureux rentre de [color][0x4]Sylvalant[color][0x2] demain ♪ Je vais lui mitonner de bons petits plats ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">Vieille femme
+Atchoum[speed][0xa]...[speed][0x0] Excusez-moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">Jiru l'aventurier
+Sans autorisation du roi de Van, vous ne pourrez vois rendre à [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">Mercenaire
+Mince ! Quand ont-ils installé une station d'inspection ici ? Personne ne m'a jamais rien dit ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Vieil homme
+Hé bien, en voilà de belles armes[speed][0xa]...[speed][0x0] Hmm ? Dans mon jeune temps, j'étais forgeron.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">Patron
+Si quelque chose vous tente ou si vous avez besoin de plus d'informations, n'hésitez pas à me le demander.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">Barman
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">Victor le cordonnier
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[nick:シウス]
+J'suis en train de matter des choses plutôt pas mal, tu vois ?[page]
+[end]</sn:pointer>
+
+</sn:script>

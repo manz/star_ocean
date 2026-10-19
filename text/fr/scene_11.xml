@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x44][0x0]Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x38][0x0]Sommet du Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x44][0x0]Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x44][0x0]Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ドーン]
+Attention, ça grouille de vers cruels dans le coin.[page]
+[nick:ミリー]
+Ils peuvent te pondre dedans rien qu'en te touchant.[page]
+[nick:ラティ]
+Et si l'œuf vient à éclore, on est dans une sacrée panade.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x38][0x0]Sommet du Mt Métox[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Boire de l'eau ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ドーン]
+Ça va ?[page]
+[nick:ミリー]
+Ouais.[page]
+[nick:ラティ]
+Faites bien gaffe de ne pas garder un seul œuf de ver cruel.[page]
+[nick:ミリー]
+Je sais. S'ils éclosent, on est dans la merde.[page]
+[nick:ラティ]
+C'est ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ミリー]
+Ça va ?[page]
+[nick:ドーン]
+[speed][0x1]Ne me touche pas !!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">[nick:ミリー]
+Tsss... Je m'inquiète seulement pour toi, c'est quoi cette réaction ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ドーン]
+Non[speed][0x14],[speed][0x0] c'est rien, t'inquiète pas pour moi[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ラティ]
+Hey ! Une minute... Tu as été... ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:ドーン]
+[speed][0x14]...[speed][0x0] Il semblerait que j'ai été contaminé d'une manière ou d'une autre quand j'ai touché ce pigeon.[page]
+[nick:ミリー]
+Oh non[speed][0x14]...[speed][0x0][page]
+[nick:ラティ]
+Tu devrais rentrer à la maison.[page]
+[nick:ドーン]
+Non[speed][0x14],[speed][0x0] la pétrification n'est pas encore amorcée, je vais bien.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ミリー]
+Mais...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ドーン]
+[speed][0x1]Je t'ai dis que ça allait !!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]
+Si on ramène cette fleur avec nous[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">???
+C'était sensé être totalement désert ici, mais[speed][0x14]...[speed][0x0][page]
+???
+Il n'y avait personne il y a demi heure ![page]
+???
+Bon est repérés. On n'y peut rien. Tentons de coopérer avec eux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ラティ]
+Mais vous êtes qui, vous ?[page]
+[nick:ミリー]
+Vous êtes venus aussi pour récolter des plantes médicinales ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">???
+N'ayez rien à craindre[speed][0x14]...[speed][0x0]
+Même si ça ne sert pas à grand
+chose de vous dire ça...[page]
+???
+Je suis [nick:ロニキス] J. Kenny.
+Alors, par où commencer...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ドーン]
+D'où venez-vous ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ミリー]
+[speed][0x1]N'approchez pas ![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">???
+Je suis [nick:イリア] Silvestoli. Je vais vous expliquer.[page]
+Iria
+Je ne peux répondre à vos interrogations, mais nous venons en amis.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ミリー]
+Vraiment ?[page]
+[nick:ドーン]
+Impossible de devenir amis avec des gens louches comme vous ![page]
+[nick:ラティ]
+[speed][0x14]...[speed][0x0]On est juste venus pour cette plante.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Si vous souhaitez guérir l'épidémie, il y a bien mieux que cette herbe.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:ラティ]
+Mais QUI êtes-vous à la fin ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:イリア]
+Êtes-vous d'humeur à écouter à présent ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ラティ]
+Si c'est tout...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">[nick:イリア]
+Je suis certaine que de prime abord, vous ne me croirez pas, mais[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:イリア]
+Nous venons d'une contrée très éloignée pour vous venir en aide.[page]
+[nick:ラティ]
+[speed][0xa]...[speed][0x0] Si c'est ça, pourquoi ne pas être venus plus tôt ?[page]
+[nick:イリア]
+En raison du "traité de protection des planètes en voie de développement", nous avons choisi de ne pas entrer en contact avec des civilisations en cours de développement.[page]
+[nick:ラティ]
+En développement... ?[page]
+[nick:イリア]
+Nous venons de par delà le ciel[speed][0x14]...[speed][0x0] D'une autre planète. Nous avons décidé que cette fois, il fallait faire une exception.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[nick:ラティ]
+Au-delà du ciel ? Une autre planète ?[page]
+[nick:ミリー]
+Des dieux ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">[nick:イリア]
+Nous ne sommes pas des dieux, nous sommes tout à fait similaires à vous.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">[nick:イリア]
+Cependant, nous n'avons pas de queue.[page]
+[nick:ミリー]
+Oh !! C'est vrai !![page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[nick:イリア]
+Quoi qu'il en soit, Resonia, le groupe dont nous subissons les attaques a brisé le traité de protection des planètes en voie de développement et par-dessus le marché a employé une arme chimique causant cette épidémie[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="34">[nick:ラティ]
+Alors, c'est à cause de ce Resonia que tout le monde se change en pierre ?[page]
+[nick:イリア]
+Tout à fait.[page]
+[nick:ミリー]
+[speed][0xa]...[speed][0x0] C'est impardonnable[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">[nick:イリア]
+Nous sommes venus pour enquêter et guérir cette maladie.[page]
+[nick:ロニキス]
+C'est pour cela que nous sommes venus vous aider, en employant des méthodes dont vous n'avez même pas conscience.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">[nick:ミリー]
+Je continue à ne pas vous croire, mais si vous pouvez soigner le mal...[page]
+[nick:ラティ]
+Je ne vous crois pas non plus vraiment, mais si vous pouvez venir en aide à mes amis...[page]
+[nick:イリア]
+Nous ne savons pas encore si nous serons en mesure de vous soigner, mais si vous vous joignez à nous, nous pourrons élaborer un vaccin[speed][0x14]...[speed][0x0][page]
+[nick:ラティ]
+Vous allez au-delà du ciel ?[page]
+[nick:ロニキス]
+On peut voir ça comme ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">[nick:ロニキス]
+Si vous venez avec nous, il y a des chances que vous ne puissiez plus revenir ici.[page]
+[nick:ロニキス]
+En raison du traité de protection des planètes en voie de développement.[page]
+[nick:ロニキス]
+Vous pouvez toujours en rester là et penser que ce que vous venez de vivre n'est qu'un mauvais rêve.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">[nick:ドーン]
+Je pars avec eux. De toute manière, si je reste ici, je finirai changé en pierre.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">[nick:ミリー]
+Impossible de choisir entre quitter [nick:ドーン] ou mon père et les autres à jamais[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">[nick:ラティ]
+[nick:ミリー] Partons avec [nick:ドーン].[page]
+[nick:ラティ]
+Ce sera pire encore de rester ici et être totalement impuissants.[page]
+[nick:ラティ]
+C'est sûr que c'est triste de ne plus être avec les autres à [color][0x4]Clatos[color][0x2], mais je veux aussi les aider ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[nick:イリア]
+Il semblerait que vous avez pris votre décision. Très bien. Nous partons immédiatement.[page]
+[nick:イリア]
+Veuillez fermer vos yeux un instant.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="42">[nick:ミリー]
+Hein.... ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">[nick:シウス]
+Alors comme ça vous avez à nouveau besoin de moi pour votre petite chasse à l'homme...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">[nick:ラティ]
+Ouais.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">[nick:イリア]
+[nick:シウス], as-tu un but précis lorsque tu voyages ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">[nick:シウス]
+[speed][0xa]......[speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="47">[pos][0x0][0x20]Perfectionner mon maniement de l'épée.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">[nick:イリア]
+Hein[speed][0xa],[speed][0x0] tu n'es pas déjà bien assez fort ?[page]
+[nick:シウス]
+Hum, le monde est vaste.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">[nick:ラティ]
+[nick:シウス], maintenant que j'y pense, c'est pas toi qui nous avais parlé de ruines sur cette montagne ?[page]
+[nick:シウス]
+Si si.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[nick:シウス]
+L'entrée doit être par là au bord du sentier, dans une zone d'ombre il me semble[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="51">[nick:シウス]
+Allons-y, ça coûte rien d'y jeter un œil.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">[mode8][0x18][nick:ミリー]
+[speed][0x1]Hi[speed][0x1e]iiiiiiiiiiiiiiii !!!![mode8][0x0][speed][0x0][end]</sn:pointer>
+
+<sn:pointer id="53">Voyageur
+L'eau est délicieuse ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="54">[nick:ドーン]
+Maintenant que j'y pense, le printemps est presque fini.[page]
+[nick:ラティ]
+Ouais[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">[nick:ミリー]
+Le moment est venu de nous dire adieu, non ?[page]
+[nick:イリア]
+Oui.[page]
+[nick:ロニキス]
+Vous n'avez pas à vous inquiéter au sujet du traité sur les planètes en voie de développement. On n'en est plus à ça près, et...[page]
+[nick:ミリー]
+Et ?[page]
+[nick:ロニキス]
+De toute façon, personne ne vous croira.[page]
+[nick:ラティ]
+Exact.[page]
+[nick:ロニキス]
+Eh bien, adieu alors. Nous ne nous reverrons sûrement jamais[speed][0xa]...[speed][0x0][page]
+[nick:イリア]
+Adieu [nick:ミリー], [nick:ラティ][speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[pos][0x24][0x0][speed][0x1]Un peu plus tard...[speed][0x3][page]
+[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:マーヴェル]
+Nous sommes prêts ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:シウス]
+300 ans... Pouvons-nous vraiment le faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">[nick:アシュレイ]
+300 ans dans le futur...
+Pouvons-nous vraiment le faire ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[nick:マーヴェル]
+Oui, avec mes pouvoirs magiques, je suis en mesure d'augmenter le niveau de conservation.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:ヨシュア]
+Okay, allons planter cet arbre comme signal. Mais tu penses que [nick:ラティ] et les autres le remarqueront ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:シウス]
+Il est un peu dur à la comprenette mais avec [nick:ミリー] avec lui, on n'a pas à s'inquiéter.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:アシュレイ]
+Il est un peu neuneu mais avec [nick:ミリー] à ses cotés, pas la peine de s'inquiéter.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:ペリシー]
+Je vais aller enterrer cet ocarina ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">[nick:シウス]
+Oh bon, il est à moi.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:アシュレイ]
+Je devrais leur donner ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:マーヴェル]
+Alors, on a tous terminé, c'est bon ?[page]
+[end]</sn:pointer>
+
+</sn:script>

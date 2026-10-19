@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[nick:ミリー]
+Qu'est-ce que c'était ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[nick:ラティ]
+On est où ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[nick:ロニキス]
+Bienvenus dans notre vaisseau.[page]
+[nick:ミリー]
+Vous ÊTES des dieux finalement ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:イリア]
+Nous ne sommes pas des dieux.
+Nous sommes juste un peu plus avancés que vous, c'est tout.[page]
+[nick:イリア]
+Vous aussi, vous obtiendrez éventuellement ces pouvoirs.[page]
+[nick:ラティ]
+[speed][0x14]........[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ロニキス]
+Bon, dépêchons-nous de le transporter au centre médical.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x32][0x0]Calnus - Salle du transporteur[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">Membre de l'équipage
+Capitaine ! Ces monstres ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[nick:ロニキス]
+Mais qu'est-ce que ...!?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:ラティ]
+Des vers cruels ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:ロニキス]
+Qu'est-ce que c'est ?[page]
+[nick:ラティ]
+Ils ont dû pondre sur nous au Mont Métox.[page]
+[nick:イリア]
+Comment se fait-il que les capteurs lors de l'embarquement n'aient rien détecté ?[page]
+[nick:ロニキス]
+J'en n'ai pas la moindre idée. Déjà, débarrassons-nous d'eux.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Membre de l'équipage
+Les [color][0x6]phasers[color][0x2] n'ont aucun effet sur eux ![page]
+[nick:ロニキス]
+Quoi ?! C'est une plaisanterie, j'espère...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">[nick:ラティ]
+Laissez-nous faire.[page]
+[nick:ロニキス]
+Ça ira ?[page]
+[nick:ラティ]
+Allons-y, [nick:ミリー] ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">[nick:ロニキス]
+Vous n'avez rien ?[page]
+[nick:ラティ]
+Il y en a d'autres ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">[nick:イリア]
+[speed][0x1]Attention !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">[nick:ラティ]
+[speed][0x1]Argh !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">[nick:ラティ]
+Mince, il en restait un...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">[nick:ミリー]
+Es-tu blessé ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">[nick:ラティ]
+C'est qu'une égratignure.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">[nick:ロニキス]
+Il a disparu[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">[nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">[nick:ロニキス]
+Quand tu as été attaqué, cette créature a disparu. Et là, son corps a lui aussi disparu[speed][0x14]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">[nick:ミリー]
+Hein, mais il est là, juste ici.[end]</sn:pointer>
+
+<sn:pointer id="22">[pos][0x0][0x20]Juste ici.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">[nick:ロニキス]
+[speed][0x1]Quoi ???[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">[nick:イリア]
+Alors tous les deux vous pouvez les voir[speed][0x14]...[speed][0x0][page]
+[nick:イリア]
+Il a disparu au moment où ton sang a jailli.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[nick:イリア]
+En route pour le centre médical.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="26">[nick:ロニキス]
+Et occupez-vous de récurer tout ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[nick:ロニキス]
+Docteur, transportons [nick:ドーン] directement dans son lit.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="28">Docteur
+Reçu.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">[nick:ロニキス]
+[nick:イリア], je te les confie.[page]
+[nick:イリア]
+Oui, Capitaine.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">[mode8][0x18][nick:ミリー]
+[speed][0x1e]AAAAaaaahhhh.....[speed][0x0][page]
+[mode8][0x0][end]</sn:pointer>
+
+<sn:pointer id="31">C'est la salle des téléporteurs. Nous pouvons tout transporter jusqu'à une certaine taille à des millions de kilomètres.[page]
+[end]</sn:pointer>
+
+</sn:script>

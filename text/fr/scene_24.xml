@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">[pos][0x56][0x0]Armurerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">[pos][0x5c][0x0]Bar[page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[pos][0x50][0x0]Épicerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[pos][0x44][0x0]Guilde des savoirs[page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[pos][0x5c][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[pos][0x5c][0x0]Maison[page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">[pos][0x56][0x0]Quincaillerie[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">[nick:シウス]
+Badam nous a demandé de passer.[page]
+Armurier
+Ah, c'est vous. Remettez-lui ceci de ma part.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="9">[nick:シウス]
+Et comment on est sensés lui ramener un truc si gros ?[page]
+Armurier
+Et pourtant, il va falloir.[page]
+[nick:シウス]
+Bon ben, on s'en charge.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="10">Vous récupérez la [color][0x6]Statue[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="11">Papas
+Bienvenue.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="12">Femme
+Vous avez dit que les pirates avaient à nouveau attaqué ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="13">Femme
+Le roi de Moore essaie-t-il de renforcer son armée ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="14">Femme
+Comme ça vous êtes des aventuriers ? Et ça consiste en quoi ? Peut-être les mêmes genres de choses que mon mari, glander toute la journée ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="15">Vieille femme au visage rond
+Je vais vraiment avoir des ennuis si le bateau est bloqué à quai à cause des pirates...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="16">Vieille femme au visage rond Reverrais-je la paix avant d'aller manger les pissenlits par la racine ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="17">Vieille femme au visage rond
+Il parait que le monde démoniaque a une influence aux alentours de [color][0x4]Sylvalant[color][0x2].[page]
+[end]</sn:pointer>
+
+<sn:pointer id="18">Homme au comptoir
+Salut.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="19">Barman
+Ça craint, on est envahis par la racaille ces derniers temps.
+Fait chier.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="20">Marin
+*Hips*
+Ma vie pour un godet ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="21">Marin
+L'alcool est pas trop mauvais ici, mais ce qu'ils ont à [color][0x4]Sylvalant[color][0x2] est carrément mieux ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="22">Vieille vendeuse
+Merci de votre visite.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="23">Aubergiste
+Avez-vous passé une bonne nuit ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="24">Aubergiste
+C'est [color][0x5]30[color][0x2] Fol la nuit.
+Voulez-vous rester ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="25">[end]</sn:pointer>
+
+<sn:pointer id="26">Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="27">[end]</sn:pointer>
+
+<sn:pointer id="28">Cliente
+Cette chambre est pas mal.
+J'aime ce tapis.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="29">Client
+C'est quoi cette chambre !
+Il n'y a même pas de tapis ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="30">Apprenti
+Ce comptoir est un peu haut.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="31">Maître de la guilde
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="32">1. Culture niveau 2    600
+2. Sens niveau 1       100
+3. Sens niveau 2       200
+4. Combat niveau 1     1000[page]
+[end]</sn:pointer>
+
+<sn:pointer id="33">[end]</sn:pointer>
+
+<sn:pointer id="34">Maitre de la guilde
+Faites-en bon usage.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="35">Maitre de la guilde
+Vous n'avez pas assez d'argent.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="36">Maitre de la guilde
+Vous l'avez déjà.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="37">Aventurier
+Il parait qu'il y a des ruines au [color][0x4]Mt Métox[color][0x2]...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="38">Maman de Marie
+Je m'inquiète pour Marie. Elle aime tant les sucreries.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="39">Maman de Marie
+Qu'est-ce que vous avez donné à Marie !?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="40">Marie
+Je veux un parfait [speed][0xa]...[speed][0x0]
+Maman dit que c'est pas bon parce que ça me donne des caries. Je me brosse les dents tous les jours vous savez.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="41">[end]</sn:pointer>
+
+<sn:pointer id="42">Marie
+Miam miam ♥[page]
+[end]</sn:pointer>
+
+<sn:pointer id="43">Marie
+J'ai un petit peu mal aux dents ...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="44">Mentor
+Je vais vous détailler le contenu de chaque savoir.
+Pour lequel voulez-vous une explication ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="45">1. Culture niveau 2
+2. Sens niveau 1
+3. Sens niveau 2
+4. Combat niveau 1[page]
+[end]</sn:pointer>
+
+<sn:pointer id="46">Mentor
+Culture niveau 2 comprend :
+Biologie, connaissance des outils et solfège.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="47">Mentor
+Sens niveau 1 comprend :
+Expert, sens du danger et stoïcisme.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="48">Mentor
+Sens niveau 2 comprend :
+Sens du danger, sens de l'humour et persévérance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="49">Mentor
+Mentor
+Combat niveau 1 comprend : Onde de choc, impact aérien et volte face.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="50">[end]</sn:pointer>
+
+<sn:pointer id="51">Entraîneur
+Souhaitez-vous entendre mes conseils ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="52">Entraineur
+Lorsque vous souhaitez apprendre des compétences spéciales, n'oubliez pas d'aller sur l'écran des compétences, d'appuyer sur X et de consulter avec attention l'avancement de vos spécialités.[page]
+Par exemple, prenez une compétence et essayez de consulter l'état de la spécialité.
+Cuisine ★☆☆ Les symboles que vous devez consulter sont là.[page]
+★ indique le nombre de compétences nécessaires pour apprendre cette spécialité, et combien vous en avez déjà apprises. [page]
+Et, comme pour les compétences nécessaires pour apprendre une commande spéciale, je pense que vous devriez comprendre en le voyant, mais pour le plus grand nombre d'entre eux, il y en a de 1 à 3. En consultant le nom de la commande spéciale et le nom des compétences, pour la plupart d'entre elles vous devriez pouvoir déterminer lesquelles sont en relation. Si c'est [mode8][0x20]cuisine, les compétences seront cordon bleu, couteau de cuisine, et... ? Des choses comme ça.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="53">[end]</sn:pointer>
+
+<sn:pointer id="54">1. Lui donner un parfait
+2. Ne rien lui donner[page]
+[end]</sn:pointer>
+
+<sn:pointer id="55">Marie
+Oh ! Un parfait ? C'est pour moi ?! ♪[page]
+[end]</sn:pointer>
+
+<sn:pointer id="56">[end]</sn:pointer>
+
+<sn:pointer id="57">[nick:シウス]
+Miam miam[page]
+[end]</sn:pointer>
+
+<sn:pointer id="58">[nick:シウス]
+Oh, [nick:ラティ]. Pourquoi tu viendrais pas boire un verre ?[page]
+[nick:ラティ]
+Hein ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="59">1. Bon si c'est juste un verre...
+2. J'suis partant[page]
+[end]</sn:pointer>
+
+<sn:pointer id="60">[end]</sn:pointer>
+
+<sn:pointer id="61">[nick:シウス]
+Hey ! Tu insinues que tu refuses de boire avec moi ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="62">[nick:ラティ]
+Ça a pas vraiment l'air sans danger...[page]
+[end]</sn:pointer>
+
+<sn:pointer id="63">[nick:シウス]
+Cul sec !!![page]
+[end]</sn:pointer>
+
+<sn:pointer id="64">[nick:ラティ]
+Hein ? Je[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="65">Gloups[speed][0x5][speed][0x0] gloups[speed][0x5][speed][0x0] gloups[speed][0x5]...☆○ !!![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="66">[nick:シウス]
+Patron ! À boire ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="67">[nick:アシュレイ]
+Ça c'est d'la bonne bière. On la sent passer dans l'gosier.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="68">[nick:アシュレイ]
+Avez-vous acheté des compétences de combat ? Ça serait une bonne idée d'en apprendre quelques-unes.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="69">[nick:フィア]
+On reste encore dans cette ville à se reposer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="70">[nick:フィア]
+On reste encore dans cette ville à se reposer ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="71">[nick:ラティ]
+Pourquoi tu restes planté là à faire c'te tête ?[page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="72">Arc
+Qu'est-ce que t'as dit ?!
+Répète-le voir encore une fois ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="73">[nick:シウス]
+C'est pas la peine de te la péter, t'es qu'un faible, mauviette.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="74">Joe
+Quoi ?! Sale bâtard[speed][0xa]...[speed][0x0]
+ J'vais t'éclater ta tête ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="75">[nick:シウス]
+Tu me l'enlèves de la bouche ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="76">Barman
+Oh non ! Pas mon bar ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="77">1. Aider [nick:シウス]
+2. Regarder à distance[page]
+[end]</sn:pointer>
+
+<sn:pointer id="78">[nick:ラティ]
+[nick:シウス][speed][0xa]...[speed][0x0]
+J'te couvre[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="79">[nick:ラティ]
+[nick:シウス], je te couvre ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="80">[end]</sn:pointer>
+
+<sn:pointer id="81">[nick:フィア]
+[speed][0xa]...[speed][0x0] Monsieur [nick:アシュレイ][page]
+[nick:アシュレイ]
+arrête avec tes Monsieur. Tu peux pas m'appeler juste par mon nom ?[page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0] Pourquoi est-ce que vous continuez encore votre périple ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="82">[nick:フィア]
+Il n'est pas rare que chaque royaume fasse appel à des gens comme vous. En vérité, Ryas l'a déjà fait à de multiples reprises[speed][0xa]...[speed][0x0][page]
+[nick:アシュレイ]
+C'est un ami de longue date. Et il me reste encore une chose à faire.[page]
+[nick:フィア]
+Si ce n'est trop vous demander, pourriez-vous m'en dire plus ?[page]
+[nick:アシュレイ]
+[speed][0xa]...[speed][0x0] Je suis désolé.[page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0] Je vois.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="83">[nick:シウス]
+Toi[speed][0xa]...[speed][0x0]
+Qu'est-ce que tu fais là !?[page]
+[nick:フィア]
+Je picole depuis ce midi... Ça doit être bien d'être de la haute.[page]
+[nick:シウス]
+[speed][0xa].....[speed][0x0][page]
+[nick:フィア]
+Tu veux que je te raconte ce qui s'est passé pendant que tu étais tranquille dans une auberge comme celle-là ?! [page]
+[nick:シウス]
+Hein ?![page]
+[end]</sn:pointer>
+
+<sn:pointer id="84">[nick:フィア]
+Ryas, ton père, il a été assassiné ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="85">[nick:シウス]
+Quoi ?! C'est pas vraiment du genre à se faire tuer, même à grands coups de hache ![page]
+[nick:フィア]
+[speed][0xa]...[speed][0x0] Il a été attaqué par un assassin du monde démoniaque. J'ai été accusé du crime et j'ai du quitter [color][0x4]Astral[color][0x2].[page]
+[nick:シウス]
+[speed][0xa]...[speed][0x0] Accusé ?![page]
+[nick:フィア]
+L'assassin s'est peut-être transformé en quelqu'un qui me ressemblait et a commis son crime[speed][0xa]...[speed][0x0] Il semblerait que Ryas n'ait montré aucune résistance.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="86">[nick:シウス]
+Mon père[speed][0xa]... ![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="87">[nick:フィア]
+Où est-ce que tu vas ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="88">[nick:シウス]
+T'inquiète pas pour moi, je compte y aller seul.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="89">[nick:ラティ]
+Dodo[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+</sn:script>

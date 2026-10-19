@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:script xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:pointer id="0">Soldat
+Vous pouvez passer ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="1">Soldat
+Vous pouvez passer ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="2">[speed][0x1]Atchaaa !![speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="3">[nick:ロニキス]
+Ca ne va pas ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="4">[nick:ミリー]
+Quand on éternue, c'est que quelqu'un pense à nous. Je suis tellement belle qu'on ne peut pas arrêter de parler de moi ![page]
+[end]</sn:pointer>
+
+<sn:pointer id="5">[nick:ミリー]
+Bien. Dépêchons-nous de te trouver des habits.[page]
+[end]</sn:pointer>
+
+<sn:pointer id="6">[nick:ロニキス]
+Ah oui[speed][0x5],[speed][0x0] c'est vrai.[page]
+[nick:ミリー]
+Je vais te trouver de super fringues top tendance ![page]
+[nick:ロニキス]
+M[speed][0x5]-[speed][0x0]merci[speed][0xa]...[speed][0x0][page]
+[end]</sn:pointer>
+
+<sn:pointer id="7">Comment va Ray ?[page]
+[end]</sn:pointer>
+
+<sn:pointer id="8">Nord : Ville de Van Castle
+Sud : Ionis[page]
+[end]</sn:pointer>
+
+</sn:script>
