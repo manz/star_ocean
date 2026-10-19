@@ -6,3 +6,4 @@ __pycache__/
 *.kss
 extracted/
 so.kintsuki/map.bin
+!tests/states/*.kss
