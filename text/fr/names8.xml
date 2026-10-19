@@ -316,7 +316,7 @@
 <sn:string id="0x13FC">?Herbe</sn:string>
 <sn:string id="0x13FD">?Herbe</sn:string>
 <sn:string id="0x13FE">?Herbe</sn:string>
-<sn:string id="0x13FF">?VBullixir</sn:string>
+<sn:string id="0x13FF">?Vivres</sn:string>
 <sn:string id="0x1400">?Vivres</sn:string>
 <sn:string id="0x1401">?Vivres</sn:string>
 <sn:string id="0x1402">?Vivres</sn:string>
@@ -349,7 +349,7 @@
 <sn:string id="0x141D">Flambotov+</sn:string>
 <sn:string id="0x141E">MédiPoison</sn:string>
 <sn:string id="0x141F">MédiParal</sn:string>
-<sn:string id="0x1420">MediRoche</sn:string>
+<sn:string id="0x1420">MédiRoche</sn:string>
 <sn:string id="0x1421">Limpinpine</sn:string>
 <sn:string id="0x1422">Elfinine</sn:string>
 <sn:string id="0x1423">Cendrillon</sn:string>
