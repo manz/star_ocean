@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:strings xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:string id="0xEA60">Objet bidon</sn:string>
+<sn:string id="0xEA6A">Talents Bagage  Groupe Régler</sn:string>
+<sn:string id="0xEA6B">Équiper Savoirs Statut Sauver</sn:string>
+<sn:string id="0xEA6C">Stratégie
+
+Échange
+
+Formation</sn:string>
+<sn:string id="0xEA6E">                            
+                            
+                            </sn:string>
+<sn:string id="0xEA6F">                            
+            /        /        
+NV         /        /         </sn:string>
+<sn:string id="0xEA70"> /</sn:string>
+<sn:string id="0xEA71">PV</sn:string>
+<sn:string id="0xEA72">PM</sn:string>
+<sn:string id="0xEA73">Suivant</sn:string>
+<sn:string id="0xEA74">Temps ??:??  G ???????  C ?????</sn:string>
+<sn:string id="0xEA79">
+  Nom
+</sn:string>
+<sn:string id="0xEA7E">Quel objet allez-vous utiliser?</sn:string>
+<sn:string id="0xEA7F">Utiliser sur qui?</sn:string>
+<sn:string id="0xEA80">Utiliser sur quel groupe?</sn:string>
+<sn:string id="0xEA81">Qui l'utilisera?</sn:string>
+<sn:string id="0xEA82">Jeter quel objet?</sn:string>
+<sn:string id="0xEA83">Création d'objet
+
+</sn:string>
+<sn:string id="0xEA84">Objets précieux</sn:string>
+<sn:string id="0xEA88">Stratégie</sn:string>
+<sn:string id="0xEA89">Pas de stratégie</sn:string>
+<sn:string id="0xEA92">Paramétrage</sn:string>
+<sn:string id="0xEA93">            Rapide    Lente
+Vit.Message 1 2 3 4 5 6 7 8
+
+
+Réglage Son Stéréo Mono 3D
+
+
+Boutons     Sélectionner  
+
+            Annuler 
+
+            Menu  
+
+            Cibler 
+
+            Arcane 1 
+
+            Arcane 2 
+
+
+Couleur
+
+Luminosité</sn:string>
+<sn:string id="0xEA9C">
+
+
+
+
+Arme
+
+Armure
+
+Bouclier
+
+Casque
+
+Bottes
+
+Accessoire
+
+Accessoire</sn:string>
+<sn:string id="0xEA9E">
+Équiper
+
+
+Le plus fort
+
+
+Automatique
+  Oui Non</sn:string>
+<sn:string id="0xEAA1">(Vide)</sn:string>
+<sn:string id="0xEAA2">Auto</sn:string>
+<sn:string id="0xEAA3"> Oui</sn:string>
+<sn:string id="0xEAA4"> Non</sn:string>
+<sn:string id="0xEAA6">Écran d'échange</sn:string>
+<sn:string id="0xEAA7">Formations</sn:string>
+<sn:string id="0xEAA9">En ligne
+
+Astral
+
+Triangle 1
+
+Triangle 2
+
+Dispersé
+
+Carré haut
+
+Carré bas
+
+Losange
+
+</sn:string>
+<sn:string id="0xEAAB">            
+       NV   
+PV     /    
+PM     /    
+</sn:string>
+<sn:string id="0xEAB0">PV      /    
+PM      /   
+EXP
+Suivant
+Force
+Intelligence
+Agilité
+Constitution
+Cran
+Endurance
+
+Attaque
+
+Défense
+
+Précision
+
+Esquive
+
+</sn:string>
+<sn:string id="0xEAB1">Arme
+
+Armure
+
+Bouclier
+
+Casque
+
+Bottes
+
+Accessoire
+
+Accessoire
+
+Plat préféré
+
+</sn:string>
+<sn:string id="0xEAB5">Dons innés</sn:string>
+<sn:string id="0xEAB6">(Vide)</sn:string>
+<sn:string id="0xEABA">     
+Temps
+  :  </sn:string>
+<sn:string id="0xEABB">Choix d'un bloc</sn:string>
+<sn:string id="0xEABF">     
+Vide
+</sn:string>
+<sn:string id="0xEACE">Magasin</sn:string>
+<sn:string id="0xEAD0">Achat Pigeon</sn:string>
+<sn:string id="0xEAD2">Achat Vente Fin</sn:string>
+<sn:string id="0xEAD3">Achat Vente Faire</sn:string>
+<sn:string id="0xEAD4">Bagage</sn:string>
+<sn:string id="0xEAD5">Fol</sn:string>
+<sn:string id="0xEAD6">Achat</sn:string>
+<sn:string id="0xEAD7">Vente</sn:string>
+<sn:string id="0xEAD8">Total</sn:string>
+<sn:string id="0xEAE2">Automatique</sn:string>
+<sn:string id="0xEAE3">L'équipement va être optimisé
+automatiquement</sn:string>
+<sn:string id="0xEAEC">Nom</sn:string>
+<sn:string id="0xEAED">Surnom</sn:string>
+<sn:string id="0xEAEE">Défaut</sn:string>
+<sn:string id="0xEAEF">Fin</sn:string>
+<sn:string id="0xEAF1">Choix d'un nom</sn:string>
+<sn:string id="0xEB0A">Échange</sn:string>
+<sn:string id="0xEB0B">Échanger ce personnage avec qui?</sn:string>
+<sn:string id="0xEB14">
+  
+
+  PS
+</sn:string>
+<sn:string id="0xEB28"></sn:string>
+<sn:string id="0xEB3C"></sn:string>
+<sn:string id="0xEB3D">Arcanes...</sn:string>
+<sn:string id="0xEB3E">Sorts...</sn:string>
+<sn:string id="0xEB3F">Pas de talent</sn:string>
+<sn:string id="0xEB41">  Bouton
+C
+
+L
+
+
+  Bouton
+C
+
+L
+</sn:string>
+<sn:string id="0xEBDC">
+ Savoir NV PS    Savoir NV PS</sn:string>
+<sn:string id="0xEC1D">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàáâãäéèêëìíîïñòóôõöùúûüœæç0123456789</sn:string>
+<sn:string id="0xEC72">
+Menu du bagage
+
+
+
+
+
+Création d'objet
+
+
+Objets précieux</sn:string>
+<sn:string id="0xECA4">Niveaux de talents</sn:string>
+<sn:string id="0xECA5">Talent prérequis</sn:string>
+<sn:string id="0xECA9">
+Talent:     Savoir:     NV PS</sn:string>
+<sn:string id="0xECAA">
+
+              Savoir  NV  SP
+
+
+
+
+NV Talent</sn:string>
+<sn:string id="0xECAE">
+D'accord?
+   Oui  Non</sn:string>
+<sn:string id="0xF6E0">A B C D E F G H I J K L M</sn:string>
+<sn:string id="0xF6E1">N O P Q R S T U V W X Y Z</sn:string>
+<sn:string id="0xF6E2">a b c d e f g h i j k l m</sn:string>
+<sn:string id="0xF6E3">n o p q r s t u v w x y z</sn:string>
+<sn:string id="0xF6E4">à á â ã ä é è ê ë ì í î ï</sn:string>
+<sn:string id="0xF6E5">ñ ò ó ô õ ö ù ú û ü œ æ ç</sn:string>
+<sn:string id="0xF6E6">0 1 2 3 4 5 6 7 8 9      </sn:string>
+<sn:string id="0xF6E7"></sn:string>
+<sn:string id="0xF6E8">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6E9">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6EA">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6EB">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6EC">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6ED">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6EE">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6EF">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F0">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F1">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F2">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F3">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F4">= = = = =      = = = = =       </sn:string>
+<sn:string id="0xF6F5">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6F6">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF712">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF713">TalentNV</sn:string>
+<sn:string id="0xF714">Temps</sn:string>
+<sn:string id="0xF715">Fol</sn:string>
+<sn:string id="0xF716">Combats</sn:string>
+<sn:string id="0xF717">PNJ</sn:string>
+<sn:string id="0xF718">PM Requis</sn:string>
+<sn:string id="0xF719">Maître</sn:string>
+<sn:string id="0xF71A"></sn:string>
+<sn:string id="0xF71C"> /</sn:string>
+<sn:string id="0xF71D">NV</sn:string>
+<sn:string id="0xF71E">PV</sn:string>
+<sn:string id="0xF71F">PM</sn:string>
+<sn:string id="0xF720">Exp</sn:string>
+<sn:string id="0xF721">Suiv</sn:string>
+<sn:string id="0xF722">Forc</sn:string>
+<sn:string id="0xF723">Int</sn:string>
+<sn:string id="0xF724">Agil</sn:string>
+<sn:string id="0xF725">Cons</sn:string>
+<sn:string id="0xF726">Cran</sn:string>
+<sn:string id="0xF727">Endu</sn:string>
+<sn:string id="0xF728">A[0xa7][0xa8][0xa9][0xaa]</sn:string>
+<sn:string id="0xF729">D[0xb0][0xb1][0xb2][0xb3]</sn:string>
+<sn:string id="0xF72A">P[0xb4][0xb5][0xb6][0xb7][0xb8]</sn:string>
+<sn:string id="0xF72B">E[0xab][0xac][0xad][0xae]</sn:string>
+<sn:string id="0xF72C">Élément</sn:string>
+<sn:string id="0xF72D"></sn:string>
+<sn:string id="0xF730">Arme</sn:string>
+<sn:string id="0xF731">Armure</sn:string>
+<sn:string id="0xF732">Bouclier</sn:string>
+<sn:string id="0xF733">Casque</sn:string>
+<sn:string id="0xF734">Bottes</sn:string>
+<sn:string id="0xF735">Accessoire</sn:string>
+<sn:string id="0xF736">Accessoire</sn:string>
+<sn:string id="0xF737">Préfère</sn:string>
+<sn:string id="0xF73A">Race</sn:string>
+<sn:string id="0xF73B">Métier</sn:string>
+<sn:string id="0xF7A8">Exercice</sn:string>
+<sn:string id="0xF7A9">Pas
+ d'exercice</sn:string>
+<sn:string id="0xF7B2">Ne rien faire</sn:string>
+<sn:string id="0xF7B3">Fuir ennemi</sn:string>
+<sn:string id="0xF7B4">Chercher
+ ennemi</sn:string>
+<sn:string id="0xF7B7">Appeler
+ pigeon</sn:string>
+<sn:string id="0xF7B9">Effectuer</sn:string>
+<sn:string id="0xF7BC">Composer</sn:string>
+<sn:string id="0xF7BD">Jouer</sn:string>
+<sn:string id="0xF7C1">Composition</sn:string>
+<sn:string id="0xF7C6">Sans informations</sn:string>
+<sn:string id="0xF7C7">Avec informations</sn:string>
+<sn:string id="0xF7C8">Restaure les PV de</sn:string>
+<sn:string id="0xF7C9">Restaure les PM de</sn:string>
+<sn:string id="0xF7CA">Restaure les PV/PM de</sn:string>
+<sn:string id="0xF7CB"></sn:string>
+<sn:string id="0xF80C">Biologie</sn:string>
+<sn:string id="0xF80D">Botanique</sn:string>
+<sn:string id="0xF80E">Psychologie</sn:string>
+<sn:string id="0xF80F">Minéralogie</sn:string>
+<sn:string id="0xF810">Outils</sn:string>
+<sn:string id="0xF811">Piété</sn:string>
+<sn:string id="0xF812">Cordon bleu</sn:string>
+<sn:string id="0xF813">Solfège</sn:string>
+<sn:string id="0xF814">Folklore</sn:string>
+<sn:string id="0xF815">S.Esthét.</sn:string>
+<sn:string id="0xF816">Expert</sn:string>
+<sn:string id="0xF817">Efficacité</sn:string>
+<sn:string id="0xF818">S.Humour</sn:string>
+<sn:string id="0xF819">S.Danger</sn:string>
+<sn:string id="0xF81A">Ondes R.</sn:string>
+<sn:string id="0xF81B">Obstin.</sn:string>
+<sn:string id="0xF81C">Persévérance</sn:string>
+<sn:string id="0xF81D">Stoïcisme</sn:string>
+<sn:string id="0xF81E">Doigté</sn:string>
+<sn:string id="0xF81F">Couteau</sn:string>
+<sn:string id="0xF820">Interprétation</sn:string>
+<sn:string id="0xF821">Siffler</sn:string>
+<sn:string id="0xF822">Dessin</sn:string>
+<sn:string id="0xF823">Écriture</sn:string>
+<sn:string id="0xF824">Moulage</sn:string>
+<sn:string id="0xF825">Technos</sn:string>
+<sn:string id="0xF826">Marathon</sn:string>
+<sn:string id="0xF827">Domptage</sn:string>
+<sn:string id="0xF828">OndeChoc</sn:string>
+<sn:string id="0xF829">ImpactA.</sn:string>
+<sn:string id="0xF82A">VolteFace</sn:string>
+<sn:string id="0xF82B">Riposte</sn:string>
+<sn:string id="0xF82C">Feinte</sn:string>
+<sn:string id="0xF82D">Concentrer</sn:string>
+<sn:string id="0xF82E">Combos</sn:string>
+<sn:string id="0xF82F">Prolixe</sn:string>
+<sn:string id="0xF830">É.Corbeau</sn:string>
+<sn:string id="0xF831">O.Corbeau</sn:string>
+<sn:string id="0xF832">Bagarre</sn:string>
+<sn:string id="0xF833">Edarl</sn:string>
+<sn:string id="0xF834">Autodid.</sn:string>
+<sn:string id="0xF835">Charaté</sn:string>
+<sn:string id="0xF836">G.Ourse</sn:string>
+<sn:string id="0xF837">4Animaux</sn:string>
+<sn:string id="0xF838">Dragon</sn:string>
+<sn:string id="0xF839">Hachiman</sn:string>
+<sn:string id="0xF83A">Baguazhang</sn:string>
+<sn:string id="0xF83B">Sakura</sn:string>
+<sn:string id="0xF83C">Chat♪</sn:string>
+<sn:string id="0xF83D">Blasons</sn:string>
+<sn:string id="0xF83E">Déchets</sn:string>
+<sn:string id="0xF83F">Raps</sn:string>
+<sn:string id="0xF852">Orfèvre</sn:string>
+<sn:string id="0xF853">Cuistot</sn:string>
+<sn:string id="0xF854">Mixeur</sn:string>
+<sn:string id="0xF855">Expert</sn:string>
+<sn:string id="0xF856">Ajusteur</sn:string>
+<sn:string id="0xF857">Artiste</sn:string>
+<sn:string id="0xF858">Auteur</sn:string>
+<sn:string id="0xF859">Musicien</sn:string>
+<sn:string id="0xF85A">Bosseur</sn:string>
+<sn:string id="0xF85B">Chimiste</sn:string>
+<sn:string id="0xF85C">Oracle</sn:string>
+<sn:string id="0xF85D">Forgeron</sn:string>
+<sn:string id="0xF85E">Coureur</sn:string>
+<sn:string id="0xF85F">Oiselier</sn:string>
+<sn:string id="0xF860">Pisteur</sn:string>
+<sn:string id="0xF861">Envoûter</sn:string>
+<sn:string id="0xF862">Rétameur</sn:string>
+<sn:string id="0xF863">???</sn:string>
+<sn:string id="0xF870"></sn:string>
+<sn:string id="0xF871">Passe</sn:string>
+<sn:string id="0xF872">E.Van</sn:string>
+<sn:string id="0xF873">E.Sylval</sn:string>
+<sn:string id="0xF874">E.Moore</sn:string>
+<sn:string id="0xF875">E.Astral</sn:string>
+<sn:string id="0xF876">Clé Aîné</sn:string>
+<sn:string id="0xF877">SécuritéR</sn:string>
+<sn:string id="0xF878">SécuritéB</sn:string>
+<sn:string id="0xF879">ŒilVérité</sn:string>
+<sn:string id="0xF87A"></sn:string>
+<sn:string id="0xF8A2"></sn:string>
+<sn:string id="0xF8A3">Quel "ingrédient" allez-vous
+ utiliser ?</sn:string>
+<sn:string id="0xF8A4">Quel sera le premier
+ "ingrédient" ?</sn:string>
+<sn:string id="0xF8A5">Sélectionnez 2 "ingrédients"
+ pour la "recette"</sn:string>
+<sn:string id="0xF8A6">Identifier quel objet ?</sn:string>
+<sn:string id="0xF8A7">Personnaliser ceci ?</sn:string>
+<sn:string id="0xF8A8">Qu'allez-vous copier ?</sn:string>
+<sn:string id="0xF8A9">Sur quel savoir allez-vous
+ écrire ?</sn:string>
+<sn:string id="0xF8AA">Lequel allez-vous créer ?</sn:string>
+<sn:string id="0xF8AB">Sélectionnez une arme </sn:string>
+<sn:string id="0xF8AC">Sélectionnez un métal </sn:string>
+<sn:string id="0xF8D4"></sn:string>
+<sn:string id="0xF8D5">Trompette 1</sn:string>
+<sn:string id="0xF8D6">Trompette 2</sn:string>
+<sn:string id="0xF8D7">Clarinette 1</sn:string>
+<sn:string id="0xF8D8">Clarinette 2</sn:string>
+<sn:string id="0xF8D9">Harmonica 1</sn:string>
+<sn:string id="0xF8DA">Harmonica 2</sn:string>
+<sn:string id="0xF8DB">Shamisen 1</sn:string>
+<sn:string id="0xF8DC">Shamisen 2</sn:string>
+<sn:string id="0xF8DD">Guitar 1</sn:string>
+<sn:string id="0xF8DE">Guitare 2</sn:string>
+<sn:string id="0xF8DF">Trombone 1</sn:string>
+<sn:string id="0xF8E0">Trombone 2</sn:string>
+<sn:string id="0xF8E1">Violon 1</sn:string>
+<sn:string id="0xF8E2">Violon 2</sn:string>
+<sn:string id="0xF8E3">Saxophone 1</sn:string>
+<sn:string id="0xF8E4">Saxophone 2</sn:string>
+<sn:string id="0xF99C">FARRENCE</sn:string>
+<sn:string id="0xF99D">KILLIET</sn:string>
+<sn:string id="0xF99E">MARTEAU</sn:string>
+<sn:string id="0xF99F">J KENNY</sn:string>
+<sn:string id="0xF9A0">SYLVESTOLI</sn:string>
+<sn:string id="0xF9A1">WARREN</sn:string>
+<sn:string id="0xF9A2">JERAND</sn:string>
+<sn:string id="0xF9A3">ARCANA</sn:string>
+<sn:string id="0xF9A4">FROZEN</sn:string>
+<sn:string id="0xF9A5">BARNBELT</sn:string>
+<sn:string id="0xF9A6"> </sn:string>
+<sn:string id="0xF9A7">MELL</sn:string>
+<sn:string id="0xF9A8"></sn:string>
+<sn:string id="0xF9B0">Felpurr</sn:string>
+<sn:string id="0xF9B1">Humain</sn:string>
+<sn:string id="0xF9B2">Montagnard</sn:string>
+<sn:string id="0xF9B3">Peuple Ailé</sn:string>
+<sn:string id="0xF9B4">Moore</sn:string>
+<sn:string id="0xF9B5">Lycanthrope</sn:string>
+<sn:string id="0xF9B6">Semi Felpurr</sn:string>
+<sn:string id="0xF9B7">???</sn:string>
+<sn:string id="0xF9BA">Épéiste</sn:string>
+<sn:string id="0xF9BB">Magic User</sn:string>
+<sn:string id="0xF9BC">Heraldry Wizard</sn:string>
+<sn:string id="0xF9BD">Chorégraphe</sn:string>
+<sn:string id="0xF9BE">Enchanteur</sn:string>
+<sn:string id="0xF9BF">Karatéchat</sn:string>
+<sn:string id="0xF9C0">Chevalier</sn:string>
+<sn:string id="0xF9C4">Originalité</sn:string>
+<sn:string id="0xF9C5">Bon goût</sn:string>
+<sn:string id="0xF9C6">Doigts de fée</sn:string>
+<sn:string id="0xF9C7">Esthétisme</sn:string>
+<sn:string id="0xF9C8">Talent littéraire</sn:string>
+<sn:string id="0xF9C9">Sens du rythme</sn:string>
+<sn:string id="0xF9CA">Oreille musicale</sn:string>
+<sn:string id="0xF9CB">Amour des animaux</sn:string>
+<sn:string id="0xF9CC">Instinct</sn:string>
+<sn:string id="0xF9CD">Bénédiction de mana</sn:string>
+<sn:string id="0xFA2A">Double tranche</sn:string>
+<sn:string id="0xFA2B">Air Slash</sn:string>
+<sn:string id="0xFA2C">Contre fente</sn:string>
+<sn:string id="0xFA2D">Boutoir mental</sn:string>
+<sn:string id="0xFA2E">Épée éclair</sn:string>
+<sn:string id="0xFA2F">Épée vermeil</sn:string>
+<sn:string id="0xFA30">Épée flash</sn:string>
+<sn:string id="0xFA31">L.FoudrDA</sn:string>
+<sn:string id="0xFA32">VictoirOV</sn:string>
+<sn:string id="0xFA33">É.Écl.GO</sn:string>
+<sn:string id="0xFA34">É.FlashGO</sn:string>
+<sn:string id="0xFA35">D.TranGO</sn:string>
+<sn:string id="0xFA36">D.Estoc</sn:string>
+<sn:string id="0xFA37">D.C.B.</sn:string>
+<sn:string id="0xFA38">T.Météor</sn:string>
+<sn:string id="0xFA39">Fureur D.</sn:string>
+<sn:string id="0xFA3A">FoudresDN</sn:string>
+<sn:string id="0xFA3B">FoudresDR</sn:string>
+<sn:string id="0xFA3C">FoudresDA</sn:string>
+<sn:string id="0xFA3D"></sn:string>
+<sn:string id="0xFA3E"></sn:string>
+<sn:string id="0xFA3F">InvDragon</sn:string>
+<sn:string id="0xFA40">InvTortue</sn:string>
+<sn:string id="0xFA41">InvTigre</sn:string>
+<sn:string id="0xFA42">É.Verm.GO</sn:string>
+<sn:string id="0xFA43"></sn:string>
+<sn:string id="0xFA44"></sn:string>
+<sn:string id="0xFA45"></sn:string>
+<sn:string id="0xFA46"></sn:string>
+<sn:string id="0xFA50"></sn:string>
+<sn:string id="0xFA51"></sn:string>
+<sn:string id="0xFA52"></sn:string>
+<sn:string id="0xFA53"></sn:string>
+<sn:string id="0xFA54"></sn:string>
+<sn:string id="0xFA55">PaumeQig.</sn:string>
+<sn:string id="0xFA56">PaumeMété</sn:string>
+<sn:string id="0xFA57">P.Psych</sn:string>
+<sn:string id="0xFA58">Pd.Qigong</sn:string>
+<sn:string id="0xFA59">(néant)</sn:string>
+<sn:string id="0xFA5A">(néant)</sn:string>
+<sn:string id="0xFA5B">Tonnerre</sn:string>
+<sn:string id="0xFA5C">Emprise</sn:string>
+<sn:string id="0xFA5D">Blâmes</sn:string>
+<sn:string id="0xFA5E">Triomphe</sn:string>
+<sn:string id="0xFA5F">BGZhSaku</sn:string>
+<sn:string id="0xFA60">Éc.Sakura</sn:string>
+<sn:string id="0xFA61"></sn:string>
+<sn:string id="0xFA62"></sn:string>
+<sn:string id="0xFA63"></sn:string>
+<sn:string id="0xFA64"></sn:string>
+<sn:string id="0xFA65"></sn:string>
+<sn:string id="0xFA66"></sn:string>
+<sn:string id="0xFA67"></sn:string>
+<sn:string id="0xFA68"></sn:string>
+<sn:string id="0xFA69"></sn:string>
+<sn:string id="0xFA6A"></sn:string>
+<sn:string id="0xFA6B"></sn:string>
+<sn:string id="0xFA6C"></sn:string>
+<sn:string id="0xFA6D"></sn:string>
+<sn:string id="0xFA6E"></sn:string>
+<sn:string id="0xFA6F"></sn:string>
+<sn:string id="0xFA70"></sn:string>
+<sn:string id="0xFA71"></sn:string>
+<sn:string id="0xFA72"></sn:string>
+<sn:string id="0xFA73"></sn:string>
+<sn:string id="0xFA74"></sn:string>
+<sn:string id="0xFA75"></sn:string>
+<sn:string id="0xFA76">B.Cyclone</sn:string>
+<sn:string id="0xFA77"></sn:string>
+<sn:string id="0xFA78">B.Cyc.Ver</sn:string>
+<sn:string id="0xFA79">B.Rafale</sn:string>
+<sn:string id="0xFA7A">B.Raf.Mut</sn:string>
+<sn:string id="0xFA7B">B.Raf.Tyr</sn:string>
+<sn:string id="0xFA7C">B.Frimas</sn:string>
+<sn:string id="0xFA7D">B.VolantH</sn:string>
+<sn:string id="0xFA7E">Coupure R</sn:string>
+<sn:string id="0xFA7F">E.R.S.</sn:string>
+<sn:string id="0xFA80">BringueGO</sn:string>
+<sn:string id="0xFA81"></sn:string>
+</sn:strings>

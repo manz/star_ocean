@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:strings xmlns:sn="http://snes.ninja/ScriptNS">
+<sn:string id="0xEA74">(Vide)</sn:string>
+<sn:string id="0xEA76">Choisir depuis le menu des talents.</sn:string>
+<sn:string id="0xEA77">Assigner à un bouton les mouvements spéciaux utilisés en combat.</sn:string>
+<sn:string id="0xEA78">Déterminer les sorts utilisés automatiquement en combat.</sn:string>
+<sn:string id="0xEA79">Pas de talents</sn:string>
+<sn:string id="0xEA7E"></sn:string>
+<sn:string id="0xEA7F">Réussi !</sn:string>
+<sn:string id="0xEA80">Raté.</sn:string>
+<sn:string id="0xEA83">Création d'objet...</sn:string>
+<sn:string id="0xEA84">Identification d'objet...</sn:string>
+<sn:string id="0xEA85">Création de chanson...</sn:string>
+<sn:string id="0xEA88">Le plus récent en premier.</sn:string>
+<sn:string id="0xEA89">Utilisable en combat en premier.</sn:string>
+<sn:string id="0xEA8A">Ordre alphabétique.</sn:string>
+<sn:string id="0xEA8B">Armes en premier.</sn:string>
+<sn:string id="0xEA8C">Armures en premier.</sn:string>
+<sn:string id="0xEA8D">Accessoires en premier.</sn:string>
+<sn:string id="0xEA8E">Objets utilisables en premier.</sn:string>
+<sn:string id="0xEA92">Créer des objets.</sn:string>
+<sn:string id="0xEA93">Consulter les objets précieux.</sn:string>
+<sn:string id="0xEA9C">Équipement optimal. Les emplacements “autre" restent vides.</sn:string>
+<sn:string id="0xEA9D">En changeant un équipement sauf “autre", se commute automatiquement sur "Non".</sn:string>
+<sn:string id="0xEDE6">Talent</sn:string>
+<sn:string id="0xEDE7">Objets</sn:string>
+<sn:string id="0xEDE8">Tactique</sn:string>
+<sn:string id="0xEDE9">Config.</sn:string>
+<sn:string id="0xEDEA">Équiper</sn:string>
+<sn:string id="0xEDEB">Formation</sn:string>
+<sn:string id="0xEDEC">Statut</sn:string>
+<sn:string id="0xEDED">Sauver</sn:string>
+<sn:string id="0xEDEE">Charger</sn:string>
+<sn:string id="0xEDEF">Magasin</sn:string>
+<sn:string id="0xEDF0"></sn:string>
+<sn:string id="0xEDF2">Nommer</sn:string>
+<sn:string id="0xEDFF">Échange</sn:string>
+<sn:string id="0xEE00">Savoir</sn:string>
+<sn:string id="0xEE48"></sn:string>
+<sn:string id="0xEEB6">Choisir les objets avec le curseur puis “Appliquer".</sn:string>
+<sn:string id="0xEEB7"></sn:string>
+<sn:string id="0xEEB8">(Dés)active la description. Augmente/réduit la quantité</sn:string>
+<sn:string id="0xEEBA">En choisissant des objets, sélectionnez “Pigeon", l'utilisation du pigeon sera comptabilisée.</sn:string>
+<sn:string id="0xEEC0">Achat d'objets</sn:string>
+<sn:string id="0xEEC1">Vente d'objets</sn:string>
+<sn:string id="0xEEC2">Acheter/vendre puis quitter le magasin.</sn:string>
+<sn:string id="0xEEC3">Vous n'avez pas assez de Fol.</sn:string>
+<sn:string id="0xEEC5">Sélectionnez un pigeon.</sn:string>
+<sn:string id="0xEEC6">Envoi d'un pigeon.</sn:string>
+<sn:string id="0xEEC7"></sn:string>
+<sn:string id="0xEEC8">Vous n'avez pas assez de Fol.</sn:string>
+<sn:string id="0xEECA">Transaction interrompue.</sn:string>
+<sn:string id="0xEECB">Merci beaucoup.</sn:string>
+<sn:string id="0xF1CC">(Arme)</sn:string>
+<sn:string id="0xF1CD">(Armure)</sn:string>
+<sn:string id="0xF1CE">(Accessoire)</sn:string>
+<sn:string id="0xF1CF">(Objets)</sn:string>
+<sn:string id="0xF1FE"></sn:string>
+<sn:string id="0xF1FF">?</sn:string>
+<sn:string id="0xF200"></sn:string>
+<sn:string id="0xF230">Vous n'avez rien fabriqué.</sn:string>
+<sn:string id="0xF231">Sans rire, c'est quoi?</sn:string>
+<sn:string id="0xF232">Hou là, je l'imaginais pas comme ça !</sn:string>
+<sn:string id="0xF233">...</sn:string>
+<sn:string id="0xF234">Ça craint !!</sn:string>
+<sn:string id="0xF235">J'aurais honte de montrer ça à quelqu'un.</sn:string>
+<sn:string id="0xF236">Oups ! C'est moi qui ai fait ça !?</sn:string>
+<sn:string id="0xF237">Alors vraiment, c'est un peu...</sn:string>
+<sn:string id="0xF238">J'ai l'impression que c'est bien, je rêve ?</sn:string>
+<sn:string id="0xF239">Il ne me reste plus qu'à cacher ça...</sn:string>
+<sn:string id="0xF23A">Hmm... J'ai créé quelque chose d'inattendu.</sn:string>
+<sn:string id="0xF23B">Quelle horreur !! J'ai quand même pas fait ça !</sn:string>
+<sn:string id="0xF23C">Mieux vaut cacher ça en vitesse.</sn:string>
+<sn:string id="0xF424"></sn:string>
+<sn:string id="0xF425">Échec de l'identification.</sn:string>
+<sn:string id="0xF426">La chanson n'a pas été composée.</sn:string>
+<sn:string id="0xFA00">Flamme
+Attaque/Feu. Lance une boule de feu.</sn:string>
+<sn:string id="0xFA01">Glacier
+Attaque/Glace. Lance des lames de glace.</sn:string>
+<sn:string id="0xFA02">Tombeau
+Attaque/Terre. Projette des rochers depuis le sol.</sn:string>
+<sn:string id="0xFA03">Brise
+Attaque/Vent. Crée un tourbillon.</sn:string>
+<sn:string id="0xFA04">Mazout
+Attaque/Ombre.</sn:string>
+<sn:string id="0xFA05">Éruption
+Attaque/Feu. Répand du magma.</sn:string>
+<sn:string id="0xFA06">Blizzard
+Attaque/Eau. Crée une tempête de neige.</sn:string>
+<sn:string id="0xFA07">Sismique
+Attaque/Terre. Tombeau, attaque de zone.</sn:string>
+<sn:string id="0xFA08">Foudre
+Attaque/Foudre. Provoque une électrocution.</sn:string>
+<sn:string id="0xFA09">Lésions
+Attaque/Ombre.</sn:string>
+<sn:string id="0xFA0A">Rayons
+Attaque/Lumière. Brûle l'ennemi avec rayon lumineux.</sn:string>
+<sn:string id="0xFA0B">Traction
+Attaque/Non élémental. Manipule la gravité, soulève les ennemis et les projette au sol.</sn:string>
+<sn:string id="0xFA0C">Pyros
+Attaque/Feu. Provoque une énorme explosion, attaque de zone.</sn:string>
+<sn:string id="0xFA0D"></sn:string>
+<sn:string id="0xFA0E">Secousse
+Attaque/Terre. Provoque un tremblement de terre.</sn:string>
+<sn:string id="0xFA0F">Tempête
+Attaque/Foudre. Crée un éclair foudroyant.</sn:string>
+<sn:string id="0xFA10">Vaudou
+Attaque/Mort.</sn:string>
+<sn:string id="0xFA11">Lumière
+Attaque/Lumière.</sn:string>
+<sn:string id="0xFA12"></sn:string>
+<sn:string id="0xFA13">Météores
+Attaque/Lumière.</sn:string>
+<sn:string id="0xFA14">Néant
+Attaque/non élémental. Désintègre l'ennemi.</sn:string>
+<sn:string id="0xFA15">Gremlins
+Attaque/non élémental. Invoque d'innombrables esprits affamés depuis le monde des démons.</sn:string>
+<sn:string id="0xFA16">Astre
+Attaque/Non élémental. Fait tomber une pluie de météores.</sn:string>
+<sn:string id="0xFA17">Macabre
+Dévore les ennemis ayant moins d'1/4 de PV.</sn:string>
+<sn:string id="0xFA18">Soin
+Restaure un peu de PV à un seul allié.</sn:string>
+<sn:string id="0xFA19">Poix
+Diminue le taux de réussite des attaques ennemies.</sn:string>
+<sn:string id="0xFA1A">Presse
+Écrabouille l'ennemi.</sn:string>
+<sn:string id="0xFA1B">Gaz moutarde
+Paralyse l'ennemi.</sn:string>
+<sn:string id="0xFA1C">Antidote
+Soigne du poison.</sn:string>
+<sn:string id="0xFA1D">Silence
+L'ennemi ne peut plus utiliser la magie.</sn:string>
+<sn:string id="0xFA1E">Pluie acide
+Diminue la défense de l'ennemi.</sn:string>
+<sn:string id="0xFA1F">Mercurochrome
+Restaure les PV de tous les alliés.</sn:string>
+<sn:string id="0xFA20">Croissance
+Augmente l'attaque d'un allié.</sn:string>
+<sn:string id="0xFA21">Thérapie
+Restaure les PV de tous les alliés.</sn:string>
+<sn:string id="0xFA22">Bouclier
+Augmente la défense d'un allié.</sn:string>
+<sn:string id="0xFA23">Dissipation
+Annule les sorts diminuant l'attaque ou de soutien.</sn:string>
+<sn:string id="0xFA24">Hâte
+Augmente la vitesse d'un allié.</sn:string>
+<sn:string id="0xFA25">Lenteur
+Réduit la vitesse d'un ennemi.</sn:string>
+<sn:string id="0xFA26">Féerie
+Restaure les PV d'un allié.</sn:string>
+<sn:string id="0xFA27">Enchantement
+Restaure les PV d'un allié.</sn:string>
+<sn:string id="0xFA28">Gravité
+Variante plus puissante de Presse.</sn:string>
+<sn:string id="0xFA29">Lazarus
+Ranime un allié inconscient.</sn:string>
+<sn:string id="0xFA2A">Double tranchant
+En deux mouvements : un coup vers le haut, puis un coup rapide vers le bas.</sn:string>
+<sn:string id="0xFA2B">Rafale
+Vague d'attaque à distance.</sn:string>
+<sn:string id="0xFA2C">Contre fente
+Onde de choc autour de vous.</sn:string>
+<sn:string id="0xFA2D">Boutoir mental
+Lance une onde de choc.</sn:string>
+<sn:string id="0xFA2E">Épée éclair
+Attaque élémentale de foudre (1 ennemi).</sn:string>
+<sn:string id="0xFA2F">Épée vermeil
+Attaque élémentale de feu (1 ennemi).</sn:string>
+<sn:string id="0xFA30">Épée flash
+Attaque l'ennemi avec des éclairs lumineux.</sn:string>
+<sn:string id="0xFA31">Dragon de foudre
+Ohgi des 4 bêtes sacrées. Acquiert la puissance du Dragon Azur.</sn:string>
+<sn:string id="0xFA32">Souffle du moineau
+Ohgi des 4 bêtes sacrées. Acquiert la puissance de l'Oiseau Perdu.</sn:string>
+<sn:string id="0xFA33">Épée éclair de la Grande Ourse
+Épée de foudre, ohgi de la Grande Ourse.</sn:string>
+<sn:string id="0xFA34">Épée flash de la Grande Ourse
+Épée flash, ohgi de la Grande Ourse.</sn:string>
+<sn:string id="0xFA35">Double lame de la Grande Ourse
+Double lame, ohgi de la Grande Ourse.</sn:string>
+<sn:string id="0xFA36">Double estoc</sn:string>
+<sn:string id="0xFA37">Griffe de dragon</sn:string>
+<sn:string id="0xFA38">Météore</sn:string>
+<sn:string id="0xFA39">Fureur du dragon
+Sa puissance égale celle d'un dragon.</sn:string>
+<sn:string id="0xFA3A">Foudres du dragon noir
+Fureur du dragon, ohgi du dieu Dragon.</sn:string>
+<sn:string id="0xFA3B">Foudres du dragon rouge
+Souffle du moineau, ohgi du dieu Dragon.</sn:string>
+<sn:string id="0xFA3C">Foudres du dragon azur
+Lame de foudre du dragon azur, ohgi du dieu Dragon.</sn:string>
+<sn:string id="0xFA3D">Foudres de la Grande ourse
+Boutoir mental, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA3E"></sn:string>
+<sn:string id="0xFA3F">Invocation du dragon azur
+Épée flash, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA40">Invocation du guerrier sombre
+Boutoir mental, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA41">Invocation du tigre blanc
+Contre fente, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA42">Épée vermeil de la Grande Ourse
+Épée vermeil, ohgi de la Grande Ourse</sn:string>
+<sn:string id="0xFA43">Épée du corbeau
+Épée volante. Dotée d'une volonté propre.</sn:string>
+<sn:string id="0xFA44">Lame dansante
+Attire la cible et l'achève.</sn:string>
+<sn:string id="0xFA45">3 volées
+Lance trois épées successivement.</sn:string>
+<sn:string id="0xFA46">Triple orientation
+Lance trois épées dans trois directions.</sn:string>
+<sn:string id="0xFA50">Jet d'eau
+Lame ayant la force de l'eau.</sn:string>
+<sn:string id="0xFA51">Souffle du dieu de la Galaxie
+Lame ayant la force des astres.</sn:string>
+<sn:string id="0xFA52">Jet Sylvanien
+Triple orientation, ohgi de Hachiman.</sn:string>
+<sn:string id="0xFA53">Terreur impie
+Souffle du dieu de la Galaxie, ohgi de Hachiman.</sn:string>
+<sn:string id="0xFA54">Terreur victorieuse
+Terreur impie, ohgi de Hachiman.</sn:string>
+<sn:string id="0xFA55">Paume Qigong
+Projection psychique sur l'ennemi.</sn:string>
+<sn:string id="0xFA56">Poing météore
+Coup de poing puissant vers le bas.</sn:string>
+<sn:string id="0xFA57">Poing psychique
+L'énergie psychique est accumulée puis libérée par salves.</sn:string>
+<sn:string id="0xFA58">Coup de pied Qigong
+L'énergie psychique est utilisée pour donner de violents coups de pieds.</sn:string>
+<sn:string id="0xFA59"></sn:string>
+<sn:string id="0xFA5A"></sn:string>
+<sn:string id="0xFA5B">Tonnerre du dragon azur
+Paume Qigong, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA5C">Emprise de la tortue noire
+Coup de pied Qigong, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA5D">Blâmes du tigre blanc
+Poing psychique, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA5E">Souffle du moineau
+Paume météore, ohgi des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFA5F">Coup du cerisier
+Technique née de l'ohgi du Baguazhang.</sn:string>
+<sn:string id="0xFA60">Éclat inversé du cerisier
+Coup du cerisier, ohgi du cerisier inversé.</sn:string>
+<sn:string id="0xFA61">Orbe du corbeau
+Orbe flottante. L'orbe de cristal flotte librement, telle le corbeau.</sn:string>
+<sn:string id="0xFA62">Orbe incandescente
+Orbe de cristal couverte de flammes (1 ennemi).</sn:string>
+<sn:string id="0xFA63">Orbe de grêle
+Orbe de cristal couverte de glace (1 ennemi).</sn:string>
+<sn:string id="0xFA64">Orbe de foudre
+Orbe de cristal couverte de foudre (1 ennemi).</sn:string>
+<sn:string id="0xFA65">Arche de cristal
+Empêche l'ennemi d'attaquer.</sn:string>
+<sn:string id="0xFA66">Cristal de soie
+Empêche l'ennemi de se déplacer.</sn:string>
+<sn:string id="0xFA67">Croix du sud
+Attaque avec la puissance de la Croix du Sud.</sn:string>
+<sn:string id="0xFA68">Grande Ourse
+Attaque avec la puissance de la Grande Ourse.</sn:string>
+<sn:string id="0xFA69">Galaxie
+Attaque avec la puissance de l'univers.</sn:string>
+<sn:string id="0xFA6A">Danse brillante
+Danse stylée qui émet une lumière éblouissante.</sn:string>
+<sn:string id="0xFA6B">Danse prismatique
+Danse au milieu des sept couleurs de l'arc-en-ciel.</sn:string>
+<sn:string id="0xFA6C">Danse magique
+Danse magique fascinant ceux qui la regardent.</sn:string>
+<sn:string id="0xFA6D">Multipoing
+Des copycats apparaissent et frappent de concert.
+On les appelle les sœurs minettes.</sn:string>
+<sn:string id="0xFA6E">Missile à propagation
+Bombe explosant au-dessus d'une vaste zone.</sn:string>
+<sn:string id="0xFA6F">Coup de pied sauté♪
+Frappe avec le talon vers le bas.</sn:string>
+<sn:string id="0xFA70">Une ! Deux ! Trois !♪
+Combinaison de trois coups.</sn:string>
+<sn:string id="0xFA71">S.P., P. Galipette C
+Coup de poing en sautant, puis coup de poing, et enfin une galipette explosive.</sn:string>
+<sn:string id="0xFA72">Danse Panique
+Danse hispanique perturbant qui la regarde.</sn:string>
+<sn:string id="0xFA73">Danse Charmeuse
+Une pose aguicheuse. N'importe qui lui pardonnerait en la voyant avec cette attitude.</sn:string>
+<sn:string id="0xFA74">Combo de rêve
+Une combinaison où le nombre de frappes réussies fait rêver. N'est-ce pas bon d'enchaîner soi-même les techniques ?</sn:string>
+<sn:string id="0xFA75">Aaah!</sn:string>
+<sn:string id="0xFA76">Bâton cyclone
+Vous ne faites pas tourner un bâton, c'est vous qui tournez autour de lui à grande vitesse.</sn:string>
+<sn:string id="0xFA77"></sn:string>
+<sn:string id="0xFA78">Bâton cyclone vermeil. Bâton cyclone, ohgi du Baguazhang.</sn:string>
+<sn:string id="0xFA79">Bâton rafale. Technique en deux temps, où vous agitez un bâton comme une bourrasque.</sn:string>
+<sn:string id="0xFA7A">Bâton rafale mutileur. Bâton rafale, ohgi du Baguazhang.</sn:string>
+<sn:string id="0xFA7B">Bâton rafale tyran. Technique en quatre temps, où votre bâton déclenche une bourrasque.</sn:string>
+<sn:string id="0xFA7C">Bâton frimas. Lance de l'air glacial.</sn:string>
+<sn:string id="0xFA7D">Réservé.</sn:string>
+<sn:string id="0xFA7E">Tranche miroir. Lance une attaque unique, assez acérée pour couper en deux le reflet de la lune dans l'eau.</sn:string>
+<sn:string id="0xFA7F">Réservé.</sn:string>
+<sn:string id="0xFA80">Vacarme de la Grande Ourse. Ohgi du Baguazhang, ohgi de la Grande Ourse.</sn:string>
+<sn:string id="0xFA81">Cristal de la Mort. Attaque avec la puissance de la mort.</sn:string>
+<sn:string id="0xFB2C"></sn:string>
+<sn:string id="0xFB2D">Obtenu 50 PS en bonus.</sn:string>
+<sn:string id="0xFB2E"></sn:string>
+<sn:string id="0xFB90">'s </sn:string>
+<sn:string id="0xFB91">abiletés</sn:string>
+<sn:string id="0xFB92">talents</sn:string>
+<sn:string id="0xFB93"> augmente !</sn:string>
+<sn:string id="0xFB94"> talent </sn:string>
+<sn:string id="0xFB9A">".</sn:string>
+<sn:string id="0xFB9B">!</sn:string>
+<sn:string id="0xFB9C">augmente de </sn:string>
+<sn:string id="0xFB9D"></sn:string>
+<sn:string id="0xFB9E"></sn:string>
+<sn:string id="0xFBC2"> a été reçu !</sn:string>
+<sn:string id="0xFBC3">Commande de talent</sn:string>
+<sn:string id="0xFBC4"> a été appris.</sn:string>
+<sn:string id="0xFBC5"></sn:string>
+<sn:string id="0xFBC6"> est débloqué.</sn:string>
+<sn:string id="0xFBC7">Niveau du talent</sn:string>
+<sn:string id="0xFBC8"> a été créé.</sn:string>
+<sn:string id="0xFBC9">Commande de talent</sn:string>
+<sn:string id="0xFBCA"></sn:string>
+<sn:string id="0xFBCB"> identifié.</sn:string>
+<sn:string id="0xFBE0">0</sn:string>
+<sn:string id="0xFBE1">1</sn:string>
+<sn:string id="0xFBE2">2</sn:string>
+<sn:string id="0xFBE3">3</sn:string>
+<sn:string id="0xFBE4">4</sn:string>
+<sn:string id="0xFBE5">5</sn:string>
+<sn:string id="0xFBE6">6</sn:string>
+<sn:string id="0xFBE7">7</sn:string>
+<sn:string id="0xFBE8">8</sn:string>
+<sn:string id="0xFBE9">9</sn:string>
+<sn:string id="0xFBEA">10</sn:string>
+<sn:string id="0xFBF4">Biologie           Connaissance du vivant. Bonus de PV : 10x(NV savoir)²</sn:string>
+<sn:string id="0xFBF5">Botanique          Connaissance des plantes. Bonus réparation objets courants : 2x(NV savoir)%</sn:string>
+<sn:string id="0xFBF6">Psychologie        Connaissance de la psychologie et des forces de l'esprit. Bonus en PM : (NV savoir)²</sn:string>
+<sn:string id="0xFBF7">Minéralogie        Connaissance des minéraux et gemmes.</sn:string>
+<sn:string id="0xFBF8">Outillage          Maîtrise de divers outils et armes.</sn:string>
+<sn:string id="0xFBF9">Théologie          Croyance et connaissance profondes des dieux. Bonus en Intelligence : 2+(NV savoir)</sn:string>
+<sn:string id="0xFBFA">Cordon bleu        Connaissance de bons petits plats.</sn:string>
+<sn:string id="0xFBFB">Solfège            Connaissance de la musique.</sn:string>
+<sn:string id="0xFBFC">Folklore           Connaissance des fées, elfes, et origines de la vie.</sn:string>
+<sn:string id="0xFBFD">Esthétisme          L'amour de la beauté, sa maturité.</sn:string>
+<sn:string id="0xFBFE">Expert              Sélectionner des ingrédients de qualité.</sn:string>
+<sn:string id="0xFBFF">Efficacité          Savoir équilibrer la beauté et la force.</sn:string>
+<sn:string id="0xFC00">Sens de l'Humour    Ouverture d'esprit pour oublier les facéties des dieux.</sn:string>
+<sn:string id="0xFC01">Sens du Danger      Discerner toute menace proche. Bonus en attaque surprise : -4x(NV savoir)%</sn:string>
+<sn:string id="0xFC02">Ondes Radio         Pouvoir surnaturel de percevoir les appels d'une présence inconnue.</sn:string>
+<sn:string id="0xFC03">Obstination         Se concentrer sur un objectif jour après jour. Les PS requis pour les savoirs diminuent avec le niveau du savoir.</sn:string>
+<sn:string id="0xFC04">Persévérance        Faire front à n'importe quoi. Bonus en Cran : 3x(NV savoir).</sn:string>
+<sn:string id="0xFC05">Stoïcisme           Supporter en silence douleur et tristesse. Bonus en Constitution : 2x(NV savoir).</sn:string>
+<sn:string id="0xFC06">Doigté              Technique minutieuse. Bonus en Agilité : 2x(NV savoir).</sn:string>
+<sn:string id="0xFC07">Couteau de cuisine  Savoir choisir un couteau, indispensable à un cuisinier. Bonus en Force : 2x(NV savoir).</sn:string>
+<sn:string id="0xFC08">Interprétation      Savoir jouer d'un instrument de musique.</sn:string>
+<sn:string id="0xFC09">Siffler             Technique pour siffler avec ses doigts.</sn:string>
+<sn:string id="0xFC0A">Dessin              Capacité de reproduire fidèlement l'image de quelque chose.</sn:string>
+<sn:string id="0xFC0B">Écriture            Travail intellectuel intense consistant à écrire des essais et études. Bonus en Agilité : 4x(NV savoir).</sn:string>
+<sn:string id="0xFC0C">Haut fourneau       Savoir faire fondre et forger des minerais.</sn:string>
+<sn:string id="0xFC0D">Technoscience       Techniques liées à la distillation et aux outils d'expérimentation.</sn:string>
+<sn:string id="0xFC0E">Marathon            Course intensive sur une longue distance. Bonus en Endurance : 4x(NV savoir).</sn:string>
+<sn:string id="0xFC0F">Domptage            Dresser des animaux.</sn:string>
+<sn:string id="0xFC10">Onde de Choc        Possibilité d'effectuer des attaques ignorant les défenses de l'ennemi.</sn:string>
+<sn:string id="0xFC11">Impact aérien       Possibilité de frapper l'ennemi haut dans les airs.</sn:string>
+<sn:string id="0xFC12">Volte face          Possibilité se retrouver derrière l'ennemi pour le frapper.</sn:string>
+<sn:string id="0xFC13">Riposte             Possibilité d'attaquer automatiquement en esquivant.</sn:string>
+<sn:string id="0xFC14">Feinte              Possibilité de frapper l'ennemi à coup sûr.</sn:string>
+<sn:string id="0xFC15">Concentrer          Possibilité d'augmenter la puissance d'attaque.</sn:string>
+<sn:string id="0xFC16">Combos              Permet de combiner les mouvements spéciaux, le nombre de combinaisons augmentant avec le NV savoir.</sn:string>
+<sn:string id="0xFC17">Prolixe             Possibilité de lancer un sort instantanément.</sn:string>
+<sn:string id="0xFC18">Épée Corbeau        Technique originale d'épée volante enseignée dans la cavalerie du royaume Astral.</sn:string>
+<sn:string id="0xFC19">Orbe Corbeau        Technique permettant de contrôler librement la transformation de l'Orbe corbeau.</sn:string>
+<sn:string id="0xFC1A">Bagarre             Combat à mains nues ou avec des bâtons.</sn:string>
+<sn:string id="0xFC1B">Escrime Edarl       Maniement d'épée à deux mains, répandu à Astral.</sn:string>
+<sn:string id="0xFC1C">Escrime autodidacte Maniement d'épée autodidacte à partir du style Edarl.</sn:string>
+<sn:string id="0xFC1D">Charaté♪       Son style de combat unique et autodidacte. Boum !</sn:string>
+<sn:string id="0xFC1E">Grande Ourse        Ohgi requis pour les techniques mortelles de la Grande Ourse.</sn:string>
+<sn:string id="0xFC1F">4 Animaux           Ohgi requis pour les techniques mortelles des 4 bêtes sacrées.</sn:string>
+<sn:string id="0xFC20">Dragon Empereur     Ohgi requis pour les techniques mortelles du Dragon Empereur.</sn:string>
+<sn:string id="0xFC21">Hachiman            Ohgi requis pour les techniques mortelles de Hachiman.</sn:string>
+<sn:string id="0xFC22">Baguazhang          Ohgi requis pour les techniques mortelles du Gagwazhang.</sn:string>
+<sn:string id="0xFC23">Dessous de cerisier Ohgi requis pour les techniques mortelles du cerisier inversé.</sn:string>
+<sn:string id="0xFC24">Chat♪          Ohgi requis pour les techniques mortelles du chat♪</sn:string>
+<sn:string id="0xFC30">Orfèvre:Créez des accessoires à partir de joyaux.</sn:string>
+<sn:string id="0xFC31">Cuistot:Cuisinez de bons petits plats à partir d'ingrédients.</sn:string>
+<sn:string id="0xFC32">Toubib:Combinez deux herbes et créez des objets de soins.</sn:string>
+<sn:string id="0xFC33">Savant:Identifiez des objets non reconnus.</sn:string>
+<sn:string id="0xFC34">Ajusteur:Personnalisez les armes à votre goût pour les rendre uniques.</sn:string>
+<sn:string id="0xFC35">Artiste:Dessinez, dupliquez, et modifiez des objets.</sn:string>
+<sn:string id="0xFC36">Auteur:Rédigez des livres techniques permettant d'acquérir de nouveauy savoirs.</sn:string>
+<sn:string id="0xFC37">Musicien:Écrivez et jouez de la musique.</sn:string>
+<sn:string id="0xFC38">Entraînement:Augmentez le nombre de points d'expérience gagnés.</sn:string>
+<sn:string id="0xFC39">Chimiste:Créez des gemmes précieuses et des minéraux à partir de fer.</sn:string>
+<sn:string id="0xFC3A">Oracle:Recevoir des message de remerciement des dieux de la création, Tri-Ace.</sn:string>
+<sn:string id="0xFC3B">Forgeron:Combinez des armes et des minéraux pour créer de nouvelles armes.</sn:string>
+<sn:string id="0xFC3C">Coureur:Appuyez sur B pour augmenter la vitesse de déplacement.</sn:string>
+<sn:string id="0xFC3D">Oiselier:Envoyez un pigeon faire vos courses même depuis le fond d'un donjon.</sn:string>
+<sn:string id="0xFC3E">Pisteur:Permet de modifier le taux de rencontres.</sn:string>
+<sn:string id="0xFC3F">Même effet que la bouteille runique</sn:string>
+<sn:string id="0xFC40">Réparez des objets brisés.</sn:string>
+<sn:string id="0xFC41">   </sn:string>
+<sn:string id="0xFC58">Orfèvre</sn:string>
+<sn:string id="0xFC59">Cuistot</sn:string>
+<sn:string id="0xFC5A">Toubib</sn:string>
+<sn:string id="0xFC5B">Savant</sn:string>
+<sn:string id="0xFC5C">Ajusteur</sn:string>
+<sn:string id="0xFC5D">Artiste</sn:string>
+<sn:string id="0xFC5E">Auteur</sn:string>
+<sn:string id="0xFC5F">Musicien</sn:string>
+<sn:string id="0xFC60">Entraînement</sn:string>
+<sn:string id="0xFC61">Chimiste</sn:string>
+<sn:string id="0xFC62">Oracle</sn:string>
+<sn:string id="0xFC63">Forgeron</sn:string>
+<sn:string id="0xFC64">Coureur</sn:string>
+<sn:string id="0xFC65">Oiselier</sn:string>
+<sn:string id="0xFC66">Pisteur</sn:string>
+<sn:string id="0xFC67">Envoûter</sn:string>
+<sn:string id="0xFC68">Rétameur</sn:string>
+<sn:string id="0xFC6C">Orfèvre</sn:string>
+<sn:string id="0xFC6D">Cuistot</sn:string>
+<sn:string id="0xFC6E">Mixeur</sn:string>
+<sn:string id="0xFC6F">Savant</sn:string>
+<sn:string id="0xFC70">Ajusteur</sn:string>
+<sn:string id="0xFC71">Artiste</sn:string>
+<sn:string id="0xFC72">Auteur</sn:string>
+<sn:string id="0xFC73">Musicien</sn:string>
+<sn:string id="0xFC74">Entraînement</sn:string>
+<sn:string id="0xFC75">Chimiste</sn:string>
+<sn:string id="0xFC76">Oracle</sn:string>
+<sn:string id="0xFC77">Forgeron</sn:string>
+<sn:string id="0xFC78">Coureur</sn:string>
+<sn:string id="0xFC79">Oiselier</sn:string>
+<sn:string id="0xFC7A">Pisteur</sn:string>
+<sn:string id="0xFC7B">Envoûter</sn:string>
+<sn:string id="0xFC7C">Rétameur</sn:string>
+<sn:string id="0xFCBC">  </sn:string>
+<sn:string id="0xFCBD">Originalité naturelle.</sn:string>
+<sn:string id="0xFCBE">Sensibilité naturelle pour faire s'extasier tout le monde.</sn:string>
+<sn:string id="0xFCBF">Capacité naturelle de remuer le bout des doigts à volonté.</sn:string>
+<sn:string id="0xFCC0">Capacité surnaturelle dans le domaine de l'art.</sn:string>
+<sn:string id="0xFCC1">Coucher ses pensées à l'écrit.</sn:string>
+<sn:string id="0xFCC2">Saisir avec précision un rythme musical.</sn:string>
+<sn:string id="0xFCC3">Saisir avec précision les mélodies.</sn:string>
+<sn:string id="0xFCC4">Amour des animaux, ce n'est pas à la portée de tous.</sn:string>
+<sn:string id="0xFCC5">Ressentir ce que l'on ne peut exprimer avec des mots.</sn:string>
+<sn:string id="0xFCC6">Pouvoir magique inné.</sn:string>
+<sn:string id="0xFCD0"></sn:string>
+<sn:string id="0xFCD1">Trompette 1:Baisse du taux de rencontres ennemies.</sn:string>
+<sn:string id="0xFCD2">Trompette 2:Baisse du taux de rencontres ennemies.</sn:string>
+<sn:string id="0xFCD3">Clarinette 1:Pour rencontrer des ennemis spécifiques.</sn:string>
+<sn:string id="0xFCD4">Clarinette 2:Pour rencontrer des ennemis spécifiques.</sn:string>
+<sn:string id="0xFCD5">Harmonica 1:Augmente le taux de rencontres ennemies.</sn:string>
+<sn:string id="0xFCD6">Harmonica 2:Augmente le taux de rencontres ennemies.</sn:string>
+<sn:string id="0xFCD7">Shamisen 1:Augmente les Fol reçus.</sn:string>
+<sn:string id="0xFCD8">Shamisen 2:Augmente les Fol reçus.</sn:string>
+<sn:string id="0xFCD9">Guitare 1:Récupération de PV.</sn:string>
+<sn:string id="0xFCDA">Guitare 2:Récupération de PV.</sn:string>
+<sn:string id="0xFCDB">Trombone 1:Récupération de PV et PM.</sn:string>
+<sn:string id="0xFCDC">Trombone 2:Récupération de PV et PM.</sn:string>
+<sn:string id="0xFCDD">Violon 1:L'effet de cette mélodie est inconnu.</sn:string>
+<sn:string id="0xFCDE">Violon 2:L'effet de cette mélodie est inconnu.</sn:string>
+<sn:string id="0xFCDF">Saxophone 1:Récupération de PM.</sn:string>
+<sn:string id="0xFCE0">Saxophone 2:Récupération de PM.</sn:string>
+<sn:string id="0xFCE4"></sn:string>
+<sn:string id="0xFCE5">Trompette 1 écrite.</sn:string>
+<sn:string id="0xFCE6">Trompette 2 écrite.</sn:string>
+<sn:string id="0xFCE7">Clarinette 1 écrite.</sn:string>
+<sn:string id="0xFCE8">Clarinette 2 écrite.</sn:string>
+<sn:string id="0xFCE9">Harmonica 1 écrit.</sn:string>
+<sn:string id="0xFCEA">Harmonica 2 écrit.</sn:string>
+<sn:string id="0xFCEB">Shamisen 1 écrit.</sn:string>
+<sn:string id="0xFCEC">Shamisen 2 écrit.</sn:string>
+<sn:string id="0xFCED">Guitare 1 écrite.</sn:string>
+<sn:string id="0xFCEE">Guitare 2 écrite.</sn:string>
+<sn:string id="0xFCEF">Trombone 1 écrit.</sn:string>
+<sn:string id="0xFCF0">Trombone 2 écrit.</sn:string>
+<sn:string id="0xFCF1">Violon 1 écrit.</sn:string>
+<sn:string id="0xFCF2">Violon 2 écrit.</sn:string>
+<sn:string id="0xFCF3">Saxophone 1 écrit.</sn:string>
+<sn:string id="0xFCF4">Saxophone 2 écrit.</sn:string>
+<sn:string id="0xFCF8"></sn:string>
+<sn:string id="0xFCF9">Vous avez senti que quelque chose aurait dû se passer, mais c'est un échec.</sn:string>
+<sn:string id="0xFCFA">Vous avez senti quelque chose, mais c'est un échec.</sn:string>
+<sn:string id="0xFCFB">Vous avez eu l'impression de voir une sorte de lumière, mais c'est un échec.</sn:string>
+<sn:string id="0xFCFC">Impossible à réaliser ici.</sn:string>
+<sn:string id="0xFD20">En ligne. Les alliés se positionnent en ligne verticale. Formation adaptée à toute situation.</sn:string>
+<sn:string id="0xFD21">Astral. Formation de combat prisée par la cavalerie d'Astral.</sn:string>
+<sn:string id="0xFD22">Triangle 1. Formation mettant l'accent sur l'attaque.</sn:string>
+<sn:string id="0xFD23">Triangle 2. Formation mettant l'accent sur l'attaque.</sn:string>
+<sn:string id="0xFD24">Formation libre. Formation de combat où tout le monde est dispersé.</sn:string>
+<sn:string id="0xFD25">Zone haute. Formation de combat concentrée sur la partie supérieure du terrain. Protection du personnage numéro 3.</sn:string>
+<sn:string id="0xFD26">Zone basse. Formation de combat concentrée sur la partie inférieure du terrain. Protection aisée du personnage numéro 4.</sn:string>
+<sn:string id="0xFD27">Losange. Formation de combat en forme de losange.</sn:string>
+<sn:string id="0xFD3E"></sn:string>
+<sn:string id="0xFD3F">Laissez-passer
+Un passe reçu du gérant de la quincaillerie de Thermonia.
+Indispensable pour entrer à Portmis</sn:string>
+<sn:string id="0xFD40">Emblème de Van
+Emblème reçu du roi de Van.</sn:string>
+<sn:string id="0xFD41">Emblème de Sylvalant
+Emblème reçu du roi de Sylvalant.</sn:string>
+<sn:string id="0xFD42">Emblème de Moore
+Emblème reçu du roi de Moore.</sn:string>
+<sn:string id="0xFD43">Emblème d'Astral
+Emblème reçu du roi d'Astral.</sn:string>
+<sn:string id="0xFD44">Elder Key:The key to some ruins, received fromthe king of Sylvalant.</sn:string>
+<sn:string id="0xFD45">Clé de l'Aîné
+Clé pour accéder à certaines ruines, reçue du roi de Sylvalant.</sn:string>
+<sn:string id="0xFD46">Sécurité R
+Une carte de sécurité rouge.</sn:string>
+<sn:string id="0xFD47">Sécurité B
+Une carte de sécurité bleue.</sn:string>
+<sn:string id="0xFD48"></sn:string>
+<sn:string id="0xFD52">Pigeon Voyageur</sn:string>
+<sn:string id="0xFD53">Supermarché Smitty</sn:string>
+<sn:string id="0xFD54">Quincaillerie</sn:string>
+<sn:string id="0xFD55">Épicerie</sn:string>
+<sn:string id="0xFD56">Armurerie Papas</sn:string>
+<sn:string id="0xFD57">Épicerie Mamas</sn:string>
+<sn:string id="0xFD58">Le Bazar d'El</sn:string>
+<sn:string id="0xFD59">Armurerie Elvis</sn:string>
+<sn:string id="0xFD5A">Cabine Rubis</sn:string>
+<sn:string id="0xFD5B">Quincaillerie Wolsam</sn:string>
+<sn:string id="0xFD5C">Armurerie d'Ed</sn:string>
+<sn:string id="0xFD5D">Alimentation Lumy</sn:string>
+<sn:string id="0xFD5E">Cabine Esther</sn:string>
+<sn:string id="0xFD5F">Armurerie Trésor</sn:string>
+<sn:string id="0xFD60">Épicerie</sn:string>
+<sn:string id="0xFD61">Quincaillerie Peter</sn:string>
+<sn:string id="0xFD62">Armurerie Morgan</sn:string>
+<sn:string id="0xFD63">Bijouterie de Morgan</sn:string>
+<sn:string id="0xFD64">Magasin de Musique Osato</sn:string>
+<sn:string id="0xFD65">Magasins de Spiritueux Crosan</sn:string>
+<sn:string id="0xFD66">Armurerie Vaia</sn:string>
+<sn:string id="0xFD67">Magasin de Créateur</sn:string>
+<sn:string id="0xFD68">Magasin d'équipement Silver</sn:string>
+<sn:string id="0xFD69">Chaussures Victor</sn:string>
+<sn:string id="0xFD6A">Bijouterie Foods</sn:string>
+<sn:string id="0xFD6B">Quincaillerie Déserte</sn:string>
+<sn:string id="0xFD6C">Armurerie Déserte</sn:string>
+<sn:string id="0xFD6D">Restaurant Temjin</sn:string>
+<sn:string id="0xFD6E">Armurerie Kikurin</sn:string>
+<sn:string id="0xFD6F">Quincaillerie</sn:string>
+<sn:string id="0xFD70">Restaurant</sn:string>
+<sn:string id="0xFD71">Quincaillerie de Mamie</sn:string>
+<sn:string id="0xFD72">Marchand Ambulant</sn:string>
+<sn:string id="0xFD73">Marchand Ambulant Santa</sn:string>
+<sn:string id="0xFD74">Werdi</sn:string>
+<sn:string id="0xFD75"></sn:string>
+<sn:string id="0xFD84"></sn:string>
+<sn:string id="0xFDE8"></sn:string>
+<sn:string id="0xFDE9">Une plante. Une herbe dont les étranges racines évoquent le visage buriné d'un vieillard.</sn:string>
+<sn:string id="0xFDEA">Une plante. À l'automne, des fruits rouges ressemblant à des cerises poussent dessus.</sn:string>
+<sn:string id="0xFDEB">Une plante. Ne pousse qu'une seule fois l'an. Porte le même nom que la déesse de la Lune.</sn:string>
+<sn:string id="0xFDEC">Une plante. Quand elle est exposée à la lumière, elle se fane. Fleur très rare.</sn:string>
+<sn:string id="0xFDED">Une plante. Ses pétales bleutés et sa fragrance rafraîchissante sont plaisant.</sn:string>
+<sn:string id="0xFDEE">Un papier vierge. Quand on dessine dessus, cela peut avoir différent effets.</sn:string>
+<sn:string id="0xFDEF">Pour la peinture. Peindre avec peut avoir différents effets.</sn:string>
+<sn:string id="0xFDF0">Un mystérieux crayon, qui vous pousse à faire des recherches. (Auteur).</sn:string>
+<sn:string id="0xFDF1">Un mystérieux crayon, qui vous pousse à écrire. (Musicien).</sn:string>
+<sn:string id="0xFDF2">Un marteau de forge.</sn:string>
+<sn:string id="0xFDF3">Un marteau de forge.</sn:string>
+<sn:string id="0xFDF4">Verres spéciaux. Dans les combats, vous permet de voir les points faibles de vos ennemis.</sn:string>
+<sn:string id="0xFDF5">Métal noir doté d'une bonne plasticité et d'une bonne résistance.</sn:string>
+<sn:string id="0xFDF6">Métal magique dont l'existence n'avait jamais été prouvée.</sn:string>
+<sn:string id="0xFDF7">Métal mystérieux. Les légendes disent que son possesseur serait capable de manipuler la gravité.</sn:string>
+<sn:string id="0xFDF8">Minéral magique... ou pas.</sn:string>
+<sn:string id="0xFDF9">Une pierre de lune, on ne sait pas si elle est tombée du ciel ou si elle a été apportée par quelqu'un.</sn:string>
+<sn:string id="0xFDFA">Morceau de météorite.</sn:string>
+<sn:string id="0xFDFB">Pierre philosophale. Nombreux sont les alchimistes qui ont passé leur vie à tenter de la réaliser.</sn:string>
+<sn:string id="0xFDFC">Bijou, d'une belle couleur écarlate.</sn:string>
+<sn:string id="0xFDFD">Rubis dans lequel scintille la lumière d'une étoile. Magnifique.</sn:string>
+<sn:string id="0xFDFE">Gemme translucide et bleutée.</sn:string>
+<sn:string id="0xFDFF">Un béryl. Également appelé émeraude.</sn:string>
+<sn:string id="0xFE00">Cristal.</sn:string>
+<sn:string id="0xFE01">Gemme, carbone pur cristallisé, d'une extrême résistance.</sn:string>
+<sn:string id="0xFE02">Diamant rare qui décompose la lumière en un superbe arc en ciel.</sn:string>
+<sn:string id="0xFE03">De l'argent. Mais plein d'impuretés, faible valeur.</sn:string>
+<sn:string id="0xFE04">De l'or. Mais plein d'impuretés, faible valeur.</sn:string>
+<sn:string id="0xFE05">Morceau de fer.</sn:string>
+<sn:string id="0xFE06">Instrument de musique en cuivre. Son timbre fort et clair est très caractéristique.</sn:string>
+<sn:string id="0xFE07">Instrument de musique en bois muni d'une anche en forme de flûte dont les clefs sont alignées.</sn:string>
+<sn:string id="0xFE08">Instrument de musique rectangulaire créant un son par la vibration de ses anches.</sn:string>
+<sn:string id="0xFE09">Instrument de musique pour accompagner les marionnettes.Serait-ce pour se moquer des amoureux des chats ?</sn:string>
+<sn:string id="0xFE0A">Instrument de musique à six cordes dont on joue du bout des doigts.</sn:string>
+<sn:string id="0xFE0B">Instrument de musique en cuivre. On souffle dans un tuyau en U et on change la note en faisant varier sa longueur.</sn:string>
+<sn:string id="0xFE0C">Instrument de musique à quatre cordes reposant sur l'épaule et tenu par les mains.Serait-ce pour se moquer des amoureux des chevaux ?</sn:string>
+<sn:string id="0xFE0D">Instrument à vent, très utilisé en jazz.</sn:string>
+<sn:string id="0xFE0E">Ingrédient. Contient entre autres du riz et du blé.</sn:string>
+<sn:string id="0xFE0F">Ingrédient. Contient entre autres des pommes et des oranges.</sn:string>
+<sn:string id="0xFE10">Ingrédient. Contient entre autres du chou et des carottes.</sn:string>
+<sn:string id="0xFE11">Ingrédient. Contient entre autres du porc et du boeuf.</sn:string>
+<sn:string id="0xFE12">Ingrédient. Contient entre autres du thon, de l'oursin et des coquillages.</sn:string>
+<sn:string id="0xFE13">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE14">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE15">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE16">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE17">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE18">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE19">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1A">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1B">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1C">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1D">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1E">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE1F">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE20">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE21">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE22">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE23">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE24">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE25">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE26">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE27">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE28">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE29">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2A">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2B">Ça ressemble à une arme, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2C">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2D">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2E">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE2F">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE30">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE31">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE32">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE33">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE34">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE35">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE36">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE37">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE38">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE39">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3A">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3B">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3C">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3D">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3E">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE3F">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE40">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE41">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE42">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE43">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE44">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE45">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE46">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE47">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE48">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE49">Ça ressemble à un outil, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4A">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4B">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4C">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4D">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4E">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE4F">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE50">Ça ressemble à un minéral, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE51">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE52">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE53">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE54">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE55">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE56">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE57">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE58">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE59">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5A">Ça ressemble à un accessoire, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5B">Ça ressemble à une plante, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5C">Ça ressemble à une plante, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5D">Ça ressemble à une plante, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5E">Ça ressemble à une plante, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE5F">Ça ressemble à une plante, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE60">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE61">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE62">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE63">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE64">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE65">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE66">Ça ressemble à un aliment, mais sans l'identifier, impossible d'en savoir plus.</sn:string>
+<sn:string id="0xFE67">A bubbling medicine. Oh my, it seemsreally bad for your health.</sn:string>
+<sn:string id="0xFE68">A syrupy medicine. It gives off anextremely bad feeling.</sn:string>
+<sn:string id="0xFE69">A horribly smelly medicine. You needcourage to drink it.</sn:string>
+<sn:string id="0xFE6A">A bitter medicine. It tastes awful, but itworks!</sn:string>
+<sn:string id="0xFE6B">A medicine like a nicely ripe fruit. You'dlove to just drink it all up!</sn:string>
+<sn:string id="0xFE6C">It looks like even children will happilydrink it all up.</sn:string>
+<sn:string id="0xFE6D">A small explosive bottle that poisons asingle enemy.</sn:string>
+<sn:string id="0xFE6E">A small explosive bottle that poisonsmultiple enemies.</sn:string>
+<sn:string id="0xFE6F">A medicine with a sweet aroma.</sn:string>
+<sn:string id="0xFE70">A medicine containing 5% alcohol.Strictly for medicinal purposes!</sn:string>
+<sn:string id="0xFE71">A very sweet syrup.</sn:string>
+<sn:string id="0xFE72">Syrup with a refreshing tang.</sn:string>
+<sn:string id="0xFE73">A syrup with the flavor of variousfruits mixed together.</sn:string>
+<sn:string id="0xFE74">A small bottle holding a medicine spraywith a restorative effect.</sn:string>
+<sn:string id="0xFE75">A small explosive bottle that can makea single enemy dizzy.</sn:string>
+<sn:string id="0xFE76">A small explosive bottle that can makemultiple enemies dizzy.</sn:string>
+<sn:string id="0xFE77">Allows an ally to use magic for 30seconds without spending MP.</sn:string>
+<sn:string id="0xFE78">Allows multiple allies to use magic for30 seconds without spending MP.</sn:string>
+<sn:string id="0xFE79">A small explosive bottle that causes MPdamage to a single enemy.</sn:string>
+<sn:string id="0xFE7A">A small explosive bottle that causes MPdamage to multiple enemies.</sn:string>
+<sn:string id="0xFE7B">The secret medicine of life. Resurrectsall surrounding allies from death.</sn:string>
+<sn:string id="0xFE7C">The secret medicine of life. Resurrectsa single ally from death.</sn:string>
+<sn:string id="0xFE7D">A small explosive bottle that attacks asingle enemy with flames.</sn:string>
+<sn:string id="0xFE7E">A small explosive bottle that attacksmultiple enemies with flames.</sn:string>
+<sn:string id="0xFE7F">A medicine that cures poison. HP also isrestored by 25%.</sn:string>
+<sn:string id="0xFE80">A medicine that cures paralysis. HP isalso restored by 25%.</sn:string>
+<sn:string id="0xFE81">A medicine that cures petrification.</sn:string>
+<sn:string id="0xFE82">If taken in battle, the user's magicpower will increase by 30%.</sn:string>
+<sn:string id="0xFE83">Turns the user invincible for 10seconds, but paralyzes him afterward.</sn:string>
+<sn:string id="0xFE84">A medicine that turns rags to riches.Gives you 25% off store prices.</sn:string>
+<sn:string id="0xFE85"></sn:string>
+<sn:string id="0xFE86">A heart stimulant that increases GUTSby 30 during battle.</sn:string>
+<sn:string id="0xFE87">A strength potion that increasesphysical power by 30% during battle.</sn:string>
+<sn:string id="0xFE88">A demon medicine that increases magicpower by 30% during battle.</sn:string>
+<sn:string id="0xFE89"></sn:string>
+<sn:string id="0xFE8A">Reduces fire-elemental magic damageby 50%.</sn:string>
+<sn:string id="0xFE8B">In battle you will always be angry.However, defense power is cut in half.</sn:string>
+<sn:string id="0xFE8C">Reduces water-elemental magicdamage by 50%.</sn:string>
+<sn:string id="0xFE8D">Halves dizzy time.</sn:string>
+<sn:string id="0xFE8E">Reduces MP consumption by 1/3.</sn:string>
+<sn:string id="0xFE8F">Reduces MP consumption by 1/2.</sn:string>
+<sn:string id="0xFE90">Reduces all damage to 0, but thewearer will always be dizzy.</sn:string>
+<sn:string id="0xFE91">Halves the effect of starry spells.</sn:string>
+<sn:string id="0xFE92">Restores MP in battle by 3% every 3seconds.</sn:string>
+<sn:string id="0xFE93">Reduces magic damage by 9/10. Has a30% chance of breaking.</sn:string>
+<sn:string id="0xFE94">Causes attack spells to heal youinstead. Has a 30% chance of breaking.</sn:string>
+<sn:string id="0xFE95">Restores HP by 30% every few stepsyou walk on the field.</sn:string>
+<sn:string id="0xFE96">Reduces physical damage by 9/10. Has a30% chance of breaking.</sn:string>
+<sn:string id="0xFE97">Causes physical attacks to heal youinstead. Has a 30% chance of breaking.</sn:string>
+<sn:string id="0xFE98">Allows you to be suspended by a forcefield powered by earth, wind and light.</sn:string>
+<sn:string id="0xFE99">Protects from undead enemies. Has a5% chance of breaking.</sn:string>
+<sn:string id="0xFE9A">A gold ring. The perfect buy after richUncle Harry dies.</sn:string>
+<sn:string id="0xFE9B">An accessory with diamonds arrangedin the center.</sn:string>
+<sn:string id="0xFE9C">An accessory of complicatedmetalwork.</sn:string>
+<sn:string id="0xFE9D">A cute doll made of diamonds.</sn:string>
+<sn:string id="0xFE9E">A cute cat made of rubies.</sn:string>
+<sn:string id="0xFE9F">A beautiful sapphire necklace.</sn:string>
+<sn:string id="0xFEA0">A fancy crown with emeralds in thecenter. So that's what a king feels like!</sn:string>
+<sn:string id="0xFEA1">A funky frog statue made of crystal.</sn:string>
+<sn:string id="0xFEA2">A cat statue made using a RainbowDiamond. Useless but very extravagant.</sn:string>
+<sn:string id="0xFEA3">A silver doll.</sn:string>
+<sn:string id="0xFEA4">A gold doll.</sn:string>
+<sn:string id="0xFEA5">A charm that increases defense by10%.</sn:string>
+<sn:string id="0xFEA6">When equipped, it increases maximumHP by 30%.</sn:string>
+<sn:string id="0xFEA7">When equipped, it increases maximumMP by 30%.</sn:string>
+<sn:string id="0xFEA8">When equipped, the time needed tocast spells is halved.</sn:string>
+<sn:string id="0xFEA9">A heraldic accessory decorated withstars. Increases max MP by 30%.</sn:string>
+<sn:string id="0xFEAA">A fighter's crest that increases ATK andHIT by 10%.</sn:string>
+<sn:string id="0xFEAB">A mage's crest that increases INT by10%.</sn:string>
+<sn:string id="0xFEAC">Reduces the chance of being poisonedby 70%. Has a 2% chance of breaking.</sn:string>
+<sn:string id="0xFEAD">Reduces the chance of being paralyzedby 70%. Has a 5% chance of breaking.</sn:string>
+<sn:string id="0xFEAE">Reduces the chance of being petrifiedby 70%. Has a 10% chance of breaking.</sn:string>
+<sn:string id="0xFEAF">A crystal ball that creates purplesmoke. Escape speed increases by 30%.</sn:string>
+<sn:string id="0xFEB0">A crystal ball that creates white smoke.Escape speed increases by 60%.</sn:string>
+<sn:string id="0xFEB1">Revive instantly from death. Has a 99%chance of breaking.</sn:string>
+<sn:string id="0xFEB2">A mysterious drop. It is said to be ableto grant your wishes.</sn:string>
+<sn:string id="0xFEB3">A mysterious crown.</sn:string>
+<sn:string id="0xFEB4">A charm clad with holy powers.</sn:string>
+<sn:string id="0xFEB5">A poorly-made ring. Nobody wouldwant to put it on.</sn:string>
+<sn:string id="0xFEB6">A badly-made human figure. Whochurns out this crap?</sn:string>
+<sn:string id="0xFEB7">A ring with no sense of design at all.This is really bad.</sn:string>
+<sn:string id="0xFEB8">An outrageous accessory. Let's not tryto find out who made it.</sn:string>
+<sn:string id="0xFEB9">A completely unidentifiable statue. Itlooks like nothing but an ordinary lump.</sn:string>
+<sn:string id="0xFEBA">This is a very embarrassing accessory.*blush*</sn:string>
+<sn:string id="0xFEBB">It's funny, but what on earth is it?</sn:string>
+<sn:string id="0xFEBC">A book on biological theory. Raises onelevel in the Biology skill.</sn:string>
+<sn:string id="0xFEBD">A book with pictures of herbs. Raisesone level in the Herbal Medicine skill.</sn:string>
+<sn:string id="0xFEBE">Psychology theory. Raises one level inthe Psychology skill.</sn:string>
+<sn:string id="0xFEBF">An interesting mineral picture book.Raises one level in the Mineralogy skill.</sn:string>
+<sn:string id="0xFEC0">A tool picture book. Raises one level inthe Item Lore skill.</sn:string>
+<sn:string id="0xFEC1">A cookbook. Raises one level in theRecipe skill.</sn:string>
+<sn:string id="0xFEC2">Musical grammar book. Raises one levelin the Musical Notation skill.</sn:string>
+<sn:string id="0xFEC3">The Mysterial Fairy. Raises one level inthe Fairy Lore skill.</sn:string>
+<sn:string id="0xFEC4">Choosing Good Ingredients in One Day.Raises one level in the Good Eye skill.</sn:string>
+<sn:string id="0xFEC5">In Search of Lost Dwarf Techniques.Raises one level in the Craft skill.</sn:string>
+<sn:string id="0xFEC6">The Spirit of Modern Workers. Raisesone level in the Kitchen Knife skill.</sn:string>
+<sn:string id="0xFEC7">Learn Music In 13 Easy Lessons. Raisesone level in the Performance skill.</sn:string>
+<sn:string id="0xFEC8">All About Artistic Taste. Raises one levelin the Sketching skill.</sn:string>
+<sn:string id="0xFEC9">Grammar Theory. Raises one level inthe Writing skill.</sn:string>
+<sn:string id="0xFECA">All About Weapons. Raises one level inthe Forging skill.</sn:string>
+<sn:string id="0xFECB">Hermes' Theory. Raises one level in theTechnology skill.</sn:string>
+<sn:string id="0xFECC">1: O'NICAFIE T</sn:string>
+<sn:string id="0xFECD">2: RSILLFIN  O</sn:string>
+<sn:string id="0xFECE">3: A NLETNGG M</sn:string>
+<sn:string id="0xFECF">4: CMG AEI A A</sn:string>
+<sn:string id="0xFED0">5: LE BRRSTM T</sn:string>
+<sn:string id="0xFED1">6: EAWE  HHE O</sn:string>
+<sn:string id="0xFED2">A manga created by a fan'soverwhelming desire to become part of</sn:string>
+<sn:string id="0xFED3">A manga created by a fan'soverwhelming desire to become part of</sn:string>
+<sn:string id="0xFED4">A manga featuring Lum from UY in allkinds of compromising positions!</sn:string>
+<sn:string id="0xFED5">Fan art. Written by fans of the hipboy-band, Stalkers.</sn:string>
+<sn:string id="0xFED6">A manga created by a fan'soverwhelming desire to become part of</sn:string>
+<sn:string id="0xFED7">A dessert in which fruits and chocolateare piled on top of ice cream.</sn:string>
+<sn:string id="0xFED8">A roasted dumpling held in a thinlysliced apple from your birthplace.</sn:string>
+<sn:string id="0xFED9">An gelatinous ice dessert made fromfruit juice and sugar.</sn:string>
+<sn:string id="0xFEDA">A sticky drink made by adding creamand sugar to orange juice.</sn:string>
+<sn:string id="0xFEDB">A cake full of fruit.</sn:string>
+<sn:string id="0xFEDC">A wine made by fermenting grapejuice.</sn:string>
+<sn:string id="0xFEDD">A Western-style dish of meat andvegetables boiled under a low flame.</sn:string>
+<sn:string id="0xFEDE">A side dish with mostly raw vegetables.</sn:string>
+<sn:string id="0xFEDF">A dish made of meat and cabbagerolled together.</sn:string>
+<sn:string id="0xFEE0">A dish of meat and vegetables broiledin oil under a strong flame.</sn:string>
+<sn:string id="0xFEE1">A dessert of thinly cut gelatin in fruitjuice, with brown sugar for flavor.</sn:string>
+<sn:string id="0xFEE2">Boiled matsutake mushrooms.</sn:string>
+<sn:string id="0xFEE3">A 5-ounce sirloin steak.</sn:string>
+<sn:string id="0xFEE4">A 9-ounce sirloin steak.</sn:string>
+<sn:string id="0xFEE5">Chicken skewers from grain-fedchickens. No Franken-food here!</sn:string>
+<sn:string id="0xFEE6">A Chinese-style refreshment.</sn:string>
+<sn:string id="0xFEE7">Hardened ground meat, usually aroundthe size of the palm of your hand.</sn:string>
+<sn:string id="0xFEE8">A dish made of snails broiled with ataste of garlic.</sn:string>
+<sn:string id="0xFEE9">A piece of tuna fat placed atop abite-sized piece of vinegared rice.</sn:string>
+<sn:string id="0xFEEA">The legendary Great Tuna.</sn:string>
+<sn:string id="0xFEEB">Shrimp with eggs, sprinkled with breadcrumbs and fried in oil.</sn:string>
+<sn:string id="0xFEEC">Sea bream sashimi. Goes well withsake. The acme of white fish.</sn:string>
+<sn:string id="0xFEED">Turban shells roasted above a brazenfire. A very popular delicacy!</sn:string>
+<sn:string id="0xFEEE">Spaghetti with seafood added as themain ingredient.</sn:string>
+<sn:string id="0xFEEF">Ichinokura-inspected pure rice wine.Delicate and goes well with side dishes.</sn:string>
+<sn:string id="0xFEF0">Senchuuhasaku. Dry #8 wine said to beconnected to Sakamoto Tatsuma.</sn:string>
+<sn:string id="0xFEF1">Yaegaki Mu. A wine with a trulypleasant fragrance, and no additives.</sn:string>
+<sn:string id="0xFEF2">Organic Tamanohikari. The perfect winefor broadening your horizons.</sn:string>
+<sn:string id="0xFEF3">Diluted Bijoubu, a foaming intoxicant.Say hello to your hangover partner!</sn:string>
+<sn:string id="0xFEF4">Kokuryuu. Precious sake that doesn'tneed heat to brew.</sn:string>
+<sn:string id="0xFEF5">Xi Feng Jiu. A refreshing white alcohol,but the intense taste can be addictive.</sn:string>
+<sn:string id="0xFEF6">An alcoholic brew watered down threetimes. Sounds good, but tastes terrible.</sn:string>
+<sn:string id="0xFEF7">Sashimi made with week-old fish. Let'swrite this one off and try again.</sn:string>
+<sn:string id="0xFEF8">Sour stew that has all the wrongspices.</sn:string>
+<sn:string id="0xFEF9">Overcooked, hard steak. What a wasteof a cow!</sn:string>
+<sn:string id="0xFEFA">A horrible, heavy dessert that destroysthe whole after-dinner ambience.</sn:string>
+<sn:string id="0xFEFB">A salty and sweet cake madeincompetently.</sn:string>
+<sn:string id="0xFEFC">A type of card of destiny. IncreasesGUTS for all allies.</sn:string>
+<sn:string id="0xFEFD">A type of card of destiny. Increases therate of critical hits for the user.</sn:string>
+<sn:string id="0xFEFE">A type of card of destiny. Automaticallyrevives all allies exactly once.</sn:string>
+<sn:string id="0xFEFF">A type of card of destiny. Increases therate of acquiring items after a battle.</sn:string>
+<sn:string id="0xFF00">A type of card of destiny. Increases theamount of Fol received after a battle.</sn:string>
+<sn:string id="0xFF01">Annihilates bird-type monsters with afixed probability.</sn:string>
+<sn:string id="0xFF02">Annihilates beast-type monsters with afixed probability.</sn:string>
+<sn:string id="0xFF03">Annihilates demons with a fixed rate ofprobability.</sn:string>
+<sn:string id="0xFF04">Annihilates undead monsters with afixed rate.</sn:string>
+<sn:string id="0xFF05">'s portrait.</sn:string>
+<sn:string id="0xFF06">'s portrait.</sn:string>
+<sn:string id="0xFF07">'s portrait.</sn:string>
+<sn:string id="0xFF08">'s portrait.</sn:string>
+<sn:string id="0xFF09">'s portrait.</sn:string>
+<sn:string id="0xFF0A">'s portrait.</sn:string>
+<sn:string id="0xFF0B">'s portrait.</sn:string>
+<sn:string id="0xFF0C">'s portrait.</sn:string>
+<sn:string id="0xFF0D">'s portrait.</sn:string>
+<sn:string id="0xFF0E">'s portrait.</sn:string>
+<sn:string id="0xFF0F">'s portrait.</sn:string>
+<sn:string id="0xFF10">'s portrait.</sn:string>
+<sn:string id="0xFF11">Probably meant to be a portrait ofsomebody, but you can't tell who.</sn:string>
+<sn:string id="0xFF12">Probably meant to be a portrait ofsomebody, but you can't tell who.</sn:string>
+<sn:string id="0xFF13">If you equip it and walk around,occasionally fighter's items will fly out.</sn:string>
+<sn:string id="0xFF14">If you equip it and walk around,occasionally mage's items will fly out.</sn:string>
+<sn:string id="0xFF15">If you equip it and walk around,excellent things will come out.</sn:string>
+<sn:string id="0xFF16">If you equip this and go to sleep, youmay get a present when you wake up.</sn:string>
+<sn:string id="0xFF17">A fruit like a blue grape. Restores HPby 20%.</sn:string>
+<sn:string id="0xFF18">A fruit like a black grape. Restores MPby 20%.</sn:string>
+<sn:string id="0xFF19">A fruit like a clear grape. Cures poison.</sn:string>
+<sn:string id="0xFF1A"></sn:string>
+<sn:string id="0xFF1B"></sn:string>
+<sn:string id="0xFF1C">A sword that reduces the enemy'sdefense by 30%.</sn:string>
+<sn:string id="0xFF1D">A sword that boasts an astonishing hitrate.</sn:string>
+<sn:string id="0xFF1E">A sword that lowers the enemy'sdefense by 10% with each attack.</sn:string>
+<sn:string id="0xFF1F">The radiance of this sword is blue andwintry as if seen under moonlight.</sn:string>
+<sn:string id="0xFF20">A magical sword that sucks out theenemy's life force.</sn:string>
+<sn:string id="0xFF21">A sword that lowers the enemy's speedby 10% with each attack.</sn:string>
+<sn:string id="0xFF22">A sword made of Mithril.</sn:string>
+<sn:string id="0xFF23">A sword made of Orihalcon.</sn:string>
+<sn:string id="0xFF24">A sword made of Damascus.</sn:string>
+<sn:string id="0xFF25">A creation of the dwarf race, which issaid to have been wiped out.</sn:string>
+<sn:string id="0xFF26">A sword that contains the power ofthe wind.</sn:string>
+<sn:string id="0xFF27">A sword that received a holy blessing.</sn:string>
+<sn:string id="0xFF28">A sword given to a fighter declared tobe a hero by a king in ancient times.</sn:string>
+<sn:string id="0xFF29"></sn:string>
+<sn:string id="0xFF2A">A spiritual sword that deals strongdamage to undead monsters.</sn:string>
+<sn:string id="0xFF2B">A sword sealed with spiritual power.</sn:string>
+<sn:string id="0xFF2C">A magic sword clad in the flames of agod. Deals strong damage to demons.</sn:string>
+<sn:string id="0xFF2D">A magical sword for killing demondragons.</sn:string>
+<sn:string id="0xFF2E">A sword that increases your ownattack power by 10% with each attack.</sn:string>
+<sn:string id="0xFF2F">A sword that stresses power andignores all other attributes.</sn:string>
+<sn:string id="0xFF30">A large sword made of Mithril.</sn:string>
+<sn:string id="0xFF31">A large sword made by smithing aMeteorite.</sn:string>
+<sn:string id="0xFF32">A magical sword which absorbed itsblacksmith's murderous intents.</sn:string>
+<sn:string id="0xFF33">A sword with a history that wascrowned with the name of a disaster.</sn:string>
+<sn:string id="0xFF34">A sword with a pure white blade likeice that releases waves of coldness.</sn:string>
+<sn:string id="0xFF35">The sword of a berserker.</sn:string>
+<sn:string id="0xFF36">A sword that damages nearby enemieswith the rumbling of an earthquake.</sn:string>
+<sn:string id="0xFF37">Cius Super Special Sword.</sn:string>
+<sn:string id="0xFF38">A short sword for expert assassins,which raises critical hit rate by 50%.</sn:string>
+<sn:string id="0xFF39">A flame sword whose blazes deal extradamage.</sn:string>
+<sn:string id="0xFF3A">A magic sword that absorbs the lifepower of the enemy.</sn:string>
+<sn:string id="0xFF3B">An ice sword whose chills deal extradamage.</sn:string>
+<sn:string id="0xFF3C">A sword in which spiritual powers arecontained.</sn:string>
+<sn:string id="0xFF3D">This sharp, short sword nullifies theenemy's defenses and pierces it.</sn:string>
+<sn:string id="0xFF3E">An astonishing short sword that boastsa 100% hit rate.</sn:string>
+<sn:string id="0xFF3F">A very sharp, thin, curved sword.</sn:string>
+<sn:string id="0xFF40">A weapon made of Rune Metal.</sn:string>
+<sn:string id="0xFF41">Knuckles which attack with anexplosion of flames.</sn:string>
+<sn:string id="0xFF42">Cestus with a poisonous effect.</sn:string>
+<sn:string id="0xFF43">A metal claw like a dragon's, which cantear through iron like paper.</sn:string>
+<sn:string id="0xFF44">A pretty, stylish cat claw.</sn:string>
+<sn:string id="0xFF45"></sn:string>
+<sn:string id="0xFF46">A halberd that received the blessings ofthe gods.</sn:string>
+<sn:string id="0xFF47">A spear that boasts an intense piercingstrength.</sn:string>
+<sn:string id="0xFF48">A halberd created using special metals.</sn:string>
+<sn:string id="0xFF49">A legendary spear used to vanquishdragons.</sn:string>
+<sn:string id="0xFF4A">A spear that creates flames.</sn:string>
+<sn:string id="0xFF4B">A bow that causes an explosion in thearea when it hits the enemy.</sn:string>
+<sn:string id="0xFF4C">A silvery bow that pierces the enemy.</sn:string>
+<sn:string id="0xFF4D">A holy bow that never misses itstarget.</sn:string>
+<sn:string id="0xFF4E">A thunder bow that scatters fireworkswhen it hits the enemy.</sn:string>
+<sn:string id="0xFF4F">A bow that centers on its target andreleases arrows in 3 directions.</sn:string>
+<sn:string id="0xFF50"></sn:string>
+<sn:string id="0xFF51">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF52">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF53">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF54">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF55">'s charm.</sn:string>
+<sn:string id="0xFF56">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF57">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF58">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF59">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF5A">A custom-made weapon. Its effect isunknown.</sn:string>
+<sn:string id="0xFF5B">A failed Customized weapon.</sn:string>
+<sn:string id="0xFF5C">A failed Customized item.</sn:string>
+<sn:string id="0xFF5D"></sn:string>
+<sn:string id="0xFF5E">A long sword made of iron with ablade 90 centimeters long.</sn:string>
+<sn:string id="0xFF5F">A curved sword.</sn:string>
+<sn:string id="0xFF60">A type of curved sword, highlypolished.</sn:string>
+<sn:string id="0xFF61">A type of sword. Its power is higherthan the Long Sword.</sn:string>
+<sn:string id="0xFF62">A large two-handed sword, which is aslong as a person is tall.</sn:string>
+<sn:string id="0xFF63">A type of large sword.</sn:string>
+<sn:string id="0xFF64">A type of large sword.</sn:string>
+<sn:string id="0xFF65">A type of large sword. The high-powered blade has a wave-like shape.</sn:string>
+<sn:string id="0xFF66">A short sword made for throwing.</sn:string>
+<sn:string id="0xFF67">A type of short sword.</sn:string>
+<sn:string id="0xFF68">A type of short sword.</sn:string>
+<sn:string id="0xFF69">A staff with a decorated tip.</sn:string>
+<sn:string id="0xFF6A">A staff decorated with a ruby on theend.</sn:string>
+<sn:string id="0xFF6B">A staff decorated with a crest on theend.</sn:string>
+<sn:string id="0xFF6C">An iron weapon you wear on yourfists. Punching power is doubled.</sn:string>
+<sn:string id="0xFF6D">An iron weapon you wear on yourfists. Punching power is doubled.</sn:string>
+<sn:string id="0xFF6E">An iron weapon you wear on yourfists. Punching power is doubled.</sn:string>
+<sn:string id="0xFF6F">An iron weapon you wear on yourfists. Punching power is doubled.</sn:string>
+<sn:string id="0xFF70">A wooden staff about as long as aperson's body.</sn:string>
+<sn:string id="0xFF71">A spear.</sn:string>
+<sn:string id="0xFF72">A spear much longer than a regularSpear.</sn:string>
+<sn:string id="0xFF73">A weapon combining the attacks of anaxe and a spear.</sn:string>
+<sn:string id="0xFF74">A weapon consisting of three chain-linked staffs.</sn:string>
+<sn:string id="0xFF75">A small-sized bow.</sn:string>
+<sn:string id="0xFF76">A large-sized bow.</sn:string>
+<sn:string id="0xFF77">A crossbow. Has a gunlock design thatintersects the bow.</sn:string>
+<sn:string id="0xFF78">A large crossbow. No other bow cancompare to its power.</sn:string>
+<sn:string id="0xFF79"></sn:string>
+<sn:string id="0xFF7A">Armor made of leather.</sn:string>
+<sn:string id="0xFF7B">A stronger version of the LeatherArmor.</sn:string>
+<sn:string id="0xFF7C">Armor made of small metal rings.</sn:string>
+<sn:string id="0xFF7D">Armor made of leather, reinforcedwith metal.</sn:string>
+<sn:string id="0xFF7E">Armor made of metal.</sn:string>
+<sn:string id="0xFF7F">Armor made of steel.</sn:string>
+<sn:string id="0xFF80">Clothing preferred by Heraldry Mages.</sn:string>
+<sn:string id="0xFF81">Clothing made of silk.</sn:string>
+<sn:string id="0xFF82">Clothing decorated with an amberornament.</sn:string>
+<sn:string id="0xFF83">Clothing sewn from silver thread.</sn:string>
+<sn:string id="0xFF84">Clothing with a holy crest on it.</sn:string>
+<sn:string id="0xFF85">Clothes, preferred by close-combatfighters, that are easy to move in.</sn:string>
+<sn:string id="0xFF86">A fighting uniform with a slight Chinesefeel to it.</sn:string>
+<sn:string id="0xFF87">An ancient-style fighting uniform witha slight Chinese feel to it.</sn:string>
+<sn:string id="0xFF88">Battle clothing made of light materials.</sn:string>
+<sn:string id="0xFF89">A worn-out bikini.</sn:string>
+<sn:string id="0xFF8A">A two-piece swimsuit that barelycovers the breasts and lower area.</sn:string>
+<sn:string id="0xFF8B">A cute bikini.</sn:string>
+<sn:string id="0xFF8C">Fighting clothing for Lesser Fellpools.</sn:string>
+<sn:string id="0xFF8D">A helmet made of leather.</sn:string>
+<sn:string id="0xFF8E">A stronger version of the LeatherHelmet.</sn:string>
+<sn:string id="0xFF8F">A helmet made of iron.</sn:string>
+<sn:string id="0xFF90">A helmet in which the entire upper partis made of gold.</sn:string>
+<sn:string id="0xFF91">A helmet made of steel.</sn:string>
+<sn:string id="0xFF92">A shield made of wood.</sn:string>
+<sn:string id="0xFF93">A round, metal shield. It's extremelyheavy.</sn:string>
+<sn:string id="0xFF94">A shield created for knights that hasbecome very popular.</sn:string>
+<sn:string id="0xFF95">A much more polished version of aKnight Shield.</sn:string>
+<sn:string id="0xFF96">Greaves made of leather.</sn:string>
+<sn:string id="0xFF97">Greaves made of iron.</sn:string>
+<sn:string id="0xFF98">Greaves made entirely of gold.</sn:string>
+<sn:string id="0xFF99">Greaves made of silver.</sn:string>
+<sn:string id="0xFF9A">Completely ordinary boots.</sn:string>
+<sn:string id="0xFF9B">Made of the fluffed-up skin of ayoung cow. Very light and soft.</sn:string>
+<sn:string id="0xFF9C">Boots made of leather.</sn:string>
+<sn:string id="0xFF9D">Completely ordinary sandals.</sn:string>
+<sn:string id="0xFF9E">Shoes, preferred by close-combatfighters, that are easy to move in.</sn:string>
+<sn:string id="0xFF9F">Shoes with a slight Chinese feel tothem.</sn:string>
+<sn:string id="0xFFA0">Ancient-style shoes with a slightChinese feel to them.</sn:string>
+<sn:string id="0xFFA1">Armor made using the techniques of alost race.</sn:string>
+<sn:string id="0xFFA2">Special armor given the name “Reflex".Magic attacks will heal you.</sn:string>
+<sn:string id="0xFFA3">Chain mail made of Mithril.</sn:string>
+<sn:string id="0xFFA4">Armor made of silver.</sn:string>
+<sn:string id="0xFFA5">Armor for fighting.</sn:string>
+<sn:string id="0xFFA6">A funny bikini.</sn:string>
+<sn:string id="0xFFA7">Armor specially made for LesserFellpools.</sn:string>
+<sn:string id="0xFFA8"></sn:string>
+<sn:string id="0xFFA9">A helmet made using the techniques ofa lost race.</sn:string>
+<sn:string id="0xFFAA">A helmet made of Mithril.</sn:string>
+<sn:string id="0xFFAB">A helmet made of silver.</sn:string>
+<sn:string id="0xFFAC"></sn:string>
+<sn:string id="0xFFAD">A polished helmet for fighting.</sn:string>
+<sn:string id="0xFFAE">Armor for Lesser Fellpools.</sn:string>
+<sn:string id="0xFFAF">A hat made using the techniques of alost race.</sn:string>
+<sn:string id="0xFFB0"></sn:string>
+<sn:string id="0xFFB1">Boots made using the techniques of alost race.</sn:string>
+<sn:string id="0xFFB2">Boots made using the techniques of alost race.</sn:string>
+<sn:string id="0xFFB3">Greaves made of Mithril.</sn:string>
+<sn:string id="0xFFB4">Greaves made of silver.</sn:string>
+<sn:string id="0xFFB5"></sn:string>
+<sn:string id="0xFFB6"></sn:string>
+<sn:string id="0xFFB7"></sn:string>
+<sn:string id="0xFFB8"></sn:string>
+<sn:string id="0xFFB9"></sn:string>
+<sn:string id="0xFFBA"></sn:string>
+<sn:string id="0xFFBB">A shield engraved with a holy crest.</sn:string>
+<sn:string id="0xFFBC">A shield made using the techniques of alost race.</sn:string>
+<sn:string id="0xFFBD">A shield made of Mithril.</sn:string>
+<sn:string id="0xFFBE">A shield made of silver.</sn:string>
+<sn:string id="0xFFBF">A shield that scatters stars to attackwhen its user defends.</sn:string>
+<sn:string id="0xFFC0"></sn:string>
+<sn:string id="0xFFC1"></sn:string>
+<sn:string id="0xFFC2"></sn:string>
+<sn:string id="0xFFC3"></sn:string>
+<sn:string id="0xFFC4">Her specialty weapon. A floating orb.</sn:string>
+<sn:string id="0xFFC5">A special ring needed to manipulate thefloating orb.</sn:string>
+<sn:string id="0xFFC6">A memento ring of her parents.</sn:string>
+<sn:string id="0xFFC7"></sn:string>
+<sn:string id="0xFFC8">A stronger version of a Long Sword.</sn:string>
+<sn:string id="0xFFC9">A stronger version of a Long Sword.</sn:string>
+<sn:string id="0xFFCA">A stronger version of a Claymore.</sn:string>
+<sn:string id="0xFFCB">A stronger version of a Claymore.</sn:string>
+<sn:string id="0xFFCC">A stronger version of a Gladius.</sn:string>
+<sn:string id="0xFFCD">A stronger version of a Gladius.</sn:string>
+<sn:string id="0xFFCE">A stronger version of a Knuckle.</sn:string>
+<sn:string id="0xFFCF">A stronger version of a Knuckle.</sn:string>
+<sn:string id="0xFFD0">A stronger version of a Long Spear.</sn:string>
+<sn:string id="0xFFD1">A stronger version of a Long Spear.</sn:string>
+<sn:string id="0xFFD2">Knuckles made of silver.</sn:string>
+<sn:string id="0xFFD3">A spear that causes powerful winds.</sn:string>
+<sn:string id="0xFFD4">Food you give to pigeons.</sn:string>
+<sn:string id="0xFFD5">A stone.</sn:string>
+<sn:string id="0xFFD6">A sword of excellent workmanship thatoverwhelms whomever looks at it.</sn:string>
+<sn:string id="0xFFD7">Armor of excellent workmanship thatoverwhelms whomever looks at it.</sn:string>
+<sn:string id="0xFFD8">A staff of excellent workmanship thatoverwhelms whomever looks at it.</sn:string>
+<sn:string id="0xFFD9">A robe of excellent workmanship thatoverwhelms whomever looks at it.</sn:string>
+<sn:string id="0xFFDA">A cape that increases dodge ability.</sn:string>
+<sn:string id="0xFFDB">A robe that increases dodge ability.</sn:string>
+<sn:string id="0xFFDC">Holy clothing endowed with a specialpower.</sn:string>
+<sn:string id="0xFFDD"></sn:string>
+<sn:string id="0xFFDE"></sn:string>
+<sn:string id="0xFFDF">A tool to break rocks.</sn:string>
+<sn:string id="0xFFE0">A whistle to call for Bunny.</sn:string>
+<sn:string id="0xFFE1">A sword with laser output born fromscientific ability.</sn:string>
+<sn:string id="0xFFE2">A scroll inscribed with the mysteries ofthe Pa Kwa Zhang Secret Skill.</sn:string>
+<sn:string id="0xFFE3">A triangular rice ball.</sn:string>
+<sn:string id="0xFFE4">A sailor's charm you received from aboy in a port.</sn:string>
+<sn:string id="0xFFE5">An ocarina the Lesser Fellpool girl had.</sn:string>
+<sn:string id="0xFFE6">A tool that allows you to start fires bystriking the two stones together.</sn:string>
+<sn:string id="0xFFE7">The crest of the gods who created theworld, tri-Ace.</sn:string>
+<sn:string id="0xFFF0">Line 1: No stringLine 2: No string</sn:string>
+<sn:string id="0xFFF1">No string.</sn:string>
+</sn:strings>
