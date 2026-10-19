@@ -18,6 +18,7 @@ HOOKS = {
     0xC265B9: "a5d918690c65db85d9",  # pen advance
     0xC2416A: "c91100",  # line measure: 17 glyphs
     0xC24122: "a901",  # letter spacing 1 on short lines
+    0xC20669: "a93cd59d0000a901259d0200a9d6019d0400a9392e9d0600a91b1f9d0800a954019d0a00a9ffff9d0c00fa60",  # chest suffix
     0xCA7097: "a961",  # main menu HP slash: lda #0x61
     0xCA709F: "a961",
     0xCA70A7: "a961",
@@ -30,6 +31,17 @@ HOOKS = {
     0xCA0280: "101048108010b810101c481c801cb81c",  # main menu cursor (x, y)
     0xCA6FC8: "a9158520",  # save greying x: lda #0x15 / sta 20
     0xCA6FD0: "a9038522",  # save greying width: lda #3 / sta 22
+    0xCA06B5: "a9988522a968",  # settings button icons: lda #x / sta 22 / lda #y (x 0x98 + 8 * row)
+    0xCA06C8: "a9a08522a974",
+    0xCA06DB: "a9a88522a980",
+    0xCA06EE: "a9b08522a98c",
+    0xCA0701: "a9b88522a998",
+    0xCA0714: "a9c08522a9a4",
+    0xCA31FA: "a00807",  # Groupe submenu window: ldy #0x0708 (height, width)
+    0xCA3276: "a00807",  # its close
+    0xCA3257: "a944",  # its HDMA fill width
+    0xCACE50: "ad150785300a0a18653018690e8500a5008520a9098521a9058522a9028523a9038524203dd260",  # sound rect
+    0xCAACA0: "20a9ac20ccac",  # menu16 copy: jsr find / jsr merge
     0xC07FD8: "03",  # header: SRAM 8 KB
 }
 

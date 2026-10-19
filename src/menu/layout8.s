@@ -2,6 +2,8 @@
 Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where the French needs room.
 """
 
+.import "core/preamble"
+
 ; Save / load screens: "Choix d'un bloc" (EABB) from column 2 to 1, so "Choix d'un" fits its box.
 .alloc at 0xCA7E02 size 3 {
     ldy.w #0x0201
@@ -39,4 +41,62 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 }
 .alloc at 0xCA6FD0 size 2 {
     lda.b #0x06
+}
+
+.macro button_icon(row, name_end) {
+    """
+    Settings, button icons: one sprite per row at x 0x98 + 8 * row in the Japanese (a staircase after the short
+    names, over "Sélectionner" / "Annuler"); each now 4 px after its name and 2 px lower. `name_end` = screen x of
+    the name's last pixel (measured), sprite x = object x - 8.
+    """
+    .alloc at 0xCA06B5 + row * 0x13 size 6 {
+    lda.b #name_end + 4 + 8
+    sta.b 0x22
+    lda.b #0x68 + row * 0x0C + 2
+    }
+}
+button_icon(0, 206)  ; Sélectionner
+button_icon(1, 166)  ; Annuler
+button_icon(2, 142)  ; Menu
+button_icon(3, 158)  ; Cibler
+button_icon(4, 175)  ; Arcane 1
+button_icon(5, 175)  ; Arcane 2
+
+; Settings, sound mode: the game lit a 5-cell rect at column 0x0E + 5 * mode; the French options are 6, 4 and 2
+; cells wide (Stéréo Mono 3D).
+.alloc at 0xCACE50 size 0x26 {
+    lda.w 0x0715
+    sta.b 0x30
+    stz.b 0x31
+    ldx.b 0x30
+    lda.l sound_mode_rects, x
+    sta.b 0x20
+    lda.l sound_mode_rects + 3, x
+    sta.b 0x22
+    lda.b #0x09
+    sta.b 0x21
+    lda.b #0x02
+    sta.b 0x23
+    lda.b #0x03
+    sta.b 0x24
+    jsr.w 0xD23D
+    rts
+}
+
+.alloc sound_mode_rects in code_c8 {
+"""Column, then width, of Stéréo / Mono / 3D."""
+    .db 0x0E, 0x15, 0x1A
+    .db 0x06, 0x04, 0x02
+}
+
+; Groupe submenu (Stratégie / Échange / Formation): window at column 0x12, row 7, 8 + 1 columns wide (open and
+; close), its dark HDMA fill 0x44 px wide; three columns more.
+.alloc at 0xCA31FA size 3 {
+    ldy.w #0x070B
+}
+.alloc at 0xCA3276 size 3 {
+    ldy.w #0x070B
+}
+.alloc at 0xCA3257 size 2 {
+    lda.b #0x44 + 3 * 8
 }
