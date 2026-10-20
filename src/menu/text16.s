@@ -220,3 +220,10 @@ _end:
     sta [0xBE]
     jml 0xC04279
 }
+
+; C0:4B13 (battle16 id in $20 -> X = its Japanese string in bank D7) has no caller: nothing jumps or points to it
+; and play never runs it. A found id now traps instead of handing out reclaimed bytes, so a caller shows up in a
+; hunt (betaplayer-so-hunt stops on BRK).
+.alloc at 0xC04B30 size 2 {
+    brk #0x4B
+}
