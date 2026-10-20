@@ -147,25 +147,11 @@ wheels = [
 
 [[package]]
 name = "kintsuki"
-source = { editable = "../../PyCharmProjects/snes/python" }
-
-[package.metadata]
-requires-dist = [
-    { name = "numba", marker = "extra == 'visual'", specifier = ">=0.59" },
-    { name = "numpy", marker = "extra == 'visual'", specifier = ">=1.26" },
-    { name = "pillow", marker = "extra == 'visual'", specifier = ">=10" },
-]
-provides-extras = ["visual"]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "a816", specifier = ">=1.1.0a11" },
-    { name = "build", specifier = ">=1.0" },
-    { name = "numba", specifier = ">=0.59" },
-    { name = "numpy", specifier = ">=1.26" },
-    { name = "pillow", specifier = ">=10" },
-    { name = "pytest", specifier = ">=9.0.0" },
-    { name = "wheel", specifier = ">=0.42" },
+version = "0.0.0a19"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6b/5b/dd6a1169b4989173ac0ca2470df6ffaaf3b9207e728f0f92330beb5d0c79/kintsuki-0.0.0a19-py3-none-macosx_11_0_arm64.whl", hash = "sha256:a3828fa856635409e2a05d15e6831f43d2c727bbe76bdbf467916f33660f97c5", size = 844491, upload-time = "2026-10-20T08:23:19.327Z" },
+    { url = "https://files.pythonhosted.org/packages/f8/11/165afae49145d5377cb80175ab705b369f3ffe70099f43ed52e6bb4baa63/kintsuki-0.0.0a19-py3-none-manylinux_2_39_aarch64.whl", hash = "sha256:f2db08f186eea81b58bbf16b70188970451659d048bdf3552ce5309ee64dfa07", size = 793167, upload-time = "2026-10-20T08:23:20.716Z" },
 ]
 
 [[package]]
@@ -520,7 +506,7 @@ requires-dist = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "kintsuki", editable = "../../PyCharmProjects/snes/python" },
+    { name = "kintsuki", specifier = ">=0.0.0a19" },
     { name = "mypy" },
     { name = "pillow" },
     { name = "pytest" },
