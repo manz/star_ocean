@@ -267,6 +267,22 @@ Generic roles: 衛兵 Garde, 兵士 Soldat, 男 Homme, 女 Femme, 娘/少女 Fil
 | 盗賊 | voleur | |
 | ウイルス / 血清 / 石化 | virus / sérum / pétrification | |
 | フォル | Fol | currency |
+| PrivateAction (badge, `F6:6D38`) | *to choose* | town split-up mode; English in the JP game, no dialog names it. Official FR (SO2R): action privée (rejected as literal). Badge fits ≈48 px: QuartLibre, Aparté, Escapade |
+
+### Official French elsewhere in the series
+
+Star Ocean 1 never had an official French release: First Departure (PSP) and First Departure R (Switch/PS4) are
+English-only, so the community names (Ratix, Clatos, Portmith, Felpurr, Resonia) clash only with the English remakes
+(Roddick, Kratus, Portmis, Fellpool, Lezonia). The Second Story R (2023) is the nearest official French:
+
+| EN | SO2R FR | note |
+|---|---|---|
+| Private Action | action(s) privée(s) | store copy; one review writes "Actions Personnalisées", "AP" |
+| Specialty / Super Specialty | spécialité / super spécialité | community: Savoirs, Dons innés |
+| Item Creation | création d'objets (CO) | community: Création d'objet |
+| Skill points | PC (points de compétences) | community: PS |
+| Earth Federation | la Fédération | |
+| Kenny (surname) | Kenni | Ronixis's family |
 
 ## Stats and menus
 
