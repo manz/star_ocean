@@ -267,7 +267,7 @@ Generic roles: 衛兵 Garde, 兵士 Soldat, 男 Homme, 女 Femme, 娘/少女 Fil
 | 盗賊 | voleur | |
 | ウイルス / 血清 / 石化 | virus / sérum / pétrification | |
 | フォル | Fol | currency |
-| PrivateAction (badge, `F6:6D38`) | *to choose* | town split-up mode; English in the JP game, no dialog names it. Official FR (SO2R): action privée (rejected as literal). Badge fits ≈48 px: QuartLibre, Aparté, Escapade |
+| PrivateAction (badge, `C6:96E7`) | ActionPrivée | town split-up mode; English in the JP game, no dialog names it. Official FR (SO2R): action privée (rejected as literal). Badge fits ≈48 px: QuartLibre, Aparté, Escapade |
 
 ### Official French elsewhere in the series
 
