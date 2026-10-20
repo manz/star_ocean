@@ -13,7 +13,17 @@ from a816.module_builder import build_with_imports
 from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 
-from tools import badge, cutscene_text, encode_menus, encode_text, menu_font, menu_font16, narration, title_menu
+from tools import (
+    badge,
+    cutscene_text,
+    encode_menus,
+    encode_text,
+    menu_font,
+    menu_font16,
+    names8_vwf,
+    narration,
+    title_menu,
+)
 from tools.rom import DEFAULT_ROM, ROOT
 
 BUILD = ROOT / "build"
@@ -41,6 +51,7 @@ def build_assets() -> None:
     cutscene_text.build(out=GEN)
     badge.build(out=GEN)
     title_menu.build(out=GEN)
+    names8_vwf.build(out=GEN)
 
 
 def build(out: Path = BUILD) -> Patch:
