@@ -3,10 +3,10 @@
 <sn:string id="0x0001">Message de test</sn:string>
 <sn:string id="0x0004">Pas assez de PM</sn:string>
 <sn:string id="0x0007"> a gagné un niveau</sn:string>
-<sn:string id="0x0008"> a été obtenu!</sn:string>
-<sn:string id="0x0009"> a été appris!</sn:string>
-<sn:string id="0x000A">Attaque par derrière!</sn:string>
-<sn:string id="0x000B">Embuscade!</sn:string>
+<sn:string id="0x0008"> a été obtenu !</sn:string>
+<sn:string id="0x0009"> a été appris !</sn:string>
+<sn:string id="0x000A">Attaque par derrière !</sn:string>
+<sn:string id="0x000B">Embuscade !</sn:string>
 <sn:string id="0x07D0">Attaque un ennemi avec un orbe de feu.</sn:string>
 <sn:string id="0x07D1">Attaque un ennemi avec des aiguilles de glace.</sn:string>
 <sn:string id="0x07D2">Attaque un ennemi avec un pilier de pierre.</sn:string>
