@@ -115,7 +115,7 @@ Attaque/Lumière.</sn:string>
 <sn:string id="0xFA14">Néant
 Attaque/non élémental. Désintègre l'ennemi.</sn:string>
 <sn:string id="0xFA15">Gremlins
-Attaque/non élémental. Invoque d'innombrables esprits affamés depuis le monde des démons.</sn:string>
+Attaque/non élémental. Invoque une horde d'esprits démoniaques affamés.</sn:string>
 <sn:string id="0xFA16">Astre
 Attaque/Non élémental. Fait tomber une pluie de météores.</sn:string>
 <sn:string id="0xFA17">Macabre
@@ -267,8 +267,7 @@ Danse au milieu des sept couleurs de l'arc-en-ciel.</sn:string>
 <sn:string id="0xFA6C">Danse magique
 Danse magique fascinant ceux qui la regardent.</sn:string>
 <sn:string id="0xFA6D">Multipoing
-Des copycats apparaissent et frappent de concert.
-On les appelle les sœurs minettes.</sn:string>
+Des copycats apparaissent et frappent ensemble : les sœurs minettes.</sn:string>
 <sn:string id="0xFA6E">Missile à propagation
 Bombe explosant au-dessus d'une vaste zone.</sn:string>
 <sn:string id="0xFA6F">Coup de pied sauté♪
@@ -280,13 +279,13 @@ Coup de poing en sautant, puis coup de poing, et enfin une galipette explosive.<
 <sn:string id="0xFA72">Danse Panique
 Danse hispanique perturbant qui la regarde.</sn:string>
 <sn:string id="0xFA73">Danse Charmeuse
-Une pose aguicheuse. N'importe qui lui pardonnerait en la voyant avec cette attitude.</sn:string>
+Une pose aguicheuse. Qui ne lui pardonnerait pas, en la voyant ainsi ?</sn:string>
 <sn:string id="0xFA74">Combo de rêve
-Une combinaison où le nombre de frappes réussies fait rêver. N'est-ce pas bon d'enchaîner soi-même les techniques ?</sn:string>
+Des frappes à faire rêver. Quel plaisir d'enchaîner soi-même les techniques !</sn:string>
 <sn:string id="0xFA75">Regarde le ciel♪
 Aaah !</sn:string>
 <sn:string id="0xFA76">Bâton cyclone
-Vous ne faites pas tourner un bâton, c'est vous qui tournez autour de lui à grande vitesse.</sn:string>
+Ce n'est pas le bâton qui tourne : c'est vous qui tournez autour, à toute vitesse.</sn:string>
 <sn:string id="0xFA77"></sn:string>
 <sn:string id="0xFA78">Bâton cyclone vermeil
 Bâton cyclone, ohgi du Baguazhang.</sn:string>
@@ -300,7 +299,7 @@ Technique en quatre temps, où votre bâton déclenche une bourrasque.</sn:strin
 Lance de l'air glacial.</sn:string>
 <sn:string id="0xFA7D">Réservé.</sn:string>
 <sn:string id="0xFA7E">Tranche miroir
-Lance une attaque unique, assez acérée pour couper en deux le reflet de la lune dans l'eau.</sn:string>
+Une attaque unique, assez acérée pour trancher le reflet de la lune dans l'eau.</sn:string>
 <sn:string id="0xFA7F">Réservé.</sn:string>
 <sn:string id="0xFA80">Vacarme de la Grande Ourse
 Ohgi du Baguazhang, ohgi de la Grande Ourse.</sn:string>
@@ -355,7 +354,7 @@ Attaque avec la puissance de la mort.</sn:string>
 <sn:string id="0xFC00">Sens de l'Humour    Ouverture d'esprit pour oublier les facéties des dieux.</sn:string>
 <sn:string id="0xFC01">Sens du Danger      Discerner toute menace proche. Bonus en attaque surprise : -4x(NV savoir)%</sn:string>
 <sn:string id="0xFC02">Ondes Radio         Pouvoir surnaturel de percevoir les appels d'une présence inconnue.</sn:string>
-<sn:string id="0xFC03">Obstination         Se concentrer sur un objectif jour après jour. Les PS requis pour les savoirs diminuent avec le niveau du savoir.</sn:string>
+<sn:string id="0xFC03">Obstination         Viser un objectif jour après jour. Les PS requis pour les savoirs baissent avec son niveau.</sn:string>
 <sn:string id="0xFC04">Persévérance        Faire front à n'importe quoi. Bonus en Cran : 3x(NV savoir).</sn:string>
 <sn:string id="0xFC05">Stoïcisme           Supporter en silence douleur et tristesse. Bonus en Constitution : 2x(NV savoir).</sn:string>
 <sn:string id="0xFC06">Doigté              Technique minutieuse. Bonus en Agilité : 2x(NV savoir).</sn:string>
@@ -374,7 +373,7 @@ Attaque avec la puissance de la mort.</sn:string>
 <sn:string id="0xFC13">Riposte             Possibilité d'attaquer automatiquement en esquivant.</sn:string>
 <sn:string id="0xFC14">Feinte              Possibilité de frapper l'ennemi à coup sûr.</sn:string>
 <sn:string id="0xFC15">Concentrer          Possibilité d'augmenter la puissance d'attaque.</sn:string>
-<sn:string id="0xFC16">Combos              Permet de combiner les mouvements spéciaux, le nombre de combinaisons augmentant avec le NV savoir.</sn:string>
+<sn:string id="0xFC16">Combos              Permet de combiner les mouvements spéciaux. Le NV savoir augmente les combinaisons.</sn:string>
 <sn:string id="0xFC17">Prolixe             Possibilité de lancer un sort instantanément.</sn:string>
 <sn:string id="0xFC18">Épée Corbeau        Technique originale d'épée volante enseignée dans la cavalerie du royaume Astral.</sn:string>
 <sn:string id="0xFC19">Orbe Corbeau        Technique permettant de contrôler librement la transformation de l'Orbe corbeau.</sn:string>
@@ -496,12 +495,12 @@ Attaque avec la puissance de la mort.</sn:string>
 <sn:string id="0xFD22">Triangle 1. Formation mettant l'accent sur l'attaque.</sn:string>
 <sn:string id="0xFD23">Triangle 2. Formation mettant l'accent sur l'attaque.</sn:string>
 <sn:string id="0xFD24">Formation libre. Formation de combat où tout le monde est dispersé.</sn:string>
-<sn:string id="0xFD25">Zone haute. Formation de combat concentrée sur la partie supérieure du terrain. Protection du personnage numéro 3.</sn:string>
-<sn:string id="0xFD26">Zone basse. Formation de combat concentrée sur la partie inférieure du terrain. Protection aisée du personnage numéro 4.</sn:string>
+<sn:string id="0xFD25">Zone haute. Formation de combat concentrée en haut du terrain. Protège le personnage numéro 3.</sn:string>
+<sn:string id="0xFD26">Zone basse. Formation de combat concentrée en bas du terrain. Protège aisément le personnage numéro 4.</sn:string>
 <sn:string id="0xFD27">Losange. Formation de combat en forme de losange.</sn:string>
 <sn:string id="0xFD3E"></sn:string>
 <sn:string id="0xFD3F">Laissez-passer
-Un passe reçu du gérant de la quincaillerie de Thermonia.
+Passe du quincaillier de Thermonia.
 Indispensable pour entrer à Portmis</sn:string>
 <sn:string id="0xFD40">Emblème de Van
 Emblème reçu du roi de Van.</sn:string>
