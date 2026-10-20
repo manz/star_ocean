@@ -28,14 +28,17 @@ PICTURE = (13, 9, 13 + 256, 9 + 224)  # the SNES picture inside kintsuki's frame
 HOLD, GAP = 4, 90  # frames a tap holds the button, then waits (menus animate their windows in)
 
 
-def emulator(state: str) -> Emu:
-    """The patched game at tests/states/<state>.kss, one frame run so it has a picture."""
+def emulator(state: str, sram: bytes | None = None) -> Emu:
+    """The patched game at tests/states/<state>.kss, one frame run so it has a picture. `sram` replaces the state's
+    (an 8 KB .srm fills the start, the rest zeroed)."""
     if not ROM.exists() or not IPS.exists():
         pytest.skip("patch not built: uv run python -m tools.patch")
     kintsuki = pytest.importorskip("kintsuki")
     emu: Emu = kintsuki.Emu(load_srm_sidecar=False, sram_policy="fit")  # states saved with the app's 32 KB SRAM
     emu.load_rom(str(ROM))
     emu.load_state((STATES / f"{state}.kss").read_bytes())
+    if sram is not None:
+        emu.inject_sram(sram)
     emu.run_frames(1)
     return emu
 
