@@ -21,6 +21,8 @@ DIALOG_BASE, DIALOG_END = 0x05, 0x80  # codes below 0x80 take one byte in the st
 BASE = 0x10  # 16x16 code of glyph 0
 NEWLINE, END = 0x0D, 0xFF
 GLYPHS = DIALOG_END - DIALOG_BASE
+SPACE = BASE  # glyph 0
+LINES, LINE_PIXELS = 3, 28 * 8  # src/menu/vwf16.s: the lines the description printer clears, and their width
 
 
 def glyph(record: bytes) -> bytes:
@@ -29,6 +31,26 @@ def glyph(record: bytes) -> bytes:
 
 def width(record: bytes) -> int:
     return max(record[ROWS], 1)
+
+
+def lines(codes: bytes, widths: bytes) -> int:
+    """The lines the 16x16 description printer (src/menu/vwf16.s) sets terminated 16x16 codes on: a glyph advances
+    its width + 1, a space breaks the line instead when it and the next word would pass LINE_PIXELS."""
+    count, pixels = 1, 0
+    for i, code in enumerate(codes):
+        if code == END:
+            break
+        if code == NEWLINE:
+            count, pixels = count + 1, 0
+            continue
+        if code == SPACE:
+            word = codes[i + 1 :].split(bytes([END]))[0].replace(bytes([NEWLINE]), bytes([SPACE]))
+            ahead = sum(widths[c - BASE] + 1 for c in bytes([SPACE]) + word.split(bytes([SPACE]))[0])
+            if pixels + ahead > LINE_PIXELS:
+                count, pixels = count + 1, 0
+                continue
+        pixels += widths[code - BASE] + 1
+    return count
 
 
 def table_lines(dialog_table: Path) -> list[str]:
