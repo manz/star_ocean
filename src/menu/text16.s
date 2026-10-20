@@ -171,8 +171,9 @@ _end:
     rtl
 }
 
-; The battle copies of the 16x16 readers (bank C0) still read the Japanese words at D7:254B / D7:2FD1, which the
+; The battle copy of the 16x16 append (bank C0) still read the Japanese words at D7:254B / D7:2FD1, which the
 ; pool reclaimed: past the end the renderer's WRAM pointer walks into direct page and the APU handshake hangs.
+; (C0:460A, the battle16 printer, goes through src/menu/vwf16.s.)
 
 .alloc battle16_locate in code_c8 {
 """Y = 2 * id-list position (M16 X16) -> DB:Y = the string; X kept."""
@@ -218,38 +219,4 @@ _end:
     lda.w #0xFFFF
     sta [0xBE]
     jml 0xC04279
-}
-
-; C0:460A (battle16 id printed through the fixed 16x16 blitter): the search hit locates the string, each char
-; is one byte, END leaves through C0:468E (plb / plp / rtl).
-.alloc at 0xC0463D size 4 {
-    jsl battle16_locate
-}
-.alloc at 0xC04641 size 13 {
-    jsl battle16_char
-    cmp.w #0x000D
-    beq _newline
-    .db 0xEA, 0xEA, 0xEA, 0xEA
-    _newline = 0xC04681
-}
-.alloc at 0xC0467E size 1 {
-    .db 0xEA  ; iny: one byte a char
-}
-.alloc at 0xC0468B size 1 {
-    .db 0xEA
-}
-
-.alloc battle16_char in code_c8 {
-"""DB:Y = the string (M16) -> A = its code; at END, out of C0:460A instead."""
-    lda.w 0x0000, y
-    and.w #0x00FF
-    cmp.w #END
-    beq _end
-    rtl
-_end:
-    sep #0x20
-    pla
-    pla
-    pla
-    jml 0xC0468E
 }

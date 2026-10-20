@@ -8,8 +8,11 @@ glyph's width + 1 and every column it fills gets its two tilemap entries (tile 0
 the Japanese 12 px pairs did.
 
 Printers: in X = tilemap address (row of the top tiles), $DB = column buffer offset in $7F, $DD = tile count,
-$06 = palette. The buffer one clears its three lines first and wraps a line at a space when the next word would
-not fit; by-id strings are the text16 bytes (src/menu/text16.s).
+$06 = palette. The battle copies in bank C0 (C0:48C6 u16 buffer, C0:460A battle16 by id) run the same pen in
+battle mode: their blitter C0:46FB is C8:0C3C writing to $7E:D073 instead of $7F, X is an offset in the two
+battle tilemap shadows ($7E:5100, $7E:5900) and the palette is $06 + 5. The menu buffer printer clears its three
+lines first and wraps a line at a space when the next word would not fit; by-id strings are the text16 bytes
+(src/menu/text16.s).
 """
 
 .import "core/preamble"
@@ -19,11 +22,17 @@ not fit; by-id strings are the text16 bytes (src/menu/text16.s).
 .extern menu_font16_widths
 
 COPY_CHAR := 0xC80C3C
+BATTLE_COPY_CHAR := 0xC046FB  ; jsr only
+BATTLE_BUFFER := 0xD073  ; its columns, in $7E
+BATTLE_ROWS_1 := 0x7E5100  ; the two tilemap shadows the battle DMAs
+BATTLE_ROWS_2 := 0x7E5900
+BATTLE_PALETTE := 5
 GLYPHS := 0x7B  ; tools/menu_font16.py: dialog codes 05-7F
 GLYPH_BYTES := 32
 WIDE_GAP := 8  ; advance of a glyph past the font
 FIXED_WIDTH := 0x0B  ; name entry: 12 px cells
 FIXED := 0xDEDE  ; $F0 while the name entry prints
+BATTLE := 0xBA7E  ; $F0 while a battle copy prints
 NAME_ROWS_1 := 0x3ACA  ; name entry tilemap addresses
 NAME_ROWS_2 := 0x3B96
 TILE_BASE := 0x0114
@@ -65,17 +74,39 @@ line_pixels = 0x7FFFFC  ; free: the 2016 patch kept it there
     sta.w 0x0000 + delta, x
 }
 
+; C0:47FD, the same tail in the battle blitter.
+.alloc at 0xC047FD size 7 {
+    jsl merge_glyph_battle
+    jmp.w 0x4806
+}
+
+.alloc merge_glyph_battle in code_c8 {
+"""merge_glyph over the battle columns in $7E."""
+    sep #0x20
+    lda.b #0x7E
+    jsr.w merge_into
+    rtl
+}
+
 .alloc merge_glyph in code_c8 {
 """Y = the glyph's first column (current + 0x20), M16 X16, DB = $C8. Out: DB = $7F."""
+    sep #0x20
+    lda.b #0x7F
+    jsr.w merge_into
+    rts
+}
+
+.alloc merge_into in code_c8 {
+"""A (8 bits) = the columns' bank, Y = the glyph's first column (current + 0x20), X16. Out: DB = that bank."""
+    pha
+    plb
+    rep #0x20
     tya
     sec
     sbc.w #0x0020
     tax  ; X = current column
     phy
     sep #0x20
-    lda.b #0x7F
-    pha
-    plb
     ldy.w #0x0020  ; bytes per column
     lda.b pen
     and.b #0x07
@@ -135,7 +166,8 @@ _fixed:
 }
 
 .alloc vwf16_columns in code_c8 {
-"""Emit the tilemap entries of every full column ($2E >= 8)."""
+"""Emit the tilemap entries of every full column ($2E >= 8). Keeps Y."""
+    phy
 _next:
     lda.b pen
     cmp.w #8
@@ -145,9 +177,20 @@ _next:
     adc.w #TILE_BASE
     clc
     adc.b attribute
+    ldy.b mode
+    cpy.w #BATTLE
+    beq _battle
     sta.l 0x7E0000, x
     inc
     sta.l 0x7E0040, x
+    bra _entered
+_battle:
+    sta.l BATTLE_ROWS_1, x
+    sta.l BATTLE_ROWS_2, x
+    inc
+    sta.l BATTLE_ROWS_1 + 0x40, x
+    sta.l BATTLE_ROWS_2 + 0x40, x
+_entered:
     inc.b tile
     inc.b tile
     lda.b column
@@ -162,6 +205,7 @@ _next:
     sta.b pen
     bra _next
 _done:
+    ply
     rts
 }
 
@@ -182,9 +226,20 @@ _done:
     lda.b column
     clc
     adc.w #0x0020
+    ldy.b mode
+    cpy.w #BATTLE
+    beq _battle
     tay
     lda.w #0x003F
     jsl COPY_CHAR
+    bra _blitted
+_battle:
+    clc
+    adc.w #BATTLE_BUFFER
+    tay
+    lda.w #0x003F
+    jsl battle_copy_char
+_blitted:
     plb
     ply
     plx
@@ -229,16 +284,41 @@ _done:
     rts
 }
 
-.alloc vwf16_setup in code_c8 {
-"""A = anything, X = tilemap address: pen, attribute, line start, mode."""
+.alloc vwf16_pen in code_c8 {
+"""A = palette, X = tilemap address: pen at the line start, attribute."""
     stz.b pen
-    lda.b 0x06
     xba
     and.w #0xFF00
     asl
     asl
     sta.b attribute
     stx.b line_start
+    rts
+}
+
+.alloc battle_copy_char in code_c0 {
+"""C0:46FB for the pen in bank C8."""
+    jsr.w BATTLE_COPY_CHAR
+    rtl
+}
+
+.alloc vwf16_setup_battle in code_c8 {
+"""X = offset in the battle tilemap shadows: pen, attribute, line start, battle mode."""
+    lda.b 0x06
+    clc
+    adc.w #BATTLE_PALETTE
+    jsr.w vwf16_pen
+    lda.w #0
+    sta.l line_pixels
+    lda.w #BATTLE
+    sta.b mode
+    rts
+}
+
+.alloc vwf16_setup in code_c8 {
+"""A = anything, X = tilemap address: pen, attribute, line start, mode."""
+    lda.b 0x06
+    jsr.w vwf16_pen
     lda.w #0
     sta.l line_pixels
     stz.b mode
@@ -362,14 +442,14 @@ _end:
     rtl
 }
 
-.macro print_by_id(ids, pointers) {
+.macro print_by_id(ids, pointers, setup) {
     """A = string id, X = tilemap address: draw the text16 string, nothing when the id is unknown."""
     php
     phb
     pei (mode)
     rep #0x20
     sta.b 0x20
-    jsr.w vwf16_setup
+    jsr.w setup
     ldx.w #0
 _find:
     lda.l ids, x
@@ -424,7 +504,7 @@ _end:
 }
 
 .alloc vwf16_print_menu16 in code_c8 {
-    print_by_id(0x7F2000, menu16_pointers)
+    print_by_id(0x7F2000, menu16_pointers, vwf16_setup)
 }
 
 ; C6:F5FA: battle16 by id (CA:BAFD), both of its 12 px and 8 px layouts.
@@ -433,5 +513,51 @@ _end:
 }
 
 .alloc vwf16_print_battle16 in code_c8 {
-    print_by_id(0xD72A8D, battle16_pointers)
+    print_by_id(0xD72A8D, battle16_pointers, vwf16_setup)
+}
+
+; C0:460A: battle16 by id in battle.
+.alloc at 0xC0460A size 4 {
+    jml.l vwf16_print_battle16_c0
+}
+
+.alloc vwf16_print_battle16_c0 in code_c8 {
+    print_by_id(0xD72A8D, battle16_pointers, vwf16_setup_battle)
+}
+
+; C0:48C6, A = bank of the u16 codes, Y = their address (C1:7869: the battle message, a name + a battle16 string).
+.alloc at 0xC048C6 size 4 {
+    jml.l vwf16_print_battle_buffer
+}
+
+.alloc vwf16_print_battle_buffer in code_c8 {
+    php
+    phb
+    pei (mode)
+    sep #0x20
+    pha
+    rep #0x20
+    jsr.w vwf16_setup_battle
+    plb
+_next:
+    lda.w 0x0000, y
+    cmp.w #END
+    beq _end
+    cmp.w #NEWLINE
+    beq _newline
+    jsr.w vwf16_glyph
+_skip:
+    iny
+    iny
+    bra _next
+_newline:
+    jsr.w vwf16_newline
+    bra _skip
+_end:
+    jsr.w vwf16_flush
+    pla
+    sta.b mode
+    plb
+    plp
+    rtl
 }

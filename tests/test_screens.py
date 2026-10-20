@@ -18,8 +18,9 @@ SCREENS = {
     "settings": ("load_screen", f"{MAIN_MENU},RIGHT,RIGHT,RIGHT,A"),
     "settings_sound": ("load_screen", f"{MAIN_MENU},RIGHT,RIGHT,RIGHT,A,UP,DOWN,RIGHT"),
     "chest": ("chest", "A"),  # facing a chest: the item found message
+    "battle_text": ("battle_text", ""),  # a battle chest: name + battle16 string through C0:48C6
 }
-SETTLE = {"chest": 120}  # frames more for text that types itself out
+SETTLE = {"chest": 120, "battle_text": 560}  # frames more for text that types itself out
 
 
 @pytest.mark.parametrize("name", SCREENS)
