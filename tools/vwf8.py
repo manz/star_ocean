@@ -13,6 +13,8 @@ with cursors and with numbers drawn below). Each string's non-blank tiles are on
 
 `vwf8_keys` sorts the records by the string's address (encode_menus.place): 8 bytes each, address word, bank, 0,
 record pointer, 0. Strings with a code the writer draws over two rows (C0+) have no record: the game draws them.
+`vwf8_combos` holds, per special move id from COMBO_FIRST, its battle16 name's record (.dl, then 0; 0: none) for the
+Talents combo slots (src/menu/vwf8.s), wrapped onto the slot's second row past COMBO_PX.
 """
 
 from __future__ import annotations
@@ -27,7 +29,7 @@ from katsuji import Atlas, VwfFont, pair_kerning, render
 from script import Table
 
 from tools import sdd1
-from tools.encode_menus import LABELS8, NAMES8, TABLE, place, values
+from tools.encode_menus import LABELS8, NAMES8, TABLE, place, values, wide_values
 from tools.import_menus import id_list
 from tools.menu_font import PNG
 from tools.rom import ROOT, Rom
@@ -40,6 +42,8 @@ SPACE_PX = 3
 # every word at its fixed-width column.
 COLUMNS = {0xEA6A, 0xEA6B, 0xEA74, 0xEA93, 0xEAD2, 0xEAD3, 0xEBDC, 0xECA9, *range(0xF6E0, 0xF6F7), 0xF712}
 GAP = 1  # between runs and whole tiles
+COMBO_FIRST, COMBO_COUNT = 0x2710, 0x82  # special moves, by battle16 id
+COMBO_PX = 96  # a combo slot's row: 12 cells
 INK, SHADOW = 3, 1  # the menu font's letter colours
 FF4 = True  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) instead of the menu font's letters
 FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
@@ -220,30 +224,78 @@ def records(rom: Rom, source: Path) -> list[tuple[int, bytes, bytes]]:
     return sorted(out)
 
 
+def width(codes: bytes) -> int:
+    """The line's pixels up to its last ink."""
+    ink = np.flatnonzero(line(codes, False).any(axis=0))
+    return int(ink[-1]) + 1 if ink.size else 0
+
+
+def wrapped(codes: bytes, limit: int) -> bytes:
+    """The line broken at its last space that keeps the first row within `limit` px (unchanged when it fits)."""
+    if width(codes) <= limit:
+        return codes
+    spaces = [i for i, code in enumerate(codes) if code == SPACE]
+    for i in reversed(spaces):
+        if width(codes[:i]) <= limit:
+            return codes[:i] + bytes([NEWLINE]) + codes[i + 1 :]
+    return codes
+
+
+def combo_records(rom: Rom, source: Path) -> dict[int, tuple[bytes, bytes]]:
+    """Special move position (id - COMBO_FIRST) -> (tiles, cells) of its battle16 name."""
+    encoded, _ = wide_values(rom, "battle16", Table(str(TABLE)), source / "battle16.xml")
+    out = {}
+    for sid, value in zip(id_list(rom, "battle16"), encoded, strict=True):
+        if COMBO_FIRST <= sid < COMBO_FIRST + COMBO_COUNT and value[:1] != bytes([END]):
+            body = value[: value.index(END)]
+            if (baked := bake(wrapped(body, COMBO_PX) + bytes([END]), False)) is not None:
+                out[sid - COMBO_FIRST] = baked
+    return out
+
+
+def _record(n: int, tiles: bytes, cells: bytes, streams: dict[bytes, str], asm: list[str], out: Path) -> None:
+    stream = "0"
+    if tiles:
+        if tiles not in streams:
+            streams[tiles] = f"vwf8_stream_{len(streams)}"
+            (out / f"{streams[tiles]}.bin").write_bytes(sdd1.compress(tiles))
+            asm.append(f'.alloc {streams[tiles]} in text16 {{\n    .incbin "{streams[tiles]}.bin"\n}}')
+        stream = streams[tiles]
+    data = ", ".join(f"0x{b:02X}" for b in cells)
+    asm.append(f".alloc vwf8_record_{n} in text16 {{\n    .dl {stream}\n    .db {len(tiles) // 16}, {data}\n}}")
+
+
 def build(source: Path = ROOT / "text" / "fr", out: Path = ROOT / "build" / "gen") -> int:
-    """vwf8_N.bin per distinct tile run and vwf8.i (streams, records, keys in text16)."""
-    baked = records(Rom(), source)
+    """vwf8_N.bin per distinct tile run and vwf8.i (streams, records, keys, combos in text16)."""
+    rom = Rom()
+    baked = records(rom, source)
+    combos = combo_records(rom, source)
     streams: dict[bytes, str] = {}
-    asm = [f"VWF8_RECORDS := {len(baked)}"]
+    asm = [
+        f"VWF8_KEYS := {len(baked)}",
+        f"VWF8_COMBO_FIRST := 0x{COMBO_FIRST:04X}",
+        f"VWF8_COMBOS := {COMBO_COUNT}",
+        f"VWF8_RECORDS := {len(baked) + COMBO_COUNT}",
+    ]
     keys = []
     for n, (address, tiles, cells) in enumerate(baked):
-        stream = "0"
-        if tiles:
-            if tiles not in streams:
-                streams[tiles] = stream = f"vwf8_stream_{len(streams)}"
-                (out / f"{stream}.bin").write_bytes(sdd1.compress(tiles))
-                asm.append(f'.alloc {stream} in text16 {{\n    .incbin "{stream}.bin"\n}}')
-            stream = streams[tiles]
-        data = ", ".join(f"0x{b:02X}" for b in cells)
-        asm.append(f".alloc vwf8_record_{n} in text16 {{\n    .dl {stream}\n    .db {len(tiles) // 16}, {data}\n}}")
+        _record(n, tiles, cells, streams, asm, out)
         keys.append(
             f"    .dw 0x{address & 0xFFFF:04X}\n    .db 0x{address >> 16:02X}, 0\n    .dl vwf8_record_{n}\n    .db 0"
         )
     asm.append(".alloc vwf8_keys in text16 {\n" + "\n".join(keys) + "\n}")
+    rows = []
+    for k in range(COMBO_COUNT):
+        if k in combos:
+            _record(len(baked) + k, *combos[k], streams, asm, out)
+            rows.append(f"    .dl vwf8_record_{len(baked) + k}\n    .db 0")
+        else:
+            rows.append("    .dl 0\n    .db 0")
+    asm.append(".alloc vwf8_combos in text16 {\n" + "\n".join(rows) + "\n}")
     for old in out.glob("names8_vwf*"):
         old.unlink()
     (out / "vwf8.i").write_text("\n".join(asm) + "\n")
-    return len(baked)
+    return len(baked) + len(combos)
 
 
 def main() -> None:

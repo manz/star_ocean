@@ -27,6 +27,7 @@ HOOKS = {
     0xCA7E21: "a2bbeaa00202",  # load screen
     0xCA700D: "a273eaa01705",  # main menu: ldx #EA73 / ldy #0x0517
     0xCA7E5A: "a273eaa01708",  # save screen
+    0xCA5A95: "20fdba",  # Talents combo slot: jsr BAFD (battle16 printer)
     0xCA7C11: "a00101",  # Statut equipment labels: ldy #0x0101
     0xCA7D9E: "a00111",  # its favourite dish: ldy #0x1101
     0xCA6FA3: "a9048de206",  # main menu commands: lda #4 / sta 06E2 (window x)

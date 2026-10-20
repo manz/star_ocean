@@ -9,6 +9,9 @@ index space. A string's tiles stay where they were uploaded and are reused while
 (`home` per record), so a redraw costs no upload. Allocation is next-fit over the `used` marks; when nothing fits, the
 three tilemap shadows ($7E:3100/3900/4100) are scanned once per frame for the tiles still shown. Uploads queue in
 a ring drained after the game's own (`CA:6CD1`), BUDGET bytes per frame.
+
+The Talents combo slots print their special moves' battle16 names with the 16x16 VWF over two rows (`CA:5A95`);
+`vwf8_combos` has those names baked for the 8x8 VWF instead, the long ones wrapped onto the slot's second row.
 """
 
 .import "core/preamble"
@@ -30,6 +33,7 @@ _BLANK := 0xBF  ; the font's space
 _NEWLINE := 0xFE
 _END := 0xFF
 _ROW := 0x40
+_COMBO_CELLS := 12  ; a combo slot's row, up to the window's border
 
 _record = 0x00  ; long pointer, saved and restored
 _count = 0x04
@@ -83,6 +87,17 @@ _cells = 0x27
     jsr.w vwf8_cave_open
 }
 
+; Talents combo slot: `jsr BAFD` (A = special move id, X = shadow address, M16 X16: the battle16 printer).
+.alloc at 0xCA5A95 size 3 {
+    jsr.w vwf8_cave_combo
+}
+
+.alloc vwf8_combo_cave at 0xCAFFAE size 5 {
+vwf8_cave_combo:
+    jsl vwf8_combo
+    rts
+}
+
 .alloc vwf8_caves at 0xCAFF8C size 0x22 {
 vwf8_cave_open:
     jsl vwf8_open
@@ -131,9 +146,115 @@ vwf8_string:
     sep #0x20
     rtl
 
+vwf8_record:
+"""vwf8_string for the record at $20-$22 whose position is vwf8.id."""
+    rep #0x20
+    lda.b _record
+    pha
+    lda.b _record + 2
+    pha
+    lda.b _count
+    pha
+    lda.b _string
+    sta.b _record
+    lda.b _string + 2
+    sta.b _record + 2
+    sep #0x20
+    jsr.w _found
+    rep #0x20
+    pla
+    sta.b _count
+    pla
+    sta.b _record + 2
+    pla
+    sta.b _record
+    sep #0x20
+    rtl
+
+vwf8_combo:
+"""
+A = special move id, X = shadow address (M16 X16): its name over the slot's two rows from the 8x8 VWF, else the
+battle16 printer's.
+"""
+    php
+    rep #0x30
+    pha
+    phx
+    pei (_string)
+    pei (_bank)
+    pei (_cursor)
+    pei (_attribute)
+    sec
+    sbc.w #VWF8_COMBO_FIRST
+    cmp.w #VWF8_COMBOS
+    bcs _combo_printer
+    pha
+    asl
+    asl
+    tax
+    lda.l vwf8_combos, x
+    sta.b _string
+    lda.l vwf8_combos + 2, x
+    sta.b _bank
+    pla
+    clc
+    adc.w #VWF8_KEYS
+    sta.l vwf8.id
+    lda.b _string
+    ora.b _bank
+    beq _combo_printer
+    lda 9, s  ; the shadow address
+    sta.b _cursor
+    tax
+    ldy.w #_COMBO_CELLS
+    lda.w #0
+_combo_clear:
+    sta.l 0x7E0000, x
+    sta.l 0x7E0000 + _ROW, x
+    inx
+    inx
+    dey
+    bne _combo_clear
+    sep #0x20
+    lda.w 0x06E6
+    asl
+    asl
+    sta.b _attribute
+    stz.b _cells
+    jsl vwf8_record
+    rep #0x30
+    bcc _combo_printer
+    pla
+    sta.b _attribute
+    pla
+    sta.b _cursor
+    pla
+    sta.b _bank
+    pla
+    sta.b _string
+    plx
+    pla
+    plp
+    rtl
+_combo_printer:
+    rep #0x30
+    pla
+    sta.b _attribute
+    pla
+    sta.b _cursor
+    pla
+    sta.b _bank
+    pla
+    sta.b _string
+    plx
+    pla
+    plp
+    jml 0xC6F5FA
+
 _draw:
     jsr.w _find
     bcc _refuse
+_found:
     rep #0x20
     ldy.w #3
     lda.b [_record], y
@@ -164,7 +285,7 @@ _find:
     rep #0x30
     lda.w #0
     sta.l vwf8.low
-    lda.w #VWF8_RECORDS
+    lda.w #VWF8_KEYS
     sta.l vwf8.high
 _probe:
     lda.l vwf8.low
