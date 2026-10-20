@@ -75,11 +75,11 @@ _in_font:
     tax  ; code * 17
     pla
     .for row := 0, 8 {
-    lda.w ( dialog_font & 0xFFFF ) + row * 2, x
-    sta 0x31 + row * 2
+        lda.w ( dialog_font & 0xFFFF ) + row * 2, x
+        sta 0x31 + row * 2
     }
     .for word := 0, 16 {
-    stz 0x41 + word * 2
+        stz 0x41 + word * 2
     }
     sep #0x20
     lda.w ( dialog_font & 0xFFFF ) + 16, x

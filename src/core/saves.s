@@ -14,7 +14,7 @@ SHIFT := 0x6000
 .macro move(site, old) {
     """The address word of the instruction at `site`: `old` - SHIFT."""
     .alloc at site + 1 size 2 {
-    .dw old - SHIFT
+        .dw old - SHIFT
     }
 }
 

@@ -341,8 +341,8 @@ _done:
     lda.w #BLANK_TILE
 _next:
     .for line := 0, LINES {
-    sta.l 0x7E0000 + line * LINE_ROWS, x
-    sta.l 0x7E0040 + line * LINE_ROWS, x
+        sta.l 0x7E0000 + line * LINE_ROWS, x
+        sta.l 0x7E0040 + line * LINE_ROWS, x
     }
     inx
     inx

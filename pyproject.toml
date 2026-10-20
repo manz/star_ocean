@@ -25,7 +25,7 @@ a816 = { path = "/private/tmp/claude-501/-Users-manz-Projects-star-ocean/846a70b
 [tool.uv]
 package = false
 # a816 reads its version from $VERSION (set by its CI).
-extra-build-variables = { a816 = { VERSION = "1.1.4.dev0" } }
+extra-build-variables = { a816 = { VERSION = "1.1.5.dev0" } }
 
 [tool.ruff]
 line-length = 120

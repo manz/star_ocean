@@ -7,6 +7,6 @@ SLASH := 0xCF  ; tile 0xAF: the big HP / MP slash (Japanese tile 0x41 is a lette
 ; HP / MP "cur / max" on the main menu: `ldy #pos / lda #0x61 / jsr A941`.
 .for site := 0, 4 {
     .alloc at 0xCA7097 + site * 8 size 2 {
-    lda.b #SLASH
+        lda.b #SLASH
     }
 }

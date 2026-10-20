@@ -30,7 +30,7 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 ; columns 0, 8, 16 and 23 of the labels (the Japanese had a 7-column stride).
 .alloc at 0xCA0280 size 16 {
     .for row := 0, 2 {
-    .db 0x00, 0x10 + row * 0x0C, 0x40, 0x10 + row * 0x0C, 0x80, 0x10 + row * 0x0C, 0xB8, 0x10 + row * 0x0C
+        .db 0x00, 0x10 + row * 0x0C, 0x40, 0x10 + row * 0x0C, 0x80, 0x10 + row * 0x0C, 0xB8, 0x10 + row * 0x0C
     }
 }
 
@@ -50,9 +50,9 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
     the name's last pixel (measured), sprite x = object x - 8.
     """
     .alloc at 0xCA06B5 + row * 0x13 size 6 {
-    lda.b #name_end + 4 + 8
-    sta.b 0x22
-    lda.b #0x68 + row * 0x0C + 2
+        lda.b #name_end + 4 + 8
+        sta.b 0x22
+        lda.b #0x68 + row * 0x0C + 2
     }
 }
 button_icon(0, 206)  ; Sélectionner
