@@ -2,10 +2,10 @@
 
 Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) set by katsuji's auto mode (widths from the
 ink, each pair kerned on the glyphs, shadow kept), or FF4's 8x8 VWF font with the menu font's shadow added (`FF4`);
-codes in FIXED (icons, words drawn across tiles) keep their whole tile. A string keeps
-its cells: names8 runs proportional then pads with blanks to its length, labels8 puts each word at the column it had
-in fixed width (menus line them up with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its
-record says which tile each cell shows:
+codes in FIXED (icons, words drawn across tiles) keep their whole tile. A string keeps its cells: words run
+proportional, SPACE_PX apart, then blanks pad it to its length; a word after two spaces or more starts at the column
+it had in fixed width, every word of a COLUMNS string does (menus line those up with cursors and with numbers drawn
+below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
 
     .dl stream (0: no tiles)
     .db tiles
@@ -27,7 +27,8 @@ from katsuji import Atlas, VwfFont, autohint, pair_kerning, render
 from script import Table
 
 from tools import sdd1
-from tools.encode_menus import LABELS8, NAMES8, TABLE, SmallDb, place, values
+from tools.encode_menus import LABELS8, NAMES8, TABLE, place, values
+from tools.import_menus import id_list
 from tools.menu_font import PNG
 from tools.rom import ROOT, Rom
 
@@ -35,6 +36,9 @@ SPACE, NEWLINE, END = 0xBF, 0xFC, 0xFF
 CELL_NEWLINE, CELL_END = 0xFE, 0xFF
 FIXED = range(0xA0, 0xBF)  # icons, words drawn across tiles
 SPACE_PX = 3
+# labels8 laid out in columns a single space apart (cursor stops, headers over numbers, the name entry's grid):
+# every word at its fixed-width column.
+COLUMNS = {0xEA6A, 0xEA6B, 0xEA74, 0xEA93, 0xEAD2, 0xEAD3, 0xEBDC, 0xECA9, *range(0xF6E0, 0xF6F7), 0xF712}
 GAP = 1  # between runs and whole tiles
 FF4 = False  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) with the menu font's shadow, instead of the menu font
 FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
@@ -134,17 +138,20 @@ def run(codes: bytes) -> Pixels:
 
 
 def line(codes: bytes, anchored: bool) -> Pixels:
-    """One line over its cells: words at their fixed-width column, or flowing with SPACE_PX spaces."""
+    """One line over its cells: words flow SPACE_PX apart, and start at their fixed-width column after two spaces or
+    more (a column stop), or always when `anchored`."""
     out = np.zeros((8, 8 * len(codes) + 8), np.uint8)
-    x = column = 0
+    x = column = spaces = 0
     for word in codes.split(bytes([SPACE])):
         if word:
-            start = 8 * column if anchored else x
+            start = max(x, 8 * column) if anchored or spaces > 1 else x
             pixels = run(word)
             out[:, start : start + pixels.shape[1]] = pixels
             x = start + pixels.shape[1] + SPACE_PX
+            spaces = 1
         else:
             x += SPACE_PX
+            spaces += 1
         column += len(word) + 1
     return out[:, : 8 * len(codes)]
 
@@ -181,10 +188,11 @@ def records(rom: Rom, source: Path) -> list[tuple[int, bytes, bytes]]:
     """(address, tiles, cells) of every baked string, by address."""
     table = Table(str(TABLE))
     out = []
-    db: SmallDb
-    for db, anchored in ((LABELS8, True), (NAMES8, False)):
-        for value, address in place(db, values(rom, db, table, source / f"{db.name}.xml")).items():
-            baked = bake(value, anchored)
+    for db in (LABELS8, NAMES8):
+        encoded = values(rom, db, table, source / f"{db.name}.xml")
+        columns = {value for sid, value in zip(id_list(rom, db.name), encoded, strict=True) if sid in COLUMNS}
+        for value, address in place(db, encoded).items():
+            baked = bake(value, value in columns)
             if baked:
                 out.append((address, *baked))
     return sorted(out)

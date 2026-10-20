@@ -53,3 +53,13 @@ def test_identical_tiles_are_uploaded_once() -> None:
 
 def test_a_two_row_kana_code_is_left_to_the_game() -> None:
     assert bake(bytes([0x41, 0xC0, 0xFF]), anchored=False) is None
+
+
+def test_single_spaced_words_flow() -> None:
+    _, cells = _bake("Choix d'un bloc")
+    assert cells[len("Choix d'un bl")] == 0
+
+
+def test_two_spaces_stop_at_the_fixed_column() -> None:
+    _, cells = _bake("PV  PM")
+    assert cells[4] != 0
