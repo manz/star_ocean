@@ -1,9 +1,9 @@
 """French menu strings -> a816 includes.
 
 8x8 databases (labels8, names8) keep their id list and offset list where the game has them (dozens of routines
-index those with a fixed bank); only the strings move, packed by a816 into the old strings' space (plus free bytes
-of the same bank) and the offset list rewritten: offset = string - base, as the readers add it. A string id the
-French lacks keeps the Japanese bytes.
+index those with a fixed bank); only the strings move, placed here (`place`) into the old strings' space (plus free
+bytes of the same bank) and the offset list rewritten: offset = string - base, as the readers add it. A string id
+the French lacks keeps the Japanese bytes.
 
 16x16 databases (battle16, menu16) were u16 per character, too big in French: their strings become one byte per
 character (glyph + 0x10, build/gen/so_menu16_fr.tbl), anywhere in the text16 pool, found through a 24-bit pointer per
@@ -76,17 +76,25 @@ def _normalise(text: str) -> str:
     return text
 
 
+def place(db: SmallDb, encoded: list[bytes]) -> dict[bytes, int]:
+    """Each distinct string's address: longest first, first range with room (src/menu/vwf8.s finds them by it)."""
+    ends = [lo for lo, _ in db.ranges]
+    out = {}
+    for value in sorted(dict.fromkeys(encoded), key=len, reverse=True):
+        n = next((n for n, (_, hi) in enumerate(db.ranges) if ends[n] + len(value) <= hi + 1), None)
+        if n is None:
+            raise ValueError(f"{db.name}: no room for {len(value)} bytes")
+        out[value], ends[n] = ends[n], ends[n] + len(value)
+    return out
+
+
 def include(db: SmallDb, encoded: list[bytes]) -> str:
-    pool = f"{db.name}_text"
-    lines = [f".pool {pool} {{"]
-    lines += [f"    range 0x{lo:06X} 0x{hi:06X}" for lo, hi in db.ranges]
-    lines += ["    strategy pack", "}"]
+    lines: list[str] = []
     labels: dict[bytes, str] = {}
-    for value in encoded:
-        if value not in labels:
-            labels[value] = f"{db.name}_{len(labels)}"
-            data = ", ".join(f"0x{b:02X}" for b in value)
-            lines += [f".alloc {labels[value]} in {pool} {{", f"    .db {data}", "}"]
+    for value, address in place(db, encoded).items():
+        labels[value] = f"{db.name}_{len(labels)}"
+        data = ", ".join(f"0x{b:02X}" for b in value)
+        lines += [f".alloc {labels[value]} at 0x{address:06X} size {len(value)} {{", f"    .db {data}", "}"]
     lines += [f".alloc {db.name}_offsets at 0x{db.offsets:06X} size {2 * len(encoded)} {{"]
     lines += [f"    .dw ({labels[value]} - 0x{db.base:06X}) & 0xFFFF" for value in encoded]
     lines += ["}"]

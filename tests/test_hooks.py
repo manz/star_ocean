@@ -42,6 +42,10 @@ HOOKS = {
     0xCA3257: "a944",  # its HDMA fill width
     0xC14797: "a9080022ca45c0",  # battle enemy name: lda #8 / jsl C045CA (blank 8 cells)
     0xC147A6: "a9080022ca45c0",  # the row above
+    0xCABCAD: "a00000a624",  # 8x8 writer: ldy #0 / ldx $24
+    0xCA6CD1: "a9201c0106",  # menu upload end: lda #0x20 / trb 0601
+    0xCA64CD: "a278a0",  # menu font loads: ldx #0xA078
+    0xCA6832: "a278a0",
     0xCA9864: "1021",  # combo description: bpl past the katakana reading
     0xCA98C9: "a953",  # its range marker: lda #'S'
     0xCA98DB: "a953",

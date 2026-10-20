@@ -20,9 +20,9 @@ from tools import (
     encode_text,
     menu_font,
     menu_font16,
-    names8_vwf,
     narration,
     title_menu,
+    vwf8,
 )
 from tools.rom import DEFAULT_ROM, ROOT
 
@@ -51,7 +51,7 @@ def build_assets() -> None:
     cutscene_text.build(out=GEN)
     badge.build(out=GEN)
     title_menu.build(out=GEN)
-    names8_vwf.build(out=GEN)
+    vwf8.build(out=GEN)
 
 
 def build(out: Path = BUILD) -> Patch:
