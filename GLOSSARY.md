@@ -16,18 +16,20 @@ name (names8/labels8), "16x16" the long name (battle16), "desc" the name heading
   (`Quel objet allez-vous utiliser?`, `Vous avez appris l'arcane…`); party members mostly *tutoient* each other.
 - **Capitalisation**: generic part lowercase in dialog (`temple de Parj`, `château d'Astral`, `royaume de Moore`);
   `[pos]` signs capitalised (`Château d'Astral`, `Port de Tropp`). Music titles in CAPS without accents.
-- **8x8 names**: items and spells ≤ 10 chars, special moves ≤ 11. To fit:
-  - CamelCase compounds, no space: `BagueFée`, `MailForge`, `BicÉtude`, `ChatRubis`;
+- **8x8 names**: drawn by the 8x8 VWF (`tools/vwf8.py`). Items fit the item list's name field, 64 px (8 cells):
+  spaced words (`Bague fée`, `Marteau forge`, `Épée longue+1`), abbreviated only when the full name does not fit.
+  Spells ≤ 10 chars, special moves ≤ 11. To fit those:
+  - CamelCase compounds, no space;
   - head noun cut to initial + dot: `É.` épée, `B.` bague/bâton, `C.` capel/contre, `Gr.` grève, `O.` orbe, `D.` danse/double,
     `Pg.` poing, `Id.` idole, `Fig.` figurine, `Col.` collier, `Arm.` armure, `Cr.`/`Crist.` cristal;
   - initials as suffix: `GO` Grande Ourse, `DA`/`DN`/`DR` dragon azur/noir/rouge, `OV` oiseau vermillon;
   - `+1`/`+2` kept, `MK2` → `V2`.
 - **Item series by suffix**: ポーション/ボトル/ポット → `-ixir` (Bullixir, Fusixir, Fruitixir); ボム → `-otov`
-  (Toxotov, Puantotov, Psychotov, Flambotov; stronger = `+`); キュア… → `Médi-`; ミスト → `Nuée-`; シロップ → `Miel-`.
+  (Toxotov, Puantotov, Psychotov, Flambotov; stronger = `+`); キュア… → `Anti-`; ミスト → `Brume …`; シロップ → `Sirop …`.
 - **Unidentified**: `？WEAPON` → `?Arme`, `？GUARD` → `?Défense`, `？ITEM` → `?Réserve`, `？JEM` → `?Gemme`,
   `？JEWELRY` → `?Bijou`, `？HERB` → `?Herbe`, `？FOOD` → `?Vivres`.
 - **Enemies**: French or classic tabletop names (Otyugh, Grell, Aarakocra, Yochlol), with pop-culture nods
-  (Shai-Hulud, Sauron, Arsène, Hannibal; item Gloubi-B.). `…シェイプ` series → `-oïde`.
+  (Shai-Hulud, Sauron, Arsène, Hannibal). `…シェイプ` series → `-oïde`.
 
 ## Characters
 
@@ -683,11 +685,11 @@ Categories (menu16): 戦闘スキル, 流派スキル (dialog: savoir de Style),
 
 ## Items
 
-Head abbreviations: see Conventions. Families: ソード → `Épée…`/`É.…`, リング → `Bague…`/`B.…`, ヘルム → `Capel…`/`C.…`,
-グリーブ → `Grève…`/`Gr.…`, シールド → `Écu…`, ガード → `Garde…`, ブーツ → `Botte…`, ボウ → `Arc…`, ローブ → `Robe…`,
-スーツ → `Habit…`, アイドル → `Idole…`, チェック → `Torque…`, シンボル → `Signe…`, ぞう → `Fig.…`, しょうぞうがA–L → `PortraitA–L`,
-ドワーヴン → `Nain`, エルヴン → `Elfe`, シルヴァン → `Sylve`, ホーリィ → `Bénie/Bénit`, ねこ → `Chat`, ミスリル → `Mithril`,
-ごうかな → `…Luxe`, ミラージュ → `…Mirage`. Japanese sake names kept in romaji (Ichinokura, Senchû, YaegakiMu, Tamano, Bijôbu, KokuRyû).
+Families: ソード → `Épée …`, リング → `Bague …`, ヘルム → `Casque …`, グリーブ → `Grèves …`, シールド → `Écu …`,
+ガード → `Garde …`, ブーツ → `Bottes …`, ボウ → `Arc …`, ローブ → `Robe …`, スーツ → `Tenue …`, アイドル → `Idole …`,
+チェック → `Torque …`, シンボル → `Signe …`, ぞう → `Statue …`, しょうぞうがA–L → `Portrait A–L`, ドワーヴン → `nain(e)`,
+エルヴン → `elfique`, シルヴァン → `sylvain(e)`, ホーリィ → `béni(e)`, ねこ → `chat`, ミスリル → `mithril`, ごうかな → `… de luxe`,
+ミラージュ → `… mirage`. Japanese sake names kept in romaji (Ichinokura, Senchû, Yaegaki Mu, Tamano, Bijôbu, Koku Ryû).
 
 ### Descriptions
 
@@ -715,22 +717,22 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 138C | ラベンダー | Lavande |
 | 138D | マジックカード | Magicarte |
 | 138E | マジックカラー | Magichrome |
-| 138F | リサーチペン | BicÉtude |
-| 1390 | クリエイターペン | BicŒuvre |
-| 1391 | スミスハンマー | MailForge |
-| 1392 | ミックスハンマー | MailPilon |
+| 138F | リサーチペン | Stylo d'étude |
+| 1390 | クリエイターペン | Stylo créatif |
+| 1391 | スミスハンマー | Marteau forge |
+| 1392 | ミックスハンマー | Marteau mixte |
 | 1393 | スペクタクルズ | Bésicles |
 | 1394 | ダマスクス | Damas |
 | 1395 | ミスリル | Mithril |
 | 1396 | オリハルコン | Orichalque |
-| 1397 | ルーンメタル | MétalRune |
+| 1397 | ルーンメタル | Métal runique |
 | 1398 | ムーナイト | Sélénite |
 | 1399 | ミーティアライト | Météorite |
 | 139A | けんじゃのいし | Alkahest |
 | 139B | ルビー | Rubis |
-| 139C | スタールビー | RubiÉtoilé |
+| 139C | スタールビー | Rubis étoilé |
 | 139D | サファイア | Saphir |
-| 139E | グリーンベリル | BérylVert |
+| 139E | グリーンベリル | Béryl vert |
 | 139F | クリスタル | Cristal |
 | 13A0 | ダイヤモンド | Diamant |
 | 13A1 | レインボーダイヤ | Iridiamant |
@@ -749,7 +751,7 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 13AE | くだもの | Fruits |
 | 13AF | やさい | Légumes |
 | 13B0 | にくるい | Viande |
-| 13B1 | ぎょかいるい | FruitMer |
+| 13B1 | ぎょかいるい | Fruits de mer |
 | 13B2-13CA (×25) | ？WEAPON | ?Arme |
 | 13CB-13D9 (×15) | ？GUARD | ?Défense |
 | 13DA-13E8 (×15) | ？ITEM | ?Réserve |
@@ -768,23 +770,23 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 140D | キラーポイズン | Toxotov+ |
 | 140E | スイートポット | Sucrixir |
 | 140F | リキュールボトル | Liqueur |
-| 1410 | スイートシロップ | MielDoux |
-| 1411 | サワーシロップ | MielAigre |
-| 1412 | ミックスシロップ | MielMêlé |
-| 1413 | ホーリィミスト | BuéeBénie |
+| 1410 | スイートシロップ | Sirop doux |
+| 1411 | サワーシロップ | Sirop aigre |
+| 1412 | ミックスシロップ | Sirop mixte |
+| 1413 | ホーリィミスト | Brume bénie |
 | 1414 | スティンクボム | Puantotov |
 | 1415 | ピコピヨボム | Puantotov+ |
 | 1416 | フェアリィグラス | Féérixir |
-| 1417 | フェアリィミスト | NuéeFée |
+| 1417 | フェアリィミスト | Brume de fée |
 | 1418 | マインドボム | Psychotov |
 | 1419 | ギガマインドボム | Psychotov+ |
-| 141A | リザレクトミスト | NuéeLazare |
-| 141B | リザレクトボトル | BrocLazare |
+| 141A | リザレクトミスト | Brume de vie |
+| 141B | リザレクトボトル | Fiole de vie |
 | 141C | フレアボム | Flambotov |
 | 141D | メガフレアボム | Flambotov+ |
-| 141E | キュアポイズン | MédiPoison |
-| 141F | キュアパラライズ | MédiParal |
-| 1420 | キュアストーン | MédiRoche |
+| 141E | キュアポイズン | Antipoison |
+| 141F | キュアパラライズ | Antiparalysie |
+| 1420 | キュアストーン | Antipierre |
 | 1421 | ウィッチパウダー | Limpinpine |
 | 1422 | エルヴンパウダー | Elfinine |
 | 1423 | シンデレラグラス | Cendrillon |
@@ -792,86 +794,86 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 1425 | ウィルポーション | Volontixir |
 | 1426 | マイトポーション | Couragixir |
 | 1427 | スペルポーション | Magixir |
-| 1429 | フレアリング | B.Embrasée |
-| 142A | バーサークリング | BagueFurie |
-| 142B | アクアリング | BagueAqua |
+| 1429 | フレアリング | Bague flamme |
+| 142A | バーサークリング | Bague furie |
+| 142B | アクアリング | Bague aqua |
 | 142C | ピヨハン | Piyohan |
-| 142D | エメラルドリング | B.Émeraude |
-| 142E | フェアリィリング | BagueFée |
-| 142F | ルナテックリング | BagueLune |
-| 1430 | スターリング | BagueAstro |
-| 1431 | メンタルリング | BaguePsy |
-| 1432 | レジストリング | B.Résist |
-| 1433 | リフレクトリング | B.Reflet |
-| 1434 | ヒールリング | BagueSoin |
-| 1435 | シールドリング | B.Bouclier |
-| 1436 | プロテクトリング | B.Protect |
-| 1437 | レビテートリング | BagueLévit |
-| 1438 | シルバーリング | B.Argent |
-| 1439 | ゴールドリング | BagueOr |
+| 142D | エメラルドリング | Bague béryl |
+| 142E | フェアリィリング | Bague fée |
+| 142F | ルナテックリング | Bague lunaire |
+| 1430 | スターリング | Bague étoile |
+| 1431 | メンタルリング | Bague mentale |
+| 1432 | レジストリング | Bague parade |
+| 1433 | リフレクトリング | Bague reflet |
+| 1434 | ヒールリング | Bague soin |
+| 1435 | シールドリング | Bague bouclier |
+| 1436 | プロテクトリング | Bague égide |
+| 1437 | レビテートリング | Bague envol |
+| 1438 | シルバーリング | Bague d'argent |
+| 1439 | ゴールドリング | Bague d'or |
 | 143A | ブローチ | Broche |
-| 143B | ゴールドブローチ | BrocheOr |
-| 143C | プリティアイドル | IdoleMimi |
-| 143D | ルビーペルシャ | ChatRubis |
+| 143B | ゴールドブローチ | Broche d'or |
+| 143C | プリティアイドル | Jolie idole |
+| 143D | ルビーペルシャ | Persan rubis |
 | 143E | ネックレス | Collier |
 | 143F | クラウン | Couronne |
 | 1440 | カエル | Grenouille |
-| 1441 | マジカルペルシャ | ChatMyst |
-| 1442 | シルバーアイドル | Id.Argent |
-| 1443 | ゴールドアイドル | IdoleOr |
+| 1441 | マジカルペルシャ | Persan magique |
+| 1442 | シルバーアイドル | Idole d'argent |
+| 1443 | ゴールドアイドル | Idole d'or |
 | 1444 | タリスマン | Talisman |
-| 1445 | ルナタリスマン | TalisLuna |
-| 1446 | ルナタブレット | BlasonLuna |
-| 1447 | スターネックレス | Col.Étoile |
-| 1448 | スタークレスト | SigleAstro |
-| 1449 | フィートシンボル | SigneTotem |
-| 144A | ミスティシンボル | SigneBrume |
-| 144B | ポイズンチェック | TorquePois |
-| 144C | パラライチェック | TorquePara |
-| 144D | ストーンチェック | TorqueRoc |
-| 144E | パープルミスト | NuéeMauve |
-| 144F | マジックミスト | NuéeMyst |
+| 1445 | ルナタリスマン | Talisman lunaire |
+| 1446 | ルナタブレット | Tablette lunaire |
+| 1447 | スターネックレス | Collier étoile |
+| 1448 | スタークレスト | Blason étoile |
+| 1449 | フィートシンボル | Signe totem |
+| 144A | ミスティシンボル | Signe brumeux |
+| 144B | ポイズンチェック | Torque poison |
+| 144C | パラライチェック | Torque stase |
+| 144D | ストーンチェック | Torque pierre |
+| 144E | パープルミスト | Brume mauve |
+| 144F | マジックミスト | Brume magique |
 | 1450 | リバースドール | Retounaît |
-| 1451 | マジカルドロップ | GoutteMyst |
+| 1451 | マジカルドロップ | Goutte magique |
 | 1452 | ドリームクラウン | Tiare Rêve |
-| 1453 | シルバーアンク | AnkhArgent |
-| 1454 | ぶさいくなゆびわ | BagueTorse |
-| 1455 | へんなにんぎょう | Fig.Louche |
-| 1456 | センスないゆびわ | BagueNaïve |
-| 1457 | へっぽこなかざり | BagueKitch |
+| 1453 | シルバーアンク | Ankh d'argent |
+| 1454 | ぶさいくなゆびわ | Bague moche |
+| 1455 | へんなにんぎょう | Poupée bizarre |
+| 1456 | センスないゆびわ | Bague ringarde |
+| 1457 | へっぽこなかざり | Bijou kitsch |
 | 1458 | へんなかたまり | Machin |
-| 1459 | はずかしいかざり | BagueOsée |
-| 145A | わらえるかたまり | TrucDrôle |
+| 1459 | はずかしいかざり | Bijou gênant |
+| 145A | わらえるかたまり | Truc risible |
 | 145B | せいぶつりろん | Biologie |
-| 145C | やくそうずかん | DePlantis |
-| 145D | せいしんがくろん | LaPsyché |
-| 145E | たのしいこうぶつ | MonMinéral |
-| 145F | どうぐずかん | LesOutils |
-| 1460 | おりょうりずかん | LaCuisine |
+| 145C | やくそうずかん | Herbier |
+| 145D | せいしんがくろん | Psychologie |
+| 145E | たのしいこうぶつ | Minéralogie |
+| 145F | どうぐずかん | Les outils |
+| 1460 | おりょうりずかん | La cuisine |
 | 1461 | がくてん | Mélomania |
-| 1462 | しんぴのようせい | FéeMystère |
-| 1463 | しょくざいえらび | CordonBleu |
-| 1464 | ドワーフぎじゅつ | L'ArtNain |
+| 1462 | しんぴのようせい | Fée mystique |
+| 1463 | しょくざいえらび | Cordon bleu |
+| 1464 | ドワーフぎじゅつ | L'art nain |
 | 1465 | しょくにんごころ | Artisanat |
 | 1466 | バイエル | AB-Musique |
-| 1467 | えごころのすべて | EspritArt |
+| 1467 | えごころのすべて | L'esprit de l'art |
 | 1468 | ぶんぽうろん | Bled |
-| 1469 | ぶきのすべて | ArmesA-Z |
+| 1469 | ぶきのすべて | Les armes |
 | 146A | ヘルメスのりろん | Hermès |
 | 146B-1470 (×6) | よげんしょ | Prophéties |
 | 1471-1475 (×3) | どーじん | FanArt |
 | 1473 | どーじん | Hentai |
 | 1474 | どーじん | DC Comics |
 | 1476 | フルーツパフェ | Parfait |
-| 1477 | アップルパイ | TarteTatin |
+| 1477 | アップルパイ | Tarte Tatin |
 | 1478 | シャーベット | Sorbet |
-| 1479 | オレンジシェイク | LaitOrange |
+| 1479 | オレンジシェイク | Lait orange |
 | 147A | フルーツケーキ | Cake |
 | 147B | ワイン | Vin |
 | 147C | シチュー | Ragoût |
 | 147D | サラダ | Salade |
-| 147E | ロールキャベツ | ChouFarci |
-| 147F | ホイコーロー | HuiGuoRou |
+| 147E | ロールキャベツ | Chou farci |
+| 147F | ホイコーロー | Hui guo rou |
 | 1480 | せんそうゼリー | Jell-O |
 | 1481 | まつたけボイル | Matsutake |
 | 1482 | ステーキ130 | Steak-130g |
@@ -881,209 +883,209 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 1486 | ハンバーグ | Hamburger |
 | 1487 | エスカルゴ | Escargot |
 | 1488 | とろ | Thon |
-| 1489 | おおとろ | ThonRouge |
+| 1489 | おおとろ | Thon gras |
 | 148A | えびフライ | Crevette |
 | 148B | たいさし | Sashimi |
 | 148C | サザエつぼやき | Bulot |
 | 148D | シーフードスパ | Spaghetti |
 | 148E | いちのくら | Ichinokura |
 | 148F | せんちゅう | Senchû |
-| 1490 | やえがき”む” | YaegakiMu |
+| 1490 | やえがき”む” | Yaegaki Mu |
 | 1491 | たまのひかり | Tamano |
 | 1492 | びじょうぶ | Bijôbu |
-| 1493 | こくりゅう | KokuRyû |
-| 1494 | シーフォンチュー | XifengJiu |
+| 1493 | こくりゅう | Koku Ryû |
+| 1494 | シーフォンチュー | Xifeng Jiu |
 | 1495 | さんぞうしゅ | Bibine |
 | 1496 | やすいさしみ | Poiscaille |
 | 1497 | まずいシチュー | Tambouille |
 | 1498 | かたいステーキ | Semelle |
-| 1499 | まずいデザート | Gloubi-B. |
-| 149A | からいケーキ | GâteauGâté |
+| 1499 | まずいデザート | Dessert raté |
+| 149A | からいケーキ | Gâteau épicé |
 | 149B | VICTORY | Victoire |
 | 149C | CRITICAL | Critique |
 | 149D | PHOENIX | Phénix |
 | 149E | TREASURE | Trésor |
 | 149F | UPSTART | Avide |
-| 14A0 | はやぶさのぞう | Fig.Faucon |
-| 14A1 | ししのぞう | Fig.Lion |
-| 14A2 | あくまのぞう | Fig.Démon |
-| 14A3 | どくろのぞう | Fig.Crâne |
-| 14A4 | しょうぞうがA | PortraitA |
-| 14A5 | しょうぞうがB | PortraitB |
-| 14A6 | しょうぞうがC | PortraitC |
-| 14A7 | しょうぞうがD | PortraitD |
-| 14A8 | しょうぞうがE | PortraitE |
-| 14A9 | しょうぞうがF | PortraitF |
-| 14AA | しょうぞうがG | PortraitG |
-| 14AB | しょうぞうがH | PortraitH |
-| 14AC | しょうぞうがI | PortraitI |
-| 14AD | しょうぞうがJ | PortraitJ |
-| 14AE | しょうぞうがK | PortraitK |
-| 14AF | しょうぞうがL | PortraitL |
+| 14A0 | はやぶさのぞう | Statue faucon |
+| 14A1 | ししのぞう | Statue lion |
+| 14A2 | あくまのぞう | Statue démon |
+| 14A3 | どくろのぞう | Statue crâne |
+| 14A4 | しょうぞうがA | Portrait A |
+| 14A5 | しょうぞうがB | Portrait B |
+| 14A6 | しょうぞうがC | Portrait C |
+| 14A7 | しょうぞうがD | Portrait D |
+| 14A8 | しょうぞうがE | Portrait E |
+| 14A9 | しょうぞうがF | Portrait F |
+| 14AA | しょうぞうがG | Portrait G |
+| 14AB | しょうぞうがH | Portrait H |
+| 14AC | しょうぞうがI | Portrait I |
+| 14AD | しょうぞうがJ | Portrait J |
+| 14AE | しょうぞうがK | Portrait K |
+| 14AF | しょうぞうがL | Portrait L |
 | 14B0-14B1 (×2) | らくがき | Croûte |
-| 14B2 | せんしのつぼ | VaseSoldat |
-| 14B3 | もんしょうのつぼ | VaseHéraut |
-| 14B4 | マジカルジャー | PotMagique |
-| 14B5 | サンタブーツ | BotteNoël |
+| 14B2 | せんしのつぼ | Vase guerrier |
+| 14B3 | もんしょうのつぼ | Vase armorié |
+| 14B4 | マジカルジャー | Jarre magique |
+| 14B5 | サンタブーツ | Bottes de Noël |
 | 14B6 | ブルーベリィ | Myrtille |
 | 14B7 | ブラックベリィ | Mûre |
 | 14B8 | アクアベリィ | Aiguebaie |
-| 14BB | ストラングソード | É.Ficelée |
-| 14BC | マーヴェルソード | ÉpéeInouïe |
+| 14BB | ストラングソード | Épée ficelée |
+| 14BC | マーヴェルソード | Épée inouïe |
 | 14BD | メテオクラッシュ | Météocrash |
 | 14BE | ムーンファルクス | Falx Lune |
 | 14BF | ソウルイーター | BuveuseÂme |
 | 14C0 | スティルソード | Empêtreuse |
-| 14C1 | ミスリルソード | É.Mithril |
+| 14C1 | ミスリルソード | Épée mithril |
 | 14C2 | シルヴァンス | Sylvance |
-| 14C3 | ダマスクスソード | ÉpéeDamas |
-| 14C4 | ドワーヴンソード | ÉpéeNain |
-| 14C5 | エアスラッシュ | LameVent |
-| 14C6 | ホーリィソード | ÉpéeBénie |
-| 14C7 | デュエルソード | ÉpéeDuel |
-| 14C9 | アストラルソード | É.Astrale |
+| 14C3 | ダマスクスソード | Épée damas |
+| 14C4 | ドワーヴンソード | Épée naine |
+| 14C5 | エアスラッシュ | Lame de vent |
+| 14C6 | ホーリィソード | Épée bénie |
+| 14C7 | デュエルソード | Épée de duel |
+| 14C9 | アストラルソード | Épée astrale |
 | 14CA | エレメントソード | Élémentale |
-| 14CB | イグニートソード | ÉpéeBraise |
-| 14CC | バハムートティア | LarmeBaham |
+| 14CB | イグニートソード | Épée ardente |
+| 14CC | バハムートティア | Larme Bahamut |
 | 14CD | グローサルソード | Crescendo |
 | 14CE | ガンブレイド | Pistolame |
-| 14CF | シルバーソード | ÉpéeArgent |
+| 14CF | シルバーソード | Épée d'argent |
 | 14D0 | メテオストライク | Météochoc |
 | 14D1 | スレイヤーソード | Dévoreuse |
 | 14D2 | ドゥームブレイド | Jugeresse |
-| 14D3 | ヴォーパルソード | ÉpéeVorpal |
-| 14D4 | ベルセルクソード | ÉpéeFurie |
-| 14D5 | クラックブレード | L.Crevasse |
+| 14D3 | ヴォーパルソード | Épée vorpale |
+| 14D4 | ベルセルクソード | Épée berserk |
+| 14D5 | クラックブレード | Lame fêlée |
 | 14D6 | CSSS | É.S.S.C. |
 | 14D7 | アサシンダガー | Poignard |
 | 14D8 | フレアバゼラード | Poignard |
-| 14D9 | ブラッディソード | ÉpéeSang |
-| 14DA | アイスコフィン | ÉcrinGlacé |
-| 14DB | エレメントエッジ | FilÉlément |
-| 14DC | ドラゴンエッジ | FilDragon |
-| 14DD | ラウンデルダガー | D.Rondelle |
+| 14D9 | ブラッディソード | Épée sanglante |
+| 14DA | アイスコフィン | Écrin glacé |
+| 14DB | エレメントエッジ | Fil élémentaire |
+| 14DC | ドラゴンエッジ | Fil du dragon |
+| 14DD | ラウンデルダガー | Dague rondelle |
 | 14DE | フェイムフェイス | Fameface |
-| 14DF | メタルファング | CrocMétal |
+| 14DF | メタルファング | Croc de métal |
 | 14E0 | ブレイズナックル | Pyropoing |
-| 14E1 | ペインセスタス | CesteAffre |
-| 14E2 | ドラゴンクロウ | SerreDraco |
-| 14E3 | ネコファング♪ | CrocChat♪ |
+| 14E1 | ペインセスタス | Ceste douleur |
+| 14E2 | ドラゴンクロウ | Serre dragon |
+| 14E3 | ネコファング♪ | Croc chat♪ |
 | 14E5 | セントハルバード | Hallebénie |
 | 14E6 | スピニングスピア | Rotolance |
 | 14E7 | メックハルバード | Halleméca |
-| 14E8 | ドラゴンランス | PiqueDrag. |
+| 14E8 | ドラゴンランス | Lance dragon |
 | 14E9 | フレイムランサー | Boutefeu |
-| 14EA | フレアスプレッド | ArcFlambée |
-| 14EB | シルヴァンボウ | ArcSylve |
-| 14EC | エルヴンボウ | ArcElfe |
-| 14ED | ライトニングボウ | ArcÉclair |
-| 14EE | ラピッドボウ | ArcHâtif |
-| 14F0 | オーラブレード | LameAura |
-| 14F1 | アークウィンド | ArcVent |
-| 14F2 | シウススペシャル | PersoCius |
+| 14EA | フレアスプレッド | Arc flambant |
+| 14EB | シルヴァンボウ | Arc sylvain |
+| 14EC | エルヴンボウ | Arc elfique |
+| 14ED | ライトニングボウ | Arc éclair |
+| 14EE | ラピッドボウ | Arc rapide |
+| 14F0 | オーラブレード | Lame d'aura |
+| 14F1 | アークウィンド | Arc du vent |
+| 14F2 | シウススペシャル | Spécial Cius |
 | 14F3 | ムラサマブレード | Muramasa |
 | 14F4 | おまもり | Amulette |
-| 14F5 | カイザーナックル | P.Kaiser |
+| 14F5 | カイザーナックル | Poing Kaiser |
 | 14F6 | デスブリンガー | Fatalité |
-| 14F7 | ホーリィオーブ | OrbeBénite |
+| 14F7 | ホーリィオーブ | Orbe béni |
 | 14F8 | ほうてんげき | Bi-Lame |
-| 14F9 | Qきょくパンチ♪ | PugilatQ♪ |
-| 14FA | なまくらソード | É.Émoussée |
+| 14F9 | Qきょくパンチ♪ | Pugilat Q♪ |
+| 14FA | なまくらソード | Épée émoussée |
 | 14FB | ガラクタ | Déchets |
-| 14FD | ロングソード | É.Longue |
+| 14FD | ロングソード | Épée longue |
 | 14FE | サーベル | Sabre |
 | 14FF | シンクレアー | Sinclair |
-| 1500 | ワルーンソード | É.Wallonne |
+| 1500 | ワルーンソード | Épée wallonne |
 | 1501 | トゥハンドソード | Montante |
 | 1502 | クレイモア | Claymore |
 | 1503 | ツヴァイハンダー | Espadon |
 | 1504 | フランヴェルジュ | Flamberge |
-| 1505 | スモールソード | ÉpéeCourte |
+| 1505 | スモールソード | Épée courte |
 | 1506 | グラディウス | Glaive |
 | 1507 | バゼラード | Baselard |
 | 1508 | ロッド | Bâton |
-| 1509 | ルビーワンド | TigeRubis |
+| 1509 | ルビーワンド | Sceptre rubis |
 | 150A | クレストロッド | Crosse |
 | 150B | ナックル | Poing |
-| 150C | ハードナックル | PoingDur |
-| 150D | ハグナク | BaghNakha |
+| 150C | ハードナックル | Poing dur |
+| 150D | ハグナク | Bagh nakh |
 | 150E | セスタス | Ceste |
 | 150F | こん | Bâton |
 | 1510 | スピア | Lance |
 | 1511 | ロングスピア | Pique |
 | 1512 | ハルバード | Hallebarde |
 | 1513 | さんせつこん | Nunchaku |
-| 1514 | ショートボウ | ArcCourt |
-| 1515 | ロングボウ | ArcLong |
+| 1514 | ショートボウ | Arc court |
+| 1515 | ロングボウ | Arc long |
 | 1516 | クロスボウ | Arbalète |
 | 1517 | アルヴァレスト | Cranequin |
-| 1519 | レザーアーマー | ArmureCuir |
-| 151A | バンデッドメイル | A.Laminée |
+| 1519 | レザーアーマー | Armure de cuir |
+| 151A | バンデッドメイル | Armure laminée |
 | 151B | リングメイル | Jaseran |
 | 151C | ブリガンディ | Brigandine |
 | 151D | プレートメイル | Lamellaire |
-| 151E | スチールアーマー | Arm.Acier |
+| 151E | スチールアーマー | Armure d'acier |
 | 151F | ローブ | Robe |
-| 1520 | シルクローブ | RobeSoie |
-| 1521 | アンバーローブ | RobeAmbre |
-| 1522 | シルバーローブ | RobeArgent |
+| 1520 | シルクローブ | Robe de soie |
+| 1521 | アンバーローブ | Robe d'ambre |
+| 1522 | シルバーローブ | Robe d'argent |
 | 1523 | ホーリィクローク | Scapulaire |
 | 1524 | ぶどうぎ | Keikogi |
-| 1525 | チャイナどうぎ | ChinaGi |
-| 1526 | ちゅうかどうぎ | GiQin |
-| 1527 | バトルスーツ | HabitLutte |
-| 1528 | そまつなビキニ | BikiniUni |
+| 1525 | チャイナどうぎ | Gi chinois |
+| 1526 | ちゅうかどうぎ | Gi Qin |
+| 1527 | バトルスーツ | Tenue combat |
+| 1528 | そまつなビキニ | Bikini simple |
 | 1529 | ビキニ | Bikini |
 | 152A | プリティビキニ | Bikimimi |
-| 152B | ねこスーツ | HabitChat |
-| 152C | レザーヘルム | CapelCuir |
-| 152D | バンデッドヘルム | C.Laminé |
-| 152E | アイアンヘルム | CapelFer |
+| 152B | ねこスーツ | Tenue de chat |
+| 152C | レザーヘルム | Casque de cuir |
+| 152D | バンデッドヘルム | Casque laminé |
+| 152E | アイアンヘルム | Casque de fer |
 | 152F | プレートヘルム | Armet |
-| 1530 | スチールヘルム | CapelAcier |
-| 1531 | ウッドシールド | TargeBois |
+| 1530 | スチールヘルム | Casque d'acier |
+| 1531 | ウッドシールド | Targe en bois |
 | 1532 | ラウンドシールド | Rondache |
-| 1533 | ナイツシールド | ÉcuCroisé |
-| 1534 | ファインシールド | ÉcuFin |
-| 1535 | レザーグリーブ | GrèveCuir |
-| 1536 | アイアングリーブ | GrèveFer |
-| 1537 | プレートグリーブ | Gr.Plaque |
-| 1538 | シルバーグリーブ | Gr.Argent |
+| 1533 | ナイツシールド | Écu chevalier |
+| 1534 | ファインシールド | Écu fin |
+| 1535 | レザーグリーブ | Grèves de cuir |
+| 1536 | アイアングリーブ | Grèves de fer |
+| 1537 | プレートグリーブ | Grèves plaques |
+| 1538 | シルバーグリーブ | Grèves d'argent |
 | 1539 | ブーツ | Bottes |
-| 153A | スエードブーツ | BotteDaim |
-| 153B | レザーブーツ | BotteCuir |
+| 153A | スエードブーツ | Bottes daim |
+| 153B | レザーブーツ | Bottes cuir |
 | 153C | サンダル | Sandales |
 | 153D | ぶどうシューズ | Tsuranuki |
-| 153E | チャイナシューズ | ChinaShoe |
-| 153F | ちゅうかシューズ | Chaus.Qin |
-| 1540 | ドワーヴンメイル | CotteNain |
+| 153E | チャイナシューズ | Souliers chinois |
+| 153F | ちゅうかシューズ | Souliers Qin |
+| 1540 | ドワーヴンメイル | Cotte naine |
 | 1541 | リフレックス | Reflex |
 | 1542 | ミスリルメッシュ | Mithriline |
-| 1543 | シルヴァンメイル | CotteSylve |
-| 1544 | デュエルスーツ | HabitDuel |
+| 1543 | シルヴァンメイル | Cotte sylvaine |
+| 1544 | デュエルスーツ | Tenue de duel |
 | 1545 | マジカルビキニ | Magikini |
-| 1546 | ねこアーマー | ArmureChat |
-| 1548 | ドワーヴンヘルム | CapelNain |
-| 1549 | ミスリルヘルム | C.Mithril |
-| 154A | シルヴァンヘルム | CapelSylve |
-| 154B | ハーミットヘルム | C.Ermite |
-| 154C | デュエルヘルム | SaladeDuel |
-| 154D | ねこバンド | Band.Chat |
-| 154E | エルヴンキャップ | CoiffeElfe |
-| 1550 | ドワーヴンブーツ | BotteNain |
-| 1551 | エルヴンブーツ | BotteElfe |
-| 1552 | ミスリルグリーブ | Gr.Mithril |
-| 1553 | シルヴァンブーツ | Gr.Sylve |
-| 155A | アンクシールド | ÉcuAnkh |
-| 155B | ドワーヴンガード | GardeNain |
-| 155C | ミスリルシールド | ÉcuMithril |
-| 155D | シルヴァンガード | GardeSylve |
-| 155E | スターガード | GardeAstro |
-| 1563 | レイブンオーブ | OrbCorbeau |
-| 1564 | アストラルリング | BagueAstro |
-| 1565 | フェザーリング | BaguePlume |
-| 1567 | ロングソード＋1 | É.Longue+1 |
-| 1568 | ロングソード＋2 | É.Longue+2 |
+| 1546 | ねこアーマー | Armure de chat |
+| 1548 | ドワーヴンヘルム | Casque nain |
+| 1549 | ミスリルヘルム | Casque mithril |
+| 154A | シルヴァンヘルム | Casque sylvain |
+| 154B | ハーミットヘルム | Casque ermite |
+| 154C | デュエルヘルム | Salade de duel |
+| 154D | ねこバンド | Bandeau chat |
+| 154E | エルヴンキャップ | Coiffe elfique |
+| 1550 | ドワーヴンブーツ | Bottes naines |
+| 1551 | エルヴンブーツ | Bottes elfiques |
+| 1552 | ミスリルグリーブ | Grèves mithril |
+| 1553 | シルヴァンブーツ | Bottes de sylve |
+| 155A | アンクシールド | Écu ankh |
+| 155B | ドワーヴンガード | Garde naine |
+| 155C | ミスリルシールド | Écu mithril |
+| 155D | シルヴァンガード | Garde sylvaine |
+| 155E | スターガード | Garde étoile |
+| 1563 | レイブンオーブ | Orbe corbeau |
+| 1564 | アストラルリング | Bague astrale |
+| 1565 | フェザーリング | Bague plume |
+| 1567 | ロングソード＋1 | Épée longue+1 |
+| 1568 | ロングソード＋2 | Épée longue+2 |
 | 1569 | クレイモア＋1 | Claymore+1 |
 | 156A | クレイモア＋2 | Claymore+2 |
 | 156B | グラディウス＋1 | Glaive+1 |
@@ -1092,26 +1094,26 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 156E | ナックル＋2 | Poing+2 |
 | 156F | ロングスピア＋1 | Pique+1 |
 | 1570 | ロングスピア＋2 | Pique+2 |
-| 1571 | シルバーナックル | Pg.Argent |
+| 1571 | シルバーナックル | Poing d'argent |
 | 1572 | ワールウィンド | Tourbillon |
 | 1573 | ハトのえさ | Graines |
 | 1574 | いしころ | Caillou |
-| 1575 | ごうかなけん | ÉpéeLuxe |
-| 1576 | ごうかなよろい | ArmureLuxe |
-| 1577 | ごうかなつえ | BâtonLuxe |
-| 1578 | ごうかなローブ | RobeLuxe |
-| 1579 | ミラージュマント | CapeMirage |
-| 157A | ミラージュローブ | RobeMirage |
-| 157B | スタークローク | CapeÉtoile |
+| 1575 | ごうかなけん | Épée de luxe |
+| 1576 | ごうかなよろい | Armure de luxe |
+| 1577 | ごうかなつえ | Bâton de luxe |
+| 1578 | ごうかなローブ | Robe de luxe |
+| 1579 | ミラージュマント | Cape mirage |
+| 157A | ミラージュローブ | Robe mirage |
+| 157B | スタークローク | Cape étoilée |
 | 157E | つるはし | Pioche |
-| 157F | バニーホイッスル | AppelLapin |
-| 1580 | フォースソード | ÉpéeForce |
+| 157F | バニーホイッスル | Sifflet lapin |
+| 1580 | フォースソード | Épée de force |
 | 1581 | はっけおうぎしょ | Parchemin |
-| 1582 | おムスビ | BouleRiz |
-| 1583 | セントエルモ | SaintElme |
+| 1582 | おムスビ | Onigiri |
+| 1583 | セントエルモ | Saint-Elme |
 | 1584 | オカリナ | Ocarina |
 | 1585 | ひうちいし | Silex |
-| 1586 | トライエンブレム | TriEmblème |
+| 1586 | トライエンブレム | Tri-emblème |
 
 ### Key items (きちょうひん)
 

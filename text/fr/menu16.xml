@@ -900,7 +900,7 @@ Une carte de sécurité bleue.</sn:string>
 <sn:string id="0xFF3D">Son tranchant perçant ignore la défense de l'ennemi.</sn:string>
 <sn:string id="0xFF3E">Une dague redoutable qui touche à 100%.</sn:string>
 <sn:string id="0xFF3F">Lame semi-courbe, fine et affûtée comme un rasoir.</sn:string>
-<sn:string id="0xFF40">Une arme en MétalRune.</sn:string>
+<sn:string id="0xFF40">Une arme en métal runique.</sn:string>
 <sn:string id="0xFF41">Des poings recelant la force explosive des flammes.</sn:string>
 <sn:string id="0xFF42">Un ceste qui empoisonne.</sn:string>
 <sn:string id="0xFF43">Griffe qui, telle celle d'un dragon, tranche le fer comme du papier.</sn:string>
@@ -933,7 +933,7 @@ Une carte de sécurité bleue.</sn:string>
 <sn:string id="0xFF5E">Épée longue en fer, à la lame d'environ 90 centimètres.</sn:string>
 <sn:string id="0xFF5F">Épée courbe.</sn:string>
 <sn:string id="0xFF60">Un sabre courbe d'un modèle raffiné.</sn:string>
-<sn:string id="0xFF61">Une épée longue, plus puissante que l'É.Longue.</sn:string>
+<sn:string id="0xFF61">Une épée longue, plus puissante que l'Épée longue.</sn:string>
 <sn:string id="0xFF62">Grande épée à deux mains, aussi longue qu'un homme est grand.</sn:string>
 <sn:string id="0xFF63">Une grande épée.</sn:string>
 <sn:string id="0xFF64">Une grande épée.</sn:string>
@@ -959,7 +959,7 @@ Une carte de sécurité bleue.</sn:string>
 <sn:string id="0xFF78">Arbalète de grande taille, à la puissance sans égale.</sn:string>
 <sn:string id="0xFF79"></sn:string>
 <sn:string id="0xFF7A">Une armure en cuir.</sn:string>
-<sn:string id="0xFF7B">Une ArmureCuir renforcée.</sn:string>
+<sn:string id="0xFF7B">Une Armure de cuir renforcée.</sn:string>
 <sn:string id="0xFF7C">Armure faite de petits anneaux de métal reliés.</sn:string>
 <sn:string id="0xFF7D">Armure renforcée de plaques de métal prises entre deux cuirs.</sn:string>
 <sn:string id="0xFF7E">Une armure en métal.</sn:string>
@@ -978,14 +978,14 @@ Une carte de sécurité bleue.</sn:string>
 <sn:string id="0xFF8B">Un bikini mignon.</sn:string>
 <sn:string id="0xFF8C">Tenue de combat pour Semi Felpurr.</sn:string>
 <sn:string id="0xFF8D">Casque en cuir.</sn:string>
-<sn:string id="0xFF8E">Une version renforcée du CapelCuir.</sn:string>
+<sn:string id="0xFF8E">Une version renforcée du Casque de cuir.</sn:string>
 <sn:string id="0xFF8F">Un casque en fer.</sn:string>
 <sn:string id="0xFF90">Casque de métal qui couvre toute la tête.</sn:string>
 <sn:string id="0xFF91">Casque en acier.</sn:string>
 <sn:string id="0xFF92">Un bouclier en bois.</sn:string>
 <sn:string id="0xFF93">Un bouclier rond en métal. Terriblement lourd.</sn:string>
 <sn:string id="0xFF94">Bouclier conçu pour les chevaliers, aujourd'hui répandu.</sn:string>
-<sn:string id="0xFF95">Version plus raffinée de l'ÉcuCroisé.</sn:string>
+<sn:string id="0xFF95">Version plus raffinée de l'Écu chevalier.</sn:string>
 <sn:string id="0xFF96">Des grèves en cuir.</sn:string>
 <sn:string id="0xFF97">Des grèves en fer.</sn:string>
 <sn:string id="0xFF98">Grève de métal qui couvre toute la jambe.</sn:string>
@@ -1036,8 +1036,8 @@ Une carte de sécurité bleue.</sn:string>
 <sn:string id="0xFFC5">Une bague spéciale indispensable pour manier l'épée volante.</sn:string>
 <sn:string id="0xFFC6">Souvenir laissé par ses parents disparus.</sn:string>
 <sn:string id="0xFFC7"></sn:string>
-<sn:string id="0xFFC8">Version renforcée de l'É.Longue.</sn:string>
-<sn:string id="0xFFC9">Version renforcée de l'É.Longue.</sn:string>
+<sn:string id="0xFFC8">Version renforcée de l'Épée longue.</sn:string>
+<sn:string id="0xFFC9">Version renforcée de l'Épée longue.</sn:string>
 <sn:string id="0xFFCA">Claymore renforcée.</sn:string>
 <sn:string id="0xFFCB">Claymore renforcée.</sn:string>
 <sn:string id="0xFFCC">Une version renforcée du Glaive.</sn:string>
