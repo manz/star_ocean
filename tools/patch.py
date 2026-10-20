@@ -13,7 +13,7 @@ from a816.module_builder import build_with_imports
 from katsuji import build as katsuji_build
 from katsuji import config as katsuji_config
 
-from tools import encode_menus, encode_text, menu_font, menu_font16
+from tools import encode_menus, encode_text, menu_font, menu_font16, narration
 from tools.rom import DEFAULT_ROM, ROOT
 
 BUILD = ROOT / "build"
@@ -29,7 +29,7 @@ class Patch:
 
 
 def build_assets() -> None:
-    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text and menus."""
+    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, menus, narration."""
     katsuji_build.build(katsuji_config.load(ROOT / "katsuji.toml"))
     font = (GEN / "dialog_font.dat").read_bytes()
     (GEN / "dialog_font_low.bin").write_bytes(font[: DIALOG_FONT_GLYPHS * DIALOG_FONT_RECORD])
@@ -37,6 +37,7 @@ def build_assets() -> None:
     menu_font.build(out=GEN / "menu_font8.bin")
     menu_font16.build(out=GEN)
     encode_menus.build(ROOT / "text" / "fr", GEN)
+    narration.build(out=GEN)
 
 
 def build(out: Path = BUILD) -> Patch:

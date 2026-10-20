@@ -1,0 +1,49 @@
+# Narration screens (tools/narration.py): pre-rendered 208x64 pictures, four 16-px lines each.
+# `text` lines go one per `step` px from the `baseline` of the first; a line starting with ">" is right-aligned,
+# otherwise lines are centred (`align = "left"` for the letter). Screen 0 is drawn over its parchment.
+
+[[screen]]  # Kurt village chief's letter: 至急、救援を送られたし。クール村にて / 奇病発生。高熱に悩まされている。/ クール村村長
+align = "left"
+baseline = 20
+step = 16
+text = [
+    "Urgent ! Envoyez des secours.",
+    "Une étrange fièvre frappe Laponia.",
+    ">Le chef du village de Laponia",
+]
+
+[[screen]]  # 本艦は予定通りに / 深宇宙探査任務を終え
+text = ["", "Le vaisseau a achevé comme prévu", "sa mission d'exploration lointaine"]
+
+[[screen]]  # 現在は帰路についている
+text = ["", "", "et a pris le chemin du retour."]
+
+[[screen]]  # 艦長、コーヒーはいかがですか？
+text = ["", "", "Capitaine, un peu de café ?"]
+
+[[screen]]  # ありがとう
+text = ["", "", "Merci."]
+
+[[screen]]  # いただくとするよ
+text = ["", "", "Je veux bien une tasse."]
+
+[[screen]]  # 艦長
+text = ["", "", "Capitaine !"]
+
+[[screen]]  # 未確認の巨大な / エネルギーを発見しました
+text = ["", "Nous détectons une énorme source", "d'énergie non identifiée !"]
+
+[[screen]]  # どこだ？
+text = ["", "", "Où ça ?"]
+
+[[screen]]  # セクターガンマ / マーク301、ポイント209です
+text = ["", "Secteur Gamma,", "marque 301, point 209."]
+
+[[screen]]  # レゾニア領域か？
+text = ["", "", "Le territoire de Resonia ?"]
+
+[[screen]]  # スクリーンに映せ
+text = ["", "", "Affichez-le à l'écran !"]
+
+[[screen]]  # 何が起こったんだ？
+text = ["", "", "Que s'est-il passé ?"]

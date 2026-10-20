@@ -11,3 +11,14 @@ Pre-rendered text, not font text. Shown by the text VM (`C2:38AB → C2:56AA →
 - Dump: `uv run python -m tools.dump_images` → `extracted/images/narration/`.
 - Patch path: re-render 208×16 lines, S-DD1-compress or (simpler) hook `C2:6791` to DMA uncompressed
   lines from free ROM.
+
+## French (src/dialog/narration.s)
+
+- `text/fr/narration.toml` → `tools/narration.py`: Helvetica 12 drawn at 4×, box-filtered to the 3 greys; the
+  letter's Japanese ink is erased (ink not touching the torn edge takes the paper around it), French drawn in ink.
+- Streams go in the `text16` pool, which narration.s grows with the 19 freed Japanese slots and the 0xFF padding
+  before the FE / FF bank ends. 13 French lines are ≥ 255 B against 12 freed slots that size: no in-place fit.
+- Scene 30 is the Calnus intro (`[narration][1..c]`). Its other subtitles (爆発の際…, シールドしろ, 宇宙暦346年…)
+  are a different path: sprite cels copied by `C3:944C` from a per-cutscene 16×16 4bpp glyph sheet in WRAM
+  (e.g. `DB:98CB` → `$7F:21A0`, loaded by `CC:1715`). Credits (job titles, names) are `C2:DB33` streams
+  (0x400 B → VRAM `$5000` title / `$5200` name). Both untranslated.
