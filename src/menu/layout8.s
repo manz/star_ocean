@@ -100,3 +100,18 @@ button_icon(5, 175)  ; Arcane 2
 .alloc at 0xCA3257 size 2 {
     lda.b #0x44 + 3 * 8
 }
+
+; Combo screen, skill description: the Japanese drew the kanji name (16x16) and, on its right, its katakana reading
+; in 8x8 (labels8 FA2A + skill, ids with bit 15 set). In French both are the name: always skip the reading.
+.alloc at 0xCA9864 size 2 {
+    bra 0xCA9887
+}
+
+; Combo screen, skill description: the range marker (CA:98B3, `lda #char / jsr A941`) is S (short) or L (long) in
+; the Japanese; the French slots say C (courte) and L (longue), as the button labels (EB41).
+.alloc at 0xCA98C9 size 2 {
+    lda.b #0x43
+}
+.alloc at 0xCA98DB size 2 {
+    lda.b #0x43
+}

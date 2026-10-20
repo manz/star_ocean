@@ -40,6 +40,9 @@ HOOKS = {
     0xCA31FA: "a00807",  # Groupe submenu window: ldy #0x0708 (height, width)
     0xCA3276: "a00807",  # its close
     0xCA3257: "a944",  # its HDMA fill width
+    0xCA9864: "1021",  # combo description: bpl past the katakana reading
+    0xCA98C9: "a953",  # its range marker: lda #'S'
+    0xCA98DB: "a953",
     0xCACE50: "ad150785300a0a18653018690e8500a5008520a9098521a9058522a9028523a9038524203dd260",  # sound rect
     0xCAACA0: "20a9ac20ccac",  # menu16 copy: jsr find / jsr merge
     0xC07FD8: "03",  # header: SRAM 8 KB
