@@ -3,9 +3,10 @@
 Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) as 1bpp ink, set by katsuji's auto mode
 (widths from the ink, each pair kerned on the glyphs), or FF4's 8x8 VWF font (`FF4`); the run then gets the shadow
 the menu font draws its letters with; codes in FIXED (icons, words drawn across tiles) keep their whole tile. A
-string keeps its cells: words run proportional, SPACE_PX apart, then blanks pad it to its length; a word after two
-spaces or more starts at the column it had in fixed width, every word of a COLUMNS string does (menus line those up
-with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
+string keeps its cells: words run proportional, SPACE_PX apart, up to its last inked tile and the trailing spaces it
+spells out (the game's text only drew its own characters: padding to the fixed-width length ran over window borders);
+a word after two spaces or more starts at the column it had in fixed width, every word of a COLUMNS string does
+(menus line those up with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
 
     .dl stream (0: no tiles)
     .db tiles
@@ -190,6 +191,15 @@ def planar(tile: Pixels) -> bytes:
     return bytes(out)
 
 
+def _trimmed(row: list[int], spaces: int) -> list[int]:
+    """A line's cells without the blanks the proportional text freed at its end (they ran over window borders),
+    keeping the trailing spaces the string spells out (blank strings erase a field)."""
+    end = len(row)
+    while end and row[end - 1] == 0:
+        end -= 1
+    return row[: min(len(row), end + spaces)]
+
+
 def bake(value: bytes, anchored: bool) -> tuple[bytes, bytes] | None:
     """(tiles, cells) of a terminated string, or None when the game must draw it."""
     body = value[: value.index(END)]
@@ -201,9 +211,11 @@ def bake(value: bytes, anchored: bool) -> tuple[bytes, bytes] | None:
         if n:
             cells.append(CELL_NEWLINE)
         pixels = line(codes, anchored)
+        row = []
         for cell in range(len(codes)):
             tile = pixels[:, 8 * cell : 8 * cell + 8]
-            cells.append(tiles.setdefault(planar(tile), len(tiles) + 1) if tile.any() else 0)
+            row.append(tiles.setdefault(planar(tile), len(tiles) + 1) if tile.any() else 0)
+        cells.extend(_trimmed(row, len(codes) - len(codes.rstrip(bytes([SPACE])))))
     cells.append(CELL_END)
     if len(tiles) >= CELL_NEWLINE:
         return None

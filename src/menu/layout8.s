@@ -35,6 +35,66 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
     ldy.w #0x1100
 }
 
+; Équiper: the slots' labels (EA9C, Arme ... Accessoire) from column 2 to 1, so "Accessoire" clears the item names
+; at column 7.
+.alloc at 0xCA7840 size 3 {
+    ldy.w #0x0101
+}
+; Its hand cursor (descriptor CA:0D94), x -4 and y + 4 for the seven slots, off the labels' first letter (the window
+; starts at the screen edge, so the hand loses its first 4 px).
+.alloc at 0xCA0D9E size 14 {
+    .for slot := 0, 7 {
+        .db 0xFC, 0x4C + slot * 0x0C
+    }
+}
+
+; The menu hand (CA:4C4E: sprite 0x70 + $06A6 at x $0696, y $0698) goes through an 8-bit x and never sets OAM's
+; ninth x bit. A hand at x 0xF0 or more would be cut by the right edge, so that range now means x - 256: the bit is
+; set there and cleared elsewhere, in the high table the game DMAs from $1F00.
+.alloc at 0xCA4C73 size 3 {
+    jsr.w menu_hand_cave
+}
+
+.alloc menu_hand_cave at 0xCAFFB3 size 0x4D {
+    jsr.w 0x5456
+    php
+    rep #0x30
+    lda.w 0x06A6
+    and.w #0x00FF
+    clc
+    adc.w #0x0070
+    pha
+    lsr
+    lsr
+    tax
+    pla
+    and.w #0x0003
+    tay
+    lda.w #0x0001
+_shift:
+    dey
+    bmi _bit
+    asl
+    asl
+    bra _shift
+_bit:
+    sep #0x20
+    pha
+    lda.w 0x0696
+    cmp.b #0xF0
+    pla
+    bcc _clear
+    ora.l 0x001F00, x
+    bra _store
+_clear:
+    eor.b #0xFF
+    and.l 0x001F00, x
+_store:
+    sta.l 0x001F00, x
+    plp
+    rts
+}
+
 ; Main menu and save screen party rows: "Suivant" (EA73, NEXT) from column 0x17 to 0x16, clear of the border.
 .alloc at 0xCA7010 size 3 {
     ldy.w #0x0516
