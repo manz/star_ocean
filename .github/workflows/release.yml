@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-26.04-arm
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v7
+    - uses: manz/a816/actions/setup@v1.1.7
+    - uses: manz/a816/actions/decrypt-rom@v1.1.7
+      with:
+        passphrase: ${{ secrets.ROM_PASSPHRASE }}
+        encrypted: so.sfc.gz.gpg
+        to: Star Ocean (Japan).sfc
+        sha1: a616ee3466256482bc0adc11f1fda7c30e66ef8d
+    - name: Build patch
+      run: uv run python -m tools.patch
+    - uses: manz/a816/actions/seal@v1.1.7
+      with:
+        rom: Star Ocean (Japan).sfc
+        patches: build/star_ocean.ips
+    - name: Name patch
+      run: |
+        mkdir -p dist
+        cp build/star_ocean.ips dist/star_ocean-fr-${{ github.ref_name }}.ips
+    - uses: manz/a816/actions/release@v1.1.7
+      with:
+        title: Star Ocean ${{ github.ref_name }}
+        assets: dist/star_ocean-fr-${{ github.ref_name }}.ips
