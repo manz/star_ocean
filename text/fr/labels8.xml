@@ -271,10 +271,10 @@ D'accord?
 <sn:string id="0xF725">Cons</sn:string>
 <sn:string id="0xF726">Cran</sn:string>
 <sn:string id="0xF727">Endu</sn:string>
-<sn:string id="0xF728">A[0xa7][0xa8][0xa9][0xaa]</sn:string>
-<sn:string id="0xF729">D[0xb0][0xb1][0xb2][0xb3]</sn:string>
-<sn:string id="0xF72A">P[0xb4][0xb5][0xb6][0xb7][0xb8]</sn:string>
-<sn:string id="0xF72B">E[0xab][0xac][0xad][0xae]</sn:string>
+<sn:string id="0xF728">Attaque</sn:string>
+<sn:string id="0xF729">Défense</sn:string>
+<sn:string id="0xF72A">Précision</sn:string>
+<sn:string id="0xF72B">Esquive</sn:string>
 <sn:string id="0xF72C">Élément</sn:string>
 <sn:string id="0xF72D"></sn:string>
 <sn:string id="0xF730">Arme</sn:string>
