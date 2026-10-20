@@ -43,6 +43,20 @@ def emulator(state: str, sram: bytes | None = None) -> Emu:
     return emu
 
 
+def power_on(frames: int, sram: bytes | None = None) -> Emu:
+    """The patched game run `frames` frames from power on, the cart holding `sram` (or nothing): screens a
+    savestate cannot show, as one keeps the VRAM its build loaded."""
+    if not ROM.exists() or not IPS.exists():
+        pytest.skip("patch not built: uv run python -m tools.patch")
+    kintsuki = pytest.importorskip("kintsuki")
+    emu: Emu = kintsuki.Emu(load_srm_sidecar=False, sram_policy="fit")
+    emu.load_rom(str(ROM))
+    if sram is not None:
+        emu.inject_sram(sram)
+    emu.run_frames(frames)
+    return emu
+
+
 def tap(emu: Emu, buttons: str) -> None:
     """Press and release each of the comma-separated buttons (kintsuki.Button names) in turn."""
     from kintsuki import Button

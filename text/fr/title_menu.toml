@@ -1,0 +1,17 @@
+# Title menu (tools/title_menu.py): sprite frames whose cels are tiles of the title sprite sheet (DA:F458).
+# `entry` is the sprite-list word that points at the item's frame (bank CC).
+
+[[item]]
+entry = 0xCC2BD0
+jp = "New Game"
+text = "Nouvelle partie"
+
+[[item]]
+entry = 0xCC2BFB
+jp = "Continue"
+text = "Continuer"
+
+[[item]]
+entry = 0xCC2C1F
+jp = "Sound Player"
+text = "Musiques"

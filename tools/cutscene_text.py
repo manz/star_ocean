@@ -27,7 +27,9 @@ SCALE, CEL = 4, 16
 STYLES: dict[str, tuple[Path, int, int, range, bool]] = {
     "subtitle": (Path("/System/Library/Fonts/Helvetica.ttc"), 12, 11, range(12, 16), True),
     "credit": (Path("/System/Library/Fonts/Times.ttc"), 13, 0, range(1, 4), False),
+    "menu": (Path("/System/Library/Fonts/Helvetica.ttc"), 15, 0, range(1, 4), False),
 }
+FACES = {"menu": 1}  # style -> face in the font collection (Helvetica Bold)
 MAX_WIDTH = 256
 LINE_STEP = 14  # credit lines
 TITLE_BYTES = 0x400  # BG credit title (C2:DB33)
@@ -37,7 +39,7 @@ def render(lines: list[str], style: str, width: int = 0, left: int | None = None
     """The lines on a grid of whole cels (or `width` px), as the style's colour indices: centred, or starting at
     `left`, or ending at `right`."""
     path, size, ground, inks, _ = STYLES[style]
-    font = ImageFont.truetype(str(path), size * SCALE)
+    font = ImageFont.truetype(str(path), size * SCALE, index=FACES.get(style, 0))
     widths = [font.getlength(line) / SCALE for line in lines]
     if max(widths) > MAX_WIDTH - 2:
         raise ValueError(f"cutscene line {lines[widths.index(max(widths))]!r} is {max(widths):.0f} px")
