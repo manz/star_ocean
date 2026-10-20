@@ -16,9 +16,9 @@ def _bake(text: str, anchored: bool = False) -> tuple[bytes, bytes]:
     return baked
 
 
-def test_a_string_keeps_one_cell_per_character() -> None:
-    _, cells = _bake("AppelLapin")
-    assert len(cells) == len("AppelLapin") + 1
+def test_a_string_stops_at_its_last_inked_cell() -> None:
+    tiles, cells = _bake("AppelLapin")
+    assert len(cells) == len(tiles) // 16 + 1
 
 
 def test_a_proportional_name_shows_fewer_tiles_than_letters() -> None:
@@ -26,9 +26,19 @@ def test_a_proportional_name_shows_fewer_tiles_than_letters() -> None:
     assert len(tiles) // 16 < len("AppelLapin")
 
 
-def test_the_cells_past_the_ink_are_blank() -> None:
+def test_the_last_cell_before_the_end_mark_is_inked() -> None:
     _, cells = _bake("AppelLapin")
-    assert cells[-2] == 0
+    assert cells[-2] != 0
+
+
+def test_spelled_out_trailing_spaces_are_kept() -> None:
+    _, cells = _bake("Fin   ")
+    assert cells[-4:-1] == bytes(3)
+
+
+def test_a_blank_string_keeps_its_cells() -> None:
+    _, cells = _bake("    ")
+    assert cells == bytes(4) + bytes([CELL_END])
 
 
 def test_the_cells_end_with_the_end_mark() -> None:
@@ -57,7 +67,7 @@ def test_a_two_row_kana_code_is_left_to_the_game() -> None:
 
 def test_single_spaced_words_flow() -> None:
     _, cells = _bake("Choix d'un bloc")
-    assert cells[len("Choix d'un bl")] == 0
+    assert len(cells) < len("Choix d'un bloc") + 1
 
 
 def test_two_spaces_stop_at_the_fixed_column() -> None:
