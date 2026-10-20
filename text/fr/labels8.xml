@@ -200,7 +200,7 @@ L
 </sn:string>
 <sn:string id="0xEBDC">
  Savoir NV PS    Savoir NV PS</sn:string>
-<sn:string id="0xEC1D">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzàáâãäéèêëìíîïñòóôõöùúûüœæç0123456789</sn:string>
+<sn:string id="0xEC1D">ABCDEabcdeFGHIJfghijKLMNOklmnoPQRSTpqrstUVWXYuvwxyZàâçézèêëîïôùûœ     0123456789                                                                                                                                                      </sn:string>
 <sn:string id="0xEC72">
 Menu du bagage
 
@@ -227,29 +227,29 @@ NV Talent</sn:string>
 <sn:string id="0xECAE">
 D'accord?
    Oui  Non</sn:string>
-<sn:string id="0xF6E0">A B C D E F G H I J K L M</sn:string>
-<sn:string id="0xF6E1">N O P Q R S T U V W X Y Z</sn:string>
-<sn:string id="0xF6E2">a b c d e f g h i j k l m</sn:string>
-<sn:string id="0xF6E3">n o p q r s t u v w x y z</sn:string>
-<sn:string id="0xF6E4">à á â ã ä é è ê ë ì í î ï</sn:string>
-<sn:string id="0xF6E5">ñ ò ó ô õ ö ù ú û ü œ æ ç</sn:string>
-<sn:string id="0xF6E6">0 1 2 3 4 5 6 7 8 9      </sn:string>
-<sn:string id="0xF6E7"></sn:string>
-<sn:string id="0xF6E8">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6E9">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6EA">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6EB">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6EC">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6ED">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6EE">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6EF">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F0">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F1">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F2">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F3">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F4">= = = = =      = = = = =       </sn:string>
-<sn:string id="0xF6F5">= = = = =      = = = = =</sn:string>
-<sn:string id="0xF6F6">= = = = =      = = = = =</sn:string>
+<sn:string id="0xF6E0">A B C D E      a b c d e</sn:string>
+<sn:string id="0xF6E1">F G H I J      f g h i j</sn:string>
+<sn:string id="0xF6E2">K L M N O      k l m n o</sn:string>
+<sn:string id="0xF6E3">P Q R S T      p q r s t</sn:string>
+<sn:string id="0xF6E4">U V W X Y      u v w x y</sn:string>
+<sn:string id="0xF6E5">Z à â ç é      z è ê ë î</sn:string>
+<sn:string id="0xF6E6">ï ô ù û œ</sn:string>
+<sn:string id="0xF6E7">0 1 2 3 4      5 6 7 8 9</sn:string>
+<sn:string id="0xF6E8"></sn:string>
+<sn:string id="0xF6E9"></sn:string>
+<sn:string id="0xF6EA"></sn:string>
+<sn:string id="0xF6EB"></sn:string>
+<sn:string id="0xF6EC"></sn:string>
+<sn:string id="0xF6ED"></sn:string>
+<sn:string id="0xF6EE"></sn:string>
+<sn:string id="0xF6EF"></sn:string>
+<sn:string id="0xF6F0"></sn:string>
+<sn:string id="0xF6F1"></sn:string>
+<sn:string id="0xF6F2"></sn:string>
+<sn:string id="0xF6F3"></sn:string>
+<sn:string id="0xF6F4"></sn:string>
+<sn:string id="0xF6F5"></sn:string>
+<sn:string id="0xF6F6"></sn:string>
 <sn:string id="0xF712">= = = = =      = = = = =</sn:string>
 <sn:string id="0xF713">TalentNV</sn:string>
 <sn:string id="0xF714">Temps</sn:string>

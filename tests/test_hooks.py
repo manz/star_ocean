@@ -28,6 +28,7 @@ HOOKS = {
     0xCA700D: "a273eaa01705",  # main menu: ldx #EA73 / ldy #0x0517
     0xCA7E5A: "a273eaa01708",  # save screen
     0xCA5A95: "20fdba",  # Talents combo slot: jsr BAFD (battle16 printer)
+    0xCA24DB: "a91600",  # name entry grid: last row 0x16
     0xCA88B5: "a00202",
     0xCA88DF: "a00204",  # name entry "Choix d'un nom": ldy #0x0202
     0xCA7C11: "a00101",  # Statut equipment labels: ldy #0x0101

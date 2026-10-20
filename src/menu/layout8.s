@@ -19,6 +19,11 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 .alloc at 0xCA88DF size 3 {
     ldy.w #0x0401
 }
+; Its letter grid: the Japanese scrolls an 8-row view (`$06AC`) over 22 rows of 10 characters (EC1D), `$06A8` =
+; rows - `$06AC` + 1 scroll stops; the French set (EC1D, the grid rows F6E0-F6E7) is 8 rows, one view, no scrolling.
+.alloc at 0xCA24DB size 3 {
+    lda.w #0x0008
+}
 
 ; Statut: the equipment slots' labels (EAB1, Arme ... Plat préféré) from column 1 to 0, so "Accessoire" clears the
 ; item names drawn at column 6.
