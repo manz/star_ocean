@@ -33,7 +33,7 @@ def emulator(state: str) -> Emu:
     if not ROM.exists() or not IPS.exists():
         pytest.skip("patch not built: uv run python -m tools.patch")
     kintsuki = pytest.importorskip("kintsuki")
-    emu: Emu = kintsuki.Emu(load_srm_sidecar=False)
+    emu: Emu = kintsuki.Emu(load_srm_sidecar=False, sram_policy="fit")  # states saved with the app's 32 KB SRAM
     emu.load_rom(str(ROM))
     emu.load_state((STATES / f"{state}.kss").read_bytes())
     emu.run_frames(1)
