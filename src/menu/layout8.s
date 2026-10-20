@@ -12,6 +12,16 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
     ldy.w #0x0201
 }
 
+; Statut: the equipment slots' labels (EAB1, Arme ... Plat préféré) from column 1 to 0, so "Accessoire" clears the
+; item names drawn at column 6.
+.alloc at 0xCA7C11 size 3 {
+    ldy.w #0x0100
+}
+; Its favourite dish's name, under "Plat préféré": column 1 to 0 with it.
+.alloc at 0xCA7D9E size 3 {
+    ldy.w #0x1100
+}
+
 ; Main menu and save screen party rows: "Suivant" (EA73, NEXT) from column 0x17 to 0x16, clear of the border.
 .alloc at 0xCA7010 size 3 {
     ldy.w #0x0516

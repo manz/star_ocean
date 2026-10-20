@@ -27,6 +27,8 @@ HOOKS = {
     0xCA7E21: "a2bbeaa00202",  # load screen
     0xCA700D: "a273eaa01705",  # main menu: ldx #EA73 / ldy #0x0517
     0xCA7E5A: "a273eaa01708",  # save screen
+    0xCA7C11: "a00101",  # Statut equipment labels: ldy #0x0101
+    0xCA7D9E: "a00111",  # its favourite dish: ldy #0x1101
     0xCA6FA3: "a9048de206",  # main menu commands: lda #4 / sta 06E2 (window x)
     0xCA0280: "101048108010b810101c481c801cb81c",  # main menu cursor (x, y)
     0xCA6FC8: "a9158520",  # save greying x: lda #0x15 / sta 20
