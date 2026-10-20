@@ -1,11 +1,11 @@
 """Bake the 8x8 menu strings (labels8, names8) as proportional tiles for src/menu/vwf8.s.
 
-Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) set by katsuji's auto mode (widths from the
-ink, each pair kerned on the glyphs, shadow kept), or FF4's 8x8 VWF font with the menu font's shadow added (`FF4`);
-codes in FIXED (icons, words drawn across tiles) keep their whole tile. A string keeps its cells: words run
-proportional, SPACE_PX apart, then blanks pad it to its length; a word after two spaces or more starts at the column
-it had in fixed width, every word of a COLUMNS string does (menus line those up with cursors and with numbers drawn
-below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
+Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) as 1bpp ink, set by katsuji's auto mode
+(widths from the ink, each pair kerned on the glyphs), or FF4's 8x8 VWF font (`FF4`); the run then gets the shadow
+the menu font draws its letters with; codes in FIXED (icons, words drawn across tiles) keep their whole tile. A
+string keeps its cells: words run proportional, SPACE_PX apart, then blanks pad it to its length; a word after two
+spaces or more starts at the column it had in fixed width, every word of a COLUMNS string does (menus line those up
+with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
 
     .dl stream (0: no tiles)
     .db tiles
@@ -23,7 +23,7 @@ from itertools import pairwise
 from pathlib import Path
 
 import numpy as np
-from katsuji import Atlas, VwfFont, autohint, pair_kerning, render
+from katsuji import Atlas, VwfFont, pair_kerning, render
 from script import Table
 
 from tools import sdd1
@@ -40,6 +40,7 @@ SPACE_PX = 3
 # every word at its fixed-width column.
 COLUMNS = {0xEA6A, 0xEA6B, 0xEA74, 0xEA93, 0xEAD2, 0xEAD3, 0xEBDC, 0xECA9, *range(0xF6E0, 0xF6F7), 0xF712}
 GAP = 1  # between runs and whole tiles
+INK, SHADOW = 3, 1  # the menu font's letter colours
 FF4 = False  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) with the menu font's shadow, instead of the menu font
 FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
 FOLD = {"É": "E", "È": "E", "Ê": "E", "Ë": "E", "Â": "A", "À": "A", "Ô": "O", "Ù": "U", "Ï": "I", "Î": "I", "Ç": "C"}
@@ -69,9 +70,20 @@ def glyph(code: int) -> Pixels:
     return menu_atlas().glyph_colours(code)
 
 
+@cache
+def menu_ink() -> Atlas:
+    """The menu font as 1bpp: its letters' ink colour, shadow left out."""
+    return menu_atlas().ink_only([INK])
+
+
+@cache
+def menu_font() -> VwfFont:
+    return VwfFont.from_atlas(menu_ink())
+
+
 def menu_run(codes: list[int]) -> Pixels:
-    """Menu font glyphs set by katsuji's auto mode: ink widths, each pair kerned on the glyphs, shadow kept."""
-    return autohint(menu_atlas(), codes)
+    """Menu font letters kerned on their ink (katsuji's auto mode), then shadowed as the font draws them."""
+    return shadowed(kerned(menu_font(), menu_ink(), codes))
 
 
 @cache
@@ -97,15 +109,25 @@ def ff4_code(code: int) -> int | None:
 
 
 def ff4_run(cells: list[int]) -> Pixels:
-    """FF4 glyphs kerned pair by pair, shadowed right and down: ink 3, shadow 1."""
-    for left, right in pairwise(cells):
-        if (left, right) not in ff4_font().kerning and (value := pair_kerning(ff4_atlas(), left, right)) < 0:
-            ff4_font().kerning[left, right] = -value
-    ink = render(ff4_font(), cells).astype(np.uint8)
+    """FF4 glyphs kerned pair by pair, shadowed as the menu font draws its letters."""
+    return shadowed(kerned(ff4_font(), ff4_atlas(), cells))
+
+
+def kerned(font: VwfFont, atlas: Atlas, codes: list[int]) -> Pixels:
+    """The 1bpp ink of `codes`, each pair kerned on the glyphs the first time it shows up."""
+    for left, right in pairwise(codes):
+        if (left, right) not in font.kerning and (value := pair_kerning(atlas, left, right)) < 0:
+            font.kerning[left, right] = -value
+    out: Pixels = render(font, codes).astype(np.uint8)
+    return out
+
+
+def shadowed(ink: Pixels) -> Pixels:
+    """Ink as colour INK with a SHADOW one pixel right, down and diagonally, as the menu font's letters."""
     a = np.zeros((9, ink.shape[1] + 1), np.uint8)
     a[:8, : ink.shape[1]] = ink
     shadow = a | np.roll(a, 1, 1) | np.roll(a, 1, 0) | np.roll(np.roll(a, 1, 0), 1, 1)
-    out: Pixels = (shadow + 2 * a)[:8]
+    out: Pixels = np.where(a != 0, INK, np.where(shadow != 0, SHADOW, 0)).astype(np.uint8)[:8]
     return out
 
 
