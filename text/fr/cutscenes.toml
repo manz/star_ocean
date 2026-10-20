@@ -1,0 +1,154 @@
+# Cutscene text drawn as sprites (tools/cutscene_text.py): each frame becomes 16x16 S-DD1 cels of the French lines,
+# centred where the Japanese frame was. `entry` is the sprite-list word that points at the frame (bank CC).
+# style "subtitle": gothic, colours 11 (ground) to 15; "credit": serif, colours 0 (clear) to 3. align = "left" / "right":
+# on the Japanese frame's left or right edge, as the names under the job titles.
+
+[[frame]]
+at = 0xCC2C4E
+entry = 0xCC090F
+style = "credit"
+jp = "ENIX presents"
+text = ["ENIX", "présente"]
+
+[[frame]]
+at = 0xCC2C91
+entry = 0xCC0914
+style = "credit"
+jp = "A tri-Ace creation"
+text = ["Une création", "tri-Ace"]
+
+[[frame]]
+at = 0xCC2F31
+entry = 0xCC091E
+jp = "艦長日誌…宇宙暦346"
+text = ["Journal du capitaine... An 346"]
+
+[[frame]]
+at = 0xCC2F84
+entry = 0xCC1A37
+jp = "爆発の際の巨大なエネルギー波が"
+text = ["L'immense onde d'énergie de l'explosion"]
+
+[[frame]]
+at = 0xCC2FF7
+entry = 0xCC1A3C
+jp = "本艦に接近しています"
+text = ["se rapproche du vaisseau !"]
+
+[[frame]]
+at = 0xCC3052
+entry = 0xCC1A41
+jp = "シールドしろ"
+text = ["Boucliers !"]
+
+[[frame]]
+at = 0xCC308D
+entry = 0xCC2344
+keep = true  # the old frame may have other users: not reclaimed
+jp = "宇宙暦346年"
+text = ["An 346 de l'ère spatiale"]
+
+[[frame]]
+at = 0xCC30B8
+entry = 0xCC2349
+jp = "今、未知の力により"
+text = ["Grâce à une force inconnue,"]
+
+[[frame]]
+at = 0xCC30FB
+entry = 0xCC234E
+jp = "新しい時代が始まろうとしていた"
+text = ["une nouvelle ère allait commencer."]
+
+[[frame]]
+at = 0xCC3176
+entry = 0xCC2353
+jp = "それは神の意思か？"
+text = ["Était-ce la volonté de Dieu ?"]
+
+[[frame]]
+at = 0xCC31B9
+entry = 0xCC2358
+jp = "それとも運命のいたずらか？"
+text = ["Ou bien un caprice du destin ?"]
+
+[[frame]]
+at = 0xCC3224
+entry = 0xCC235D
+jp = "それでも人類は"
+text = ["Quoi qu'il en soit, l'humanité"]
+
+[[frame]]
+at = 0xCC3267
+entry = 0xCC2362
+jp = "前人未踏の地へ進む"
+text = ["s'avance vers l'inconnu."]
+
+[[frame]]
+at = 0xCC32BA
+entry = 0xCC2367
+jp = "人は云う"
+text = ["On dit que"]
+
+[[frame]]
+at = 0xCC32E5
+entry = 0xCC236C
+jp = "「宇宙は星の海」だと"
+text = ["\"l'espace est un océan d'étoiles\"."]
+
+[[frame]]
+at = 0xCC2CEC
+entry = 0xCC2371
+style = "credit"
+align = "left"
+jp = "Graphic Design"
+text = ["Graphismes"]
+
+[[frame]]
+at = 0xCC2D72
+entry = 0xCC2376
+style = "credit"
+align = "right"
+jp = "Music"
+text = ["Musique"]
+
+[[frame]]
+at = 0xCC2DE0
+entry = 0xCC237B
+style = "credit"
+align = "left"
+jp = "Director"
+text = ["Réalisation"]
+
+# Credit titles on BG3 (C2:DB33): 256x16 2bpp streams named by the credits script at C2:DA57 (op 02 = title,
+# 03 = name). `pointers` are the script operands; `align` keeps the Japanese edge (left x or right x).
+
+[[title]]
+at = 0xFDCDF5
+pointers = [0xC2DA5A, 0xC2DA6A]
+align = "right"
+text = "Avec"
+
+[[title]]
+at = 0xFD9D68
+pointers = [0xC2DA7A]
+align = "left"
+text = "Conception"
+
+[[title]]
+at = 0xFD24BC
+pointers = [0xC2DA8B]
+align = "right"
+text = "Programmation et scénario"
+
+[[title]]
+at = 0xFDC992
+pointers = [0xC2DA9B]
+align = "right"
+text = "Programmation"
+
+[[title]]
+at = 0xFD7FCE
+pointers = [0xC2DAAB, 0xC2DABB, 0xC2DACC]
+align = "left"
+text = "Graphismes"

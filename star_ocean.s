@@ -11,6 +11,7 @@ The root imports one module per area; a816 links every imported module.
 .import "dialog/names"
 .import "dialog/chest"
 .import "dialog/narration"
+.import "dialog/cutscenes"
 .import "menu/font8"
 .import "menu/labels8"
 .import "menu/glyphs8"

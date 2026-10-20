@@ -22,3 +22,14 @@ Pre-rendered text, not font text. Shown by the text VM (`C2:38AB → C2:56AA →
   are a different path: sprite cels copied by `C3:944C` from a per-cutscene 16×16 4bpp glyph sheet in WRAM
   (e.g. `DB:98CB` → `$7F:21A0`, loaded by `CC:1715`). Credits (job titles, names) are `C2:DB33` streams
   (0x400 B → VRAM `$5000` title / `$5200` name). Both untranslated.
+
+## Cutscene text (src/dialog/cutscenes.s)
+
+- Sprite frames, parsed at `C3:8ECB`: an object's sprite list (bank CC, 5-byte entries `[flags][dx][dy][frame]`)
+  points at frames `[count][w / 4 - 1][h / 4 - 1]` + cels `[size][dx s16][dy s16][src 24]`. A WRAM source
+  (`$7F`) is a 0x80-byte cel copied by `C3:9336`; a ROM source is two 0x40-byte S-DD1 streams (top, bottom tile
+  pairs), the second at src + one more byte (9-byte cel). The first cel's bank picks the kind for the whole frame.
+- `text/fr/cutscenes.toml` → `tools/cutscene_text.py`: ENIX / tri-Ace openers, the intro subtitles, three job
+  titles. Frames go in a bank CC pool of the freed Japanese frames + the padding from `CC:FC60`; cels in text16.
+- BG3 credit titles: `C2:DB33` streams, 256x16 2bpp as two 128-px halves (16 tiles top row, 16 bottom). Credits
+  script `C2:DA57`: op 02 = title, 03 = name (24-bit operands), 04 wait, 05 …
