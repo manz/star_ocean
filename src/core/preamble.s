@@ -18,10 +18,10 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
-; Cart SRAM once the header says 32 KB: the game keeps its saves at $70:6000-$7E67, below is ours.
+; Cart SRAM once the header says 32 KB: the saves sit at $70:0000-1E6A (core/saves moves them there), the rest is ours.
 .pool sram {
     bss
-    range 0x700000 0x705FFF
+    range 0x702000 0x707FFF
     strategy order
 }
 

@@ -93,7 +93,7 @@ E_WINDOW := 0x004806  ; S-DD1 MMC: bank $E0-$EF page
     pha
     plb
     pla
-    ldx.w #0
+    ldx.w #sram_text & 0xFFFF
     lda [0xB1], y
     cmp #0x81
     beq _lzss
@@ -196,7 +196,9 @@ _raw:
     iny
     iny
     lda [0xB1], y
-    sta 0xAA  ; raw size - 1
+    clc
+    adc.w #sram_text & 0xFFFF
+    sta 0xAA  ; last byte's address
     iny
     iny
     iny
@@ -213,6 +215,8 @@ _raw_byte:
 _done:
     rep #0x20
     txa
+    sec
+    sbc.w #sram_text & 0xFFFF
     sta.l sram_text_size
     sep #0x20
     lda.l text_saved_page
@@ -289,6 +293,8 @@ _length:
     dec
     pha
     lda.l sram_text, x
+    clc
+    adc.w #sram_text & 0xFFFF
     tax
     ldy.w #TEXT_BUFFER
     pla

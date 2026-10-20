@@ -3,12 +3,14 @@
 Why: the scene text block unpacks whole into `$7E:B873`; the next WRAM user writes `$7E:D673` (7.5 KB). Japanese
 peaks at 6.4 KB, the imported French at 13.1 KB (scene 60), 1 byte per letter already (codes < `$80`).
 
-- Header `$FFD8` 3 -> 5: SRAM 32 KB. The board maps `$70-73:0000-FFFF` sized by the header; the game keeps its
-  saves at `$70:6000-7E67` (traced boot + load menu), so `$70:0000-5FFF` is ours. Old 8 KB `.srm` files need
-  24 KB of padding in front. Boot writes `$70:08C3` once (`C0:CA72`, `sta $08C3` with DB = `$70`); harmless,
-  the next scene load overwrites it. Real-cart wiring for 32 KB unchecked.
+- Header `$FFD8` 3 -> 5: SRAM 32 KB. The board maps `$70-73:0000-FFFF` sized by the header. The game kept its
+  saves at `$70:6000-7E6A` (three 0xA00 slots, then system bytes from `$7E00`), file offset 0 on 8 KB;
+  src/core/saves.s moves its 120 operands down by 0x6000 to `$70:0000-1E6A`, so an 8 KB `.srm` loads as it is.
+  The text pool is `$70:2000-7FFF` (24 KB); unpack and select rebase their offsets on `sram_text`. Boot writes
+  `$70:08C3` once (`C0:CA72`, `sta $08C3` with DB = `$70`): slot 1 + 0x8C3, as on the 8 KB cart. Real-cart
+  wiring for 32 KB unchecked.
 - `scene_load_script` `C6:1137`: `jsl unpack` -> `text_unpack_sram` (container port: 0x81 / 0x83 / raw) into
-  `$70:0000`, size at `$70:5FFE`. Same loop shape as the game's (flags `ror`ed out with a marker bit, one end check
+  `sram_text` (`$70:2000`, 20 KB), size in `sram_text_size` after it. Same loop shape as the game's (flags `ror`ed out with a marker bit, one end check
   per item, DB = `$70` so literals are `sta.w 0,x`): 1.009x the game's cycles over all scenes.
 - The two message selects, `C2:1C47` and `C2:1CAC` (`lda $B873,x / clc / adc #$B873 / sta $03D5`) ->
   `text_select_message`: copies message X/2 (offset to next offset, the last to the block size) to `$7E:B873`,
