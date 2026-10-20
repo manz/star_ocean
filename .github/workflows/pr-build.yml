@@ -1,0 +1,53 @@
+name: PR build
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-26.04-arm
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/checkout@v7
+    - uses: manz/a816/actions/setup@v1.1.7
+    - id: rom
+      uses: manz/a816/actions/decrypt-rom@v1.1.7
+      with:
+        passphrase: ${{ secrets.ROM_PASSPHRASE }}
+        encrypted: so.sfc.gz.gpg
+        to: Star Ocean (Japan).sfc
+        sha1: a616ee3466256482bc0adc11f1fda7c30e66ef8d
+
+    - name: Build patch
+      if: steps.rom.outputs.available == 'true'
+      run: uv run python -m tools.patch
+
+    - name: Run tests
+      if: steps.rom.outputs.available == 'true'
+      run: uv run pytest -q
+
+    - name: Python lint
+      run: |
+        uv run ruff check
+        uv run ruff format --check
+        uv run mypy
+
+    - if: steps.rom.outputs.available == 'true'  # build/gen, which the sources include, comes from the build
+      uses: manz/a816/actions/lint@v1.1.7
+
+    - if: steps.rom.outputs.available == 'true'
+      uses: manz/a816/actions/seal@v1.1.7
+      with:
+        rom: Star Ocean (Japan).sfc
+        patches: build/star_ocean.ips
+
+    - if: always() && steps.rom.outputs.available == 'true'
+      uses: manz/a816/actions/pr-artifact@v1.1.7
+      with:
+        name: star-ocean-ips
+        files: build/star_ocean.ips
+        outcome: ${{ job.status }}
