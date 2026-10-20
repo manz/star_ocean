@@ -26,6 +26,7 @@ CELS = 3
 WIDTH, HEIGHT, SPLIT = 48, 16, 8  # SPLIT: first row of the lowercase
 INK, GROUND = 15, 1
 CEL_BYTES = 0x40
+EDGE, EDGE_ROW = slice(44, 48), 5  # the right edge's columns, and a row where it runs straight
 
 
 def cel_source(rom: Rom, cel: int) -> int:
@@ -57,6 +58,8 @@ def french(old: Grid) -> Grid:
     columns = [a + b for a, b in zip(_columns(old, range(SPLIT), upper), _columns(old, range(SPLIT, HEIGHT), lower))]
     grid = [[columns[x][y] for x in range(WIDTH)] for y in range(HEIGHT)]
     grid[6][38] = grid[7][37] = INK  # the acute over the first e (cols 36-38)
+    for y in range(EDGE_ROW + 1, HEIGHT - 1):  # the Japanese n ran under the edge: carry it down the freed columns
+        grid[y][EDGE] = old[EDGE_ROW][EDGE]
     return grid
 
 

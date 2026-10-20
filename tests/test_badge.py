@@ -16,7 +16,15 @@ pytestmark = pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not p
 def test_the_rounded_end_is_kept() -> None:
     old = badge.original(Rom())
     new = badge.french(old)
-    assert [row[40:] for row in new[: badge.SPLIT]] == [row[40:] for row in old[: badge.SPLIT]]
+    assert [row[40:] for row in new[: badge.EDGE_ROW + 1]] == [row[40:] for row in old[: badge.EDGE_ROW + 1]]
+
+
+def test_the_right_edge_runs_down_to_the_bottom() -> None:
+    old = badge.original(Rom())
+    new = badge.french(old)
+    assert {tuple(new[y][badge.EDGE]) for y in range(badge.EDGE_ROW, badge.HEIGHT - 1)} == {
+        tuple(old[badge.EDGE_ROW][badge.EDGE])
+    }
 
 
 def test_the_acute_sits_over_the_first_e() -> None:
