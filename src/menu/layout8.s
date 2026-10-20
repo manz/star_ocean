@@ -35,6 +35,12 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
     ldy.w #0x1100
 }
 
+; Équiper: the slots' labels (EA9C, Arme ... Accessoire) from column 2 to 1, so "Accessoire" clears the item names
+; at column 7.
+.alloc at 0xCA7840 size 3 {
+    ldy.w #0x0101
+}
+
 ; Main menu and save screen party rows: "Suivant" (EA73, NEXT) from column 0x17 to 0x16, clear of the border.
 .alloc at 0xCA7010 size 3 {
     ldy.w #0x0516
