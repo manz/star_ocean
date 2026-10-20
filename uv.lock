@@ -133,16 +133,26 @@ wheels = [
 
 [[package]]
 name = "katsuji"
-version = "0.2.3"
-source = { registry = "https://pypi.org/simple" }
+source = { editable = "/Users/manz/Projects/katsuji" }
 dependencies = [
     { name = "a816" },
     { name = "numpy" },
     { name = "pillow" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/39/96/a8e1524a286435bd9b8e4b28a4cb2eb3306e2f473511e773698087ed041b/katsuji-0.2.3.tar.gz", hash = "sha256:c3808db673a29a18a8b0c7e8e94300f80347df51a2128a38cd3a5a5e28bc26f8", size = 98316, upload-time = "2026-10-10T06:25:42.428Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d9/13/febbd67903c0dd5537506bc096875300a7ba1217db731fc99185fa5fa589/katsuji-0.2.3-py3-none-any.whl", hash = "sha256:3d403f710e8241da56e76b867385dfb348284e98c462dfc98d5107b77011b854", size = 28595, upload-time = "2026-10-10T06:25:43.256Z" },
+
+[package.metadata]
+requires-dist = [
+    { name = "a816", specifier = ">=1.1.0a44" },
+    { name = "numpy", specifier = ">=1.26" },
+    { name = "pillow", specifier = ">=10" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "mypy", specifier = ">=1.13" },
+    { name = "pytest", specifier = ">=8" },
+    { name = "pytest-cov", specifier = ">=5" },
+    { name = "ruff", specifier = ">=0.16" },
 ]
 
 [[package]]
@@ -501,7 +511,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "a816", editable = "/private/tmp/claude-501/-Users-manz-Projects-star-ocean/846a70bd-6509-49d8-bbf3-d772657af6c9/scratchpad/a816-sdd1" },
-    { name = "katsuji", specifier = "==0.2.3" },
+    { name = "katsuji", editable = "/Users/manz/Projects/katsuji" },
 ]
 
 [package.metadata.requires-dev]

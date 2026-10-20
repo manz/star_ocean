@@ -1,7 +1,8 @@
 """Bake the 8x8 menu strings (labels8, names8) as proportional tiles for src/menu/vwf8.s.
 
-Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte), trimmed to their inked columns and set
-GAP apart; codes in FIXED (icons, words drawn across tiles) keep their 8 px. A string keeps
+Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) set by katsuji's auto mode (widths from the
+ink, each pair kerned on the glyphs, shadow kept), or FF4's 8x8 VWF font with the menu font's shadow added (`FF4`);
+codes in FIXED (icons, words drawn across tiles) keep their whole tile. A string keeps
 its cells: names8 runs proportional then pads with blanks to its length, labels8 puts each word at the column it had
 in fixed width (menus line them up with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its
 record says which tile each cell shows:
@@ -18,10 +19,11 @@ from __future__ import annotations
 
 import argparse
 from functools import cache
+from itertools import pairwise
 from pathlib import Path
 
 import numpy as np
-from PIL import Image
+from katsuji import Atlas, VwfFont, autohint, pair_kerning, render
 from script import Table
 
 from tools import sdd1
@@ -33,31 +35,99 @@ SPACE, NEWLINE, END = 0xBF, 0xFC, 0xFF
 CELL_NEWLINE, CELL_END = 0xFE, 0xFF
 FIXED = range(0xA0, 0xBF)  # icons, words drawn across tiles
 SPACE_PX = 3
-GAP = 1  # after a glyph's shadow column
+GAP = 1  # between runs and whole tiles
+FF4 = False  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) with the menu font's shadow, instead of the menu font
+FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
+FOLD = {"É": "E", "È": "E", "Ê": "E", "Ë": "E", "Â": "A", "À": "A", "Ô": "O", "Ù": "U", "Ï": "I", "Î": "I", "Ç": "C"}
 Pixels = np.ndarray[tuple[int, int], np.dtype[np.uint8]]
 
 
-@cache
-def font() -> Pixels:
-    return ((np.asarray(Image.open(PNG).convert("L"), np.uint16) + 42) // 85).astype(np.uint8)
+def _table(path: Path) -> dict[int, str]:
+    out = {}
+    for entry in path.read_text(encoding="utf-8").splitlines():
+        code, _, char = entry.partition("=")
+        if len(char) == 1:
+            out[int(code, 16)] = char
+    return out
 
 
 @cache
+def menu_atlas() -> Atlas:
+    """The menu font: its grey levels are the colours 0-3."""
+    atlas = Atlas.open(PNG, 8, 8)
+    if atlas.colours is None or atlas.colours.max() != 3:
+        raise ValueError(f"{PNG.name}: expected 4 grey levels")
+    return atlas
+
+
 def glyph(code: int) -> Pixels:
-    """The code's tile, trimmed to its inked columns unless it is fixed."""
-    tile = font()[code // 16 * 8 : code // 16 * 8 + 8, code % 16 * 8 : code % 16 * 8 + 8]
-    if code in FIXED:
-        return tile
-    inked = np.flatnonzero(tile.any(axis=0))
-    return tile[:, inked[0] : inked[-1] + 1] if inked.size else tile[:, :0]
+    """The code's whole menu font tile."""
+    return menu_atlas().glyph_colours(code)
+
+
+def menu_run(codes: list[int]) -> Pixels:
+    """Menu font glyphs set by katsuji's auto mode: ink widths, each pair kerned on the glyphs, shadow kept."""
+    return autohint(menu_atlas(), codes)
+
+
+@cache
+def ff4_atlas() -> Atlas:
+    return Atlas.open(FF4_FONT, 8, 8)
+
+
+@cache
+def ff4_font() -> VwfFont:
+    return VwfFont.from_atlas(ff4_atlas())
+
+
+@cache
+def ff4_code(code: int) -> int | None:
+    """The FF4 font cell for a menu code, uppercase accents (blank there) folded to their letter."""
+    cells = {char: cell for cell, char in _table(FF4_TABLE).items()}
+    char = _table(TABLE).get(code)
+    if char is None or code in FIXED or char not in cells:
+        return None
+    if char in FOLD and ff4_font().widths[cells[char]] == 0:
+        char = FOLD[char]
+    return cells.get(char)
+
+
+def ff4_run(cells: list[int]) -> Pixels:
+    """FF4 glyphs kerned pair by pair, shadowed right and down: ink 3, shadow 1."""
+    for left, right in pairwise(cells):
+        if (left, right) not in ff4_font().kerning and (value := pair_kerning(ff4_atlas(), left, right)) < 0:
+            ff4_font().kerning[left, right] = -value
+    ink = render(ff4_font(), cells).astype(np.uint8)
+    a = np.zeros((9, ink.shape[1] + 1), np.uint8)
+    a[:8, : ink.shape[1]] = ink
+    shadow = a | np.roll(a, 1, 1) | np.roll(a, 1, 0) | np.roll(np.roll(a, 1, 0), 1, 1)
+    out: Pixels = (shadow + 2 * a)[:8]
+    return out
+
+
+def _pieces(codes: bytes) -> list[Pixels]:
+    """The word as kerned runs, FIXED codes (and, with FF4, codes its font lacks) as whole menu tiles."""
+    out: list[Pixels] = []
+    cells: list[int] = []
+    for code in codes:
+        cell = ff4_code(code) if FF4 else (None if code in FIXED else code)
+        if cell is not None:
+            cells.append(cell)
+            continue
+        if cells:
+            out.append(ff4_run(cells) if FF4 else menu_run(cells))
+            cells = []
+        out.append(glyph(code))
+    if cells:
+        out.append(ff4_run(cells) if FF4 else menu_run(cells))
+    return out
 
 
 def run(codes: bytes) -> Pixels:
     """A word set proportionally."""
-    out = np.zeros((8, 8 * len(codes) + 8), np.uint8)
+    out = np.zeros((8, 8 * len(codes) + 16), np.uint8)
     x = 0
-    for code in codes:
-        g = glyph(code)
+    for g in _pieces(codes):
         out[:, x : x + g.shape[1]] = np.maximum(out[:, x : x + g.shape[1]], g)
         x += g.shape[1] + GAP
     return out[:, : max(x - GAP, 0)]
