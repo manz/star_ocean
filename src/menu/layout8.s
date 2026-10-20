@@ -11,6 +11,14 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 .alloc at 0xCA7E24 size 3 {
     ldy.w #0x0201
 }
+; Name entry: "Choix d'un nom" (EAF1) from column 2 to 1 likewise.
+.alloc at 0xCA88B5 size 3 {
+    ldy.w #0x0201
+}
+; Its "Prénom" (EAEC) from column 2 to 1, clear of the name's first cell (column 5).
+.alloc at 0xCA88DF size 3 {
+    ldy.w #0x0401
+}
 
 ; Statut: the equipment slots' labels (EAB1, Arme ... Plat préféré) from column 1 to 0, so "Accessoire" clears the
 ; item names drawn at column 6.
