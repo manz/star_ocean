@@ -10,7 +10,7 @@ authors = [{ name = "Emmanuel Peralta", email = "manz@ringum.net" }]
 requires-python = ">=3.14"
 
 dependencies = [
-    "a816",
+    "a816>=1.1.6",
     "katsuji>=0.3.1",
 ]
 
@@ -18,14 +18,8 @@ dependencies = [
 # RE / asset tooling.
 dev = ["pytest", "pillow", "kintsuki>=0.0.0a19", "mypy", "ruff"]
 
-[tool.uv.sources]
-# S-DD1 board masks (a816 branch sdd1-board-masks) until the next a816 release.
-a816 = { path = "/private/tmp/claude-501/-Users-manz-Projects-star-ocean/846a70bd-6509-49d8-bbf3-d772657af6c9/scratchpad/a816-sdd1", editable = true }
-
 [tool.uv]
 package = false
-# a816 reads its version from $VERSION (set by its CI).
-extra-build-variables = { a816 = { VERSION = "1.1.5.dev0" } }
 
 [tool.ruff]
 line-length = 120
