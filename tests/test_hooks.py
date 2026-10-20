@@ -40,6 +40,8 @@ HOOKS = {
     0xCA31FA: "a00807",  # Groupe submenu window: ldy #0x0708 (height, width)
     0xCA3276: "a00807",  # its close
     0xCA3257: "a944",  # its HDMA fill width
+    0xC14797: "a9080022ca45c0",  # battle enemy name: lda #8 / jsl C045CA (blank 8 cells)
+    0xC147A6: "a9080022ca45c0",  # the row above
     0xCA9864: "1021",  # combo description: bpl past the katakana reading
     0xCA98C9: "a953",  # its range marker: lda #'S'
     0xCA98DB: "a953",
