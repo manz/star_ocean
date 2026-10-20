@@ -252,7 +252,7 @@ Orbe de cristal couverte de glace (1 ennemi).</sn:string>
 Orbe de cristal couverte de foudre (1 ennemi).</sn:string>
 <sn:string id="0xFA65">Arche de cristal
 Empêche l'ennemi d'attaquer.</sn:string>
-<sn:string id="0xFA66">Cristal de soie
+<sn:string id="0xFA66">Cristal-sceau
 Empêche l'ennemi de se déplacer.</sn:string>
 <sn:string id="0xFA67">Croix du sud
 Attaque avec la puissance de la Croix du Sud.</sn:string>
@@ -283,20 +283,29 @@ Danse hispanique perturbant qui la regarde.</sn:string>
 Une pose aguicheuse. N'importe qui lui pardonnerait en la voyant avec cette attitude.</sn:string>
 <sn:string id="0xFA74">Combo de rêve
 Une combinaison où le nombre de frappes réussies fait rêver. N'est-ce pas bon d'enchaîner soi-même les techniques ?</sn:string>
-<sn:string id="0xFA75">Aaah!</sn:string>
+<sn:string id="0xFA75">Regarde le ciel♪
+Aaah !</sn:string>
 <sn:string id="0xFA76">Bâton cyclone
 Vous ne faites pas tourner un bâton, c'est vous qui tournez autour de lui à grande vitesse.</sn:string>
 <sn:string id="0xFA77"></sn:string>
-<sn:string id="0xFA78">Bâton cyclone vermeil. Bâton cyclone, ohgi du Baguazhang.</sn:string>
-<sn:string id="0xFA79">Bâton rafale. Technique en deux temps, où vous agitez un bâton comme une bourrasque.</sn:string>
-<sn:string id="0xFA7A">Bâton rafale mutileur. Bâton rafale, ohgi du Baguazhang.</sn:string>
-<sn:string id="0xFA7B">Bâton rafale tyran. Technique en quatre temps, où votre bâton déclenche une bourrasque.</sn:string>
-<sn:string id="0xFA7C">Bâton frimas. Lance de l'air glacial.</sn:string>
+<sn:string id="0xFA78">Bâton cyclone vermeil
+Bâton cyclone, ohgi du Baguazhang.</sn:string>
+<sn:string id="0xFA79">Bâton rafale
+Technique en deux temps, où vous agitez un bâton comme une bourrasque.</sn:string>
+<sn:string id="0xFA7A">Bâton rafale mutileur
+Bâton rafale, ohgi du Baguazhang.</sn:string>
+<sn:string id="0xFA7B">Bâton rafale tyran
+Technique en quatre temps, où votre bâton déclenche une bourrasque.</sn:string>
+<sn:string id="0xFA7C">Bâton frimas
+Lance de l'air glacial.</sn:string>
 <sn:string id="0xFA7D">Réservé.</sn:string>
-<sn:string id="0xFA7E">Tranche miroir. Lance une attaque unique, assez acérée pour couper en deux le reflet de la lune dans l'eau.</sn:string>
+<sn:string id="0xFA7E">Tranche miroir
+Lance une attaque unique, assez acérée pour couper en deux le reflet de la lune dans l'eau.</sn:string>
 <sn:string id="0xFA7F">Réservé.</sn:string>
-<sn:string id="0xFA80">Vacarme de la Grande Ourse. Ohgi du Baguazhang, ohgi de la Grande Ourse.</sn:string>
-<sn:string id="0xFA81">Cristal de la Mort. Attaque avec la puissance de la mort.</sn:string>
+<sn:string id="0xFA80">Vacarme de la Grande Ourse
+Ohgi du Baguazhang, ohgi de la Grande Ourse.</sn:string>
+<sn:string id="0xFA81">Cristal de la Mort
+Attaque avec la puissance de la mort.</sn:string>
 <sn:string id="0xFB2C"></sn:string>
 <sn:string id="0xFB2D">Obtenu 50 PS en bonus.</sn:string>
 <sn:string id="0xFB2E"></sn:string>
