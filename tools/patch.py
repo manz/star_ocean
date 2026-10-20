@@ -20,7 +20,6 @@ from tools import (
     menu_font,
     menu_font16,
     renders,
-    title_menu,
     vwf8,
 )
 from tools.rom import DEFAULT_ROM, ROOT
@@ -48,7 +47,6 @@ def build_assets() -> None:
     encode_menus.build(ROOT / "text" / "fr", GEN)
     renders.build(GEN)
     badge.build(out=GEN)
-    title_menu.build(out=GEN)
     vwf8.build(out=GEN)
 
 
