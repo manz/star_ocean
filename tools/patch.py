@@ -15,12 +15,11 @@ from katsuji import config as katsuji_config
 
 from tools import (
     badge,
-    cutscene_text,
     encode_menus,
     encode_text,
     menu_font,
     menu_font16,
-    narration,
+    renders,
     title_menu,
     vwf8,
 )
@@ -47,8 +46,7 @@ def build_assets() -> None:
     menu_font.build(out=GEN / "menu_font8.bin")
     menu_font16.build(out=GEN)
     encode_menus.build(ROOT / "text" / "fr", GEN)
-    narration.build(out=GEN)
-    cutscene_text.build(out=GEN)
+    renders.build(GEN)
     badge.build(out=GEN)
     title_menu.build(out=GEN)
     vwf8.build(out=GEN)

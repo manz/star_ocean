@@ -3,8 +3,9 @@ board = "SHVC-LN3B-01"
 entrypoint = "star_ocean.s"
 module-paths = ["src"]
 include-paths = ["src", "build/gen"]
-# Not linted: the 2016 patch the port reads from (so.s, src/*.s), not part of the build.
-exclude = ["so.s", "src/*.s"]
+# Not linted: the 2016 patch the port reads from (so.s, src/*.s), not part of the build, and the tracked
+# generated renders (tools/renders.py).
+exclude = ["so.s", "src/*.s", "src_assets/renders"]
 
 # ROM pages 6-7 (physical 0x600000-0x7FFFFF) have no fixed bus address: code reads them through the E window
 # with $4806 set to 6 or 7. The patch addresses them as pseudo-banks $40-$5F (sram_text.s translates).
