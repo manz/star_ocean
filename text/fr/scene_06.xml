@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4a][0x0]Maison de[nick:ドーン][page]
+<sn:pointer id="0">[center]Maison de [nick:ドーン][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x56][0x0]Armurerie[page]
+<sn:pointer id="1">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x56][0x0]Épicerie[page]
+<sn:pointer id="2">[center]Épicerie[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:ドーン][br]
@@ -14,7 +14,7 @@ Tu es encore en retard, [nick:ラティ].
 Dépêche toi d'entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x56][0x0]Quartier général[page]
+<sn:pointer id="4">[center]Quartier général[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Ancien[br]
@@ -44,10 +44,10 @@ Allez, raconte-moi...[page]
 [speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x4a][0x0]Maison de [nick:ミリー][page]
+<sn:pointer id="9">[center]Maison de [nick:ミリー][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x56][0x0]Quincaillerie[page]
+<sn:pointer id="10">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Désires-tu te reposer ?[page]
@@ -319,7 +319,7 @@ Alors aucune imprudence comme
 vous rendre au [color][0x4]Mt Métox[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[mode8][0x38][pos][0x52][0x0]Deux jours plus tard...[page]
+<sn:pointer id="61">[mode8][0x38][center]Deux jours plus tard...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[mode8][0x0]???[br]
@@ -337,7 +337,7 @@ Mais[speed][0xc]...
 une minute de plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[pos][0x4a][0x0]Maison de [nick:ラティ][page]
+<sn:pointer id="64">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
 <sn:pointer id="65">Mère de [nick:ドーン][br]

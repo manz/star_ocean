@@ -230,7 +230,7 @@ Asmodeus est à l'intérieur ?[page]
 C'est vraiment étrange de trouver ça ici, un endroit qu'on appelle monde démoniaque[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[pos][0x58][0x0]Monde démoniaque[page]
+<sn:pointer id="50">[center]Monde démoniaque[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">Partir ?[page]

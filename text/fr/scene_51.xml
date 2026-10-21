@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]Ville fortifiée de Sylvalant[page]
+<sn:pointer id="0">[center]Ville fortifiée de Sylvalant[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ラティ][br]

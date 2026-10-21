@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x54][0x0]Donjon[page]
+<sn:pointer id="0">[center]Donjon[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x40][0x0]Château d'Astral[page]
+<sn:pointer id="1">[center]Château d'Astral[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Prisonnier[br]

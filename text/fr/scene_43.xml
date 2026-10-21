@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x40][0x0]Port d'Ecdart[page]
+<sn:pointer id="0">[center]Port d'Ecdart[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Marin[br]

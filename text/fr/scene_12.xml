@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x44][0x0]Ville de Clatos[page]
+<sn:pointer id="0">[center]Ville de Clatos[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ミリー][br]
@@ -135,10 +135,10 @@ Ouais. Ça grouille de vers cruels
 là-bas. Faudra être prudents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[pos][0x44][0x0]Maison de [nick:ラティ][page]
+<sn:pointer id="25">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[mode8][0x38][pos][0x46][0x0]Cette nuit-là...[page]
+<sn:pointer id="26">[mode8][0x38][center]Cette nuit-là...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[mode8][0x0]Mère de [nick:ラティ][br]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3a][0x0]Château d'Astral[page]
+<sn:pointer id="0">[center]Château d'Astral[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:イリア][br]

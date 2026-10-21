@@ -145,7 +145,7 @@ Oui[speed][0xa]...[speed][0x0] On va prendre un peu de son sang.[page]
 <sn:pointer id="29">Gremlins appris.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[pos][0x48][0x0]Laboratoire de recherches quantiques[page]
+<sn:pointer id="30">[center]Laboratoire de recherches quantiques[page]
 [end]</sn:pointer>
 
 </sn:script>

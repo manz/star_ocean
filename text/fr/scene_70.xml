@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x56][0x0]Armurerie[page]
+<sn:pointer id="0">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x44][0x0]Guilde des savoirs[page]
+<sn:pointer id="1">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x58][0x0]Maison[page]
+<sn:pointer id="2">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+<sn:pointer id="3">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x58][0x0]Bar[page]
+<sn:pointer id="4">[center]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="5">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x56][0x0]Quincaillerie[page]
+<sn:pointer id="6">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">Maître de la guilde[br]

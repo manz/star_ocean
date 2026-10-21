@@ -60,10 +60,10 @@
 Gné hé hé ! Tu ne passeras pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[pos][0x40][0x0]Mine abandonnée - Niv.1[page]
+<sn:pointer id="22">[center]Mine abandonnée - Niv.1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[pos][0x40][0x0]Mine abandonnée - Niv.2[page]
+<sn:pointer id="23">[center]Mine abandonnée - Niv.2[page]
 [end]</sn:pointer>
 
 </sn:script>

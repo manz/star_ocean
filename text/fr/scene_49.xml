@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x0][0x50]Château de Moore[page]
+<sn:pointer id="0">[center]Château de Moore[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Chancelier[br]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]Port de Portmith[page]
+<sn:pointer id="0">[center]Port de Portmith[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Objet reçu : [color][0x6]Ocarina[color][0x2][page]

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]Bar[page]
+<sn:pointer id="0">[center]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x58][0x0]Maison[page]
+<sn:pointer id="1">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x58][0x0]Maison[page]
+<sn:pointer id="2">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]Maison[page]
+<sn:pointer id="3">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x37][0x0]Manoir de Ryas[page]
+<sn:pointer id="4">[center]Manoir de Ryas[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x58][0x0]Couloir[page]
+<sn:pointer id="5">[center]Couloir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x58][0x0]Chambre[page]
+<sn:pointer id="6">[center]Chambre[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x58][0x0]Chambre d'amis[page]
+<sn:pointer id="7">[center]Chambre d'amis[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[pos][0x44][0x0]Guilde des savoirs[page]
+<sn:pointer id="8">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x58][0x0]Étude[page]
+<sn:pointer id="9">[center]Étude[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="10">[center]Auberge[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Tenancier[br]

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x40][0x0]Antichambre de l'oracle[page]
+<sn:pointer id="0">[center]Antichambre de l'oracle[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x30][0x0]Antichambre de l'oracle Nv 2[page]
+<sn:pointer id="1">[center]Antichambre de l'oracle Nv 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x30][0x0]Antichambre de l'oracle Nv 4[page]
+<sn:pointer id="2">[center]Antichambre de l'oracle Nv 4[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x30][0x0]Antichambre de l'oracle Nv 6[page]
+<sn:pointer id="3">[center]Antichambre de l'oracle Nv 6[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x30][0x0]Antichambre de l'oracle Nv 8[page]
+<sn:pointer id="4">[center]Antichambre de l'oracle Nv 8[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x28][0x0]Antichambre de l'oracle Nv 10[page]
+<sn:pointer id="5">[center]Antichambre de l'oracle Nv 10[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ラティ][br]

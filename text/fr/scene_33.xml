@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]Port d'Otanim[page]
+<sn:pointer id="0">[center]Port d'Otanim[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x3e][0x0]Port d'Otanim[page]
+<sn:pointer id="1">[center]Port d'Otanim[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">[nick:ミリー][br]

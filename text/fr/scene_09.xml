@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4a][0x0]Village de Laponia[page]
+<sn:pointer id="0">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x4a][0x0]Village de Laponia[page]
+<sn:pointer id="1">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x4a][0x0]Village de Laponia[page]
+<sn:pointer id="2">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:ドーン][br]

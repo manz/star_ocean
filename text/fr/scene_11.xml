@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x44][0x0]Mt Métox[page]
+<sn:pointer id="0">[center]Mt Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x38][0x0]Sommet du Mt Métox[page]
+<sn:pointer id="1">[center]Sommet du Mt Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x44][0x0]Mt Métox[page]
+<sn:pointer id="2">[center]Mt Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x44][0x0]Mt Métox[page]
+<sn:pointer id="3">[center]Mt Métox[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:ドーン][br]
@@ -20,7 +20,7 @@ Ils peuvent te pondre dedans rien qu'en te touchant.[page]
 Et si l'œuf vient à éclore, on est dans une sacrée panade.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x38][0x0]Sommet du Mt Métox[page]
+<sn:pointer id="5">[center]Sommet du Mt Métox[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Boire de l'eau ?[page]
@@ -306,7 +306,7 @@ Eh bien, adieu alors. Nous ne nous reverrons sûrement jamais[speed][0xa]...[spe
 Adieu [nick:ミリー], [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[pos][0x24][0x0][speed][0x1]Un peu plus tard...[speed][0x3][page]
+<sn:pointer id="56">[center][speed][0x1]Un peu plus tard...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">[nick:マーヴェル][br]

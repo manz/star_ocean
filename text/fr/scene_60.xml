@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]Château de Van I Il[page]
+<sn:pointer id="0">[center]Château de Van I Il[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x28][0x0]Château de Van I Il[page]
+<sn:pointer id="1">[center]Château de Van I Il[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Garde[br]

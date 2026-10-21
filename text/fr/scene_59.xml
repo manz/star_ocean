@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x20][0x0]Ville fortifiée de Van I Il[page]
+<sn:pointer id="0">[center]Ville fortifiée de Van I Il[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[end]</sn:pointer>

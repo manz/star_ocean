@@ -295,10 +295,10 @@ Nous reviendrons, je vous le promets.[page]
 Merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[pos][0x2c][0x0]Centre médical du Calnus[page]
+<sn:pointer id="64">[center]Centre médical du Calnus[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[pos][0x2c][0x0]Centre médical du Calnus[page]
+<sn:pointer id="65">[center]Centre médical du Calnus[page]
 [end]</sn:pointer>
 
 </sn:script>

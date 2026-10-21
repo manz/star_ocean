@@ -38,10 +38,10 @@ Il faut faire vite[speed][0x0] ![page]
 Pas le temps de trainer. Il faut faire vite avant que l'équipe de maintenance ne se rende compte de quoi que ce soit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x20][0x0]Salle des officiers - Calnus[page]
+<sn:pointer id="9">[center]Salle des officiers - Calnus[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x20][0x0]Salle des officiers - Calnus[page]
+<sn:pointer id="10">[center]Salle des officiers - Calnus[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:イリア][br]
@@ -118,10 +118,10 @@ Il s'est passé quelque chose ?[page]
 Je suis en train d'étudier en ce moment l'astrophysique.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[pos][0x32][0x0]Ascenseur[page]
+<sn:pointer id="28">[center]Ascenseur[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[pos][0x32][0x0]Ascenseur[page]
+<sn:pointer id="29">[center]Ascenseur[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:イリア][br]
@@ -213,7 +213,7 @@ J'arrive.[page]
 Je viens aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[pos][0x2c][0x0]Pont du Calnus[page]
+<sn:pointer id="51">[center]Pont du Calnus[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:ロニキス][br]
@@ -368,7 +368,7 @@ Bien.[page]
 (La porte vivante[speed][0xa]...[speed][0x0] J'espère que le gardien de la porte nous laissera passer[speed][0xa]...[speed][0x0])[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[pos][0x2c][0x0]Pont du Calnus[page]
+<sn:pointer id="84">[center]Pont du Calnus[page]
 [end]</sn:pointer>
 
 <sn:pointer id="85">[nick:イリア][br]

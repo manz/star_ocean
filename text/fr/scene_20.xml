@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x5c][0x0]Maison[page]
+<sn:pointer id="0">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x56][0x0]Magasin général[page]
+<sn:pointer id="1">[center]Magasin général[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="2">[center]Auberge[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">Petite vieille[br]

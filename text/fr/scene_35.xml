@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x37][0x0]Manoir de Ryas[page]
+<sn:pointer id="0">[center]Manoir de Ryas[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x5c][0x0]Corridor[page]
+<sn:pointer id="1">[center]Corridor[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]Chambre[page]
+<sn:pointer id="2">[center]Chambre[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x5c][0x0]Chambre d'amis[page]
+<sn:pointer id="3">[center]Chambre d'amis[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x5c][0x0]Salle d'étude[page]
+<sn:pointer id="4">[center]Salle d'étude[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="5">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x3a][0x0]Ville du château d'Astral[page]
+<sn:pointer id="6">[center]Ville du château d'Astral[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ラティ][br]

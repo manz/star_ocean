@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4c][0x0]Otanim[page]
+<sn:pointer id="0">[center]Otanim[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Gamin[br]

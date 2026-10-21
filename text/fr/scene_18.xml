@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]Portes du château Astral[page]
+<sn:pointer id="0">[center]Portes du château Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x3e][0x0]Portes du château Astral[page]
+<sn:pointer id="1">[center]Portes du château Astral[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Garde[br]

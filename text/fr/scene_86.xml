@@ -195,7 +195,7 @@ Comment ça va, [nick:ミリー] ?[page]
 [nick:ラティ][speed][0xf]...[speed][0x3] Tu m'as tellement manqué.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[mode8][0x18][pos][0x24][0x0][speed][0x1]Quelques instants plus tard...[speed][0x3][page]
+<sn:pointer id="49">[mode8][0x18][center][speed][0x1]Quelques instants plus tard...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[mode8][0x18][nick:マーヴェル][br]

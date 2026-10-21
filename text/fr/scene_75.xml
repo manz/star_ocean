@@ -56,7 +56,7 @@ Les monstres seront coriaces. Si tu penses que c'est trop dur, va t'entraîner d
 
 <sn:pointer id="15">[end]</sn:pointer>
 
-<sn:pointer id="16">[pos][0x0][0x48]Epreuve du labyrinthe[page]
+<sn:pointer id="16">[center]Epreuve du labyrinthe[page]
 [end]</sn:pointer>
 
 </sn:script>
