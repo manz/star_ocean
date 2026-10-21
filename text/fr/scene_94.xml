@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]
+<sn:pointer id="0">[nick:イリア][br]
 Des ennemis ![page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Qu'est-ce que ?! Comment ont-ils su qu'on venait ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Que fait-on ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Soldat Farget
+<sn:pointer id="2">Soldat Farget[br]
 Cette zone est sous contrôle. Vous êtes encerclés...
 Toute résistance est inutile.[page]
 [end]</sn:pointer>

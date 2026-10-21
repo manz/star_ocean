@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]Port de Sylvalant[page]
+<sn:pointer id="0">[center]Port de Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Ca ne serait pas bon pour moi
 que j'y aille seul ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Marin
+<sn:pointer id="2">Marin[br]
 J'ai reçu des ordres...
 Vous allez où ?[page]
 [end]</sn:pointer>
@@ -20,7 +20,7 @@ Vous allez où ?[page]
 
 <sn:pointer id="4">[end]</sn:pointer>
 
-<sn:pointer id="5">Marin
+<sn:pointer id="5">Marin[br]
 Qu'est-c'vous voulez ? Z'avez rien
 à fiche sur c'bateau. Rentrez chez vous ![page]
 [end]</sn:pointer>

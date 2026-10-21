@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from tools.reflow import FONT, WINDOW_WIDTH, DialogLayout
+from tools.reflow import BREAK, CENTER, CENTRE_WIDTH, FONT, WINDOW_WIDTH, DialogLayout
 
 pytestmark = pytest.mark.skipif(not FONT.exists(), reason="font not built (python -m tools.patch)")
 
@@ -29,8 +29,12 @@ def test_long_page_fits_window(layout: DialogLayout) -> None:
     assert not layout.overflows(out)
 
 
-def test_speaker_label_stays_alone(layout: DialogLayout) -> None:
-    assert layout.page(f"[nick:ドーン]\n{LONG}").split("\n")[0] == "[nick:ドーン]"
+def test_speaker_line_stays_alone(layout: DialogLayout) -> None:
+    assert layout.page(f"Mère de [nick:ドーン]{BREAK}{LONG}").split("\n")[0] == "Mère de [nick:ドーン]"
+
+
+def test_unmarked_first_line_is_reflowed(layout: DialogLayout) -> None:
+    assert layout.page(f"Il est écrit\n{LONG}").split("\n")[0] != "Il est écrit"
 
 
 def test_tags_and_end_kept(layout: DialogLayout) -> None:
@@ -44,3 +48,13 @@ def test_stray_leading_space_dropped(layout: DialogLayout) -> None:
 
 def test_overflow_reports_wide_line(layout: DialogLayout) -> None:
     assert layout.overflows("M" * WINDOW_WIDTH + "[end]")
+
+
+def test_centered_line_gets_the_x_that_centres_it(layout: DialogLayout) -> None:
+    x = (CENTRE_WIDTH - layout.measure("Auberge") + 1) // 2
+    assert layout.message(f"{CENTER}Auberge[page]\n[end]") == f"[pos][0x{x:x}][0x0]Auberge[page]\n[end]"
+
+
+def test_centered_name_measures_as_the_french_name(layout: DialogLayout) -> None:
+    out = layout.message(f"{CENTER}Maison de [nick:ドーン][page]\n[end]")
+    assert out == layout.message(f"{CENTER}Maison de Dorn[page]\n[end]").replace("Dorn", "[nick:ドーン]")

@@ -1,193 +1,193 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x37][0x0]Manoir de Ryas[page]
+<sn:pointer id="0">[center]Manoir de Ryas[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x5c][0x0]Corridor[page]
+<sn:pointer id="1">[center]Corridor[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]Chambre[page]
+<sn:pointer id="2">[center]Chambre[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x5c][0x0]Chambre d'amis[page]
+<sn:pointer id="3">[center]Chambre d'amis[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x5c][0x0]Salle d'étude[page]
+<sn:pointer id="4">[center]Salle d'étude[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="5">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x3a][0x0]Ville du château d'Astral[page]
+<sn:pointer id="6">[center]Ville du château d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]
+<sn:pointer id="7">[nick:ラティ][br]
 Allons chercher [nick:アシュレイ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:アシュレイ]
+<sn:pointer id="8">[nick:アシュレイ][br]
 On prend la tête de la bestiole, on retourne au château
 et on explique la situation.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:アシュレイ]
+<sn:pointer id="9">[nick:アシュレイ][br]
 Ryas, tu es prêt ? Debout ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Je n'arrive pas à croire qu'une telle
+<sn:pointer id="10">Je n'arrive pas à croire qu'une telle[br]
 chose soit arrivée à Ryas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Soldat
+<sn:pointer id="11">Soldat[br]
 Ces saloperies de monstres vont le payer cher ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">La porte est verrouillée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[mode8][0x0][nick:アシュレイ]
+<sn:pointer id="13">[mode8][0x0][nick:アシュレイ][br]
 [speed][0x1]Ryas ?! [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:アシュレイ]
+<sn:pointer id="14">[nick:アシュレイ][br]
 [nick:フィア][speed][0xa]...[speed][0x0]
 Qu'est-ce que t'as fait ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Hargh[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:アシュレイ]
+<sn:pointer id="15">[nick:アシュレイ][br]
 Halte ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ラティ]
+<sn:pointer id="16">[nick:ラティ][br]
 C'était pas[speed][0xa]...?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:アシュレイ]
+<sn:pointer id="17">[nick:アシュレイ][br]
 Impossible[speed][0xa]... ![speed][0x0] Il doit y avoir une erreur[speed][0xa]...[speed][0x0][page]
-[nick:イリア]
+[nick:イリア][br]
 Rattrapons-la ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:アシュレイ]
+<sn:pointer id="18">[nick:アシュレイ][br]
 O-Oui...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]
+<sn:pointer id="19">[nick:ラティ][br]
 Là ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[mode8][0x0][nick:イリア]
+<sn:pointer id="20">[mode8][0x0][nick:イリア][br]
 Une cloche[speed][0x1e]?[speed][0x0] Que se passe t'il ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]
+<sn:pointer id="21">[nick:ラティ][br]
 Qu'y a t'il, [nick:シウス] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:シウス]
+<sn:pointer id="22">[nick:シウス][br]
 Ce son[speed][0x14]...[speed][0x0] C'est le signal
 de la cavalerie d'Astral[speed][0xf]...[speed][0x0]B[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス]
+<sn:pointer id="23">[nick:シウス][br]
 Non ! Elle ne peut pas faire ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:シウス]
+<sn:pointer id="24">[nick:シウス][br]
 Elle est à[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:シウス]
+<sn:pointer id="25">[nick:シウス][br]
 Peut-on y arriver avant elle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ラティ]
+<sn:pointer id="26">[nick:ラティ][br]
 Hé, [nick:シウス] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[mode8][0x0][nick:イリア]
+<sn:pointer id="27">[mode8][0x0][nick:イリア][br]
 Une cloche[speed][0x1e]?[speed][0x0]
 Je me demande ce qui se passe...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ロニキス]
+<sn:pointer id="28">[nick:ロニキス][br]
 À quoi tu penses ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ミリー]
+<sn:pointer id="29">[nick:ミリー][br]
 Hum[speed][0xa]...[speed][0x0]
 J'adressais une prière aux divinités du ciel.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ロニキス]
+<sn:pointer id="30">[nick:ロニキス][br]
 Ciel ? [speed][0xa]...[speed][0x0] Ha ! C'est ce que
 tu appelles "l'espace".
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ロニキス]
+<sn:pointer id="31">[nick:ロニキス][br]
 C'est difficile à dire, mais même bien que tu aies été dans le ciel,
 tu continues à croire aux dieux? Pour nous, les choses comme les divinités
 ou la foi sont des reliques de temps révolus.[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Je sais que tu es d'une civilisation plus avancée
 que la nôtre[speed][0xa]...[speed][0x0]
 Mais je pense que tu te trompes...[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Hein ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Tu n'as pas TOUT vu ni TOUT entendu, exact ?[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 J'imagine que non...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ロニキス]
+<sn:pointer id="32">[nick:ロニキス][br]
 Pour nous, tout ça n'est qu'histoires pour les gosses.
 C'est ridicule d'insister sur l'existence des dieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ミリー]
+<sn:pointer id="33">[nick:ミリー][br]
 Tu ne crois pas en ce monde?! En notre rencontre ?
 En ce qui arrive à [nick:ドーン]... ? 
 Tu dis que tout n'est qu'illusion? Parce que si tout cela
 n'est qu'un rêve, je pencherai plus pour un cauchemar[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ロニキス]
+<sn:pointer id="34">[nick:ロニキス][br]
 Heu[speed][0xa]...[speed][0x0] Hum[speed][0xa]...[speed][0x0] Calme-toi !
 C'est dur pour moi de croire en tout ça, c'est si soudain[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ミリー]
+<sn:pointer id="35">[nick:ミリー][br]
 Tu devrais étudier l'héraldique.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ロニキス]
+<sn:pointer id="36">[nick:ロニキス][br]
 Je te demande pardon ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ミリー]
+<sn:pointer id="37">[nick:ミリー][br]
 Ouais [speed][0xa]![speed][0x0] Si tu arrives à utiliser
 quelque chose que tu pensais qu'on était les seuls
 à maîtriser, alors tu commenceras à comprendre
 un peu mieux notre monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ロニキス]
+<sn:pointer id="38">[nick:ロニキス][br]
 J'imagine que tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ミリー]
+<sn:pointer id="39">[nick:ミリー][br]
 Ben ouais♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Aubergiste
+<sn:pointer id="40">Aubergiste[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Aubergiste
+<sn:pointer id="41">Aubergiste[br]
 Une nuit vous coûtera [color][0x5]30[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
@@ -201,12 +201,12 @@ Une nuit vous coûtera [color][0x5]30[color][0x2] Fol.[page]
 
 <sn:pointer id="45">[end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ラティ]
+<sn:pointer id="46">[nick:ラティ][br]
 On va prendre la tête du monstre et
 retourner vite fait bien fait au château ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]
+<sn:pointer id="47">[nick:ラティ][br]
 Pourchassons-la ![page]
 [end]</sn:pointer>
 

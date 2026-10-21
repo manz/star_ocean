@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Soldat
+<sn:pointer id="0">Soldat[br]
 Qu'est-ce que vous voulez ?! Impossible de laisser passer qui que ce soit sans [color][0x6]passe[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Soldat
+<sn:pointer id="1">Soldat[br]
 Qu'est-ce que vous voulez ?! Impossible de laisser passer qui que ce soit sans [color][0x6]passe[color][0x2].[page]
 [end]</sn:pointer>
 
@@ -17,187 +17,187 @@ Qu'est-ce que vous voulez ?! Impossible de laisser passer qui que ce soit sans [
 <sn:pointer id="4">[color][0x6][item][0x8a][0x13][color][0x2] obtenu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]
+<sn:pointer id="5">[nick:イリア][br]
 Commençons par faire ensemble le tour de la ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス]
+<sn:pointer id="6">[nick:シウス][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]
+<sn:pointer id="8">[nick:イリア][br]
 Cette ville semble plutôt animée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]
+<sn:pointer id="9">[nick:シウス][br]
 Oh oui !! C'est l'heure d'aller picoler un peu ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[end]</sn:pointer>
 
-<sn:pointer id="11">[nick:イリア]
+<sn:pointer id="11">[nick:イリア][br]
 Vous ne croyez pas qu'on devrait se dépêcher d'aller dans le monde démoniaque au lieu de glandouiller ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]
+<sn:pointer id="12">[nick:イリア][br]
 On va vraiment retrouver les autres juste en se baladant[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]
+<sn:pointer id="13">[nick:イリア][br]
 On peut faire une pause ? J'ai les pieds en compote ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ロニキス]
+<sn:pointer id="14">[nick:ロニキス][br]
 N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ロニキス]
+<sn:pointer id="15">[nick:ロニキス][br]
 Qu'est-ce que tu va faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー]
+<sn:pointer id="16">[nick:ミリー][br]
 Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ミリー]
+<sn:pointer id="17">[nick:ミリー][br]
 On ne pourrait pas se reposer un peu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:シウス]
+<sn:pointer id="18">[nick:シウス][br]
 On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:シウス]
+<sn:pointer id="19">[nick:シウス][br]
 J'pars devant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:アシュレイ]
+<sn:pointer id="20">[nick:アシュレイ][br]
 Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:アシュレイ]
+<sn:pointer id="21">[nick:アシュレイ][br]
 Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:フィア]
+<sn:pointer id="22">[nick:フィア][br]
 Nous n'allons plus dans le monde démoniaque?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:フィア]
+<sn:pointer id="23">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ヨシュア]
+<sn:pointer id="24">[nick:ヨシュア][br]
 On va s'arrêter un moment, nous repartirons ensuite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:マーヴェル]
+<sn:pointer id="25">[nick:マーヴェル][br]
 Nous allons nous arrêter dans cette ville, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:イリア]
+<sn:pointer id="26">[nick:イリア][br]
 Dans ce cas, allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア]
+<sn:pointer id="27">[nick:イリア][br]
 Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア]
+<sn:pointer id="28">[nick:イリア][br]
 Bien, allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ロニキス]
+<sn:pointer id="29">[nick:ロニキス][br]
 Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois de chaque royaume.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ロニキス]
+<sn:pointer id="30">[nick:ロニキス][br]
 Faisons une pause, à présent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ミリー]
+<sn:pointer id="31">[nick:ミリー][br]
 Le temple était à l'ouest de [color][0x4]Tatroï[color][0x2], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:シウス]
+<sn:pointer id="32">[nick:シウス][br]
 Viens, on s'casse au monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:シウス]
+<sn:pointer id="33">[nick:シウス][br]
 On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?  Allez, on bouge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:シウス]
+<sn:pointer id="34">[nick:シウス][br]
 J'préfère mille fois poutrer du streum que rester là à glander.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:アシュレイ]
+<sn:pointer id="35">[nick:アシュレイ][br]
 On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:フィア]
+<sn:pointer id="36">[nick:フィア][br]
 Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:フィア]
+<sn:pointer id="37">[nick:フィア][br]
 En route.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ヨシュア]
+<sn:pointer id="38">[nick:ヨシュア][br]
 On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ヨシュア]
+<sn:pointer id="39">[nick:ヨシュア][br]
 On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ヨシュア]
+<sn:pointer id="40">[nick:ヨシュア][br]
 Parfois, c'est bien aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:イリア]
+<sn:pointer id="41">[nick:イリア][br]
 Tu ne penses pas que ça serait mieux de se débarrasser des pirates[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:シウス]
+<sn:pointer id="42">[nick:シウス][br]
 Oh ouais, allons leur botter le cul, [nick:ラティ] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[end]</sn:pointer>
 
-<sn:pointer id="44">[nick:イリア]
+<sn:pointer id="44">[nick:イリア][br]
 Prenons le vaisseau annexe pour aller au Château d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス]
+<sn:pointer id="45">[nick:シウス][br]
 Aucune de ces ptites excursions de second ordre me tentent. Tout ce que je veux c'est me grouiller d'aller à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]
+<sn:pointer id="47">[nick:イリア][br]
 Debout ! On y va !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:シウス]
+<sn:pointer id="48">[nick:シウス][br]
 T'as vraiment aucun honneur..[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:イリア]
+<sn:pointer id="49">[nick:イリア][br]
 Qu'est-ce qu'on fait pour les pirates ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:イリア]
+<sn:pointer id="50">[nick:イリア][br]
 Bon, le vaisseau annexe est de nouveau opérationnel. En route pour le Château d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Soldat
+<sn:pointer id="51">Soldat[br]
 Vous pouvez circuler ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Soldat
+<sn:pointer id="52">Soldat[br]
 Nous ouvrons l'œil pour ne laisser entrer personne de louche en ville.[page]
 [end]</sn:pointer>
 
@@ -212,27 +212,27 @@ Nous ouvrons l'œil pour ne laisser entrer personne de louche en ville.[page]
 
 <sn:pointer id="56">[end]</sn:pointer>
 
-<sn:pointer id="57">[nick:イリア]
+<sn:pointer id="57">[nick:イリア][br]
 Commençons par faire ensemble le tour de la ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:シウス]
+<sn:pointer id="58">[nick:シウス][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:フィア]
+<sn:pointer id="59">[nick:フィア][br]
 Tu veux te reposer, là maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:アシュレイ]
+<sn:pointer id="60">[nick:アシュレイ][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:ミリー]
+<sn:pointer id="61">[nick:ミリー][br]
 Commençons par unir nos forces, tous ensemble.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:ロニキス]
+<sn:pointer id="62">[nick:ロニキス][br]
 Nous nous reposerons quand nous aurons fini ce que nous avons en cours.[page]
 [end]</sn:pointer>
 

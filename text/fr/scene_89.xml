@@ -1,163 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x40][0x0]Antichambre de l'oracle[page]
+<sn:pointer id="0">[center]Antichambre de l'oracle[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x30][0x0]Antichambre de l'oracle Nv 2[page]
+<sn:pointer id="1">[center]Antichambre de l'oracle Nv 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x30][0x0]Antichambre de l'oracle Nv 4[page]
+<sn:pointer id="2">[center]Antichambre de l'oracle Nv 4[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x30][0x0]Antichambre de l'oracle Nv 6[page]
+<sn:pointer id="3">[center]Antichambre de l'oracle Nv 6[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x30][0x0]Antichambre de l'oracle Nv 8[page]
+<sn:pointer id="4">[center]Antichambre de l'oracle Nv 8[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x28][0x0]Antichambre de l'oracle Nv 10[page]
+<sn:pointer id="5">[center]Antichambre de l'oracle Nv 10[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]
+<sn:pointer id="6">[nick:ラティ][br]
 C'est écrit Antichambre de l'oracle Nv 2 mais il semblerait qu'une étrange force la scelle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]
+<sn:pointer id="7">[nick:ラティ][br]
 C'est écrit Antichambre de l'oracle Nv 4 mais il semblerait qu'une étrange force la scelle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ]
+<sn:pointer id="8">[nick:ラティ][br]
 C'est écrit Antichambre de l'oracle Nv 6 mais il semblerait qu'une étrange force la scelle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ]
+<sn:pointer id="9">[nick:ラティ][br]
 C'est écrit Antichambre de l'oracle Nv 8 mais il semblerait qu'une étrange force la scelle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]
+<sn:pointer id="10">[nick:ラティ][br]
 C'est écrit Antichambre de l'oracle Nv 10 mais il semblerait qu'une étrange force la scelle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Dev Tri-Ace
+<sn:pointer id="11">Dev Tri-Ace[br]
 Nous avons créé un nouveau donjon sur Roak dans le passé. Amusez-vous bien ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Happex
+<sn:pointer id="12">Happex[br]
 En sortant de cette pièce, vous pourrez aller à Tatroï sur Roak dans le passé par la sortie de gauche.[page]
-Happex
+Happex[br]
 Par la sortie de droite, vous accéderez à la tour Rivorse.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Pinky
+<sn:pointer id="13">Pinky[br]
 Dans ces antichambres de l'oracle, vous pourrez écouter ce qu'ont à vous dire les Dev Tri-Ace, dieux de la création.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Pinky
+<sn:pointer id="14">Pinky[br]
 C'est l'antichambre de l'oracle Nv 2. Si vous êtes arrivés là, vous devriez savoir comment accéder aux autres salles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Happex
+<sn:pointer id="15">Happex[br]
 Ah ? Vous n'êtes pas de Roak ?[page]
-Happex
+Happex[br]
 Vous ne devriez pas tout prendre au sérieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Bahabulle
+<sn:pointer id="16">Bahabulle[br]
 Je pensais à un truc...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Bahabulle
+<sn:pointer id="17">Bahabulle[br]
 Et si c'était pire encore dans la salle d'après ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Sasatchi
+<sn:pointer id="18">Sasatchi[br]
 J'ai envie de partir en voyage en vélo ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Jin
+<sn:pointer id="19">Jin[br]
 Quand on pense à Hokkaido, on pense à Hakada Ramen.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Miyamoto
+<sn:pointer id="20">Miyamoto[br]
 Sois gentil avec [nick:ヨシュア], pigé ? ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Kawakami
+<sn:pointer id="21">Kawakami[br]
 Certes j'ai mangé des ramen, mais j'ai aussi eu ma part de boites à lunch.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Joyua
+<sn:pointer id="22">Joyua[br]
 J'ai perdu tous mes talents à la guitare depuis que je dessine nuit et jour...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Kenichi
+<sn:pointer id="23">Kenichi[br]
 Asaki Beam !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Kenichi
+<sn:pointer id="24">Kenichi[br]
 C'est moi qui ai dessiné toutes les épouvantables cartes du jeu.[page]
-Kenichi
+Kenichi[br]
 Désolé qu'elles soient si peu compréhensibles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Nishitani
+<sn:pointer id="25">Nishitani[br]
 Merci d'avoir acheté notre jeu. Et d'avoir appliqué le patch de traduction de la TRAF dessus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Marichii
+<sn:pointer id="26">Marichii[br]
 Vous avez déjà eu le chaton dans votre équipe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Hamayan
+<sn:pointer id="27">Hamayan[br]
 Salut, moi c'est Hamayan de l'équipe des graphistes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Toku
+<sn:pointer id="28">Toku[br]
 Bouffe...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Yama-chan
+<sn:pointer id="29">Yama-chan[br]
 Je suis épuisée.
 Ma poitrine me fait mal.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Hasshii
+<sn:pointer id="30">Hasshii[br]
 J'ai fait les drivers son.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Masaking
+<sn:pointer id="31">Masaking[br]
 Je vais vous tuer ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Masaking
+<sn:pointer id="32">Masaking[br]
 Hé bien euh...
 Navré, je suis désolé.
 Je suis Masaking, je suis en charge des excuses.[page]
-Masaking
+Masaking[br]
 C'est notre dernier jeu sur SNES. Tant pis, mais bon. Nous en avons beaucoup appris en faisant deux RPG sur SNES. Alors, je pense que cette expérience nous sera bénéfique dans nos futurs jeux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Masaking
+<sn:pointer id="33">Masaking[br]
 C'est un peu trop formel de parler comme ça[speed][0x1e]...[speed][0x0] Non ?
 Bon, je vais arrêter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Masaking
+<sn:pointer id="34">Masaking[br]
 Quoi qu'il en soit, on en a chié pour faire ce jeu.[page]
-Masaking
+Masaking[br]
 Ça tenait de l'impossible, vraiment.[page]
-Masaking
+Masaking[br]
 Si quelque chose dans le jeu vous rend vraiment dingue, pourquoi ne pas attendre notre prochaine sortie ?[page]
-Masaking
+Masaking[br]
 Le prochain sera vraiment génial.
 C'est une compilation de deux jeux et d'une Alpha ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Double de Sutoreto
+<sn:pointer id="35">Double de Sutoreto[br]
 Tout le processus son est fait par logiciel...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Sutoreto
+<sn:pointer id="36">Sutoreto[br]
 Pardonnez-moi...
 Avez-vous aimé le jeu ?[page]
 [end]</sn:pointer>
@@ -167,34 +167,34 @@ Avez-vous aimé le jeu ?[page]
 3. Non[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Sutoreto
+<sn:pointer id="38">Sutoreto[br]
 Pfiou...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Sutoreto
+<sn:pointer id="39">Sutoreto[br]
 Navré.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Sutoreto
+<sn:pointer id="40">Sutoreto[br]
 Vraiment désolé, je ferai mieux la prochaine fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Sutoreto
+<sn:pointer id="41">Sutoreto[br]
 Je suis désolé...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">Double de Sutoreto
+<sn:pointer id="42">Double de Sutoreto[br]
 La compession n'emploie pas non plus de puce.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Sutoreto le scénariste
+<sn:pointer id="43">Sutoreto le scénariste[br]
 Je suis désolé. (C'est tout ce que j'ai à dire.)
 Je n'ai peut-être pas été brillant cette fois.[page]
-Sutoreto
+Sutoreto[br]
 Je suis impatient de travailler sur notre nouveau projet, même si je ne sais pas encore comment les choses vont se passer.[page]
-Sutoreto
+Sutoreto[br]
 J'ai vraiment envie de recommencer à écrire...[page]
-Sutoreto
+Sutoreto[br]
 Bahabulle, Happexamendios, Haruney, Lestat, Pinky et toute la TRAF vous remercient d'avoir joué à leur traduction de star Ocean et d'honorer ainsi le fruit de leur labeur.[page]
 [end]</sn:pointer>
 

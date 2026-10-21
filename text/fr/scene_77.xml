@@ -56,14 +56,14 @@
 <sn:pointer id="20">[color][0x6]Mithril[color][0x2]obtenu[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">PankPonk
+<sn:pointer id="21">PankPonk[br]
 Gné hé hé ! Tu ne passeras pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[pos][0x40][0x0]Mine abandonnée - Niv.1[page]
+<sn:pointer id="22">[center]Mine abandonnée - Niv.1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[pos][0x40][0x0]Mine abandonnée - Niv.2[page]
+<sn:pointer id="23">[center]Mine abandonnée - Niv.2[page]
 [end]</sn:pointer>
 
 </sn:script>

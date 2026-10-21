@@ -1,8 +1,7 @@
 """French dialog laid out to the window with katsuji reflow: each page's lines re-wrapped to the window's pixels.
 
-A page is the text between two [page] codes. Its first line stays as written when it is a speaker label (a name
-tag alone, or a short capitalised line with no punctuation, the way the old project wrote speakers); the rest is
-reflowed by sentences. Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French
+A page is the text between two [page] codes. A speaker line ends with [br] and stays as written; the rest is
+reflowed by sentences. A line starting with [center] gets the [pos] x that centres it. Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French
 name it inserts, other tags measure nothing.
 """
 
@@ -24,7 +23,9 @@ PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
 NAME_TAG = re.compile(r"\[(?:nick|name):([^\]]*)\]")
-LABEL = re.compile(r"(?:\[(?:nick|name):[^\]]*\])+|[A-ZÀ-ÖØ-Ý][^.,!?;:…\[\]\"*()]{0,19}")
+BREAK = "[br]\n"  # ends a speaker line: kept as written, then a plain line break
+CENTER = "[center]"  # starts a line (a place name): becomes the [pos] that centres it
+CENTRE_WIDTH = 208  # pixels the Japanese [pos] x values centre on: x = (208 - 12 px * glyphs) / 2
 
 
 def _char_widths(font: Path, table: Path) -> dict[str, int]:
@@ -51,16 +52,24 @@ class DialogLayout:
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is
-        lines = text.split("\n")
-        if len(lines) > 1 and LABEL.fullmatch(lines[0]):
-            return lines[0] + "\n" + self.layout.reflow("\n".join(lines[1:]))
+        label, sep, body = text.partition(BREAK)
+        if sep:
+            return label + "\n" + self.layout.reflow(body)
         return self.layout.reflow(text)
 
     def message(self, text: str) -> str:
         """One message's XML text, `[end]` included, laid out."""
         body, end, rest = text.partition(END)
         pages = body.split(PAGE)
-        return PAGE.join(self.page(page) if page else page for page in pages) + end + rest
+        laid = PAGE.join(self.page(page) if page else page for page in pages)
+        return "\n".join(self.centre(line) for line in laid.split("\n")) + end + rest
+
+    def centre(self, line: str) -> str:
+        head, sep, text = line.partition(CENTER)
+        if not sep:
+            return line
+        ink = max(self.measure(text) - 1, 0)  # the last advance's gap isn't ink
+        return f"{head}[pos][0x{max(CENTRE_WIDTH - ink, 0) // 2:x}][0x0]{text}"
 
     def overflows(self, text: str) -> list[str]:
         """Lines of a laid-out message wider than the window. A page taller than the window's 4 lines is fine: the

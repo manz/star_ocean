@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[mode8][0x0][nick:ミリー]
+<sn:pointer id="0">[mode8][0x0][nick:ミリー][br]
 [nick:ラティ][speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ミリー]
+<sn:pointer id="1">[nick:ミリー][br]
 Qu'est-ce que c'est écrit ?[page]
 [end]</sn:pointer>
 
@@ -21,14 +21,14 @@ Quoi qu'il advienne, tenez-vous à l'écart.
         Maltos Kiliet[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ドーン]
+<sn:pointer id="3">[nick:ドーン][br]
 [nick:ミリー], attends ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x44][0x0]Ville de Clatos[page]
+<sn:pointer id="4">[center]Ville de Clatos[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]
+<sn:pointer id="5">[nick:ラティ][br]
 Mais que ?![page]
 [end]</sn:pointer>
 
@@ -38,174 +38,174 @@ Mais que ?![page]
 <sn:pointer id="7">Hiiiiiiiiii ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ドーン]
+<sn:pointer id="8">[nick:ドーン][br]
 Mais qu'est-ce que tu fais, [nick:ラティ]?
 Allons botter le cul à ces voleurs ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ドーン]
+<sn:pointer id="9">[nick:ドーン][br]
 [nick:ミリー] est partie en courant vers le
 Nord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ドーン]
+<sn:pointer id="10">[nick:ドーン][br]
 Mais qu'est-ce que tu fais, [nick:ラティ]?
 Allons botter le cul à ces voleurs ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ドーン]
+<sn:pointer id="11">[nick:ドーン][br]
 En garde ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ]
+<sn:pointer id="12">[nick:ラティ][br]
 C'est parti ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ミリー]
+<sn:pointer id="13">[nick:ミリー][br]
 Tu es encore en retard,[nick:ラティ].
 [nick:ドーン] est déjà à l'intérieur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ドーン]
+<sn:pointer id="14">[nick:ドーン][br]
 Mais qu'est-ce que tu fais, [nick:ラティ]?
 Allons botter le cul à ces voleurs ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ドーン]
+<sn:pointer id="15">[nick:ドーン][br]
 Qu'est-ce que tu fais !
 On doit la suivre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Voleur Bitts
+<sn:pointer id="16">Voleur Bitts[br]
 Ils sont plus fort que ce qu'on
 pensait...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Chef Baird
+<sn:pointer id="17">Chef Baird[br]
 Me fais pas rire ! Ce ne sont qu'une paire de gosses !!
 Laisse-moi te montrer...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ]
+<sn:pointer id="18">[nick:ラティ][br]
 Nous ne sommes pas des gosses[speed][0x14] ![speed][0x0]
 Nous sommes des membres de la brigade
 de Clatos ![page]
-[nick:ドーン]
+[nick:ドーン][br]
 Pas la peine de te la jouer car tu
 commandes une bande de
 mauviettes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ミリー]
+<sn:pointer id="19">[nick:ミリー][br]
 Ouais[speed][0xa] ![speed][0x0] Sales mauviettes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Chef Baird
+<sn:pointer id="20">Chef Baird[br]
 [speed][0xa]Q...[speed][0x0] [speed][0xa]que...[speed][0x0] Qu'avez-vous dit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Voleur Bitts
+<sn:pointer id="21">Voleur Bitts[br]
 Donnons-leur une leçon, patron ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Villageoise
+<sn:pointer id="22">Villageoise[br]
 Oh... Merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ]
+<sn:pointer id="23">[nick:ラティ][br]
 Ce n'est rien, nous ne faisons que
 notre devoir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ミリー]
+<sn:pointer id="24">[nick:ミリー][br]
 Pfff[speed][0x1e],[speed][0x0] quelle maîtrise de soi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Homme
+<sn:pointer id="25">Homme[br]
 Vite, et faites quelque chose pour eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Homme
+<sn:pointer id="26">Homme[br]
 Hé, [nick:ラティ] ! Tu ne devrais pas être en train de bosser au quartier général de la brigade ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Homme
+<sn:pointer id="27">Homme[br]
 [nick:ミリー] est partie par la porte nord. Tout va bien pour elle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Homme
+<sn:pointer id="28">Homme[br]
 Ça va encore être la canicule aujourd'hui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Fille
+<sn:pointer id="29">Fille[br]
 À l'aide ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Femme
+<sn:pointer id="30">Femme[br]
 [nick:ドーン] s'est rendu au quartier général de la brigade de Clatos.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Femme
+<sn:pointer id="31">Femme[br]
 Maltos s'est rendu à [color][0x4]Laponia[color][0x2].
 J'espère qu'il va bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ]
+<sn:pointer id="32">[nick:ラティ][br]
 Avez-vous remarqué quelque chose d'inhabituel ?[page]
-Dame
+Dame[br]
 Tout va bien ici, grâce à vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Shina
+<sn:pointer id="33">Shina[br]
 [nick:ラティ], si tu es bléssé, viens me voir pour que je te soigne ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ahah ! Merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Homme
+<sn:pointer id="34">Homme[br]
 Hey, bravo pour vos patrouilles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Femme
+<sn:pointer id="35">Femme[br]
 [nick:ミリー] est partie en courant vers le Nord avec une drôle d'expression sur le visage.[page]
 Il s'est passé quelque chose ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Femme
+<sn:pointer id="36">Femme[br]
 Ho, [nick:ミリー] ne vous accompagne pas
 aujourd'hui ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ミリー]
+<sn:pointer id="37">[nick:ミリー][br]
 Je suis contente que Shina aille mieux.[page]
-Femme
+Femme[br]
 Merci, remerciez Maltos pour moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Gamin
+<sn:pointer id="38">Gamin[br]
 Je suis crevé... J'ai horreur que
 maman me dise de me lever...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Vieil homme
+<sn:pointer id="39">Vieil homme[br]
 [nick:ミリー] est partie en direction de [color][0x4]Laponia[color][0x2].[page]
-Vieil homme
+Vieil homme[br]
 Elle sera en grand danger si elle se rend au [color][0x4]Mt Métox[color][0x2], au nord de
 [color][0x4]Laponia[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Vieil homme
+<sn:pointer id="40">Vieil homme[br]
 Ça fait une éternité que je ne suis
 pas allé à [color][0x4]Laponia[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[end]</sn:pointer>
 
-<sn:pointer id="42">Vieil homme
+<sn:pointer id="42">Vieil homme[br]
 Si pour une raison ou une autre vous devez
 vous rendre au nord,
 saluez-les pour moi.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Avec plaisir.[page]
 [end]</sn:pointer>
 

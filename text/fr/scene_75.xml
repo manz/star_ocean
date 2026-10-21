@@ -19,35 +19,35 @@
 <sn:pointer id="6">OXOOOXX, là où se lève le soleil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]
+<sn:pointer id="7">[nick:ラティ][br]
 On ne va pas entrer là, n'est-ce pas ?[page]
-Chancelier
+Chancelier[br]
 Non, pas cette porte. C'est pour plus tard[speed][0xa]...[speed][0x0][page]
-[nick:イリア]
+[nick:イリア][br]
 Pour plus tard ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Chancelier
+<sn:pointer id="8">Chancelier[br]
 Hum. C'est celle-ci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Chancelier
+<sn:pointer id="9">Chancelier[br]
 Je dois contrôler tes aptitudes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Chancelier
+<sn:pointer id="10">Chancelier[br]
 Tu dois passer cette porte et trouver la sortie. Si tu échoues, l'épreuve est terminée. Si tu penses ne pas être prêt, tu peux revenir plus tard.[page]
 Ça me donne une idée ! On fera ça dans un vieux fort abandonné. Je vais rajouter quelques nains, une clepsydre et... Heu bref ! C'est quand tu veux...[end]</sn:pointer>
 
-<sn:pointer id="11">Chancelier
+<sn:pointer id="11">Chancelier[br]
 Je t'attendrai à la sortie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Chancelier
+<sn:pointer id="12">Chancelier[br]
 Oh, tu as traversé le labyrinthe ! Excellent !! Bien, allons voir le roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Chancelier
+<sn:pointer id="13">Chancelier[br]
 Les monstres seront coriaces. Si tu penses que c'est trop dur, va t'entraîner dehors et reviens plus tard.[page]
 [end]</sn:pointer>
 
@@ -56,7 +56,7 @@ Les monstres seront coriaces. Si tu penses que c'est trop dur, va t'entraîner d
 
 <sn:pointer id="15">[end]</sn:pointer>
 
-<sn:pointer id="16">[pos][0x0][0x48]Epreuve du labyrinthe[page]
+<sn:pointer id="16">[center]Epreuve du labyrinthe[page]
 [end]</sn:pointer>
 
 </sn:script>

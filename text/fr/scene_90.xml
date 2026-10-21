@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]Ruines B des Sept Etoiles[var][0x80][0x36][page]
+<sn:pointer id="0">[center]Ruines B des Sept Etoiles[var][0x80][0x36][page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Il est écrit
@@ -38,9 +38,9 @@
 <sn:pointer id="9">"Attention aux pièges mortels..."[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Membre Tri-ace
+<sn:pointer id="10">Membre Tri-ace[br]
 Vous avez réussi...[page]
-Membre Tri-ace
+Membre Tri-ace[br]
 Vous pourriez constater que certaines statues sont importantes...[page]
 [end]</sn:pointer>
 
@@ -80,7 +80,7 @@ Vous pourriez constater que certaines statues sont importantes...[page]
 <sn:pointer id="22">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Kuma l'aventurier
+<sn:pointer id="23">Kuma l'aventurier[br]
 F[speed][0xa]-[speed][0x0]faites attention...[page]
 [end]</sn:pointer>
 

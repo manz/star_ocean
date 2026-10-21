@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="0">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x5c][0x0]Maison[page]
+<sn:pointer id="1">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x2a][0x0]Quincaillerie/Guilde des savoirs[page]
+<sn:pointer id="2">[center]Quincaillerie/Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]
+<sn:pointer id="3">[nick:ラティ][br]
 Que faire ? Et pour ces boucles d'oreilles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Badam
+<sn:pointer id="4">Badam[br]
 Ah, c'est vous. Navré, mais j'ai confié le travail à ce type là-bas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]
+<sn:pointer id="5">[nick:ラティ][br]
 Hein ?!
 [nick:イリア]
 Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">???
+<sn:pointer id="6">???[br]
 Hey, mais c'est ceux de tout à l'heure ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">???
+<sn:pointer id="7">???[br]
 Quoi ? Vous aviez déjà donné ce job ?
 Alors, ce n'est pas à moi de le faire.[page]
-Badam
+Badam[br]
 Ils n'étaient pas à la hauteur, alors je[speed][0xa]...[speed][0x0] Ils semblaient [color][0x3]faibles[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">???
+<sn:pointer id="8">???[br]
 Okay, j'vais leur filer une bonne épée. Alors, ça devrait le faire, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Vous obtenez [color][0x6][item][0xfd][0x14][color][0x2] et [color][0x6][item][0xb][0x15][color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Badam
+<sn:pointer id="10">Badam[br]
 Hey, une minute[speed][0xa]...[speed][0x0] Allez-y ensemble. Ça ira dans ce cas. J'le sentais pas s'ils y allaient seuls.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">???
+<sn:pointer id="11">???[br]
 Bon d'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">???
+<sn:pointer id="12">???[br]
 Comme ça, vous voulez aussi aller à [color][0x4]Portmith[color][0x2], c'est ça ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">???
+<sn:pointer id="13">???[br]
 De rien. Je suis [nick:シウス] Warren. Enchanté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ]
+<sn:pointer id="14">[nick:ラティ][br]
 Enchanté M. Warren. Je suis [nick:ラティ] Farrence.[page]
-[nick:シウス]
+[nick:シウス][br]
 Pas de ça entre nous. Appelle-moi juste [nick:シウス].[page]
-[nick:ラティ]
+[nick:ラティ][br]
 D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]
+<sn:pointer id="15">[nick:イリア][br]
 Je suis [nick:イリア] Silvestoli, mais pour toi ce sera [nick:イリア] ! Enchantée, [nick:シウス].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Badam
+<sn:pointer id="16">Badam[br]
 Dans ce cas, revenez demain après-midi et je vous donnerai le [color][0x6]laissez-passer[color][0x2].
 Voilà de quoi vous payer une nuit d'hôtel.[page]
 Vous recevez [color][0x5]200[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]
+<sn:pointer id="17">[nick:イリア][br]
 Merci [nick:ラティ][speed][0xa]...[speed][0x0]
 Hi hi hi[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]
+<sn:pointer id="18">[nick:イリア][br]
 Est-ce que tu peux demander au vendeur pour moi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:イリア]
+<sn:pointer id="19">[nick:イリア][br]
 Vite, donne-le.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]
+<sn:pointer id="20">[nick:ラティ][br]
 Qu'est-ce que tu regardes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア]
+<sn:pointer id="21">[nick:イリア][br]
 Hein ? Oh[speed][0xa]...[speed][0x0] Rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ]
+<sn:pointer id="22">[nick:ラティ][br]
 Oh, elles sont belles ces boucles d'oreilles[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア]
+<sn:pointer id="23">[nick:イリア][br]
 Tu trouves ? Elles me plaisent aussi ♪[page]
 [end]</sn:pointer>
 
@@ -111,112 +111,112 @@ Tu trouves ? Elles me plaisent aussi ♪[page]
 3. On dirait de la camelote.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア]
+<sn:pointer id="25">[nick:イリア][br]
 Mais que[speed][0xa]...[speed][0x0] T'es sûr que tu te trompes pas de personne ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ラティ]
+<sn:pointer id="26">[nick:ラティ][br]
 Hein ?! Non c'est pas ce que j'ai voulu dire[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア]
+<sn:pointer id="27">[nick:イリア][br]
 Hi hi [speed][0x5]![speed][0x0] [nick:ミリー] aurait été ravie que tu lui dises ça, tu ne crois pas ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Mais maintenant tu l'as dit et ce qui est fait est fait, pourquoi je n'irais pas dans ton sens?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ]
+<sn:pointer id="28">[nick:ラティ][br]
 Tu veux les essayer vite fait ? Je vais demander au vendeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ]
+<sn:pointer id="29">[nick:ラティ][br]
 Elles te vont vraiment très bien, [nick:イリア].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:イリア]
+<sn:pointer id="30">[nick:イリア][br]
 Ah oui [speed][0xa]?[speed][0x0] Merci ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ]
+<sn:pointer id="31">[nick:ラティ][br]
 En les regardant d'un peu plus près, on dirait quand même du toc.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:イリア]
+<sn:pointer id="32">[nick:イリア][br]
 Ce n'est pas le prix qui importe au final, tout ce qui compte c'est que ça plaise.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]
+<sn:pointer id="33">[nick:ラティ][br]
 [nick:イリア], tu as trouvé quelque chose d'autre ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア]
+<sn:pointer id="34">[nick:イリア][br]
 Non, finalement je ne prends rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア]
+<sn:pointer id="35">[nick:イリア][br]
 Tu ne pourrais pas m'offrir autre chose ?[page]
-???
+???[br]
 Et pourquoi ne pas offrir ceci ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ]
+<sn:pointer id="36">[nick:ラティ][br]
 N[speed][0x5]...[speed][0x0] Non, c'est rien. Je t'assure.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ミリー]
+<sn:pointer id="37">[nick:ミリー][br]
 Mmmm[speed][0xa]...[speed][0x0][page]
-[nick:イリア]
+[nick:イリア][br]
 [nick:ミリー], tout ça n'a aucun sens[speed][0xa]...[speed][0x0][page]
-[nick:ミリー]
+[nick:ミリー][br]
 Chut, [nick:イリア].[page]
-[nick:イリア]
+[nick:イリア][br]
 Okay.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ミリー]
+<sn:pointer id="38">[nick:ミリー][br]
 Pourquoi tu caches ça ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Heu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ミリー]
+<sn:pointer id="39">[nick:ミリー][br]
 [nick:ラティ] !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス]
+<sn:pointer id="40">[nick:シウス][br]
 S'lut, [nick:ラティ].
 Viens par ici une seconde.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Gné[speed][0x5] ?[speed][0x0] D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:フィア]
+<sn:pointer id="41">[nick:フィア][br]
 Attends, [nick:シウス] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ]
+<sn:pointer id="42">[nick:ラティ][br]
 Ça ne va pas, [nick:イリア] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:イリア]
+<sn:pointer id="43">[nick:イリア][br]
 Non, c'est rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ]
+<sn:pointer id="44">[nick:ラティ][br]
 Oh, quelles jolies boucles d'oreilles[speed][0xa]...[speed][0x0][page]
-???
+???[br]
 Qu'est-ce qu'elles ont de si spécial, ces boucles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ミリー]
+<sn:pointer id="45">[nick:ミリー][br]
 Tu parlais de celles-là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:イリア]
+<sn:pointer id="46">[nick:イリア][br]
 Viens, tu n'as pas autre chose à faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]
+<sn:pointer id="47">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
@@ -227,43 +227,43 @@ Hein ?[page]
 
 <sn:pointer id="49">[end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ラティ]
+<sn:pointer id="50">[nick:ラティ][br]
 Attends-moi ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ラティ]
+<sn:pointer id="51">[nick:ラティ][br]
 Attends-moi ici deux minutes, [nick:イリア].[page]
-[nick:イリア]
+[nick:イリア][br]
 Hein ? Mais qu'est-ce qui lui prend ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ]
+<sn:pointer id="52">[nick:ラティ][br]
 Maintenant que j'y pense, il y a quelque temps[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ミリー]
+<sn:pointer id="53">[nick:ミリー][br]
 Personne ne parle de ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]
+<sn:pointer id="54">[nick:ラティ][br]
 En plein sommeil[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]
+<sn:pointer id="55">[nick:ミリー][br]
 Oh, elles sont jolies ces boucles d'oreilles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ラティ]
+<sn:pointer id="56">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0] Je suis crevé.[page]
-[nick:イリア]
+[nick:イリア][br]
 C'est comme ça que sont les femmes quand elles sont jeunes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Badam
+<sn:pointer id="57">Badam[br]
 Oh, ces boucles-là ? C'est du toc. Allez-y, prenez-les.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Badam
+<sn:pointer id="58">Badam[br]
 Bienvenue... Oh♪ Vous êtes des aventuriers ? J'aurais ptet un travail pour vous.[page]
 [end]</sn:pointer>
 
@@ -272,46 +272,46 @@ Bienvenue... Oh♪ Vous êtes des aventuriers ? J'aurais ptet un travail pour vo
 3. Nous venons acheter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Badam
+<sn:pointer id="60">Badam[br]
 Veuillez revenir demain.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Badam
+<sn:pointer id="61">Badam[br]
 Assurez-vous de bien me le rapporter de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス]
+<sn:pointer id="62">[nick:シウス][br]
 Et voilà.[page]
-Badam
+Badam[br]
 Oh ♪ Vous avez fait vite. Tenez, votre récompense.[page]
 [color][0x5]600[color][0x2] Fol reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Badam
+<sn:pointer id="63">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">???
+<sn:pointer id="64">???[br]
 Vous êtes aussi des aventuriers ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Fille
+<sn:pointer id="65">Fille[br]
 Non, ça ne me dit rien[speed][0xa]...[speed][0x0] Et comment ça se fait que vous ne sachiez pas où vous vous êtes séparés ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Femme
+<sn:pointer id="66">Femme[br]
 Ce type est vraiment vulgaire. J'aimerais bien voir ses parents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">Femme
+<sn:pointer id="67">Femme[br]
 Bonjour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">Aubergiste
+<sn:pointer id="68">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">Aubergiste
+<sn:pointer id="69">Aubergiste[br]
 C'est [color][0x5]10[color][0x2] Fol pour la nuit.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
@@ -323,35 +323,35 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="72">[end]</sn:pointer>
 
-<sn:pointer id="73">Femme chevalier
+<sn:pointer id="73">Femme chevalier[br]
 Vous êtes des aventuriers ? Je suis venue de [color][0x4]Sylvalant[color][0x2] pour me rendre sur la tombe de mon maitre. Je n'arrive pas à me résoudre de l'avoir négligée si longtemps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Chevalier
+<sn:pointer id="74">Chevalier[br]
 J'ai entendu parler d'un forgeron renommé à [color][0x4]Astral[color][0x2]. Normal, pour un royaume réputé pour ses chevaliers.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Fille
+<sn:pointer id="75">Fille[br]
 Beaucoup d'aventuriers viennent ici, je ne rappelle pas du visage de chacun. Désolée de ne pouvoir vous venir en aide.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Fille
+<sn:pointer id="76">Fille[br]
 C'est très agréable ici. Si nous étions dans la région de [color][0x4]Sylvalant[color][0x2], nous serions infestés de monstres et c'est clair qu'on ne pourrait pas mettre un orteil dehors.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">Vieille femme
+<sn:pointer id="77">Vieille femme[br]
 Vous cherchez quelqu'un ? Je ne sors que très peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">Vieille femme
+<sn:pointer id="78">Vieille femme[br]
 Mon petit fils qui adore tuer les monstres est parti pour [color][0x4]Sylvalant[color][0x2][speed][0xa]...[speed][0x0] C'est bien le fils de son père. J'ai beau leur dire que je serais heureuse de les avoir près de moi, mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">Entraîneur
+<sn:pointer id="79">Entraîneur[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">Entraîneur
+<sn:pointer id="80">Entraîneur[br]
 L'apprentissage des compétences est divisé en trois phases principales.[page]
 La première est d'acquérir les effets bonus des savoirs. Par exemple, apprendre un savoir culturel augmentera votre INT.[page]
 La seconde est d'obtenir des commandes spéciales en apprenant différentes combinaisons de savoirs. Par exemple Marathon et Artisanat. Il en existe plus de 10 sortes alors si vous décidez de toutes les apprendre, la route sera longue.[page]
@@ -361,7 +361,7 @@ C'était un peu long, mais pour faire court, il est important d'utiliser vos poi
 
 <sn:pointer id="81">[end]</sn:pointer>
 
-<sn:pointer id="82">Maitre de la guilde
+<sn:pointer id="82">Maitre de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
@@ -372,19 +372,19 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="84">[end]</sn:pointer>
 
-<sn:pointer id="85">Maitre de la guilde
+<sn:pointer id="85">Maitre de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Maitre de la guilde
+<sn:pointer id="86">Maitre de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Maitre de la guilde
+<sn:pointer id="87">Maitre de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">Mentor
+<sn:pointer id="88">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
@@ -393,35 +393,35 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 3. Technique niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">Mentor
+<sn:pointer id="90">Mentor[br]
 Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">Mentor
+<sn:pointer id="91">Mentor[br]
 Sens niveau 1 comprend :
 Expert, sens du danger et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">Mentor
+<sn:pointer id="92">Mentor[br]
 Technique niveau 1 comprend :
 Marathon, couteau de cuisine, dessin et siffler.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="93">[end]</sn:pointer>
 
-<sn:pointer id="94">Badam
+<sn:pointer id="94">Badam[br]
 Alors, je voudrais que vous me rapportiez quelque chose de l'armurerie de [color][0x4]Portmith[color][0x2]. C'est que le chemin du Mont Métox est devenu dangereux ces derniers temps...[page]
 Bien sûr vous serez rétribués et je vous garantis l'obtention d'un laissez-passer pour [color][0x4]Portmith[color][0x2], ce qui déjà n'est pas si mal.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:イリア]
+<sn:pointer id="95">[nick:イリア][br]
 [color][0x4]Portmith[color][0x2] ???[page]
-Badam
+Badam[br]
 C'est la ville au nord d'ici.[page]
-[nick:イリア]
+[nick:イリア][br]
 Faut-il un [color][0x6]laissez-passer[color][0x2] ?[page]
-Badam
+Badam[br]
 Oui.[page]
 [end]</sn:pointer>
 
@@ -431,87 +431,87 @@ Oui.[page]
 
 <sn:pointer id="97">[end]</sn:pointer>
 
-<sn:pointer id="98">Badam
+<sn:pointer id="98">Badam[br]
 Merci. Mais sans la moindre arme, alors...[page]
-[nick:イリア]
+[nick:イリア][br]
 Oh, bon. Nous reviendrons.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">Badam
+<sn:pointer id="99">Badam[br]
 Je vois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">Badam
+<sn:pointer id="100">Badam[br]
 Je vois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">Badam
+<sn:pointer id="101">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="102">[end]</sn:pointer>
 
-<sn:pointer id="103">Badam
+<sn:pointer id="103">Badam[br]
 Notre petit arrangement était valable avant hier. Enfin, faisons vite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104">Badam
+<sn:pointer id="104">Badam[br]
 Notre petit arrangement était valable hier. Enfin, faisons vite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">Badam
+<sn:pointer id="105">Badam[br]
 Combien de temps allez-vous me faire attendre ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">Badam
+<sn:pointer id="106">Badam[br]
 Tenez, c'est le [color][0x6]laissez-passer[color][0x2].[page]
 Vous obtenez le [color][0x6]laissez-passer[color][0x2].[page]
-Badam
+Badam[br]
 Assurez-vous de bien me le ramener de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[nick:ペリシー]
+<sn:pointer id="107">[nick:ペリシー][br]
 Mon ami est là ?[page]
  
 [nick:ラティ]
 Probablement[speed][0xa]...[speed][0x0] J'ai du mal à imaginer que là-bas ça soit rempli d'affreuses statues de lapins.[page]
-[nick:ペリシー]
+[nick:ペリシー][br]
 C'est pas affreux ! C'est sexy ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 S[speed][0xa]...[speed][0x0] Sexy ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="108">Badam
+<sn:pointer id="108">Badam[br]
 Il y a un problème ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:ラティ]
+<sn:pointer id="109">[nick:ラティ][br]
 J'vous ai rapporté une statue de lapin, vous vous souvenez ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">Badam
+<sn:pointer id="110">Badam[br]
 Oui, c'est juste, celle-là. Et alors ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">[nick:ペリシー]
+<sn:pointer id="111">[nick:ペリシー][br]
 C'est un lapin !!![page]
-Badam
+Badam[br]
 Hein[speed][0xa] ?![speed][0x0] Un lapin ?[page]
-[nick:ペリシー]
+[nick:ペリシー][br]
 C'est mon ami, rendez-le-moi !![page]
-Badam
+Badam[br]
 Nan, mais c'est une blague[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[nick:ペリシー]
+<sn:pointer id="112">[nick:ペリシー][br]
 Lapiiiiiiin ! Réveille-toi !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">[nick:ペリシー]
+<sn:pointer id="113">[nick:ペリシー][br]
 [speed][0xa]...[speed][0x0] Il a bougé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">Badam
+<sn:pointer id="114">Badam[br]
 L[speed][0xa]...[speed][0x0] La statue[speed][0xa]...[speed][0x0]
 Elle a bougé !!![page]
 [end]</sn:pointer>

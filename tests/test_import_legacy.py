@@ -10,6 +10,7 @@ import pytest
 
 from tools.dialog import CONTROLS
 from tools.import_legacy import convert
+from tools.reflow import BREAK, CENTER
 from tools.rom import ROOT
 
 
@@ -45,7 +46,7 @@ def _known_tags() -> set[str]:
 
 @pytest.mark.parametrize("path", sorted((ROOT / "text" / "fr").glob("scene_*.xml")), ids=lambda p: p.stem)
 def test_french_scenes_use_known_tags(path: Path) -> None:
-    known = _known_tags()
+    known = _known_tags() | {BREAK.removesuffix("\n"), CENTER}  # reflow's own tags, not game codes
     texts = [e.text or "" for e in ElementTree.parse(path).getroot()]
     unknown = {t for text in texts for t in re.findall(r"\[[^\]]*\]", text) if t not in known}
     assert not {t for t in unknown if not re.fullmatch(r"\[0x[0-9a-f]+\]", t)}

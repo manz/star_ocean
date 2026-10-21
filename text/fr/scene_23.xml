@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]
+<sn:pointer id="0">[nick:イリア][br]
 Je me demande où est l'armurerie dont parlait Badam.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス]
+<sn:pointer id="1">[nick:シウス][br]
 Je ne connais pas très bien la ville.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Alors on va chercher ![page]
-[nick:イリア]
+[nick:イリア][br]
 D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x0][0x4a]Portmith[page]
+<sn:pointer id="2">[center]Portmith[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x0][0x4a]Portmith[page]
+<sn:pointer id="3">[center]Portmith[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス]
+<sn:pointer id="4">[nick:シウス][br]
 Et si on se prenait une pause ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Jeune femme Alisa
+<sn:pointer id="5">Jeune femme Alisa[br]
 Une fois, j'ai vu quelqu'un avec des ailes.
 ♪ Elle était jolie et ressemblait à un ange.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Vieillard au nez rouge
+<sn:pointer id="6">Vieillard au nez rouge[br]
 Si tu embarques dans le navire, tu pourras aller à [color][0x4]Otanim[color][0x2], dans le royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Jeune homme à la mode
+<sn:pointer id="7">Jeune homme à la mode[br]
 J'ai déjà vu de près le visage du roi de Moore...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Fille élégante
+<sn:pointer id="8">Fille élégante[br]
 Depuis que les sauvages sont apparus au nord, aller à [color][0x4]Portmith [color][0x2]est devenu difficile. Est-ce que ça serait lié à l'influence du monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Fille avec des taches de rousseur
+<sn:pointer id="9">Fille avec des taches de rousseur[br]
 Qu'est-ce que Terry fabrique ? Il a encore oublié notre rendez-vous, je parie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Fille avec des taches de rousseur
+<sn:pointer id="10">Fille avec des taches de rousseur[br]
 J'espère pour lui qu'il est pas avec une autre, sinon ça va chier dans le ventilo ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Terry
+<sn:pointer id="11">Terry[br]
 Désolé, Candy ! Je te demande pardon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Whiskers
+<sn:pointer id="12">Whiskers[br]
 ... Je déteste ce nom.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Fille aînée
+<sn:pointer id="13">Fille aînée[br]
 Tu as déjà vu un renard ? C'est si mignon, mais je ne crois pas que j'arriverai à en attraper un.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Raddle le voyageur
+<sn:pointer id="14">Raddle le voyageur[br]
 J'ai oublié beaucoup de choses ces derniers temps et je me suis même perdu
 chez moi, mais je me souviens de vous.
 Merci.[page]
 [color][0x6]Sortilège[color][0x2] reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Raddle le voyageur
+<sn:pointer id="15">Raddle le voyageur[br]
 J'oublie pas mal de trucs en ce moment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ラティ]
+<sn:pointer id="16">[nick:ラティ][br]
 Mais ? Mon corps[speed][0xa]...[speed][0x0] C'est étrange♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ラティ]
+<sn:pointer id="17">[nick:ラティ][br]
 C'est tellement agréaaaable♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:マーヴェル]
+<sn:pointer id="18">[nick:マーヴェル][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:マーヴェル]
+<sn:pointer id="19">[nick:マーヴェル][br]
 Tu savais qu'à l'arène à [color][0x4]Tatroï[color][0x2] ils changent
 les primes selon la performance du gagnant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ミリー]
+<sn:pointer id="20">[nick:ミリー][br]
 Oh ! Vous m'avez trouvée♪[page]
-[nick:ラティ]
+[nick:ラティ][br]
 De quoi tu parles ? Qu'est-ce que tu fiches dans un endroit pareil ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Hein ? Si tu ne m'avais pas trouvée, je me demande si tu serais venu me chercher,
 [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -100,39 +100,39 @@ Hein ? Si tu ne m'avais pas trouvée, je me demande si tu serais venu me cherche
 2. C'était une pure coïncidence[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ]
+<sn:pointer id="22">[nick:ラティ][br]
 Bien sûr que je te cherchais ![page]
-[nick:ミリー]
+[nick:ミリー][br]
 Vraiment ? Ça me touche♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ]
+<sn:pointer id="23">[nick:ラティ][br]
 C'est juste le fruit du hasard...[page]
-[nick:ミリー]
+[nick:ミリー][br]
 [speed][0xa]...[speed][0x0]Vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ミリー]
+<sn:pointer id="24">[nick:ミリー][br]
 Comment fais-tu pour être si jolie ? Ta taille est si svelte, tes jambes si fines...
 Je suis ta plus grande admiratrice depuis le premier jour où je t'ai vue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:マーヴェル]
+<sn:pointer id="25">[nick:マーヴェル][br]
 Ça suffit, [nick:ミリー].[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Sérieusement ! Tu suis un régime particulier ? C'est sûrement parce qu'on n'a
 pas le même métabolisme ![page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー]
+<sn:pointer id="26">[nick:ミリー][br]
 J'ai dit quelque chose qu'il ne fallait pas ?[page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 Non, ce n'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]
+<sn:pointer id="27">[nick:ミリー][br]
 Tu ne trouves pas que [nick:マーヴェル] est adorable, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
@@ -140,31 +140,31 @@ Tu ne trouves pas que [nick:マーヴェル] est adorable, [nick:ラティ] ?[pa
 2. Je ne parlerai qu'en présence de mon avocat[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ]
+<sn:pointer id="29">[nick:ラティ][br]
 Ha oui, c'est le moins qu'on puisse dire ![page]
-[nick:ミリー]
+[nick:ミリー][br]
 N'est-elle pas sublime ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ラティ]
+<sn:pointer id="30">[nick:ラティ][br]
 Je ne parlerai qu'en présence de mon avocat ![page]
-[nick:ミリー]
+[nick:ミリー][br]
 QUOI ? Si je te fais honte, tu n'as qu'à le dire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ヨシュア]
+<sn:pointer id="31">[nick:ヨシュア][br]
 Cette chatte n'est pas là, où a-t-elle pu aller ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ヨシュア]
+<sn:pointer id="32">[nick:ヨシュア][br]
 Est-ce que la chatte rôdait en direction du château ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ヨシュア]
+<sn:pointer id="33">[nick:ヨシュア][br]
 Même lorsque je marche sans but, je me demande si j'arriverai à trouver ma sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ペリシー]
+<sn:pointer id="34">[nick:ペリシー][br]
 Il y a tant de choses à voir en ville♪
 Je ne m'en lasserai jamais ! ♥[page]
 [end]</sn:pointer>

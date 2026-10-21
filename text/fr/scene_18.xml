@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]Portes du château Astral[page]
+<sn:pointer id="0">[center]Portes du château Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x3e][0x0]Portes du château Astral[page]
+<sn:pointer id="1">[center]Portes du château Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Garde
+<sn:pointer id="2">Garde[br]
 Voici le château Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Gardien de la porte
+<sn:pointer id="3">Gardien de la porte[br]
 Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Garde
+<sn:pointer id="4">Garde[br]
 Vous devriez rentrer vous coucher.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Gardien de la porte
+<sn:pointer id="5">Gardien de la porte[br]
 Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]
+<sn:pointer id="6">[nick:ラティ][br]
 Nous avons tué le monstre.
 Laissez-nous voir le roi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]
+<sn:pointer id="7">[nick:ロニキス][br]
 Nous demandons audience au roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Garde
+<sn:pointer id="8">Garde[br]
 Veuillez attendre, s'il vous plaît.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ]
+<sn:pointer id="9">[nick:ラティ][br]
 [nick:フィア] ![page]
-[nick:フィア]
+[nick:フィア][br]
 Ma parole, c'est [nick:ラティ] et ses amis !
 Votre voyage se passe bien ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Oui, et grâce à vous, nous avons pu retrouver nos amis.[page]
-[nick:フィア]
+[nick:フィア][br]
 Je n'ai fait que vous parler du temple. J'ignore si c'était utile ou non, mais le reste est de votre fait.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー]
+<sn:pointer id="11">[nick:ミリー][br]
 Salut, je m'appelle [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ロニキス]
+<sn:pointer id="12">[nick:ロニキス][br]
 Moi c'est [nick:ロニキス]. Enchanté de faire ta connaissance.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:マーヴェル]
+<sn:pointer id="14">[nick:マーヴェル][br]
 Je m'appelle [nick:マーヴェル].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:フィア]
+<sn:pointer id="15">[nick:フィア][br]
 Je suis [nick:フィア], capitaine des chevaliers du royaume d'Astral ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー]
+<sn:pointer id="16">[nick:ミリー][br]
 Tu es chevalier et tu es une FEMME ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Mon utérus n'a rien à voir là-dedans.[page]
 [end]</sn:pointer>
 
@@ -78,33 +78,33 @@ Mon utérus n'a rien à voir là-dedans.[page]
 2. On n'a rien de spécial à demander[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]
+<sn:pointer id="19">[nick:ラティ][br]
 Tu pourrais nous aider, [nick:フィア] ? [page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Tu veux que je vienne avec vous ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ouaip ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:シウス]
+<sn:pointer id="20">[nick:シウス][br]
 Avoir une autre pisseuse dans l'équipe m'importe peu.[page]
-[nick:フィア]
+[nick:フィア][br]
 Mais ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:フィア]
+<sn:pointer id="21">[nick:フィア][br]
 Bien. Vous[speed][0xa]...[speed][0x0] Vous vouliez aussi une audience auprès du roi, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:フィア]
+<sn:pointer id="22">[nick:フィア][br]
 Je vais vous guider.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス]
+<sn:pointer id="23">[nick:ロニキス][br]
 Nous voudrions voir le roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Garde
+<sn:pointer id="24">Garde[br]
 Par ici.[page]
 [end]</sn:pointer>
 

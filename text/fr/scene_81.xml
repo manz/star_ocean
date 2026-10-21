@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x28][0x0]Ruines de Sylvalant[page]
+<sn:pointer id="0">[center]Ruines de Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Ce n'est qu'une pièce vide[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">[end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]
+<sn:pointer id="3">[nick:イリア][br]
 C'est au bout d'un passage secret, je pensais qu'il y aurait QUELQUE CHOSE ici, mais j'ai dû me tromper[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー]
+<sn:pointer id="4">[nick:ミリー][br]
 Par ici ! Venez vite ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]
+<sn:pointer id="5">[nick:ラティ][br]
 Qu'est-ce qu'il y a,[nick:ミリー] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ミリー]
+<sn:pointer id="6">[nick:ミリー][br]
 Il y a une femme dans un énorme glaçon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]
+<sn:pointer id="7">[nick:ラティ][br]
 Elle est morte ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー]
+<sn:pointer id="8">[nick:ミリー][br]
 On peut pas la laisser comme ça, aidons là ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -39,193 +39,193 @@ On peut pas la laisser comme ça, aidons là ![page]
 2. Ne rien faire[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]
+<sn:pointer id="10">[nick:ラティ][br]
 Non, laissons-la.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー]
+<sn:pointer id="11">[nick:ミリー][br]
 Hein ?! Mais pourquoi ? Comment peux-tu faire une chose pareille ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ]
+<sn:pointer id="12">[nick:ラティ][br]
 On ne sait même pas si elle est vivante ou morte, mais on ne peut pas la laisser comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]
+<sn:pointer id="13">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0] J'y arrive pas, la glace est trop dure[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー]
+<sn:pointer id="14">[nick:ミリー][br]
 Là ! La glace ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ミリー]
+<sn:pointer id="15">[nick:ミリー][br]
 Ah[speed][0xa]...[speed][0x0] ![speed][0xa]...[speed][0x0] Elle est en train de fondre[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ラティ]
+<sn:pointer id="16">[nick:ラティ][br]
 Et si on l'avait laissée sans rien faire[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Ce qui est fait est fait. Ça n'a plus d'importance maintenant. Allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ラティ]
+<sn:pointer id="17">[nick:ラティ][br]
 Allons l'aider ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:マーヴェル]
+<sn:pointer id="18">[nick:マーヴェル][br]
 [nick:ラティ], non ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ? Pourquoi ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Qu'est-ce qui te prend, [nick:マーヴェル] ? Il faut l'aider ![page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 Non ! Surtout, ne la touchez pas ![page]
-[nick:ミリー]
+[nick:ミリー][br]
 La pauvre, coincée dans ce bloc de glace[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:マーヴェル]
+<sn:pointer id="19">[nick:マーヴェル][br]
 Non ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:マーヴェル]
+<sn:pointer id="20">[nick:マーヴェル][br]
 Si vous ne m'écoutez pas, vous ne me laissez pas le choix[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ミリー]
+<sn:pointer id="21">[nick:ミリー][br]
 [nick:マーヴェル] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:マーヴェル]
+<sn:pointer id="22">[nick:マーヴェル][br]
 Je dois vous arrêter coûte que coûte[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Quoi ?![page]
-[nick:ミリー]
+[nick:ミリー][br]
 Hein ?![speed][0xa]...[speed][0x0] Mais qu'est-ce qu'il te prend[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:マーヴェル]
+<sn:pointer id="23">[nick:マーヴェル][br]
 Arrêtez[speed][0xa]...[speed][0x0] Pardonnez-moi[speed][0xa]...[speed][0x0][page]
-[nick:ミリー]
+[nick:ミリー][br]
 [nick:マーヴェル], je ne comprends vraiment pas pourquoi[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:ミリー], laisse tomber. On la laisse.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ヨシュア]
+<sn:pointer id="25">[nick:ヨシュア][br]
 Eris[speed][0xa]...[speed][0x0] !!![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ヨシュア]
+<sn:pointer id="26">[nick:ヨシュア][br]
 Eris[speed][0xa]...[speed][0x0] Pourquoi dans un pareil endroit ? Et comme ça[speed][0xa]... !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]
+<sn:pointer id="27">[nick:ミリー][br]
 La pauvre ! Allons l'aider ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ]
+<sn:pointer id="28">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Je ne sais pas pourquoi tu te retrouves dans la glace, mais ne t'inquiète pas[speed][0xa]...[speed][0x0] Je vais te sauver !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:マーヴェル]
+<sn:pointer id="29">[nick:マーヴェル][br]
 Non, je vous en prie, arrêtez ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ?! Pourquoi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ミリー]
+<sn:pointer id="30">[nick:ミリー][br]
 Qu'est-ce qui te prend, [nick:マーヴェル] ? Il faut l'aider ![page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 Non ! Surtout, ne la touchez pas ![page]
-[nick:ミリー]
+[nick:ミリー][br]
 La pauvre, coincée dans ce bloc de glace[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:マーヴェル]
+<sn:pointer id="31">[nick:マーヴェル][br]
 Si vous ne m'écoutez pas, vous ne me laissez pas le choix[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ミリー]
+<sn:pointer id="32">[nick:ミリー][br]
 [nick:マーヴェル] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:マーヴェル]
+<sn:pointer id="33">[nick:マーヴェル][br]
 Je dois vous arrêter coûte que coûte[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Quoi ?![page]
-[nick:ミリー]
+[nick:ミリー][br]
 Hein ?![speed][0xa]...[speed][0x0] Mais qu'est-ce qu'il te prend[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ヨシュア]
+<sn:pointer id="34">[nick:ヨシュア][br]
 Toi !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ヨシュア]
+<sn:pointer id="35">[nick:ヨシュア][br]
 Sauver ma sœur est ma seule raison de vivre ! Es-tu en train de me dire que je dois laisser ma sœur Eris dans cet état ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ヨシュア]
+<sn:pointer id="36">[nick:ヨシュア][br]
 Ne sois pas stupide. Si tu veux te battre, viens ! Je donnerais tout pour ma sœur ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:マーヴェル], écarte-toi, s'il te plait[speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Dégage de mon chemin ! Tu ne m'arrêteras pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:マーヴェル]
+<sn:pointer id="37">[nick:マーヴェル][br]
 Arrêtez[speed][0xa]...[speed][0x0] Pardonnez-moi[speed][0xa]...[speed][0x0][page]
-[nick:ミリー]
+[nick:ミリー][br]
 [nick:マーヴェル], je ne comprends vraiment pas pourquoi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:マーヴェル]
+<sn:pointer id="38">[nick:マーヴェル][br]
 Ça n'a plus aucune importance[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:マーヴェル]
+<sn:pointer id="39">[nick:マーヴェル][br]
 Plus du tout[speed][0xa]...I[speed][0x0] Si j'avais su que vous agiriez ainsi, je ne serais jamais venue avec vous !![page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Qu'est-ce que tu vas faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ミリー]
+<sn:pointer id="40">[nick:ミリー][br]
 Arrête, [nick:マーヴェル]. Je ne veux pas me battre avec toi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ミリー]
+<sn:pointer id="41">[nick:ミリー][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:マーヴェル]
+<sn:pointer id="42">[nick:マーヴェル][br]
 Pardonnez-moi[speed][0xa]...[speed][0x0] C'est ma faute, je n'ai pas été assez forte pour réaliser même le plus petit de mes rêves[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:マーヴェル]
+<sn:pointer id="43">[nick:マーヴェル][br]
 Je suis désolée[speed][0xa]...[speed][0x0] Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ヨシュア]
+<sn:pointer id="44">[nick:ヨシュア][br]
 Qu'est-ce qu'il s'est passé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ヨシュア]
+<sn:pointer id="45">[nick:ヨシュア][br]
 Qu'est-ce que ça signifie[speed][0xa]...[speed][0x0] ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Je n'en suis pas certaine, mais [nick:マーヴェル] semblait vraiment[speed][0xa]...[speed][0x0] triste[speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Ma sœur et cette femme[speed][0xa]...[speed][0x0] Elles ont toutes les deux disparu[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ヨシュア]
+<sn:pointer id="46">[nick:ヨシュア][br]
 Mais qu'est-ce qu'il s'est passé[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -238,7 +238,7 @@ Mais qu'est-ce qu'il s'est passé[speed][0xa]... ?[speed][0x0][page]
 <sn:pointer id="49">L'interrupteur n'a pas l'air de marcher.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[pos][0x60][0x0]Ruines de Sylvalant[page]
+<sn:pointer id="50">[center]Ruines de Sylvalant[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">L'interrupteur n'a pas l'air de marcher.[page]

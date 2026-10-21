@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Maltos
+<sn:pointer id="0">Maltos[br]
 Ne vous approchez pas de moi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Maltos
+<sn:pointer id="1">Maltos[br]
 [speed][0x14]...[speed][0x0]Vous ne devez pas me toucher.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ミリー]
+<sn:pointer id="2">[nick:ミリー][br]
 Papa[speed][0x14].......[speed][0x0][page]
-Maltos
+Maltos[br]
 Il est trop tard pour moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー]
+<sn:pointer id="3">[nick:ミリー][br]
 Je ne peux même pas prendre mon père
 dans mes bras ni lui tenir la main en
 pareille circonstance ?![page]
@@ -23,43 +23,43 @@ pareille circonstance ?![page]
 <sn:pointer id="4">[speed][0x14]....[speed][0x0]C'est impossible[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Maltos
+<sn:pointer id="5">Maltos[br]
 [nick:ラティ] et [nick:ドーン].
 Pouvez-vous ramener ma fille à la
 maison ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ドーン]
+<sn:pointer id="6">[nick:ドーン][br]
 [nick:ミリー][speed][0x14]...[speed][0x0] Allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Maltos
+<sn:pointer id="7">Maltos[br]
 [speed][0x1][nick:ミリー] !!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Maltos
+<sn:pointer id="8">Maltos[br]
 Ne t'avais-je pas demandé de ne pas venir ici ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Vieillard
+<sn:pointer id="9">Vieillard[br]
 Il y a de moins en moins de jeunes. Que va-t-il advenir de ce village ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Gamin
+<sn:pointer id="10">Gamin[br]
 Je me demande ce que papa me ramènera cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Gamin
+<sn:pointer id="11">Gamin[br]
 Que je suis impatient qu'il rentre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Femme
+<sn:pointer id="12">Femme[br]
 Mon mari rentre de son travail, il voyage beaucoup, le voilà parti depuis six mois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]
+<sn:pointer id="13">[nick:ラティ][br]
 (Elle a été changée en pierre... 
 Pourtant, c'est comme si elle était toujours en vie...)[page]
 [end]</sn:pointer>

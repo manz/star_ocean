@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x56][0x0]Armurerie[page]
+<sn:pointer id="0">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x5c][0x0]Bar[page]
+<sn:pointer id="1">[center]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
+<sn:pointer id="2">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x50][0x0]Épicerie[page]
+<sn:pointer id="3">[center]Épicerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x44][0x0]Guilde des savoirs[page]
+<sn:pointer id="4">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x5c][0x0]Maison[page]
+<sn:pointer id="5">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x5c][0x0]Maison[page]
+<sn:pointer id="6">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x56][0x0]Quincaillerie[page]
+<sn:pointer id="7">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:シウス]
+<sn:pointer id="8">[nick:シウス][br]
 Badam nous a demandé de passer.[page]
-Armurier
+Armurier[br]
 Ah, c'est vous. Remettez-lui ceci de ma part.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]
+<sn:pointer id="9">[nick:シウス][br]
 Et comment on est sensés lui ramener un truc si gros ?[page]
-Armurier
+Armurier[br]
 Et pourtant, il va falloir.[page]
-[nick:シウス]
+[nick:シウス][br]
 Bon ben, on s'en charge.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Vous récupérez la [color][0x6]Statue[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Papas
+<sn:pointer id="11">Papas[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Femme
+<sn:pointer id="12">Femme[br]
 Vous avez dit que les pirates avaient à nouveau attaqué ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Femme
+<sn:pointer id="13">Femme[br]
 Le roi de Moore essaie-t-il de renforcer son armée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Femme
+<sn:pointer id="14">Femme[br]
 Comme ça vous êtes des aventuriers ? Et ça consiste en quoi ? Peut-être les mêmes genres de choses que mon mari, glander toute la journée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Vieille femme au visage rond
+<sn:pointer id="15">Vieille femme au visage rond[br]
 Je vais vraiment avoir des ennuis si le bateau est bloqué à quai à cause des pirates...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Vieille femme au visage rond Reverrais-je la paix avant d'aller manger les pissenlits par la racine ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Vieille femme au visage rond
+<sn:pointer id="17">Vieille femme au visage rond[br]
 Il parait que le monde démoniaque a une influence aux alentours de [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Homme au comptoir
+<sn:pointer id="18">Homme au comptoir[br]
 Salut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Barman
+<sn:pointer id="19">Barman[br]
 Ça craint, on est envahis par la racaille ces derniers temps.
 Fait chier.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Marin
+<sn:pointer id="20">Marin[br]
 *Hips*
 Ma vie pour un godet ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Marin
+<sn:pointer id="21">Marin[br]
 L'alcool est pas trop mauvais ici, mais ce qu'ils ont à [color][0x4]Sylvalant[color][0x2] est carrément mieux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Vieille vendeuse
+<sn:pointer id="22">Vieille vendeuse[br]
 Merci de votre visite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Aubergiste
+<sn:pointer id="23">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Aubergiste
+<sn:pointer id="24">Aubergiste[br]
 C'est [color][0x5]30[color][0x2] Fol la nuit.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
@@ -106,21 +106,21 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="27">[end]</sn:pointer>
 
-<sn:pointer id="28">Cliente
+<sn:pointer id="28">Cliente[br]
 Cette chambre est pas mal.
 J'aime ce tapis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Client
+<sn:pointer id="29">Client[br]
 C'est quoi cette chambre !
 Il n'y a même pas de tapis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Apprenti
+<sn:pointer id="30">Apprenti[br]
 Ce comptoir est un peu haut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Maître de la guilde
+<sn:pointer id="31">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
@@ -132,46 +132,46 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="33">[end]</sn:pointer>
 
-<sn:pointer id="34">Maitre de la guilde
+<sn:pointer id="34">Maitre de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Maitre de la guilde
+<sn:pointer id="35">Maitre de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Maitre de la guilde
+<sn:pointer id="36">Maitre de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Aventurier
+<sn:pointer id="37">Aventurier[br]
 Il parait qu'il y a des ruines au [color][0x4]Mt Métox[color][0x2]...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Maman de Marie
+<sn:pointer id="38">Maman de Marie[br]
 Je m'inquiète pour Marie. Elle aime tant les sucreries.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Maman de Marie
+<sn:pointer id="39">Maman de Marie[br]
 Qu'est-ce que vous avez donné à Marie !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Marie
+<sn:pointer id="40">Marie[br]
 Je veux un parfait [speed][0xa]...[speed][0x0]
 Maman dit que c'est pas bon parce que ça me donne des caries. Je me brosse les dents tous les jours vous savez.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[end]</sn:pointer>
 
-<sn:pointer id="42">Marie
+<sn:pointer id="42">Marie[br]
 Miam miam ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Marie
+<sn:pointer id="43">Marie[br]
 J'ai un petit peu mal aux dents ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">Mentor
+<sn:pointer id="44">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir.
 Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
@@ -182,33 +182,33 @@ Pour lequel voulez-vous une explication ?[page]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Mentor
+<sn:pointer id="46">Mentor[br]
 Culture niveau 2 comprend :
 Biologie, connaissance des outils et solfège.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Mentor
+<sn:pointer id="47">Mentor[br]
 Sens niveau 1 comprend :
 Expert, sens du danger et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">Mentor
+<sn:pointer id="48">Mentor[br]
 Sens niveau 2 comprend :
 Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">Mentor
+<sn:pointer id="49">Mentor[br]
 Mentor
 Combat niveau 1 comprend : Onde de choc, impact aérien et volte face.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[end]</sn:pointer>
 
-<sn:pointer id="51">Entraîneur
+<sn:pointer id="51">Entraîneur[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Entraineur
+<sn:pointer id="52">Entraineur[br]
 Lorsque vous souhaitez apprendre des compétences spéciales, n'oubliez pas d'aller sur l'écran des compétences, d'appuyer sur X et de consulter avec attention l'avancement de vos spécialités.[page]
 Par exemple, prenez une compétence et essayez de consulter l'état de la spécialité.
 Cuisine ★☆☆ Les symboles que vous devez consulter sont là.[page]
@@ -222,19 +222,19 @@ Et, comme pour les compétences nécessaires pour apprendre une commande spécia
 2. Ne rien lui donner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">Marie
+<sn:pointer id="55">Marie[br]
 Oh ! Un parfait ? C'est pour moi ?! ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[end]</sn:pointer>
 
-<sn:pointer id="57">[nick:シウス]
+<sn:pointer id="57">[nick:シウス][br]
 Miam miam[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:シウス]
+<sn:pointer id="58">[nick:シウス][br]
 Oh, [nick:ラティ]. Pourquoi tu viendrais pas boire un verre ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
@@ -244,70 +244,70 @@ Hein ?[page]
 
 <sn:pointer id="60">[end]</sn:pointer>
 
-<sn:pointer id="61">[nick:シウス]
+<sn:pointer id="61">[nick:シウス][br]
 Hey ! Tu insinues que tu refuses de boire avec moi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:ラティ]
+<sn:pointer id="62">[nick:ラティ][br]
 Ça a pas vraiment l'air sans danger...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:シウス]
+<sn:pointer id="63">[nick:シウス][br]
 Cul sec !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ラティ]
+<sn:pointer id="64">[nick:ラティ][br]
 Hein ? Je[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="65">Gloups[speed][0x5][speed][0x0] gloups[speed][0x5][speed][0x0] gloups[speed][0x5]...☆○ !!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:シウス]
+<sn:pointer id="66">[nick:シウス][br]
 Patron ! À boire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:アシュレイ]
+<sn:pointer id="67">[nick:アシュレイ][br]
 Ça c'est d'la bonne bière. On la sent passer dans l'gosier.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:アシュレイ]
+<sn:pointer id="68">[nick:アシュレイ][br]
 Avez-vous acheté des compétences de combat ? Ça serait une bonne idée d'en apprendre quelques-unes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:フィア]
+<sn:pointer id="69">[nick:フィア][br]
 On reste encore dans cette ville à se reposer ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:フィア]
+<sn:pointer id="70">[nick:フィア][br]
 On reste encore dans cette ville à se reposer ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ラティ]
+<sn:pointer id="71">[nick:ラティ][br]
 Pourquoi tu restes planté là à faire c'te tête ?[page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">Arc
+<sn:pointer id="72">Arc[br]
 Qu'est-ce que t'as dit ?!
 Répète-le voir encore une fois ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:シウス]
+<sn:pointer id="73">[nick:シウス][br]
 C'est pas la peine de te la péter, t'es qu'un faible, mauviette.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Joe
+<sn:pointer id="74">Joe[br]
 Quoi ?! Sale bâtard[speed][0xa]...[speed][0x0]
  J'vais t'éclater ta tête ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス]
+<sn:pointer id="75">[nick:シウス][br]
 Tu me l'enlèves de la bouche ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Barman
+<sn:pointer id="76">Barman[br]
 Oh non ! Pas mon bar ![page]
 [end]</sn:pointer>
 
@@ -315,77 +315,77 @@ Oh non ! Pas mon bar ![page]
 2. Regarder à distance[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ラティ]
+<sn:pointer id="78">[nick:ラティ][br]
 [nick:シウス][speed][0xa]...[speed][0x0]
 J'te couvre[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ラティ]
+<sn:pointer id="79">[nick:ラティ][br]
 [nick:シウス], je te couvre ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[end]</sn:pointer>
 
-<sn:pointer id="81">[nick:フィア]
+<sn:pointer id="81">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Monsieur [nick:アシュレイ][page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 arrête avec tes Monsieur. Tu peux pas m'appeler juste par mon nom ?[page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Pourquoi est-ce que vous continuez encore votre périple ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:フィア]
+<sn:pointer id="82">[nick:フィア][br]
 Il n'est pas rare que chaque royaume fasse appel à des gens comme vous. En vérité, Ryas l'a déjà fait à de multiples reprises[speed][0xa]...[speed][0x0][page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 C'est un ami de longue date. Et il me reste encore une chose à faire.[page]
-[nick:フィア]
+[nick:フィア][br]
 Si ce n'est trop vous demander, pourriez-vous m'en dire plus ?[page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Je suis désolé.[page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Je vois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:シウス]
+<sn:pointer id="83">[nick:シウス][br]
 Toi[speed][0xa]...[speed][0x0]
 Qu'est-ce que tu fais là !?[page]
-[nick:フィア]
+[nick:フィア][br]
 Je picole depuis ce midi... Ça doit être bien d'être de la haute.[page]
-[nick:シウス]
+[nick:シウス][br]
 [speed][0xa].....[speed][0x0][page]
-[nick:フィア]
+[nick:フィア][br]
 Tu veux que je te raconte ce qui s'est passé pendant que tu étais tranquille dans une auberge comme celle-là ?! [page]
-[nick:シウス]
+[nick:シウス][br]
 Hein ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:フィア]
+<sn:pointer id="84">[nick:フィア][br]
 Ryas, ton père, il a été assassiné ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:シウス]
+<sn:pointer id="85">[nick:シウス][br]
 Quoi ?! C'est pas vraiment du genre à se faire tuer, même à grands coups de hache ![page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Il a été attaqué par un assassin du monde démoniaque. J'ai été accusé du crime et j'ai du quitter [color][0x4]Astral[color][0x2].[page]
-[nick:シウス]
+[nick:シウス][br]
 [speed][0xa]...[speed][0x0] Accusé ?![page]
-[nick:フィア]
+[nick:フィア][br]
 L'assassin s'est peut-être transformé en quelqu'un qui me ressemblait et a commis son crime[speed][0xa]...[speed][0x0] Il semblerait que Ryas n'ait montré aucune résistance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:シウス]
+<sn:pointer id="86">[nick:シウス][br]
 Mon père[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:フィア]
+<sn:pointer id="87">[nick:フィア][br]
 Où est-ce que tu vas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:シウス]
+<sn:pointer id="88">[nick:シウス][br]
 T'inquiète pas pour moi, je compte y aller seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:ラティ]
+<sn:pointer id="89">[nick:ラティ][br]
 Dodo[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

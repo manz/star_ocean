@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]Ruines B des Sept Etoiles[var][0x80][0x36][page]
+<sn:pointer id="0">[center]Ruines B des Sept Etoiles[var][0x80][0x36][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">K
+<sn:pointer id="1">K[br]
 Yuu[speed][0xa]...[speed][0x0]
 Ne t'en fais pas pour moi, vas-y[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Aventurier Pilon
+<sn:pointer id="2">Aventurier Pilon[br]
 Argh ! J'veux m'tirer, mais j'peux pas[speed][0xa]...[speed][0x0]
 Argh ! J'veux rentrer, mais j'peux pas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Aventurier Yuu
+<sn:pointer id="3">Aventurier Yuu[br]
 Mec, tu as fait une erreur en venant ici[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

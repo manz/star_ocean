@@ -29,3 +29,8 @@ def test_bus_offsets_follow_the_sdd1_board(rom: Rom, bus: int, offset: int) -> N
 )
 def test_lz_container_sizes_match_live_unpacks(rom: Rom, header: int, size: int) -> None:
     assert len(decode(rom.read, header)[0]) == size
+
+
+def test_raw_container_owns_header_and_rawlen_bytes(rom: Rom) -> None:
+    # scene 76's text, raw: the game copies one byte more, the first of scene 5's event data at E9:0736
+    assert decode(rom.read, 0xE90670)[1] == 0xE90736 - 0xE90670
