@@ -6,26 +6,26 @@
 <sn:pointer id="1">[pos][0x28][0x0]Port d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 Je suis fatiguée. Allons dormir chez Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]
+<sn:pointer id="3">[nick:イリア][br]
 Je suis fatiguée. Allons dormir à l'auberge...[page]
-[nick:シウス]
+[nick:シウス][br]
 Oui, j'ai aussi du mal à garder les yeux ouverts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア]
+<sn:pointer id="4">[nick:イリア][br]
 Je suis fatiguée. Allons dormir à l'auberge...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Marin
+<sn:pointer id="5">Marin[br]
 Vous allez à [color][0x4]Tatroï[color][0x2] ?
 Alors il faut payer d'avance. C'est 80 Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Marin
+<sn:pointer id="6">Marin[br]
 Faudrait p'têt penser à faire l'appoint, là ![page]
 [end]</sn:pointer>
 

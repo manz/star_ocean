@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Jay
+<sn:pointer id="0">Jay[br]
 Vous[speed][0x14] ! [speed][0x0] Je suppose que vous êtes
 venus pour perturber mes plans ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Et oui ! On ne peut pas tolérer que
 tu fasses souffrir les gens.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Jay
+<sn:pointer id="2">Jay[br]
 Pardon !?[speed][0x14][speed][0x0] C'est la Fédération
 qui opprime les peuples ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ロニキス]
+<sn:pointer id="3">[nick:ロニキス][br]
 Hein !?
 Comment ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Jay
+<sn:pointer id="4">Jay[br]
 Vous OBLIGEZ les autres peuples à rejoindre
 le groupe social que vous nommez "Fédération" ! [speed][0x14][speed][0x0] Vous pillez les ressources
 naturelles et asservissez les peuples.[speed][0x14][speed][0x0] Et vous ne faites PAS souffrir les gens, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]
+<sn:pointer id="5">[nick:イリア][br]
 On ne force personne à nous rejoindre[speed][0x14],[speed][0x0]les gens nous rejoignent sur la base
 d'un accord mutuel. Nous ne volons
 PAS les ressources naturelles et personne
 ne nous sert d'esclave...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Jay
+<sn:pointer id="6">Jay[br]
 Accord mutuel?[speed][0x1e][speed][0x0]
 Vous débarquez sur les planètes avec vos
 forces militaires et pointez vos armes
@@ -41,48 +41,48 @@ sur la tempe des gens ! Comment osez-vous
 parler d'accords sous ces conditions ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]
+<sn:pointer id="7">[nick:ロニキス][br]
 On ne menace personne, ce n'est
 que l'interprétation faussée
 d'un esprit fourvoyé ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Jay
+<sn:pointer id="8">Jay[br]
 Humpf ! Les molosses de la Fédération
 tels que toi ne peuvent pas comprendre
 la souffrance que vous nous causez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ロニキス]
+<sn:pointer id="9">[nick:ロニキス][br]
 Ce n'est pas une excuse pour
 lancer une invasion.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Jay
+<sn:pointer id="10">Jay[br]
 De deux maux il faut choisir le moindre.[speed][0x14][speed][0x0] Je perds mon temps
 à parler avec vous.[speed][0x14][speed][0x0] VOTRE FIN EST PROOOOCHE !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Jay
+<sn:pointer id="11">Jay[br]
 [speed][0x8]M-Merde[speed][0x14]! ...[speed][0x0]
 Les descendants de Moore prolongeront mon oeuvre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]
+<sn:pointer id="12">[nick:イリア][br]
 Les descendants de Moore !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Jay
+<sn:pointer id="13">Jay[br]
 Argh[speed][0x14],[speed][0x0] Ha ha ha ha[speed][0x14] ! [speed][0x0] On dirait que malgré vos grands airs,
 vous ne savez pas grand-chose ![page]
-Jay
+Jay[br]
 [speed][0xa]...[speed][0x0] Je ne sais rien des
 blaireaux de la Fédération, mais si tu fais
 des recherches, tu verras que les Roakiens
 et les Fargetiens sont les descendants des Mooriens ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Jay
+<sn:pointer id="14">Jay[br]
 [speed][0xa]...[speed][0x0]Miraculeusement, il y eut
 des Mooriens qui survécurent au cataclysme de
 la Terre. Certains de ces survivants ont franchi
@@ -91,83 +91,83 @@ alors que les autres ont échoué sur ce caillou
 désolé qu'est Farget ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]
+<sn:pointer id="15">[nick:イリア][br]
 Alors[speed][0xa]...[speed][0x0] C'était donc ça
 l'hologramme du temple de Parj[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Jay
+<sn:pointer id="16">Jay[br]
 Savoir ce qui est arrivé à leur race est
 complètement hors sujet. Comme savoir ce qui est
 advenu des Roakiens, des Fargetiens, ou même
 des monstres...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Jay
+<sn:pointer id="17">Jay[br]
 Même si j'ignore tout ça, je ne cesserai
 jamais de vous mépriser, vous les terriens,
 qui vivez confortablement dans le luxe
 et l'abondance ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Jay
+<sn:pointer id="18">Jay[br]
 Oh[speed][0xa]...[speed][0x0] Toi, la fille....[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Jay
+<sn:pointer id="19">Jay[br]
 D'après tes habits, tu es native de Roal.
 Mais est-ce que les Mooriens de Roak vivent encore ?[page]
-Jay
+Jay[br]
 Tu m'intéresses. Hé hé hé ! J'aurai tout le temps
 de t'étudier quand tu seras morte ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Jay
+<sn:pointer id="20">Jay[br]
 Je ne cèderai pas cette fois ! Je vais vous
 montrer à quel point vous êtes faibles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]
+<sn:pointer id="21">[nick:ラティ][br]
 On a réussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ミリー]
+<sn:pointer id="22">[nick:ミリー][br]
 On l'a vaincu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス]
+<sn:pointer id="23">[nick:シウス][br]
 Ouais ! On a gagné ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:アシュレイ]
+<sn:pointer id="24">[nick:アシュレイ][br]
 On a réussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ラティ]
+<sn:pointer id="25">[nick:ラティ][br]
 Il est mort ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Jay
+<sn:pointer id="26">Jay[br]
 [speed][0xa]...[speed][0x0]Ce n'est pas terminé !
 Hé hé ! Quelqu'un d'autre prendra le relais.
 Ce n'est qu'une question de temps. Je[speed][0x14]...[speed][0x8] J'attends ce jour avec impatience[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ロニキス]
+<sn:pointer id="27">[nick:ロニキス][br]
 Ivina a dit que les instincts destructeurs
 de Jay était inscrits dans ces gênes, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ロニキス]
+<sn:pointer id="28">[nick:ロニキス][br]
 Mais je n'ai vu en lui que de la haine pour
 ceux qui l'ont créé et pour lui-même[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:イリア]
+<sn:pointer id="29">[nick:イリア][br]
 Et de la tristesse[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ロニキス]
+<sn:pointer id="30">[nick:ロニキス][br]
 Oui[speed][0x14].[speed][0x0] Au final, ce n'était
 qu'une victime de plus[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>

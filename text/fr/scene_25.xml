@@ -12,109 +12,109 @@
 
 <sn:pointer id="3">[end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]
+<sn:pointer id="4">[nick:ラティ][br]
 C'est parti ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[end]</sn:pointer>
 
-<sn:pointer id="6">???
+<sn:pointer id="6">???[br]
 Quand je serai grande, je veux être un bel oiseau pour voler dans les airs, alors laisse-moi tranquille ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">???
+<sn:pointer id="7">???[br]
 Bleeeeeeeeeh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]
+<sn:pointer id="8">[nick:イリア][br]
 Hein ? Qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア]
+<sn:pointer id="9">[nick:イリア][br]
 Quand on s'est retrouvés séparés, un beau jeune homme m'a fait un cadeau.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ロニキス]
+<sn:pointer id="10">[nick:ロニキス][br]
 C'est[speed][0x5]...[speed][0x0] donc ça[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:イリア]
+<sn:pointer id="11">[nick:イリア][br]
 C'est bon ! [speed][0xa]...[speed][0x0] Ce que tu peux être chiant par moment, capitaine. J'aurais pensé que ça te fasse plus d'effet que ça.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Hein ?[page]
-[nick:イリア]
+[nick:イリア][br]
 C'était [nick:ラティ].[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 C'est [nick:ラティ] qui te l'a donné ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]
+<sn:pointer id="12">[nick:イリア][br]
 Arf, toi aussi maintenant. J'ai DÉJÀ DIT qu'il n'y avait aucun sentiment derrière tout ça.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Comment ça "moi aussi" ?[page]
-[nick:イリア]
+[nick:イリア][br]
 [nick:ミリー] était un peu jalouse[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Oh, comme c'est mignon.[page]
-[nick:イリア]
+[nick:イリア][br]
 [nick:ラティ] n'aime pas vraiment qu'on plaisante à ce sujet.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]
+<sn:pointer id="13">[nick:イリア][br]
 J'ai DÉJÀ DIT qu'il n'y avait aucun sentiment derrière tout ça.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Je ne pense pas non plus[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">En fait, c'est plutôt [nick:ロニキス] que ça a le plus agacé...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]
+<sn:pointer id="15">[nick:イリア][br]
 L'air marin est tellement agréable...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ロニキス]
+<sn:pointer id="16">[nick:ロニキス][br]
 oh, [nick:ラティ]. Qu'est-ce qu'il t'arrive ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Marin rustre
+<sn:pointer id="17">Marin rustre[br]
 Grâce à vous les gars, ces bâtards de pirates se repointeront pas de si tôt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Marin rustre
+<sn:pointer id="18">Marin rustre[br]
 Bon sang, revoilà les sauvages.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Gros marin
+<sn:pointer id="19">Gros marin[br]
 Pirates de mes deux, j'vous l'avais dit que vous auriez la monnaie de votre pièce !! ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Gros marin
+<sn:pointer id="20">Gros marin[br]
 L'armée de Moore n'est en fait qu'un ramassis de lâches...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Vieux marin
+<sn:pointer id="21">Vieux marin[br]
 Il paraît que vous n'avez fait qu'une bouchée des pirates ? Vous êtes des champions, les gars ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Vieux marin
+<sn:pointer id="22">Vieux marin[br]
 Vous pensez pouvoir faire quelque chose avec ces maudits pirates ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Garçon aux yeux bleus
+<sn:pointer id="23">Garçon aux yeux bleus[br]
 Un jour, moi aussi, je pourrai aller sauver tout le monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Garçon aux yeux bleus
+<sn:pointer id="24">Garçon aux yeux bleus[br]
 Merci. Tiens, prends ça.[page]
 Objet reçu : [color][0x6]St Elmo[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Garçon aux yeux bleus
+<sn:pointer id="25">Garçon aux yeux bleus[br]
 Ils ont aussi attaqué mon papa quand il était en mer...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Marin
+<sn:pointer id="26">Marin[br]
 Où comptes-tu aller ? Si tu veux embarquer, il faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
@@ -126,17 +126,17 @@ Où comptes-tu aller ? Si tu veux embarquer, il faut payer d'avance. C'est [colo
 
 <sn:pointer id="28">[end]</sn:pointer>
 
-<sn:pointer id="29">Marin
+<sn:pointer id="29">Marin[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ]
+<sn:pointer id="31">[nick:ラティ][br]
 Je ne devrais pas y aller tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Ben le Marin
+<sn:pointer id="32">Ben le Marin[br]
 Vous embarquez sur le bateau pour [color][0x4]Otanim[color][0x2] ?[page]
 [end]</sn:pointer>
 
@@ -144,27 +144,27 @@ Vous embarquez sur le bateau pour [color][0x4]Otanim[color][0x2] ?[page]
 
 <sn:pointer id="34">[end]</sn:pointer>
 
-<sn:pointer id="35">Ben le Marin
+<sn:pointer id="35">Ben le Marin[br]
 Vous êtes vraiment sérieux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Ben le Marin
+<sn:pointer id="36">Ben le Marin[br]
 Vous nous avez vraiment débarrassés des pirates ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ouais.[page]
-Ben le Marin
+Ben le Marin[br]
 Dans ce cas, je devrais vous dire merci...[page]
-[nick:イリア]
+[nick:イリア][br]
 Maintenant, pourquoi vous ne nous emmèneriez pas au château Astral ?[page]
-Ben le Marin
+Ben le Marin[br]
 Ça devrait être facile. La navette est réparée. Pas besoin d'argent, vous n'avez qu'à embarquer. Revenez me voir quand vous serez prêts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Terry le borgne
+<sn:pointer id="37">Terry le borgne[br]
 [color][0x4]Portmith[color][0x2] est la plaque tournante des échanges commerciaux entre Moore et le royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Terry le borgne
+<sn:pointer id="38">Terry le borgne[br]
 [color][0x4]Portmith[color][0x2] est la plaque tournante des échanges commerciaux entre Moore et le royaume d'Astral.[page]
 [end]</sn:pointer>
 
@@ -172,13 +172,13 @@ Ben le Marin
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Terry
+<sn:pointer id="40">Terry[br]
 Hein ? Mon rendez-vous avec Candy ?! Oh non !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[end]</sn:pointer>
 
-<sn:pointer id="42">[mode8][0x18][speed][0x1]Marin romantique
+<sn:pointer id="42">[mode8][0x18][speed][0x1]Marin romantique[br]
 La mer houleuse[speed][0x1e]...[speed][0x1][page]
 [end]</sn:pointer>
 
@@ -190,21 +190,21 @@ L'écume[speed][0x1e]...[speed][0x1][page]
 Les goélands[speed][0x1e]...[speed][0x1][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[mode8][0x0][speed][0x0]Marin romantique
+<sn:pointer id="45">[mode8][0x0][speed][0x0]Marin romantique[br]
 Ce romantisme[speed][0xa]...[speed][0x0] Je ne m'en lasse jamais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Marin
+<sn:pointer id="46">Marin[br]
 Oui, c'est une sole.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]
+<sn:pointer id="47">[nick:イリア][br]
 Qu'est-ce qu'il se passe avec le bateau pour Astral ?[page]
-Ben le Marin
+Ben le Marin[br]
 Les hommes de Velcant se sont mis à écumer les mers du coin. Si nous étions en mer, nous aurions été leur prochaine proie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:イリア]
+<sn:pointer id="48">[nick:イリア][br]
 Bon, ben on est coincés ici.[page]
 [end]</sn:pointer>
 
@@ -215,42 +215,42 @@ Bon, ben on est coincés ici.[page]
 
 <sn:pointer id="50">[end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ラティ]
+<sn:pointer id="51">[nick:ラティ][br]
 Nous allons vous emprunter ce bateau.[page]
-Ben le Marin
+Ben le Marin[br]
 Je vous suis reconnaissant que vous alliez nous débarrasser des pirates, mais êtes-vous sûr que tout ira bien ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pas la peine de vous inquiéter ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[end]</sn:pointer>
 
-<sn:pointer id="53">Ben le Marin
+<sn:pointer id="53">Ben le Marin[br]
 On pourra pas aller à Astral avant un bon moment. Revenez dans une vingtaine de jours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]
+<sn:pointer id="54">[nick:ラティ][br]
 Qu'est-ce qu'il se passe ?[page]
-Ben le Marin
+Ben le Marin[br]
 On est coincés ici. Les hommes de Velcant ont débarqué dans le coin.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Vel[speed][0xa]...[speed][0x0] Qui sont-ils ?[page]
-[nick:シウス]
+[nick:シウス][br]
 Des sauvages qui vivent dans les contrées inexplorées du nord. T'as jamais entendu parler d'eux ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Qu'est-il arrivé au bateau pour Astral ?[page]
-Ben le Marin
+Ben le Marin[br]
 Il ne peut pas quitter le port !
 Sinon, c'est certain qu'on sera leur prochaine proie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:シウス]
+<sn:pointer id="55">[nick:シウス][br]
 Ça serait vraiment la loose de devoir aller prendre le bateau ailleurs, ou de poireauter qu'ils se barrent...[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:シウス]
+<sn:pointer id="56">[nick:シウス][br]
 On pourrait pas aller leur régler leur compte ?[page]
 [end]</sn:pointer>
 
@@ -259,37 +259,37 @@ On pourrait pas aller leur régler leur compte ?[page]
 3. Mieux vaut dormir et attendre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:シウス]
+<sn:pointer id="58">[nick:シウス][br]
 C'est parti ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:イリア]
+<sn:pointer id="59">[nick:イリア][br]
 Tout doux tous les deux, vous êtes cinglés ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:シウス]
+<sn:pointer id="60">[nick:シウス][br]
 Ça sert à rien qu'on reste ici, à les regarder nous casser les couilles, pas vrai [nick:ラティ] ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:イリア], ça ira plus vite si on règle le problème nous-mêmes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:シウス]
+<sn:pointer id="61">[nick:シウス][br]
 Salut, si vous nous filez un bateau, on va aller régler leur compte aux Velcants ![page]
-Ben le Marin
+Ben le Marin[br]
 Je vous suis reconnaissant que vous alliez les affronter, mais êtes-vous certains d'être de taille ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス]
+<sn:pointer id="62">[nick:シウス][br]
 Ouais, ouais. Tu verras.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">[end]</sn:pointer>
 
-<sn:pointer id="64">Ben le Marin
+<sn:pointer id="64">Ben le Marin[br]
 On pourra pas aller à Astral avant un bon moment. Revenez dans une vingtaine de jours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:シウス]
+<sn:pointer id="65">[nick:シウス][br]
 Tiens, j'y repense, pourquoi on s'occuperait pas du truc que Badam nous a demandé ?[page]
 [end]</sn:pointer>
 
@@ -297,19 +297,19 @@ Tiens, j'y repense, pourquoi on s'occuperait pas du truc que Badam nous a demand
 2. Ne pas le porter[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]
+<sn:pointer id="67">[nick:シウス][br]
 Bon ben c'est parti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス]
+<sn:pointer id="68">[nick:シウス][br]
 Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Alors, je vais m'en charger moi-même.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:シウス]
+<sn:pointer id="69">[nick:シウス][br]
 Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Pars devant, je vais m'en charger moi-même.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:シウス]
+<sn:pointer id="70">[nick:シウス][br]
 À la prochaine, les gars. Faites de votre mieux.[page]
 [end]</sn:pointer>
 
@@ -317,27 +317,27 @@ Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Pars devant, je vais 
 2. Le laisser partir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:シウス]
+<sn:pointer id="72">[nick:シウス][br]
 Qu'est-ce qu'il y a ? Tu veux que je vienne ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:シウス]
+<sn:pointer id="73">[nick:シウス][br]
 C'est parti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:シウス]
+<sn:pointer id="74">[nick:シウス][br]
 À plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス]
+<sn:pointer id="75">[nick:シウス][br]
 À plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:イリア]
+<sn:pointer id="76">[nick:イリア][br]
 Que comptes-tu faire maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:シウス]
+<sn:pointer id="77">[nick:シウス][br]
 Tu vas faire quoi, maint'nant ?[page]
 [end]</sn:pointer>
 

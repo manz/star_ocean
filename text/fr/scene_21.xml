@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]
+<sn:pointer id="0">[nick:イリア][br]
 Pour l'instant, commençons par les lieux les plus fréquentés. Nous devrions pouvoir trouver le Capitaine et [nick:ミリー] comme ça.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ouais.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[pos][0x56][0x0]Thermonia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">???
+<sn:pointer id="2">???[br]
 Personne n'est aussi stupide ! Me faites pas rire ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[pos][0x56][0x0]Thermonia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Homme
+<sn:pointer id="4">Homme[br]
 Badam, la vendeuse de la quincaillerie, elle était à la recherche d'aventuriers.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Érudite Lemia
+<sn:pointer id="5">Érudite Lemia[br]
 Hier, j'ai vu une lumière, comme une étoile filante, qui est tombée au sud sur Crat. Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Érudite Lemia
+<sn:pointer id="6">Érudite Lemia[br]
 Connaissez-vous tous les royaumes du monde ?[page]
 [end]</sn:pointer>
 
@@ -36,39 +36,39 @@ Connaissez-vous tous les royaumes du monde ?[page]
 
 <sn:pointer id="9">[end]</sn:pointer>
 
-<sn:pointer id="10">Homme
+<sn:pointer id="10">Homme[br]
 [nick:ロニキス] ? [nick:ミリー] ? Ça grouille d'aventuriers et de mercenaires dans le coin, alors...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Homme
+<sn:pointer id="11">Homme[br]
 Avez-vous pu trouver vos amis ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Dean
+<sn:pointer id="12">Dean[br]
 Vous cherchez quelqu'un et vous ne savez même pas où vous vous êtes perdus de vue ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Dean
+<sn:pointer id="13">Dean[br]
 La ville fortifiée du [color][0x4]royaume de Moore[color][0x2], [color][0x4]Portmith[color][0x2], c'est une plaque tournante du commerce entre les royaumes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Vieil homme
+<sn:pointer id="14">Vieil homme[br]
 .......[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Vieil homme
+<sn:pointer id="15">Vieil homme[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Vieil homme
+<sn:pointer id="16">Vieil homme[br]
 Pour cette épée ? C'est le travail du meilleur forgeron de tout l'Est. Si vous la prenez maintenant, je vous ferais un prix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]
+<sn:pointer id="17">[nick:イリア][br]
 C'est une très bonne épée ! Pourquoi tu ne l'achètes pas, [nick:ラティ] ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 C'est vrai que je me sens tout nu, sans épée...[page]
-Vieil homme
+Vieil homme[br]
 J'vous fais moitié prix : 
 [color][0x5]20[color][0x2]Fol.[page]
 [end]</sn:pointer>
@@ -79,63 +79,63 @@ J'vous fais moitié prix :
 
 <sn:pointer id="19">[end]</sn:pointer>
 
-<sn:pointer id="20">Vieil homme
+<sn:pointer id="20">Vieil homme[br]
 Ne serait-il pas mieux de vous équiper avant de quitter la ville ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]
+<sn:pointer id="21">[nick:ラティ][br]
 D'accord, marché conclus.[page]
-Vieil homme
+Vieil homme[br]
 À bientôt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">???
+<sn:pointer id="22">???[br]
 Dégage ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">???
+<sn:pointer id="23">???[br]
 Dis voir ! T'es pas en train de refourguer de la merde à des noobs qui pigent que dalle ?![page]
-Vieil homme
+Vieil homme[br]
 Oh ! Encore vous ? Vous sapez mon commerce.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">???
+<sn:pointer id="24">???[br]
 La ferme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">???
+<sn:pointer id="25">???[br]
 Vous êtes des aventuriers, non ? J'espère que vous savez que c'est une copie. Une des célèbres épées de l'Est est plus comme[speed][0x7]...[speed][0x0] ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">???
+<sn:pointer id="26">???[br]
 Vous laissez par arnaquer par cet armurier véreux. À plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア]
+<sn:pointer id="27">[nick:イリア][br]
 Il a un problème, lui...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Vieil homme
+<sn:pointer id="28">Vieil homme[br]
 Ah les clients ces derniers temps ! J'vous jure...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Gamin
+<sn:pointer id="29">Gamin[br]
 J'donne juste un coup de main.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Liza
+<sn:pointer id="30">Liza[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Poissonnier Brad
+<sn:pointer id="31">Poissonnier Brad[br]
 Maudits pirates, il faut faire quelque chose contre eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Poissonnier Brad
+<sn:pointer id="32">Poissonnier Brad[br]
 Je reçois mon poisson de [color][0x4]Portmith[color][0x2], mais je m'inquiète, il y a de plus en plus de pirates ces derniers temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Raddle l'aventurier
+<sn:pointer id="33">Raddle l'aventurier[br]
 C'est par où, [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
@@ -143,25 +143,25 @@ C'est par où, [color][0x4]Portmith[color][0x2] ?[page]
 2. Au Sud[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Raddle l'aventurier
+<sn:pointer id="35">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Raddle l'aventurier
+<sn:pointer id="36">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ペリシー]
+<sn:pointer id="38">[nick:ペリシー][br]
 Hé, [nick:ミリー] a dit qu'elle aimait les parfaits.♪ Mais pour [nick:ロニキス][speed][0xa]...[speed][0x0] ? C'était quoi ? Des champignons ? Non c'est pas ça. Mais c'était quoi déjà ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ]
+<sn:pointer id="39">[nick:ラティ][br]
 Qu'est-ce qui ne va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:フィア]
+<sn:pointer id="40">[nick:フィア][br]
 Oh, hey[speed][0xa]...[speed][0x0] [nick:ラティ][speed][0xa]...[speed][0x0] C'est rien, t'inquiète[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -170,128 +170,128 @@ Oh, hey[speed][0xa]...[speed][0x0] [nick:ラティ][speed][0xa]...[speed][0x0] C
 3. Ne rien dire et la laisser.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ]
+<sn:pointer id="42">[nick:ラティ][br]
 Allez viens, fais pas la tête[speed][0xa]...[speed][0x0] Allez souris, ça va aller.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ラティ]
+<sn:pointer id="43">[nick:ラティ][br]
 Non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア]
+<sn:pointer id="44">[nick:フィア][br]
 Désolée, ça va pas très fort en ce moment[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]
+<sn:pointer id="45">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]
 C'est à cause de [nick:シウス] ?[page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Souris, on ne peut rien faire pour lui[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:フィア]
+<sn:pointer id="46">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]Sur le moment, j'ai jugé bon de suivre mon ressenti et de lui parler de la mort de Rya, mais à bien y repenser, j'ai vraiment manqué de tact[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:フィア][speed][0xa]...[speed][0x0][page]
-[nick:フィア]
+[nick:フィア][br]
 J'aurais du savoir combien elle admirait son père plus que quiconque[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:フィア], c'est pas comme si on ne verrait plus jamais [nick:シウス][speed][0xa]...[speed][0x0] Si tu t'en veux, tu n'auras qu'à être plus gentille la prochaine fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]
+<sn:pointer id="47">[nick:ラティ][br]
 C'est vraiment pas le genre à se laisser mourir comme ça, hein ?[page]
-[nick:フィア]
+[nick:フィア][br]
 [speed][0xa]...[speed][0x0]Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア]
+<sn:pointer id="48">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]C'est pas grand chose, mais je me sens mieux. Merci, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア]
+<sn:pointer id="49">[nick:フィア][br]
 Peux-tu me laisser seule ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:フィア]
+<sn:pointer id="50">[nick:フィア][br]
 Désolée de te faire subir ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア]
+<sn:pointer id="51">[nick:フィア][br]
 Parfois c'est mieux de se la couler douce. Je n'ai même pas pris conscience de ça tellement j'étais une tête de pioche quand j'étais dans la cavalerie[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:シウス]
+<sn:pointer id="52">[nick:シウス][br]
 C'était moins une.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:シウス]
+<sn:pointer id="53">[nick:シウス][br]
 Quel trou perdu ! Il se passe jamais rien ici ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:イリア]
+<sn:pointer id="54">[nick:イリア][br]
 C'est un beau tableau, tu ne trouves pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:イリア]
+<sn:pointer id="55">[nick:イリア][br]
 Je sais pas si on devrait s'en séparer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:イリア]
+<sn:pointer id="56">[nick:イリア][br]
 C'est à ça que ressemblent les jeunes filles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:イリア]
+<sn:pointer id="57">[nick:イリア][br]
 Tu ne comprends rien aux femmes, hein, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:ミリー]
+<sn:pointer id="58">[nick:ミリー][br]
 Je me demande si cette ville n'était pas [color][0x4]Laponia[color][0x2] autrefois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ラティ]
+<sn:pointer id="59">[nick:ラティ][br]
 Elle n'est pas de bon poil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ラティ]
+<sn:pointer id="60">[nick:ラティ][br]
 Il semblerait qu'elle soit de bonne humeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Vieil homme
+<sn:pointer id="61">Vieil homme[br]
 Cette épée ? C'est le travail du plus grand forgeron de tout l'Est.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:アシュレイ]
+<sn:pointer id="62">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0]Arrête de prendre les gens pour des cons ! Le plus grand forgeron de tout l'Est ? Tu crois qu'il existe des abrutis congénitaux pour t'acheter ta lame émoussée ?!  [page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:アシュレイ]
+<sn:pointer id="63">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Si une telle personne existe, j'aimerais bien voir sa tête ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:アシュレイ]
+<sn:pointer id="64">[nick:アシュレイ][br]
 Oh[speed][0x14] ?[speed][0x0] Y'a un problème, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ラティ]
+<sn:pointer id="65">[nick:ラティ][br]
 Y'a un problème avec cette peinture ?[page]
-[nick:イリア]
+[nick:イリア][br]
 T'as pas une drôle d'impression en la regardant ? Je me demande ce qu'on a voulu exprimer en le peignant.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ouais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="66">[end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]
+<sn:pointer id="67">[nick:シウス][br]
 Parait que le fils du quincaillier d'ici trouve son inspiration dans l'art des ruines des Anciens, qu'il les dessine. C'est un artiste itinérant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ラティ]
+<sn:pointer id="68">[nick:ラティ][br]
 [speed][0x3]Les anciens[speed][0x5] ?[speed][0x0][page]
-[nick:シウス]
+[nick:シウス][br]
 Tu n'as jamais entendu parler d'eux ?[page]
 [end]</sn:pointer>
 
@@ -299,15 +299,15 @@ Tu n'as jamais entendu parler d'eux ?[page]
 2. Mais si, bien sûr.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:シウス]
+<sn:pointer id="70">[nick:シウス][br]
 Ils ont disparu aujourd'hui, mais on dit qu'ils étaient une race très puissante il y a longtemps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:シウス]
+<sn:pointer id="71">[nick:シウス][br]
 C'est pas mal ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:シウス]
+<sn:pointer id="72">[nick:シウス][br]
 Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres trésors ou d'autres truc du genre.[page]
 [end]</sn:pointer>
 
@@ -316,112 +316,112 @@ Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres tr
 3. Séparons-nous ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ラティ]
+<sn:pointer id="74">[nick:ラティ][br]
 Des trésors ?[page]
-[nick:シウス]
+[nick:シウス][br]
 J'ai traversé une ruine durant un de mes voyages. C'était sur le sentier du Mt Métox, mais j'en n'ai pas vraiment fait le tour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス]
+<sn:pointer id="75">[nick:シウス][br]
 À plus. C'était cool de tracer la route avec vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:シウス]
+<sn:pointer id="76">[nick:シウス][br]
 Qu'est-ce qui ne va pas, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:イリア]
+<sn:pointer id="77">[nick:イリア][br]
 Il fait les choses à sa manière.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ラティ]
+<sn:pointer id="78">[nick:ラティ][br]
 Tu ne nous aiderais pas ?[page]
-[nick:シウス]
+[nick:シウス][br]
 Gné ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:シウス]
+<sn:pointer id="79">[nick:シウス][br]
 Je suis curieux de rencontrer vos amis.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Alors, tu viendras ?[page]
-[nick:シウス]
+[nick:シウス][br]
 Ouais, si vous voulez bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ロニキス]
+<sn:pointer id="80">[nick:ロニキス][br]
 Mais tout le monde à une queue de singe ici ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Pardon, désolé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:マーヴェル]
+<sn:pointer id="81">[nick:マーヴェル][br]
 ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ヨシュア]
+<sn:pointer id="82">[nick:ヨシュア][br]
 J'attendrai ici votre retour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:ロニキス]
+<sn:pointer id="83">[nick:ロニキス][br]
 Mais qui a bien pu être [nick:マーヴェル][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:ラティ]
+<sn:pointer id="84">[nick:ラティ][br]
 J'en suis pas bien sûr non plus[speed][0xa]...[speed][0x0] Mais y'a pas de raison de t'en vouloir[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:ロニキス]
+<sn:pointer id="85">[nick:ロニキス][br]
 Ouais.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="86">Mais tout le monde à une queue de singe ici ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Pardon, désolé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:ロニキス]
+<sn:pointer id="87">[nick:ロニキス][br]
 Maintenant que j'y pense, tu n'as pas de queue toi, [nick:マーヴェル] ?[page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 [speed][0xa]...[speed][0x0]Laisse tomber.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:ヨシュア]
+<sn:pointer id="88">[nick:ヨシュア][br]
 D'ailleurs, [nick:マーヴェル], ta force est différente du combat à l'épée et au bouclier habituel. D'où te vient-elle exactement ?[page]
-[nick:マーヴェル]
+[nick:マーヴェル][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:ロニキス]
+<sn:pointer id="89">[nick:ロニキス][br]
 Est-ce réellement important ?[page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Non, non, du tout. C'est juste que ça m'intriguait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:シウス]
+<sn:pointer id="90">[nick:シウス][br]
 Whaaa[speed][0xa]...[speed][0x0]C'est là que [nick:ラティ] va se prendre une raclée. J'ai hâte de voir la suite. Ce que c'est excitant[speed][0x5]...[speed][0x0] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:フィア]
+<sn:pointer id="91">[nick:フィア][br]
 Hey, toi, [nick:シウス] ! Qu'est-ce que tu fais là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:シウス]
+<sn:pointer id="92">[nick:シウス][br]
 R[speed][0xa]...[speed][0x0] Rien[speed][0x0]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:シウス]
+<sn:pointer id="93">[nick:シウス][br]
 (Diantre, il semblerait que moi aussi je sois dans le pétrin...)[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:ラティ]
+<sn:pointer id="94">[nick:ラティ][br]
 Merci, [nick:シウス].[page]
-[nick:シウス]
+[nick:シウス][br]
 De rien.[page]
 [end]</sn:pointer>
 

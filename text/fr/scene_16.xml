@@ -1,161 +1,161 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Amiral
+<sn:pointer id="0">Amiral[br]
 Vous êtes en train de nous expliquer que vous souhaitez faire une trêve ?[page]
-Ambassadeur résonien
+Ambassadeur résonien[br]
 Oui, c'est ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Ambassadeur résonien
+<sn:pointer id="1">Ambassadeur résonien[br]
 Entrer en guerre contre la Terre n'était pas notre première intention.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Amiral
+<sn:pointer id="2">Amiral[br]
 C'était donc vrai. Un groupe occulte œuvrait dans l'ombre de Resonia[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ロニキス]
+<sn:pointer id="3">[nick:ロニキス][br]
 Un groupe occulte ?[page]
-Ambassadeur résonien
+Ambassadeur résonien[br]
 Oui. C'était de l'intimidation. Il s'est avéré que leur civilisation est très avancée et qu'ils étaient à l'origine de l'explosion de la planète Ise il y a 6 mois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Ambassadeur résonien
+<sn:pointer id="4">Ambassadeur résonien[br]
 Nous ne savons pas ce qu'il veulent. Toutefois, ce sont eux qui nous ont apporté le virus et la technologie liée à la nouvelle matière[speed][0xa]...[speed][0x0][page]
-Amiral
+Amiral[br]
 Je vois.
 Je comprends la plupart de vos dires[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ロニキス]
+<sn:pointer id="5">[nick:ロニキス][br]
 Concernant l'arme bactériologique envoyée sur la planète Roak[speed][0xa]...[speed][0x0]
 Nous vous serions grandement reconnaissants si vous nous fournissiez un vaccin ou le patient 0.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Ambassadeur résonien
+<sn:pointer id="6">Ambassadeur résonien[br]
 C'est impossible.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Ambassadeur résonien
+<sn:pointer id="7">Ambassadeur résonien[br]
 Il n'existe plus ni vaccin, ni le patient 0. C'est regrettable pour la planète Roak, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー]
+<sn:pointer id="8">[nick:ミリー][br]
 Hors de question[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Ambassadeur résonien
+<sn:pointer id="9">Ambassadeur résonien[br]
 Nous savons d'où provient le virus, mais ça ne serait d'aucune utilité au point où nous en sommes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Amiral
+<sn:pointer id="10">Amiral[br]
 Il n'y a sûrement plus rien à faire. Si ce n'est aller secourir les derniers rescapés sur la planète Roak[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]
+<sn:pointer id="11">[nick:ラティ][br]
 Qoui ? Vous allez abandonner notre planète comme ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]
+<sn:pointer id="12">[nick:イリア][br]
 [nick:ラティ], du calme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]
+<sn:pointer id="13">[nick:ラティ][br]
 Et merde ![end]</sn:pointer>
 
 <sn:pointer id="14">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]
+<sn:pointer id="15">[nick:ラティ][br]
 Dire que nous avons fait tout ce chemin dans le seul but de sauver tous les habitants[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー]
+<sn:pointer id="16">[nick:ミリー][br]
 Qu'allons-nous faire à présent ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]
+<sn:pointer id="17">[nick:イリア][br]
 C'est difficile à avaler qu'ils aient récupéré le virus sur Roak il y a 300 ans et l'aient conservé précieusement tout ce temps...[page]
-[nick:イリア]
+[nick:イリア][br]
 Impossible maintenant de mettre au point un vaccin[speed][0xa]...[speed][0x0]
 La fédération a décidé de terminer la campagne de sauvetage des rescapés de la planète Roak.[page]
-[nick:イリア]
+[nick:イリア][br]
 Tout ce que nous pouvons faire c'est vous présenter nos excuses.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]
+<sn:pointer id="18">[nick:イリア][br]
 Je suis sincèrement navrée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス]
+<sn:pointer id="19">[nick:ロニキス][br]
 Rien n'est impossible, vous savez.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス]
+<sn:pointer id="20">[nick:ロニキス][br]
 Juste fortement improbable[speed][0xa]...[speed][0x0] Non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア]
+<sn:pointer id="21">[nick:イリア][br]
 La planète[speed][0xa]...[speed][0x0] Stream[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア]
+<sn:pointer id="22">[nick:イリア][br]
 Pile au moment où j'allais te demander de quoi tu voulais parler[speed][0xa]...[speed][0x0] C'est absurde !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス]
+<sn:pointer id="23">[nick:ロニキス][br]
 Je vais nous ramener au vaisseau.[page]
-[nick:イリア]
+[nick:イリア][br]
 Mais[speed][0xa]...[speed][0x0]!![page]
-[nick:ミリー]
+[nick:ミリー][br]
 Reste t'il encore une chance [speed][0xa]?[speed][0x0] Si oui[speed][0xa]...[speed][0x0] Je vous en conjure...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ロニキス]
+<sn:pointer id="24">[nick:ロニキス][br]
 Amiral, que se passe t'il ?[page]
-Amiral
+Amiral[br]
 C'est ce type de situation, capitaine.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Qu'est-ce que cela signifie ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Amiral
+<sn:pointer id="25">Amiral[br]
 Un vaisseau prétendant être un éclaireur de la planète Farget est brutalement apparu dans l'espace territorial de la Fédération et a demandé notre reddition.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 C'est ce fameux groupe occulte ?[page]
-Amiral
+Amiral[br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Amiral
+<sn:pointer id="26">Amiral[br]
 Nous avons décidé de lancer l'opération Stardust. Capitaine [nick:ロニキス], vous en prendrez la tête.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Que devons-nous faire, précisément ?[page]
-Amiral
+Amiral[br]
 Quand notre équipe scientifique a étudié la zone où leur vaisseau de reconnaissance est apparu, il nous a été possible de confirmer l'existence d'un trou de ver. En le traversant, vous pourrez sûrement vous rendre sur Farget.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 [speed][0xa]......[speed][0x0][page]
-Amiral
+Amiral[br]
 En fait, Farget est désormais dirigée par Jay Rivorse, cet homme est le produit d'expériences génétiques sur des humains, condamnées même sur Farget. L'invasion est sur le point d'être lancée, sous sa seule autorité.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Je comprends.[page]
-Amiral
+Amiral[br]
 Jay Rivorse a peu de soutien sur Farget, sans oublier le grand nombre factions qui lui sont opposées.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Pourquoi toutes ces informations sur Farget, amiral ?[page]
-Amiral
+Amiral[br]
 Ces factions sont secrètement entrées en contact avec nous pour que nous éliminions Jay Rivorse. [page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Comment ?![page]
-Amiral
+Amiral[br]
 Seuls Jay Rivorse, ses plus proches collaborateurs et l'armée de Farget soutiennent l'invasion de la Fédération.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Je vois... Reçu.[page]
-Amiral
+Amiral[br]
 Utilisez la porte du temps comme bon vous semblera.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Mais même si nous nous servons de la porte du temps, nous ne pouvons emporter nos armes, et avec un objectif d'assassiner quelqu'un, la porte ne nous laissera jamais passer. [page]
-Amiral
+Amiral[br]
 Non, nous l'emprunterons dans un but différent.[page]
 [end]</sn:pointer>
 

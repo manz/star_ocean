@@ -9,7 +9,7 @@
 <sn:pointer id="2">[pos][0x5c][0x0]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Petite vieille
+<sn:pointer id="3">Petite vieille[br]
 Ho ! C'est rare d'avoir de la visite.[page]
 [end]</sn:pointer>
 
@@ -17,29 +17,29 @@ Ho ! C'est rare d'avoir de la visite.[page]
 2. Ne rien demander[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]
+<sn:pointer id="5">[nick:ラティ][br]
 Je peux voir ce que vous avez comme habits de femme ?[page]
-Petite vieille
+Petite vieille[br]
 Quelle drôle d'idée ! Enfin, si c'est ce que vous voulez...
 Ça doit être une nouvelle mode ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Petite vieille
+<sn:pointer id="6">Petite vieille[br]
 Voici ceux de ma fille. Elle est mariée, maintenant.
 Ils sont un peu usés, mais vous pouvez les prendre si vous voulez.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Merci[page]
-Petite vieille
+Petite vieille[br]
 Ho, de rien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[end]</sn:pointer>
 
-<sn:pointer id="8">Petite vieille
+<sn:pointer id="8">Petite vieille[br]
 Je me demande comment va ma fille...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Propriétaire
+<sn:pointer id="9">Propriétaire[br]
 Ha ! De nouveaux visages !
 Soyez les bienvenus.[page]
 [end]</sn:pointer>
@@ -48,22 +48,22 @@ Soyez les bienvenus.[page]
 2. Faire des emplettes[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]
+<sn:pointer id="11">[nick:ラティ][br]
 Heu[speed][0xa]...[speed][0x0]Comment dire ?
 Vous avez des habits pour femme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Propriétaire
+<sn:pointer id="12">Propriétaire[br]
 C'est pour faire un cadeau ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]
+<sn:pointer id="13">[nick:ラティ][br]
 Non, non ! Ça ne va pas ! Je cherche quelque chose de plus classique.[page]
-Propriétaire
+Propriétaire[br]
 Et ça ? C'est la grande mode chez les aventuriers.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 C'est parfait ![page]
-Propriétaire
+Propriétaire[br]
 Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
@@ -71,9 +71,9 @@ Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 2. Partir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]
+<sn:pointer id="15">[nick:ラティ][br]
 Je vais prendre ça ![page]
-Propriétaire
+Propriétaire[br]
 Hé hé ! Merci à vous ![page]
 [end]</sn:pointer>
 
@@ -81,15 +81,15 @@ Hé hé ! Merci à vous ![page]
 
 <sn:pointer id="17">[end]</sn:pointer>
 
-<sn:pointer id="18">Vieil homme
+<sn:pointer id="18">Vieil homme[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vieille femme
+<sn:pointer id="19">Vieille femme[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Vieille femme
+<sn:pointer id="20">Vieille femme[br]
 Bonjour ! Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
@@ -101,15 +101,15 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="23">[end]</sn:pointer>
 
-<sn:pointer id="24">Aventurier
+<sn:pointer id="24">Aventurier[br]
 Je n'ai vu personne qui ressemble à ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Aventurier
+<sn:pointer id="25">Aventurier[br]
 Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce qu'on s'y fait chier ! [page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Petite Lily
+<sn:pointer id="26">Petite Lily[br]
 N'est-elle pas adorable ?[page]
 [end]</sn:pointer>
 
@@ -117,28 +117,28 @@ N'est-elle pas adorable ?[page]
 2. Bof bof ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Petite Lily
+<sn:pointer id="28">Petite Lily[br]
 Hi hi♪ Je vois...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Petite Lily
+<sn:pointer id="29">Petite Lily[br]
 V[speed][0xa]-[speed][0x0]vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Petite Lily
+<sn:pointer id="30">Petite Lily[br]
 J'en ai ras le bol de trimer dans cette foutue boutique ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:フィア]
+<sn:pointer id="31">[nick:フィア][br]
 Est-ce que [nick:ミリー] joue dehors avec le chat ?
 Elle adore les chats...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ロニキス]
+<sn:pointer id="32">[nick:ロニキス][br]
 [nick:イリア] joue aussi avec les chats ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ヨシュア]
+<sn:pointer id="33">[nick:ヨシュア][br]
 J'aime bien ces villages où il n'y a pas trop de monde...[page]
 [end]</sn:pointer>
 

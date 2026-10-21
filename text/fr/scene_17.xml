@@ -8,117 +8,117 @@
 
 <sn:pointer id="2">[end]</sn:pointer>
 
-<sn:pointer id="3">[nick:シウス]
+<sn:pointer id="3">[nick:シウス][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Je suis à la recherche de ma sœur.[page]
-[nick:シウス]
+[nick:シウス][br]
 Hein ?[page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Je suis à la recherche de ma sœur, nous avons été séparés alors que nous étions très jeunes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ヨシュア]
+<sn:pointer id="4">[nick:ヨシュア][br]
 Mes parents ont été assassinés. J'ai été jeté du haut d'une falaise, mais j'ai survécu. Cependant, je ne sais pas si ma sœur est encore en vie[speed][0xa]...[speed][0x0] Je ne dois jamais oublier mon ennemi juré[speed][0xa]...[speed][0x0] Cet abominable meurtrier, ce chevalier sans honneur au bouclier écarlate. Je ne peux pas croire qu'il puisse en exister deux !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス]
+<sn:pointer id="5">[nick:シウス][br]
 Un bouclier écarlate[speed][0xa]...[speed][0x0] [speed][0x1e][speed][0x0] Serait-il possible que[speed][0xa]...[speed][0x0] Le plus célèbre de maîtres du style d'Edarl[speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Vous le connaissez ?[page]
-[nick:シウス]
+[nick:シウス][br]
 Non, c'est impossible[speed][0x19][speed][0x0] Je dois me tromper[speed][0xa]...[speed][0x0][page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Je vois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス]
+<sn:pointer id="6">[nick:シウス][br]
 Donc en fait, tu cherches aussi l'[color][0x6] œil de vérité[color][0x2], hein ?[speed][0x14][speed][0xa]...[speed][0x0] Viens. Tu t'en sortiras pas tout seul là-bas dedans.[page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 C'est vrai.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:シウス]
+<sn:pointer id="7">[nick:シウス][br]
 Hé ! T'es en retard ! Qu'est-ce que tu branlais ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]
+<sn:pointer id="8">[nick:イリア][br]
 Je suis désolée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:アシュレイ]
+<sn:pointer id="9">[nick:アシュレイ][br]
 Hé bien[speed][0xa]...[speed][0x0] D'après la légende, l'[color][0x6] œil de vérité[color][0x2] devrait se trouver au plus profond du temple.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]
+<sn:pointer id="10">[nick:ラティ][br]
 Donc, faut qu'on aille le plus loin possible, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:アシュレイ]
+<sn:pointer id="11">[nick:アシュレイ][br]
 Exactement. Mais je m'inquiète au sujet du jeune homme ailé. Il semblerait qu'il soit pressé, et qu'il n'ait pas réalisé combien ça peut être dangereux d'y aller seul[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]
+<sn:pointer id="12">[nick:イリア][br]
 C'est un coup du destin de le croiser ici. Je m'en voudrais s'il trouvait la mort alors que nous l'avons laissé tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:アシュレイ]
+<sn:pointer id="13">[nick:アシュレイ][br]
 Moi aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ]
+<sn:pointer id="14">[nick:ラティ][br]
 C'est pas [nick:ヨシュア] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]
+<sn:pointer id="15">[nick:イリア][br]
 Allons l'aider ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:アシュレイ]
+<sn:pointer id="16">[nick:アシュレイ][br]
 C'était moins une ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ヨシュア]
+<sn:pointer id="17">[nick:ヨシュア][br]
 Merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:アシュレイ]
+<sn:pointer id="18">[nick:アシュレイ][br]
 L'héroïsme[speed][0xa]...[speed][0x0] Même dans un autre monde, il fait des ravages et est totalement dénué de bon sens.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ヨシュア]
+<sn:pointer id="19">[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 Pouvez-vous parler à présent ? C'est évident que ça aurait été trop difficile en y allant seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ヨシュア]
+<sn:pointer id="20">[nick:ヨシュア][br]
 En fait[speed][0xa]...[speed][0x0] Je suis à la recherche de ma sœur, nous avons été séparés alors que nous étions très jeunes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[mode8][0x0][nick:ヨシュア]
+<sn:pointer id="21">[mode8][0x0][nick:ヨシュア][br]
 Mes parents ont été assassinés. J'ai été jeté du haut d'une falaise, mais j'ai survécu. Cependant, je ne sais pas si ma sœur est encore en vie[speed][0xa]...[speed][0x0] Je ne dois jamais oublier mon ennemi juré[speed][0xa]...[speed][0x0] Cet abominable meurtrier, ce chevalier sans honneur au bouclier écarlate. Je ne peux pas croire qu'il puisse en exister deux !![page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 Avez-vous parlé d'un bouclier écarlate ?![page]
-[nick:ヨシュア]
+[nick:ヨシュア][br]
 Vous le connaissez ?[page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 Je n'en suis pas certain, ne tirons pas de conclusions trop hâtives[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ヨシュア]
+<sn:pointer id="22">[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Je vois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:アシュレイ]
+<sn:pointer id="23">[nick:アシュレイ][br]
 Donc vous aussi êtes à la recherche de l'[color][0x6] œil de vérité[color][0x2] ? Voudriez-vous vous joindre à nous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ヨシュア]
+<sn:pointer id="24">[nick:ヨシュア][br]
 Oh oui ! Si ça ne vous dérange pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ラティ]
+<sn:pointer id="25">[nick:ラティ][br]
 Qu'est ce que c'est que ce truc ?[page]
 [end]</sn:pointer>
 

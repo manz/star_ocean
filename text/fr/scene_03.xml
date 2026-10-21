@@ -3,23 +3,23 @@
 <sn:pointer id="0">[pos][0x20][0x0]Holocube du Calnus[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア]
+<sn:pointer id="1">[nick:イリア][br]
 C'est un holocube.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Holocube ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Nous nous en servons pour projeter des images de tout ce qu'on veut.[page]
-[nick:イリア]
+[nick:イリア][br]
 On peut ainsi participer à des combats, des épreuves sportives et même profiter de la nature...[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pourquoi avoir pris la peine de concevoir une telle pièce ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Ca nous sert pendant les longues missions spatiales.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 C'est un holocube.[page]
-[nick:イリア]
+[nick:イリア][br]
 Mais je n'ai pas le temps de t'expliquer à quoi ça sert.[page]
 [end]</sn:pointer>
 

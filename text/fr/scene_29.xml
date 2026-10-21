@@ -3,230 +3,230 @@
 <sn:pointer id="0">[pos][0x3a][0x0]Château d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア]
+<sn:pointer id="1">[nick:イリア][br]
 Je suis fatiguée, allons nous reposer chez Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 Je suis fatiguée, allons nous reposer à l'auberge.[page]
-[nick:シウス]
+[nick:シウス][br]
 Mes yeux aussi se ferment tous seuls.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]
+<sn:pointer id="3">[nick:イリア][br]
 Je suis fatiguée, allons nous reposer à l'auberge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス]
+<sn:pointer id="4">[nick:シウス][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Y'a un problème ? C'est fermé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Armurier
+<sn:pointer id="5">Armurier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Quincaillier
+<sn:pointer id="6">Quincaillier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Épicier
+<sn:pointer id="7">Épicier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Garde novice
+<sn:pointer id="8">Garde novice[br]
 Il parait que [nick:フィア] est détenue au cachot du château.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Garde novice
+<sn:pointer id="9">Garde novice[br]
 Bienvenue à la [color][0x4]ville fortifiée d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Garde
+<sn:pointer id="10">Garde[br]
 Il parait que les soldats en faction de l'entrée cotée [color][0x4]Tatroï[color][0x2] de la grotte d'Astral ont aussi été tués. On raconte que c'est l'œuvre de [nick:フィア]. Je n'arrive pas à y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Garde
+<sn:pointer id="11">Garde[br]
 Pourquoi un monstre aurait attaqué Ryas ? Ça ne s'est jamais produit avant...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Garde
+<sn:pointer id="12">Garde[br]
 C'est pas pour me vanter, mais je pense qu'Astral est un des endroits les mieux gouvernés au monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Mercenaire gaucher
+<sn:pointer id="13">Mercenaire gaucher[br]
 [color][0x4]Astral[color][0x2] n'est pas ouvertement en guerre contre le monde démoniaque, au contraire de l'armée de [color][0x4]Van[color][0x2] ou de celle de [color][0x4]Sylvalant[color][0x2], mais un grand nombre de nos soldats ont été mobilisés dans ce cadre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Xerus le sage
+<sn:pointer id="14">Xerus le sage[br]
 Quand vous vous promenez, n'hésitez pas à examiner les zones rocailleuses, c'est là que poussent les herbes médicinales.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Chevalier
+<sn:pointer id="15">Chevalier[br]
 Il parait que Ryas, le célèbre héros de guerre et capitaine de la cavalerie d'Astral, a accepté une épée sans lame du roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Gim le forgeron
+<sn:pointer id="16">Gim le forgeron[br]
 Je devrais vous apprendre les secrets de la forge. Mais comme c'est mon gagne-pain, je ne vais pas vous expliquer tous les détails. Cependant, la clé est d'employer de bonnes armes et de bons minéraux.[page]
-Gim le forgeron
+Gim le forgeron[br]
 En étant radin à utiliser des épées bas de gamme, vous n'obtiendrez jamais de bons résultats.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mercenaire
+<sn:pointer id="17">Mercenaire[br]
 Le [color][0x4]royaume d'Astral[color][0x2] est celui des épées, je ferais mieux d'avoir quelques arcanes, mais[speed][0xa]...B[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Fille
+<sn:pointer id="18">Fille[br]
 Voici la ville fortifiée [color][0x4]d'Astral[color][0x2]. Les gens d'ici sont très forts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]
+<sn:pointer id="19">[nick:ラティ][br]
 Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:シウス]
+<sn:pointer id="20">[nick:シウス][br]
 [speed][0x14]...[speed][0x0] Rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">???
+<sn:pointer id="21">???[br]
 Hé, toi là ! T'es pas [nick:シウス] ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:シウス]
+<sn:pointer id="22">[nick:シウス][br]
 [nick:フィア] ![page]
-[nick:フィア]
+[nick:フィア][br]
 Haha, tu viens faire des courbettes à Warren ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス]
+<sn:pointer id="23">[nick:シウス][br]
 La ferme. Je venais juste faire un tour, car j'étais dans le coin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:フィア]
+<sn:pointer id="24">[nick:フィア][br]
 Je vois[speed][0xf][speed][0x0][speed][0xa]...[speed][0x0] Quand t'en auras fini avec ce que tu as à faire, dégage. Personne ne sera ravi de te voir ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:シウス]
+<sn:pointer id="25">[nick:シウス][br]
 Répète un peu pour voir ! Même si t'es une gonzesse, t'as réussi à devenir chevalier ? La cavalerie est tombée bien bas. C'est plus qu'une sale bande de gamins pourris !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:フィア]
+<sn:pointer id="26">[nick:フィア][br]
 [speed][0xf]...[speed][0x0] Et tu vas beugler longtemps comme ça ?[speed][0xf][speed][0x0] Insulter la cavalerie c'est aussi insulter Warren... !![page]
-[nick:シウス]
+[nick:シウス][br]
 [speed][0x14]...[speed][0x0][page]
-[nick:フィア]
+[nick:フィア][br]
 C'est un type bien. Même si tu le prends pour un idiot, il croit vraiment en toi. Et toi... !!![page]
-[nick:シウス]
+[nick:シウス][br]
 J'ai pas envie de profiter de l'influence de mes parents.[page]
-[nick:フィア]
+[nick:フィア][br]
 Tu penses que Warren serait le genre de type à recommander son propre fils comme capitaine uniquement, car son sang coule dans ses veines ? C'est pas la preuve que tu n'as pas la moindre confiance en toi ? [page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:フィア]
+<sn:pointer id="27">[nick:フィア][br]
 Et comme t'as pas confiance en toi, t'as préféré te tirer !! [speed][0xa]...[speed][0x1] Je ne te pardonnerai jamais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:シウス]
+<sn:pointer id="28">[nick:シウス][br]
 [speed][0xf]...[speed][0x0]Quelle pouffiasse[speed][0xf]...[speed][0x0] Elle croit qu'elle a le droit de dire tout ce qu'elle veut[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ]
+<sn:pointer id="29">[nick:ラティ][br]
 Tu la connais ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:シウス]
+<sn:pointer id="30">[nick:シウス][br]
 [speed][0xa]......[speed][0x0] Ouais[speed][0x14][speed][0xa]...[speed][0x0] Je la connais, mais sans plus[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">???
+<sn:pointer id="31">???[br]
 Hé, salut ! Tu es [nick:アシュレイ], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:アシュレイ]
+<sn:pointer id="32">[nick:アシュレイ][br]
 Euh... oui ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">???
+<sn:pointer id="33">???[br]
 C'est moi, tu ne me reconnais pas ? C'est [nick:フィア] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:アシュレイ]
+<sn:pointer id="34">[nick:アシュレイ][br]
 Oh[speed][0xa],[speed][0x0] je me souviens maintenant, tu es la fille qui habite chez Ryas, c'est ça ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Oui, c'est ça. Ça fait un bail ![page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 C'est vrai que ça fait longtemps[speed][0xf],[speed][0x0] trop longtemps, même[speed][0x1e].[speed][0x5] 10 ans[speed][0xa]...[speed][0x0] Comment va Ryas ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Plutôt bien. Mais il bosse comme un fou, il dirige la cavalerie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:フィア]
+<sn:pointer id="35">[nick:フィア][br]
 Et qui sont ces personnes avec toi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:アシュレイ]
+<sn:pointer id="36">[nick:アシュレイ][br]
 Des gens que j'ai rencontrés en voyageant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ]
+<sn:pointer id="37">[nick:ラティ][br]
 Salut, moi c'est [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:イリア]
+<sn:pointer id="38">[nick:イリア][br]
 Et moi, [nick:イリア]. Enchantée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:フィア]
+<sn:pointer id="39">[nick:フィア][br]
 Je fais partie de la cavalerie d'Astral. Je m'appelle [nick:フィア] Mell.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:アシュレイ]
+<sn:pointer id="40">[nick:アシュレイ][br]
 Je pars le voir. Vous devriez aussi venir plus tard.[page]
-[nick:フィア]
+[nick:フィア][br]
 Permettez-moi de vous accompagner. La demeure de Warren n'est plus au même endroit.[page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:フィア]
+<sn:pointer id="41">[nick:フィア][br]
 Et voilà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ]
+<sn:pointer id="42">[nick:ラティ][br]
 C'est donc la ville fortifiée d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:イリア]
+<sn:pointer id="43">[nick:イリア][br]
 Commençons par nous trouver une auberge. On ira à la recherche des autres plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ]
+<sn:pointer id="44">[nick:ラティ][br]
 C'est donc la ville fortifiée d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:イリア]
+<sn:pointer id="45">[nick:イリア][br]
 Commençons par nous trouver une auberge. On ira à la recherche des autres plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Bouclier écarlate
+<sn:pointer id="46">Bouclier écarlate[br]
 Hihihi. Donne-moi ça sans résistance. C'est qu'un jouet pour toi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Bouclier écarlate
+<sn:pointer id="47">Bouclier écarlate[br]
 MAIS QUE... ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:アシュレイ]
+<sn:pointer id="48">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Comment oses-tu prendre forme humaine, toi, ombre issue du miroir démoniaque ![page]
 Ennemi juré de mes amis, et de tant d'hommes... Tu vas expier tes fautes à présent ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ラティ]
+<sn:pointer id="49">[nick:ラティ][br]
 Nous n'allons pas te laisser t'en tirer ainsi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Bouclier écarlate
+<sn:pointer id="50">Bouclier écarlate[br]
 [color][0x6]MOUAHAHAHAH ! JE SUIS LE SEUL ET UNIQUE BOUCLIER ÉCARLATE !![color][0x2][page]
 [end]</sn:pointer>
 

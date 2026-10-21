@@ -6,18 +6,18 @@
 <sn:pointer id="1">[color][0x6]Carte d'accès R[color][0x2] obtenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 Mais[speed][0xa]...[speed][0x0] On dirait une sorte de carte d'accès.[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Mais pourquoi faire ? Aucune des civilisations de Roak n'était assez avancée techniquement pour utiliser ça[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]
+<sn:pointer id="3">[nick:ラティ][br]
 Nom de... ?!
 Qu'est-ce que c'est que ce machin ?[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Cette technologie n'a pas lieu d'être sur cette planète arriérée ![page]
-[nick:イリア]
+[nick:イリア][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 

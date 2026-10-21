@@ -24,7 +24,7 @@
 <sn:pointer id="7">[pos][0x5c][0x0]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Maître de la guilde
+<sn:pointer id="8">Maître de la guilde[br]
 
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.
 [page]
@@ -38,23 +38,23 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="10">[end]</sn:pointer>
 
-<sn:pointer id="11">Maître de la Guilde
+<sn:pointer id="11">Maître de la Guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Maître de la Guilde
+<sn:pointer id="12">Maître de la Guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Maître de la Guilde
+<sn:pointer id="13">Maître de la Guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Conseiller
+<sn:pointer id="14">Conseiller[br]
 Le nombre maximum de points de compétences possible est de 999, donc il est inutile d'être cupide et de les économiser.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Mentor
+<sn:pointer id="15">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?
 [page]
 [end]</sn:pointer>
@@ -65,44 +65,44 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mentor
+<sn:pointer id="17">Mentor[br]
 Savoir niveau 1 consiste en
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Mentor
+<sn:pointer id="18">Mentor[br]
 Savoir niveau 2 consiste en
 connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Mentor
+<sn:pointer id="19">Mentor[br]
 Savoir niveau 3 consiste en
 folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Mentor
+<sn:pointer id="20">Mentor[br]
 Combat niveau 2 consiste en
 riposte, feinte et concentration[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[end]</sn:pointer>
 
-<sn:pointer id="22">Femme
+<sn:pointer id="22">Femme[br]
 Mon mari a emmené les enfants à [color][0x4]Moore[color][0x2].
 Il est trop curieux, ça finira par lui jouer des tours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Femme
+<sn:pointer id="23">Femme[br]
 Mon mari ne fait rien d'autre que gaffer tout le temps.
 Je vais finir par aller voir ailleurs, à ce rythme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Aventurier
+<sn:pointer id="24">Aventurier[br]
 J'ai accepté un job qui consiste à chercher
 des pierres dans le royaume de Van[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Homme
+<sn:pointer id="25">Homme[br]
 De ce que j'ai entendu, il y a eu une grosse explosion
 à [color][0x4]Crat[color][0x2]. C'était une météorite?[page]
 [end]</sn:pointer>
@@ -111,20 +111,20 @@ De ce que j'ai entendu, il y a eu une grosse explosion
 est trop dangereuse et n'est vraiment pas un endroit où il fait bon vivre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Aventurier
+<sn:pointer id="27">Aventurier[br]
 Mon voyage est devenu plus facile maintenant que
 je maîtrise Marathon et Observation.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Morgan l'armurier
+<sn:pointer id="28">Morgan l'armurier[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Peter le vendeur
+<sn:pointer id="29">Peter le vendeur[br]
 Salut ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Restaurant
+<sn:pointer id="30">Restaurant[br]
 Bonjour. Que désirez-vous manger ?[page]
 [end]</sn:pointer>
 
@@ -149,15 +149,15 @@ Bonjour. Que désirez-vous manger ?[page]
 <sn:pointer id="35">Merci♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Tenancier
+<sn:pointer id="36">Tenancier[br]
 Bien le bonjour ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Vieille aubergiste
+<sn:pointer id="37">Vieille aubergiste[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Vieille aubergiste
+<sn:pointer id="38">Vieille aubergiste[br]
 Bonjour. Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous dormir un peu ?[page]
 [end]</sn:pointer>
@@ -169,11 +169,11 @@ Voulez-vous dormir un peu ?[page]
 
 <sn:pointer id="41">[end]</sn:pointer>
 
-<sn:pointer id="42">Vieil homme
+<sn:pointer id="42">Vieil homme[br]
 Ce siècle touche à son terme[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Vieil homme
+<sn:pointer id="43">Vieil homme[br]
 Je me demandais si une nouvelle guerre allait se produire et voilà
 que le monde tombe en morceaux[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>

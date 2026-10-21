@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]
+<sn:pointer id="0">[nick:イリア][br]
 Il faut revenir au château avec la tête du monstre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス]
+<sn:pointer id="1">[nick:シウス][br]
 Désolé.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Dépêchons-nous ![page]
-[nick:シウス]
+[nick:シウス][br]
 Hé !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Veuve Noire
+<sn:pointer id="2">Veuve Noire[br]
 [speed][0xa]...[speed][0x0] Sombres idiots !
 J'aurais atteint mon but si vous ne vous étiez pas pointés[speed][0xa]...[speed][0x0][page]
-[nick:シウス]
+[nick:シウス][br]
 Qu'est-ce que t'as dit ?![page]
-Veuve noire
+Veuve noire[br]
 Vous m'ennuyez[speed][0xa]...[speed][0x0]
 Je vais débarrasser le monde de votre inopportune présence ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:フィア]
+<sn:pointer id="3">[nick:フィア][br]
 Je vais ramener la tête du monstre au château. Vous serez récompensés plus tard, allez donc attendre à l'auberge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス]
+<sn:pointer id="4">[nick:シウス][br]
 Un instant[speed][0x1e][speed][0xa]...[speed][0x0]
 J'arrive.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア]
+<sn:pointer id="5">[nick:フィア][br]
 Fais ce que tu veux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア]
+<sn:pointer id="6">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]Sombres crétins ![page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 [nick:フィア] !
 Sais-tu ce que tu as fait ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Hé hé ! Tu parles de la mort de ce vieillard sénile ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Veuve noire
+<sn:pointer id="7">Veuve noire[br]
 J'aurais atteint mon but si vous ne vous étiez pas ramenés[speed][0xa]...[speed][0x0][page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0]Assassins ![page]
-Veuve noire
+Veuve noire[br]
 Vous m'ennuyez...
 Je vais vous éliminer ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:アシュレイ]
+<sn:pointer id="8">[nick:アシュレイ][br]
 Je vais retourner voir Ryas.
 Ramenez cette tête au château et expliquez-leur la situation.[page]
 [end]</sn:pointer>

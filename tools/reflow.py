@@ -1,7 +1,6 @@
 """French dialog laid out to the window with katsuji reflow: each page's lines re-wrapped to the window's pixels.
 
-A page is the text between two [page] codes. Its first line stays as written when it is a speaker label (a name
-tag alone, or a short capitalised line with no punctuation, the way the old project wrote speakers); the rest is
+A page is the text between two [page] codes. A speaker line ends with [br] and stays as written; the rest is
 reflowed by sentences. Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French
 name it inserts, other tags measure nothing.
 """
@@ -24,7 +23,7 @@ PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
 NAME_TAG = re.compile(r"\[(?:nick|name):([^\]]*)\]")
-LABEL = re.compile(r"(?:\[(?:nick|name):[^\]]*\])+|[A-ZÀ-ÖØ-Ý][^.,!?;:…\[\]\"*()]{0,19}")
+BREAK = "[br]\n"  # ends a speaker line: kept as written, then a plain line break
 
 
 def _char_widths(font: Path, table: Path) -> dict[str, int]:
@@ -51,9 +50,9 @@ class DialogLayout:
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is
-        lines = text.split("\n")
-        if len(lines) > 1 and LABEL.fullmatch(lines[0]):
-            return lines[0] + "\n" + self.layout.reflow("\n".join(lines[1:]))
+        label, sep, body = text.partition(BREAK)
+        if sep:
+            return label + "\n" + self.layout.reflow(body)
         return self.layout.reflow(text)
 
     def message(self, text: str) -> str:

@@ -18,7 +18,7 @@
 <sn:pointer id="5">[pos][0x58][0x0]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Maître de la guilde
+<sn:pointer id="6">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
@@ -29,25 +29,25 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="8">[end]</sn:pointer>
 
-<sn:pointer id="9">Maître de la guilde
+<sn:pointer id="9">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Maître de la guilde
+<sn:pointer id="10">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Maître de la guilde
+<sn:pointer id="11">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Conseiller
+<sn:pointer id="12">Conseiller[br]
 Ce n'est pas parce que vous achetez un arcane que vous serez en mesure de l'utiliser. Mais parfois après en avoir acquis, vous pourrez subitement avoir une idée lumineuse pour savoir comment les utiliser en utilisant certains mouvements de combat ![page]
-Conseiller
+Conseiller[br]
 Le fait que vous compreniez ou non comment l'utiliser est basé sur votre persévérance et de la façon dont vous maîtrisez votre style de combat.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Mentor
+<sn:pointer id="13">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
@@ -56,60 +56,60 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 3. Technique niveau 3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Mentor
+<sn:pointer id="15">Mentor[br]
 Connaissance niveau 3 comprend :
 Folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Mentor
+<sn:pointer id="16">Mentor[br]
 Sens niveau 3 comprend :
 Efficacité, ondes radio et obstination.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mentor
+<sn:pointer id="17">Mentor[br]
 Technique niveau 3 comprend :
 Technoscience, interprétation et moulage.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[end]</sn:pointer>
 
-<sn:pointer id="19">Petite fille
+<sn:pointer id="19">Petite fille[br]
 On n'a pas le droit de sortir sans autorisation, c'est nul ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Gamin
+<sn:pointer id="20">Gamin[br]
 J'ai envie d'aller jouer dehors ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Vieil homme
+<sn:pointer id="21">Vieil homme[br]
 Oh oui, c'est sûr que c'est tranquille[speed][0xa]...[speed][0x0] Je deviendrais sénile sinon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Vieille femme
+<sn:pointer id="22">Vieille femme[br]
 J'espère que la paix reviendra bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Sutea le mercenaire
+<sn:pointer id="23">Sutea le mercenaire[br]
 Avec Ralph, on se bat ensemble.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Ralph le mercenaire
+<sn:pointer id="24">Ralph le mercenaire[br]
 Sutea est mon frère d'armes. Quand on est tous les deux, aucun monstre ne nous résiste.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Chevalier
+<sn:pointer id="25">Chevalier[br]
 Vous n'avez pas appris de techniques de combat ? Vous devriez, elles sont très utiles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Barman
+<sn:pointer id="26">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Kikurin
+<sn:pointer id="27">Kikurin[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Judy
+<sn:pointer id="28">Judy[br]
 Détendez-vous et passez une bonne nuit.[page]
 [end]</sn:pointer>
 
@@ -118,11 +118,11 @@ Détendez-vous et passez une bonne nuit.[page]
 <sn:pointer id="30">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Judy
+<sn:pointer id="31">Judy[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Judy
+<sn:pointer id="32">Judy[br]
 Bienvenue.
 C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
 [end]</sn:pointer>
@@ -134,42 +134,42 @@ C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
 
 <sn:pointer id="35">[end]</sn:pointer>
 
-<sn:pointer id="36">Lucio
+<sn:pointer id="36">Lucio[br]
 Arrêtez d'embêter [nick:ミリー], pigé ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Lucio
+<sn:pointer id="37">Lucio[br]
 [nick:ミリー], s'ils recommencent, n'hésite pas à venir me voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Lucio
+<sn:pointer id="38">Lucio[br]
 Souhaitez-vous une chambre ? Notre auberge est la meilleure du monde ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Etudiant
+<sn:pointer id="39">Etudiant[br]
 Je fais des recherches sur ce qu'on appelle le pacte psychique que les anciens auraient fait.[page]
-Etudiant
+Etudiant[br]
 Il y a encore beaucoup de détails à vérifier, mais il semblerait qu'ils aient conclu un accord avec un démon légendaire... Le genre d'accord où vos souhaits sont échangés contre votre âme. Il semblerait que ce soit quelque chose comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ミリー]
+<sn:pointer id="40">[nick:ミリー][br]
 Hey ! Mais qu'est-ce que tu fabriques ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Lucio
+<sn:pointer id="41">Lucio[br]
 Ça te regarde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ミリー]
+<sn:pointer id="42">[nick:ミリー][br]
 Tu ne devrais pas faire ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Lucio
+<sn:pointer id="43">Lucio[br]
 C'est bon. Qu'est-ce que tu es devenue crétine.
 Aucune de tes lettres ne sera remise à son destinataire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ミリー]
+<sn:pointer id="44">[nick:ミリー][br]
 Fous-moi la paix ![page]
 [end]</sn:pointer>
 
@@ -180,134 +180,134 @@ Est-ce que tout va bien pour toi, [nick:ラティ] ? Je ne compte plus les jours
 J'espère te revoir bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ミリー]
+<sn:pointer id="46">[nick:ミリー][br]
 Tu me manques[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Lucio
+<sn:pointer id="47">Lucio[br]
 [nick:ミリー], tu pleures ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ミリー]
+<sn:pointer id="48">[nick:ミリー][br]
 Non, c'est pas ce que tu crois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ミリー]
+<sn:pointer id="49">[nick:ミリー][br]
 Tout est de TA faute [speed][0xa]!!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ミリー]
+<sn:pointer id="50">[nick:ミリー][br]
 [nick:ラティ] !![speed][0x1e][speed][0x0] Espèce de crétin !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ミリー]
+<sn:pointer id="51">[nick:ミリー][br]
 Merci m'dame pour tout ce que vous avez fait pour moi.[page]
-Judy
+Judy[br]
 Pas besoin de me remercier. Ça m'a fait plaisir de vous aider. Dans un sens, c'est un peu comme si vous étiez devenue ma fille.[page]
-[nick:ミリー]
+[nick:ミリー][br]
 M'dame[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Judy
+<sn:pointer id="52">Judy[br]
 Viens, Lucio. Tu ne veux pas lui dire adieu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">Judy
+<sn:pointer id="53">Judy[br]
 Quelle tête de mule quand il s'y met[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
 <sn:pointer id="54">Pardon,[nick:ミリー].[page]
-[nick:ミリー]
+[nick:ミリー][br]
 T'inquiète, c'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]
+<sn:pointer id="55">[nick:ミリー][br]
 Mes amis sont venus me chercher. Je dois partir à présent. Prends soin de toi, Lucio.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">Lucio
+<sn:pointer id="56">Lucio[br]
 [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Lucio
+<sn:pointer id="57">Lucio[br]
 Tu pars pour de vrai ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Oui[speed][0xa]...[speed][0x0] Il le faut vraiment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Lucio
+<sn:pointer id="58">Lucio[br]
 [speed][0x1]Non...[speed][0x0][nick:ミリー], reste.[end]</sn:pointer>
 
 <sn:pointer id="59">[speed][0xa]...[speed][0x0] Je[speed][0xa]... Je[speed][0x0]... !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ミリー]
+<sn:pointer id="60">[nick:ミリー][br]
 Ne pleure pas, Lucio[speed][0xa]...[speed][0x0] Où est passé le Lucio toujours heureux et plein d'entrain ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Judy
+<sn:pointer id="61">Judy[br]
 Lucio, tu es un homme, reprends-toi ! Dans cette situation, tu devrais lui dire adieu avec le sourire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">Lucio
+<sn:pointer id="62">Lucio[br]
 Je sais, je sais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Lucio
+<sn:pointer id="63">Lucio[br]
 [speed][0xa]...[speed][0x0]
 Fais attention à toi, [nick:ミリー]. Et reviens nous voir de temps en temps.[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Oui, bien sûr. Et on jouera tous les deux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ミリー]
+<sn:pointer id="64">[nick:ミリー][br]
 Adieu[speed][0xa]...[speed][0x0][page]
-Lucio
+Lucio[br]
 Au revoir[speed][0xa],[speed][0x0] [nick:ミリー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ロニキス]
+<sn:pointer id="65">[nick:ロニキス][br]
 Ça me donne envie de ne rien faire quand il caille comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:イリア]
+<sn:pointer id="66">[nick:イリア][br]
 [nick:ラティ], tu veux un peu de thé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]
+<sn:pointer id="67">[nick:シウス][br]
 [nick:ラティ][speed][0xa],[speed][0x0] ça va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス]
+<sn:pointer id="68">[nick:シウス][br]
 Bon sang, ma lame va finir par rouiller à rester dans un coin comme ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:フィア]
+<sn:pointer id="69">[nick:フィア][br]
 Ça[speed][0x8]...[speed][0x0] Ça serait pas bizarre si on partait tous les deux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:フィア]
+<sn:pointer id="70">[nick:フィア][br]
 Il ne faudrait pas trop dépenser d'argent pour des armes dans un endroit si froid.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ミリー]
+<sn:pointer id="71">[nick:ミリー][br]
 Bonjour, M'dame ! Ça fait plaisir de vous revoir ![page]
-Judy
+Judy[br]
 Ma parole, c'est [nick:ミリー] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ミリー]
+<sn:pointer id="72">[nick:ミリー][br]
 Tu as été sage ? Tu n'as pas causé d'ennuis à ta mère ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">Lucio
+<sn:pointer id="73">Lucio[br]
 Quoi ?! Tu sais bien que je ne suis pas comme ça ![end]</sn:pointer>
 
 <sn:pointer id="74">Alors, [nick:ミリー], tout s'est bien passé lors de ton voyage ? Tu peux revenir ici quand tu veux.[page]
-[nick:ミリー]
+[nick:ミリー][br]
 Hihi, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ミリー]
+<sn:pointer id="75">[nick:ミリー][br]
 Oh, [nick:ラティ]. Je vais rester ici à discuter un moment.[page]
 [end]</sn:pointer>
 

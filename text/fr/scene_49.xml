@@ -3,78 +3,78 @@
 <sn:pointer id="0">[pos][0x0][0x50]Château de Moore[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Chancelier
+<sn:pointer id="1">Chancelier[br]
 Je vais reprendre les armes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Chancelier Bolc
+<sn:pointer id="2">Chancelier Bolc[br]
 La vérité est que le château de Moore fait face à une grave crise[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]C'est à dire ?[page]
-Chancelier Bolc
+Chancelier Bolc[br]
 Des monstres ont surgi de la salle du trésor.
 On ne sait pas comment les arrêter.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pigé... On s'en occupe ![page]
-Chancelier Bolc
+Chancelier Bolc[br]
 Merci ! Par contre, pourriez-vous ramener les objets que vous trouverez dans la salle du trésor, quand vous aurez fini, s'il vous plaît ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]
+<sn:pointer id="3">[nick:イリア][br]
 (C'était sûr qu'ils ne les nous auraient pas laissés[speed][0xa]...[speed][0x0])[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Chancelier Bolc
+<sn:pointer id="4">Chancelier Bolc[br]
 Très bien. Je vais vous montrer le chemin.
 Suivez-moi, s'il vous plaît.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Roi de Moore
+<sn:pointer id="5">Roi de Moore[br]
 Ah ! Enfin les voilà ! Pas trop tôt ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Roi
+<sn:pointer id="6">Roi[br]
 Chancelier, veuillez éloigner les gardes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Chancelier
+<sn:pointer id="7">Chancelier[br]
 Oui, Votre Altesse ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Roi de Moore
+<sn:pointer id="8">Roi de Moore[br]
 Prenez ça. J'attends de bonnes nouvelles...[page]
 [color][0x6]Emblème de Moore[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Roi de Moore
+<sn:pointer id="9">Roi de Moore[br]
 J'espère que vous vaincrez Asmodeus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Chancelier
+<sn:pointer id="10">Chancelier[br]
 Nous prierons pour votre réussite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Reine
+<sn:pointer id="11">Reine[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Garde royal
+<sn:pointer id="12">Garde royal[br]
 Il est de mon devoir de protéger le roi, même au péril de ma vie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Garde royal
+<sn:pointer id="13">Garde royal[br]
 J'ai dédié ma vie au roi et à la reine ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Servante
+<sn:pointer id="14">Servante[br]
 La salle du trésor est dans le sous-sol du château.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Servante
+<sn:pointer id="15">Servante[br]
 Ne courrez pas dans les couloirs, ça soulève la poussière ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Garde
+<sn:pointer id="16">Garde[br]
 J'arrive pas à y croire !
 Des monstres sont apparus dans la salle du trésor[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -84,41 +84,41 @@ Notre seul ennemi est le monde démoniaque, mais si nous éliminons Asmodeus, qu
 De la couture ? Du macramé ??[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Sage Grace
+<sn:pointer id="18">Sage Grace[br]
 Une rumeur raconte que le mont Metox cacherait d'anciennes ruines, mais on n'en a aucune preuve...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Chef cuistot du Palais
+<sn:pointer id="19">Chef cuistot du Palais[br]
 Quand tu as le savoir et la technique, ça va tout seul !
 Pour un chef, le plus important est le sens gustatif.
 Si tu as le don pour marier les saveurs, tu peux faire fondre les gens de bonheur ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Garde aimant les animaux
+<sn:pointer id="20">Garde aimant les animaux[br]
 Ne le dites à personne, mais je garde un animal dans ma chambre. Ne soyez pas surpris si vous le voyez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Garde
+<sn:pointer id="21">Garde[br]
 C'est la salle d'audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Garde
+<sn:pointer id="22">Garde[br]
 C'est la salle du trésor.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Chancelier Bolc
+<sn:pointer id="23">Chancelier Bolc[br]
 C'est ici. Les monstres y sont très dangereux, mais vous trouverez de quoi vous équiper dans la salle du trésor.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Chancelier Bolc
+<sn:pointer id="24">Chancelier Bolc[br]
 Merci de nous avoir débarrassés de ces créatures !
 Voilà votre récompense.[page]
 [color][0x5]20000[color][0x2] Fol reçus.
 50 SP obtenus.[page]
 [color][0x6][item][0x14][0x2c][color][0x2] obtenu.[page]
-Chancelier Bolc
+Chancelier Bolc[br]
 Je vais reprendre l'équipement.[page]
-Chancelier Bolc
+Chancelier Bolc[br]
 Vous êtes attendus dans la salle d'audience.[page]
 [end]</sn:pointer>
 

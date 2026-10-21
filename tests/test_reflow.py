@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from tools.reflow import FONT, WINDOW_WIDTH, DialogLayout
+from tools.reflow import BREAK, FONT, WINDOW_WIDTH, DialogLayout
 
 pytestmark = pytest.mark.skipif(not FONT.exists(), reason="font not built (python -m tools.patch)")
 
@@ -29,8 +29,12 @@ def test_long_page_fits_window(layout: DialogLayout) -> None:
     assert not layout.overflows(out)
 
 
-def test_speaker_label_stays_alone(layout: DialogLayout) -> None:
-    assert layout.page(f"[nick:ドーン]\n{LONG}").split("\n")[0] == "[nick:ドーン]"
+def test_speaker_line_stays_alone(layout: DialogLayout) -> None:
+    assert layout.page(f"Mère de [nick:ドーン]{BREAK}{LONG}").split("\n")[0] == "Mère de [nick:ドーン]"
+
+
+def test_unmarked_first_line_is_reflowed(layout: DialogLayout) -> None:
+    assert layout.page(f"Il est écrit\n{LONG}").split("\n")[0] != "Il est écrit"
 
 
 def test_tags_and_end_kept(layout: DialogLayout) -> None:

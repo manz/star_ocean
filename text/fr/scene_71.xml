@@ -21,27 +21,27 @@
 <sn:pointer id="6">[pos][0x5c][0x0]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Homme
+<sn:pointer id="7">Homme[br]
 J'me demande si la marée est pour bientôt[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Vieillard
+<sn:pointer id="8">Vieillard[br]
 Si vous voulez de bonnes armes, mieux vaut aller à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Femme
+<sn:pointer id="9">Femme[br]
 Comme la guerre avec les monstres fait de plus en plus rage, la population du village décroît dangereusement[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Femme
+<sn:pointer id="10">Femme[br]
 Si vous continuez au nord, vous arriverez à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Vieil homme
+<sn:pointer id="11">Vieil homme[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Vieil homme
+<sn:pointer id="12">Vieil homme[br]
 Bienvenue.
 Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous rester ?[page]
@@ -54,15 +54,15 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="15">[end]</sn:pointer>
 
-<sn:pointer id="16">Temujin l'épicier
+<sn:pointer id="16">Temujin l'épicier[br]
 Soyez les bienvenus ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Barman
+<sn:pointer id="17">Barman[br]
 Bonjour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Mère de Lemia
+<sn:pointer id="18">Mère de Lemia[br]
 Ma fille fait les plus beaux bonhommes de neige de la région ![page]
 [end]</sn:pointer>
 

@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ペリシー]
+<sn:pointer id="0">[nick:ペリシー][br]
 On n'a pas fouillé partout!
 Il faut chercher encore![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ペリシー]
+<sn:pointer id="1">[nick:ペリシー][br]
 Hein ? Mon ami dort dans le coin, mais maintenant, il est[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 A[speed][0xa]-[speed][0x0]ami ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ペリシー]
+<sn:pointer id="2">[nick:ペリシー][br]
 Ouais.[end]</sn:pointer>
 
 <sn:pointer id="3">C'est un mini-mignon lapinounet d'amourichou !
 Il est énorme, aussi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]
+<sn:pointer id="4">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]M[speed][0xa]-[speed][0x0]mini-mignon ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]
+<sn:pointer id="5">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0][speed][0xa][speed][0x0]Énorme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]
+<sn:pointer id="6">[nick:ラティ][br]
 Je suis presque sûr d'avoir déjà vu une statue qui ressemble à ça...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ペリシー]
+<sn:pointer id="7">[nick:ペリシー][br]
 Bingo ! Il ressemble à une statue quand il dort !
 Où est-ce que tu l'as vu ? Il faut y aller ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ]
+<sn:pointer id="8">[nick:ラティ][br]
 J'sais pas...[page]
-[nick:ペリシー]
+[nick:ペリシー][br]
 Oh[speed][0xa]...[speed][0x0] Je sais ! Peut-être que quelqu'un l'a vendu dans une boutique ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ?[page]
-[nick:ペリシー]
+[nick:ペリシー][br]
 Il ressemble à une statue quand il dort ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Succube
+<sn:pointer id="9">Succube[br]
 Que voulez-vous VOUS ? J'ai décidé que tous les trésors seraient miens !
 Maintenant, soyez de bons petits gars et de gentilles petites filles et allez avertir le roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Succube
+<sn:pointer id="10">Succube[br]
 Oubliez ça, j'ai changé d'avis...
 Il est temps pour vous de mourir !![page]
 [end]</sn:pointer>
@@ -107,7 +107,7 @@ Il est temps pour vous de mourir !![page]
 <sn:pointer id="26">[color][0x6][item][0x31][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ]
+<sn:pointer id="27">[nick:ラティ][br]
 Ce ne serait pas une bonne idée de prendre ça.[page]
 [end]</sn:pointer>
 

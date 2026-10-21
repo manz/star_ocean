@@ -24,15 +24,15 @@
 <sn:pointer id="7">[pos][0x44][0x0]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Aubergiste
+<sn:pointer id="8">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Aubergiste
+<sn:pointer id="9">Aubergiste[br]
 Bienvenue. Vous n'avez pas assez d'argent sur vous ? Aucun problème, je vous offre la nuit pour cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Aubergiste
+<sn:pointer id="10">Aubergiste[br]
 Bienvenue. C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 [end]</sn:pointer>
 
@@ -46,67 +46,67 @@ Bienvenue. C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 
 <sn:pointer id="14">[end]</sn:pointer>
 
-<sn:pointer id="15">Garde borgne
+<sn:pointer id="15">Garde borgne[br]
 Je suis finalement rentré de [color][0x4]Sylvalant[color][0x2] mais ça m'a coûté toute ma monnaie et j'y ai laissé un œil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Worus le garde
+<sn:pointer id="16">Worus le garde[br]
 Tout le monde parle de la cavalerie d'Astral, la plus puissante unité de tout le continent. Mais pour être honnête, qui s'attendrait à ce qu'on parle de types comme moi à la place ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Vieille femme
+<sn:pointer id="17">Vieille femme[br]
 L'alchimie et toutes ces fariboles ne sont que des bondieuseries. Sincèrement, je trouve difficile à croire que tout ça soit vraiment possible.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Vieil homme
+<sn:pointer id="18">Vieil homme[br]
 C'est capital de faire des efforts pour réussir dans la vie au lieu de se morfondre et de geindre, car vous n'avez pas de talent. Plus vous persévérerez dans vos efforts, plus vous serez récompensé ! Ne l'oubliez pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vendeur
+<sn:pointer id="19">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Jeune chevalier
+<sn:pointer id="20">Jeune chevalier[br]
 Si vous cherchez une bonne épée, vous devriez aller voir un bon forgeron.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Femme chevalier
+<sn:pointer id="21">Femme chevalier[br]
 Il parait qu'une femme est capitaine de la cavalerie d'Astral. Elle serait la fille de Ryas, le commandant de la cavalerie. Je l'envie tellement ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:シウス]
+<sn:pointer id="22">[nick:シウス][br]
 [speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
-[nick:シウス]
+[nick:シウス][br]
 Rien, je t'assure[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[end]</sn:pointer>
 
-<sn:pointer id="24">Femme chevalier
+<sn:pointer id="24">Femme chevalier[br]
 Hey ! C'est vous qui avez combattu aux côtés de Ryas lors de la guerre contre le monde démoniaque[speed][0xa]... ![speed][0x0][page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 À la mémoire d'une époque révolue qu'il est préférable d'oublier. Vous seriez gentil de vous abstenir de faire revivre les souvenirs endormis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Vendeur
+<sn:pointer id="25">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Vendeur
+<sn:pointer id="26">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Aventurier
+<sn:pointer id="27">Aventurier[br]
 Je voudrais aller apprendre le style de combat d'Edarl, mais je ne sais pas s'ils m'accepteront[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Clochard
+<sn:pointer id="28">Clochard[br]
 Il parait que le commandant de la cavalerie d'Astral est plus que compétent pour remplir sa fonction.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Maître de la guilde
+<sn:pointer id="29">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
@@ -118,23 +118,23 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="31">[end]</sn:pointer>
 
-<sn:pointer id="32">Maître de la guilde
+<sn:pointer id="32">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Maître de la guilde
+<sn:pointer id="33">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Maître de la guilde
+<sn:pointer id="34">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Conseiller
+<sn:pointer id="35">Conseiller[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Conseiller
+<sn:pointer id="36">Conseiller[br]
 Vous est-il déjà arrivé d'avoir besoin d'une commande de spécialité introuvable pour apprendre un savoir ?[page]
 Je vous conseille de continuer d'aller de ville en ville et de vous offrir toutes les compétences que vous m'avez pas.[page]
 Vous trouvez ça trop évident et paternaliste ? Pourquoi ne pas parler d'Obstination, un de mes savoirs préférés ?[page]
@@ -143,7 +143,7 @@ Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vo
 
 <sn:pointer id="37">[end]</sn:pointer>
 
-<sn:pointer id="38">Mentor
+<sn:pointer id="38">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
@@ -153,37 +153,37 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Mentor
+<sn:pointer id="40">Mentor[br]
 Connaissance niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Mentor
+<sn:pointer id="41">Mentor[br]
 Connaissance niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">Mentor
+<sn:pointer id="42">Mentor[br]
 Technique niveau 2 comprend :
 Doigté, écriture et domptage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Mentor
+<sn:pointer id="43">Mentor[br]
 Combat niveau 1 comprend :
 Onde de choc, impact aérien et volte face.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:フィア]
+<sn:pointer id="45">[nick:フィア][br]
 Dis, [nick:ラティ][speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Qu'est-ce qu'il y a ? T'as pas l'air d'aller.[page]
-[nick:フィア]
+[nick:フィア][br]
 J'ai l'impression que tu me vois uniquement comme quelqu'un qui fait tout foirer tout le temps.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Mais non, pas du tout ![page]
-[nick:フィア]
+[nick:フィア][br]
 Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Je pense aussi que s'il était là, il n'aimerait pas me voir dans cet état[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -191,98 +191,98 @@ Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Je
 2. La laisser seule[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]
+<sn:pointer id="47">[nick:ラティ][br]
 Le monde paraît souvent ainsi quand ça va mal. Courage, c'est pas bon quand tu te bats d'avoir la tête ailleurs, tu sais ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Oui[speed][0xa]...[speed][0x0] Tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア]
+<sn:pointer id="48">[nick:フィア][br]
 Hmmm, [nick:ラティ][speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Courage[speed][0xa]...[speed][0x0][page]
-[nick:フィア]
+[nick:フィア][br]
 Peux-tu me laisser seule un moment [speed][0xa]?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア]
+<sn:pointer id="49">[nick:フィア][br]
 [nick:ラティ]...[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Non, non. C'est rien, c'est passager.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ラティ]
+<sn:pointer id="50">[nick:ラティ][br]
 Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Hmmm ? Oh, oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア]
+<sn:pointer id="51">[nick:フィア][br]
 J'étais orpheline. Ryas m'a emmenée chez lui quand j'étais toute petite.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ryas... Le père de [nick:シウス] ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Oui. Je suis en quelque sorte sa petite sœur. Mais je me demande parfois qui est l'ainé, surtout au regard de la façon dont il se comporte ces derniers temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ]
+<sn:pointer id="52">[nick:ラティ][br]
 Puis-je te poser une question ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Dis voir ?[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Pourquoi [nick:シウス] voyage-t-il ? Il n'était pas tout à fait lui même quand nous sommes allés à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]
+<sn:pointer id="53">[nick:ラティ][br]
 Qu'est-ce que tu trouves drôle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:フィア]
+<sn:pointer id="54">[nick:フィア][br]
 Rien, rien du tout. J'éviterais de lui poser cette question si j'étais toi. C'est quelqu'un de très timide.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア]
+<sn:pointer id="55">[nick:フィア][br]
 [nick:ラティ]...[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Non, non. C'est rien, c'est passager.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Hmmm ? Oh, oui. C'est vrai que vous vous connaissez.
 [nick:ラティ]
 Oui, un peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:フィア]
+<sn:pointer id="57">[nick:フィア][br]
 J'étais orpheline. Ryas m'a emmenée chez lui quand j'étais toute petite.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Ryas... Le père de [nick:シウス] ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Oui. Je suis en quelque sorte sa petite sœur. On a toujours été ensemble depuis qu'on est gamins, mais[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Mais ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Ce qu'il a fait a beaucoup attristé Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:フィア]
+<sn:pointer id="58">[nick:フィア][br]
 Ryas a vu le talent de [nick:シウス] et l'a recommandé pour un poste de capitaine. Mais quand ça s'est su, personne n'a voulu de lui. Il a fini par fuir pour ne plus entendre ces fausses accusations.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:シウス] s'est enfui ?[page]
-[nick:フィア]
+[nick:フィア][br]
 Je n'en suis pas totalement certaine, mais c'est la version la plus plausible de tout ce que j'ai pu entendre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:フィア]
+<sn:pointer id="59">[nick:フィア][br]
 Si seulement il avait plus confiance en lui, il aurait été un bon capitaine. Mais après ce qu'il s'est passé, il n'a même plus confiance en son père[speed][0xa]...[speed][0x0][page]
-[nick:ラティ]
+[nick:ラティ][br]
 Oh, je vois[speed][0xa]...[speed][0x0] Désolé de t'avoir importunée avec ça.[page]
-[nick:フィア]
+[nick:フィア][br]
 T'inquiète, ça va.[page]
 [end]</sn:pointer>
 

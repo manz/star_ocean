@@ -3,75 +3,75 @@
 <sn:pointer id="0">[pos][0x48][0x0]Tatroï[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Ce n'est pas une bonne idée de partir tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:フィア]
+<sn:pointer id="2">[nick:フィア][br]
 Je ne peux pas aller à [color][0x4]Astral[color][0x2], alors j'attendrai ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]
+<sn:pointer id="3">[nick:ラティ][br]
 Oh non, on a oublié [nick:フィア] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]
+<sn:pointer id="4">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]
+<sn:pointer id="5">[nick:イリア][br]
 Qu'est-ce que c'est ?[page]
-Garde
+Garde[br]
 Le plus grand espace de loisir de tout le royaume d'Astral, l'arène de Tatroï. Les combattants les plus expérimentés en quête de gloire et de fortune viennent affronter des monstres à un contre un.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Mercenaire Toku
+<sn:pointer id="6">Mercenaire Toku[br]
 Je connais tous les gens du métier. [nick:アシュレイ] est le plus célèbre et le plus talentueux de ceux qui manient l'épée selon le style d'Edarl.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Mercenaire Toku
+<sn:pointer id="7">Mercenaire Toku[br]
 Connaissez-vous le nom du roi du monde démoniaque ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[end]</sn:pointer>
 
-<sn:pointer id="9">Mercenaire Toku
+<sn:pointer id="9">Mercenaire Toku[br]
 Asmo[speed][0xa]...[speed][0x0] Un truc comme ça. C'était quoi déjà ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Enfant
+<sn:pointer id="10">Enfant[br]
 Dis, pourquoi les anciens sont morts avant que je sois né  ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Chevalier
+<sn:pointer id="11">Chevalier[br]
 Il parait que Sir [nick:アシュレイ] s'est infiltré dans [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Chevalier
+<sn:pointer id="12">Chevalier[br]
 [color][0x4]Tatroï[color][0x2] est mondialement réputé pour son arène. Il n'existe aucune restriction pour l'usage de la magie, alors c'est un bon endroit pour trainer si on veut aller s'entrainer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Adolescent
+<sn:pointer id="13">Adolescent[br]
 Le [color][0x4]château d'Astral[color][0x2] est au sommet d'une montagne, et le seul moyen d'y entrer ou d'en sortir est en vaisseau cargo ou par la grotte vraiment dangereuse. Cet endroit est vraiment une forteresse imprenable.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Garde
+<sn:pointer id="14">Garde[br]
 Le plus grand espace de loisir de tout le royaume d'Astral, l'arène de Tatroï. Les combattants les plus expérimentés en quête de gloire et de fortune viennent affronter des monstres à un contre un.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Aventurier
+<sn:pointer id="15">Aventurier[br]
 La [color][0x4]grotte d'Astral[color][0x2] regorge de pierres précieuses. On les trouve dans des filons.  Vous m'écoutez quand je vous parle ? Bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Puffy
+<sn:pointer id="16">Puffy[br]
 .....[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Puffy
+<sn:pointer id="17">Puffy[br]
 J'ai plus du tout envie de jouer avec toi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Puffy
+<sn:pointer id="18">Puffy[br]
 T'as envie de jouer à un truc cool avec moi [speed][0xa]?[speed][0x0] C'est [color][0x5]600[color][0x2] la partie.[page]
 [end]</sn:pointer>
 
@@ -82,7 +82,7 @@ T'as envie de jouer à un truc cool avec moi [speed][0xa]?[speed][0x0] C'est [co
 
 <sn:pointer id="21">[end]</sn:pointer>
 
-<sn:pointer id="22">Puffy
+<sn:pointer id="22">Puffy[br]
 Bon, maintenant, ferme les yeux [speed][0x14]♥[speed][0x0] Voyons[speed][0xa]...[speed][0x0] Vous êtes maintenant dans une grotte. La galerie se divise en deux. Quelle direction tu choisis ?[page]
 [end]</sn:pointer>
 
@@ -93,17 +93,17 @@ Bon, maintenant, ferme les yeux [speed][0x14]♥[speed][0x0] Voyons[speed][0xa].
 
 <sn:pointer id="24">[end]</sn:pointer>
 
-<sn:pointer id="25">Puffy
+<sn:pointer id="25">Puffy[br]
 Hi !! Un piège !!
 C'est un gouffre !!
 Tu es tombé [speed][0x14]♪[speed][0x0] C'est fini ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Puffy
+<sn:pointer id="26">Puffy[br]
 Pas de chance, la partie est terminée. Reviens me voir si tu as le temps ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Puffy
+<sn:pointer id="27">Puffy[br]
 Hiii !!! Il y a à tes pieds un abominable cadavre mutilé baignant dans son sang ! Si c'est moi qui étais dans la grotte, je tomberais dans les pommes de voir ça ! Quoi qu'il en soit, que fais-tu maintenant ?[page]
 [end]</sn:pointer>
 
@@ -112,7 +112,7 @@ Hiii !!! Il y a à tes pieds un abominable cadavre mutilé baignant dans son san
 3. L'ignorer et continuer[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Puffy
+<sn:pointer id="29">Puffy[br]
 Sérieusement [speed][0xf]?[speed][0x0] Tu en es sûr [speed][0xf]?[speed][0x0] Tu veux VRAIMENT faire ça ?[page]
 [end]</sn:pointer>
 
@@ -121,27 +121,27 @@ Sérieusement [speed][0xf]?[speed][0x0] Tu en es sûr [speed][0xf]?[speed][0x0] 
 3. Prier pour son âme[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Puffy
+<sn:pointer id="31">Puffy[br]
 Gnnn[speed][0xf],[speed][0x0] comme tu voudras.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Puffy
+<sn:pointer id="32">Puffy[br]
 Au moment d'examiner le corps mutilé[speed][0xa]...[speed][0x0] Whaaa !!! Vous trouvez un [color][0x6]Flambotov[color][0x2] et 120 Fol !! [speed][0x14][speed][0x0] Bravo ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]
+<sn:pointer id="33">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">Objet reçu : [color][0x6]Flambotov[color][0x2] x 1[page]
 Objet reçu : [color][0x5]120 Fol[color][0x2][page]
-Puffy
+Puffy[br]
 Bon, et maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Puffy
+<sn:pointer id="35">Puffy[br]
 Vous examinez le corps mutilé, mais ne trouvez rien.[page]
-Puffy
+Puffy[br]
 Bon, et maintenant ?[page]
 [end]</sn:pointer>
 
@@ -149,23 +149,23 @@ Bon, et maintenant ?[page]
 2. Prier pour son âme[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Puffy
+<sn:pointer id="37">Puffy[br]
 C'est bon ! Fais pas la tronche ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Puffy
+<sn:pointer id="38">Puffy[br]
 Tu plaisantes, j'espère. Tu ne peux pas prier au nom de Buddah après avoir toi-même commis un larcin. On continue maintenant, que ça te plaise ou non.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[end]</sn:pointer>
 
-<sn:pointer id="40">Puffy
+<sn:pointer id="40">Puffy[br]
 Tu fais VRAIMENT ça dans la vie réelle ? Ou tu n'es qu'un [speed][0x5]hypocrite[speed][0x0]? Quoi qu'il en soit, tu as fait ta prière. Aum. On continue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[end]</sn:pointer>
 
-<sn:pointer id="42">Puffy
+<sn:pointer id="42">Puffy[br]
 Oh non !! Une chimère a surgi des ténèbres !! Tu n'es qu'au niveau un, tu ne devrais pas[speed][0xa]...[speed][0x0] Non, c'est impossible que tu puisses remporter la victoire.
 Qu'est-ce que tu fais maintenant ? ♪ Si tu veux l'affronter, il faut que tu joues à pierre papier ciseaux contre moi.[page]
 [end]</sn:pointer>
@@ -177,55 +177,55 @@ Qu'est-ce que tu fais maintenant ? ♪ Si tu veux l'affronter, il faut que tu jo
 
 <sn:pointer id="44">[end]</sn:pointer>
 
-<sn:pointer id="45">Puffy
+<sn:pointer id="45">Puffy[br]
 Sage décision.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Puffy
+<sn:pointer id="46">Puffy[br]
 Tu lances un [color][0x6]Flambotov[color][0x2] et fais fuir la chimère !![speed][0x14][speed][0x0] Bon, je prends un [color][0x6]Flambotov[color][0x2] dans ton inventaire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]
+<sn:pointer id="47">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">Objet perdu : [color][0x6]Flambotov[color][0x2] x 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">Puffy
+<sn:pointer id="49">Puffy[br]
 T'en as plus. Fais un autre choix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Puffy
+<sn:pointer id="50">Puffy[br]
 Voyons... Après avoir terrassé la chimère, tu as trouvé un [color][0x6]Fusixir[color][0x2] ![page]
 Objet reçu : [color][0x6]Fusixir[color][0x2] x 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Puffy
+<sn:pointer id="51">Puffy[br]
 Cours sur place.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Puffy
+<sn:pointer id="52">Puffy[br]
 Vas-y, cours. C'est juste de l'imagination après tout, tu pourrais au moins faire l'effort de rendre ça plus réel.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]
+<sn:pointer id="53">[nick:ラティ][br]
 D'accord[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]
+<sn:pointer id="54">[nick:ラティ][br]
 [speed][0x2]*pff* *pff*[speed][0xa][speed][0x0]C'est[speed][0x5]...[speed][0x0] C'est bon comme ça ?[page]
-Puffy
+Puffy[br]
 Je pense[speed][0xa].[speed][0x0] Tu as réussi à échapper à l'ennemi, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">Puffy
+<sn:pointer id="55">Puffy[br]
 Oh non, on dirait bien que tu t'es perdu[speed][0xa]...[speed][0x0] Ouais[speed][0xa],[speed][0x0] complètement perdu !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">Puffy
+<sn:pointer id="56">Puffy[br]
 Waaah ! Tu vas vraiment combattre ? [speed][0xa]♪[speed][0x0] Ça ne te dérange pas si je t'appelle Don Quixote [speed][0xf] ?[speed][0x0] Ce sera donc à pierre-papier-ciseaux. Tu es prêt [speed][0x14]?[speed][0x0]Un, deux, trois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -234,40 +234,40 @@ Waaah ! Tu vas vraiment combattre ? [speed][0xa]♪[speed][0x0] Ça ne te déran
 3. Papier[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Puffy
+<sn:pointer id="58">Puffy[br]
 Pierre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">Puffy
+<sn:pointer id="59">Puffy[br]
 Ciseaux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Puffy
+<sn:pointer id="60">Puffy[br]
 Papier ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Puffy
+<sn:pointer id="61">Puffy[br]
 Égalité ! Encore une fois[speed][0xa]...[speed][0x0]
 Un... deux... trois ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">Puffy
+<sn:pointer id="62">Puffy[br]
 Whaa !! Tu as fait un coup critique et tu as vaincu la chimère ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Puffy
+<sn:pointer id="63">Puffy[br]
 Comme c'est dommage ! Tu t'es fait arracher ton bras droit, puis ta jambe gauche. Et maintenant ta main gauche ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">Puffy
+<sn:pointer id="64">Puffy[br]
 C'est fini ! Je n'arrive pas à t'en dire plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Puffy
+<sn:pointer id="65">Puffy[br]
 L'histoire est terminée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Puffy
+<sn:pointer id="66">Puffy[br]
 Parfait ! Tu es enfin arrivé devant Naos, le roi démon. Il rugit férocement et dit : ALORS LE MICROBE SANS CERVELLE EST VENU ME RENDRE UNE PETITE VISITE. TU DOIS AVOIR TELLEMENT DE MAL POUR ARRIVER JUSQU'ICI, C'EST BIEN DOMMAGE, CAR TON HEURE EST VENUE.
 Qu'est-ce que tu fais maintenant ?[page]
 [end]</sn:pointer>
@@ -277,21 +277,21 @@ Qu'est-ce que tu fais maintenant ?[page]
 3. Utiliser un objet[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">Puffy
+<sn:pointer id="68">Puffy[br]
 [nick:ラティ] a donné un coup d'épée à Naos !!
 Mais il ne lui fait aucun dommage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">Puffy
+<sn:pointer id="69">Puffy[br]
 Naos crache de grosses flammes brûlantes !!
 [nick:ラティ] encaisse 63 000 dégâts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">Puffy
+<sn:pointer id="70">Puffy[br]
 [nick:ラティ] est anéanti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">Puffy
+<sn:pointer id="71">Puffy[br]
 Bien vu. Que vas-tu utiliser ?[page]
 [end]</sn:pointer>
 
@@ -299,52 +299,52 @@ Bien vu. Que vas-tu utiliser ?[page]
 2. Flambotov+[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">Puffy
+<sn:pointer id="73">Puffy[br]
 [nick:ラティ] a bu un volontixir !!
 Furie augmente de 30 !![speed][0x14][speed][0x0][page]
 Bon ♪ Je retire un[color][0x6]volontixir[color][0x2] de ton inventaire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ラティ]
+<sn:pointer id="74">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="75">Objet perdu : [color][0x6]volontixir[color][0x2] x1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Puffy
+<sn:pointer id="76">Puffy[br]
 Naos attaque !
 Naos crache de grosses flammes brûlantes !!
 [nick:ラティ] encaisse 63 000 dégâts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">Puffy
+<sn:pointer id="77">Puffy[br]
 [nick:ラティ] est anéanti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">Puffy
+<sn:pointer id="78">Puffy[br]
 T'en as plus. Fais un autre choix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">Puffy
+<sn:pointer id="79">Puffy[br]
 [nick:ラティ] attaque !!
 [nick:ラティ] lance un [color][0x6]Flambotov+[color][0x2] sur Naos !! D'énormes flammes surgissent !!
 Naou encaisse 65 000 dégâts !!
 Naos est anéanti !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">Puffy
+<sn:pointer id="80">Puffy[br]
 T'en as plus. Fais un autre choix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">Puffy
+<sn:pointer id="81">Puffy[br]
 Tu as gagné ! Tu reçois 100 Exp et 600 Fol ! Tu as aussi trouvé un [color][0x6]sabre[color][0x2] ![page]
 100 points d'expérience reçus
 600 Fol reçus
 Objet reçu : [color][0x6]sabre[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">Puffy
+<sn:pointer id="82">Puffy[br]
 Par les culottes de ma grand mère ! Naos se relève et te supplie de l'aider. Veux-tu le soigner ?[page]
 [end]</sn:pointer>
 
@@ -353,19 +353,19 @@ Par les culottes de ma grand mère ! Naos se relève et te supplie de l'aider. V
 3. C'est pour de faux alors tu gardes tout[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">Puffy
+<sn:pointer id="84">Puffy[br]
 Après avoir mangé la [color][0x6]myrtille[color][0x2], Naos récupère ses forces et s'enfuit au loin[speed][0xa]...[speed][0x0] C'est fini.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">Puffy
+<sn:pointer id="85">Puffy[br]
 Naos expire son dernier souffle[speed][0xa]...[speed][0x0] C'est fini.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Puffy
+<sn:pointer id="86">Puffy[br]
 Hein ? Moi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Puffy
+<sn:pointer id="87">Puffy[br]
 D'accord, donne-moi un remède.[page]
 [end]</sn:pointer>
 
@@ -374,19 +374,19 @@ D'accord, donne-moi un remède.[page]
 3. Ne rien donner du tout[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">Puffy
+<sn:pointer id="89">Puffy[br]
 Dès que Naos a bu le remède[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">Puffy
+<sn:pointer id="90">Puffy[br]
 Ah !! Pouah ! Mais qu'est-ce que c'est ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">Puffy
+<sn:pointer id="91">Puffy[br]
 T'en as plus. Fais un autre choix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">Puffy
+<sn:pointer id="92">Puffy[br]
 Où veux-tu aller ? Tu te trouves face à quatre routes partant vers quatre directions différentes. Laquelle choisir ?[page]
 [end]</sn:pointer>
 
@@ -396,7 +396,7 @@ Où veux-tu aller ? Tu te trouves face à quatre routes partant vers quatre dire
 4. À droite[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">Puffy
+<sn:pointer id="94">Puffy[br]
 Hein ? Qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
@@ -406,29 +406,29 @@ Hein ? Qu'est-ce que c'est ?[page]
 <sn:pointer id="96">Objet reçu : [color][0x6]Rubis étoilé[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:ティニーク]
+<sn:pointer id="97">[nick:ティニーク][br]
 C'est cool le combat à mains nues, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[nick:アシュレイ]
+<sn:pointer id="98">[nick:アシュレイ][br]
 Quoi ? Virtualian ? Mais qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">Puffy
+<sn:pointer id="99">Puffy[br]
 Ahh ! Virtualian c'est un jeu de rôle oral ! Je pense que ça peut être difficile pour quelqu'un à qui le concept échappe, papy.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[nick:アシュレイ]
+<sn:pointer id="100">[nick:アシュレイ][br]
 P[speed][0xa]...[speed][0x0] Papy ??[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">[nick:アシュレイ]
+<sn:pointer id="101">[nick:アシュレイ][br]
 Quoi ?! Tu oses t'adresser à moi, célèbre héros de la guerre contre le monde démoniaque en m'appelant "papy" ?! Les jeunes filles d'aujourd'hui ne savent plus rien des bonnes manières.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">Puffy
+<sn:pointer id="102">Puffy[br]
 "Les jeunes filles d'aujourd'hui[speed][0xa]...[speed][0x0]" C'est exactement ce que dirait mon papy.[page]
-[nick:アシュレイ]
+[nick:アシュレイ][br]
 Pourquoi tu[speed][0xa]...[speed][0x0] ! ☆[page]
 [end]</sn:pointer>
 

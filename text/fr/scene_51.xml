@@ -3,137 +3,137 @@
 <sn:pointer id="0">[pos][0x30][0x0]Ville fortifiée de Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Hein ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Un avion en papier ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 Il y a un message...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]
+<sn:pointer id="3">[nick:イリア][br]
 Qu'est-ce que ça dit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア]
+<sn:pointer id="4">[nick:イリア][br]
 Hé,[nick:ラティ] !
 Attends ! Où vas-tu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス]
+<sn:pointer id="5">[nick:シウス][br]
 [nick:ラティ] a un problème ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:アシュレイ]
+<sn:pointer id="6">[nick:アシュレイ][br]
 Il a décampé sans demander son reste !
 Il faisait une drôle de tête[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]
+<sn:pointer id="7">[nick:ロニキス][br]
 Nous voudrions une audience auprès du roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Garde
+<sn:pointer id="8">Garde[br]
 Cet emblème est celui du royaume de Van[speed][0xa]...[speed][0x0]
 Attendez un instant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Chancelier
+<sn:pointer id="9">Chancelier[br]
 Veuillez me suivre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]
+<sn:pointer id="10">[nick:ラティ][br]
 [speed][0x1][nick:ミリー] ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ] &amp; [nick:ミリー]
+<sn:pointer id="11">[nick:ラティ] &amp; [nick:ミリー][br]
 Oh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ミリー]
+<sn:pointer id="12">[nick:ミリー][br]
 [nick:ラティ] ![page]
-[nick:ラティ]
+[nick:ラティ][br]
 [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Garde
+<sn:pointer id="13">Garde[br]
 Il fait sacrément froid[speed][0xa]...[speed][0x0]
 Bon sang, la météo ne s'améliore jamais ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Garde
+<sn:pointer id="14">Garde[br]
 Ouais, ça pèle un max ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Patrouilleur
+<sn:pointer id="15">Patrouilleur[br]
 Tout est calme[speed][0xa]...[speed][0x0]
 Incroyable ! Des étrangers ont réussi à venir jusqu'ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Patrouilleur
+<sn:pointer id="16">Patrouilleur[br]
 Les étrangers ont besoin d'un laissez-passer pour quitter la ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Patrouilleur
+<sn:pointer id="17">Patrouilleur[br]
 À quoi peut bien servir cet énorme sablier ?
 Je parie qu'il n'est pas là que
 pour donner l'heure ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Mercenaire robuste
+<sn:pointer id="18">Mercenaire robuste[br]
 Les monstres d'ici sont aussi
 agressifs que féroces.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vendeur
+<sn:pointer id="19">Vendeur[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Commerçant
+<sn:pointer id="20">Commerçant[br]
 Salut ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Fille
+<sn:pointer id="21">Fille[br]
 C'est la [color][0x4] ville fortifiée de Sylvalant[color][0x2], la cité des neiges ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Santa, camelot
+<sn:pointer id="22">Santa, camelot[br]
 J'ai quelques objets sympas,
 ça vous intéresse ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Soldat
+<sn:pointer id="23">Soldat[br]
 J'ai repéré un type étrange tout à l'heure,
 je me demande où il allait.
 Hé toi ! Sors de là ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:マーヴェル]
+<sn:pointer id="24">[nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ペリシー]
+<sn:pointer id="25">[nick:ペリシー][br]
 [speed][0xa]...[speed][0x0]Je déteste le froid !
 Ça abîme la peau et ça me gèle les papattes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー]
+<sn:pointer id="26">[nick:ミリー][br]
 [speed][0xa]...[speed][0x0]Ouais...[page]
-[nick:ラティ]
+[nick:ラティ][br]
 Qu'est-ce qui se passe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]
+<sn:pointer id="27">[nick:ミリー][br]
 Hein ? J'ai dû rêver.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ]
+<sn:pointer id="28">[nick:ラティ][br]
 Tu as vu quelque chose ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ]
+<sn:pointer id="29">[nick:アシュレイ][br]
 Non, c'est sûrement une réminiscence
 du passé.[page]
 [end]</sn:pointer>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]
+<sn:pointer id="0">[nick:イリア][br]
 Il y a des lettres gravées ici.[page]
 Le sang royal change les quatre commandements en chevaliers. Déposez avec respect leur casque dans l'ordre de leur destinée. La porte s'ouvre à ceux qui en font leur clé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]
+<sn:pointer id="1">[nick:ラティ][br]
 Qu'est-ce que ça signifie ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]
+<sn:pointer id="2">[nick:イリア][br]
 Des phrases transmises par le sang royal[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
 <sn:pointer id="3">Tu crois que c'est de ça dont ça parle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ロニキス]
+<sn:pointer id="4">[nick:ロニキス][br]
 Ce que nous a dit le roi d'Astral ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Oui.[page]
 [end]</sn:pointer>
 
@@ -25,27 +25,27 @@ Oui.[page]
 2. Je les sais[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]
+<sn:pointer id="6">[nick:ラティ][br]
 Sur votre sort vous ne devez pleurer.[page]
 Jusqu'au temps des générations futures.[page]
 Ayez courage.[page]
 Que votre résistance soit sans faille.[page]
 C'était ça, non[speed][0xa]...[speed][0x0] ?[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:イリア]
+<sn:pointer id="7">[nick:イリア][br]
 C'est une sorte de mot de passe. Ça dit qu'il faut prendre une lettre de chacune des phrases et les entrer dedans.[page]
-[nick:ラティ]
+[nick:ラティ][br]
 "Le sang royal change les quatre commandements en chevaliers."[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 "Déposez avec respect leur casque"[speed][0xa]...[speed][0x0][page]
-[nick:イリア]
+[nick:イリア][br]
 Ça dit aussi "dans l'ordre de leur destinée"[speed][0xa]...[speed][0x0] On doit mettre les lettres dans le bon ordre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]
+<sn:pointer id="8">[nick:イリア][br]
 Tu crois que c'est là qu'il faut entrer le mot de passe ?[page]
 [end]</sn:pointer>
 
@@ -60,31 +60,31 @@ Tu crois que c'est là qu'il faut entrer le mot de passe ?[page]
 
 <sn:pointer id="11">[mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ロニキス]
+<sn:pointer id="12">[nick:ロニキス][br]
 C'est ouvert ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]
+<sn:pointer id="13">[nick:イリア][br]
 [speed][0xa]J[speed][0x0].[speed][0xa]Q[speed][0x0].[speed][0xa]S[speed][0x0].[speed][0xa]A[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:イリア]
+<sn:pointer id="14">[nick:イリア][br]
 [speed][0x1]JQSA ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]
+<sn:pointer id="15">[nick:イリア][br]
 JQSA[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]
+<sn:pointer id="16">[nick:イリア][br]
 Mais pourquoi[speed][0xa] ?[speed][0x0] Ça ne veut rien dire du tout.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ロニキス]
+<sn:pointer id="17">[nick:ロニキス][br]
 [nick:イリア], calme toi. Ça ne sert à rien de s'énerver sur quelque chose qu'on ne comprend pas[speed][0xa]...[speed][0x0] Allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]
+<sn:pointer id="18">[nick:イリア][br]
 Oui, tu as raison. Et on risque d'en découvrir plus quand on sera à l'intérieur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -143,84 +143,84 @@ Oui, tu as raison. Et on risque d'en découvrir plus quand on sera à l'intérie
 
 <sn:pointer id="43">A[end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ]
+<sn:pointer id="44">[nick:ラティ][br]
 Qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ロニキス]
+<sn:pointer id="45">[nick:ロニキス][br]
 Un hologramme [speed][0xa]?[speed][0x0] Hé, mais[speed][0xa]...[speed][0x0]C'est[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:イリア]
+<sn:pointer id="46">[nick:イリア][br]
 C'est une carte de la Terre[speed][0xa]...[speed][0x0] Tu connais cette grosse île au milieu du pacifique ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ロニキス]
+<sn:pointer id="47">[nick:ロニキス][br]
 Ça ne me dit rien. Je ne l'ai jamais vue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:イリア]
+<sn:pointer id="48">[nick:イリア][br]
 Un instant. Dans les légendes, il y AVAIT une île à cet endroit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:イリア]
+<sn:pointer id="49">[nick:イリア][br]
 [speed][0xa]...[speed][0x0] Le continent de Mu[speed][0xa]... ![speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Hmmm, tu dois avoir raison. Mais pourquoi sur cette carte et sur cette planète ?[page]
-[nick:ミリー]
+[nick:ミリー][br]
 À l'aide ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">???
+<sn:pointer id="50">???[br]
 Notre plus grand souhait est que ceux qui viennent ici en quête de l'[color][0x6]œil de vérité[color][0x2] ont le cœur pur. Nous le conservons ici, car c'est in trésor extrêmement dangereux. Nous ne pouvons qu'espérer que ceux qui entendent ces mots aient le pouvoir de réparer nos erreurs[speed][0xa]...[speed][0x0][page]
-???
+???[br]
 L'[color][0x6]œil de vérité[color][0x2] permet de créer des passerelles entre deux mondes différents. Nous l'avons créé en alliant notre technologie à Hérault que nous tirons des runes, la race native de cette planète.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">???
+<sn:pointer id="51">???[br]
 Cependant, avant d'atteindre notre but, un terrible accident s'est produit. Nous avons invoqué malgré nous les monstres d'un autre monde. Cependant, malgré cette catastrophe, nous ne pouvions stopper nos expérimentations pour créer ces passerelles vers d'autres planètes. C'est ce qu'ont décidé nos confrères. [page]
-???
+???[br]
 Tout ce que nous voulions, c'est retourner sur notre planète natale...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ]
+<sn:pointer id="52">[nick:ラティ][br]
 C'est[speed][0xa]...[speed][0x0] l'[color][0x6]œil de vérité[color][0x2][speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 J'y comprends rien à tout ça. Et toi, [nick:イリア], ça te dit quelque chose ?[page]
-[nick:イリア]
+[nick:イリア][br]
 Je me demande s'ils ne venaient pas en fait du continent de Mu, sur terre[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Tu penses qu'ils auraient pu venir contre leur gré ?[page]
-[nick:イリア]
+[nick:イリア][br]
 C'est possible, mais[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Maintenant que tu le dis, le roi de Van n'a pas parlé de types subitement tombés du ciel sur le continent de Moore ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:イリア]
+<sn:pointer id="53">[nick:イリア][br]
 Les légendes sur Terre racontent que le continent de Mu a sombré dans l'océan après avoir été frappé par une énorme météorite. Et la civilisation qui y vivait était très avancée...[page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 Oui, tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:イリア]
+<sn:pointer id="54">[nick:イリア][br]
 C'est juste une théorie, mais on recense des cas à la Fédération où des gens ont été téléportés dans des endroits qui leur étaient totalement inconnus. Des cas où des enfants disparus ont été retrouvés à des centaines de kilomètres de chez eux, une distance qu'ils n'auraient jamais pu parcourir en si peu de temps sans faire voler en éclats les lois de la physique[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 T'es en train de dire qu'ils auraient été téléportés par un champ de force créé par l'impact de la météorite ? Ça pourrait être possible pour des gens à qui serait arrivé accidentellement, mais tu n'as pas l'air de dire que ce soit le cas. Je n'ai JAMAIS entendu parler de téléportation sur de si longues distances, comme de la Terre à Roak.[page]
-[nick:イリア]
+[nick:イリア][br]
 Moi non plus. Mais si c'était le cas, ça expliquerait les raisons de la création de l'[color][0x6]œil de vérité[color][0x2]. Il voulaient juste rentrer chez eux[speed][0xa]...[speed][0x0][page]
-[nick:ロニキス]
+[nick:ロニキス][br]
 C'est ce que le type disait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:イリア]
+<sn:pointer id="55">[nick:イリア][br]
 Impossible de savoir le fin mot de l'histoire, mais...[page]
-[nick:イリア]
+[nick:イリア][br]
 Sur votre sort vous ne devez pleurer.[page]
 Jusqu'au temps des générations futures, ayez courage, que votre résistance soit sans faille.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:イリア]
+<sn:pointer id="56">[nick:イリア][br]
 J'ai tout de même le sentiment que ces phrases sont l'essence même des habitants de Moore[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
