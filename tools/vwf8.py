@@ -6,7 +6,7 @@ the menu font draws its letters with; codes in FIXED (icons, words drawn across 
 string keeps its cells: words run proportional, SPACE_PX apart, up to its last inked tile and the trailing spaces it
 spells out (the game's text only drew its own characters: padding to the fixed-width length ran over window borders);
 a word after two spaces or more starts at the column it had in fixed width, every word of a COLUMNS string does
-(menus line those up with cursors and with numbers drawn below). Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
+(menus line those up with cursors and with numbers drawn below), or at its STOPS column. Each string's non-blank tiles are one S-DD1 stream; its record says which tile each cell shows:
 
     .dl stream (0: no tiles)
     .db tiles
@@ -41,7 +41,9 @@ FIXED = range(0xA0, 0xBF)  # icons, words drawn across tiles
 SPACE_PX = 3
 # labels8 laid out in columns a single space apart (cursor stops, headers over numbers, the name entry's grid):
 # every word at its fixed-width column.
-COLUMNS = {0xEA6A, 0xEA6B, 0xEA74, 0xEA93, 0xEAD2, 0xEAD3, 0xEBDC, 0xECA9, *range(0xF6E0, 0xF6F7), 0xF712}
+COLUMNS = {0xEA6A, 0xEA6B, 0xEA74, 0xEA93, 0xEBDC, 0xECA9, *range(0xF6E0, 0xF6F7), 0xF712}
+# Cursor stops whose French words outgrow the Japanese columns: each word at its cell.
+STOPS = {0xEAD0: (0, 5), 0xEAD2: (0, 5, 10), 0xEAD3: (0, 5, 10)}  # shop tabs: src/menu/layout8.s moves the hand
 GAP = 1  # between runs and whole tiles
 COMBO_FIRST, COMBO_COUNT = 0x2710, 0x82  # special moves, by battle16 id
 COMBO_PX = 96  # a combo slot's row: 12 cells
@@ -164,14 +166,18 @@ def run(codes: bytes) -> Pixels:
     return out[:, : max(x - GAP, 0)]
 
 
-def line(codes: bytes, anchored: bool) -> Pixels:
+def line(codes: bytes, anchored: bool, stops: tuple[int, ...] = ()) -> Pixels:
     """One line over its cells: words flow SPACE_PX apart, and start at their fixed-width column after two spaces or
-    more (a column stop), or always when `anchored`."""
+    more (a column stop), or always when `anchored`; the nth word at the nth of `stops` instead."""
     out = np.zeros((8, 8 * len(codes) + 8), np.uint8)
-    x = column = spaces = 0
+    x = column = spaces = words = 0
     for word in codes.split(bytes([SPACE])):
         if word:
-            start = max(x, 8 * column) if anchored or spaces > 1 else x
+            if words < len(stops):
+                start = max(x, 8 * stops[words])
+            else:
+                start = max(x, 8 * column) if anchored or spaces > 1 else x
+            words += 1
             pixels = run(word)
             out[:, start : start + pixels.shape[1]] = pixels
             x = start + pixels.shape[1] + SPACE_PX
@@ -200,7 +206,7 @@ def _trimmed(row: list[int], spaces: int) -> list[int]:
     return row[: min(len(row), end + spaces)]
 
 
-def bake(value: bytes, anchored: bool) -> tuple[bytes, bytes] | None:
+def bake(value: bytes, anchored: bool, stops: tuple[int, ...] = ()) -> tuple[bytes, bytes] | None:
     """(tiles, cells) of a terminated string, or None when the game must draw it."""
     body = value[: value.index(END)]
     if any(code >= 0xC0 and code != NEWLINE for code in body):
@@ -210,7 +216,7 @@ def bake(value: bytes, anchored: bool) -> tuple[bytes, bytes] | None:
     for n, codes in enumerate(body.split(bytes([NEWLINE]))):
         if n:
             cells.append(CELL_NEWLINE)
-        pixels = line(codes, anchored)
+        pixels = line(codes, anchored, stops)
         row = []
         for cell in range(len(codes)):
             tile = pixels[:, 8 * cell : 8 * cell + 8]
@@ -228,9 +234,11 @@ def records(rom: Rom, source: Path) -> list[tuple[int, bytes, bytes]]:
     out = []
     for db in (LABELS8, NAMES8):
         encoded = values(rom, db, table, source / f"{db.name}.xml")
-        columns = {value for sid, value in zip(id_list(rom, db.name), encoded, strict=True) if sid in COLUMNS}
+        ids = list(zip(id_list(rom, db.name), encoded, strict=True))
+        columns = {value for sid, value in ids if sid in COLUMNS}
+        stops = {value: STOPS[sid] for sid, value in ids if sid in STOPS}
         for value, address in place(db, encoded).items():
-            baked = bake(value, value in columns)
+            baked = bake(value, value in columns, stops.get(value, ()))
             if baked:
                 out.append((address, *baked))
     return sorted(out)

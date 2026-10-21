@@ -48,6 +48,20 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
     }
 }
 
+; Shop tabs (EAD2 / EAD3, Achat Vente Fin): the hand cursor's (x, y) per tab, Japanese words 4 cells apart; the
+; French ones at cells 0 / 5 / 10 (tools/vwf8.py STOPS), clear of the hand to their left.
+.alloc at 0xCAF98B size 6 {
+    .for tab := 0, 3 {
+        .db tab * 0x28, 0x18
+    }
+}
+; The pigeon shop's (EAD0, Achat Pigeon).
+.alloc at 0xCAF999 size 4 {
+    .for tab := 0, 2 {
+        .db tab * 0x28, 0x18
+    }
+}
+
 ; The menu hand (CA:4C4E: sprite 0x70 + $06A6 at x $0696, y $0698) goes through an 8-bit x and never sets OAM's
 ; ninth x bit. A hand at x 0xF0 or more would be cut by the right edge, so that range now means x - 256: the bit is
 ; set there and cleared elsewhere, in the high table the game DMAs from $1F00.
