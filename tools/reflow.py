@@ -20,6 +20,7 @@ from tools.rom import ROOT
 FONT = ROOT / "build" / "gen" / "dialog_font.dat"
 TABLE = ROOT / "text" / "so_fr.tbl"
 WINDOW_WIDTH = 196 - 2  # pixels: the dispatcher peeks for a break once the pen passes $C5, less the shade
+MIN_BALANCED_WIDTH = WINDOW_WIDTH * 2 // 3  # a sentence broken at spaces never balances narrower
 PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
@@ -49,7 +50,7 @@ class DialogLayout:
 
     @property
     def layout(self) -> TextLayout:
-        return TextLayout(measure=self.measure, width=WINDOW_WIDTH)
+        return TextLayout(measure=self.measure, width=WINDOW_WIDTH, min_balanced_width=MIN_BALANCED_WIDTH)
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is
