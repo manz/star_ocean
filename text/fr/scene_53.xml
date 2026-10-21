@@ -105,9 +105,9 @@ Vous pourrez vous rendre au [color][0x4]château d'Astral[color][0x2] en prenant
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Connaissance niveau 2  600
-2. Sens niveau 2  200
-3. Technique niveau 2  1200
+<sn:pointer id="30">1. Connaissance niveau 2  600[br]
+2. Sens niveau 2  200[br]
+3. Technique niveau 2  1200[br]
 4. Combat niveau 2 2000[page]
 [end]</sn:pointer>
 
@@ -143,9 +143,9 @@ Vous saisissez ce que j'essaie de vous dire ? Vous ne devriez pas monter vos com
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Connaissance niveau 2
-2. Sens niveau 2
-3. Technique niveau 2
+<sn:pointer id="39">1. Connaissance niveau 2[br]
+2. Sens niveau 2[br]
+3. Technique niveau 2[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 

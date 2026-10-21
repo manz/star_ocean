@@ -124,9 +124,9 @@ Ce comptoir est un peu haut.[page]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">1. Culture niveau 2    600
-2. Sens niveau 1       100
-3. Sens niveau 2       200
+<sn:pointer id="32">1. Culture niveau 2    600[br]
+2. Sens niveau 1       100[br]
+3. Sens niveau 2       200[br]
 4. Combat niveau 1     1000[page]
 [end]</sn:pointer>
 
@@ -176,9 +176,9 @@ Je vais vous détailler le contenu de chaque savoir.
 Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">1. Culture niveau 2
-2. Sens niveau 1
-3. Sens niveau 2
+<sn:pointer id="45">1. Culture niveau 2[br]
+2. Sens niveau 1[br]
+3. Sens niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
@@ -218,7 +218,7 @@ Et, comme pour les compétences nécessaires pour apprendre une commande spécia
 
 <sn:pointer id="53">[end]</sn:pointer>
 
-<sn:pointer id="54">1. Lui donner un parfait
+<sn:pointer id="54">1. Lui donner un parfait[br]
 2. Ne rien lui donner[page]
 [end]</sn:pointer>
 
@@ -238,7 +238,7 @@ Oh, [nick:ラティ]. Pourquoi tu viendrais pas boire un verre ?[page]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">1. Bon si c'est juste un verre...
+<sn:pointer id="59">1. Bon si c'est juste un verre...[br]
 2. J'suis partant[page]
 [end]</sn:pointer>
 
@@ -311,7 +311,7 @@ Tu me l'enlèves de la bouche ![page]
 Oh non ! Pas mon bar ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">1. Aider [nick:シウス]
+<sn:pointer id="77">1. Aider [nick:シウス][br]
 2. Regarder à distance[page]
 [end]</sn:pointer>
 

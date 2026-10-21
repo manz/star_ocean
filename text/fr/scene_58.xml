@@ -30,9 +30,9 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 [page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">1. Savoir niveau 1   300
-2. Savoir niveau 2   600
-3. Savoir niveau 3  1200
+<sn:pointer id="9">1. Savoir niveau 1   300[br]
+2. Savoir niveau 2   600[br]
+3. Savoir niveau 3  1200[br]
 4. Combat niveau 2  2000[page]
 [end]</sn:pointer>
 
@@ -59,9 +59,9 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 [page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">1. Savoir niveau 1
-2. Savoir niveau 2
-3. Savoir niveau 3
+<sn:pointer id="16">1. Savoir niveau 1[br]
+2. Savoir niveau 2[br]
+3. Savoir niveau 3[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
@@ -128,18 +128,18 @@ Salut ![page]
 Bonjour. Que désirez-vous manger ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">1. Steak 130
-2. Spaghetti aux fruits de mer
-3. Ragoût de tripes au saindoux
+<sn:pointer id="31">1. Steak 130[br]
+2. Spaghetti aux fruits de mer[br]
+3. Ragoût de tripes au saindoux[br]
 4. Rien du tout[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">Souhaitez-vous un dessert ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1. Parfait aux fruits
-2. Tarte aux pommes
-3. Sherbert
+<sn:pointer id="33">1. Parfait aux fruits[br]
+2. Tarte aux pommes[br]
+3. Sherbert[br]
 4. Ça ira, merci ![page]
 [end]</sn:pointer>
 

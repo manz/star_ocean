@@ -4,7 +4,7 @@
 Désolé de te faire perdre ton temps avec mes jérémiades[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">1. T'inquiète pas.
+<sn:pointer id="1">1. T'inquiète pas.[br]
 2. ......[page]
 [end]</sn:pointer>
 
@@ -24,7 +24,7 @@ Ne t'inquiète pas pour moi. J'ai décidé de me ressaisir et de relancer mes re
 Prends soin de toi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">1. Le retenir
+<sn:pointer id="6">1. Le retenir[br]
 2. Lui dire adieu[page]
 [end]</sn:pointer>
 
@@ -46,7 +46,7 @@ Pourquoi ne pas venir avec nous ?[page]
 Mais[speed][0xa]...[speed][0x0] J'ai l'impression de n'avoir été qu'un fardeau pour vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">1. Nous avons besoin de toi
+<sn:pointer id="12">1. Nous avons besoin de toi[br]
 2. Bon, ben...[page]
 [end]</sn:pointer>
 
@@ -72,7 +72,7 @@ Ah... !![page]
 Tu vas la laisser partir toute seule ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">1. Je ne peux pas faire ça !
+<sn:pointer id="19">1. Je ne peux pas faire ça ![br]
 2. Je le lui ai promis.[page]
 [end]</sn:pointer>
 
@@ -102,7 +102,7 @@ Je pense qu'on devrait aller au royaume de Van, non ?[page]
 Nous avons perdu beaucoup de temps, mais je ne pense pas que c'était en vain.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1. Je ne pense pas non plus
+<sn:pointer id="25">1. Je ne pense pas non plus[br]
 2. C'était une perte de temps[page]
 [end]</sn:pointer>
 
@@ -144,7 +144,7 @@ Tout ce qu'il nous reste à faire, c'est nous rendre au royaume de Van ?[page]
 Mais t'sais, ça vaudrait quand même le coup d'aller zieuter le temple, tu crois pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1. Oui, tu as raison
+<sn:pointer id="33">1. Oui, tu as raison[br]
 2. Non, je ne pense pas[page]
 [end]</sn:pointer>
 
@@ -222,7 +222,7 @@ Continuer de chercher ma sœur[speed][0xa]...[speed][0x0][page]
 Prenez tous soin de vous[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">1. Le retenir
+<sn:pointer id="50">1. Le retenir[br]
 2. Lui dire adieu[page]
 [end]</sn:pointer>
 
@@ -238,7 +238,7 @@ Pourquoi ne pas venir avec nous ?[page]
 Mais[speed][0xa]...[speed][0x0] J'ai l'impression de n'avoir été qu'un fardeau pour vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">1. Nous avons besoin de toi
+<sn:pointer id="54">1. Nous avons besoin de toi[br]
 2. Bon, ben...[page]
 [end]</sn:pointer>
 
@@ -308,7 +308,7 @@ C'est bien la race du plateau, ça[speed][0xa]...[speed][0x0] Les montagnards so
 Tu essaies de me dire de ne pas mettre mon nez dans les affaires des autres  ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">1. Les arrêter
+<sn:pointer id="70">1. Les arrêter[br]
 2. Rester calme et observer[page]
 [end]</sn:pointer>
 
@@ -490,7 +490,7 @@ Mais, POURQUOI en avez-vous besoin ? J'espère que vous êtes conscient que nous
 Bande de petits[speed][0xa]...[speed][0x0] Toujours prêts la querelle. Je n'ai rien de plus à vous dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">1. Les arrêter
+<sn:pointer id="106">1. Les arrêter[br]
 2. Rester calme et observer[page]
 [end]</sn:pointer>
 

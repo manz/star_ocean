@@ -21,7 +21,7 @@ Ce que nous a dit le roi d'Astral ?[page]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">1. Rappelle-les-moi
+<sn:pointer id="5">1. Rappelle-les-moi[br]
 2. Je les sais[page]
 [end]</sn:pointer>
 
@@ -52,9 +52,9 @@ Tu crois que c'est là qu'il faut entrer le mot de passe ?[page]
 <sn:pointer id="9">[mode8][0x20]Entrer les quatre lettres[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1. A M S O
-2. P A E L
-3. K D F C
+<sn:pointer id="10">1. A M S O[br]
+2. P A E L[br]
+3. K D F C[br]
 4. Q S J A[page]
 [end]</sn:pointer>
 

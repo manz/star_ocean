@@ -25,9 +25,9 @@
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">1. Technique niveau 1  600
-2. Technique niveau 2  1200
-3. Technique niveau 3  5000
+<sn:pointer id="8">1. Technique niveau 1  600[br]
+2. Technique niveau 2  1200[br]
+3. Technique niveau 3  5000[br]
 4. Combat niveau 2  2000[page]
 [end]</sn:pointer>
 
@@ -57,9 +57,9 @@ Ne vous inquiétez pas. Vous pourrez toujours combattre même si vous vous retro
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">1. Technique niveau 1
-2. Technique niveau 2
-3. Technique niveau 3
+<sn:pointer id="15">1. Technique niveau 1[br]
+2. Technique niveau 2[br]
+3. Technique niveau 3[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
@@ -201,7 +201,7 @@ Oui.[page]
 Tu n'as pas oublié ce que nous avons à faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Je m'en souviens.
+<sn:pointer id="39">1. Je m'en souviens.[br]
 2. Rappelle-moi-le.[page]
 [end]</sn:pointer>
 

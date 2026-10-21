@@ -106,8 +106,8 @@ Oh, elles sont belles ces boucles d'oreilles[speed][0xa]...[speed][0x0][page]
 Tu trouves ? Elles me plaisent aussi ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">1. Tu les veux en cadeau ?
-2. Elles t'iront bien ?
+<sn:pointer id="24">1. Tu les veux en cadeau ?[br]
+2. Elles t'iront bien ?[br]
 3. On dirait de la camelote.[page]
 [end]</sn:pointer>
 
@@ -220,8 +220,8 @@ Viens, tu n'as pas autre chose à faire ?[page]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">1. Les donner à [nick:ミリー]
-2. Elles sont pour [nick:イリア]
+<sn:pointer id="48">1. Les donner à [nick:ミリー][br]
+2. Elles sont pour [nick:イリア][br]
 3. Botter en touche[page]
 [end]</sn:pointer>
 
@@ -267,8 +267,8 @@ Oh, ces boucles-là ? C'est du toc. Allez-y, prenez-les.[page]
 Bienvenue... Oh♪ Vous êtes des aventuriers ? J'aurais ptet un travail pour vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">1. D'accord.
-2. Sans façon.
+<sn:pointer id="59">1. D'accord.[br]
+2. Sans façon.[br]
 3. Nous venons acheter.[page]
 [end]</sn:pointer>
 
@@ -365,8 +365,8 @@ C'était un peu long, mais pour faire court, il est important d'utiliser vos poi
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">1. Culture niveau 1    300
-2. Sens niveau 1      100
+<sn:pointer id="83">1. Culture niveau 1    300[br]
+2. Sens niveau 1      100[br]
 3. Technique niveau 1  600[page]
 [end]</sn:pointer>
 
@@ -388,8 +388,8 @@ Vous l'avez déjà.[page]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">1. Culture niveau 1
-2. Sens niveau 1
+<sn:pointer id="89">1. Culture niveau 1[br]
+2. Sens niveau 1[br]
 3. Technique niveau 1[page]
 [end]</sn:pointer>
 
@@ -425,7 +425,7 @@ Badam[br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">1. Accepter la mission
+<sn:pointer id="96">1. Accepter la mission[br]
 2. Refuser[page]
 [end]</sn:pointer>
 

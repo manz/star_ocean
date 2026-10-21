@@ -1,8 +1,9 @@
 """French dialog laid out to the window with katsuji reflow: each page's lines re-wrapped to the window's pixels.
 
-A page is the text between two [page] codes. A speaker line ends with [br] and stays as written; the rest is
-reflowed by sentences. A line starting with [center] gets the [pos] x that centres it. Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French
-name it inserts, other tags measure nothing. The window keeps room for a line's 1 px of shade each side.
+A page is the text between two [page] codes. A line ending with [br] (a speaker, a choice) stays as written; what
+follows the last one is reflowed by sentences. A line starting with [center] gets the [pos] x that centres it.
+Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French name it inserts, other
+tags measure nothing. The window keeps room for a line's 1 px of shade each side.
 """
 
 from __future__ import annotations
@@ -23,7 +24,7 @@ PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
 NAME_TAG = re.compile(r"\[(?:nick|name):([^\]]*)\]")
-BREAK = "[br]\n"  # ends a speaker line: kept as written, then a plain line break
+BREAK = "[br]\n"  # ends a line kept as written (a speaker, a choice), then a plain line break
 CENTER = "[center]"  # starts a line (a place name): becomes the [pos] that centres it
 CENTRE_WIDTH = 208  # pixels the Japanese [pos] x values centre on: x = (208 - 12 px * glyphs) / 2
 
@@ -52,10 +53,8 @@ class DialogLayout:
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is
-        label, sep, body = text.partition(BREAK)
-        if sep:
-            return label + "\n" + self.layout.reflow(body)
-        return self.layout.reflow(text)
+        *kept, body = text.split(BREAK)
+        return "".join(line + "\n" for line in kept) + self.layout.reflow(body)
 
     def message(self, text: str) -> str:
         """One message's XML text, `[end]` included, laid out."""
