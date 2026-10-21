@@ -65,9 +65,9 @@ Quelle impolitesse de nous interrompre ![page]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[mode8][0x20]1. Technique niveau 3  5000
-2. Combat niveau 1   1000
-3. Combat niveau 2   2000
+<sn:pointer id="19">[mode8][0x20]1. Technique niveau 3  5000[br]
+2. Combat niveau 1   1000[br]
+3. Combat niveau 2   2000[br]
 4. Combat niveau 3  20000[page]
 [end]</sn:pointer>
 
@@ -101,9 +101,9 @@ Et il y a encore un secret à son sujet... Mais je ne vous dirai pas quoi ![page
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">1. Technique niveau 3
-2. Combat niveau 1
-3. Combat niveau 2
+<sn:pointer id="26">1. Technique niveau 3[br]
+2. Combat niveau 1[br]
+3. Combat niveau 2[br]
 4. Combat niveau 3[page]
 [end]</sn:pointer>
 
@@ -258,7 +258,7 @@ Ouais.[page]
 Bon[speed][0x14],[speed][0x0] qu'est-ce qu'on fait maintenant ? Il faut retrouver le capitaine et [nick:ミリー], alors[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">1. Faire un tour en ville
+<sn:pointer id="65">1. Faire un tour en ville[br]
 2. Se reposer[page]
 [end]</sn:pointer>
 
@@ -348,7 +348,7 @@ C'est pas ça du tout ! [speed][0xa]...[speed][0x0] Il est revenu et nous a tous
 C'est peut-être le cas, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">1. [nick:シウス] aurait fait ça...
+<sn:pointer id="84">1. [nick:シウス] aurait fait ça...[br]
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
@@ -410,7 +410,7 @@ Oui, c'est ce qu'on dit.[page]
 Où allons-nous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">1. Direction le temple de Parj
+<sn:pointer id="97">1. Direction le temple de Parj[br]
 2. Fouillons encore la ville[page]
 [end]</sn:pointer>
 
@@ -426,7 +426,7 @@ Oui, merci.[page]
 [nick:ラティ], que faire à présent ? Je pense que ce n'est pas une mauvaise idée d'inspecter [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">1. Se reposer
+<sn:pointer id="101">1. Se reposer[br]
 2. Faire un tour en ville[page]
 [end]</sn:pointer>
 
@@ -501,7 +501,7 @@ Oui, c'est ce qu'on dit.[page]
 Où allons-nous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">1. Direction le temple de Parj
+<sn:pointer id="115">1. Direction le temple de Parj[br]
 2. Fouillons encore la ville[page]
 [end]</sn:pointer>
 
@@ -517,7 +517,7 @@ Oui, merci.[page]
 [nick:ラティ], que faire à présent ? Je pense que ce n'est pas une mauvaise idée d'inspecter [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">1. Se reposer
+<sn:pointer id="119">1. Se reposer[br]
 2. Faire un tour en ville[page]
 [end]</sn:pointer>
 

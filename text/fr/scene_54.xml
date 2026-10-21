@@ -110,9 +110,9 @@ Il parait que le commandant de la cavalerie d'Astral est plus que compétent pou
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Connaissance niveau 1 300
-2. Connaissance niveau 2 600
-3. Technique niveau 2 1200
+<sn:pointer id="30">1. Connaissance niveau 1 300[br]
+2. Connaissance niveau 2 600[br]
+3. Technique niveau 2 1200[br]
 4. Combat niveau 1 1000[page]
 [end]</sn:pointer>
 
@@ -147,9 +147,9 @@ Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vo
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Connaissance niveau 1
-2. Connaissance niveau 2
-3. Technique niveau 2
+<sn:pointer id="39">1. Connaissance niveau 1[br]
+2. Connaissance niveau 2[br]
+3. Technique niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
@@ -187,7 +187,7 @@ Mais non, pas du tout ![page]
 Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Je pense aussi que s'il était là, il n'aimerait pas me voir dans cet état[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">1. La réconforter
+<sn:pointer id="46">1. La réconforter[br]
 2. La laisser seule[page]
 [end]</sn:pointer>
 

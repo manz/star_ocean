@@ -30,8 +30,8 @@ Oups[name:ラティクス][speed][0xa]...[speed][0x0] Je m'appelle [nick:ラテ�
 Qu'est-ce que vous me voulez ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1. Pas grand chose.
-2. C'est au sujet du meurtre du commandant.
+<sn:pointer id="7">1. Pas grand chose.[br]
+2. C'est au sujet du meurtre du commandant.[br]
 3. Ordure ![page]
 [end]</sn:pointer>
 
@@ -55,7 +55,7 @@ Vous avez vraiment tué le commandant de la cavalerie ?[page]
 Combien de fois faudra que je le répète ? S'il n'avait pas été là, je serais restée orpheline à mendier dans les rues. Comment aurais-je pu tuer celui qui m'a élevée comme sa propre fille ? [speed][0x1e][speed][0x0]Je n'ai rien fait du tout. Ryas doit se retourner dans sa tombe maintenant...[speed][0x0] Je me chargerai moi-même de celui qui a fait ça[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">1. Que pouvons-nous faire ?
+<sn:pointer id="13">1. Que pouvons-nous faire ?[br]
 2. Partir[page]
 [end]</sn:pointer>
 
@@ -77,7 +77,7 @@ Je vous en prie[speed][0xa]...[speed][0x0] Croyez-moi ![page]
 Vous plaisantez... ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">2. L'aider à s'évader
+<sn:pointer id="17">2. L'aider à s'évader[br]
 2. Partir[page]
 [end]</sn:pointer>
 

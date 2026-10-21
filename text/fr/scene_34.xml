@@ -86,8 +86,8 @@ T'as envie de jouer à un truc cool avec moi [speed][0xa]?[speed][0x0] C'est [co
 Bon, maintenant, ferme les yeux [speed][0x14]♥[speed][0x0] Voyons[speed][0xa]...[speed][0x0] Vous êtes maintenant dans une grotte. La galerie se divise en deux. Quelle direction tu choisis ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">1. Aller à gauche
-2. Aller à droite
+<sn:pointer id="23">1. Aller à gauche[br]
+2. Aller à droite[br]
 3. C'est quoi ça ?![page]
 [end]</sn:pointer>
 
@@ -107,8 +107,8 @@ Pas de chance, la partie est terminée. Reviens me voir si tu as le temps ♪[pa
 Hiii !!! Il y a à tes pieds un abominable cadavre mutilé baignant dans son sang ! Si c'est moi qui étais dans la grotte, je tomberais dans les pommes de voir ça ! Quoi qu'il en soit, que fais-tu maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">1. Examiner le corps
-2. Prier pour son âme
+<sn:pointer id="28">1. Examiner le corps[br]
+2. Prier pour son âme[br]
 3. L'ignorer et continuer[page]
 [end]</sn:pointer>
 
@@ -116,8 +116,8 @@ Hiii !!! Il y a à tes pieds un abominable cadavre mutilé baignant dans son san
 Sérieusement [speed][0xf]?[speed][0x0] Tu en es sûr [speed][0xf]?[speed][0x0] Tu veux VRAIMENT faire ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Laisse-moi l'examiner
-2. L'ignorer et continuer
+<sn:pointer id="30">1. Laisse-moi l'examiner[br]
+2. L'ignorer et continuer[br]
 3. Prier pour son âme[page]
 [end]</sn:pointer>
 
@@ -145,7 +145,7 @@ Puffy[br]
 Bon, et maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">1. Continuer
+<sn:pointer id="36">1. Continuer[br]
 2. Prier pour son âme[page]
 [end]</sn:pointer>
 
@@ -170,8 +170,8 @@ Oh non !! Une chimère a surgi des ténèbres !! Tu n'es qu'au niveau un, tu ne 
 Qu'est-ce que tu fais maintenant ? ♪ Si tu veux l'affronter, il faut que tu joues à pierre papier ciseaux contre moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">1. Combattre la chimère
-2. Utiliser un flambotov
+<sn:pointer id="43">1. Combattre la chimère[br]
+2. Utiliser un flambotov[br]
 3. Fuir[page]
 [end]</sn:pointer>
 
@@ -229,8 +229,8 @@ Oh non, on dirait bien que tu t'es perdu[speed][0xa]...[speed][0x0] Ouais[speed]
 Waaah ! Tu vas vraiment combattre ? [speed][0xa]♪[speed][0x0] Ça ne te dérange pas si je t'appelle Don Quixote [speed][0xf] ?[speed][0x0] Ce sera donc à pierre-papier-ciseaux. Tu es prêt [speed][0x14]?[speed][0x0]Un, deux, trois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">1. Pierre
-2. Ciseaux
+<sn:pointer id="57">1. Pierre[br]
+2. Ciseaux[br]
 3. Papier[page]
 [end]</sn:pointer>
 
@@ -272,8 +272,8 @@ Parfait ! Tu es enfin arrivé devant Naos, le roi démon. Il rugit férocement e
 Qu'est-ce que tu fais maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">1. Combattre
-2. Fuir
+<sn:pointer id="67">1. Combattre[br]
+2. Fuir[br]
 3. Utiliser un objet[page]
 [end]</sn:pointer>
 
@@ -295,7 +295,7 @@ Naos crache de grosses flammes brûlantes !!
 Bien vu. Que vas-tu utiliser ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">1. Volontixir
+<sn:pointer id="72">1. Volontixir[br]
 2. Flambotov+[page]
 [end]</sn:pointer>
 
@@ -348,8 +348,8 @@ Objet reçu : [color][0x6]sabre[color][0x2][page]
 Par les culottes de ma grand mère ! Naos se relève et te supplie de l'aider. Veux-tu le soigner ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">1. Lui donner une myrtille
-2. Ne rien lui donner
+<sn:pointer id="83">1. Lui donner une myrtille[br]
+2. Ne rien lui donner[br]
 3. C'est pour de faux alors tu gardes tout[page]
 [end]</sn:pointer>
 
@@ -369,8 +369,8 @@ Hein ? Moi ?[page]
 D'accord, donne-moi un remède.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">1. Donner une myrtille
-2. Donner un fusixir
+<sn:pointer id="88">1. Donner une myrtille[br]
+2. Donner un fusixir[br]
 3. Ne rien donner du tout[page]
 [end]</sn:pointer>
 
@@ -390,9 +390,9 @@ T'en as plus. Fais un autre choix.[page]
 Où veux-tu aller ? Tu te trouves face à quatre routes partant vers quatre directions différentes. Laquelle choisir ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">1. En avant
-2. En arrière
-3. À gauche
+<sn:pointer id="93">1. En avant[br]
+2. En arrière[br]
+3. À gauche[br]
 4. À droite[page]
 [end]</sn:pointer>
 

@@ -13,7 +13,7 @@
 Ho ! C'est rare d'avoir de la visite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">1. Demander des habits
+<sn:pointer id="4">1. Demander des habits[br]
 2. Ne rien demander[page]
 [end]</sn:pointer>
 
@@ -44,7 +44,7 @@ Ha ! De nouveaux visages !
 Soyez les bienvenus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1. Demander des habits
+<sn:pointer id="10">1. Demander des habits[br]
 2. Faire des emplettes[page]
 [end]</sn:pointer>
 
@@ -67,7 +67,7 @@ Propriétaire[br]
 Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1. Il a l'air étrange, mais tant pis
+<sn:pointer id="14">1. Il a l'air étrange, mais tant pis[br]
 2. Partir[page]
 [end]</sn:pointer>
 
@@ -113,7 +113,7 @@ Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce 
 N'est-elle pas adorable ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">1. Ouais !
+<sn:pointer id="27">1. Ouais ![br]
 2. Bof bof ![page]
 [end]</sn:pointer>
 

@@ -6,7 +6,7 @@
 <sn:pointer id="1">Objet reçu : [color][0x6]Ocarina[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1. C'est l'heure de botter du derrière de pirates !!
+<sn:pointer id="2">1. C'est l'heure de botter du derrière de pirates !![br]
 2. Faire quelques emplettes avant.[page]
 [end]</sn:pointer>
 
@@ -118,9 +118,9 @@ Ils ont aussi attaqué mon papa quand il était en mer...[page]
 Où comptes-tu aller ? Si tu veux embarquer, il faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">1. Otanim (Royaume d'Astral)
-2. Tropp (Royaume d'Astral)
-3. Ecdart (Royaume d'Astral)
+<sn:pointer id="27">1. Otanim (Royaume d'Astral)[br]
+2. Tropp (Royaume d'Astral)[br]
+3. Ecdart (Royaume d'Astral)[br]
 4. Sylvalant[page]
 [end]</sn:pointer>
 
@@ -168,7 +168,7 @@ Ben le Marin[br]
 [color][0x4]Portmith[color][0x2] est la plaque tournante des échanges commerciaux entre Moore et le royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Lui parler de Candy
+<sn:pointer id="39">1. Lui parler de Candy[br]
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
@@ -208,8 +208,8 @@ Les hommes de Velcant se sont mis à écumer les mers du coin. Si nous étions e
 Bon, ben on est coincés ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">1. On va vous débarrasser d'eux !
-2. Préparons-nous d'abord.
+<sn:pointer id="49">1. On va vous débarrasser d'eux ![br]
+2. Préparons-nous d'abord.[br]
 3. On ferait mieux d'aller dormir et d'attendre.[page]
 [end]</sn:pointer>
 
@@ -254,8 +254,8 @@ Ouais.[page]
 On pourrait pas aller leur régler leur compte ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">1. Allons nous débarrasser d'eux !
-2. Préparons-nous un peu d'abord.
+<sn:pointer id="57">1. Allons nous débarrasser d'eux ![br]
+2. Préparons-nous un peu d'abord.[br]
 3. Mieux vaut dormir et attendre.[page]
 [end]</sn:pointer>
 
@@ -293,7 +293,7 @@ On pourra pas aller à Astral avant un bon moment. Revenez dans une vingtaine de
 Tiens, j'y repense, pourquoi on s'occuperait pas du truc que Badam nous a demandé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">1. Allons porter le colis !
+<sn:pointer id="66">1. Allons porter le colis ![br]
 2. Ne pas le porter[page]
 [end]</sn:pointer>
 
@@ -313,7 +313,7 @@ Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Pars devant, je vais 
 À la prochaine, les gars. Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">1. Le retenir
+<sn:pointer id="71">1. Le retenir[br]
 2. Le laisser partir[page]
 [end]</sn:pointer>
 

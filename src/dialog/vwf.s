@@ -51,7 +51,8 @@ UNKNOWN_CODE := 0x60  ; "?" in text/so_fr.tbl
 .alloc dialog_glyph_load in code_c0 {
 """
 Y = glyph * 32 (M16 X16, D = $0300, DB = $FF): the glyph's rows into the blit's left column
-    $0331-$0340, its right column and spill $0341-$0360 cleared, its width into dialog_advance.
+    $0331-$0340, its right column and spill $0341-$0360 cleared, its width into dialog_advance. The rows go in
+    1 px right: the shadow's left pixel lands in column 0, not off the blit's 24 px window.
 """
     tya
     lsr
@@ -84,6 +85,12 @@ _in_font:
     sep #0x20
     lda.w ( dialog_font & 0xFFFF ) + 16, x
     sta.l dialog_advance
+    ldx.w #15
+_shift:
+    lsr 0x31, x
+    ror 0x41, x
+    dex
+    bpl _shift
     rep #0x20
     rtl
 }

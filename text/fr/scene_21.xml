@@ -73,7 +73,7 @@ J'vous fais moitié prix :
 [color][0x5]20[color][0x2]Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">1. Faire affaire
+<sn:pointer id="18">1. Faire affaire[br]
 2. Décliner l'offre[page]
 [end]</sn:pointer>
 
@@ -139,7 +139,7 @@ Je reçois mon poisson de [color][0x4]Portmith[color][0x2], mais je m'inquiète,
 C'est par où, [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">1. Au Nord
+<sn:pointer id="34">1. Au Nord[br]
 2. Au Sud[page]
 [end]</sn:pointer>
 
@@ -165,8 +165,8 @@ Qu'est-ce qui ne va pas ?[page]
 Oh, hey[speed][0xa]...[speed][0x0] [nick:ラティ][speed][0xa]...[speed][0x0] C'est rien, t'inquiète[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">1. Courage, ça va aller !
-2. C'est avec [nick:シウス]?
+<sn:pointer id="41">1. Courage, ça va aller ![br]
+2. C'est avec [nick:シウス]?[br]
 3. Ne rien dire et la laisser.[page]
 [end]</sn:pointer>
 
@@ -295,7 +295,7 @@ Parait que le fils du quincaillier d'ici trouve son inspiration dans l'art des r
 Tu n'as jamais entendu parler d'eux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">1. Dis-m'en plus !
+<sn:pointer id="69">1. Dis-m'en plus ![br]
 2. Mais si, bien sûr.[page]
 [end]</sn:pointer>
 
@@ -311,8 +311,8 @@ C'est pas mal ![page]
 Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres trésors ou d'autres truc du genre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">1. Voyage avec nous ?
-2. Des trésors ?
+<sn:pointer id="73">1. Voyage avec nous ?[br]
+2. Des trésors ?[br]
 3. Séparons-nous ici.[page]
 [end]</sn:pointer>
 

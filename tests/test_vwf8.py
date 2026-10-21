@@ -2,16 +2,17 @@
 
 from __future__ import annotations
 
+import numpy as np
 from script import Table
 
 from tools.encode_menus import TABLE
-from tools.vwf8 import CELL_END, CELL_NEWLINE, bake
+from tools.vwf8 import CELL_END, CELL_NEWLINE, bake, line
 
 _TABLE = Table(str(TABLE))
 
 
-def _bake(text: str, anchored: bool = False) -> tuple[bytes, bytes]:
-    baked = bake(_TABLE.to_bytes(text) + b"\xff", anchored)
+def _bake(text: str, anchored: bool = False, stops: tuple[int, ...] = ()) -> tuple[bytes, bytes]:
+    baked = bake(_TABLE.to_bytes(text) + b"\xff", anchored, stops)
     assert baked is not None
     return baked
 
@@ -73,3 +74,9 @@ def test_single_spaced_words_flow() -> None:
 def test_two_spaces_stop_at_the_fixed_column() -> None:
     _, cells = _bake("PV  PM")
     assert cells[4] != 0
+
+
+def test_each_word_starts_at_its_stop() -> None:
+    ink = np.flatnonzero(line(_TABLE.to_bytes("Achat Vente Fin"), False, (0, 4, 8)).any(axis=0))
+    starts = [int(x) for x, before in zip(ink, np.r_[-2, ink[:-1]], strict=True) if x - before > 1]
+    assert starts == [0, 32, 64]

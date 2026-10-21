@@ -58,3 +58,8 @@ def test_centered_line_gets_the_x_that_centres_it(layout: DialogLayout) -> None:
 def test_centered_name_measures_as_the_french_name(layout: DialogLayout) -> None:
     out = layout.message(f"{CENTER}Maison de [nick:ドーン][page]\n[end]")
     assert out == layout.message(f"{CENTER}Maison de Dorn[page]\n[end]").replace("Dorn", "[nick:ドーン]")
+
+
+def test_choices_ending_with_a_break_stay_on_their_lines(layout: DialogLayout) -> None:
+    choices = f"1. Je vais lui en chercher{BREAK}2. C'est pas mes affaires"
+    assert layout.page(choices) == "1. Je vais lui en chercher\n2. C'est pas mes affaires"

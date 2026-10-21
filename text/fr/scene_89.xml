@@ -162,8 +162,8 @@ Pardonnez-moi...
 Avez-vous aimé le jeu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">1. Oui
-2. Bof
+<sn:pointer id="37">1. Oui[br]
+2. Bof[br]
 3. Non[page]
 [end]</sn:pointer>
 

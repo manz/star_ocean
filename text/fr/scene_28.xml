@@ -15,7 +15,7 @@ Mary[br]
 Quelle bande de groupies vous faites, toutes les deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1. Aider [nick:ヨシュア]
+<sn:pointer id="2">1. Aider [nick:ヨシュア][br]
 2. Aller l'admirer[page]
 [end]</sn:pointer>
 
@@ -127,8 +127,8 @@ En continuant au sud de la ville et en suivant le continent, vous irez à [color
 Qu'en dites-vous ? Je vous fais un portrait pour [color][0x5]5[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1. Faire un portrait de [nick:ラティ]
-2. Faire un portrait de [nick:イリア]
+<sn:pointer id="25">1. Faire un portrait de [nick:ラティ][br]
+2. Faire un portrait de [nick:イリア][br]
 3. Décliner[page]
 [end]</sn:pointer>
 
@@ -178,7 +178,7 @@ On vend des livres sur les Stalkers [speed][0xf]♥[speed][0x0]
 C'est [color][0x4]980[color][0x2] Fol. Vous en voulez un ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">1. Acheter un livre
+<sn:pointer id="38">1. Acheter un livre[br]
 2. Décliner[page]
 [end]</sn:pointer>
 
