@@ -6,6 +6,7 @@ The root imports one module per area; a816 links every imported module.
 
 .import "core/header"
 .import "core/saves"
+.import "core/crash"
 .import "dialog/sram_text"
 .import "dialog/vwf"
 .import "dialog/scene_text"
