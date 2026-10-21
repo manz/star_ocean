@@ -37,10 +37,13 @@
 <sn:string id="0xEDFF">Échange</sn:string>
 <sn:string id="0xEE00">Savoirs</sn:string>
 <sn:string id="0xEE48"></sn:string>
-<sn:string id="0xEEB6">Choisir les objets avec le curseur puis “Appliquer".</sn:string>
+<sn:string id="0xEEB6">Choisissez vos objets, ils
+seront réglés en sortant.</sn:string>
 <sn:string id="0xEEB7"></sn:string>
-<sn:string id="0xEEB8">(Dés)active la description. Augmente/réduit la quantité</sn:string>
-<sn:string id="0xEEBA">En choisissant des objets, sélectionnez “Pigeon", l'utilisation du pigeon sera comptabilisée.</sn:string>
+<sn:string id="0xEEB8">   Afficher/masquer l'aide
+   Moins            Plus</sn:string>
+<sn:string id="0xEEBA">Choisissez vos objets, le
+pigeon les réglera à l'envoi.</sn:string>
 <sn:string id="0xEEC0">Achat d'objets</sn:string>
 <sn:string id="0xEEC1">Vente d'objets</sn:string>
 <sn:string id="0xEEC2">Acheter/vendre puis quitter le magasin.</sn:string>
