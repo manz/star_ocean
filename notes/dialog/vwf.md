@@ -8,7 +8,9 @@
   glyphs `0x5FC-0x63F` (the blit reads `FF:` with the F window on page 3). 46 uses of those kanji in the
   Japanese 16x16 menus garble until menus are French.
 - `C2:63B4`: the 16-word copy from `FF:(glyph*32)` -> `dialog_glyph_load` (rows into the left column
-  `$0331-$0340`, `$0341-$0360` cleared, width to `dialog_advance` in SRAM), then `jmp $6414`.
+  `$0331-$0340` shifted 1 px right, `$0341-$0360` cleared, width to `dialog_advance` in SRAM), then `jmp $6414`.
+  The shadow (`C2:65CD`: glyph << 1 | glyph >> 1) drops a left pixel past the tile-aligned 24 px window: a glyph
+  inked in column 0 at `$D9 & 7 == 0` lost its left shade.
 - `C2:65B9`: `lda $D9 / clc / adc #$0C / adc $DB / sta $D9` -> pen += width + 1 + spacing.
 
 # ROM pages 6-7 (8 MB)
