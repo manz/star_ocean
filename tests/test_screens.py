@@ -19,7 +19,10 @@ SCREENS = {
     "settings_sound": ("load_screen", f"{MAIN_MENU},RIGHT,RIGHT,RIGHT,A,UP,DOWN,RIGHT"),
     "chest": ("chest", "A"),  # facing a chest: the item found message
     "battle_text": ("battle_text", ""),  # a battle chest: name + battle16 string through C0:48C6
+    "yes": ("yes_no", ""),  # a field question: "Oui" selected, "Non" small (dialog/yes_no)
+    "no": ("yes_no", "RIGHT"),
 }
+BEFORE = {"yes": 100, "no": 100}  # frames before the taps: the bubbles pop up
 SETTLE = {"chest": 120, "battle_text": 560}  # frames more for text that types itself out
 
 
@@ -27,6 +30,7 @@ SETTLE = {"chest": 120, "battle_text": 560}  # frames more for text that types i
 def test_screen(name: str) -> None:
     state, buttons = SCREENS[name]
     emu = emulator(state)
+    emu.run_frames(BEFORE.get(name, 0))
     tap(emu, buttons)
     emu.run_frames(SETTLE.get(name, 0))
     assert_matches_golden(emu, name)
