@@ -2,7 +2,7 @@
 
 A page is the text between two [page] codes. A speaker line ends with [br] and stays as written; the rest is
 reflowed by sentences. A line starting with [center] gets the [pos] x that centres it. Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French
-name it inserts, other tags measure nothing.
+name it inserts, other tags measure nothing. The window keeps room for a line's 1 px of shade each side.
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ from tools.rom import ROOT
 
 FONT = ROOT / "build" / "gen" / "dialog_font.dat"
 TABLE = ROOT / "text" / "so_fr.tbl"
-WINDOW_WIDTH = 196  # pixels: the dispatcher peeks for a break once the pen passes $C5
+WINDOW_WIDTH = 196 - 2  # pixels: the dispatcher peeks for a break once the pen passes $C5, less the shade
 PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
