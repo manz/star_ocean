@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ruines B des Sept Etoiles[var][0x80][0x36][page]
+<sn:pointer id="0">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">K[br]
