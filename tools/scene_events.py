@@ -1,7 +1,10 @@
 """Byte edits to scene event data (the VM scripts the scene table's first pointer holds), for puzzles the French
 words change. Each edited scene is unpacked, checked, edited in place (same length, so the script's jump addresses
-hold), packed back into a 0x81 container and repointed. Writes build/gen/scene_events/NN.bin and
-build/gen/scene_events.i.
+hold), packed back into a 0x81 container and written over the original one. Writes build/gen/scene_events/NN.bin
+and build/gen/scene_events.i.
+
+The game's own `unpack` reads event data, so it must stay in banks the bus maps: unlike scene text (sram_text.s),
+it cannot move to ROM pages 6-7.
 """
 
 from __future__ import annotations
@@ -55,13 +58,15 @@ def build(out: Path = GEN, edits: dict[int, list[Edit]] = EDITS) -> None:
     lines = []
     for scene, scene_edits in sorted(edits.items()):
         name = f"{scene:02d}.bin"
-        (out / "scene_events" / name).write_bytes(container(edited(rom, scene, scene_edits)))
+        packed = container(edited(rom, scene, scene_edits))
+        pointer = event_pointer(rom, scene)
+        room = decode(rom.read, pointer)[1]
+        if len(packed) > room:
+            raise ValueError(f"scene {scene}: the edited events pack to {len(packed)} bytes, the original has {room}")
+        (out / "scene_events" / name).write_bytes(packed)
         lines += [
-            f".alloc scene_events_{scene:02d} in rom_pages_67 {{",
+            f".alloc scene_events_{scene:02d} at 0x{pointer:06X} size {len(packed)} {{",
             f'    .incbin "scene_events/{name}"',
-            "}",
-            f".alloc at 0x{SCENE_TABLE + (scene - 1) * SCENE_RECORD:06X} size 3 {{",
-            f"    .dl scene_events_{scene:02d}",
             "}",
         ]
     (out / "scene_events.i").write_text("\n".join(lines) + "\n", encoding="utf-8")

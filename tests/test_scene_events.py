@@ -38,7 +38,15 @@ def test_stale_bytes_are_refused() -> None:
         edited(Rom(), 80, [Edit(0x3A7, b"\x01\x02\x03\x04\x05", b"\x00" * 5, "wrong")])
 
 
-def test_build_packs_and_repoints(tmp_path: Path) -> None:
+def test_build_packs_over_the_original(tmp_path: Path) -> None:
+    """In place at $E6:D54D: the game's own unpack reads event data, so it cannot move to the paged banks."""
     build(tmp_path)
-    assert _unpack((tmp_path / "scene_events" / "80.bin").read_bytes()) == edited(Rom(), 80, EDITS[80])
-    assert ".alloc at 0xE401DA size 3 {" in (tmp_path / "scene_events.i").read_text()
+    packed = (tmp_path / "scene_events" / "80.bin").read_bytes()
+    assert _unpack(packed) == edited(Rom(), 80, EDITS[80])
+    assert f".alloc scene_events_80 at 0xE6D54D size {len(packed)} {{" in (tmp_path / "scene_events.i").read_text()
+
+
+def test_build_refuses_events_that_outgrow_the_original(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr("tools.scene_events.container", lambda data: bytes(4096))
+    with pytest.raises(ValueError, match="pack to 4096 bytes"):
+        build(tmp_path)
