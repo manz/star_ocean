@@ -2,7 +2,7 @@
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
 <sn:pointer id="0">[nick:イリア][br]
 Il y a des lettres gravées ici.[page]
-Le sang royal change les quatre commandements en chevaliers. Déposez avec respect leur casque dans l'ordre de leur destinée. La porte s'ouvre à ceux qui en font leur clé.[page]
+Si la phrase royale est quatre chevaliers en armure, ils portent quatre heaumes. Ôte ces heaumes et aligne-les à terre. Les heaumes que tu auras rangés sont la clé qui ouvre la porte.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ラティ][br]
@@ -26,23 +26,23 @@ Oui.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ラティ][br]
-Sur votre sort vous ne devez pleurer.[page]
-Jusqu'au temps des générations futures.[page]
-Ayez courage.[page]
-Que votre résistance soit sans faille.[page]
+Acceptez votre destin sans pleurer.[page]
+Indomptable soit votre courage.[page]
+À vos héritiers, jusqu'à la fin des temps,[page]
+Gardez votre force sans faiblir.[page]
 C'était ça, non[speed][0xa]...[speed][0x0] ?[page]
 [nick:ロニキス][br]
 Ouais.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:イリア][br]
-C'est une sorte de mot de passe. Ça dit qu'il faut prendre une lettre de chacune des phrases et les entrer dedans.[page]
+C'est un mot de passe. Il faut prendre une lettre dans chaque phrase et les entrer ici.[page]
 [nick:ラティ][br]
-"Le sang royal change les quatre commandements en chevaliers."[speed][0xa]...[speed][0x0][page]
+"Si la phrase royale est quatre chevaliers en armure, ils portent quatre heaumes"[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
-"Déposez avec respect leur casque"[speed][0xa]...[speed][0x0][page]
+"Ôte ces heaumes et aligne-les à terre"[speed][0xa]...[speed][0x0] ? Le heaume, c'est la tête : la première lettre ?[page]
 [nick:イリア][br]
-Ça dit aussi "dans l'ordre de leur destinée"[speed][0xa]...[speed][0x0] On doit mettre les lettres dans le bon ordre.[page]
+Et "les heaumes que tu auras rangés"[speed][0xa]...[speed][0x0] C'est à nous de les remettre dans l'ordre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:イリア][br]
@@ -52,10 +52,10 @@ Tu crois que c'est là qu'il faut entrer le mot de passe ?[page]
 <sn:pointer id="9">[mode8][0x20]Entrer les quatre lettres[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1. A M S O[br]
-2. P A E L[br]
-3. K D F C[br]
-4. Q S J A[page]
+<sn:pointer id="10">1. S D V A[br]
+2. P T A E[br]
+3. L F C I[br]
+4. A I G A[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[mode8][0x0][end]</sn:pointer>
@@ -65,19 +65,19 @@ C'est ouvert ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:イリア][br]
-[speed][0xa]J[speed][0x0].[speed][0xa]Q[speed][0x0].[speed][0xa]S[speed][0x0].[speed][0xa]A[speed][0xa]...[speed][0x0] ?[page]
+[speed][0xa]G[speed][0x0].[speed][0xa]A[speed][0x0].[speed][0xa]I[speed][0x0].[speed][0xa]A[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:イリア][br]
-[speed][0x1]JQSA ?[speed][0x0][page]
+[speed][0x1]GAÏA ?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:イリア][br]
-JQSA[speed][0xa]...[speed][0x0][page]
+Gaïa[speed][0xa]...[speed][0x0] La Terre ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:イリア][br]
-Mais pourquoi[speed][0xa] ?[speed][0x0] Ça ne veut rien dire du tout.[page]
+Mais pourquoi[speed][0xa] ?[speed][0x0] Une simple coïncidence[speed][0xa] ?[speed][0x0] Pourquoi le nom d'une planète comme mot de passe ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:ロニキス][br]
@@ -111,35 +111,35 @@ Oui, tu as raison. Et on risque d'en découvrir plus quand on sera à l'intérie
 <sn:pointer id="27">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">A[end]</sn:pointer>
+<sn:pointer id="28">S[end]</sn:pointer>
 
 <sn:pointer id="29">P[end]</sn:pointer>
 
-<sn:pointer id="30">K[end]</sn:pointer>
+<sn:pointer id="30">L[end]</sn:pointer>
 
-<sn:pointer id="31">Q[end]</sn:pointer>
+<sn:pointer id="31">A[end]</sn:pointer>
 
-<sn:pointer id="32">M[end]</sn:pointer>
+<sn:pointer id="32">D[end]</sn:pointer>
 
-<sn:pointer id="33">A[end]</sn:pointer>
+<sn:pointer id="33">T[end]</sn:pointer>
 
-<sn:pointer id="34">D[end]</sn:pointer>
+<sn:pointer id="34">F[end]</sn:pointer>
 
-<sn:pointer id="35">S[end]</sn:pointer>
+<sn:pointer id="35">I[end]</sn:pointer>
 
-<sn:pointer id="36">S[end]</sn:pointer>
+<sn:pointer id="36">V[end]</sn:pointer>
 
-<sn:pointer id="37">E[end]</sn:pointer>
+<sn:pointer id="37">A[end]</sn:pointer>
 
-<sn:pointer id="38">F[end]</sn:pointer>
+<sn:pointer id="38">C[end]</sn:pointer>
 
-<sn:pointer id="39">J[end]</sn:pointer>
+<sn:pointer id="39">G[end]</sn:pointer>
 
-<sn:pointer id="40">O[end]</sn:pointer>
+<sn:pointer id="40">A[end]</sn:pointer>
 
-<sn:pointer id="41">L[end]</sn:pointer>
+<sn:pointer id="41">E[end]</sn:pointer>
 
-<sn:pointer id="42">C[end]</sn:pointer>
+<sn:pointer id="42">I[end]</sn:pointer>
 
 <sn:pointer id="43">A[end]</sn:pointer>
 
@@ -216,8 +216,8 @@ C'est ce que le type disait.[page]
 <sn:pointer id="55">[nick:イリア][br]
 Impossible de savoir le fin mot de l'histoire, mais...[page]
 [nick:イリア][br]
-Sur votre sort vous ne devez pleurer.[page]
-Jusqu'au temps des générations futures, ayez courage, que votre résistance soit sans faille.[page]
+Acceptez votre destin sans pleurer.[page]
+Que vos héritiers, jusqu'à la fin des temps, gardent leur force sans faiblir.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:イリア][br]
