@@ -16,13 +16,13 @@ Foster ! C'est moi, [nick:ヨシュア] ![page]
 <sn:pointer id="3">Foster[br]
 [speed][0x1][nick:ヨシュア][speed][0x5] ![speed][0x1] Oh,[speed][0x0] tu es revenu ![page]
 [nick:ヨシュア][br]
-C'est si bon de te revoir, Foster.[page]
+C'est si bon de vous revoir, Foster.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">Foster[br]
 Tu connais ces gens ?[page]
 [nick:イリア][br]
-Salut, je m'appelle [nick:イリア].[page]
+Enchantée, je m'appelle [nick:イリア].[page]
 [nick:ラティ][br]
 Enchanté, moi c'est [nick:ラティ].[page]
 Foster[br]
@@ -31,7 +31,7 @@ avoir autant d'amis ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:ヨシュア][br]
-Désolé...[page]
+Arrêtez, voyons...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Foster[br]
@@ -39,7 +39,7 @@ Hé hé hé ! Entrez, on parlera à l'intérieur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">Foster[br]
-Alors, [nick:ヨシュア] ! Navré de te demander ça comme ça, mais as-tu retrouvé ta soeur ?[page]
+Alors, [nick:ヨシュア] ! Navré de te demander ça comme ça, mais as-tu retrouvé ta sœur ?[page]
 [nick:ヨシュア][br]
 Non[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -53,21 +53,22 @@ Tu dois continuer à espérer ![page]
 
 <sn:pointer id="9">[nick:ヨシュア][br]
 Au fait, je ne vois aucun arc.
-Tu ne chasses plus ?[page]
+Vous ne chassez plus ?[page]
 Foster[br]
 J'ai arrêté il n'y a pas très longtemps.
 Difficile à croire, hein ?[page]
 [nick:ヨシュア][br]
-Pourquoi ça ?[page]
+Pourquoi donc ?[page]
 Foster[br]
 Il y a plus de monstres que d'habitude dans la forêt.[page]
 [nick:ヨシュア][br]
 Oh[speed][0xa]...[speed][0x0][page]
+Foster[br]
 Quand tu habitais ici, on allait tout le temps chasser, mais là[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">1. On va botter le cul de ces créatures ![br]
-2. Ne dis rien[page]
+2. Ne rien dire[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ラティ][br]
@@ -106,7 +107,7 @@ Merci. Prenez ça, c'est le moins que je puisse faire pour vous remercier.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Foster[br]
-Faites attention aux monstres dans la forêt.[page]
+Je compte sur vous pour les monstres de la forêt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Foster[br]
@@ -114,7 +115,7 @@ Merci beaucoup.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Foster[br]
-[nick:ヨシュア], j'espère que tu trouveras bientôt ta soeur[speed][0xa]...[speed][0x0][page]
+[nick:ヨシュア], j'espère que tu trouveras bientôt ta sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 </sn:script>

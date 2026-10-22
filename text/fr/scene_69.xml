@@ -42,9 +42,9 @@ Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">Conseiller[br]
-Ce n'est pas parce que vous achetez un arcane que vous serez en mesure de l'utiliser. Mais parfois après en avoir acquis, vous pourrez subitement avoir une idée lumineuse pour savoir comment les utiliser en utilisant certains mouvements de combat ![page]
+Ce n'est pas parce que vous achetez un arcane que vous serez en mesure de l'utiliser. Mais une fois l'arcane appris, à force d'utiliser certaines techniques, vous pourrez découvrir une super-technique ![page]
 Conseiller[br]
-Le fait que vous compreniez ou non comment l'utiliser est basé sur votre persévérance et de la façon dont vous maîtrisez votre style de combat.[page]
+Y parvenir dépend de vos efforts et de votre maîtrise de l'escrime.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Mentor[br]
@@ -82,7 +82,7 @@ J'ai envie d'aller jouer dehors ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">Vieil homme[br]
-Oh oui, c'est sûr que c'est tranquille[speed][0xa]...[speed][0x0] Je deviendrais sénile sinon ![page]
+Quel ennui[speed][0xa]...[speed][0x0] À ce train-là, je vais devenir gâteux ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">Vieille femme[br]
@@ -143,13 +143,13 @@ Arrêtez d'embêter [nick:ミリー], pigé ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">Lucio[br]
-Souhaitez-vous une chambre ? Notre auberge est la meilleure du monde ![page]
+Vous dormez ici ? Notre auberge est la meilleure du monde ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Etudiant[br]
-Je fais des recherches sur ce qu'on appelle le pacte psychique que les anciens auraient fait.[page]
-Etudiant[br]
-Il y a encore beaucoup de détails à vérifier, mais il semblerait qu'ils aient conclu un accord avec un démon légendaire... Le genre d'accord où vos souhaits sont échangés contre votre âme. Il semblerait que ce soit quelque chose comme ça.[page]
+<sn:pointer id="39">Étudiant[br]
+Je fais des recherches sur ce qu'on appelle le pacte d'âme que les anciens auraient fait.[page]
+Étudiant[br]
+Il y a encore beaucoup de détails à vérifier, mais ça ressemblait aux pactes avec le diable des légendes : un vœu exaucé en échange de son âme. Quelque chose comme ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:ミリー][br]
@@ -165,8 +165,8 @@ Tu ne devrais pas faire ça ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">Lucio[br]
-C'est bon. Qu'est-ce que tu es devenue crétine.
-Aucune de tes lettres ne sera remise à son destinataire ![page]
+T'es bête ou quoi ?
+Écrire des lettres qui n'arriveront jamais ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[nick:ミリー][br]
@@ -176,7 +176,7 @@ Fous-moi la paix ![page]
 <sn:pointer id="45">Cher [nick:ラティ][speed][0xa]...[speed][0x0]
 C'est [nick:ミリー] qui t'écrit. Tu as toujours été là pour moi, et je n'ai jamais songé à t'écrire[speed][0xa]...[speed][0x0]
 Mais c'est tout ce que je puis faire maintenant que je ne sais pas où tu es.[page]
-Est-ce que tout va bien pour toi, [nick:ラティ] ? Je ne compte plus les jours depuis ton départ. Tu me manques énormément.[page]
+Es-tu vraiment ici, toi aussi, [nick:ラティ] ? Je ne compte plus les jours depuis ton départ. Tu me manques énormément.[page]
 J'espère te revoir bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -189,7 +189,7 @@ Tu me manques[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">[nick:ミリー][br]
-Non, c'est pas ce que tu crois.[page]
+Raaah ! Ça ne me ressemble pas ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">[nick:ミリー][br]
@@ -215,7 +215,7 @@ Viens, Lucio. Tu ne veux pas lui dire adieu ?[page]
 <sn:pointer id="53">Judy[br]
 Quelle tête de mule quand il s'y met[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="54">Pardon,[nick:ミリー].[page]
+<sn:pointer id="54">Pardon, [nick:ミリー].[page]
 [nick:ミリー][br]
 T'inquiète, c'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -282,11 +282,11 @@ Bon sang, ma lame va finir par rouiller à rester dans un coin comme ça ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="69">[nick:フィア][br]
-Ça[speed][0x8]...[speed][0x0] Ça serait pas bizarre si on partait tous les deux ?[page]
+Ça[speed][0x8]...[speed][0x0] C'est bizarre qu'on soit tous les deux ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="70">[nick:フィア][br]
-Il ne faudrait pas trop dépenser d'argent pour des armes dans un endroit si froid.[page]
+Par ce froid, il faut bien entretenir ses armes.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:ミリー][br]

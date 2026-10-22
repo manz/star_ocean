@@ -85,7 +85,7 @@ Riposte, feinte et concentrer.[page]
 
 <sn:pointer id="20">[end]</sn:pointer>
 
-<sn:pointer id="21">Aubergiste bien gaulée[br]
+<sn:pointer id="21">Aubergiste bien en chair[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
@@ -106,13 +106,13 @@ Capitaine, tu penses quoi de ce que nous a dit le roi de Van ?[page]
 [nick:ロニキス][br]
 [speed][0xa]...[speed][0x0] Dieu, c'est ça[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-Originellement, les moorians étaient les Adam et Eve de ce monde, tu ne crois pas ?[page]
+Originellement, les Mooriens étaient les Adam et Ève de ce monde, tu ne crois pas ?[page]
 [nick:ロニキス][br]
 Probablement[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-Allons voir quels étranges pouvoirs se trouvent sur cette planète au quotidien. Aussi bien, les dieux et bouddhas existent aussi. Du point de vue des Roakiens, ils tombent du ciel. Et c'est exactement ce qu'on a fait. Et nous ne sommes certainement pas des dieux, même en faisant preuve d'imagination, donc les Moorians ne le sont pas plus que nous.[page]
+Sur cette planète, les pouvoirs mystiques sont monnaie courante : dieux et bouddhas pourraient bien exister. Mais vu de la Terre, "descendre du ciel", c'est peut-être le même phénomène que notre arrivée ici.[page]
 [nick:ロニキス][br]
-Probablement pas. Mais, tu sais, ce monstre a aussi des monstres provenant du monde démoniaque. Ils doit donc y avoir des dieux.[page]
+Probablement pas. Mais, tu sais, ce monde a un monde démoniaque bien réel, et des monstres. Il peut donc y avoir des dieux.[page]
 [nick:イリア][br]
 De toute mon existence, je n'ai jamais rien vu de semblable.[page]
 [nick:ロニキス][br]
@@ -120,11 +120,11 @@ Ahah[speed][0xa],[speed][0x0] moi non plus.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:イリア][br]
-Il y a longtemps, les gens expliquaient ce qu'il ne comprenaient pas au surnaturel. Si c'était un phénomène bénéfique, c'était associé aux dieux. Et si au contraire c'était néfaste, c'était associé aux démons.[page]
+Il y a longtemps, les gens expliquaient ce qu'ils ne comprenaient pas au surnaturel. Si c'était un phénomène bénéfique, c'était associé aux dieux. Et si au contraire c'était néfaste, c'était associé aux démons.[page]
 [nick:ロニキス][br]
 C'est exact. La religion provient de ce type de concepts et les alimente.[page]
 [nick:イリア][br]
-Tout à fait. Même sur terre[speed][0xa]...[speed][0x0] En Europe au moyen-âge, il y avait des légendes sur une bête appelée Cerbère. Cerbère serait apparu de nulle part en rugissant, et aurait calciné une région tout entière en un battement de cils. Sais-tu ce que c'était en réalité ?[page]
+Tout à fait. Même sur Terre[speed][0xa]...[speed][0x0] En Europe au Moyen Âge, il y avait des légendes sur une bête appelée Cerbère. Cerbère serait apparu de nulle part en rugissant, et aurait calciné une région tout entière en un battement de cils. Sais-tu ce que c'était en réalité ?[page]
 [nick:ロニキス][br]
 Aucune idée.[page]
 [nick:イリア][br]
@@ -132,11 +132,11 @@ La foudre.[page]
 [nick:ロニキス][br]
 Intéressant.[page]
 [nick:イリア][br]
-Je sais qu'il y a des choses que nous ne comprenons pas. En fait[speed][0xa]...[speed][0x0] "Héraut", c'est ça ? J'ai vraiment été surprise par les aptitudes de [nick:ミリー], mais je pense que même ça, ça peut s'expliquer par la science.[page]
+Je sais qu'il y a des choses que nous ne comprenons pas. En fait[speed][0xa]...[speed][0x0] "L'héraldique", c'est ça ? J'ai vraiment été surprise par les aptitudes de [nick:ミリー], mais je pense que même ça, ça peut s'expliquer par la science.[page]
 [nick:ロニキス][br]
-Héhé[speed][0xa],[speed][0x0] je vois. En d'autres termes, tu n'en sais pas plus sur ce que le roi a dit.[page]
+Héhé[speed][0xa],[speed][0x0] je vois. Bref, l'histoire du roi ne te convainc pas.[page]
 [nick:イリア][br]
-Tu trouves ça drôle ?[page]
+C'est bizarre ?[page]
 [nick:ロニキス][br]
 Pas vraiment.[page]
 [nick:イリア][br]
@@ -148,7 +148,7 @@ Et ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:ロニキス][br]
-Je commence à me dire que c'est trop facile de croire au destin.[page]
+Tout ce que je me suis répété, que c'était le destin, deviendrait dérisoire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:イリア][br]
@@ -168,7 +168,7 @@ Personne ne sait à quoi était due sa maladie, on n'aurait pas pu l'aider avec 
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:イリア][br]
-C'est bien naturel[speed][0xa]...[speed][0x0] Mais ils n'ont pas dit que Héraut n'a aucun effet sur le virus envoyé par Resonia ?[page]
+Là, quand même[speed][0xa]...[speed][0x0] L'héraldique n'avait aucun effet sur le virus de Resonia, non ?[page]
 [nick:ロニキス][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -191,7 +191,7 @@ Il se fait tard, allons dormir.[page]
 Merci, [nick:イリア][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Aubergiste bien gaulée[br]
+<sn:pointer id="37">Aubergiste bien en chair[br]
 Bonjour, avez-vous passé une bonne nuit ?[page]
 [nick:ラティ][br]
 Oui.[page]
@@ -202,7 +202,7 @@ Tu n'as pas oublié ce que nous avons à faire ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">1. Je m'en souviens.[br]
-2. Rappelle-moi-le.[page]
+2. Rappelle-le-moi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:ロニキス][br]
@@ -212,12 +212,12 @@ Tout à fait.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:ロニキス][br]
-Nous devons rencontrer le roi de chaque royaume et rassembler des informations sur la localisation de l'[color][0x6]œil de vérité[color][0x2].[page]
+Nous devons rencontrer le roi de chaque royaume et rassembler des informations sur la localisation de l'[color][0x6]Œil de la Vérité[color][0x2].[page]
 [nick:ラティ][br]
 Ah oui, c'est vrai.[page]
 [nick:ロニキス][br]
-Quand nous serons face à eux, cet emblème attestera de notre connaissance sur l'[color][0x6]œil de vérité[color][0x2].
-[nick:ラティ]
+Quand nous serons face à eux, cet emblème attestera de notre connaissance de l'[color][0x6]Œil de la Vérité[color][0x2].[page]
+[nick:ラティ][br]
 Exact.[page]
 [end]</sn:pointer>
 
@@ -226,7 +226,7 @@ Van est un ancien royaume regorgeant d'histoire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">Chevalier[br]
-Il parait que des monstres viennent d'un endroit très loin, bien après [color][0x4]Sylvalant[color][0x2][speed][0xa]...[speed][0x0] L'entrée du monde démoniaque ne doit pas se trouver bien loin.[page]
+Il paraît que des monstres viennent d'un endroit très loin, bien après [color][0x4]Sylvalant[color][0x2][speed][0xa]...[speed][0x0] L'entrée du monde démoniaque ne doit pas se trouver bien loin.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">Jeune fille[br]
@@ -238,7 +238,7 @@ Atchoum[speed][0xa]...[speed][0x0] Excusez-moi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">Jiru l'aventurier[br]
-Sans autorisation du roi de Van, vous ne pourrez vois rendre à [color][0x4]Sylvalant[color][0x2].[page]
+Sans autorisation du roi de Van, vous ne pourrez pas aller à [color][0x4]Sylvalant[color][0x2] : un poste de contrôle vous refoulera.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">Mercenaire[br]
@@ -246,7 +246,7 @@ Mince ! Quand ont-ils installé une station d'inspection ici ? Personne ne m'a j
 [end]</sn:pointer>
 
 <sn:pointer id="48">Vieil homme[br]
-Hé bien, en voilà de belles armes[speed][0xa]...[speed][0x0] Hmm ? Dans mon jeune temps, j'étais forgeron.[page]
+Eh bien, en voilà de belles armes[speed][0xa]...[speed][0x0] Hmm ? Dans mon jeune temps, j'étais forgeron.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">Patron[br]
@@ -262,7 +262,7 @@ Bienvenue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:シウス][br]
-J'suis en train de matter des choses plutôt pas mal, tu vois ?[page]
+J'suis en train de mater des choses plutôt pas mal, tu vois ?[page]
 [end]</sn:pointer>
 
 </sn:script>

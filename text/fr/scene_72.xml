@@ -37,14 +37,14 @@ Vu comme il a accepté notre demande, ça prouve qu'on avait raison de faire ça
 Okay, en route ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[mode8][0x38][nick:ドーン] Suis-nous,
-si tu veux vivre[speed][0x19]...[speed][0x0][mode8][0x0][page]
+<sn:pointer id="6">[mode8][0x38][nick:ドーン], tiens bon.
+J'arrive, je vais te sauver[speed][0x19]...[speed][0x0][mode8][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[speed][0x3][mode8][0x18][end]</sn:pointer>
 
 <sn:pointer id="8">[mode8][0x18][nick:ラティ][br]
-Merci beaucoup[speed][0xa]...[speed][0x3]B[page]
+Merci beaucoup[speed][0xa]...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[mode8][0x18][nick:シウス][br]
@@ -73,7 +73,7 @@ Garde courage, [nick:ラティ][speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[mode8][0x18][nick:フィア][br]
-Nous vivons dans un petit monde, mais je suis heureux de savoir qu'un tel monde existe[speed][0xf]...[speed][0x3][page]
+Nous vivons dans un petit monde, mais je suis heureuse de savoir qu'un tel monde existe[speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[mode8][0x18][nick:マーヴェル][br]
@@ -87,7 +87,7 @@ Pour toujours.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[mode8][0x18][nick:ミリー][br]
-Au revoir[speed][0xf]...[speed][0x3] tout le monde[speed][0xf]...[speed][0x3]B[page]
+Au revoir[speed][0xf]...[speed][0x3] tout le monde[speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
 </sn:script>
