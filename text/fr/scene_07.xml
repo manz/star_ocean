@@ -30,7 +30,7 @@ Peux-tu attendre ici quelques instants ? Je vais t'en chercher d'autres.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:イリア][br]
-Ça doit être pareil pour le capitaine en ce moment.[page]
+Désolée. Le capitaine doit être dans le même embarras.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:イリア][br]
@@ -38,7 +38,7 @@ Merci d'aller chercher de quoi me changer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:ラティ][br]
-Arf... Tout le monde va me prendre pour un pervers.[page]
+Bah, ça ne fait rien. Les gens se diront juste que tu es un peu bizarre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[nick:イリア][br]
@@ -88,7 +88,7 @@ Il fait nuit noire, je n'y vois goutte. Ils ne doivent pas être bien loin.[page
 <sn:pointer id="21">[nick:イリア][br]
 Oui.[page]
 [nick:イリア][br]
-Nous n'avons pas tous sauté en même temps, de ce dont je m'en souvienne, il est probable qu'une grande distance nous sépare.[page]
+Comme j'ai trébuché, on a sauté avec beaucoup de décalage : on est peut-être loin les uns des autres.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:ラティ][br]
@@ -118,7 +118,7 @@ Ah mais, ils sont trempés ! Où les as-tu récupérés ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:イリア][br]
-Nous  devons retrouver [nick:ロニキス] et [nick:ミリー], commençons par faire le tour du village.[page]
+Nous devons retrouver [nick:ロニキス] et [nick:ミリー], commençons par faire le tour du village.[page]
 [nick:ラティ][br]
 Nous devons aussi nous préparer pour notre voyage.[page]
 [nick:イリア][br]
@@ -134,10 +134,10 @@ Allez, c'est parti. La ville de [color][0x4]Thermonia[color][0x2] est au Nord, c
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:イリア][br]
-Je vais voir si je peux en savoir plus sur [nick:ロニキス] et [nick:ミリー], essaie toi aussi de ton coté, si tu veux.[page]
+Je vais voir si je peux en savoir plus sur [nick:ロニキス] et [nick:ミリー], essaie toi aussi de ton côté, si tu veux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">1. Pas de soucis ![br]
+<sn:pointer id="32">1. Pas de souci ![br]
 2. Bon d'accord...[page]
 [end]</sn:pointer>
 
@@ -149,7 +149,7 @@ Parfait, on se retrouve ici plus tard.[page]
 
 <sn:pointer id="35">[nick:イリア][br]
 Vraiment ?[speed][0x14][speed][0xa] ...[speed][0x0]
-Alors, fais-le.[page]
+Je compte sur toi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:シウス][br]
@@ -159,7 +159,7 @@ Y'a que dalle ici. J'vais aller faire un tour dans le village.[page]
 <sn:pointer id="37">[end]</sn:pointer>
 
 <sn:pointer id="38">[nick:イリア][br]
-J'ai demandé si quelqu'un avait entendu parler de [nick:ロニキス] et [nick:ミリー]. Tu pourrais faire de même, si ça te dit.[page]
+Je vais demander si quelqu'un a entendu parler de [nick:ロニキス] et [nick:ミリー]. Tu pourrais faire de même, si ça te dit.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">1. Oui, tu as raison.[br]
@@ -174,7 +174,7 @@ D'accord, on se retrouve ici tout à l'heure.[page]
 
 <sn:pointer id="42">[nick:イリア][br]
 Vraiment ?[speed][0x14][speed][0xa]...[speed][0x0]
-Alors, fais-le.[page]
+Je compte sur toi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:シウス][br]
@@ -212,7 +212,7 @@ La pause a assez duré.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">Jeune homme[br]
-Ahh !! Vous m'avez fait peur ! Pile quand il y a eu ce drôle de bruit, c'était comme ça dans tout le secteur.[page]
+Ahh !! Quelle frayeur ! Un bruit énorme, et tout le coin s'est retrouvé dans cet état.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">Fille[br]
@@ -243,7 +243,7 @@ Eh bien, nous ne devions jamais nous revoir, mais...[page]
 [nick:イリア][br]
 Nous aimerions que vous nous veniez en aide.[page]
 [nick:ラティ][br]
-Avec quoi ?[page]
+C'est-à-dire ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="58">[nick:ロニキス][br]
@@ -265,7 +265,7 @@ Qu'est-ce que c'est[speed][0xa]...[speed][0x0] ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:ラティ][br]
-Il est plus récent que celui que je connais, mais aucun doute là dessus, c'est le vaisseau ![page]
+Il est plus récent que celui que je connais, mais aucun doute là-dessus, c'est le vaisseau ![page]
 [nick:イリア][br]
 Un vaisseau[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
@@ -273,7 +273,7 @@ Un vaisseau[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:イリア][br]
-Non, c'est rien. C'est le vaisseau de ce groupe mystérieux, non ? Ils ont peut-être déjà inoculé le virus dans les Roakiens. Dépêchons-nous.[page]
+Non, c'est rien. C'est le vaisseau de ce groupe mystérieux, non ? Ils se sont sans doute déjà échappés et se cachent parmi les Roakiens. Dépêchons-nous.[page]
 [nick:ラティ][br]
 Tu as raison.[page]
 [end]</sn:pointer>
@@ -295,7 +295,7 @@ N'oublie pas notre but principal. Nous devons nous rendre au plus vite dans le m
 [end]</sn:pointer>
 
 <sn:pointer id="68">[nick:ロニキス][br]
-Qu'est-ce que tu vas faire [nick:ラティ] ? Je pense que je vais juste aller faire un tour.[page]
+Qu'est-ce que tu vas faire, [nick:ラティ] ? Je pense que je vais juste aller faire un tour.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="69">[nick:ミリー][br]
@@ -307,11 +307,11 @@ On ne pourrait pas se reposer un peu ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:シウス][br]
-On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
+On devait pas aller dégommer Asmodeus ? C'est pas le moment de traîner.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="72">[nick:シウス][br]
-j'pars devant.[page]
+J'pars devant.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="73">[nick:アシュレイ][br]
@@ -336,7 +336,7 @@ Faisons une pause, nous nous remettrons en route plus tard.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="78">[nick:マーヴェル][br]
-On ne va pas s'arrêter longtemps ici, hein ?[page]
+On fait halte en ville, alors ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">[nick:イリア][br]
@@ -352,11 +352,11 @@ Bien, allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="82">[nick:ロニキス][br]
-Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+Bon, assez de repos. Allons demander audience aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="83">[nick:ロニキス][br]
-Faisons une pause, à présent.[page]
+Assez de repos.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="84">[nick:ミリー][br]
@@ -373,7 +373,7 @@ On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?  Allez, on bouge
 [end]</sn:pointer>
 
 <sn:pointer id="87">[nick:シウス][br]
-J'préfère mille fois poutrer du streum que rester là à glander.[page]
+Moi, cogner, ça me va mieux que traîner.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="88">[nick:アシュレイ][br]
@@ -381,7 +381,7 @@ On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la
 [end]</sn:pointer>
 
 <sn:pointer id="89">[nick:フィア][br]
-Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
+Tu te souviens où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="90">[nick:フィア][br]
@@ -393,11 +393,11 @@ On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [col
 [end]</sn:pointer>
 
 <sn:pointer id="92">[nick:ヨシュア][br]
-On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+Pour obtenir l'Œil de la Vérité, et si on finissait vite les audiences ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="93">[nick:ヨシュア][br]
-Parfois, c'est bien aussi.[page]
+Ça fait du bien, de temps en temps.[page]
 [end]</sn:pointer>
 
 </sn:script>

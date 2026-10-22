@@ -21,7 +21,7 @@ Oui. C'était de l'intimidation. Il s'est avéré que leur civilisation est trè
 [end]</sn:pointer>
 
 <sn:pointer id="4">Ambassadeur résonien[br]
-Nous ne savons pas ce qu'il veulent. Toutefois, ce sont eux qui nous ont apporté le virus et la technologie liée à la nouvelle matière[speed][0xa]...[speed][0x0][page]
+Nous ne savons pas ce qu'ils veulent. Toutefois, ce sont eux qui nous ont apporté le virus et la technologie liée à la nouvelle matière[speed][0xa]...[speed][0x0][page]
 Amiral[br]
 Je vois.
 Je comprends la plupart de vos dires[speed][0xa]...[speed][0x0][page]
@@ -41,7 +41,7 @@ Il n'existe plus ni vaccin, ni le patient 0. C'est regrettable pour la planète 
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:ミリー][br]
-Hors de question[speed][0xa]...[speed][0x0]!![page]
+Non[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Ambassadeur résonien[br]
@@ -49,11 +49,11 @@ Nous savons d'où provient le virus, mais ça ne serait d'aucune utilité au poi
 [end]</sn:pointer>
 
 <sn:pointer id="10">Amiral[br]
-Il n'y a sûrement plus rien à faire. Si ce n'est aller secourir les derniers rescapés sur la planète Roak[speed][0xa]...[speed][0x0][page]
+On n'y peut rien. Faute de solution, il faudra renoncer à secourir la planète Roak[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ラティ][br]
-Qoui ? Vous allez abandonner notre planète comme ça ?[page]
+Quoi ? Vous allez abandonner notre planète comme ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:イリア][br]
@@ -61,7 +61,7 @@ Qoui ? Vous allez abandonner notre planète comme ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ラティ][br]
-Et merde ![end]</sn:pointer>
+Bon sang ![end]</sn:pointer>
 
 <sn:pointer id="14">[page]
 [end]</sn:pointer>
@@ -100,7 +100,7 @@ La planète[speed][0xa]...[speed][0x0] Stream[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:イリア][br]
-Pile au moment où j'allais te demander de quoi tu voulais parler[speed][0xa]...[speed][0x0] C'est absurde !![page]
+Qu'est-ce que vous allez chercher là[speed][0xa]...[speed][0x0] C'est de la folie !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:ロニキス][br]
@@ -108,15 +108,15 @@ Je vais nous ramener au vaisseau.[page]
 [nick:イリア][br]
 Mais[speed][0xa]...[speed][0x0]!![page]
 [nick:ミリー][br]
-Reste t'il encore une chance [speed][0xa]?[speed][0x0] Si oui[speed][0xa]...[speed][0x0] Je vous en conjure...[page]
+Reste-t-il encore une chance [speed][0xa]?[speed][0x0] Si oui[speed][0xa]...[speed][0x0] Je vous en conjure...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:ロニキス][br]
-Amiral, que se passe t'il ?[page]
-Amiral[br]
+Amiral, que se passe-t-il ?[page]
+Amiral Bayes[br]
 C'est ce type de situation, capitaine.[page]
 [nick:ロニキス][br]
-Qu'est-ce que cela signifie ?[page]
+Quelle affaire...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">Amiral[br]
@@ -130,7 +130,7 @@ Oui.[page]
 <sn:pointer id="26">Amiral[br]
 Nous avons décidé de lancer l'opération Stardust. Capitaine [nick:ロニキス], vous en prendrez la tête.[page]
 [nick:ロニキス][br]
-Que devons-nous faire, précisément ?[page]
+Nous, mener cette opération...[page]
 Amiral[br]
 Quand notre équipe scientifique a étudié la zone où leur vaisseau de reconnaissance est apparu, il nous a été possible de confirmer l'existence d'un trou de ver. En le traversant, vous pourrez sûrement vous rendre sur Farget.[page]
 [nick:ロニキス][br]
@@ -140,7 +140,7 @@ En fait, Farget est désormais dirigée par Jay Rivorse, cet homme est le produi
 [nick:ロニキス][br]
 Je comprends.[page]
 Amiral[br]
-Jay Rivorse a peu de soutien sur Farget, sans oublier le grand nombre factions qui lui sont opposées.[page]
+Jay Rivorse a peu de soutien sur Farget, sans oublier le grand nombre de factions qui lui sont opposées.[page]
 [nick:ロニキス][br]
 Pourquoi toutes ces informations sur Farget, amiral ?[page]
 Amiral[br]

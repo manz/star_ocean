@@ -8,12 +8,12 @@
 Qu'est-ce que c'est écrit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[speed][0x3]La mystérieuse maladie de Laponia est contagieuse.[page]
+<sn:pointer id="2">[speed][0x3]La mystérieuse maladie de Laponia est contagieuse.
+La magie de soin n'y fait presque rien.[page]
 De plus[speed][0x14],[speed][0x3] je suis moi aussi tombé
 malade.[page]
-Il n'y a aucun moyen de contracter la maladie par contact aérien.[page]
-Cependant, vous pouvez être contaminé en touchant quelqu'un de malade.[page]
-La période d'incubation est de une à deux heures.[page]
+Elle ne se transmet pas par l'air, mais il suffit de toucher la peau d'un malade pour être contaminé.[page]
+La période d'incubation est d'une à deux heures.[page]
 À partir des premiers symptômes, en trois jours votre corps est
 totalement changé en pierre.[page]
 C'est trop tard pour Laponia.
@@ -39,8 +39,8 @@ Mais que ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:ドーン][br]
-Mais qu'est-ce que tu fais, [nick:ラティ]?
-Allons botter le cul à ces voleurs ![page]
+Mais qu'est-ce que tu fais, [nick:ラティ] ?
+Allons régler leur compte à ces voleurs ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:ドーン][br]
@@ -49,8 +49,8 @@ Nord.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[nick:ドーン][br]
-Mais qu'est-ce que tu fais, [nick:ラティ]?
-Allons botter le cul à ces voleurs ![page]
+Mais qu'est-ce que tu fais, [nick:ラティ] ?
+Allons régler leur compte à ces voleurs ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ドーン][br]
@@ -62,13 +62,13 @@ C'est parti ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ミリー][br]
-Tu es encore en retard,[nick:ラティ].
+Tu es encore en retard, [nick:ラティ].
 [nick:ドーン] est déjà à l'intérieur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ドーン][br]
-Mais qu'est-ce que tu fais, [nick:ラティ]?
-Allons botter le cul à ces voleurs ![page]
+Mais qu'est-ce que tu fais, [nick:ラティ] ?
+Allons régler leur compte à ces voleurs ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ドーン][br]
@@ -77,13 +77,13 @@ On doit la suivre ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Voleur Bitts[br]
-Ils sont plus fort que ce qu'on
+Ils sont plus forts que ce qu'on
 pensait...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Chef Baird[br]
-Me fais pas rire ! Ce ne sont qu'une paire de gosses !!
-Laisse-moi te montrer...[page]
+Lamentable ! Deux gamins vous font galérer ?!
+Laissez-moi faire...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:ラティ][br]
@@ -91,9 +91,7 @@ Nous ne sommes pas des gosses[speed][0x14] ![speed][0x0]
 Nous sommes des membres de la brigade
 de Clatos ![page]
 [nick:ドーン][br]
-Pas la peine de te la jouer car tu
-commandes une bande de
-mauviettes ![page]
+Te la pète pas, t'es qu'un chef de minables ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">[nick:ミリー][br]
@@ -118,11 +116,11 @@ notre devoir.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:ミリー][br]
-Pfff[speed][0x1e],[speed][0x0] quelle maîtrise de soi ![page]
+Oh[speed][0x1e],[speed][0x0] la classe ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">Homme[br]
-Vite, et faites quelque chose pour eux ![page]
+Vite, occupez-vous d'eux ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">Homme[br]
@@ -157,7 +155,7 @@ Tout va bien ici, grâce à vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">Shina[br]
-[nick:ラティ], si tu es bléssé, viens me voir pour que je te soigne ![page]
+[nick:ラティ], si tu es blessé, viens me voir pour que je te soigne ![page]
 [nick:ラティ][br]
 Ahah ! Merci ![page]
 [end]</sn:pointer>
@@ -172,7 +170,7 @@ Il s'est passé quelque chose ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">Femme[br]
-Ho, [nick:ミリー] ne vous accompagne pas
+Oh, [nick:ミリー] ne vous accompagne pas
 aujourd'hui ?[page]
 [end]</sn:pointer>
 

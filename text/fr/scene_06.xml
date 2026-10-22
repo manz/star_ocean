@@ -22,7 +22,7 @@ Dans ce cas, je te confie la suite
 des opérations.[page]
 [nick:ドーン][br]
 D'accord.[page]
-Nous vous contacterons[br]
+Nous vous contacterons
 immédiatement si quelque chose
 vient à se produire.[page]
 [end]</sn:pointer>
@@ -58,21 +58,21 @@ Allez, raconte-moi...[page]
 <sn:pointer id="13">[end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ドーン][br]
-Pas touche ! C'est ma boite
+Pas touche ! C'est ma boîte
 à musique. J'y tiens énormément.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ラティ][br]
-Cette boite à musique est un
+Cette boîte à musique est un
 souvenir de la sœur de [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Mère de [nick:ドーン][br]
+<sn:pointer id="16">Mère de [nick:ラティ][br]
 Tu es réveillé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mère de [nick:ドーン][br]
-Sois prudent,[nick:ラティ].[page]
+<sn:pointer id="17">Mère de [nick:ラティ][br]
+Sois prudent, [nick:ラティ].[page]
 [nick:ラティ][br]
 Je t'ai dit que ça se passerait bien.
 Je vais faire de mon mieux, pour papa.[page]
@@ -81,12 +81,12 @@ Je vais faire de mon mieux, pour papa.[page]
 <sn:pointer id="18">[nick:ラティ][br]
 Maman, Mme Fraise m'a dit
 qu'elle avait des légumes frais.[page]
-Mère de [nick:ドーン][br]
+Mère de [nick:ラティ][br]
 Ah oui ?
 Alors je vais aller la voir de suite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Mère de [nick:ドーン][br]
+<sn:pointer id="19">Mère de [nick:ラティ][br]
 D'accord, on y va.[page]
 [end]</sn:pointer>
 
@@ -95,8 +95,8 @@ Lesquels devrais-je prendre...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">Armurier[br]
-Depuis que vous avez pris en
-charge la protection de la ville,[page]
+Puisque vous assurez la sécurité
+de la ville,[page]
 vous devez être armés
 en permanence.[page]
 [end]</sn:pointer>
@@ -117,7 +117,7 @@ comme toujours.[page]
 Arrête avec ça.
 Mais c'est tellement vrai...[page]
 [nick:ドーン][br]
-Tu as fini de t'envoyer des fleurs ?[page]
+Hé, la flatte pas.[page]
 [nick:ミリー][br]
 QUOI ???[page]
 [end]</sn:pointer>
@@ -125,7 +125,7 @@ QUOI ???[page]
 <sn:pointer id="25">Père de [nick:ミリー][br]
 [nick:ミリー], étudie
 sérieusement tes magies de soin.[page]
-Tu te dois de suivre le même[br]
+Tu te dois de suivre le même
 chemin que moi.[page]
 [nick:ミリー][br]
 Je sais ! Pas la peine de
@@ -134,7 +134,7 @@ me le rappeler ![page]
 
 <sn:pointer id="26">Père de [nick:ミリー][br]
 Je m'inquiète pour ma fille.[page]
-Elle passe ses journées à jouer[br]
+Elle passe ses journées à jouer
 au détriment de ses études de magie.[page]
 [end]</sn:pointer>
 
@@ -162,8 +162,8 @@ Nous apprécions vos efforts.[page]
 
 <sn:pointer id="31">Vendeuse[br]
 J'aimerais apprendre à cuisiner,
-mais j'aime aussi la métallurgie.[page]
-J'aimerais essayer de faire de la[br]
+mais j'aime aussi l'orfèvrerie.[page]
+J'aimerais essayer de faire de la
 musique un jour, mais je ne pense
 pas être douée pour ça.[page]
 [end]</sn:pointer>
@@ -175,9 +175,9 @@ pas être douée pour ça.[page]
 <sn:pointer id="33">[nick:ミリー][br]
 Ça ne te ressemble pas de baisser
 les bras.[page]
-Tu y arriveras en t'entrainant[br]
+Tu y arriveras en t'entraînant
 sans relâche.[page]
-Tu te découvriras peut-être[br]
+Tu te découvriras peut-être
 un talent caché, tu sais ?[page]
 Sophia[br]
 Oui... Merci, [nick:ミリー].[page]
@@ -219,15 +219,14 @@ Que ça reste entre nous, mais...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:ドーン][br]
-Elle se prend pour le centre
-du monde et c'est un vrai garçon
-manqué.[speed][0xa]...[speed][0x0][page]
+Elle est étourdie et c'est un
+vrai garçon manqué.[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">[nick:ドーン][br]
 Et par dessus le marché,
-elle est stupide et c'est
-une grande gueule.[page]
+elle n'est pas attentionnée et
+elle est casse-pieds.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:ミリー][br]
@@ -249,7 +248,7 @@ rien à faire ![page]
 [nick:ミリー][br]
 Vous n'avez qu'à aller patrouiller
 par exemple[speed][0x14] ![page]
-[speed][0x0]Tiens, je vais même[br]
+[speed][0x0]Tiens, je vais même
 vous accompagner.[page]
 [end]</sn:pointer>
 
@@ -288,7 +287,7 @@ Leur venir en aide, voyons ![page]
 
 <sn:pointer id="55">[nick:ミリー][br]
 Si seulement nous avions de cette
-herbe gui pousse au [color][0x4]mont Métox[color][0x2]...[page]
+herbe qui pousse au [color][0x4]mont Métox[color][0x2]...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">???[br]
@@ -300,7 +299,7 @@ Papa ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="58">Ancien[br]
-Maltos, tu t'y rendrais
+Maltos, vous vous y rendriez
 pour eux ?![page]
 [end]</sn:pointer>
 
@@ -340,12 +339,12 @@ une minute de plus.[page]
 <sn:pointer id="64">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Mère de [nick:ドーン][br]
+<sn:pointer id="65">Mère de [nick:ラティ][br]
 Tu ne dois pas bientôt aller
 travailler ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Mère de [nick:ドーン][br]
+<sn:pointer id="66">Mère de [nick:ラティ][br]
 Allez, debout ![page]
 [end]</sn:pointer>
 
@@ -360,7 +359,7 @@ un certain temps[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="68">[nick:ドーン][br]
-[speed][0x5]Prends la boite à musique
+[speed][0x5]Prends la boîte à musique
 sur l'étagère.[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -374,11 +373,11 @@ C'était celle de ta sœur[speed][0xa]...
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:ドーン][br]
-[speed][0x4]Prends-là[speed][0xf]...[speed][0x0][page]
+[speed][0x4]Prends-la[speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="72">[mode8][0x8][nick:ドーン][br]
-[speed][0x8]Ma[speed][0x1e] [speed][0xa]sœur[speed][0xf] me[speed][0x14] l'a[speed][0x19] donnée[speed][0x1e]...[speed][0x0][mode8][0x0][page]
+[speed][0x8]C'est[speed][0x1e] [speed][0xa]moi[speed][0xf] qui[speed][0x14] l'avais[speed][0x19] offerte[speed][0x1e] à ma sœur...[speed][0x0][mode8][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="73">[nick:ラティ][br]
@@ -396,7 +395,9 @@ Oui.[page]
 
 <sn:pointer id="76">[mode8][0x38][pos][0x0][0x0][nick:ロニキス] et les autres, retournés
 au présent, ont synthétisé le
-sérum au vaisseau.[page]
+sérum à bord du vaisseau.
+Produit en masse, le sérum a été
+livré sans encombre sur Roak.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="77">[mode8][0x0][nick:ミリー][br]
@@ -404,22 +405,22 @@ sérum au vaisseau.[page]
 [nick:ドーン][br]
 [speed][0xa]...[speed][0x0] Je[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
-Tu es guérit.[page]
+Tu es guéri.[page]
 [nick:ドーン][br]
 Je vois ça. Alors vous l'avez
 vraiment fait.[page]
 [nick:ラティ][br]
-Oui, tout le monde est guérit
+Oui, tout le monde est guéri
 à présent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="78">[nick:ドーン][br]
-Super. Je reprends ma boite
+Super. Je reprends ma boîte
 à musique dans ce cas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">[nick:ミリー][br]
-Quoi ? Tu me la donnes ?[page]
+Hé ! Tu me l'as donnée, elle est à moi ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[nick:ドーン][br]

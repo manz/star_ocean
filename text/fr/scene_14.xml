@@ -9,7 +9,7 @@ Il semblerait que ça prenne un petit peu plus de temps.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Docteur[br]
-Je crois que que le capitaine vous attend sur le pont. Vous n'avez qu'à prendre l'ascenseur de gauche.[page]
+Je crois que le capitaine vous attend sur le pont. Vous n'avez qu'à prendre l'ascenseur de gauche.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">Docteur[br]
@@ -33,13 +33,13 @@ Très bien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ロニキス][br]
-Bon, vous voilà parmi nous et je n'ai pas vraiment voix au chapitre. Tant qu'à être ici, que diriez-vous d'une petite visite du vaisseau ?[page]
+Bon, inutile de rester ici. Tant qu'à faire, que diriez-vous d'une petite visite du vaisseau ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:イリア][br]
 Capitaine, c'est une violation du traité de protection ![page]
 [nick:ロニキス][br]
-C'est un peu tard pour dire ça, ne crois-tu pas ? Fais leur faire le tour du propriétaire. Je serai sur le pont.[page]
+C'est un peu tard pour dire ça, ne crois-tu pas ? Fais-leur faire le tour du propriétaire. Je serai sur le pont.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:イリア][br]
@@ -47,7 +47,7 @@ Capitaine ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[nick:イリア][br]
-Allez, du balais ![page]
+Oh, celui-là ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ミリー][br]
@@ -57,7 +57,7 @@ Minute papillon. Le docteur a quelque chose à vous dire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:ミリー][br]
-Oui, madame.[page]
+D'accord.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Docteur[br]
@@ -75,7 +75,7 @@ Je croyais que votre médecine était très avancée ! Vous êtes sûr d'avoir t
 [end]</sn:pointer>
 
 <sn:pointer id="16">Docteur[br]
-Mademoiselle, même si notre technologie médicale très développée, il existe des situations où nous sommes totalement impuissants[speed][0x14]...[speed][0x0][page]
+Mademoiselle, c'est justement parce que notre médecine est très avancée que nous savons que c'est impossible[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Docteur[br]
@@ -90,7 +90,7 @@ Mais[speed][0x14]...[speed][0x0] Ça ne signifie pas que tout est perdu.[page]
 
 <sn:pointer id="19">Docteur[br]
 En étudiant sa structure, nous pouvons dire qu'il est d'origine naturelle.[page]
-Par conséquent, si nous pouvions trouver le patient zéro, en d'autres termes le premier porteur de la maladie, et que nous puissions avoir un échantillon de son sang, nous pourrions élaborer un antidote.  [page]
+Par conséquent, si nous pouvions trouver le patient zéro, en d'autres termes le premier porteur de la maladie, et que nous puissions avoir un échantillon de son sang, nous pourrions élaborer un sérum.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ミリー][br]
@@ -112,7 +112,7 @@ Mais ça ne sera pas si simple. Resonia ne nous renseignera jamais sur le patien
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:イリア][br]
-Exact. Mais il faudrait déjà commencer par savoir si c'est bien sur la planète Roak que le virus a été utilisé pour la première fois.[page]
+Oui. Mais la vraie question, c'est pourquoi utiliser cette arme chimique sur la planète Roak.[page]
 [nick:ラティ][br]
 La planète Roak ?[page]
 [end]</sn:pointer>
@@ -155,7 +155,7 @@ Qu'essaies-tu de dire, [nick:イリア] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:イリア][br]
-C'est juste une hypothèse, mais peut-être qu'il y a quelque chose à gagner à pétrifier les habitants de Roak ? S'il y en avait une, ça expliquerait la raison pour laquelle Resonia a lancé son arme chimique sur Roak.[page]
+C'est juste une hypothèse, mais peut-être qu'il y a quelque chose à gagner à pétrifier les habitants de Roak ? S'il y en avait un, ça expliquerait la raison pour laquelle Resonia a lancé son arme chimique sur Roak.[page]
 [nick:ロニキス][br]
 Quel bénéfice en tirer ?[page]
 [end]</sn:pointer>
@@ -189,7 +189,7 @@ En tout cas, si c'est bien ça, un certain nombre de statues devraient manquer s
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:イリア][br]
-Docteur, en dehors de tout ce qui peut être créé en changeant le sang en pierre, pourriez-vous faire une simulation sur votre ordinateur de ce qui peut être utilisé comme arme ?[page]
+Docteur, pourriez-vous simuler sur ordinateur les armes qu'on pourrait tirer de la substance que donne ce sang en se pétrifiant ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">Docteur[br]
@@ -250,7 +250,7 @@ Je[speed][0xf]...[speed][0x0] Je voudrais...
 [speed][0xf]...[speed][0x0]Passer mes derniers instants[speed][0xf]...[speed][0x0]
 Chez moi...[page]
 [nick:ロニキス][br]
-Qu'entends-tu par tes derniers instants[speed][0xa]...[speed][0x0] Tu vas juste t'endormir un petit moment.[page]
+Ne parle pas de derniers instants[speed][0xa]...[speed][0x0] Tu vas juste t'endormir un petit moment.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">[nick:ドーン][br]
@@ -260,7 +260,7 @@ Mais si vous n'obtenez pas le sérum[speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="55">[nick:ドーン][br]
-[speed][0x6]S'il vous plait...[speed][0x0][page]
+[speed][0x6]S'il vous plaît...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:ロニキス][br]
@@ -276,7 +276,7 @@ Oui, capitaine.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="59">[nick:ミリー][br]
-Laissez-nous accompagner [nick:ドーン], s'il vous plait.[page]
+Laissez-nous accompagner [nick:ドーン], s'il vous plaît.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="60">[nick:ロニキス][br]
