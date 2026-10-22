@@ -29,7 +29,10 @@ Measure with `uv run python -m tools.battle_bench [--profile]` (states `tests/st
 - The logic block (`C1:00D0`: `C1:36E9`, `C9:0000` actors, `C3:14B2`, `C1:80E5`, `CC:431A`, `C0:5121`, ...)
   runs every pass in a fight. Once `$0974` is set (battle won) and `$0975` is 0, it runs only when
   `$E4 & 3 == 0`, one pass in 4: the victory slow motion. That one pass carries about 6700 instructions
-  before the update (about 780 otherwise) and misses the IRQ: the chest-phase hitch every 8 frames.
+  before the update (about 780 otherwise).
+  - Tried (soft IPS, reverted): the block spread over 3 passes (C1:36E9 + actors 0-1, actors 2-3 + C3:14B2,
+    the rest; a copy of the C9:0000 loop in bank C9 padding `C9:FC86`). Still 17 late in `battle_chest`:
+    the late pass just moves, to the one where the cel streams burst. The logic block is not the cause.
   - `C9:0000`: actor slots `$7E:E100 + n * $100`, a handler each through a jump table (3375 instructions
     in that pass); `C0:5121` scans 64 slots of $20 at `$7E:B073`, `C1:80E5` 64 slots of $40 at `$7E:C073`
     (about 27 cycles per empty slot).
@@ -38,3 +41,7 @@ Measure with `uv run python -m tools.battle_bench [--profile]` (states `tests/st
   takes about 46 SPC cycles a packet, so a 75-byte send costs about 8% of a frame. Not the trigger: most
   late passes have no send.
 - `C1:0360` polls `$4212` bit 0: the joypad auto-read, about 3 lines after vblank.
+- Sprite pipeline, every pass (`battle_chest`): 5.6-8k instructions outside the waits, most in `C3:8D00-92FF`:
+  the OAM builder loop `C3:8F5E-9083` (about 55 instructions a sprite piece, about 41 pieces) and the cel
+  streamer `C3:917C` (about 32 streams, two H-blank waits each). Late passes are those where the cel streams
+  burst (`C3:91` / `C3:92` doubling); the pass then runs past its IRQ by more than the H-blank waits cost.
