@@ -157,6 +157,105 @@ OPS: dict[int, tuple[str, str]] = {
 }
 
 
+# op 0F services (C2:8B4C), by number: notes/text/scene_syscalls.md has what each does and how sure.
+SYSCALLS: tuple[str, ...] = (
+    "nop",
+    "actor_vanish",
+    "actor_appear",
+    "actor_vanish_b",
+    "actor_appear_b",
+    "palette_fade_build",
+    "palette_fade_build_alt",
+    "palette_fade_play",
+    "screen_shake",
+    "screen_shake_stop",
+    "give_actor_item",
+    "give_item",
+    "effect_preset",
+    "obj_frame_load",
+    "obj_frame_load_wide",
+    "obj_sheet_load",
+    "special",
+    "fx_channel_a",
+    "fx_channel_b",
+    "take_item",
+    "add_fol",
+    "actor_jump",
+    "actor_in_box",
+    "actor_fade_out",
+    "actor_vanish_shake",
+    "screen_set_main_sub",
+    "screen_set_window_main_sub",
+    "text_window_force_pos",
+    "actor_set_move_bounds",
+    "hero_force_run",
+    "party_heal_living",
+    "party_heal_all",
+    "vram_load_sdd1",
+    "vram_restore",
+    "vram_save",
+    "cgram_load_7f",
+    "cgram_load_palette",
+    "bg_freeze",
+    "bg_unfreeze",
+    "bg_set_scroll",
+    "color_math_set",
+    "palette_buffer_tint",
+    "screen_close_effect_frame",
+    "party_member_set_away",
+    "party_member_clear_away",
+    "sin",
+    "cos",
+    "sound_source_set_tile",
+    "walk_slow_on",
+    "walk_slow_off",
+    "spawn_attr_0",
+    "spawn_attr_2",
+    "spawn_attr_3",
+    "actor_spawn_icon_copy",
+    "leader_spawn_get_icon",
+    "ambient_event_roll",
+    "set_param_block",
+    "party_bond_inc",
+    "scroll_wave",
+    "party_remove_member",
+    "roster_count",
+    "party_count_active",
+    "party_get_ids",
+    "set_mosaic",
+    "party_damage_all",
+    "palette_buffer_op",
+    "map_flags_set",
+    "map_flags_clear",
+    "sdd1_dma_to_wram",
+    "flag2_on",
+    "inventory_drop_type12",
+    "battle_no_game_over",
+    "keep_sound_on_next_map",
+    "party_restore_hp",
+    "party_restore_mp",
+    "party_add_sp",
+    "inventory_stash",
+    "inventory_keep_key_items",
+    "inventory_unstash",
+    "party_solo",
+    "party_restore_solo",
+    "char_restore_hp",
+    "char_restore_mp",
+    "set_var15",
+    "get_party_specialty_0a",
+    "sound_signal",
+    "display_reset",
+    "mark_game_cleared",
+    "get_game_cleared",
+    "count_ladies_first",
+    "party_hp_to_1",
+    "char_learn",
+    "remove_items_1ee_1f1",
+    "flag2_clear",
+)
+
+
 @dataclass(frozen=True)
 class Entry:
     kind: int
@@ -425,8 +524,15 @@ def listing(data: bytes, messages: dict[int, str], show_bytes: bool = False) -> 
 
 def _line(data: bytes, ins: Instruction, messages: dict[int, str], show_bytes: bool) -> str:
     raw = f" {data[ins.offset : ins.offset + ins.size].hex(' '):<30}" if show_bytes else ""
-    text = f"  ; {messages[ins.message]}" if ins.message in messages else ""
+    text = f"  ; {messages[ins.message]}" if ins.message in messages else _syscall(ins)
     return f"  {ins.offset:04x}{raw}  {ins.name} {', '.join(ins.operands)}".rstrip() + text
+
+
+def _syscall(ins: Instruction) -> str:
+    arg = ins.args[0] if ins.name == "syscall" else None
+    if isinstance(arg, Value) and arg.table == "imm" and arg.n < len(SYSCALLS):
+        return f"  ; {SYSCALLS[arg.n]}"
+    return ""
 
 
 def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> None:

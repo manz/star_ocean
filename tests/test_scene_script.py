@@ -1,5 +1,5 @@
 from tools.dialog import SCENES
-from tools.scene_script import STRAY_TAIL_SCENES, Reader, disassemble, header, listing, scene_data
+from tools.scene_script import STRAY_TAIL_SCENES, SYSCALLS, Reader, disassemble, header, listing, scene_data
 
 
 def value(raw: str) -> str:
@@ -53,3 +53,11 @@ def test_set_renders_store() -> None:
 def test_listing_shows_message_text() -> None:
     lines = listing(scene_data(80), {10: "Entrer les quatre lettres"})
     assert any(line.endswith("say_mode1 10  ; Entrer les quatre lettres") for line in lines)
+
+
+def test_listing_names_syscalls() -> None:
+    assert any(line.endswith("syscall 22  ; actor_in_box") for line in listing(scene_data(80), {}))
+
+
+def test_one_name_per_syscall() -> None:
+    assert len(SYSCALLS) == len(set(SYSCALLS)) == 94
