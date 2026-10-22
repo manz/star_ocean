@@ -36,6 +36,7 @@ C218FE	scene_vm_compare	data				comparators: 0 == 1 > 2 < 3 != 4 >= 5 <= 6 truth
 C21C47	text_message_select_event					event op path: same `lda $B873,x / adc #$B873 / sta $03D5` as text_message_select (patched: sram_text)
 C21C72	scene_vm_say_mode	function				say ops: window mode in A then the message (0D/0E/25/39/3C)
 C21CAC	text_message_select					X=msg*2: $03D5 = $B873 + [$B873+X]; hook point to stream one message into the buffer
+C21CBD	scene_op_syscall	function				op 0F N: jsl C2:8B46 with X = N*2, A = var.w[0]; services take var.w[2..], answer in $0278
 C22112	scene_op_map_change	function				op 24 map,kind,x,y,facing -> $0461/$045A/$0463 x*8/$0465 y*8-16/$0467; fade request, VM stopped (C2:21F7)
 C2310C	scene_vm_value	function				operand value: F0-FF run, bit7 var ($7E:FEC3+i) / bit6 sys (C2:383F), else imm (t&3)+1 bytes
 C236E2	scene_events_init	function				scene load: entries -> $7E:E613+kind*0x100+(id*2&FF), pc = header end + [$3102], stack $FFF2, one VM pass
@@ -53,6 +54,9 @@ C263A0	text_blit_glyph	function	0	0		A=glyph: FF:(A*32) 16x16 1bpp (L col 16B, R
 C26791	narration_line_load	function				text-VM op: S-DD1 line image for screen $03E6, line $0490 -> VRAM 5940/5AE0/5C80/5E20 + palette -> $03E0
 C2681A	narration_table	data				13 x 16B: four 3B S-DD1 line ptrs (E3FFF7=blank), 3B palette ptr (colours 1-3 at +2), pad. 0x340 B/line = 208x16 2bpp cells
 C268EE	text_code_hi	function	0	0		handler for codes >= 0x140 (TBD)
+C28B46	scene_syscall	function				jsr (C2:8B4C,x); rtl
+C28B4C	scene_syscalls	data				94 syscall services (op 0F), word per N
+C28F74	scene_syscall_22_in_box	function				actor var.w[0] tile x in var.w[2..6], y in var.w[4..8] -> $0278 = 1/0
 C2FDF0	title_anim_stream	function				S-DD1 0x40-byte streams -> $7F:E000.. on title/name screens
 C3917C	obj_anim_stream	function				per-frame S-DD1 sprite frame streams -> $7F:E000.. (OBJ staging)
 C60911	scene_load	function				scene/map loader; unpacks map/gfx/script blobs via unpack
