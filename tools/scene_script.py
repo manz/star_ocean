@@ -2,8 +2,8 @@
 
 Event data (scene record +0, LZ, unpacked to $7E:3100):
 
-- header: u16 length, u16 0, then (kind, id, u16 address) trigger entries up to an FF. Addresses and jump operands
-  are relative to the header's end.
+- header: u16 length, u16 start-up offset (0 everywhere), then (kind, id, u16 address) trigger entries up to an FF.
+  Addresses and jump operands are relative to the header's end (notes/text/scene_triggers.md).
 - the code right after the header is the scene's start-up: it calls the setup (which branches on `sys.w[0xc]`, the
   map id) then loops on `wait 1`.
 - code: an opcode byte, then its operands.

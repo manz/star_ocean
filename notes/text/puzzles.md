@@ -15,3 +15,7 @@ Puzzles whose answer is spelled in the dialog: the French words change the answe
   `01` and between terms, `80 nn` byte var, `81 nn` word var, `00 nn` / `01 lo hi` constants (as read here).
 - FR set 4 is `A I G A`: G slot 3, A slot 1 or 4, I slot 2. Letter 2's test becomes a second `set == 4`, so
   either A passes.
+- The edited events are written over the original block at `$E6:D54D` (it packs 3 bytes smaller). A first build
+  moved them to ROM pages 6-7, which the game's `unpack` cannot read: the scene loaded open bus.
+- The console is the room's A-button script (entry 2/0x7F, L00be): map 164, `var.w[0x10] == 144`, hero inside the
+  `op_0f` box. Not yet played to the door in the emulator.

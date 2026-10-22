@@ -12,4 +12,5 @@ every file back to the ROM bytes.
 | `tables.md` | glyph / control tables, confidence |
 | `legacy.md` | old French project: versions, tag mapping, import |
 | `puzzles.md` | word puzzles: scene 80 console, event-data edits |
-| `scene_vm.md` | scene event VM: dispatcher, operands, `tools.scene_script` |
+| `scene_vm.md` | scene event VM: dispatcher, operands, opcodes, `tools.scene_script` / `scene_asm` |
+| `scene_triggers.md` | event header, what fires each entry, map change (op 24), reaching a map in a test |
