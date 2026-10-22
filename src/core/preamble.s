@@ -8,6 +8,12 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
+; Bank $C1 padding: battle loop code reached with `jsr` from its own bank (src/engine).
+.pool code_c1 {
+    range 0xC1FF4D 0xC1FFFF
+    strategy order
+}
+
 ; Bank padding the menu code can reach with `jsr` from its own bank.
 .pool code_c6 {
     range 0xC6FE63 0xC6FFFF
