@@ -28,43 +28,42 @@ Hey, mais c'est ceux de tout à l'heure ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">???[br]
-Quoi ? Vous aviez déjà donné ce job ?
-Alors, ce n'est pas à moi de le faire.[page]
+Quoi, c'était déjà promis à d'autres ? Alors je n'ai rien à faire ici.[page]
 Badam[br]
-Ils n'étaient pas à la hauteur, alors je[speed][0xa]...[speed][0x0] Ils semblaient [color][0x3]faibles[color][0x2].[page]
+C'est qu'ils ne m'inspiraient pas confiance[speed][0xa]...[speed][0x0] Ils ont l'air si [color][0x3]faibles[color][0x2] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">???[br]
-Okay, j'vais leur filer une bonne épée. Alors, ça devrait le faire, non ?[page]
+Bon. Je lui prête mon épée de rechange. Ça vous va ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Vous obtenez [color][0x6][item][0xfd][0x14][color][0x2] et [color][0x6][item][0xb][0x15][color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Badam[br]
-Hey, une minute[speed][0xa]...[speed][0x0] Allez-y ensemble. Ça ira dans ce cas. J'le sentais pas s'ils y allaient seuls.[page]
+Hé, attendez[speed][0xa]...[speed][0x0] Accompagnez-les, vous aussi. Comme ça, d'accord. Seuls, ils ne me rassurent pas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">???[br]
-Bon d'accord.[page]
+Hmm, soit.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">???[br]
-Comme ça, vous voulez aussi aller à [color][0x4]Portmith[color][0x2], c'est ça ?[page]
+Voilà qui est réglé. Vous aussi, vous voulez aller à [color][0x4]Portmith[color][0x2], pas vrai ?[page]
 [nick:ラティ][br]
 Merci.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">???[br]
-De rien. Je suis [nick:シウス] Warren. Enchanté.[page]
+On s'entraide. Je suis [nick:シウス] Warren. Enchanté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ラティ][br]
-Enchanté M. Warren. Je suis [nick:ラティ] Farrence.[page]
+Moi, c'est [nick:ラティ] Farrence. Enchanté, monsieur Warren.[page]
 [nick:シウス][br]
-Pas de ça entre nous. Appelle-moi juste [nick:シウス].[page]
+Oh là, pas de manières. Appelle-moi [nick:シウス].[page]
 [nick:ラティ][br]
-D'accord.[page]
+Alors, tutoie-moi aussi, d'accord ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:イリア][br]
@@ -72,8 +71,8 @@ Je suis [nick:イリア] Silvestoli, mais pour toi ce sera [nick:イリア] ! En
 [end]</sn:pointer>
 
 <sn:pointer id="16">Badam[br]
-Dans ce cas, revenez demain après-midi et je vous donnerai le [color][0x6]laissez-passer[color][0x2].
-Voilà de quoi vous payer une nuit d'hôtel.[page]
+Bon, je vous remettrai le [color][0x6]laissez-passer[color][0x2] demain midi, revenez donc demain.
+Voilà pour l'auberge.[page]
 Vous recevez [color][0x5]200[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
@@ -264,27 +263,27 @@ Oh, ces boucles-là ? C'est du toc. Allez-y, prenez-les.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="58">Badam[br]
-Bienvenue... Oh♪ Vous êtes des aventuriers ? J'aurais ptet un travail pour vous.[page]
+Bienvenue... Oh ♪ Des aventuriers ! Vous voulez bien m'écouter un instant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">1. D'accord.[br]
+<sn:pointer id="59">1. Je vous écoute.[br]
 2. Sans façon.[br]
 3. Nous venons acheter.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="60">Badam[br]
-Veuillez revenir demain.[page]
+Revenez demain.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="61">Badam[br]
-Assurez-vous de bien me le rapporter de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
+Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:シウス][br]
 Et voilà.[page]
 Badam[br]
 Oh ♪ Vous avez fait vite. Tenez, votre récompense.[page]
-[color][0x5]600[color][0x2] Fol reçu.[page]
+Vous recevez [color][0x5]600[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">Badam[br]
@@ -411,18 +410,18 @@ Marathon, couteau de cuisine, dessin et siffler.[page]
 <sn:pointer id="93">[end]</sn:pointer>
 
 <sn:pointer id="94">Badam[br]
-Alors, je voudrais que vous me rapportiez quelque chose de l'armurerie de [color][0x4]Portmith[color][0x2]. C'est que le chemin du mont Métox est devenu dangereux ces derniers temps...[page]
-Bien sûr vous serez rétribués et je vous garantis l'obtention d'un laissez-passer pour [color][0x4]Portmith[color][0x2], ce qui déjà n'est pas si mal.[page]
+En fait, j'aimerais que vous me rapportiez quelque chose de l'armurerie de [color][0x4]Portmith[color][0x2]. Le chemin du mont Métox est devenu dangereux ces derniers temps.[page]
+Bien sûr, vous serez payés, et je vous fournis un laissez-passer pour [color][0x4]Portmith[color][0x2]. Pas mal, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="95">[nick:イリア][br]
-[color][0x4]Portmith[color][0x2] ???[page]
+[color][0x4]Portmith[color][0x2]... ?[page]
 Badam[br]
-C'est la ville au nord d'ici.[page]
+C'est une ville au nord d'ici.[page]
 [nick:イリア][br]
-Faut-il un [color][0x6]laissez-passer[color][0x2] ?[page]
+Il faut un [color][0x6]laissez-passer[color][0x2] ?[page]
 Badam[br]
-Oui.[page]
+Eh oui.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="96">1. Accepter la mission[br]
@@ -434,15 +433,15 @@ Oui.[page]
 <sn:pointer id="98">Badam[br]
 C'est gentil, mais il vous faudrait au moins des armes dignes de ce nom.[page]
 [nick:イリア][br]
-Oh, bon. Nous reviendrons.[page]
+Tant pis. Repassons plus tard.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="99">Badam[br]
-Je vois.[page]
+Ah... bon.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="100">Badam[br]
-Je vois.[page]
+Ah... bon.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="101">Badam[br]
@@ -452,22 +451,22 @@ Bienvenue.[page]
 <sn:pointer id="102">[end]</sn:pointer>
 
 <sn:pointer id="103">Badam[br]
-Notre petit arrangement était valable avant hier. Enfin, faisons vite.[page]
+C'était prévu pour avant-hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="104">Badam[br]
-Notre petit arrangement était valable hier. Enfin, faisons vite.[page]
+C'était prévu pour hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="105">Badam[br]
-Combien de temps allez-vous me faire attendre ?[page]
+Vous allez me faire attendre combien de jours ?! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="106">Badam[br]
-Tenez, c'est le [color][0x6]laissez-passer[color][0x2].[page]
+Tenez, voici le [color][0x6]laissez-passer[color][0x2].[page]
 Vous obtenez le [color][0x6]laissez-passer[color][0x2].[page]
 Badam[br]
-Assurez-vous de bien me le ramener de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
+Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="107">[nick:ペリシー][br]
@@ -486,11 +485,11 @@ Il y a un problème ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="109">[nick:ラティ][br]
-J'vous ai rapporté une statue de lapin, vous vous souvenez ?[page]
+Vous vous souvenez de la statue qu'on vous a rapportée ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="110">Badam[br]
-Oui, c'est juste, celle-là. Et alors ?[page]
+Ah, celle-ci ? Qu'est-ce qu'elle a ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="111">[nick:ペリシー][br]
@@ -500,7 +499,7 @@ Hein[speed][0xa] ?![speed][0x0] Un lapin ?[page]
 [nick:ペリシー][br]
 C'est mon ami, rendez-le-moi !![page]
 Badam[br]
-Nan, mais c'est une blague[speed][0xa]...[speed][0x0][page]
+Tu en as de bonnes, toi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="112">[nick:ペリシー][br]
