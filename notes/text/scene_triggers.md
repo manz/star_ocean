@@ -22,7 +22,9 @@ How a scene's event data starts, what runs its trigger scripts, and how to reach
 | zone table `$EB8E + 5n` | C6:54BB while walking: hero tile against x1, y1, x2, y2 for each zone, `$0241` the table end | exits, probably kind 2 0x24-0x26 in scene 80 |
 
 Which opcode fills the zone table, and kind 0, are not traced yet. The A handler tests the hero's position itself:
-scene 80's checks boxes with `op_0f 22` over `var.w[0..8]` (8 px units, like op 24), then `sys.w[7] == 1`.
+scene 80's script calls syscall 22 (C2:8F74): is actor `var.w[0]` (record `$7E:2000 + n * 0x40`) inside tiles x
+`var.w[2]..var.w[6]`, y `var.w[4]..var.w[8]`, tile x = `$2013 / 8`, tile y = `($2016 + $200A - 16) / 8`. Then
+`sys.w[7] == 1`: in game the console answers only with the hero facing up, so likely the result or the facing.
 
 ## Map change: op 24 (C2:2112)
 
@@ -36,7 +38,8 @@ Kind 0 requests the fade out (`$04A0 = 0x100`, `$049D |= 0x80`); kind 2 also wor
 Load a save into the field, write `24 map, 0, x, y, facing; loop: wait 1; goto loop` (`tools.scene_asm`) into the
 scene's event buffer, point `$0238` at it with `$0234 = 1`, `$0231 = 0`. The game then fades out and arrives as on a
 real door: name banner, actors and the scene's start-up. Story variables (`$7E:FEC3 + index`) can be set before.
-Example: scene 80's console room is map 164 at (8, 8) facing 2 with `var.w[0x10] = 144`.
+Example: scene 80's console room is map 164 at (8, 8) facing 2 with `var.w[0x10] = 144`; `tests/warp.py` does it
+and `tests/test_scene80.py` plays the console from there.
 
 Writing a scene's event data to `$3100` and pointing the pc into it (the first attempt) skips the start-up: no
 sprites, wrong camera.

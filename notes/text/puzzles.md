@@ -18,4 +18,6 @@ Puzzles whose answer is spelled in the dialog: the French words change the answe
 - The edited events are written over the original block at `$E6:D54D` (it packs 3 bytes smaller). A first build
   moved them to ROM pages 6-7, which the game's `unpack` cannot read: the scene loaded open bus.
 - The console is the room's A-button script (entry 2/0x7F, L00be): map 164, `var.w[0x10] == 144`, hero inside the
-  `op_0f` box. Not yet played to the door in the emulator.
+  syscall 22 box facing up. `tests/test_scene80.py` plays it in game: GAÏA with either A opens the door (the branch
+  increments `var.w[0x10]`) and the reveal shows GAÏA ?; a wrong third letter does not.
+- The letter vars hold the original slots (1-4), though each menu lists only the slots left, renumbered.
