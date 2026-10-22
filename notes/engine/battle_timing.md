@@ -51,3 +51,9 @@ the unpatched ROM.
 - `AUDIO_DEFERRED` (`src/engine/audio_defer.s`, off): the line-258 IRQ marks the send, `C0:84AB` sends it if the line
   is under 160 (latched `$2137` / `$213D`, `$4201` bit 7 set), else the next IRQ does. Streams stay contiguous.
   busy 29 -> 26, chest 11 -> 13; without audio at all (ceiling) 23 / 7. Sending past line ~190 eats the DMA window.
+- Names (`C0:3FA3` draws one into the window tilemaps `$7E:5100` / `5900`): five copies of a reader (`C0:3FBC`, `40BF`,
+  `41F1`, `49CF`, `CA:BE03`) scan the 893 ids at `D7:06FA` one at a time, about 8 us each: 0.73 ms a name. Window
+  redraws `C1:5619` (3 names) and `C1:59D5` (about 4) push passes to 3 frames. The ids are 20 runs of consecutive
+  values; `NAME_INDEX` (`src/engine/name_index.s`) finds the run: `C0:3FA3` 0.73 -> 0.11 ms, `C1:5619` 5.0 -> 1.8 ms,
+  `C1:59D5` 7.5 -> 5.8 ms. Timeline (A mashed, 300 frames): 3-frame passes 16 -> 12. Bench: busy 29 late either way,
+  steps 222 -> 258, caught up 18 -> 31; chest unchanged. Left in `C1:59D5`: `C0:4501` and `C1:517D`.
