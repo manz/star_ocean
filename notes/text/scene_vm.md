@@ -50,3 +50,16 @@ m (checked in game on scene 80's reveal).
 
 All 94 scenes sweep clean (scenes 2, 52, 76 end in one stray 0x80) and re-encode to their bytes; 28k traced
 instructions from five saves land on instruction starts with the expected lengths.
+
+## Coverage
+
+`uv run python -m tools.scene_walk [SCENE ...]` walks each scene from its start-up and every header entry,
+following goto / call / if: 99.3% of the code bytes are reached, and every reached instruction starts where the
+linear sweep put one. What is left:
+
+- 105 single FF bytes: the `end` after a `goto` (the start-up loop's, mostly); the stray 0x80 ending scenes 2, 52, 76.
+- About 90 dead `goto` / second `ret` right after a `ret` (3 or 1 bytes): compiler leftovers.
+- Whole blocks nothing enters: scene 1 `03fc` (spare warps), 3 `045e` (432 bytes), 11 `123c` (546 bytes, messages
+  56-67, "Un peu plus tard..."), 55 `02c2` (messages 8-10, an audience with the king), 60 `1cd9` (messages 85-87),
+  91 `0251`; and 81 `1e25` (message 50). Their messages never show: low priority for the translation.
+- Scene 94 `00da` adds a `trigger_zone` for entry 2/0x20, which its header lacks: that zone does nothing.
