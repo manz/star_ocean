@@ -26,7 +26,7 @@ Dans un endroit pareil...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ロニキス][br]
-Ouais.[page]
+Oui.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ミリー][br]
@@ -58,7 +58,7 @@ Allez, c'est parti ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ミリー][br]
-Ha, te voilà.[page]
+Tiens, c'est pour toi.[page]
 [nick:ラティ][br]
 Hein ?[page]
 [nick:ミリー][br]
@@ -83,11 +83,11 @@ N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">[nick:ロニキス][br]
-Qu'est-ce que tu vas faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
+Qu'est-ce que tu vas faire, [nick:ラティ] ? Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ミリー][br]
-Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
+Fonçons vite dans le monde démoniaque pour sauver [nick:ドーン].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:ミリー][br]
@@ -111,11 +111,11 @@ Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:フィア][br]
-Nous n'allons plus dans le monde démoniaque?[page]
+Nous n'allons plus dans le monde démoniaque ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:フィア][br]
-[speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
+[speed][0xa]...[speed][0x0] On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:ヨシュア][br]
@@ -155,7 +155,7 @@ Dans ce cas, allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[nick:イリア][br]
-Tu t'es bien reposé, [nick:ラティ] ? En route pour le[color][0x4]temple de Parj[color][0x2].[page]
+Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:イリア][br]
@@ -163,11 +163,11 @@ Bien, allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:ロニキス][br]
-Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois de chaque royaume.[page]
+Bon, assez de repos. Allons demander audience aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:ロニキス][br]
-Faisons une pause, à présent.[page]
+Assez traîné.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:ミリー][br]
@@ -203,7 +203,7 @@ On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [col
 [end]</sn:pointer>
 
 <sn:pointer id="49">[nick:ヨシュア][br]
-On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+Pour obtenir l'Œil de la Vérité, ne devrions-nous pas finir nos audiences ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:ヨシュア][br]
