@@ -84,9 +84,9 @@ Ne serait-il pas mieux de vous équiper avant de quitter la ville ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:ラティ][br]
-D'accord, marché conclus.[page]
+Bon, d'accord, on achète.[page]
 Vieil homme[br]
-À bientôt.[page]
+Merci bien ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">???[br]
@@ -94,9 +94,9 @@ Dégage ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">???[br]
-Dis voir ! T'es pas en train de refourguer de la merde à des noobs qui pigent que dalle ?![page]
+Hé, minute ! Tu refourgues ta camelote à des bleus qui n'y connaissent rien, maintenant ?![page]
 Vieil homme[br]
-Oh ! Encore vous ? Vous sapez mon commerce.[page]
+Encore toi ? Tu me gâches le commerce ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">???[br]
@@ -104,15 +104,15 @@ La ferme ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">???[br]
-Vous êtes des aventuriers, non ? J'espère que vous savez que c'est une copie. Une des célèbres épées de l'Est est plus comme[speed][0x7]...[speed][0x0] ça ![page]
+T'es aventurier, toi aussi, non ? Ce truc, c'est du toc, forcément. Une grande épée de l'Est, c'est plutôt[speed][0x7]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">???[br]
-Vous laissez par arnaquer par cet armurier véreux. À plus.[page]
+Bref, voilà. Te laisse pas rouler par ce marchand d'armes pourri. Salut.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:イリア][br]
-Il a un problème, lui...[page]
+Il ne fait pas dans la dentelle, celui-là...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">Vieil homme[br]
