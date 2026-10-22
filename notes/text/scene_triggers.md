@@ -20,11 +20,21 @@ cleared block (`scene_opcodes.md`, Triggers).
 
 | entry | fired by |
 |---|---|
-| kind 2, id 0x7F (`$E911`) | A pressed in the field: C8:0000 (from C2:031B) pushes the pc and calls it, if the op at the pc is not FF |
-| kind 2, other ids | the hero stepping on a `trigger_tile` / `trigger_zone` (ops 21 / 22; scanners C6:53BD, C6:54BB), as a call |
+| kind 0, id n (`$E613 + n * 2`) | A pressed facing actor n: talk / examine, as a call (below) |
+| kind 2, id 0x7F (`$E911`) | A pressed with no talkable actor in front: C8:0000 (from C2:031B) pushes the pc and calls it, if the op at the pc is not FF |
+| kind 2, other ids | the hero stepping on a `trigger_tile` / `trigger_zone` (ops 21 / 22, 16 px cells; scanners C6:53BD, C6:54BB), as a call |
+| kind 2, id 0x7D (`$E90D`) | an actor watched by fx handler 6 touching the hero (scene 17's guards) |
 | kind 1 | an actor stepping on an `actor_trigger_tile` / `_rect` (ops 0B / 0C; C6:535B, C6:5446): run to the end (C2:1288) with the actor in `$0278` |
 
-Kind 0 is not traced yet. The A script tests what it needs itself: scene 80's checks the hero's facing first
+A in the field (C2:02FD): a box in front of the hero from a per-facing table (C2:0323), stretched across counter
+cells (attribute 0x15); C2:03FC finds an active actor 1-63 in it, skipping `+0x02` bit 3 (not talkable) and push
+objects (`+0x03` bit 4). On a hit the actor turns to the hero, `$2033` = its record, the pc is pushed and C2:04D2
+loads `$E613 + n * 2`; a zero entry falls through to the A script. A treasure-style actor (`+0x02` bit 1) goes
+through byte var[0x17] to an item popup (C2:0592) or its entry. While the arrival banner is up (`$048A` = 8) A
+only closes it. Checked on map 22: talking to woman 18 runs her `say_mode0 8` and not C8:0000; with her entry
+zeroed, C8:0000 runs.
+
+The A script tests what it needs itself: scene 80's checks the hero's facing first
 (`actor_get 0, 24` = `+0x18`, 0 up), then syscall 22 (C2:8F74): is actor `var.w[0]` (record `$7E:2000 + n * 0x40`)
 inside tiles x `var.w[2]..var.w[6]`, y `var.w[4]..var.w[8]`, tile x = `$2013 / 8`, tile y =
 `($2016 + $200A - 16) / 8`; `sys.w[7]` is `$0278`, its answer.
