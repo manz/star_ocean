@@ -39,25 +39,12 @@ map changes: `scene_triggers.md`.
 - `if` (07): then word, else word, condition list (C2:17C9): comparator (C2:18FE: 0 ==, 1 >, 2 <, 3 !=, 4 >=, 5 <=,
   6 one value truthy), its values, joiner (C2:17F7: 00 or, 01 and, FF end).
 
-## Opcodes read so far
+## Opcodes
 
-| op | name | what |
-|---|---|---|
-| 0D | say | message (1-2 byte index), window by speaker |
-| 0F | syscall | N: service N (0-93) of the table at C2:8B4C, A = `var.w[0]`, arguments in `var.w[0..]`; result in `$0278` (`scene_syscalls.md`) |
-| 0E / 25 / 39 / 3C | say_mode0/1/8/9 | message in window mode 0 / 1 / 8 / 9 (C2:1C72) |
-| 13 | wait | yield V frames |
-| 1A | store_result | `$0278` to a system variable |
-| 24 | (map change) | map, kind, x, y, facing: `scene_triggers.md` |
-| 30 | choose | choice window, yields; result to `sys[8]` |
-| 31 / 32 / 33 | flag_on / off / test | flags at `$7E:FE73` |
-| 35 | actor_get | actor field to `$0278` |
-| 4E | wait_text | re-runs until the window is done |
-| 5B | flag2_test | flags at `$7E:FE93` |
+Every handler is read: `scene_opcodes.md` (op 0F's services: `scene_syscalls.md`).
 
 Messages: the scene text table at `$B873` (`sram_text.s` copies the selected one there); message index m is XML id
-m (checked in game on scene 80's reveal). The other `op_NN` have their operand layout read from the handler, not
-their effect.
+m (checked in game on scene 80's reveal).
 
 ## Checked
 

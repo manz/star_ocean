@@ -18,7 +18,7 @@ actor off (`+0x00` bit 7).
 | N | name | what | |
 |---|---|---|---|
 | 1 / 3 | actor_vanish / _b | mode 1 / 3: `+0x2C` 0x10 → 1, `+0x2D` ramps down over 16 frames, then off (1 also sets `+0x0F` bits 0-1) | M |
-| 2 / 4 | actor_appear / _b | modes 2 / 4: the reverse, after the actor is created (`op_2b`) | M |
+| 2 / 4 | actor_appear / _b | modes 2 / 4: the reverse, after the actor is created (`actor_create`) | M |
 | 21 | actor_jump | `[2]` x speed (8.8), `[4]` height factor, `[6]` glide frames: mode 5 parabola; `[6] = 0xFFFF` mode 6, hop away and vanish | M |
 | 22 | actor_in_box | `$0278` = actor's tile in x `[2]..[6]`, y `[4]..[8]` (tile y = (`+0x16` + `+0x0A` - 16) / 8) | H |
 | 23 | actor_fade_out | mode 7: `+0x2C` 0x10 → 1, then off ("Ils sont partis") | M |

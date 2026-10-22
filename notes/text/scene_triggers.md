@@ -15,16 +15,19 @@ How a scene's event data starts, what runs its trigger scripts, and how to reach
 
 ## What fires an entry
 
-| entry | fired by | seen at |
-|---|---|---|
-| kind 2, id 0x7F (`$E911`) | A pressed in the field: C8:0000 (from C2:031B, in the VM's frame path) pushes the pc and calls it, if the op at the pc is not FF | scene 80 L00be |
-| kind 1 (`$E713 + x`) | C6:54A8: run to the end (C2:1288) with the pc saved and restored | not mapped to an id yet |
-| zone table `$EB8E + 5n` | C6:54BB while walking: hero tile against x1, y1, x2, y2 for each zone, `$0241` the table end | exits, probably kind 2 0x24-0x26 in scene 80 |
+The entry slices are `$E613` (kind 0), `$E713` (kind 1), `$E813` (kind 2); the trigger lists follow in the same
+cleared block (`scene_opcodes.md`, Triggers).
 
-Which opcode fills the zone table, and kind 0, are not traced yet. The A handler tests the hero's position itself:
-scene 80's script calls syscall 22 (C2:8F74): is actor `var.w[0]` (record `$7E:2000 + n * 0x40`) inside tiles x
-`var.w[2]..var.w[6]`, y `var.w[4]..var.w[8]`, tile x = `$2013 / 8`, tile y = `($2016 + $200A - 16) / 8`. Then
-`sys.w[7] == 1`: in game the console answers only with the hero facing up, so likely the result or the facing.
+| entry | fired by |
+|---|---|
+| kind 2, id 0x7F (`$E911`) | A pressed in the field: C8:0000 (from C2:031B) pushes the pc and calls it, if the op at the pc is not FF |
+| kind 2, other ids | the hero stepping on a `trigger_tile` / `trigger_zone` (ops 21 / 22; scanners C6:53BD, C6:54BB), as a call |
+| kind 1 | an actor stepping on an `actor_trigger_tile` / `_rect` (ops 0B / 0C; C6:535B, C6:5446): run to the end (C2:1288) with the actor in `$0278` |
+
+Kind 0 is not traced yet. The A script tests what it needs itself: scene 80's checks the hero's facing first
+(`actor_get 0, 24` = `+0x18`, 0 up), then syscall 22 (C2:8F74): is actor `var.w[0]` (record `$7E:2000 + n * 0x40`)
+inside tiles x `var.w[2]..var.w[6]`, y `var.w[4]..var.w[8]`, tile x = `$2013 / 8`, tile y =
+`($2016 + $200A - 16) / 8`; `sys.w[7]` is `$0278`, its answer.
 
 ## Map change: op 24 (C2:2112)
 

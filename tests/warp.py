@@ -39,7 +39,9 @@ def warp(emu: Emu, map_id: int, x: int, y: int, facing: int) -> None:
     """Map change to `map_id` at tile (x, y) in 8 px units, as `op 24 map, 0, x, y, facing`."""
     base = emu.read16(EVENTS)
     origin = base + 0x40  # inside the old scene's start-up, which the map change leaves anyway
-    code, _ = assemble([op("op_24", map_id, 0, x, y, facing), "idle", op("wait", 1), op("goto", "idle")], base, origin)
+    code, _ = assemble(
+        [op("map_change", map_id, 0, x, y, facing), "idle", op("wait", 1), op("goto", "idle")], base, origin
+    )
     emu.write_range(EVENTS + origin, code)
     emu.write_range(VM_PC, (0x3100 + origin).to_bytes(2, "little"))
     emu.write(VM_WAIT, 1)

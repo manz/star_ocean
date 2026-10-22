@@ -13,5 +13,6 @@ every file back to the ROM bytes.
 | `legacy.md` | old French project: versions, tag mapping, import |
 | `puzzles.md` | word puzzles: scene 80 console, event-data edits |
 | `scene_vm.md` | scene event VM: dispatcher, operands, opcodes, `tools.scene_script` / `scene_asm` |
+| `scene_opcodes.md` | every opcode: actors, triggers, camera, sound, party |
 | `scene_syscalls.md` | op 0F services: what each of the 94 does, shared party / item / PPU state |
 | `scene_triggers.md` | event header, what fires each entry, map change (op 24), reaching a map in a test |

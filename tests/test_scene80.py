@@ -33,7 +33,7 @@ def _console() -> Emu:
     set_var(emu, PROGRESS, ASKING)
     warp(emu, 164, 8, 8, 2)
     walk(emu, "RIGHT", 16)  # into the box syscall 22 tests: tiles x 11-13, y 8-9
-    walk(emu, "UP", 2)  # facing the console: the A script runs only then (its `sys.w[7] == 1` test, likely)
+    walk(emu, "UP", 2)  # facing up: the A script first tests the hero's facing (actor +0x18) == 0
     return emu
 
 
