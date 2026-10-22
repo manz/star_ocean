@@ -11,3 +11,4 @@ every file back to the ROM bytes.
 | `strings.md` | the four id-indexed string databases (menus, names, battle) |
 | `tables.md` | glyph / control tables, confidence |
 | `legacy.md` | old French project: versions, tag mapping, import |
+| `puzzles.md` | word puzzles: scene 80 console, event-data edits |
