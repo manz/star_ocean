@@ -9,6 +9,10 @@ empty one, and run the original body on a busy slot with X = that slot. Y is fre
 C5:035D finds an animation's current frame: entries of (duration byte, word) from [$BE], durations subtracted
 from the time $20 until it goes negative; 0 ends (time back to 0), $FF loops (new time). It walks with three
 `inc $BE` an entry; here Y walks, the subtraction stays in A: about 39 cycles an entry instead of 61.
+
+C3:8F5E places one sprite piece in OAM, about 20 a frame, testing the object's rotation ($FA, $FC) and flips
+($21 bits 7 and 6) on every piece. Objects without rotation or vertical flip get a loop without those tests; the
+rest, and the rare paths (piece off screen, OAM full), stay on the original code.
 """
 
 .import "core/preamble"
@@ -235,5 +239,132 @@ _loop:
         sta.b 0x20
         ldy.w #0x0000
         bra _first
+    }
+
+; C3:8F5E: one sprite piece. In: M8 X16, Y = the piece in the object's list, DB = $7E.
+    .alloc at 0xC38F5E size 4 {
+        jml oam_pieces
+    }
+
+    .alloc cel_call in code_c3 {
+"""C3:917C (sprite cel stream) for the piece loop: jsl here. Out: carry as C3:917C left it."""
+        jsr.w 0x917C
+        rtl
+    }
+
+    .alloc oam_pieces in code_c4 {
+"""C3:8F5E for objects without rotation or vertical flip; others go back to the original."""
+        lda.b 0x21
+        bmi _slow
+        ldx.b 0xFA
+        bne _slow
+        ldx.b 0xFC
+        beq _piece
+_slow:
+        lda.w 0x0000, y
+        sta.b 0x28
+        jml 0xC38F63
+_piece:
+        lda.w 0x0000, y
+        sta.b 0x28
+        ldx.b 0x10
+        bit.b 0x21
+; V = horizontal flip
+        rep #0x20
+        iny
+        lda.w 0x0000, y
+        sta.b 0x00
+        bvs _flip
+        clc
+        adc.b 0x22
+_x:
+        cmp.w #0xFFF0
+        bcs _x_in
+        cmp.w #0x0100
+        bcc _x_in
+        jml 0xC38FFC
+_flip:
+        lda.b 0x28
+        bne _flip16
+        lda.b 0x22
+        sec
+        sbc.b 0x00
+        sec
+        sbc.w #0x0008
+        bra _x
+_flip16:
+        lda.b 0x22
+        sec
+        sbc.b 0x00
+        sec
+        sbc.w #0x0010
+        bra _x
+_x_in:
+        ror.b 0x14
+        sta.b 0x00, x
+        inx
+        iny
+        iny
+        lda.w 0x0000, y
+        sta.b 0x00
+        clc
+        adc.b 0x24
+        sta.b 0x00, x
+        bpl _y_below
+        cmp.w #0xFFF0
+        bcs _y_in
+        jml 0xC39023
+_y_below:
+        cmp.w #0x00E0
+        bcc _y_in
+        jml 0xC39023
+_y_in:
+        inx
+        iny
+        iny
+        lda.b 0x30
+        bne _no_cel
+        jsl cel_call
+        bcc _next
+        asl.b 0x14
+        jml 0xC39096
+_no_cel:
+        lda.w 0x0000, y
+        ora.b 0x20
+        sta.b 0x00, x
+        inx
+        inx
+        iny
+        iny
+_next:
+        lda.b 0x28
+        lsr
+        ror.b 0x14
+        stx.b 0x10
+        cpx.w #0x1EFC
+        bne _room
+        jml 0xC39096
+_room:
+        sep #0x20
+        dec.b 0x16
+        bne _count
+; 8 pieces: their high-table bits go out
+        ldx.b 0x12
+        rep #0x20
+        lda.b 0x14
+        sta.b 0x00, x
+        stz.b 0x14
+        sep #0x20
+        inx
+        inx
+        stx.b 0x12
+        lda.b #0x08
+        sta.b 0x16
+_count:
+        dec.b 0x2E
+        beq _done
+        jmp.w _piece
+_done:
+        jml 0xC3908F
     }
 }

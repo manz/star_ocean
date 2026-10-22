@@ -43,3 +43,6 @@ the unpatched ROM.
 - `C1:0360` polls `$4212` bit 0: the joypad auto-read, about 3 lines after vblank.
 - `C5:035D`: animation frame lookup ((duration, word) entries from `[$BE]`, `$20` = time; 0 ends, `$FF` loops), about
   9 calls and 30 entries a frame; Y-indexed in `src/engine/battle_speed.s` (busy 29 -> 28 late).
+- `C3:8F5E`: OAM piece loop; objects without rotation (`$FA`, `$FC`) or vertical flip (`$21` bit 7) take a loop without
+  the per-piece tests (`src/engine/battle_speed.s`). Update `C3:8D3D` from 24 battle snapshots: 37.0% -> 36.2% of a
+  frame; too small for the bench to see (busy 28 -> 29, noise).

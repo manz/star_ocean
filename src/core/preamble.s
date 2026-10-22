@@ -14,6 +14,12 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
+; Bank $C3 padding: trampolines for battle code that calls into the sprite pipeline (src/engine).
+.pool code_c3 {
+    range 0xC3FFAD 0xC3FFFF
+    strategy order
+}
+
 ; Bank $C5 padding: battle code reached by `jml` (src/engine).
 .pool code_c5 {
     range 0xC5FF3A 0xC5FFFF
