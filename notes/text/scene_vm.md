@@ -1,7 +1,8 @@
 # Scene event VM
 
 `uv run python -m tools.scene_script NN [--edited] [--bytes]` lists scene NN's event data, with the French first
-line next to each message. The module docstring has the byte formats.
+line next to each message. The module docstring has the byte formats. `tools.scene_asm` encodes the same structures
+back (every scene re-encodes to its own bytes) and assembles scripts with labels from Python.
 
 - Dispatcher C2:1271 (per frame, until a yielding opcode), C2:1297 (runs to an FF). Opcode table C2:3769, indexed
   by opcode + 1. VM pc saved in `$0238`, frame countdown `$0234`, call stack at `($FE)`.

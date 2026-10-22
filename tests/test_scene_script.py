@@ -3,7 +3,7 @@ from tools.scene_script import STRAY_TAIL_SCENES, Reader, disassemble, header, l
 
 
 def value(raw: str) -> str:
-    return Reader(bytes.fromhex(raw), 0, 0).value()
+    return str(Reader(bytes.fromhex(raw), 0, 0).value())
 
 
 def test_immediate_byte() -> None:
@@ -28,7 +28,7 @@ def test_system_variable() -> None:
 
 def test_run_of_bare_bytes() -> None:
     r = Reader(bytes.fromhex("f2 16 0d 05"), 0, 0)
-    assert [r.value(), r.value(), r.value()] == ["22", "13", "5"]
+    assert [str(r.value()) for _ in range(3)] == ["22", "13", "5"]
 
 
 def test_scene_80_header_start_entry() -> None:

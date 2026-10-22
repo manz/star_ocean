@@ -29,7 +29,7 @@ import argparse
 import re
 import xml.etree.ElementTree as ET
 from collections.abc import Callable
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 
 from tools.lz import decode
 from tools.rom import ROOT, Rom
@@ -170,14 +170,114 @@ class Header:
     entries: tuple[Entry, ...]
 
 
+@dataclass(frozen=True)
+class Value:
+    """One operand value with its exact encoding: the type byte's other bits and the index width survive."""
+
+    table: str  # imm, var, sys, or byte (bare: an F0-FF run's head or one of the bytes it covers)
+    n: int  # the number, or the variable's index
+    size: int = 0  # t & 3: byte, word, long, dword
+    flags: int = 0  # the type byte's bits besides table and size (`set`'s store in bits 3-5)
+    run: int | None = None  # on a run head: how many bare bytes follow
+    wide: bool = False  # index in two bytes
+
+    def __str__(self) -> str:
+        if self.table in ("var", "sys"):
+            return f"{self.table}{SIZES[self.size]}[{self.n:#x}]"
+        return str(self.n)
+
+
+@dataclass(frozen=True)
+class Index:
+    """A message number (op `m`) or a system variable index (op `x`)."""
+
+    n: int
+    wide: bool = False
+
+
+@dataclass(frozen=True)
+class Jump:
+    target: int | str  # offset in the unpacked event data, or a label while assembling
+
+
+@dataclass(frozen=True)
+class Operator:
+    byte: int  # an expression token with bits 2-5 set
+
+    def __str__(self) -> str:
+        return EXPR_OPS.get(self.byte, f"op{self.byte:02x}")
+
+
+@dataclass(frozen=True)
+class Expression:
+    tokens: tuple[Value | Operator, ...]
+
+
+@dataclass(frozen=True)
+class Term:
+    compare: int
+    values: tuple[Value, ...]  # one for compare 6, else two
+
+    def __str__(self) -> str:
+        if self.compare == 6:
+            return str(self.values[0])
+        a, b = self.values
+        return f"{a} {COMPARE.get(self.compare, f'cmp{self.compare:02x}')} {b}"
+
+
+@dataclass(frozen=True)
+class Condition:
+    terms: tuple[Term, ...]
+    joiners: tuple[int, ...]  # between terms: 00 or, 01 and
+    end: int = 0xFF
+
+    def __str__(self) -> str:
+        parts = [str(self.terms[0])]
+        for joiner, term in zip(self.joiners, self.terms[1:], strict=True):
+            parts += [JOIN[joiner], str(term)]
+        return " ".join(parts)
+
+
+Operand = Value | Index | Jump | Expression | Condition
+
+
 @dataclass
 class Instruction:
     offset: int  # in the unpacked event data
     size: int
     name: str
-    operands: list[str]
-    targets: list[int] = field(default_factory=list)  # jump destinations, data offsets
-    message: int | None = None
+    args: list[Operand]
+    raw: bytes = b""  # a `db`'s bytes
+
+    @property
+    def targets(self) -> list[int]:
+        return [a.target for a in self.args if isinstance(a, Jump) and isinstance(a.target, int)]
+
+    @property
+    def message(self) -> int | None:
+        return self.args[0].n if self.name.startswith("say") and isinstance(self.args[0], Index) else None
+
+    @property
+    def operands(self) -> list[str]:
+        if self.name == "db":
+            return [self.raw.hex(" ")]
+        if self.name == "set":
+            dest, expr = self.args
+            assert isinstance(dest, Value) and isinstance(expr, Expression)
+            return [f"{dest} {STORES[(dest.flags >> 3) & 7]} {' '.join(map(str, expr.tokens))}"]
+        spec = OPS[NAMES[self.name]][1]
+        return [_text(kind, a) for kind, a in zip(spec, self.args, strict=True)]
+
+
+NAMES = {name: op for op, (name, _) in OPS.items()}
+
+
+def _text(kind: str, arg: Operand) -> str:
+    if isinstance(arg, Jump):
+        return label(arg.target) if isinstance(arg.target, int) else arg.target
+    if isinstance(arg, Index):
+        return f"sys[{arg.n:#x}]" if kind == "x" else str(arg.n)
+    return str(arg)
 
 
 def header(data: bytes) -> Header:
@@ -205,50 +305,48 @@ class Reader:
     def word(self) -> int:
         return self.byte() | self.byte() << 8
 
-    def index(self) -> int:
+    def index(self) -> Index:
         first = self.byte()
-        return first if first < 0x80 else (first & 0x7F) << 8 | self.byte()
+        return Index(first) if first < 0x80 else Index((first & 0x7F) << 8 | self.byte(), wide=True)
 
-    def value(self) -> str:
+    def value(self) -> Value:
         if self.run:
             self.run -= 1
-            return str(self.byte())
+            return Value("byte", self.byte())
         t = self.byte()
         if t >= 0xF0:
             self.run = t & 0x0F
-            return str(self.byte())
+            return Value("byte", self.byte(), run=self.run)
         if t & 0x80:
-            table = "sys" if t & 0x40 else "var"
-            return f"{table}{SIZES[t & 3]}[{self.index():#x}]"
-        return str(int.from_bytes(bytes(self.byte() for _ in range((t & 3) + 1)), "little"))
+            i = self.index()
+            return Value("sys" if t & 0x40 else "var", i.n, t & 3, t & 0x3C, wide=i.wide)
+        n = int.from_bytes(bytes(self.byte() for _ in range((t & 3) + 1)), "little")
+        return Value("imm", n, t & 3, t & 0x7C)
 
-    def jump(self) -> int:
-        return self.base + self.word()
+    def jump(self) -> Jump:
+        return Jump(self.base + self.word())
 
-    def expression(self, target: str, store: int) -> str:
-        stack = [target]
+    def expression(self) -> Expression:
+        tokens: list[Value | Operator] = []
         while (b := self.data[self.pos]) != 0xFF:
             if b & 0x3C:
                 self.pos += 1
-                stack.append(EXPR_OPS.get(b, f"op{b:02x}"))
+                tokens.append(Operator(b))
             else:
-                stack.append(self.value())
+                tokens.append(self.value())
         self.pos += 1
-        return f"{target} {STORES[store]} {' '.join(stack[1:])}"
+        return Expression(tuple(tokens))
 
-    def condition(self) -> str:
-        parts = []
+    def condition(self) -> Condition:
+        terms: list[Term] = []
+        joiners: list[int] = []
         while True:
             compare = self.byte()
-            if compare == 6:
-                parts.append(self.value())
-            else:
-                a, b = self.value(), self.value()
-                parts.append(f"{a} {COMPARE.get(compare, f'cmp{compare:02x}')} {b}")
+            terms.append(Term(compare, (self.value(),) if compare == 6 else (self.value(), self.value())))
             joiner = self.byte()
             if joiner not in JOIN:
-                return " ".join(parts)
-            parts.append(JOIN[joiner])
+                return Condition(tuple(terms), tuple(joiners), joiner)
+            joiners.append(joiner)
 
 
 def instruction(data: bytes, pos: int, base: int) -> Instruction:
@@ -257,30 +355,20 @@ def instruction(data: bytes, pos: int, base: int) -> Instruction:
         raise ValueError(f"unknown opcode {op:#04x} at {pos:#x}")
     name, spec = OPS[op]
     r = Reader(data, pos + 1, base)
-    ins = Instruction(pos, 0, name, [])
-    for kind in spec:
-        _operand(r, kind, ins)
-    ins.size = r.pos - pos
-    return ins
+    args = [_operand(r, kind) for kind in spec]
+    return Instruction(pos, r.pos - pos, name, args)
 
 
-def _operand(r: Reader, kind: str, ins: Instruction) -> None:
-    if kind == "v":
-        ins.operands.append(r.value())
-    elif kind == "j":
-        target = r.jump()
-        ins.targets.append(target)
-        ins.operands.append(label(target))
-    elif kind == "m":
-        ins.message = r.index()
-        ins.operands.append(str(ins.message))
-    elif kind == "x":
-        ins.operands.append(f"sys[{r.index():#x}]")
-    elif kind == "c":
-        ins.operands.append(r.condition())
-    else:  # e: the expression runs over the value just read (pushed first) and stores into it
-        store = (r.data[ins.offset + 1] >> 3) & 7
-        ins.operands[-1] = r.expression(ins.operands[-1], store)
+def _operand(r: Reader, kind: str) -> Operand:
+    readers: dict[str, Callable[[], Operand]] = {
+        "v": r.value,
+        "j": r.jump,
+        "m": r.index,
+        "x": r.index,
+        "c": r.condition,
+        "e": r.expression,
+    }
+    return readers[kind]()
 
 
 def label(offset: int) -> str:
@@ -294,7 +382,7 @@ def disassemble(data: bytes) -> tuple[Header, list[Instruction]]:
     out, pos = [], head.length
     while pos < len(data):
         if data[pos] not in OPS:
-            out.append(Instruction(pos, len(data) - pos, "db", [data[pos:].hex(" ")]))
+            out.append(Instruction(pos, len(data) - pos, "db", [], data[pos:]))
             break
         ins = instruction(data, pos, head.length)
         out.append(ins)
