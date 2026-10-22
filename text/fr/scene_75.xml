@@ -10,10 +10,10 @@
 
 <sn:pointer id="3">[end]</sn:pointer>
 
-<sn:pointer id="4">[color][0x6][item][0x13][0x97][color][0x2] obtenu.[page]
+<sn:pointer id="4">[color][0x6][item][0x97][0x13][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Mieux vaut ne pas laisser de traces de pas.[page]
+<sn:pointer id="5">Que nul bruit de pas ne s'élève.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">OXOOOXX, là où se lève le soleil.[page]
@@ -28,35 +28,34 @@ Pour plus tard ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Chancelier[br]
-Hum. C'est celle-ci.[page]
+Euh, rien, rien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Chancelier[br]
-Je dois contrôler tes aptitudes.[page]
+Je dois contrôler vos aptitudes.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Chancelier[br]
-Tu dois passer cette porte et trouver la sortie. Si tu échoues, l'épreuve est terminée. Si tu penses ne pas être prêt, tu peux revenir plus tard.[page]
-Ça me donne une idée ! On fera ça dans un vieux fort abandonné. Je vais rajouter quelques nains, une clepsydre et... Heu bref ! C'est quand tu veux...[end]</sn:pointer>
+Entrez par cette porte et atteignez la sortie : si vous y parvenez, l'épreuve est réussie. Si c'est trop dur, vous pouvez revenir à tout moment.[page][end]</sn:pointer>
 
 <sn:pointer id="11">Chancelier[br]
-Je t'attendrai à la sortie.[page]
+Je vous attendrai à la sortie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">Chancelier[br]
-Oh, tu as traversé le labyrinthe ! Excellent !! Bien, allons voir le roi[speed][0xa]...[speed][0x0][page]
+Oh, vous avez traversé le labyrinthe ! Excellent !! Bien, allons voir le roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Chancelier[br]
-Les monstres seront coriaces. Si tu penses que c'est trop dur, va t'entraîner dehors et reviens plus tard.[page]
+Les monstres seront coriaces. Si c'est trop dur, allez vous entraîner dehors et revenez plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Tu ne peux pas en porter plus.[page]
+<sn:pointer id="14">Vous ne pouvez pas en porter plus.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[end]</sn:pointer>
 
-<sn:pointer id="16">[center]Epreuve du labyrinthe[page]
+<sn:pointer id="16">[center]Labyrinthe du jugement[page]
 [end]</sn:pointer>
 
 </sn:script>

@@ -7,7 +7,7 @@ Mouahahah[speed][0xa]...[speed][0x0]VOUS NE PASSEREZ PAS ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:アシュレイ][br]
-Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] J'ai fini par me lasser d'attendre cette chance de te rencontrer ![page]
+Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] Il me tardait tant de te croiser ![page]
 Bouclier écarlate[br]
 QUI ÊTES-VOUS[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
@@ -63,7 +63,7 @@ VOUS NE PASSEREZ PAS ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:アシュレイ][br]
-Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] J'ai fini par me lasser d'attendre cette chance de te rencontrer ![page]
+Toi[speed][0xa]...[speed][0x0] ! L'ombre du Bouclier écarlate, non, d'Argasi !?[speed][0x1e][speed][0x0] Il me tardait tant de te croiser ![page]
 Bouclier écarlate[br]
 QUI ÊTES-VOUS[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
@@ -115,7 +115,7 @@ Il se passe quoi là ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:アシュレイ][br]
-Qu'est-ce qu'il s'est passé ? Ai-je attaqué un allié ?[page]
+Qu'ai-je fait ? Ai-je frappé mon ami ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:イリア][br]
@@ -123,7 +123,7 @@ Ce n'est pas l'ombre du Bouclier écarlate que nous avons vaincu ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">Bouclier écarlate[br]
-[speed][0xa]...[speed][0x0][nick:アシュレイ], ne sois pas troublée[speed][0xa]...[speed][0x0] Quand j'ai été capturé par le miroir de la réalité, c'est devenu ma destinée.[page]
+[speed][0xa]...[speed][0x0][nick:アシュレイ], ne sois pas troublé[speed][0xa]...[speed][0x0] Quand j'ai été capturé par le miroir de la réalité, c'est devenu ma destinée.[page]
 [nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Mais [speed][0xa]... ![speed][0x0][page]
 Bouclier écarlate[br]
@@ -133,7 +133,7 @@ Bouclier écarlate[br]
 <sn:pointer id="28">[nick:アシュレイ][br]
 Que dis-tu ?[page]
 Bouclier écarlate[br]
-Vite ! Mon ombre est à la recherche de l'épée sans lame, elle m'a été offerte par Ryas[speed][0xa]...[speed][0x0][page]
+Vite ! Mon ombre est à la recherche de l'épée sans lame, celle qui fut confiée à Ryas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:ラティ][br]
@@ -165,7 +165,7 @@ A-Attendez[speed][0xa]...[speed][0x0][page]
 Bouclier écarlate[br]
 [speed][0xa]...[speed][0x0] Merci d'avoir levé la malédiction[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
-Merci [speed][0xa]...?[speed][0x0][page]
+Merci[speed][0xa]... ?[speed][0x0][page]
 Bouclier écarlate[br]
 Aucune importance à présent[speed][0xa]...[speed][0x0] [color][0x4]Astral[color][0x2] court un grand danger.[page]
 [end]</sn:pointer>
@@ -179,7 +179,7 @@ Quoi ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">Bouclier écarlate[br]
-Vite ! Mon ombre est à la recherche de l'épée sans lame, elle m'a été offerte par Ryas[speed][0xa]...[speed][0x0][page]
+Vite ! Mon ombre est à la recherche de l'épée sans lame, celle qui fut confiée à Ryas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:ラティ][br]
@@ -199,7 +199,7 @@ Pourquoi nous avoir dit ça[speed][0xa]...[speed][0x0] c'est pas censé être un
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:イリア][br]
-En tout cas, on ne peut pas ignorer ce qu'il nous a dit. Il nous fait nous hâter.[page]
+En tout cas, on ne peut pas ignorer ce qu'il nous a dit. Il faut nous hâter.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[nick:ロニキス][br]
@@ -209,7 +209,7 @@ Nous retournons à [color][0x4]Astral[color][0x2] maintenant ? On arrivera à te
 [end]</sn:pointer>
 
 <sn:pointer id="45">[nick:ラティ][br]
-On ne pourrait pas utiliser l'[color][0x6]œil de vérité[color][0x2] ? C'est bien censé ouvrir des portails entre différents endroits, non ?[page]
+On ne pourrait pas utiliser l'[color][0x6]Œil de la Vérité[color][0x2] ? C'est bien censé ouvrir des portails entre différents endroits, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:イリア][br]
