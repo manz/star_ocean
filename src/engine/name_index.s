@@ -15,9 +15,11 @@ stay as they are; C8:1080 reads the entries after 0x1388 by position. Switched b
     NAME_ID := 0x20  ; direct page: the id the readers look for
     NAME_RUNS := 20
 
-; A reader's scan, `ldy #0 / rep #0x20` then the loop: 18 bytes, then the miss (`ply / plb / plp / rtl`) and,
-; four bytes later, the hit reading the offset at $0000,y.
     .macro find_name_at(address) {
+    """
+    A reader's scan, `ldy #0 / rep #0x20` then the loop: 18 bytes, then the miss (`ply / plb / plp / rtl`)
+    and, four bytes later, the hit reading the offset at $0000,y.
+    """
         .alloc at address size 18 {
             rep #0x20
             jsl name_find

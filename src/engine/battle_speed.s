@@ -20,8 +20,8 @@ rest, and the rare paths (piece off screen, OAM full), stay on the original code
 .if BATTLE_SPEEDUPS {
     BATTLE_FLAGS := 0xE2
 
-; One busy-slot test of an unrolled scan: A (8 bits) = the slot's first byte at X + offset.
     .macro test_slot(offset, next) {
+    """One busy-slot test of an unrolled scan: A (8 bits) = the slot's first byte at X + offset."""
         lda.w offset, x
         beq next
         ldy.w #offset

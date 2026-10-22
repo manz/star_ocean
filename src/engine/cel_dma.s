@@ -10,8 +10,8 @@ each stream's cost. Without it the battle runs faster on emulators, flash carts 
 .import "core/preamble"
 
 .if CEL_DMA_ANYTIME {
-; `lda #0x40 / bit $4212 / beq` before each `sta $4801`: a branch over the bit / beq.
     .macro skip_wait(address) {
+    """`lda #0x40 / bit $4212 / beq` before each `sta $4801`: a branch over the bit / beq."""
         .alloc at address size 5 {
             bra _go
             nop
