@@ -44,6 +44,7 @@ map changes: `scene_triggers.md`.
 | op | name | what |
 |---|---|---|
 | 0D | say | message (1-2 byte index), window by speaker |
+| 0F | syscall | N: service N (0-93) of the table at C2:8B4C, A = `var.w[0]`, arguments in `var.w[2..]`; result in `$0278` |
 | 0E / 25 / 39 / 3C | say_mode0/1/8/9 | message in window mode 0 / 1 / 8 / 9 (C2:1C72) |
 | 13 | wait | yield V frames |
 | 1A | store_result | `$0278` to a system variable |
@@ -54,8 +55,9 @@ map changes: `scene_triggers.md`.
 | 4E | wait_text | re-runs until the window is done |
 | 5B | flag2_test | flags at `$7E:FE93` |
 
-Messages: the scene text table at `$B873` (`sram_text.s` copies the selected one there); message index m is French
-XML id m - 1. The other `op_NN` have their operand layout read from the handler, not their effect.
+Messages: the scene text table at `$B873` (`sram_text.s` copies the selected one there); message index m is XML id
+m (checked in game on scene 80's reveal). The other `op_NN` have their operand layout read from the handler, not
+their effect.
 
 ## Checked
 

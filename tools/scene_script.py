@@ -62,7 +62,7 @@ OPS: dict[int, tuple[str, str]] = {
     0x0C: ("op_0c", "vvvvv"),
     0x0D: ("say", "m"),
     0x0E: ("say_mode0", "m"),
-    0x0F: ("op_0f", "v"),
+    0x0F: ("syscall", "v"),
     0x10: ("op_10", "vvvv"),
     0x11: ("op_11", "vvvv"),
     0x12: ("op_12", "vv"),
@@ -398,7 +398,7 @@ def scene_data(scene: int, with_edits: bool = False) -> bytes:
 
 
 def scene_messages(scene: int) -> dict[int, str]:
-    """French first lines by message index (the XML ids are the message index - 1)."""
+    """French first lines by message index (the XML id)."""
     path = ROOT / "text" / "fr" / f"scene_{scene:02d}.xml"
     if not path.exists():
         return {}
@@ -406,7 +406,7 @@ def scene_messages(scene: int) -> dict[int, str]:
     for node in ET.parse(path).getroot():
         text = re.sub(r"\[[^]]*\]", " ", node.text or "").split("\n")
         first = next((line.strip() for line in text if line.strip()), "")
-        texts[int(node.attrib["id"]) + 1] = first
+        texts[int(node.attrib["id"])] = first
     return texts
 
 
