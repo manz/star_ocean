@@ -18,6 +18,12 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
+; Bank $C4 padding: code reached by `jml` / `jsl` and data read long.
+.pool code_c4 {
+    range 0xC4FB26 0xC4FFFF
+    strategy order
+}
+
 ; Cart SRAM once the header says 32 KB: the saves sit at $70:0000-1E6A (core/saves moves them there), the rest is ours.
 .pool sram {
     bss

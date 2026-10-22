@@ -14,9 +14,8 @@ from pathlib import Path
 from script import Table
 from script.pointers import read_pointers_from_xml
 
+from tools import party_names
 from tools.dialog import CONTROLS, SCENE_TABLE, SCENES, build_block, messages, scene_block
-from tools.import_legacy import NAMES as JP_NAMES
-from tools.import_legacy import NICKNAMES
 from tools.reflow import DialogLayout
 from tools.rom import ROOT, Rom
 
@@ -25,9 +24,6 @@ GEN = ROOT / "build" / "gen"
 SRAM_TEXT = 0x5000  # src/dialog/sram_text.s: sram_text
 SCENE_RECORD, TEXT_POINTER = 6, 3  # scene table: event pointer, then text pointer
 
-# Party names as the dialog inserts them ([nick:] slots 00-0B, [name:] 0C-17): the old project's spellings.
-NAMES = ["Ratix", "Milly", "Dorn", "Ronixis", "Iria", "Cius", "Joshua", "Tinek", "Marvel", "Ashlay", "Perisie", "Fear"]
-NAME_RECORD = 8  # src/dialog/names.s: up to 7 codes, then 0xFF
 
 WINDOW, MIN_MATCH, MAX_MATCH = 0xFFF, 3, 18
 CHAIN = 64  # candidates tried per position
@@ -99,7 +95,7 @@ def scene_values(
 
 def build(source: Path, out: Path) -> list[str]:
     rom, table = Rom(), fr_table()
-    layout = DialogLayout(dict(zip(NICKNAMES + JP_NAMES, NAMES * 2, strict=True)))
+    layout = DialogLayout(party_names.inserts())
     (out / "scene_text").mkdir(parents=True, exist_ok=True)
     lines, report = [], []
     for scene in range(1, SCENES + 1):
@@ -133,19 +129,7 @@ def build(source: Path, out: Path) -> list[str]:
         if kept:
             report.append(f"scene {scene}: Japanese kept for messages {kept}")
     (out / "scene_text.i").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    (out / "dialog_names.bin").write_bytes(names(table))
     return report
-
-
-def names(table: Table) -> bytes:
-    """24 records: the nickname slots, then the full-name slots (the same names)."""
-    out = bytearray()
-    for name in NAMES * 2:
-        codes = table.to_bytes(name)
-        if len(codes) >= NAME_RECORD:
-            raise ValueError(f"{name}: {len(codes)} codes, a record holds {NAME_RECORD - 1}")
-        out += codes + b"\xff" * (NAME_RECORD - len(codes))
-    return bytes(out)
 
 
 def main() -> None:

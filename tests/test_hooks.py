@@ -13,7 +13,6 @@ HOOKS = {
     0xC61137: "22534cc0",  # scene_load_script: jsl unpack
     0xC21C47: "bd73b81869 73b88dd503",  # message select (event op)
     0xC21CAC: "bd73b81869 73b88dd503",  # text_message_select
-    0xC23F14: "0aaabf213fc2a8fa20513f7a60",  # text_insert_string, ids < 0x18
     0xC263B4: "b900008531",  # glyph fetch: first lda 0,y / sta $31
     0xC265B9: "a5d918690c65db85d9",  # pen advance
     0xC2416A: "c91100",  # line measure: 17 glyphs
@@ -38,6 +37,8 @@ HOOKS = {
     0xCAF98B: "001820184018",  # shop tab cursor (x, y)
     0xCAF999: "00182018",  # pigeon shop tab cursor
     0xC6F523: "28002f0036004600",  # notice template offsets
+    0xC2D85C: "088bda5a",  # party names, new game: php / phb / phx / phy
+    0xC2D6E7: "2295d7c2",  # party names, save loaded: jsl C2:D795
     0xCA6FC8: "a9158520",  # save greying x: lda #0x15 / sta 20
     0xCA6FD0: "a9038522",  # save greying width: lda #3 / sta 22
     0xCA06B5: "a9988522a968",  # settings button icons: lda #x / sta 22 / lda #y (x 0x98 + 8 * row)
