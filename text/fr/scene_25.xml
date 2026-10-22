@@ -6,7 +6,7 @@
 <sn:pointer id="1">Objet reçu : [color][0x6]Ocarina[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1. C'est l'heure de botter du derrière de pirates !![br]
+<sn:pointer id="2">1. C'est l'heure de botter le derrière des pirates !![br]
 2. Faire quelques emplettes avant.[page]
 [end]</sn:pointer>
 
@@ -27,7 +27,7 @@ Bleeeeeeeeeh ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:イリア][br]
-Hein ? Qu'est-ce que c'est ?[page]
+Ah, ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:イリア][br]
@@ -39,7 +39,7 @@ C'est[speed][0x5]...[speed][0x0] donc ça[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:イリア][br]
-C'est bon ! [speed][0xa]...[speed][0x0] Ce que tu peux être chiant par moment, capitaine. J'aurais pensé que ça te fasse plus d'effet que ça.[page]
+C'est bon ! [speed][0xa]...[speed][0x0] Vous n'êtes pas drôle, capitaine. J'espérais vous troubler un peu plus.[page]
 [nick:ロニキス][br]
 Hein ?[page]
 [nick:イリア][br]
@@ -49,7 +49,7 @@ C'est [nick:ラティ] qui te l'a donné ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:イリア][br]
-Arf, toi aussi maintenant. J'ai DÉJÀ DIT qu'il n'y avait aucun sentiment derrière tout ça.[page]
+Vous aussi ? J'ai DÉJÀ DIT qu'il n'y avait aucun sentiment derrière tout ça.[page]
 [nick:ロニキス][br]
 Comment ça "moi aussi" ?[page]
 [nick:イリア][br]
@@ -66,7 +66,7 @@ J'ai DÉJÀ DIT qu'il n'y avait aucun sentiment derrière tout ça.[page]
 Je ne pense pas non plus[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">En fait, c'est plutôt [nick:ロニキス] que ça a le plus agacé...[page]
+<sn:pointer id="14">En vérité, [nick:ロニキス] était bien plus troublé qu'il ne le montrait...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:イリア][br]
@@ -74,7 +74,7 @@ L'air marin est tellement agréable...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:ロニキス][br]
-oh, [nick:ラティ]. Qu'est-ce qu'il t'arrive ?[page]
+Oh, [nick:ラティ]. Qu'est-ce qu'il t'arrive ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Marin rustre[br]
@@ -120,7 +120,7 @@ Où comptes-tu aller ? Si tu veux embarquer, il faut payer d'avance. C'est [colo
 
 <sn:pointer id="27">1. Otanim (Royaume d'Astral)[br]
 2. Tropp (Royaume d'Astral)[br]
-3. Ecdart (Royaume d'Astral)[br]
+3. Ecdart (Royaume de Van)[br]
 4. Sylvalant[page]
 [end]</sn:pointer>
 
@@ -155,9 +155,9 @@ Ouais.[page]
 Ben le Marin[br]
 Dans ce cas, je devrais vous dire merci...[page]
 [nick:イリア][br]
-Maintenant, pourquoi vous ne nous emmèneriez pas au château Astral ?[page]
+Maintenant, pourquoi vous ne nous emmèneriez pas au royaume d'Astral ?[page]
 Ben le Marin[br]
-Ça devrait être facile. La navette est réparée. Pas besoin d'argent, vous n'avez qu'à embarquer. Revenez me voir quand vous serez prêts.[page]
+Ça devrait être facile. Le bateau reprend du service. Pas besoin d'argent, vous n'avez qu'à embarquer. Revenez me voir quand vous serez prêts.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">Terry le borgne[br]
@@ -218,7 +218,7 @@ Bon, ben on est coincés ici.[page]
 <sn:pointer id="51">[nick:ラティ][br]
 Nous allons vous emprunter ce bateau.[page]
 Ben le Marin[br]
-Je vous suis reconnaissant que vous alliez nous débarrasser des pirates, mais êtes-vous sûr que tout ira bien ?[page]
+Je vous suis reconnaissant que vous alliez nous débarrasser des pirates, mais êtes-vous sûrs que tout ira bien ?[page]
 [nick:ラティ][br]
 Pas la peine de vous inquiéter ![page]
 [end]</sn:pointer>
@@ -274,7 +274,7 @@ Tout doux tous les deux, vous êtes cinglés ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="61">[nick:シウス][br]
-Salut, si vous nous filez un bateau, on va aller régler leur compte aux Velcants ![page]
+Hé, si vous nous filez un bateau, on va aller régler leur compte aux Velcants ![page]
 Ben le Marin[br]
 Je vous suis reconnaissant que vous alliez les affronter, mais êtes-vous certains d'être de taille ?[page]
 [end]</sn:pointer>
@@ -306,7 +306,7 @@ Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Alors, je vais m'en c
 [end]</sn:pointer>
 
 <sn:pointer id="69">[nick:シウス][br]
-Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Pars devant, je vais m'en charger moi-même.[page]
+Quoi ?! Tu veux négliger une mission qu'on t'a confiée ? Donne-moi le colis, je m'en charge.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="70">[nick:シウス][br]
