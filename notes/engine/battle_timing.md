@@ -46,3 +46,9 @@ the unpatched ROM.
 - `C3:8F5E`: OAM piece loop; objects without rotation (`$FA`, `$FC`) or vertical flip (`$21` bit 7) take a loop without
   the per-piece tests (`src/engine/battle_speed.s`). Update `C3:8D3D` from 24 battle snapshots: 37.0% -> 36.2% of a
   frame; too small for the bench to see (busy 28 -> 29, noise).
+- Battle IRQs: line 216 forces blank and runs the DMA list (`C0:0010`, palette from `$7E`), sets `$D9`; line 258 turns
+  the screen on, clears `$D9` and calls the audio service `C0:032D` (sample stream through S-DD1 banks E0-FF,
+  `$4806/7` remapped, 0x4E-byte blocks from `$51-$53`). `C0:84AB` waits for `$D9` clear then set.
+- `AUDIO_DEFERRED` (`src/engine/audio_defer.s`, off): the line-258 IRQ marks the send, `C0:84AB` sends it if the line
+  is under 160 (latched `$2137` / `$213D`, `$4201` bit 7 set), else the next IRQ does. Streams stay contiguous.
+  busy 29 -> 26, chest 11 -> 13; without audio at all (ceiling) 23 / 7. Sending past line ~190 eats the DMA window.
