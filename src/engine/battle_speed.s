@@ -5,6 +5,10 @@ the original does, in fewer cycles; `tools/battle_bench.py` scores them.
 The two slot scans of the logic block test 64 slots each, one byte per slot, with a 16-bit step between two
 8-bit tests: about 29 cycles an empty slot. Here they test 8 (or 4) slots per step at fixed offsets, 8 cycles an
 empty one, and run the original body on a busy slot with X = that slot. Y is free: neither body reads it.
+
+C5:035D finds an animation's current frame: entries of (duration byte, word) from [$BE], durations subtracted
+from the time $20 until it goes negative; 0 ends (time back to 0), $FF loops (new time). It walks with three
+`inc $BE` an entry; here Y walks, the subtraction stays in A: about 39 cycles an entry instead of 61.
 """
 
 .import "core/preamble"
@@ -161,5 +165,75 @@ _run:
 _skip:
         plx
         rts
+    }
+
+; C5:035D: the animation frame lookup, 9 calls and about 30 entries a frame in a busy fight.
+    .alloc at 0xC5035D size 4 {
+        jml anim_frame
+    }
+
+    .alloc anim_frame in code_c5 {
+"""
+C5:035D, Y-indexed. In: M16 X16, A = script (bank in $C0), $20 = time. Out: rtl, A = the frame's word,
+$BE = its address, $00 = time left, $02 = its duration, $10 = script; X and Y kept.
+"""
+        cmp.w #0x0000
+        bne _go
+        rtl
+_go:
+        sta.b 0xBE
+        sta.b 0x10
+        phy
+        ldy.w #0x0000
+        lda.b 0x20
+_first:
+; the first entry's duration is not tested for 0 / $FF
+        sta.b 0x00
+        lda [0xBE], y
+        and.w #0x00FF
+        bra _sub
+_next:
+        iny
+        iny
+        iny
+        sta.b 0x00
+        lda [0xBE], y
+        and.w #0x00FF
+        beq _end
+        cmp.w #0x00FF
+        beq _loop
+_sub:
+; A = $00 - duration
+        eor.w #0xFFFF
+        sec
+        adc.b 0x00
+        bpl _next
+        sta.b 0x00
+        lda [0xBE], y
+        and.w #0x00FF
+        sta.b 0x02
+        iny
+        tya
+        clc
+        adc.b 0xBE
+        sta.b 0xBE
+        ply
+        lda [0xBE]
+        rtl
+_end:
+        stz.b 0x20
+        stz.b 0x02
+        lda.b 0x10
+        inc
+        sta.b 0xBE
+        ply
+        lda [0xBE]
+        rtl
+_loop:
+        iny
+        lda [0xBE], y
+        sta.b 0x20
+        ldy.w #0x0000
+        bra _first
     }
 }

@@ -41,3 +41,5 @@ the unpatched ROM.
   `C0:073E` pick one of 8 unrolled senders, `C0:09F0` sends 75 bytes); the SPC loop at `$2170` takes about
   46 SPC cycles a packet, so a 75-byte send costs about 8% of a frame.
 - `C1:0360` polls `$4212` bit 0: the joypad auto-read, about 3 lines after vblank.
+- `C5:035D`: animation frame lookup ((duration, word) entries from `[$BE]`, `$20` = time; 0 ends, `$FF` loops), about
+  9 calls and 30 entries a frame; Y-indexed in `src/engine/battle_speed.s` (busy 29 -> 28 late).
