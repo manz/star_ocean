@@ -5,6 +5,7 @@ the scene VM, so the map, its scene's event data and its start-up load as on a r
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -13,6 +14,8 @@ from tools.scene_asm import assemble, op
 
 if TYPE_CHECKING:
     from kintsuki import Emu
+
+    from tools.scene_script import Instruction
 
 SAVES = Path(__file__).parent / "saves"
 EVENTS = 0x7E3100  # the unpacked scene event data
@@ -35,18 +38,24 @@ def set_var(emu: Emu, index: int, value: int) -> None:
     emu.write_range(VARS + index, value.to_bytes(2, "little"))
 
 
-def warp(emu: Emu, map_id: int, x: int, y: int, facing: int) -> None:
-    """Map change to `map_id` at tile (x, y) in 8 px units, as `op 24 map, 0, x, y, facing`."""
+def run_script(emu: Emu, items: Sequence[str | Instruction], frames: int = 30) -> bool:
+    """Run `items` (tools.scene_asm: labels and instructions) in the scene VM from inside the current scene's
+    start-up, then idle there. True when the script reached its end within `frames`."""
     base = emu.read16(EVENTS)
-    origin = base + 0x40  # inside the old scene's start-up, which the map change leaves anyway
-    code, _ = assemble(
-        [op("map_change", map_id, 0, x, y, facing), "idle", op("wait", 1), op("goto", "idle")], base, origin
-    )
+    origin = base + 0x40  # inside the start-up: the scene's own loop is not needed while a test drives it
+    code, labels = assemble([*items, "idle", op("wait", 1), op("goto", "idle")], base, origin)
     emu.write_range(EVENTS + origin, code)
     emu.write_range(VM_PC, (0x3100 + origin).to_bytes(2, "little"))
     emu.write(VM_WAIT, 1)
     emu.write(VM_OFF, 0)
-    emu.run_frames(ARRIVED)
+    emu.run_frames(frames)
+    pc: int = emu.read16(VM_PC)
+    return pc - (EVENTS & 0xFFFF) >= labels["idle"]
+
+
+def warp(emu: Emu, map_id: int, x: int, y: int, facing: int) -> None:
+    """Map change to `map_id` at tile (x, y) in 8 px units, as `map_change map, 0, x, y, facing`."""
+    run_script(emu, [op("map_change", map_id, 0, x, y, facing)], ARRIVED)
 
 
 def walk(emu: Emu, button: str, frames: int) -> None:
