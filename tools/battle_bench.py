@@ -1,7 +1,7 @@
-"""Count the battle's late frames in kintsuki: the patched game (build/star_ocean.sfc + its IPS) runs a battle state
-for 600 frames, A tapped every 10, and every pass of the battle loop (C1:0147, one per 2 frames at full speed) is
-timed. A gap of 3 or 4 frames is a late pass; a gap of 1 catches up; lost = passes a 30 fps loop would have run
-between the first and the last one, minus those that ran (a battle that ends early stops counting there).
+"""Count the battle's late steps in kintsuki: the patched game (build/star_ocean.sfc + its IPS) runs a battle state
+for 600 frames, A tapped every 10, and the frames where the sprites move (OAM's position table changes) are
+counted. At full speed they move every 2 frames; a gap of 3 or 4 is a late step, a gap of 1 catches up. Gaps of 7
+and more are the victory slow motion (logic one pass in 4) or a still screen, not slowdown.
 
     uv run python -m tools.battle_bench               # both states
     uv run python -m tools.battle_bench --profile     # and where the time goes on frames under 15% idle
@@ -21,7 +21,7 @@ from tools.rom import ROOT
 
 STATES = ("battle_chest", "battle_busy")
 FRAMES = 600
-LOOP = 0xC10147  # jsl to the battle update, once per pass
+OAM_POSITIONS = 512  # OAM's low table; the 32-byte high table also changes on its own
 WAITS = (0xC08496, 0xC084AB)  # vblank and NMI-flag waits: idle time
 FRAME_CYCLES = 357366  # master cycles per NTSC frame
 
@@ -39,29 +39,32 @@ def bench(state: str, profile: bool) -> str:
             emu.run_frames(4)
             emu.press(0, Button.B, False)
             emu.run_frames(30)
-    start = emu.frame_count
-    passes: list[int] = []
-    emu.add_exec_callback(LOOP, LOOP, lambda _pc, _v: passes.append(emu.frame_count - start))
+    moves: list[int] = []
+    oam = b""
     excl: Counter[int] = Counter()
     incl: Counter[int] = Counter()
     heavy = 0
     for frame in range(FRAMES):
         emu.press(0, Button.A, frame % 10 < 3)
-        if not profile:
-            emu.run_frames(1)
-            continue
-        emu.profile_start()
+        if profile:
+            emu.profile_start()
         emu.run_frames(1)
+        positions = bytes(emu.oam_read_range())[:OAM_POSITIONS]
+        if positions != oam:
+            moves.append(frame)
+            oam = positions
+        if not profile:
+            continue
         stats = emu.profile_stop()
         if sum(s.excl_cycles for s in stats if s.pc in WAITS) < 0.15 * FRAME_CYCLES:
             heavy += 1
             for s in stats:
                 excl[s.pc] += s.excl_cycles
                 incl[s.pc] += s.incl_cycles
-    gaps = Counter(b - a for a, b in itertools.pairwise(passes))
-    late = sum(n for gap, n in gaps.items() if gap >= 3)
-    lost = (passes[-1] - passes[0]) // 2 + 1 - len(passes)
-    lines = [f"{state}: {len(passes)} passes, {late} late, {gaps[1]} caught up, {lost} lost"]
+    gaps = Counter(b - a for a, b in itertools.pairwise(moves))
+    late = gaps[3] + gaps[4]
+    slow = sum(n for gap, n in gaps.items() if gap >= 7)
+    lines = [f"{state}: {len(moves)} steps, {late} late, {gaps[1]} caught up, {slow} slow-motion or still"]
     if heavy:
         scale = 100 / (heavy * FRAME_CYCLES)
         lines.append(f"  {heavy} frames under 15% idle")
