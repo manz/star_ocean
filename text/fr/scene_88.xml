@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
 <sn:pointer id="0">Jay[br]
-Vous[speed][0x14] ! [speed][0x0] Je suppose que vous êtes
+Vous[speed][0x14] ![speed][0x0] Je suppose que vous êtes
 venus pour perturber mes plans ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ラティ][br]
-Et oui ! On ne peut pas tolérer que
+Eh oui ! On ne peut pas tolérer que
 tu fasses souffrir les gens.[page]
 [end]</sn:pointer>
 
@@ -27,14 +27,14 @@ naturelles et asservissez les peuples.[speed][0x14][speed][0x0] Et vous ne faite
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:イリア][br]
-On ne force personne à nous rejoindre[speed][0x14],[speed][0x0]les gens nous rejoignent sur la base
+On ne force personne à nous rejoindre[speed][0x14],[speed][0x0] les gens nous rejoignent sur la base
 d'un accord mutuel. Nous ne volons
 PAS les ressources naturelles et personne
 ne nous sert d'esclave...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Jay[br]
-Accord mutuel?[speed][0x1e][speed][0x0]
+Accord mutuel ?[speed][0x1e][speed][0x0]
 Vous débarquez sur les planètes avec vos
 forces militaires et pointez vos armes
 sur la tempe des gens ! Comment osez-vous
@@ -54,18 +54,18 @@ la souffrance que vous nous causez ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:ロニキス][br]
-Ce n'est pas une excuse pour
-lancer une invasion.[page]
+C'est ta paranoïa qui parle.
+Et ça ne justifie pas une invasion.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Jay[br]
-De deux maux il faut choisir le moindre.[speed][0x14][speed][0x0] Je perds mon temps
+La loi du plus fort, hein ?[speed][0x14][speed][0x0] Je perds mon temps
 à parler avec vous.[speed][0x14][speed][0x0] VOTRE FIN EST PROOOOCHE !!![page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Jay[br]
-[speed][0x8]M-Merde[speed][0x14]! ...[speed][0x0]
-Les descendants de Moore prolongeront mon oeuvre ![page]
+[speed][0x8]M-maudits[speed][0x14]...[speed][0x0]
+Descendants des Mooriens, tous ligués contre moi !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:イリア][br]
@@ -73,7 +73,7 @@ Les descendants de Moore !?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Jay[br]
-Argh[speed][0x14],[speed][0x0] Ha ha ha ha[speed][0x14] ! [speed][0x0] On dirait que malgré vos grands airs,
+Argh[speed][0x14],[speed][0x0] Ha ha ha ha[speed][0x14] ![speed][0x0] On dirait que malgré vos grands airs,
 vous ne savez pas grand-chose ![page]
 Jay[br]
 [speed][0xa]...[speed][0x0] Je ne sais rien des
@@ -97,17 +97,14 @@ l'hologramme du temple de Parj[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Jay[br]
-Savoir ce qui est arrivé à leur race est
-complètement hors sujet. Comme savoir ce qui est
-advenu des Roakiens, des Fargetiens, ou même
-des monstres...[page]
+Peu importe la race ! Roakien, Fargetien,
+ou monstre fabriqué de toutes pièces...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Jay[br]
-Même si j'ignore tout ça, je ne cesserai
-jamais de vous mépriser, vous les terriens,
-qui vivez confortablement dans le luxe
-et l'abondance ![page]
+Mais vous, les Terriens, qui vivez bien
+au chaud sans rien savoir de tout ça...
+vous, je vous hais ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Jay[br]
@@ -115,7 +112,7 @@ Oh[speed][0xa]...[speed][0x0] Toi, la fille....[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Jay[br]
-D'après tes habits, tu es native de Roal.
+D'après tes habits, tu es native de Roak.
 Mais est-ce que les Mooriens de Roak vivent encore ?[page]
 Jay[br]
 Tu m'intéresses. Hé hé hé ! J'aurai tout le temps
@@ -123,7 +120,7 @@ de t'étudier quand tu seras morte ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">Jay[br]
-Je ne cèderai pas cette fois ! Je vais vous
+Cette fois, je ne retiendrai pas mes coups ! Je vais vous
 montrer à quel point vous êtes faibles ![page]
 [end]</sn:pointer>
 
@@ -155,7 +152,7 @@ Ce n'est qu'une question de temps. Je[speed][0x14]...[speed][0x8] J'attends ce j
 
 <sn:pointer id="27">[nick:ロニキス][br]
 Ivina a dit que les instincts destructeurs
-de Jay était inscrits dans ces gênes, mais[speed][0xa]...[speed][0x0][page]
+de Jay étaient inscrits dans ses gènes, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:ロニキス][br]

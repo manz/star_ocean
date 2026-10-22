@@ -7,7 +7,7 @@
 <sn:pointer id="1">Nord : Mont Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[color][0x6][item][0xfe][0x13][color][0x2] Reçu ![page]
+<sn:pointer id="2">[color][0x6][item][0xfe][0x13][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:イリア][br]
@@ -79,7 +79,7 @@ Y'a que dalle dans ce bled pour se reposer, t'façon.[page]
 <sn:pointer id="22">[end]</sn:pointer>
 
 <sn:pointer id="23">[nick:イリア][br]
-En route pour [color][0x4]Portmith[color][0x2], droit au Nord ! Il semblerait que ça soit la plus grosse ville du secteur. Il parait qu'il y a beaucoup de monde là-bas, dont des gens du [color][0x4]château de Moore[color][0x2].[page]
+En route pour [color][0x4]Portmith[color][0x2], droit au nord ! Il semblerait que ça soit la plus grosse ville du secteur. C'est au pied du [color][0x4]château de Moore[color][0x2], ça doit être animé.[page]
 [nick:シウス][br]
 Grouillons-nous d'en finir avec ce que l'autre type nous a demandé.[page]
 [end]</sn:pointer>
@@ -89,7 +89,7 @@ Tu penses que ça serait mieux d'aller prendre le bateau à [color][0x4]Portmith
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:イリア][br]
-En route pour [color][0x4]Portmith[color][0x2], droit au Nord ! Il semblerait que ça soit la plus grosse ville du secteur. Il parait qu'il y a beaucoup de monde là-bas, dont des gens du [color][0x4]château de Moore[color][0x2].[page]
+En route pour [color][0x4]Portmith[color][0x2], droit au nord ! Il semblerait que ça soit la plus grosse ville du secteur. C'est au pied du [color][0x4]château de Moore[color][0x2], ça doit être animé.[page]
 [nick:シウス][br]
 Grouillons-nous d'en finir avec ce que l'autre type nous a demandé.[page]
 [end]</sn:pointer>
@@ -115,7 +115,7 @@ N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:ロニキス][br]
-Qu'est-ce que tu vas faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
+Qu'est-ce que tu vas faire, [nick:ラティ] ? Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:ミリー][br]
@@ -147,7 +147,7 @@ Nous n'allons plus dans le monde démoniaque?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:フィア][br]
-[speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
+[speed][0xa]...[speed][0x0] On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:ヨシュア][br]
@@ -171,11 +171,11 @@ Bien, allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="45">[nick:ロニキス][br]
-Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+Bon, assez de repos. Allons demander audience aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:ロニキス][br]
-Faisons une pause, à présent.[page]
+Assez traîné.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:ミリー][br]
@@ -211,7 +211,7 @@ On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [col
 [end]</sn:pointer>
 
 <sn:pointer id="55">[nick:ヨシュア][br]
-On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+Pour obtenir l'Œil de la Vérité, ne devrions-nous pas finir nos audiences ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:ヨシュア][br]
