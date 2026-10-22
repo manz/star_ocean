@@ -21,6 +21,7 @@ from tools import (
     menu_font16,
     renders,
     vwf8,
+    yes_no,
 )
 from tools.rom import DEFAULT_ROM, ROOT
 
@@ -37,7 +38,7 @@ class Patch:
 
 
 def build_assets() -> None:
-    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, menus, narration, cutscenes, badge."""
+    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, menus, narration, cutscenes, badge, yes / no bubbles."""
     katsuji_build.build(katsuji_config.load(ROOT / "katsuji.toml"))
     font = (GEN / "dialog_font.dat").read_bytes()
     (GEN / "dialog_font_low.bin").write_bytes(font[: DIALOG_FONT_GLYPHS * DIALOG_FONT_RECORD])
@@ -47,6 +48,7 @@ def build_assets() -> None:
     encode_menus.build(ROOT / "text" / "fr", GEN)
     renders.build(GEN)
     badge.build(out=GEN)
+    yes_no.build(out=GEN)
     vwf8.build(out=GEN)
 
 

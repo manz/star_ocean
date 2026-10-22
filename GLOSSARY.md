@@ -196,7 +196,7 @@ Generic roles: 衛兵 Garde, 兵士 Soldat, 男 Homme, 女 Femme, 娘/少女 Fil
 | タトローイ闘技場控え室 | Entrée de l'arène de Tatroï | |
 | タトローイ運河船のりば | Quai de chargement de Tatroï | |
 | イオニス | Ionis | |
-| メトークス山 / 山頂 | Mt Métox / Sommet du Mt Métox | |
+| メトークス山 / 山頂 | Mont Métox / Sommet du mont Métox | "mont" lowercase in running text: le mont Métox |
 | クール / クール村 | Laponia / Village de Laponia | "cool" localised |
 | ホット | Thermonia | "hot" localised |
 | トロップ / トロップの港 | Tropp / Port de Tropp | |

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Mt Métox[page]
+<sn:pointer id="0">[center]Mont Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Sommet du Mt Métox[page]
+<sn:pointer id="1">[center]Sommet du mont Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Mt Métox[page]
+<sn:pointer id="2">[center]Mont Métox[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Mt Métox[page]
+<sn:pointer id="3">[center]Mont Métox[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:ドーン][br]
@@ -20,7 +20,7 @@ Ils peuvent te pondre dedans rien qu'en te touchant.[page]
 Et si l'œuf vient à éclore, on est dans une sacrée panade.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[center]Sommet du Mt Métox[page]
+<sn:pointer id="5">[center]Sommet du mont Métox[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Boire de l'eau ?[page]

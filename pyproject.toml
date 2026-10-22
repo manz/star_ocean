@@ -16,7 +16,7 @@ dependencies = [
 
 [dependency-groups]
 # RE / asset tooling.
-dev = ["pytest", "pillow", "kintsuki>=0.0.0a19", "mypy", "ruff"]
+dev = ["pytest", "pillow", "kintsuki>=0.0.0a20", "mypy", "ruff"]
 
 [tool.uv]
 package = false

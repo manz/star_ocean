@@ -12,3 +12,18 @@ Loaded by `CA:6328` with hard-coded immediates (no table).
 
 Title, copyright, VRSS / DUET logos, "New Game / Continue / Sound Player": already English.
 Battle graphics: not surveyed yet.
+
+## Choice bubbles (field yes / no)
+
+Sprite frames (`C3:8ECB` format) in the `C4:221B..` frame list (emotes, numbered discs, bubbles), cels streamed
+by `C3:917C` from bank `EE`. The selected answer shows the large bubble, the other the small one.
+
+| frame | size | content |
+|---|---|---|
+| `C4:2409` | 48x24, 3 16x16 + 6 8x8 cels | はい, selected (2 px strokes, 2 px shade) |
+| `C4:2457` | 48x24, 3 16x16 + 6 8x8 cels | いいえ, selected |
+| `C4:22F2` | 32x16, 2 16x16 cels | はい, not selected (1 px strokes, 1 px shade) |
+| `C4:2307` | 32x16, 2 16x16 cels | いいえ, not selected |
+
+Patched by `tools/yes_no.py` → `src/dialog/yes_no.s` ("Oui" / "Non"). A 16x16 cel's bottom stream sits at
+source + the record's last byte, not where the top stream's decode stops.
