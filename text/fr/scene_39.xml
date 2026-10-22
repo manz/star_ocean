@@ -142,7 +142,7 @@ Gnnn[speed][0xf]... !![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">Soldat[br]
-O[speed][0x14]-[speed][0x1]Oh non [speed][0x14]![speed][0x1] [nick:フィア]...[speed][0x14] ![speed][0x1] Elle a tué sire Warren ![speed][0x0][page]
+O[speed][0x14]-[speed][0x1]Oh non[speed][0x14]![speed][0x1] [nick:フィア]...[speed][0x14] ![speed][0x1] Elle a tué sire Warren ![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">Soldat[br]
@@ -270,7 +270,7 @@ Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:フィア][br]
-Idiot[speed][0x14]...[speed][0x0] Tu ne vois jamais rien !! Tu n'en fais toujours qu'à ta tête[speed][0xa]...[speed][0x0] Tu ne changeras donc jamais [speed][0xf]?![speed][0x0][page]
+Idiot[speed][0x14]...[speed][0x0] Tu ne vois jamais rien !! Tu n'en fais toujours qu'à ta tête[speed][0xa]...[speed][0x0] Tu ne changeras donc jamais[speed][0xf]?![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">Roi[br]

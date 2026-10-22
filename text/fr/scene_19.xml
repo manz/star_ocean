@@ -124,7 +124,7 @@ Tu t'appelles [nick:ペリシー].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">Homme[br]
-Un homme et une femme [speed][0x5]?[speed][0x0] Êtes-vous allés voir du côté des grandes villes de [color][0x4]Portmith[color][0x2] et [color][0x4]Thermonia[color][0x2] ?[page]
+Un homme et une femme[speed][0x5]?[speed][0x0] Êtes-vous allés voir du côté des grandes villes de [color][0x4]Portmith[color][0x2] et [color][0x4]Thermonia[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">Homme[br]
@@ -148,7 +148,7 @@ Au nord, c'est la ville de [color][0x4]Thermonia[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">Vieille femme[br]
-Mon linge [speed][0xf]![speed][0x0] Il a disparu ![page]
+Mon linge[speed][0xf]![speed][0x0] Il a disparu ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:ペリシー][br]

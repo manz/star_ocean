@@ -50,7 +50,7 @@ Croyez-vous que le moment soit approprié ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:シウス][br]
-[speed][0x1]Hé vous là ![speed][0x5]![speed][0x1] C'est pas carnaval [speed][0x5]![speed][0x1] Foutez le camp d'ici ![speed][0x0][end]</sn:pointer>
+[speed][0x1]Hé vous là ![speed][0x5]![speed][0x1] C'est pas carnaval[speed][0x5]![speed][0x1] Foutez le camp d'ici ![speed][0x0][end]</sn:pointer>
 
 <sn:pointer id="9">[nick:シウス][br]
 Ça va ?[page]
@@ -171,7 +171,7 @@ Ooohhh.... Gnnnn... Quoi ? Non je ne suis pas bourré.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">Chelsea[br]
-Vous connaissez le groupe les Stalkers [speed][0xf]?[speed][0x0] Ils sont géniaux ![page]
+Vous connaissez le groupe les Stalkers[speed][0xf]?[speed][0x0] Ils sont géniaux ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">Mary[br]

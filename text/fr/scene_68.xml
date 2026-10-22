@@ -262,7 +262,7 @@ Mmmm ! Cet arôme et cette saveur[speed][0xa]...[speed][0x0] C'est clair que c'e
 [end]</sn:pointer>
 
 <sn:pointer id="61">[nick:フィア][br]
-C'est clair [speed][0xa]![speed][0x0] Ça se boit comme du petit-lait ! ♪[page]
+C'est clair[speed][0xa]![speed][0x0] Ça se boit comme du petit-lait ! ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:イリア][br]
@@ -331,7 +331,7 @@ Gnnn, [nick:ロニキス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">[nick:ロニキス][br]
-[nick:ラティ], qu'est-ce qu'il t'arrive [speed][0xa]?[speed][0x0][page]
+[nick:ラティ], qu'est-ce qu'il t'arrive[speed][0xa]?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[nick:ラティ][br]
@@ -367,7 +367,7 @@ Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="87">[nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
@@ -408,7 +408,7 @@ Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="93">[nick:ロニキス][br]
-Ah [speed][0xa]?[speed][0x0] D'accord.[page]
+Ah[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
@@ -444,7 +444,7 @@ Ravi de l'entendre. Je suis certain que ton aide nous sera précieuse dans la su
 <sn:pointer id="97">[nick:イリア][br]
 Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
@@ -500,7 +500,7 @@ Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="106">[nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]

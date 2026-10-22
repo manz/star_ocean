@@ -55,7 +55,7 @@ Tu vas encore repartir tout seul ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[mode8][0x18][nick:フィア][br]
-Est-ce que je peux venir avec toi[speed][0x1e] ?[speed][0x3] Ça ne te dérange pas [speed][0x14]?[speed][0x3] Tout ce dont j'ai besoin c'est d'être à tes côtés[speed][0xa]...[speed][0x3][page]
+Est-ce que je peux venir avec toi[speed][0x1e] ?[speed][0x3] Ça ne te dérange pas[speed][0x14]?[speed][0x3] Tout ce dont j'ai besoin c'est d'être à tes côtés[speed][0xa]...[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[mode8][0x18][nick:シウス][br]
@@ -147,7 +147,7 @@ Mais promets-moi de ne pas rire.[speed][0x1e][speed][0x3] Je ne sais pas pourquo
 [end]</sn:pointer>
 
 <sn:pointer id="37">[mode8][0x18][nick:ヨシュア][br]
-Qu'est-ce qui ne va pas [speed][0x14]?[speed][0x3] Pourquoi pleures-tu [speed][0xa]?[speed][0x3][page]
+Qu'est-ce qui ne va pas[speed][0x14]?[speed][0x3] Pourquoi pleures-tu[speed][0xa]?[speed][0x3][page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[mode8][0x18][nick:マーヴェル][br]
