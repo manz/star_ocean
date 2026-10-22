@@ -37,6 +37,7 @@ HOOKS = {
     0xCA0280: "101048108010b810101c481c801cb81c",  # main menu cursor (x, y)
     0xCAF98B: "001820184018",  # shop tab cursor (x, y)
     0xCAF999: "00182018",  # pigeon shop tab cursor
+    0xC6F523: "28002f0036004600",  # notice template offsets
     0xCA6FC8: "a9158520",  # save greying x: lda #0x15 / sta 20
     0xCA6FD0: "a9038522",  # save greying width: lda #3 / sta 22
     0xCA06B5: "a9988522a968",  # settings button icons: lda #x / sta 22 / lda #y (x 0x98 + 8 * row)
