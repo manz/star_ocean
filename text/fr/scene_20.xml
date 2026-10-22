@@ -20,17 +20,16 @@ Ho ! C'est rare d'avoir de la visite.[page]
 <sn:pointer id="5">[nick:ラティ][br]
 Je peux voir ce que vous avez comme habits de femme ?[page]
 Petite vieille[br]
-Quelle drôle d'idée ! Enfin, si c'est ce que vous voulez...
-Ça doit être une nouvelle mode ![page]
+Tu as tes raisons, hein ? Bon, si c'est comme ça...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Petite vieille[br]
 Voici ceux de ma fille. Elle est mariée, maintenant.
 Ils sont un peu usés, mais vous pouvez les prendre si vous voulez.[page]
 [nick:ラティ][br]
-Merci[page]
+Merci.[page]
 Petite vieille[br]
-Ho, de rien.[page]
+Oh, de rien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[end]</sn:pointer>
@@ -39,7 +38,7 @@ Ho, de rien.[page]
 Je me demande comment va ma fille...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Propriétaire[br]
+<sn:pointer id="9">Patron[br]
 Ha ! De nouveaux visages !
 Soyez les bienvenus.[page]
 [end]</sn:pointer>
@@ -53,17 +52,17 @@ Heu[speed][0xa]...[speed][0x0]Comment dire ?
 Vous avez des habits pour femme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Propriétaire[br]
-C'est pour faire un cadeau ?[page]
+<sn:pointer id="12">Patron[br]
+C'est pour ta petite amie ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ラティ][br]
 Non, non ! Ça ne va pas ! Je cherche quelque chose de plus classique.[page]
-Propriétaire[br]
-Et ça ? C'est la grande mode chez les aventuriers.[page]
+Patron[br]
+Et ça ? C'est plutôt des habits de tous les jours pour aventurière.[page]
 [nick:ラティ][br]
 C'est parfait ![page]
-Propriétaire[br]
+Patron[br]
 Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
@@ -73,7 +72,7 @@ Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 
 <sn:pointer id="15">[nick:ラティ][br]
 Je vais prendre ça ![page]
-Propriétaire[br]
+Patron[br]
 Hé hé ! Merci à vous ![page]
 [end]</sn:pointer>
 
@@ -81,7 +80,7 @@ Hé hé ! Merci à vous ![page]
 
 <sn:pointer id="17">[end]</sn:pointer>
 
-<sn:pointer id="18">Vieil homme[br]
+<sn:pointer id="18">Patron[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
@@ -106,26 +105,26 @@ Je n'ai vu personne qui ressemble à ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">Aventurier[br]
-Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce qu'on s'y fait chier ! [page]
+Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce qu'on s'ennuie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Petite Lily[br]
-N'est-elle pas adorable ?[page]
+<sn:pointer id="26">Lily l'ado[br]
+Hein ? Elle est mignonne, cette fille ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">1. Ouais ![br]
 2. Bof bof ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Petite Lily[br]
+<sn:pointer id="28">Lily l'ado[br]
 Hi hi♪ Je vois...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Petite Lily[br]
+<sn:pointer id="29">Lily l'ado[br]
 V[speed][0xa]-[speed][0x0]vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Petite Lily[br]
+<sn:pointer id="30">Lily l'ado[br]
 J'en ai ras le bol de trimer dans cette foutue boutique ![page]
 [end]</sn:pointer>
 

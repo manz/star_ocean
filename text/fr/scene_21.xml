@@ -17,11 +17,11 @@ Personne n'est aussi stupide ! Me faites pas rire ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">Homme[br]
-Badam, la vendeuse de la quincaillerie, elle était à la recherche d'aventuriers.[page]
+Badam, le vendeur de la quincaillerie, il était à la recherche d'aventuriers.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Érudite Lemia[br]
-Hier, j'ai vu une lumière, comme une étoile filante, qui est tombée au sud sur Crat. Qu'est-ce que c'était ?[page]
+L'autre jour, j'ai vu une lumière, comme une étoile filante, tomber au sud de Crat. Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Érudite Lemia[br]
@@ -31,7 +31,7 @@ Connaissez-vous tous les royaumes du monde ?[page]
 <sn:pointer id="7">Alors, je n'ai plus rien à dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">D'abord, il y a le royaume de Moore. C'est le continent sur lequel vous vous trouvez. Celui que vous pouvez rejoindre en bateau depuis [color][0x4]Portmith[color][0x2], loin au nord, se trouve le royaume des chevaliers les plus renommés, le royaume d'Astral. En partant vers l'ouest d'ici, c'est le royaume de Van et au nord, celui de Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
+<sn:pointer id="8">D'abord, le royaume de Moore : c'est le continent où vous vous trouvez. Depuis [color][0x4]Portmith[color][0x2], loin au nord, un bateau mène au royaume d'Astral, célèbre pour ses chevaliers, les plus forts du monde. À l'ouest d'Astral se trouve le royaume de Van, et au nord de celui-ci, Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[end]</sn:pointer>
@@ -52,25 +52,25 @@ Vous cherchez quelqu'un et vous ne savez même pas où vous vous êtes perdus de
 La ville fortifiée du [color][0x4]royaume de Moore[color][0x2], [color][0x4]Portmith[color][0x2], c'est une plaque tournante du commerce entre les royaumes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Vieil homme[br]
+<sn:pointer id="14">Armurier[br]
 .......[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Vieil homme[br]
+<sn:pointer id="15">Armurier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Vieil homme[br]
-Pour cette épée ? C'est le travail du meilleur forgeron de tout l'Est. Si vous la prenez maintenant, je vous ferais un prix.[page]
+<sn:pointer id="16">Armurier[br]
+Pour cette épée ? C'est le travail du meilleur forgeron de tout l'Est. Si vous la prenez maintenant, je vous ferai un prix.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:イリア][br]
 C'est une très bonne épée ! Pourquoi tu ne l'achètes pas, [nick:ラティ] ?[page]
 [nick:ラティ][br]
 C'est vrai que je me sens tout nu, sans épée...[page]
-Vieil homme[br]
+Armurier[br]
 J'vous fais moitié prix : 
-[color][0x5]20[color][0x2]Fol.[page]
+[color][0x5]20[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">1. Faire affaire[br]
@@ -79,13 +79,13 @@ J'vous fais moitié prix :
 
 <sn:pointer id="19">[end]</sn:pointer>
 
-<sn:pointer id="20">Vieil homme[br]
+<sn:pointer id="20">Armurier[br]
 Ne serait-il pas mieux de vous équiper avant de quitter la ville ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:ラティ][br]
 Bon, d'accord, on achète.[page]
-Vieil homme[br]
+Armurier[br]
 Merci bien ![page]
 [end]</sn:pointer>
 
@@ -95,7 +95,7 @@ Dégage ![page]
 
 <sn:pointer id="23">???[br]
 Hé, minute ! Tu refourgues ta camelote à des bleus qui n'y connaissent rien, maintenant ?![page]
-Vieil homme[br]
+Armurier[br]
 Encore toi ? Tu me gâches le commerce ![page]
 [end]</sn:pointer>
 
@@ -115,7 +115,7 @@ Bref, voilà. Te laisse pas rouler par ce marchand d'armes pourri. Salut.[page]
 Il ne fait pas dans la dentelle, celui-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Vieil homme[br]
+<sn:pointer id="28">Armurier[br]
 Ah les clients ces derniers temps ! J'vous jure...[page]
 [end]</sn:pointer>
 
@@ -166,7 +166,7 @@ Oh, hey[speed][0xa]...[speed][0x0] [nick:ラティ][speed][0xa]...[speed][0x0] C
 [end]</sn:pointer>
 
 <sn:pointer id="41">1. Courage, ça va aller ![br]
-2. C'est avec [nick:シウス]?[br]
+2. C'est avec [nick:シウス] ?[br]
 3. Ne rien dire et la laisser.[page]
 [end]</sn:pointer>
 
@@ -192,11 +192,11 @@ Souris, on ne peut rien faire pour lui[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:フィア][br]
-[speed][0xa]...[speed][0x0]Sur le moment, j'ai jugé bon de suivre mon ressenti et de lui parler de la mort de Rya, mais à bien y repenser, j'ai vraiment manqué de tact[speed][0xa]...[speed][0x0][page]
+[speed][0xa]...[speed][0x0]Sous le coup de la colère, je lui ai appris la mort de sire Ryas. À bien y repenser, j'ai vraiment manqué de tact[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 [nick:フィア][speed][0xa]...[speed][0x0][page]
 [nick:フィア][br]
-J'aurais du savoir combien elle admirait son père plus que quiconque[speed][0xa]...[speed][0x0][page]
+J'aurais dû savoir combien il était fier de son père, plus que quiconque[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 [nick:フィア], c'est pas comme si on ne verrait plus jamais [nick:シウス][speed][0xa]...[speed][0x0] Si tu t'en veux, tu n'auras qu'à être plus gentille la prochaine fois.[page]
 [end]</sn:pointer>
@@ -220,7 +220,7 @@ Désolée de te faire subir ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">[nick:フィア][br]
-Parfois c'est mieux de se la couler douce. Je n'ai même pas pris conscience de ça tellement j'étais une tête de pioche quand j'étais dans la cavalerie[speed][0xa]...[speed][0x0][page]
+Parfois c'est mieux de se la couler douce. Je n'ai même pas pris conscience de ça tellement j'étais une tête de pioche quand j'étais chez les chevaliers[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:シウス][br]
@@ -240,7 +240,7 @@ Je sais pas si on devrait s'en séparer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:イリア][br]
-C'est à ça que ressemblent les jeunes filles ?[page]
+Les filles de son âge sont comme ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">[nick:イリア][br]
@@ -259,12 +259,12 @@ Elle n'est pas de bon poil.[page]
 Il semblerait qu'elle soit de bonne humeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Vieil homme[br]
+<sn:pointer id="61">Armurier[br]
 Cette épée ? C'est le travail du plus grand forgeron de tout l'Est.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:アシュレイ][br]
-[speed][0xa]...[speed][0x0]Arrête de prendre les gens pour des cons ! Le plus grand forgeron de tout l'Est ? Tu crois qu'il existe des abrutis congénitaux pour t'acheter ta lame émoussée ?!  [page]
+[speed][0xa]...[speed][0x0]Cesse de te moquer du monde ! Le plus grand forgeron de tout l'Est ? Qui serait assez sot pour acheter cette lame émoussée ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:アシュレイ][br]
@@ -278,7 +278,7 @@ Oh[speed][0x14] ?[speed][0x0] Y'a un problème, [nick:ラティ] ?[page]
 <sn:pointer id="65">[nick:ラティ][br]
 Y'a un problème avec cette peinture ?[page]
 [nick:イリア][br]
-T'as pas une drôle d'impression en la regardant ? Je me demande ce qu'on a voulu exprimer en le peignant.[page]
+T'as pas une drôle d'impression en la regardant ? Je me demande ce qu'on a voulu exprimer en la peignant.[page]
 [nick:ラティ][br]
 Ouais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -286,7 +286,7 @@ Ouais[speed][0xa]...[speed][0x0][page]
 <sn:pointer id="66">[end]</sn:pointer>
 
 <sn:pointer id="67">[nick:シウス][br]
-Parait que le fils du quincaillier d'ici trouve son inspiration dans l'art des ruines des Anciens, qu'il les dessine. C'est un artiste itinérant.[page]
+Paraît que le fils du quincaillier d'ici trouve son inspiration dans l'art des ruines des Anciens, qu'il les dessine. C'est un artiste itinérant.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="68">[nick:ラティ][br]
@@ -304,11 +304,11 @@ Ils ont disparu aujourd'hui, mais on dit qu'ils étaient une race très puissant
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:シウス][br]
-C'est pas mal ![page]
+Bon, ben tant mieux.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="72">[nick:シウス][br]
-Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres trésors ou d'autres truc du genre.[page]
+Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres trésors ou d'autres trucs du genre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="73">1. Voyage avec nous ?[br]
@@ -319,7 +319,7 @@ Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres tr
 <sn:pointer id="74">[nick:ラティ][br]
 Des trésors ?[page]
 [nick:シウス][br]
-J'ai traversé une ruine durant un de mes voyages. C'était sur le sentier du mont Métox, mais j'en n'ai pas vraiment fait le tour.[page]
+J'ai traversé une ruine durant un de mes voyages. C'était sur le sentier du mont Métox, mais je n'en ai pas vraiment fait le tour.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="75">[nick:シウス][br]
@@ -349,7 +349,7 @@ Ouais, si vous voulez bien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[nick:ロニキス][br]
-Mais tout le monde à une queue de singe ici ![page]
+Mais tout le monde a une queue de singe ici ![page]
 [nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
 [nick:ロニキス][br]
@@ -369,14 +369,15 @@ Mais qui a bien pu être [nick:マーヴェル][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="84">[nick:ラティ][br]
-J'en suis pas bien sûr non plus[speed][0xa]...[speed][0x0] Mais y'a pas de raison de t'en vouloir[speed][0xa]...[speed][0x0][page]
+J'en suis pas bien sûr non plus[speed][0xa]...[speed][0x0] Mais y'a pas de raison de vous en vouloir[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="85">[nick:ロニキス][br]
 Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Mais tout le monde à une queue de singe ici ![page]
+<sn:pointer id="86">[nick:ロニキス][br]
+Mais tout le monde a une queue de singe ici ![page]
 [nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
 [nick:ロニキス][br]
@@ -392,7 +393,7 @@ Maintenant que j'y pense, tu n'as pas de queue toi, [nick:マーヴェル] ?[pag
 [end]</sn:pointer>
 
 <sn:pointer id="88">[nick:ヨシュア][br]
-D'ailleurs, [nick:マーヴェル], ta force est différente du combat à l'épée et au bouclier habituel. D'où te vient-elle exactement ?[page]
+D'ailleurs, [nick:マーヴェル], ta force est différente de l'escrime comme de l'héraldique. D'où te vient-elle exactement ?[page]
 [nick:マーヴェル][br]
 Hein ?[page]
 [end]</sn:pointer>
@@ -404,7 +405,7 @@ Non, non, du tout. C'est juste que ça m'intriguait.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="90">[nick:シウス][br]
-Whaaa[speed][0xa]...[speed][0x0]C'est là que [nick:ラティ] va se prendre une raclée. J'ai hâte de voir la suite. Ce que c'est excitant[speed][0x5]...[speed][0x0] ![page]
+Whaaa[speed][0xa]...[speed][0x0]Ouh là, [nick:ラティ] est en pleine scène de ménage. J'ai hâte de voir la suite. Ce que c'est excitant[speed][0x5]...[speed][0x0] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="91">[nick:フィア][br]

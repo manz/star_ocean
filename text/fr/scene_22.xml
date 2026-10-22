@@ -18,8 +18,8 @@ Ah, c'est vous. Navré, mais j'ai confié le travail à ce type là-bas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:ラティ][br]
-Hein ?!
-[nick:イリア]
+Hein ?![page]
+[nick:イリア][br]
 Mais...[page]
 [end]</sn:pointer>
 
@@ -121,11 +121,11 @@ Hein ?! Non c'est pas ce que j'ai voulu dire[speed][0xa]... ![speed][0x0][page]
 <sn:pointer id="27">[nick:イリア][br]
 Hi hi [speed][0x5]![speed][0x0] [nick:ミリー] aurait été ravie que tu lui dises ça, tu ne crois pas ?[page]
 [nick:イリア][br]
-Mais maintenant tu l'as dit et ce qui est fait est fait, pourquoi je n'irais pas dans ton sens?[page]
+Mais puisque tu le proposes, je vais me laisser gâter.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:ラティ][br]
-Tu veux les essayer vite fait ? Je vais demander au vendeur.[page]
+Passe-les-moi, je vais demander au vendeur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:ラティ][br]
@@ -141,7 +141,7 @@ En les regardant d'un peu plus près, on dirait quand même du toc.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:イリア][br]
-Ce n'est pas le prix qui importe au final, tout ce qui compte c'est que ça plaise.[page]
+Ce n'est pas le prix qui importe au final, tout ce qui compte, c'est qu'on l'aime et que ce soit offert avec le cœur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:ラティ][br]
@@ -149,13 +149,13 @@ Ce n'est pas le prix qui importe au final, tout ce qui compte c'est que ça plai
 [end]</sn:pointer>
 
 <sn:pointer id="34">[nick:イリア][br]
-Non, finalement je ne prends rien.[page]
+Mais non, ce n'est pas ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">[nick:イリア][br]
 Tu ne pourrais pas m'offrir autre chose ?[page]
 ???[br]
-Et pourquoi ne pas offrir ceci ?[page]
+Un cadeau ? Quel cadeau ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:ラティ][br]
@@ -165,7 +165,7 @@ N[speed][0x5]...[speed][0x0] Non, c'est rien. Je t'assure.[page]
 <sn:pointer id="37">[nick:ミリー][br]
 Mmmm[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-[nick:ミリー], tout ça n'a aucun sens[speed][0xa]...[speed][0x0][page]
+[nick:ミリー], ça ne veut rien dire du tout[speed][0xa]...[speed][0x0][page]
 [nick:ミリー][br]
 Chut, [nick:イリア].[page]
 [nick:イリア][br]
@@ -183,10 +183,10 @@ Heu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:シウス][br]
-S'lut, [nick:ラティ].
+Salut, [nick:ラティ].
 Viens par ici une seconde.[page]
 [nick:ラティ][br]
-Gné[speed][0x5] ?[speed][0x0] D'accord.[page]
+Hein[speed][0x5] ?[speed][0x0] D'accord.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:フィア][br]
@@ -212,7 +212,7 @@ Tu parlais de celles-là ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:イリア][br]
-Viens, tu n'as pas autre chose à faire ?[page]
+Allez, tu sais ce qu'il te reste à faire, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:ラティ][br]
@@ -255,7 +255,7 @@ Oh, elles sont jolies ces boucles d'oreilles ![page]
 <sn:pointer id="56">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0] Je suis crevé.[page]
 [nick:イリア][br]
-C'est comme ça que sont les femmes quand elles sont jeunes ?[page]
+Les filles de son âge sont comme ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">Badam[br]
@@ -299,7 +299,7 @@ Non, ça ne me dit rien[speed][0xa]...[speed][0x0] Et comment ça se fait que vo
 [end]</sn:pointer>
 
 <sn:pointer id="66">Femme[br]
-Ce type est vraiment vulgaire. J'aimerais bien voir ses parents.[page]
+Ce type est vraiment vulgaire. On se demande qui l'a élevé.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="67">Femme[br]
@@ -322,16 +322,16 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="72">[end]</sn:pointer>
 
-<sn:pointer id="73">Femme chevalier[br]
-Vous êtes des aventuriers ? Je suis venue de [color][0x4]Sylvalant[color][0x2] pour me rendre sur la tombe de mon maitre. Je n'arrive pas à me résoudre de l'avoir négligée si longtemps.[page]
+<sn:pointer id="73">Épéiste[br]
+Vous êtes des aventuriers ? Je suis venue de [color][0x4]Sylvalant[color][0x2] pour me rendre sur la tombe de mon maître. Ça, je ne peux pas le manquer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Chevalier[br]
-J'ai entendu parler d'un forgeron renommé à [color][0x4]Astral[color][0x2]. Normal, pour un royaume réputé pour ses chevaliers.[page]
+<sn:pointer id="74">Épéiste[br]
+J'ai entendu parler d'un forgeron renommé à [color][0x4]Astral[color][0x2]. Normal, pour le royaume de l'épée.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="75">Fille[br]
-Beaucoup d'aventuriers viennent ici, je ne rappelle pas du visage de chacun. Désolée de ne pouvoir vous venir en aide.[page]
+Beaucoup d'aventuriers viennent ici, je ne me rappelle pas le visage de chacun. Désolée de ne pouvoir vous venir en aide.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">Fille[br]
@@ -343,7 +343,7 @@ Vous cherchez quelqu'un ? Je ne sors que très peu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="78">Vieille femme[br]
-Mon petit fils qui adore tuer les monstres est parti pour [color][0x4]Sylvalant[color][0x2][speed][0xa]...[speed][0x0] C'est bien le fils de son père. J'ai beau leur dire que je serais heureuse de les avoir près de moi, mais...[page]
+Mon petit-fils est parti pour [color][0x4]Sylvalant[color][0x2], plein d'ardeur, combattre les monstres[speed][0xa]...[speed][0x0] Son père était pareil. Je voudrais juste les avoir près de moi...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">Entraîneur[br]
@@ -351,16 +351,16 @@ Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">Entraîneur[br]
-L'apprentissage des compétences est divisé en trois phases principales.[page]
+L'apprentissage des compétences est divisé en trois buts principaux.[page]
 La première est d'acquérir les effets bonus des savoirs. Par exemple, apprendre un savoir culturel augmentera votre INT.[page]
 La seconde est d'obtenir des commandes spéciales en apprenant différentes combinaisons de savoirs. Par exemple Marathon et Artisanat. Il en existe plus de 10 sortes alors si vous décidez de toutes les apprendre, la route sera longue.[page]
-La dernière ressemble à la première, mais est un peu différente. Il concerne les savoirs utilisables en combat. L'apprentissage des savoirs de combat est particulièrement utile et grâce à eux, vous pouvez changer le déroulement des batailles. En apprenant un savoir comme Combo, vous allez devenir un maître de guerre.[page]
+La dernière ressemble à la première, mais est un peu différente. Elle concerne les savoirs utilisables en combat. L'apprentissage des savoirs de combat est particulièrement utile et grâce à eux, vous pouvez changer le déroulement des batailles. En apprenant un savoir comme Combos, vous allez devenir un vrai accro au combat.[page]
 C'était un peu long, mais pour faire court, il est important d'utiliser vos points de savoir à bon escient et de le faire avec une vision à long terme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="81">[end]</sn:pointer>
 
-<sn:pointer id="82">Maitre de la guilde[br]
+<sn:pointer id="82">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
@@ -371,15 +371,15 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="84">[end]</sn:pointer>
 
-<sn:pointer id="85">Maitre de la guilde[br]
+<sn:pointer id="85">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Maitre de la guilde[br]
+<sn:pointer id="86">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Maitre de la guilde[br]
+<sn:pointer id="87">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
@@ -399,7 +399,7 @@ Botanique, minéralogie et cordon bleu.[page]
 
 <sn:pointer id="91">Mentor[br]
 Sens niveau 1 comprend :
-Expert, sens du danger et stoïcisme.[page]
+Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="92">Mentor[br]
@@ -471,13 +471,12 @@ Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[p
 
 <sn:pointer id="107">[nick:ペリシー][br]
 Mon ami est là ?[page]
- 
-[nick:ラティ]
-Probablement[speed][0xa]...[speed][0x0] J'ai du mal à imaginer que là-bas ça soit rempli d'affreuses statues de lapins.[page]
-[nick:ペリシー][br]
-C'est pas affreux ! C'est sexy ![page]
 [nick:ラティ][br]
-S[speed][0xa]...[speed][0x0] Sexy ?[page]
+Probablement[speed][0xa]...[speed][0x0] Une statue de lapin aussi moche, ça court pas les rues.[page]
+[nick:ペリシー][br]
+C'est pas moche ! C'est trop chou ![page]
+[nick:ラティ][br]
+T[speed][0xa]...[speed][0x0] Trop chou ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="108">Badam[br]
@@ -493,9 +492,9 @@ Ah, celle-ci ? Qu'est-ce qu'elle a ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="111">[nick:ペリシー][br]
-C'est un lapin !!![page]
+C'est Bunny !!![page]
 Badam[br]
-Hein[speed][0xa] ?![speed][0x0] Un lapin ?[page]
+Hein[speed][0xa] ?![speed][0x0] Bunny ?[page]
 [nick:ペリシー][br]
 C'est mon ami, rendez-le-moi !![page]
 Badam[br]
@@ -503,7 +502,7 @@ Tu en as de bonnes, toi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="112">[nick:ペリシー][br]
-Lapiiiiiiin ! Réveille-toi !![page]
+Bunny ! Réveille-toi !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="113">[nick:ペリシー][br]
