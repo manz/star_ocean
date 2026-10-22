@@ -21,4 +21,12 @@ line breaks in 3987 (the rest are their dumper's speaker-line quirks, JP only).
 Their JP dump also cross-checked our 16×16 table: 22 of our readings corrected (暑 継 菌 東/束 腰 拠 鎖 倒 受 終
 祈 歳 疲 臓 恨 讐 鏡 費 薄 検 揺); on the other 44 disagreements their table is wrong (shifted rows, `<術>`-style guesses).
 
-Not imported yet: menus / items / battle (`SO-Magno/{menu,SO_items_fra,Battle,description}.txt`), graphics.
+Menus (`tools/import_menus.py` → `text/fr/<db>.xml`):
+
+- `labels8`: `Patch PRE ALPHA/TXT/menu.txt` (SO-Magno's copy of this block is English).
+- `names8`, `battle16`, `menu16`: `SO-Magno/SO_items_fra.txt`, blocks `$00` / `$01` / `$03`. Their slot icon codes
+  (`<Arme>`...) point at blank tiles and become words.
+- Their 8x8 font, recompressed to S-DD1 in its original slot.
+
+Ours, not theirs: item descriptions (translated from the Japanese), full item names (their abbreviations spelled
+out), narration / intro / credits graphics. Not used: `SO-Magno/{menu,Battle,description}.txt`.

@@ -3,7 +3,7 @@
 <sn:pointer id="0">[center]Château de Van I Il[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Château de Van I Il[page]
+<sn:pointer id="1">[center]Portes de Van I Il[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Garde[br]
@@ -35,7 +35,7 @@ Puisse votre avenir avoir l'éclat du soleil.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Étudiant excité[br]
-Je fais des recherches sur les différentes races existantes[speed][0xa].[speed][0x0] Il semblerait que l'une d'elles, apparentée aux chats, les Felpurrs, perdure à ce jour. Oh, j'aimerais tellement voir une femme-chat [speed][0xa]!!![speed][0x0][page]
+Je fais des recherches sur les différentes races existantes[speed][0xa].[speed][0x0] Il semblerait que l'une d'elles, apparentée aux chats, les Semi Felpurrs, perdure à ce jour. Oh, j'aimerais tellement voir une femme-chat[speed][0xa]!!![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Peintre royal[br]
@@ -43,14 +43,14 @@ Lorsqu'on insuffle une âme aux peintures, elles en deviennent magiques. Lorsque
 [end]</sn:pointer>
 
 <sn:pointer id="11">Garde[br]
-Les Higlanders sont enviés de tous ceux qui étudient l'escrime. Ça doit être tellement bien d'avoir ça dans le sang ![page]
+Les Highlanders sont enviés de tous ceux qui étudient l'escrime. Ça doit être tellement bien d'avoir ça dans le sang ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Vénérable du Sommet[br]
-Nous avons collecté quelques informations sur les derniers monstres capturés. Apparemment, Asmodeus, roi du monde démoniaque, est en train de réaliser une arme pire que tout ce que l'on puisse imaginer. Quand il y a eu l'explosion sur le continent de Moore, j'ai eu peur. Mais il parait que ça n'a rien à voir.[page]
+<sn:pointer id="12">Mage[br]
+Nous avons collecté quelques informations sur les derniers monstres capturés. Apparemment, Asmodeus, roi du monde démoniaque, est en train de réaliser une arme pire que tout ce que l'on puisse imaginer. Quand il y a eu l'explosion sur le continent de Moore, j'ai eu peur. Apparemment, ça n'a rien à voir. Ça reste un mystère, d'ailleurs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Vénérable du Sommet[br]
+<sn:pointer id="13">Mage[br]
 Alors, ils auraient une nouvelle arme... Notre royaume n'est pas pourvu de stratégie offensive[speed][0xa]...[speed][0x0] Si seulement nous pouvions pénétrer dans le monde démoniaque[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -81,7 +81,7 @@ D-Désolé...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">Servante Juliette[br]
-On non, Roméo !
+Oh non, Roméo !
 Ne me laisse pas seule ![page]
 [end]</sn:pointer>
 
@@ -98,7 +98,7 @@ J'ai pas envie d'aller bosser. Dites à personne que je suis là, hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">Jeune fille[br]
-Tu sais ce que sont les "dons innés", hein ? J'espère que oui ! Ce sont toutes les compétences que tu peux apprendre.[page]
+Tu sais ce que sont les "dons innés", hein ? J'espère que oui ! Ce sont des aptitudes qu'on a de naissance.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">Chevalier indécis[br]
@@ -150,13 +150,13 @@ Hey.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">Chancelier[br]
-Sire [nick:アシュレイ] , le roi vous attend. Par ici, je vous prie.[page]
+Messire [nick:アシュレイ], le roi vous attend. Par ici, je vous prie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">Roi de Van[br]
 Voici donc ceux qui souhaitent s'entretenir avec moi.[page]
 Chancelier[br]
-Tout à fait, votre grandeur.[page]
+Tout à fait, Votre Majesté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">Roi de Van[br]
@@ -172,7 +172,7 @@ Nous l'ignorons.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">Roi de Van[br]
-Je vois. En d'autres circonstances, des étrangers surestimant leurs compétences seraient jetés dehors sans autre forme de procès. Mais[speed][0xa]...[speed][0x0] Bon. Je devrais d'abord vous mettre à l'épreuve. S'il s'avère que vous n'êtes pas à la hauteur de vous dires, nous ne pourrons vous accepter à nos côtés.[page]
+Je vois. En d'autres circonstances, des étrangers surestimant leurs compétences seraient jetés dehors sans autre forme de procès. Mais[speed][0xa]...[speed][0x0] Bon. Je devrais d'abord vous mettre à l'épreuve. S'il s'avère que vous n'êtes pas à la hauteur de vos dires, nous ne pourrons vous accepter à nos côtés.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">Chancelier[br]
@@ -186,17 +186,17 @@ Vous comprendrez quand vous y serez.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">Roi de Van[br]
-Pour pénétrer dans le monde démoniaque, il faut à la fois connaitre l'emplacement de la porte et le moyen de l'ouvrir. Et ces informations sont hautement confidentielles et ne peuvent être révélées à n'importe qui.[page]
+Pour pénétrer dans le monde démoniaque, il faut à la fois connaître l'emplacement de la porte et le moyen de l'ouvrir. Et ces informations sont hautement confidentielles et ne peuvent être révélées à n'importe qui.[page]
 [nick:ロニキス][br]
 [speed][0xa]...[speed][0x0][page]
 Roi de Van[br]
-En principe, c'est impossible d'ouvrir la porte de notre côté. Elle ne s'ouvre que lorsque les monstres du monde démoniaque viennent envahir notre monde. Il y a quelques années, un homme a tenté de s'y aventurer quand la porte  était ouverte depuis l'autre côté. Il est revenu à moitié mort. Selon lui, le monde démoniaque porte bien son nom et aucun mot n'est assez fort pour décrire l'horreur qu'il y règne. Maintenant que vous savez ce qui vous attend, voulez-vous toujours y aller ?[page]
+En principe, c'est impossible d'ouvrir la porte de notre côté. Elle ne s'ouvre que lorsque les monstres du monde démoniaque viennent envahir notre monde. Il y a quelques années, un homme a tenté de s'y aventurer quand la porte était ouverte depuis l'autre côté. Il est revenu à moitié mort. Selon lui, le monde démoniaque porte bien son nom et aucun mot n'est assez fort pour décrire l'horreur qu'il y règne. Maintenant que vous savez ce qui vous attend, voulez-vous toujours y aller ?[page]
 [nick:ロニキス][br]
 Notre choix est fait.[page]
 Roi de Van[br]
 Parfait[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-Votre Altesse. Vous disiez qu'il est impossible d'ouvrir la porte depuis ce côté ?[page]
+Votre Majesté. Vous disiez qu'il est impossible d'ouvrir la porte depuis ce côté ?[page]
 Roi de Van[br]
 J'ai dit "en principe". Ça ne veut pas dire qu'on ne peut pas. En fait, celui qui a à l'origine relié notre monde à celui des démons venait d'ici.[page]
 [nick:ロニキス][br]
@@ -211,7 +211,7 @@ D'après la légende, ils ont baptisé le continent d'où ils venaient comme eux
 [nick:ラティ][br]
 Alors, ils s'appelaient "Moore" au départ ?[page]
 Roi de Van[br]
-C'est ça. La légende dit aussi que les ancêtres des Mooriens n'avaient pas d'enfants, mais étaient tous des adultes, soudainement apparus de nulle part. Ils sont tombés du ciel, portant le nom que les dieux leur avaient donné.[page]
+C'est ça. La légende dit aussi que les premiers Mooriens ne sont pas nés enfants : ils sont apparus adultes, d'un coup, de nulle part. Ils sont tombés du ciel, portant le nom que les dieux leur avaient donné.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">[nick:イリア][br]
@@ -223,19 +223,19 @@ Ils ont construit un artefact et se sont servis de sa puissance pour ouvrir les 
 [nick:ロニキス][br]
 Pourquoi ont-ils fait ça ? Je ne pense pas qu'il puisse y avoir ne serait-ce qu'une seule bonne raison à faire une telle chose.[page]
 Roi de Van[br]
-Malheureusement, ce n'est pas à nous d'en juger. L'artefact est appelé l'[color][0x6]œil de la vérité[color][0x2]. On raconte que c'est une gemme écarlate, de la taille d'un poing.[page]
+Hélas, nous l'ignorons. L'artefact est appelé l'[color][0x6]Œil de la Vérité[color][0x2]. On raconte que c'est une gemme écarlate, de la taille d'un poing.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[end]</sn:pointer>
 
 <sn:pointer id="45">[nick:ラティ][br]
-À propos de l'[color][0x6]œil de la vérité[color][0x2], il ne montre pas les images de tout ce que voudrait voir celui qui le possède ?[page]
+À propos de l'[color][0x6]Œil de la Vérité[color][0x2], il ne montre pas les images de tout ce que voudrait voir celui qui le possède ?[page]
 Roi de Van[br]
-C'est la version la plus répandue de la légende, sans nul doute. Beaucoup ont couru après l'[color][0x6]œil de la vérité[color][0x2] sans jamais le trouver.[page]
+C'est la version la plus répandue de la légende, sans nul doute. Une simple légende populaire : des gens y ont projeté leurs désirs sans jamais l'avoir vu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">Roi de Van[br]
-Les Moorians ont laissé quelques indices sur l'endroit où se trouve l'[color][0x6]œil de la vérité[color][0x2] aux familles royales des quatre royaumes. On raconte que sans les quatre indices, il est impossible de deviner sa localisation.[page]
+Les Mooriens ont laissé quelques indices sur l'endroit où se trouve l'[color][0x6]Œil de la Vérité[color][0x2] aux familles royales des quatre royaumes. On raconte que sans les quatre indices, il est impossible de deviner sa localisation.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:イリア][br]
@@ -249,7 +249,7 @@ Apportez-le.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">Chancelier[br]
-Oui, Votre Altesse.[page]
+Oui, Votre Majesté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">Chancelier[br]
@@ -257,12 +257,12 @@ Tenez[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Qu'est-ce que c'est ?[page]
 Roi de Van[br]
-Prenez cet emblème et allez rendre visite aux rois de chaque royaume. Cet emblème atteste que vous savez tout au sujet de l'[color][0x6]œil de la vérité[color][0x2].[page]
+Prenez cet emblème et allez rendre visite aux rois de chaque royaume. Cet emblème atteste que vous savez tout au sujet de l'[color][0x6]Œil de la Vérité[color][0x2].[page]
 Vous recevez l'[color][0x6]emblème de Van[color][0x2].[page]
 Roi de Van[br]
 Une fois que vous aurez rencontré les trois autres rois, je serai en mesure de vous révéler le secret de mon royaume.[page]
-Prenez ce grimoire avez vous. J'espère qu'il vous sera utile dans vos aventures. Et que les vents vous soient favorables.[page]
-Vous avez appris 4 animaux sacrés. [page]
+Prenez ce grimoire avec vous. J'espère qu'il vous sera utile dans vos aventures. Et que les vents vous soient favorables.[page]
+Arcane des 4 bêtes sacrées appris.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">Roi de Van[br]
@@ -270,7 +270,7 @@ Ainsi, vous avez rencontré tous les rois des autres royaumes.[page]
 [nick:ロニキス][br]
 C'est ça.[page]
 [nick:ロニキス][br]
-Le roi de Moore nous a remis la clé de ruines, le roi d'Astral nous a récité des phrases devant renfermer un sens caché, et le roi de Sylvalant nous a donné l'emplacement des portes vers le monde démoniaque.[page]
+Le roi de Moore nous a remis la clé des ruines, le roi d'Astral nous a récité des phrases devant renfermer un sens caché, et le roi de Sylvalant nous a donné l'emplacement des portes vers le monde démoniaque.[page]
 Roi de Van[br]
 Parfait. Vous avez également les emblèmes prouvant votre venue dans les différents royaumes ?[page]
 [nick:ロニキス][br]
@@ -332,7 +332,7 @@ Quoi ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:シウス][br]
-Mais pourquoi[speed][0xa]...[speed][0x0] ?![page]
+Espèce d'ordure[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="64">[nick:アシュレイ][br]
@@ -358,13 +358,13 @@ Ne la laissez pas partir ![page]
 <sn:pointer id="69">Soldat[br]
 C'est abominable ! Selon le rapport des troupes, le village de [color][0x4]Dulce[color][0x2] a été désintégré dans une énorme explosion ! C'est impossible qu'il y ait le moindre survivant.[page]
 [nick:ロニキス][br]
-[speed][0xa]...[speed][0x0] Vite, au monde démoniaque. Je ne n'ose même pas imaginer ce qu'il se passerait s'ils se servaient de cette arme sur [color][0x4]Van[color][0x2] ou [color][0x4]Astral[color][0x2]...[page]
+[speed][0xa]...[speed][0x0] Vite, au monde démoniaque. Je n'ose même pas imaginer ce qu'il se passerait s'ils se servaient de cette arme sur [color][0x4]Van[color][0x2] ou [color][0x4]Astral[color][0x2]...[page]
 [nick:イリア][br]
 C'est certain ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="70">[nick:シウス][br]
-Ils vont payer pour ça[speed][0xa]...[speed][0x0] Qu'ils crèvent tout sur-le-champ ![page]
+Ils vont payer pour ça[speed][0xa]...[speed][0x0] Qu'ils crèvent tous sur-le-champ ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:フィア][br]
@@ -388,7 +388,7 @@ Par ici.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">Roi de Van[br]
-Ce que vous avez fait est extraordinaire. Vous êtes les plus grands héros que notre planète a connu. Vos noms vont rester gravés dans l'Histoire.[page]
+Ce que vous avez fait est extraordinaire. Vous êtes les plus grands héros que notre planète ait connus. Vos noms vont rester gravés dans l'Histoire.[page]
 [nick:ロニキス][br]
 Merci.[page]
 Roi de Van[br]
@@ -420,7 +420,7 @@ Tu t'inquiètes trop. Mais ta perpétuelle méfiance nous a vraiment aidés dans
 [end]</sn:pointer>
 
 <sn:pointer id="82">[nick:ラティ][br]
-Demain, nous irons saluer les autres[speed][0xa]...[speed][0x0][page]
+Demain, il faudra dire adieu à tout le monde[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="83">[nick:イリア][br]
@@ -437,7 +437,7 @@ Allons voir le roi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="86">Garde[br]
-Vous êtes [nick:ロニキス],  c'est ça ? Un moment je vous prie.[page]
+Vous êtes [nick:ロニキス], c'est ça ? Un moment je vous prie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="87">Garde[br]
@@ -453,11 +453,11 @@ Oh, on devrait peut-être laisser venir [nick:ラティ], non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="90">[nick:フィア][br]
-Désolé. Ne vous inquiétez pas, ce n'est rien. Vraiment.[page]
+Désolée. Ne vous inquiétez pas, ce n'est rien. Vraiment.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="91">[nick:マーヴェル][br]
-T'inquiète pas. On on racontera rien à personne.[page]
+Rassurez-vous, on ne disait pas de mal de vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="92">[nick:ロニキス][br]
@@ -477,7 +477,7 @@ Les hommes ne sont pas autorisés.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="96">[nick:マーヴェル][br]
-T'inquiète pas. On on racontera rien à personne.[page]
+Rassurez-vous, on ne disait pas de mal de vous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="97">[nick:ロニキス][br]

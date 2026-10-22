@@ -27,12 +27,12 @@ Je me demande si on peut accéder à leurs données.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[mode8][0x20][color][0x3]CECI EST UN LABORATOIRE
-DE RECHERCHES QUANTIQUES.
+DE RECHERCHE SPATIO-TEMPORELLE.
 QUE VOULEZ-VOUS ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[mode8][0x0][nick:イリア][br]
-Un laboratoire de recherches quantiques ?
+Un laboratoire spatio-temporel ?
 Pourquoi implanter une telle installation
 dans un endroit pareil ?[page]
 [nick:ラティ][br]
@@ -44,7 +44,7 @@ utiliser pour envahir le monde.[page]
 <sn:pointer id="8">[mode8][0x20]CONNEXION.[page]
 [color][0x3]À QUOI SE CONNECTER ?[page]
 [color][0x2]&gt;&gt; BASE DE DONNÉES.[page]
-[color][0x3]ACCÈS AUTORISE. QUEL EST VOTRE IDENTIFIANT ?[page]
+[color][0x3]ACCÈS AUTORISÉ. QUEL EST VOTRE IDENTIFIANT ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[mode8][0x0][nick:イリア][br]
@@ -54,7 +54,7 @@ Essaie "Asmodeus".[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[mode8][0x20]&gt;&gt; ASMODEUS.[page]
-[color][0x3]IDENTIFIANT ACCEPTE. ENTREZ VOTRE MOT DE PASSE.[page]
+[color][0x3]IDENTIFIANT ACCEPTÉ. ENTREZ VOTRE MOT DE PASSE.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[mode8][0x0][nick:ロニキス][br]
@@ -69,10 +69,10 @@ ENTREZ VOTRE MOT DE PASSE.[color][0x2][page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[mode8][0x0][nick:イリア][br]
-C'est pas cool ![page]
+Comme prévu, ça ne marche pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[mode8][0x20][color][0x3]LE DELAI EST ECOULE. ALERTE ![page]
+<sn:pointer id="14">[mode8][0x20][color][0x3]LE DÉLAI EST ÉCOULÉ. ALERTE ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[mode8][0x0][nick:イリア][br]
@@ -91,7 +91,7 @@ une bonne fois pour toutes ![page]
 Tsss ! C'est fort présomptueux de la part de
 quelqu'un qui ne sait même pas à quoi
 ressemble Asmodeus ![page]
-Je [speed][0xa]suis[speed][0x0] Asmodeus ![end]</sn:pointer>
+Je [speed][0xa]suis[speed][0x0] Asmodeus ![page][end]</sn:pointer>
 
 <sn:pointer id="18">Asmodeus[br]
 À moins que tu penses pouvoir le trouver dans les parties
@@ -145,7 +145,7 @@ Oui[speed][0xa]...[speed][0x0] On va prendre un peu de son sang.[page]
 <sn:pointer id="29">Gremlins appris.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[center]Laboratoire de recherches quantiques[page]
+<sn:pointer id="30">[center]Laboratoire spatio-temporel[page]
 [end]</sn:pointer>
 
 </sn:script>

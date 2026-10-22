@@ -22,7 +22,7 @@ Nan, il devrait pas y'avoir beaucoup de types qui se revendiquent membres des fo
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:ヨシュア][br]
-Allons leur parler.[page]
+Bien vu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:シウス][br]
@@ -54,7 +54,7 @@ Bienvenue dans la ville fortifiée de Van ! Son vrai nom est Van I Il, mais c'es
 [end]</sn:pointer>
 
 <sn:pointer id="10">Jeune homme[br]
-La ville fortifie de Van I Il[speed][0xa]...[speed][0x0] Pour faire court, le château de Van[speed][0xa]...[speed][0x0] C'est un drôle de château, hein ?[page]
+Le château de Van I Il[speed][0xa]...[speed][0x0] Van, pour faire court[speed][0xa]...[speed][0x0] On dirait un nom d'instrument, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Leeza[br]
@@ -64,7 +64,7 @@ Tout comme le font mes pensées.[speed][0xa]...[speed][0x0]
 Eh oui, je suis une poétesse.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Jeune homme laid[br]
+<sn:pointer id="12">Jeune homme patibulaire[br]
 Tu veux ma photo ?[page]
 [end]</sn:pointer>
 
@@ -81,7 +81,7 @@ Recherchez-vous de bons ingrédients pour de la bonne cuisine ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:アシュレイ][br]
-Pardonnez mon impolitesse de vous demander ça,[nick:ラティ], mais pourquoi suivez-vous la voie de l'épée ?[page]
+Pardonne mon indiscrétion, [nick:ラティ], mais pourquoi suis-tu la voie de l'épée ?[page]
 [nick:ラティ][br]
 Hein ?![page]
 [end]</sn:pointer>
@@ -91,23 +91,23 @@ Hein ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:アシュレイ][br]
-C'est important de vouloir être plus fort. Les compétences viennent s'additionner à la force. Cependant, que ferez-vous quand vous aurez atteint ses limites ?[page]
+C'est important de vouloir être plus fort. Les compétences viennent s'additionner à la force. Mais que feras-tu quand tu auras atteint tes limites ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">1. La force ne connait pas de limites[br]
+<sn:pointer id="19">1. La force ne connaît pas de limites[br]
 2. Mes limites la déterminent[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:アシュレイ][br]
-En effet, aucune limite. Vous êtes encore jeune, et vous ignorez tous des évènements qui vous attendent. Je m'attendais à une autre réponse de votre part.[page]
+Aucune limite, hein ? Tu es jeune, tu ne vois pas encore si loin. Cette réponse n'a rien d'étonnant.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:アシュレイ][br]
-C'est exactement ça, quand on regarde la nature même de la force. Vos limites la déterminent En d'autres termes, si vous ne cherchez que la force et uniquement la force, c'est là que tout s'arrête.[page]
+C'est exactement ça, quand on regarde la nature même de la force. Tes limites la déterminent. En d'autres termes, si tu ne cherches que la force et uniquement la force, c'est là que tout s'arrête.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:アシュレイ][br]
-La force dont vous parlez, est-elle relative ou absolue ?[page]
+La force dont tu parles, est-elle relative ou absolue ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">1. Relative[br]
@@ -115,43 +115,43 @@ La force dont vous parlez, est-elle relative ou absolue ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:アシュレイ][br]
-Donc vous souhaitez devenir plus fort que les autres ?[page]
+Donc tu souhaites devenir plus fort que les autres ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:アシュレイ][br]
-Quand ceux qui sont plus forts que vous disparaissent, alors vous atteignez vos limites ?[page]
+Quand ceux qui sont plus forts que toi disparaissent, alors tu atteins tes limites ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:アシュレイ][br]
-Ne croyez-vous donc pas alors en l'absolu ?[page]
+Tu ne crois donc pas en l'absolu ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:アシュレイ][br]
-Si vous souhaitez devenir plus fort, plus fort que tous les autres ?[page]
+Vouloir être fort, n'est-ce pas vouloir être plus fort que quiconque ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:アシュレイ][br]
-Ne croyez-vous donc pas alors en la relativité ?[page]
+Tu ne crois donc pas en la relativité ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:アシュレイ][br]
-Hmmm... Ça ne serait le but que vous poursuivez au fond de vous ?[page]
+Hmmm... Ton but serait donc en toi-même ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:アシュレイ][br]
-Pour le bien de tous ? Vous me dites que vous voulez avoir la force de protéger tout le monde ?[page]
+Pour le bien de tous ? Tu me dis que tu veux avoir la force de protéger tout le monde ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:アシュレイ][br]
-Alors, vous n'avez donc pas besoin de plus de force que le nécessaire, c'est ça ?[page]
+Alors, tu n'as pas besoin de plus de force que le nécessaire, c'est ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:アシュレイ][br]
-Il semblerait que vous ne soyez pas vraiment cohérent. N'aviez-vous pas répondu que vous suiviez la voie de l'épée pour le bien de tous ? Alors, pourquoi vouloir plus de force que nécessaire ? Êtes-vous certain de me dire la vérité ?[page]
+Tu n'es pas très cohérent. N'as-tu pas répondu que tu suivais la voie de l'épée pour le bien de tous ? Alors, pourquoi vouloir plus de force que nécessaire ? Es-tu certain de me dire la vérité ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:アシュレイ][br]
-[speed][0xa]...[speed][0x0] Pardonnez-moi pour cette inintéressante lecture.[page]
+[speed][0xa]...[speed][0x0] Pardonne-moi, c'était une question oiseuse.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">[nick:シウス][br]
@@ -171,17 +171,17 @@ Ah[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:マーヴェル][br]
-Impossible[speed][0xa]...[speed][0x0] [nick:ヨシュア][speed][0xa]... !![speed][0x0][page]
+Impossible[speed][0xa]...[speed][0x0] Grand frère [nick:ヨシュア][speed][0xa]... !![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">Enfant[br]
-Mamaaaan !! Ma sœur a disparu ![page]
+Mamaaaan !! La grande fille, elle a disparu ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">Femme[br]
 De quoi tu parles ? Tu as fait un cauchemar ?[page]
 Enfant[br]
-Mais non! Et même qu'elle pleurait[speed][0xa]...[speed][0x0][page]
+Mais non ! Et même qu'elle pleurait[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:ペリシー][br]

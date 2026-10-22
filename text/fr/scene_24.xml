@@ -31,7 +31,7 @@ Ah, c'est vous. Remettez-lui ceci de ma part.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:シウス][br]
-Et comment on est sensés lui ramener un truc si gros ?[page]
+Et comment on est censés lui ramener un truc si gros ?[page]
 Armurier[br]
 Et pourtant, il va falloir.[page]
 [nick:シウス][br]
@@ -61,11 +61,12 @@ Comme ça vous êtes des aventuriers ? Et ça consiste en quoi ? Peut-être les 
 Je vais vraiment avoir des ennuis si le bateau est bloqué à quai à cause des pirates...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Vieille femme au visage rond Reverrais-je la paix avant d'aller manger les pissenlits par la racine ?[page]
+<sn:pointer id="16">Vieille femme au visage rond[br]
+Reverrai-je la paix avant d'aller manger les pissenlits par la racine ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Vieille femme au visage rond[br]
-Il parait que le monde démoniaque a une influence aux alentours de [color][0x4]Sylvalant[color][0x2].[page]
+Il paraît que le monde démoniaque a une influence aux alentours de [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Homme au comptoir[br]
@@ -132,20 +133,20 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 
 <sn:pointer id="33">[end]</sn:pointer>
 
-<sn:pointer id="34">Maitre de la guilde[br]
+<sn:pointer id="34">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Maitre de la guilde[br]
+<sn:pointer id="35">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Maitre de la guilde[br]
+<sn:pointer id="36">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">Aventurier[br]
-Il parait qu'il y a des ruines au [color][0x4]mont Métox[color][0x2]...[page]
+Il paraît qu'il y a des ruines au [color][0x4]mont Métox[color][0x2]...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">Maman de Marie[br]
@@ -189,7 +190,7 @@ Biologie, connaissance des outils et solfège.[page]
 
 <sn:pointer id="47">Mentor[br]
 Sens niveau 1 comprend :
-Expert, sens du danger et stoïcisme.[page]
+Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">Mentor[br]
@@ -198,8 +199,7 @@ Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">Mentor[br]
-Mentor
-Combat niveau 1 comprend : Onde de choc, impact aérien et volte face.[page]
+Combat niveau 1 comprend : Onde de choc, impact aérien et volte-face.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[end]</sn:pointer>
@@ -239,7 +239,7 @@ Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="59">1. Bon si c'est juste un verre...[br]
-2. J'suis partant[page]
+2. Sans moi[page]
 [end]</sn:pointer>
 
 <sn:pointer id="60">[end]</sn:pointer>
@@ -284,7 +284,7 @@ On reste encore dans cette ville à se reposer ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:ラティ][br]
-Pourquoi tu restes planté là à faire c'te tête ?[page]
+Pourquoi tu restes plantée là à faire c'te tête ?[page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -300,7 +300,7 @@ C'est pas la peine de te la péter, t'es qu'un faible, mauviette.[page]
 
 <sn:pointer id="74">Joe[br]
 Quoi ?! Sale bâtard[speed][0xa]...[speed][0x0]
- J'vais t'éclater ta tête ![page]
+J'vais t'éclater la tête ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="75">[nick:シウス][br]
@@ -329,7 +329,7 @@ J'te couvre[speed][0xa]...[speed][0x0][page]
 <sn:pointer id="81">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] Monsieur [nick:アシュレイ][page]
 [nick:アシュレイ][br]
-arrête avec tes Monsieur. Tu peux pas m'appeler juste par mon nom ?[page]
+Arrête avec tes Monsieur. Tu peux pas m'appeler juste par mon nom ?[page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0] Pourquoi est-ce que vous continuez encore votre périple ?[page]
 [end]</sn:pointer>
@@ -350,7 +350,7 @@ Si ce n'est trop vous demander, pourriez-vous m'en dire plus ?[page]
 Toi[speed][0xa]...[speed][0x0]
 Qu'est-ce que tu fais là !?[page]
 [nick:フィア][br]
-Je picole depuis ce midi... Ça doit être bien d'être de la haute.[page]
+Tu picoles en plein jour... La belle vie, hein ?[page]
 [nick:シウス][br]
 [speed][0xa].....[speed][0x0][page]
 [nick:フィア][br]
@@ -366,7 +366,7 @@ Ryas, ton père, il a été assassiné ![page]
 <sn:pointer id="85">[nick:シウス][br]
 Quoi ?! C'est pas vraiment du genre à se faire tuer, même à grands coups de hache ![page]
 [nick:フィア][br]
-[speed][0xa]...[speed][0x0] Il a été attaqué par un assassin du monde démoniaque. J'ai été accusé du crime et j'ai du quitter [color][0x4]Astral[color][0x2].[page]
+[speed][0xa]...[speed][0x0] Il a été attaqué par un assassin du monde démoniaque. J'ai été accusée du crime et j'ai dû quitter [color][0x4]Astral[color][0x2].[page]
 [nick:シウス][br]
 [speed][0xa]...[speed][0x0] Accusé ?![page]
 [nick:フィア][br]
@@ -378,7 +378,7 @@ Mon père[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="87">[nick:フィア][br]
-Où est-ce que tu vas ![page]
+Où est-ce que tu vas ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="88">[nick:シウス][br]

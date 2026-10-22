@@ -55,7 +55,7 @@ Hé, ho ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:イリア][br]
-Et je ne fais que commencer.[page]
+Je plaisante.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:イリア][br]
@@ -83,7 +83,7 @@ Un verre, s'il vous plaît.[page]
 <sn:pointer id="21">[nick:ラティ][br]
 [nick:イリア], depuis quand es-tu devenue experte en alcools locaux ?[page]
 [nick:イリア][br]
-Les hommes ne remarquent jamais les petits détails.[page]
+Un vrai homme ne s'arrête pas à ces détails.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:ミリー][br]
@@ -106,14 +106,14 @@ Bien sûr, qu'est-ce que je vous sers ?[page]
 Voyons[speed][0xa]...[speed][0x0]
 Pourquoi pas un verre de mukansa ?[page]
 Barman[br]
-Je vois que j'ai affaire à un connaisseur. Le mukansa est un alcool exceptionnel dont le goût est à la hauteur de son prix.[page]
+Je vois que j'ai affaire à un connaisseur. Le mukansa est un alcool exceptionnel qui vaut bien plus que son prix.[page]
 [nick:イリア][br]
 Hé hé ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:イリア][br]
-Tu tiens l'alcool [speed][0xf] ?[speed][0x0]
-Vieillard ♪[page]
+Tu tiens l'alcool[speed][0xf] ?[speed][0x0]
+Mon beau monsieur ♪[page]
 [nick:アシュレイ][br]
 Tu ne devrais pas te moquer de tes aînés. C'est du petit lait, pour moi. Je prendrai un verre d'hiirazu, s'il vous plaît.[page]
 [nick:イリア][br]
@@ -126,7 +126,7 @@ Je ne savais pas que tu étais un amateur d'alcool.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:イリア][br]
-Les hommes ne remarquent jamais les petits détails.[speed][0x14][speed][0x0][end]</sn:pointer>
+Un vrai homme ne s'arrête pas à ces détails.[speed][0x14][speed][0x0][end]</sn:pointer>
 
 <sn:pointer id="29">Tu ne trouves pas ?[page]
 [nick:アシュレイ][br]
@@ -134,7 +134,7 @@ Si.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:ミリー][br]
-Un milk-shake à l'ananas, s'il vous plaît[speed][0xa]...[speed][0x0][page]
+Un milk-shake à la pomme, s'il vous plaît[speed][0xa]...[speed][0x0][page]
 Barman[br]
 Tout de suite, mademoiselle.[page]
 [end]</sn:pointer>
@@ -157,11 +157,11 @@ Juste un petit peu.[page]
 <sn:pointer id="33">[nick:ラティ][br]
 [nick:イリア], depuis quand es-tu devenue experte en alcools locaux ?[page]
 [nick:イリア][br]
-Les hommes ne remarquent jamais les petits détails.[page]
+Un vrai homme ne s'arrête pas à ces détails.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">[nick:ミリー][br]
-Un milk-shake aux framboises, s'il vous plaît[speed][0xa]...[speed][0x0][page]
+Un milk-shake à la fraise, s'il vous plaît[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">1. Sans alcool[br]
@@ -250,7 +250,7 @@ Tiens, [nick:ラティ], goûte ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="58">[nick:ラティ][br]
-Waouh[speed][0xa],[speed][0x0] ça déboite ![page]
+Waouh[speed][0xa],[speed][0x0] ça déboîte ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="59">[nick:アシュレイ][br]
@@ -262,7 +262,7 @@ Mmmm ! Cet arôme et cette saveur[speed][0xa]...[speed][0x0] C'est clair que c'e
 [end]</sn:pointer>
 
 <sn:pointer id="61">[nick:フィア][br]
-C'est clair [speed][0xa]![speed][0x0] Ça se boit comme du petit-lait ! ♪[page]
+C'est clair[speed][0xa]![speed][0x0] Ça se boit comme du petit-lait ! ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:イリア][br]
@@ -302,7 +302,7 @@ froid.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">[nick:ロニキス][br]
-Même [nick:ミリー][speed][0xa]...[speed][0x0] Hé bien[speed][0xa]...[speed][0x0][page]
+Même [nick:ミリー][speed][0xa]...[speed][0x0] Eh bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="72">[nick:ロニキス][br]
@@ -314,10 +314,10 @@ Punaise[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="74">[nick:ラティ][br]
-On sait tous qu'elle est comme ça quand elle a bu[speed][0xa]...[speed][0x0][page]
+Qui aurait cru que [nick:ミリー] était comme ça une fois soûle[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Qu'elle est comment ?[page]
+<sn:pointer id="75">Comment ça, au juste ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">[end]</sn:pointer>
@@ -331,7 +331,7 @@ Gnnn, [nick:ロニキス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">[nick:ロニキス][br]
-[nick:ラティ], qu'est-ce qu'il t'arrive [speed][0xa]?[speed][0x0][page]
+[nick:ラティ], qu'est-ce qu'il t'arrive[speed][0xa]?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[nick:ラティ][br]
@@ -354,7 +354,7 @@ Oui, c'est vrai.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="85">[nick:ロニキス][br]
-[nick:マーヴェル], ça va ?[page]
+[nick:マーヴェル], tu es sûre ?[page]
 [nick:マーヴェル][br]
 Oui.
 Laissez-moi vous accompagner encore un peu. Je vous demande juste de ne pas m'arrêter la prochaine fois.[page]
@@ -367,16 +367,15 @@ Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="87">[nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
-Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+Oui. C'est le royaume situé à l'ouest d'Ionis, il me semble.[page]
 [nick:マーヴェル][br]
 Je ne sais pas quoi dire. J'ai du mal à croire que vous êtes en route pour aller tuer Asmodeus, le roi du monde démoniaque[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-Comment ça ?
-Tu ne viens pas avec nous ?[page]
+Rien ne t'oblige à venir, hein ?[page]
 [nick:マーヴェル][br]
 Si, laissez-moi vous accompagner, je vous promets que je ne vous gênerai pas.[page]
 [nick:イリア][br]
@@ -405,22 +404,21 @@ Non, c'est pas ça[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="92">[nick:イリア][br]
-Les préparatifs sont terminés.  Nous partirons bientôt.[page]
+Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="93">[nick:ロニキス][br]
-Ah [speed][0xa]?[speed][0x0] D'accord.[page]
+Ah[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
-Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+Oui. C'est le royaume situé à l'ouest d'Ionis, il me semble.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="94">[nick:シウス][br]
-Je n'avais pas la moindre idée que votre but était de tuer Asmodeus, le roi du monde démoniaque ! Je pensais juste que vous étiez à la recherche de vos potes, où un truc du genre ![page]
+Je n'avais pas la moindre idée que votre but était de tuer Asmodeus, le roi du monde démoniaque ! Je pensais juste que vous étiez à la recherche de vos potes, ou un truc du genre ![page]
 [nick:イリア][br]
-Comment ça ?
-Tu ne viens pas avec nous ?[page]
+Rien ne t'oblige à venir, hein ?[page]
 [nick:シウス][br]
 Si, bien sûr que si ! Vous pouvez compter sur moi ![page]
 [nick:イリア][br]
@@ -436,7 +434,7 @@ Hâtons-nous d'aller au royaume de Van.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="96">[nick:ロニキス][br]
-[nick:マーヴェル], ça va ?[page]
+[nick:マーヴェル], tu es sûre ?[page]
 [nick:マーヴェル][br]
 Oui.[page]
 [nick:アシュレイ][br]
@@ -446,15 +444,15 @@ Ravi de l'entendre. Je suis certain que ton aide nous sera précieuse dans la su
 <sn:pointer id="97">[nick:イリア][br]
 Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
-Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+Oui. C'est le royaume situé à l'ouest d'Ionis, il me semble.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="98">[nick:アシュレイ][br]
-Je n'avais pas la moindre idée que vous vouliez en finir avec Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez simplement à la recherche de vous amis, mais il s'avère que mon hypothèse était erronée.[page]
+Je n'avais pas la moindre idée que vous vouliez en finir avec Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez simplement à la recherche de vos amis, mais il s'avère que mon hypothèse était erronée.[page]
 [nick:イリア][br]
 Il faut que nous le fassions, quel qu'en soit le prix.[page]
 [nick:アシュレイ][br]
@@ -464,7 +462,7 @@ En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerions un 
 [nick:アシュレイ][br]
 Hein ?[page]
 [nick:イリア][br]
-Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
+Non, rien. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="99">[nick:ロニキス][br]
@@ -498,32 +496,31 @@ Nous devrions partir bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="105">[nick:イリア][br]
-Les préparatifs sont terminés.  Nous partirons bientôt.[page]
+Les préparatifs sont terminés. Nous partirons bientôt.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="106">[nick:ロニキス][br]
-Ha [speed][0xa]?[speed][0x0] D'accord.[page]
+Ha[speed][0xa]?[speed][0x0] D'accord.[page]
 [nick:ラティ][br]
 [color][0x4]Van[color][0x2], c'est là qu'on va ?[page]
 [nick:ロニキス][br]
-Oui. C'est le royaume situé à l'est d'Ionis, il me semble.[page]
+Oui. C'est le royaume situé à l'ouest d'Ionis, il me semble.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="107">[nick:ヨシュア][br]
-Je n'aurais jamais pensé que vous prévoyez de faire un truc aussi dingue, tuer Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez juste à la recherche de vos amis.[page]
+Je n'aurais jamais pensé que vous prévoyiez de faire un truc aussi dingue, tuer Asmodeus, le roi du monde démoniaque. Je pensais que vous étiez juste à la recherche de vos amis.[page]
 [nick:イリア][br]
-Comment ça ?
-Tu ne viens pas avec nous ?[page]
+Rien ne t'oblige à venir, hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="108">[nick:フィア][br]
-Si, je vais pas vous lâcher comme ça. C'est clair que c'est un de ces fils de pute du monde démoniaque qui nous a attaqués, mon beau-père et moi.[page]
+Si, je vais pas vous lâcher comme ça. C'est clair que c'est un de ces fils de pute du monde démoniaque qui a pris mon apparence pour attaquer mon père adoptif.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="109">[nick:ヨシュア][br]
 Je vous accompagnerai aussi loin que je le pourrai. Si je commence à vous ralentir, je quitterai le groupe.[page]
 [nick:イリア][br]
-En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerons un paradoxe.[page]
+En fait, nous n'allons pas le tuer, mais le capturer. Sinon, nous créerions un paradoxe.[page]
 [nick:ヨシュア][br]
 Hein ?[page]
 [nick:イリア][br]
@@ -533,15 +530,14 @@ Laisse tomber. Quoi qu'il en soit, hâtons-nous d'aller au royaume de Van.[page]
 <sn:pointer id="110">[nick:ラティ][br]
 [nick:イリア], ça va ?[page]
 [nick:イリア][br]
-Hic[speed][0xa]...[speed][0x0] Oo[speed][0xa]ooooo[speed][0x19][speed][0xa]...[speed][0x0]
-C[speed][0xa]aaa[speed][0x19][speed][0xa] punaise[speed][0xa]...[speed][0x0]
+Hic[speed][0xa]...[speed][0x0] Ca[speed][0xa]pitaaaine[speed][0x19][speed][0xa]...[speed][0x0]
 Je[speed][0xa],[speed][0x0] je[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="111">[nick:ラティ][br]
 [nick:ミリー], ça va ?[page]
 [nick:ミリー][br]
-Laisse-moi tranquille, [nick:ラティ][speed][0xa]...[speed][0x0]
+Hiii, arrête, [nick:ラティ][speed][0xa]...[speed][0x0]
 ZZZzzzzz....[page]
 [end]</sn:pointer>
 
@@ -563,7 +559,7 @@ Vous venez du royaume d'Astral ? Le château de Van est juste un peu plus loin.[
 
 <sn:pointer id="116">Jeune homme[br]
 Mmmm... Qu'est-ce que je vais bien pouvoir faire aujourd'hui ?
-Un truc de cool, de toute façon. Mais hors de question de cuisiner avec des ingrédients que je n'aime pas. Tu vois ?[page]
+Un truc de cool, de toute façon. En tout cas, les ingrédients, faut les cuisiner avant de les manger. Logique, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="117">Maître de la guilde[br]
@@ -593,7 +589,7 @@ Vous l'avez déjà.[page]
 <sn:pointer id="123">Entraîneur[br]
 Le Cran, quel paramètre mystérieux. Je parie que tout un tas de personnes voient ça sur leur écran de statut et se demandent à quoi ça peut bien servir.[page]
 Entraîneur[br]
-Ce paramètre indique le Cran de la personne. Plus il est élevé, plus les effets bonus vont se produire long des longs combats.[page]
+Ce paramètre indique le Cran de la personne. Plus il est élevé, plus les effets bonus vont se produire au cours des combats.[page]
 Entraîneur[br]
 Les dommages que vous infligez aux ennemis peuvent être doublés, par exemple. Ou encore vous pourrez survivre à un coup fatal. Le Cran est un paramètre très utile.[page]
 Entraîneur[br]
@@ -622,7 +618,7 @@ Sens de l'esthétique, sens de l'humour et persévérance.[page]
 
 <sn:pointer id="128">Mentor[br]
 Sens niveau 3 comprend :
-Fonctionnalité, ondes radio et obstination.[page]
+Efficacité, ondes radio et obstination.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="129">Mentor[br]
@@ -638,7 +634,7 @@ Avez-vous bien dormi ?[page]
 
 <sn:pointer id="132">Aubergiste[br]
 Bienvenue.
-C'est [color][0x5]30[color][0x2] fols la nuit.
+C'est [color][0x5]30[color][0x2] Fol la nuit.
 Voulez-vous une chambre ?[page]
 [end]</sn:pointer>
 

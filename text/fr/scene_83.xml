@@ -22,11 +22,11 @@ Qui êtes-vous ?[page]
 ???[br]
 Je suis Ivina, chef de la faction Anti-Rivorse.[page]
 [nick:ロニキス][br]
-Oh, c'est toi[speed][0xa]...[speed][0x0] Je suis [nick:ロニキス] J. Kenny, de la Fédération.[page]
+C'est donc vous[speed][0xa]...[speed][0x0] Je suis [nick:ロニキス] J. Kenny, de la Fédération.[page]
 Ivina[br]
 Je sais. Mais pourquoi avoir amené des Roakiens ?[page]
 [nick:ロニキス][br]
-Ils nous ont aidés par le passé. Leur potentiel a hautement évolué depuis, et je pense que j'aurai besoin d'eux pour cette mission.[page]
+Ils nous ont aidés par le passé. J'ai une haute opinion de leurs capacités, et je pense que j'aurai besoin d'eux pour cette mission.[page]
 Ivina[br]
 Compris. Bien, allons en ville[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
@@ -53,7 +53,7 @@ Je suis en partie responsable de ce qui s'est passé[speed][0xa]...[speed][0x0][
 Farget est une planète désolée, avec peu de ressources naturelles, d'eau ou de plantes.[page]
 Nous avons mené de longues recherches sur la bio-ingénierie ou le voyage spatial afin de trouver un nouvel endroit où vivre.[page]
 Je travaillais alors au laboratoire de recherches.[page]
-Je pensais que ces projets étaient destinés au bien de l'humanité, mais en vérité ça servait à développer une nouvelle arme biologique destinée à l'invasion de la Terre.[end]</sn:pointer>
+Je pensais que ces projets étaient destinés au bien de l'humanité, mais en vérité ça servait à développer une nouvelle arme biologique destinée à l'invasion de la Terre.[page][end]</sn:pointer>
 
 <sn:pointer id="9">Ivina[br]
 Dès que j'ai compris le fin mot de l'histoire, j'ai décidé de rejoindre la résistance pour empêcher cette atrocité.[page]
@@ -64,13 +64,13 @@ Jay est le résultat de nos recherches en génétique. C'est l'assemblage parfai
 [end]</sn:pointer>
 
 <sn:pointer id="11">Ivina[br]
-Mais ce qui le rend dangereux est dans ses gênes. Quand il a été conçu, les scientifiques ont programmé ses instincts destructeurs vis-à-vis de la Terre directement dans son ADN[speed][0xa]...[speed][0x0][page]
+Mais ce qui le rend dangereux est dans ses gènes. Quand il a été conçu, les scientifiques ont programmé ses instincts destructeurs vis-à-vis de la Terre directement dans son ADN[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:ロニキス][br]
 Des instincts destructeurs ?[page]
 Ivina[br]
-Oui. Jay a lancé une révolution et s'est ensuite proclamé dictateur. Il a éliminé tous les scientifiques, mais c'est le résultat de sa programmation ADN. Je doute que Jay ait conscience de ce qu'il a fait.[page]
+Oui. Jay a lancé une révolution et s'est ensuite proclamé dictateur. Il a éliminé tous les scientifiques, mais leur folie reste gravée dans ses instincts. Lui-même n'en a sans doute pas conscience.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Ivina[br]
@@ -78,7 +78,7 @@ Nous devons l'arrêter et réparer nos erreurs, mais nous n'avons pas les moyens
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ラティ][br]
-Ok ! [speed][0xa][speed][0x0] C'est parti ![page]
+OK ![speed][0xa][speed][0x0] C'est parti ![page]
 Ivina[br]
 Parfait. Je vais vous accompagner.[page]
 [end]</sn:pointer>

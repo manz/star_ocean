@@ -227,3 +227,94 @@ _end:
 .alloc at 0xC04B30 size 2 {
     brk #0x4B
 }
+
+.macro op(kind, word) {
+    """One template op: kind (low nibble) and the value its high nibble adds to `word`."""
+    .db kind
+    .dw word
+}
+
+; CA:B0EB builds the item / talent notices into the u16 buffer from templates of 3-byte ops, an offset from C6:F523
+; each: 01 end, 03 a code, 05 pad, 06 / 16 item name, 07 / 17 / 97 menu16 string, 82 character name. The Japanese
+; chained particles (は, を, 「, 」...) as menu16 strings: the French templates put the words in French order.
+.alloc at 0xC6F523 size 0xD7 {
+_table:
+    .dw _rows - _table, _got - _table, _equip - _table, _equip_more - _table
+    .for n := 0, 4 {
+        .dw _level - _table
+    }
+    .dw _learnt - _table, _raised - _table, _made - _table, _identified - _table
+    .for n := 0, 4 {
+        .dw _secret - _table
+    }
+    .for n := 0, 4 {
+        .dw 0x00D7  ; past the templates, as in the Japanese
+    }
+_rows:
+    op(0x03, 0x000D)
+    op(0x03, 0x000D)
+    .db 0x01
+; Obtenu : <item> !
+_got:
+    op(0x07, 0xFB9C)
+    op(0x06, 0x1387)
+    op(0x07, 0xFB9A)
+    .db 0x01
+_equip:
+    op(0x16, 0x1387)
+    op(0x05, 0x0009)
+    op(0x27, 0xF1CC)
+    op(0x03, 0x000D)
+    op(0x17, 0xFDE8)
+    .db 0x01
+_equip_more:
+    op(0x16, 0x1387)
+    op(0x05, 0x0009)
+    op(0x27, 0xF1CC)
+    op(0x03, 0x000D)
+    op(0x32, 0x0000)
+    op(0x17, 0xFDE8)
+    .db 0x01
+_level:
+    op(0x17, 0x0000)
+    .db 0x01
+; <name> apprend le talent "<talent>" !
+_learnt:
+    op(0x82, 0x0000)
+    op(0x07, 0xFB90)
+    op(0x97, 0xFC6C)
+    op(0x07, 0xFB91)
+    .db 0x01
+; Le talent "<talent>" de <name> / passe au niveau <n> !
+_raised:
+    op(0x07, 0xFB92)
+    op(0x97, 0xFC6C)
+    op(0x07, 0xFB93)
+    op(0x82, 0x0000)
+    op(0x03, 0x000D)
+    op(0x07, 0xFB94)
+    op(0x17, 0xFBE0)
+    op(0x07, 0xFB9A)
+    .db 0x01
+; Création réussie : <item> !
+_made:
+    op(0x07, 0xFB9D)
+    op(0x16, 0x1387)
+    op(0x07, 0xFB9A)
+    .db 0x01
+; Identifié : <item> !
+_identified:
+    op(0x07, 0xFB9E)
+    op(0x16, 0x1387)
+    op(0x07, 0xFB9A)
+    .db 0x01
+; <name> éveille un don inné secret : / "<don>" !
+_secret:
+    op(0x82, 0x0000)
+    op(0x07, 0xFB9B)
+    op(0x03, 0x000D)
+    op(0x07, 0xFBC2)
+    op(0x16, 0xF9C4)
+    op(0x07, 0xFB91)
+    .db 0x01
+}

@@ -1,9 +1,9 @@
 """French dialog laid out to the window with katsuji reflow: each page's lines re-wrapped to the window's pixels.
 
 A page is the text between two [page] codes. A line ending with [br] (a speaker, a choice) stays as written; what
-follows the last one is reflowed by sentences. A line starting with [center] gets the [pos] x that centres it.
-Widths are the katsuji font's advance (width + 1 px), a name tag measures as the French name it inserts, other
-tags measure nothing. The window keeps room for a line's 1 px of shade each side.
+follows the last one is reflowed by sentences, spaced the French way: a space before ? ! ; : that never breaks.
+A line starting with [center] gets the [pos] x that centres it. Widths are the katsuji font's advance (width + 1 px),
+a name tag measures as the French name it inserts, other tags measure nothing. The window keeps room for a line's 1 px of shade each side.
 """
 
 from __future__ import annotations
@@ -14,6 +14,7 @@ from pathlib import Path
 
 from katsuji.formats import VwfFont
 from katsuji.layout import TextLayout
+from katsuji.typeset import FRENCH
 
 from tools.rom import ROOT
 
@@ -50,7 +51,9 @@ class DialogLayout:
 
     @property
     def layout(self) -> TextLayout:
-        return TextLayout(measure=self.measure, width=WINDOW_WIDTH, min_balanced_width=MIN_BALANCED_WIDTH)
+        return TextLayout(
+            measure=self.measure, width=WINDOW_WIDTH, min_balanced_width=MIN_BALANCED_WIDTH, typography=FRENCH
+        )
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is

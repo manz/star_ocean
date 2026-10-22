@@ -12,16 +12,15 @@ La vérité est que le château de Moore fait face à une grave crise[speed][0xa
 [nick:ラティ][br]
 [speed][0xa]...[speed][0x0]C'est à dire ?[page]
 Chancelier Bolc[br]
-Des monstres ont surgi de la salle du trésor.
-On ne sait pas comment les arrêter.[page]
+Des monstres surgissent soudain de la salle du trésor. Nous en avons condamné l'entrée. Pourriez-vous découvrir d'où ils viennent ? La salle recèle de puissantes armes : servez-vous si besoin.[page]
 [nick:ラティ][br]
 Pigé... On s'en occupe ![page]
 Chancelier Bolc[br]
-Merci ! Par contre, pourriez-vous ramener les objets que vous trouverez dans la salle du trésor, quand vous aurez fini, s'il vous plaît ?[page]
+Merci ! Mais pensez bien à rendre ce qui appartient à la salle du trésor, s'il vous plaît.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:イリア][br]
-(C'était sûr qu'ils ne les nous auraient pas laissés[speed][0xa]...[speed][0x0])[page]
+(C'était sûr qu'ils ne nous les auraient pas laissés[speed][0xa]...[speed][0x0])[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">Chancelier Bolc[br]
@@ -30,7 +29,7 @@ Suivez-moi, s'il vous plaît.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Roi de Moore[br]
-Ah ! Enfin les voilà ! Pas trop tôt ![page]
+Ah ! Voici enfin ceux à qui l'on a confié l'emblème.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Roi[br]
@@ -38,7 +37,7 @@ Chancelier, veuillez éloigner les gardes.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">Chancelier[br]
-Oui, Votre Altesse ![page]
+Oui, Votre Majesté ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Roi de Moore[br]
@@ -71,7 +70,7 @@ La salle du trésor est dans le sous-sol du château.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">Servante[br]
-Ne courrez pas dans les couloirs, ça soulève la poussière ![page]
+Ne courez pas dans les couloirs, ça soulève la poussière ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Garde[br]
@@ -79,17 +78,16 @@ J'arrive pas à y croire !
 Des monstres sont apparus dans la salle du trésor[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Le roi de Moore croyait en la paix jusqu'à maintenant, donc le royaume n'est pas bien préparé militairement.
-Notre seul ennemi est le monde démoniaque, mais si nous éliminons Asmodeus, que feront nos soldats ?
-De la couture ? Du macramé ??[page]
+<sn:pointer id="17">Garde[br]
+Le feu roi de Moore était pacifiste : le royaume n'a pas beaucoup de troupes. Pour l'instant, le monde démoniaque est notre ennemi commun, mais si Asmodeus venait à tomber[speed][0xa]...[speed][0x0] J'ai comme un mauvais pressentiment.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Sage Grace[br]
 Une rumeur raconte que le mont Métox cacherait d'anciennes ruines, mais on n'en a aucune preuve...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Chef cuistot du Palais[br]
-Quand tu as le savoir et la technique, ça va tout seul !
+<sn:pointer id="19">Pasta, chef du palais[br]
+Le savoir et la technique, ça s'apprend !
 Pour un chef, le plus important est le sens gustatif.
 Si tu as le don pour marier les saveurs, tu peux faire fondre les gens de bonheur ![page]
 [end]</sn:pointer>
@@ -114,8 +112,8 @@ C'est ici. Les monstres y sont très dangereux, mais vous trouverez de quoi vous
 Merci de nous avoir débarrassés de ces créatures !
 Voilà votre récompense.[page]
 [color][0x5]20000[color][0x2] Fol reçus.
-50 SP obtenus.[page]
-[color][0x6][item][0x14][0x2c][color][0x2] obtenu.[page]
+50 PS obtenus.[page]
+[color][0x6][item][0x2c][0x14][color][0x2] obtenu.[page]
 Chancelier Bolc[br]
 Je vais reprendre l'équipement.[page]
 Chancelier Bolc[br]

@@ -12,7 +12,7 @@ J'aimerais tellement vous voir vous battre là-bas ♥[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">Vieil homme[br]
-si seulement j'avais dix ans de moins... J'irais là-bas pour poutrer du monstre ![page]
+Si seulement j'avais dix ans de moins... J'irais là-bas mettre ces monstres en pièces ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">Vieille femme[br]
@@ -36,7 +36,7 @@ ZZZZzzzz...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Vieil homme[br]
-Plus le temps passe, plus le niveau de crétinerie des participants augmente. Y'a des combats qui valent le coup ici ?[page]
+Avec l'âge, plus rien ne m'émoustille. Y'a rien de palpitant, ici ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Garçon[br]
@@ -76,7 +76,7 @@ Tiens encore le coup un peu plus longtemps[speed][0xa]...[speed][0x0] Vas-y, lâ
 [end]</sn:pointer>
 
 <sn:pointer id="19">Combattant[br]
-Il se prend pour qui celui-là ?! C'est pas qu'un amateur avec une poignée de fan ?[page]
+Il se prend pour qui celui-là ?! C'est pas qu'un amateur avec une poignée de fans ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">Frère[br]
@@ -109,7 +109,7 @@ L'autre moitié des spectateurs font partie de la populace.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">Jeune homme[br]
-J'en fais le serment. Un jour, je ne serai plus ici aux stands mais en bas, dans la foule, à hurler comme jamais [speed][0xa]...[speed][0x0][page]
+J'en fais le serment. Un jour, c'est pas dans les gradins que je serai, mais dans l'arène, et c'est pour moi qu'ils hurleront [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">Fille[br]
@@ -137,11 +137,11 @@ Tu as déjà entendu ça avant ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">Nano[br]
-Ouais, quatre gamins.[page]
+[speed][0xa]...[speed][0x0]des quadruplés.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">Mega[br]
-C'est[speed][0xa]...[speed][0x0][page]
+[speed][0xa]...[speed][0x0]sommes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">Giga[br]
@@ -194,7 +194,7 @@ Je suis le mari de la grand-mère.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">Fille[br]
-Je suis la petite fille de ma mémé.[page]
+Je suis la petite-fille de ma mémé.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">Vieille femme[br]
@@ -210,7 +210,7 @@ Quand vous serez devenu un forgeron hors pair, créer des armes très puissantes
 [end]</sn:pointer>
 
 <sn:pointer id="52">Fille[br]
-Allons en trouver des plus proche.[page]
+Allons en trouver plus près.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="53">Fille[br]
@@ -218,7 +218,7 @@ Je me demande où est Robert...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">Homme[br]
-La fille à côté de moi est carrément bonne[speed][0xa]...[speed][0x0][page]
+La fille à côté de moi est carrément mignonne[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="55">Vieille femme[br]
@@ -250,7 +250,7 @@ Il y a tellement de monde[speed][0xa]...[speed][0x0] Tu penses qu'on est combien
 [end]</sn:pointer>
 
 <sn:pointer id="62">Combattant[br]
-Quand j'étais gosse, ma mamie me donnait à moi aussi de l'argent de  poche en cachette.[page]
+Quand j'étais gosse, ma mamie me donnait à moi aussi de l'argent de poche en cachette.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">Fille[br]
@@ -286,7 +286,7 @@ Punaise ! Y'a rien qui arrête ce type ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="71">Homme[br]
-Ah ! Oh non ! Il est tombé[speed][0xa]...[speed][0x0][page]
+Ouh là ! J'ai failli tomber[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="72">Fille[br]
@@ -298,7 +298,7 @@ J'ai du mal à entendre avec ces gens qui crient si fort.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="74">Homme[br]
-Whaaa... La technique qu'il vient d'employer m'a aveuglé ![page]
+Whaaa... Sa technique a laissé des images rémanentes ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="75">Fille[br]
@@ -382,13 +382,13 @@ Les combattants des montagnes sont tellement cools et épatants♥[page]
 [end]</sn:pointer>
 
 <sn:pointer id="95">[nick:アシュレイ][br]
-Mmmpf. Tous ces combattants ressemblent à des marteaux.[page]
+Mmmpf. Tous ces combattants nagent comme des enclumes.[page]
 [nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="96">[nick:アシュレイ][br]
-Mmm [speed][0x5]?[speed][0x0] Je faisais référence au fait que les participants sont obnubilés par la technique. Ils n'ont pas d'autre but que la médiocrité.[page]
+Mmm[speed][0x5]?[speed][0x0] Je veux dire qu'ils se noient dans leur technique. Avec ça, jamais ils ne dépasseront la moyenne.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="97">[nick:アシュレイ][br]
@@ -446,14 +446,14 @@ Enfin, le quatrième combat ![page]
 <sn:pointer id="114">Commentateur[br]
 Le challengeur [nick:ラティ] a remporté 4 combats du rang [memberD] ! C'est parti pour le 5e et dernier affrontement ![page]
 Commentateur[br]
-Bonté divine ! On vient de sauter dans l'arène pour défier [nick:ラティ]![page]
+Bonté divine ! On vient de sauter dans l'arène pour défier [nick:ラティ] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="115">NOUS AVONS UN NOUVEAU CHALLENGEUR ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="116">???[br]
-Mon sang bout quand je te vois combattre ! Je m'appelle [nick:ティニーク] Arukena. Et je te défie ![page]
+Mon sang bout quand je te vois combattre ! Je m'appelle [nick:ティニーク] Arcana. Et je te défie ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="117">Commentateur[br]
@@ -476,7 +476,7 @@ Un nouveau vaillant combattant est né ! Tu t'es bien battu, et tu as la victoir
 [end]</sn:pointer>
 
 <sn:pointer id="123">Commentateur[br]
-La princesse royale [memberD] va à présent remettre au combattant le bouquet de la victoire ![page]
+Le prince royal [memberD] va à présent remettre au combattant le bouquet de la victoire ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="124">Commentateur[br]
@@ -508,7 +508,7 @@ Oh non, [leader] est au tapis ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="131">[nick:イリア][br]
-Il a une sacrée force... Ça doit être quelque chose de devoir affronter tous ces athlètes.[page]
+Il a une sacrée force... Mais se battre devant tant de monde, ça me gênerait un peu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="132">[nick:ロニキス][br]
@@ -539,7 +539,7 @@ Tu dois avoir raison[speed][0xa]...[speed][0x0] Mais toi, [nick:ラティ], pour
 [nick:ラティ][br]
 Hum, eh bien[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
-Je pense que c'est un instinct primaire, je ne vais pas t'ennuyer plus avec ça, mais je pense que c'est important de penser aux raisons qui nous poussent à nous battre. En tout cas, si j'étais face à un ennemi et que j'étais téméraire, je ne voudrais pas devenir un vulgaire meurtrier.[page]
+C'est une question intime, je n'insiste pas. Mais je pense que c'est important de réfléchir aux raisons qui nous poussent à nous battre. Moi, je ne veux pas tuer sans raison, même un ennemi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="138">[nick:ヨシュア][br]
@@ -551,7 +551,7 @@ Et si les mains de ta sœur se retrouvent maculées du sang de toutes ses victim
 [end]</sn:pointer>
 
 <sn:pointer id="140">[nick:ヨシュア][br]
-Elle ne ferait jamais une telle chose[speed][0xa]...[speed][0x0] Venant de quelqu'un qui ne l'a jamais rencontrée, c'est plutôt  malvenu. Même si tu voulais simplement plaisanter, j'en suis vraiment choqué. Ne redis jamais une chose pareille.[page]
+Elle ne ferait jamais une telle chose[speed][0xa]...[speed][0x0] Venant de quelqu'un qui ne l'a jamais rencontrée, c'est plutôt malvenu. Même si tu voulais simplement plaisanter, j'en suis vraiment choqué. Ne redis jamais une chose pareille.[page]
 [nick:マーヴェル][br]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -559,7 +559,7 @@ Je suis désolée[speed][0xa]...[speed][0x0][page]
 <sn:pointer id="141">[nick:ラティ][br]
 Pourquoi vouloir devenir plus fort ne serait pas une bonne raison ?[page]
 [nick:ヨシュア][br]
-Pourquoi veux-tu, toi, devenir plus fort ? C'est un bon sujet de réflexion. À mon avis, cet argument ne tient pas debout. Ça, ou un meurtre, c'est du pareil au même.[page]
+Pourquoi veux-tu, toi, devenir plus fort ? C'est un bon sujet de réflexion. Si cette raison est creuse, ce qu'on fait, moi compris, n'est qu'un massacre.[page]
 [nick:ラティ][br]
 Je pense que tu n'as pas tort[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>

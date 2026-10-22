@@ -35,7 +35,7 @@ Ouais.[page]
 [nick:ラティ][br]
 Faites bien gaffe de ne pas garder un seul œuf de ver cruel.[page]
 [nick:ミリー][br]
-Je sais. S'ils éclosent, on est dans la merde.[page]
+Je sais. S'ils éclosent, ce sera la catastrophe.[page]
 [nick:ラティ][br]
 C'est ça.[page]
 [end]</sn:pointer>
@@ -59,7 +59,7 @@ Hey ! Une minute... Tu as été... ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ドーン][br]
-[speed][0x14]...[speed][0x0] Il semblerait que j'ai été contaminé d'une manière ou d'une autre quand j'ai touché ce pigeon.[page]
+[speed][0x14]...[speed][0x0] Il semblerait que j'aie été contaminé d'une manière ou d'une autre quand j'ai touché ce pigeon.[page]
 [nick:ミリー][br]
 Oh non[speed][0x14]...[speed][0x0][page]
 [nick:ラティ][br]
@@ -73,7 +73,7 @@ Mais...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ドーン][br]
-[speed][0x1]Je t'ai dis que ça allait !!![speed][0x0][page]
+[speed][0x1]Je t'ai dit que ça allait !!![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:ミリー][br]
@@ -81,11 +81,11 @@ Si on ramène cette fleur avec nous[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">???[br]
-C'était sensé être totalement désert ici, mais[speed][0x14]...[speed][0x0][page]
+C'était censé être totalement désert ici, mais[speed][0x14]...[speed][0x0][page]
 ???[br]
-Il n'y avait personne il y a demi heure ![page]
+Il n'y avait personne il y a trente minutes à peine ![page]
 ???[br]
-Bon est repérés. On n'y peut rien. Tentons de coopérer avec eux.[page]
+Bon, on nous a vus. Tant pis : demandons-leur de coopérer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:ラティ][br]
@@ -95,7 +95,7 @@ Vous êtes venus aussi pour récolter des plantes médicinales ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">???[br]
-N'ayez rien à craindre[speed][0x14]...[speed][0x0]
+Vous n'avez rien à craindre[speed][0x14]...[speed][0x0]
 Même si ça ne sert pas à grand
 chose de vous dire ça...[page]
 ???[br]
@@ -114,7 +114,7 @@ D'où venez-vous ?[page]
 <sn:pointer id="22">???[br]
 Je suis [nick:イリア] Silvestoli. Je vais vous expliquer.[page]
 Iria[br]
-Je ne peux répondre à vos interrogations, mais nous venons en amis.[page]
+Sachez d'abord une chose : nous sommes de votre côté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:ミリー][br]
@@ -138,7 +138,7 @@ Mais QUI êtes-vous à la fin ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:ラティ][br]
-Si c'est tout...[page]
+Juste vous écouter, alors...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:イリア][br]
@@ -154,7 +154,7 @@ En raison du "traité de protection des planètes en voie de développement", no
 [nick:ラティ][br]
 En développement... ?[page]
 [nick:イリア][br]
-Nous venons de par delà le ciel[speed][0x14]...[speed][0x0] D'une autre planète. Nous avons décidé que cette fois, il fallait faire une exception.[page]
+Nous venons d'au-delà du ciel[speed][0x14]...[speed][0x0] D'une autre planète. Nous avons décidé que cette fois, il fallait faire une exception.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:ラティ][br]
@@ -194,7 +194,7 @@ C'est pour cela que nous sommes venus vous aider, en employant des méthodes don
 <sn:pointer id="36">[nick:ミリー][br]
 Je continue à ne pas vous croire, mais si vous pouvez soigner le mal...[page]
 [nick:ラティ][br]
-Je ne vous crois pas non plus vraiment, mais si vous pouvez venir en aide à mes amis...[page]
+Je ne vous crois pas non plus vraiment, mais si vous pouvez venir en aide à mon ami...[page]
 [nick:イリア][br]
 Nous ne savons pas encore si nous serons en mesure de vous soigner, mais si vous vous joignez à nous, nous pourrons élaborer un vaccin[speed][0x14]...[speed][0x0][page]
 [nick:ラティ][br]
@@ -220,7 +220,7 @@ Impossible de choisir entre quitter [nick:ドーン] ou mon père et les autres 
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:ラティ][br]
-[nick:ミリー] Partons avec [nick:ドーン].[page]
+[nick:ミリー], partons avec [nick:ドーン].[page]
 [nick:ラティ][br]
 Ce sera pire encore de rester ici et être totalement impuissants.[page]
 [nick:ラティ][br]
@@ -228,9 +228,9 @@ C'est sûr que c'est triste de ne plus être avec les autres à [color][0x4]Clat
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:イリア][br]
-Il semblerait que vous avez pris votre décision. Très bien. Nous partons immédiatement.[page]
+Il semblerait que vous ayez pris votre décision. Très bien. Nous partons immédiatement.[page]
 [nick:イリア][br]
-Veuillez fermer vos yeux un instant.[page]
+Veuillez fermer les yeux un instant.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">[nick:ミリー][br]
@@ -238,7 +238,7 @@ Hein.... ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:シウス][br]
-Alors comme ça vous avez à nouveau besoin de moi pour votre petite chasse à l'homme...[page]
+Chercher des gens, c'est pas une mince affaire...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[nick:ラティ][br]
@@ -268,7 +268,7 @@ Si si.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:シウス][br]
-L'entrée doit être par là au bord du sentier, dans une zone d'ombre il me semble[speed][0xa]...[speed][0x0][page]
+L'entrée doit être par là au bord du sentier, derrière ce rocher, il me semble[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">[nick:シウス][br]
@@ -283,7 +283,7 @@ L'eau est délicieuse ici.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">[nick:ドーン][br]
-Maintenant que j'y pense, le printemps est presque fini.[page]
+Maintenant que j'y pense, le printemps est déjà passé.[page]
 [nick:ラティ][br]
 Ouais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -335,7 +335,7 @@ Il est un peu dur à la comprenette mais avec [nick:ミリー] avec lui, on n'a 
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:アシュレイ][br]
-Il est un peu neuneu mais avec [nick:ミリー] à ses cotés, pas la peine de s'inquiéter.[page]
+Il est un peu lent à la détente, mais avec [nick:ミリー] à ses côtés, pas la peine de s'inquiéter.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="64">[nick:ペリシー][br]
@@ -343,7 +343,7 @@ Je vais aller enterrer cet ocarina ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="65">[nick:シウス][br]
-Oh bon, il est à moi.[page]
+Bon, moi, ce sera ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="66">[nick:アシュレイ][br]

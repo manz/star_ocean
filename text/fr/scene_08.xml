@@ -22,7 +22,7 @@
 [end]</sn:pointer>
 
 <sn:pointer id="7">Raddle le voyageur[br]
-J'ai l'impression de m'être encore perdu. Ça commence à me les briser menu-menu[speed][0xa]...[speed][0x0][page]
+Je me suis encore perdu[speed][0xa]...[speed][0x0] J'en ai marre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">C'est le dos du panneau.
@@ -46,11 +46,11 @@ Il n'y a rien d'écrit...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Est : Laponia
-Ouest : Plage de Crat[page]
+Ouest : Côte de Clatos[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Si tu veux lire le panneau,
-tu devrais te mettre du bon côté ![page]
+<sn:pointer id="14">C'est l'envers du panneau.
+Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">Est : Thermonia
@@ -59,15 +59,15 @@ Ouest : Plage de Crat[page]
 
 <sn:pointer id="16">C'est le dos du panneau.
 Il y a quelque chose d'écrit,
-mais c'est illisible[page]
+mais c'est illisible.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Ouest : Laponia
-Sud : Crat[page]
+Sud : Clatos[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Il est écrit :
-"Faites attention sur le chemin!"[page]
+"Faites attention sur le chemin !"[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Ouest : Thermonia

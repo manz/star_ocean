@@ -9,7 +9,7 @@
 <sn:pointer id="2">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Epicerie[page]
+<sn:pointer id="3">[center]Épicerie[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[center]Maison[page]
@@ -22,7 +22,7 @@
 [end]</sn:pointer>
 
 <sn:pointer id="7">Homme[br]
-J'me demande si la marée est pour bientôt[speed][0x5]...[speed][0x0][page]
+J'crois qu'il est temps de plier bagage[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Vieillard[br]
@@ -49,7 +49,7 @@ Voulez-vous rester ?[page]
 
 <sn:pointer id="13">[end]</sn:pointer>
 
-<sn:pointer id="14">vous n'avez pas assez d'argent.[page]
+<sn:pointer id="14">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[end]</sn:pointer>

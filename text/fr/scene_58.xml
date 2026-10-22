@@ -25,14 +25,12 @@
 [end]</sn:pointer>
 
 <sn:pointer id="8">Maître de la guilde[br]
-
-Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.
-[page]
+Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">1. Savoir niveau 1   300[br]
-2. Savoir niveau 2   600[br]
-3. Savoir niveau 3  1200[br]
+<sn:pointer id="9">1. Culture niveau 1   300[br]
+2. Culture niveau 2   600[br]
+3. Culture niveau 3  1200[br]
 4. Combat niveau 2  2000[page]
 [end]</sn:pointer>
 
@@ -55,28 +53,27 @@ Le nombre maximum de points de compétences possible est de 999, donc il est inu
 [end]</sn:pointer>
 
 <sn:pointer id="15">Mentor[br]
-Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?
-[page]
+Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">1. Savoir niveau 1[br]
-2. Savoir niveau 2[br]
-3. Savoir niveau 3[br]
+<sn:pointer id="16">1. Culture niveau 1[br]
+2. Culture niveau 2[br]
+3. Culture niveau 3[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Mentor[br]
-Savoir niveau 1 consiste en
+Culture niveau 1 consiste en
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Mentor[br]
-Savoir niveau 2 consiste en
+Culture niveau 2 consiste en
 connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Mentor[br]
-Savoir niveau 3 consiste en
+Culture niveau 3 consiste en
 folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
@@ -104,16 +101,17 @@ des pierres dans le royaume de Van[speed][0xa]...[speed][0x0][page]
 
 <sn:pointer id="25">Homme[br]
 De ce que j'ai entendu, il y a eu une grosse explosion
-à [color][0x4]Crat[color][0x2]. C'était une météorite?[page]
+à [color][0x4]Crat[color][0x2]. C'était une météorite ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Je viens de [color][0x4]Dulce[color][0x2]. La région de [color][0x4]Sylvalant[color][0x2]
+<sn:pointer id="26">Homme[br]
+Je viens de [color][0x4]Dulce[color][0x2]. La région de [color][0x4]Sylvalant[color][0x2]
 est trop dangereuse et n'est vraiment pas un endroit où il fait bon vivre ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">Aventurier[br]
 Mon voyage est devenu plus facile maintenant que
-je maîtrise Marathon et Observation.[page]
+je maîtrise Coureur et Pisteur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">Morgan l'armurier[br]
@@ -139,7 +137,7 @@ Bonjour. Que désirez-vous manger ?[page]
 
 <sn:pointer id="33">1. Parfait aux fruits[br]
 2. Tarte aux pommes[br]
-3. Sherbert[br]
+3. Sorbet[br]
 4. Ça ira, merci ![page]
 [end]</sn:pointer>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Donjon[page]
+<sn:pointer id="0">[center]Cachot[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[center]Château d'Astral[page]
@@ -21,9 +21,9 @@ Vous êtes [nick:フィア] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:フィア][br]
-Qu'est-ce que c'est que ces manières ? Vous n'êtes pas supposé vous présenter d'abord ?[page]
+Qu'est-ce que c'est que ces manières ? Vous n'êtes pas censé vous présenter d'abord ?[page]
 [nick:ラティ][br]
-Oups[name:ラティクス][speed][0xa]...[speed][0x0] Je m'appelle [nick:ラティ].[page]
+Oh, pardon. [name:ラティクス][speed][0xa]...[speed][0x0] Appelez-moi [nick:ラティ].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:フィア][br]
@@ -77,7 +77,7 @@ Je vous en prie[speed][0xa]...[speed][0x0] Croyez-moi ![page]
 Vous plaisantez... ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">2. L'aider à s'évader[br]
+<sn:pointer id="17">1. L'aider à s'évader[br]
 2. Partir[page]
 [end]</sn:pointer>
 
@@ -98,11 +98,11 @@ On ne peut plus revenir en arrière.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:イリア][br]
-Qu'est-ce qui te tracasse, [nick:ラティ] ?[page]
+Tu as perdu la tête, [nick:ラティ] ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:ラティ][br]
-Tout va bien, ne t'inquiète pas.[page]
+J'ai toute ma tête, ne t'inquiète pas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:ラティ][br]
@@ -112,19 +112,19 @@ Bon, [nick:フィア], allons-y. Il faut qu'on sorte d'[color][0x4]Astral[color]
 <sn:pointer id="24">[nick:フィア][br]
 Je suis désolée[speed][0xa]...[speed][0x0] On ne reviendra jamais, c'est ça ?[page]
 [nick:イリア][br]
-Hé bien, je suis certaine que le véritable meurtrier est toujours en fuite, quelque part[speed][0xa]...[speed][0x0][page]
+Eh bien, je suis certaine que le véritable meurtrier est toujours en fuite, quelque part[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Hâtons-nous.[page]
 [nick:イリア][br]
-On ne peut pas prendre le vaisseau cargo. Fuyons par les [color][0x4]grottes d'Astral[color][0x2].[page]
+Le bateau, c'est exclu. Fuyons par les [color][0x4]grottes d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[mode8][0x0][speed][0x1]Soldat[br]
-Warren ?![speed][0x0][page]
+Sire Warren ?![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">Soldat[br]
-Warren ! Que se passe-t-il ?[page]
+Sire Warren ! Que se passe-t-il ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">Soldat[br]
@@ -142,7 +142,7 @@ Gnnn[speed][0xf]... !![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">Soldat[br]
-O[speed][0x14]-[speed][0x1]Oh non [speed][0x14]![speed][0x1] [nick:フィア]...[speed][0x14] ![speed][0x1] Elle a tué Warren ![speed][0x0][page]
+O[speed][0x14]-[speed][0x1]Oh non[speed][0x14]![speed][0x1] [nick:フィア]...[speed][0x14] ![speed][0x1] Elle a tué sire Warren ![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">Soldat[br]
@@ -172,7 +172,7 @@ Tu ne vas pas voir ton père ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[nick:シウス][br]
-Comment oses-tu me demander d'aller le voir dans un moment pareil ?[page]
+Avec quelle tête j'irais le voir, maintenant ?[page]
 [nick:フィア][br]
 Tu ne sais plus où tu en es[speed][0xa]...[speed][0x0] Même aujourd'hui Warren espère que tu rentres à la maison ![page]
 [end]</sn:pointer>
@@ -182,7 +182,7 @@ C'est pour ça que je ne peux pas aller le voir.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:シウス][br]
-Je n'ai plus la foi.[page]
+Je n'y croyais pas.[page]
 [nick:フィア][br]
 Hein ?[page]
 [nick:シウス][br]
@@ -210,7 +210,7 @@ Hé hé ♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="44">[nick:フィア][br]
-En fait, vouloir être plus fort, ce n'est pas si loin que d'être un chevalier au service du roi, ou même être mercenaire. Ce qui change, c'est ce en quoi on croit.[page]
+On grandit tous en doutant. Chevalier du roi ou mercenaire, c'est pareil. Seul change ce en quoi on croit.[page]
 [nick:シウス][br]
 Pourquoi tu sors ça maintenant ?[page]
 [nick:フィア][br]
@@ -230,11 +230,11 @@ Humm[speed][0xf]...[speed][0x0] J'sais pas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:フィア][br]
-Tu n'as pas envie de revenir en arrière ?[page]
+Tu ne veux pas revenir ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">[nick:フィア][br]
-Je m'excuse de te déranger avec mes bavardages[speed][0xa]...[speed][0x0], Mais peut-être que mes excuses ne sont pas suffisantes.[page]
+Si c'est ce que je t'ai dit qui te retient, je te demande pardon[speed][0xa]...[speed][0x0] Ou ça ne suffit pas ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">[nick:フィア][br]
@@ -242,7 +242,7 @@ N'hésite pas à venir me voir si jamais tu as besoin d'aide[speed][0xa]...[spee
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:シウス][br]
-Non, tu ne me déranges pas du tout.[page]
+C'est pas ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">[nick:フィア][br]
@@ -270,7 +270,7 @@ Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:フィア][br]
-Tu n'es qu'un sombre crétin [speed][0x14]!![speed][0x0] Tu n'en fais toujours qu'à ta tête[speed][0xa]...[speed][0x0] Tu ne changeras donc jamais [speed][0xf]?![speed][0x0][page]
+Idiot[speed][0x14]...[speed][0x0] Tu ne vois jamais rien !! Tu n'en fais toujours qu'à ta tête[speed][0xa]...[speed][0x0] Tu ne changeras donc jamais[speed][0xf]?![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">Roi[br]
@@ -329,7 +329,7 @@ Oui, Votre Majesté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="67">Roi d'Astral[br]
-Je vais à présent tout vous révéler[speed][0x14].[speed][0x0] En ce qui concerne l'[color][0x6]œil de la vérité[color][0x2], ce qui s'est transmis de générations en générations dans la famille n'est pas un objet à proprement parler, mais quatre phrases courtes.[page]
+Je vais à présent tout vous révéler[speed][0x14].[speed][0x0] En ce qui concerne l'[color][0x6]Œil de la Vérité[color][0x2], ce qui s'est transmis de génération en génération dans la famille n'est pas un objet à proprement parler, mais quatre phrases courtes.[page]
 [nick:ロニキス][br]
 Des phrases ?[page]
 Roi d'Astral[br]
@@ -386,7 +386,7 @@ Reçu : [color][0x6]Emblème d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">Roi d'Astral[br]
-Remettez-leur cet arcane. Je prierai pour votre réussite.[page]
+Et je vous remets cet arcane. Je prierai pour votre réussite.[page]
 Arcane du dieu guerrier appris.[page]
 [end]</sn:pointer>
 
@@ -445,7 +445,7 @@ Le roi est dans la salle juste après.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="91">Sorcier[br]
-On raconte qu'il existe un emblème spécial caché dans chaque royaume. Je suis presque certain qu'il est possible d'obtenir des pouvoirs incommensurables avec, mais[speed][0xa]...[speed][0x0][page]
+On dit que des symboles sont cachés de par le monde. On doit pouvoir y apprendre des sorts inconnus, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="92">Sage[br]
@@ -465,7 +465,7 @@ Je suis la femme de chambre du roi. Ne salissez rien.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="96">Garde[br]
-Si le roi a raison, alors c'est terrifiant[speed][0xa]...[speed][0x0][page]
+Le roi non plus ne veut sûrement pas y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="97">Garde[br]
@@ -477,7 +477,7 @@ Essayez de faire bonne figure devant le roi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="99">Garde[br]
-[nick:フィア] est prisonnière dans le donjon ? C'est impossible ![page]
+[nick:フィア] est prisonnière au cachot ? C'est impossible ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="100">Garde[br]

@@ -11,15 +11,15 @@ Voici le château Astral.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">Gardien de la porte[br]
-Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
+Que voulez-vous à cette heure de la nuit ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">Garde[br]
-Vous devriez rentrer vous coucher.[page]
+Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Gardien de la porte[br]
-Qu'est-ce que vous foutez là en plein milieu de la nuit ?![page]
+Que voulez-vous à cette heure de la nuit ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ラティ][br]
@@ -74,12 +74,12 @@ Mon utérus n'a rien à voir là-dedans.[page]
 
 <sn:pointer id="17">[end]</sn:pointer>
 
-<sn:pointer id="18">1. Nous voulons vous aider[br]
+<sn:pointer id="18">1. Nous aimerions votre aide[br]
 2. On n'a rien de spécial à demander[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">[nick:ラティ][br]
-Tu pourrais nous aider, [nick:フィア] ? [page]
+Vous pourriez nous aider, [nick:フィア] ?[page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0] Tu veux que je vienne avec vous ?[page]
 [nick:ラティ][br]
@@ -87,9 +87,9 @@ Ouaip ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:シウス][br]
-Avoir une autre pisseuse dans l'équipe m'importe peu.[page]
+Une grande gueule de plus, ça change rien.[page]
 [nick:フィア][br]
-Mais ?![page]
+Tu ne manques pas d'aplomb.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:フィア][br]

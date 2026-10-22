@@ -46,16 +46,16 @@ Bienvenue. C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 
 <sn:pointer id="14">[end]</sn:pointer>
 
-<sn:pointer id="15">Garde borgne[br]
-Je suis finalement rentré de [color][0x4]Sylvalant[color][0x2] mais ça m'a coûté toute ma monnaie et j'y ai laissé un œil.[page]
+<sn:pointer id="15">Mercenaire borgne[br]
+Je suis rentré de [color][0x4]Sylvalant[color][0x2], mais au final, j'ai échangé mon œil gauche contre de l'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Worus le garde[br]
-Tout le monde parle de la cavalerie d'Astral, la plus puissante unité de tout le continent. Mais pour être honnête, qui s'attendrait à ce qu'on parle de types comme moi à la place ?[page]
+<sn:pointer id="16">Worus le mercenaire[br]
+Tout le monde parle des chevaliers d'Astral, les plus puissants de tout le continent. Pour être honnête, un type comme moi ne ferait pas le poids.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Vieille femme[br]
-L'alchimie et toutes ces fariboles ne sont que des bondieuseries. Sincèrement, je trouve difficile à croire que tout ça soit vraiment possible.[page]
+L'alchimie et toutes ces fariboles ne sont que des chimères. Sincèrement, je trouve difficile à croire que tout ça soit vraiment possible.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Vieil homme[br]
@@ -71,7 +71,7 @@ Si vous cherchez une bonne épée, vous devriez aller voir un bon forgeron.[page
 [end]</sn:pointer>
 
 <sn:pointer id="21">Femme chevalier[br]
-Il parait qu'une femme est capitaine de la cavalerie d'Astral. Elle serait la fille de Ryas, le commandant de la cavalerie. Je l'envie tellement ![page]
+Il paraît qu'une femme est capitaine chez les chevaliers d'Astral. Elle serait la fille de Ryas, leur commandant. Je l'envie tellement ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:シウス][br]
@@ -87,7 +87,7 @@ Rien, je t'assure[speed][0xa]...[speed][0x0][page]
 <sn:pointer id="24">Femme chevalier[br]
 Hey ! C'est vous qui avez combattu aux côtés de Ryas lors de la guerre contre le monde démoniaque[speed][0xa]... ![speed][0x0][page]
 [nick:アシュレイ][br]
-À la mémoire d'une époque révolue qu'il est préférable d'oublier. Vous seriez gentil de vous abstenir de faire revivre les souvenirs endormis.[page]
+C'est de l'histoire ancienne. N'en parlons plus.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">Vendeur[br]
@@ -103,15 +103,15 @@ Je voudrais aller apprendre le style de combat d'Edarl, mais je ne sais pas s'il
 [end]</sn:pointer>
 
 <sn:pointer id="28">Clochard[br]
-Il parait que le commandant de la cavalerie d'Astral est plus que compétent pour remplir sa fonction.[page]
+Il paraît que le commandant des chevaliers d'Astral est plus que compétent pour remplir sa fonction.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Connaissance niveau 1 300[br]
-2. Connaissance niveau 2 600[br]
+<sn:pointer id="30">1. Culture niveau 1 300[br]
+2. Culture niveau 2 600[br]
 3. Technique niveau 2 1200[br]
 4. Combat niveau 1 1000[page]
 [end]</sn:pointer>
@@ -135,8 +135,8 @@ Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">Conseiller[br]
-Vous est-il déjà arrivé d'avoir besoin d'une commande de spécialité introuvable pour apprendre un savoir ?[page]
-Je vous conseille de continuer d'aller de ville en ville et de vous offrir toutes les compétences que vous m'avez pas.[page]
+Vous est-il déjà arrivé de ne pas trouver le savoir nécessaire à une commande de spécialité ?[page]
+Je vous conseille de continuer d'aller de ville en ville et de vous offrir toutes les compétences que vous n'avez pas.[page]
 Vous trouvez ça trop évident et paternaliste ? Pourquoi ne pas parler d'Obstination, un de mes savoirs préférés ?[page]
 Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vont diminuer. C'est vraiment pratique lorsque vous êtes avide de savoir.[page]
 [end]</sn:pointer>
@@ -147,19 +147,19 @@ Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vo
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Connaissance niveau 1[br]
-2. Connaissance niveau 2[br]
+<sn:pointer id="39">1. Culture niveau 1[br]
+2. Culture niveau 2[br]
 3. Technique niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">Mentor[br]
-Connaissance niveau 1 comprend :
+Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">Mentor[br]
-Connaissance niveau 2 comprend :
+Culture niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
@@ -184,7 +184,7 @@ J'ai l'impression que tu me vois uniquement comme quelqu'un qui fait tout foirer
 [nick:ラティ][br]
 Mais non, pas du tout ![page]
 [nick:フィア][br]
-Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Je pense aussi que s'il était là, il n'aimerait pas me voir dans cet état[speed][0xa]...[speed][0x0][page]
+Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Et je me surprends à souhaiter qu'il soit là. Je déteste être aussi faible[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">1. La réconforter[br]
@@ -202,7 +202,7 @@ Hmmm, [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Courage[speed][0xa]...[speed][0x0][page]
 [nick:フィア][br]
-Peux-tu me laisser seule un moment [speed][0xa]?[speed][0x0][page]
+Peux-tu me laisser seule un moment[speed][0xa]?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">[nick:フィア][br]
@@ -210,7 +210,7 @@ Peux-tu me laisser seule un moment [speed][0xa]?[speed][0x0][page]
 [nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
 [nick:フィア][br]
-Non, non. C'est rien, c'est passager.[page]
+Non, non. Ça me changera les idées.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:ラティ][br]
@@ -224,7 +224,7 @@ J'étais orpheline. Ryas m'a emmenée chez lui quand j'étais toute petite.[page
 [nick:ラティ][br]
 Ryas... Le père de [nick:シウス] ?[page]
 [nick:フィア][br]
-Oui. Je suis en quelque sorte sa petite sœur. Mais je me demande parfois qui est l'ainé, surtout au regard de la façon dont il se comporte ces derniers temps.[page]
+Oui. Je suis en quelque sorte sa petite sœur. Mais je me demande parfois qui est l'aîné, surtout au regard de la façon dont il se comporte ces derniers temps.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:ラティ][br]
@@ -232,7 +232,7 @@ Puis-je te poser une question ?[page]
 [nick:フィア][br]
 Dis voir ?[page]
 [nick:ラティ][br]
-Pourquoi [nick:シウス] voyage-t-il ? Il n'était pas tout à fait lui même quand nous sommes allés à [color][0x4]Astral[color][0x2].[page]
+Pourquoi [nick:シウス] voyage-t-il ? Il n'était pas tout à fait lui-même quand nous sommes allés à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="53">[nick:ラティ][br]
@@ -248,13 +248,14 @@ Rien, rien du tout. J'éviterais de lui poser cette question si j'étais toi. C'
 [nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
 [nick:フィア][br]
-Non, non. C'est rien, c'est passager.[page]
+Non, non. Ça me changera les idées.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
+<sn:pointer id="56">[nick:ラティ][br]
+Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
 [nick:フィア][br]
-Hmmm ? Oh, oui. C'est vrai que vous vous connaissez.
-[nick:ラティ]
+Hmmm ? Oh, oui. C'est vrai que vous vous connaissez.[page]
+[nick:ラティ][br]
 Oui, un peu.[page]
 [end]</sn:pointer>
 
@@ -279,7 +280,7 @@ Je n'en suis pas totalement certaine, mais c'est la version la plus plausible de
 [end]</sn:pointer>
 
 <sn:pointer id="59">[nick:フィア][br]
-Si seulement il avait plus confiance en lui, il aurait été un bon capitaine. Mais après ce qu'il s'est passé, il n'a même plus confiance en son père[speed][0xa]...[speed][0x0][page]
+Si seulement il avait eu plus confiance en lui, il aurait été un bon capitaine. Mais après ce qu'il s'est passé, il n'a même plus confiance en son père[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Oh, je vois[speed][0xa]...[speed][0x0] Désolé de t'avoir importunée avec ça.[page]
 [nick:フィア][br]

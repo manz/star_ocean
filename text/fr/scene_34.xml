@@ -40,19 +40,19 @@ Asmo[speed][0xa]...[speed][0x0] Un truc comme ça. C'était quoi déjà ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Enfant[br]
-Dis, pourquoi les anciens sont morts avant que je sois né  ?[page]
+Dis, pourquoi les anciens sont morts avant que je sois né ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Chevalier[br]
-Il parait que Sir [nick:アシュレイ] s'est infiltré dans [color][0x4]Astral[color][0x2].[page]
+Il paraît que sire [nick:アシュレイ] revient au pays incognito.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Chevalier[br]
-[color][0x4]Tatroï[color][0x2] est mondialement réputé pour son arène. Il n'existe aucune restriction pour l'usage de la magie, alors c'est un bon endroit pour trainer si on veut aller s'entrainer.[page]
+<sn:pointer id="12">Épéiste[br]
+[color][0x4]Tatroï[color][0x2] est mondialement réputé pour son arène. Il n'existe aucune restriction pour l'usage de la magie, alors c'est un bon endroit pour s'entraîner.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Adolescent[br]
-Le [color][0x4]château d'Astral[color][0x2] est au sommet d'une montagne, et le seul moyen d'y entrer ou d'en sortir est en vaisseau cargo ou par la grotte vraiment dangereuse. Cet endroit est vraiment une forteresse imprenable.[page]
+Le [color][0x4]château d'Astral[color][0x2] est au sommet d'une montagne, et le seul moyen d'y entrer ou d'en sortir est par bateau, sur le canal, ou par la grotte vraiment dangereuse. Cet endroit est vraiment une forteresse imprenable.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">Garde[br]
@@ -60,7 +60,7 @@ Le plus grand espace de loisir de tout le royaume d'Astral, l'arène de Tatroï.
 [end]</sn:pointer>
 
 <sn:pointer id="15">Aventurier[br]
-La [color][0x4]grotte d'Astral[color][0x2] regorge de pierres précieuses. On les trouve dans des filons.  Vous m'écoutez quand je vous parle ? Bien.[page]
+La [color][0x4]grotte d'Astral[color][0x2] regorge de pierres précieuses. On les trouve dans des filons. Là où ça brille, quoi. Vous voyez ? Bien sûr que vous voyez.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Puffy[br]
@@ -72,7 +72,7 @@ J'ai plus du tout envie de jouer avec toi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Puffy[br]
-T'as envie de jouer à un truc cool avec moi [speed][0xa]?[speed][0x0] C'est [color][0x5]600[color][0x2] la partie.[page]
+T'as envie de jouer à un truc cool avec moi[speed][0xa]?[speed][0x0] C'est [color][0x5]600[color][0x2] la partie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Vous n'avez pas assez d'argent.[page]
@@ -86,8 +86,8 @@ T'as envie de jouer à un truc cool avec moi [speed][0xa]?[speed][0x0] C'est [co
 Bon, maintenant, ferme les yeux [speed][0x14]♥[speed][0x0] Voyons[speed][0xa]...[speed][0x0] Vous êtes maintenant dans une grotte. La galerie se divise en deux. Quelle direction tu choisis ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">1. Aller à gauche[br]
-2. Aller à droite[br]
+<sn:pointer id="23">1. Aller à droite[br]
+2. Aller à gauche[br]
 3. C'est quoi ça ?![page]
 [end]</sn:pointer>
 
@@ -113,7 +113,7 @@ Hiii !!! Il y a à tes pieds un abominable cadavre mutilé baignant dans son san
 [end]</sn:pointer>
 
 <sn:pointer id="29">Puffy[br]
-Sérieusement [speed][0xf]?[speed][0x0] Tu en es sûr [speed][0xf]?[speed][0x0] Tu veux VRAIMENT faire ça ?[page]
+Sérieusement[speed][0xf]?[speed][0x0] Tu en es sûr[speed][0xf]?[speed][0x0] Tu veux VRAIMENT faire ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">1. Laisse-moi l'examiner[br]
@@ -122,7 +122,7 @@ Sérieusement [speed][0xf]?[speed][0x0] Tu en es sûr [speed][0xf]?[speed][0x0] 
 [end]</sn:pointer>
 
 <sn:pointer id="31">Puffy[br]
-Gnnn[speed][0xf],[speed][0x0] comme tu voudras.[page]
+Zut[speed][0xf],[speed][0x0] tu ne t'es pas fait avoir.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">Puffy[br]
@@ -154,13 +154,13 @@ C'est bon ! Fais pas la tronche ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">Puffy[br]
-Tu plaisantes, j'espère. Tu ne peux pas prier au nom de Buddah après avoir toi-même commis un larcin. On continue maintenant, que ça te plaise ou non.[page]
+Tu plaisantes, j'espère. Tu ne peux pas détrousser un mort et prier pour lui ensuite ! On continue maintenant, que ça te plaise ou non.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[end]</sn:pointer>
 
 <sn:pointer id="40">Puffy[br]
-Tu fais VRAIMENT ça dans la vie réelle ? Ou tu n'es qu'un [speed][0x5]hypocrite[speed][0x0]? Quoi qu'il en soit, tu as fait ta prière. Aum. On continue.[page]
+Tu fais VRAIMENT ça dans la vie réelle ? Ou tu n'es qu'un [speed][0x5]hypocrite[speed][0x0] ? Quoi qu'il en soit, tu as fait ta prière. Aum. On continue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[end]</sn:pointer>
@@ -216,7 +216,7 @@ D'accord[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">[nick:ラティ][br]
-[speed][0x2]*pff* *pff*[speed][0xa][speed][0x0]C'est[speed][0x5]...[speed][0x0] C'est bon comme ça ?[page]
+[speed][0x2]*pff* *pff*[speed][0xa][speed][0x0] C'est[speed][0x5]...[speed][0x0] C'est bon comme ça ?[page]
 Puffy[br]
 Je pense[speed][0xa].[speed][0x0] Tu as réussi à échapper à l'ennemi, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -226,7 +226,7 @@ Oh non, on dirait bien que tu t'es perdu[speed][0xa]...[speed][0x0] Ouais[speed]
 [end]</sn:pointer>
 
 <sn:pointer id="56">Puffy[br]
-Waaah ! Tu vas vraiment combattre ? [speed][0xa]♪[speed][0x0] Ça ne te dérange pas si je t'appelle Don Quixote [speed][0xf] ?[speed][0x0] Ce sera donc à pierre-papier-ciseaux. Tu es prêt [speed][0x14]?[speed][0x0]Un, deux, trois[speed][0xa]...[speed][0x0][page]
+Waaah ! Tu vas vraiment combattre ? [speed][0xa]♪[speed][0x0] Ça ne te dérange pas si je t'appelle Don Quichotte[speed][0xf] ?[speed][0x0] Ce sera donc à pierre-papier-ciseaux. Tu es prêt[speed][0x14]?[speed][0x0] Un, deux, trois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">1. Pierre[br]
@@ -268,7 +268,7 @@ L'histoire est terminée.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="66">Puffy[br]
-Parfait ! Tu es enfin arrivé devant Naos, le roi démon. Il rugit férocement et dit : ALORS LE MICROBE SANS CERVELLE EST VENU ME RENDRE UNE PETITE VISITE. TU DOIS AVOIR TELLEMENT DE MAL POUR ARRIVER JUSQU'ICI, C'EST BIEN DOMMAGE, CAR TON HEURE EST VENUE.
+Parfait ! Tu es enfin arrivé devant Naos, le roi démon. Il rugit férocement et dit : ALORS LE MICROBE SANS CERVELLE EST VENU ME RENDRE UNE PETITE VISITE. J'AI EU UN MAL FOU À PRÉPARER TOUT ÇA, MAIS TON HEURE EST VENUE.
 Qu'est-ce que tu fais maintenant ?[page]
 [end]</sn:pointer>
 
@@ -301,15 +301,15 @@ Bien vu. Que vas-tu utiliser ?[page]
 
 <sn:pointer id="73">Puffy[br]
 [nick:ラティ] a bu un volontixir !!
-Furie augmente de 30 !![speed][0x14][speed][0x0][page]
-Bon ♪ Je retire un[color][0x6]volontixir[color][0x2] de ton inventaire.[page]
+Persévérance augmente de 30 !![speed][0x14][speed][0x0][page]
+Bon ♪ Je retire un [color][0x6]volontixir[color][0x2] de ton inventaire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="74">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Objet perdu : [color][0x6]volontixir[color][0x2] x1[page]
+<sn:pointer id="75">Objet perdu : [color][0x6]volontixir[color][0x2] x 1[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">Puffy[br]
@@ -329,7 +329,7 @@ T'en as plus. Fais un autre choix.[page]
 <sn:pointer id="79">Puffy[br]
 [nick:ラティ] attaque !!
 [nick:ラティ] lance un [color][0x6]Flambotov+[color][0x2] sur Naos !! D'énormes flammes surgissent !!
-Naou encaisse 65 000 dégâts !!
+Naos encaisse 65 000 dégâts !!
 Naos est anéanti !![page]
 [end]</sn:pointer>
 
@@ -350,7 +350,7 @@ Par les culottes de ma grand mère ! Naos se relève et te supplie de l'aider. V
 
 <sn:pointer id="83">1. Lui donner une myrtille[br]
 2. Ne rien lui donner[br]
-3. C'est pour de faux alors tu gardes tout[page]
+3. C'est pour de faux : bois-le, toi ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="84">Puffy[br]
@@ -391,9 +391,9 @@ Où veux-tu aller ? Tu te trouves face à quatre routes partant vers quatre dire
 [end]</sn:pointer>
 
 <sn:pointer id="93">1. En avant[br]
-2. En arrière[br]
+2. À droite[br]
 3. À gauche[br]
-4. À droite[page]
+4. En arrière[page]
 [end]</sn:pointer>
 
 <sn:pointer id="94">Puffy[br]

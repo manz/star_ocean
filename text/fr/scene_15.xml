@@ -9,7 +9,7 @@ On est où ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">[nick:ロニキス][br]
-Bienvenus dans notre vaisseau.[page]
+Bienvenue à bord de notre vaisseau.[page]
 [nick:ミリー][br]
 Vous ÊTES des dieux finalement ?[page]
 [end]</sn:pointer>
@@ -18,7 +18,7 @@ Vous ÊTES des dieux finalement ?[page]
 Nous ne sommes pas des dieux.
 Nous sommes juste un peu plus avancés que vous, c'est tout.[page]
 [nick:イリア][br]
-Vous aussi, vous obtiendrez éventuellement ces pouvoirs.[page]
+Vous aussi, vous obtiendrez un jour ces pouvoirs.[page]
 [nick:ラティ][br]
 [speed][0x14]........[speed][0x0][page]
 [end]</sn:pointer>
@@ -49,7 +49,7 @@ Ils ont dû pondre sur nous au mont Métox.[page]
 [nick:イリア][br]
 Comment se fait-il que les capteurs lors de l'embarquement n'aient rien détecté ?[page]
 [nick:ロニキス][br]
-J'en n'ai pas la moindre idée. Déjà, débarrassons-nous d'eux.[page]
+Je n'en ai pas la moindre idée. Déjà, débarrassons-nous d'eux.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Membre de l'équipage[br]
@@ -125,7 +125,7 @@ En route pour le centre médical.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:ロニキス][br]
-Et occupez-vous de récurer tout ça.[page]
+Je vous laisse la suite.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:ロニキス][br]
@@ -146,7 +146,8 @@ Oui, Capitaine.[page]
 [speed][0x1e]AAAAaaaahhhh.....[speed][0x0][page]
 [mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="31">C'est la salle des téléporteurs. Nous pouvons tout transporter jusqu'à une certaine taille à des millions de kilomètres.[page]
+<sn:pointer id="31">Officier du téléporteur[br]
+C'est la salle des téléporteurs. Jusqu'à une certaine taille, nous pouvons tout transporter dans un rayon de 100 000 km.[page]
 [end]</sn:pointer>
 
 </sn:script>

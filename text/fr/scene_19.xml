@@ -29,7 +29,7 @@ Pourquoi pas ceux-là...[page]
 C'est un cas d'extrême urgence alors c'est pas trop grave...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">La voie n'est pas libre.[page]
+<sn:pointer id="8">(En vrai, c'est très mal.)[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:ラティ][br]
@@ -39,15 +39,15 @@ C'est parti ![page]
 <sn:pointer id="10">[end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ミリー][br]
-Oh ! J'ai l'impression que ce chat t'aime bien ![page]
+Oh ! Ce chat préfère [nick:ラティ]. C'est pas juste ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:ラティ][br]
-Ahah ! Arrête de dire n'importe quoi ![page]
+Haha ! Te fâche pas ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:イリア][br]
-Ça fait vraiment un bail que je n'ai vraiment eu rien à faire.[page]
+Ça fait longtemps que je n'ai pas eu un moment à rien faire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:イリア][br]
@@ -55,7 +55,7 @@ Hein ? Ce chat n'était pas là avant ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:イリア][br]
-Même si on demande à tout le monde, dans un bled paumé comme celui-là, on ne va rien trouver de neuf.[page]
+Difficile de se renseigner, il n'y a personne.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:イリア][br]
@@ -79,7 +79,7 @@ Mais on n'utilisait pas que des pigeons.[page]
 [nick:イリア][br]
 Tu veux dire que vous vous serviez d'autres animaux ?[page]
 [nick:ラティ][br]
-Oui, ça dépend desquels.[page]
+Oui. Ah, ça me rappelle...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ラティ][br]
@@ -93,7 +93,7 @@ Et alors ?[page]
 [nick:ラティ][br]
 Ça n'a pas marché. En général on s'en rend compte avant de le faire, mais elle a été longue à la détente sur ce coup.[page]
 [nick:イリア][br]
-Mais c'est pas ce type de fille, les meilleures ?[page]
+Oh, mais c'est plutôt mignon, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[end]</sn:pointer>
@@ -103,7 +103,7 @@ On s'tire d'ici.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:アシュレイ][br]
-Mmm... J'ai soif.[page]
+Mmm... Quel calme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:シウス][br]
@@ -124,7 +124,7 @@ Tu t'appelles [nick:ペリシー].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">Homme[br]
-Un homme et une femme [speed][0x5]?[speed][0x0] Êtes-vous allés voir du côté des grandes villes de [color][0x4]Portmith[color][0x2] et [color][0x4]Thermonia[color][0x2] ?[page]
+Un homme et une femme[speed][0x5]?[speed][0x0] Êtes-vous allés voir du côté des grandes villes de [color][0x4]Portmith[color][0x2] et [color][0x4]Thermonia[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">Homme[br]
@@ -136,7 +136,7 @@ Je n'ai vu personne dans le coin correspondant à cette description.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">Homme[br]
-Oh, des voyageurs ? Vous avez goûté notre tarte aux prunes ?[page]
+Oh, des voyageurs ? Vous avez goûté nos pommes-prunes ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">Femme[br]
@@ -148,7 +148,7 @@ Au nord, c'est la ville de [color][0x4]Thermonia[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">Vieille femme[br]
-Mon linge [speed][0xf]![speed][0x0] Il a disparu ![page]
+Mon linge[speed][0xf]![speed][0x0] Il a disparu ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:ペリシー][br]
@@ -162,7 +162,7 @@ Miaou ![page]
 <sn:pointer id="38">Eliotte[br]
 Vous devriez essayer de consulter au moins une fois l'écran de statut.[page]
 Eliotte[br]
-Et aussi l'écran des dons innés qui s'y trouve.[page]
+Et aussi l'écran des talents qui s'y trouve.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">Jeune fille[br]
@@ -191,9 +191,9 @@ t'enfuis ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="45">[nick:ペリシー][br]
-Je sais m'débrouiller ![end]</sn:pointer>
+Je suis toute seule ![end]</sn:pointer>
 
-<sn:pointer id="46">"C'est" mon seul ami.[page]
+<sn:pointer id="46">Mon seul ami, c'est "ça".[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:ラティ][br]
@@ -201,17 +201,17 @@ Quoi, "ça" ? Cet ocarina ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">[nick:イリア][br]
-Allez viens, ne pleure pas. Tu n'as pas encore beaucoup d'interactions sociales.[page]
+Allez viens, ne pleure pas. Tu n'as juste pas eu de chance avec les gens.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">[nick:ペリシー][br]
-Interactions[speed][0xa]...[speed][0x0] sociales ?[page]
+De la[speed][0xa]...[speed][0x0] chance ?[page]
 [nick:イリア][br]
-Se faire des amis.[page]
+Pour rencontrer des amis.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:イリア][br]
-Tu ne m'aimes pas ?[page]
+On ne pourrait pas être tes amis ?[page]
 [nick:ラティ][br]
 Je suis [nick:ラティ], enchanté.[page]
 [end]</sn:pointer>
@@ -227,7 +227,7 @@ Tu peux t'approcher pour voir. Nous sommes tous tes amis. Allons-y ensemble, d'a
 [end]</sn:pointer>
 
 <sn:pointer id="53">[nick:ペリシー][br]
-J'ai des larmes qui coulent, mais c'est plutôt drôle[speed][0xa]...[speed][0x0] C'est la première fois[speed][0xa]...[speed][0x0][page]
+J'ai des larmes qui coulent, mais ça fait pas pareil[speed][0xa]...[speed][0x0] C'est la première fois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">[nick:マーヴェル][br]
@@ -270,7 +270,7 @@ T'as vraiment aucun goût, [nick:ラティ]. [speed][0xa]Furmouth ?[speed][0x0] 
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:ラティ][br]
-Ça te plait, [nick:ペリシー] ?[page]
+Ça te plaît, [nick:ペリシー] ?[page]
 [nick:ミリー][br]
 [nick:ペリシー] ?[page]
 [end]</sn:pointer>

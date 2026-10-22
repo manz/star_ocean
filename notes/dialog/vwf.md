@@ -30,8 +30,10 @@ French scene blocks (`tools/encode_text.py`, 177.5 KB packed) live there; the sc
   pen passes `$C5` (196 px).
 - `$03DF` counts glyphs down per line; the measure at `C2:4134` set it to 17 (Japanese window). Patched to 0xFF at
   `C2:416A`: only a newline or page ends a line. `C2:4122` set letter spacing `$03DB` = 1 on short lines: now 0.
-- Name inserts (`text_insert_string` `C2:3EE3`, ids 00-17): the game converts the Japanese 8x8 name at
-  `$15xx` (slots `C2:3F21`) through `C0:4B60`. Hook `C2:3F14` -> `dialog_insert_name` copies the French name
-  (`dialog_names.bin`, `tools/encode_text.py NAMES`) instead.
+- Name inserts (`text_insert_string` `C2:3EE3`, ids 00-17): the game converts the 8x8 name record at
+  `$7E:1548 + 12 n` (slots `C2:3F21`) through `C0:4B60`, as in the Japanese, so an entered name shows. Records:
+  name (6 codes) + `FF`, nickname (4) + `FF`; `[nick:]` reads Ratix's nickname but the others' name. New game
+  `C2:D85C` and save load `C2:D6E7` are hooked (`src/dialog/names.s`, `tools/party_names.py`): French defaults,
+  and older saves' default names (kana, DeJap English, earlier French) replaced.
 - `tools/reflow.py`: katsuji reflow of each page at build time; speaker label line kept; name tags measured as the
   French name. `tests/test_hooks.py` pins the base bytes under every hook.

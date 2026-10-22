@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Château d'Astral[page]
+<sn:pointer id="0">[center]Astral[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:イリア][br]
@@ -36,7 +36,7 @@ Bienvenue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Garde novice[br]
-Il parait que [nick:フィア] est détenue au cachot du château.[page]
+Il paraît que [nick:フィア] est détenue au cachot du château.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">Garde novice[br]
@@ -44,7 +44,7 @@ Bienvenue à la [color][0x4]ville fortifiée d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Garde[br]
-Il parait que les soldats en faction de l'entrée cotée [color][0x4]Tatroï[color][0x2] de la grotte d'Astral ont aussi été tués. On raconte que c'est l'œuvre de [nick:フィア]. Je n'arrive pas à y croire[speed][0xa]...[speed][0x0][page]
+Il paraît que les soldats qui gardaient l'entrée de la grotte d'Astral, côté [color][0x4]Tatroï[color][0x2], ont aussi été tués. On raconte que c'est l'œuvre de [nick:フィア]. Je n'arrive pas à y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Garde[br]
@@ -52,11 +52,11 @@ Pourquoi un monstre aurait attaqué Ryas ? Ça ne s'est jamais produit avant...[
 [end]</sn:pointer>
 
 <sn:pointer id="12">Garde[br]
-C'est pas pour me vanter, mais je pense qu'Astral est un des endroits les mieux gouvernés au monde.[page]
+C'est pas pour me vanter, mais je pense qu'Astral est un des endroits les plus sûrs au monde.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Mercenaire gaucher[br]
-[color][0x4]Astral[color][0x2] n'est pas ouvertement en guerre contre le monde démoniaque, au contraire de l'armée de [color][0x4]Van[color][0x2] ou de celle de [color][0x4]Sylvalant[color][0x2], mais un grand nombre de nos soldats ont été mobilisés dans ce cadre.[page]
+[color][0x4]Astral[color][0x2] n'est pas ouvertement en guerre contre le monde démoniaque, au contraire de l'armée de [color][0x4]Van[color][0x2] ou de celle de [color][0x4]Sylvalant[color][0x2], mais beaucoup de mercenaires highlanders se battent là-bas.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">Xerus le sage[br]
@@ -64,7 +64,7 @@ Quand vous vous promenez, n'hésitez pas à examiner les zones rocailleuses, c'e
 [end]</sn:pointer>
 
 <sn:pointer id="15">Chevalier[br]
-Il parait que Ryas, le célèbre héros de guerre et capitaine de la cavalerie d'Astral, a accepté une épée sans lame du roi.[page]
+Il paraît que Ryas, le célèbre héros de guerre et capitaine des chevaliers d'Astral, a accepté une épée sans lame du roi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Gim le forgeron[br]
@@ -74,7 +74,7 @@ En étant radin à utiliser des épées bas de gamme, vous n'obtiendrez jamais d
 [end]</sn:pointer>
 
 <sn:pointer id="17">Mercenaire[br]
-Le [color][0x4]royaume d'Astral[color][0x2] est celui des épées, je ferais mieux d'avoir quelques arcanes, mais[speed][0xa]...B[speed][0x0][page]
+Pour un royaume de l'épée comme [color][0x4]Astral[color][0x2], on s'attendrait à y trouver des arcanes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Fille[br]
@@ -112,15 +112,15 @@ Répète un peu pour voir ! Même si t'es une gonzesse, t'as réussi à devenir 
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:フィア][br]
-[speed][0xf]...[speed][0x0] Et tu vas beugler longtemps comme ça ?[speed][0xf][speed][0x0] Insulter la cavalerie c'est aussi insulter Warren... !![page]
+[speed][0xf]...[speed][0x0] Insulte-moi si tu veux, mais pas l'ordre.[speed][0xf][speed][0x0] Insulter l'ordre, c'est insulter sire Warren... !![page]
 [nick:シウス][br]
 [speed][0x14]...[speed][0x0][page]
 [nick:フィア][br]
-C'est un type bien. Même si tu le prends pour un idiot, il croit vraiment en toi. Et toi... !!![page]
+C'est un type bien. Même si on le traite de père gâteux, il croit vraiment en toi. Et toi... !!![page]
 [nick:シウス][br]
 J'ai pas envie de profiter de l'influence de mes parents.[page]
 [nick:フィア][br]
-Tu penses que Warren serait le genre de type à recommander son propre fils comme capitaine uniquement, car son sang coule dans ses veines ? C'est pas la preuve que tu n'as pas la moindre confiance en toi ? [page]
+Tu penses que Warren serait le genre de type à recommander son propre fils comme capitaine uniquement parce que son sang coule dans ses veines ? C'est pas la preuve que tu n'as pas la moindre confiance en toi ? [page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:フィア][br]
@@ -140,7 +140,7 @@ Tu la connais ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">???[br]
-Hé, salut ! Tu es [nick:アシュレイ], non ?[page]
+Pardon, messire[speed][0xa]...[speed][0x0] Seriez-vous [nick:アシュレイ] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:アシュレイ][br]
@@ -148,21 +148,21 @@ Euh... oui ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">???[br]
-C'est moi, tu ne me reconnais pas ? C'est [nick:フィア] ![page]
+C'est moi, vous ne me reconnaissez pas ? C'est [nick:フィア] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">[nick:アシュレイ][br]
 Oh[speed][0xa],[speed][0x0] je me souviens maintenant, tu es la fille qui habite chez Ryas, c'est ça ?[page]
 [nick:フィア][br]
-Oui, c'est ça. Ça fait un bail ![page]
+Oui, c'est ça. Cela fait bien longtemps ![page]
 [nick:アシュレイ][br]
 C'est vrai que ça fait longtemps[speed][0xf],[speed][0x0] trop longtemps, même[speed][0x1e].[speed][0x5] 10 ans[speed][0xa]...[speed][0x0] Comment va Ryas ?[page]
 [nick:フィア][br]
-Plutôt bien. Mais il bosse comme un fou, il dirige la cavalerie.[page]
+Plutôt bien. Mais il travaille sans relâche, il dirige l'ordre des chevaliers.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">[nick:フィア][br]
-Et qui sont ces personnes avec toi ?[page]
+Et qui sont ces personnes avec vous ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:アシュレイ][br]
@@ -210,7 +210,7 @@ Commençons par nous trouver une auberge. On ira à la recherche des autres plus
 [end]</sn:pointer>
 
 <sn:pointer id="46">Bouclier écarlate[br]
-Hihihi. Donne-moi ça sans résistance. C'est qu'un jouet pour toi.[page]
+Hihihi. Donne-moi ça sans résistance. C'est un jouet bien trop précieux pour toi.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">Bouclier écarlate[br]

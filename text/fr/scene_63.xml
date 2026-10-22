@@ -85,7 +85,7 @@ N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ロニキス][br]
-Qu'est-ce que tu vas faire, [nick:ラティ]? Je vais rôder dans le coin...[page]
+Qu'est-ce que tu vas faire, [nick:ラティ] ? Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:ミリー][br]
@@ -113,11 +113,11 @@ Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:フィア][br]
-Nous n'allons plus dans le monde démoniaque?[page]
+Nous n'allons plus dans le monde démoniaque ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:フィア][br]
-[speed][0xa]...[speed][0x0] Et si on se posait 5 minutes?[page]
+[speed][0xa]...[speed][0x0] On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:ヨシュア][br]
@@ -125,11 +125,11 @@ On va s'arrêter un moment, nous repartirons ensuite.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:マーヴェル][br]
-Nous allons nous arrêter dans cette ville, c'est ça?[page]
+Nous allons nous arrêter dans cette ville, c'est ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:シウス][br]
-Merci pour les brouzoufs. Tiens j'tai ramené ça.[page]
+Merci pour les brouzoufs. Tiens j't'ai ramené ça.[page]
 [color][0x6][item][0x22][0x15][color][0x2] reçu !
 [color][0x6][item][0xff][0x14][color][0x2] reçu !
 [color][0x6][item][0x3][0x15][color][0x2] reçu !
@@ -142,7 +142,7 @@ Merci pour les brouzoufs. Tiens j'tai ramené ça.[page]
 <sn:pointer id="32">[nick:ラティ][br]
 J'sais pas si c'est juste moi, mais il me semble pas qu'on puisse avoir tout ça avec seulement [color][0x5]1000[color][0x2] Fol[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
-J'te raconterais ptet un jour ! AHAHAH ![page]
+J'te raconterai p'têt' un jour ! AHAHAH ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:イリア][br]
@@ -158,11 +158,11 @@ Bien, allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:ロニキス][br]
-Très bien, arrêtons-nous un peu, nous irons ensuite demander audience auprès des rois des chaque royaume.[page]
+Bon, assez de repos. Allons demander audience aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[nick:ロニキス][br]
-Faisons une pause, à présent.[page]
+Assez traîné.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:ミリー][br]
@@ -174,7 +174,7 @@ Viens, on s'casse au monde démoniaque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:シウス][br]
-On devait pas aller au [color][0x4]temple de Parj[color][0x2] ?  Allez, on bouge.[page]
+On devait pas aller au [color][0x4]temple de Parj[color][0x2] ? Allez, on bouge.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">[nick:シウス][br]
@@ -198,7 +198,7 @@ On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [col
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:ヨシュア][br]
-On ne devait pas aller dans le monde démoniaque ? Il y a un passage qui y mène depuis [color][0x6]Sylvalant[color][0x2], non ?[page]
+Pour obtenir l'Œil de la Vérité, ne devrions-nous pas finir nos audiences ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:ヨシュア][br]
@@ -211,7 +211,7 @@ Parfois, c'est bien aussi.[page]
 <sn:pointer id="49">Ouest : Ville fortifiée de Van[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Comment va Mo'e ?[page]
+<sn:pointer id="50">Comment va Moe ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">Est : Dulce[page]

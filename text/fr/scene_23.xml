@@ -19,7 +19,7 @@ D'accord.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:シウス][br]
-Et si on se prenait une pause ?[page]
+On se reposera plus tard.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Jeune femme Alisa[br]
@@ -32,7 +32,7 @@ Si tu embarques dans le navire, tu pourras aller à [color][0x4]Otanim[color][0x
 [end]</sn:pointer>
 
 <sn:pointer id="7">Jeune homme à la mode[br]
-J'ai déjà vu de près le visage du roi de Moore...[page]
+Le roi de Moore ? On le voit jamais, celui-là...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Fille élégante[br]
@@ -44,7 +44,7 @@ Qu'est-ce que Terry fabrique ? Il a encore oublié notre rendez-vous, je parie !
 [end]</sn:pointer>
 
 <sn:pointer id="10">Fille avec des taches de rousseur[br]
-J'espère pour lui qu'il est pas avec une autre, sinon ça va chier dans le ventilo ![page]
+Je compte pas pour lui, c'est ça ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Terry[br]
@@ -63,7 +63,7 @@ Tu as déjà vu un renard ? C'est si mignon, mais je ne crois pas que j'arrivera
 J'ai oublié beaucoup de choses ces derniers temps et je me suis même perdu
 chez moi, mais je me souviens de vous.
 Merci.[page]
-[color][0x6]Sortilège[color][0x2] reçu.[page]
+Objet reçu : [color][0x6]Magixir[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">Raddle le voyageur[br]
@@ -84,7 +84,7 @@ C'est tellement agréaaaable♪[page]
 
 <sn:pointer id="19">[nick:マーヴェル][br]
 Tu savais qu'à l'arène à [color][0x4]Tatroï[color][0x2] ils changent
-les primes selon la performance du gagnant ?[page]
+les primes selon la profession du gagnant ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ミリー][br]
@@ -149,15 +149,15 @@ N'est-elle pas sublime ?[page]
 <sn:pointer id="30">[nick:ラティ][br]
 Je ne parlerai qu'en présence de mon avocat ![page]
 [nick:ミリー][br]
-QUOI ? Si je te fais honte, tu n'as qu'à le dire ![page]
+QUOI ?! Si t'as rien à te reprocher, tu peux bien dire oui ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:ヨシュア][br]
-Cette chatte n'est pas là, où a-t-elle pu aller ?[page]
+La petite à l'ocarina n'est pas là. Où a-t-elle pu aller ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:ヨシュア][br]
-Est-ce que la chatte rôdait en direction du château ?[page]
+Est-ce que la petite à l'ocarina rôdait en direction du château ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:ヨシュア][br]

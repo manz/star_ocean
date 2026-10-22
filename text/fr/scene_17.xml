@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">La flamme rouge votre ennemi est. Son opposé votre guide est.[page]
+<sn:pointer id="0">Sache que la flamme écarlate est ton ennemie, et son contraire, ton chemin.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">Activer l'interrupteur ?[page]
@@ -23,23 +23,23 @@ Mes parents ont été assassinés. J'ai été jeté du haut d'une falaise, mais 
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:シウス][br]
-Un bouclier écarlate[speed][0xa]...[speed][0x0] [speed][0x1e][speed][0x0] Serait-il possible que[speed][0xa]...[speed][0x0] Le plus célèbre de maîtres du style d'Edarl[speed][0xa]...[speed][0x0][page]
+Un bouclier écarlate[speed][0xa]...[speed][0x0] [speed][0x1e][speed][0x0] Serait-il possible que[speed][0xa]...[speed][0x0] Le plus célèbre des maîtres du style d'Edarl[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
 Vous le connaissez ?[page]
 [nick:シウス][br]
-Non, c'est impossible[speed][0x19][speed][0x0] Je dois me tromper[speed][0xa]...[speed][0x0][page]
+Non, c'est impossible.[speed][0x19][speed][0x0] Je dois me tromper[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Je vois[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:シウス][br]
-Donc en fait, tu cherches aussi l'[color][0x6] œil de vérité[color][0x2], hein ?[speed][0x14][speed][0xa]...[speed][0x0] Viens. Tu t'en sortiras pas tout seul là-bas dedans.[page]
+Donc en fait, tu cherches aussi l'[color][0x6]Œil de la Vérité[color][0x2], hein ?[speed][0x14][speed][0xa]...[speed][0x0] Viens. Tu t'en sortiras pas tout seul là-bas dedans.[page]
 [nick:ヨシュア][br]
 C'est vrai.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:シウス][br]
-Hé ! T'es en retard ! Qu'est-ce que tu branlais ?[page]
+Hé ! T'es en retard ! Qu'est-ce que tu fichais ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:イリア][br]
@@ -47,7 +47,7 @@ Je suis désolée.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:アシュレイ][br]
-Hé bien[speed][0xa]...[speed][0x0] D'après la légende, l'[color][0x6] œil de vérité[color][0x2] devrait se trouver au plus profond du temple.[page]
+Eh bien[speed][0xa]...[speed][0x0] D'après la légende, l'[color][0x6]Œil de la Vérité[color][0x2] devrait se trouver au plus profond du temple.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[nick:ラティ][br]
@@ -83,13 +83,13 @@ Merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:アシュレイ][br]
-L'héroïsme[speed][0xa]...[speed][0x0] Même dans un autre monde, il fait des ravages et est totalement dénué de bon sens.[page]
+Courageux, à la rigueur[speed][0xa]...[speed][0x0] Mais sûrement pas sage. Qu'en dis-tu ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0][page]
 [nick:アシュレイ][br]
-Pouvez-vous parler à présent ? C'est évident que ça aurait été trop difficile en y allant seul.[page]
+Ne veux-tu pas nous en parler ? Seul, la suite sera rude.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:ヨシュア][br]
@@ -111,7 +111,7 @@ Je n'en suis pas certain, ne tirons pas de conclusions trop hâtives[speed][0xa]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:アシュレイ][br]
-Donc vous aussi êtes à la recherche de l'[color][0x6] œil de vérité[color][0x2] ? Voudriez-vous vous joindre à nous ?[page]
+Donc vous aussi êtes à la recherche de l'[color][0x6]Œil de la Vérité[color][0x2] ? Voudriez-vous vous joindre à nous ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:ヨシュア][br]

@@ -19,6 +19,7 @@ from tools import (
     encode_text,
     menu_font,
     menu_font16,
+    party_names,
     renders,
     vwf8,
     yes_no,
@@ -46,6 +47,7 @@ def build_assets() -> None:
     menu_font.build(out=GEN / "menu_font8.bin")
     menu_font16.build(out=GEN)
     encode_menus.build(ROOT / "text" / "fr", GEN)
+    party_names.build(GEN)
     renders.build(GEN)
     badge.build(out=GEN)
     yes_no.build(out=GEN)

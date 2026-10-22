@@ -29,8 +29,8 @@ C'est pas là qu'il y a une arène ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:イリア][br]
-Tu crois qu'ils auraient quitté la ville pour
-aller à la [color][0x4]ville fortifiée d'Astral[color][0x2] ?[page]
+C'est d'ici qu'on rejoint la
+[color][0x4]ville d'Astral[color][0x2], non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Vous ne pouvez plus rien porter.[page]
@@ -43,25 +43,25 @@ Allez, on y va ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:イリア][br]
-Tu t'es bien reposé, [nick:ラティ]?
+Tu t'es bien reposé, [nick:ラティ] ?
 Allons au [color][0x4]temple de Parj[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:イリア][br]
-Ok, on continue.[page]
+OK, on continue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ロニキス][br]
-On va faire une pause et nous irons demander
-une audience auprès des rois de chaque nation.[page]
+Assez de repos. Allons demander audience
+aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ロニキス][br]
-Faisons une pause.[page]
+Assez traîné.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ミリー][br]
-Le temple est à l'ouest de [color][0x4]Tatroï[color][0x2], c'est ça?[page]
+Le temple est à l'ouest de [color][0x4]Tatroï[color][0x2], c'est ça ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:シウス][br]
@@ -69,7 +69,7 @@ Allez ! Direction le monde démoniaque ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:シウス][br]
-On n'était pas censés aller au [color][0x4]temple de Parj[color][0x2]?[page]
+On n'était pas censés aller au [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:シウス][br]
@@ -78,11 +78,11 @@ Le combat me sied mieux que la randonnée ![page]
 
 <sn:pointer id="19">[nick:アシュレイ][br]
 On ne devait pas interroger les rois
-à propos de [color][0x6]Oeil de la Vérité[color][0x2]?[page]
+à propos de l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:フィア][br]
-Vous vous souvenez où se trouve le [color][0x4]temple de Parj[color][0x2]?[page]
+Vous vous souvenez où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:フィア][br]
@@ -122,7 +122,7 @@ N'oublie pas notre but ; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:ロニキス][br]
-Qu'est-ce que tu vas faire,  [nick:ラティ] ?
+Qu'est-ce que tu vas faire, [nick:ラティ] ?
 Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
@@ -158,7 +158,7 @@ Nous n'allons plus dans le monde démoniaque ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[nick:フィア][br]
-[speed][0xa][speed][0x0]Et si on se posait 5 minutes ?[page]
+[speed][0xa][speed][0x0]On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:ヨシュア][br]
@@ -172,7 +172,7 @@ Nous allons nous arrêter dans cette ville, c'est ça ?[page]
 <sn:pointer id="40">Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Nord Est Otanim[page]
+<sn:pointer id="41">Nord-Est : Otanim[page]
 [end]</sn:pointer>
 
 </sn:script>

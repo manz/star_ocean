@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Quai de chargement de Tatroï[page]
+<sn:pointer id="0">[center]Embarcadère de Tatroï[page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ラティ][br]
-Oh[speed][0x5],[speed][0x0] c'est toi[speed][0x5]...[speed][0x0][page]
+Oh[speed][0x5],[speed][0x0] c'est vous[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">[nick:アシュレイ][br]
@@ -18,7 +18,7 @@ J'allais à [color][0x4]Astral[color][0x2], on pourrait s'y rendre ensemble, non
 <sn:pointer id="4">[nick:アシュレイ][br]
 Pour être honnête, je t'ai observé pendant ton combat dans l'arène.[page]
 [nick:ラティ][br]
-Oh[speed][0x5] ?[speed][0x0] Et alors ?[page]
+Ah[speed][0x5] ?[speed][0x0] Ah bon ?[page]
 [nick:アシュレイ][br]
 Franchement, tu es un peu brut, mais tu as d'énormes qualités.[page]
 [nick:ラティ][br]
@@ -26,12 +26,12 @@ V[speed][0x5]-[speed][0x0]vraiment ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:イリア][br]
-Pourquoi tu rougis ? C'est juste un [speed][0xa]compliment[speed][0x0]♪[page]
+Il dit ça par [speed][0xa]politesse[speed][0x0]♪[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:アシュレイ][br]
-Ha ha ! Quelle délicate façon de lui expliquer !
-Tu ne devrais pas être si gentille avec lui ![page]
+Ha ha ! Mieux vaut peut-être qu'il le prenne ainsi.
+Il ne faut jamais se griser.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ラティ][br]
@@ -39,7 +39,7 @@ Ha ha ! C'est vrai. C'est la première fois qu'on me complimente sur mes talents
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:アシュレイ][br]
-Qui t'as appris à te battre ?
+Qui t'a appris à te battre ?
 De ce que j'en ai vu, ça ressemblait au style d'Edarl mais légèrement différent.[page]
 [nick:ラティ][br]
 C'est mon père qui m'a appris à me battre.[page]
@@ -48,7 +48,7 @@ Améliorer une technique qui était déjà parfaite est impossible si on n'a pas
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:イリア][br]
-Oh !! [nick:ラティ], il semble qu'on arrive trop tard.[page]
+Oh !! [nick:ラティ], le bateau va partir ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">[nick:ラティ][br]
@@ -70,12 +70,12 @@ Je vois. Pas de chance...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">Marin[br]
-Z'allez au [color][0x4]château d'Astral[color][0x2] ? Si c'est l'cas, faut payer d'avance.
+Z'allez à [color][0x4]Astral[color][0x2] ? Si c'est l'cas, faut payer d'avance.
 C'est 80 Fol chacun.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">Marin[br]
-J'crois qu'tes poches sont aussi vide que l'cerveau d'une blonde ![page]
+T'as les poches vides, mon gars ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[end]</sn:pointer>

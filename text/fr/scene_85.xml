@@ -4,7 +4,7 @@
 [end]</sn:pointer>
 
 <sn:pointer id="1">Information 1[br]
-Il n'y a pas d'équipement requis pour participer. Lors du combat, vous pouvez
+Aucune condition pour participer. Lors du combat, vous pouvez
 utiliser vos sorts, vos armes ou vos seules mains ! Les participants peuvent
 choisir le niveau de leurs adversaires qui vont du rang H, le plus facile,
 au rang A, le plus dur. Vous gagnez si vous battez 5 adversaires et vos gains
@@ -38,13 +38,13 @@ Voulez-vous participer à un match ?[page]
 
 <sn:pointer id="9">[end]</sn:pointer>
 
-<sn:pointer id="10">Combattant A[br]
+<sn:pointer id="10">Guerrier A[br]
 J'ai finalement atteint le rang D, mais aucune de mes attaques
 n'arrive à effleurer les ennemis de rang supérieur.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Guerrier B[br]
-C'est interdit de tricher, hein ?[page]
+Se dédoubler, c'est de la triche, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">Guerrier C[br]

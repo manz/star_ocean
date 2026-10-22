@@ -37,21 +37,22 @@ name (names8/labels8), "16x16" the long name (battle16), "desc" the name heading
 
 | JP full | JP 8x8 | FR full (names8) | FR 8x8 | Dialog | note |
 |---|---|---|---|---|---|
-| ラティクス | ラティ | Ratix | Raty | Ratix | |
-| ミリー | ミリー | Millie | Milly | Milly | full ≠ short |
+| ラティクス | ラティ | Ratix | Raty | Raty ([nick:]), Ratix ([name:]) | |
+| ミリー | ミリー | Millie | Milly | Millie | full ≠ short |
 | ドーン | ドーン | Dorn | Dorn | Dorn | |
-| ロニキス | ロニキス | Ronixis | Ronix | Ronixis | |
+| ロニキス | ロニキス | Ronixs | Ronix | Ronixs | 6 letters: the WRAM name slot |
 | イリア | イリア | Iria | Iria | Iria | |
 | シウス | シウス | Cius | Cius | Cius | |
 | ヨシュア | ヨシュア | Joshua | Joshua | Joshua | |
 | ティニーク | ティニ | Tinek | Tini | Tinek | |
 | マーヴェル | マーヴェ | Marvel | Marv | Marvel | |
 | アシュレイ | アシュ | Ashlay | Ash | Ashlay | |
-| ペリシー | ペリシー | Perisie | Péri | Perisie | |
+| ペリシー | ペリシー | Périsy | Péri | Périsy | 6 letters: the WRAM name slot |
 | フィア | フィア | Fear | Fear | Fear | |
 | ルーン | ルーン | Rune | Dorn | - | 8x8 `$000D` = "Dorn" (bug) |
 
-Dialog renders both `[nick:]` and `[name:]` as the full name (`tools/encode_text.py` NAMES).
+Dialog inserts read the WRAM name records (`tools/party_names.py`, `src/dialog/names.s`): `[nick:]` is Ratix's
+nickname but every other character's name, so a name the player enters shows. Names fit 6 letters, nicknames 4.
 
 ### Recurring and named NPCs
 
@@ -284,7 +285,7 @@ English-only, so the community names (Ratix, Clatos, Portmith, Felpurr, Resonia)
 | Item Creation | création d'objets (CO) | community: Création d'objet |
 | Skill points | PC (points de compétences) | community: PS |
 | Earth Federation | la Fédération | |
-| Kenny (surname) | Kenni | Ronixis's family |
+| Kenny (surname) | Kenni | Ronixs's family |
 
 ## Stats and menus
 

@@ -17,7 +17,7 @@ Mieux vaut partir tant que vous le pouvez encore.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:フィア][br]
-Ouch ! T'abandonnes, pas, toi, hein ?[page]
+Ouch ! T'abandonnes pas, toi, hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:シウス][br]
@@ -45,7 +45,7 @@ Mais que[speed][0x19]...[speed][0x1], Mais t'es qui, bordel ?![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:シウス][br]
-Si tu prétends être elle, essaie au moins de parler comme elle [speed][0x1]!!!!![speed][0x0][page]
+Si tu prétends être elle, essaie au moins de parler comme elle[speed][0x1]!!!!![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">[nick:シウス][br]
@@ -71,7 +71,7 @@ Pourquoi ne pas rester transformé un peu plus longtemps ? Ça me permettrait de
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:フィア][br]
-Tu vas regretter d'avoir blessé Warren [speed][0x1]!![speed][0x0][page]
+Tu vas regretter d'avoir blessé Warren[speed][0x1]!![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Fausse [nick:フィア][br]
@@ -95,7 +95,7 @@ Tu ne crois pas que ça puisse être de ta faute si elle s'exprime de la sorte ?
 [end]</sn:pointer>
 
 <sn:pointer id="22">Garde A[br]
-Félicitations, [nick:フィア]. Que faites-vous dans un endroit par...[page]
+Oh ! Dame [nick:フィア] ! Que faites-vous seule en un tel endroit...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">Garde B[br]
@@ -107,15 +107,15 @@ On est en sécurité maintenant[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:フィア][br]
-[speed][0xa]...[speed][0x0] Qu'est-ce que tu comptes faire ?[page]
+[speed][0xa]...[speed][0x0] À quoi tu pensais ?[page]
 [nick:ラティ][br]
 [speed][0xa]......[speed][0x0][page]
 [nick:フィア][br]
-Aider quelqu'un que tu connais même pas à s'échapper[speed][0xa]...[speed][0x0] Je suis tellement heureuse que je n'arrive pas à sécher mes larmes[speed][0x5]...[speed][0x0] Et si je vous avais dit que je mentais ?[page]
+Aider quelqu'un que tu connais même pas à s'échapper[speed][0xa]...[speed][0x0] Je suis tellement heureuse que je n'arrive pas à sécher mes larmes[speed][0x5]...[speed][0x0] Et si je vous avais menti ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:イリア][br]
-Vous êtes une femme pleine de charme.[page]
+Il est d'une gentillesse désespérante.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:フィア][br]
@@ -123,13 +123,13 @@ Vous êtes une femme pleine de charme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:イリア][br]
-Bien sûr, si ça avait été moi, je n'aurais pas prétendu être si dangereuse.[page]
+Évidemment, seule, je n'aurais jamais pris un tel risque.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:フィア][br]
 Bonne idée.[page]
 [nick:イリア][br]
-Allons-y, [nick:ラティ]. Nous devons vite retrouver les autres[speed][0xa]...B[speed][0x0] Si on continue à lambiner de la sorte, Dieu sait quand nous atteindrons la prochaine ville.[page]
+Allons-y, [nick:ラティ]. Nous devons vite retrouver les autres[speed][0xa]...[speed][0x0] Si on continue à lambiner de la sorte, Dieu sait quand nous atteindrons la prochaine ville.[page]
 [nick:ラティ][br]
 Tu as raison.[page]
 [end]</sn:pointer>
@@ -141,7 +141,7 @@ Vous cherchez quelqu'un ?[page]
 <sn:pointer id="31">[nick:イリア][br]
 [speed][0xa]...[speed][0x0] Oui, pourquoi ?[page]
 [nick:フィア][br]
-Et si vous me preniez avec vous ? J'ai fait mes preuves dans la recherche de personnes disparues.[page]
+Et si vous me preniez avec vous ? Pour retrouver des gens, j'ai peut-être une piste.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="32">[nick:イリア][br]
@@ -161,7 +161,7 @@ Peut-on au moins entendre ce qu'elle a à dire ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36">[nick:フィア][br]
-Avez-vous déjà entendu parler du joyau appelé [color][0x6]œil de vérité[color][0x2] ? C'est un artefact créé par les anciens. On raconte qu'il peut montrer à celui qui le possède tout ce qu'il désire[speed][0xa]...[speed][0x0] De ce que j'en sais, il serait au [color][0x4]temple de Parj[color][0x2].[page]
+Avez-vous déjà entendu parler du joyau appelé [color][0x6]Œil de la Vérité[color][0x2] ? C'est un artefact créé par les anciens. On raconte qu'il peut montrer à celui qui le possède tout ce qu'il désire[speed][0xa]...[speed][0x0] De ce que j'en sais, il serait au [color][0x4]temple de Parj[color][0x2].[page]
 [nick:ラティ][br]
 Et il pourrait nous montrer où [nick:ミリー] et les autres se trouvent ?[page]
 [nick:フィア][br]
@@ -181,7 +181,7 @@ Que faire ? Au point où nous en sommes, aller à [color][0x4]Sylvalant[color][0
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:フィア][br]
-Laissez-moi vous accompagner au temple de Parj à la recherche de l'[color][0x6]œil de vérité[color][0x2]. Je vous laisserai tranquille après ça. Et nous ne nous reverrons très certainement plus jamais[speed][0xa]...[speed][0x0][page]
+Laissez-moi vous accompagner au temple de Parj à la recherche de l'[color][0x6]Œil de la Vérité[color][0x2]. Je vous laisserai tranquille après ça. Et nous ne nous reverrons très certainement plus jamais[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>

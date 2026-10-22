@@ -32,11 +32,11 @@ Dans mon jeune temps, il y a eu une guerre très meurtrière, la guerre contre l
 [end]</sn:pointer>
 
 <sn:pointer id="10">Homme[br]
-Il parait que certaines anciennes ruines qui existaient bien avant la guerre contre le monde démoniaque sont encore intactes et se trouvent sur chaque continent. [page]
+Il paraît que certaines anciennes ruines qui existaient bien avant la guerre contre le monde démoniaque sont encore intactes et se trouvent sur chaque continent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Femme[br]
-Il parait qu'un aventurier qui se croit tout permis est venu en ville il y a peu. Pensez-vous qu'il est toujours là ?[page]
+Il paraît qu'un épéiste de grand talent est venu en ville il y a peu. Pensez-vous qu'il est toujours là ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">Femme[br]
@@ -105,7 +105,7 @@ Vous pourrez vous rendre au [color][0x4]château d'Astral[color][0x2] en prenant
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Connaissance niveau 2  600[br]
+<sn:pointer id="30">1. Culture niveau 2  600[br]
 2. Sens niveau 2  200[br]
 3. Technique niveau 2  1200[br]
 4. Combat niveau 2 2000[page]
@@ -131,8 +131,8 @@ Souhaitez-vous entendre mes conseils ?[page]
 
 <sn:pointer id="36">Conseiller[br]
 Puisque le moment est opportun, nous parlerons brièvement des compétences de combat.[page]
-Il ne fait aucun doute que vous comprendrez quand vous essaierez de les apprendre par vous même, mais vous n'êtes pas en mesure de toutes les utiliser actuellement. [page]
-La plupart d'entre elles possèdent des probabilités d'action et des effets bonus. Ces probabilités augmentent en fonction de leur niveau.[page]
+Il ne fait aucun doute que vous comprendrez quand vous essaierez de les apprendre par vous-même, mais elles ne se déclenchent pas à coup sûr.[page]
+La plupart s'activent avec une certaine probabilité quand vous attaquez. Ces probabilités augmentent en fonction de leur niveau.[page]
 Mais si les effets bonus sont actifs en permanence, vous allez être désavantagé. Par exemple, une compétence de combat permettant d'envoyer un ennemi en l'air est utile, mais si elle était active en permanence, vous ne pourriez pas être en mesure de mettre en place des combos.[page]
 Vous saisissez ce que j'essaie de vous dire ? Vous ne devriez pas monter vos compétences de combat à leur niveau maximal, l'effet sera inverse de celui recherché.[page]
 [end]</sn:pointer>
@@ -143,20 +143,20 @@ Vous saisissez ce que j'essaie de vous dire ? Vous ne devriez pas monter vos com
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Connaissance niveau 2[br]
+<sn:pointer id="39">1. Culture niveau 2[br]
 2. Sens niveau 2[br]
 3. Technique niveau 2[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">Mentor[br]
-Connaissance niveau 2 comprend :
+Culture niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="41">Mentor[br]
 Sens niveau 2 comprend :
-Sens de l'esthétique, sens de l'humour et persévérance.[page]
+Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">Mentor[br]
@@ -171,7 +171,8 @@ Riposte, feinte et concentrer.[page]
 
 <sn:pointer id="44">[end]</sn:pointer>
 
-<sn:pointer id="45">Ça va ?[page]
+<sn:pointer id="45">[nick:ラティ][br]
+Ça va ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:ミリー][br]
@@ -195,7 +196,7 @@ Peux-tu bouger ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">[nick:アシュレイ][br]
-[speed][0xa]...[speed][0x0] Nous avons perdu. Mais par chance, nous sommes tous toujours en vie.[page]
+[speed][0xa]...[speed][0x0] Nous avons perdu. Mais ce n'était pas un mauvais combat.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:ヨシュア][br]
@@ -243,7 +244,7 @@ Ouch[speed][0xa]...[speed][0x0] Quelle raclée mémorable[speed][0xa]...[speed][
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:ヨシュア][br]
-[speed][0xa]...[speed][0x0] Ou suis-je ?[page]
+[speed][0xa]...[speed][0x0] Où suis-je ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="64">[nick:マーヴェル][br]
@@ -255,7 +256,7 @@ J'ai bien cru que j'allais mourir ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="66">[nick:ティニーク][br]
-Ouch ![speed][0xa]...[speed][0x0]Hé bien, j'ai perdu[speed][0xa]...[speed][0x0][page]
+Ouch ![speed][0xa]...[speed][0x0]Eh bien, j'ai perdu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 </sn:script>

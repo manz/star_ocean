@@ -1,55 +1,117 @@
 """
-Party names in the dialog: [nick:] / [name:] inserts (string ids 00-17) copy the French name, already in
-dialog codes (build/gen/dialog_names.bin, tools/encode_text.py), instead of converting the Japanese 8x8 name
-from WRAM through C0:4B60. Ids 18+ (first letter of a name) keep the game's path.
+Party names: the WRAM records at $7E:1548 (tools/party_names.py, build/gen/party_names.i). The dialog's [nick:] /
+[name:] inserts read them as the game does (C2:3F21 slots, codes through C0:4B60), so a name the player enters
+shows in the dialog.
 """
 
 .import "core/preamble"
 
-NAME_RECORD := 8  ; up to 7 codes, then 0xFF
-REWIND := 0xFFFE  ; ends the insert: the stream goes back to the message
+.include "party_names.i"
 
-.alloc dialog_names in code_c0 {
-    .incbin "dialog_names.bin"
+NAMES := 0x7E1548
+RECORD := 12  ; name, 0xFF, nickname, 0xFF
+ENTRY := 9  ; record, bytes to copy, name, 0xFF, padding
+PARTY := 12
+
+; C2:D85C, new game: filled each record from names8 through C0:41E4, which stops at nothing (a 7-letter French
+; name ran over its 0xFF, nicknames were the name again). The French records instead.
+.alloc at 0xC2D85C size 4 {
+    jml.l party_names_init
 }
 
-; text_insert_string, ids below 0x18: `asl / tax / lda C2:3F21,x / tay / plx / jsr $3F51 / ply / rts`.
-.alloc at 0xC23F14 size 13 {
-    plx
-    jsl dialog_insert_name
-    ply
-    rts
-}
-
-.alloc dialog_insert_name in code_c0 {
-"""
-A = string id (M16 X16, DB = $7E), X = insert buffer: the name's codes at X, X left on the REWIND written
-    after them (as C2:3F51 leaves it). Out: A = name length.
-"""
+.alloc party_names_init in code_c4 {
+    php
+    phb
+    rep #0x30
+    phx
     phy
-    txy  ; Y = destination
-    asl
-    asl
-    asl
-    tax  ; X = id * NAME_RECORD
-    sep #0x20
-_copy:
-    lda.l dialog_names, x
-    cmp #0xFF
-    beq _end
-    sta.w 0, y
-    iny
-    inx
-    bra _copy
-_end:
-    rep #0x20
-    txa
-    and.w #NAME_RECORD - 1
-    pha
-    tyx
-    lda.w #REWIND
-    sta.w 0, x
-    pla
+    ldx.w #party_names_default & 0xFFFF
+    ldy.w #NAMES & 0xFFFF
+    lda.w #RECORD * PARTY - 1
+    mvn party_names_default >> 16, NAMES >> 16
     ply
+    plx
+    plb
+    plp
     rtl
+}
+
+; C2:D6E7, loading a save (M8 X16), after the records are copied from it: `jsl C2:D795`.
+.alloc at 0xC2D6E7 size 4 {
+    jsl party_names_fixup
+}
+
+.alloc party_names_fixup in code_c4 {
+"""
+A record holding a name an older save starts with (party_names_older) gets the French record, or its name alone.
+X and Y kept: the caller goes on reading the save at Y.
+"""
+    php
+    phb
+    sep #0x20
+    rep #0x10
+    phx
+    phy
+    lda.b #party_names_older >> 16
+    pha
+    plb
+    ldy.w #party_names_older & 0xFFFF
+_entry:
+    lda.w 0, y  ; record, 0xFF after the last entry
+    cmp.b #0xFF
+    beq _done
+    rep #0x20
+    and.w #0x00FF
+    asl
+    asl
+    pha
+    asl
+    clc
+    adc 1, s
+    tax  ; X = record * RECORD
+    pla
+    sep #0x20
+    phx
+    phy
+    iny
+    iny
+_compare:
+    lda.w 0, y
+    cmp.l NAMES, x
+    bne _skip
+    inx
+    iny
+    cmp.b #0xFF
+    bne _compare
+    ply
+    plx
+    phx
+    phy
+    lda.w 1, y  ; bytes to copy
+    pha
+_copy:
+    lda.l party_names_default, x
+    sta.l NAMES, x
+    inx
+    lda 1, s
+    dec
+    sta 1, s
+    bne _copy
+    pla
+_skip:
+    ply
+    plx
+    rep #0x20
+    tya
+    clc
+    adc.w #ENTRY
+    tay
+    sep #0x20
+    bra _entry
+_done:
+    ply
+    plx
+    plb
+    plp
+    jml.l 0xC2D795
 }

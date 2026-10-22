@@ -22,8 +22,8 @@ Z'avez rien à faire ici ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">Chancelier Bolc[br]
-Je me demande comment vous pourrez m'aider, vu que le roi Van vous a demandé de chercher l'[color][0x6]œil de vérité[color][0x2].
-Alors ? Allez-vous m'écouter ?[page]
+Vous que le roi de Van a chargés de chercher l'[color][0x6]Œil de la Vérité[color][0x2], j'ai une faveur à vous demander.
+M'écouterez-vous ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:イリア][br]
@@ -54,7 +54,7 @@ Qu'est-ce que tu fiches là ?[page]
 [nick:ペリシー][br]
 J'ai entendu les gardes dire qu'il y avait un énoooooorme trésor ici ![page]
 [nick:ラティ][br]
-[speed][0xa]...[speed][0x0]Tu veux parler du trésor de Moore?[page]
+[speed][0xa]...[speed][0x0]Tu veux parler du trésor de Moore ?[page]
 [nick:ペリシー][br]
 Ouais, c'est bien ça♪[page]
 [nick:ラティ][br]
@@ -72,13 +72,13 @@ Hé ! C'est illégal de piquer dans la caisse ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">[nick:ラティ][br]
-C'est la crise pour les princesses ?![page]
+Hourra, la princesse est fauchée ?![page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ペリシー][br]
 Mais je suis si pauvre ! Je n'ai plus un centime.[page]
 [nick:ラティ][br]
-[speed][0xa]...[speed][0x0]Argh ! Et voilà qu'on parle en rimes ![page]
+[speed][0xa]...[speed][0x0]Argh ! On dirait un numéro de comiques ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ラティ][br]
@@ -95,7 +95,7 @@ Mooon préééécieuuuuuuuuuux !!!![page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">1. Pourquoi dis-tu ça ?![br]
-2. Pas plus que les yeux de mouton en gelée[page]
+2. Bon, juste un peu, alors[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">[nick:ラティ][br]

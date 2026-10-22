@@ -57,7 +57,7 @@ Vous l'avez déjà.[page]
 <sn:pointer id="16">Conseiller[br]
 Vous pourrez combiner des mouvements fatals comme bon vous semblera pour créer de puissants enchaînements en apprenant le savoir Combo.[page]
 Conseiller[br]
-Par contre, ça consomme tous vos PM d'un coup à chaque fois, mais ça vaut la peine si on ne laisse pas la moindre chance à l'ennemi de contre-attaquer.[page]
+Par contre, ça coûte les PM de chaque technique enchaînée, mais ça vaut la peine si on ne laisse pas la moindre chance à l'ennemi de contre-attaquer.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">Mentor[br]
@@ -72,12 +72,12 @@ Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une
 
 <sn:pointer id="19">Mentor[br]
 Sens niveau 1 comprend :
-Expert, sens du danger et stoïcisme.[page]
+Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">Mentor[br]
 Sens niveau 2 comprend :
-Sens de l'esthétique, sens de l'humour et persévérance.[page]
+Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">Mentor[br]
@@ -105,7 +105,7 @@ Ce bijou est tellement beau...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">Aventurier[br]
-Il parait que le roi de Van recrute des soldats pour fonder un corps d'élite anti-démons[speed][0xa]...[speed][0x0][page]
+Il paraît que le roi de Van recrute des soldats pour fonder un corps d'élite anti-démons[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">Aubergiste[br]
@@ -137,7 +137,7 @@ Et pourquoi pas un bijou ? Une belle pierre vous fera briller de l'intérieur.[p
 [end]</sn:pointer>
 
 <sn:pointer id="36">Père d'Osato[br]
-Bienvenue ! Lorsque j'étais jeune, j'ai été la première personne à avoir une trompette d'argent.[page]
+Bienvenue ! Lorsque j'étais jeune, la trompette d'argent, c'était celle du premier pupitre : on en rêvait tous.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">Commerçant[br]
@@ -145,7 +145,7 @@ Bienvenue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">Kurosan[br]
-De l'alcool supérieur aux meilleures eaux, j'ai tout ce qu'il vos faut ![page]
+De l'alcool supérieur aux meilleures eaux, j'ai tout ce qu'il vous faut ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">Belnar l'écolier[br]
@@ -172,7 +172,7 @@ Je me suis lassée des bijoux à présent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:ミリー][br]
-[speed][0x1][nick:ラティ][speed][0xa] ?[speed][0x0][nick:ラティ] ??[page]
+[speed][0x1][nick:ラティ][speed][0xa] ?[speed][0x0] [nick:ラティ] ??[page]
 [nick:ラティ][br]
 Dieu merci, tu vas bien.[page]
 [end]</sn:pointer>
@@ -224,13 +224,13 @@ Maintenant que j'y pense[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:イリア][br]
-Où est [nick:ドーン] ?[page]
+Où est le capitaine ?[page]
 [nick:ミリー][br]
 Ils étaient déjà partis quand je me suis réveillée ce matin.[page]
 [nick:ラティ][br]
 Ils ?[page]
 [nick:ミリー][br]
-Oui, il est parti escorter une magicienne, [nick:マーヴェル] je crois , à [color][0x4]Ionis[color][0x2].[page]
+Oui, il est parti escorter une magicienne, [nick:マーヴェル] je crois, à [color][0x4]Ionis[color][0x2].[page]
 [nick:イリア][br]
 [speed][0x1]Une femme ?![speed][0x0][page]
 [end]</sn:pointer>
@@ -275,7 +275,7 @@ Mais quoi ?[end]</sn:pointer>
 [end]</sn:pointer>
 
 <sn:pointer id="64">[nick:イリア][br]
-Oui, je sais bien qu'il ne ferait pas une chose pareille. [color][0x4]Ionis[color][0x2] est la ville voisine, c'est bien ça ? Allons-y.[page]
+Oui, de toute façon, il n'aurait jamais ce cran-là. [color][0x4]Ionis[color][0x2] est la ville voisine, c'est bien ça ? Allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="65">[nick:ラティ][br]
@@ -289,13 +289,13 @@ Et ce serait lui, le chevalier qui est arrivé à [color][0x4]Ionis[color][0x2] 
 [nick:ミリー][br]
 Il y a des chances[speed][0xa].[speed][0x0] Et ils m'ont laissée ici.[page]
 [nick:ラティ][br]
-Tu ne crois qu'on devrait les rejoindre ?[page]
+Tu crois pas qu'on devrait les rejoindre ?[page]
 [nick:ミリー][br]
 Si.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="67">[nick:シウス][br]
-J'ai déjà entendu parler du Bouclier écarlate. On raconte que c'est le plus puissant maître du style de combat d'Edarl. Et c'est aussi un célèbre guerrier. Ça me semble louche que quelqu'un paisse le haïr à mort.[page]
+J'ai déjà entendu parler du Bouclier écarlate. On raconte que c'est le plus puissant maître du style de combat d'Edarl. Et c'est aussi un célèbre guerrier. Ça me semble louche que quelqu'un puisse le haïr à mort.[page]
 [nick:ラティ][br]
 Je ne sais pas trop quoi en penser[speed][0xa]...[speed][0x0] Mais on devrait y aller, tu ne crois pas ?[page]
 [nick:ミリー][br]

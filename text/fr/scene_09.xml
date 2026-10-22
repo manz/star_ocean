@@ -24,11 +24,11 @@ C'est [nick:ミリー][speed][0xf].[speed][0x0] Rattrapons-la ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Jeune homme[br]
-Arrivez-vous de [color][0x4]Clatos[color][0x2] ?[page]
+Tu viens de [color][0x4]Clatos[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">Vieille femme[br]
-Tous les hommes du village sont partis pour survivre.[page]
+Tous les hommes du village sont partis travailler loin d'ici.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">Femme[br]
@@ -45,9 +45,10 @@ Mieux vaut rester ici.[page]
 Vous ne devriez pas me toucher, je
 suis déjà contaminé.[page]
 Vieil homme[br]
-C'en est fini de Laponia... 
-Je vais finir mes derniers jours ici. Mais avec des plantes médicinales[page]
- poussant au [color][0x4]mont Métox[color][0x2], je pourrais être sauvé...[page]
+C'en est fini de Laponia...
+Je vais finir mes derniers jours ici.[page]
+Vieil homme[br]
+Mais avec des plantes médicinales poussant au [color][0x4]mont Métox[color][0x2], je pourrais être sauvé...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">[nick:ラティ][br]

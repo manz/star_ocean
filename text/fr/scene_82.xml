@@ -11,7 +11,7 @@ Whaa[speed][0xa],[speed][0x0] aucun d'entre vous n'a la sensation qu'il y a un i
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:アシュレイ][br]
-Il va très certainement apparaitre d'un coup.[page]
+On dirait bien l'endroit, en effet.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:フィア][br]
@@ -19,7 +19,7 @@ Alors, l'[color][0x6]œil de vérité[color][0x2] serait ici ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:イリア][br]
-As-tu une idée de ce que pourrait être ce flux énergétique ? Il ressemble à celui de notre monde, mais en un peu différent[speed][0xa]...[speed][0x0][page]
+As-tu une idée de ce que pourrait être ce flux énergétique ? Il ressemble à celui de notre monde, mais un peu différent[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:シウス][br]
@@ -55,7 +55,7 @@ Haaaa ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">[nick:ラティ][br]
-[nick:フィア][page]
+[nick:フィア], ça va ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:シウス][br]
@@ -83,17 +83,17 @@ Voudriez-vous bien quitter ces lieux ? Vous deux de ce monde et les autres d'une
 [end]</sn:pointer>
 
 <sn:pointer id="21">[color][0x2][nick:イリア][br]
-Cause toujours ![page]
+Ça se voit ?![page]
 [color][0x4]???[br]
-Hé bien, vous avez été scellés dans un axe temporel. Et vous dégagez de superbes vibrations.[page]
+Ben, vous avez un sceau d'axe temporel sur vous. Ça se remarque comme le nez au milieu de la figure.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[color][0x3]???[br]
-Inutile de vous exprimer ainsi. Vous êtes tous trop influençables par les étrangers. [page]
+Surveille ton langage ! Tu te laisses toujours influencer par les humains ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[color][0x2][nick:ヨシュア][br]
-Vous êtes les runes, c'est ça ? On raconte que vous êtes les premiers habitants de ce monde[speed][0xa]...[speed][0x0][page]
+Vous êtes les Runes, c'est ça ? On raconte que vous êtes les premiers habitants de ce monde[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:シウス][br]
@@ -119,7 +119,7 @@ Je suis venu ici dans l'espoir de retrouver ma sœur, disparue il y a longtemps.
 [color][0x4]???[br]
 Navré de briser vos espoirs, mais il semblerait qu'elle ne soit pas là.[page]
 [color][0x2][nick:ヨシュア][br]
-Il parait que l'on peut voir tout ce que l'on désire avec l'[color][0x6]œil de vérité[color][0x2]. N'est-il pas ici ?[page]
+Il paraît que l'on peut voir tout ce que l'on désire avec l'[color][0x6]Œil de la Vérité[color][0x2]. N'est-il pas ici ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[color][0x4]???[br]
@@ -157,7 +157,7 @@ Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Ça serait pas le ro
 [end]</sn:pointer>
 
 <sn:pointer id="34">[color][0x2][nick:アシュレイ][br]
-Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Ça ne  serait pas le royaume de Van ?[page]
+Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Ça ne serait pas le royaume de Van ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="35">[color][0x2][nick:フィア][br]
@@ -177,11 +177,11 @@ Vous en avez fini ici. Quittez ces lieux immédiatement.[color][0x2][page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:ラティ][br]
-Nous sommes ici, car le roi de Van nous a dit que l'[color][0x6]œil de vérité[color][0x2] s'y trouvait. Cet emblème devrait prouver que nous disons la vérité.[page]
+Nous sommes ici, car le roi de Van nous a dit que l'[color][0x6]Œil de la Vérité[color][0x2] s'y trouvait. Cet emblème devrait prouver que nous disons la vérité.[page]
 [color][0x6]???[br]
-Je vois. Alors, ceux qui portent la mort de Moore sont apparus[speed][0xa]...[speed][0x0][color][0x2][page]
+Je vois. Alors, ceux qui perpétuent la volonté des Mooriens sont enfin là[speed][0xa]...[speed][0x0][color][0x2][page]
 [nick:イリア][br]
-Ceux qui portent la mort de Moore ?[page]
+La volonté des Mooriens ?[page]
 [color][0x6]???[br]
 Venez, je vais vous montrer.[color][0x2][page]
 [end]</sn:pointer>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
 <sn:pointer id="0">[nick:フィア][br]
-Désolé de te faire perdre ton temps avec mes jérémiades[speed][0xa]...[speed][0x0][page]
+Désolée... Je vous ai fait courir pour rien avec mes on-dit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">1. T'inquiète pas.[br]
@@ -9,7 +9,7 @@ Désolé de te faire perdre ton temps avec mes jérémiades[speed][0xa]...[speed
 [end]</sn:pointer>
 
 <sn:pointer id="2">[nick:ラティ][br]
-Tu n'as pas besoin de t'excuser[speed][0xa]...[speed][0x0] Aucune importance si nous n'avons pas l'[color][0x6]œil de vérité[color][0x2]. Nous avons découvert que nos amis vont bien, et c'est tout ce qui compte.[page]
+Tu n'as pas besoin de t'excuser[speed][0xa]...[speed][0x0] Aucune importance si nous n'avons pas l'[color][0x6]Œil de la Vérité[color][0x2]. Nous avons découvert que nos amis vont bien, et c'est tout ce qui compte.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:ラティ][br]
@@ -85,7 +85,7 @@ Oh, [nick:イリア] ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:ヨシュア][br]
-Une promesse[speed][0xa]...[speed][0x0] ?! Ce n'est pas qu'un combattant hors pair, c'est aussi une femme, tu sais ?[page]
+Une promesse[speed][0xa]...[speed][0x0] ?! Toute combattante aguerrie qu'elle soit, c'est une femme ![page]
 [nick:ヨシュア][br]
 Je suis désolé, mais je ne peux pas la laisser partir seule. Moi, je sais ce que c'est d'être tout seul[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -111,15 +111,15 @@ Tout à fait. Le temps est une richesse inaltérable[speed][0xa]...[speed][0x0] 
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:アシュレイ][br]
-Toutefois, avec notre force actuelle, plus nous avançons, plus ça va devenir difficile. Même les femmes doivent être armées au royaume de Van, c'est une nécessité absolue. Et encore, ce n'est même pas sûr qu'on puisse survivre. Garder ses forces tout en continuant d'avancer est une autre histoire.[page]
+Toutefois, avec notre force actuelle, plus nous avançons, plus ça va devenir difficile. Même les femmes doivent être armées au royaume de Van, c'est une nécessité absolue. Et encore, ce n'est même pas sûr qu'on puisse survivre. Progresser en s'aguerrissant, c'est aussi une "voie".[page]
 [nick:ラティ][br]
 [speed][0xa]....[speed][0x0][page]
 [nick:アシュレイ][br]
-Je ne pense pas que cet endroit soit de tout repos. Restez sur vos gardes.[page]
+Difficile à imaginer, vu le calme d'ici[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:アシュレイ][br]
-Je suis certain que d'une manière ou d'une autre, tu comprends ce que j'essaie de te dire.[page]
+Je comprends ce que tu ressens, cela dit.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:アシュレイ][br]
@@ -127,7 +127,7 @@ Par chance, il semblerait que vos camarades aient réussi à gagner le royaume d
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:イリア][br]
-C'est vrai.[speed][0x1e][speed][0x0] Alors, si nous somme prêts...[page]
+C'est vrai.[speed][0x1e][speed][0x0] Alors, si nous sommes prêts...[page]
 [nick:ラティ][br]
 ... Allons vite au royaume de Van ![page]
 [end]</sn:pointer>
@@ -141,7 +141,7 @@ Tout ce qu'il nous reste à faire, c'est nous rendre au royaume de Van ?[page]
 [nick:イリア][br]
 [speed][0xa]...[speed][0x0] Oui.[page]
 [nick:シウス][br]
-Mais t'sais, ça vaudrait quand même le coup d'aller zieuter le temple, tu crois pas ?[page]
+Mais bon, le temple nous a quand même servi à quelque chose, non ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">1. Oui, tu as raison[br]
@@ -163,7 +163,7 @@ Mmmmm[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="37">[nick:シウス][br]
-Ah ouais, du recul.[page]
+Ah ouais : facile à dire après coup ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:イリア][br]
@@ -173,7 +173,7 @@ Je pense que tu as raison. On n'aurait pas dû gaspiller notre temps en bavardag
 <sn:pointer id="39">[nick:ラティ][br]
 Tu sais, même si on part tout de suite, avec notre puissance actuelle, on ne sera pas capable de tenir dix minutes face à l'armée des démons.[page]
 [nick:シウス][br]
-Il parait qu'au royaume de Van, leur puissance est démentielle.[page]
+Il paraît qu'au royaume de Van, leur puissance est démentielle.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40">[nick:イリア][br]
@@ -187,7 +187,7 @@ Les monstres là-bas.[page]
 <sn:pointer id="42">[nick:イリア][br]
 Dans ce cas, [nick:ミリー] est vraiment en danger ![page]
 [nick:シウス][br]
-Hé bien oui.[speed][0x1e][speed][0x0] Dans ce cas[speed][0xa]...[speed][0x0][page]
+Eh bien oui.[speed][0x1e][speed][0x0] Dans ce cas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:シウス][br]
@@ -257,7 +257,7 @@ Allons au royaume de Van.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="59">[nick:シウス][br]
-Un passage secret[speed][0xa]...[speed][0x0] Les gars, vous voyez un passage secret ?[page]
+Un passage secret[speed][0xa]...[speed][0x0] S'il est secret, on va pas le trouver, si ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="60">[nick:イリア][br]
@@ -271,7 +271,7 @@ Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vo
 <sn:pointer id="62">[nick:シウス][br]
 Nom de zeus... Un pluméen[speed][0xa]...[speed][0x0][page]
 ???[br]
-Je me présente, [nick:ヨシュア]. Noble chevalier [nick:シウス], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
+Je me présente, [nick:ヨシュア]. Noble guerrier highlander [nick:シウス], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="63">[nick:イリア][br]
@@ -303,9 +303,9 @@ J'ai jamais entendu parler de pluméen partant à l'aventure. Je pensais que les
 [end]</sn:pointer>
 
 <sn:pointer id="69">[nick:ヨシュア][br]
-C'est bien la race du plateau, ça[speed][0xa]...[speed][0x0] Les montagnards sont tous pareils. Dès qu'ils quittent le royaume d'Astral, ils deviennent comme les autres[speed][0xa]...[speed][0x0][page]
+Les Highlanders, ce peuple des hauteurs[speed][0xa]...[speed][0x0] ne sont-ils pas pareils ? Quitter le royaume d'Astral, c'est déchoir, non[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
-Tu essaies de me dire de ne pas mettre mon nez dans les affaires des autres  ?[page]
+Tu essaies de me dire de ne pas mettre mon nez dans les affaires des autres ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="70">1. Les arrêter[br]
@@ -329,11 +329,11 @@ Tu essaies de me dire de ne pas mettre mon nez dans les affaires des autres  ?[p
 [end]</sn:pointer>
 
 <sn:pointer id="75">[nick:シウス][br]
-Bon[speed][0x14],[speed][0x0] si tu voulais pas dire ça, je te pardonne[speed][0xa]...[speed][0x0] On y va, [nick:ラティ].[page]
+Bon[speed][0x14],[speed][0x0] si t'as pas envie d'en parler, c'est ton affaire[speed][0xa]...[speed][0x0] On y va, [nick:ラティ].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">[nick:ヨシュア][br]
-Le considérer "comme les autres", est une insulte[speed][0xa]...[speed][0x0] ?[page]
+Parler de "déchéance" à un highlander aventurier, c'était maladroit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="77">[end]</sn:pointer>
@@ -343,7 +343,7 @@ Il est juste comme ça, ne le prends pas pour toi.[page]
 [nick:ヨシュア][br]
 Hein ?[page]
 [nick:イリア][br]
-En fait[speed][0xa], dès que tu le questionnes un peu, il a l'impression que tu fouines dans ses affaires.[page]
+En fait[speed][0xa], il est incapable de demander les choses franchement. Au fond, c'est un vrai mère poule.[page]
 [nick:ヨシュア][br]
 Alors, c'est ça ?[page]
 [nick:イリア][br]
@@ -355,7 +355,7 @@ Mais il doit y avoir quelque chose qui te préoccupe, non ? Sinon, tu n'aurais p
 [nick:ヨシュア][br]
 Juste ce qu'il a dit[speed][0xa]...[speed][0x0] La race de ceux qui peuvent voler[speed][0xa]...[speed][0x0] Un pluméen voyageant de par le monde est très inhabituel, quel que soit le point de vue où l'on se place. Je suis en quelque sorte un excentrique[speed][0xa]...[speed][0x0] C'est pour ça que je ne souhaite lier aucune amitié avec personne. C'est sans doute ce que je fais de mieux[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
-Oh, si ça te gène tant que ça, pourquoi ne pas nous en parler ? Il y a un vieux dicton qui raconte que toutes les rencontres que l'on fait et toutes les amitiés que l'on noue, sont directement liées aux personnes que l'on a rencontrées dans nos vies passées.[page]
+Oh, côté secrets, on n'est pas en reste, tu sais ? Raconte. Il y a un vieux dicton qui raconte que toutes les rencontres que l'on fait et toutes les amitiés que l'on noue, sont directement liées aux personnes que l'on a rencontrées dans nos vies passées.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">[nick:ラティ][br]
@@ -385,7 +385,7 @@ Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vo
 <sn:pointer id="86">[nick:アシュレイ][br]
 Par la barbe de mes ancêtres... Un pluméen[speed][0xa]...[speed][0x0][page]
 ???[br]
-Je me présente, [nick:ヨシュア]. Noble chevalier [nick:アシュレイ], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
+Je me présente, [nick:ヨシュア]. Noble guerrier highlander [nick:アシュレイ], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="87">[nick:イリア][br]
@@ -440,7 +440,7 @@ Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vo
 Hein[speed][0xa]...[speed][0x0] ?
 Un pluméen ?![page]
 ???[br]
-Je me présente, [nick:ヨシュア]. Noble chevalier [nick:フィア], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
+Je me présente, [nick:ヨシュア]. Noble guerrière highlander [nick:フィア], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="97">[nick:イリア][br]
@@ -450,17 +450,17 @@ Oui. Elle a été fermée par un rocher. Et en ce qui concerne les travaux de fo
 [end]</sn:pointer>
 
 <sn:pointer id="98">[nick:フィア][br]
-Je ne pense pas y arriver toute seul. Peux-tu m'aider, [nick:ラティ] ?[page]
+Je ne pense pas y arriver toute seule. Peux-tu m'aider, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="99">[nick:イリア][br]
-Qu'est-ce que tu racontes ? Viens avec nous ![page]
+Qu'est-ce que tu attends ? Va l'aider ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="100">[end]</sn:pointer>
 
 <sn:pointer id="101">[nick:フィア][br]
-Prêts, [nick:ラティ] ?[page]
+Prêt, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="102">[nick:ラティ][br]
@@ -478,7 +478,7 @@ Attends une minute ![page]
 <sn:pointer id="105">[nick:ヨシュア][br]
 Qu'y a-t-il ?[page]
 [nick:フィア][br]
-Nous sommes à la recherche de l'[color][0x6]œil de vérité[color][0x2]. Nous préfèrerions que vous ne partiez pas devant.[page]
+Nous sommes à la recherche de l'[color][0x6]Œil de la Vérité[color][0x2]. Nous préfèrerions que vous ne partiez pas devant.[page]
 [nick:ヨシュア][br]
 Alors vous aussi, vous êtes à la recherche de[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
@@ -487,7 +487,7 @@ Nous AUSSI ?![page]
 Mmmmm[speed][0xa]...[speed][0x0]
 Mais, POURQUOI en avez-vous besoin ? J'espère que vous êtes conscient que nous ne vous laisserons pas partir seul en avant.[page]
 [nick:ヨシュア][br]
-Bande de petits[speed][0xa]...[speed][0x0] Toujours prêts la querelle. Je n'ai rien de plus à vous dire.[page]
+Vous avez le sang chaud[speed][0xa]...[speed][0x0] Mais je n'ai rien de plus à vous dire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="106">1. Les arrêter[br]
@@ -501,7 +501,7 @@ Bande de petits[speed][0xa]...[speed][0x0] Toujours prêts la querelle. Je n'ai 
 [end]</sn:pointer>
 
 <sn:pointer id="109">[nick:ラティ][br]
-[nick:ヨシュア]... [nick:ヨシュア][speed][0xa]...[speed][0x0] Voulez-vous vous servir de l'[color][0x6]œil de vérité[color][0x2] ou quel que soit le nom que vous lui donnez, pour retrouver quelqu'un ? Si seulement nous savions où sont nos amis, nous n'en aurions pas besoin[speed][0xa]...[speed][0x0][page]
+[nick:ヨシュア][speed][0xa]...[speed][0x0] Voulez-vous vous servir de l'[color][0x6]Œil de la Vérité[color][0x2] ou quel que soit le nom que vous lui donnez, pour retrouver quelqu'un ? Si seulement nous savions où sont nos amis, nous n'en aurions pas besoin[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="110">[nick:ヨシュア][br]
@@ -516,7 +516,8 @@ Pardonnez mes mauvaises manières.[page]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">Non, c'était ma faute[speed][0xa]...[speed][0x0][page]
+<sn:pointer id="113">[nick:ヨシュア][br]
+Non, c'était ma faute[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="114">[nick:ラティ][br]
@@ -524,7 +525,7 @@ Parfait, dans ce cas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="115">[nick:イリア][br]
-Je vous le demande solennellement, pourquoi ne pas vous joindre à nous ?[page]
+Je ne poserai pas de questions indiscrètes. Alors, pourquoi ne pas vous joindre à nous ?[page]
 [nick:ヨシュア][br]
 Je ne serai rien d'autre qu'un fardeau pour vous, mais j'accepte[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
@@ -536,7 +537,7 @@ Ce n'est pas ainsi que les sorciers pluméens s'expriment ?[page]
 [nick:ラティ][br]
 Hein ?[page]
 [nick:フィア][br]
-Si tu les sous-estimes, tu t'en mordras les doigts.[speed][0x23][speed][0x0] En d'autres termes, nous venons d'accueillir parmi nous un allié indispensable et  extrêmement puissant.[page]
+Si tu les sous-estimes, tu t'en mordras les doigts.[speed][0x23][speed][0x0] En d'autres termes, nous venons d'accueillir parmi nous un allié indispensable et extrêmement puissant.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="117">[end]</sn:pointer>
@@ -560,7 +561,7 @@ Oui, bien sûr.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="122">[nick:フィア][br]
-Ça m'est égal.[page]
+Ça ne vous dérange pas ?[page]
 [end]</sn:pointer>
 
 </sn:script>
