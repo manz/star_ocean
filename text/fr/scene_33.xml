@@ -17,8 +17,8 @@ donc je ne sais pas quoi faire.[page]
 C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
 ... Différent ![page]
 [nick:ミリー][br]
-Mais en y repensant, il peut
-aller avec une autre fille.[page]
+Mais avec les autres filles,
+il est tout attentionné ![page]
 [nick:シウス][br]
 Hum...[page]
 [end]</sn:pointer>
@@ -34,8 +34,8 @@ donc je ne sais pas quoi faire.[page]
 C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
 ... Différent ![page]
 [nick:ミリー][br]
-Mais en y repensant, il peut
-aller avec une autre fille.[page]
+Mais avec les autres filles,
+il est tout attentionné ![page]
 [nick:アシュレイ][br]
 Hum...[page]
 [end]</sn:pointer>
@@ -51,10 +51,10 @@ donc je ne sais pas quoi faire.[page]
 C'est vrai qu'il est un peu[speed][0xa]... [speed][0x0]
 ... Différent ![page]
 [nick:ミリー][br]
-Mais en y repensant, il peut
-aller avec une autre fille.[page]
+Mais avec les autres filles,
+il est tout attentionné ![page]
 [nick:イリア][br]
-MWA AH AH AH AH AH ! [page]
+Gloups.[page]
 [nick:イリア][br]
 [speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
@@ -67,7 +67,7 @@ d'aller un peu plus loin[speed][0xa]... [speed][0x0][page]
 <sn:pointer id="6">[nick:イリア][br]
 Tu prendras bien soin de [nick:ミリー], d'accord ?[page]
 [nick:ラティ][br]
-Tout est si soudain[speed][0xa]... [speed][0x0][page]
+Qu-quoi, d'un coup[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ラティ][br]
@@ -77,7 +77,7 @@ que j'y aille tout seul.[page]
 
 <sn:pointer id="8">Marin[br]
 Alors ? On veut s'embarquer
-pour [color][0x4] Portmith[color][0x2]?[page]
+pour [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[end]</sn:pointer>
@@ -86,7 +86,7 @@ pour [color][0x4] Portmith[color][0x2]?[page]
 
 <sn:pointer id="11">Marin[br]
 Où vous allez ? Si vous embarquez,
-faut payer d'avance. C'est [color][0x5]200[color][0x2]Fol par personne.[page]
+faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">1. Portmith (Royaume de Moore)[br]
@@ -105,7 +105,7 @@ Y'a pas assez d'sous ![page]
 
 <sn:pointer id="16">[nick:シウス][br]
 Nous y voilà !
-C'est le royaume d'Astral,[color][0x4]Otanim[color][0x2].[page]
+[color][0x4]Otanim[color][0x2], royaume d'Astral.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:イリア][br]
@@ -118,25 +118,25 @@ T[speed][0x14]-Tu[speed][0x0] veux aller là-bas ?[page]
 [nick:イリア][br]
 C'est dangereux ?[page]
 [nick:シウス][br]
-Non[speed][0xf],[speed][0x0], c'est pas ça.
+Non[speed][0xf],[speed][0x0] c'est pas ça.
 C'est juste que ça n'en vaut pas la peine[speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Passeur[br]
+<sn:pointer id="19">Marin de passage[br]
 Si vous allez à [color][0x4]Astral[color][0x2],
 faut visiter la ville.
-Le picrate qu'ils produisent est le top du top ![page]
+Le saké qu'ils produisent est le top du top ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[nick:イリア][br]
-Ho, c'est bon[speed][0x1e].[speed][0x0] Ils mettent
+Oh, c'est bon[speed][0x1e].[speed][0x0] Ils mettent
 du jus de fruits[speed][0x14] ? [speed][0x0]Du riz[speed][0x14] ? [speed][0x0]De l'orge, peut-être ?[page]
-Passeur[br]
+Marin de passage[br]
 Du riz, bien sûr ![page]
 [nick:イリア][br]
 C'est fort ?[page]
-Passeur[br]
-Nan ! Ca tape à moins de 20 degrés.
+Marin de passage[br]
+Nan ! Ça tape à moins de 20 degrés.
 Si tu veux d'la boisson [speed][0x14]d'homme[speed][0x0], vaut mieux qu't'ailles à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 

@@ -22,7 +22,7 @@
 [end]</sn:pointer>
 
 <sn:pointer id="7">[nick:ラティ][br]
-Allons chercher [nick:アシュレイ][page]
+Allons chercher [nick:アシュレイ].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:アシュレイ][br]
@@ -31,10 +31,11 @@ et on explique la situation.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="9">[nick:アシュレイ][br]
-Ryas, tu es prêt ? Debout ![page]
+Ryas, ça va ? Tiens bon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Je n'arrive pas à croire qu'une telle[br]
+<sn:pointer id="10">Soldat[br]
+Je n'arrive pas à croire qu'une telle
 chose soit arrivée à Ryas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
@@ -79,16 +80,16 @@ Là ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="20">[mode8][0x0][nick:イリア][br]
-Une cloche[speed][0x1e]?[speed][0x0] Que se passe t'il ?[page]
+Une cloche[speed][0x1e] ?[speed][0x0] Que se passe-t-il ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">[nick:ラティ][br]
-Qu'y a t'il, [nick:シウス] ?[page]
+Qu'y a-t-il, [nick:シウス] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[nick:シウス][br]
 Ce son[speed][0x14]...[speed][0x0] C'est le signal
-de la cavalerie d'Astral[speed][0xf]...[speed][0x0]B[page]
+des chevaliers d'Astral[speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[nick:シウス][br]
@@ -108,7 +109,7 @@ Hé, [nick:シウス] !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[mode8][0x0][nick:イリア][br]
-Une cloche[speed][0x1e]?[speed][0x0]
+Une cloche[speed][0x1e] ?[speed][0x0]
 Je me demande ce qui se passe...[page]
 [end]</sn:pointer>
 
@@ -118,18 +119,18 @@ Je me demande ce qui se passe...[page]
 
 <sn:pointer id="29">[nick:ミリー][br]
 Hum[speed][0xa]...[speed][0x0]
-J'adressais une prière aux divinités du ciel.[page]
+J'adressais une prière aux dieux du Sanctuaire.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30">[nick:ロニキス][br]
-Ciel ? [speed][0xa]...[speed][0x0] Ha ! C'est ce que
-tu appelles "l'espace".
+Le Sanctuaire ? [speed][0xa]...[speed][0x0] Ah, c'est ainsi
+que vous appelez l'espace.
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="31">[nick:ロニキス][br]
-C'est difficile à dire, mais même bien que tu aies été dans le ciel,
-tu continues à croire aux dieux? Pour nous, les choses comme les divinités
+C'est difficile à dire, mais même après être allée dans le Sanctuaire,
+tu continues à croire aux dieux ? Pour nous, les choses comme les divinités
 ou la foi sont des reliques de temps révolus.[page]
 [nick:ミリー][br]
 Je sais que tu es d'une civilisation plus avancée
@@ -149,10 +150,10 @@ C'est ridicule d'insister sur l'existence des dieux.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="33">[nick:ミリー][br]
-Tu ne crois pas en ce monde?! En notre rencontre ?
+Tu ne crois pas en ce monde ?! En notre rencontre ?
 En ce qui arrive à [nick:ドーン]... ? 
-Tu dis que tout n'est qu'illusion? Parce que si tout cela
-n'est qu'un rêve, je pencherai plus pour un cauchemar[speed][0xa]...[speed][0x0][page]
+Tu dis que tout n'est qu'illusion ? Parce que si tout cela
+n'est qu'un rêve, je pencherais plus pour un cauchemar[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="34">[nick:ロニキス][br]
@@ -196,7 +197,7 @@ Une nuit vous coûtera [color][0x5]30[color][0x2] Fol.[page]
 
 <sn:pointer id="43">[end]</sn:pointer>
 
-<sn:pointer id="44">Il manque de l'argent, là !![page]
+<sn:pointer id="44">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="45">[end]</sn:pointer>

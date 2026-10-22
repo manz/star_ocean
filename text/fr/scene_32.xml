@@ -38,7 +38,7 @@ Vous avez entendu ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12">Tenancier[br]
-Il parait que Ryas, le capitaine de la cavalerie, a été assassiné. On raconte que c'est sa fille, [nick:フィア], qui l'a fait ! Je ne sais pas quoi penser de tout ça.[page]
+Il paraît que Ryas, le capitaine des chevaliers, a été assassiné. On raconte que c'est sa fille, [nick:フィア], qui l'a fait ! Je ne sais pas quoi penser de tout ça.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13">Tu vas dormir ?[page]
@@ -49,7 +49,7 @@ Regarde les rues et les maisons d'[color][0x4]Astral[color][0x2]. Ce qui est dif
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:フィア][br]
-D'une certaine manière, nous avons pu sauver la vie de mon beau-père. Merci.[page]
+D'une certaine manière, nous avons pu sauver la vie de mon père adoptif. Merci.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Ryas[br]
@@ -74,18 +74,15 @@ Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'appren
 <sn:pointer id="20">[mode8][0x0][end]</sn:pointer>
 
 <sn:pointer id="21">[mode8][0x0]Maître de la guilde
-
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">[mode8][0x0]Maître de la guilde
-
 Vous n'avez pas assez d'argent.
 [page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">[mode8][0x0]Maître de la guilde
-
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
@@ -182,7 +179,7 @@ S'il fallait citer trois des plus valeureux combattants de la guerre contre le m
 [end]</sn:pointer>
 
 <sn:pointer id="47">Barman[br]
-Vous avez entendu ? Il parrait que [nick:フィア] a poignardé Ryas, son beau-père, celui qui l'a élevée. Mais où va le monde...[page]
+Vous avez entendu ? Il paraît que [nick:フィア] a poignardé Ryas, son père adoptif, celui qui l'a élevée. Mais où va le monde...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="48">Avec ces monstres qui prennent forme humaine, on n'est même plus en sécurité quand on vient en ville.[page]
@@ -193,19 +190,19 @@ Bienvenue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">[nick:フィア][br]
-Warren ! Tu as des invités ![page]
+Sire Warren ! Vous avez de la visite ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">???[br]
-Je t'ai déjà demandé mille fois de ne pas m'appeler comme ça à la maison[speed][0xa]...[speed][0x0] Si tu me cherches, je serai en bas.[page]
+Combien de fois t'ai-je dit de ne pas m'appeler ainsi à la maison[speed][0xa]...[speed][0x0] J'arrive ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:フィア][br]
-Beau-papa, voici les invités.[page]
+Père, voici les invités.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="53">Ryas[br]
-[speed][0x1][nick:アシュレイ] ?[speed][0x1e][speed][0x0][speed][0x1][nick:アシュレイ] ?![speed][0x0][page]
+[speed][0x1][nick:アシュレイ] ?[speed][0x1e][speed][0x0] [speed][0x1][nick:アシュレイ] ?![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="54">Ryas[br]
@@ -243,7 +240,7 @@ Assez rustique [speed][0x14]?[speed][0x0] Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="61">[nick:イリア][br]
-La Terre est un bel endroit pour finir ses vieux jours. Mais si j'ai envie d'y prendre ma retraite, j'ai intérêt à monter en grade..[page]
+Sur Terre, l'ancien est à la mode. Pour vivre dans une maison pareille, il faudrait être amiral ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="62">[nick:イリア][br]
@@ -289,7 +286,7 @@ Nous n'avons pas réussi à trouver quelqu'un d'assez compétent pour le poste, 
 [end]</sn:pointer>
 
 <sn:pointer id="73">Ryas[br]
-Je n'ai pas recommandé [nick:シウス], car je suis son père.[page]
+Ce n'est pas parce que c'est mon fils que j'ai recommandé [nick:シウス].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="74">[nick:アシュレイ][br]
@@ -301,21 +298,21 @@ Mais il n'en était probablement pas conscient à ce moment-là.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="76">Ryas[br]
-Je pensais qu'il avançait vite, mais[speed][0xa]...[speed][0x0][page]
+J'ai sans doute agi trop vite, mais[speed][0xa]...[speed][0x0][page]
 [nick:アシュレイ][br]
-Une fois que le doute s'installe, on ne commence pas à douter de tout [speed][0x14]?[speed][0x0] Même de la cavalerie[speed][0xf],[speed][0x0] même de son père[speed][0x1e],[speed][0x0] et même de soi[speed][0xa]...[speed][0x0][page]
+Une fois que le doute s'installe, on ne commence pas à douter de tout [speed][0x14]?[speed][0x0] Même de l'ordre[speed][0xf],[speed][0x0] même de son père[speed][0x1e],[speed][0x0] et même de soi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="77">Ryas[br]
-Oui[speed][0xa]...[speed][0x0] Ça s'est même aggravé quand [nick:フィア] a été fortement blessée. Parler de [nick:シウス] devant elle est devenu tabou.[page]
+Oui[speed][0xa]...[speed][0x0] Ça s'est même aggravé quand [nick:フィア] a été profondément blessée. Parler de [nick:シウス] devant elle est devenu tabou.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="78">Ryas[br]
-C'est que[speed][0xa]...[speed][0x0] Euh[speed][0x14], [speed][0x0]ses sentiments sont paradoxaux, car elle aimait [nick:シウス][speed][0xa]...[speed][0x0]B[page]
+C'est que[speed][0xa]...[speed][0x0] Euh[speed][0x14], [speed][0x0]ses sentiments sont paradoxaux, car elle aimait [nick:シウス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="79">[nick:アシュレイ][br]
-C'est compliqué les filles, à cet âgé-là. Quand la situation devient trop compliquée, attendre que le temps fasse sont affaire est la seule chose à faire, tu ne penses pas ?[page]
+C'est compliqué les filles, à cet âge-là. Quand la situation devient trop compliquée, attendre que le temps fasse son affaire est la seule chose à faire, tu ne penses pas ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="80">Ryas[br]
@@ -329,9 +326,9 @@ Oui.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="82">[nick:フィア][br]
-[nick:アシュレイ], tu pars vraiment ?[page]
+[nick:アシュレイ], vous partez vraiment ?[page]
 [nick:アシュレイ][br]
-Quand Ryas aura repris conscience, transmettez-lui mes amitiés.[page]
+Quand Ryas aura repris conscience, transmets-lui mes amitiés.[page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0] D'accord.[page]
 [nick:アシュレイ][br]
@@ -341,19 +338,19 @@ Oui ?[page]
 [nick:アシュレイ][br]
 Ce n'est pas la peine de s'inquiéter pour [nick:シウス]. C'est certain qu'il va revenir à la maison, un jour.[page]
 [nick:フィア][br]
-C'est pas ça du tout ! [speed][0xa]...[speed][0x0] Il est revenu et nous a tous trahis[speed][0xa]... !![speed][0x0][page]
+C'est pas ça du tout ! [speed][0xa]...[speed][0x0] C'est lui qui nous a tous trahis[speed][0xa]... !![speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="83">[nick:アシュレイ][br]
 C'est peut-être le cas, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">1. [nick:シウス] aurait fait ça...[br]
+<sn:pointer id="84">1. [nick:シウス] ? Ce ne serait pas...[br]
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
 <sn:pointer id="85">[nick:ラティ][br]
-[nick:シウス] aurait fait ça[speed][0xa]... ?[speed][0x0][page]
+[nick:シウス] ? Ce ne serait pas celui que[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="86">[nick:フィア][br]
@@ -399,9 +396,9 @@ Alors, pourquoi ne pas commencer par le [color][0x4]temple de Parj[color][0x2] ?
 [nick:ラティ][br]
 Le temple[speed][0xa]...[speed][0x0] de Parj ?[page]
 [nick:フィア][br]
-C'est une ruine des Anciens, on raconte que l'[color][0x6]œil de vérité[color][0x2] y est caché.[page]
+C'est une ruine des Anciens, on raconte que l'[color][0x6]Œil de la Vérité[color][0x2] y est caché.[page]
 [nick:アシュレイ][br]
-L'[color][0x6]œil de vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
+L'[color][0x6]Œil de la Vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
 [nick:フィア][br]
 Oui, c'est ce qu'on dit.[page]
 [end]</sn:pointer>
@@ -439,7 +436,7 @@ D'accord, on reviendra plus tard.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="105">Tenancier[br]
-[nick:シウス], le fils de Warren ? [speed][0xf]...[speed][0x0] C'est vrai que vous lui ressemblez.[page]
+[nick:シウス], le fils de Warren ? [speed][0xf]...[speed][0x0] Non, ce doit être un autre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="106">[nick:イリア][br]
@@ -488,13 +485,13 @@ Si vous cherchez quelqu'un, elle vous conseille de vous rendre au [color][0x4]te
 [nick:ラティ][br]
 Le temple[speed][0xa]...[speed][0x0] de Parj ?[page]
 Soldat[br]
-C'est une ruine des Anciens, on raconte que l'[color][0x6]œil de vérité[color][0x2] y est caché.[page]
+C'est une ruine des Anciens, on raconte que l'[color][0x6]Œil de la Vérité[color][0x2] y est caché.[page]
 [nick:シウス][br]
-L'[color][0x6]œil de vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
+L'[color][0x6]Œil de la Vérité[color][0x2]. J'en ai aussi entendu parler. C'est pas ce cristal qui permet à celui qui le possède de voir des images des lieux ou des personnes dont il a envie ?[page]
 Soldat[br]
 Oui, c'est ce qu'on dit.[page]
 [nick:シウス][br]
-Ça m'est égal de faire le tour des villes pendant notre voyage vers [color][0x4]Sylvalant[color][0x2]. Ça ne me gène pas non plus de suivre les conseils de [nick:フィア]. Je vous laisse choisir, l'un comme l'autre je vous accompagne.[page]
+Ça m'est égal de faire le tour des villes pendant notre voyage vers [color][0x4]Sylvalant[color][0x2]. Ça ne me gêne pas non plus de suivre les conseils de [nick:フィア]. Je vous laisse choisir, l'un comme l'autre je vous accompagne.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="114">[nick:イリア][br]
