@@ -12,7 +12,7 @@ Vous pouvez passer ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">[nick:ロニキス][br]
-Ca ne va pas ?[page]
+Ça ne va pas ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:ミリー][br]
@@ -20,13 +20,13 @@ Quand on éternue, c'est que quelqu'un pense à nous. Je suis tellement belle qu
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:ミリー][br]
-Bien. Dépêchons-nous de te trouver des habits.[page]
+Bien. Dépêchons-nous de vous trouver des habits.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ロニキス][br]
 Ah oui[speed][0x5],[speed][0x0] c'est vrai.[page]
 [nick:ミリー][br]
-Je vais te trouver de super fringues top tendance ![page]
+Je vais vous trouver de super fringues top tendance ![page]
 [nick:ロニキス][br]
 M[speed][0x5]-[speed][0x0]merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
@@ -34,7 +34,7 @@ M[speed][0x5]-[speed][0x0]merci[speed][0xa]...[speed][0x0][page]
 <sn:pointer id="7">Comment va Ray ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Nord : Ville de Van Castle
+<sn:pointer id="8">Nord : Van
 Sud : Ionis[page]
 [end]</sn:pointer>
 
