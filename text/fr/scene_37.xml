@@ -9,7 +9,7 @@ Désolé.[page]
 [nick:ラティ][br]
 Dépêchons-nous ![page]
 [nick:シウス][br]
-Hé !![page]
+Ouais !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="2">Veuve Noire[br]
@@ -17,7 +17,7 @@ Hé !![page]
 J'aurais atteint mon but si vous ne vous étiez pas pointés[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
 Qu'est-ce que t'as dit ?![page]
-Veuve noire[br]
+Veuve Noire[br]
 Vous m'ennuyez[speed][0xa]...[speed][0x0]
 Je vais débarrasser le monde de votre inopportune présence ![page]
 [end]</sn:pointer>
@@ -98,7 +98,7 @@ Ramenez cette tête au château et expliquez-leur la situation.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23">Grotte d'Astral.
-TRES TRES DANGEREUX !![page]
+TRÈS TRÈS DANGEREUX !![page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">PV et PM restaurés.[page]
