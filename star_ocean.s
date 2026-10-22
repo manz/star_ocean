@@ -27,3 +27,4 @@ The root imports one module per area; a816 links every imported module.
 .import "menu/vwf16"
 .import "menu/vwf8"
 .import "engine/battle_speed"
+.import "engine/cel_dma"

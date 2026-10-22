@@ -8,6 +8,7 @@ exclude = ["src_assets/renders"]
 
 [defines]
 BATTLE_SPEEDUPS = 1  # src/engine/battle_speed.s: faster battle loop routines (notes/engine/battle_timing.md)
+CEL_DMA_ANYTIME = 0  # src/engine/cel_dma.s: no H-blank wait before cel DMAs; may crash CPU rev 1 consoles
 
 # ROM pages 6-7 (physical 0x600000-0x7FFFFF) have no fixed bus address: code reads them through the E window
 # with $4806 set to 6 or 7. The patch addresses them as pseudo-banks $40-$5F (sram_text.s translates).

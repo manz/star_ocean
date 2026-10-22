@@ -31,8 +31,9 @@ the unpatched ROM.
 - `C3:917C` streams each cel by S-DD1 DMA into WRAM through `$2180`: 0x20 B (8x8) or two 0x40 B DMAs (16x16),
   each started after waiting for H-blank (`bit $4212` / `beq`). HDMA is on in battle (ch5 `$2111`, ch6 `$2132`,
   ch7 `$2130`, tables in `$7E`), so the wait keeps HDMA from cutting a stream in half. Only 5-9% of streams
-  repeat the previous frame's (source, size, destination): caching won't help. Patching the waits out (soft
-  IPS) saves about 6% of a frame.
+  repeat the previous frame's (source, size, destination): caching won't help. Without the waits
+  (`CEL_DMA_ANYTIME`, `src/engine/cel_dma.s`, off by default: CPU rev 1 DMA/HDMA crash risk) busy 37 -> 29 late,
+  chest 15 -> 11.
 - `C9:0000`: party actor slots `$7E:73E1 + n * $100` (4), a handler each through `jsr (C9:003D,x)`.
   `C0:5121` scans 64 slots of $20 at `$7E:B073`, `C1:80E5` 64 slots of $40 at `$7E:C073` (about 27 cycles per
   empty slot).
