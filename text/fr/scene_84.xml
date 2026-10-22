@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
 <sn:pointer id="0">[nick:ペリシー][br]
-On n'a pas fouillé partout!
-Il faut chercher encore![page]
+On n'a pas fouillé partout !
+Il faut chercher encore ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="1">[nick:ペリシー][br]

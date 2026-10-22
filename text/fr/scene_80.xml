@@ -81,7 +81,7 @@ Mais pourquoi[speed][0xa] ?[speed][0x0] Ça ne veut rien dire du tout.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="17">[nick:ロニキス][br]
-[nick:イリア], calme toi. Ça ne sert à rien de s'énerver sur quelque chose qu'on ne comprend pas[speed][0xa]...[speed][0x0] Allons-y.[page]
+[nick:イリア], calme-toi. Ça ne sert à rien de s'énerver sur quelque chose qu'on ne comprend pas[speed][0xa]...[speed][0x0] Allons-y.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">[nick:イリア][br]
@@ -152,7 +152,7 @@ Un hologramme [speed][0xa]?[speed][0x0] Hé, mais[speed][0xa]...[speed][0x0]C'es
 [end]</sn:pointer>
 
 <sn:pointer id="46">[nick:イリア][br]
-C'est une carte de la Terre[speed][0xa]...[speed][0x0] Tu connais cette grosse île au milieu du pacifique ?[page]
+C'est une carte de la Terre[speed][0xa]...[speed][0x0] Tu connais cette grosse île au milieu du Pacifique ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="47">[nick:ロニキス][br]
@@ -168,13 +168,13 @@ Un instant. Dans les légendes, il y AVAIT une île à cet endroit.[page]
 [nick:ロニキス][br]
 Hmmm, tu dois avoir raison. Mais pourquoi sur cette carte et sur cette planète ?[page]
 [nick:ミリー][br]
-À l'aide ![page]
+Regardez, quelqu'un ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="50">???[br]
-Notre plus grand souhait est que ceux qui viennent ici en quête de l'[color][0x6]œil de vérité[color][0x2] ont le cœur pur. Nous le conservons ici, car c'est in trésor extrêmement dangereux. Nous ne pouvons qu'espérer que ceux qui entendent ces mots aient le pouvoir de réparer nos erreurs[speed][0xa]...[speed][0x0][page]
+Notre plus grand souhait est que ceux qui viennent ici en quête de l'[color][0x6]Œil de la Vérité[color][0x2] aient le cœur pur. Nous le conservons ici, car c'est un trésor extrêmement dangereux. Nous ne pouvons qu'espérer que ceux qui entendent ces mots aient le pouvoir de réparer nos erreurs[speed][0xa]...[speed][0x0][page]
 ???[br]
-L'[color][0x6]œil de vérité[color][0x2] permet de créer des passerelles entre deux mondes différents. Nous l'avons créé en alliant notre technologie à Hérault que nous tirons des runes, la race native de cette planète.[page]
+L'[color][0x6]Œil de la Vérité[color][0x2] permet de créer des passerelles entre deux mondes différents. Nous l'avons créé en alliant notre technologie à l'héraldique que nous tenons des Runes, la race native de cette planète.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="51">???[br]
@@ -184,11 +184,11 @@ Tout ce que nous voulions, c'est retourner sur notre planète natale...[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52">[nick:ラティ][br]
-C'est[speed][0xa]...[speed][0x0] l'[color][0x6]œil de vérité[color][0x2][speed][0xa]...[speed][0x0][page]
+C'est[speed][0xa]...[speed][0x0] l'[color][0x6]Œil de la Vérité[color][0x2][speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 J'y comprends rien à tout ça. Et toi, [nick:イリア], ça te dit quelque chose ?[page]
 [nick:イリア][br]
-Je me demande s'ils ne venaient pas en fait du continent de Mu, sur terre[speed][0xa]...[speed][0x0][page]
+Je me demande s'ils ne venaient pas en fait du continent de Mu, sur Terre[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Tu penses qu'ils auraient pu venir contre leur gré ?[page]
 [nick:イリア][br]
@@ -206,9 +206,9 @@ Oui, tu as raison.[page]
 <sn:pointer id="54">[nick:イリア][br]
 C'est juste une théorie, mais on recense des cas à la Fédération où des gens ont été téléportés dans des endroits qui leur étaient totalement inconnus. Des cas où des enfants disparus ont été retrouvés à des centaines de kilomètres de chez eux, une distance qu'ils n'auraient jamais pu parcourir en si peu de temps sans faire voler en éclats les lois de la physique[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
-T'es en train de dire qu'ils auraient été téléportés par un champ de force créé par l'impact de la météorite ? Ça pourrait être possible pour des gens à qui serait arrivé accidentellement, mais tu n'as pas l'air de dire que ce soit le cas. Je n'ai JAMAIS entendu parler de téléportation sur de si longues distances, comme de la Terre à Roak.[page]
+T'es en train de dire qu'ils auraient été téléportés par un champ de force créé par l'impact de la météorite ? Mais ça reste, au pire, à l'échelle d'une même planète. De la Terre à Roak, ça, je n'en ai JAMAIS entendu parler.[page]
 [nick:イリア][br]
-Moi non plus. Mais si c'était le cas, ça expliquerait les raisons de la création de l'[color][0x6]œil de vérité[color][0x2]. Il voulaient juste rentrer chez eux[speed][0xa]...[speed][0x0][page]
+Moi non plus. Mais si c'était le cas, ça expliquerait les raisons de la création de l'[color][0x6]Œil de la Vérité[color][0x2]. Ils voulaient juste rentrer chez eux[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 C'est ce que le type disait.[page]
 [end]</sn:pointer>
@@ -221,7 +221,7 @@ Jusqu'au temps des générations futures, ayez courage, que votre résistance so
 [end]</sn:pointer>
 
 <sn:pointer id="56">[nick:イリア][br]
-J'ai tout de même le sentiment que ces phrases sont l'essence même des habitants de Moore[speed][0xa]...[speed][0x0][page]
+J'ai tout de même le sentiment que ces phrases portent tout ce que ressentaient les Mooriens[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57">[center]Sanctuaire de Parj[page]

@@ -18,7 +18,7 @@ Par ici ! Venez vite ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="5">[nick:ラティ][br]
-Qu'est-ce qu'il y a,[nick:ミリー] ?[page]
+Qu'est-ce qu'il y a, [nick:ミリー] ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">[nick:ミリー][br]
@@ -30,7 +30,7 @@ Elle est morte ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="8">[nick:ミリー][br]
-On peut pas la laisser comme ça, aidons là ![page]
+On peut pas la laisser comme ça, aidons-la ![page]
 [nick:ラティ][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
@@ -60,7 +60,7 @@ Là ! La glace ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">[nick:ミリー][br]
-Ah[speed][0xa]...[speed][0x0] ![speed][0xa]...[speed][0x0] Elle est en train de fondre[speed][0xa]...[speed][0x0][page]
+Ah[speed][0xa]...[speed][0x0] ![speed][0xa]...[speed][0x0] Elle a disparu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">[nick:ラティ][br]
@@ -176,7 +176,7 @@ Sauver ma sœur est ma seule raison de vivre ! Es-tu en train de me dire que je 
 <sn:pointer id="36">[nick:ヨシュア][br]
 Ne sois pas stupide. Si tu veux te battre, viens ! Je donnerais tout pour ma sœur ![page]
 [nick:ラティ][br]
-[nick:マーヴェル], écarte-toi, s'il te plait[speed][0xa]...[speed][0x0][page]
+[nick:マーヴェル], écarte-toi, s'il te plaît[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
 Dégage de mon chemin ! Tu ne m'arrêteras pas ![page]
 [end]</sn:pointer>
@@ -188,11 +188,11 @@ Arrêtez[speed][0xa]...[speed][0x0] Pardonnez-moi[speed][0xa]...[speed][0x0][pag
 [end]</sn:pointer>
 
 <sn:pointer id="38">[nick:マーヴェル][br]
-Ça n'a plus aucune importance[speed][0xa]...[speed][0x0][page]
+Je n'en peux plus[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="39">[nick:マーヴェル][br]
-Plus du tout[speed][0xa]...I[speed][0x0] Si j'avais su que vous agiriez ainsi, je ne serais jamais venue avec vous !![page]
+Je ne le supporte plus[speed][0xa]... ![speed][0x0] Si j'avais su que j'aurais si mal, je ne serais jamais venue avec vous !![page]
 [nick:ヨシュア][br]
 Qu'est-ce que tu vas faire ?[page]
 [end]</sn:pointer>
@@ -206,7 +206,7 @@ Hein ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="42">[nick:マーヴェル][br]
-Pardonnez-moi[speed][0xa]...[speed][0x0] C'est ma faute, je n'ai pas été assez forte pour réaliser même le plus petit de mes rêves[speed][0xa]...[speed][0x0][page]
+Pardonnez-moi[speed][0xa]...[speed][0x0] C'est ma faute, je n'ai pas été assez forte pour m'accrocher au moindre espoir[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="43">[nick:マーヴェル][br]
@@ -232,7 +232,7 @@ Mais qu'est-ce qu'il s'est passé[speed][0xa]... ?[speed][0x0][page]
 <sn:pointer id="47">Vous obtenez l'arcane de l'éclat retourné du sakura.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">Vous apprenez macabre.[page]
+<sn:pointer id="48">Vous apprenez Macabre.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49">L'interrupteur n'a pas l'air de marcher.[page]
