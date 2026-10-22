@@ -4,7 +4,7 @@ One folder per component, small files. Labels for every address live in `so.kint
 (load the base ROM `Star Ocean (Japan).sfc`).
 
 - `rom/`: cart, board, bus mapping
-- `engine/`: scheduler, NMI jobs
+- `engine/`: scheduler, NMI jobs, battle timing
 - `compression/`: S-DD1, `C0:4C53` LZ container
 - `dialog/`: script stream, glyph blit, font, framebuffer, scene text in SRAM, VWF + 8 MB pages (patch)
 - `vram/`: per-screen VRAM layout, 8x8 VWF budget
