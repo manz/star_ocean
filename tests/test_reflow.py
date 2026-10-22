@@ -70,3 +70,16 @@ def test_a_broken_sentence_balances_no_narrower_than_two_thirds(layout: DialogLa
 def test_choices_ending_with_a_break_stay_on_their_lines(layout: DialogLayout) -> None:
     choices = f"1. Je vais lui en chercher{BREAK}2. C'est pas mes affaires"
     assert layout.page(choices) == "1. Je vais lui en chercher\n2. C'est pas mes affaires"
+
+
+def test_question_mark_gets_the_french_space(layout: DialogLayout) -> None:
+    assert layout.page("Vraiment?") == "Vraiment ?"
+
+
+def test_a_spaced_mark_keeps_one_space(layout: DialogLayout) -> None:
+    assert layout.page("Vraiment ?") == "Vraiment ?"
+
+
+def test_a_mark_never_opens_a_line(layout: DialogLayout) -> None:
+    text = "Allons-y ! [speed][0xa]...[speed][0x0] Mais juste nous, ça ne risque pas d'être un peu[speed][0xa]...[speed][0x0] ?"
+    assert not [line for line in layout.page(text).split("\n") if line.startswith("?")]
