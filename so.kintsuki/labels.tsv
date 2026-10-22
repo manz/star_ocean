@@ -1,18 +1,46 @@
 # addr	name	type	m	x	e	comment
 00FE80	main_idle					bra * idle loop between NMIs
+7E0231	scene_vm_off	data				negative: VM skipped
+7E0234	scene_vm_wait	data				frames before the VM runs again
+7E0238	scene_vm_pc	data				VM pc, absolute ($3100 + offset)
+7E0278	scene_vm_result	data				result register: actor_get, flag_test, ...; store_result writes it out
 7E03D2	text_flags	data				WRAM: text engine flags
 7E03D5	text_cursor	data				WRAM: script read cursor (bank 7E)
 7E03D7	text_rewind	data				WRAM: rewind target for FFFE
 7E03DE	text_color_mode	data				WRAM: glyph compose mode 0..3 (or/and/xor variants)
+7E043D	map_current	data				current map id
+7E0461	map_change_map	data				op 24 target map; $045A kind, $0463 x, $0465 y, $0467 facing
+7E3100	scene_events	data				unpacked scene event data (header, then VM code)
 7EA353	text_framebuffer	data				WRAM 2bpp text window bitmap, tile 0x328.. (4 lines x 26 cols x 16px), mirrors VRAM $5940
 7EBE00	script_buffer	data				WRAM unpacked scene script (many strings, FFFF-terminated), filled at scene load
+7EE613	scene_entries	data				entry pointers: +kind*0x100+(id*2&FF), cleared $E613-EE72 at load
+7EEB8E	scene_zones	data				zone table, 5-byte entries, scanned by C6:54BB
+7EFE73	scene_flags	data				flag_on/off/test (ops 31-33)
+7EFE93	scene_flags2	data				flags tested by op 5B
+7EFEC3	scene_vars	data				VM variables var[i]
 C04C53	unpack					LZ: dest = DB:X; DB=$7E path uses its own copy, any other bank: literals sta.w 0,x but back-refs mvn $7F,$7F (hardcoded)
 C20009	sched_main	function				cooperative task scheduler root; all task chains start here (shadow-stack switches)
 C20047	sched_dispatch	function				task dispatch/yield point
 C20B5E	nmi_dma_jobs	function				NMI VRAM/CGRAM/OAM job runner; flag bytes $F3/$F4 select jobs; S-DD1 jobs arm $4800 + DMAP=$09
 C20EF5	nmi_text_upload	function				per-glyph DMA of text framebuffer $7E:A353.. -> VRAM $5940..
+C21258	scene_vm_frame	function				scene event VM, per frame: runs from $0238 until a yielding op ($0231<0 skips, $0234 countdown)
+C21271	scene_vm_frame_loop	code				per-op loop: stz $023A, X=(op+1)*2 into C2:3769
+C21288	scene_vm_run	function				scene event VM, runs until FF (trigger scripts that must finish at once)
+C212CA	scene_op_set	function				op 01: dest value, RPN expression to FF, store by dest type bits 3-5 (C2:16DD)
+C216A7	scene_vm_expr_ops_byte	data				expression operators (byte): 04 + 05 - 06 * 07 / 08 | 09 & 0A ++ 0B -- 0C drop
+C216B9	scene_vm_expr_ops_word	data				expression operators (word)
+C216DD	scene_vm_stores	data				final store by type bits 3-5: = += -= *= /= |= &= ?=
+C217C9	scene_op_if	function				op 07: then word, else word, condition list
+C217F7	scene_vm_join	function				condition joiner: 00 or, 01 and, else end
+C218FE	scene_vm_compare	data				comparators: 0 == 1 > 2 < 3 != 4 >= 5 <= 6 truthy
 C21C47	text_message_select_event					event op path: same `lda $B873,x / adc #$B873 / sta $03D5` as text_message_select (patched: sram_text)
+C21C72	scene_vm_say_mode	function				say ops: window mode in A then the message (0D/0E/25/39/3C)
 C21CAC	text_message_select					X=msg*2: $03D5 = $B873 + [$B873+X]; hook point to stream one message into the buffer
+C22112	scene_op_map_change	function				op 24 map,kind,x,y,facing -> $0461/$045A/$0463 x*8/$0465 y*8-16/$0467; fade request, VM stopped (C2:21F7)
+C2310C	scene_vm_value	function				operand value: F0-FF run, bit7 var ($7E:FEC3+i) / bit6 sys (C2:383F), else imm (t&3)+1 bytes
+C236E2	scene_events_init	function				scene load: entries -> $7E:E613+kind*0x100+(id*2&FF), pc = header end + [$3102], stack $FFF2, one VM pass
+C23769	scene_vm_opcodes	data				opcode handlers, word per op, indexed (op+1)*2: 00-69, FF at index 0
+C2383F	scene_vm_sys_table	data				system variables: 24-bit pointers, sys[i]
 C238AB	text_task	function	1	0		dialog task body (yields per glyph = typewriter)
 C239DB	text_fetch	function				read stream code at $03D5: varint, FFFF end, FFFE rewind
 C23A4D	text_dispatch	function				5..4000 glyph=code-5 -> C2:63A0; else control via C2:3B2F
@@ -31,8 +59,10 @@ C60911	scene_load	function				scene/map loader; unpacks map/gfx/script blobs via
 C610E0	scene_load_tables	code				index scene_table, unpack event + text blocks
 C610FF	scene_load_events	function				unpacks scene data (e.g. E6:B87D -> $7E:3100)
 C61137	scene_load_script	function				unpacks scene script (e.g. E8:41FC -> $7E:B873)
+C654BB	scene_zone_test	function				hero tile vs zone table $EB8E+5n (x1,y1,x2,y2,..), $0241 end; while walking
 C6F6F9	menu_draw_string16_id	function				id lookup in $7F:2000/2800/3000, u16 glyph+0x10 via copy_char
 C6F7D0	menu_draw_string16	function				u16 string at DB:Y
+C80000	scene_a_button	function				A in the field: if op at pc != FF and entry 2/0x7F ($E911) set, push pc and call it
 C80C3C	copy_char16	function				blit 16x16 glyph X=glyph*0x20 as 2bpp into $7F:E000 buffer
 CA6328	menu_init	function				menu VRAM setup + S-DD1 loads (immediates)
 CA64EE	menu_load_font_8x8	code				menu init: S-DD1 DB:A078 -> VRAM $2000
