@@ -9,7 +9,7 @@ exclude = ["src_assets/renders"]
 [defines]
 BATTLE_SPEEDUPS = 1  # src/engine/battle_speed.s: faster battle loop routines (notes/engine/battle_timing.md)
 CEL_DMA_ANYTIME = 1  # src/engine/cel_dma.s: no H-blank wait before cel DMAs; may crash CPU rev 1 consoles
-AUDIO_DEFERRED = 0  # src/engine/audio_defer.s: battle audio sent from the main loop's wait, not the IRQ
+AUDIO_DEFERRED = 1  # src/engine/audio_defer.s: battle audio sent from the main loop's wait, not the IRQ
 NAME_INDEX = 1  # src/engine/name_index.s: names found by id through a run table, not a scan
 
 # ROM pages 6-7 (physical 0x600000-0x7FFFFF) have no fixed bus address: code reads them through the E window
