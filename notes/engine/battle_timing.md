@@ -10,10 +10,9 @@ the unpatched ROM.
   the IRQ flag `$D9` in `C0:84AB` (from `C1:019B`; V-IRQs at lines 216 and 258, `$4209`), does its forced-blank
   DMA, and `C1:0310` waits one more vblank in `C0:8496` unless `$E1` (vblanks since the last pass) is 2.
 - Where the update is called moves around inside a pass (the logic block runs first); that is not what the
-  screen shows. Time passes by the sprites: OAM, or a probe in the game itself. kintsuki's `master_cycles` /
-  `cpu_cycles` return garbage, and `frame_count` or `get_ppu_state().vcounter` read in an exec callback are not
-  synced with the PPU; a probe that latches `$2137` (with `$4201` bit 7 set, the game clears it) and reads
-  `$213D` from the CPU, then writes it to a spare DMA register a write hook watches, gives the real line.
+  screen shows. Time passes by the sprites (OAM) or by kintsuki's `live_counters()` (master clock, scanline,
+  dot), exact inside callbacks: the battle IRQs land on lines 216 and 258. `master_cycles` / `cpu_cycles` jumped
+  across scheduler reduces before kintsuki 93e442b (not released yet).
 
 ## Victory slow motion (by design)
 
