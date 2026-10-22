@@ -13,7 +13,7 @@ Immédiatement, Votre Majesté.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="3">Roi[br]
-Ce qui a été transmis de générations en générations dans notre famille est la localisation de l'entrée du monde démoniaque. Elle serait sur une île déserte au sud-est du continent de Sylvalant.[page]
+Ce qui a été transmis de génération en génération dans notre famille est la localisation de l'entrée du monde démoniaque. Elle serait sur une île déserte au sud-est du continent de Sylvalant.[page]
 [nick:ロニキス][br]
 Une île déserte[speed][0xa]...[speed][0x0] ?[page]
 Roi[br]
@@ -26,7 +26,7 @@ Vous recevez l'[color][0x6]emblème de Sylvalant[color][0x2] et la [color][0x6]c
 [nick:ロニキス][br]
 À quoi sert cette clé ?[page]
 Roi[br]
-Encore aujourd'hui, il reste de nombreuses ruines des anciens sur le continent de Sylvalant. Et dans ces ruines, on ne peut y entrer qu'en utilisant cette clé.[page]
+Encore aujourd'hui, il reste de nombreuses ruines des anciens sur le continent de Sylvalant. Certaines salles de ces ruines ne s'ouvrent qu'avec cette clé.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[end]</sn:pointer>
@@ -34,9 +34,9 @@ Encore aujourd'hui, il reste de nombreuses ruines des anciens sur le continent d
 <sn:pointer id="5">[nick:ロニキス][br]
 Merci.[page]
 Roi[br]
-J'espère que vous trouverez une utilité à cette clé.[page]
+À vrai dire, on ne m'a jamais dit à quoi elle servait.[page]
 [nick:ロニキス][br]
-J'espère aussi.[page]
+Je vois.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6">Roi de Sylvalant[br]
@@ -52,11 +52,11 @@ Je prie du fond de mon cœur que vous ne vous épuisiez pas trop[speed][0xa]...[
 [end]</sn:pointer>
 
 <sn:pointer id="9">Étudiant[br]
-En continuant loin au nord de[color][0x4]Sylvalant[color][0x2], vous trouverez des ruines des anciens. Mais c'est bien trop dangereux pour moi[speed][0xa]...[speed][0x0][page]
+En continuant loin au nord de [color][0x4]Sylvalant[color][0x2], vous trouverez des ruines des anciens. Mais c'est bien trop dangereux pour moi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="10">Vieux sage[br]
-Jerand, le dernier mage, a été dévoré lors de la guerre contre le monde démoniaque. Nous avons perdu ce jour-là un grand héros[speed][0xa]...[speed][0x0][page]
+Jerand, l'ancien mage de la cour, a été tué dans les troubles de la guerre contre le monde démoniaque. Nous avons perdu ce jour-là un grand héros[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="11">Zel le chevalier[br]
@@ -68,15 +68,15 @@ Pensez-vous que les troupes du monde démoniaque ne nous ont pas attaqués derni
 [end]</sn:pointer>
 
 <sn:pointer id="13">Jeune soldat[br]
-Je suis enfin rentré chez moi après un long temps d'absence.[page]
+Ce soir, je rentre enfin chez moi, après une longue absence ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="14">Pilon le sage[br]
-Selon la légende, à l'origine, seules les entités magiques dont parlent les runes vivaient ici[speed][0xa]...[speed][0x0] Si c'est le cas, alors d'où viennent nos ancêtres ? Et il semblerait que les anciens n'avaient pas de queue.[page]
+Selon la légende, à l'origine, seuls des êtres magiques appelés les Runes vivaient ici[speed][0xa]...[speed][0x0] Si c'est le cas, alors d'où viennent nos ancêtres ? Et il semblerait que les anciens n'avaient pas de queue.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="15">Tork le garde[br]
-Servir[speed][0xa]...[speed][0x0] Quel grand mot ♥[page]
+"C'est voulu"[speed][0xa]...[speed][0x0] Quelle belle formule ♥[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16">Yarma le garde[br]
@@ -88,7 +88,7 @@ Je travaille pour devenir un plus grand mage que Jerand.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Homme[br]
-Il parait que vous pouvez créer de nombreux accessoires avec des gemmes. Avez-vous essayé ?[page]
+Il paraît que vous pouvez créer de nombreux accessoires avec des gemmes. Avez-vous essayé ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19">Jon le peintre[br]
@@ -129,33 +129,33 @@ Pas besoin de vous excuser[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="24">[nick:アシュレイ][br]
-J'aimerais que vous maitrisiez cet arcane.[page]
+J'espère que tu maîtriseras cet arcane.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="25">[nick:アシュレイ][br]
-Vous êtes venus.[page]
+Te voilà.[page]
 [nick:ラティ][br]
 [speed][0xa]...[speed][0x0] Qu'est-ce qu'il y a ?[page]
 [nick:アシュレイ][br]
-Lorsque je vous accompagnais en voyage, j'ai bien vu votre style de combat.[page]
+Depuis que nous voyageons ensemble, j'ai bien observé ta façon de te battre.[page]
 [nick:ラティ][br]
-Oui, et ?[page]
+Euh... oui ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="26">[nick:アシュレイ][br]
-Laisserez-vous un vétéran profiter d'un dernier moment d'égoïsme ?[page]
+Accepterais-tu un dernier caprice d'un vieil homme ?[page]
 [nick:ラティ][br]
-[speed][0xa]...[speed][0x0] Dites voir ?[page]
+[speed][0xa]...[speed][0x0] Qu'y a-t-il ?[page]
 [nick:アシュレイ][br]
-En raison d'un vil complot d'un monstre ayant pris l'apparence d'un vieux camarade de guerre, j'ai perdu l'usage de mon bras et je ne peux plus manier l'épée[speed][0xa]...[speed][0x0] Je suis à la recherche d'un disciple digne de recevoir mes enseignements.[page]
+En raison d'un vil complot d'un monstre ayant pris l'apparence d'un vieux camarade de guerre, j'ai perdu l'usage de mon bras d'arme[speed][0xa]...[speed][0x0] Depuis, je cherche un disciple digne de recevoir mon savoir.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="27">[nick:アシュレイ][br]
-Accepterez-vour les secrets de ces arcanes ?[page]
+Accepterais-tu de recevoir les secrets de mes arcanes ?[page]
 [nick:ラティ][br]
 Êtes-vous certain que j'en sois digne ? [page]
 [nick:アシュレイ][br]
-Il ne fait aucun doute que vous l'êtes ![page]
+C'est justement parce que c'est toi ![page]
 [nick:ラティ][br]
 Dans ce cas, j'en suis honoré.[page]
 [end]</sn:pointer>
@@ -168,7 +168,7 @@ Selon les sources que j'ai pu consulter, il semblerait qu'il existe des réalit�
 [end]</sn:pointer>
 
 <sn:pointer id="30">Kanoi l'étudiant[br]
-Il semblerait qu'il y ait une entrée de ruines dans une des fissures sur la face nord des falaises de Sylvalant.[page]
+Il semblerait qu'il y ait une entrée de ruines dans une des fissures des falaises à l'est de Sylvalant.[page]
 [end]</sn:pointer>
 
 </sn:script>

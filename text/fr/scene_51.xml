@@ -18,7 +18,7 @@ Qu'est-ce que ça dit ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4">[nick:イリア][br]
-Hé,[nick:ラティ] !
+Hé, [nick:ラティ] !
 Attends ! Où vas-tu ?[page]
 [end]</sn:pointer>
 
@@ -78,8 +78,8 @@ Les étrangers ont besoin d'un laissez-passer pour quitter la ville.[page]
 
 <sn:pointer id="17">Patrouilleur[br]
 À quoi peut bien servir cet énorme sablier ?
-Je parie qu'il n'est pas là que
-pour donner l'heure ![page]
+On n'arrive même pas à lire
+l'heure dessus ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="18">Mercenaire robuste[br]
@@ -96,7 +96,7 @@ Salut ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="21">Fille[br]
-C'est la [color][0x4] ville fortifiée de Sylvalant[color][0x2], la cité des neiges ![page]
+C'est la [color][0x4]ville de Sylvalant[color][0x2], la cité des neiges ![page]
 [end]</sn:pointer>
 
 <sn:pointer id="22">Santa, camelot[br]
@@ -130,7 +130,7 @@ Hein ? J'ai dû rêver.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28">[nick:ラティ][br]
-Tu as vu quelque chose ?[page]
+Vous avez vu quelque chose ?[page]
 [end]</sn:pointer>
 
 <sn:pointer id="29">[nick:アシュレイ][br]
