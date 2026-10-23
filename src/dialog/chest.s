@@ -43,11 +43,48 @@ same message the same way and get the same suffix. `C2:5169` wrote a whole messa
 ; C6:DB75: X = where the list's suffix goes (DB = $7E, M16 X16); the routine then ends with `plb / rts`.
 .alloc at 0xC6DB75 size 0x2C {
     txy
+    jsl item_list_suffix
+    plb
+    rts
+}
+
+.alloc item_list_suffix in code_c6 {
+"""
+Y = destination: the chest suffix for one item, the plural one when $02EF holds two or more (DP $02 is free
+    once the list is built).
+"""
+    stz 0x02
+    ldx.w #6
+_count:
+    lda.w 0x02EF, x
+    beq _next
+    inc 0x02
+_next:
+    dex
+    dex
+    bpl _count
+    lda 0x02
+    cmp.w #2
+    bcs _plural
     ldx.w #chest_found & 0xFFFF
     lda.w #sizeof(chest_found) - 1
     mvn chest_found >> 16, 0x7E
-    plb
-    rts
+    rtl
+_plural:
+    ldx.w #items_found & 0xFFFF
+    lda.w #sizeof(items_found) - 1
+    mvn items_found >> 16, 0x7E
+    rtl
+}
+
+.alloc items_found in code_c6 {
+"""
+New line, 'ont été obtenus !' (text/so_fr.tbl), then page wait and end: the engine breaks a line at the glyph
+that does not fit, so on its own line the verb stays whole.
+"""
+    .db 0x00
+    .db 0x38, 0x37, 0x3D, 0x05, 0x48, 0x3D, 0x48, 0x05, 0x38, 0x2B, 0x3D, 0x2E, 0x37, 0x3E, 0x3C, 0x05, 0x5F
+    .db 0x01, 0xFF, 0xFF
 }
 
 ; C2:516F: X = $6100, the message (DB = $7E, M16 X16); C2:519F goes on with `sep #0x20`.

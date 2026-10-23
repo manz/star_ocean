@@ -264,17 +264,26 @@ def test_syscall_55_message_is_french(game: Game) -> None:
     assert_matches_golden(emu, "state_item_find")  # "Collier a été obtenu !"
 
 
-def test_item_list_message_is_french(game: Game) -> None:
-    """C6:DAA4 (field state $0598 = 2) lists up to three items from $02EF: joined by ", ", the chest suffix."""
+def _item_list(game: Game, items: list[int]) -> Emu:
+    """C6:DAA4 (field state $0598 = 2) lists the items of $02EF, joined by ", "."""
     emu = game.at(game.cave)
-    emu.write_range(0x7E02EF, bytes([0xB7, 0, 0x10, 0, 0x20, 0, 0, 0]))
+    emu.write_range(0x7E02EF, b"".join(i.to_bytes(2, "little") for i in [*items, 0, 0, 0, 0][:4]))
     emu.write(0x7E0598, 2)
     emu.run_frames(90)
-    comma, end = fr_table().to_bytes(", "), FOUND
-    stream = bytes(emu.read_range(0x7E6100, 48))
-    assert stream.count(comma) == 2
-    assert end in stream
-    assert_matches_golden(emu, "state_item_list")  # "Collier, Métal runique, Harmonica a été obtenu !"
+    return emu
+
+
+def test_item_list_message_is_plural(game: Game) -> None:
+    emu = _item_list(game, [0xB7, 0x10, 0x20])
+    stream = bytes(emu.read_range(0x7E6100, 64))
+    assert stream.count(fr_table().to_bytes(", ")) == 2
+    assert b"\x00" + fr_table().to_bytes("ont été obtenus !") + b"\x01\xff\xff" in stream
+    assert_matches_golden(emu, "state_item_list")  # "Collier, Métal runique, Harmonica / ont été obtenus !"
+
+
+def test_one_item_list_message_is_singular(game: Game) -> None:
+    emu = _item_list(game, [0xB7])
+    assert FOUND in bytes(emu.read_range(0x7E6100, 64))
 
 
 def test_full_inventory_message_is_french(game: Game) -> None:
