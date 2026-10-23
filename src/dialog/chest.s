@@ -1,9 +1,10 @@
 """
 Treasure chest message: `C2:05F2` builds it in $7E:6100 (colour, the item or the Fol amount, colour) and ended it
 with the Japanese "を手に入れました。" written as immediates; the French suffix is copied there instead. The field
-item find (syscall 55, `C6:DD40`) and the multi-item find (`C6:DAD7`, up to three items joined by "、") build the
-same message the same way and get the same suffix. `C2:5169` wrote a whole message as immediates ("持ち物がいっぱい
-です", the inventory is full).
+item find (syscall 55, `C6:DD40`) and the multi-item find (`C6:DAD7`, the non-zero words of $02EF, four slots,
+joined by "、") build the same message the same way and get the same suffix. A slot word is the item id (bit 15 =
+id bit 8) with a count in bits 8-13; `C6:DBB4` gives each, the message names them without the count.
+`C2:5169` wrote a whole message as immediates ("持ち物がいっぱいです", the inventory is full).
 """
 
 .import "core/preamble"
