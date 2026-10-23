@@ -8,14 +8,15 @@ resolution-markers = [
 
 [[package]]
 name = "a816"
-version = "1.1.7"
+version = "1.2.0a1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
+    { name = "katsuji" },
     { name = "lsprotocol" },
     { name = "pygls" },
 ]
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/02/44/d4775ac16fe24647a94d39ba33f73f299f93a33d9410b65af7535ec7ad96/a816-1.1.7-py3-none-any.whl", hash = "sha256:1d286abcbf3a8dc9e1664686164df8c699b5333fe564d771e75ea3edccd29d45", size = 428422, upload-time = "2026-10-20T21:16:18.627Z" },
+    { url = "https://files.pythonhosted.org/packages/c8/63/75421f44683e9dcf8c40d079ec4afa5fbea63c592568bb2fbfd4c439cba7/a816-1.2.0a1-py3-none-any.whl", hash = "sha256:9d83ffd6ab06ef88aacfd1cd44b64bc2e83472bb2bb32d6be56754bc04cc93ed", size = 425134, upload-time = "2026-10-24T08:34:37.524Z" },
 ]
 
 [[package]]
@@ -491,7 +492,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "a816", specifier = ">=1.1.7" },
+    { name = "a816", specifier = "==1.2.0a1" },
     { name = "katsuji", extras = ["render"], specifier = "==0.4.0a2" },
 ]
 
