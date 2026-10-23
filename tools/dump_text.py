@@ -9,7 +9,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from script.pointers import Pointer, write_pointers_as_xml
+from katsuji.script.pointers import Pointer, write_pointers_as_xml
 
 from tools.dialog import SCENES, dialog_table, messages, scene_block
 from tools.menu_text import DATABASES, entries, table_for

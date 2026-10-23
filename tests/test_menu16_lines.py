@@ -4,7 +4,7 @@ last line on the screen below (the window border, the next description)."""
 from __future__ import annotations
 
 import pytest
-from script import Table
+from katsuji.script import Table
 
 from tools.encode_menus import wide_values
 from tools.import_menus import id_list

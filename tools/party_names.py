@@ -12,7 +12,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from script import Table
+from katsuji.script import Table
 
 from tools.encode_menus import TABLE, french, japanese
 from tools.import_legacy import NAMES as JP_NAMES

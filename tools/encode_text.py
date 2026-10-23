@@ -11,8 +11,8 @@ import argparse
 from collections.abc import Callable
 from pathlib import Path
 
-from script import Table
-from script.pointers import read_pointers_from_xml
+from katsuji.script import Table
+from katsuji.script.pointers import read_pointers_from_xml
 
 from tools import party_names
 from tools.dialog import CONTROLS, SCENE_TABLE, SCENES, build_block, messages, scene_block

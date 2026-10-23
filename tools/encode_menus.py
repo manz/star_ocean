@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from pathlib import Path
 
-from script import Table
+from katsuji.script import Table
 
 from tools import menu_font16
 from tools.dialog import SCENES, scene_text_ptr

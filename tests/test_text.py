@@ -5,8 +5,8 @@ from __future__ import annotations
 from pathlib import Path
 
 import pytest
-from script import Table
-from script.pointers import read_pointers_from_xml
+from katsuji.script import Table
+from katsuji.script.pointers import read_pointers_from_xml
 
 from tools import dump_text
 from tools.dialog import SCENES, build_block, dialog_table, glyphs, messages, scene_block
