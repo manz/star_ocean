@@ -1,6 +1,7 @@
 """
 Treasure chest message: `C2:05F2` builds it in $7E:6100 (colour, the item or the Fol amount, colour) and ended it
-with the Japanese "を手に入れました。" written as immediates; the French suffix is copied there instead.
+with the Japanese "を手に入れました。" written as immediates; the French suffix is copied there instead. The field
+item find (syscall 55, `C6:DD40`) builds the same message the same way and gets the same suffix.
 """
 
 .import "core/preamble"
@@ -14,6 +15,17 @@ with the Japanese "を手に入れました。" written as immediates; the Frenc
     plx
     rts
 }
+
+; C6:DD76: X = where the suffix goes (DB = $7E, M16 X16); C6:DDA0 then does `sep / plb / rtl`.
+.alloc at 0xC6DD76 size 0x2A {
+    txy
+    ldx.w #chest_found & 0xFFFF
+    lda.w #sizeof(chest_found) - 1
+    mvn chest_found >> 16, 0x7E
+    bra _item_find_done
+}
+
+.label _item_find_done = 0xC6DDA0
 
 .alloc chest_found in code_c8 {
 """The French suffix, ' a été obtenu !' (text/so_fr.tbl), then page wait and end."""

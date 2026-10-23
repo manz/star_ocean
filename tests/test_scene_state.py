@@ -16,6 +16,7 @@ import pytest
 
 from tests.screens import assert_matches_golden, tap
 from tests.warp import field, run_script, set_var, walk, warp
+from tools.encode_text import fr_table
 from tools.scene_asm import op
 from tools.scene_script import Value
 
@@ -244,6 +245,23 @@ def test_syscall_55_finds_an_item(game: Game) -> None:
     emu.run_frames(120)
     after = _inventory(emu)
     assert sum(after.values()) == sum(before.values()) + 1
+
+
+FOUND = fr_table().to_bytes(" a été obtenu !") + b"\x01\xff\xff"  # chest_found: page wait, end
+
+
+def test_syscall_55_message_is_french(game: Game) -> None:
+    """C6:DD40 builds the message at $7E:6100 like a chest: src/dialog/chest.s gives it the French suffix."""
+    emu = game.at(game.cave)
+    emu.write(0x7E0473, emu.read(0x7E0473) | 0x10)
+    for _ in range(20):
+        run_script(emu, [op("syscall", 55), op("cutscene_end")], 2)
+        if emu.read(0x7E05A4):
+            break
+    emu.run_frames(120)
+    suffix = bytes(emu.read_range(0x7E6108, len(FOUND)))  # after colour, item, colour
+    assert suffix == FOUND
+    assert_matches_golden(emu, "state_item_find")  # "Collier a été obtenu !"
 
 
 # syscalls 70 / 77: categories 1 / 2 split the inventory
