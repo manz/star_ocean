@@ -6,7 +6,7 @@ One folder per component, small files. Labels for every address live in `so.kint
 - `rom/`: cart, board, bus mapping
 - `engine/`: scheduler, NMI jobs
 - `compression/`: S-DD1, `C0:4C53` LZ container
-- `dialog/`: script stream, glyph blit, font, framebuffer, scene text in SRAM, VWF + 8 MB pages (patch)
+- `dialog/`: script stream, glyph blit, font, framebuffer, scene text in SRAM, VWF + 8 MB pages (patch), item messages
 - `vram/`: per-screen VRAM layout, 8x8 VWF budget
 - `fonts/`: game fonts, katsuji assets
 - `text/`: dialog script, string databases, character tables

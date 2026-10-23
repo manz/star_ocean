@@ -281,6 +281,17 @@ def test_item_list_message_is_plural(game: Game) -> None:
     assert_matches_golden(emu, "state_item_list")  # "Collier, Métal runique, Harmonica / ont été obtenus !"
 
 
+def test_long_item_list_breaks_between_names(game: Game) -> None:
+    """The four longest names: each line ends after a whole name, never where the engine would cut one."""
+    emu = _item_list(game, [0xE0, 0xBE, 0xBF, 0x80B7])
+    stream = bytes(emu.read_range(0x7E6100, 64))
+    comma, item = fr_table().to_bytes(","), b"\x04\x02"  # [color] 2 ends each name
+    assert stream.count(item + comma + b"\x00") == 1  # after Talisman lunaire
+    assert stream.count(item + fr_table().to_bytes(", ")) == 2
+    emu.run_frames(60)  # the longer message is still typing at 90
+    assert_matches_golden(emu, "state_item_list_long")  # "L'esprit de l'art, Talisman lunaire, / Tablette ..."
+
+
 def test_one_item_list_message_is_singular(game: Game) -> None:
     emu = _item_list(game, [0xB7])
     assert FOUND in bytes(emu.read_range(0x7E6100, 64))

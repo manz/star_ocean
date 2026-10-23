@@ -1,13 +1,15 @@
 """
 Treasure chest message: `C2:05F2` builds it in $7E:6100 (colour, the item or the Fol amount, colour) and ended it
 with the Japanese "を手に入れました。" written as immediates; the French suffix is copied there instead. The field
-item find (syscall 55, `C6:DD40`) and the multi-item find (`C6:DAD7`, the non-zero words of $02EF, four slots,
-joined by "、") build the same message the same way and get the same suffix. A slot word is the item id (bit 15 =
-id bit 8) with a count in bits 8-13; `C6:DBB4` gives each, the message names them without the count.
+item find (syscall 55, `C6:DD40`) builds it the same way and gets the same suffix. The item list (`C6:DAD7`, the
+non-zero words of $02EF) is built by `item_list_build` instead. Details: notes/dialog/item_messages.md.
 `C2:5169` wrote a whole message as immediates ("持ち物がいっぱいです", the inventory is full).
 """
 
 .import "core/preamble"
+.include "item_list.i"
+
+ITEM_NAMES := 0x1387  ; names8 id of item 0 (tools/item_list.py)
 
 ; C2:0669: X = where the suffix goes (DB = $7E, M16 X16), then `plx / rts`.
 .alloc at 0xC20669 size 0x2C {
@@ -30,60 +32,140 @@ id bit 8) with a count in bits 8-13; `C6:DBB4` gives each, the message names the
 
 .label _item_find_done = 0xC6DDA0
 
-; C6:DB26: between two items of the list (M16, X = the stream); was "、" stored in 8-bit mode.
-.alloc at 0xC6DB26 size 0x0A {
-    lda.w #0x055E  ; ", " (text/so_fr.tbl)
-    sta.w 0x0000, x
-    inx
-    inx
-    bra _item_list_next
-}
-
-.label _item_list_next = 0xC6DB30
-
-; C6:DB75: X = where the list's suffix goes (DB = $7E, M16 X16); the routine then ends with `plb / rts`.
-.alloc at 0xC6DB75 size 0x2C {
-    txy
-    jsl item_list_suffix
+; C6:DAD4: the item list (M16 X16, DB = $7E, after `rep #0x20`), up to its `plb / rts`. It joined the names with
+; "、" and let the engine break the line, which in French cuts a name and draws a second break over the line before.
+.alloc at 0xC6DAD4 size 0xCD {
+    ldx.w #0x6100
+    stx 0x03D5
+    stz 0x0498
+    jsl item_list_build
     plb
     rts
 }
 
-.alloc item_list_suffix in code_c6 {
+.alloc item_list_build in code_c6 {
 """
-Y = destination: the chest suffix for one item, the plural one when $02EF holds two or more (DP $02 is free
-    once the list is built).
+X = the message ($7E:6100): each non-zero word of $02EF as [color] 6, [item] id, [color] 2, joined by ", " while
+    the next name fits the line, else by "," and a break: a new line, or a page once the window's 3 lines are
+    used. Then the suffix: ' a été obtenu !' for one item, 'ont été obtenus !' on a line of its own for more.
+    DP $00 slot, $02 items, $04 line width, $06 lines, $08 id, $0A width.
 """
+    stz 0x00
     stz 0x02
-    ldx.w #6
-_count:
-    lda.w 0x02EF, x
+    stz 0x04
+    lda.w #1
+    sta 0x06
+_slot:
+    ldy 0x00
+    lda.w 0x02EF, y
     beq _next
+    bpl _low
+    and.w #0xFF
+    ora.w #0x100
+    bra _id
+_low:
+    and.w #0xFF
+_id:
+    sta 0x08
+    phx
+    tax
+    lda.l item_widths, x
+    and.w #0xFF
+    sta 0x0A
+    plx
+    lda 0x02
+    beq _place
+    lda 0x04
+    clc
+    adc.w #ITEM_LIST_SEPARATOR
+    adc 0x0A
+    cmp.w #ITEM_LIST_WINDOW - ITEM_LIST_COMMA + 1  ; room left for the comma a later break adds
+    bcs _wrap
+    lda.w #0x055E  ; ", " (text/so_fr.tbl)
+    sta.w 0x0000, x
+    inx
+    inx
+    lda 0x04
+    clc
+    adc.w #ITEM_LIST_SEPARATOR
+    sta 0x04
+    bra _place
+_wrap:
+    sep #0x20
+    lda.b #0x5E  ; ","
+    sta.w 0x0000, x
+    rep #0x20
+    inx
+    jsr _break
+    stz 0x04
+_place:
+    lda.w #0x0604  ; [color] 6
+    sta.w 0x0000, x
+    lda.w #0x8086  ; [item]
+    sta.w 0x0002, x
+    lda 0x08
+    clc
+    adc.w #ITEM_NAMES
+    sta.w 0x0004, x
+    lda.w #0x0204  ; [color] 2
+    sta.w 0x0006, x
+    txa
+    clc
+    adc.w #8
+    tax
+    lda 0x04
+    clc
+    adc 0x0A
+    sta 0x04
     inc 0x02
 _next:
-    dex
-    dex
-    bpl _count
+    inc 0x00
+    inc 0x00
+    lda 0x00
+    cmp.w #8
+    beq _suffix
+    jmp _slot
+_suffix:
     lda 0x02
     cmp.w #2
     bcs _plural
+    txy
     ldx.w #chest_found & 0xFFFF
     lda.w #sizeof(chest_found) - 1
     mvn chest_found >> 16, 0x7E
     rtl
 _plural:
+    jsr _break
+    txy
     ldx.w #items_found & 0xFFFF
     lda.w #sizeof(items_found) - 1
     mvn items_found >> 16, 0x7E
     rtl
+
+_break:
+    sep #0x20
+    lda 0x06
+    cmp.b #3
+    bcs _page
+    inc 0x06
+    stz.w 0x0000, x  ; new line
+    bra _broke
+_page:
+    lda.b #1
+    sta 0x06
+    sta.w 0x0000, x  ; page: wait, then a clear window
+_broke:
+    rep #0x20
+    inx
+    rts
+}
+
+.alloc item_widths in code_c4 {
+    .incbin "item_widths.bin"
 }
 
 .alloc items_found in code_c6 {
-"""
-New line, 'ont été obtenus !' (text/so_fr.tbl), then page wait and end: the engine breaks a line at the glyph
-that does not fit, so on its own line the verb stays whole.
-"""
-    .db 0x00
+"""'ont été obtenus !' (text/so_fr.tbl), then page wait and end."""
     .db 0x38, 0x37, 0x3D, 0x05, 0x48, 0x3D, 0x48, 0x05, 0x38, 0x2B, 0x3D, 0x2E, 0x37, 0x3E, 0x3C, 0x05, 0x5F
     .db 0x01, 0xFF, 0xFF
 }
