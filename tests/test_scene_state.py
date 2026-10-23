@@ -264,6 +264,34 @@ def test_syscall_55_message_is_french(game: Game) -> None:
     assert_matches_golden(emu, "state_item_find")  # "Collier a été obtenu !"
 
 
+def test_item_list_message_is_french(game: Game) -> None:
+    """C6:DAA4 (field state $0598 = 2) lists up to three items from $02EF: joined by ", ", the chest suffix."""
+    emu = game.at(game.cave)
+    emu.write_range(0x7E02EF, bytes([0xB7, 0, 0x10, 0, 0x20, 0, 0, 0]))
+    emu.write(0x7E0598, 2)
+    emu.run_frames(90)
+    comma, end = fr_table().to_bytes(", "), FOUND
+    stream = bytes(emu.read_range(0x7E6100, 48))
+    assert stream.count(comma) == 2
+    assert end in stream
+    assert_matches_golden(emu, "state_item_list")  # "Collier, Métal runique, Harmonica a été obtenu !"
+
+
+def test_full_inventory_message_is_french(game: Game) -> None:
+    """A chest whose item is already at 20: once its message closes, C2:50AA cannot add it and C2:5169 says so."""
+    emu = game.at(game.cave)
+    hx, hy = emu.read16(0x7E2013), emu.read16(0x7E2016)
+    emu.write(0x7E81E1 + 48, 20)  # item 183 (slot 48) at the cap
+    run_script(emu, [op("chest_create", 30, 250, hx // 8, (hy + 16) // 8 - 2, 183), op("actor_face_up", 0)], 10)
+    tap(emu, "A")
+    emu.run_frames(80)
+    tap(emu, "A")
+    emu.run_frames(90)
+    message = bytes(emu.read_range(0x7E6100, 34))
+    assert message == fr_table().to_bytes("Impossible de transporter plus.") + b"\x01\xff\xff"
+    assert_matches_golden(emu, "state_inventory_full")
+
+
 # syscalls 70 / 77: categories 1 / 2 split the inventory
 
 
