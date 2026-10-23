@@ -4,8 +4,11 @@ from __future__ import annotations
 
 from collections.abc import Callable
 
+from katsuji.codecs.lzss import Lzss
+
 Reader = Callable[[int, int], bytes]
 HEADER_SIZE = 9
+LZSS = Lzss(window=0xFFF)  # 0x81; tools/encode_text.py packs with the same format
 
 
 def decode(read: Reader, header: int) -> tuple[bytes, int]:
@@ -17,10 +20,13 @@ def decode(read: Reader, header: int) -> tuple[bytes, int]:
         raw = head[5] | head[6] << 8
         return read(header + HEADER_SIZE, raw + 1), HEADER_SIZE + raw
     size = head[1] | head[2] << 8
-    return _lzss(read(header + HEADER_SIZE, size + 3), size, rle=kind == 0x83), HEADER_SIZE + size
+    if kind == 0x81:
+        return LZSS.decompress(read(header + HEADER_SIZE, size), head[5] | head[6] << 8)[0], HEADER_SIZE + size
+    return _lzss_rle(read(header + HEADER_SIZE, size + 3), size), HEADER_SIZE + size
 
 
-def _lzss(src: bytes, size: int, *, rle: bool) -> bytes:
+def _lzss_rle(src: bytes, size: int) -> bytes:
+    """0x83: the 0x81 LZSS plus run references (b1 >= 0xF0), which katsuji's Lzss lacks."""
     out = bytearray()
     p = flags = bits = 0
     while p < size:
@@ -37,7 +43,7 @@ def _lzss(src: bytes, size: int, *, rle: bool) -> bytes:
             p += 1
             continue
         b0, b1 = src[p], src[p + 1]
-        if rle and b1 >= 0xF0:
+        if b1 >= 0xF0:
             if b1 & 0x0F:
                 out += bytes([b0]) * ((b1 & 0x0F) + 3)
                 p += 2
