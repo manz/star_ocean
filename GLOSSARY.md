@@ -1222,7 +1222,7 @@ wrapped at spaces by the VWF). Widths: dialog font advance + 1 px (`tools/menu_f
 | 廊下 / 書斎 | Couloir ×1 / Corridor ×1 ; Étude ×1 / Salle d'étude ×1 |
 | ギルドマスター | Maître de la guilde ×27 / Maitre ×7 / Maître de la Guilde ×3 |
 | アドバイザー | Conseiller ×9 / Entraîneur ×4 / Entraineur ×1 |
-| 母親 | Mère (Ratix's, as DeJap's "Mother") ×12 / Maman de Marie ×2 / other ×3 |
+| 母親 | Mère ×16 (as written: [nick:ラティ]の母親 = Mère de Ratix, レミアの母親 = Mère de Lemia; お母さん = Maman) |
 | 主人 | Vieil homme ×8 / Tenancier ×5 / Badam ×2 / Commerçant ×1 |
 | 剣士 | Chevalier ×7 / Combattant ×6 |
 | フレアバゼラード, アサシンダガー | both "Poignard" |
