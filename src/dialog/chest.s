@@ -7,6 +7,7 @@ non-zero words of $02EF) is built by `item_list_build` instead. Details: notes/d
 """
 
 .import "core/preamble"
+.import "menu/text16"
 .include "item_list.i"
 
 ITEM_NAMES := 0x1387  ; names8 id of item 0 (tools/item_list.py)
@@ -160,7 +161,7 @@ _broke:
     rts
 }
 
-.alloc item_widths in code_c4 {
+.alloc item_widths in text16 {
     .incbin "item_widths.bin"
 }
 
