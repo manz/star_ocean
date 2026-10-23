@@ -141,7 +141,7 @@ là-bas. Faudra être prudents.[page]
 <sn:pointer id="26">[mode8][0x38][center]Cette nuit-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[mode8][0x0]Mère de [nick:ラティ][br]
+<sn:pointer id="27">[mode8][0x0]Maman de [nick:ラティ][br]
 Ton thé est infusé.[page]
 [end]</sn:pointer>
 
@@ -149,7 +149,7 @@ Ton thé est infusé.[page]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Mère de [nick:ラティ][br]
+<sn:pointer id="29">Maman de [nick:ラティ][br]
 Je t'en prie, fais comme chez toi.[page]
 [end]</sn:pointer>
 
@@ -168,7 +168,7 @@ On ne peut pas dire que tu sois des
 plus souriants.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Mère de [nick:ラティ][br]
+<sn:pointer id="33">Maman de [nick:ラティ][br]
 Il est comme ça ces derniers
 temps.[page]
 [end]</sn:pointer>
@@ -188,7 +188,7 @@ J'espère que ça ira mieux demain[speed][0x19],
 Merci beaucoup, m'dame.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Mère de [nick:ラティ][br]
+<sn:pointer id="37">Maman de [nick:ラティ][br]
 Au plaisir.[page]
 [end]</sn:pointer>
 
@@ -197,7 +197,7 @@ Parce que calme[speed][0xf] ça veut dire en
 paix ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Mère de [nick:ラティ][br]
+<sn:pointer id="39">Maman de [nick:ラティ][br]
 Pourquoi veilles-tu si tard, [nick:ミリー] ?[page]
 [end]</sn:pointer>
 
