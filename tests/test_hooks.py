@@ -30,6 +30,7 @@ HOOKS = {
     0xCA24DB: "a91600",  # name entry grid: last row 0x16
     0xCA88B5: "a00202",
     0xCA88DF: "a00204",  # name entry "Choix d'un nom": ldy #0x0202
+    0xCA8907: "a00e04",  # its family name: ldy #0x040E
     0xCA7C11: "a00101",  # Statut equipment labels: ldy #0x0101
     0xCA7D9E: "a00111",  # its favourite dish: ldy #0x1101
     0xCA6FA3: "a9048de206",  # main menu commands: lda #4 / sta 06E2 (window x)

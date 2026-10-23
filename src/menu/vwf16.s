@@ -31,6 +31,7 @@ GLYPHS := 0x7B  ; tools/menu_font16.py: dialog codes 05-7F
 GLYPH_BYTES := 32
 WIDE_GAP := 8  ; advance of a glyph past the font
 FIXED_WIDTH := 0x0B  ; name entry: 12 px cells
+FIXED_PAD := 5  ; pen start in the name entry: a 5 px letter sits centred on its cell's square (pixels 3-11)
 FIXED := 0xDEDE  ; $F0 while the name entry prints
 BATTLE := 0xBA7E  ; $F0 while a battle copy prints
 NAME_ROWS_1 := 0x3ACA  ; name entry tilemap addresses
@@ -327,10 +328,31 @@ _done:
     cpx.w #NAME_ROWS_2
     bne _done
 _fixed:
-    lda.w #FIXED
-    sta.b mode
+    jsl vwf16_setup_fixed
 _done:
     rts
+}
+
+.alloc vwf16_setup_fixed in code_c4 {
+"""Name entry mode, the pen FIXED_PAD in. The first glyph ORs into the column at $DB, so blank it. Keeps X and Y."""
+    lda.w #FIXED
+    sta.b mode
+    lda.w #FIXED_PAD
+    sta.b pen
+    phx
+    phy
+    ldx.b column
+    ldy.w #16
+    lda.w #0
+_blank:
+    sta.l 0x7F0000, x
+    inx
+    inx
+    dey
+    bne _blank
+    ply
+    plx
+    rtl
 }
 
 .alloc vwf16_clear in code_c8 {

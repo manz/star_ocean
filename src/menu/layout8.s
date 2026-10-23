@@ -19,6 +19,11 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 .alloc at 0xCA88DF size 3 {
     ldy.w #0x0401
 }
+; Its family name (FARRENCE, F99C...) from column 14 to 15: past the pad the name's letters start with
+; (src/menu/vwf16.s FIXED_PAD), a gap after the last square.
+.alloc at 0xCA8907 size 3 {
+    ldy.w #0x040F
+}
 ; Its letter grid: the Japanese scrolls an 8-row view (`$06AC`) over 22 rows of 10 characters (EC1D), `$06A8` =
 ; rows - `$06AC` + 1 scroll stops; the French set (EC1D, the grid rows F6E0-F6E7) is 8 rows, one view, no scrolling.
 .alloc at 0xCA24DB size 3 {
