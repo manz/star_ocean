@@ -67,11 +67,11 @@ Cette boîte à musique est un
 souvenir de la sœur de [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Mère de [nick:ラティ][br]
+<sn:pointer id="16">Mère[br]
 Tu es réveillé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mère de [nick:ラティ][br]
+<sn:pointer id="17">Mère[br]
 Sois prudent, [nick:ラティ].[page]
 [nick:ラティ][br]
 Je t'ai dit que ça se passerait bien.
@@ -81,16 +81,16 @@ Je vais faire de mon mieux, pour papa.[page]
 <sn:pointer id="18">[nick:ラティ][br]
 Maman, Mme Fraise m'a dit
 qu'elle avait des légumes frais.[page]
-Mère de [nick:ラティ][br]
+Mère[br]
 Ah oui ?
 Alors je vais aller la voir de suite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Mère de [nick:ラティ][br]
+<sn:pointer id="19">Mère[br]
 D'accord, on y va.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Mère de [nick:ドーン][br]
+<sn:pointer id="20">Mère[br]
 Lesquels devrais-je prendre...[page]
 [end]</sn:pointer>
 
@@ -339,12 +339,12 @@ une minute de plus.[page]
 <sn:pointer id="64">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Mère de [nick:ラティ][br]
+<sn:pointer id="65">Mère[br]
 Tu ne dois pas bientôt aller
 travailler ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Mère de [nick:ラティ][br]
+<sn:pointer id="66">Mère[br]
 Allez, debout ![page]
 [end]</sn:pointer>
 

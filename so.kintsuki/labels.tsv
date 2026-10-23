@@ -1,18 +1,157 @@
 # addr	name	type	m	x	e	comment
 00FE80	main_idle					bra * idle loop between NMIs
+7E0231	scene_vm_off	data				negative: VM skipped
+7E0234	scene_vm_wait	data				frames before the VM runs again
+7E0238	scene_vm_pc	data				VM pc, absolute ($3100 + offset)
+7E0273	fol	data				24-bit money
+7E0278	scene_vm_result	data				result register: actor_get, flag_test, ...; store_result writes it out
+7E028E	tm_shadow	data				TM, $028F TS
+7E0294	mosaic_shadow	data				MOSAIC
 7E03D2	text_flags	data				WRAM: text engine flags
 7E03D5	text_cursor	data				WRAM: script read cursor (bank 7E)
 7E03D7	text_rewind	data				WRAM: rewind target for FFFE
 7E03DE	text_color_mode	data				WRAM: glyph compose mode 0..3 (or/and/xor variants)
+7E043D	map_current	data				current map id
+7E0461	map_change_map	data				op 24 target map; $045A kind, $0463 x, $0465 y, $0467 facing
+7E0581	nmi_job	data				NMI job slots $0581/$0589 via C2:1063
+7E0C38	party_bonds	data				relationship matrix
+7E3100	scene_events	data				unpacked scene event data (header, then VM code)
+7E6FE1	char_records	data				8 x 0x100: +1 id, +0x22 status, +0x50/52 HP, +0x56/58 MP, +0xD8 SP; slots 0-3 at $73E1 = battle party
+7E7FE1	inventory_ids	data				512 item ids (low byte)
+7E81E1	inventory_counts	data				count bits 0-5, bit 7 = id bit 8
 7EA353	text_framebuffer	data				WRAM 2bpp text window bitmap, tile 0x328.. (4 lines x 26 cols x 16px), mirrors VRAM $5940
 7EBE00	script_buffer	data				WRAM unpacked scene script (many strings, FFFF-terminated), filled at scene load
+7EE613	scene_entries	data				entry pointers: +kind*0x100+(id*2&FF), cleared $E613-EE72 at load
+7EEB8E	scene_zones	data				zone table, 5-byte entries, scanned by C6:54BB
+7EFE73	scene_flags	data				flag_on/off/test (ops 31-33)
+7EFE93	scene_flags2	data				flags tested by op 5B
+7EFEC3	scene_vars	data				VM variables var[i]
 C04C53	unpack					LZ: dest = DB:X; DB=$7E path uses its own copy, any other bank: literals sta.w 0,x but back-refs mvn $7F,$7F (hardcoded)
+C08594	apu_command	function				A = command, args $4C-$4E
 C20009	sched_main	function				cooperative task scheduler root; all task chains start here (shadow-stack switches)
 C20047	sched_dispatch	function				task dispatch/yield point
+C20B51	wait_vblank	function				wait for the start of vblank
 C20B5E	nmi_dma_jobs	function				NMI VRAM/CGRAM/OAM job runner; flag bytes $F3/$F4 select jobs; S-DD1 jobs arm $4800 + DMAP=$09
 C20EF5	nmi_text_upload	function				per-glyph DMA of text framebuffer $7E:A353.. -> VRAM $5940..
+C21258	scene_vm_frame	function				scene event VM, per frame: runs from $0238 until a yielding op ($0231<0 skips, $0234 countdown)
+C21271	scene_vm_frame_loop	code				per-op loop: stz $023A, X=(op+1)*2 into C2:3769
+C21288	scene_vm_run	function				scene event VM, runs until FF (trigger scripts that must finish at once)
+C212B0	scene_op_00_nop	function				scene op 00 nop (notes/text/scene_opcodes.md)
+C212B1	scene_op_ff_end	function				scene op FF end (notes/text/scene_opcodes.md)
+C212CA	scene_op_set	function				op 01: dest value, RPN expression to FF, store by dest type bits 3-5 (C2:16DD)
+C216A7	scene_vm_expr_ops_byte	data				expression operators (byte): 04 + 05 - 06 * 07 / 08 | 09 & 0A ++ 0B -- 0C drop
+C216B9	scene_vm_expr_ops_word	data				expression operators (word)
+C216DD	scene_vm_stores	data				final store by type bits 3-5: = += -= *= /= |= &= ?=
+C21707	scene_op_02_inc	function				scene op 02 inc (notes/text/scene_opcodes.md)
+C21753	scene_op_03_dec	function				scene op 03 dec (notes/text/scene_opcodes.md)
+C217A5	scene_op_04_goto	function				scene op 04 goto (notes/text/scene_opcodes.md)
+C217AE	scene_op_05_call	function				scene op 05 call (notes/text/scene_opcodes.md)
+C217C1	scene_op_06_ret	function				scene op 06 ret (notes/text/scene_opcodes.md)
+C217C9	scene_op_if	function				op 07: then word, else word, condition list
+C217F7	scene_vm_join	function				condition joiner: 00 or, 01 and, else end
+C218FE	scene_vm_compare	data				comparators: 0 == 1 > 2 < 3 != 4 >= 5 <= 6 truthy
+C2190C	scene_op_08_npc_create	function				scene op 08 npc_create (notes/text/scene_opcodes.md)
+C21A07	scene_op_0a_chest_create	function				scene op 0A chest_create (notes/text/scene_opcodes.md)
+C21B15	scene_op_0b_actor_trigger_tile	function				scene op 0B actor_trigger_tile (notes/text/scene_opcodes.md)
+C21B5D	scene_op_0c_actor_trigger_rect	function				scene op 0C actor_trigger_rect (notes/text/scene_opcodes.md)
+C21BDC	scene_op_0d_say	function				scene op 0D say (notes/text/scene_opcodes.md)
 C21C47	text_message_select_event					event op path: same `lda $B873,x / adc #$B873 / sta $03D5` as text_message_select (patched: sram_text)
+C21C6E	scene_op_0e_say_mode0	function				scene op 0E say_mode0 (notes/text/scene_opcodes.md)
+C21C72	scene_vm_say_mode	function				say ops: window mode in A then the message (0D/0E/25/39/3C)
 C21CAC	text_message_select					X=msg*2: $03D5 = $B873 + [$B873+X]; hook point to stream one message into the buffer
+C21CBD	scene_op_syscall	function				op 0F N: jsl C2:8B46 with X = N*2, A = var.w[0]; services take var.w[2..], answer in $0278
+C21CCA	scene_op_10_actor_walk_to	function				scene op 10 actor_walk_to (notes/text/scene_opcodes.md)
+C21D1A	scene_op_11_actor_walk	function				scene op 11 actor_walk (notes/text/scene_opcodes.md)
+C21DB0	scene_op_12_actor_set_anim	function				scene op 12 actor_set_anim (notes/text/scene_opcodes.md)
+C21DCF	scene_op_13_wait	function				scene op 13 wait (notes/text/scene_opcodes.md)
+C21DEA	scene_op_14_nop_14	function				scene op 14 nop_14 (notes/text/scene_opcodes.md)
+C21DEB	scene_op_15_battle_start	function				scene op 15 battle_start (notes/text/scene_opcodes.md)
+C21E0F	scene_op_16_nop_16	function				scene op 16 nop_16 (notes/text/scene_opcodes.md)
+C21E10	scene_op_17_music_play	function				scene op 17 music_play (notes/text/scene_opcodes.md)
+C21E3D	scene_op_18_music_fade_out	function				scene op 18 music_fade_out (notes/text/scene_opcodes.md)
+C21E53	scene_op_19_sound_command	function				scene op 19 sound_command (notes/text/scene_opcodes.md)
+C21E95	scene_op_1a_store_result	function				scene op 1A store_result (notes/text/scene_opcodes.md)
+C21EC0	scene_op_1c_actor_get_facing	function				scene op 1C actor_get_facing (notes/text/scene_opcodes.md)
+C21ED4	scene_op_1d_sound_source_set	function				scene op 1D sound_source_set (notes/text/scene_opcodes.md)
+C21EEA	scene_op_1e_fade	function				scene op 1E fade (notes/text/scene_opcodes.md)
+C21F5A	scene_op_1f_bg_tile_set	function				scene op 1F bg_tile_set (notes/text/scene_opcodes.md)
+C21F9D	scene_op_20_bg_tile_fill	function				scene op 20 bg_tile_fill (notes/text/scene_opcodes.md)
+C2204A	scene_op_21_trigger_tile	function				scene op 21 trigger_tile (notes/text/scene_opcodes.md)
+C22092	scene_op_22_trigger_zone	function				scene op 22 trigger_zone (notes/text/scene_opcodes.md)
+C22111	scene_op_23_nop_23	function				scene op 23 nop_23 (notes/text/scene_opcodes.md)
+C22112	scene_op_map_change	function				op 24 map,kind,x,y,facing -> $0461/$045A/$0463 x*8/$0465 y*8-16/$0467; fade request, VM stopped (C2:21F7)
+C2223D	scene_op_25_say_mode1	function				scene op 25 say_mode1 (notes/text/scene_opcodes.md)
+C22244	scene_op_26_map_change_continue	function				scene op 26 map_change_continue (notes/text/scene_opcodes.md)
+C2229F	scene_op_28_nop_28	function				scene op 28 nop_28 (notes/text/scene_opcodes.md)
+C222A0	scene_op_29_camera_pan_to	function				scene op 29 camera_pan_to (notes/text/scene_opcodes.md)
+C2241C	scene_op_2a_camera_pan_axis	function				scene op 2A camera_pan_axis (notes/text/scene_opcodes.md)
+C224FD	scene_op_2b_actor_create	function				scene op 2B actor_create (notes/text/scene_opcodes.md)
+C22656	scene_op_2c_item_add	function				scene op 2C item_add (notes/text/scene_opcodes.md)
+C22671	scene_op_2d_cutscene_begin	function				scene op 2D cutscene_begin (notes/text/scene_opcodes.md)
+C226F4	scene_op_2e_cutscene_end	function				scene op 2E cutscene_end (notes/text/scene_opcodes.md)
+C2273E	scene_op_2f_actor_set	function				scene op 2F actor_set (notes/text/scene_opcodes.md)
+C22781	scene_op_30_choose	function				scene op 30 choose (notes/text/scene_opcodes.md)
+C227C6	scene_op_31_flag_on	function				scene op 31 flag_on (notes/text/scene_opcodes.md)
+C227E5	scene_op_32_flag_off	function				scene op 32 flag_off (notes/text/scene_opcodes.md)
+C22804	scene_op_33_flag_test	function				scene op 33 flag_test (notes/text/scene_opcodes.md)
+C22828	scene_op_34_field_state_get	function				scene op 34 field_state_get (notes/text/scene_opcodes.md)
+C2282F	scene_op_35_actor_get	function				scene op 35 actor_get (notes/text/scene_opcodes.md)
+C22848	scene_op_36_trigger_tile_off	function				scene op 36 trigger_tile_off (notes/text/scene_opcodes.md)
+C22870	scene_op_37_trigger_zone_off	function				scene op 37 trigger_zone_off (notes/text/scene_opcodes.md)
+C228AD	scene_op_38_sfx_play	function				scene op 38 sfx_play (notes/text/scene_opcodes.md)
+C228DF	scene_op_39_say_mode8	function				scene op 39 say_mode8 (notes/text/scene_opcodes.md)
+C228E6	scene_op_3a_tile_attr_set	function				scene op 3A tile_attr_set (notes/text/scene_opcodes.md)
+C2291A	scene_op_3b_tile_attr_fill	function				scene op 3B tile_attr_fill (notes/text/scene_opcodes.md)
+C22977	scene_op_3c_say_mode9	function				scene op 3C say_mode9 (notes/text/scene_opcodes.md)
+C2297E	scene_op_3d_nop_3d	function				scene op 3D nop_3d (notes/text/scene_opcodes.md)
+C2297F	scene_op_3f_nop_3f	function				scene op 3F nop_3f (notes/text/scene_opcodes.md)
+C22980	scene_op_40_nop_40	function				scene op 40 nop_40 (notes/text/scene_opcodes.md)
+C22981	scene_op_41_nop_41	function				scene op 41 nop_41 (notes/text/scene_opcodes.md)
+C22982	scene_op_42_nop_42	function				scene op 42 nop_42 (notes/text/scene_opcodes.md)
+C22983	scene_op_43_open_shop	function				scene op 43 open_shop (notes/text/scene_opcodes.md)
+C229A2	scene_op_44_nop_44	function				scene op 44 nop_44 (notes/text/scene_opcodes.md)
+C229A3	scene_op_45_item_count	function				scene op 45 item_count (notes/text/scene_opcodes.md)
+C229B5	scene_op_46_party_join	function				scene op 46 party_join (notes/text/scene_opcodes.md)
+C22AAB	scene_op_47_party_leave	function				scene op 47 party_leave (notes/text/scene_opcodes.md)
+C22AD4	scene_op_48_nop_48	function				scene op 48 nop_48 (notes/text/scene_opcodes.md)
+C22AD5	scene_op_49_char_party_pos	function				scene op 49 char_party_pos (notes/text/scene_opcodes.md)
+C22B3E	scene_op_4a_char_order_index	function				scene op 4A char_order_index (notes/text/scene_opcodes.md)
+C22B60	scene_op_4b_char_unequip	function				scene op 4B char_unequip (notes/text/scene_opcodes.md)
+C22B89	scene_op_4c_char_equip_get	function				scene op 4C char_equip_get (notes/text/scene_opcodes.md)
+C22B9E	scene_op_4d_cgram_set_color	function				scene op 4D cgram_set_color (notes/text/scene_opcodes.md)
+C22BBC	scene_op_4e_wait_text	function				scene op 4E wait_text (notes/text/scene_opcodes.md)
+C22BD5	scene_op_4f_wait_actor_arrive	function				scene op 4F wait_actor_arrive (notes/text/scene_opcodes.md)
+C22C1D	scene_op_50_nop_50	function				scene op 50 nop_50 (notes/text/scene_opcodes.md)
+C22C1E	scene_op_51_random	function				scene op 51 random (notes/text/scene_opcodes.md)
+C22C2D	scene_op_52_table_read	function				scene op 52 table_read (notes/text/scene_opcodes.md)
+C22C50	scene_op_53_actor_remove	function				scene op 53 actor_remove (notes/text/scene_opcodes.md)
+C22CA2	scene_op_54_wait_actor_arrive_face	function				scene op 54 wait_actor_arrive_face (notes/text/scene_opcodes.md)
+C22CF1	scene_op_55_wait_actor_arrive_remove	function				scene op 55 wait_actor_arrive_remove (notes/text/scene_opcodes.md)
+C22D46	scene_op_56_actor_set_pos	function				scene op 56 actor_set_pos (notes/text/scene_opcodes.md)
+C22D6D	scene_op_57_actor_face_up	function				scene op 57 actor_face_up (notes/text/scene_opcodes.md)
+C22D7F	scene_op_58_actor_face_right	function				scene op 58 actor_face_right (notes/text/scene_opcodes.md)
+C22D93	scene_op_59_actor_face_down	function				scene op 59 actor_face_down (notes/text/scene_opcodes.md)
+C22DA7	scene_op_5a_actor_face_left	function				scene op 5A actor_face_left (notes/text/scene_opcodes.md)
+C22DBB	scene_op_5b_flag2_test	function				scene op 5B flag2_test (notes/text/scene_opcodes.md)
+C22DDF	scene_op_5c_nop_5c	function				scene op 5C nop_5c (notes/text/scene_opcodes.md)
+C22DE0	scene_op_5d_actor_field_and	function				scene op 5D actor_field_and (notes/text/scene_opcodes.md)
+C22DFF	scene_op_5e_actor_field_or	function				scene op 5E actor_field_or (notes/text/scene_opcodes.md)
+C22E1A	scene_op_5f_actor_trigger_tile_off	function				scene op 5F actor_trigger_tile_off (notes/text/scene_opcodes.md)
+C22E42	scene_op_60_actor_trigger_rect_off	function				scene op 60 actor_trigger_rect_off (notes/text/scene_opcodes.md)
+C22E7F	scene_op_61_actor_emote	function				scene op 61 actor_emote (notes/text/scene_opcodes.md)
+C22E83	scene_op_62_actor_emote_clear	function				scene op 62 actor_emote_clear (notes/text/scene_opcodes.md)
+C22EB5	scene_op_63_camera_pan_by	function				scene op 63 camera_pan_by (notes/text/scene_opcodes.md)
+C22FE1	scene_op_64_bond_modify	function				scene op 64 bond_modify (notes/text/scene_opcodes.md)
+C23027	scene_op_65_bond_get	function				scene op 65 bond_get (notes/text/scene_opcodes.md)
+C23041	scene_op_66_char_table_get	function				scene op 66 char_table_get (notes/text/scene_opcodes.md)
+C23067	scene_op_67_char_table_set	function				scene op 67 char_table_set (notes/text/scene_opcodes.md)
+C23090	scene_op_68_array_store	function				scene op 68 array_store (notes/text/scene_opcodes.md)
+C230C9	scene_op_69_array_load	function				scene op 69 array_load (notes/text/scene_opcodes.md)
+C2310C	scene_vm_value	function				operand value: F0-FF run, bit7 var ($7E:FEC3+i) / bit6 sys (C2:383F), else imm (t&3)+1 bytes
+C236E2	scene_events_init	function				scene load: entries -> $7E:E613+kind*0x100+(id*2&FF), pc = header end + [$3102], stack $FFF2, one VM pass
+C23745	scene_op_nop	function				scene op 09 nop_09, 1B nop_1b, 27 nop_27, 3E nop_3e (notes/text/scene_opcodes.md)
+C23769	scene_vm_opcodes	data				opcode handlers, word per op, indexed (op+1)*2: 00-69, FF at index 0
+C2383F	scene_vm_sys_table	data				system variables: 24-bit pointers, sys[i]
 C238AB	text_task	function	1	0		dialog task body (yields per glyph = typewriter)
 C239DB	text_fetch	function				read stream code at $03D5: varint, FFFF end, FFFE rewind
 C23A4D	text_dispatch	function				5..4000 glyph=code-5 -> C2:63A0; else control via C2:3B2F
@@ -25,15 +164,126 @@ C263A0	text_blit_glyph	function	0	0		A=glyph: FF:(A*32) 16x16 1bpp (L col 16B, R
 C26791	narration_line_load	function				text-VM op: S-DD1 line image for screen $03E6, line $0490 -> VRAM 5940/5AE0/5C80/5E20 + palette -> $03E0
 C2681A	narration_table	data				13 x 16B: four 3B S-DD1 line ptrs (E3FFF7=blank), 3B palette ptr (colours 1-3 at +2), pad. 0x340 B/line = 208x16 2bpp cells
 C268EE	text_code_hi	function	0	0		handler for codes >= 0x140 (TBD)
+C27FF8	display_reinit	function				force blank, clear OAM/CGRAM, base palettes
+C28B46	scene_syscall	function				jsr (C2:8B4C,x); rtl
+C28B4C	scene_syscalls	data				94 syscall services (op 0F), word per N
+C28C08	syscall_00_nop	function				scene syscall 0 nop (notes/text/scene_syscalls.md)
+C28C09	syscall_01_actor_vanish	function				scene syscall 1 actor_vanish (notes/text/scene_syscalls.md)
+C28C1E	syscall_02_actor_appear	function				scene syscall 2 actor_appear (notes/text/scene_syscalls.md)
+C28C33	syscall_03_actor_vanish_b	function				scene syscall 3 actor_vanish_b (notes/text/scene_syscalls.md)
+C28C48	syscall_04_actor_appear_b	function				scene syscall 4 actor_appear_b (notes/text/scene_syscalls.md)
+C28C5D	syscall_05_palette_fade_build	function				scene syscall 5 palette_fade_build (notes/text/scene_syscalls.md)
+C28CC1	syscall_06_palette_fade_build_alt	function				scene syscall 6 palette_fade_build_alt (notes/text/scene_syscalls.md)
+C28D25	syscall_07_palette_fade_play	function				scene syscall 7 palette_fade_play (notes/text/scene_syscalls.md)
+C28D58	syscall_08_screen_shake	function				scene syscall 8 screen_shake (notes/text/scene_syscalls.md)
+C28D66	syscall_09_screen_shake_stop	function				scene syscall 9 screen_shake_stop (notes/text/scene_syscalls.md)
+C28D70	syscall_10_give_actor_item	function				scene syscall 10 give_actor_item (notes/text/scene_syscalls.md)
+C28DB7	syscall_11_give_item	function				scene syscall 11 give_item (notes/text/scene_syscalls.md)
+C28DE6	syscall_12_effect_preset	function				scene syscall 12 effect_preset (notes/text/scene_syscalls.md)
+C28DF0	syscall_13_obj_frame_load	function				scene syscall 13 obj_frame_load (notes/text/scene_syscalls.md)
+C28E05	syscall_14_obj_frame_load_wide	function				scene syscall 14 obj_frame_load_wide (notes/text/scene_syscalls.md)
+C28E1D	syscall_15_obj_sheet_load	function				scene syscall 15 obj_sheet_load (notes/text/scene_syscalls.md)
+C28E7D	syscall_16_special	function				scene syscall 16 special (notes/text/scene_syscalls.md)
+C28E8D	syscall_17_fx_channel_a	function				scene syscall 17 fx_channel_a (notes/text/scene_syscalls.md)
+C28EB2	syscall_18_fx_channel_b	function				scene syscall 18 fx_channel_b (notes/text/scene_syscalls.md)
+C28F01	syscall_19_take_item	function				scene syscall 19 take_item (notes/text/scene_syscalls.md)
+C28F0D	syscall_20_add_fol	function				scene syscall 20 add_fol (notes/text/scene_syscalls.md)
+C28F40	syscall_21_actor_jump	function				scene syscall 21 actor_jump (notes/text/scene_syscalls.md)
+C28F74	syscall_22_actor_in_box	function				scene syscall 22 actor_in_box (notes/text/scene_syscalls.md)
+C28FB9	syscall_23_actor_squeeze_out	function				scene syscall 23 actor_squeeze_out (notes/text/scene_syscalls.md)
+C28FCE	syscall_24_actor_sink_out	function				scene syscall 24 actor_sink_out (notes/text/scene_syscalls.md)
+C28FE9	syscall_25_screen_set_main_sub	function				scene syscall 25 screen_set_main_sub (notes/text/scene_syscalls.md)
+C28FFB	syscall_26_screen_set_window_main_sub	function				scene syscall 26 screen_set_window_main_sub (notes/text/scene_syscalls.md)
+C2900D	syscall_27_text_window_force_pos	function				scene syscall 27 text_window_force_pos (notes/text/scene_syscalls.md)
+C2901A	syscall_28_actor_set_move_bounds	function				scene syscall 28 actor_set_move_bounds (notes/text/scene_syscalls.md)
+C29050	syscall_29_hero_force_run	function				scene syscall 29 hero_force_run (notes/text/scene_syscalls.md)
+C29063	syscall_30_party_heal_living	function				scene syscall 30 party_heal_living (notes/text/scene_syscalls.md)
+C290A3	syscall_31_party_heal_all	function				scene syscall 31 party_heal_all (notes/text/scene_syscalls.md)
+C290D7	syscall_32_vram_load_sdd1	function				scene syscall 32 vram_load_sdd1 (notes/text/scene_syscalls.md)
+C291C9	syscall_33_vram_restore	function				scene syscall 33 vram_restore (notes/text/scene_syscalls.md)
+C291FB	syscall_34_vram_save	function				scene syscall 34 vram_save (notes/text/scene_syscalls.md)
+C29275	syscall_35_cgram_load_7f	function				scene syscall 35 cgram_load_7f (notes/text/scene_syscalls.md)
+C29291	syscall_36_cgram_load_palette	function				scene syscall 36 cgram_load_palette (notes/text/scene_syscalls.md)
+C292BA	syscall_37_bg_freeze	function				scene syscall 37 bg_freeze (notes/text/scene_syscalls.md)
+C292E6	syscall_38_bg_unfreeze	function				scene syscall 38 bg_unfreeze (notes/text/scene_syscalls.md)
+C29325	syscall_39_bg_set_scroll	function				scene syscall 39 bg_set_scroll (notes/text/scene_syscalls.md)
+C29355	syscall_40_color_math_set	function				scene syscall 40 color_math_set (notes/text/scene_syscalls.md)
+C29369	syscall_41_palette_derive	function				scene syscall 41 palette_derive (notes/text/scene_syscalls.md)
+C293BA	syscall_42_letterbox_set	function				scene syscall 42 letterbox_set (notes/text/scene_syscalls.md)
+C29556	syscall_43_party_set_guest	function				scene syscall 43 party_set_guest (notes/text/scene_syscalls.md)
+C29573	syscall_44_party_clear_guest	function				scene syscall 44 party_clear_guest (notes/text/scene_syscalls.md)
+C29587	syscall_45_sin	function				scene syscall 45 sin (notes/text/scene_syscalls.md)
+C29592	syscall_46_cos	function				scene syscall 46 cos (notes/text/scene_syscalls.md)
+C2959D	syscall_47_sound_source_set_tile	function				scene syscall 47 sound_source_set_tile (notes/text/scene_syscalls.md)
+C295AD	syscall_48_walk_slow_on	function				scene syscall 48 walk_slow_on (notes/text/scene_syscalls.md)
+C295B4	syscall_49_walk_slow_off	function				scene syscall 49 walk_slow_off (notes/text/scene_syscalls.md)
+C295BB	syscall_50_spawn_attr_0	function				scene syscall 50 spawn_attr_0 (notes/text/scene_syscalls.md)
+C295C1	syscall_51_spawn_attr_2	function				scene syscall 51 spawn_attr_2 (notes/text/scene_syscalls.md)
+C295C9	syscall_52_spawn_attr_3	function				scene syscall 52 spawn_attr_3 (notes/text/scene_syscalls.md)
+C295D1	syscall_53_actor_spawn_icon_copy	function				scene syscall 53 actor_spawn_icon_copy (notes/text/scene_syscalls.md)
+C295E6	syscall_54_leader_spawn_get_icon	function				scene syscall 54 leader_spawn_get_icon (notes/text/scene_syscalls.md)
+C295EE	syscall_55_item_find_roll	function				scene syscall 55 item_find_roll (notes/text/scene_syscalls.md)
+C295F5	syscall_56_set_param_block	function				scene syscall 56 set_param_block (notes/text/scene_syscalls.md)
+C29617	syscall_57_party_bond_inc	function				scene syscall 57 party_bond_inc (notes/text/scene_syscalls.md)
+C296EE	syscall_58_scroll_wave	function				scene syscall 58 scroll_wave (notes/text/scene_syscalls.md)
+C29711	syscall_59_party_remove_member	function				scene syscall 59 party_remove_member (notes/text/scene_syscalls.md)
+C29721	syscall_60_roster_count	function				scene syscall 60 roster_count (notes/text/scene_syscalls.md)
+C29768	syscall_61_party_count_active	function				scene syscall 61 party_count_active (notes/text/scene_syscalls.md)
+C297A3	syscall_62_party_get_ids	function				scene syscall 62 party_get_ids (notes/text/scene_syscalls.md)
+C297E2	syscall_63_set_mosaic	function				scene syscall 63 set_mosaic (notes/text/scene_syscalls.md)
+C297E8	syscall_64_party_damage_all	function				scene syscall 64 party_damage_all (notes/text/scene_syscalls.md)
+C29800	syscall_65_palette_buffer_op	function				scene syscall 65 palette_buffer_op (notes/text/scene_syscalls.md)
+C2986D	syscall_66_map_flags_set	function				scene syscall 66 map_flags_set (notes/text/scene_syscalls.md)
+C29873	syscall_67_map_flags_clear	function				scene syscall 67 map_flags_clear (notes/text/scene_syscalls.md)
+C29879	syscall_68_sdd1_dma_to_wram	function				scene syscall 68 sdd1_dma_to_wram (notes/text/scene_syscalls.md)
+C298D1	syscall_69_flag2_on	function				scene syscall 69 flag2_on (notes/text/scene_syscalls.md)
+C298D6	syscall_70_inventory_drop_type12	function				scene syscall 70 inventory_drop_type12 (notes/text/scene_syscalls.md)
+C298DD	syscall_71_battle_no_game_over	function				scene syscall 71 battle_no_game_over (notes/text/scene_syscalls.md)
+C298E5	syscall_72_keep_music_through_battle	function				scene syscall 72 keep_music_through_battle (notes/text/scene_syscalls.md)
+C298ED	syscall_73_party_restore_hp	function				scene syscall 73 party_restore_hp (notes/text/scene_syscalls.md)
+C29914	syscall_74_party_restore_mp	function				scene syscall 74 party_restore_mp (notes/text/scene_syscalls.md)
+C2993B	syscall_75_party_add_sp	function				scene syscall 75 party_add_sp (notes/text/scene_syscalls.md)
+C2996B	syscall_76_inventory_stash	function				scene syscall 76 inventory_stash (notes/text/scene_syscalls.md)
+C29993	syscall_77_inventory_keep_key_items	function				scene syscall 77 inventory_keep_key_items (notes/text/scene_syscalls.md)
+C2999A	syscall_78_inventory_unstash	function				scene syscall 78 inventory_unstash (notes/text/scene_syscalls.md)
+C299C0	syscall_79_party_solo	function				scene syscall 79 party_solo (notes/text/scene_syscalls.md)
+C29A06	syscall_80_party_restore_solo	function				scene syscall 80 party_restore_solo (notes/text/scene_syscalls.md)
+C29A3D	syscall_81_char_restore_hp	function				scene syscall 81 char_restore_hp (notes/text/scene_syscalls.md)
+C29A55	syscall_82_char_restore_mp	function				scene syscall 82 char_restore_mp (notes/text/scene_syscalls.md)
+C29A68	syscall_83_set_var15	function				scene syscall 83 set_var15 (notes/text/scene_syscalls.md)
+C29A79	syscall_84_party_oracle_level	function				scene syscall 84 party_oracle_level (notes/text/scene_syscalls.md)
+C29A83	syscall_85_sound_signal	function				scene syscall 85 sound_signal (notes/text/scene_syscalls.md)
+C29A90	syscall_86_display_reset	function				scene syscall 86 display_reset (notes/text/scene_syscalls.md)
+C29AAC	syscall_87_mark_game_cleared	function				scene syscall 87 mark_game_cleared (notes/text/scene_syscalls.md)
+C29AB3	syscall_88_get_game_cleared	function				scene syscall 88 get_game_cleared (notes/text/scene_syscalls.md)
+C29ABF	syscall_89_count_ladies_first	function				scene syscall 89 count_ladies_first (notes/text/scene_syscalls.md)
+C29B48	syscall_90_party_hp_to_1	function				scene syscall 90 party_hp_to_1 (notes/text/scene_syscalls.md)
+C29B73	syscall_91_char_learn	function				scene syscall 91 char_learn (notes/text/scene_syscalls.md)
+C29B8F	syscall_92_remove_items_1ee_1f1	function				scene syscall 92 remove_items_1ee_1f1 (notes/text/scene_syscalls.md)
+C29BF4	syscall_93_flag2_clear	function				scene syscall 93 flag2_clear (notes/text/scene_syscalls.md)
+C29DBA	palette_blend	function				precompute blend steps of 0x70 colours into a $7F buffer
+C2A089	obj_frame_load	function				sheet $00, anim $02, frame $04, slot $06 (bit 15 wide) via S-DD1 DMA C2:A2A4
+C2A8B2	actor_mode_run	function				actor +0x07 scripted mode through C2:A8E9, counter +0x22
 C2FDF0	title_anim_stream	function				S-DD1 0x40-byte streams -> $7F:E000.. on title/name screens
 C3917C	obj_anim_stream	function				per-frame S-DD1 sprite frame streams -> $7F:E000.. (OBJ staging)
 C60911	scene_load	function				scene/map loader; unpacks map/gfx/script blobs via unpack
 C610E0	scene_load_tables	code				index scene_table, unpack event + text blocks
 C610FF	scene_load_events	function				unpacks scene data (e.g. E6:B87D -> $7E:3100)
 C61137	scene_load_script	function				unpacks scene script (e.g. E8:41FC -> $7E:B873)
+C654BB	scene_zone_test	function				hero tile vs zone table $EB8E+5n (x1,y1,x2,y2,..), $0241 end; while walking
+C6D6B9	inventory_add	function				$00 item, $02 count, $03 clamp-to-20: carry set = failed
+C6D766	inventory_remove	function				$00 item, $02 count
+C6D798	inventory_find	function				X = slot, carry clear = found
+C6D826	actor_popup	function				popup object over actor Y (template 0x2F, sound 0x12)
+C6E402	flag2_set	function				set bit A of $7E:FE93 (masks C2:8AE6)
+C6E422	flag2_clear	function				clear bit A of $7E:FE93 (masks C2:8B06)
 C6F6F9	menu_draw_string16_id	function				id lookup in $7F:2000/2800/3000, u16 glyph+0x10 via copy_char
 C6F7D0	menu_draw_string16	function				u16 string at DB:Y
+C80000	scene_a_button	function				A in the field: if op at pc != FF and entry 2/0x7F ($E911) set, push pc and call it
+C80768	actor_alloc	function				free actor slot ($2F80 down to $2040), carry set = none
+C80875	char_to_leader	function				record X to party slot 0
 C80C3C	copy_char16	function				blit 16x16 glyph X=glyph*0x20 as 2bpp into $7F:E000 buffer
+C8139F	char_create	function				create a character record
 CA6328	menu_init	function				menu VRAM setup + S-DD1 loads (immediates)
 CA64EE	menu_load_font_8x8	code				menu init: S-DD1 DB:A078 -> VRAM $2000
 CA6533	menu_load_element_sprites	code				ldx #4B5B / lda #FE immediates
@@ -43,6 +293,11 @@ CAB2B0	text16_lookup	function				id<EA60 battle16 (D7), else $7F menu16
 CABCAD	menu_draw_string8	function				8x8 string -> tilemap shadow at X, attr $26; C0-F2 voiced w/ dakuten row above, FC nl, FF end
 CABE98	menu_dakuten_base	data				41 base tiles for codes C0-E8
 CABEC1	menu_handakuten_base	data				10 base tiles for codes E9-F2
+CAC9B2	party_refresh	function				recompute $02EE/$02EB/$02F8/$02FA after party changes
+CB068F	mul_signed	function				$00 * $02 -> $20
+CB0923	random	function				16-bit random
+CC0000	char_find	function				A = id from 1: carry clear, X = record ($7E:6FE1 + k*0x100); else carry set
+CC043E	sfx_panned	function				sound effect panned by the leader's screen x
 D70000	names8_offsets	data				u16 offsets, base D7:0DF6
 D706FA	names8_ids	data				u16 ids, 0-terminated (893)
 D70DF6	names8_strings	data				8x8 names, FF-terminated

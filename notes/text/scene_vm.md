@@ -1,0 +1,65 @@
+# Scene event VM
+
+`uv run python -m tools.scene_script NN [--edited] [--bytes]` lists scene NN's event data, with the French first
+line next to each message. The module docstring has the byte formats. `tools.scene_asm` encodes the same structures
+back (every scene re-encodes to its own bytes) and assembles scripts with labels from Python. Header, triggers and
+map changes: `scene_triggers.md`.
+
+## Storage
+
+- Scene record +0 (table `$E4:0000`, `tools.dialog.SCENE_TABLE`): 24-bit pointer to the LZ container (0x81/0x83),
+  unpacked by the game's `unpack` (C0:4C53) to `$7E:3100`.
+- That `unpack` reads the plain bus: event data must stay in the banks it maps, never in ROM pages 6-7 (the
+  `rom_pages_67` pool). Scene text can go there only because `text_unpack_sram` switches the E window first. An
+  edited block is written over the original (`tools.scene_events`), so it must pack no bigger.
+
+## Running
+
+- Dispatchers: C2:1258 / C2:1271 per frame, until a yielding opcode; C2:1288 / C2:1297 run until an FF (used for
+  trigger scripts that must finish at once). `$0231` negative skips the VM.
+- pc `$0238` (absolute, `$3100 + offset`), frame countdown `$0234`, `$023A` cleared before each opcode. Call stack
+  grows down from `($FE)` (`$FFF2` at scene load).
+- Opcode table C2:3769, indexed by (opcode + 1) * 2: 00-69 and FF.
+- Jump / call words count from the header's end: target = `$3100 + [$3100] + word`. `04` goto, `05` call, `06` ret,
+  `FF` end (returns from a call, or ends the script).
+
+## Operands
+
+- Value (C2:310C), by its first byte `t`: F0-FF a run (the next `t & 0x0F` values are bare bytes; the count lasts
+  the instruction); bit 7 a variable, `$7E:FEC3 + index`, with bit 6 the system table C2:383F (24-bit pointers),
+  index one byte or two (15 bits, first byte has bit 7), size `t & 3`; else an immediate of `(t & 3) + 1` bytes.
+  The game does not always pick the smallest width (scene 80 `0xca` holds 255 as a word): `Value` keeps the width.
+- `sys.w[0xc]` is the map id (the map loader keeps the current one at `$7E:043D`; that they are the same word is
+  not checked). `var.w[0x10]` reads as story progress (scene 80: 143, 144, 145).
+- Result register `$0278`: set by `actor_get`, `flag_test` and others, written out by `store_result`.
+- `set` (01): a variable then an RPN expression up to FF, on a stack that starts with the variable's value
+  (C2:12CA). A token with `& 0x3C == 0` is a value, else an operator (C2:16A7 byte / C2:16B9 word): 04 +, 05 -,
+  06 *, 07 /, 08 |, 09 &, 0A ++, 0B --, 0C drop. The variable type's bits 3-5 pick the store (C2:16DD): = += -= *=
+  /= |= &= ?=.
+- `if` (07): then word, else word, condition list (C2:17C9): comparator (C2:18FE: 0 ==, 1 >, 2 <, 3 !=, 4 >=, 5 <=,
+  6 one value truthy), its values, joiner (C2:17F7: 00 or, 01 and, FF end).
+
+## Opcodes
+
+Every handler is read: `scene_opcodes.md` (op 0F's services: `scene_syscalls.md`).
+
+Messages: the scene text table at `$B873` (`sram_text.s` copies the selected one there); message index m is XML id
+m (checked in game on scene 80's reveal).
+
+## Checked
+
+All 94 scenes sweep clean (scenes 2, 52, 76 end in one stray 0x80) and re-encode to their bytes; 28k traced
+instructions from five saves land on instruction starts with the expected lengths.
+
+## Coverage
+
+`uv run python -m tools.scene_walk [SCENE ...]` walks each scene from its start-up and every header entry,
+following goto / call / if: 99.3% of the code bytes are reached, and every reached instruction starts where the
+linear sweep put one. What is left:
+
+- 105 single FF bytes: the `end` after a `goto` (the start-up loop's, mostly); the stray 0x80 ending scenes 2, 52, 76.
+- About 90 dead `goto` / second `ret` right after a `ret` (3 or 1 bytes): compiler leftovers.
+- Whole blocks nothing enters: scene 1 `03fc` (spare warps), 3 `045e` (432 bytes), 11 `123c` (546 bytes, messages
+  56-67, "Un peu plus tard..."), 55 `02c2` (messages 8-10, an audience with the king), 60 `1cd9` (messages 85-87),
+  91 `0251`; and 81 `1e25` (message 50). Their messages never show: low priority for the translation.
+- Scene 94 `00da` adds a `trigger_zone` for entry 2/0x20, which its header lacks: that zone does nothing.
