@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ville fortifiée de Sylvalant[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ville fortifiée de Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:ラティ][br]
 Hein ?[page]
 [nick:イリア][br]
 Un avion en papier ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:イリア][br]
 Il y a un message...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:イリア][br]
 Qu'est-ce que ça dit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:イリア][br]
 Hé, [nick:ラティ] !
 Attends ! Où vas-tu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:シウス][br]
 [nick:ラティ] a un problème ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:アシュレイ][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:アシュレイ][br]
 Il a décampé sans demander son reste !
 Il faisait une drôle de tête[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス][br]
+<sn:pointer id="7" window="0" trigger="tile 16">[nick:ロニキス][br]
 Nous voudrions une audience auprès du roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Garde[br]
+<sn:pointer id="8" window="0" trigger="tile 16">Garde[br]
 Cet emblème est celui du royaume de Van[speed][0xa]...[speed][0x0]
 Attendez un instant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Chancelier[br]
+<sn:pointer id="9" window="0" trigger="tile 16">Chancelier[br]
 Veuillez me suivre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ][br]
+<sn:pointer id="10" window="0" trigger="start">[nick:ラティ][br]
 [speed][0x1][nick:ミリー] ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ] &amp; [nick:ミリー][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ] &amp; [nick:ミリー][br]
 Oh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ミリー][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:ミリー][br]
 [nick:ラティ] ![page]
 [nick:ラティ][br]
 [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Garde[br]
+<sn:pointer id="13" window="0" trigger="talk 16">Garde[br]
 Il fait sacrément froid[speed][0xa]...[speed][0x0]
 Bon sang, la météo ne s'améliore jamais ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Garde[br]
+<sn:pointer id="14" window="0" trigger="talk 17">Garde[br]
 Ouais, ça pèle un max ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Patrouilleur[br]
+<sn:pointer id="15" window="0" trigger="talk 18">Patrouilleur[br]
 Tout est calme[speed][0xa]...[speed][0x0]
 Incroyable ! Des étrangers ont réussi à venir jusqu'ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Patrouilleur[br]
+<sn:pointer id="16" window="0" trigger="talk 19">Patrouilleur[br]
 Les étrangers ont besoin d'un laissez-passer pour quitter la ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Patrouilleur[br]
+<sn:pointer id="17" window="0" trigger="talk 20">Patrouilleur[br]
 À quoi peut bien servir cet énorme sablier ?
 On n'arrive même pas à lire
 l'heure dessus ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Mercenaire robuste[br]
+<sn:pointer id="18" window="0" trigger="talk 21">Mercenaire robuste[br]
 Les monstres d'ici sont aussi
 agressifs que féroces.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vendeur[br]
+<sn:pointer id="19" window="0" trigger="talk 22">Vendeur[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Commerçant[br]
+<sn:pointer id="20" window="0" trigger="talk 23">Commerçant[br]
 Salut ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Fille[br]
+<sn:pointer id="21" window="0" trigger="talk 24">Fille[br]
 C'est la [color][0x4]ville de Sylvalant[color][0x2], la cité des neiges ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Santa, camelot[br]
+<sn:pointer id="22" window="0" trigger="talk 25">Santa, camelot[br]
 J'ai quelques objets sympas,
 ça vous intéresse ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Soldat[br]
+<sn:pointer id="23" window="0" trigger="talk 26">Soldat[br]
 J'ai repéré un type étrange tout à l'heure,
 je me demande où il allait.
 Hé toi ! Sors de là ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:マーヴェル][br]
+<sn:pointer id="24" window="0" trigger="talk 8">[nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ペリシー][br]
+<sn:pointer id="25" window="0" trigger="talk 10">[nick:ペリシー][br]
 [speed][0xa]...[speed][0x0]Je déteste le froid !
 Ça abîme la peau et ça me gèle les papattes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー][br]
+<sn:pointer id="26" window="0" trigger="talk 1">[nick:ミリー][br]
 [speed][0xa]...[speed][0x0]Ouais...[page]
 [nick:ラティ][br]
 Qu'est-ce qui se passe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー][br]
+<sn:pointer id="27" window="0" trigger="talk 1">[nick:ミリー][br]
 Hein ? J'ai dû rêver.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ][br]
+<sn:pointer id="28" window="0" trigger="talk 9">[nick:ラティ][br]
 Vous avez vu quelque chose ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ][br]
+<sn:pointer id="29" window="0" trigger="talk 9">[nick:アシュレイ][br]
 Non, c'est sûrement une réminiscence
 du passé.[page]
 [end]</sn:pointer>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Looter[br]
+<sn:pointer id="1" window="0" trigger="tile 14">Looter[br]
 HA HA HA HA !
 Le trésor est à moiiiiii !!!!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[color][0x6]Extension[color][0x2] obtenue.[page]
+<sn:pointer id="2" window="0" trigger="talk 44">[color][0x6]Extension[color][0x2] obtenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="8" trigger="talk 44">[end]</sn:pointer>
 
 </sn:script>

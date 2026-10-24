@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]オタニムの港[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x3e][0x0]オタニムの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x3e][0x0]オタニムの港[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x3e][0x0]オタニムの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ミリー]「ねぇ[nick:シウス]、[nick:ラティ]の事なんだけど[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="2" window="0" trigger="tile 10">[nick:ミリー]「ねぇ[nick:シウス]、[nick:ラティ]の事なんだけど[speed][0xa]・・・。[speed][0x0][page]
 [nick:シウス]「なんだ？[page]
 [nick:ミリー]「[nick:ラティ]って結構鈍感だから、まいっちゃうのよ。[page]
 [nick:シウス]「ま、まあ、たしかにな[speed][0xa]・・・。[speed][0x0][page]
@@ -14,7 +14,7 @@
 [nick:シウス]「う〜ん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー]「ねぇ[nick:アシュレイ]さん、[nick:ラティ]の事なんだけど・・・。[page]
+<sn:pointer id="3" window="0" trigger="tile 10">[nick:ミリー]「ねぇ[nick:アシュレイ]さん、[nick:ラティ]の事なんだけど・・・。[page]
 [nick:アシュレイ]「なんじゃ？[page]
 [nick:ミリー]「[nick:ラティ]って結構鈍感だから、まいっちゃうんです。[page]
 [nick:アシュレイ]「ま、まあ、たしかにのう・・・。[page]
@@ -22,7 +22,7 @@
 [nick:アシュレイ]「う〜む。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー]「ねぇ[nick:イリア]さん、[nick:ラティ]の事なんだけど・・・。[page]
+<sn:pointer id="4" window="0" trigger="tile 10">[nick:ミリー]「ねぇ[nick:イリア]さん、[nick:ラティ]の事なんだけど・・・。[page]
 [nick:イリア]「な〜に？[page]
 [nick:ミリー]「[nick:ラティ]って結構鈍感だから、まいっちゃうんです。[page]
 [nick:イリア]「ま、まあ、たしかにねぇ[speed][0xa]・・・。[speed][0x0][page]
@@ -31,70 +31,70 @@
 [nick:イリア]「[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]「近寄らない方がよさそうだな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="5" window="0" trigger="tile 10">[nick:ラティ]「近寄らない方がよさそうだな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:イリア]「[nick:ミリー]のこと大事にしてあげないとだめよ？[page]
+<sn:pointer id="6" window="0" trigger="talk 4">[nick:イリア]「[nick:ミリー]のこと大事にしてあげないとだめよ？[page]
 [nick:ラティ]「な、なんですかいきなり[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="7" window="0" trigger="talk 20">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">船員「[color][0x4]ポートミス[color][0x2]行きの船に乗りますか？[page]
+<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20">船員「[color][0x4]ポートミス[color][0x2]行きの船に乗りますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="10">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="11">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
+<sn:pointer id="11" window="1" trigger="talk 20">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">1．ポートミス（ムーア王国）
+<sn:pointer id="12" choice="4" window="1" trigger="talk 20">1．ポートミス（ムーア王国）
 2．トロップ（アストラル王国）
 3．エクダート（ヴァン王国）
 4．シルヴァラント[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="14">船員「お金が足りないよ。[page]
+<sn:pointer id="14" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:シウス]「ついたぜ[speed][0xf]。[speed][0x0]ここがアストラル王国領[color][0x4]オタニム[color][0x2]だ。[page]
+<sn:pointer id="16" window="0" trigger="start">[nick:シウス]「ついたぜ[speed][0xf]。[speed][0x0]ここがアストラル王国領[color][0x4]オタニム[color][0x2]だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「[color][0x4]アストラル城[color][0x2]にはどう行けばいいのかしら？[page]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア]「[color][0x4]アストラル城[color][0x2]にはどう行けばいいのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:シウス]「い[speed][0x14]、[speed][0x0]行くのか？[page]
+<sn:pointer id="18" window="0" trigger="start">[nick:シウス]「い[speed][0x14]、[speed][0x0]行くのか？[page]
 [nick:イリア]「ダメなの？[page]
 [nick:シウス]「べ[speed][0xf]、[speed][0x0]べつにそういうわけじゃねぇが。行く価値はねぇと思うがな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">通りすがりの船乗り「[color][0x4]アストラル[color][0x2]に来たんならやっぱアストラル城下には行ってみんとなぁ。あスこは酒が美味いぜよ。[page]
+<sn:pointer id="19" window="0" trigger="start">通りすがりの船乗り「[color][0x4]アストラル[color][0x2]に来たんならやっぱアストラル城下には行ってみんとなぁ。あスこは酒が美味いぜよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア]「あら、いいわね[speed][0x1e]。[speed][0x0]材料は果実[speed][0x14]？[speed][0x0]お米[speed][0x14]？[speed][0x0]それとも麦かしら？[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:イリア]「あら、いいわね[speed][0x1e]。[speed][0x0]材料は果実[speed][0x14]？[speed][0x0]お米[speed][0x14]？[speed][0x0]それとも麦かしら？[page]
 通りすがりの船乗り「米にきまってるべよ。[page]
 [nick:イリア]「強めのお酒なの？[page]
 通りすがりの船乗り「うんにゃ、普通だな。20度未満ってとこだな。つえ[speed][0x14]〜[speed][0x0]のが飲みたいんなら[color][0x4]シルヴァラント[color][0x2]に行かんとなあ。あスこは雪国だからな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア]「行きましょ。[page]
+<sn:pointer id="21" window="1" trigger="start">[nick:イリア]「行きましょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ]「どっちへ？[page]
+<sn:pointer id="22" window="1" trigger="start">[nick:ラティ]「どっちへ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア]「え？[page]
+<sn:pointer id="23" window="1" trigger="start">[nick:イリア]「え？[page]
 [nick:ラティ]「[color][0x4]アストラル[color][0x2]？それとも[color][0x4]シルヴァラント[color][0x2]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア]「あ[speed][0xa]・・・[speed][0x0]ま[speed][0x14]、[speed][0x0]まぁ普通は近い方からかしら。どっちでもいいわ。[page]
+<sn:pointer id="24" window="0" trigger="start">[nick:イリア]「あ[speed][0xa]・・・[speed][0x0]ま[speed][0x14]、[speed][0x0]まぁ普通は近い方からかしら。どっちでもいいわ。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

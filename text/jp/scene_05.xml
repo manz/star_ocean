@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x44][0x0]クラトスの町[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x44][0x0]クラトスの町[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

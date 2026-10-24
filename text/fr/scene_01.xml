@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Bouclier écarlate[page]
+<sn:pointer id="0" window="0" trigger="start">Bouclier écarlate[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Test[page]
+<sn:pointer id="1" window="0" trigger="talk 16">Test[page]
 [end]</sn:pointer>
 
 </sn:script>

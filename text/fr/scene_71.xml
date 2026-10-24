@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Armurerie[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Brico-malin[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Brico-malin[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Auberge[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Épicerie[page]
+<sn:pointer id="3" window="speaker" trigger="start">[center]Épicerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[center]Maison[page]
+<sn:pointer id="4" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[center]Maison[page]
+<sn:pointer id="5" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[center]Bar[page]
+<sn:pointer id="6" window="speaker" trigger="start">[center]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Homme[br]
+<sn:pointer id="7" window="0" trigger="talk 16">Homme[br]
 J'crois qu'il est temps de plier bagage[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Vieillard[br]
+<sn:pointer id="8" window="0" trigger="talk 17">Vieillard[br]
 Si vous voulez de bonnes armes, mieux vaut aller à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Femme[br]
+<sn:pointer id="9" window="0" trigger="talk 18">Femme[br]
 Comme la guerre avec les monstres fait de plus en plus rage, la population du village décroît dangereusement[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Femme[br]
+<sn:pointer id="10" window="0" trigger="talk 19">Femme[br]
 Si vous continuez au nord, vous arriverez à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Vieil homme[br]
+<sn:pointer id="11" window="0" trigger="talk 20">Vieil homme[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Vieil homme[br]
+<sn:pointer id="12" choice="yes-no" window="1" trigger="talk 20">Vieil homme[br]
 Bienvenue.
 Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="14">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="14" window="0" trigger="talk 20">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="16">Temujin l'épicier[br]
+<sn:pointer id="16" window="0" trigger="talk 21">Temujin l'épicier[br]
 Soyez les bienvenus ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Barman[br]
+<sn:pointer id="17" window="0" trigger="talk 22">Barman[br]
 Bonjour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Mère de Lemia[br]
+<sn:pointer id="18" window="0" trigger="talk 23">Mère de Lemia[br]
 Ma fille fait les plus beaux bonhommes de neige de la région ![page]
 [end]</sn:pointer>
 

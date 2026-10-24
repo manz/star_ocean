@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Château de Moore[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Château de Moore[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Chancelier[br]
+<sn:pointer id="1" window="0" trigger="start">Chancelier[br]
 Je vais reprendre les armes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Chancelier Bolc[br]
+<sn:pointer id="2" window="0" trigger="start">Chancelier Bolc[br]
 La vérité est que le château de Moore fait face à une grave crise[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 [speed][0xa]...[speed][0x0]C'est à dire ?[page]
@@ -19,96 +19,96 @@ Chancelier Bolc[br]
 Merci ! Mais pensez bien à rendre ce qui appartient à la salle du trésor, s'il vous plaît.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア][br]
+<sn:pointer id="3" window="8" trigger="start">[nick:イリア][br]
 (C'était sûr qu'ils ne nous les auraient pas laissés[speed][0xa]...[speed][0x0])[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Chancelier Bolc[br]
+<sn:pointer id="4" window="0" trigger="start">Chancelier Bolc[br]
 Très bien. Je vais vous montrer le chemin.
 Suivez-moi, s'il vous plaît.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Roi de Moore[br]
+<sn:pointer id="5" window="1" trigger="start">Roi de Moore[br]
 Ah ! Voici enfin ceux à qui l'on a confié l'emblème.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Roi[br]
+<sn:pointer id="6" window="1" trigger="start">Roi[br]
 Chancelier, veuillez éloigner les gardes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Chancelier[br]
+<sn:pointer id="7" window="0" trigger="start">Chancelier[br]
 Oui, Votre Majesté ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Roi de Moore[br]
+<sn:pointer id="8" window="0" trigger="start">Roi de Moore[br]
 Prenez ça. J'attends de bonnes nouvelles...[page]
 [color][0x6]Emblème de Moore[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Roi de Moore[br]
+<sn:pointer id="9" window="0" trigger="talk 18">Roi de Moore[br]
 J'espère que vous vaincrez Asmodeus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Chancelier[br]
+<sn:pointer id="10" window="0" trigger="talk 19">Chancelier[br]
 Nous prierons pour votre réussite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Reine[br]
+<sn:pointer id="11" window="0" trigger="talk 20">Reine[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Garde royal[br]
+<sn:pointer id="12" window="0" trigger="talk 21">Garde royal[br]
 Il est de mon devoir de protéger le roi, même au péril de ma vie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Garde royal[br]
+<sn:pointer id="13" window="0" trigger="talk 22">Garde royal[br]
 J'ai dédié ma vie au roi et à la reine ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Servante[br]
+<sn:pointer id="14" window="0" trigger="talk 23">Servante[br]
 La salle du trésor est dans le sous-sol du château.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Servante[br]
+<sn:pointer id="15" window="0" trigger="talk 24">Servante[br]
 Ne courez pas dans les couloirs, ça soulève la poussière ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Garde[br]
+<sn:pointer id="16" window="0" trigger="talk 25">Garde[br]
 J'arrive pas à y croire !
 Des monstres sont apparus dans la salle du trésor[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Garde[br]
+<sn:pointer id="17" window="0" trigger="talk 26">Garde[br]
 Le feu roi de Moore était pacifiste : le royaume n'a pas beaucoup de troupes. Pour l'instant, le monde démoniaque est notre ennemi commun, mais si Asmodeus venait à tomber[speed][0xa]...[speed][0x0] J'ai comme un mauvais pressentiment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Sage Grace[br]
+<sn:pointer id="18" window="0" trigger="talk 27">Sage Grace[br]
 Une rumeur raconte que le mont Métox cacherait d'anciennes ruines, mais on n'en a aucune preuve...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Pasta, chef du palais[br]
+<sn:pointer id="19" window="0" trigger="talk 28">Pasta, chef du palais[br]
 Le savoir et la technique, ça s'apprend !
 Pour un chef, le plus important est le sens gustatif.
 Si tu as le don pour marier les saveurs, tu peux faire fondre les gens de bonheur ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Garde aimant les animaux[br]
+<sn:pointer id="20" window="0" trigger="talk 29">Garde aimant les animaux[br]
 Ne le dites à personne, mais je garde un animal dans ma chambre. Ne soyez pas surpris si vous le voyez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Garde[br]
+<sn:pointer id="21" window="0" trigger="talk 30">Garde[br]
 C'est la salle d'audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Garde[br]
+<sn:pointer id="22" window="0" trigger="talk 31">Garde[br]
 C'est la salle du trésor.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Chancelier Bolc[br]
+<sn:pointer id="23" window="0" trigger="start">Chancelier Bolc[br]
 C'est ici. Les monstres y sont très dangereux, mais vous trouverez de quoi vous équiper dans la salle du trésor.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Chancelier Bolc[br]
+<sn:pointer id="24" window="0" trigger="start">Chancelier Bolc[br]
 Merci de nous avoir débarrassés de ces créatures !
 Voilà votre récompense.[page]
 [color][0x5]20000[color][0x2] Fol reçus.

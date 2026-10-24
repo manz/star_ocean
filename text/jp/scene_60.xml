@@ -1,140 +1,140 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]ヴァン・イ・イル城[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x30][0x0]ヴァン・イ・イル城[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x28][0x0]ヴァン・イ・イル城門[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x28][0x0]ヴァン・イ・イル城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">衛兵「入ってよし。[page]
+<sn:pointer id="2" window="0" trigger="talk 16 talk 17">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="3" window="0" trigger="talk 16 talk 17">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">ヴァン国王「各国の王と謁見を済ませたら必ず戻ってくるのだぞ。[page]
+<sn:pointer id="4" window="0" trigger="talk 18">ヴァン国王「各国の王と謁見を済ませたら必ず戻ってくるのだぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">ヴァン国王「[color][0x6]真実の瞳[color][0x2]を無事もって帰ることを析っておるぞ。[page]
+<sn:pointer id="5" window="0" trigger="talk 18">ヴァン国王「[color][0x6]真実の瞳[color][0x2]を無事もって帰ることを析っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">ヴァン国王「人々の平和はそなたらの手にかかっておるぞ。がんばってくれ[page]
+<sn:pointer id="6" window="0" trigger="talk 18">ヴァン国王「人々の平和はそなたらの手にかかっておるぞ。がんばってくれ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">大臣「[color][0x6]真実の瞳[color][0x2]については無用の混乱を避ける為、内密にお願いいたしますぞ。[page]
+<sn:pointer id="7" window="0" trigger="talk 19">大臣「[color][0x6]真実の瞳[color][0x2]については無用の混乱を避ける為、内密にお願いいたしますぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">王妃「あなたたちの行く末に光が見えますよう析っています。[page]
+<sn:pointer id="8" window="0" trigger="talk 20">王妃「あなたたちの行く末に光が見えますよう析っています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">興奮ぎみの学者「僕は種族について研究しています。レッサーフェルプールという極めてネコに近い種族が現在でも存在しているらしいです。[speed][0xa]・・・[speed][0x0]ネコ耳[speed][0xa]・・・[speed][0x0]み、見たい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="talk 22">興奮ぎみの学者「僕は種族について研究しています。レッサーフェルプールという極めてネコに近い種族が現在でも存在しているらしいです。[speed][0xa]・・・[speed][0x0]ネコ耳[speed][0xa]・・・[speed][0x0]み、見たい[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">宮廷絵師「魂を込めた絵はそれ自体が魔力を持つようになる。ちなみにワシは欲しいものがあったら自分で描いてしまう。買うより楽だからな。わっはっは！[page]
+<sn:pointer id="10" window="0" trigger="talk 23">宮廷絵師「魂を込めた絵はそれ自体が魔力を持つようになる。ちなみにワシは欲しいものがあったら自分で描いてしまう。買うより楽だからな。わっはっは！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">衛兵「剣を志す者にとってハイランダーはうらやましい存在ですよね。生れつき才能があるなんて、いいなぁ。[page]
+<sn:pointer id="11" window="0" trigger="talk 24">衛兵「剣を志す者にとってハイランダーはうらやましい存在ですよね。生れつき才能があるなんて、いいなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">紋章使い「最近捕えた魔物から得た情報ですが、魔界の王アスモデウスが恐ろしい兵器を造っているとか。ムーア大陸のほうで爆発が起こったときはドキッとしましたよ。あれはあれでまた謎の事件ですけど。[page]
+<sn:pointer id="12" window="0" trigger="talk 25">紋章使い「最近捕えた魔物から得た情報ですが、魔界の王アスモデウスが恐ろしい兵器を造っているとか。ムーア大陸のほうで爆発が起こったときはドキッとしましたよ。あれはあれでまた謎の事件ですけど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">紋章使い「兵器か[speed][0xa]・・・[speed][0x0]こちらも決定打に欠ける所だしな[speed][0xa]・・・。[speed][0x0]せめて魔界に突入できれば[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="13" window="0" trigger="talk 26">紋章使い「兵器か[speed][0xa]・・・[speed][0x0]こちらも決定打に欠ける所だしな[speed][0xa]・・・。[speed][0x0]せめて魔界に突入できれば[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">賢者リッド「魔界の入口は現在こちらからは自由に開く方法がないんです。魔界側は自由に開いてくるんですが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="14" window="0" trigger="talk 27">賢者リッド「魔界の入口は現在こちらからは自由に開く方法がないんです。魔界側は自由に開いてくるんですが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">メイド「最近はみんなの話題が暗くてやんなっちゃうわ。[page]
+<sn:pointer id="15" window="0" trigger="talk 28">メイド「最近はみんなの話題が暗くてやんなっちゃうわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">メイドのジュリオ「ロイドと私って名前があるお話の主人公とヒロインに似てるってことで意気投合しちゃって付き合い出したの。[speed][0xa]・・・[speed][0x0]変？[page]
+<sn:pointer id="16" window="0" trigger="talk 29">メイドのジュリオ「ロイドと私って名前があるお話の主人公とヒロインに似てるってことで意気投合しちゃって付き合い出したの。[speed][0xa]・・・[speed][0x0]変？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">メイドのジュリオ「おおロイド！あなたはどうしてロイドなの？[page]
+<sn:pointer id="17" window="0" trigger="talk 29">メイドのジュリオ「おおロイド！あなたはどうしてロイドなの？[page]
 衛兵ロイド「おおジュリオ！いまそこへ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">上司「コラッ！持ち場を離れて何やっとるか！さっさとこっちへこい！[page]
+<sn:pointer id="18" window="1" trigger="talk 29">上司「コラッ！持ち場を離れて何やっとるか！さっさとこっちへこい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">衛兵ロイド「すっすいません！[page]
+<sn:pointer id="19" window="0" trigger="talk 29">衛兵ロイド「すっすいません！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">メイドのジュリオ「ああっ！行かないで！ロイドぉ〜〜っ！！[page]
+<sn:pointer id="20" window="1" trigger="talk 29">メイドのジュリオ「ああっ！行かないで！ロイドぉ〜〜っ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">ロイド「待っててくれ、ジュリオ！必ず行くから！[page]
+<sn:pointer id="21" window="0" trigger="talk 29">ロイド「待っててくれ、ジュリオ！必ず行くから！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">上司「コラ！[page]
+<sn:pointer id="22" window="0" trigger="talk 29">上司「コラ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">兵士「さぼってます。誰にも言わないでね。[page]
+<sn:pointer id="23" window="0" trigger="talk 30">兵士「さぼってます。誰にも言わないでね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">飾り気のない娘「タレントってなんのことか知ってる？これは要するに“才能”ってことよね。[page]
+<sn:pointer id="24" window="0" trigger="talk 40">飾り気のない娘「タレントってなんのことか知ってる？これは要するに“才能”ってことよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">悩める剣士エルダー「今、この剣をカスタマイズするかどうか悩んでます。失敗したらガラクタになっちゃうんですよ？勇気がいりますよ、これは。[page]
+<sn:pointer id="25" window="0" trigger="talk 41">悩める剣士エルダー「今、この剣をカスタマイズするかどうか悩んでます。失敗したらガラクタになっちゃうんですよ？勇気がいりますよ、これは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">傷心のエノル「君は10回プレゼントをもらったらその分だけその人を好きになれるかい？[speed][0x1e]・・・[speed][0x0]そんなわけないよな。[page]
+<sn:pointer id="26" window="0" trigger="talk 42">傷心のエノル「君は10回プレゼントをもらったらその分だけその人を好きになれるかい？[speed][0x1e]・・・[speed][0x0]そんなわけないよな。[page]
 傷心のエノル「やっぱり、一緒に過ごした時間、互いの理解が重要なんじゃないかと思うんだよ。ああ、早くそのことに気がついていたら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">賢者ヴァンク「映し出されたものとそっくりな複製を現実に作り出してしまうという不思議な臆があったらしいですね。[page]
+<sn:pointer id="27" window="0" trigger="talk 43">賢者ヴァンク「映し出されたものとそっくりな複製を現実に作り出してしまうという不思議な臆があったらしいですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">衛兵「なんだお前たちは？城に入りたいなら用件を言ってみろ。[page]
+<sn:pointer id="28" window="0" trigger="start">衛兵「なんだお前たちは？城に入りたいなら用件を言ってみろ。[page]
 [nick:ロニキス]「魔界討伐に行きたいのだが。国王に謁見させてもらえないだろうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">衛兵「おい。[page]
+<sn:pointer id="29" window="0" trigger="start">衛兵「おい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">大臣「あなたたちですか。国王がお待ちです。中へどうぞ。[page]
+<sn:pointer id="30" window="0" trigger="start">大臣「あなたたちですか。国王がお待ちです。中へどうぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">衛兵「なんだお前たちは？城に入りたいなら用件を言ってみろ。[page]
+<sn:pointer id="31" window="0" trigger="start">衛兵「なんだお前たちは？城に入りたいなら用件を言ってみろ。[page]
 [nick:アシュレイ]「随分な口の聞き方だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">衛兵「あ[speed][0xa]、[speed][0x0]あなたは！？[page]
+<sn:pointer id="32" window="0" trigger="start">衛兵「あ[speed][0xa]、[speed][0x0]あなたは！？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">衛兵「し[speed][0xa]、[speed][0x0]失礼いたしました！！[page]
+<sn:pointer id="33" window="0" trigger="start">衛兵「し[speed][0xa]、[speed][0x0]失礼いたしました！！[page]
 [nick:アシュレイ]「よい。それより国王に会わせてくれんか。魔界討伐に行きたいんじゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">衛兵「おい。[page]
+<sn:pointer id="34" window="0" trigger="start">衛兵「おい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">大臣「[nick:アシュレイ]殿、国王がお待ちです。中へどうぞ。[page]
+<sn:pointer id="35" window="0" trigger="start">大臣「[nick:アシュレイ]殿、国王がお待ちです。中へどうぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">ヴァン国王「その者らが話にあった者たちか。[page]
+<sn:pointer id="36" window="0" trigger="start">ヴァン国王「その者らが話にあった者たちか。[page]
 大臣「左様でございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">ヴァン国王「聞けばそなたら、魔界の王アスモデウス討伐に名乗りをあげたそうだな。[page]
+<sn:pointer id="37" window="1" trigger="start">ヴァン国王「聞けばそなたら、魔界の王アスモデウス討伐に名乗りをあげたそうだな。[page]
 [nick:ロニキス]「はい。[page]
 ヴァン国王「して勝算はいかほどのものと考えておるのだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ロニキス]「わかりません。[page]
+<sn:pointer id="38" window="0" trigger="start">[nick:ロニキス]「わかりません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">ヴァン国王「うむ。ここで未知のものに対して絶対とうそぶく者であればすぐにでも追い返したのだが[speed][0xa]・・・。[speed][0x0]ふむ[speed][0xa]、[speed][0x0]よかろう。だが、その前に試させてもらうぞ。力が伴わぬようでは話にならんのでな。[page]
+<sn:pointer id="39" window="1" trigger="start">ヴァン国王「うむ。ここで未知のものに対して絶対とうそぶく者であればすぐにでも追い返したのだが[speed][0xa]・・・。[speed][0x0]ふむ[speed][0xa]、[speed][0x0]よかろう。だが、その前に試させてもらうぞ。力が伴わぬようでは話にならんのでな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">大臣「では数年ぶりに[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="40" window="0" trigger="start">大臣「では数年ぶりに[speed][0xa]・・・。[speed][0x0][page]
 ヴァン国王「うむ。この者らを試練の場に案内せよ。[page]
 [nick:ラティ]「試練の場？[page]
 ヴァン国王「行けばわかる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">ヴァン国王「魔界の入口の場所、そしてその入口の開き方、開くために必要なもの。その全てが秘密であり、うかつに教えられるものではない。[page]
+<sn:pointer id="41" window="0" trigger="start">ヴァン国王「魔界の入口の場所、そしてその入口の開き方、開くために必要なもの。その全てが秘密であり、うかつに教えられるものではない。[page]
 [nick:ロニキス]「[speed][0xa]・・・・・。[speed][0x0][page]
 ヴァン国王「魔界の入口は原則としてこちら側の世界からは開くことができぬ。開くのは魔界側から魔物が侵入しようとした時のみ。過去にその際に魔界に侵入し、半死半生で戻って来た者がおった。その者の話ではそこはまさしく魔界の名にふさわしく、この世のものとは思えない恐ろしい場所だったということだ。それでも決心はかわらぬのか？[page]
 [nick:ロニキス]「はい。[page]
@@ -149,35 +149,35 @@
 ヴァン国王「うむ。ムーア人の祖は赤子ではなく、成人の姿をとって前触れも無く突然地上に現れた、ともある。神の意思によって名付けられた名をもってこの地に降臨したのだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:イリア]
+<sn:pointer id="42" window="8" trigger="start">[nick:イリア]
 （突然現れた？まさかそんなことがあるわけ[speed][0xa]・・・[speed][0x0]）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">ヴァン国王「かの者たちはある秘宝を作り出し、その力によって異世界の門を開いたのだ。[page]
+<sn:pointer id="43" window="1" trigger="start">ヴァン国王「かの者たちはある秘宝を作り出し、その力によって異世界の門を開いたのだ。[page]
 [nick:ロニキス]「なぜそんなことしたりしたんですか？特別益のある行動とは思えないのですが。[page]
 ヴァン国王「残念ながら理由は我らの知るところではない。して、その秘宝の名を“[color][0x6]真実の瞳[color][0x2]”と言う。こぶし大の大きさの緋色の宝珠だという話だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]「[color][0x6]真実の瞳[color][0x2]と言えば、たしか持ち主の望む情景を映し出すという[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="45" window="0" trigger="start">[nick:ラティ]「[color][0x6]真実の瞳[color][0x2]と言えば、たしか持ち主の望む情景を映し出すという[speed][0xa]・・・。[speed][0x0][page]
 ヴァン国王「民間レベルの伝承などそんなものだろう。自らの願望を[color][0x6]真実の瞳[color][0x2]という見たこともない宝に重ねた者がいたというだけのことだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">ヴァン国王「ムーア人は、[color][0x6]真実の瞳[color][0x2]のありかについての情報を4王国の王家それぞれに託した。それらすべてを知らねば[color][0x6]真実の瞳[color][0x2]を見つけることはできぬようにするために。[page]
+<sn:pointer id="46" window="0" trigger="start">ヴァン国王「ムーア人は、[color][0x6]真実の瞳[color][0x2]のありかについての情報を4王国の王家それぞれに託した。それらすべてを知らねば[color][0x6]真実の瞳[color][0x2]を見つけることはできぬようにするために。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]「つまり、有事に際して[color][0x6]真実の瞳[color][0x2]を使うならば、4王家の同意が必要ということなのですね。[page]
+<sn:pointer id="47" window="0" trigger="start">[nick:イリア]「つまり、有事に際して[color][0x6]真実の瞳[color][0x2]を使うならば、4王家の同意が必要ということなのですね。[page]
 ヴァン国王「その通りだ[speed][0x1e]。[speed][0x0]ここまで話した以上、そなたらにはその[color][0x6]真実の瞳[color][0x2]を手に入れるという極秘の任務を負ってもらうことになる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">ヴァン国王「大臣！例のものを持ってまいれ。[page]
+<sn:pointer id="48" window="1" trigger="start">ヴァン国王「大臣！例のものを持ってまいれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">大臣「は！[page]
+<sn:pointer id="49" window="0" trigger="start">大臣「は！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">大臣「これを[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="50" window="0" trigger="start">大臣「これを[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「これは？[page]
 ヴァン国王「そのエンブレムを身につけて各国の王に会うのだ。そのエンブレムこそ[color][0x6]真実の瞳[color][0x2]についての“真実”を知る者という印なのだ。[page]
 [color][0x6]ヴァンエンブレム[color][0x2]を手に入れました。[page]
@@ -186,7 +186,7 @@
 四聖獣奥義を覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">ヴァン国王「各国の王と謁見を無事済ませてきたようだな。[page]
+<sn:pointer id="51" window="1" trigger="start">ヴァン国王「各国の王と謁見を無事済ませてきたようだな。[page]
 [nick:ロニキス]「はい。[page]
 [nick:ロニキス]「ムーア王からは遺跡の鍵を、アストラル王からは意味ありげなキーワード、そしてシルヴァラント王からは魔界の入口の隠された場所を聞いて参りました。[page]
 ヴァン国王「そうか。その他に、謁見の証明としてエンブレムは曼け取っておるだろうな？[page]
@@ -194,162 +194,162 @@
 ヴァン国王「[speed][0xa]・・・[speed][0x0]ならばパージ神殿に向かうのだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ヨシュア]「パージ神殿？！[page]
+<sn:pointer id="52" window="1" trigger="start">[nick:ヨシュア]「パージ神殿？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]「パージ神殿？！[page]
+<sn:pointer id="53" window="1" trigger="start">[nick:ラティ]「パージ神殿？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:アシュレイ]「パージ神殿？！[page]
+<sn:pointer id="54" window="1" trigger="start">[nick:アシュレイ]「パージ神殿？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア]「パージ神殿？！[page]
+<sn:pointer id="55" window="1" trigger="start">[nick:フィア]「パージ神殿？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:シウス]「パージ神殿？！[page]
+<sn:pointer id="56" window="1" trigger="start">[nick:シウス]「パージ神殿？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:イリア]「私たちがあの神殿に行ったときは何も見つからなかったわよね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="57" window="1" trigger="start">[nick:イリア]「私たちがあの神殿に行ったときは何も見つからなかったわよね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">ヴァン国王「パージ神殿はアストラル大陸にあるという話だが、詳しくは現地で確認してほしい。[page]
+<sn:pointer id="58" window="0" trigger="start">ヴァン国王「パージ神殿はアストラル大陸にあるという話だが、詳しくは現地で確認してほしい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">ヴァン国王「それは[color][0x6]真実の瞳[color][0x2][speed][0xa]・・・[speed][0x0]そなたらなら必ずやってくれると信じておったぞ。[page]
+<sn:pointer id="59" window="0" trigger="start">ヴァン国王「それは[color][0x6]真実の瞳[color][0x2][speed][0xa]・・・[speed][0x0]そなたらなら必ずやってくれると信じておったぞ。[page]
 ヴァン国王「で、いよいよ魔界へ突入するのだな？[page]
 [nick:ロニキス]「はい。[color][0x4]シルヴァラント[color][0x2]から南束の無人島に隠された門があるとか。[page]
 ヴァン国王「そなたらの勝利を信じておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">魔物「遅い、遅いよ。我らが王アスモデウス様はもうすでに新兵器をお造りになられた。あんた達にできるのは降伏しかないわ。[page]
+<sn:pointer id="60" window="0" trigger="start">魔物「遅い、遅いよ。我らが王アスモデウス様はもうすでに新兵器をお造りになられた。あんた達にできるのは降伏しかないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">ヴァン国王「な、なんだこの震動は！？[page]
+<sn:pointer id="61" window="0" trigger="start">ヴァン国王「な、なんだこの震動は！？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">魔物「ククク、楽しいねぇ。早速見せしめに村が一つ消滅したのさ。[page]
+<sn:pointer id="62" window="1" trigger="start">魔物「ククク、楽しいねぇ。早速見せしめに村が一つ消滅したのさ。[page]
 [nick:ラティ]「なんだと？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:シウス]「[speed][0xa]・・・[speed][0x0]てめぇ！！[page]
+<sn:pointer id="63" window="1" trigger="start">[nick:シウス]「[speed][0xa]・・・[speed][0x0]てめぇ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:アシュレイ]「鬼畜の所業！許さん！！[page]
+<sn:pointer id="64" window="1" trigger="start">[nick:アシュレイ]「鬼畜の所業！許さん！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:フィア]「なんて事を[speed][0xa]・・・！[speed][0x0][page]
+<sn:pointer id="65" window="1" trigger="start">[nick:フィア]「なんて事を[speed][0xa]・・・！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:マーヴェル]「・・・ひ、ひどい！[page]
+<sn:pointer id="66" window="1" trigger="start">[nick:マーヴェル]「・・・ひ、ひどい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">魔物「もう一度だけ言うわよ。降伏しな、それ以外にあんたたちに道は無いわよ。[page]
+<sn:pointer id="67" window="0" trigger="start">魔物「もう一度だけ言うわよ。降伏しな、それ以外にあんたたちに道は無いわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ラティ]「逃がすか！[page]
+<sn:pointer id="68" window="0" trigger="start">[nick:ラティ]「逃がすか！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">兵士「大変です！挟問の守備兵の報告によりますと、巨大な爆発とともに[color][0x4]ドゥルス[color][0x2]の村が完全に消滅！生存者は絶望的とのことです！[page]
+<sn:pointer id="69" window="0" trigger="start">兵士「大変です！挟問の守備兵の報告によりますと、巨大な爆発とともに[color][0x4]ドゥルス[color][0x2]の村が完全に消滅！生存者は絶望的とのことです！[page]
 [nick:ロニキス]「[speed][0xa]・・・[speed][0x0]一刻も早く魔界に行こう。あれを[color][0x4]ヴァン[color][0x2]や[color][0x4]アストラル[color][0x2]に落されたら大変な事になる。[page]
 [nick:イリア]「そうですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:シウス]「許せねぇ[speed][0xa]・・・[speed][0x0]、絶対に叩きのめしてやる！[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:シウス]「許せねぇ[speed][0xa]・・・[speed][0x0]、絶対に叩きのめしてやる！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:フィア]「アスモデウス[speed][0xa]・・・[speed][0x0]絶対に許せない！[page]
+<sn:pointer id="71" window="0" trigger="start">[nick:フィア]「アスモデウス[speed][0xa]・・・[speed][0x0]絶対に許せない！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ヨシュア]「犠牲者の仇は私達がとりましょう！[page]
+<sn:pointer id="72" window="0" trigger="start">[nick:ヨシュア]「犠牲者の仇は私達がとりましょう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ロニキス]「国王に会わせてくれ。[page]
+<sn:pointer id="73" window="0" trigger="start">[nick:ロニキス]「国王に会わせてくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">衛兵「[nick:ロニキス]様ですね？しばらくお待ちください。[page]
+<sn:pointer id="74" window="0" trigger="start">衛兵「[nick:ロニキス]様ですね？しばらくお待ちください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">衛兵「どうぞこちらへ。[page]
+<sn:pointer id="75" window="0" trigger="start">衛兵「どうぞこちらへ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">ヴァン国王「よくぞやってくれた。そなたたちは英雄として歴史に刻まれるであろう。[page]
+<sn:pointer id="76" window="0" trigger="start">ヴァン国王「よくぞやってくれた。そなたたちは英雄として歴史に刻まれるであろう。[page]
 [nick:ロニキス]「ありがとうございます。[page]
 ヴァン国王「真の平和はこれから時間をかけて得られるものなのだろうが、とにかく我らを脅かす魔界の王が亡び去ったのは喜ぶべきことだ。勇者たちよ。民を代表し心から礼を申すぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]いろんなことがあったよな。[page]
+<sn:pointer id="77" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]いろんなことがあったよな。[page]
 [nick:ミリー]「そうだね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ロニキス]「運動不足だったから、いい運動になったさ。[page]
+<sn:pointer id="78" window="1" trigger="start">[nick:ロニキス]「運動不足だったから、いい運動になったさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:イリア]「でも、やっぱりあんな発展した文明があるなんて、不思議だわ。[page]
+<sn:pointer id="79" window="1" trigger="start">[nick:イリア]「でも、やっぱりあんな発展した文明があるなんて、不思議だわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ロニキス]「まあ、目的は達成したんだからいいだろ？[page]
+<sn:pointer id="80" window="0" trigger="start">[nick:ロニキス]「まあ、目的は達成したんだからいいだろ？[page]
 [nick:イリア]「でも[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:ロニキス]「ま、君が心配性だから私の艦も何度も危機を切り抜けてこれたんだがな。[page]
+<sn:pointer id="81" window="0" trigger="start">[nick:ロニキス]「ま、君が心配性だから私の艦も何度も危機を切り抜けてこれたんだがな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]あしたでみんなともお別れだ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="82" window="1" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]あしたでみんなともお別れだ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:イリア]「寂しくなるわね。[page]
+<sn:pointer id="83" window="0" trigger="start">[nick:イリア]「寂しくなるわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:ロニキス]「あしたは、早く出て行こう。[page]
+<sn:pointer id="84" window="0" trigger="start">[nick:ロニキス]「あしたは、早く出て行こう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:ロニキス]「国王に会わせてくれ。[page]
+<sn:pointer id="85" unused="1">[nick:ロニキス]「国王に会わせてくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">衛兵「[nick:ロニキス]様ですね？しばらくお待ちください。[page]
+<sn:pointer id="86" unused="1">衛兵「[nick:ロニキス]様ですね？しばらくお待ちください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">衛兵「どうぞこちらへ。[page]
+<sn:pointer id="87" unused="1">衛兵「どうぞこちらへ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:ミリー]「男は来ちゃダメよ！[page]
+<sn:pointer id="88" window="0" trigger="talk 1">[nick:ミリー]「男は来ちゃダメよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:イリア]「あら[nick:ラティ]も話に加わる？[page]
+<sn:pointer id="89" window="0" trigger="talk 4">[nick:イリア]「あら[nick:ラティ]も話に加わる？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:フィア]「悪いな、別になんでもないから。[page]
+<sn:pointer id="90" window="0" trigger="talk 11">[nick:フィア]「悪いな、別になんでもないから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:マーヴェル]「あ、別に陰口言ってたわけじゃありませんから。[page]
+<sn:pointer id="91" window="0" trigger="talk 8">[nick:マーヴェル]「あ、別に陰口言ってたわけじゃありませんから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:ロニキス]「そこで何やら話してるんだが、男はダメだとさ[speed][0xa]・・・。[speed][0x0][nick:イリア]までまじってなに話してるんだか。[page]
+<sn:pointer id="92" window="0" trigger="talk 3">[nick:ロニキス]「そこで何やら話してるんだが、男はダメだとさ[speed][0xa]・・・。[speed][0x0][nick:イリア]までまじってなに話してるんだか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:ミリー]「男は来ちゃダメよ！[page]
+<sn:pointer id="93" window="0" trigger="talk 1">[nick:ミリー]「男は来ちゃダメよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:イリア]「あら[nick:ラティ]も話に加わる？[page]
+<sn:pointer id="94" window="0" trigger="talk 4">[nick:イリア]「あら[nick:ラティ]も話に加わる？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:ミリー]「男は来ちゃダメよ！[page]
+<sn:pointer id="95" window="0" trigger="talk 1">[nick:ミリー]「男は来ちゃダメよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:マーヴェル]「あ、別に陰口言ってたわけじゃありませんから。[page]
+<sn:pointer id="96" window="0" trigger="talk 8">[nick:マーヴェル]「あ、別に陰口言ってたわけじゃありませんから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:ロニキス]「そこで何やら話してるんだが、男はダメだとさ[speed][0xa]・・・。[speed][0x0][nick:イリア]までまじってなに話してるんだか。[page]
+<sn:pointer id="97" window="0" trigger="talk 3">[nick:ロニキス]「そこで何やら話してるんだが、男はダメだとさ[speed][0xa]・・・。[speed][0x0][nick:イリア]までまじってなに話してるんだか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">？？？「でしょ？やっぱりそうよねぇ。[page]
+<sn:pointer id="98" window="0" trigger="start">？？？「でしょ？やっぱりそうよねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">？？？「うん、たしかに。[page]
+<sn:pointer id="99" window="0" trigger="start">？？？「うん、たしかに。[page]
 ？？？「[speed][0xa]・・・[speed][0x0]でどう思う？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">？？？「クスクス[page]
+<sn:pointer id="100" window="0" trigger="start">？？？「クスクス[page]
 ？？？「[speed][0xa]・・・[speed][0x0]絶対そうよ！[page]
 ？？？「言えてる言えてる！[page]
 ？？？「え〜っ？！！！[page]

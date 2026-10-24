@@ -1,538 +1,538 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Arène de Tatroï[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Arène de Tatroï[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Fille[br]
+<sn:pointer id="1" window="0" trigger="search start">Fille[br]
 Hey ! Je vois rien d'ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Fille[br]
+<sn:pointer id="2" window="0" trigger="search">Fille[br]
 J'aimerais tellement vous voir vous battre là-bas ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Vieil homme[br]
+<sn:pointer id="3" window="0" trigger="search">Vieil homme[br]
 Si seulement j'avais dix ans de moins... J'irais là-bas mettre ces monstres en pièces ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Vieille femme[br]
+<sn:pointer id="4" window="0" trigger="search">Vieille femme[br]
 Ouais ! Vas-y ! ♥ Je devrais m'abstenir à mon âge...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Garçon[br]
+<sn:pointer id="5" window="0" trigger="search">Garçon[br]
 Je vous conseillerais de vous renseigner sur l'alchimie, la forge et l'artisanat.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Fille[br]
+<sn:pointer id="6" window="0" trigger="search">Fille[br]
 Il semblerait que l'histoire prenne différentes voies selon les personnes qui vous accompagnent. [page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Vieille femme[br]
+<sn:pointer id="7" window="0" trigger="search">Vieille femme[br]
 L'interprétation et la musique demandent que vous appreniez de nombreux savoirs. Maîtriser ces deux dons innés demande pas mal de persévérance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Vieil homme[br]
+<sn:pointer id="8" window="0" trigger="search">Vieil homme[br]
 ZZZZzzzz...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Vieil homme[br]
+<sn:pointer id="9" window="0" trigger="search">Vieil homme[br]
 Avec l'âge, plus rien ne m'émoustille. Y'a rien de palpitant, ici ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Garçon[br]
+<sn:pointer id="10" window="0" trigger="search">Garçon[br]
 Dis, tu crois que les combattants se font un max de thunes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Combattante[br]
+<sn:pointer id="11" window="0" trigger="search">Combattante[br]
 Des combos ! Il faut les enchaîner pour ressentir le véritable plaisir qui en émane ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Homme[br]
+<sn:pointer id="12" window="0" trigger="search">Homme[br]
 Hum... Ma fille semble s'être perdue en allant faire un tour. Vous ne l'auriez pas vue par hasard ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Fille[br]
+<sn:pointer id="13" window="0" trigger="search">Fille[br]
 70 pour cent, au moins[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Fille[br]
+<sn:pointer id="14" window="0" trigger="search">Fille[br]
 C'est pas trop violent pour les enfants, vous ne trouvez pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Vieille femme[br]
+<sn:pointer id="15" window="0" trigger="search">Vieille femme[br]
 Quand je viens ici, j'en oublie tous mes ennuis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Jeune homme[br]
+<sn:pointer id="16" window="0" trigger="search">Jeune homme[br]
 Je fais partie de l'équipe de capture de monstres. Je n'ai cependant jamais pu capturer que des monstres faibles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Homme[br]
+<sn:pointer id="17" window="0" trigger="search">Homme[br]
 Whaaaa !! Quelle force !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Fille[br]
+<sn:pointer id="18" window="0" trigger="search">Fille[br]
 Tiens encore le coup un peu plus longtemps[speed][0xa]...[speed][0x0] Vas-y, lâche tout ! Maintenant ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Combattant[br]
+<sn:pointer id="19" window="0" trigger="search">Combattant[br]
 Il se prend pour qui celui-là ?! C'est pas qu'un amateur avec une poignée de fans ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Frère[br]
+<sn:pointer id="20" window="0" trigger="search">Frère[br]
 Tu m'embarrasses, ma sœur. Ne parle pas si fort[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Sœur[br]
+<sn:pointer id="21" window="0" trigger="search">Sœur[br]
 Ouais ! Vas-y !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Jeune homme[br]
+<sn:pointer id="22" window="0" trigger="search">Jeune homme[br]
 J'adore les arènes. J'suis certain que toi aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Vieille dame[br]
+<sn:pointer id="23" window="0" trigger="search">Vieille dame[br]
 Ouch, mon dos[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Vieil homme[br]
+<sn:pointer id="24" window="0" trigger="search">Vieil homme[br]
 Tout va bien, madame ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Garçon[br]
+<sn:pointer id="25" window="0" trigger="search">Garçon[br]
 Whaaaa ![speed][0xa][speed][0x0] Ça alors ![speed][0xa][speed][0x0]
 C'est vraiment balèze ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Homme[br]
+<sn:pointer id="26" window="0" trigger="search">Homme[br]
 L'autre moitié des spectateurs font partie de la populace.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Jeune homme[br]
+<sn:pointer id="27" window="0" trigger="search">Jeune homme[br]
 J'en fais le serment. Un jour, c'est pas dans les gradins que je serai, mais dans l'arène, et c'est pour moi qu'ils hurleront [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Fille[br]
+<sn:pointer id="28" window="0" trigger="search">Fille[br]
 C'est pas difficile de se déplacer avec une armure si lourde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Fille[br]
+<sn:pointer id="29" window="0" trigger="search">Fille[br]
 Oh non[speed][0xa]...[speed][0x0] Je pense que je vais m'évanouir si je continue de regarder ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Vieille femme[br]
+<sn:pointer id="30" window="0" trigger="search">Vieille femme[br]
 C'est[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Fille[br]
+<sn:pointer id="31" window="0" trigger="search">Fille[br]
 C'est quoi le nom de ce monstre, déjà ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Homme[br]
+<sn:pointer id="32" window="0" trigger="search">Homme[br]
 Il n'y a personne ici capable de vaincre le monstre du rang le plus élevé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Pico[br]
+<sn:pointer id="33" window="0" trigger="search">Pico[br]
 Tu as déjà entendu ça avant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Nano[br]
+<sn:pointer id="34" window="0" trigger="search">Nano[br]
 [speed][0xa]...[speed][0x0]des quadruplés.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Mega[br]
+<sn:pointer id="35" window="0" trigger="search">Mega[br]
 [speed][0xa]...[speed][0x0]sommes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Giga[br]
+<sn:pointer id="36" window="0" trigger="search">Giga[br]
 Nous[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Jeune homme[br]
+<sn:pointer id="37" window="0" trigger="search">Jeune homme[br]
 Avez-vous déjà parlé à tout le monde ? Il a essayé de faire de son mieux et a réussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Jeune homme[br]
+<sn:pointer id="38" window="0" trigger="search">Jeune homme[br]
 Whaaa[speed][0x5]...[speed][0x0]
 Ils ont tous le même visage[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Combattant[br]
+<sn:pointer id="39" window="0" trigger="search">Combattant[br]
 Le sens du goût est le cœur et l'âme de la cuisine.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Fille[br]
+<sn:pointer id="40" window="0" trigger="search">Fille[br]
 Le niveau de compétence de chaque spécialité est déterminé par la moyenne des niveaux de leurs compétences requises.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Fille[br]
+<sn:pointer id="41" window="0" trigger="search">Fille[br]
 Tais-toi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">Fille du passant[br]
+<sn:pointer id="42" window="0" trigger="search">Fille du passant[br]
 Viens[speed][0xa]...[speed][0x0] Il y a plein de sièges vides devant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Passant[br]
+<sn:pointer id="43" window="0" trigger="search">Passant[br]
 On s'est faufilés là-bas pour trouver des places.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">Fille[br]
+<sn:pointer id="44" window="0" trigger="search">Fille[br]
 Je suis tellement fatiguée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">Mère[br]
+<sn:pointer id="45" window="0" trigger="search">Mère[br]
 Je suis la femme du père de cette fille.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Papa[br]
+<sn:pointer id="46" window="0" trigger="search">Papa[br]
 Je suis le père de cette fille.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Vieil homme[br]
+<sn:pointer id="47" window="0" trigger="search">Vieil homme[br]
 Je suis le mari de la grand-mère.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">Fille[br]
+<sn:pointer id="48" window="0" trigger="search">Fille[br]
 Je suis la petite-fille de ma mémé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">Vieille femme[br]
+<sn:pointer id="49" window="0" trigger="search">Vieille femme[br]
 Ces sièges sont réservés. Nous sommes venus en famille.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Vieil homme[br]
+<sn:pointer id="50" window="0" trigger="search">Vieil homme[br]
 Ces sièges réservés sont tous pour moi ! MOUAHAHAHAH ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Homme[br]
+<sn:pointer id="51" window="0" trigger="search">Homme[br]
 Quand vous serez devenu un forgeron hors pair, créer des armes très puissantes ne sera plus un rêve[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Fille[br]
+<sn:pointer id="52" window="0" trigger="search">Fille[br]
 Allons en trouver plus près.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">Fille[br]
+<sn:pointer id="53" window="0" trigger="search">Fille[br]
 Je me demande où est Robert...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">Homme[br]
+<sn:pointer id="54" window="0" trigger="search">Homme[br]
 La fille à côté de moi est carrément mignonne[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">Vieille femme[br]
+<sn:pointer id="55" window="0" trigger="search">Vieille femme[br]
 Vite, vite ! Ça va commencer d'une minute à l'autre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">Homme[br]
+<sn:pointer id="56" window="0" trigger="search">Homme[br]
 Argh, c'est enfin notre premier rendez-vous[speed][0xa]...[speed][0x0] Comment j'aurais pu savoir qu'on sortirait voir le combat de Kain ? *sanglots*[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Fille[br]
+<sn:pointer id="57" window="0" trigger="search">Fille[br]
 C'est quoi son problème ? Il s'est subitement mis à sourire quand Kain a perdu[speed][0xa]...[speed][0x0] Quel naze ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Homme[br]
+<sn:pointer id="58" window="0" trigger="search">Homme[br]
 Héhé ! Kain a perdu ! Il n'a eu que ce qu'il méritait ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">Fille[br]
+<sn:pointer id="59" window="0" trigger="search">Fille[br]
 Ah ! Non ! Kain a perdu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Homme[br]
+<sn:pointer id="60" window="0" trigger="search">Homme[br]
 Bon ben je pense que je vais aller aux toilettes maintenant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Fille[br]
+<sn:pointer id="61" window="0" trigger="search">Fille[br]
 Il y a tellement de monde[speed][0xa]...[speed][0x0] Tu penses qu'on est combien ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">Combattant[br]
+<sn:pointer id="62" window="0" trigger="search">Combattant[br]
 Quand j'étais gosse, ma mamie me donnait à moi aussi de l'argent de poche en cachette.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Fille[br]
+<sn:pointer id="63" window="0" trigger="search">Fille[br]
 Hein ? Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">Vieille femme[br]
+<sn:pointer id="64" window="0" trigger="search">Vieille femme[br]
 Tiens, un peu d'argent. Mais ne dis rien à ta maman, d'accord ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Jeune homme[br]
+<sn:pointer id="65" window="0" trigger="search">Jeune homme[br]
 Whaaa ! Ils avaient entièrement raison. Ça valait vraiment la peine de venir d'[color][0x4]Ecdart[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Combattant[br]
+<sn:pointer id="66" window="0" trigger="search">Combattant[br]
 Quel style de combat[speed][0xa]...[speed][0x0] C'est celui d'Edarl, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">Vieille femme[br]
+<sn:pointer id="67" window="0" trigger="search">Vieille femme[br]
 Hein ? Quoi ? Oh non, je me suis endormie...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">Vieille femme[br]
+<sn:pointer id="68" window="0" trigger="search">Vieille femme[br]
 Quand j'étais encore une toute petite fille, il y avait un homme qui était considéré comme le roi de l'arène.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">Vieil homme[br]
+<sn:pointer id="69" window="0" trigger="search">Vieil homme[br]
 Mais non ![speed][0xf][speed][0x0] Qu'est-ce que tu fais ?[speed][0xf][speed][0x0] Ahhh ![speed][0xa][speed][0x0] Oh ! ♪[speed][0xa][speed][0x0] Vas-y ! C'est ça ! En plein dans la tronche ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">Homme[br]
+<sn:pointer id="70" window="0" trigger="search">Homme[br]
 Punaise ! Y'a rien qui arrête ce type ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">Homme[br]
+<sn:pointer id="71" window="0" trigger="search">Homme[br]
 Ouh là ! J'ai failli tomber[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">Fille[br]
+<sn:pointer id="72" window="0" trigger="search">Fille[br]
 Vous êtes un combattant vous aussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">Vieille femme[br]
+<sn:pointer id="73" window="0" trigger="search">Vieille femme[br]
 J'ai du mal à entendre avec ces gens qui crient si fort.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Homme[br]
+<sn:pointer id="74" window="0" trigger="search">Homme[br]
 Whaaa... Sa technique a laissé des images rémanentes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Fille[br]
+<sn:pointer id="75" window="0" trigger="search">Fille[br]
 Le vieux devant moi commence à devenir lourd.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Homme[br]
+<sn:pointer id="76" window="0" trigger="search">Homme[br]
 T'as pas l'impression que ce monstre est trop fort pour le type dans l'arène ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">Garçon[br]
+<sn:pointer id="77" window="0" trigger="search">Garçon[br]
 Quand je serai grand, j'irai moi aussi dans l'arène[speed][0xa]...[speed][0x0] Mais ça fait un peu peur quand même.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">Fille[br]
+<sn:pointer id="78" window="0" trigger="search">Fille[br]
 Vas-y papa ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">Garçon[br]
+<sn:pointer id="79" window="0" trigger="search">Garçon[br]
 Allez ! ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">Vieil homme[br]
+<sn:pointer id="80" window="0" trigger="search">Vieil homme[br]
 Ça me rajeunit de voir ces types se battre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">Fille[br]
+<sn:pointer id="81" window="0" trigger="search">Fille[br]
 Whaaa ! Michael est tellement extraordinaire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">Homme[br]
+<sn:pointer id="82" window="0" trigger="search">Homme[br]
 Ce sont les sièges pour les spectateurs. Attention à ne pas tomber dans l'arène, c'est très dangereux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">Homme[br]
+<sn:pointer id="83" window="0" trigger="search">Homme[br]
 Hé ! Mais c'était quoi ça ? Une technique secrète ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">Fille[br]
+<sn:pointer id="84" window="0" trigger="search">Fille[br]
 Ce monstre est effrayant ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">Homme[br]
+<sn:pointer id="85" window="0" trigger="search">Homme[br]
 Ce combattant est tellement fort ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Vieille femme[br]
+<sn:pointer id="86" window="0" trigger="search">Vieille femme[br]
 C'est ça ! Vas-y ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Homme[br]
+<sn:pointer id="87" window="0" trigger="search">Homme[br]
 Allez ! Tiens un peu plus longtemps ! Je veux admirer le spectacle encore un peu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">Fille[br]
+<sn:pointer id="88" window="0" trigger="search">Fille[br]
 Viens, allons ailleurs. Allons dans un endroit plus tranquille où on pourra être seuls...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">Fille[br]
+<sn:pointer id="89" window="0" trigger="search">Fille[br]
 Je veux aller voir le combat du plus près possible... Ouais tellement proche que je puisse me faire éclabousser de sang !♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">Combattant[br]
+<sn:pointer id="90" window="0" trigger="search">Combattant[br]
 Il y a tellement de talentueux combattants aujourd'hui... L'équipe de capture des monstres a du pain sur la planche.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">Fille[br]
+<sn:pointer id="91" window="0" trigger="search">Fille[br]
 Je me demande où est allé papa...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">Homme[br]
+<sn:pointer id="92" window="0" trigger="search">Homme[br]
 Arf, ma vue est tellement mauvaise que j'ai du mal à voir ce qu'il se passe...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">Fille[br]
+<sn:pointer id="93" window="0" trigger="search">Fille[br]
 Les combattants des montagnes sont tellement cools et épatants♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">Combattant[br]
+<sn:pointer id="94" window="0" trigger="search">Combattant[br]
 Ça me gonfle de rester là à rien faire... Mais je n'ai aucune chance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:アシュレイ][br]
+<sn:pointer id="95" window="0" trigger="talk 9">[nick:アシュレイ][br]
 Mmmpf. Tous ces combattants nagent comme des enclumes.[page]
 [nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:アシュレイ][br]
+<sn:pointer id="96" window="0" trigger="talk 9">[nick:アシュレイ][br]
 Mmm[speed][0x5]?[speed][0x0] Je veux dire qu'ils se noient dans leur technique. Avec ça, jamais ils ne dépasseront la moyenne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:アシュレイ][br]
+<sn:pointer id="97" window="0" trigger="talk 9">[nick:アシュレイ][br]
 Finalement, ça servait pas à grand-chose de venir ici à pied[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">Commentateur[br]
+<sn:pointer id="98" window="0" trigger="start">Commentateur[br]
 Un nouveau combattant entre dans l'arène ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">[leader][end]</sn:pointer>
+<sn:pointer id="99" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="100">[memberD][page]
+<sn:pointer id="100" window="1" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">[end]</sn:pointer>
+<sn:pointer id="101" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="102">Commentateur[br]
+<sn:pointer id="102" window="0" trigger="start">Commentateur[br]
 Que le combat commence ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">[leader][end]</sn:pointer>
+<sn:pointer id="103" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="104">[memberD][page]
+<sn:pointer id="104" window="0" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">Commentateur[br]
+<sn:pointer id="105" window="0" trigger="start">Commentateur[br]
 C'est parti pour le second
 round.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">[leader][end]</sn:pointer>
+<sn:pointer id="106" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="107">[memberD][page]
+<sn:pointer id="107" window="0" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="108">Commentateur[br]
+<sn:pointer id="108" window="0" trigger="start">Commentateur[br]
 Et voici le troisième combat.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[leader][end]</sn:pointer>
+<sn:pointer id="109" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="110">[memberD][page]
+<sn:pointer id="110" window="0" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">Commentateur[br]
+<sn:pointer id="111" window="0" trigger="start">Commentateur[br]
 Enfin, le quatrième combat ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[leader][end]</sn:pointer>
+<sn:pointer id="112" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="113">[memberD][page]
+<sn:pointer id="113" window="0" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">Commentateur[br]
+<sn:pointer id="114" window="0" trigger="start">Commentateur[br]
 Le challengeur [nick:ラティ] a remporté 4 combats du rang [memberD] ! C'est parti pour le 5e et dernier affrontement ![page]
 Commentateur[br]
 Bonté divine ! On vient de sauter dans l'arène pour défier [nick:ラティ] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">NOUS AVONS UN NOUVEAU CHALLENGEUR ![page]
+<sn:pointer id="115" window="8" trigger="start">NOUS AVONS UN NOUVEAU CHALLENGEUR ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="116">???[br]
+<sn:pointer id="116" window="0" trigger="start">???[br]
 Mon sang bout quand je te vois combattre ! Je m'appelle [nick:ティニーク] Arcana. Et je te défie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="117">Commentateur[br]
+<sn:pointer id="117" window="0" trigger="start">Commentateur[br]
 Quel rebondissement ! [nick:ティニーク] est un lycanthrope ! La légende raconte qu'ils sont tous experts en arts martiaux ! Attention à toi, [nick:ラティ] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="118">Commentateur[br]
+<sn:pointer id="118" window="0" trigger="start">Commentateur[br]
 Et c'est parti pour le combat final ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">[leader][end]</sn:pointer>
+<sn:pointer id="119" window="1" trigger="start">[leader][end]</sn:pointer>
 
-<sn:pointer id="120">[memberD][page]
+<sn:pointer id="120" window="0" trigger="start">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="121">Commentateur[br]
+<sn:pointer id="121" window="1" trigger="start">Commentateur[br]
 Un nouveau vaillant combattant est né ! Tu t'es bien battu, et tu as la victoire la plus glorieuse du rang [memberD]. Je te félicite pour ton bon travail.[end]</sn:pointer>
 
-<sn:pointer id="122">[leader] !![page]
+<sn:pointer id="122" window="0" trigger="start">[leader] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="123">Commentateur[br]
+<sn:pointer id="123" window="0" trigger="start">Commentateur[br]
 Le prince royal [memberD] va à présent remettre au combattant le bouquet de la victoire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="124">Commentateur[br]
+<sn:pointer id="124" window="0" trigger="start">Commentateur[br]
 La princesse royale [memberD] va à présent remettre au combattant le bouquet de la victoire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="125">Commentateur[br]
+<sn:pointer id="125" window="1" trigger="start">Commentateur[br]
 Nous remettons également un prix à [leader] pour sa performance remarquable ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="126">[memberD] reçu.[page]
+<sn:pointer id="126" window="1" trigger="start">[memberD] reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="127">Commentateur[br]
+<sn:pointer id="127" window="1" trigger="start">Commentateur[br]
 Le vainqueur remporte le grimoire des 7 étoiles.[page]
 Vous avez appris 7 étoiles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="128">Commentateur[br]
+<sn:pointer id="128" unused="1">Commentateur[br]
 Applaudissons encore une dernière fois ce combattant exceptionnel ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="129">Commentateur[br]
+<sn:pointer id="129" unused="1">Commentateur[br]
 À bientôt ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="130">Commentateur[br]
+<sn:pointer id="130" unused="1">Commentateur[br]
 Oh non, [leader] est au tapis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="131">[nick:イリア][br]
+<sn:pointer id="131" unused="1">[nick:イリア][br]
 Il a une sacrée force... Mais se battre devant tant de monde, ça me gênerait un peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="132">[nick:ロニキス][br]
+<sn:pointer id="132" unused="1">[nick:ロニキス][br]
 Ouais, j'ai du mal à croire que les arènes existent encore...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="133">[nick:ミリー][br]
+<sn:pointer id="133" unused="1">[nick:ミリー][br]
 Whaaa[speed][0x5]...[speed][0x0] Ça, c'était impressionnant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="134">[nick:フィア][br]
+<sn:pointer id="134" unused="1">[nick:フィア][br]
 Seuls les véritables combattants méritent les vrais compliments. C'est la devise d'[color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="135">[nick:ヨシュア][br]
+<sn:pointer id="135" unused="1">[nick:ヨシュア][br]
 Existe-t-il une seule raison pour cautionner l'existence d'un tel lieu et d'une effusion de sang pareille[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="136">1. Pour devenir plus fort ?[br]
+<sn:pointer id="136" unused="1">1. Pour devenir plus fort ?[br]
 2. S'il en faut pour se battre...[br]
 3. Y'en a pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="137">[nick:ラティ][br]
+<sn:pointer id="137" unused="1">[nick:ラティ][br]
 Je ne pense pas que vouloir devenir plus fort soit une mauvaise chose[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
 Tu dois avoir raison[speed][0xa]...[speed][0x0] Mais toi, [nick:ラティ], pourquoi veux-tu devenir plus fort ?[page]
@@ -542,21 +542,21 @@ Hum, eh bien[speed][0xa]...[speed][0x0][page]
 C'est une question intime, je n'insiste pas. Mais je pense que c'est important de réfléchir aux raisons qui nous poussent à nous battre. Moi, je ne veux pas tuer sans raison, même un ennemi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="138">[nick:ヨシュア][br]
+<sn:pointer id="138" unused="1">[nick:ヨシュア][br]
 Si j'ai envie de devenir plus fort[speed][0xa]...[speed][0x0] C'est parce que cette voie est aussi celle qui me permettra de retrouver ma sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="139">[nick:マーヴェル][br]
+<sn:pointer id="139" unused="1">[nick:マーヴェル][br]
 Et si les mains de ta sœur se retrouvent maculées du sang de toutes ses victimes ? Que ferais-tu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="140">[nick:ヨシュア][br]
+<sn:pointer id="140" unused="1">[nick:ヨシュア][br]
 Elle ne ferait jamais une telle chose[speed][0xa]...[speed][0x0] Venant de quelqu'un qui ne l'a jamais rencontrée, c'est plutôt malvenu. Même si tu voulais simplement plaisanter, j'en suis vraiment choqué. Ne redis jamais une chose pareille.[page]
 [nick:マーヴェル][br]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="141">[nick:ラティ][br]
+<sn:pointer id="141" unused="1">[nick:ラティ][br]
 Pourquoi vouloir devenir plus fort ne serait pas une bonne raison ?[page]
 [nick:ヨシュア][br]
 Pourquoi veux-tu, toi, devenir plus fort ? C'est un bon sujet de réflexion. Si cette raison est creuse, ce qu'on fait, moi compris, n'est qu'un massacre.[page]
@@ -564,7 +564,7 @@ Pourquoi veux-tu, toi, devenir plus fort ? C'est un bon sujet de réflexion. Si 
 Je pense que tu n'as pas tort[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="142">[nick:ラティ][br]
+<sn:pointer id="142" unused="1">[nick:ラティ][br]
 Je ne pense pas qu'il faille vraiment de raisons pour se battre[speed][0xa]...[speed][0x0][page]
 [nick:ヨシュア][br]
 Aucune raison ? C'est vraiment ce que tu penses ? Ça ne te fait rien, à toi, de tuer un être vivant ?[page]
@@ -572,11 +572,11 @@ Aucune raison ? C'est vraiment ce que tu penses ? Ça ne te fait rien, à toi, d
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="143">[nick:ペリシー][br]
+<sn:pointer id="143" unused="1">[nick:ペリシー][br]
 Whaaaaa ! Moi aussi je veux une Arcane de chat !!!! J'en veux une ! J'en veux une !!!!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="144">[nick:ラティ][br]
+<sn:pointer id="144" unused="1">[nick:ラティ][br]
 Tu détestes vraiment ce genre d'endroit ?[page]
 [nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0] Non, pourquoi ?[page]
@@ -586,27 +586,27 @@ Parce que tu sembles soudain triste ou pas dans ton assiette[speed][0xa]...[spee
 Non, ça va. Désolée de te faire faire du souci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="145">[nick:シウス][br]
+<sn:pointer id="145" unused="1">[nick:シウス][br]
 Mais il a appris où à se battre, lui ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="146">[nick:シウス][br]
+<sn:pointer id="146" unused="1">[nick:シウス][br]
 Hé ! Crétin ! Tu sais pas comment attaquer ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="147">[nick:シウス][br]
+<sn:pointer id="147" unused="1">[nick:シウス][br]
 Que ce type est naze[speed][0xa] !![speed][0x0] Je ferais mieux de m'en charger moi-même ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="148">[nick:シウス][br]
+<sn:pointer id="148" unused="1">[nick:シウス][br]
 Mauviette ! Regarde, c'est comme ça qu'il faut faire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="149">[nick:シウス][br]
+<sn:pointer id="149" unused="1">[nick:シウス][br]
 Alors, c'était cool, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="150">Commentateur[br]
+<sn:pointer id="150" unused="1">Commentateur[br]
 Oh non, le nouveau challengeur a été jeté à terre ![page]
 [end]</sn:pointer>
 

@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア][br]
+<sn:pointer id="0" window="0" trigger="tile 64">[nick:イリア][br]
 Qu'est-ce que c'est ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ロニキス][br]
+<sn:pointer id="1" window="1" trigger="tile 64">[nick:ロニキス][br]
 Voilà d'autres trucs dégueu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア][br]
+<sn:pointer id="2" window="0" trigger="tile 64">[nick:イリア][br]
 À quoi est-ce que ça peut bien servir ?[page]
 [nick:ラティ][br]
 J'ai vu beaucoup de ces monstres auparavant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー][br]
+<sn:pointer id="3" window="0" trigger="tile 64">[nick:ミリー][br]
 HAAAA ! C'est[speed][0xa]...[speed][0x0] Vivant ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア][br]
+<sn:pointer id="4" window="0" trigger="tile 65">[nick:イリア][br]
 Ça doit être une sorte de laboratoire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア][br]
+<sn:pointer id="5" window="0" trigger="tile 65">[nick:イリア][br]
 Je me demande si on peut accéder à leurs données.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[mode8][0x20][color][0x3]CECI EST UN LABORATOIRE
+<sn:pointer id="6" window="8" trigger="tile 65">[mode8][0x20][color][0x3]CECI EST UN LABORATOIRE
 DE RECHERCHE SPATIO-TEMPORELLE.
 QUE VOULEZ-VOUS ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[mode8][0x0][nick:イリア][br]
+<sn:pointer id="7" window="0" trigger="tile 65">[mode8][0x0][nick:イリア][br]
 Un laboratoire spatio-temporel ?
 Pourquoi implanter une telle installation
 dans un endroit pareil ?[page]
@@ -41,111 +41,111 @@ d'endroit que les monstres pourraient
 utiliser pour envahir le monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[mode8][0x20]CONNEXION.[page]
+<sn:pointer id="8" window="8" trigger="tile 65">[mode8][0x20]CONNEXION.[page]
 [color][0x3]À QUOI SE CONNECTER ?[page]
 [color][0x2]&gt;&gt; BASE DE DONNÉES.[page]
 [color][0x3]ACCÈS AUTORISÉ. QUEL EST VOTRE IDENTIFIANT ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[mode8][0x0][nick:イリア][br]
+<sn:pointer id="9" window="0" trigger="tile 65">[mode8][0x0][nick:イリア][br]
 Mon identifiant ?[page]
 [nick:ロニキス][br]
 Essaie "Asmodeus".[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[mode8][0x20]&gt;&gt; ASMODEUS.[page]
+<sn:pointer id="10" window="8" trigger="tile 65">[mode8][0x20]&gt;&gt; ASMODEUS.[page]
 [color][0x3]IDENTIFIANT ACCEPTÉ. ENTREZ VOTRE MOT DE PASSE.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[mode8][0x0][nick:ロニキス][br]
+<sn:pointer id="11" window="0" trigger="tile 65">[mode8][0x0][nick:ロニキス][br]
 On dirait que j'avais raison ![page]
 [nick:イリア][br]
 Oui, mais on a fait le plus simple.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[mode8][0x20]&gt;&gt; ******[page]
+<sn:pointer id="12" window="8" trigger="tile 65">[mode8][0x20]&gt;&gt; ******[page]
 [color][0x3]CODE INCORRECT !
 ENTREZ VOTRE MOT DE PASSE.[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[mode8][0x0][nick:イリア][br]
+<sn:pointer id="13" window="0" trigger="tile 65">[mode8][0x0][nick:イリア][br]
 Comme prévu, ça ne marche pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[mode8][0x20][color][0x3]LE DÉLAI EST ÉCOULÉ. ALERTE ![page]
+<sn:pointer id="14" window="8" trigger="tile 65">[mode8][0x20][color][0x3]LE DÉLAI EST ÉCOULÉ. ALERTE ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[mode8][0x0][nick:イリア][br]
+<sn:pointer id="15" window="0" trigger="tile 65">[mode8][0x0][nick:イリア][br]
 Un délai ?
 Oh non ! Le système de sécurité s'est activé ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">???[br]
+<sn:pointer id="16" window="0" trigger="tile 65">???[br]
 Vous ?! Mais qu'est-ce que vous faites ici ?[page]
 [nick:ラティ][br]
 On est venus s'occuper de vous et d'Asmodeus
 une bonne fois pour toutes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">???[br]
+<sn:pointer id="17" window="0" trigger="tile 65">???[br]
 Tsss ! C'est fort présomptueux de la part de
 quelqu'un qui ne sait même pas à quoi
 ressemble Asmodeus ![page]
 Je [speed][0xa]suis[speed][0x0] Asmodeus ![page][end]</sn:pointer>
 
-<sn:pointer id="18">Asmodeus[br]
+<sn:pointer id="18" window="0" trigger="tile 65">Asmodeus[br]
 À moins que tu penses pouvoir le trouver dans les parties
 les plus éloignées du bâtiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Asmodeus[br]
+<sn:pointer id="19" window="0" trigger="tile 65">Asmodeus[br]
 Hé, vous ! Occupez-vous d'eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ][br]
+<sn:pointer id="20" window="0" trigger="tile 65">[nick:ラティ][br]
 Il est parti[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">???[br]
+<sn:pointer id="21" window="0" trigger="tile 66">???[br]
 Finissons-en avec lui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ][br]
+<sn:pointer id="22" window="0" trigger="tile 66">[nick:ラティ][br]
 Attendez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">???[br]
+<sn:pointer id="23" window="0" trigger="tile 66">???[br]
 Notre mission était de ramener un peu de son sang,
 pas d'y laisser notre peau ! Fichons le camp ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ][br]
+<sn:pointer id="24" window="0" trigger="tile 66">[nick:ラティ][br]
 Ils ont disparu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア][br]
+<sn:pointer id="25" window="0" trigger="tile 66">[nick:イリア][br]
 Ils sont partis[speed][0xa]...[speed][0x0]
 On ne pouvait rien faire. C'était impossible de les arrêter, car
 le vol du virus était prédestiné.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Asmodeus[br]
+<sn:pointer id="26" window="0" trigger="tile 66">Asmodeus[br]
 Ha[speed][0xa],[speed][0x0] misérables insectes !
 Vous ne partirez pas d'ici vivants ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー][br]
+<sn:pointer id="27" window="0" trigger="tile 66">[nick:ミリー][br]
 [speed][0xa]...[speed][0x0]On l'a vaincu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア][br]
+<sn:pointer id="28" window="0" trigger="tile 66">[nick:イリア][br]
 Oui[speed][0xa]...[speed][0x0] On va prendre un peu de son sang.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Gremlins appris.[page]
+<sn:pointer id="29" window="0" trigger="talk 60">Gremlins appris.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[center]Laboratoire spatio-temporel[page]
+<sn:pointer id="30" window="speaker" trigger="start">[center]Laboratoire spatio-temporel[page]
 [end]</sn:pointer>
 
 </sn:script>

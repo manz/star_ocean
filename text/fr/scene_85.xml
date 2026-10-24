@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Entrée de l'arène de Tatroï[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Entrée de l'arène de Tatroï[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Information 1[br]
+<sn:pointer id="1" window="0" trigger="talk 16">Information 1[br]
 Aucune condition pour participer. Lors du combat, vous pouvez
 utiliser vos sorts, vos armes ou vos seules mains ! Les participants peuvent
 choisir le niveau de leurs adversaires qui vont du rang H, le plus facile,
@@ -11,93 +11,93 @@ au rang A, le plus dur. Vous gagnez si vous battez 5 adversaires et vos gains
 seront basés sur vos talents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Information 2[br]
+<sn:pointer id="2" window="0" trigger="talk 17">Information 2[br]
 Avant un combat, nous gardons vos provisions et vos potions, mais en échange
 nous vous fournirons quelques soins à utiliser pendant vos matchs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Information 3[br]
+<sn:pointer id="3" window="0" trigger="talk 18">Information 3[br]
 Ceux qui arrivent au stade de champions de rang A peuvent revenir
 affronter les combattants de rang A n'importe quand.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Information 4[br]
+<sn:pointer id="4" window="0" trigger="talk 19">Information 4[br]
 Cette entrée est réservée aux combattants.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Information 4[br]
+<sn:pointer id="5" choice="yes-no" window="1" trigger="talk 19">Information 4[br]
 Voulez-vous participer à un match ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[leader][end]</sn:pointer>
+<sn:pointer id="6" window="1" trigger="talk 19">[leader][end]</sn:pointer>
 
-<sn:pointer id="7">[memberD][page]
+<sn:pointer id="7" window="1" trigger="talk 19">[memberD][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="10">Guerrier A[br]
+<sn:pointer id="10" window="0" trigger="talk 20">Guerrier A[br]
 J'ai finalement atteint le rang D, mais aucune de mes attaques
 n'arrive à effleurer les ennemis de rang supérieur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Guerrier B[br]
+<sn:pointer id="11" window="0" trigger="talk 21">Guerrier B[br]
 Se dédoubler, c'est de la triche, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Guerrier C[br]
+<sn:pointer id="12" window="0" trigger="talk 22">Guerrier C[br]
 Pathétique ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Femme[br]
+<sn:pointer id="13" window="0" trigger="talk 23">Femme[br]
 Vous allez participer, vous aussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Aventurier[br]
+<sn:pointer id="14" window="0" trigger="talk 24">Aventurier[br]
 Il paraît qu'ils ont un groupe d'aventuriers spécialisé dans la capture
 de monstres qu'ils utilisent dans les combats. Ils les capturent vivants[speed][0xa]...[speed][0x0]
 Ces types-là doivent être vraiment costauds ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Fille[br]
+<sn:pointer id="15" window="0" trigger="talk 25">Fille[br]
 Toutes les filles espèrent remettre le bouquet de fleurs au gagnant ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Information 4[br]
+<sn:pointer id="16" window="1" trigger="talk 19">Information 4[br]
 Qui veut participer ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[page]
+<sn:pointer id="17" choice="dynamic" window="1" trigger="talk 19">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[leader] veut[end]</sn:pointer>
+<sn:pointer id="18" window="1" trigger="talk 19">[leader] veut[end]</sn:pointer>
 
-<sn:pointer id="19">combattre en rang [memberD].[page]
+<sn:pointer id="19" window="0" trigger="talk 19">combattre en rang [memberD].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="21">[pos][0x0][0x0]1. [leader][end]</sn:pointer>
+<sn:pointer id="21" window="1" trigger="talk 19">[pos][0x0][0x0]1. [leader][end]</sn:pointer>
 
-<sn:pointer id="22">[pos][0x0][0x10]2. [leader][end]</sn:pointer>
+<sn:pointer id="22" window="1" trigger="talk 19">[pos][0x0][0x10]2. [leader][end]</sn:pointer>
 
-<sn:pointer id="23">[pos][0x0][0x20]3. [leader][end]</sn:pointer>
+<sn:pointer id="23" window="1" trigger="talk 19">[pos][0x0][0x20]3. [leader][end]</sn:pointer>
 
-<sn:pointer id="24">[pos][0x0][0x30]4. [leader][end]</sn:pointer>
+<sn:pointer id="24" window="1" trigger="talk 19">[pos][0x0][0x30]4. [leader][end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア][br]
+<sn:pointer id="25" window="1" trigger="start">[nick:イリア][br]
 Félicitations, [nick:ラティ] ![page]
 [nick:ラティ][br]
 Merci, mais qui est le type qui est intervenu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:イリア][br]
+<sn:pointer id="26" window="0" trigger="start">[nick:イリア][br]
 Je n'en ai pas la moindre idée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ][br]
+<sn:pointer id="27" window="1" trigger="start">[nick:ラティ][br]
 Toi ![page]
 [nick:ティニーク][br]
 Waah ! Quelle force ! S'il te plaît, je peux venir avec toi ?
@@ -106,18 +106,18 @@ C'est le rêve de ma vie ![page]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">1. Ça me va.[br]
+<sn:pointer id="28" choice="2" window="1" trigger="start">1. Ça me va.[br]
 2. Sans façon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ][br]
+<sn:pointer id="29" window="0" trigger="start">[nick:ラティ][br]
 Je me sentirai plus en sécurité
 si tu es à nos côtés.[page]
 [nick:ティニーク][br]
 Vraiment ? Je t'en dois une ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ラティ][br]
+<sn:pointer id="30" window="0" trigger="start">[nick:ラティ][br]
 Désolé, mais[speed][0xa]...[speed][0x0][page]
 [nick:ティニーク][br]
 Je vois[speed][0xa]...[speed][0x0]

@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x50][0x0]食料品店[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x50][0x0]食料品店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x5c][0x0]民家[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x5c][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x5c][0x0]民家[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x5c][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x5c][0x0]酒場[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x5c][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">男「そろそろ潮時かなあ[speed][0x5]・・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="talk 16">男「そろそろ潮時かなあ[speed][0x5]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">おじさん「なんかいい武器がほしいなら[color][0x4]シルヴァラント[color][0x2]まで足のばした方が早いぞ。[page]
+<sn:pointer id="8" window="0" trigger="talk 17">おじさん「なんかいい武器がほしいなら[color][0x4]シルヴァラント[color][0x2]まで足のばした方が早いぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">婦人「魔物との戦いが激しくなるに連れて、この村も人が一人減り、二人減り[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="talk 18">婦人「魔物との戦いが激しくなるに連れて、この村も人が一人減り、二人減り[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">おばさん「ここから北にいけばシルヴァラントにつきますよ。[page]
+<sn:pointer id="10" window="0" trigger="talk 19">おばさん「ここから北にいけばシルヴァラントにつきますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">宿屋のお爺さん「よく眠れたかい？[page]
+<sn:pointer id="11" window="0" trigger="talk 20">宿屋のお爺さん「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">宿屋のお爺さん「いらっしゃい。
+<sn:pointer id="12" choice="yes-no" window="1" trigger="talk 20">宿屋のお爺さん「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="14">お金が足りません。[page]
+<sn:pointer id="14" window="0" trigger="talk 20">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="16">食べ物屋テムジン「いらっしゃい。[page]
+<sn:pointer id="16" window="0" trigger="talk 21">食べ物屋テムジン「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">マスター「いらっしゃい。[page]
+<sn:pointer id="17" window="0" trigger="talk 22">マスター「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">レミアの母親「うちの娘は、雪だるまを作るのが上手いのよ。[page]
+<sn:pointer id="18" window="0" trigger="talk 23">レミアの母親「うちの娘は、雪だるまを作るのが上手いのよ。[page]
 [end]</sn:pointer>
 
 </sn:script>

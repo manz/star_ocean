@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Portes de Moore[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Portes de Moore[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Garde[br]
+<sn:pointer id="1" window="0" trigger="talk 16">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16">Garde[br]
 Ha, j'crois qu'ça va pas être possible !
 Z'avez rien à faire ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Garde[br]
+<sn:pointer id="3" window="0" trigger="talk 17">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Garde[br]
+<sn:pointer id="4" window="0" trigger="talk 17">Garde[br]
 Ha, j'crois qu'ça va pas être possible !
 Z'avez rien à faire ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Chancelier Bolc[br]
+<sn:pointer id="5" window="0" trigger="start">Chancelier Bolc[br]
 Vous que le roi de Van a chargés de chercher l'[color][0x6]Œil de la Vérité[color][0x2], j'ai une faveur à vous demander.
 M'écouterez-vous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:イリア][br]
+<sn:pointer id="6" window="1" trigger="start">[nick:イリア][br]
 Pourquoi pas ?[page]
 [nick:ラティ][br]
 Ouais, c'est bon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Chancelier Bolc[br]
+<sn:pointer id="7" window="0" trigger="start">Chancelier Bolc[br]
 Merci. Si vous voulez bien vous donner la peine d'entrer[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ロニキス][br]
+<sn:pointer id="8" unused="1">[nick:ロニキス][br]
 Nous souhaiterions une audience auprès du roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Garde[br]
+<sn:pointer id="9" unused="1">Garde[br]
 Voici l'emblème de Van[speed][0xa]...[speed][0x0]
 Attendez un instant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Chancelier[br]
+<sn:pointer id="10" unused="1">Chancelier[br]
 Par ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ][br]
 Qu'est-ce que tu fiches là ?[page]
 [nick:ペリシー][br]
 J'ai entendu les gardes dire qu'il y avait un énoooooorme trésor ici ![page]
@@ -65,54 +65,54 @@ Ben on y va♥[page]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ペリシー][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:ペリシー][br]
 Tu es là, [nick:ラティ] ?! Alors, on peut se comporter comme prince et princesse ![page]
 [nick:ラティ][br]
 Hé ! C'est illégal de piquer dans la caisse ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="1" trigger="start">[nick:ラティ][br]
 Hourra, la princesse est fauchée ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ペリシー][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:ペリシー][br]
 Mais je suis si pauvre ! Je n'ai plus un centime.[page]
 [nick:ラティ][br]
 [speed][0xa]...[speed][0x0]Argh ! On dirait un numéro de comiques ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:ラティ][br]
 Bon ça suffit, on y va ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ペリシー][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:ペリシー][br]
 Nooon !!
 Mooon préééécieuuuuuuuuuux !!!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ペリシー][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:ペリシー][br]
 [nick:ラティ], tu[speed][0xa]...[speed][0x1e][speed][0x0] Tu me détestes, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">1. Pourquoi dis-tu ça ?![br]
+<sn:pointer id="18" choice="2" window="1" trigger="start">1. Pourquoi dis-tu ça ?![br]
 2. Bon, juste un peu, alors[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ][br]
+<sn:pointer id="19" window="0" trigger="start">[nick:ラティ][br]
 Ce n'est pas le fait de t'aimer ou non, c'est juste qu'il y a des choses qui ne se font pas. Compris ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ペリシー][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ペリシー][br]
 Bon[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ][br]
+<sn:pointer id="21" window="0" trigger="start">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]Oh, d'accord[speed][0xa]...[speed][0x0][page]
 [nick:ペリシー][br]
 Yeah ! T'es le meilleur, [nick:ラティ] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ペリシー][br]
+<sn:pointer id="22" window="0" trigger="talk 10">[nick:ペリシー][br]
 T'es un sacré rapace, [nick:ラティ] ![page]
 [end]</sn:pointer>
 

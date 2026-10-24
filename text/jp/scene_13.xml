@@ -1,272 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[speed][0x2][nick:ラティ]「ゆかが動いている[speed][0xf]・・・[speed][0x2]！[page]
+<sn:pointer id="0" window="0" trigger="start">[speed][0x2][nick:ラティ]「ゆかが動いている[speed][0xf]・・・[speed][0x2]！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ミリー]「さっきは、ドアがかってに開いたし・・。[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:ミリー]「さっきは、ドアがかってに開いたし・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ラティ]「すごい・・・。
+<sn:pointer id="2" window="0" trigger="start">[nick:ラティ]「すごい・・・。
 見たことないものばかりだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[speed][0x2][nick:ロニキス]「そう言えば、君たちの名前をまだ聞いてなかったな。[page]
+<sn:pointer id="3" window="0" trigger="start">[speed][0x2][nick:ロニキス]「そう言えば、君たちの名前をまだ聞いてなかったな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]「[name:ラティクス]＝ファーレンスです。
+<sn:pointer id="4" window="0" trigger="start">[nick:ラティ]「[name:ラティクス]＝ファーレンスです。
 [nick:ミリー]「[nick:ミリー]＝キリートです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ドーン]「[speed][0x14]・・・[speed][0x2][nick:ドーン][speed][0x1e]・[speed][0x2]マルトー[speed][0x14]・・・。[speed][0x2][page]
+<sn:pointer id="5" window="0" trigger="start">[nick:ドーン]「[speed][0x14]・・・[speed][0x2][nick:ドーン][speed][0x1e]・[speed][0x2]マルトー[speed][0x14]・・・。[speed][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:イリア]「艦長、彼の症状が悪化しています。[page]
+<sn:pointer id="6" window="0" trigger="start">[nick:イリア]「艦長、彼の症状が悪化しています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]「うむ、急ごう[speed][0x0]。[page]
+<sn:pointer id="7" window="0" trigger="start">[nick:ロニキス]「うむ、急ごう[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ロニキス]「もたもたしているヒマはない。整備士どもが気づく前に艦橋に行くぞ。[page]
+<sn:pointer id="8" window="0" trigger="start">[nick:ロニキス]「もたもたしているヒマはない。整備士どもが気づく前に艦橋に行くぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x20][0x0]カルナス戦艦士官部屋[page]
+<sn:pointer id="9" window="speaker" trigger="start">[pos][0x20][0x0]カルナス戦艦士官部屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x20][0x0]カルナス戦艦士官部屋[page]
+<sn:pointer id="10" window="speaker" trigger="start">[pos][0x20][0x0]カルナス戦艦士官部屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:イリア]「ここはリフレッシュルームよ。
+<sn:pointer id="11" window="0" trigger="start">[nick:イリア]「ここはリフレッシュルームよ。
 イメージしたヴァーチャル空間を体験できるの。ここでは、みんな故郷を思い出すの。[page]
 [nick:イリア]「[nick:ラティ]もやってみれば？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]「あきたら私に言ってね。[page]
+<sn:pointer id="12" window="0" trigger="start">[nick:イリア]「あきたら私に言ってね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">整備士「艦長、発艦命令は聞いておりませんが？[page]
+<sn:pointer id="13" window="0" trigger="start">整備士「艦長、発艦命令は聞いておりませんが？[page]
 [nick:ロニキス]「話は私が聞いている。
 かまわん、通せ。[page]
 整備士「はっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">乗組員「艦の航行には支障はありません。[page]
+<sn:pointer id="14" window="0" trigger="talk 16">乗組員「艦の航行には支障はありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">乗組員「今話しかけないでくれる？[page]
+<sn:pointer id="15" window="0" trigger="talk 16">乗組員「今話しかけないでくれる？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">乗組員「一体なにごとだ！[page]
+<sn:pointer id="16" window="0" trigger="talk 17">乗組員「一体なにごとだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">乗組員「異常無しっと。ん？君たちか、ロークから来たというのは。[page]
+<sn:pointer id="17" window="0" trigger="talk 17">乗組員「異常無しっと。ん？君たちか、ロークから来たというのは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">女「保安部員へ！転送室に至急行ってください。[page]
+<sn:pointer id="18" window="0" trigger="talk 18">女「保安部員へ！転送室に至急行ってください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">女「見た目はあまり私たちと変わらないわね。[page]
+<sn:pointer id="19" window="0" trigger="talk 18">女「見た目はあまり私たちと変わらないわね。[page]
 [nick:ラティ]「しっぽがないと動きづらくないですか？[page]
 女「そういうことは考えたこともなかったわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">女「未確認生物、データバンクに登録します。[page]
+<sn:pointer id="20" window="0" trigger="talk 19">女「未確認生物、データバンクに登録します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">女「かわいい♥[speed][0x14]
+<sn:pointer id="21" window="0" trigger="talk 19">女「かわいい♥[speed][0x14]
 [speed][0x0]そのしっぽ本物？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ロニキス]「もう全部見て回ったのか？[page]
+<sn:pointer id="22" window="0" trigger="talk 20">[nick:ロニキス]「もう全部見て回ったのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア]「もうあきた？[page]
+<sn:pointer id="23" choice="yes-no" window="1" trigger="talk 21">[nick:イリア]「もうあきた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="25">[end]</sn:pointer>
+<sn:pointer id="25" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="26">男「ん？なにかあったのか？[page]
+<sn:pointer id="26" window="0" trigger="talk 22">男「ん？なにかあったのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">男「今、宇宙物理学を勉強中なんだ。[page]
+<sn:pointer id="27" window="0" trigger="talk 22">男「今、宇宙物理学を勉強中なんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[pos][0x32][0x0]エレベーターポット[page]
+<sn:pointer id="28" choice="1" window="speaker" trigger="tile 12">[pos][0x32][0x0]エレベーターポット[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[pos][0x32][0x0]エレベーターポット[page]
+<sn:pointer id="29" choice="1" window="speaker" trigger="tile 13">[pos][0x32][0x0]エレベーターポット[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:イリア]「ここはカルナスの出入り口よ。[page]
+<sn:pointer id="30" window="0" trigger="tile 21">[nick:イリア]「ここはカルナスの出入り口よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ロニキス]「[nick:イリア]、[nick:ラティ]たちをメディカルセンターに連れて行ってくれ。私も行く。[page]
+<sn:pointer id="31" window="8" trigger="tile 21">[nick:ロニキス]「[nick:イリア]、[nick:ラティ]たちをメディカルセンターに連れて行ってくれ。私も行く。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:イリア]「わかりました。[page]
+<sn:pointer id="32" window="0" trigger="tile 21">[nick:イリア]「わかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]「今、どこから聞こえたんですか？[page]
+<sn:pointer id="33" window="0" trigger="tile 21">[nick:ラティ]「今、どこから聞こえたんですか？[page]
 [nick:イリア]「私たちはコミュニケーターというものを使って遠くにいる人といつでも話すことができるのよ。[page]
 [nick:イリア]「とりあえず、ドクターが
 私たちを呼んでいるみたいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ミリー]「治ったんですか？[page]
+<sn:pointer id="34" window="0" trigger="tile 21">[nick:ミリー]「治ったんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア]「わからないわ。[page]
+<sn:pointer id="35" window="0" trigger="tile 21">[nick:イリア]「わからないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ロニキス]「[nick:ラティ]、転送デッキへ急ごう！[page]
+<sn:pointer id="36" window="0" trigger="tile 22">[nick:ロニキス]「[nick:ラティ]、転送デッキへ急ごう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">リフレッシュしますか？[page]
+<sn:pointer id="37" choice="yes-no" window="1" trigger="tile 22">リフレッシュしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[end]</sn:pointer>
+<sn:pointer id="38" window="0" trigger="tile 22">[end]</sn:pointer>
 
-<sn:pointer id="39">[end]</sn:pointer>
+<sn:pointer id="39" window="0" trigger="tile 22">[end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ロニキス]「もたもたしてるヒマはない。整備士どもが気づく前に艦橋に行くぞ。[page]
+<sn:pointer id="40" window="0" trigger="tile 23">[nick:ロニキス]「もたもたしてるヒマはない。整備士どもが気づく前に艦橋に行くぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ミリー]「ここは出口よ、今は外に出られないみたいね。[page]
+<sn:pointer id="41" window="0" trigger="tile 23">[nick:ミリー]「ここは出口よ、今は外に出られないみたいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:イリア]「左右にある丸いゆかが、
+<sn:pointer id="42" window="0" trigger="tile 31">[nick:イリア]「左右にある丸いゆかが、
 エレベーターポットよ。[page]
 [nick:ラティ]「エレベーターポット？[page]
 [nick:イリア]「これを使ってフロアを移動するの。
 左は艦橋へ、右は複数のフロアを移動できるわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ロニキス]「おお、来たか。話は[nick:イリア]から聞いてくれ。[page]
+<sn:pointer id="43" window="0" trigger="start">[nick:ロニキス]「おお、来たか。話は[nick:イリア]から聞いてくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:イリア]「以前に探査した時の人口と人型の石像の数を比較したら、2000万人分ぐらい石像が少ないわ。
+<sn:pointer id="44" window="0" trigger="start">[nick:イリア]「以前に探査した時の人口と人型の石像の数を比較したら、2000万人分ぐらい石像が少ないわ。
 我々に見つからないようにどうやって持っていったのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]「じゃあ、やっぱり[speed][0xf]・・・。[speed][0x0][page]
+<sn:pointer id="45" window="0" trigger="start">[nick:ラティ]「じゃあ、やっぱり[speed][0xf]・・・。[speed][0x0][page]
 [nick:イリア]「まだ兵器と決まったわけじゃないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ロニキス]「だが、奴らが平和利用するとはとても思えんがな。[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:ロニキス]「だが、奴らが平和利用するとはとても思えんがな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ロニキス]「すまん。[speed][0x14]
+<sn:pointer id="47" window="0" trigger="start">[nick:ロニキス]「すまん。[speed][0x14]
 [speed][0x0]ところで、我々は地球に向かうことになった。外交官を通して、なんとかレゾニアに宿主生物を渡してもらうつもりだ。まあ、法外な要求をされるのは目に見えているけどな。君たちにも一緒に報告をしてもらいたいので、同行してもらう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">ドクター「艦長、[nick:ドーン]君の容態が・・・。[page]
+<sn:pointer id="48" window="8" trigger="start">ドクター「艦長、[nick:ドーン]君の容態が・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ロニキス]「すぐに行く。[page]
+<sn:pointer id="49" window="0" trigger="start">[nick:ロニキス]「すぐに行く。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ミリー]「私も行きます。[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:ミリー]「私も行きます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[pos][0x2c][0x0]カルナス戦艦ブリッジ[page]
+<sn:pointer id="51" window="speaker" trigger="start">[pos][0x2c][0x0]カルナス戦艦ブリッジ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ロニキス]「これから地球という惑星に向かう。部屋は用意したので、そこで休むといい。[page]
+<sn:pointer id="52" window="0" trigger="start">[nick:ロニキス]「これから地球という惑星に向かう。部屋は用意したので、そこで休むといい。[page]
 [nick:ラティ]「はい、ありがとうございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">操舵士「セクターアルファのポイント001マーク269、ワープ6で発進します。[page]
+<sn:pointer id="53" window="0" trigger="start">操舵士「セクターアルファのポイント001マーク269、ワープ6で発進します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]「[nick:ミリー]、見てごらんきれいだよ。[page]
+<sn:pointer id="54" window="0" trigger="start">[nick:ラティ]「[nick:ミリー]、見てごらんきれいだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]「きれい[speed][0xa]・・・・・。[speed][0x0][page]
+<sn:pointer id="55" window="0" trigger="start">[nick:ミリー]「きれい[speed][0xa]・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ミリー]「[speed][0xa]星の海[speed][0x7]みたいね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="56" window="0" trigger="start">[nick:ミリー]「[speed][0xa]星の海[speed][0x7]みたいね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ロニキス]「これから我々は周回軌道に入り、地球連邦本部に向かう。[page]
+<sn:pointer id="57" window="0" trigger="start">[nick:ロニキス]「これから我々は周回軌道に入り、地球連邦本部に向かう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:ラティ]「なにか迫ってきます！！[page]
+<sn:pointer id="58" window="0" trigger="start">[nick:ラティ]「なにか迫ってきます！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ミリー]「なに？あれは！！[page]
+<sn:pointer id="59" window="0" trigger="start">[nick:ミリー]「なに？あれは！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:イリア]「どこに？何を言ってるの？[page]
+<sn:pointer id="60" window="0" trigger="start">[nick:イリア]「どこに？何を言ってるの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:ロニキス]「なんだ？いきなり現れたぞ？！空間転移か？！[page]
+<sn:pointer id="61" window="0" trigger="start">[nick:ロニキス]「なんだ？いきなり現れたぞ？！空間転移か？！[page]
 科学士官「違うようです！事前に重力振は発見できませんでした。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]だから何か来るって[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="62" window="1" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]だから何か来るって[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:イリア]「そういえば、
+<sn:pointer id="63" window="0" trigger="start">[nick:イリア]「そういえば、
 [nick:ラティ]たちには見えてたの？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:イリア]「[speed][0x1]不可視物質！！[speed][0x0][page]
+<sn:pointer id="64" window="1" trigger="start">[nick:イリア]「[speed][0x1]不可視物質！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ロニキス]「あの艦がか？！[page]
+<sn:pointer id="65" window="0" trigger="start">[nick:ロニキス]「あの艦がか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">通信士官「艦長！突如出現した未確認航宙艦から通信が入っています！！[page]
+<sn:pointer id="66" window="0" trigger="start">通信士官「艦長！突如出現した未確認航宙艦から通信が入っています！！[page]
 [nick:ロニキス]「聞かせろ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">「我々はレゾニアより使節として訪れた。我々に戦闘の意思は無い。繰り返す[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="67" window="8" trigger="start">「我々はレゾニアより使節として訪れた。我々に戦闘の意思は無い。繰り返す[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:イリア]「大丈夫です。
+<sn:pointer id="68" window="1" trigger="start">[nick:イリア]「大丈夫です。
 艦長、すぐに発艦できます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ロニキス]「よし、昇降ハッチを閉鎮しろ。[page]
+<sn:pointer id="69" window="0" trigger="start">[nick:ロニキス]「よし、昇降ハッチを閉鎮しろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ラティ]「二人で大丈夫なんですか？[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:ラティ]「二人で大丈夫なんですか？[page]
 [nick:ロニキス]「ああ、コンピュータがあるからね。[page]
 [nick:ラティ]「コンピュータ？[page]
 [nick:ロニキス]「うーん。説明が難しいが、キカイがいろいろ手伝ってくれるのさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ロニキス]「さて、発艦するか・・・。[page]
+<sn:pointer id="71" window="0" trigger="start">[nick:ロニキス]「さて、発艦するか・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:イリア]「でも、惑星ストリームだなんて[speed][0xa]・・・・・。[speed][0x0]間違いなく軍法会議ものですよ？！[page]
+<sn:pointer id="72" window="0" trigger="start">[nick:イリア]「でも、惑星ストリームだなんて[speed][0xa]・・・・・。[speed][0x0]間違いなく軍法会議ものですよ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ロニキス]「下手すれば一生強制労働だな。だが、もう後には引けん。[page]
+<sn:pointer id="73" window="0" trigger="start">[nick:ロニキス]「下手すれば一生強制労働だな。だが、もう後には引けん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:イリア]「艦長のような上官を持って私は不幸ですわ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="74" window="0" trigger="start">[nick:イリア]「艦長のような上官を持って私は不幸ですわ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="75" window="1" trigger="start">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:イリア]「あなたが謝らなくてもいいのよ。不幸だ[speed][0xa]・・・[speed][0x0]とは言ってみてもストリームに行くのを渋っているわけじゃないんだから。[page]
+<sn:pointer id="76" window="0" trigger="start">[nick:イリア]「あなたが謝らなくてもいいのよ。不幸だ[speed][0xa]・・・[speed][0x0]とは言ってみてもストリームに行くのを渋っているわけじゃないんだから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:イリア]「私は艦長についていきます。だから艦長は私を正しい方向に導いて下さい[speed][0xa]、[speed][0x0]ね？[page]
+<sn:pointer id="77" window="0" trigger="start">[nick:イリア]「私は艦長についていきます。だから艦長は私を正しい方向に導いて下さい[speed][0xa]、[speed][0x0]ね？[page]
 [nick:ロニキス]「む[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ラティ]「ところで、惑星ストリームって
+<sn:pointer id="78" window="0" trigger="start">[nick:ラティ]「ところで、惑星ストリームって
 いったい何なんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:イリア]「私たちにもよく分かっていないの。[page]
+<sn:pointer id="79" window="0" trigger="start">[nick:イリア]「私たちにもよく分かっていないの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ロニキス]「我々が、以前深宇宙探査を行っているときに偶然発見したんだ。[page]
+<sn:pointer id="80" window="0" trigger="start">[nick:ロニキス]「我々が、以前深宇宙探査を行っているときに偶然発見したんだ。[page]
 [nick:イリア]「ストリームは私たちが宇宙に出る以前に超高度な文明をもっていたと言われているわ。[page]
 [nick:イリア]「でも、実際にはなにもわかっていないの。[page]
 [nick:ラティ]「そこに何があるんですか？[page]
@@ -274,57 +274,57 @@
 [nick:イリア]「タイムゲートの仕組みも私たちにはまだ、解明できていなくて、それで立入禁止になっているのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:イリア]「まもなく惑星ストリームの軌道上に突入します。[page]
+<sn:pointer id="81" window="0" trigger="start">[nick:イリア]「まもなく惑星ストリームの軌道上に突入します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ロニキス]「うむ。[page]
+<sn:pointer id="82" window="0" trigger="start">[nick:ロニキス]「うむ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[mode8][0x20][nick:イリア]
+<sn:pointer id="83" window="8" trigger="start">[mode8][0x20][nick:イリア]
 （生ける門[speed][0xa]・・・[speed][0x0]“タイムゲートの守護者”は私たちを曼け入れてくれるのかしら[speed][0xa]・・・[speed][0x0]？）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[pos][0x2c][0x0]カルナス戦艦ブリッジ[page]
+<sn:pointer id="84" window="speaker" trigger="start">[pos][0x2c][0x0]カルナス戦艦ブリッジ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:イリア]「どうでした？[page]
+<sn:pointer id="85" window="0" trigger="start">[nick:イリア]「どうでした？[page]
 [nick:ロニキス]「どうやら再び彼らの力を借りなければならないようだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:シウス]「よう！[page]
+<sn:pointer id="86" window="1" trigger="start">[nick:シウス]「よう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:アシュレイ]「久しぶりじゃの。精進は怠っておらんじゃろうな？[page]
+<sn:pointer id="87" window="1" trigger="start">[nick:アシュレイ]「久しぶりじゃの。精進は怠っておらんじゃろうな？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:ヨシュア]「[nick:ラティ]さん、それに[nick:ミリー]も。元気そうでなによりです。[page]
+<sn:pointer id="88" window="1" trigger="start">[nick:ヨシュア]「[nick:ラティ]さん、それに[nick:ミリー]も。元気そうでなによりです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:マーヴェル]「また会えてうれしいです。お元気でしたか？[page]
+<sn:pointer id="89" window="1" trigger="start">[nick:マーヴェル]「また会えてうれしいです。お元気でしたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:フィア]「・・・。[page]
+<sn:pointer id="90" window="1" trigger="start">[nick:フィア]「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:ペリシー]「・・・。[page]
+<sn:pointer id="91" window="1" trigger="start">[nick:ペリシー]「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:ティニーク]「・・・。[page]
+<sn:pointer id="92" window="1" trigger="start">[nick:ティニーク]「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:ラティ]「みんな・・・！[page]
+<sn:pointer id="93" window="1" trigger="start">[nick:ラティ]「みんな・・・！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:ミリー]「でも、いいんですか？[page]
+<sn:pointer id="94" window="1" trigger="start">[nick:ミリー]「でも、いいんですか？[page]
 [nick:イリア]「今回は連邦提督のお墨付きよ。つまり、それほどの緊急事態ということなの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:シウス]「今度は俺たちが力を貸す番さ。行こうぜ、もうひと暴れしてやるさ！[page]
+<sn:pointer id="95" window="0" trigger="start">[nick:シウス]「今度は俺たちが力を貸す番さ。行こうぜ、もうひと暴れしてやるさ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[end]</sn:pointer>
+<sn:pointer id="96" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="97">[nick:ロニキス]「それではファーゲットに向かおう！[page]
+<sn:pointer id="97" window="0" trigger="start">[nick:ロニキス]「それではファーゲットに向かおう！[page]
 [end]</sn:pointer>
 
 </sn:script>

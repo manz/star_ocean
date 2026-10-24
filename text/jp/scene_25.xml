@@ -1,182 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]ポートミスの港[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x3e][0x0]ポートミスの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[color][0x6]オカリナ[color][0x2]を手に入れた。[page]
+<sn:pointer id="1" window="0" trigger="search">[color][0x6]オカリナ[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1．海賊退治に出発！！
+<sn:pointer id="2" choice="2" window="1" trigger="tile 2">1．海賊退治に出発！！
 2．その前に買い物だ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="0" trigger="tile 2">[end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]「出発！！[page]
+<sn:pointer id="4" window="0" trigger="tile 2">[nick:ラティ]「出発！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[end]</sn:pointer>
+<sn:pointer id="5" window="0" trigger="tile 2">[end]</sn:pointer>
 
-<sn:pointer id="6">？？？「あたしは空飛ぶカワイー小鳥になりたいんだから、ほっといてっ！！[page]
+<sn:pointer id="6" window="0" trigger="tile 3">？？？「あたしは空飛ぶカワイー小鳥になりたいんだから、ほっといてっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">？？？「べぇ〜〜！[page]
+<sn:pointer id="7" window="0" trigger="tile 3">？？？「べぇ〜〜！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]「ああ、これ？[page]
+<sn:pointer id="8" window="0" trigger="tile 10">[nick:イリア]「ああ、これ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア]「私、艦長とはぐれている間にすてきな男性からプレゼントしてもらったんです。[page]
+<sn:pointer id="9" window="0" trigger="tile 10">[nick:イリア]「私、艦長とはぐれている間にすてきな男性からプレゼントしてもらったんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ロニキス]「そ[speed][0x5]、[speed][0x0]そうか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="tile 10">[nick:ロニキス]「そ[speed][0x5]、[speed][0x0]そうか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:イリア]「もうっ！[speed][0xa]・・・[speed][0x0]つまんないですわ、艦長。もう少し取り乱してくれるかと思ったのに。[page]
+<sn:pointer id="11" window="1" trigger="tile 10">[nick:イリア]「もうっ！[speed][0xa]・・・[speed][0x0]つまんないですわ、艦長。もう少し取り乱してくれるかと思ったのに。[page]
 [nick:ロニキス]「え？[page]
 [nick:イリア]「[nick:ラティ]ですよ。[page]
 [nick:ロニキス]「[nick:ラティ]がおまえにか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]「もうっ、艦長まで。別にそんな深い意味ないですってば！[page]
+<sn:pointer id="12" window="0" trigger="tile 10">[nick:イリア]「もうっ、艦長まで。別にそんな深い意味ないですってば！[page]
 [nick:ロニキス]「艦長まで？[page]
 [nick:イリア]「ええ、[nick:ミリー]が焼きもちやいちゃって[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「はは、可愛いもんじゃないか。[page]
 [nick:イリア]「[nick:ラティ]にとっては笑い事じゃないですわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]「もうっ、別にそんな深い意味ないですってば！[page]
+<sn:pointer id="13" window="0" trigger="tile 10">[nick:イリア]「もうっ、別にそんな深い意味ないですってば！[page]
 [nick:ロニキス]「そうか、そうだろうな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">実は内心けっこう動播した[nick:ロニキス]だった・・・。[page]
+<sn:pointer id="14" window="8" trigger="tile 10">実は内心けっこう動播した[nick:ロニキス]だった・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]「潮風が気持ちいいわね・・・。[page]
+<sn:pointer id="15" window="0" trigger="talk 4">[nick:イリア]「潮風が気持ちいいわね・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ロニキス]「おお[nick:ラティ]。どうした？[page]
+<sn:pointer id="16" window="0" trigger="talk 3">[nick:ロニキス]「おお[nick:ラティ]。どうした？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">無骨な船員「あんたらのおかげでしばらくは蛮族どもも現れないだろうな。[page]
+<sn:pointer id="17" window="0" trigger="talk 16">無骨な船員「あんたらのおかげでしばらくは蛮族どもも現れないだろうな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">無骨な船員「また蛮族だぜ、まいるよなぁ。[page]
+<sn:pointer id="18" window="0" trigger="talk 16">無骨な船員「また蛮族だぜ、まいるよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">太った船員「海賊どもめ、ざまあみろってんだ！！♪[page]
+<sn:pointer id="19" window="0" trigger="talk 17">太った船員「海賊どもめ、ざまあみろってんだ！！♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">太った船員「ムーアの軍隊は暦抜けかよ！ちくしょう・・・。[page]
+<sn:pointer id="20" window="0" trigger="talk 17">太った船員「ムーアの軍隊は暦抜けかよ！ちくしょう・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">老いた船員「海賊を一綱打尽にしたそうじゃな。おぬしらたいしたもんじゃ！！[page]
+<sn:pointer id="21" window="0" trigger="talk 18">老いた船員「海賊を一綱打尽にしたそうじゃな。おぬしらたいしたもんじゃ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">老いた船員「あんた、海賊どもをなんとかしてくれねぇか？[page]
+<sn:pointer id="22" window="0" trigger="talk 18">老いた船員「あんた、海賊どもをなんとかしてくれねぇか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">青い目の少年「俺もいつかはみんなを助けられるようになりたいんだ。[page]
+<sn:pointer id="23" window="0" trigger="talk 19">青い目の少年「俺もいつかはみんなを助けられるようになりたいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">青い目の少年「・・・ありがとう。これ、曼け取ってくれるか？[page]
+<sn:pointer id="24" window="0" trigger="talk 19">青い目の少年「・・・ありがとう。これ、曼け取ってくれるか？[page]
 [color][0x6]セントエルモ[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">青い目の少年「俺の父ちゃんも海でやつらに襲われたんだ・・・。[page]
+<sn:pointer id="25" window="0" trigger="talk 19">青い目の少年「俺の父ちゃんも海でやつらに襲われたんだ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
+<sn:pointer id="26" window="1" trigger="talk 20">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">1．オタニム（アストラル王国）
+<sn:pointer id="27" choice="4" window="1" trigger="talk 20">1．オタニム（アストラル王国）
 2．トロップ（アストラル王国）
 3．エクダート（ヴァン王国）
 4．シルヴァラント[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[end]</sn:pointer>
+<sn:pointer id="28" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="29">船員「お金が足りないよ。[page]
+<sn:pointer id="29" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[end]</sn:pointer>
+<sn:pointer id="30" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="31" window="0" trigger="talk 20">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">船乗りベン「[color][0x4]オタニム[color][0x2]行きの船に乗るかい？[page]
+<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 20">船乗りベン「[color][0x4]オタニム[color][0x2]行きの船に乗るかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="34">[end]</sn:pointer>
+<sn:pointer id="34" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="35">船乗りベン「本当に大丈夫なのか？[page]
+<sn:pointer id="35" window="0" trigger="talk 20">船乗りベン「本当に大丈夫なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">船乗りベン「あ、あんたら本当に退治してきたのか？[page]
+<sn:pointer id="36" window="0" trigger="talk 20">船乗りベン「あ、あんたら本当に退治してきたのか？[page]
 [nick:ラティ]「ええ。[page]
 船乗りベン「それじゃあ礼をしないと・・・。[page]
 [nick:イリア]「それじゃあ私たちをアストラル王国まで連れて行ってくれないかしら。[page]
 船乗りベン「おやすいご用さ。定期船はもう復航する。金はいらんから乗ってくれ。準備ができたら俺に話しかけてくれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">片目のテリー「[color][0x4]ポートミス[color][0x2]はムーア王国とアストラル王国の交易の窓口となっている都なんだ。[page]
+<sn:pointer id="37" window="0" trigger="talk 21">片目のテリー「[color][0x4]ポートミス[color][0x2]はムーア王国とアストラル王国の交易の窓口となっている都なんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">片目のテリー「[color][0x4]ポートミス[color][0x2]はムーア王国とアストラル王国の交易の窓口となっている都なんだ。[page]
+<sn:pointer id="38" window="1" trigger="talk 21">片目のテリー「[color][0x4]ポートミス[color][0x2]はムーア王国とアストラル王国の交易の窓口となっている都なんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1．待ち合わせの話を伝える
+<sn:pointer id="39" choice="2" window="1" trigger="talk 21">1．待ち合わせの話を伝える
 2．黙ってる[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">テリー「え？待ち合わせ！！やっべぇーっ！！[page]
+<sn:pointer id="40" window="0" trigger="talk 21">テリー「え？待ち合わせ！！やっべぇーっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="42">[mode8][0x18][speed][0x1]ロマンチックな船乗り「[speed][0x1e]・・・[speed][0x1]荒波[page]
+<sn:pointer id="42" window="1" trigger="talk 22">[mode8][0x18][speed][0x1]ロマンチックな船乗り「[speed][0x1e]・・・[speed][0x1]荒波[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[mode8][0x18][speed][0x1]「[speed][0x1e]・・・[speed][0x1]汽笛[page]
+<sn:pointer id="43" window="1" trigger="talk 22">[mode8][0x18][speed][0x1]「[speed][0x1e]・・・[speed][0x1]汽笛[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[mode8][0x18][speed][0x1]「[speed][0x1e]・・・[speed][0x1]カモメ[page]
+<sn:pointer id="44" window="1" trigger="talk 22">[mode8][0x18][speed][0x1]「[speed][0x1e]・・・[speed][0x1]カモメ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[mode8][0x0][speed][0x0]ロマンチックな船乗り「ロマンだ[speed][0xa]・・・[speed][0x0]たまらん！！[page]
+<sn:pointer id="45" window="0" trigger="talk 22">[mode8][0x0][speed][0x0]ロマンチックな船乗り「ロマンだ[speed][0xa]・・・[speed][0x0]たまらん！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">船乗り「やっぱヒラメだぜ。[page]
+<sn:pointer id="46" window="0" trigger="talk 23">船乗り「やっぱヒラメだぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]「アストラル行きの船はどうなってるの？[page]
+<sn:pointer id="47" window="1" trigger="talk 20">[nick:イリア]「アストラル行きの船はどうなってるの？[page]
 船乗りベン「ヴェルカントの連中がこの辺りの海に現れ出したんだ。今出航したらたちまち蛮族どもの餌食だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:イリア]「まいったわね。[page]
+<sn:pointer id="48" window="1" trigger="talk 20">[nick:イリア]「まいったわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">1．退治してやるぜ！
+<sn:pointer id="49" choice="3" window="1" trigger="talk 20">1．退治してやるぜ！
 2．態勢をととのえてからにしよう
 3．果報は寝て待て[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[end]</sn:pointer>
+<sn:pointer id="50" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ラティ]「あの船を借りよう。[page]
+<sn:pointer id="51" window="0" trigger="talk 20">[nick:ラティ]「あの船を借りよう。[page]
 船乗りベン「退治してくれるってのはありがたいが、本当に大丈夫なのか？[page]
 [nick:ラティ]「まかしとけ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[end]</sn:pointer>
+<sn:pointer id="52" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="53">船乗りベン「しばらくはアストラルには行けないぜ。20日くらいは様子を見た方がいいんじゃないか？[page]
+<sn:pointer id="53" window="0" trigger="talk 20">船乗りベン「しばらくはアストラルには行けないぜ。20日くらいは様子を見た方がいいんじゃないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]「何かあったんですか？[page]
+<sn:pointer id="54" window="0" trigger="talk 20">[nick:ラティ]「何かあったんですか？[page]
 船乗りベン「まいったぜ。ヴェルカントの連中がこの辺りの海に現れ出したんだ。[page]
 [nick:ラティ]「ヴェル[speed][0xa]・・[speed][0x0]え？何ですかそれ？[page]
 [nick:シウス]「北方の未開拓地にすむ蛮族どものことだ。知らねぇのか？[page]
@@ -185,79 +185,79 @@
 今出航したらたちまち蛮族どもの餌食だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:シウス]「これから船に乗ろうって時に・・・なんかムカツかねぇか。[page]
+<sn:pointer id="55" window="0" trigger="talk 20">[nick:シウス]「これから船に乗ろうって時に・・・なんかムカツかねぇか。[page]
 [nick:ラティ]「ああ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:シウス]「やっちまうか？[page]
+<sn:pointer id="56" window="1" trigger="talk 20">[nick:シウス]「やっちまうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">1．退治してやるぜ！
+<sn:pointer id="57" choice="3" window="1" trigger="talk 20">1．退治してやるぜ！
 2．態勢をととのえてからにしよう
 3．果報は寝て待て[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:シウス]「よぉし決まりだ！！[page]
+<sn:pointer id="58" window="1" trigger="talk 20">[nick:シウス]「よぉし決まりだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:イリア]「ちょっと二人とも正気？[page]
+<sn:pointer id="59" window="0" trigger="talk 20">[nick:イリア]「ちょっと二人とも正気？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:シウス]「あんなヤローどもにナメられて黙ってられるかよ。なぁ[nick:ラティ]。[page]
+<sn:pointer id="60" window="0" trigger="talk 20">[nick:シウス]「あんなヤローどもにナメられて黙ってられるかよ。なぁ[nick:ラティ]。[page]
 [nick:ラティ]「[nick:イリア]さん、たぶん退治するほうが近道ですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:シウス]「おい、そこの船を貸せ。俺たちがヴェルカントを退治してきてやるからよ！[page]
+<sn:pointer id="61" window="0" trigger="talk 20">[nick:シウス]「おい、そこの船を貸せ。俺たちがヴェルカントを退治してきてやるからよ！[page]
 船乗りベン「退治してくれるってのはありがたいが、本当に大丈夫なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス]「まぁ見てな。[page]
+<sn:pointer id="62" window="0" trigger="talk 20">[nick:シウス]「まぁ見てな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[end]</sn:pointer>
+<sn:pointer id="63" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="64">船乗りベン「しばらくはアストラルには行けないぜ。20日くらいは様子を見た方がいいんじゃないか？[page]
+<sn:pointer id="64" window="0" trigger="talk 20">船乗りベン「しばらくはアストラルには行けないぜ。20日くらいは様子を見た方がいいんじゃないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:シウス]「おい。そういえばバダムに頼まれた仕事はどうするんだ？[page]
+<sn:pointer id="65" window="1" trigger="talk 20">[nick:シウス]「おい。そういえばバダムに頼まれた仕事はどうするんだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">1．届けよう
+<sn:pointer id="66" choice="2" window="1" trigger="talk 20">1．届けよう
 2．届けない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]「なら先に行こうぜ。[page]
+<sn:pointer id="67" window="0" trigger="talk 20">[nick:シウス]「なら先に行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス]「曼けた仕事をすっぽかすってのか？！なら、俺だけでバダムにわたしに行くさ。[page]
+<sn:pointer id="68" window="1" trigger="talk 20">[nick:シウス]「曼けた仕事をすっぽかすってのか？！なら、俺だけでバダムにわたしに行くさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:シウス]「曼けた仕事をすっぽかすってのか？！モノをよこしな。俺が届けてくるからよ。[page]
+<sn:pointer id="69" window="1" trigger="talk 20">[nick:シウス]「曼けた仕事をすっぽかすってのか？！モノをよこしな。俺が届けてくるからよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:シウス]「ここでお別れだな。[nick:ラティ]たちもがんばれよ。[page]
+<sn:pointer id="70" window="1" trigger="talk 20">[nick:シウス]「ここでお別れだな。[nick:ラティ]たちもがんばれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">1．引き留める
+<sn:pointer id="71" choice="2" window="1" trigger="talk 20">1．引き留める
 2．引き留めない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:シウス]「どうした？一緒に行くってのか？[page]
+<sn:pointer id="72" choice="yes-no" window="1" trigger="talk 20">[nick:シウス]「どうした？一緒に行くってのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:シウス]「じゃあ先に行こうぜ。[page]
+<sn:pointer id="73" window="0" trigger="talk 20">[nick:シウス]「じゃあ先に行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:シウス]「じゃあな。[page]
+<sn:pointer id="74" window="0" trigger="talk 20">[nick:シウス]「じゃあな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス]「じゃあな。[page]
+<sn:pointer id="75" window="0" trigger="talk 20">[nick:シウス]「じゃあな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:イリア]「ねぇ、どうするの？[page]
+<sn:pointer id="76" window="1" trigger="talk 20">[nick:イリア]「ねぇ、どうするの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:シウス]「どうするんだ？[page]
+<sn:pointer id="77" window="1" trigger="talk 20">[nick:シウス]「どうするんだ？[page]
 [end]</sn:pointer>
 
 </sn:script>

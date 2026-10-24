@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア][br]
+<sn:pointer id="0" window="1" trigger="start">[nick:イリア][br]
 Je me demande où est l'armurerie dont parlait Badam.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:シウス][br]
 Je ne connais pas très bien la ville.[page]
 [nick:ラティ][br]
 Alors on va chercher ![page]
@@ -12,82 +12,82 @@ Alors on va chercher ![page]
 D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Portmith[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Portmith[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Portmith[page]
+<sn:pointer id="3" window="speaker" trigger="start">[center]Portmith[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス][br]
+<sn:pointer id="4" window="0" trigger="talk 5">[nick:シウス][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Jeune femme Alisa[br]
+<sn:pointer id="5" window="0" trigger="talk 16">Jeune femme Alisa[br]
 Une fois, j'ai vu quelqu'un avec des ailes.
 ♪ Elle était jolie et ressemblait à un ange.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Vieillard au nez rouge[br]
+<sn:pointer id="6" window="0" trigger="talk 18">Vieillard au nez rouge[br]
 Si tu embarques dans le navire, tu pourras aller à [color][0x4]Otanim[color][0x2], dans le royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Jeune homme à la mode[br]
+<sn:pointer id="7" window="0" trigger="talk 19">Jeune homme à la mode[br]
 Le roi de Moore ? On le voit jamais, celui-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Fille élégante[br]
+<sn:pointer id="8" window="0" trigger="talk 20">Fille élégante[br]
 Depuis que les sauvages sont apparus au nord, aller à [color][0x4]Portmith [color][0x2]est devenu difficile. Est-ce que ça serait lié à l'influence du monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Fille avec des taches de rousseur[br]
+<sn:pointer id="9" window="0" trigger="talk 21">Fille avec des taches de rousseur[br]
 Qu'est-ce que Terry fabrique ? Il a encore oublié notre rendez-vous, je parie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Fille avec des taches de rousseur[br]
+<sn:pointer id="10" window="0" trigger="talk 21">Fille avec des taches de rousseur[br]
 Je compte pas pour lui, c'est ça ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Terry[br]
+<sn:pointer id="11" window="0" trigger="talk 22">Terry[br]
 Désolé, Candy ! Je te demande pardon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Whiskers[br]
+<sn:pointer id="12" window="0" trigger="talk 23">Whiskers[br]
 ... Je déteste ce nom.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Fille aînée[br]
+<sn:pointer id="13" window="0" trigger="talk 24">Fille aînée[br]
 Tu as déjà vu un renard ? C'est si mignon, mais je ne crois pas que j'arriverai à en attraper un.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Raddle le voyageur[br]
+<sn:pointer id="14" window="0" trigger="talk 25">Raddle le voyageur[br]
 J'ai oublié beaucoup de choses ces derniers temps et je me suis même perdu
 chez moi, mais je me souviens de vous.
 Merci.[page]
 Objet reçu : [color][0x6]Magixir[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Raddle le voyageur[br]
+<sn:pointer id="15" window="0" trigger="talk 25">Raddle le voyageur[br]
 J'oublie pas mal de trucs en ce moment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ラティ][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:ラティ][br]
 Mais ? Mon corps[speed][0xa]...[speed][0x0] C'est étrange♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ラティ][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:ラティ][br]
 C'est tellement agréaaaable♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:マーヴェル][br]
+<sn:pointer id="18" window="0" trigger="talk 8">[nick:マーヴェル][br]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:マーヴェル][br]
+<sn:pointer id="19" window="0" trigger="talk 8">[nick:マーヴェル][br]
 Tu savais qu'à l'arène à [color][0x4]Tatroï[color][0x2] ils changent
 les primes selon la profession du gagnant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ミリー][br]
+<sn:pointer id="20" window="0" trigger="talk 1">[nick:ミリー][br]
 Oh ! Vous m'avez trouvée♪[page]
 [nick:ラティ][br]
 De quoi tu parles ? Qu'est-ce que tu fiches dans un endroit pareil ?[page]
@@ -96,28 +96,28 @@ Hein ? Si tu ne m'avais pas trouvée, je me demande si tu serais venu me cherche
 [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">1. Bien sûr que je te cherchais ![br]
+<sn:pointer id="21" choice="2" window="0" trigger="talk 1">1. Bien sûr que je te cherchais ![br]
 2. C'était une pure coïncidence[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ][br]
+<sn:pointer id="22" window="0" trigger="talk 1">[nick:ラティ][br]
 Bien sûr que je te cherchais ![page]
 [nick:ミリー][br]
 Vraiment ? Ça me touche♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ][br]
+<sn:pointer id="23" window="0" trigger="talk 1">[nick:ラティ][br]
 C'est juste le fruit du hasard...[page]
 [nick:ミリー][br]
 [speed][0xa]...[speed][0x0]Vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ミリー][br]
+<sn:pointer id="24" window="0" trigger="talk 1 talk 8">[nick:ミリー][br]
 Comment fais-tu pour être si jolie ? Ta taille est si svelte, tes jambes si fines...
 Je suis ta plus grande admiratrice depuis le premier jour où je t'ai vue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:マーヴェル][br]
+<sn:pointer id="25" window="1" trigger="talk 1 talk 8">[nick:マーヴェル][br]
 Ça suffit, [nick:ミリー].[page]
 [nick:ミリー][br]
 Sérieusement ! Tu suis un régime particulier ? C'est sûrement parce qu'on n'a
@@ -126,45 +126,45 @@ pas le même métabolisme ![page]
 [speed][0xa]......[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー][br]
+<sn:pointer id="26" window="0" trigger="talk 1 talk 8">[nick:ミリー][br]
 J'ai dit quelque chose qu'il ne fallait pas ?[page]
 [nick:マーヴェル][br]
 Non, ce n'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー][br]
+<sn:pointer id="27" window="1" trigger="talk 1">[nick:ミリー][br]
 Tu ne trouves pas que [nick:マーヴェル] est adorable, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">1. Oui[br]
+<sn:pointer id="28" choice="2" window="1" trigger="talk 1">1. Oui[br]
 2. Je ne dirai rien sans avocat.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ][br]
+<sn:pointer id="29" window="0" trigger="talk 1">[nick:ラティ][br]
 Ha oui, c'est le moins qu'on puisse dire ![page]
 [nick:ミリー][br]
 N'est-elle pas sublime ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ラティ][br]
+<sn:pointer id="30" window="0" trigger="talk 1">[nick:ラティ][br]
 Je ne parlerai qu'en présence de mon avocat ![page]
 [nick:ミリー][br]
 QUOI ?! Si t'as rien à te reprocher, tu peux bien dire oui ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ヨシュア][br]
+<sn:pointer id="31" window="0" trigger="talk 6">[nick:ヨシュア][br]
 La petite à l'ocarina n'est pas là. Où a-t-elle pu aller ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ヨシュア][br]
+<sn:pointer id="32" window="0" trigger="talk 6">[nick:ヨシュア][br]
 Est-ce que la petite à l'ocarina rôdait en direction du château ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ヨシュア][br]
+<sn:pointer id="33" window="0" trigger="talk 6">[nick:ヨシュア][br]
 Même lorsque je marche sans but, je me demande si j'arriverai à trouver ma sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ペリシー][br]
+<sn:pointer id="34" window="0" trigger="talk 10">[nick:ペリシー][br]
 Il y a tant de choses à voir en ville♪
 Je ne m'en lasserai jamais ! ♥[page]
 [end]</sn:pointer>

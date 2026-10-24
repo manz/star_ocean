@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ville de Clatos[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ville de Clatos[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ミリー][br]
+<sn:pointer id="1" window="0" trigger="tile 10">[nick:ミリー][br]
 Vite après [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ミリー][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ミリー][br]
 Je suis vraiment désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">???[br]
+<sn:pointer id="3" window="0" trigger="start">???[br]
 Attends.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:ミリー][br]
 [speed][0xf]...[speed][0x0] [nick:ドーン][speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ドーン][br]
+<sn:pointer id="5" window="1" trigger="start">[nick:ドーン][br]
 Tu prévois de t'y rendre seule ?[page]
 [nick:ミリー][br]
 [speed][0xf]...[speed][0x0][page]
@@ -27,26 +27,26 @@ Tu prévois de t'y rendre seule ?[page]
 Tu veux aller chercher des plantes au sommet du [color][0x4]mont Métox[color][0x2], c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ドーン][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ドーン][br]
 Je lis en toi comme dans un livre
 ouvert.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ドーン][br]
+<sn:pointer id="7" window="1" trigger="start">[nick:ドーン][br]
 Mais tu as perdu la tête ?! Aller dans
 un endroit aussi dangereux toute
 seule[speed][0xa]...[speed][0x0] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:ミリー][br]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ドーン][br]
+<sn:pointer id="9" window="1" trigger="start">[nick:ドーン][br]
 [speed][0xf]...[speed][0x0] Regarde-moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ミリー][br]
+<sn:pointer id="10" window="0" trigger="start">[nick:ミリー][br]
 Hein ?[page]
 [nick:ドーン][br]
 Allez, souris[speed][0xf]...[speed][0x0] On va aller les
@@ -55,66 +55,66 @@ chercher ces herbes, et on va sauver ton père[speed][0xa]...[speed][0x0], d'acc
 [speed][0xa]...[speed][0x0] Oui[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ミリー][br]
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ドーン][br]
+<sn:pointer id="12" window="1" trigger="start">[nick:ドーン][br]
 J'aime pas te voir triste comme
 ça[speed][0x14]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ミリー][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:ミリー][br]
 [nick:ドーン] ?[page]
 [nick:ドーン][br]
 Je, heu...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ドーン][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:ドーン][br]
 Tu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ドーン][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:ドーン][br]
 Gnnnnhhh[speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー][br]
+<sn:pointer id="16" window="1" trigger="start">[nick:ミリー][br]
 [nick:ドーン], qu'est-ce qu'il y a ?
 Ça va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ドーン][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:ドーン][br]
 Éloigne-toi de moi[speed][0x18][speed][0x0] !![speed][0x5]
 [speed][0x0]Ce[speed][0x5],[speed][0x0] c'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ミリー][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:ミリー][br]
 Mais[speed][0xf]...[speed][0x0] Ah, tiens bon, je vais
 chercher de l'aide !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ミリー][br]
+<sn:pointer id="19" window="0" trigger="start">[nick:ミリー][br]
 [nick:ラティ] !! C'est [nick:ドーン], il[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ドーン][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ドーン][br]
 [speed][0xa]...[speed][0x0]Ouch[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ドーン][br]
+<sn:pointer id="21" window="0" trigger="start">[nick:ドーン][br]
 Gnnnhhh[speed][0xa]...[speed][0x0] À chaque fois qu'il y a un problème, tout ce qu'elle a à la bouche,
 c'est [nick:ラティ] [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ミリー][br]
+<sn:pointer id="22" window="0" trigger="start">[nick:ミリー][br]
 [nick:ラティ] !! C'est [nick:ドーン], il[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ][br]
+<sn:pointer id="23" window="0" trigger="start">[nick:ラティ][br]
 Vite ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ミリー][br]
+<sn:pointer id="24" window="0" trigger="tile 20">[nick:ミリー][br]
 Ça va ?[page]
 [nick:ドーン][br]
 Hein ?[speed][0x8][speed][0x0] Mais de quoi tu parles ?[page]
@@ -135,73 +135,73 @@ Ouais. Ça grouille de vers cruels
 là-bas. Faudra être prudents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[center]Maison de [nick:ラティ][page]
+<sn:pointer id="25" window="speaker" trigger="start">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[mode8][0x38][center]Cette nuit-là...[page]
+<sn:pointer id="26" window="8" trigger="start">[mode8][0x38][center]Cette nuit-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[mode8][0x0]Mère de [nick:ラティ][br]
+<sn:pointer id="27" window="0" trigger="start">[mode8][0x0]Mère de [nick:ラティ][br]
 Ton thé est infusé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ミリー][br]
+<sn:pointer id="28" window="1" trigger="start">[nick:ミリー][br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Mère[br]
+<sn:pointer id="29" window="0" trigger="start">Mère[br]
 Je t'en prie, fais comme chez toi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ドーン][br]
+<sn:pointer id="30" window="0" trigger="start">[nick:ドーン][br]
 C'était vraiment du gâteau, les
 voleurs d'aujourd'hui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ミリー][br]
+<sn:pointer id="31" window="0" trigger="start">[nick:ミリー][br]
 Tu parles ! T'as bien failli y passer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ミリー][br]
+<sn:pointer id="32" window="0" trigger="start">[nick:ミリー][br]
 Qu'est-ce qui ne va pas, [nick:ラティ] ?
 On ne peut pas dire que tu sois des
 plus souriants.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Mère[br]
+<sn:pointer id="33" window="0" trigger="start">Mère[br]
 Il est comme ça ces derniers
 temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ドーン][br]
+<sn:pointer id="34" window="0" trigger="start">[nick:ドーン][br]
 À plus ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ラティ][br]
+<sn:pointer id="35" window="0" trigger="start">[nick:ラティ][br]
 OK.[page]
 [nick:ミリー][br]
 J'espère que ça ira mieux demain[speed][0x19],
 [speed][0x0][nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ミリー][br]
+<sn:pointer id="36" window="0" trigger="start">[nick:ミリー][br]
 Merci beaucoup, m'dame.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Mère[br]
+<sn:pointer id="37" window="0" trigger="start">Mère[br]
 Au plaisir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ラティ][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:ラティ][br]
 Parce que calme[speed][0xf] ça veut dire en
 paix ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Mère[br]
+<sn:pointer id="39" window="0" trigger="talk 16">Mère[br]
 Pourquoi veilles-tu si tard, [nick:ミリー] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">La porte est verrouillée.[page]
+<sn:pointer id="40" window="0" trigger="talk 32 talk 33 talk 34 talk 35 talk 36 talk 37">La porte est verrouillée.[page]
 [end]</sn:pointer>
 
 </sn:script>

@@ -1,240 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ラティ]「さて、とりあえず女性用の服を手に入れなくちゃ。[page]
+<sn:pointer id="0" window="0" trigger="start">[nick:ラティ]「さて、とりあえず女性用の服を手に入れなくちゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x4a][0x0]クラート村[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x4a][0x0]クラート村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x4a][0x0]クラート村[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x4a][0x0]クラート村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x4a][0x0]クラート村[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x4a][0x0]クラート村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]「早く服を届けなきゃ。[page]
+<sn:pointer id="4" window="0" trigger="tile 1">[nick:ラティ]「早く服を届けなきゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]「これって・・・・。[page]
+<sn:pointer id="5" window="0" trigger="tile 6">[nick:ラティ]「これって・・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">1．衣服を盗ってしまえ
+<sn:pointer id="6" choice="2" window="1" trigger="tile 6">1．衣服を盗ってしまえ
 2．そんなことできるか！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「非常事態だし、いいよな・・・。[page]
+<sn:pointer id="7" window="0" trigger="tile 6">[nick:ラティ]「非常事態だし、いいよな・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">
+<sn:pointer id="8" window="8" trigger="tile 6">
 本当はダメです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ]「よし、と。[page]
+<sn:pointer id="9" window="0" trigger="tile 6">[nick:ラティ]「よし、と。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="tile 6">[end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー]「あー！そのネコちゃん[nick:ラティ]が気に入っているのかなぁ。くやしー！[page]
+<sn:pointer id="11" window="1" trigger="tile 7">[nick:ミリー]「あー！そのネコちゃん[nick:ラティ]が気に入っているのかなぁ。くやしー！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ]「はは、怒んなよ。[page]
+<sn:pointer id="12" window="0" trigger="tile 7">[nick:ラティ]「はは、怒んなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]「こうやってボーッとしてるのってなんか久しぶりだわ。[page]
+<sn:pointer id="13" window="0" trigger="talk 4">[nick:イリア]「こうやってボーッとしてるのってなんか久しぶりだわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:イリア]「あら、このネコたしか前はいなかったわよね。[page]
+<sn:pointer id="14" window="0" trigger="talk 4">[nick:イリア]「あら、このネコたしか前はいなかったわよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]「尋ねようにもこう人がいないんじゃ話にならないわね。[page]
+<sn:pointer id="15" window="0" trigger="talk 4">[nick:イリア]「尋ねようにもこう人がいないんじゃ話にならないわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「この辺りで見かけなかったかしら？[page]
+<sn:pointer id="16" window="0" trigger="talk 4">[nick:イリア]「この辺りで見かけなかったかしら？[page]
 男「さぁねぇ。私は見てないけどねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
+<sn:pointer id="17" window="0" trigger="talk 4">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
+<sn:pointer id="18" window="0" trigger="talk 4">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
 [nick:ラティ]「俺たちの世界では伝書鳩での手紙の曼け渡しが一般的だったけど[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]「でも、鳩に限った話じゃないんですけどね。[page]
+<sn:pointer id="19" window="0" trigger="talk 4">[nick:ラティ]「でも、鳩に限った話じゃないんですけどね。[page]
 [nick:イリア]「それは別な動物でもってこと？[page]
 [nick:ラティ]「ええ。あ、そういえば[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]「[nick:ミリー]が昔、猫を伝書猫にしようとしたっけ♪[page]
+<sn:pointer id="20" window="0" trigger="talk 4">[nick:ラティ]「[nick:ミリー]が昔、猫を伝書猫にしようとしたっけ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]「あいつ猫大好きだから。[page]
+<sn:pointer id="21" window="0" trigger="talk 4">[nick:ラティ]「あいつ猫大好きだから。[page]
 [nick:イリア]「で、どうなったの？[page]
 [nick:ラティ]「ムリムリ。普通やる前にそう思うはずなのに、あいつどっか抜けてるから。[page]
 [nick:イリア]「あら、でもそういうのいいじゃない？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[end]</sn:pointer>
+<sn:pointer id="22" window="0" trigger="talk 4">[end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス]「こんな所さっさと行こうぜ。[page]
+<sn:pointer id="23" window="0" trigger="talk 5">[nick:シウス]「こんな所さっさと行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:アシュレイ]「む〜ん。のどかよのう。[page]
+<sn:pointer id="24" window="0" trigger="talk 9">[nick:アシュレイ]「む〜ん。のどかよのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:シウス]「さっさと[color][0x4]ホット[color][0x2]の武器屋に届け物して金もらおうぜ。[page]
+<sn:pointer id="25" window="0" trigger="talk 5">[nick:シウス]「さっさと[color][0x4]ホット[color][0x2]の武器屋に届け物して金もらおうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:シウス]「[color][0x4]ポートミス[color][0x2]で海賊退治するのもいいと思わねぇか？おまえだってアストラル王国の方にいけないと困るんだろ？[page]
+<sn:pointer id="26" window="0" trigger="talk 5">[nick:シウス]「[color][0x4]ポートミス[color][0x2]で海賊退治するのもいいと思わねぇか？おまえだってアストラル王国の方にいけないと困るんだろ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:シウス]「こんな所さっさと行こうぜ。[page]
+<sn:pointer id="27" window="0" trigger="talk 5">[nick:シウス]「こんな所さっさと行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ミリー]「ネコちゃん？君の名前は[nick:ペリシー]だよ〜。[page]
+<sn:pointer id="28" window="0" trigger="talk 1">[nick:ミリー]「ネコちゃん？君の名前は[nick:ペリシー]だよ〜。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">男「二人連れ[speed][0x5]？[speed][0x0]う〜ん、もっと北の大きな町[speed][0xa]・・・[speed][0x0][color][0x4]ポートミス[color][0x2]や[color][0x4]ホット[color][0x2]では聞いてみたのかい？[page]
+<sn:pointer id="29" window="0" trigger="talk 16">男「二人連れ[speed][0x5]？[speed][0x0]う〜ん、もっと北の大きな町[speed][0xa]・・・[speed][0x0][color][0x4]ポートミス[color][0x2]や[color][0x4]ホット[color][0x2]では聞いてみたのかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">男「この村で採れた果物は世界中で高値で売買されているんだ。[page]
+<sn:pointer id="30" window="0" trigger="talk 16">男「この村で採れた果物は世界中で高値で売買されているんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">男「この辺じゃそんな二人組はみかけなかったなぁ。[page]
+<sn:pointer id="31" window="0" trigger="talk 17">男「この辺じゃそんな二人組はみかけなかったなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">男「お、旅人だね。プラムアップルはもう食べてみた？[page]
+<sn:pointer id="32" window="0" trigger="talk 17">男「お、旅人だね。プラムアップルはもう食べてみた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">女「二人組？知らないわね。この村小さいから外から人が来たらすぐにわかるし。[page]
+<sn:pointer id="33" window="0" trigger="talk 18">女「二人組？知らないわね。この村小さいから外から人が来たらすぐにわかるし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">女「北に行くと[color][0x4]ホット[color][0x2]という町があるのよ。[page]
+<sn:pointer id="34" window="0" trigger="talk 18">女「北に行くと[color][0x4]ホット[color][0x2]という町があるのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">お婆さん「はて[speed][0xf]、[speed][0x0]洗濯物がなくなってしもうたのぅ。[page]
+<sn:pointer id="35" window="0" trigger="talk 19">お婆さん「はて[speed][0xf]、[speed][0x0]洗濯物がなくなってしもうたのぅ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ペリシー]「にぁ〜！[page]
+<sn:pointer id="36" window="0" trigger="talk 20">[nick:ペリシー]「にぁ〜！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">ネコ「にぁ〜！[page]
+<sn:pointer id="37" window="0" trigger="talk 20">ネコ「にぁ〜！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">町娘エリオット「ステータス画面は1度でいいから見ておいた方がいいわよ。[page]
+<sn:pointer id="38" window="0" trigger="talk 21">町娘エリオット「ステータス画面は1度でいいから見ておいた方がいいわよ。[page]
 町娘エリオット「そこにあるタレント画面もね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">女の子「ここが[color][0x4]クラートの村[color][0x2]です。[page]
+<sn:pointer id="39" window="0" trigger="talk 22">女の子「ここが[color][0x4]クラートの村[color][0x2]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ペリシー]「それあたしぃの。返してっ！！[page]
+<sn:pointer id="40" window="0" trigger="search">[nick:ペリシー]「それあたしぃの。返してっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ラティ]「おっと。[page]
+<sn:pointer id="41" window="0" trigger="search">[nick:ラティ]「おっと。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ]「あっ！！海賊の洞窟にいた・・・。[page]
+<sn:pointer id="42" window="0" trigger="search">[nick:ラティ]「あっ！！海賊の洞窟にいた・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:イリア]「どうして逃げたりしたの？[page]
+<sn:pointer id="43" window="0" trigger="search">[nick:イリア]「どうして逃げたりしたの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]カンケーないでしょ！！[page]
+<sn:pointer id="44" window="0" trigger="search">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]カンケーないでしょ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ペリシー]「あたしは、一人なの！！[end]</sn:pointer>
+<sn:pointer id="45" window="1" trigger="search">[nick:ペリシー]「あたしは、一人なの！！[end]</sn:pointer>
 
-<sn:pointer id="46">トモダチは“それ”だけだモン。[page]
+<sn:pointer id="46" window="0" trigger="search">トモダチは“それ”だけだモン。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]「“それ”って・・・このオカリナ？[page]
+<sn:pointer id="47" window="0" trigger="search">[nick:ラティ]「“それ”って・・・このオカリナ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:イリア]「ほらほら、泣かないで。あなたは今までちょっと人と縁がなかっただけなのよ。[page]
+<sn:pointer id="48" window="0" trigger="search">[nick:イリア]「ほらほら、泣かないで。あなたは今までちょっと人と縁がなかっただけなのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]エン？[page]
+<sn:pointer id="49" window="0" trigger="search">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]エン？[page]
 [nick:イリア]「トモダチとの出会いのことよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:イリア]「私たちじゃダメ？[page]
+<sn:pointer id="50" window="0" trigger="search">[nick:イリア]「私たちじゃダメ？[page]
 [nick:ラティ]「俺は[nick:ラティ]、よろしくな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ミリー]「わたしは[nick:ミリー]、仲よくしようよ。[page]
+<sn:pointer id="51" window="0" trigger="search">[nick:ミリー]「わたしは[nick:ミリー]、仲よくしようよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ミリー]「ほら、みんな来たよ♪[page]
+<sn:pointer id="52" window="0" trigger="search">[nick:ミリー]「ほら、みんな来たよ♪[page]
 [nick:イリア]「自分からちょっとだけ近づいて見ればいいのよ。ね？みんなトモダチになってくれるから。だから、一緒に行きましょ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]ナミダあ出るんだけど、ちょっと違うカンジ[speed][0xa]・・・。[speed][0x0]こんなの、初めてだヨ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="53" window="0" trigger="search">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]ナミダあ出るんだけど、ちょっと違うカンジ[speed][0xa]・・・。[speed][0x0]こんなの、初めてだヨ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:マーヴェル]「この村はなんかやすらぎのある所でいいですね。[page]
+<sn:pointer id="54" window="0" trigger="talk 8">[nick:マーヴェル]「この村はなんかやすらぎのある所でいいですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]「ネコちゃん？君の名前は[nick:ペリシー]だよ〜。[page]
+<sn:pointer id="55" window="0" trigger="talk 1">[nick:ミリー]「ネコちゃん？君の名前は[nick:ペリシー]だよ〜。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ミリー]「かわいいーこのネコちゃん♥　ねぇ[nick:ラティ]、このネコちゃんに名前つけてあげようよ！[page]
+<sn:pointer id="56" window="1" trigger="talk 1">[nick:ミリー]「かわいいーこのネコちゃん♥　ねぇ[nick:ラティ]、このネコちゃんに名前つけてあげようよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">1．ポチ
+<sn:pointer id="57" choice="4" window="1" trigger="talk 1">1．ポチ
 2．ポムガ
 3．[nick:ペリシー]
 4．ルーミ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:ラティ]「ぽ、ポチってのは？[page]
+<sn:pointer id="58" window="0" trigger="talk 1">[nick:ラティ]「ぽ、ポチってのは？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ミリー]「それってイヌの名前じゃないのよっ！[page]
+<sn:pointer id="59" window="0" trigger="talk 1">[nick:ミリー]「それってイヌの名前じゃないのよっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]すいません。[page]
+<sn:pointer id="60" window="0" trigger="talk 1">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]すいません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:ラティ]「ぽ、ポムガってのはどう？[page]
+<sn:pointer id="61" window="0" trigger="talk 1">[nick:ラティ]「ぽ、ポムガってのはどう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:ミリー]「[nick:ラティ]ってなんかネーミングセンス全然ないのねぇ。ポ・ム・ガ[speed][0xa]？[speed][0x0][nick:ラティ]がそんな名前で呼ばれたらヤでしょ？[page]
+<sn:pointer id="62" window="0" trigger="talk 1">[nick:ミリー]「[nick:ラティ]ってなんかネーミングセンス全然ないのねぇ。ポ・ム・ガ[speed][0xa]？[speed][0x0][nick:ラティ]がそんな名前で呼ばれたらヤでしょ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:ラティ]「[nick:ペリシー]ってのはどう？[page]
+<sn:pointer id="63" window="0" trigger="talk 1">[nick:ラティ]「[nick:ペリシー]ってのはどう？[page]
 [nick:ミリー]「ぺりしぃ〜？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ミリー]「あれ？でもネコちゃんうれしそうだね。これにしよっか。[page]
+<sn:pointer id="64" window="0" trigger="talk 1">[nick:ミリー]「あれ？でもネコちゃんうれしそうだね。これにしよっか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ラティ]「ルーミってのは？[page]
+<sn:pointer id="65" window="0" trigger="talk 1">[nick:ラティ]「ルーミってのは？[page]
 [nick:ミリー]「あ、それけっこうかわいい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ミリー]「あれ？でもネコちゃん気に入らないみたいだ。違うのにする？[page]
+<sn:pointer id="66" window="0" trigger="talk 1">[nick:ミリー]「あれ？でもネコちゃん気に入らないみたいだ。違うのにする？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:ヨシュア]「どうしたんですか？[page]
+<sn:pointer id="67" window="0" trigger="search">[nick:ヨシュア]「どうしたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス]「なんだぁ？[page]
+<sn:pointer id="68" window="0" trigger="search">[nick:シウス]「なんだぁ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ロニキス]「どうしたんだ？[page]
+<sn:pointer id="69" window="0" trigger="search">[nick:ロニキス]「どうしたんだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ティニーク]「どうしたんスか？[page]
+<sn:pointer id="70" window="0" trigger="search">[nick:ティニーク]「どうしたんスか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:マーヴェル]「どうしたの？[page]
+<sn:pointer id="71" window="0" trigger="search">[nick:マーヴェル]「どうしたの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:アシュレイ]「どうしたんじゃ？[page]
+<sn:pointer id="72" window="0" trigger="search">[nick:アシュレイ]「どうしたんじゃ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:フィア]「何があったんだ？[page]
+<sn:pointer id="73" window="0" trigger="search">[nick:フィア]「何があったんだ？[page]
 [end]</sn:pointer>
 
 </sn:script>

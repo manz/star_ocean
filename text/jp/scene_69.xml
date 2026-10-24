@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x58][0x0]民家[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x58][0x0]宿屋[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x58][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="6" window="1" trigger="talk 16">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1知識関連スキルＬＶ3　1200
+<sn:pointer id="7" choice="3" window="1" trigger="talk 16">1知識関連スキルＬＶ3　1200
 2感覚関連スキルＬＶ3　　300
 3技術関連スキルＬＶ3　5000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="9">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="9" window="0" trigger="talk 16">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="10" window="0" trigger="talk 16">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="11" window="0" trigger="talk 16">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">アドバイザー「奥義は覚えるだけではなにも起こりません。ですが、奥義を覚えた後に特定の必殺技を使っているとさらに昇華した超必殺技をひらめくことがあるんです！[page]
+<sn:pointer id="12" window="0" trigger="talk 17">アドバイザー「奥義は覚えるだけではなにも起こりません。ですが、奥義を覚えた後に特定の必殺技を使っているとさらに昇華した超必殺技をひらめくことがあるんです！[page]
 アドバイザー「超必殺技を覚えられるかどうかは、ひとえに本人の努力と剣術の習熟具合にかかわってくるでしょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="13" window="1" trigger="talk 18">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1．知識関連スキルＬＶ3
+<sn:pointer id="14" choice="3" window="1" trigger="talk 18">1．知識関連スキルＬＶ3
 2．感覚関連スキルＬＶ3
 3．技術関連スキルＬＶ3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">説明員「知識関連スキルＬＶ3の内訳は、
+<sn:pointer id="15" window="0" trigger="talk 18">説明員「知識関連スキルＬＶ3の内訳は、
 妖精論と
 精神学と
 ピエティよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">説明員「感覚関連スキルＬＶ3の内訳は、
+<sn:pointer id="16" window="0" trigger="talk 18">説明員「感覚関連スキルＬＶ3の内訳は、
 機能美と
 でんぱと
 努力よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">説明員「技術関連スキルＬＶ3の内訳は、
+<sn:pointer id="17" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ3の内訳は、
 科学技術と
 演奏と
 キャストよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[end]</sn:pointer>
+<sn:pointer id="18" window="0" trigger="talk 18">[end]</sn:pointer>
 
-<sn:pointer id="19">若い娘「許しが出ないと外にも出られないのよ。いやんなっちゃう！[page]
+<sn:pointer id="19" window="0" trigger="talk 19">若い娘「許しが出ないと外にも出られないのよ。いやんなっちゃう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">少年「外であそびたいよお！[page]
+<sn:pointer id="20" window="0" trigger="talk 20">少年「外であそびたいよお！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">老人「暇だ[speed][0xa]・・・。[speed][0x0]これじゃボケてしまうわいっ！[page]
+<sn:pointer id="21" window="0" trigger="talk 21">老人「暇だ[speed][0xa]・・・。[speed][0x0]これじゃボケてしまうわいっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">老婆「早く平和な日がこないものかのう[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="22" window="0" trigger="talk 22">老婆「早く平和な日がこないものかのう[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">傭兵ステア「ラルフとコンビを組んで戦ってます。[page]
+<sn:pointer id="23" window="0" trigger="talk 23">傭兵ステア「ラルフとコンビを組んで戦ってます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">傭兵ラルフ「ステアは俺の相棒よ。俺たち二人が組めば魔物なんかにゃ絶対に負けねぇ自信があるぜ。[page]
+<sn:pointer id="24" window="0" trigger="talk 24">傭兵ラルフ「ステアは俺の相棒よ。俺たち二人が組めば魔物なんかにゃ絶対に負けねぇ自信があるぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">剣士「戦闘のスキルは覚えました？あると結構便利ですよ。[page]
+<sn:pointer id="25" window="0" trigger="talk 25">剣士「戦闘のスキルは覚えました？あると結構便利ですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">酒場の主人「いらっしゃい。[page]
+<sn:pointer id="26" window="0" trigger="talk 26">酒場の主人「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">キクリン「いらっしゃい。[page]
+<sn:pointer id="27" window="0" trigger="talk 27">キクリン「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">宿の女将ジュディ「ゆっくししていってちょうだいね。[page]
+<sn:pointer id="28" window="1" trigger="talk 28">宿の女将ジュディ「ゆっくししていってちょうだいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[end]</sn:pointer>
+<sn:pointer id="29" window="0" trigger="talk 28">[end]</sn:pointer>
 
-<sn:pointer id="30">泊まりますか？[page]
+<sn:pointer id="30" window="1" trigger="talk 28">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">宿の女将ジュディ「よく眠れました？[page]
+<sn:pointer id="31" window="0" trigger="talk 28">宿の女将ジュディ「よく眠れました？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">宿の女将ジュディ「いらっしゃい。
+<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28">宿の女将ジュディ「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルです。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 28">[end]</sn:pointer>
 
-<sn:pointer id="34">お金が足りません。[page]
+<sn:pointer id="34" window="0" trigger="talk 28">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 28">[end]</sn:pointer>
 
-<sn:pointer id="36">ルシオ「[nick:ミリー]にひどいことすんなよ？！[page]
+<sn:pointer id="36" window="0" trigger="talk 29">ルシオ「[nick:ミリー]にひどいことすんなよ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">ルシオ「[nick:ミリー]嫌なことがあったらいつでも戻ってこいよ。[page]
+<sn:pointer id="37" window="0" trigger="talk 29">ルシオ「[nick:ミリー]嫌なことがあったらいつでも戻ってこいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">ルシオ「おまえらここに泊まるのか？うちの宿屋は世界一だぜ！[page]
+<sn:pointer id="38" window="0" trigger="talk 29">ルシオ「おまえらここに泊まるのか？うちの宿屋は世界一だぜ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">若い学者「私は旧異種族の間に伝わっていたという魂のけいやくについて研究しています。[page]
+<sn:pointer id="39" window="0" trigger="talk 30">若い学者「私は旧異種族の間に伝わっていたという魂のけいやくについて研究しています。[page]
 若い学者「まだわからないことが多いのですが、伝説にある悪魔とのけいやく・・望みを叶える代わりに
 ってやつですね。それと似たようなものだったらしいです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ミリー]「ちょっと、何してんのよ！？[page]
+<sn:pointer id="40" window="0" trigger="start">[nick:ミリー]「ちょっと、何してんのよ！？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">宿の息子ルシオ「いいじゃん別に。[page]
+<sn:pointer id="41" window="0" trigger="start">宿の息子ルシオ「いいじゃん別に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ミリー]「よくないわよっ！[page]
+<sn:pointer id="42" window="0" trigger="start">[nick:ミリー]「よくないわよっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">ルシオ「しっかしバッカじゃねぇの？
+<sn:pointer id="43" window="0" trigger="start">ルシオ「しっかしバッカじゃねぇの？
 届きもしない手紙なんか書いちゃって。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ミリー]「ほっといて。[page]
+<sn:pointer id="44" window="0" trigger="start">[nick:ミリー]「ほっといて。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]へ[speed][0xa]・・・[speed][0x0]
+<sn:pointer id="45" window="8" trigger="start">[nick:ラティ]へ[speed][0xa]・・・[speed][0x0]
 [nick:ミリー]です。今までいつもそばにいたからまさか[nick:ラティ]に手紙書くなんて[speed][0xa]・・・[speed][0x0]
 でも、あて先わからないからこうするしかありません。[page]
 [nick:ラティ]はこっちに本当に来ているの？
@@ -157,100 +157,100 @@
 早く会えますように[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ミリー]「あいたいよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="46" window="0" trigger="start">[nick:ミリー]「あいたいよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">ルシオ「[nick:ミリー]、泣いてんのか？[page]
+<sn:pointer id="47" window="0" trigger="start">ルシオ「[nick:ミリー]、泣いてんのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ミリー]「[speed][0x1]モ〜ッ！イヤッ！！[speed][0xa][speed][0x0]こんなの私っぽくない！[page]
+<sn:pointer id="48" window="0" trigger="start">[nick:ミリー]「[speed][0x1]モ〜ッ！イヤッ！！[speed][0xa][speed][0x0]こんなの私っぽくない！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ミリー]「こーなったのも全てもとはと言えば[speed][0xa]・・・・[speed][0x0]！！！[page]
+<sn:pointer id="49" window="0" trigger="start">[nick:ミリー]「こーなったのも全てもとはと言えば[speed][0xa]・・・・[speed][0x0]！！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ミリー]「[nick:ラティ]の[speed][0x1e][speed][0x0]バカーーーーーーッ！！！！[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:ミリー]「[nick:ラティ]の[speed][0x1e][speed][0x0]バカーーーーーーッ！！！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ミリー]「おばさん、長い間お世話になりました。[page]
+<sn:pointer id="51" window="0" trigger="start">[nick:ミリー]「おばさん、長い間お世話になりました。[page]
 宿の女将ジュディ「礼はよしとくれ。あたしも可愛い娘ができたみたいでうれしかったんだからさ。[page]
 [nick:ミリー]「おばさん[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">宿の女将ジュディ「ルシオ、ほら。お別れのあいさつはいいのかい？[page]
+<sn:pointer id="52" window="0" trigger="start">宿の女将ジュディ「ルシオ、ほら。お別れのあいさつはいいのかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">宿の女将ジュディ「しょうがない子だね[speed][0xa]・・・[speed][0x0]。[end]</sn:pointer>
+<sn:pointer id="53" window="1" trigger="start">宿の女将ジュディ「しょうがない子だね[speed][0xa]・・・[speed][0x0]。[end]</sn:pointer>
 
-<sn:pointer id="54">
+<sn:pointer id="54" window="0" trigger="start">
 ごめんね[nick:ミリー]。[page]
 [nick:ミリー]「いえ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]「迎えが来たから、もういかなきゃ。ルシオ、元気でね。[page]
+<sn:pointer id="55" window="0" trigger="start">[nick:ミリー]「迎えが来たから、もういかなきゃ。ルシオ、元気でね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">ルシオ「ねぇちゃん！！[page]
+<sn:pointer id="56" window="0" trigger="start">ルシオ「ねぇちゃん！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">ルシオ「ねぇちゃん、ほんとに行っちゃうのか？[page]
+<sn:pointer id="57" window="1" trigger="start">ルシオ「ねぇちゃん、ほんとに行っちゃうのか？[page]
 [nick:ミリー]「[speed][0xa]・・・[speed][0x0]ごめんね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">ルシオ「[speed][0x1]行くなよ！[speed][0x0][nick:ミリー]ねぇちゃん[end]</sn:pointer>
+<sn:pointer id="58" window="1" trigger="start">ルシオ「[speed][0x1]行くなよ！[speed][0x0][nick:ミリー]ねぇちゃん[end]</sn:pointer>
 
-<sn:pointer id="59">[speed][0xa]・・・[speed][0x0]俺[speed][0xa]・・・・[speed][0x0]俺！！[page]
+<sn:pointer id="59" window="0" trigger="start">[speed][0xa]・・・[speed][0x0]俺[speed][0xa]・・・・[speed][0x0]俺！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ミリー]「ルシオ、泣かないで[speed][0xa]・・・。[speed][0x0]いつもの元気なルシオはどこ行っちゃったの？[page]
+<sn:pointer id="60" window="0" trigger="start">[nick:ミリー]「ルシオ、泣かないで[speed][0xa]・・・。[speed][0x0]いつもの元気なルシオはどこ行っちゃったの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">宿の女将ジュディ「ルシオ、男の子なら元気だしな！こういう時は笑って見送るものなんだよ。[page]
+<sn:pointer id="61" window="0" trigger="start">宿の女将ジュディ「ルシオ、男の子なら元気だしな！こういう時は笑って見送るものなんだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">ルシオ「[speed][0xa]・・・[speed][0x0]わかってるよ！[page]
+<sn:pointer id="62" window="0" trigger="start">ルシオ「[speed][0xa]・・・[speed][0x0]わかってるよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">ルシオ「[speed][0xa]・・・[speed][0x0][nick:ミリー]ねぇちゃん、元気でな。でも、たまにはここに来てくれよな。[page]
+<sn:pointer id="63" window="0" trigger="start">ルシオ「[speed][0xa]・・・[speed][0x0][nick:ミリー]ねぇちゃん、元気でな。でも、たまにはここに来てくれよな。[page]
 [nick:ミリー]「もちろん。また一緒に遊ぼうね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ミリー]「さようなら[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="64" window="0" trigger="start">[nick:ミリー]「さようなら[speed][0xa]・・・。[speed][0x0][page]
 ルシオ「[speed][0xa]・・・[speed][0x0][nick:ミリー]ねぇちゃんもな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ロニキス]「こう寒いとなにもする気がおきんよ。[page]
+<sn:pointer id="65" window="0" trigger="talk 3">[nick:ロニキス]「こう寒いとなにもする気がおきんよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:イリア]「あら[nick:ラティ]。あなたもお茶でもどう？[page]
+<sn:pointer id="66" window="0" trigger="talk 4">[nick:イリア]「あら[nick:ラティ]。あなたもお茶でもどう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]「[nick:ラティ][speed][0xa]、[speed][0x0]ど[speed][0xa]、[speed][0x0]どうかしたのか？[page]
+<sn:pointer id="67" window="0" trigger="talk 5">[nick:シウス]「[nick:ラティ][speed][0xa]、[speed][0x0]ど[speed][0xa]、[speed][0x0]どうかしたのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス]「ちっ、こんな所に長くいると武器がさびついちまうぜ。[page]
+<sn:pointer id="68" window="0" trigger="talk 5">[nick:シウス]「ちっ、こんな所に長くいると武器がさびついちまうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:フィア]「ふ[speed][0x8]、[speed][0x0]二人でいたらおかしいか？[page]
+<sn:pointer id="69" window="0" trigger="talk 11">[nick:フィア]「ふ[speed][0x8]、[speed][0x0]二人でいたらおかしいか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:フィア]「こう寒いと武器の手入れは念入りにやった方がいいな。[page]
+<sn:pointer id="70" window="0" trigger="talk 11">[nick:フィア]「こう寒いと武器の手入れは念入りにやった方がいいな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ミリー]「おばさん久しぶりです！[page]
+<sn:pointer id="71" window="0" trigger="start">[nick:ミリー]「おばさん久しぶりです！[page]
 宿の女将ジュディ「あら、[nick:ミリー]じゃないの！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ミリー]「いい子にしてた？お母さん困らせたりしてない？[page]
+<sn:pointer id="72" window="1" trigger="start">[nick:ミリー]「いい子にしてた？お母さん困らせたりしてない？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">ルシオ「ひっでえなあ！俺そんなことしないぜ？！[end]</sn:pointer>
+<sn:pointer id="73" window="1" trigger="start">ルシオ「ひっでえなあ！俺そんなことしないぜ？！[end]</sn:pointer>
 
-<sn:pointer id="74">それより[nick:ミリー]、あいつらと一緒に旅しててイヤな事なかったか？いつでも戻ってこいよ！[page]
+<sn:pointer id="74" window="0" trigger="start">それより[nick:ミリー]、あいつらと一緒に旅しててイヤな事なかったか？いつでも戻ってこいよ！[page]
 [nick:ミリー]「ふふ、ありがと。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ミリー]「あら[nick:ラティ]。私はここでしばらく話してるわ。[page]
+<sn:pointer id="75" window="0" trigger="talk 1">[nick:ミリー]「あら[nick:ラティ]。私はここでしばらく話してるわ。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

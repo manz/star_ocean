@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x48][0x0]ムーア城門[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x48][0x0]ムーア城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">衛兵「入ってよし。[page]
+<sn:pointer id="1" window="0" trigger="talk 16">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="2" window="0" trigger="talk 16">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">衛兵「入ってよし。[page]
+<sn:pointer id="3" window="0" trigger="talk 17">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="4" window="0" trigger="talk 17">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">大臣ボルク「ヴァン国王から[color][0x6]真実の瞳[color][0x2]の探索をまかされた、そなたらの腕をみこんで頼みたいことがあるのだが、聞いてはもらえぬだろうか？[page]
+<sn:pointer id="5" window="0" trigger="start">大臣ボルク「ヴァン国王から[color][0x6]真実の瞳[color][0x2]の探索をまかされた、そなたらの腕をみこんで頼みたいことがあるのだが、聞いてはもらえぬだろうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:イリア]「話くらいならいいんじゃない？[page]
+<sn:pointer id="6" window="1" trigger="start">[nick:イリア]「話くらいならいいんじゃない？[page]
 [nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">大臣ボルク「ありがとうございます。では話は中で[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="start">大臣ボルク「ありがとうございます。では話は中で[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ロニキス]「国王と謁見したいのだが[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="8" unused="1">[nick:ロニキス]「国王と謁見したいのだが[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">衛兵「そのエンブレムはヴァン王国の[speed][0xa]・・・・[speed][0x0]少々お待ちください。[page]
+<sn:pointer id="9" unused="1">衛兵「そのエンブレムはヴァン王国の[speed][0xa]・・・・[speed][0x0]少々お待ちください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">大臣「どうぞこちらへ。[page]
+<sn:pointer id="10" unused="1">大臣「どうぞこちらへ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「どうした？こんなところで。[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ]「どうした？こんなところで。[page]
 [nick:ペリシー]「今、ここにいた門番から聞いたんだけど、ここにすっごーい宝の山があるんだって！[page]
 [nick:ラティ]「[speed][0xa]・・・[speed][0x0]それって、ひょっとしてムーア城の宝物殿のことか？[page]
 [nick:ペリシー]「そう！それ♪[page]
@@ -43,41 +43,41 @@
 [nick:ラティ]「へ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ペリシー]「[nick:ラティ]も行こうよお。きっと王子様やお姫様みたな気分になれるよ？[page]
+<sn:pointer id="12" window="0" trigger="start">[nick:ペリシー]「[nick:ラティ]も行こうよお。きっと王子様やお姫様みたな気分になれるよ？[page]
 [nick:ラティ]「おい、それって犯罪だぞ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「それはバンザイ。[page]
+<sn:pointer id="13" window="1" trigger="start">[nick:ラティ]「それはバンザイ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ペリシー]「な〜に突っ込んでまんねん！[page]
+<sn:pointer id="14" window="0" trigger="start">[nick:ペリシー]「な〜に突っ込んでまんねん！[page]
 [nick:ラティ]「[speed][0xa]・・・[speed][0x0]それは漫才。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]「いいからもう行くぞ！[page]
+<sn:pointer id="15" window="0" trigger="start">[nick:ラティ]「いいからもう行くぞ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ペリシー]「やだよぉー！[page]
+<sn:pointer id="16" window="0" trigger="start">[nick:ペリシー]「やだよぉー！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ペリシー]「もしかして[nick:ラティ]、あたしのこと[speed][0xa]・・・[speed][0x1e][speed][0x0]キライ？[page]
+<sn:pointer id="17" window="0" trigger="start">[nick:ペリシー]「もしかして[nick:ラティ]、あたしのこと[speed][0xa]・・・[speed][0x1e][speed][0x0]キライ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">1．なんでそうーなる！
+<sn:pointer id="18" choice="2" window="1" trigger="start">1．なんでそうーなる！
 2．じゃあ少しだけだぞ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]「嫌いとかそういう問題じゃないだろ？世の中にはやっちゃいけないことだってあるんだぞ？[page]
+<sn:pointer id="19" window="0" trigger="start">[nick:ラティ]「嫌いとかそういう問題じゃないだろ？世の中にはやっちゃいけないことだってあるんだぞ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ペリシー]「わかったよぉ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="20" window="0" trigger="start">[nick:ペリシー]「わかったよぉ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]しょうがないなあ。じゃあ、ちょっと中で頼んでみるか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="21" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]しょうがないなあ。じゃあ、ちょっと中で頼んでみるか[speed][0xa]・・・。[speed][0x0][page]
 [nick:ペリシー]「やったぁ！　[nick:ラティ]だーい好きっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ペリシー]「[nick:ラティ]のケチ。[page]
+<sn:pointer id="22" window="0" trigger="talk 10">[nick:ペリシー]「[nick:ラティ]のケチ。[page]
 [end]</sn:pointer>
 
 </sn:script>

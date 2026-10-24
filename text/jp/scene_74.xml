@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">テスト[page]
+<sn:pointer id="0" window="0" trigger="talk 16">テスト[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア]「ここがそうなの？[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:イリア]「ここがそうなの？[page]
 [nick:ヨシュア]「ええ、なつかしいなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ヨシュア]「フォスターさん！僕です、[nick:ヨシュア]です！[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:ヨシュア]「フォスターさん！僕です、[nick:ヨシュア]です！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">フォスター「[speed][0x1][nick:ヨシュア]か[speed][0x5]！[speed][0x1]おお[speed][0x0]、よく帰ってきたのう。[page]
+<sn:pointer id="3" window="0" trigger="start">フォスター「[speed][0x1][nick:ヨシュア]か[speed][0x5]！[speed][0x1]おお[speed][0x0]、よく帰ってきたのう。[page]
 [nick:ヨシュア]「フォスターさんも御元気でなによりです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">フォスター「そちらの御人は[nick:ヨシュア]の知り合いで？[page]
+<sn:pointer id="4" window="1" trigger="start">フォスター「そちらの御人は[nick:ヨシュア]の知り合いで？[page]
 [nick:イリア]「初めまして。[nick:イリア]と申します。[page]
 [nick:ラティ]「[nick:ラティ]です。[page]
 フォスター「めずらしいのう、人見知りのはげしいこやつにこんなに知り合いがのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ヨシュア]「かんべんして下さい。[page]
+<sn:pointer id="5" window="1" trigger="start">[nick:ヨシュア]「かんべんして下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">フォスター「ふぉっふぉっふぉ、立ち話もなんじゃ、中へどうぞ。[page]
+<sn:pointer id="6" window="0" trigger="start">フォスター「ふぉっふぉっふぉ、立ち話もなんじゃ、中へどうぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">フォスター「して、[nick:ヨシュア]よ。いきなりじゃが、妹は見つかったのか？[page]
+<sn:pointer id="7" window="0" trigger="start">フォスター「して、[nick:ヨシュア]よ。いきなりじゃが、妹は見つかったのか？[page]
 [nick:ヨシュア]「いえ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">フォスター「あきらめるでないぞ？きっと見つかると信じるのじゃ。[page]
+<sn:pointer id="8" window="0" trigger="start">フォスター「あきらめるでないぞ？きっと見つかると信じるのじゃ。[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ヨシュア]「ところで、弓がどこにも見当たりませんが、かりはしていないんですか？[page]
+<sn:pointer id="9" window="1" trigger="start">[nick:ヨシュア]「ところで、弓がどこにも見当たりませんが、かりはしていないんですか？[page]
 フォスター「最近はめっきりしなくなったのう。[page]
 [nick:ヨシュア]「なぜですか？[page]
 フォスター「しようにもできんのじゃ。もりの中は魔物が増えてのう。[page]
@@ -42,39 +42,39 @@
 フォスター「[nick:ヨシュア]がいた頃はよく一緒にいったもんじゃが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1．俺たちで魔物退治しましょう
+<sn:pointer id="10" choice="2" window="1" trigger="start">1．俺たちで魔物退治しましょう
 2．黙ってる[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「ここに来たのも何かの縁ですし、みんなで魔物退治していくってのはどうです？[page]
+<sn:pointer id="11" window="1" trigger="start">[nick:ラティ]「ここに来たのも何かの縁ですし、みんなで魔物退治していくってのはどうです？[page]
 フォスター「そんな危険なこと！客人には頼めませんぞ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]「それはいいアイディアね。[page]
+<sn:pointer id="12" window="1" trigger="start">[nick:イリア]「それはいいアイディアね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ヨシュア]「いいんですか？[nick:ラティ]さん。そんな手間のかかること[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="13" window="1" trigger="start">[nick:ヨシュア]「いいんですか？[nick:ラティ]さん。そんな手間のかかること[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ]「いいじゃないですか。やりましょうよ！[page]
+<sn:pointer id="14" window="0" trigger="start">[nick:ラティ]「いいじゃないですか。やりましょうよ！[page]
 フォスター「本当に申し訳ない。もりの入口は小屋の裏にありますじゃ。くれぐれも無理はなさらんでくだされ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">フォスター「こんな所まで来て痩れたじゃろ。今夜は泊まっていくとええ。[page]
+<sn:pointer id="15" window="0" trigger="start">フォスター「こんな所まで来て痩れたじゃろ。今夜は泊まっていくとええ。[page]
 [nick:イリア]「すいません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">フォスター「ありがとう。これはせめてものお礼だ。曼け取ってくれ。[page]
+<sn:pointer id="16" window="0" trigger="talk 17">フォスター「ありがとう。これはせめてものお礼だ。曼け取ってくれ。[page]
 [color][0x6][item][0xec][0x14][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">フォスター「もりのモンスターのことは、よろしくお願いします。[page]
+<sn:pointer id="17" window="0" trigger="talk 17">フォスター「もりのモンスターのことは、よろしくお願いします。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">フォスター「ありがとうございました。[page]
+<sn:pointer id="18" window="0" trigger="talk 17">フォスター「ありがとうございました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">フォスター「[nick:ヨシュア]よ、いつか妹と再会出来るといいな・・・。[page]
+<sn:pointer id="19" window="0" trigger="talk 17">フォスター「[nick:ヨシュア]よ、いつか妹と再会出来るといいな・・・。[page]
 [end]</sn:pointer>
 
 </sn:script>

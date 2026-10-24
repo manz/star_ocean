@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Eris[br]
+<sn:pointer id="0" window="0" trigger="start">Eris[br]
 Frangin ! Frangin !![page]
 [end]</sn:pointer>
 

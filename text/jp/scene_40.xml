@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4c][0x0]トロップ[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x4c][0x0]トロップ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">若い娘「ようこそ、港町[color][0x4]トロップ[color][0x2]へ。[page]
+<sn:pointer id="1" window="0" trigger="talk 16">若い娘「ようこそ、港町[color][0x4]トロップ[color][0x2]へ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">若者「あのすごい光はいったい[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="2" window="0" trigger="talk 17">若者「あのすごい光はいったい[speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">若者「このあたりは特に見るべきところも無い場所です。そのかわり魔物にねらわれるということもありませんけどね。[page]
+<sn:pointer id="3" window="0" trigger="talk 17">若者「このあたりは特に見るべきところも無い場所です。そのかわり魔物にねらわれるということもありませんけどね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">若い娘「いきなり隕石か何かが落ちてくるなんて[speed][0xa]・・・[speed][0x0]何だか恐いわ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="4" window="0" trigger="talk 18">若い娘「いきなり隕石か何かが落ちてくるなんて[speed][0xa]・・・[speed][0x0]何だか恐いわ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">若い娘「いい天気よねぇ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="5" window="0" trigger="talk 18">若い娘「いい天気よねぇ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">若者「[color][0x4]ポートミス[color][0x2]行きの臨時便がでてるってさ！[page]
+<sn:pointer id="6" window="0" trigger="talk 19">若者「[color][0x4]ポートミス[color][0x2]行きの臨時便がでてるってさ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">若者「港から船に乗るとエクダートに着くよ。更にその先は[color][0x4]イオニス[color][0x2]。そしてやっと[color][0x4]ヴァン城下町[color][0x2]さ。[page]
+<sn:pointer id="7" window="0" trigger="talk 19">若者「港から船に乗るとエクダートに着くよ。更にその先は[color][0x4]イオニス[color][0x2]。そしてやっと[color][0x4]ヴァン城下町[color][0x2]さ。[page]
 [end]</sn:pointer>
 
 </sn:script>

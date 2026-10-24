@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Auberge[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Maison[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Quincaillerie/Guilde des savoirs[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Quincaillerie/Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ][br]
+<sn:pointer id="3" window="0" trigger="tile 1">[nick:ラティ][br]
 Que faire ? Et pour ces boucles d'oreilles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Badam[br]
+<sn:pointer id="4" window="0" trigger="tile 4">Badam[br]
 Ah, c'est vous. Navré, mais j'ai confié le travail à ce type là-bas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ][br]
+<sn:pointer id="5" window="0" trigger="tile 4">[nick:ラティ][br]
 Hein ?![page]
 [nick:イリア][br]
 Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">???[br]
+<sn:pointer id="6" window="0" trigger="tile 4">???[br]
 Hey, mais c'est ceux de tout à l'heure ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">???[br]
+<sn:pointer id="7" window="0" trigger="tile 4">???[br]
 Quoi, c'était déjà promis à d'autres ? Alors je n'ai rien à faire ici.[page]
 Badam[br]
 C'est qu'ils ne m'inspiraient pas confiance[speed][0xa]...[speed][0x0] Ils ont l'air si [color][0x3]faibles[color][0x2] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">???[br]
+<sn:pointer id="8" window="1" trigger="tile 4">???[br]
 Bon. Je lui prête mon épée de rechange. Ça vous va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Vous obtenez [color][0x6][item][0xfd][0x14][color][0x2] et [color][0x6][item][0xb][0x15][color][0x2].[page]
+<sn:pointer id="9" window="1" trigger="tile 4">Vous obtenez [color][0x6][item][0xfd][0x14][color][0x2] et [color][0x6][item][0xb][0x15][color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Badam[br]
+<sn:pointer id="10" window="0" trigger="tile 4">Badam[br]
 Hé, attendez[speed][0xa]...[speed][0x0] Accompagnez-les, vous aussi. Comme ça, d'accord. Seuls, ils ne me rassurent pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">???[br]
+<sn:pointer id="11" window="0" trigger="tile 4">???[br]
 Hmm, soit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">???[br]
+<sn:pointer id="12" window="0" trigger="tile 4">???[br]
 Voilà qui est réglé. Vous aussi, vous voulez aller à [color][0x4]Portmith[color][0x2], pas vrai ?[page]
 [nick:ラティ][br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">???[br]
+<sn:pointer id="13" window="0" trigger="tile 4">???[br]
 On s'entraide. Je suis [nick:シウス] Warren. Enchanté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ][br]
+<sn:pointer id="14" window="0" trigger="tile 4">[nick:ラティ][br]
 Je suis [name:ラティクス] Farrence. Appelez-moi [nick:ラティ].[page]
 [nick:シウス][br]
 Oh là, pas de manières. Appelle-moi [nick:シウス].[page]
@@ -66,103 +66,103 @@ Oh là, pas de manières. Appelle-moi [nick:シウス].[page]
 Alors, appelle-moi [nick:ラティ] aussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア][br]
+<sn:pointer id="15" window="0" trigger="tile 4">[nick:イリア][br]
 Je suis [nick:イリア] Silvestoli, mais pour toi ce sera [nick:イリア] ! Enchantée, [nick:シウス].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Badam[br]
+<sn:pointer id="16" window="0" trigger="tile 4">Badam[br]
 Bon, je vous remettrai le [color][0x6]laissez-passer[color][0x2] demain midi, revenez donc demain.
 Voilà pour l'auberge.[page]
 Vous recevez [color][0x5]200[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 4">[nick:イリア][br]
 Merci [nick:ラティ][speed][0xa]...[speed][0x0]
 Hi hi hi[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア][br]
+<sn:pointer id="18" window="0" trigger="talk 4">[nick:イリア][br]
 Est-ce que tu peux demander au vendeur pour moi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:イリア][br]
+<sn:pointer id="19" window="0" trigger="talk 4">[nick:イリア][br]
 Vite, donne-le.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ][br]
+<sn:pointer id="20" window="1" trigger="talk 4">[nick:ラティ][br]
 Qu'est-ce que tu regardes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア][br]
+<sn:pointer id="21" window="0" trigger="talk 4">[nick:イリア][br]
 Hein ? Oh[speed][0xa]...[speed][0x0] Rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ][br]
+<sn:pointer id="22" window="1" trigger="talk 4">[nick:ラティ][br]
 Oh, elles sont belles ces boucles d'oreilles[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア][br]
+<sn:pointer id="23" window="1" trigger="talk 4">[nick:イリア][br]
 Tu trouves ? Elles me plaisent aussi ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">1. Tu les veux en cadeau ?[br]
+<sn:pointer id="24" choice="3" window="1" trigger="talk 4">1. Tu les veux en cadeau ?[br]
 2. Elles t'iront bien ?[br]
 3. On dirait de la camelote.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア][br]
+<sn:pointer id="25" window="1" trigger="talk 4">[nick:イリア][br]
 Mais que[speed][0xa]...[speed][0x0] T'es sûr que tu te trompes pas de personne ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ラティ][br]
+<sn:pointer id="26" window="1" trigger="talk 4">[nick:ラティ][br]
 Hein ?! Non c'est pas ce que j'ai voulu dire[speed][0xa]... ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア][br]
+<sn:pointer id="27" window="1" trigger="talk 4">[nick:イリア][br]
 Hi hi[speed][0x5]![speed][0x0] [nick:ミリー] aurait été ravie que tu lui dises ça, tu ne crois pas ?[page]
 [nick:イリア][br]
 Mais puisque tu le proposes, je vais me laisser gâter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ][br]
+<sn:pointer id="28" window="0" trigger="talk 4">[nick:ラティ][br]
 Passe-les-moi, je vais demander au vendeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ][br]
+<sn:pointer id="29" window="1" trigger="talk 4">[nick:ラティ][br]
 Elles te vont vraiment très bien, [nick:イリア].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:イリア][br]
+<sn:pointer id="30" window="0" trigger="talk 4">[nick:イリア][br]
 Ah oui[speed][0xa]?[speed][0x0] Merci ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ][br]
+<sn:pointer id="31" window="1" trigger="talk 4">[nick:ラティ][br]
 En les regardant d'un peu plus près, on dirait quand même du toc.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:イリア][br]
+<sn:pointer id="32" window="0" trigger="talk 4">[nick:イリア][br]
 Ce n'est pas le prix qui importe au final, tout ce qui compte, c'est qu'on l'aime et que ce soit offert avec le cœur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ][br]
+<sn:pointer id="33" window="1" trigger="talk 4">[nick:ラティ][br]
 [nick:イリア], tu as trouvé quelque chose d'autre ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア][br]
+<sn:pointer id="34" window="0" trigger="talk 4">[nick:イリア][br]
 Mais non, ce n'est pas ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア][br]
+<sn:pointer id="35" window="0" trigger="talk 4">[nick:イリア][br]
 Tu ne pourrais pas m'offrir autre chose ?[page]
 ???[br]
 Un cadeau ? Quel cadeau ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ][br]
+<sn:pointer id="36" window="0" trigger="talk 4">[nick:ラティ][br]
 N[speed][0x5]...[speed][0x0] Non, c'est rien. Je t'assure.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ミリー][br]
+<sn:pointer id="37" window="0" trigger="talk 4">[nick:ミリー][br]
 Mmmm[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
 [nick:ミリー], ça ne veut rien dire du tout[speed][0xa]...[speed][0x0][page]
@@ -172,185 +172,185 @@ Chut, [nick:イリア].[page]
 Okay.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ミリー][br]
+<sn:pointer id="38" window="0" trigger="talk 4">[nick:ミリー][br]
 Pourquoi tu caches ça ?[page]
 [nick:ラティ][br]
 Heu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ミリー][br]
+<sn:pointer id="39" window="0" trigger="start talk 4">[nick:ミリー][br]
 [nick:ラティ] !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス][br]
+<sn:pointer id="40" window="0" trigger="start talk 4">[nick:シウス][br]
 Salut, [nick:ラティ].
 Viens par ici une seconde.[page]
 [nick:ラティ][br]
 Hein[speed][0x5] ?[speed][0x0] D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:フィア][br]
+<sn:pointer id="41" window="0" trigger="start talk 4">[nick:フィア][br]
 Attends, [nick:シウス] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ][br]
+<sn:pointer id="42" window="1" trigger="talk 4">[nick:ラティ][br]
 Ça ne va pas, [nick:イリア] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:イリア][br]
+<sn:pointer id="43" window="0" trigger="talk 4">[nick:イリア][br]
 Non, c'est rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ][br]
+<sn:pointer id="44" window="0" trigger="talk 4">[nick:ラティ][br]
 Oh, quelles jolies boucles d'oreilles[speed][0xa]...[speed][0x0][page]
 ???[br]
 Qu'est-ce qu'elles ont de si spécial, ces boucles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ミリー][br]
+<sn:pointer id="45" window="0" trigger="talk 4">[nick:ミリー][br]
 Tu parlais de celles-là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:イリア][br]
+<sn:pointer id="46" window="8" trigger="talk 4">[nick:イリア][br]
 Allez, tu sais ce qu'il te reste à faire, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ][br]
+<sn:pointer id="47" window="8" trigger="talk 4">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">1. Les donner à [nick:ミリー][br]
+<sn:pointer id="48" choice="3" window="1" trigger="talk 4">1. Les donner à [nick:ミリー][br]
 2. Elles sont pour [nick:イリア][br]
 3. Botter en touche[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[end]</sn:pointer>
+<sn:pointer id="49" window="0" trigger="talk 4">[end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ラティ][br]
+<sn:pointer id="50" window="0" trigger="talk 4">[nick:ラティ][br]
 Attends-moi ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ラティ][br]
+<sn:pointer id="51" window="0" trigger="talk 4">[nick:ラティ][br]
 Attends-moi ici deux minutes, [nick:イリア].[page]
 [nick:イリア][br]
 Hein ? Mais qu'est-ce qui lui prend ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ][br]
+<sn:pointer id="52" window="0" trigger="talk 4">[nick:ラティ][br]
 Maintenant que j'y pense, il y a quelque temps[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ミリー][br]
+<sn:pointer id="53" window="0" trigger="talk 4">[nick:ミリー][br]
 Personne ne parle de ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ][br]
+<sn:pointer id="54" window="0" trigger="talk 7">[nick:ラティ][br]
 En plein sommeil[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー][br]
+<sn:pointer id="55" window="0" trigger="talk 1">[nick:ミリー][br]
 Oh, elles sont jolies ces boucles d'oreilles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ラティ][br]
+<sn:pointer id="56" window="0" trigger="talk 1">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0] Je suis crevé.[page]
 [nick:イリア][br]
 Les filles de son âge sont comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Badam[br]
+<sn:pointer id="57" window="0" trigger="talk 16">Badam[br]
 Oh, ces boucles-là ? C'est du toc. Allez-y, prenez-les.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Badam[br]
+<sn:pointer id="58" window="1" trigger="talk 16">Badam[br]
 Bienvenue... Oh ♪ Des aventuriers ! Vous voulez bien m'écouter un instant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">1. Je vous écoute.[br]
+<sn:pointer id="59" choice="3" window="1" trigger="talk 16">1. Je vous écoute.[br]
 2. Sans façon.[br]
 3. Nous venons acheter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Badam[br]
+<sn:pointer id="60" window="0" trigger="talk 16">Badam[br]
 Revenez demain.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Badam[br]
+<sn:pointer id="61" window="0" trigger="talk 16">Badam[br]
 Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス][br]
+<sn:pointer id="62" window="0" trigger="talk 16">[nick:シウス][br]
 Et voilà.[page]
 Badam[br]
 Oh ♪ Vous avez fait vite. Tenez, votre récompense.[page]
 Vous recevez [color][0x5]600[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Badam[br]
+<sn:pointer id="63" window="0" trigger="talk 16">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">???[br]
+<sn:pointer id="64" window="0" trigger="talk 17">???[br]
 Vous êtes aussi des aventuriers ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Fille[br]
+<sn:pointer id="65" window="0" trigger="talk 18">Fille[br]
 Non, ça ne me dit rien[speed][0xa]...[speed][0x0] Et comment ça se fait que vous ne sachiez pas où vous vous êtes séparés ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Femme[br]
+<sn:pointer id="66" window="0" trigger="talk 18">Femme[br]
 Ce type est vraiment vulgaire. On se demande qui l'a élevé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">Femme[br]
+<sn:pointer id="67" window="0" trigger="talk 18">Femme[br]
 Bonjour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">Aubergiste[br]
+<sn:pointer id="68" window="0" trigger="talk 19">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">Aubergiste[br]
+<sn:pointer id="69" choice="yes-no" window="1" trigger="talk 19">Aubergiste[br]
 C'est [color][0x5]10[color][0x2] Fol pour la nuit.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[end]</sn:pointer>
+<sn:pointer id="70" window="0" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="71">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="71" window="0" trigger="talk 19">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[end]</sn:pointer>
+<sn:pointer id="72" window="0" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="73">Épéiste[br]
+<sn:pointer id="73" window="0" trigger="talk 20">Épéiste[br]
 Vous êtes des aventuriers ? Je suis venue de [color][0x4]Sylvalant[color][0x2] pour me rendre sur la tombe de mon maître. Ça, je ne peux pas le manquer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Épéiste[br]
+<sn:pointer id="74" window="0" trigger="talk 21">Épéiste[br]
 J'ai entendu parler d'un forgeron renommé à [color][0x4]Astral[color][0x2]. Normal, pour le royaume de l'épée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Fille[br]
+<sn:pointer id="75" window="0" trigger="talk 22">Fille[br]
 Beaucoup d'aventuriers viennent ici, je ne me rappelle pas le visage de chacun. Désolée de ne pouvoir vous venir en aide.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Fille[br]
+<sn:pointer id="76" window="0" trigger="talk 22">Fille[br]
 C'est très agréable ici. Si nous étions dans la région de [color][0x4]Sylvalant[color][0x2], nous serions infestés de monstres et c'est clair qu'on ne pourrait pas mettre un orteil dehors.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">Vieille femme[br]
+<sn:pointer id="77" window="0" trigger="talk 23">Vieille femme[br]
 Vous cherchez quelqu'un ? Je ne sors que très peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">Vieille femme[br]
+<sn:pointer id="78" window="0" trigger="talk 23">Vieille femme[br]
 Mon petit-fils est parti pour [color][0x4]Sylvalant[color][0x2], plein d'ardeur, combattre les monstres[speed][0xa]...[speed][0x0] Son père était pareil. Je voudrais juste les avoir près de moi...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">Entraîneur[br]
+<sn:pointer id="79" choice="yes-no" window="1" trigger="talk 24">Entraîneur[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">Entraîneur[br]
+<sn:pointer id="80" window="0" trigger="talk 24">Entraîneur[br]
 L'apprentissage des compétences est divisé en trois buts principaux.[page]
 La première est d'acquérir les effets bonus des savoirs. Par exemple, apprendre un savoir culturel augmentera votre INT.[page]
 La seconde est d'obtenir des commandes spéciales en apprenant différentes combinaisons de savoirs. Par exemple Marathon et Artisanat. Il en existe plus de 10 sortes alors si vous décidez de toutes les apprendre, la route sera longue.[page]
@@ -358,63 +358,63 @@ La dernière ressemble à la première, mais est un peu différente. Elle concer
 C'était un peu long, mais pour faire court, il est important d'utiliser vos points de savoir à bon escient et de le faire avec une vision à long terme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[end]</sn:pointer>
+<sn:pointer id="81" window="0" trigger="talk 24">[end]</sn:pointer>
 
-<sn:pointer id="82">Maître de la guilde[br]
+<sn:pointer id="82" window="1" trigger="talk 25">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">1. Culture niveau 1    300[br]
+<sn:pointer id="83" choice="3" window="1" trigger="talk 25">1. Culture niveau 1    300[br]
 2. Sens niveau 1      100[br]
 3. Technique niveau 1  600[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[end]</sn:pointer>
+<sn:pointer id="84" window="0" trigger="talk 25">[end]</sn:pointer>
 
-<sn:pointer id="85">Maître de la guilde[br]
+<sn:pointer id="85" window="0" trigger="talk 25">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Maître de la guilde[br]
+<sn:pointer id="86" window="0" trigger="talk 25">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Maître de la guilde[br]
+<sn:pointer id="87" window="0" trigger="talk 25">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">Mentor[br]
+<sn:pointer id="88" window="1" trigger="talk 26">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">1. Culture niveau 1[br]
+<sn:pointer id="89" choice="3" window="1" trigger="talk 26">1. Culture niveau 1[br]
 2. Sens niveau 1[br]
 3. Technique niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">Mentor[br]
+<sn:pointer id="90" window="0" trigger="talk 26">Mentor[br]
 Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">Mentor[br]
+<sn:pointer id="91" window="0" trigger="talk 26">Mentor[br]
 Sens niveau 1 comprend :
 Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">Mentor[br]
+<sn:pointer id="92" window="0" trigger="talk 26">Mentor[br]
 Technique niveau 1 comprend :
 Marathon, couteau de cuisine, dessin et siffler.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[end]</sn:pointer>
+<sn:pointer id="93" window="0" trigger="talk 26">[end]</sn:pointer>
 
-<sn:pointer id="94">Badam[br]
+<sn:pointer id="94" window="0" trigger="talk 16">Badam[br]
 En fait, j'aimerais que vous me rapportiez quelque chose de l'armurerie de [color][0x4]Portmith[color][0x2]. Le chemin du mont Métox est devenu dangereux ces derniers temps.[page]
 Bien sûr, vous serez payés, et je vous fournis un laissez-passer pour [color][0x4]Portmith[color][0x2]. Pas mal, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:イリア][br]
+<sn:pointer id="95" window="0" trigger="talk 16">[nick:イリア][br]
 [color][0x4]Portmith[color][0x2]... ?[page]
 Badam[br]
 C'est une ville au nord d'ici.[page]
@@ -424,52 +424,52 @@ Badam[br]
 Eh oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">1. Accepter la mission[br]
+<sn:pointer id="96" choice="2" window="1" trigger="talk 16">1. Accepter la mission[br]
 2. Refuser[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[end]</sn:pointer>
+<sn:pointer id="97" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="98">Badam[br]
+<sn:pointer id="98" window="0" trigger="talk 16">Badam[br]
 C'est gentil, mais il vous faudrait au moins des armes dignes de ce nom.[page]
 [nick:イリア][br]
 Tant pis. Repassons plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">Badam[br]
+<sn:pointer id="99" window="0" trigger="talk 16">Badam[br]
 Ah... bon.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">Badam[br]
+<sn:pointer id="100" window="0" trigger="talk 16">Badam[br]
 Ah... bon.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">Badam[br]
+<sn:pointer id="101" window="0" trigger="talk 16">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">[end]</sn:pointer>
+<sn:pointer id="102" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="103">Badam[br]
+<sn:pointer id="103" window="1" trigger="talk 16">Badam[br]
 C'était prévu pour avant-hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104">Badam[br]
+<sn:pointer id="104" window="1" trigger="talk 16">Badam[br]
 C'était prévu pour hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">Badam[br]
+<sn:pointer id="105" window="1" trigger="talk 16">Badam[br]
 Vous allez me faire attendre combien de jours ?! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">Badam[br]
+<sn:pointer id="106" window="0" trigger="talk 16">Badam[br]
 Tenez, voici le [color][0x6]laissez-passer[color][0x2].[page]
 Vous obtenez le [color][0x6]laissez-passer[color][0x2].[page]
 Badam[br]
 Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[nick:ペリシー][br]
+<sn:pointer id="107" window="0" trigger="start">[nick:ペリシー][br]
 Mon ami est là ?[page]
 [nick:ラティ][br]
 Probablement[speed][0xa]...[speed][0x0] Une statue de lapin aussi moche, ça court pas les rues.[page]
@@ -479,19 +479,19 @@ C'est pas moche ! C'est trop chou ![page]
 T[speed][0xa]...[speed][0x0] Trop chou ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="108">Badam[br]
+<sn:pointer id="108" window="0" trigger="start">Badam[br]
 Il y a un problème ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:ラティ][br]
+<sn:pointer id="109" window="1" trigger="start">[nick:ラティ][br]
 Vous vous souvenez de la statue qu'on vous a rapportée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">Badam[br]
+<sn:pointer id="110" window="0" trigger="start">Badam[br]
 Ah, celle-ci ? Qu'est-ce qu'elle a ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">[nick:ペリシー][br]
+<sn:pointer id="111" window="0" trigger="start">[nick:ペリシー][br]
 C'est Bunny !!![page]
 Badam[br]
 Hein[speed][0xa] ?![speed][0x0] Bunny ?[page]
@@ -501,15 +501,15 @@ Badam[br]
 Tu en as de bonnes, toi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[nick:ペリシー][br]
+<sn:pointer id="112" window="0" trigger="start">[nick:ペリシー][br]
 Bunny ! Réveille-toi !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">[nick:ペリシー][br]
+<sn:pointer id="113" window="0" trigger="start">[nick:ペリシー][br]
 [speed][0xa]...[speed][0x0] Il a bougé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">Badam[br]
+<sn:pointer id="114" window="0" trigger="start">Badam[br]
 L[speed][0xa]...[speed][0x0] La statue[speed][0xa]...[speed][0x0]
 Elle a bougé !!![page]
 [end]</sn:pointer>

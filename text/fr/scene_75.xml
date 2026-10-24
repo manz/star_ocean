@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Activer l'interrupteur ?[page]
+<sn:pointer id="0" choice="yes-no" window="1" trigger="talk 32">Activer l'interrupteur ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[end]</sn:pointer>
+<sn:pointer id="1" window="0" trigger="talk 32">[end]</sn:pointer>
 
-<sn:pointer id="2">Activer l'interrupteur ?[page]
+<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 33">Activer l'interrupteur ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="0" trigger="talk 33">[end]</sn:pointer>
 
-<sn:pointer id="4">[color][0x6][item][0x97][0x13][color][0x2] obtenu.[page]
+<sn:pointer id="4" window="1" trigger="search">[color][0x6][item][0x97][0x13][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Que nul bruit de pas ne s'élève.[page]
+<sn:pointer id="5" window="0" trigger="search">Que nul bruit de pas ne s'élève.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">OXOOOXX, là où se lève le soleil.[page]
+<sn:pointer id="6" window="0" trigger="search">OXOOOXX, là où se lève le soleil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ラティ][br]
 On ne va pas entrer là, n'est-ce pas ?[page]
 Chancelier[br]
 Non, pas cette porte. C'est pour plus tard[speed][0xa]...[speed][0x0][page]
@@ -27,35 +27,35 @@ Non, pas cette porte. C'est pour plus tard[speed][0xa]...[speed][0x0][page]
 Pour plus tard ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Chancelier[br]
+<sn:pointer id="8" window="0" trigger="start">Chancelier[br]
 Euh, rien, rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Chancelier[br]
+<sn:pointer id="9" window="0" trigger="start">Chancelier[br]
 Je dois contrôler vos aptitudes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Chancelier[br]
+<sn:pointer id="10" window="0" trigger="start">Chancelier[br]
 Entrez par cette porte et atteignez la sortie : si vous y parvenez, l'épreuve est réussie. Si c'est trop dur, vous pouvez revenir à tout moment.[page][end]</sn:pointer>
 
-<sn:pointer id="11">Chancelier[br]
+<sn:pointer id="11" window="0" trigger="start">Chancelier[br]
 Je vous attendrai à la sortie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Chancelier[br]
+<sn:pointer id="12" window="0" trigger="start">Chancelier[br]
 Oh, vous avez traversé le labyrinthe ! Excellent !! Bien, allons voir le roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Chancelier[br]
+<sn:pointer id="13" window="0" trigger="talk 16">Chancelier[br]
 Les monstres seront coriaces. Si c'est trop dur, allez vous entraîner dehors et revenez plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Vous ne pouvez pas en porter plus.[page]
+<sn:pointer id="14" window="0" trigger="search">Vous ne pouvez pas en porter plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="search">[end]</sn:pointer>
 
-<sn:pointer id="16">[center]Labyrinthe du jugement[page]
+<sn:pointer id="16" window="speaker" trigger="start">[center]Labyrinthe du jugement[page]
 [end]</sn:pointer>
 
 </sn:script>

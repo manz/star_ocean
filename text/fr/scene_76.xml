@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Port de Sylvalant[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Port de Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ][br]
+<sn:pointer id="1" window="0" trigger="talk 20">[nick:ラティ][br]
 Ça ne serait pas bon pour moi
 que j'y aille seul ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Marin[br]
+<sn:pointer id="2" window="1" trigger="talk 20">Marin[br]
 J'ai reçu des ordres...
 Vous allez où ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">1. Portmith (Royaume de Moore)[br]
+<sn:pointer id="3" choice="3" window="1" trigger="talk 20">1. Portmith (Royaume de Moore)[br]
 2. Otanim (Royaume d'Astral)[br]
 3. Île déserte au sud-est[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[end]</sn:pointer>
+<sn:pointer id="4" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="5">Marin[br]
+<sn:pointer id="5" window="0" trigger="talk 20">Marin[br]
 Qu'est-c'vous voulez ? Z'avez rien
 à fiche sur c'bateau. Rentrez chez vous ![page]
 [end]</sn:pointer>

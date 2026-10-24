@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x20][0x0]カルナス戦艦ホロデッキ[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x20][0x0]カルナス戦艦ホロデッキ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア]「ここは、ホロデッキよ。[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:イリア]「ここは、ホロデッキよ。[page]
 [nick:ラティ]「ホロデッキ？[page]
 [nick:イリア]「ここには立体投影を使って、なんでも映すことができるわ。[page]
 [nick:イリア]「ここで、格闘やスポーツをして汗を流したり、自然を楽しむこともできるの。[page]
@@ -12,7 +12,7 @@
 宇宙での長い生活には必要なのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]「ここは、ホロデッキよ。[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:イリア]「ここは、ホロデッキよ。[page]
 [nick:イリア]「でも、今そんなことを説明してる暇はないの。[page]
 [end]</sn:pointer>
 

@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Il est écrit
+<sn:pointer id="1" window="0" trigger="tile 2">Il est écrit
 "Oubliez vos désirs et le chemin s'ouvrira à vous"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Il est écrit
+<sn:pointer id="2" window="0" trigger="tile 2">Il est écrit
 "Libérez-vous et le chemin s'ouvrira à vous"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Il est écrit
+<sn:pointer id="3" window="0" trigger="tile 2">Il est écrit
 "Il est gênant d'être vu"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Il est écrit
+<sn:pointer id="4" window="0" trigger="tile 6">Il est écrit
 "Il n'y a pas de rêve"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Il est écrit
+<sn:pointer id="5" window="0" trigger="tile 6">Il est écrit
 "L'aventurier poursuit son rêve de richesse"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Il est écrit
+<sn:pointer id="6" window="0" trigger="tile 8">Il est écrit
 "Ouvrez à l'envers, et la voie se fera"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Il est écrit
+<sn:pointer id="7" window="0" trigger="tile 8">Il est écrit
 "C'est laid"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Il est écrit
+<sn:pointer id="8" window="0" trigger="tile 8">Il est écrit
 "Je veux une belle statue"[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">"Attention aux pièges mortels..."[page]
+<sn:pointer id="9" window="8" trigger="tile 40">"Attention aux pièges mortels..."[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Membre Tri-Ace[br]
+<sn:pointer id="10" window="0" trigger="talk 17">Membre Tri-Ace[br]
 Vous avez réussi...[page]
 Membre Tri-Ace[br]
 Les statues qu'on peut déplacer pourraient être importantes...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">C'est vide...[page]
+<sn:pointer id="11" window="0" trigger="talk 18">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">C'est vide...[page]
+<sn:pointer id="12" window="0" trigger="talk 19">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">C'est vide...[page]
+<sn:pointer id="13" window="0" trigger="talk 20">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">C'est vide...[page]
+<sn:pointer id="14" window="0" trigger="talk 21">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">C'est vide...[page]
+<sn:pointer id="15" window="0" trigger="talk 22">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">C'est vide...[page]
+<sn:pointer id="16" window="0" trigger="talk 23">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">C'est vide...[page]
+<sn:pointer id="17" window="0" trigger="talk 24">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">C'est vide...[page]
+<sn:pointer id="18" window="0" trigger="talk 28">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">C'est vide...[page]
+<sn:pointer id="19" window="0" trigger="talk 29">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">C'est vide...[page]
+<sn:pointer id="20" window="0" trigger="talk 30">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">C'est vide...[page]
+<sn:pointer id="21" window="0" trigger="talk 31">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">C'est vide...[page]
+<sn:pointer id="22" window="0" trigger="talk 32">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Kuma l'aventurier[br]
+<sn:pointer id="23" window="0" trigger="talk 35">Kuma l'aventurier[br]
 F[speed][0xa]-[speed][0x0]faites attention...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="8" trigger="talk 40">[end]</sn:pointer>
 
-<sn:pointer id="25">[end]</sn:pointer>
+<sn:pointer id="25" window="8" trigger="talk 41">[end]</sn:pointer>
 
-<sn:pointer id="26">[end]</sn:pointer>
+<sn:pointer id="26" window="8" trigger="talk 42">[end]</sn:pointer>
 
 </sn:script>

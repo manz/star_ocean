@@ -1,283 +1,283 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4a][0x0][nick:ドーン]の家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x4a][0x0][nick:ドーン]の家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x56][0x0]食料店[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x56][0x0]食料店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ドーン]「遅刻だぜ、[nick:ラティ]。
+<sn:pointer id="3" window="0" trigger="start">[nick:ドーン]「遅刻だぜ、[nick:ラティ]。
 早く中に入ろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x56][0x0]駐屯所[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x56][0x0]駐屯所[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">所長「それじゃ後は頼んだよ。[page]
+<sn:pointer id="5" window="0" trigger="start">所長「それじゃ後は頼んだよ。[page]
 [nick:ドーン]「はい。
 何かあったらすぐに連絡しますので。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ドーン]「おい[speed][0x14]、[speed][0x0]コラ[speed][0x14]。
+<sn:pointer id="6" window="0" trigger="start">[nick:ドーン]「おい[speed][0x14]、[speed][0x0]コラ[speed][0x14]。
 [speed][0x0]2人とも元気だせよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ドーン]「[nick:ミリー]の気持ちはわかるけど[speed][0xa]・・[speed][0x0][nick:ラティ][speed][0x1e]、[speed][0x0]おまえはずっと変だぜ。
+<sn:pointer id="7" window="0" trigger="start">[nick:ドーン]「[nick:ミリー]の気持ちはわかるけど[speed][0xa]・・[speed][0x0][nick:ラティ][speed][0x1e]、[speed][0x0]おまえはずっと変だぜ。
 どうしたんだ？言ってみろよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ]「[speed][0x14]・・・・・・。[speed][0x0][page]
+<sn:pointer id="8" window="0" trigger="start">[nick:ラティ]「[speed][0x14]・・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x4a][0x0][nick:ミリー]の家[page]
+<sn:pointer id="9" window="speaker" trigger="start">[pos][0x4a][0x0][nick:ミリー]の家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="10" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">休みますか？[page]
+<sn:pointer id="11" choice="yes-no" window="1" trigger="tile 11">休みますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="tile 11">[end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="tile 11">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ドーン]「さわるなよ、大切なオルゴールなんだ。[page]
+<sn:pointer id="14" window="0" trigger="talk 16">[nick:ドーン]「さわるなよ、大切なオルゴールなんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]
+<sn:pointer id="15" window="0" trigger="talk 16">[nick:ラティ]
 （これは[nick:ドーン]の妹の形見のオルゴールだ・・・。）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">母親「目が覚めた？[page]
+<sn:pointer id="16" window="0" trigger="talk 17">母親「目が覚めた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">母親「気をつけてね、[nick:ラティ]。[page]
+<sn:pointer id="17" window="0" trigger="talk 17">母親「気をつけてね、[nick:ラティ]。[page]
 [nick:ラティ]「大丈夫だって。
 ・・・父さんのぶんも頑張るから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ]「母さん、フレーゼおばさんが野菜入ったってさ。[page]
+<sn:pointer id="18" window="0" trigger="talk 17">[nick:ラティ]「母さん、フレーゼおばさんが野菜入ったってさ。[page]
 母親「あら、そう？
 それじゃあさっそくいかなきゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">母親「さぁて、でかけましょう。[page]
+<sn:pointer id="19" window="0" trigger="talk 17">母親「さぁて、でかけましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">母親「どれにしようかしら？[page]
+<sn:pointer id="20" window="0" trigger="talk 17">母親「どれにしようかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">武器屋のおやじ「お主らは町の治安を守る者なんじゃから、いかなるときでも武器を装備しておかねばならんぞ。[page]
+<sn:pointer id="21" window="0" trigger="talk 18">武器屋のおやじ「お主らは町の治安を守る者なんじゃから、いかなるときでも武器を装備しておかねばならんぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ドーン]「んなのわかってるって。[page]
+<sn:pointer id="22" window="0" trigger="talk 18">[nick:ドーン]「んなのわかってるって。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">自警団員「今日は[nick:ドーン]たちの見回りの番だぜ。[page]
+<sn:pointer id="23" window="0" trigger="talk 19">自警団員「今日は[nick:ドーン]たちの見回りの番だぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">自警団員「お、[nick:ミリー]ちゃん。いつもかわいいね。[page]
+<sn:pointer id="24" window="0" trigger="talk 20">自警団員「お、[nick:ミリー]ちゃん。いつもかわいいね。[page]
 [nick:ミリー]「やーだ。でもやっぱそう？[page]
 [nick:ドーン]「おい、おだてんなよ。[page]
 [nick:ミリー]「なによっ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ミリー]の父「[nick:ミリー]、法術の勉強を怠るなよ。おまえには私の後を維いでもらわんと・・・・。[page]
+<sn:pointer id="25" window="0" trigger="talk 21">[nick:ミリー]の父「[nick:ミリー]、法術の勉強を怠るなよ。おまえには私の後を維いでもらわんと・・・・。[page]
 [nick:ミリー]「わかってるわよ。うるっさいなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー]の父「うちの娘にも困ったものだ。
+<sn:pointer id="26" window="0" trigger="talk 21">[nick:ミリー]の父「うちの娘にも困ったものだ。
 法術の修行もせずに毎日あそんでばかり・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">食料店のおばさんフレーゼ「[nick:ラティ]、新鮮な野菜が入ったから、お母さんに伝えておいてね。[page]
+<sn:pointer id="27" window="0" trigger="talk 22">食料店のおばさんフレーゼ「[nick:ラティ]、新鮮な野菜が入ったから、お母さんに伝えておいてね。[page]
 [nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ドーン]「ブラックベリーは入った？[page]
+<sn:pointer id="28" window="0" trigger="talk 22">[nick:ドーン]「ブラックベリーは入った？[page]
 フレーゼ「まだしばらくかかりそうねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">フレーゼ「いらっしゃい。
+<sn:pointer id="29" window="0" trigger="talk 22">フレーゼ「いらっしゃい。
 ゆっくり選んでいってくださいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">道具屋のおやじ「いつもご苦労さん。[page]
+<sn:pointer id="30" window="0" trigger="talk 23">道具屋のおやじ「いつもご苦労さん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">道具屋の娘「私、料理も覚えたいけど細工も好きなの。楽器も弾いてみたいけど、才能ないからなぁ。[page]
+<sn:pointer id="31" window="1" trigger="talk 24">道具屋の娘「私、料理も覚えたいけど細工も好きなの。楽器も弾いてみたいけど、才能ないからなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">1．はげます
+<sn:pointer id="32" choice="2" window="1" trigger="talk 24">1．はげます
 2．ほっとく[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ミリー]「諦めるなんてソフィアらしくないわよ。がんばればきっと、ね？隠れた才能があるかもよ？[page]
+<sn:pointer id="33" window="0" trigger="talk 24">[nick:ミリー]「諦めるなんてソフィアらしくないわよ。がんばればきっと、ね？隠れた才能があるかもよ？[page]
 ソフィア「そうよね・・・ありがとう、[nick:ミリー]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ラティ]「諦めるなんてソフィアらしくないぞ。がんばればきっと隠れた才能があるかもよ？[page]
+<sn:pointer id="34" window="0" trigger="talk 24">[nick:ラティ]「諦めるなんてソフィアらしくないぞ。がんばればきっと隠れた才能があるかもよ？[page]
 ソフィア「そうよね・・・ありがとう、[nick:ラティ]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 24">[end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ドーン]「暇だなぁ。[page]
+<sn:pointer id="36" window="0" trigger="start">[nick:ドーン]「暇だなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ]「暇って事は、平和って事だから。[page]
+<sn:pointer id="37" window="0" trigger="start">[nick:ラティ]「暇って事は、平和って事だから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ドーン]「[speed][0xa]・・・[speed][0x0]おまえ、
+<sn:pointer id="38" window="0" trigger="start">[nick:ドーン]「[speed][0xa]・・・[speed][0x0]おまえ、
 [nick:ミリー]の事どう思ってるんだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ]「ん[speed][0xa]・・・[speed][0x0]どうって？[page]
+<sn:pointer id="39" window="0" trigger="start">[nick:ラティ]「ん[speed][0xa]・・・[speed][0x0]どうって？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ドーン]「友人として忠告しておくが・・・。[page]
+<sn:pointer id="40" window="1" trigger="start">[nick:ドーン]「友人として忠告しておくが・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ドーン]「あいつはおっちょこちょいで、おてんばで[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="41" window="0" trigger="start">[nick:ドーン]「あいつはおっちょこちょいで、おてんばで[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ドーン]「おまけに気がきかなくて、
+<sn:pointer id="42" window="1" trigger="start">[nick:ドーン]「おまけに気がきかなくて、
 口うるさくて・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ミリー]「[speed][0x1e]誰の[speed][0x0]話？[page]
+<sn:pointer id="43" window="0" trigger="start">[nick:ミリー]「[speed][0x1e]誰の[speed][0x0]話？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ドーン]「いや・・その[speed][0xa]・・・・[speed][0x0]。[page]
+<sn:pointer id="44" window="1" trigger="start">[nick:ドーン]「いや・・その[speed][0xa]・・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ミリー]「そんなこと言ってる暇があったら仕事仕事！！[page]
+<sn:pointer id="45" window="0" trigger="start">[nick:ミリー]「そんなこと言ってる暇があったら仕事仕事！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ドーン]「やることなんかないって！[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:ドーン]「やることなんかないって！[page]
 [nick:ミリー]「見回りでも行ってくればいいでしょ[speed][0x14]。[speed][0x0]ほら、私もいっしょに行ってあげるから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ドーン]「しょうがねぇなぁ。[page]
+<sn:pointer id="47" window="0" trigger="start">[nick:ドーン]「しょうがねぇなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ミリー]「さぁ、見回りに行きましょう。[page]
+<sn:pointer id="48" window="0" trigger="start">[nick:ミリー]「さぁ、見回りに行きましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ラティ]「どうしたんですか？[page]
+<sn:pointer id="49" window="0" trigger="start">[nick:ラティ]「どうしたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">所長「おお、[nick:ラティ]たちか。困ったことになった、これを見てくれ。[page]
+<sn:pointer id="50" window="0" trigger="start">所長「おお、[nick:ラティ]たちか。困ったことになった、これを見てくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">所長「この手紙なんじゃが・・・[page]
+<sn:pointer id="51" window="0" trigger="start">所長「この手紙なんじゃが・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[mode8][0x30][narration][0x0][page]
+<sn:pointer id="52" window="8" trigger="start">[mode8][0x30][narration][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[mode8][0x0][nick:ミリー]「どうするの？[page]
+<sn:pointer id="53" window="0" trigger="start">[mode8][0x0][nick:ミリー]「どうするの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ドーン]「もちろん助けに行くさ！[page]
+<sn:pointer id="54" window="0" trigger="start">[nick:ドーン]「もちろん助けに行くさ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]「[color][0x4]メトークス山[color][0x2]の頂の薬草なら・・・。[page]
+<sn:pointer id="55" window="0" trigger="start">[nick:ミリー]「[color][0x4]メトークス山[color][0x2]の頂の薬草なら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">？？？「待ちなさい！[page]
+<sn:pointer id="56" window="0" trigger="start">？？？「待ちなさい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ミリー]「お父さん！[page]
+<sn:pointer id="57" window="0" trigger="start">[nick:ミリー]「お父さん！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">所長「マルトスさん、行ってくれますか！[page]
+<sn:pointer id="58" window="0" trigger="start">所長「マルトスさん、行ってくれますか！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">マルトス「ええ、これは私の仕事です。
+<sn:pointer id="59" window="0" trigger="start">マルトス「ええ、これは私の仕事です。
 奇病という話ですが、
 たぶん大丈夫ですよ。[page]
 所長「[color][0x4]クラトス[color][0x2]一の法術師のマルトスさんが行ってくれるなら安心じゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">マルトス「すぐに戻ってくるから、
+<sn:pointer id="60" window="0" trigger="start">マルトス「すぐに戻ってくるから、
 [color][0x4]メトークス山[color][0x2]なんて危険な所に行くなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[mode8][0x38][pos][0x52][0x0]二日後[page]
+<sn:pointer id="61" window="8" trigger="start">[mode8][0x38][pos][0x52][0x0]二日後[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[mode8][0x0]？？？「昨日もお父さん帰って来なかったのよ。私行くわ。[page]
+<sn:pointer id="62" window="0" trigger="start">[mode8][0x0]？？？「昨日もお父さん帰って来なかったのよ。私行くわ。[page]
 ？？？「やめとけって、
 必要になったら呼ぶって言ってたろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[mode8][0x18]？？？「でも[speed][0xc]・・・・、
+<sn:pointer id="63" window="0" trigger="start">[mode8][0x18]？？？「でも[speed][0xc]・・・・、
 [speed][0x0]もう待っていられないのよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[pos][0x4a][0x0][nick:ラティ]の家[page]
+<sn:pointer id="64" window="speaker" trigger="start">[pos][0x4a][0x0][nick:ラティ]の家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">母親「そろそろ自警団へ出勤しなくていいの？[page]
+<sn:pointer id="65" window="0" trigger="start">母親「そろそろ自警団へ出勤しなくていいの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">母親「ほら、起きなさい！[page]
+<sn:pointer id="66" window="0" trigger="start">母親「ほら、起きなさい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:ドーン]「[speed][0x8]実は、
+<sn:pointer id="67" window="0" trigger="start">[nick:ドーン]「[speed][0x8]実は、
 [speed][0x4]最期に渡したい物があったんだ。[speed][0x0][page]
 [nick:ミリー]「なに言ってるの。
 少しの間、眠るだけよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ドーン]「[speed][0x5]そこの棚の上にあるオルゴールを取ってくれ。[speed][0x0][page]
+<sn:pointer id="68" window="0" trigger="start">[nick:ドーン]「[speed][0x5]そこの棚の上にあるオルゴールを取ってくれ。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ドーン]「[speed][0x4]それを[speed][0xf]、[speed][0x0][nick:ミリー]にやるよ。[page]
+<sn:pointer id="69" window="0" trigger="start">[nick:ドーン]「[speed][0x4]それを[speed][0xf]、[speed][0x0][nick:ミリー]にやるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ミリー]「これは妹さんの[speed][0xa]・・・、
+<sn:pointer id="70" window="0" trigger="start">[nick:ミリー]「これは妹さんの[speed][0xa]・・・、
 [speed][0x0]私、もらえない。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ドーン]「[speed][0x4]もらってくれ[speed][0xf]・・・。[speed][0x0][page]
+<sn:pointer id="71" window="0" trigger="start">[nick:ドーン]「[speed][0x4]もらってくれ[speed][0xf]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[mode8][0x8][nick:ドーン]「[speed][0x8]それは[speed][0x1e]、[speed][0xa]妹[speed][0xf]に[speed][0x14]俺[speed][0x19]が[speed][0x1e]・・・。[speed][0x0][mode8][0x0][page]
+<sn:pointer id="72" window="0" trigger="start">[mode8][0x8][nick:ドーン]「[speed][0x8]それは[speed][0x1e]、[speed][0xa]妹[speed][0xf]に[speed][0x14]俺[speed][0x19]が[speed][0x1e]・・・。[speed][0x0][mode8][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ラティ]「大丈夫。必ず俺が助けてやる。[page]
+<sn:pointer id="73" window="0" trigger="start">[nick:ラティ]「大丈夫。必ず俺が助けてやる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:イリア]「[speed][0xf]・・・[speed][0x0]辛いと思うけど、
+<sn:pointer id="74" window="0" trigger="start">[nick:イリア]「[speed][0xf]・・・[speed][0x0]辛いと思うけど、
 行きましょう。彼を助けるために。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ラティ]「はい。[page]
+<sn:pointer id="75" window="0" trigger="start">[nick:ラティ]「はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[mode8][0x38][pos][0x0][0x0]現代に帰還したロニキス達は、艦で血清を合成した。そして、完成した大量に培養された血清は惑星ロークに無事届けられた。[page]
+<sn:pointer id="76" window="8" trigger="start">[mode8][0x38][pos][0x0][0x0]現代に帰還したロニキス達は、艦で血清を合成した。そして、完成した大量に培養された血清は惑星ロークに無事届けられた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[mode8][0x0][nick:ミリー]「[nick:ドーン]！[page]
+<sn:pointer id="77" window="1" trigger="start">[mode8][0x0][nick:ミリー]「[nick:ドーン]！[page]
 [nick:ドーン]「[speed][0xa]・・・[speed][0x0]お、俺は[speed][0xa]・・・？[speed][0x0][page]
 [nick:ラティ]「助かったのさ。[page]
 [nick:ドーン]「そうか、やったんだな。[page]
 [nick:ラティ]「ああ、これでみんな助かる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ドーン]「よし、それじゃああのオルゴールは返してもらおう。[page]
+<sn:pointer id="78" window="1" trigger="start">[nick:ドーン]「よし、それじゃああのオルゴールは返してもらおう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ミリー]「なによぉ、あれはあたしがもらったの。[page]
+<sn:pointer id="79" window="1" trigger="start">[nick:ミリー]「なによぉ、あれはあたしがもらったの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ドーン]「はは、いいよやるよ。[page]
+<sn:pointer id="80" window="0" trigger="start">[nick:ドーン]「はは、いいよやるよ。[page]
 [end]</sn:pointer>
 
 </sn:script>

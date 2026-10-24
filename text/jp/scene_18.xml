@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x3e][0x0]アストラル城門[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x3e][0x0]アストラル城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x3e][0x0]アストラル城門[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x3e][0x0]アストラル城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">衛兵「ここは、アストラル城だ。[page]
+<sn:pointer id="2" window="0" trigger="talk 16">衛兵「ここは、アストラル城だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">門番「こんな夜中に何のようだ！！[page]
+<sn:pointer id="3" window="0" trigger="talk 16">門番「こんな夜中に何のようだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">衛兵「中に入ってもいいぞ。[page]
+<sn:pointer id="4" window="0" trigger="talk 17">衛兵「中に入ってもいいぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">門番「こんな夜中に何のようだ！！[page]
+<sn:pointer id="5" window="0" trigger="talk 17">門番「こんな夜中に何のようだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]「魔物を討ち取った。王に面会させてくれ。[page]
+<sn:pointer id="6" window="0" trigger="start">[nick:ラティ]「魔物を討ち取った。王に面会させてくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]「国王と謁見したいんだが[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="start">[nick:ロニキス]「国王と謁見したいんだが[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">衛兵「少々お待ちください。[page]
+<sn:pointer id="8" window="0" trigger="start">衛兵「少々お待ちください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ]「[nick:フィア]さん！[page]
+<sn:pointer id="9" window="1" trigger="start">[nick:ラティ]「[nick:フィア]さん！[page]
 [nick:フィア]「[nick:ラティ]たちじゃないか。どうだ、旅は順調なのか？[page]
 [nick:ラティ]「ええ。はぐれた仲間とも再会することが出来ましたし、[nick:フィア]さんのおかげです。[page]
 [nick:フィア]「私はただ、神殿の話をしただけさ。それが役にたったかどうかは知らないが、それから先はお前たちの力だろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー]「初めまして。[nick:ミリー]です。[page]
+<sn:pointer id="11" window="1" trigger="start">[nick:ミリー]「初めまして。[nick:ミリー]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ロニキス]「[nick:ロニキス]です。よろしく。[page]
+<sn:pointer id="12" window="1" trigger="start">[nick:ロニキス]「[nick:ロニキス]です。よろしく。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:マーヴェル]「[nick:マーヴェル]です。[page]
+<sn:pointer id="14" window="1" trigger="start">[nick:マーヴェル]「[nick:マーヴェル]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:フィア]「ああ、私は[nick:フィア]。アストラル王国の騎士長を務めている。[page]
+<sn:pointer id="15" window="1" trigger="start">[nick:フィア]「ああ、私は[nick:フィア]。アストラル王国の騎士長を務めている。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー]「女性なのに騎士長なんですか？！[page]
+<sn:pointer id="16" window="1" trigger="start">[nick:ミリー]「女性なのに騎士長なんですか？！[page]
 [nick:フィア]「性別なんか関係ないさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[end]</sn:pointer>
+<sn:pointer id="17" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="18">1．力を貸してほしい
+<sn:pointer id="18" choice="2" window="1" trigger="start">1．力を貸してほしい
 2．特に頼みはない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]「[nick:フィア]さん。できれば俺たちに力を貸してくれませんか？[page]
+<sn:pointer id="19" window="0" trigger="start">[nick:ラティ]「[nick:フィア]さん。できれば俺たちに力を貸してくれませんか？[page]
 [nick:フィア]「[speed][0xa]・・・[speed][0x0]それは、旅に同行してほしいということか？[page]
 [nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:シウス]「俺は別にいいぜ。今さらウルセェ女が一人増えたって関係ねぇしよ。[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:シウス]「俺は別にいいぜ。今さらウルセェ女が一人増えたって関係ねぇしよ。[page]
 [nick:フィア]「言ってくれるな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:フィア]「まぁいい。それじゃあそのことも含めて[speed][0xa]・・・[speed][0x0]国王に謁見しに来たんだろ？[page]
+<sn:pointer id="21" window="0" trigger="start">[nick:フィア]「まぁいい。それじゃあそのことも含めて[speed][0xa]・・・[speed][0x0]国王に謁見しに来たんだろ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:フィア]「それじゃあ国王の所まで案内しよう。[page]
+<sn:pointer id="22" window="0" trigger="start">[nick:フィア]「それじゃあ国王の所まで案内しよう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス]「国王と謁見したいんだが[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="23" window="0" trigger="start">[nick:ロニキス]「国王と謁見したいんだが[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">衛兵「どうぞ。[page]
+<sn:pointer id="24" window="0" trigger="start">衛兵「どうぞ。[page]
 [end]</sn:pointer>
 
 </sn:script>

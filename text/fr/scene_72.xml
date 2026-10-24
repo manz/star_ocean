@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[mode8][0x0][nick:ロニキス][br]
+<sn:pointer id="0" window="1" trigger="start">[mode8][0x0][nick:ロニキス][br]
 D'après l'émissaire Resonien, les membres de ce groupe mystérieux ont obtenu le virus de Roak avant de le donner à Resonia.[page]
 [nick:イリア][br]
 C'était il y a des centaines d'années, non ?[page]
@@ -8,28 +8,28 @@ C'était il y a des centaines d'années, non ?[page]
 Exact. Ils appartiennent à une race bien plus avancée que nous ne pouvons l'imaginer. Nous devons remonter le temps jusqu'à ce qu'ils arrivent à Roak et nous pourrons aussi avoir le virus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:イリア][br]
 Mais ça implique que le portail nous laisse passer[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ロニキス][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ロニキス][br]
 Portail ! Entends notre requête !
 Nous voulons aller à Roak, telle qu'elle était il y a 300 ans !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">???[br]
+<sn:pointer id="3" window="0" trigger="start">???[br]
 Je suis la porte, je suis la clé...
 Je suis le gardien du futur, du présent et du passé.[page]
 Je vois que vous désirez sauver de nombreuses vies, mais vous semblez au bout de vos ressources.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Gardien[br]
+<sn:pointer id="4" window="0" trigger="start">Gardien[br]
 Parfait. Laissez vos armes et vos communicateurs, vous ne pouvez pas les emmener dans le passé.[page]
 Gardien[br]
 Je vais ouvrir la porte[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ロニキス][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:ロニキス][br]
 Hourra ! On a réussi ![page]
 [nick:イリア][br]
 Vu comme il a accepté notre demande, ça prouve qu'on avait raison de faire ça.[page]
@@ -37,56 +37,56 @@ Vu comme il a accepté notre demande, ça prouve qu'on avait raison de faire ça
 Okay, en route ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[mode8][0x38][nick:ドーン], tiens bon.
+<sn:pointer id="6" window="8" trigger="start">[mode8][0x38][nick:ドーン], tiens bon.
 J'arrive, je vais te sauver[speed][0x19]...[speed][0x0][mode8][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[speed][0x3][mode8][0x18][end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="start">[speed][0x3][mode8][0x18][end]</sn:pointer>
 
-<sn:pointer id="8">[mode8][0x18][nick:ラティ][br]
+<sn:pointer id="8" window="0" trigger="start">[mode8][0x18][nick:ラティ][br]
 Merci beaucoup[speed][0xa]...[speed][0x3][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[mode8][0x18][nick:シウス][br]
+<sn:pointer id="9" window="1" trigger="start">[mode8][0x18][nick:シウス][br]
 Fais pas cette tronche ! C'est pas comme si on n'allait plus jamais se revoir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[mode8][0x18][nick:シウス][br]
+<sn:pointer id="10" window="0" trigger="start">[mode8][0x18][nick:シウス][br]
 C'était cool d'être avec vous, les gars...
 Tellement cool que je devrais vous en remercier à genoux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[mode8][0x18][nick:アシュレイ][br]
+<sn:pointer id="11" window="0" trigger="start">[mode8][0x18][nick:アシュレイ][br]
 Ne fais pas cette tête d'enterrement, on se reverra ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[mode8][0x18][nick:ヨシュア][br]
+<sn:pointer id="12" window="1" trigger="start">[mode8][0x18][nick:ヨシュア][br]
 Ça a été une expérience fructueuse pour moi...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[mode8][0x18][nick:ヨシュア][br]
+<sn:pointer id="13" window="0" trigger="start">[mode8][0x18][nick:ヨシュア][br]
 J'ai l'impression d'avoir mûri à vos côtés...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[mode8][0x18][nick:フィア][br]
+<sn:pointer id="14" window="1" trigger="start">[mode8][0x18][nick:フィア][br]
 Garde courage, [nick:ラティ][speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[mode8][0x18][nick:フィア][br]
+<sn:pointer id="15" window="0" trigger="start">[mode8][0x18][nick:フィア][br]
 Nous vivons dans un petit monde, mais je suis heureuse de savoir qu'un tel monde existe[speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[mode8][0x18][nick:マーヴェル][br]
+<sn:pointer id="16" window="0" trigger="start">[mode8][0x18][nick:マーヴェル][br]
 Prenez soin de vous.
 Je ne vous oublierai jamais[speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[mode8][0x18][nick:ペリシー][br]
+<sn:pointer id="17" window="0" trigger="start">[mode8][0x18][nick:ペリシー][br]
 Nous sommes amis[speed][0xf]...[speed][0x3]
 Pour toujours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[mode8][0x18][nick:ミリー][br]
+<sn:pointer id="18" window="0" trigger="start">[mode8][0x18][nick:ミリー][br]
 Au revoir[speed][0xf]...[speed][0x3] tout le monde[speed][0xf]...[speed][0x3][page]
 [end]</sn:pointer>
 

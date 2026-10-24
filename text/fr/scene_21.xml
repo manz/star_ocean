@@ -1,70 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア][br]
+<sn:pointer id="0" window="0" trigger="start">[nick:イリア][br]
 Pour l'instant, commençons par les lieux les plus fréquentés. Nous devrions pouvoir trouver le Capitaine et [nick:ミリー] comme ça.[page]
 [nick:ラティ][br]
 Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Thermonia[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Thermonia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">???[br]
+<sn:pointer id="2" window="0" trigger="tile 6">???[br]
 Personne n'est aussi stupide ! Me faites pas rire ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Thermonia[page]
+<sn:pointer id="3" window="speaker" trigger="tile 6">[center]Thermonia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Homme[br]
+<sn:pointer id="4" window="0" trigger="talk 16">Homme[br]
 Badam, le vendeur de la quincaillerie, il était à la recherche d'aventuriers.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Érudite Lemia[br]
+<sn:pointer id="5" window="0" trigger="talk 17">Érudite Lemia[br]
 L'autre jour, j'ai vu une lumière, comme une étoile filante, tomber au sud de Crat. Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Érudite Lemia[br]
+<sn:pointer id="6" choice="yes-no" window="1" trigger="talk 17">Érudite Lemia[br]
 Connaissez-vous tous les royaumes du monde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Alors, je n'ai plus rien à dire.[page]
+<sn:pointer id="7" window="0" trigger="talk 17">Alors, je n'ai plus rien à dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">D'abord, le royaume de Moore : c'est le continent où vous vous trouvez. Depuis [color][0x4]Portmith[color][0x2], loin au nord, un bateau mène au royaume d'Astral, célèbre pour ses chevaliers, les plus forts du monde. À l'ouest d'Astral se trouve le royaume de Van, et au nord de celui-ci, Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
+<sn:pointer id="8" window="0" trigger="talk 17">D'abord, le royaume de Moore : c'est le continent où vous vous trouvez. Depuis [color][0x4]Portmith[color][0x2], loin au nord, un bateau mène au royaume d'Astral, célèbre pour ses chevaliers, les plus forts du monde. À l'ouest d'Astral se trouve le royaume de Van, et au nord de celui-ci, Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 17">[end]</sn:pointer>
 
-<sn:pointer id="10">Homme[br]
+<sn:pointer id="10" window="0" trigger="talk 18">Homme[br]
 [nick:ロニキス] ? [nick:ミリー] ? Ça grouille d'aventuriers et de mercenaires dans le coin, alors...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Homme[br]
+<sn:pointer id="11" window="0" trigger="talk 18">Homme[br]
 Avez-vous pu trouver vos amis ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Dean[br]
+<sn:pointer id="12" window="0" trigger="talk 19">Dean[br]
 Vous cherchez quelqu'un et vous ne savez même pas où vous vous êtes perdus de vue ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Dean[br]
+<sn:pointer id="13" window="0" trigger="talk 19">Dean[br]
 La ville fortifiée du [color][0x4]royaume de Moore[color][0x2], [color][0x4]Portmith[color][0x2], c'est une plaque tournante du commerce entre les royaumes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Armurier[br]
+<sn:pointer id="14" window="0" trigger="talk 21">Armurier[br]
 .......[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Armurier[br]
+<sn:pointer id="15" window="0" trigger="talk 21">Armurier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Armurier[br]
+<sn:pointer id="16" window="0" trigger="talk 21">Armurier[br]
 Pour cette épée ? C'est le travail du meilleur forgeron de tout l'Est. Si vous la prenez maintenant, je vous ferai un prix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 21">[nick:イリア][br]
 C'est une très bonne épée ! Pourquoi tu ne l'achètes pas, [nick:ラティ] ?[page]
 [nick:ラティ][br]
 C'est vrai que je me sens tout nu, sans épée...[page]
@@ -73,116 +73,116 @@ J'vous fais moitié prix :
 [color][0x5]20[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">1. Faire affaire[br]
+<sn:pointer id="18" choice="2" window="1" trigger="talk 21">1. Faire affaire[br]
 2. Décliner l'offre[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="20">Armurier[br]
+<sn:pointer id="20" window="0" trigger="talk 21">Armurier[br]
 Ne serait-il pas mieux de vous équiper avant de quitter la ville ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ][br]
+<sn:pointer id="21" window="0" trigger="talk 21">[nick:ラティ][br]
 Bon, d'accord, on achète.[page]
 Armurier[br]
 Merci bien ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">???[br]
+<sn:pointer id="22" window="0" trigger="talk 21">???[br]
 Dégage ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">???[br]
+<sn:pointer id="23" window="1" trigger="talk 21">???[br]
 Hé, minute ! Tu refourgues ta camelote à des bleus qui n'y connaissent rien, maintenant ?![page]
 Armurier[br]
 Encore toi ? Tu me gâches le commerce ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">???[br]
+<sn:pointer id="24" window="0" trigger="talk 21">???[br]
 La ferme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">???[br]
+<sn:pointer id="25" window="0" trigger="talk 21">???[br]
 T'es aventurier, toi aussi, non ? Ce truc, c'est du toc, forcément. Une grande épée de l'Est, c'est plutôt[speed][0x7]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">???[br]
+<sn:pointer id="26" window="0" trigger="talk 21">???[br]
 Bref, voilà. Te laisse pas rouler par ce marchand d'armes pourri. Salut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア][br]
+<sn:pointer id="27" window="0" trigger="talk 21">[nick:イリア][br]
 Il ne fait pas dans la dentelle, celui-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Armurier[br]
+<sn:pointer id="28" window="0" trigger="talk 21">Armurier[br]
 Ah les clients ces derniers temps ! J'vous jure...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Gamin[br]
+<sn:pointer id="29" window="0" trigger="talk 22">Gamin[br]
 J'donne juste un coup de main.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Liza[br]
+<sn:pointer id="30" window="0" trigger="talk 23">Liza[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Poissonnier Brad[br]
+<sn:pointer id="31" window="0" trigger="talk 24">Poissonnier Brad[br]
 Maudits pirates, il faut faire quelque chose contre eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Poissonnier Brad[br]
+<sn:pointer id="32" window="0" trigger="talk 24">Poissonnier Brad[br]
 Je reçois mon poisson de [color][0x4]Portmith[color][0x2], mais je m'inquiète, il y a de plus en plus de pirates ces derniers temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Raddle l'aventurier[br]
+<sn:pointer id="33" window="1" trigger="talk 25">Raddle l'aventurier[br]
 C'est par où, [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">1. Au Nord[br]
+<sn:pointer id="34" choice="2" window="1" trigger="talk 25">1. Au Nord[br]
 2. Au Sud[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Raddle l'aventurier[br]
+<sn:pointer id="35" window="0" trigger="talk 25">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Raddle l'aventurier[br]
+<sn:pointer id="36" window="0" trigger="talk 25">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 25">[end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ペリシー][br]
+<sn:pointer id="38" window="0" trigger="talk 10">[nick:ペリシー][br]
 Hé, [nick:ミリー] a dit qu'elle aimait les parfaits.♪ Mais pour [nick:ロニキス][speed][0xa]...[speed][0x0] ? C'était quoi ? Des champignons ? Non c'est pas ça. Mais c'était quoi déjà ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ][br]
+<sn:pointer id="39" window="0" trigger="talk 11">[nick:ラティ][br]
 Qu'est-ce qui ne va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:フィア][br]
+<sn:pointer id="40" window="0" trigger="talk 11">[nick:フィア][br]
 Oh, hey[speed][0xa]...[speed][0x0] [nick:ラティ][speed][0xa]...[speed][0x0] C'est rien, t'inquiète[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">1. Courage, ça va aller ![br]
+<sn:pointer id="41" choice="3" window="0" trigger="talk 11">1. Courage, ça va aller ![br]
 2. C'est avec [nick:シウス] ?[br]
 3. Ne rien dire et la laisser.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ][br]
+<sn:pointer id="42" window="0" trigger="talk 11">[nick:ラティ][br]
 Allez viens, fais pas la tête[speed][0xa]...[speed][0x0] Allez souris, ça va aller.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ラティ][br]
+<sn:pointer id="43" window="1" trigger="talk 11">[nick:ラティ][br]
 Non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア][br]
+<sn:pointer id="44" window="0" trigger="talk 11">[nick:フィア][br]
 Désolée, ça va pas très fort en ce moment[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ][br]
+<sn:pointer id="45" window="0" trigger="talk 11">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]
 C'est à cause de [nick:シウス] ?[page]
 [nick:フィア][br]
@@ -191,7 +191,7 @@ C'est à cause de [nick:シウス] ?[page]
 Souris, on ne peut rien faire pour lui[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:フィア][br]
+<sn:pointer id="46" window="0" trigger="talk 11">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]Sous le coup de la colère, je lui ai appris la mort de sire Ryas. À bien y repenser, j'ai vraiment manqué de tact[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 [nick:フィア][speed][0xa]...[speed][0x0][page]
@@ -201,81 +201,81 @@ J'aurais dû savoir combien il était fier de son père, plus que quiconque[spee
 [nick:フィア], c'est pas comme si on ne verrait plus jamais [nick:シウス][speed][0xa]...[speed][0x0] Si tu t'en veux, tu n'auras qu'à être plus gentille la prochaine fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ][br]
+<sn:pointer id="47" window="0" trigger="talk 11">[nick:ラティ][br]
 C'est vraiment pas le genre à se laisser mourir comme ça, hein ?[page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0]Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア][br]
+<sn:pointer id="48" window="0" trigger="talk 11">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]C'est pas grand chose, mais je me sens mieux. Merci, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア][br]
+<sn:pointer id="49" window="0" trigger="talk 11">[nick:フィア][br]
 Peux-tu me laisser seule ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:フィア][br]
+<sn:pointer id="50" window="0" trigger="talk 11">[nick:フィア][br]
 Désolée de te faire subir ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア][br]
+<sn:pointer id="51" window="0" trigger="talk 11">[nick:フィア][br]
 Parfois c'est mieux de se la couler douce. Je n'ai même pas pris conscience de ça tellement j'étais une tête de pioche quand j'étais chez les chevaliers[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:シウス][br]
+<sn:pointer id="52" window="0" trigger="talk 5">[nick:シウス][br]
 C'était moins une.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:シウス][br]
+<sn:pointer id="53" window="0" trigger="talk 5">[nick:シウス][br]
 Quel trou perdu ! Il se passe jamais rien ici ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:イリア][br]
+<sn:pointer id="54" window="0" trigger="talk 4">[nick:イリア][br]
 C'est un beau tableau, tu ne trouves pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:イリア][br]
+<sn:pointer id="55" window="0" trigger="talk 4">[nick:イリア][br]
 Je sais pas si on devrait s'en séparer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:イリア][br]
+<sn:pointer id="56" window="0" trigger="talk 4">[nick:イリア][br]
 Les filles de son âge sont comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:イリア][br]
+<sn:pointer id="57" window="0" trigger="talk 4">[nick:イリア][br]
 Tu ne comprends rien aux femmes, hein, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:ミリー][br]
+<sn:pointer id="58" window="0" trigger="talk 1">[nick:ミリー][br]
 Je me demande si cette ville n'était pas [color][0x4]Laponia[color][0x2] autrefois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ラティ][br]
+<sn:pointer id="59" window="0" trigger="talk 1">[nick:ラティ][br]
 Elle n'est pas de bon poil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ラティ][br]
+<sn:pointer id="60" window="0" trigger="talk 1">[nick:ラティ][br]
 Il semblerait qu'elle soit de bonne humeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Armurier[br]
+<sn:pointer id="61" window="1" trigger="talk 9">Armurier[br]
 Cette épée ? C'est le travail du plus grand forgeron de tout l'Est.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:アシュレイ][br]
+<sn:pointer id="62" window="0" trigger="talk 9">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0]Cesse de te moquer du monde ! Le plus grand forgeron de tout l'Est ? Qui serait assez sot pour acheter cette lame émoussée ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:アシュレイ][br]
+<sn:pointer id="63" window="0" trigger="talk 9">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Si une telle personne existe, j'aimerais bien voir sa tête ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:アシュレイ][br]
+<sn:pointer id="64" window="0" trigger="talk 9">[nick:アシュレイ][br]
 Oh[speed][0x14] ?[speed][0x0] Y'a un problème, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ラティ][br]
+<sn:pointer id="65" window="1" trigger="talk 4 talk 5">[nick:ラティ][br]
 Y'a un problème avec cette peinture ?[page]
 [nick:イリア][br]
 T'as pas une drôle d'impression en la regardant ? Je me demande ce qu'on a voulu exprimer en la peignant.[page]
@@ -283,64 +283,64 @@ T'as pas une drôle d'impression en la regardant ? Je me demande ce qu'on a voul
 Ouais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[end]</sn:pointer>
+<sn:pointer id="66" window="0" trigger="talk 4 talk 5">[end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス][br]
+<sn:pointer id="67" window="1" trigger="talk 4 talk 5">[nick:シウス][br]
 Paraît que le fils du quincaillier d'ici trouve son inspiration dans l'art des ruines des Anciens, qu'il les dessine. C'est un artiste itinérant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ラティ][br]
+<sn:pointer id="68" window="1" trigger="talk 4 talk 5">[nick:ラティ][br]
 [speed][0x3]Les anciens[speed][0x5] ?[speed][0x0][page]
 [nick:シウス][br]
 Tu n'as jamais entendu parler d'eux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">1. Dis-m'en plus ![br]
+<sn:pointer id="69" choice="2" window="1" trigger="talk 4 talk 5">1. Dis-m'en plus ![br]
 2. Mais si, bien sûr.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:シウス][br]
+<sn:pointer id="70" window="0" trigger="talk 4 talk 5">[nick:シウス][br]
 Ils ont disparu aujourd'hui, mais on dit qu'ils étaient une race très puissante il y a longtemps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:シウス][br]
+<sn:pointer id="71" window="0" trigger="talk 4 talk 5">[nick:シウス][br]
 Bon, ben tant mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:シウス][br]
+<sn:pointer id="72" window="0" trigger="start">[nick:シウス][br]
 Bon, ben j'ai eu mes thunes, alors... J'ai plus qu'à aller chercher d'autres trésors ou d'autres trucs du genre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">1. Voyage avec nous ?[br]
+<sn:pointer id="73" choice="3" window="1" trigger="start">1. Voyage avec nous ?[br]
 2. Des trésors ?[br]
 3. Séparons-nous ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ラティ][br]
+<sn:pointer id="74" window="1" trigger="start">[nick:ラティ][br]
 Des trésors ?[page]
 [nick:シウス][br]
 J'ai traversé une ruine durant un de mes voyages. C'était sur le sentier du mont Métox, mais je n'en ai pas vraiment fait le tour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス][br]
+<sn:pointer id="75" window="0" trigger="start">[nick:シウス][br]
 À plus. C'était cool de tracer la route avec vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:シウス][br]
+<sn:pointer id="76" window="1" trigger="start">[nick:シウス][br]
 Qu'est-ce qui ne va pas, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:イリア][br]
+<sn:pointer id="77" window="0" trigger="start">[nick:イリア][br]
 Il fait les choses à sa manière.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ラティ][br]
+<sn:pointer id="78" window="1" trigger="start">[nick:ラティ][br]
 Tu ne nous aiderais pas ?[page]
 [nick:シウス][br]
 Gné ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:シウス][br]
+<sn:pointer id="79" window="0" trigger="start">[nick:シウス][br]
 Je suis curieux de rencontrer vos amis.[page]
 [nick:ラティ][br]
 Alors, tu viendras ?[page]
@@ -348,7 +348,7 @@ Alors, tu viendras ?[page]
 Ouais, si vous voulez bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ロニキス][br]
+<sn:pointer id="80" window="0" trigger="talk 3">[nick:ロニキス][br]
 Mais tout le monde a une queue de singe ici ![page]
 [nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
@@ -356,27 +356,27 @@ Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
 Pardon, désolé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:マーヴェル][br]
+<sn:pointer id="81" window="0" trigger="talk 8">[nick:マーヴェル][br]
 ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ヨシュア][br]
+<sn:pointer id="82" window="0" trigger="talk 6">[nick:ヨシュア][br]
 J'attendrai ici votre retour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:ロニキス][br]
+<sn:pointer id="83" window="0" trigger="talk 3 talk 6">[nick:ロニキス][br]
 Mais qui a bien pu être [nick:マーヴェル][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:ラティ][br]
+<sn:pointer id="84" window="1" trigger="talk 3 talk 6">[nick:ラティ][br]
 J'en suis pas bien sûr non plus[speed][0xa]...[speed][0x0] Mais y'a pas de raison de vous en vouloir[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:ロニキス][br]
+<sn:pointer id="85" window="0" trigger="talk 3 talk 6">[nick:ロニキス][br]
 Ouais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:ロニキス][br]
+<sn:pointer id="86" window="0" trigger="talk 3 talk 8">[nick:ロニキス][br]
 Mais tout le monde a une queue de singe ici ![page]
 [nick:ラティ][br]
 Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
@@ -384,7 +384,7 @@ Pas de singes ! De chats ! Nous sommes des Felpurr ![page]
 Pardon, désolé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:ロニキス][br]
+<sn:pointer id="87" window="0" trigger="talk 3 talk 8">[nick:ロニキス][br]
 Maintenant que j'y pense, tu n'as pas de queue toi, [nick:マーヴェル] ?[page]
 [nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0][page]
@@ -392,35 +392,35 @@ Maintenant que j'y pense, tu n'as pas de queue toi, [nick:マーヴェル] ?[pag
 [speed][0xa]...[speed][0x0]Laisse tomber.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:ヨシュア][br]
+<sn:pointer id="88" window="0" trigger="talk 3 talk 6 talk 8">[nick:ヨシュア][br]
 D'ailleurs, [nick:マーヴェル], ta force est différente de l'escrime comme de l'héraldique. D'où te vient-elle exactement ?[page]
 [nick:マーヴェル][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:ロニキス][br]
+<sn:pointer id="89" window="0" trigger="talk 3 talk 6 talk 8">[nick:ロニキス][br]
 Est-ce réellement important ?[page]
 [nick:ヨシュア][br]
 Non, non, du tout. C'est juste que ça m'intriguait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:シウス][br]
+<sn:pointer id="90" window="0" trigger="start">[nick:シウス][br]
 Whaaa[speed][0xa]...[speed][0x0]Ouh là, [nick:ラティ] est en pleine scène de ménage. J'ai hâte de voir la suite. Ce que c'est excitant[speed][0x5]...[speed][0x0] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:フィア][br]
+<sn:pointer id="91" window="0" trigger="start">[nick:フィア][br]
 Hey, toi, [nick:シウス] ! Qu'est-ce que tu fais là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:シウス][br]
+<sn:pointer id="92" window="0" trigger="start">[nick:シウス][br]
 R[speed][0xa]...[speed][0x0] Rien[speed][0x0]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:シウス][br]
+<sn:pointer id="93" window="8" trigger="start">[nick:シウス][br]
 (Diantre, il semblerait que moi aussi je sois dans le pétrin...)[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:ラティ][br]
+<sn:pointer id="94" window="0" trigger="start">[nick:ラティ][br]
 Merci, [nick:シウス].[page]
 [nick:シウス][br]
 De rien.[page]

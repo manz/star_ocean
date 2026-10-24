@@ -1,181 +1,181 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x28][0x0]シルヴァラント遺跡[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x28][0x0]シルヴァラント遺跡[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「何も無い広間ですね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="1" window="1" trigger="tile 99">[nick:ラティ]「何も無い広間ですね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[end]</sn:pointer>
+<sn:pointer id="2" window="0" trigger="tile 99">[end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]「意味ありげな隠し通路の奥だから何かあると思ったんだけど[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="3" window="0" trigger="tile 99">[nick:イリア]「意味ありげな隠し通路の奥だから何かあると思ったんだけど[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー]「みんな来て！[page]
+<sn:pointer id="4" window="0" trigger="tile 99">[nick:ミリー]「みんな来て！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]「[nick:ミリー]、どうした？[page]
+<sn:pointer id="5" window="0" trigger="tile 99">[nick:ラティ]「[nick:ミリー]、どうした？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ミリー]「氷の中に女の人が閉じ込められているわ！[page]
+<sn:pointer id="6" window="1" trigger="tile 99">[nick:ミリー]「氷の中に女の人が閉じ込められているわ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「死んでいるのか？[page]
+<sn:pointer id="7" window="1" trigger="tile 99">[nick:ラティ]「死んでいるのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー]「ねぇ、かわいそうだよ！助けてあげようよ！[page]
+<sn:pointer id="8" window="1" trigger="tile 99">[nick:ミリー]「ねぇ、かわいそうだよ！助けてあげようよ！[page]
 [nick:ラティ]「[speed][0xa]・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">1．助ける
+<sn:pointer id="9" choice="2" window="1" trigger="tile 99">1．助ける
 2．助けない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]「いや、やめよう。[page]
+<sn:pointer id="10" window="0" trigger="tile 99">[nick:ラティ]「いや、やめよう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ミリー]「どうして？！ひどいわ！！[page]
+<sn:pointer id="11" window="0" trigger="tile 99">[nick:ミリー]「どうして？！ひどいわ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ]「生死はわからないけど、このままにしておくのはひどすぎるよな。[page]
+<sn:pointer id="12" window="0" trigger="tile 99">[nick:ラティ]「生死はわからないけど、このままにしておくのはひどすぎるよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]駄目だな。硬くてとても無理だ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="13" window="0" trigger="tile 99">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]駄目だな。硬くてとても無理だ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー]「氷が！[page]
+<sn:pointer id="14" window="0" trigger="tile 99">[nick:ミリー]「氷が！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ミリー]「あ[speed][0xa]・・・[speed][0x0]あ！[speed][0xa]・・・[speed][0x0]消えちゃった[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="15" window="1" trigger="start">[nick:ミリー]「あ[speed][0xa]・・・[speed][0x0]あ！[speed][0xa]・・・[speed][0x0]消えちゃった[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ラティ]「あのままにしておいた方がよかったのかな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="start">[nick:ラティ]「あのままにしておいた方がよかったのかな[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「どちらにせよもう仕方がない。戻ろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ラティ]「助けよう！[page]
+<sn:pointer id="17" window="0" trigger="tile 99">[nick:ラティ]「助けよう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:マーヴェル]「[nick:ラティ]さん、やめて下さい！[page]
+<sn:pointer id="18" window="0" trigger="tile 99">[nick:マーヴェル]「[nick:ラティ]さん、やめて下さい！[page]
 [nick:ラティ]「？？？どうして？！[page]
 [nick:ミリー]「[nick:マーヴェル]さん、どうして止めるの？助けてあげましょうよ！[page]
 [nick:マーヴェル]「お願いです！触れないで下さい！[page]
 [nick:ミリー]「冷たい氷のなかで[speed][0xa]・・・[speed][0x0]かわいそうだよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:マーヴェル]「やめて下さい！[page]
+<sn:pointer id="19" window="0" trigger="tile 99">[nick:マーヴェル]「やめて下さい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:マーヴェル]「どうしてもというなら[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="20" window="0" trigger="tile 99">[nick:マーヴェル]「どうしてもというなら[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ミリー]「[nick:マーヴェル]、さん？[page]
+<sn:pointer id="21" window="1" trigger="tile 99">[nick:ミリー]「[nick:マーヴェル]、さん？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:マーヴェル]「あなた達と戦わなければなりません[speed][0xa]・・・！[speed][0x0][page]
+<sn:pointer id="22" window="1" trigger="tile 99">[nick:マーヴェル]「あなた達と戦わなければなりません[speed][0xa]・・・！[speed][0x0][page]
 [nick:ラティ]「な！[page]
 [nick:ミリー]「そんな[speed][0xa]・・・[speed][0x0]そこまでして[speed][0xa]・・・！？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:マーヴェル]「やめて[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="23" window="0" trigger="tile 99">[nick:マーヴェル]「やめて[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [nick:ミリー]「[nick:マーヴェル]さんの考えてること[speed][0xa]・・・[speed][0x0]私わからない[speed][0xa]・・・！[speed][0x0][page]
 [nick:ラティ]「[nick:ミリー]いいよ、もうやめよう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="tile 99">[end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ヨシュア]「エリス[speed][0xa]・・・[speed][0x0]！！！[page]
+<sn:pointer id="25" window="0" trigger="tile 99">[nick:ヨシュア]「エリス[speed][0xa]・・・[speed][0x0]！！！[page]
 [nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ヨシュア]「エリス[speed][0xa]・・・[speed][0x0]どうしてこんな姿に[speed][0xa]・・・！！[speed][0x0][page]
+<sn:pointer id="26" window="0" trigger="tile 99">[nick:ヨシュア]「エリス[speed][0xa]・・・[speed][0x0]どうしてこんな姿に[speed][0xa]・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]「ねぇ、かわいそうだよ！助けてあげようよ！[page]
+<sn:pointer id="27" window="0" trigger="tile 99">[nick:ミリー]「ねぇ、かわいそうだよ！助けてあげようよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ]「[speed][0xa]・・・・・。[speed][0x0][page]
+<sn:pointer id="28" window="0" trigger="tile 99">[nick:ラティ]「[speed][0xa]・・・・・。[speed][0x0][page]
 [nick:ヨシュア]「こんな氷の中に閉じ込められて[speed][0xa]・・・[speed][0x0]今、僕が助けてやるからな！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:マーヴェル]「みなさん、やめて下さい！[page]
+<sn:pointer id="29" window="0" trigger="tile 99">[nick:マーヴェル]「みなさん、やめて下さい！[page]
 [nick:ラティ]「？？？どうして？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ミリー]「[nick:マーヴェル]さん、どうして止めるの？助けてあげましょうよ！[page]
+<sn:pointer id="30" window="0" trigger="tile 99">[nick:ミリー]「[nick:マーヴェル]さん、どうして止めるの？助けてあげましょうよ！[page]
 [nick:マーヴェル]「お願いです！触れないで下さい！[page]
 [nick:ミリー]「冷たい氷のなかで[speed][0xa]・・・[speed][0x0]かわいそうだよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:マーヴェル]「やめて下さい！どうしてもというなら[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="31" window="0" trigger="tile 99">[nick:マーヴェル]「やめて下さい！どうしてもというなら[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ミリー]「[nick:マーヴェル]、さん？[page]
+<sn:pointer id="32" window="1" trigger="tile 99">[nick:ミリー]「[nick:マーヴェル]、さん？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:マーヴェル]「あなた達と戦わなければなりません[speed][0xa]・・・！[speed][0x0][page]
+<sn:pointer id="33" window="0" trigger="tile 99">[nick:マーヴェル]「あなた達と戦わなければなりません[speed][0xa]・・・！[speed][0x0][page]
 [nick:ラティ]「な！[page]
 [nick:ミリー]「そんな[speed][0xa]・・・[speed][0x0]そこまでして[speed][0xa]・・・！？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ヨシュア]「貴様！[page]
+<sn:pointer id="34" window="0" trigger="tile 99">[nick:ヨシュア]「貴様！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ヨシュア]「僕は、妹を助けるために今まで生きてきたんだ！こんな状態のまま、妹を、エリスを放っておけというのか？！[page]
+<sn:pointer id="35" window="0" trigger="tile 99">[nick:ヨシュア]「僕は、妹を助けるために今まで生きてきたんだ！こんな状態のまま、妹を、エリスを放っておけというのか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ヨシュア]「ふざけるな！！戦うというなら戦ってやろうじゃないか！僕は何を犠牲にしてでも妹を助け出す！！[page]
+<sn:pointer id="36" window="0" trigger="tile 99">[nick:ヨシュア]「ふざけるな！！戦うというなら戦ってやろうじゃないか！僕は何を犠牲にしてでも妹を助け出す！！[page]
 [nick:ラティ]「[nick:マーヴェル]さん、どいて下さい[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「どけ。邪魔するな！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:マーヴェル]「やめて[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="37" window="0" trigger="tile 99">[nick:マーヴェル]「やめて[speed][0xa]・・・[speed][0x0]ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [nick:ミリー]「[nick:マーヴェル]さんの考えてること[speed][0xa]・・・[speed][0x0]私わからない[speed][0xa]・・・！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:マーヴェル]「もう嫌[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="38" window="0" trigger="tile 99">[nick:マーヴェル]「もう嫌[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:マーヴェル]「もう耐えられない[speed][0xa]・・・！！[speed][0x0]こんな思いをするなら、みなさんと一緒に来るんじゃなかった[speed][0xa]・・・！！[speed][0x0][page]
+<sn:pointer id="39" window="0" trigger="tile 99">[nick:マーヴェル]「もう耐えられない[speed][0xa]・・・！！[speed][0x0]こんな思いをするなら、みなさんと一緒に来るんじゃなかった[speed][0xa]・・・！！[speed][0x0][page]
 [nick:ヨシュア]「何をするつもりだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ミリー]「やめてーっ！[nick:マーヴェル]さんとは戦いたくないのに！！！[page]
+<sn:pointer id="40" window="0" trigger="tile 99">[nick:ミリー]「やめてーっ！[nick:マーヴェル]さんとは戦いたくないのに！！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ミリー]「え？[page]
+<sn:pointer id="41" window="0" trigger="tile 99">[nick:ミリー]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:マーヴェル]「みんな私が悪いの[speed][0xa]・・・[speed][0x0]。わずかな希望にすがれるほど強くなかった自分が悪かったの[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="42" window="0" trigger="tile 99">[nick:マーヴェル]「みんな私が悪いの[speed][0xa]・・・[speed][0x0]。わずかな希望にすがれるほど強くなかった自分が悪かったの[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:マーヴェル]「ごめんなさい[speed][0xa]・・・[speed][0x0]さような[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="43" window="0" trigger="tile 99">[nick:マーヴェル]「ごめんなさい[speed][0xa]・・・[speed][0x0]さような[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ヨシュア]「これは、どういうことなんです？[page]
+<sn:pointer id="44" window="0" trigger="tile 99">[nick:ヨシュア]「これは、どういうことなんです？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ヨシュア]「僕には、何がなんだか[speed][0xa]・・・[speed][0x0]！[page]
+<sn:pointer id="45" window="0" trigger="tile 99">[nick:ヨシュア]「僕には、何がなんだか[speed][0xa]・・・[speed][0x0]！[page]
 [nick:ミリー]「わからないけど、でも、[nick:マーヴェル]さん[speed][0xa]・・・[speed][0x0]悲しそうだった[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「妹も[speed][0xa]・・・[speed][0x0]あの女も消えた[speed][0xa]・・・[speed][0x0]！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ヨシュア]「一体何だっていうんだ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="46" window="0" trigger="tile 99">[nick:ヨシュア]「一体何だっていうんだ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">裏桜花奥義を手に入れました。[page]
+<sn:pointer id="47" window="0" trigger="talk 53">裏桜花奥義を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">ダークサークルを覚えました。[page]
+<sn:pointer id="48" window="0" trigger="talk 54">ダークサークルを覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">このスイッチは関係ないようだ。[page]
+<sn:pointer id="49" window="0" trigger="tile 96">このスイッチは関係ないようだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[pos][0x60][0x0]シルヴァラント遺跡[page]
+<sn:pointer id="50" unused="1">[pos][0x60][0x0]シルヴァラント遺跡[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">ここのスイッチは関係ないようだ。[page]
+<sn:pointer id="51" window="0" trigger="talk 50">ここのスイッチは関係ないようだ。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

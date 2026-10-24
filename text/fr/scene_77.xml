@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[end]</sn:pointer>
+<sn:pointer id="0" window="8" trigger="talk 17">[end]</sn:pointer>
 
-<sn:pointer id="1">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="1" window="0" trigger="talk 17">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+<sn:pointer id="2" window="0" trigger="talk 17">[color][0x6]Métal runique[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="8" trigger="talk 18">[end]</sn:pointer>
 
-<sn:pointer id="4">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="4" window="0" trigger="talk 18">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+<sn:pointer id="5" window="0" trigger="talk 18">[color][0x6]Orichalque[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[end]</sn:pointer>
+<sn:pointer id="6" window="8" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="7">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="7" window="0" trigger="talk 19">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+<sn:pointer id="8" window="0" trigger="talk 19">[color][0x6]Métal runique[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="8" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="10">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="10" window="0" trigger="talk 20">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+<sn:pointer id="11" window="0" trigger="talk 20">[color][0x6]Orichalque[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="8" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="13">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="13" window="0" trigger="talk 21">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[color][0x6]Métal runique[color][0x2] obtenu.[page]
+<sn:pointer id="14" window="0" trigger="talk 21">[color][0x6]Métal runique[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="8" trigger="talk 22">[end]</sn:pointer>
 
-<sn:pointer id="16">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="16" window="0" trigger="talk 22">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[color][0x6]Orichalque[color][0x2] obtenu.[page]
+<sn:pointer id="17" window="0" trigger="talk 22">[color][0x6]Orichalque[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[end]</sn:pointer>
+<sn:pointer id="18" window="8" trigger="talk 23">[end]</sn:pointer>
 
-<sn:pointer id="19">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
+<sn:pointer id="19" window="0" trigger="talk 23">Il y a des métaux précieux ici, mais tu ne peux pas les extraire comme ça. Par contre, si tu as de quoi creuser...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[color][0x6]Mithril[color][0x2] obtenu.[page]
+<sn:pointer id="20" window="0" trigger="talk 23">[color][0x6]Mithril[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">PankPonk[br]
+<sn:pointer id="21" window="0" trigger="tile 32">PankPonk[br]
 Gné hé hé ! Tu ne passeras pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[center]Mine abandonnée - Niv.1[page]
+<sn:pointer id="22" window="speaker" trigger="start">[center]Mine abandonnée - Niv.1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[center]Mine abandonnée - Niv.2[page]
+<sn:pointer id="23" window="speaker" trigger="start">[center]Mine abandonnée - Niv.2[page]
 [end]</sn:pointer>
 
 </sn:script>

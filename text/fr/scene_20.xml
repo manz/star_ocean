@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Maison[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Magasin général[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Magasin général[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Auberge[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Petite vieille[br]
+<sn:pointer id="3" window="1" trigger="talk 16">Petite vieille[br]
 Ho ! C'est rare d'avoir de la visite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">1. Demander des habits[br]
+<sn:pointer id="4" choice="2" window="1" trigger="talk 16">1. Demander des habits[br]
 2. Ne rien demander[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ][br]
+<sn:pointer id="5" window="0" trigger="talk 16">[nick:ラティ][br]
 Je peux voir ce que vous avez comme habits de femme ?[page]
 Petite vieille[br]
 Tu as tes raisons, hein ? Bon, si c'est comme ça...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Petite vieille[br]
+<sn:pointer id="6" window="0" trigger="talk 16">Petite vieille[br]
 Voici ceux de ma fille. Elle est mariée, maintenant.
 Ils sont un peu usés, mais vous pouvez les prendre si vous voulez.[page]
 [nick:ラティ][br]
@@ -32,31 +32,31 @@ Petite vieille[br]
 Oh, de rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="8">Petite vieille[br]
+<sn:pointer id="8" window="0" trigger="talk 16">Petite vieille[br]
 Je me demande comment va ma fille...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Patron[br]
+<sn:pointer id="9" window="1" trigger="talk 17">Patron[br]
 Ha ! De nouveaux visages !
 Soyez les bienvenus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1. Demander des habits[br]
+<sn:pointer id="10" choice="2" window="1" trigger="talk 17">1. Demander des habits[br]
 2. Faire des emplettes[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="talk 17">[nick:ラティ][br]
 Heu[speed][0xa]...[speed][0x0]Comment dire ?
 Vous avez des habits pour femme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Patron[br]
+<sn:pointer id="12" window="0" trigger="talk 17">Patron[br]
 C'est pour ta petite amie ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="talk 17">[nick:ラティ][br]
 Non, non ! Ça ne va pas ! Je cherche quelque chose de plus classique.[page]
 Patron[br]
 Et ça ? C'est plutôt des habits de tous les jours pour aventurière.[page]
@@ -66,78 +66,78 @@ Patron[br]
 Ce sera [color][0x5]5[color][0x2], non ! [color][0x5]10[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1. Il a l'air étrange, mais tant pis[br]
+<sn:pointer id="14" choice="2" window="1" trigger="talk 17">1. Il a l'air étrange, mais tant pis[br]
 2. Partir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="talk 17">[nick:ラティ][br]
 Je vais prendre ça ![page]
 Patron[br]
 Hé hé ! Merci à vous ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 17">[end]</sn:pointer>
 
-<sn:pointer id="17">[end]</sn:pointer>
+<sn:pointer id="17" window="0" trigger="talk 17">[end]</sn:pointer>
 
-<sn:pointer id="18">Patron[br]
+<sn:pointer id="18" window="0" trigger="talk 17">Patron[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vieille femme[br]
+<sn:pointer id="19" window="0" trigger="talk 18">Vieille femme[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Vieille femme[br]
+<sn:pointer id="20" choice="yes-no" window="1" trigger="talk 18">Vieille femme[br]
 Bonjour ! Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="talk 18">[end]</sn:pointer>
 
-<sn:pointer id="22">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="22" window="0" trigger="talk 18">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 18">[end]</sn:pointer>
 
-<sn:pointer id="24">Aventurier[br]
+<sn:pointer id="24" window="0" trigger="talk 19">Aventurier[br]
 Je n'ai vu personne qui ressemble à ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Aventurier[br]
+<sn:pointer id="25" window="0" trigger="talk 19">Aventurier[br]
 Alors que je traînais dans le coin, j'ai échoué dans ce trou, mais qu'est-ce qu'on s'ennuie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Lily l'ado[br]
+<sn:pointer id="26" window="1" trigger="talk 20">Lily l'ado[br]
 Hein ? Elle est mignonne, cette fille ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">1. Ouais ![br]
+<sn:pointer id="27" choice="2" window="1" trigger="talk 20">1. Ouais ![br]
 2. Bof bof ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Lily l'ado[br]
+<sn:pointer id="28" window="0" trigger="talk 20">Lily l'ado[br]
 Hi hi♪ Je vois...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Lily l'ado[br]
+<sn:pointer id="29" window="0" trigger="talk 20">Lily l'ado[br]
 V[speed][0xa]-[speed][0x0]vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Lily l'ado[br]
+<sn:pointer id="30" window="0" trigger="talk 20">Lily l'ado[br]
 J'en ai ras le bol de trimer dans cette foutue boutique ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:フィア][br]
+<sn:pointer id="31" window="0" trigger="talk 11">[nick:フィア][br]
 Est-ce que [nick:ミリー] joue dehors avec le chat ?
 Elle adore les chats...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ロニキス][br]
+<sn:pointer id="32" window="0" trigger="talk 3">[nick:ロニキス][br]
 [nick:イリア] joue aussi avec les chats ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ヨシュア][br]
+<sn:pointer id="33" window="0" trigger="talk 6">[nick:ヨシュア][br]
 J'aime bien ces villages où il n'y a pas trop de monde...[page]
 [end]</sn:pointer>
 

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Embarcadère de Tatroï[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Embarcadère de Tatroï[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ][br]
+<sn:pointer id="1" window="1" trigger="tile 2">[nick:ラティ][br]
 Oh[speed][0x5],[speed][0x0] c'est vous[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:アシュレイ][br]
+<sn:pointer id="2" window="1" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 J'allais à [color][0x4]Astral[color][0x2], on pourrait s'y rendre ensemble, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">1. Ouais, pourquoi pas ?[br]
+<sn:pointer id="3" choice="2" window="1" trigger="talk 9 tile 2">1. Ouais, pourquoi pas ?[br]
 2. Je n'allais pas à Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:アシュレイ][br]
+<sn:pointer id="4" window="1" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 Pour être honnête, je t'ai observé pendant ton combat dans l'arène.[page]
 [nick:ラティ][br]
 Ah[speed][0x5] ?[speed][0x0] Ah bon ?[page]
@@ -25,20 +25,20 @@ Franchement, tu es un peu brut, mais tu as d'énormes qualités.[page]
 V[speed][0x5]-[speed][0x0]vraiment ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア][br]
+<sn:pointer id="5" window="0" trigger="talk 9 tile 2">[nick:イリア][br]
 Il dit ça par [speed][0xa]politesse[speed][0x0]♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:アシュレイ][br]
+<sn:pointer id="6" window="0" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 Ha ha ! Mieux vaut peut-être qu'il le prenne ainsi.
 Il ne faut jamais se griser.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="talk 9 tile 2">[nick:ラティ][br]
 Ha ha ! C'est vrai. C'est la première fois qu'on me complimente sur mes talents à l'épée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:アシュレイ][br]
+<sn:pointer id="8" window="0" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 Qui t'a appris à te battre ?
 De ce que j'en ai vu, ça ressemblait au style d'Edarl mais légèrement différent.[page]
 [nick:ラティ][br]
@@ -47,49 +47,49 @@ C'est mon père qui m'a appris à me battre.[page]
 Améliorer une technique qui était déjà parfaite est impossible si on n'a pas déjà de grandes aptitudes...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア][br]
+<sn:pointer id="9" window="1" trigger="talk 9 tile 2">[nick:イリア][br]
 Oh !! [nick:ラティ], le bateau va partir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ][br]
+<sn:pointer id="10" window="0" trigger="talk 9 tile 2">[nick:ラティ][br]
 En avant ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:アシュレイ][br]
+<sn:pointer id="11" window="0" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 Un bon instructeur, des talents innés[speed][0xa]...[speed][0x0]
 C'est la chance qui nous a fait nous rencontrer ici[speed][0xa]...[speed][0x0]
 Que les dieux en soient remerciés ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:アシュレイ][br]
+<sn:pointer id="12" window="0" trigger="talk 9 tile 2">[nick:アシュレイ][br]
 Je vois. Pas de chance...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="talk 20">[nick:ラティ][br]
 Ça ne serait pas une bonne idée que j'y aille tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Marin[br]
+<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20">Marin[br]
 Z'allez à [color][0x4]Astral[color][0x2] ? Si c'est l'cas, faut payer d'avance.
 C'est 80 Fol chacun.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Marin[br]
+<sn:pointer id="15" window="0" trigger="talk 20">Marin[br]
 T'as les poches vides, mon gars ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 20">[nick:イリア][br]
 Hé, stop ! Tu sais ce qu'il arrivera si nous allons à Astral maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:フィア][br]
+<sn:pointer id="18" window="0" trigger="talk 20">[nick:フィア][br]
 J'attendrai ici. Je ne peux pas me montrer à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="20">[end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 20">[end]</sn:pointer>
 
 </sn:script>

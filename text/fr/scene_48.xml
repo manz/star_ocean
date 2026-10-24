@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ヨシュア][br]
+<sn:pointer id="0" window="0" trigger="start">[nick:ヨシュア][br]
 Il pleut[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">???[br]
+<sn:pointer id="1" window="0" trigger="start">???[br]
 La pluie essaie de te retenir à l'intérieur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ヨシュア][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ヨシュア][br]
 [nick:フィア][speed][0xa]...[speed][0x0] Pourquoi ?[page]
 [nick:フィア][br]
 J'ai mes propres raisons pour ne pas vouloir franchir les portes du château.[page]
@@ -18,25 +18,25 @@ Puisque c'est ainsi[speed][0xa]...[speed][0x0][page]
 Je me disais que j'aurais pu en profiter pour voir si je ne trouvais pas quelqu'un. Quand j'habitais Astral, y'avait un crétin qui s'est tiré comme ça, sans dire un mot. Il s'appelle [nick:シウス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ヨシュア][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:ヨシュア][br]
 Dans ce cas, pourquoi ne viendrais-tu pas avec nous ? Il me semble l'avoir déjà mentionné au temple de Parj, je suis à la recherche de ma sœur, que j'ai perdue de vue il y a bien longtemps[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">???[br]
+<sn:pointer id="4" window="0" trigger="start">???[br]
 [speed][0x1]Attends !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:フィア][br]
 Dis[speed][0xa]...[speed][0x0] C'est pas toi qui voyageais avec [nick:ラティ] et les autres ?[page]
 [nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Toute seule, c'est bien trop triste[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:フィア][br]
 Je ne veux pas de ta pitié !! Même si[speed][0x14][speed][0xa]...[speed][0x0] Même si je suis recherchée, je suis toujours fière d'être un chevalier d'Astral[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ヨシュア][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Tu sais, à rester sur le qui vive, tu vas finir par te briser. Et ça, je ne peux pas le permettre.[page]
 [nick:フィア][br]
 [speed][0xa].....[speed][0x0][page]
@@ -44,19 +44,19 @@ Je ne veux pas de ta pitié !! Même si[speed][0x14][speed][0xa]...[speed][0x0] 
 N'hésite pas à venir me parler si tu ne te sens pas bien. Veux-tu que nous fassions un bout de chemin ensemble ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:イリア][br]
 Attends !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:フィア][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:フィア][br]
 [speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア][br]
+<sn:pointer id="10" window="0" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0][nick:ラティ] et les autres veulent te parler. Veux-tu revenir avec nous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:フィア][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:フィア][br]
 Tu es venue pour me dire ça ?[page]
 [nick:イリア][br]
 Heu[speed][0x14]?![speed][0x5]...[speed][0x0] Ouais[speed][0xa].[speed][0x0] J'aurais pas dû ?[page]
@@ -64,119 +64,119 @@ Heu[speed][0x14]?![speed][0x5]...[speed][0x0] Ouais[speed][0xa].[speed][0x0] J'a
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:フィア][br]
 T'es en train de me dire que t'es venue me chercher juste parce que [nick:ラティ] veut me parler ?[page]
 [nick:イリア][br]
 [speed][0xa]...[speed][0x0] Euh, ben oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0]S'il te plaît, écoute-moi.[speed][0x1e][speed][0x0] Quels qu'en soient les enjeux, nous ne pouvons être impliqués dans les conflits de ce monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:フィア][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:フィア][br]
 Maintenant que j'y pense, les Runes disaient quelque chose de très étrange[speed][0xa]...[speed][0x0] Ça parlait d'axe temporel et de sceau.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:イリア][br]
 En réalité, nous ne sommes pas de cette planète. Nous avons une mission très spécifique, et nous ne sommes là que temporairement[speed][0xa]...[speed][0x0] Nous ne pouvons vraiment pas nous en mêler, car il faut que nous ayons le moins d'interactions possible. Ce n'est pas du tout parce que nous ne vous faisons pas confiance.[page]
 [nick:フィア][br]
 Tu n'as pas besoin d'en dire plus.[speed][0x1e][speed][0x0] Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア][br]
+<sn:pointer id="16" window="0" trigger="tile 65">[nick:イリア][br]
 Qu'est-ce que c'est que cette lumière ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア][br]
 Qu'est-ce qu'il se passe ? Une météorite ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:ラティ][br]
 Ça pourrait pas être le vaisseau des étoiles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:シウス][br]
+<sn:pointer id="19" window="1" trigger="start">[nick:シウス][br]
 Bordel, il se passe quoi ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:イリア][br]
 Ça pourrait être une météorite...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:アシュレイ][br]
+<sn:pointer id="21" window="1" trigger="start">[nick:アシュレイ][br]
 Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア][br]
+<sn:pointer id="22" window="0" trigger="start">[nick:イリア][br]
 Ça pourrait être une météorite...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:フィア][br]
+<sn:pointer id="23" window="1" trigger="start">[nick:フィア][br]
 Qu'est-ce qu'il s'est passé ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア][br]
+<sn:pointer id="24" window="1" trigger="start">[nick:イリア][br]
 Ça pourrait être une météorite...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ヨシュア][br]
+<sn:pointer id="25" window="0" trigger="start">[nick:ヨシュア][br]
 Même la magie ne peut créer une lumière d'une telle intensité !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[end]</sn:pointer>
+<sn:pointer id="26" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ][br]
+<sn:pointer id="27" window="0" trigger="start">[nick:ラティ][br]
 Ça pourrait pas être le vaisseau des étoiles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ヨシュア][br]
+<sn:pointer id="28" window="0" trigger="start">[nick:ヨシュア][br]
 Le vaisseau des étoiles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ][br]
+<sn:pointer id="29" window="1" trigger="start">[nick:ラティ][br]
 Heu, eh bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:アシュレイ][br]
+<sn:pointer id="30" window="0" trigger="start">[nick:アシュレイ][br]
 Le vaisseau des étoiles ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ][br]
+<sn:pointer id="31" window="1" trigger="start">[nick:ラティ][br]
 Heu, eh bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:フィア][br]
+<sn:pointer id="32" window="0" trigger="start">[nick:フィア][br]
 Le vaisseau des étoiles ? Qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ][br]
+<sn:pointer id="33" window="1" trigger="start">[nick:ラティ][br]
 Heu, eh bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア][br]
+<sn:pointer id="34" window="1" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0] Ça m'inquiète. On devrait aller voir ça immédiatement.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">1. Après en être arrivés là ?![br]
+<sn:pointer id="35" choice="2" window="1" trigger="start">1. Après en être arrivés là ?![br]
 2. Partir sur-le-champ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ][br]
+<sn:pointer id="36" window="1" trigger="start">[nick:ラティ][br]
 Après en être arrivés là[speed][0xa]... ?![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:イリア][br]
+<sn:pointer id="37" window="1" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0]Tu dois avoir raison.[speed][0x1e][speed][0x0] Allons à [color][0x4]Tropp[color][0x2] pour l'instant. Il nous faut aussi conclure un accord avec le port de là-bas.[page]
 [nick:ラティ][br]
 D'accord.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ラティ][br]
+<sn:pointer id="38" window="1" trigger="start">[nick:ラティ][br]
 Je crois que ce qu'on appelle le "vaisseau des étoiles" dans mon monde vient de s'écraser pour de vrai.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:イリア][br]
+<sn:pointer id="39" window="1" trigger="start">[nick:イリア][br]
 S'écraser ?[page]
 [nick:ラティ][br]
 Ouais. Chez nous, il reste le site où un vaisseau étrange s'est écrasé. Je parie que c'est lui[speed][0xa]...[speed][0x0][page]
@@ -184,55 +184,55 @@ Ouais. Chez nous, il reste le site où un vaisseau étrange s'est écrasé. Je p
 Bon, d'accord. [speed][0x1e][speed][0x0] Allons à [color][0x4]Tropp[color][0x2] pour l'instant. Nous pouvons aussi trouver un accord avec le port de là-bas pour aller à [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス][br]
+<sn:pointer id="40" window="0" trigger="start">[nick:シウス][br]
 Ouais. Ça te dérange pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:アシュレイ][br]
+<sn:pointer id="41" window="0" trigger="start">[nick:アシュレイ][br]
 Ça ne t'intrigue pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ヨシュア][br]
+<sn:pointer id="42" window="1" trigger="start">[nick:ヨシュア][br]
 J'ai vraiment envie d'aller voir ce que c'était. La source d'une telle lumière m'intrigue au plus haut point.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:フィア][br]
+<sn:pointer id="43" window="0" trigger="start">[nick:フィア][br]
 Moi aussi ça m'intrigue[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス][br]
+<sn:pointer id="45" window="0" trigger="start">[nick:シウス][br]
 T'es sérieux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:アシュレイ][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:アシュレイ][br]
 Tout à fait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ヨシュア][br]
+<sn:pointer id="47" window="0" trigger="start">[nick:ヨシュア][br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[end]</sn:pointer>
+<sn:pointer id="48" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="49">Comment va Ray ?[page]
+<sn:pointer id="49" window="0" trigger="talk 16">Comment va Ray ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Est : Tatroï
+<sn:pointer id="50" window="0" trigger="talk 16">Est : Tatroï
 Ouest : Tropp[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Comment va Moe ?[page]
+<sn:pointer id="51" window="0" trigger="talk 17">Comment va Moe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Nord : Temple de Parj[page]
+<sn:pointer id="52" window="0" trigger="talk 17">Nord : Temple de Parj[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">Il n'y a rien d'écrit.[page]
+<sn:pointer id="53" window="0" trigger="talk 18">Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">Nord-Ouest : Tropp[page]
+<sn:pointer id="54" window="0" trigger="talk 18">Nord-Ouest : Tropp[page]
 [end]</sn:pointer>
 
 </sn:script>

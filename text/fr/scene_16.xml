@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Amiral[br]
+<sn:pointer id="0" window="0" trigger="start">Amiral[br]
 Vous êtes en train de nous expliquer que vous souhaitez faire une trêve ?[page]
 Ambassadeur résonien[br]
 Oui, c'est ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Ambassadeur résonien[br]
+<sn:pointer id="1" window="0" trigger="start">Ambassadeur résonien[br]
 Entrer en guerre contre la Terre n'était pas notre première intention.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Amiral[br]
+<sn:pointer id="2" window="0" trigger="start">Amiral[br]
 C'était donc vrai. Un groupe occulte œuvrait dans l'ombre de Resonia[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ロニキス][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:ロニキス][br]
 Un groupe occulte ?[page]
 Ambassadeur résonien[br]
 Oui. C'était de l'intimidation. Il s'est avéré que leur civilisation est très avancée et qu'ils étaient à l'origine de l'explosion de la planète Ise il y a 6 mois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Ambassadeur résonien[br]
+<sn:pointer id="4" window="0" trigger="start">Ambassadeur résonien[br]
 Nous ne savons pas ce qu'ils veulent. Toutefois, ce sont eux qui nous ont apporté le virus et la technologie liée à la nouvelle matière[speed][0xa]...[speed][0x0][page]
 Amiral[br]
 Je vois.
 Je comprends la plupart de vos dires[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ロニキス][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:ロニキス][br]
 Concernant l'arme bactériologique envoyée sur la planète Roak[speed][0xa]...[speed][0x0]
 Nous vous serions grandement reconnaissants si vous nous fournissiez un vaccin ou le patient 0.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Ambassadeur résonien[br]
+<sn:pointer id="6" window="0" trigger="start">Ambassadeur résonien[br]
 C'est impossible.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Ambassadeur résonien[br]
+<sn:pointer id="7" window="0" trigger="start">Ambassadeur résonien[br]
 Il n'existe plus ni vaccin, ni le patient 0. C'est regrettable pour la planète Roak, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:ミリー][br]
 Non[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Ambassadeur résonien[br]
+<sn:pointer id="9" window="0" trigger="start">Ambassadeur résonien[br]
 Nous savons d'où provient le virus, mais ça ne serait d'aucune utilité au point où nous en sommes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Amiral[br]
+<sn:pointer id="10" window="0" trigger="start">Amiral[br]
 On n'y peut rien. Faute de solution, il faudra renoncer à secourir la planète Roak[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ][br]
 Quoi ? Vous allez abandonner notre planète comme ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:イリア][br]
 [nick:ラティ], du calme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="1" trigger="start">[nick:ラティ][br]
 Bon sang ![end]</sn:pointer>
 
-<sn:pointer id="14">[page]
+<sn:pointer id="14" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:ラティ][br]
 Dire que nous avons fait tout ce chemin dans le seul but de sauver tous les habitants[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:ミリー][br]
 Qu'allons-nous faire à présent ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア][br]
 C'est difficile à avaler qu'ils aient récupéré le virus sur Roak il y a 300 ans et l'aient conservé précieusement tout ce temps...[page]
 [nick:イリア][br]
 Impossible maintenant de mettre au point un vaccin[speed][0xa]...[speed][0x0]
@@ -83,27 +83,27 @@ La fédération a décidé de terminer la campagne de sauvetage des rescapés de
 Tout ce que nous pouvons faire c'est vous présenter nos excuses.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:イリア][br]
 Je suis sincèrement navrée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス][br]
+<sn:pointer id="19" window="0" trigger="start">[nick:ロニキス][br]
 Rien n'est impossible, vous savez.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ロニキス][br]
 Juste fortement improbable[speed][0xa]...[speed][0x0] Non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア][br]
+<sn:pointer id="21" window="0" trigger="start">[nick:イリア][br]
 La planète[speed][0xa]...[speed][0x0] Stream[speed][0xa]...[speed][0x0]!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア][br]
+<sn:pointer id="22" window="1" trigger="start">[nick:イリア][br]
 Qu'est-ce que vous allez chercher là[speed][0xa]...[speed][0x0] C'est de la folie !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス][br]
+<sn:pointer id="23" window="0" trigger="start">[nick:ロニキス][br]
 Je vais nous ramener au vaisseau.[page]
 [nick:イリア][br]
 Mais[speed][0xa]...[speed][0x0]!![page]
@@ -111,7 +111,7 @@ Mais[speed][0xa]...[speed][0x0]!![page]
 Reste-t-il encore une chance[speed][0xa]?[speed][0x0] Si oui[speed][0xa]...[speed][0x0] Je vous en conjure...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ロニキス][br]
+<sn:pointer id="24" window="0" trigger="start">[nick:ロニキス][br]
 Amiral, que se passe-t-il ?[page]
 Amiral Bayes[br]
 C'est ce type de situation, capitaine.[page]
@@ -119,7 +119,7 @@ C'est ce type de situation, capitaine.[page]
 Quelle affaire...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Amiral[br]
+<sn:pointer id="25" window="0" trigger="start">Amiral[br]
 Un vaisseau prétendant être un éclaireur de la planète Farget est brutalement apparu dans l'espace territorial de la Fédération et a demandé notre reddition.[page]
 [nick:ロニキス][br]
 C'est ce fameux groupe occulte ?[page]
@@ -127,7 +127,7 @@ Amiral[br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Amiral[br]
+<sn:pointer id="26" window="0" trigger="start">Amiral[br]
 Nous avons décidé de lancer l'opération Stardust. Capitaine [nick:ロニキス], vous en prendrez la tête.[page]
 [nick:ロニキス][br]
 Nous, mener cette opération...[page]

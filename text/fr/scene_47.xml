@@ -1,92 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:フィア][br]
+<sn:pointer id="0" window="0" trigger="tile 2">[nick:フィア][br]
 Ça ne me dérange pas d'aller dans les grottes, mais hors de question que j'aille à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア][br]
+<sn:pointer id="1" window="0" trigger="tile 3">[nick:イリア][br]
 Attends. Tu sais ce qu'il va se passer si on va à Astral maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16">Garde[br]
 Écoutez mon conseil, arrêtez-vous avant qu'il ne soit trop tard. Il n'y a que des aventuriers ou des types bourrés pour oser entrer là-dedans.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Garde[br]
+<sn:pointer id="3" window="0" trigger="talk 17">Garde[br]
 Mieux vaut partir tant que vous le pouvez encore.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:フィア][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:フィア][br]
 Ouch ! T'abandonnes pas, toi, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:シウス][br]
 Ils ont fermé les voies maritimes. [color][0x4]Astral[color][0x2] est entouré de falaises. Si on veut foutre le camp, c'est le seul moyen.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ラティ][br]
 [nick:シウス].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ラティ][br]
 C'est elle[speed][0xa]...[speed][0x1] La fille de ce matin ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:フィア][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:フィア][br]
 Je t'en prie[str][0x1d][speed][0x14],[speed][0x0] [nick:シウス][speed][0xa]...[speed][0x0] Laisse-moi partir !! Je t'en supplie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:フィア][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:フィア][br]
 Je[speed][0x8]...[speed][0x0] Je pensais qu'on était amis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:シウス][br]
+<sn:pointer id="10" window="0" trigger="start">[nick:シウス][br]
 Mais que[speed][0x19]...[speed][0x1], Mais t'es qui, bordel ?![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:シウス][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:シウス][br]
 Si tu prétends être elle, essaie au moins de parler comme elle[speed][0x1]!!!!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:シウス][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:シウス][br]
 La [nick:フィア] que je connais parle comme un type ! Si tu essaies de te faire passer pour elle[speed][0xa]...[speed][0x1] Je vais te buter !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:フィア][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:フィア][br]
 Arf[speed][0xa]...[speed][0x0] Il semblerait que je manque vraiment de chance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:シウス][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:シウス][br]
 Alors, tu montres ta vraie forme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">???[br]
+<sn:pointer id="15" window="0" trigger="start">???[br]
 Tu n'es pas le seul à parler comme un charretier.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:シウス][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:シウス][br]
 [nick:フィア][speed][0xa]...[speed][0x0][page]
 [nick:フィア][br]
 Pourquoi ne pas rester transformé un peu plus longtemps ? Ça me permettrait de pas voir ta sale face.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:フィア][br]
+<sn:pointer id="17" window="1" trigger="start">[nick:フィア][br]
 Tu vas regretter d'avoir blessé Warren[speed][0x1]!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Fausse [nick:フィア][br]
+<sn:pointer id="18" window="0" trigger="start">Fausse [nick:フィア][br]
 Argh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ][br]
+<sn:pointer id="19" window="0" trigger="start">[nick:ラティ][br]
 Ne la laissez pas s'enfuir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア][br]
+<sn:pointer id="20" window="1" trigger="start">[nick:イリア][br]
 Je ne sais pas ce qu'il vous arrive tous les deux, mais ça ne serait pas une bonne occasion pour vous réconcilier ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:シウス][br]
+<sn:pointer id="21" window="0" trigger="start">[nick:シウス][br]
 [speed][0x1] Quoi !![speed][0xa]☆[speed][0x0][page]
 [nick:イリア][br]
 Tu ne crois pas que ça puisse être de ta faute si elle s'exprime de la sorte ? Vous êtes des amis d'enfance après tout.[page]
@@ -94,19 +94,19 @@ Tu ne crois pas que ça puisse être de ta faute si elle s'exprime de la sorte ?
 [speed][0x14]...[speed][0x1]... !!!☆ C[speed][0x14]-[speed][0x0]c'est pas le moment de parler de ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Garde A[br]
+<sn:pointer id="22" window="0" trigger="start">Garde A[br]
 Oh ! Dame [nick:フィア] ! Que faites-vous seule en un tel endroit...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Garde B[br]
+<sn:pointer id="23" window="0" trigger="start">Garde B[br]
 Hé ! Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア][br]
+<sn:pointer id="24" window="0" trigger="start">[nick:イリア][br]
 On est en sécurité maintenant[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:フィア][br]
+<sn:pointer id="25" window="0" trigger="start">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] À quoi tu pensais ?[page]
 [nick:ラティ][br]
 [speed][0xa]......[speed][0x0][page]
@@ -114,19 +114,19 @@ On est en sécurité maintenant[speed][0xa]...[speed][0x0][page]
 Aider quelqu'un que tu connais même pas à s'échapper[speed][0xa]...[speed][0x0] Je suis tellement heureuse que je n'arrive pas à sécher mes larmes[speed][0x5]...[speed][0x0] Et si je vous avais menti ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:イリア][br]
+<sn:pointer id="26" window="1" trigger="start">[nick:イリア][br]
 Il est d'une gentillesse désespérante.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:フィア][br]
+<sn:pointer id="27" window="0" trigger="start">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] On dirait bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア][br]
+<sn:pointer id="28" window="0" trigger="start">[nick:イリア][br]
 Évidemment, seule, je n'aurais jamais pris un tel risque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:フィア][br]
+<sn:pointer id="29" window="0" trigger="start">[nick:フィア][br]
 Bonne idée.[page]
 [nick:イリア][br]
 Allons-y, [nick:ラティ]. Nous devons vite retrouver les autres[speed][0xa]...[speed][0x0] Si on continue à lambiner de la sorte, Dieu sait quand nous atteindrons la prochaine ville.[page]
@@ -134,33 +134,33 @@ Allons-y, [nick:ラティ]. Nous devons vite retrouver les autres[speed][0xa]...
 Tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:フィア][br]
+<sn:pointer id="30" window="1" trigger="start">[nick:フィア][br]
 Vous cherchez quelqu'un ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:イリア][br]
+<sn:pointer id="31" window="0" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0] Oui, pourquoi ?[page]
 [nick:フィア][br]
 Et si vous me preniez avec vous ? Pour retrouver des gens, j'ai peut-être une piste.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:イリア][br]
+<sn:pointer id="32" window="1" trigger="start">[nick:イリア][br]
 Merci, mais sans façon[speed][0x14][speed][0x0][speed][0xa]...[speed][0x0] Pour parler franchement, nous ne voulons pas être mouillés dans vos affaires. Vous devriez comprendre par vous même pourquoi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1. La laisser parler[br]
+<sn:pointer id="33" choice="2" window="1" trigger="start">1. La laisser parler[br]
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ラティ][br]
+<sn:pointer id="34" window="1" trigger="start">[nick:ラティ][br]
 Peut-on au moins entendre ce qu'elle a à dire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア][br]
+<sn:pointer id="35" window="0" trigger="start">[nick:イリア][br]
 [speed][0xa]...[speed][0x0] D'accord, si ça te chante.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:フィア][br]
+<sn:pointer id="36" window="1" trigger="start">[nick:フィア][br]
 Avez-vous déjà entendu parler du joyau appelé [color][0x6]Œil de la Vérité[color][0x2] ? C'est un artefact créé par les anciens. On raconte qu'il peut montrer à celui qui le possède tout ce qu'il désire[speed][0xa]...[speed][0x0] De ce que j'en sais, il serait au [color][0x4]temple de Parj[color][0x2].[page]
 [nick:ラティ][br]
 Et il pourrait nous montrer où [nick:ミリー] et les autres se trouvent ?[page]
@@ -172,24 +172,24 @@ Vous n'en êtes pas sûre ?[page]
 Non.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:イリア][br]
+<sn:pointer id="37" window="1" trigger="start">[nick:イリア][br]
 Que faire ? Au point où nous en sommes, aller à [color][0x4]Sylvalant[color][0x2] ou au [color][0x4]temple de Parj[color][0x2] c'est du pareil au même[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">1. Aller au temple de Parj[br]
+<sn:pointer id="38" choice="2" window="1" trigger="start">1. Aller au temple de Parj[br]
 2. Rejoindre la ville la plus proche[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:フィア][br]
+<sn:pointer id="39" window="0" trigger="start">[nick:フィア][br]
 Laissez-moi vous accompagner au temple de Parj à la recherche de l'[color][0x6]Œil de la Vérité[color][0x2]. Je vous laisserai tranquille après ça. Et nous ne nous reverrons très certainement plus jamais[speed][0xa]...[speed][0x0][page]
 [nick:イリア][br]
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:フィア][br]
+<sn:pointer id="40" window="0" trigger="start">[nick:フィア][br]
 Bon ben je vais rester ici et ne pas vous déranger plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="start">[end]</sn:pointer>
 
 </sn:script>

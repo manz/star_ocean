@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">On dirait les ruines d'une ancienne ville mais on ne peut pas y entrer. Partons, il n'y a rien à faire ici.[page]
+<sn:pointer id="0" window="0" trigger="tile 60">On dirait les ruines d'une ancienne ville mais on ne peut pas y entrer. Partons, il n'y a rien à faire ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ロニキス][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:ロニキス][br]
 Qu'est-ce qui ne va pas, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ラティ][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ラティ][br]
 Hein[speed][0xa] ?[speed][0x0] C'est que[speed][0x14]...[speed][0x0] Ça me chagrine de quitter les autres sans leur dire adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア][br]
+<sn:pointer id="3" window="1" trigger="start">[nick:イリア][br]
 Nous n'avons pas le choix. Tu te vois aller tout leur expliquer et leur dire : "Bon ben salut, hein !" Tu sais que ça ne sera pas si facile[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:イリア][br]
 Ils ne pourraient jamais comprendre si on leur balançait comme ça qu'on vient de 300 ans dans le futur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:イリア][br]
 C'est vrai qu'ils vont nous manquer[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ロニキス][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ロニキス][br]
 C'est mieux de disparaître rapidement, ils en viendront à croire que ce n'était qu'un rêve[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ラティ][br]
 Mais tous les souvenirs de ce que nous avons vécu ensemble ne disparaîtront pas, tu sais[speed][0x14].[speed][0x0] Je ne les oublierai pas non plus ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:イリア][br]
 Nous savons tous ça[speed][0x14].[speed][0x0] Même le capitaine.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:イリア][br]
 Bien, allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Il n'y a rien d'écrit.[page]
+<sn:pointer id="10" window="0" trigger="talk 17">Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Ouest : Sylvalant.[page]
+<sn:pointer id="11" window="0" trigger="talk 17">Ouest : Sylvalant.[page]
 [end]</sn:pointer>
 
 </sn:script>

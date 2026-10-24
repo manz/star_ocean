@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x48][0x0]イオニス[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x48][0x0]イオニス[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「あ、あれは！[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:ラティ]「あ、あれは！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:アシュレイ]「アーガスィ・・・！！[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:アシュレイ]「アーガスィ・・・！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">真紅の楯「一体何の事を言っているのかさっぱりわからんな。[page]
+<sn:pointer id="3" window="1" trigger="start">真紅の楯「一体何の事を言っているのかさっぱりわからんな。[page]
 [nick:マーヴェル]「あなたは、私の両親と兄を殺したのよ・・・！[page]
 真紅の楯「[speed][0xa]・・・[speed][0x0]人違いだろう。[page]
 [nick:マーヴェル]「人違い？！[speed][0x14][speed][0x0]いいかげんなことを言わないで！[speed][0x14][speed][0x0][speed][0x1]覚悟っ！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ロニキス]「お、おい。本当にこの男なのか？[page]
+<sn:pointer id="4" window="0" trigger="start">[nick:ロニキス]「お、おい。本当にこの男なのか？[page]
 [nick:マーヴェル]「間違えることなど[speed][0xa]・・・[speed][0x0][speed][0x1]ありえないわ！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:マーヴェル]「[speed][0x1]くっ[speed][0x14]、[speed][0x0]まだまだ！！[page]
+<sn:pointer id="5" window="0" trigger="start">[nick:マーヴェル]「[speed][0x1]くっ[speed][0x14]、[speed][0x0]まだまだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">真紅の楯「女。命は大切にするんだな。[page]
+<sn:pointer id="6" window="0" trigger="start">真紅の楯「女。命は大切にするんだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「大丈夫ですか？[page]
+<sn:pointer id="7" window="1" trigger="start">[nick:ラティ]「大丈夫ですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]誰？[page]
+<sn:pointer id="8" window="1" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]誰？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ロニキス]「おお！[nick:ラティ]、それに[nick:イリア]も無事だったのか！[page]
+<sn:pointer id="9" window="0" trigger="start">[nick:ロニキス]「おお！[nick:ラティ]、それに[nick:イリア]も無事だったのか！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ロニキス]「どうした？[nick:イリア]。[page]
+<sn:pointer id="10" window="1" trigger="start">[nick:ロニキス]「どうした？[nick:イリア]。[page]
 [nick:イリア]「艦長、おモテになるんですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ロニキス]「おいおい、今の状況を見ただろ？会って早々何言い出すんだ！[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:ロニキス]「おいおい、今の状況を見ただろ？会って早々何言い出すんだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:マーヴェル]「何か？[page]
+<sn:pointer id="12" window="1" trigger="start">[nick:マーヴェル]「何か？[page]
 [nick:イリア]「え[speed][0x14]？[speed][0x0]いえ、は[speed][0x5]、[speed][0x0]初めまして。私、[nick:イリア]と申します。[page]
 [nick:マーヴェル]「あ、私は[nick:マーヴェル]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー]「[nick:マーヴェル]さ〜ん！！あまり無茶しないで下さいよ。殺されちゃうかと思ったわ！[page]
+<sn:pointer id="14" window="1" trigger="start">[nick:ミリー]「[nick:マーヴェル]さ〜ん！！あまり無茶しないで下さいよ。殺されちゃうかと思ったわ！[page]
 [nick:マーヴェル]「[nick:ミリー]、[speed][0xa]・・・[speed][0x0]心配かけてごめんなさいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「どうかした？[page]
+<sn:pointer id="16" window="0" trigger="start">[nick:イリア]「どうかした？[page]
 [nick:マーヴェル]「い[speed][0x5]、[speed][0x0]いえ。何でもありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ヨシュア]「真紅の楯に両親と、兄を[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="17" window="1" trigger="start">[nick:ヨシュア]「真紅の楯に両親と、兄を[speed][0xa]・・・[speed][0x0]？[page]
 [nick:マーヴェル]「え、ええ[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「奇遇ですね。僕も両親を殺され、今は生き別れになった妹を捜して旅を続けているところなんです。犯人については確信を持てないのが辛いところなんですが[speed][0xa]・・・。[speed][0x0][page]
 [nick:マーヴェル]「そう[speed][0xa]・・・[speed][0x14]。[speed][0x0]でも私には[speed][0x10]・・・・[speed][0x0]翼は無いですから[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そうですね。僕の妹は多分生きていれば奇麗というよりは可愛いという感じになっているでしょうしね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ロニキス]「・・・私はちょっとした事故で気を失っていたところを彼女に介抱してもらってたんだ。まぁ、とにかくどこかに入らないか？話をするのはその後でもいいだろう。[page]
+<sn:pointer id="18" window="0" trigger="start">[nick:ロニキス]「・・・私はちょっとした事故で気を失っていたところを彼女に介抱してもらってたんだ。まぁ、とにかくどこかに入らないか？話をするのはその後でもいいだろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス]「とにかくどこかに入らないか？話をするのはその後でもいいだろう。[page]
+<sn:pointer id="19" window="0" trigger="start">[nick:ロニキス]「とにかくどこかに入らないか？話をするのはその後でもいいだろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ロニキス]「すまないな。騒がしい困った奴らばかりで。[page]
+<sn:pointer id="21" window="1" trigger="start">[nick:ロニキス]「すまないな。騒がしい困った奴らばかりで。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:マーヴェル]「そんな[speed][0xa]・・・[speed][0x0]。みなさんいい人ばかりで、久しぶりに楽しい時間を過ごさせていただきました。[page]
+<sn:pointer id="22" window="0" trigger="start">[nick:マーヴェル]「そんな[speed][0xa]・・・[speed][0x0]。みなさんいい人ばかりで、久しぶりに楽しい時間を過ごさせていただきました。[page]
 [nick:ロニキス]「そうか[speed][0xa]・・・[speed][0x0]それならいいんだが[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:マーヴェル]「わたし、やっぱり一人で旅を続けたいと思うんです。[page]
+<sn:pointer id="23" window="1" trigger="start">[nick:マーヴェル]「わたし、やっぱり一人で旅を続けたいと思うんです。[page]
 [nick:ロニキス]「どうして[speed][0xa]？[speed][0x0]今楽しいと言ったばかりじゃないか。[page]
 [nick:マーヴェル]「だからなんです。[page]
 [nick:ロニキス]「え？[page]
@@ -89,147 +89,147 @@
 [nick:ロニキス]「忘れろ・・・とは言わないが、なにもそこまで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ラティ]「[nick:ロニキス]、さん？[page]
+<sn:pointer id="25" window="1" trigger="start">[nick:ラティ]「[nick:ロニキス]、さん？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ロニキス]「おお[speed][0xa]、[speed][0x0][nick:ラティ]か。[end]</sn:pointer>
+<sn:pointer id="26" window="1" trigger="start">[nick:ロニキス]「おお[speed][0xa]、[speed][0x0][nick:ラティ]か。[end]</sn:pointer>
 
-<sn:pointer id="27">[page]
+<sn:pointer id="27" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:マーヴェル]「[nick:ロニキス]さん、それじゃあ、私はこれで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="28" window="1" trigger="start">[nick:マーヴェル]「[nick:ロニキス]さん、それじゃあ、私はこれで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ロニキス]「おっおい。そんな急いで行くこともないだろう？！[page]
+<sn:pointer id="29" window="0" trigger="start">[nick:ロニキス]「おっおい。そんな急いで行くこともないだろう？！[page]
 [nick:マーヴェル]「いえ、一緒にいる時間が長くなればなるほど決心が鈍ってしまいそうなので[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「だが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="30" window="0" trigger="start">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">1．待って下さい！
+<sn:pointer id="31" choice="2" window="1" trigger="start">1．待って下さい！
 2．黙って見送る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ]「待って！[page]
+<sn:pointer id="32" window="0" trigger="start">[nick:ラティ]「待って！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]まだ何か？[page]
+<sn:pointer id="33" window="0" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]まだ何か？[page]
 [nick:ラティ]「どうしても、一緒には行けないんですか？[page]
 [nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]ごめんなさい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ラティ]「みんなといると楽しくて自分の目的を忘れてしまうから[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="34" window="0" trigger="start">[nick:ラティ]「みんなといると楽しくて自分の目的を忘れてしまうから[speed][0xa]・・・[speed][0x0]？[page]
 [nick:マーヴェル]「え[speed][0xa]、[speed][0x0]ええ[speed][0xa]・・・。[speed][0x0][page]
 [nick:ラティ]「だったら、みんな、ほら[speed][0xa]・・・[speed][0x0]！あんまり騒がないようにするってのは、どう？ダメか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ロニキス]「[speed][0x1]プッ[speed][0xa]・・・[speed][0x0][end]</sn:pointer>
+<sn:pointer id="35" window="1" trigger="start">[nick:ロニキス]「[speed][0x1]プッ[speed][0xa]・・・[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="36">[speed][0x0]アハハッなんだそれ？！[page]
+<sn:pointer id="36" window="0" trigger="start">[speed][0x0]アハハッなんだそれ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ]「すいませんっ。悪かったです！[page]
+<sn:pointer id="37" window="0" trigger="start">[nick:ラティ]「すいませんっ。悪かったです！[page]
 [nick:ロニキス]「くっくっくっ[speed][0xa]・・・[speed][0x0]いや[speed][0xa]、[speed][0x0]いいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:マーヴェル]「ふふふ。[nick:ラティ]さんズルイわ、それ反則よ[speed][0xa]？[speed][0x0]ふふ[speed][0xa]・・・[speed][0x0]あ[speed][0x14]、[speed][0x0]涙が[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="38" window="0" trigger="start">[nick:マーヴェル]「ふふふ。[nick:ラティ]さんズルイわ、それ反則よ[speed][0xa]？[speed][0x0]ふふ[speed][0xa]・・・[speed][0x0]あ[speed][0x14]、[speed][0x0]涙が[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ロニキス]「[nick:マーヴェル]？[page]
+<sn:pointer id="39" window="1" trigger="start">[nick:ロニキス]「[nick:マーヴェル]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:マーヴェル]「やだ[speed][0xa]・・・[speed][0x0]、笑いすぎちゃったみたい。涙がとまらないわ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="40" window="0" trigger="start">[nick:マーヴェル]「やだ[speed][0xa]・・・[speed][0x0]、笑いすぎちゃったみたい。涙がとまらないわ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ロニキス]「みんなと一緒に行こう、[nick:マーヴェル]。[page]
+<sn:pointer id="41" window="0" trigger="start">[nick:ロニキス]「みんなと一緒に行こう、[nick:マーヴェル]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:マーヴェル]「[nick:ロニキス]さん、わたし[speed][0xa]・・・・。[speed][0x0][page]
+<sn:pointer id="42" window="0" trigger="start">[nick:マーヴェル]「[nick:ロニキス]さん、わたし[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]ごめんなさい。私にはもう復誓しか残されていないんです。この“体”はそのためのものなんです[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="43" window="0" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]ごめんなさい。私にはもう復誓しか残されていないんです。この“体”はそのためのものなんです[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「[speed][0xa]？？？[speed][0x0]どういうことなんだ？[page]
 [nick:マーヴェル]「[nick:ロニキス]さん、あなただけには知っていてもらいたい。この姿は、本当の私の姿ではないのです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:マーヴェル]「旧異種族の力と自分の体を引き換えにしたんです。[speed][0x1e][speed][0x0]全ては兄と両親の仇を討つ為に[speed][0xa]・・・[speed][0x0]！！[page]
+<sn:pointer id="44" window="0" trigger="start">[nick:マーヴェル]「旧異種族の力と自分の体を引き換えにしたんです。[speed][0x1e][speed][0x0]全ては兄と両親の仇を討つ為に[speed][0xa]・・・[speed][0x0]！！[page]
 [nick:ロニキス]「引き換えに[speed][0xa]？[speed][0x0]だからと言って[speed][0xa]・・・・[speed][0x0]！[page]
 [nick:マーヴェル]「私は真紅の楯と異名を取る剣士の仲間、紋章使いに洗脳されて、最近まで散々罪も無い人々を殺してきた経験があるんです[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ロニキス]「[speed][0xa]・・・・・。[speed][0x0][page]
+<sn:pointer id="45" window="0" trigger="start">[nick:ロニキス]「[speed][0xa]・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:マーヴェル]「わかりますか？！兄や、両親を殺した奴らを憎めば憎むほど、自分が今までして来た事の罪の重さがのしかかってきて[speed][0xa]・・・・[speed][0x0][page]
+<sn:pointer id="46" window="0" trigger="start">[nick:マーヴェル]「わかりますか？！兄や、両親を殺した奴らを憎めば憎むほど、自分が今までして来た事の罪の重さがのしかかってきて[speed][0xa]・・・・[speed][0x0][page]
 操られていたから、そんな理由では許されなくて[speed][0xa]・・・[speed][0x0][page]
 所詮自分も奴らと同類なんだって[speed][0xa]・・・・[speed][0x0]！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="47" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:マーヴェル]「[speed][0xa]・・・・[speed][0x0]ごめんなさい、とりみだしちゃって[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="48" window="0" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・・[speed][0x0]ごめんなさい、とりみだしちゃって[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:マーヴェル]「一つだけお願いがあります。[page]
+<sn:pointer id="49" window="0" trigger="start">[nick:マーヴェル]「一つだけお願いがあります。[page]
 [nick:ロニキス]「ん？[page]
 [nick:マーヴェル]「もしいつか、どこかで私の本当の体をみつけたら、決して触れないでください。これ以上のことは語ることを許されていないので言えません[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「[speed][0xa]・・・[speed][0x0]わかった、覚えておく。[page]
 [nick:マーヴェル]「本当にごめんなさい。私、[nick:ロニキス]さんに会えて、よかった。[nick:ミリー]ちゃんとは一緒に行くって約東してたんだけど[speed][0xa]・・・[speed][0x0]謝ってたって伝えて下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]！！[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="51" window="0" trigger="start">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[end]</sn:pointer>
+<sn:pointer id="52" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ロニキス]「[nick:アシュレイ]さん。[page]
+<sn:pointer id="53" window="1" trigger="start">[nick:ロニキス]「[nick:アシュレイ]さん。[page]
 [nick:アシュレイ]「ワシが来ては無粋だったかの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ロニキス]「いえ、そんな。[end]</sn:pointer>
+<sn:pointer id="54" window="1" trigger="start">[nick:ロニキス]「いえ、そんな。[end]</sn:pointer>
 
-<sn:pointer id="55">[page]
+<sn:pointer id="55" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:マーヴェル]「[nick:ロニキス]さん、それじゃあ、私はこれで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="56" window="1" trigger="start">[nick:マーヴェル]「[nick:ロニキス]さん、それじゃあ、私はこれで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ロニキス]「おっおい。そんな急いで行くこともないだろう？！[page]
+<sn:pointer id="57" window="0" trigger="start">[nick:ロニキス]「おっおい。そんな急いで行くこともないだろう？！[page]
 [nick:マーヴェル]「いえ、一緒にいる時間が長くなればなるほど決心が鈍ってしまいそうなので[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「だが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="58" window="0" trigger="start">[nick:マーヴェル]「お元気で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:アシュレイ]「待ちなされ。[page]
+<sn:pointer id="59" window="0" trigger="start">[nick:アシュレイ]「待ちなされ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:マーヴェル]「まだ、何か？[page]
+<sn:pointer id="60" window="0" trigger="start">[nick:マーヴェル]「まだ、何か？[page]
 [nick:アシュレイ]「真紅の楯を追っているそうじゃな。[page]
 [nick:マーヴェル]「はい。まだ遠くに行っていないと思いますので、追いかけようと思います。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:アシュレイ]「ムダじゃよ。[page]
+<sn:pointer id="61" window="1" trigger="start">[nick:アシュレイ]「ムダじゃよ。[page]
 [nick:マーヴェル]「[speed][0xa]・・・・。[speed][0x0][page]
 [nick:アシュレイ]「おっと、気を悪くせんでくれ。ワシが言いたいのはじゃな、たとえ本当にヌシの仇が真紅の楯であったとしても、先程牙を向けた男とは全くの別人だということなんじゃよ。[page]
 [nick:マーヴェル]「[speed][0xa]・・・・[speed][0x0]？[page]
 [nick:ロニキス]「偽者がいると言うことですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]偽物であれば事を収めるはたやすい。何よりも本人が放っておかんじゃろう。[page]
+<sn:pointer id="62" window="0" trigger="start">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]偽物であれば事を収めるはたやすい。何よりも本人が放っておかんじゃろう。[page]
 [nick:ロニキス]「本物でも偽物でも無い？謎かけですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:アシュレイ]「奴とワシは戦友でな。[speed][0x1e][speed][0x0]別段“友”というわけではないのじゃが、適当な言葉がみつからないのでな。[page]
+<sn:pointer id="63" window="0" trigger="start">[nick:アシュレイ]「奴とワシは戦友でな。[speed][0x1e][speed][0x0]別段“友”というわけではないのじゃが、適当な言葉がみつからないのでな。[page]
 魔界大戦の末期に奴はシルヴァラント王の密命を曼けてとある洞窟を探索しておったんじゃ。[speed][0xa]・・・[speed][0x0]あるものを求めて[speed][0xa]・・・。[speed][0x0]伝承では、旧異種族の秘宝という話じゃったが。[page]
 [nick:ロニキス]「何ですかそれは？[page]
 [nick:アシュレイ]「名を現身の臆（うつしみのかがみ）という。[page]
@@ -237,92 +237,92 @@
 [nick:アシュレイ]「左様。じゃがただの臆では無い。映し出した物の複製を作り出す力を持っていたのじゃ。国王はこれを用いて魔界討伐の切り札となる武具を作り出そうと考えたのじゃ。しかし臆は秘宝なぞではなかった。魔界の悪しき意思を持った魔臆だったのじゃよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:アシュレイ]「現身の臆は物を歪めて映す。あわれよの[speed][0xa]・・・。[speed][0x0]真紅の楯と呼ばれる悪鬼の出来上がりよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="64" window="0" trigger="start">[nick:アシュレイ]「現身の臆は物を歪めて映す。あわれよの[speed][0xa]・・・。[speed][0x0]真紅の楯と呼ばれる悪鬼の出来上がりよ[speed][0xa]・・・。[speed][0x0][page]
 [nick:マーヴェル]「それじゃあ、その真紅の楯の“影”が兄や、両親を？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:アシュレイ]「たぶん、間違いなかろう。それに[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="65" window="0" trigger="start">[nick:アシュレイ]「たぶん、間違いなかろう。それに[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:アシュレイ]「最初会ったときはワシも本人にしか見えんかった。気を許した隙に[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="66" window="1" trigger="start">[nick:アシュレイ]「最初会ったときはワシも本人にしか見えんかった。気を許した隙に[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:アシュレイ]「ワシは左腕の自由を奪われる結果となってしまった。今では剣は使えても奥義は使えん[speed][0xa]・・・。[speed][0x0]知識だけよ。[page]
+<sn:pointer id="67" window="1" trigger="start">[nick:アシュレイ]「ワシは左腕の自由を奪われる結果となってしまった。今では剣は使えても奥義は使えん[speed][0xa]・・・。[speed][0x0]知識だけよ。[page]
 [nick:マーヴェル]「[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:アシュレイ]「[nick:マーヴェル]よ。ワシらに付いてこんか？それがヌシのためになると思うがいかがか？[page]
+<sn:pointer id="68" window="0" trigger="start">[nick:アシュレイ]「[nick:マーヴェル]よ。ワシらに付いてこんか？それがヌシのためになると思うがいかがか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:マーヴェル]「[speed][0xa]・・・・[speed][0x0]はい。[page]
+<sn:pointer id="69" window="0" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・・[speed][0x0]はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル][speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:マーヴェル]「これが、運命だなんて[speed][0xa]・・・[speed][0x0]ひどすぎる[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="71" window="0" trigger="start">[nick:マーヴェル]「これが、運命だなんて[speed][0xa]・・・[speed][0x0]ひどすぎる[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「[nick:マーヴェル]？[speed][0xa]・・・[speed][0x0]泣いてるのか[speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:マーヴェル]「あっ[speed][0xa]、[speed][0x0][nick:ロニキス]さん[speed][0xa]・・・[speed][0x0]。それに[nick:ヨシュア][speed][0xa]、[speed][0x0]さんも。[page]
+<sn:pointer id="72" window="1" trigger="start">[nick:マーヴェル]「あっ[speed][0xa]、[speed][0x0][nick:ロニキス]さん[speed][0xa]・・・[speed][0x0]。それに[nick:ヨシュア][speed][0xa]、[speed][0x0]さんも。[page]
 [nick:ロニキス]「そっとしておいた方がよかったかな[speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:マーヴェル]「いえ、何でもないんです。[speed][0xa]・・・・[speed][0x0]もう大丈夫ですから[speed][0xa]・・・。[speed][0x0][end]</sn:pointer>
+<sn:pointer id="73" window="1" trigger="start">[nick:マーヴェル]「いえ、何でもないんです。[speed][0xa]・・・・[speed][0x0]もう大丈夫ですから[speed][0xa]・・・。[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="74">[page]
+<sn:pointer id="74" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ロニキス]「私たちでよければ、話してもらえないか？[page]
+<sn:pointer id="75" window="0" trigger="start">[nick:ロニキス]「私たちでよければ、話してもらえないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:マーヴェル]「いえ、ほんとにもう大丈夫ですから[speed][0xa]・・・[speed][0x0]。それより[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="76" window="0" trigger="start">[nick:マーヴェル]「いえ、ほんとにもう大丈夫ですから[speed][0xa]・・・[speed][0x0]。それより[speed][0xa]・・・[speed][0x0][page]
 [nick:ロニキス]「ん？[page]
 [nick:マーヴェル]「わたし、一人で旅を続けようと思っていたんですけど、やっぱりみなさんとご一緒できればと[speed][0xa]・・・[speed][0x0]迷惑でしょうか？[page]
 [nick:ロニキス]「とんでもない。こちらからお願いしたいくらいさ。[page]
 [nick:マーヴェル]「ありがとうございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:マーヴェル]「それじゃあ、もう夜も遅いので[speed][0xa]・・・[speed][0x0]お休みなさい[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="77" window="0" trigger="start">[nick:マーヴェル]「それじゃあ、もう夜も遅いので[speed][0xa]・・・[speed][0x0]お休みなさい[speed][0xa]・・・[speed][0x0]。[page]
 [nick:ロニキス]「ああ、お休み。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ヨシュア]「彼女、何か隠してますし、いまいち何を考えているかよくわからないフシがありますね。[page]
+<sn:pointer id="78" window="1" trigger="start">[nick:ヨシュア]「彼女、何か隠してますし、いまいち何を考えているかよくわからないフシがありますね。[page]
 [nick:ロニキス]「まあたしかに。[page]
 [nick:ヨシュア]「僕が言うのもなんですが、簡単に心を許すのは危険な気がします。というか、彼女から生命の息吹が感じられないんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ロニキス]「おいおい、死んでるっていうのか？！[page]
+<sn:pointer id="79" window="1" trigger="start">[nick:ロニキス]「おいおい、死んでるっていうのか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ヨシュア]「そこまでは言いませんが[speed][0xa]・・・[speed][0x0]。高度な紋章降霊術を使っても、ゾンビと呼ばれる死霊しか作り出すことはできませんし、霊体はあそこまで姿を現世に残すことはできません。[page]
+<sn:pointer id="80" window="0" trigger="start">[nick:ヨシュア]「そこまでは言いませんが[speed][0xa]・・・[speed][0x0]。高度な紋章降霊術を使っても、ゾンビと呼ばれる死霊しか作り出すことはできませんし、霊体はあそこまで姿を現世に残すことはできません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:ヨシュア]「僕の思い過ごしだといいんですが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="81" window="0" trigger="start">[nick:ヨシュア]「僕の思い過ごしだといいんですが[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「悪い方向に考えたくはないな[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「それは僕だって同じです。もしかしたら[speed][0xa]・・・[speed][0x0]という話ですから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">女の子「秋よねぇ[speed][0xa]・・・。[speed][0x0]ちょっとセンチメンタル♥[page]
+<sn:pointer id="82" window="0" trigger="talk 17">女の子「秋よねぇ[speed][0xa]・・・。[speed][0x0]ちょっとセンチメンタル♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">冒険者メイアー「これから[color][0x4]タトローイ[color][0x2]に行くつもりです。目的はもちろん闘技場！がんばるぞぉ！[page]
+<sn:pointer id="83" window="0" trigger="talk 18">冒険者メイアー「これから[color][0x4]タトローイ[color][0x2]に行くつもりです。目的はもちろん闘技場！がんばるぞぉ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">しみじみな男「がんばれば報われるんだって、最近さとりましたよ。才能無いってあきらめたら絆わりですよね[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="84" window="0" trigger="talk 19">しみじみな男「がんばれば報われるんだって、最近さとりましたよ。才能無いってあきらめたら絆わりですよね[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">若い娘「あそこでしみじみしてる男の人、なんか最近目覚めたらしいわよ。[page]
+<sn:pointer id="85" window="0" trigger="talk 20">若い娘「あそこでしみじみしてる男の人、なんか最近目覚めたらしいわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">賢者サーク「[speed][0x1e]・・・[speed][0x0]せっかくオリハルコンを入手したのに細工に失敗してなくなっちゃいました・・・。[page]
+<sn:pointer id="86" window="0" trigger="talk 21">賢者サーク「[speed][0x1e]・・・[speed][0x0]せっかくオリハルコンを入手したのに細工に失敗してなくなっちゃいました・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">ルルー「サンタさんって本当にいるの？
+<sn:pointer id="87" window="0" trigger="talk 22">ルルー「サンタさんって本当にいるの？
 マクラもとにクツをおいて寝たらプレゼントくれるかなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">女の子「ここは港町[color][0x4]イオニス[color][0x2]です。[page]
+<sn:pointer id="88" window="0" trigger="talk 23">女の子「ここは港町[color][0x4]イオニス[color][0x2]です。[page]
 [end]</sn:pointer>
 
 </sn:script>

@@ -16,3 +16,4 @@ every file back to the ROM bytes.
 | `scene_opcodes.md` | every opcode: actors, triggers, camera, sound, party |
 | `scene_syscalls.md` | op 0F services: what each of the 94 does, shared party / item / PPU state |
 | `scene_triggers.md` | event header, what fires each entry, map change (op 24), reaching a map in a test |
+| `annotations.md` | message attributes from the scripts: choice, window, trigger, unused; the menu check |

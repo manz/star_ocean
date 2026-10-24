@@ -1,367 +1,367 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x54][0x0]地下牢[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x54][0x0]地下牢[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x40][0x0]アストラル城[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x40][0x0]アストラル城[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">囚人「出してくれ！！[page]
+<sn:pointer id="2" window="0" trigger="search">囚人「出してくれ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「[nick:フィア]を助けよう。[page]
+<sn:pointer id="3" window="0" trigger="tile 19">[nick:ラティ]「[nick:フィア]を助けよう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:フィア]「[speed][0xa]・・・[speed][0x0]誰？[page]
+<sn:pointer id="4" window="0" trigger="tile 20">[nick:フィア]「[speed][0xa]・・・[speed][0x0]誰？[page]
 [nick:ラティ]「[nick:フィア]さんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア]「[speed][0xa]・・・[speed][0x0]礼儀を知らないのか？名は先に名乗るものだろう。[page]
+<sn:pointer id="5" window="0" trigger="tile 20">[nick:フィア]「[speed][0xa]・・・[speed][0x0]礼儀を知らないのか？名は先に名乗るものだろう。[page]
 [nick:ラティ]「あ、[name:ラティクス][speed][0xa]・・・[speed][0x0][nick:ラティ]と呼んでください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア]「私に何か用なのか？[page]
+<sn:pointer id="6" window="1" trigger="tile 20">[nick:フィア]「私に何か用なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1．なんとなく・・・。
+<sn:pointer id="7" choice="3" window="1" trigger="tile 20">1．なんとなく・・・。
 2．騎士団長殺害の真相が知りたくて
 3．おまえは最低だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:フィア]「だったら一人にしてくれないか？[page]
+<sn:pointer id="8" window="0" trigger="tile 20">[nick:フィア]「だったら一人にしてくれないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ]「暗殺なんて、人の所業じゃない！おまえは最低だっ！[page]
+<sn:pointer id="9" window="0" trigger="tile 20">[nick:ラティ]「暗殺なんて、人の所業じゃない！おまえは最低だっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:フィア]「なんだと？！私は何もしていない！何も知らないおまえなどにそんなことをいわれる筋合いは無い！・・・失せろっ、クソ野郎！[page]
+<sn:pointer id="10" window="0" trigger="tile 20">[nick:フィア]「なんだと？！私は何もしていない！何も知らないおまえなどにそんなことをいわれる筋合いは無い！・・・失せろっ、クソ野郎！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「本当にあなたが騎士団長を殺したんですか？[page]
+<sn:pointer id="11" window="0" trigger="tile 20">[nick:ラティ]「本当にあなたが騎士団長を殺したんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア]「[speed][0xa]・・・[speed][0x0]それについてはもう何度も言ったさ。孤児だった私を養子として育ててくれた父親をどうして手にかけることができる？！[speed][0x1e][speed][0x0]わたしは何もやってない・・・。このままでは殺されたライアス様も浮かばれない・・・[speed][0x0]。犯人はこの手で、くそ[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="12" window="1" trigger="tile 20">[nick:フィア]「[speed][0xa]・・・[speed][0x0]それについてはもう何度も言ったさ。孤児だった私を養子として育ててくれた父親をどうして手にかけることができる？！[speed][0x1e][speed][0x0]わたしは何もやってない・・・。このままでは殺されたライアス様も浮かばれない・・・[speed][0x0]。犯人はこの手で、くそ[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">1．俺たちにできることは？
+<sn:pointer id="13" choice="2" window="1" trigger="tile 20">1．俺たちにできることは？
 2．この場を去る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[end]</sn:pointer>
+<sn:pointer id="14" window="0" trigger="tile 20">[end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]「俺たちに何か出来ることがあれば・・・。[page]
+<sn:pointer id="15" window="0" trigger="tile 20">[nick:ラティ]「俺たちに何か出来ることがあれば・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア]「私をここから連れ出してくれないか？[page]
+<sn:pointer id="16" window="1" trigger="tile 20">[nick:フィア]「私をここから連れ出してくれないか？[page]
 [nick:ラティ]「え？[page]
 [nick:イリア]「それはムリよ！[page]
 [nick:フィア]「お願いだ[speed][0xa]・・・[speed][0x0]信じてくれ！[page]
 [nick:イリア]「ムチャクチャよ？それは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">1．連れ出す
+<sn:pointer id="17" choice="2" window="0" trigger="tile 20">1．連れ出す
 2．この場を去る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「[nick:ラティ]？[page]
+<sn:pointer id="18" window="1" trigger="tile 20">[nick:イリア]「[nick:ラティ]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ]「[nick:イリア]さん。俺は彼女を信じたい[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="19" window="0" trigger="tile 20">[nick:ラティ]「[nick:イリア]さん。俺は彼女を信じたい[speed][0xa]・・・[speed][0x0]。[page]
 [nick:イリア]「馬鹿言わないで！私たちの目的を忘れたの？こんなことにかかわったら下手すれば全てダメになってしまうのよ？絶対ダメよ！[page]
 [nick:ラティ]「でも[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]「もう後戻りはできませんよ。[page]
+<sn:pointer id="20" window="0" trigger="tile 20">[nick:ラティ]「もう後戻りはできませんよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア]「気でも違ったの？！[nick:ラティ]。[page]
+<sn:pointer id="21" window="1" trigger="tile 20">[nick:イリア]「気でも違ったの？！[nick:ラティ]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ]「正気ですよ。[page]
+<sn:pointer id="22" window="0" trigger="tile 20">[nick:ラティ]「正気ですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ]「さあ、[nick:フィア]さん、行きましょう。とりあえず[color][0x4]アストラル[color][0x2]から出ないと。[page]
+<sn:pointer id="23" window="0" trigger="tile 20">[nick:ラティ]「さあ、[nick:フィア]さん、行きましょう。とりあえず[color][0x4]アストラル[color][0x2]から出ないと。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:フィア]「すまない[speed][0xa]・・・[speed][0x0]。もうここには戻れないな・・・。[page]
+<sn:pointer id="24" window="0" trigger="tile 20">[nick:フィア]「すまない[speed][0xa]・・・[speed][0x0]。もうここには戻れないな・・・。[page]
 [nick:イリア]「[speed][0xa]・・・[speed][0x0]そりゃあ、私だって真犯人は別にいると思うけど・・・。[page]
 [nick:ラティ]「急ぎましょう。[page]
 [nick:イリア]「運河船はダメよ。[color][0x4]アストラル洞窟[color][0x2]から抜けましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[mode8][0x0][speed][0x1]兵士「ウォーレン様？！[speed][0x0][page]
+<sn:pointer id="25" window="0" trigger="start">[mode8][0x0][speed][0x1]兵士「ウォーレン様？！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">兵士「ウォーレン様！！何ごとでございますか？！[page]
+<sn:pointer id="26" window="0" trigger="start">兵士「ウォーレン様！！何ごとでございますか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">兵士「[nick:フィア]殿？[page]
+<sn:pointer id="27" window="0" trigger="start">兵士「[nick:フィア]殿？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">兵士「これは[speed][0xf]・・・[speed][0x0]。[page]
+<sn:pointer id="28" window="1" trigger="start">兵士「これは[speed][0xf]・・・[speed][0x0]。[page]
 兵士「[speed][0x1][nick:フィア]殿・・・[speed][0x14]、[speed][0x1]何ということを・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:フィア]「くっ[speed][0xf]・・・！！[speed][0x0][page]
+<sn:pointer id="29" window="0" trigger="start">[nick:フィア]「くっ[speed][0xf]・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">兵士「た[speed][0x14]、[speed][0x1]大変だ[speed][0x14]！[speed][0x1][nick:フィア]様が・・・！[speed][0x14]！[speed][0x1]ウォーレン様が・・・！！[speed][0x0][page]
+<sn:pointer id="30" window="0" trigger="start">兵士「た[speed][0x14]、[speed][0x1]大変だ[speed][0x14]！[speed][0x1][nick:フィア]様が・・・！[speed][0x14]！[speed][0x1]ウォーレン様が・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">兵士「絶対安静の状態ですが、命に別状は無いとの事です。[page]
+<sn:pointer id="31" window="0" trigger="start">兵士「絶対安静の状態ですが、命に別状は無いとの事です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:フィア]「そうか。[page]
+<sn:pointer id="32" window="0" trigger="start">[nick:フィア]「そうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:フィア]「礼を言う。もう下がって良いぞ。[page]
+<sn:pointer id="33" window="0" trigger="start">[nick:フィア]「礼を言う。もう下がって良いぞ。[page]
 兵士「はっ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:フィア]「[speed][0xa]・・・[speed][0x0]だそうだ。[page]
+<sn:pointer id="34" window="0" trigger="start">[nick:フィア]「[speed][0xa]・・・[speed][0x0]だそうだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:シウス]「んじゃあ、俺は戻るわ。[page]
+<sn:pointer id="35" window="0" trigger="start">[nick:シウス]「んじゃあ、俺は戻るわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:フィア]「父上殿には会って行かないのか？[page]
+<sn:pointer id="36" window="0" trigger="start">[nick:フィア]「父上殿には会って行かないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:シウス]「今さらどのツラ下げて会えってんだ？[page]
+<sn:pointer id="37" window="0" trigger="start">[nick:シウス]「今さらどのツラ下げて会えってんだ？[page]
 [nick:フィア]「だからそれはおまえの気持ちの問題だけで[speed][0xa]・・・[speed][0x0]ウォーレン様は今でもおまえが戻ってくるのを待っているんだぞ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:シウス]「だから会えないんだ。[page]
+<sn:pointer id="38" window="0" trigger="start">[nick:シウス]「だから会えないんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:シウス]「信じられなかったんだ。[page]
+<sn:pointer id="39" window="0" trigger="start">[nick:シウス]「信じられなかったんだ。[page]
 [nick:フィア]「えっ？[page]
 [nick:シウス]「おまえがあの時、城下町で会った時に言ったとおりさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス]「当時の俺は親父が俺を騎士長に推すという話を聞いて、ビビッてたんだ。周りの連中の中傷もあったし、親父の立場を傷つけはしないか[speed][0xa]・・・。[speed][0x0]なによりも自分の力を全く信じられなかった。[page]
+<sn:pointer id="40" window="0" trigger="start">[nick:シウス]「当時の俺は親父が俺を騎士長に推すという話を聞いて、ビビッてたんだ。周りの連中の中傷もあったし、親父の立場を傷つけはしないか[speed][0xa]・・・。[speed][0x0]なによりも自分の力を全く信じられなかった。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス]「俺自身がこのままだとここには俺の居場所はないことがわかってな。[page]
+<sn:pointer id="41" window="0" trigger="start">[nick:シウス]「俺自身がこのままだとここには俺の居場所はないことがわかってな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:フィア]「だから[color][0x4]アストラル[color][0x2]を下ったというのか？[page]
+<sn:pointer id="42" window="0" trigger="start">[nick:フィア]「だから[color][0x4]アストラル[color][0x2]を下ったというのか？[page]
 [nick:シウス]「ああ。強くなりたかったんだ[speed][0x14]、[speed][0x0]ハッキリ言えば。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:シウス]「この事は誰にも言うなよ。こんなこと、ほかの奴には言えねぇしな。[page]
+<sn:pointer id="43" window="0" trigger="start">[nick:シウス]「この事は誰にも言うなよ。こんなこと、ほかの奴には言えねぇしな。[page]
 [nick:フィア]「フフ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア]「悩みながら大きくなる[speed][0x14]、[speed][0x0]という点では王に仕える騎士も傭兵も違いは無いのだな。信じるものが違うだけ[speed][0xf]、[speed][0x0]ということか。[page]
+<sn:pointer id="44" window="0" trigger="start">[nick:フィア]「悩みながら大きくなる[speed][0x14]、[speed][0x0]という点では王に仕える騎士も傭兵も違いは無いのだな。信じるものが違うだけ[speed][0xf]、[speed][0x0]ということか。[page]
 [nick:シウス]「なんだ？いきなり。[page]
 [nick:フィア]「いや、別に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス]「[speed][0xa]・・・[speed][0x0]騎士は主君に殉じ、[page]
+<sn:pointer id="45" window="0" trigger="start">[nick:シウス]「[speed][0xa]・・・[speed][0x0]騎士は主君に殉じ、[page]
 [nick:フィア]「流浪の剣士は己の剣に全てを捧ぐ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:フィア]「今なら信じられるんだろ？[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:フィア]「今なら信じられるんだろ？[page]
 [nick:シウス]「[speed][0xa]・・・[speed][0x0]ふ[speed][0xf]、[speed][0x0]さぁな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:フィア]「戻る気は、無いのか？[page]
+<sn:pointer id="47" window="0" trigger="start">[nick:フィア]「戻る気は、無いのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア]「私が言ったことを気にしてるなら謝る[speed][0xa]・・・。[speed][0x0]それとも謝るだけじゃ、ダメなのか？[page]
+<sn:pointer id="48" window="0" trigger="start">[nick:フィア]「私が言ったことを気にしてるなら謝る[speed][0xa]・・・。[speed][0x0]それとも謝るだけじゃ、ダメなのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア]「私で力になれることがあったらまた来てくれ。[speed][0xa]・・・・[speed][0x0]待ってるから[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="49" window="0" trigger="start">[nick:フィア]「私で力になれることがあったらまた来てくれ。[speed][0xa]・・・・[speed][0x0]待ってるから[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:シウス]「別に気にしてるわけじゃねぇ。[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:シウス]「別に気にしてるわけじゃねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア]「じゃあ[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="51" window="0" trigger="start">[nick:フィア]「じゃあ[speed][0xa]・・・[speed][0x0]。[page]
 [nick:シウス]「だがまだ戻る気はない。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:フィア]「どうして？[page]
+<sn:pointer id="52" window="0" trigger="start">[nick:フィア]「どうして？[page]
 [nick:シウス]「一人スゲェ奴がいるんだ。今はまだ剣の腕は俺より未熟だが、わかるぜ。才能があるってのはあいつみてぇなのを言うんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:シウス]「俺はしばらくあいつと一緒に旅をしてみたい。[page]
+<sn:pointer id="53" window="0" trigger="start">[nick:シウス]「俺はしばらくあいつと一緒に旅をしてみたい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:フィア]「止めないわ。私にさえ何も言わずに旅に出て行ってしまうような奴だもの。[page]
+<sn:pointer id="54" window="0" trigger="start">[nick:フィア]「止めないわ。私にさえ何も言わずに旅に出て行ってしまうような奴だもの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア]「さようなら[speed][0xa]・・・・[speed][0x0]。[page]
+<sn:pointer id="55" window="0" trigger="start">[nick:フィア]「さようなら[speed][0xa]・・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:フィア]「馬鹿[speed][0xa]・・・[speed][0x1]。鈍感！[speed][0x14]！[speed][0x0]いつも自分勝手で[speed][0xa]・・・[speed][0x0]いつも[speed][0xf]・・・[speed][0x0]。[page]
+<sn:pointer id="56" window="0" trigger="start">[nick:フィア]「馬鹿[speed][0xa]・・・[speed][0x1]。鈍感！[speed][0x14]！[speed][0x0]いつも自分勝手で[speed][0xa]・・・[speed][0x0]いつも[speed][0xf]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">国王「その方ら。このたびは事件が大事に至る前に防いだこと、感謝いたすぞ。[page]
+<sn:pointer id="57" window="0" trigger="start">国王「その方ら。このたびは事件が大事に至る前に防いだこと、感謝いたすぞ。[page]
 [nick:アシュレイ]「はっ。[page]
 国王「まあそう堅苦しくするでない、[nick:アシュレイ]よ。お主とはそのような間柄ではあるまい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">国王「ライアスも幸い命に別状は無いということだし、いささか不謹慎ではあるがお主と10数年ぶりに再会するきっかけとなった訳だしのう。[page]
+<sn:pointer id="58" window="0" trigger="start">国王「ライアスも幸い命に別状は無いということだし、いささか不謹慎ではあるがお主と10数年ぶりに再会するきっかけとなった訳だしのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:フィア]「しかし、ライアス様を襲った魔族のせん兵・・・私に化けまでして一体何が目的だったのでしょうか？[page]
+<sn:pointer id="59" window="0" trigger="start">[nick:フィア]「しかし、ライアス様を襲った魔族のせん兵・・・私に化けまでして一体何が目的だったのでしょうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">国王「一つ心当たりがあるが[speed][0xa]・・・[speed][0x0]今語れることではないな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="60" window="0" trigger="start">国王「一つ心当たりがあるが[speed][0xa]・・・[speed][0x0]今語れることではないな[speed][0xa]・・・。[speed][0x0][page]
 [nick:フィア]「[speed][0xa]・・・[speed][0x0]そうですか。[page]
 国王「それよりも、その方らに褒美をとらせなければ。[page]
 [nick:フィア]「あ[speed][0xa]、[speed][0x0]はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:フィア]「私個人としてここで礼を言わせてもらいたい。ほおっておけば私の名誉にかかわることだったのだからな。[page]
+<sn:pointer id="61" window="0" trigger="start">[nick:フィア]「私個人としてここで礼を言わせてもらいたい。ほおっておけば私の名誉にかかわることだったのだからな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:フィア]「ありがとう。[page]
+<sn:pointer id="62" window="0" trigger="start">[nick:フィア]「ありがとう。[page]
 [nick:ラティ]「そんな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[color][0x6][item][0x23][0x14][color][0x2]を手に入れました。
+<sn:pointer id="63" window="0" trigger="start">[color][0x6][item][0x23][0x14][color][0x2]を手に入れました。
 [color][0x6][item][0x45][0x14][color][0x2]を手に入れました。
 ＳＰ30ポイント獲得しました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">アストラル国王「そのエンブレムは[speed][0xa]・・・[speed][0x0]！[page]
+<sn:pointer id="64" window="1" trigger="start">アストラル国王「そのエンブレムは[speed][0xa]・・・[speed][0x0]！[page]
 [nick:ロニキス]「ヴァン国王より、命を曼けて参りました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">アストラル国王「そうか、なるほど[speed][0xa]・・・。[speed][0x14][speed][0x0][end]</sn:pointer>
+<sn:pointer id="65" window="1" trigger="start">アストラル国王「そうか、なるほど[speed][0xa]・・・。[speed][0x14][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="66">
+<sn:pointer id="66" window="0" trigger="start">
 大臣よ、周りの者を下げさせよ。[page]
 大臣「はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">アストラル国王「では話そうか[speed][0x14]。[speed][0x0][color][0x6]真実の瞳[color][0x2]について、我が王家に伝わるものは物ではなく、言葉なのだ。[page]
+<sn:pointer id="67" window="0" trigger="start">アストラル国王「では話そうか[speed][0x14]。[speed][0x0][color][0x6]真実の瞳[color][0x2]について、我が王家に伝わるものは物ではなく、言葉なのだ。[page]
 [nick:ロニキス]「言葉、ですか？[page]
 アストラル国王「うむ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">アストラル国王「運命と嘆くな[page]
+<sn:pointer id="68" window="0" trigger="start">アストラル国王「運命と嘆くな[page]
 「勇気を持て[page]
 「君の嗣子末代（ししまつだい）まで[page]
 「力絶やすこと無く[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ロニキス]「それだけ[speed][0xa]・・・[speed][0x0]ですか？[page]
+<sn:pointer id="69" window="0" trigger="start">[nick:ロニキス]「それだけ[speed][0xa]・・・[speed][0x0]ですか？[page]
 アストラル国王「うむ。この四つの文章に一体何の意味があるのかは私にはわからぬ。これだけではわからないようにしてあるのだろうから、当たり前なのだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:イリア]「運命と嘆くな？[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:イリア]「運命と嘆くな？[page]
 「勇気を持て？[page]
 「君の嗣子末代まで？[page]
 「力絶やすこと無く？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:イリア]「何の変哲もない、安っぽい教訓にしか聞こえないんだけど[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="71" window="1" trigger="start">[nick:イリア]「何の変哲もない、安っぽい教訓にしか聞こえないんだけど[speed][0xa]・・・[speed][0x0]？[page]
 アストラル国王「私もそう思う。だが、だからこそそなたたちがエンブレムをヴァン国王から託されたのであろう。秘密を解くためにな。[page]
 [nick:イリア]「そうでした。王よ、感謝します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[end]</sn:pointer>
+<sn:pointer id="72" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="73">[nick:フィア]「国王。私も彼らと同行したいのですが、お許し願えますか？[page]
+<sn:pointer id="73" window="0" trigger="start">[nick:フィア]「国王。私も彼らと同行したいのですが、お許し願えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">アストラル国王「[nick:フィア]よ。おまえがどうしてもと言うならば止めはせん。だが条件がある。[page]
+<sn:pointer id="74" window="1" trigger="start">アストラル国王「[nick:フィア]よ。おまえがどうしてもと言うならば止めはせん。だが条件がある。[page]
 [nick:フィア]「条件？[page]
 アストラル国王「それは[color][0x4]アストラル[color][0x2]の騎士としての誇りを忘れぬことだ。[page]
 [nick:フィア]「はい！ありがとうございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">アストラル国王「では、そなたらの旅に実りあることを析っておるぞ。おっと、それとこれを持って行くのだ。[page]
+<sn:pointer id="75" window="1" trigger="start">アストラル国王「では、そなたらの旅に実りあることを析っておるぞ。おっと、それとこれを持って行くのだ。[page]
 [color][0x6]アストエンブレム[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">アストラル国王「それと、そなたらにこの奥義書を授けよう。幸運を析っておるぞ。[page]
+<sn:pointer id="76" window="0" trigger="start">アストラル国王「それと、そなたらにこの奥義書を授けよう。幸運を析っておるぞ。[page]
 武神奥義を覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[end]</sn:pointer>
+<sn:pointer id="77" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="78">[nick:イリア]「絶対ダメよ！[page]
+<sn:pointer id="78" window="0" trigger="talk 4">[nick:イリア]「絶対ダメよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:フィア]「・・・・。[page]
+<sn:pointer id="79" window="0" trigger="talk 11">[nick:フィア]「・・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:フィア]「お前たちの目的が達成されることを析っているぞ。[page]
+<sn:pointer id="80" window="0" trigger="talk 11">[nick:フィア]「お前たちの目的が達成されることを析っているぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">衛兵「・・・。[page]
+<sn:pointer id="81" window="0" trigger="talk 16">衛兵「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">衛兵「面会は手早く済ませろよ。[page]
+<sn:pointer id="82" window="0" trigger="talk 16">衛兵「面会は手早く済ませろよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">衛兵「面会は手早く済ませろよ。[page]
+<sn:pointer id="83" window="0" trigger="talk 16">衛兵「面会は手早く済ませろよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="84" window="0" trigger="talk 16">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">囚人「出してくれ！！[page]
+<sn:pointer id="85" window="0" trigger="talk 17">囚人「出してくれ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">アストラル国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
+<sn:pointer id="86" window="0" trigger="talk 18">アストラル国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">大臣「期待しております。[page]
+<sn:pointer id="87" window="0" trigger="talk 19">大臣「期待しております。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">妃「頑張って下さいね。[page]
+<sn:pointer id="88" window="0" trigger="talk 20">妃「頑張って下さいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">衛兵「ここから先に入ってはダメだ！[page]
+<sn:pointer id="89" window="0" trigger="talk 21">衛兵「ここから先に入ってはダメだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">衛兵「この先の広間には国王がいらっしゃる。[page]
+<sn:pointer id="90" window="0" trigger="talk 22">衛兵「この先の広間には国王がいらっしゃる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">紋章使い「世界の各地には“紋章”が隠されているとか。まだ見ぬ呪紋もきっとそこで手に入れることができると思うんだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="91" window="0" trigger="talk 23">紋章使い「世界の各地には“紋章”が隠されているとか。まだ見ぬ呪紋もきっとそこで手に入れることができると思うんだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">賢者「薬の調合を修得するには色々な知識が必要だろうな。薬草学とか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="92" window="0" trigger="talk 24">賢者「薬の調合を修得するには色々な知識が必要だろうな。薬草学とか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">メアリ「[nick:フィア]様が育ての親のライアス様を殺すなんてありえないわ！[page]
+<sn:pointer id="93" window="0" trigger="talk 25">メアリ「[nick:フィア]様が育ての親のライアス様を殺すなんてありえないわ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">メアリ「[nick:フィア]様に化けてライアス様を襲おうだなんてひどい話だわ。[page]
+<sn:pointer id="94" window="0" trigger="talk 25">メアリ「[nick:フィア]様に化けてライアス様を襲おうだなんてひどい話だわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">メアリ「私は王室のメイドです。ホコリ落とさないで下さいね。[page]
+<sn:pointer id="95" window="0" trigger="talk 25">メアリ「私は王室のメイドです。ホコリ落とさないで下さいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">衛兵「国王様も本当なら信じたくないはず[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="96" window="0" trigger="talk 26">衛兵「国王様も本当なら信じたくないはず[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">衛兵「アストラル城下に魔物が侵入して来たのは初めての話です。[page]
+<sn:pointer id="97" window="0" trigger="talk 26">衛兵「アストラル城下に魔物が侵入して来たのは初めての話です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">衛兵「国王の前ではそそうのないように。[page]
+<sn:pointer id="98" window="0" trigger="talk 26">衛兵「国王の前ではそそうのないように。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">衛兵「[nick:フィア]が地下牢に？ウソですよね？！[page]
+<sn:pointer id="99" window="0" trigger="talk 27">衛兵「[nick:フィア]が地下牢に？ウソですよね？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">衛兵「噂ですが、魔物がライアス様を襲ったのはライアス様が国王から授かった何かを狙ってのことではないかと言われてます。[page]
+<sn:pointer id="100" window="0" trigger="talk 27">衛兵「噂ですが、魔物がライアス様を襲ったのはライアス様が国王から授かった何かを狙ってのことではないかと言われてます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">衛兵「[nick:フィア]様行ってしまうんですか？！僕は悲しゅうございますよ。[page]
+<sn:pointer id="101" window="0" trigger="talk 27">衛兵「[nick:フィア]様行ってしまうんですか？！僕は悲しゅうございますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">衛兵「先程[nick:フィア]様と搾れ違った[speed][0xa]・・・[speed][0x0]
+<sn:pointer id="102" window="0" trigger="talk 27">衛兵「先程[nick:フィア]様と搾れ違った[speed][0xa]・・・[speed][0x0]
 幸せ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">宮廷音楽家オサトー「私の創った曲を聞いてみるかね？[page]
+<sn:pointer id="103" window="0" trigger="talk 28">宮廷音楽家オサトー「私の創った曲を聞いてみるかね？[page]
 [end]</sn:pointer>
 
 </sn:script>

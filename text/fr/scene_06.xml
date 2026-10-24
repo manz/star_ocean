@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Maison de [nick:ドーン][page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Maison de [nick:ドーン][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Armurerie[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Épicerie[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Épicerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ドーン][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:ドーン][br]
 Tu es encore en retard, [nick:ラティ].
 Dépêche toi d'entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[center]Quartier général[page]
+<sn:pointer id="4" window="speaker" trigger="start">[center]Quartier général[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Ancien[br]
+<sn:pointer id="5" window="0" trigger="start">Ancien[br]
 Dans ce cas, je te confie la suite
 des opérations.[page]
 [nick:ドーン][br]
@@ -27,12 +27,12 @@ immédiatement si quelque chose
 vient à se produire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ドーン][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ドーン][br]
 Hey[speed][0x14] ! [speed][0x0]Allez[speed][0x14] !
 [speed][0x0]Courage, tous les deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ドーン][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ドーン][br]
 Je comprends ce que ressent [nick:ミリー],
 mais tu as agi vraiment de façon
 étrange, [nick:ラティ].[page]
@@ -40,45 +40,45 @@ Qu'est-ce qui ne va pas ?
 Allez, raconte-moi...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:ラティ][br]
 [speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[center]Maison de [nick:ミリー][page]
+<sn:pointer id="9" window="speaker" trigger="start">[center]Maison de [nick:ミリー][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[center]Quincaillerie[page]
+<sn:pointer id="10" window="speaker" trigger="start">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Désires-tu te reposer ?[page]
+<sn:pointer id="11" choice="yes-no" window="1" trigger="tile 11">Désires-tu te reposer ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="tile 11">[end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="tile 11">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ドーン][br]
+<sn:pointer id="14" window="0" trigger="talk 16">[nick:ドーン][br]
 Pas touche ! C'est ma boîte
 à musique. J'y tiens énormément.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="talk 16">[nick:ラティ][br]
 Cette boîte à musique est un
 souvenir de la sœur de [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Mère[br]
+<sn:pointer id="16" window="0" trigger="talk 17">Mère[br]
 Tu es réveillé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mère[br]
+<sn:pointer id="17" window="0" trigger="talk 17">Mère[br]
 Sois prudent, [nick:ラティ].[page]
 [nick:ラティ][br]
 Je t'ai dit que ça se passerait bien.
 Je vais faire de mon mieux, pour papa.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ][br]
+<sn:pointer id="18" window="0" trigger="talk 17">[nick:ラティ][br]
 Maman, Mme Fraise m'a dit
 qu'elle avait des légumes frais.[page]
 Mère[br]
@@ -86,31 +86,31 @@ Ah oui ?
 Alors je vais aller la voir de suite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Mère[br]
+<sn:pointer id="19" window="0" trigger="talk 17">Mère[br]
 D'accord, on y va.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Mère[br]
+<sn:pointer id="20" window="0" trigger="talk 17">Mère[br]
 Lesquels devrais-je prendre...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Armurier[br]
+<sn:pointer id="21" window="0" trigger="talk 18">Armurier[br]
 Puisque vous assurez la sécurité
 de la ville,[page]
 vous devez être armés
 en permanence.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ドーン][br]
+<sn:pointer id="22" window="0" trigger="talk 18">[nick:ドーン][br]
 Oui, je sais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Membre de la brigade de Clatos[br]
+<sn:pointer id="23" window="0" trigger="talk 19">Membre de la brigade de Clatos[br]
 C'est au tour de [nick:ドーン] et des
 autres de patrouiller aujourd'hui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Membre de la brigade de Clatos[br]
+<sn:pointer id="24" window="0" trigger="talk 20">Membre de la brigade de Clatos[br]
 Oh, [nick:ミリー]. Tu es ravissante,
 comme toujours.[page]
 [nick:ミリー][br]
@@ -122,7 +122,7 @@ Hé, la flatte pas.[page]
 QUOI ???[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Père de [nick:ミリー][br]
+<sn:pointer id="25" window="0" trigger="talk 21">Père de [nick:ミリー][br]
 [nick:ミリー], étudie
 sérieusement tes magies de soin.[page]
 Tu te dois de suivre le même
@@ -132,35 +132,35 @@ Je sais ! Pas la peine de
 me le rappeler ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Père de [nick:ミリー][br]
+<sn:pointer id="26" window="0" trigger="talk 21">Père de [nick:ミリー][br]
 Je m'inquiète pour ma fille.[page]
 Elle passe ses journées à jouer
 au détriment de ses études de magie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Mme Fraise, épicière[br]
+<sn:pointer id="27" window="0" trigger="talk 22">Mme Fraise, épicière[br]
 [nick:ラティ], va dire à ta mère
 que j'ai un arrivage de légumes.[page]
 [nick:ラティ][br]
 Pas de soucis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ドーン][br]
+<sn:pointer id="28" window="0" trigger="talk 22">[nick:ドーン][br]
 Avez-vous des mûres ?[page]
 Mme Fraise[br]
 Je ne crois pas en avoir encore reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Mme Fraise[br]
+<sn:pointer id="29" window="0" trigger="talk 22">Mme Fraise[br]
 Bienvenue !
 Prends ton temps ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Quincailler[br]
+<sn:pointer id="30" window="0" trigger="talk 23">Quincailler[br]
 Nous apprécions vos efforts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Vendeuse[br]
+<sn:pointer id="31" window="1" trigger="talk 24">Vendeuse[br]
 J'aimerais apprendre à cuisiner,
 mais j'aime aussi l'orfèvrerie.[page]
 J'aimerais essayer de faire de la
@@ -168,11 +168,11 @@ musique un jour, mais je ne pense
 pas être douée pour ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">1. L'encourager[br]
+<sn:pointer id="32" choice="2" window="1" trigger="talk 24">1. L'encourager[br]
 2. La laisser tranquille[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ミリー][br]
+<sn:pointer id="33" window="0" trigger="talk 24">[nick:ミリー][br]
 Ça ne te ressemble pas de baisser
 les bras.[page]
 Tu y arriveras en t'entraînant
@@ -183,7 +183,7 @@ Sophia[br]
 Oui... Merci, [nick:ミリー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ラティ][br]
+<sn:pointer id="34" window="0" trigger="talk 24">[nick:ラティ][br]
 Ça ne te ressemble pas de baisser
 les bras.[page]
 En t'entraînant sans relâche,
@@ -193,56 +193,56 @@ Sophia[br]
 Oui... Merci, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 24">[end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ドーン][br]
+<sn:pointer id="36" window="0" trigger="start">[nick:ドーン][br]
 Bon sang, c'est calme comme coin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ][br]
+<sn:pointer id="37" window="0" trigger="start">[nick:ラティ][br]
 Oui, mais c'est aussi
 synonyme de paix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ドーン][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:ドーン][br]
 [speed][0xa]...[speed][0x0]
 Qu'est-ce que tu penses de [nick:ミリー] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ][br]
+<sn:pointer id="39" window="0" trigger="start">[nick:ラティ][br]
 Mmm[speed][0xa]...[speed][0x0] Qu'est-ce
 que tu veux dire par là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ドーン][br]
+<sn:pointer id="40" window="1" trigger="start">[nick:ドーン][br]
 Que ça reste entre nous, mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ドーン][br]
+<sn:pointer id="41" window="0" trigger="start">[nick:ドーン][br]
 Elle est étourdie et c'est un
 vrai garçon manqué.[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ドーン][br]
+<sn:pointer id="42" window="1" trigger="start">[nick:ドーン][br]
 Et par dessus le marché,
 elle n'est pas attentionnée et
 elle est casse-pieds.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ミリー][br]
+<sn:pointer id="43" window="0" trigger="start">[nick:ミリー][br]
 Ah, et de QUI[speed][0x1e] vous parlez[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ドーン][br]
+<sn:pointer id="44" window="1" trigger="start">[nick:ドーン][br]
 Ah... Euh...[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ミリー][br]
+<sn:pointer id="45" window="0" trigger="start">[nick:ミリー][br]
 Vous devriez être en train
 de travailler et pas de bavarder ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ドーン][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:ドーン][br]
 On t'a déjà dit qu'il n'y avait
 rien à faire ![page]
 [nick:ミリー][br]
@@ -252,58 +252,58 @@ par exemple[speed][0x14] ![page]
 vous accompagner.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ドーン][br]
+<sn:pointer id="47" window="0" trigger="start">[nick:ドーン][br]
 Je crois qu'on n'a pas le choix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ミリー][br]
+<sn:pointer id="48" window="0" trigger="start">[nick:ミリー][br]
 Bon, on va patrouiller.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ラティ][br]
+<sn:pointer id="49" window="0" trigger="start">[nick:ラティ][br]
 Qu'est-ce qui ne va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Ancien[br]
+<sn:pointer id="50" window="0" trigger="start">Ancien[br]
 Ah, c'est toi, [nick:ラティ].
 Quelque chose de grave
 vient de se produire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Ancien[br]
+<sn:pointer id="51" window="0" trigger="start">Ancien[br]
 C'est cette lettre...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[mode8][0x30][narration][0x0][page]
+<sn:pointer id="52" window="8" trigger="start">[mode8][0x30][narration][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[mode8][0x0][nick:ミリー][br]
+<sn:pointer id="53" window="0" trigger="start">[mode8][0x0][nick:ミリー][br]
 Qu'allons nous faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ドーン][br]
+<sn:pointer id="54" window="0" trigger="start">[nick:ドーン][br]
 Leur venir en aide, voyons ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー][br]
+<sn:pointer id="55" window="0" trigger="start">[nick:ミリー][br]
 Si seulement nous avions de cette
 herbe qui pousse au [color][0x4]mont Métox[color][0x2]...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">???[br]
+<sn:pointer id="56" window="0" trigger="start">???[br]
 Attendez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ミリー][br]
+<sn:pointer id="57" window="0" trigger="start">[nick:ミリー][br]
 Papa ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Ancien[br]
+<sn:pointer id="58" window="0" trigger="start">Ancien[br]
 Maltos, vous vous y rendriez
 pour eux ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">Maltos[br]
+<sn:pointer id="59" window="0" trigger="start">Maltos[br]
 Oui, c'est mon devoir. Ils parlent
 d'un mal mystérieux mais ça
 devrait aller.[page]
@@ -312,16 +312,16 @@ Si toi, le meilleur mage blanc de
 tout Clatos y va, je suis soulagé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Maltos[br]
+<sn:pointer id="60" window="0" trigger="start">Maltos[br]
 Je serai rapidement de retour.
 Alors aucune imprudence comme
 vous rendre au [color][0x4]mont Métox[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[mode8][0x38][center]Deux jours plus tard...[page]
+<sn:pointer id="61" window="8" trigger="start">[mode8][0x38][center]Deux jours plus tard...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[mode8][0x0]???[br]
+<sn:pointer id="62" window="0" trigger="start">[mode8][0x0]???[br]
 Papa n'est toujours pas rentré
 à la maison. J'y vais.[page]
 ???[br]
@@ -330,25 +330,25 @@ t'appellerait s'il avait besoin
 de toi. Tu te souviens ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[mode8][0x18]???[br]
+<sn:pointer id="63" window="0" trigger="start">[mode8][0x18]???[br]
 Mais[speed][0xc]...
 [speed][0x0]Je ne peux attendre
 une minute de plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[center]Maison de [nick:ラティ][page]
+<sn:pointer id="64" window="speaker" trigger="start">[center]Maison de [nick:ラティ][page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Mère[br]
+<sn:pointer id="65" window="0" trigger="start">Mère[br]
 Tu ne dois pas bientôt aller
 travailler ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">Mère[br]
+<sn:pointer id="66" window="0" trigger="start">Mère[br]
 Allez, debout ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:ドーン][br]
+<sn:pointer id="67" window="0" trigger="start">[nick:ドーン][br]
 [speed][0x8]À présent,[speed][0x4] il y a quelque
 chose que je voudrais te donner
 avant de mourir.[speed][0x0][page]
@@ -358,49 +358,49 @@ Tu vas juste t'endormir pour
 un certain temps[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ドーン][br]
+<sn:pointer id="68" window="0" trigger="start">[nick:ドーン][br]
 [speed][0x5]Prends la boîte à musique
 sur l'étagère.[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ドーン][br]
+<sn:pointer id="69" window="0" trigger="start">[nick:ドーン][br]
 [speed][0x4]Je te la donne[speed][0xf],[speed][0x0] [nick:ミリー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ミリー][br]
+<sn:pointer id="70" window="0" trigger="start">[nick:ミリー][br]
 C'était celle de ta sœur[speed][0xa]...
 [speed][0x0]Je ne peux accepter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ドーン][br]
+<sn:pointer id="71" window="0" trigger="start">[nick:ドーン][br]
 [speed][0x4]Prends-la[speed][0xf]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[mode8][0x8][nick:ドーン][br]
+<sn:pointer id="72" window="0" trigger="start">[mode8][0x8][nick:ドーン][br]
 [speed][0x8]C'est[speed][0x1e] [speed][0xa]moi[speed][0xf] qui[speed][0x14] l'avais[speed][0x19] offerte[speed][0x1e] à ma sœur...[speed][0x0][mode8][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ラティ][br]
+<sn:pointer id="73" window="0" trigger="start">[nick:ラティ][br]
 Ne t'inquiète pas. Nous allons te
 sauver. J'en fais le serment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:イリア][br]
+<sn:pointer id="74" window="0" trigger="start">[nick:イリア][br]
 [speed][0xf]...[speed][0x0]Je sais que ce n'est pas facile mais nous devons y aller. Nous allons le sauver.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ラティ][br]
+<sn:pointer id="75" window="0" trigger="start">[nick:ラティ][br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[mode8][0x38][pos][0x0][0x0][nick:ロニキス] et les autres, retournés
+<sn:pointer id="76" window="8" trigger="start">[mode8][0x38][pos][0x0][0x0][nick:ロニキス] et les autres, retournés
 au présent, ont synthétisé le
 sérum à bord du vaisseau.
 Produit en masse, le sérum a été
 livré sans encombre sur Roak.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[mode8][0x0][nick:ミリー][br]
+<sn:pointer id="77" window="1" trigger="start">[mode8][0x0][nick:ミリー][br]
 [nick:ドーン] ![page]
 [nick:ドーン][br]
 [speed][0xa]...[speed][0x0] Je[speed][0xa]...[speed][0x0][page]
@@ -414,16 +414,16 @@ Oui, tout le monde est guéri
 à présent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ドーン][br]
+<sn:pointer id="78" window="1" trigger="start">[nick:ドーン][br]
 Super. Je reprends ma boîte
 à musique dans ce cas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ミリー][br]
+<sn:pointer id="79" window="1" trigger="start">[nick:ミリー][br]
 Hé ! Tu me l'as donnée, elle est à moi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ドーン][br]
+<sn:pointer id="80" window="0" trigger="start">[nick:ドーン][br]
 Haha, vas-y, garde la.[page]
 [end]</sn:pointer>
 

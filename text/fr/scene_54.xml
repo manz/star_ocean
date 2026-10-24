@@ -1,80 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Auberge[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Auberge[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Maison[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Maison[page]
+<sn:pointer id="3" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[center]Magasin d'équipement[page]
+<sn:pointer id="4" window="speaker" trigger="start">[center]Magasin d'équipement[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[center]Épicerie[page]
+<sn:pointer id="5" window="speaker" trigger="start">[center]Épicerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[center]Quincaillerie[page]
+<sn:pointer id="6" window="speaker" trigger="start">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[center]Guilde des savoirs[page]
+<sn:pointer id="7" window="speaker" trigger="start">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Aubergiste[br]
+<sn:pointer id="8" window="0" trigger="talk 16">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Aubergiste[br]
+<sn:pointer id="9" window="1" trigger="talk 16">Aubergiste[br]
 Bienvenue. Vous n'avez pas assez d'argent sur vous ? Aucun problème, je vous offre la nuit pour cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Aubergiste[br]
+<sn:pointer id="10" window="1" trigger="talk 16">Aubergiste[br]
 Bienvenue. C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Souhaitez-vous rester ?[page]
+<sn:pointer id="11" choice="yes-no" window="1" trigger="talk 16">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="13">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="13" window="0" trigger="talk 16">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[end]</sn:pointer>
+<sn:pointer id="14" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="15">Mercenaire borgne[br]
+<sn:pointer id="15" window="0" trigger="talk 18">Mercenaire borgne[br]
 Je suis rentré de [color][0x4]Sylvalant[color][0x2], mais au final, j'ai échangé mon œil gauche contre de l'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Worus le mercenaire[br]
+<sn:pointer id="16" window="0" trigger="talk 19">Worus le mercenaire[br]
 Tout le monde parle des chevaliers d'Astral, les plus puissants de tout le continent. Pour être honnête, un type comme moi ne ferait pas le poids.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Vieille femme[br]
+<sn:pointer id="17" window="0" trigger="talk 20">Vieille femme[br]
 L'alchimie et toutes ces fariboles ne sont que des chimères. Sincèrement, je trouve difficile à croire que tout ça soit vraiment possible.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Vieil homme[br]
+<sn:pointer id="18" window="0" trigger="talk 21">Vieil homme[br]
 C'est capital de faire des efforts pour réussir dans la vie au lieu de se morfondre et de geindre, car vous n'avez pas de talent. Plus vous persévérerez dans vos efforts, plus vous serez récompensé ! Ne l'oubliez pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Vendeur[br]
+<sn:pointer id="19" window="0" trigger="talk 22">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Jeune chevalier[br]
+<sn:pointer id="20" window="0" trigger="talk 23">Jeune chevalier[br]
 Si vous cherchez une bonne épée, vous devriez aller voir un bon forgeron.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Femme chevalier[br]
+<sn:pointer id="21" window="1" trigger="talk 24">Femme chevalier[br]
 Il paraît qu'une femme est capitaine chez les chevaliers d'Astral. Elle serait la fille de Ryas, leur commandant. Je l'envie tellement ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:シウス][br]
+<sn:pointer id="22" window="0" trigger="talk 24">[nick:シウス][br]
 [speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
@@ -82,100 +82,100 @@ Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
 Rien, je t'assure[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 24">[end]</sn:pointer>
 
-<sn:pointer id="24">Femme chevalier[br]
+<sn:pointer id="24" window="0" trigger="talk 9 talk 24">Femme chevalier[br]
 Hey ! C'est vous qui avez combattu aux côtés de Ryas lors de la guerre contre le monde démoniaque[speed][0xa]... ![speed][0x0][page]
 [nick:アシュレイ][br]
 C'est de l'histoire ancienne. N'en parlons plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Vendeur[br]
+<sn:pointer id="25" window="0" trigger="talk 25">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Vendeur[br]
+<sn:pointer id="26" window="0" trigger="talk 26">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Aventurier[br]
+<sn:pointer id="27" window="0" trigger="talk 27">Aventurier[br]
 Je voudrais aller apprendre le style de combat d'Edarl, mais je ne sais pas s'ils m'accepteront[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Clochard[br]
+<sn:pointer id="28" window="0" trigger="talk 28">Clochard[br]
 Il paraît que le commandant des chevaliers d'Astral est plus que compétent pour remplir sa fonction.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Maître de la guilde[br]
+<sn:pointer id="29" window="1" trigger="talk 29">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1. Culture niveau 1 300[br]
+<sn:pointer id="30" choice="4" window="1" trigger="talk 29">1. Culture niveau 1 300[br]
 2. Culture niveau 2 600[br]
 3. Technique niveau 2 1200[br]
 4. Combat niveau 1 1000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 29">[end]</sn:pointer>
 
-<sn:pointer id="32">Maître de la guilde[br]
+<sn:pointer id="32" window="0" trigger="talk 29">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Maître de la guilde[br]
+<sn:pointer id="33" window="0" trigger="talk 29">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Maître de la guilde[br]
+<sn:pointer id="34" window="0" trigger="talk 29">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Conseiller[br]
+<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 30">Conseiller[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Conseiller[br]
+<sn:pointer id="36" window="0" trigger="talk 30">Conseiller[br]
 Vous est-il déjà arrivé de ne pas trouver le savoir nécessaire à une commande de spécialité ?[page]
 Je vous conseille de continuer d'aller de ville en ville et de vous offrir toutes les compétences que vous n'avez pas.[page]
 Vous trouvez ça trop évident et paternaliste ? Pourquoi ne pas parler d'Obstination, un de mes savoirs préférés ?[page]
 Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vont diminuer. C'est vraiment pratique lorsque vous êtes avide de savoir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 30">[end]</sn:pointer>
 
-<sn:pointer id="38">Mentor[br]
+<sn:pointer id="38" window="1" trigger="talk 31">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1. Culture niveau 1[br]
+<sn:pointer id="39" choice="4" window="1" trigger="talk 31">1. Culture niveau 1[br]
 2. Culture niveau 2[br]
 3. Technique niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Mentor[br]
+<sn:pointer id="40" window="0" trigger="talk 31">Mentor[br]
 Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Mentor[br]
+<sn:pointer id="41" window="0" trigger="talk 31">Mentor[br]
 Culture niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">Mentor[br]
+<sn:pointer id="42" window="0" trigger="talk 31">Mentor[br]
 Technique niveau 2 comprend :
 Doigté, écriture et domptage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Mentor[br]
+<sn:pointer id="43" window="0" trigger="talk 31">Mentor[br]
 Combat niveau 1 comprend :
 Onde de choc, impact aérien et volte face.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 31">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:フィア][br]
+<sn:pointer id="45" window="0" trigger="talk 11">[nick:フィア][br]
 Dis, [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Qu'est-ce qu'il y a ? T'as pas l'air d'aller.[page]
@@ -187,17 +187,17 @@ Mais non, pas du tout ![page]
 Ryas a été assassiné et je me retrouve accusée[speed][0xa]...[speed][0x0] Et je me surprends à souhaiter qu'il soit là. Je déteste être aussi faible[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">1. La réconforter[br]
+<sn:pointer id="46" choice="2" window="0" trigger="talk 11">1. La réconforter[br]
 2. La laisser seule[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ][br]
+<sn:pointer id="47" window="0" trigger="talk 11">[nick:ラティ][br]
 Le monde paraît souvent ainsi quand ça va mal. Courage, c'est pas bon quand tu te bats d'avoir la tête ailleurs, tu sais ?[page]
 [nick:フィア][br]
 Oui[speed][0xa]...[speed][0x0] Tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア][br]
+<sn:pointer id="48" window="0" trigger="talk 11">[nick:フィア][br]
 Hmmm, [nick:ラティ][speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Courage[speed][0xa]...[speed][0x0][page]
@@ -205,7 +205,7 @@ Courage[speed][0xa]...[speed][0x0][page]
 Peux-tu me laisser seule un moment[speed][0xa]?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア][br]
+<sn:pointer id="49" window="0" trigger="talk 11">[nick:フィア][br]
 [nick:ラティ]...[page]
 [nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
@@ -213,13 +213,13 @@ Tu veux que je te laisse seule ?[page]
 Non, non. Ça me changera les idées.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ラティ][br]
+<sn:pointer id="50" window="0" trigger="talk 11">[nick:ラティ][br]
 Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
 [nick:フィア][br]
 Hmmm ? Oh, oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア][br]
+<sn:pointer id="51" window="0" trigger="talk 11">[nick:フィア][br]
 J'étais orpheline. Ryas m'a emmenée chez lui quand j'étais toute petite.[page]
 [nick:ラティ][br]
 Ryas... Le père de [nick:シウス] ?[page]
@@ -227,7 +227,7 @@ Ryas... Le père de [nick:シウス] ?[page]
 Oui. Je suis en quelque sorte sa petite sœur. Mais je me demande parfois qui est l'aîné, surtout au regard de la façon dont il se comporte ces derniers temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ][br]
+<sn:pointer id="52" window="0" trigger="talk 11">[nick:ラティ][br]
 Puis-je te poser une question ?[page]
 [nick:フィア][br]
 Dis voir ?[page]
@@ -235,15 +235,15 @@ Dis voir ?[page]
 Pourquoi [nick:シウス] voyage-t-il ? Il n'était pas tout à fait lui-même quand nous sommes allés à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ][br]
+<sn:pointer id="53" window="1" trigger="talk 11">[nick:ラティ][br]
 Qu'est-ce que tu trouves drôle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:フィア][br]
+<sn:pointer id="54" window="0" trigger="talk 11">[nick:フィア][br]
 Rien, rien du tout. J'éviterais de lui poser cette question si j'étais toi. C'est quelqu'un de très timide.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア][br]
+<sn:pointer id="55" window="0" trigger="talk 11">[nick:フィア][br]
 [nick:ラティ]...[page]
 [nick:ラティ][br]
 Tu veux que je te laisse seule ?[page]
@@ -251,7 +251,7 @@ Tu veux que je te laisse seule ?[page]
 Non, non. Ça me changera les idées.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ラティ][br]
+<sn:pointer id="56" window="0" trigger="talk 11">[nick:ラティ][br]
 Alors, toi et [nick:シウス], vous êtes des amis d'enfance, c'est ça ?[page]
 [nick:フィア][br]
 Hmmm ? Oh, oui. C'est vrai que vous vous connaissez.[page]
@@ -259,7 +259,7 @@ Hmmm ? Oh, oui. C'est vrai que vous vous connaissez.[page]
 Oui, un peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:フィア][br]
+<sn:pointer id="57" window="0" trigger="talk 11">[nick:フィア][br]
 J'étais orpheline. Ryas m'a emmenée chez lui quand j'étais toute petite.[page]
 [nick:ラティ][br]
 Ryas... Le père de [nick:シウス] ?[page]
@@ -271,7 +271,7 @@ Mais ?[page]
 Ce qu'il a fait a beaucoup attristé Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:フィア][br]
+<sn:pointer id="58" window="0" trigger="talk 11">[nick:フィア][br]
 Ryas a vu le talent de [nick:シウス] et l'a recommandé pour un poste de capitaine. Mais quand ça s'est su, personne n'a voulu de lui. Il a fini par fuir pour ne plus entendre ces fausses accusations.[page]
 [nick:ラティ][br]
 [nick:シウス] s'est enfui ?[page]
@@ -279,7 +279,7 @@ Ryas a vu le talent de [nick:シウス] et l'a recommandé pour un poste de capi
 Je n'en suis pas totalement certaine, mais c'est la version la plus plausible de tout ce que j'ai pu entendre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:フィア][br]
+<sn:pointer id="59" window="0" trigger="talk 11">[nick:フィア][br]
 Si seulement il avait eu plus confiance en lui, il aurait été un bon capitaine. Mais après ce qu'il s'est passé, il n'a même plus confiance en son père[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Oh, je vois[speed][0xa]...[speed][0x0] Désolé de t'avoir importunée avec ça.[page]

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ville fortifiée de Van I Il[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ville fortifiée de Van I Il[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[end]</sn:pointer>
+<sn:pointer id="1" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="2">[nick:シウス][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:シウス][br]
 Nan, il devrait pas y'avoir beaucoup de types qui se revendiquent membres des forces anti-monde démoniaque. On devrait pouvoir le trouver plus facilement que tu le penses.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:アシュレイ][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:アシュレイ][br]
 Je devrais aller leur parler.[page]
 [nick:ロニキス][br]
 Hein ?![page]
@@ -17,19 +17,19 @@ Hein ?![page]
 Je m'en charge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス][br]
+<sn:pointer id="4" window="1" trigger="start">[nick:シウス][br]
 Nan, il devrait pas y'avoir beaucoup de types qui se revendiquent membres des forces anti-monde démoniaque. On devrait pouvoir le trouver plus facilement que tu le penses.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ヨシュア][br]
+<sn:pointer id="5" window="1" trigger="start">[nick:ヨシュア][br]
 Bien vu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:シウス][br]
 Tu crois pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ロニキス][br]
 Commençons par aller au château.[page]
 [nick:イリア][br]
 Obtiendrons-nous facilement une audience ? C'est un peu comme si nous allions la fleur au fusil aborder le président ou n'importe quelle vedette.[page]
@@ -39,7 +39,7 @@ Nous n'avons pas le choix. Et nous ne connaissons personne sur place.[page]
 [speed][0xa]...[speed][0x0] Tu as raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ロニキス][br]
+<sn:pointer id="8" window="1" trigger="start">[nick:ロニキス][br]
 Commençons par aller voir le roi.[page]
 [nick:イリア][br]
 Obtiendrons-nous facilement une audience ? C'est un peu comme si nous allions la fleur au fusil aborder le président ou n'importe quelle vedette.[page]
@@ -49,142 +49,142 @@ Nous n'avons pas le choix. Et nous n'avons aucune connaissance pour nous introdu
 [speed][0xa]...[speed][0x0] Tu dois avoir raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Garde[br]
+<sn:pointer id="9" window="0" trigger="talk 16">Garde[br]
 Bienvenue dans la ville fortifiée de Van ! Son vrai nom est Van I Il, mais c'est difficile à prononcer, personne ne l'appelle comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Jeune homme[br]
+<sn:pointer id="10" window="0" trigger="talk 17">Jeune homme[br]
 Le château de Van I Il[speed][0xa]...[speed][0x0] Van, pour faire court[speed][0xa]...[speed][0x0] On dirait un nom d'instrument, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Leeza[br]
+<sn:pointer id="11" window="0" trigger="talk 18">Leeza[br]
 C'est la saison où les feuilles se mettent à danser[speed][0xa]...[speed][0x0]
 Et au sol, elles s'accumulent une à une[speed][0xa]...[speed][0x0]
 Tout comme le font mes pensées.[speed][0xa]...[speed][0x0]
 Eh oui, je suis une poétesse.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Jeune homme patibulaire[br]
+<sn:pointer id="12" window="0" trigger="talk 19">Jeune homme patibulaire[br]
 Tu veux ma photo ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Garde[br]
+<sn:pointer id="13" window="0" trigger="talk 20">Garde[br]
 Il semblerait que le roi de Van soit préoccupé par la lutte contre l'influence du monde démoniaque depuis des années.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">Fille[br]
+<sn:pointer id="14" window="0" trigger="talk 21">Fille[br]
 Bob n'est qu'un crétin[speed][0xa]...[speed][0x0] Il est allé faire de sales commentaires quand il a rencontré mes parents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Elina[br]
+<sn:pointer id="15" window="0" trigger="talk 22">Elina[br]
 Recherchez-vous de bons ingrédients pour de la bonne cuisine ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:アシュレイ][br]
+<sn:pointer id="16" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Pardonne mon indiscrétion, [nick:ラティ], mais pourquoi suis-tu la voie de l'épée ?[page]
 [nick:ラティ][br]
 Hein ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">1. Je souhaite être plus fort[br]
+<sn:pointer id="17" choice="2" window="1" trigger="talk 9">1. Je souhaite être plus fort[br]
 2. Parce que j'aime ça[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:アシュレイ][br]
+<sn:pointer id="18" window="1" trigger="talk 9">[nick:アシュレイ][br]
 C'est important de vouloir être plus fort. Les compétences viennent s'additionner à la force. Mais que feras-tu quand tu auras atteint tes limites ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">1. La force ne connaît pas de limites[br]
+<sn:pointer id="19" choice="2" window="1" trigger="talk 9">1. La force ne connaît pas de limites[br]
 2. Mes limites la déterminent[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:アシュレイ][br]
+<sn:pointer id="20" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Aucune limite, hein ? Tu es jeune, tu ne vois pas encore si loin. Cette réponse n'a rien d'étonnant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:アシュレイ][br]
+<sn:pointer id="21" window="1" trigger="talk 9">[nick:アシュレイ][br]
 C'est exactement ça, quand on regarde la nature même de la force. Tes limites la déterminent. En d'autres termes, si tu ne cherches que la force et uniquement la force, c'est là que tout s'arrête.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:アシュレイ][br]
+<sn:pointer id="22" window="1" trigger="talk 9">[nick:アシュレイ][br]
 La force dont tu parles, est-elle relative ou absolue ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">1. Relative[br]
+<sn:pointer id="23" choice="2" window="1" trigger="talk 9">1. Relative[br]
 2. Absolue[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:アシュレイ][br]
+<sn:pointer id="24" choice="yes-no" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Donc tu souhaites devenir plus fort que les autres ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ][br]
+<sn:pointer id="25" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Quand ceux qui sont plus forts que toi disparaissent, alors tu atteins tes limites ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ][br]
+<sn:pointer id="26" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Tu ne crois donc pas en l'absolu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:アシュレイ][br]
+<sn:pointer id="27" choice="yes-no" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Vouloir être fort, n'est-ce pas vouloir être plus fort que quiconque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:アシュレイ][br]
+<sn:pointer id="28" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Tu ne crois donc pas en la relativité ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ][br]
+<sn:pointer id="29" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Hmmm... Ton but serait donc en toi-même ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:アシュレイ][br]
+<sn:pointer id="30" choice="yes-no" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Pour le bien de tous ? Tu me dis que tu veux avoir la force de protéger tout le monde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:アシュレイ][br]
+<sn:pointer id="31" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Alors, tu n'as pas besoin de plus de force que le nécessaire, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:アシュレイ][br]
+<sn:pointer id="32" window="1" trigger="talk 9">[nick:アシュレイ][br]
 Tu n'es pas très cohérent. N'as-tu pas répondu que tu suivais la voie de l'épée pour le bien de tous ? Alors, pourquoi vouloir plus de force que nécessaire ? Es-tu certain de me dire la vérité ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:アシュレイ][br]
+<sn:pointer id="33" window="0" trigger="talk 9">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Pardonne-moi, c'était une question oiseuse.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:シウス][br]
+<sn:pointer id="34" window="0" trigger="talk 5">[nick:シウス][br]
 [speed][0xa]...[speed][0x0] Bon sang, j'en ai ma claque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Vendeur itinérant[br]
+<sn:pointer id="35" window="0" trigger="talk 23">Vendeur itinérant[br]
 Je suis un vendeur itinérant. Quelque chose vous intéresse ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ][br]
+<sn:pointer id="36" window="0" trigger="talk 7">[nick:ラティ][br]
 Il dort[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:マーヴェル][br]
+<sn:pointer id="37" window="0" trigger="start">[nick:マーヴェル][br]
 Ah[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:マーヴェル][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:マーヴェル][br]
 Impossible[speed][0xa]...[speed][0x0] Grand frère [nick:ヨシュア][speed][0xa]... !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Enfant[br]
+<sn:pointer id="39" window="1" trigger="start">Enfant[br]
 Mamaaaan !! La grande fille, elle a disparu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Mère[br]
+<sn:pointer id="40" window="0" trigger="start">Mère[br]
 De quoi tu parles ? Tu as fait un cauchemar ?[page]
 Enfant[br]
 Mais non ! Et même qu'elle pleurait[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ペリシー][br]
+<sn:pointer id="41" window="0" trigger="talk 10">[nick:ペリシー][br]
 Dis, [nick:イリア] raconte qu'elle aime l'alcool ♪ Mais et [nick:ロニキス][speed][0xa]...[speed][0x0] ? C'était quoi ? Des champignons ? Non je ne crois pas.[page]
 [end]</sn:pointer>
 

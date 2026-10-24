@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]「どうやらここが神殿の最深部みたいね。[page]
+<sn:pointer id="0" window="1" trigger="start">[nick:イリア]「どうやらここが神殿の最深部みたいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス]「はあぁ〜[speed][0xa]、[speed][0x0]なんかいかにもお宝がありますって感じじゃねぇか♪[speed][0x14][speed][0x0][end]</sn:pointer>
+<sn:pointer id="1" window="1" trigger="start">[nick:シウス]「はあぁ〜[speed][0xa]、[speed][0x0]なんかいかにもお宝がありますって感じじゃねぇか♪[speed][0x14][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="2">
+<sn:pointer id="2" window="0" trigger="start">
 なぁ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:アシュレイ]「いかにも、といった感じの場所じゃな。[page]
+<sn:pointer id="3" window="1" trigger="start">[nick:アシュレイ]「いかにも、といった感じの場所じゃな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:フィア]「ここに[color][0x6]真実の瞳[color][0x2]が隠されているのか。[page]
+<sn:pointer id="4" window="1" trigger="start">[nick:フィア]「ここに[color][0x6]真実の瞳[color][0x2]が隠されているのか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]「でも、このエネルギーらしきものの流れは何かしら？どちらかと言えば私たちの世界で馴染みが深そうな、ちょっと違うけど[speed][0xa]・・・[speed][0x0]そんな造りよ、これは。[page]
+<sn:pointer id="5" window="1" trigger="start">[nick:イリア]「でも、このエネルギーらしきものの流れは何かしら？どちらかと言えば私たちの世界で馴染みが深そうな、ちょっと違うけど[speed][0xa]・・・[speed][0x0]そんな造りよ、これは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス]「何わけわかんねぇこと言ってんだ？それより早く調べてみようぜ。[page]
+<sn:pointer id="6" window="0" trigger="start">[nick:シウス]「何わけわかんねぇこと言ってんだ？それより早く調べてみようぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:アシュレイ]「確かに、不思議な力が部屋全体に満ちておる[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="start">[nick:アシュレイ]「確かに、不思議な力が部屋全体に満ちておる[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:フィア]「それより、早く捜しましょう。[page]
+<sn:pointer id="8" window="0" trigger="start">[nick:フィア]「それより、早く捜しましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]「ぐわあぁぁ！！[page]
+<sn:pointer id="9" window="1" trigger="start">[nick:シウス]「ぐわあぁぁ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:アシュレイ]「ぐわあぁぁ！！[page]
+<sn:pointer id="10" window="1" trigger="start">[nick:アシュレイ]「ぐわあぁぁ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:フィア]「きゃあぁぁ！！[page]
+<sn:pointer id="11" window="1" trigger="start">[nick:フィア]「きゃあぁぁ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ]「大丈夫か？[page]
+<sn:pointer id="12" window="1" trigger="start">[nick:ラティ]「大丈夫か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「大丈夫ですか？[page]
+<sn:pointer id="13" window="0" trigger="start">[nick:ラティ]「大丈夫ですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ]「[nick:フィア]大丈夫か？[page]
+<sn:pointer id="14" window="1" trigger="start">[nick:ラティ]「[nick:フィア]大丈夫か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:シウス]「くっ[speed][0xa]・・・[speed][0x0]ああ、なんともねぇ。[page]
+<sn:pointer id="15" window="0" trigger="start">[nick:シウス]「くっ[speed][0xa]・・・[speed][0x0]ああ、なんともねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:アシュレイ]「く、不覚[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="start">[nick:アシュレイ]「く、不覚[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:フィア]「大丈夫。ちょっと驚いただけ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="17" window="0" trigger="start">[nick:フィア]「大丈夫。ちょっと驚いただけ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[color][0x6]？？？「失せよ！！ここは我欲の強い者に益のある場所ではない！！[page]
+<sn:pointer id="18" window="0" trigger="start">[color][0x6]？？？「失せよ！！ここは我欲の強い者に益のある場所ではない！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[color][0x3]？？？「そこまできつく言うこともないでしょう。[page]
+<sn:pointer id="19" window="1" trigger="start">[color][0x3]？？？「そこまできつく言うこともないでしょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[color][0x3]？？？「お帰りくださいますか？土着の二方、それに異界の者たちよ。[page]
+<sn:pointer id="20" window="0" trigger="start">[color][0x3]？？？「お帰りくださいますか？土着の二方、それに異界の者たちよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[color][0x2][nick:イリア]「わかるものなの？！[page]
+<sn:pointer id="21" window="1" trigger="start">[color][0x2][nick:イリア]「わかるものなの？！[page]
 [color][0x4]？？？「だってあなたたち二人、時間軸の封印がなされてるじゃん。違和感ありありだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[color][0x3]？？？「その言葉遣い、やめなさい。すぐに人間に影響されるんだから！！[page]
+<sn:pointer id="22" window="0" trigger="start">[color][0x3]？？？「その言葉遣い、やめなさい。すぐに人間に影響されるんだから！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[color][0x2][nick:ヨシュア]「あなたたちは“ルーン”ですね？この世界の原住遺族と呼ばれる[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="23" window="1" trigger="start">[color][0x2][nick:ヨシュア]「あなたたちは“ルーン”ですね？この世界の原住遺族と呼ばれる[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:シウス]「こいつらを知っているのか？[page]
+<sn:pointer id="24" window="1" trigger="start">[nick:シウス]「こいつらを知っているのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ]「知っておるのか？[page]
+<sn:pointer id="25" window="1" trigger="start">[nick:アシュレイ]「知っておるのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:フィア]「知っているの？[page]
+<sn:pointer id="26" window="1" trigger="start">[nick:フィア]「知っているの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ヨシュア]「一応。僕も会うのは初めてですが。[page]
+<sn:pointer id="27" window="0" trigger="start">[nick:ヨシュア]「一応。僕も会うのは初めてですが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[color][0x4]？？？「へぇ、知ってるんだ。普通は“魔力の源”くらいにしか認識されてないのに。[page]
+<sn:pointer id="28" window="0" trigger="start">[color][0x4]？？？「へぇ、知ってるんだ。普通は“魔力の源”くらいにしか認識されてないのに。[page]
 [color][0x2][nick:ヨシュア]「僕は、生き別れになった妹を捜してここまで来たんです。それを“我欲”と言われればそれまでですが・・・決してやましい気持ちでここを訪れたわけでは[speed][0xa]・・・！！[speed][0x0][page]
 [color][0x4]？？？「ここにはいないよ。[page]
 [color][0x2][nick:ヨシュア]「[color][0x6]真実の瞳[color][0x2]があれば望む情景が映し出せると聞いています。それはここに無いのですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[color][0x4]？？？「な〜る、真実の瞳[speed][0x5]・・・[speed][0x0]ね。[page]
+<sn:pointer id="29" window="0" trigger="start">[color][0x4]？？？「な〜る、真実の瞳[speed][0x5]・・・[speed][0x0]ね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[color][0x3]？？？「伝承として伝わってるんですね。[page]
+<sn:pointer id="30" window="0" trigger="start">[color][0x3]？？？「伝承として伝わってるんですね。[page]
 [color][0x4]？？？「でも、ねじれてるじゃん？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[color][0x6]？？？「そのようなものはここにはありません。ですが[speed][0xa]・・・。[speed][0x0]そこのお二方も捜し人なんですね？[page]
+<sn:pointer id="31" window="0" trigger="start">[color][0x6]？？？「そのようなものはここにはありません。ですが[speed][0xa]・・・。[speed][0x0]そこのお二方も捜し人なんですね？[page]
 [color][0x2][nick:ラティ]「は、はい。[page]
 [color][0x6]？？？「あなたと同じ境遇の人？[page]
 [color][0x2][nick:ラティ]「ええ、男女二人です。[page]
@@ -107,33 +107,33 @@
 [color][0x6]？？？「ただし、もうこれ以上ここには近づかないでください。それが条件です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[color][0x6]？？？「落ち葉の降り積もる大陸[speed][0xa]・・・[speed][0x0]そこのどこかの町に違和感のある存在を感じます。[page]
+<sn:pointer id="32" window="1" trigger="start">[color][0x6]？？？「落ち葉の降り積もる大陸[speed][0xa]・・・[speed][0x0]そこのどこかの町に違和感のある存在を感じます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[color][0x2][nick:シウス]「落ち葉の降り積もる大陸？[speed][0xa]・・・[speed][0x0]ヴァン王国か！！[page]
+<sn:pointer id="33" window="1" trigger="start">[color][0x2][nick:シウス]「落ち葉の降り積もる大陸？[speed][0xa]・・・[speed][0x0]ヴァン王国か！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[color][0x2][nick:アシュレイ]「落ち葉の降り積もる町[speed][0xa]・・・[speed][0x0]ヴァン王国じゃな？！[page]
+<sn:pointer id="34" window="1" trigger="start">[color][0x2][nick:アシュレイ]「落ち葉の降り積もる町[speed][0xa]・・・[speed][0x0]ヴァン王国じゃな？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[color][0x2][nick:フィア]「落ち葉の降り積もる町[speed][0xa]・・・[speed][0x0]ヴァン王国？[page]
+<sn:pointer id="35" window="1" trigger="start">[color][0x2][nick:フィア]「落ち葉の降り積もる町[speed][0xa]・・・[speed][0x0]ヴァン王国？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[color][0x4]？？？「でも二人じゃないじゃん。三人だよ？[page]
+<sn:pointer id="36" window="1" trigger="start">[color][0x4]？？？「でも二人じゃないじゃん。三人だよ？[page]
 [color][0x2][nick:ラティ]「え？[page]
 [color][0x4]？？？「でもまあそんなことはどうでもいいか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[color][0x6]？？？「用件は済んだ。もう二度と近づくな。[color][0x2][page]
+<sn:pointer id="37" window="0" trigger="start">[color][0x6]？？？「用件は済んだ。もう二度と近づくな。[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ラティ]「ここに[color][0x6]真実の瞳[color][0x2]があるとヴァン国王より聞いて来ました。これがその証撫のエンブレムです。[page]
+<sn:pointer id="38" window="0" trigger="tile 64">[nick:ラティ]「ここに[color][0x6]真実の瞳[color][0x2]があるとヴァン国王より聞いて来ました。これがその証撫のエンブレムです。[page]
 [color][0x6]？？？「なるほど、ムーアの遺志を維ぐ者が現れたということか[speed][0xa]・・・。[speed][0x0][color][0x2][page]
 [nick:イリア]「遺志を維ぐもの・・・？[page]
 [color][0x6]？？？「では案内しましょう。[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[color][0x6]？？？「では案内しましょう。[color][0x2][page]
+<sn:pointer id="39" window="0" trigger="tile 64">[color][0x6]？？？「では案内しましょう。[color][0x2][page]
 [end]</sn:pointer>
 
 </sn:script>
