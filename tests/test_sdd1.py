@@ -1,10 +1,11 @@
-"""S-DD1 codec: game streams decode, the compressor round-trips."""
+"""S-DD1: game streams decode and round-trip through katsuji's codec."""
 
 from __future__ import annotations
 
 import random
 
 import pytest
+from katsuji.codecs import sdd1 as codec
 
 from tools import sdd1
 from tools.rom import DEFAULT_ROM, Rom
@@ -30,8 +31,8 @@ def test_round_trips(data: bytes) -> None:
     assert sdd1.decompress_bytes(sdd1.compress(data), len(data))[0] == data
 
 
-@pytest.mark.parametrize("header", sdd1.HEADERS, ids=lambda h: f"{h:02X}")
+@pytest.mark.parametrize("header", codec.HEADERS, ids=lambda h: f"{h:02X}")
 def test_every_header_round_trips(header: int) -> None:
     data = random.Random(header).randbytes(300)
-    packed = sdd1._encode(data, header)
+    packed = codec.encode(data, header)
     assert (packed[0] & 0xF0, sdd1.decompress_bytes(packed, len(data))[0]) == (header, data)

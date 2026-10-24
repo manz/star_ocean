@@ -27,7 +27,7 @@ from pathlib import Path
 
 import numpy as np
 from katsuji import Atlas, VwfFont, pair_kerning, render
-from script import Table
+from katsuji.script import Table
 
 from tools import sdd1
 from tools.encode_menus import LABELS8, NAMES8, TABLE, place, values, wide_values

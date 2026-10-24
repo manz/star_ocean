@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import numpy as np
-from script import Table
+from katsuji.script import Table
 
 from tools.encode_menus import TABLE
 from tools.vwf8 import CELL_END, CELL_NEWLINE, bake, line

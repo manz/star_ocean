@@ -11,8 +11,9 @@ import argparse
 from collections.abc import Callable
 from pathlib import Path
 
-from script import Table
-from script.pointers import read_pointers_from_xml
+from katsuji.codecs.lzss import Lzss
+from katsuji.script import Table
+from katsuji.script.pointers import read_pointers_from_xml
 
 from tools import party_names
 from tools.dialog import CONTROLS, SCENE_TABLE, SCENES, build_block, messages, scene_block
@@ -25,8 +26,7 @@ SRAM_TEXT = 0x5000  # src/dialog/sram_text.s: sram_text
 SCENE_RECORD, TEXT_POINTER = 6, 3  # scene table: event pointer, then text pointer
 
 
-WINDOW, MIN_MATCH, MAX_MATCH = 0xFFF, 3, 18
-CHAIN = 64  # candidates tried per position
+LZSS = Lzss(window=0xFFF, chain=64)  # the 0x81 container's LZSS, as `unpack` reads it
 
 
 def fr_table() -> Table:
@@ -35,49 +35,8 @@ def fr_table() -> Table:
     return table
 
 
-def _longest(data: bytes, pos: int, chain: list[int]) -> tuple[int, int]:
-    best_len = best_dist = 0
-    limit = min(MAX_MATCH, len(data) - pos)
-    for start in reversed(chain[-CHAIN:]):
-        dist = pos - start
-        if dist > WINDOW:
-            break
-        length = 0
-        while length < limit and data[start + length] == data[pos + length]:
-            length += 1
-        if length > best_len:
-            best_len, best_dist = length, dist
-            if length == limit:
-                break
-    return best_len, best_dist
-
-
-def lzss(data: bytes) -> bytes:
-    """Greedy LZSS as `unpack` reads it: flag byte (bit 0 first, 1 = literal), references `dd ld`."""
-    out, chains = bytearray(), dict[bytes, list[int]]()
-    pos = 0
-    while pos < len(data):
-        flags_at, flags = len(out), 0
-        out.append(0)
-        for bit in range(8):
-            if pos >= len(data):
-                break
-            length, dist = _longest(data, pos, chains.get(data[pos : pos + MIN_MATCH], []))
-            step = length if length >= MIN_MATCH else 1
-            if step == 1:
-                flags |= 1 << bit
-                out.append(data[pos])
-            else:
-                out += bytes([dist & 0xFF, dist >> 8 | (length - MIN_MATCH) << 4])
-            for p in range(pos, pos + step):
-                chains.setdefault(data[p : p + MIN_MATCH], []).append(p)
-            pos += step
-        out[flags_at] = flags
-    return bytes(out)
-
-
 def container(data: bytes) -> bytes:
-    packed = lzss(data)
+    packed = LZSS.compress(data)
     head = bytes([0x81]) + len(packed).to_bytes(2, "little") + b"\0\0" + len(data).to_bytes(2, "little") + b"\0\0"
     return head + packed
 

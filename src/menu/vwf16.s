@@ -57,7 +57,7 @@ line_pixels = 0x7FFFFC  ; free: the 2016 patch kept it there
 ; copy_char tail: `lda 2E / beq / asl / tax / jsr (0D4B,x)` was the 12 px half shift.
 .alloc at 0xC80D38 size 6 {
     jsr.w merge_glyph
-    jmp.w 0x0D41
+    jmp 0x0D41
 }
 
 .macro merge(delta) {
@@ -78,7 +78,7 @@ line_pixels = 0x7FFFFC  ; free: the 2016 patch kept it there
 ; C0:47FD, the same tail in the battle blitter.
 .alloc at 0xC047FD size 7 {
     jsl merge_glyph_battle
-    jmp.w 0x4806
+    jmp 0x4806
 }
 
 .alloc merge_glyph_battle in code_c8 {
@@ -181,9 +181,9 @@ _next:
     ldy.b mode
     cpy.w #BATTLE
     beq _battle
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     inc
-    sta.l 0x7E0040, x
+    sta 0x7E0040, x
     bra _entered
 _battle:
     sta.l BATTLE_ROWS_1, x
@@ -345,7 +345,7 @@ _done:
     ldy.w #16
     lda.w #0
 _blank:
-    sta.l 0x7F0000, x
+    sta 0x7F0000, x
     inx
     inx
     dey

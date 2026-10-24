@@ -14,7 +14,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from dataclasses import dataclass
 
-from script import Table
+from katsuji.script import Table
 
 from tools import sdd1
 from tools.dialog import glyphs

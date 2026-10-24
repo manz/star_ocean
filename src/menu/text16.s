@@ -128,7 +128,7 @@ _next:
     phx
     ldx.w #0
 _find:
-    lda.l 0x7F2000, x
+    lda 0x7F2000, x
     beq _missing
     cmp.b 0x20
     beq _found
@@ -158,14 +158,14 @@ _next:
     and.w #0x00FF
     cmp.w #END
     beq _end
-    sta.l 0x7EC1B3, x
+    sta 0x7EC1B3, x
     inx
     inx
     iny
     bra _next
 _end:
     lda.w #0xFFFF
-    sta.l 0x7EC1B3, x
+    sta 0x7EC1B3, x
     plb
     plp
     rtl

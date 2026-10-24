@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 import pytest
-from script import Table
+from katsuji.script import Table
 
 from tests.screens import emulator, tap
 from tools.encode_menus import TABLE

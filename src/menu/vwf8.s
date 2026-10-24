@@ -16,6 +16,7 @@ The Talents combo slots print their special moves' battle16 names with the 16x16
 
 .import "core/preamble"
 .import "menu/text16"
+.import "@std/snes/sdd1"
 
 .include "vwf8.i"
 
@@ -118,7 +119,7 @@ _game:
 vwf8_cave_drain:
     jsl vwf8_drain
     lda.b #0x20
-    trb.w 0x0601
+    trb 0x0601
     rts
 }
 
@@ -209,14 +210,14 @@ battle16 printer's.
     ldy.w #_COMBO_CELLS
     lda.w #0
 _combo_clear:
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     sta.l 0x7E0000 + _ROW, x
     inx
     inx
     dey
     bne _combo_clear
     sep #0x20
-    lda.w 0x06E6
+    lda 0x06E6
     asl
     asl
     sta.b _attribute
@@ -583,7 +584,7 @@ _glyph:
     cmp.b #0
     bne _tiled
     lda.b #_BLANK
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     lda.b _attribute
     bra _attribute_out
 _tiled:
@@ -593,11 +594,11 @@ _tiled:
     adc.l vwf8.tile
     dec
     sep #0x20
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     xba
     ora.b _attribute
 _attribute_out:
-    sta.l 0x7E0001, x
+    sta 0x7E0001, x
     inx
     inx
     iny
@@ -662,8 +663,6 @@ _upload:
     asl
     tax
     sep #0x20
-    lda.b #0x01
-    sta.l 0x004800
     lda.b #0x09
     sta.l 0x004300
     lda.b #0x18
@@ -682,11 +681,7 @@ _upload:
     adc.l vwf8.queue + 3, x
     sta.l vwf8.budget
     sep #0x20
-    lda.b #0x01
-    sta.l 0x004801
-    sta.l 0x00420B
-    lda.b #0
-    sta.l 0x004800
+    sdd1_decompress(0x01)
     lda.l vwf8.head
     inc
     and.b #_QUEUE_SLOTS - 1

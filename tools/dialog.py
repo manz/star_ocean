@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from script import Table
+from katsuji.script import Table
 
 from tools.lz import decode
 from tools.rom import ROOT, Rom
