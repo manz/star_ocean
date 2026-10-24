@@ -8,6 +8,7 @@ build/gen/scene_text.i, which places every block in ROM pages 6-7 and repoints t
 from __future__ import annotations
 
 import argparse
+import xml.etree.ElementTree as ET
 from collections.abc import Callable
 from pathlib import Path
 
@@ -93,16 +94,28 @@ def scene_values(
     return values, [i for i in range(len(japanese)) if i not in french]
 
 
+def menu_errors(path: Path, layout: DialogLayout) -> list[str]:
+    """Each counted menu of the scene (`choice="N"`, tools/annotate.py) against its option lines."""
+    out = []
+    for node in ET.parse(path).getroot():
+        count = node.get("choice", "")
+        if count.isdigit():
+            errors = layout.menu_errors(node.text or "", int(count))
+            out += [f"{path.stem} message {node.get('id')}: {error}" for error in errors]
+    return out
+
+
 def build(source: Path, out: Path) -> list[str]:
     rom, table = Rom(), fr_table()
     layout = DialogLayout(party_names.inserts())
     (out / "scene_text").mkdir(parents=True, exist_ok=True)
-    lines, report = [], []
+    lines, report, menus = [], [], []
     for scene in range(1, SCENES + 1):
         path = source / f"scene_{scene:02d}.xml"
         if not path.exists():
             report.append(f"scene {scene}: no French, Japanese kept")
             continue
+        menus += menu_errors(path, layout)
         wide: list[str] = []
 
         def laid_out(text: str) -> str:
@@ -128,6 +141,8 @@ def build(source: Path, out: Path) -> list[str]:
         ]
         if kept:
             report.append(f"scene {scene}: Japanese kept for messages {kept}")
+    if menus:
+        raise ValueError("menus that would not show one line per option:\n" + "\n".join(menus))
     (out / "scene_text.i").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return report
 
