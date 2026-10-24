@@ -1,9 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended",
-    "github>manz/a816//renovate/a816"
-  ],
+  "extends": ["github>manz/a816//renovate/a816"],
   "packageRules": [
     {
       "description": "kintsuki has no Python 3.15 build yet",
