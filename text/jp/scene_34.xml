@@ -1,351 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x48][0x0]タトローイ[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x48][0x0]タトローイ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="1" window="0" trigger="tile 2">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
+<sn:pointer id="2" window="0" trigger="tile 2">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「あ、[nick:フィア]のことを忘れてた！[page]
+<sn:pointer id="3" window="0" trigger="tile 4">[nick:ラティ]「あ、[nick:フィア]のことを忘れてた！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]「何だ？[page]
+<sn:pointer id="4" window="0" trigger="tile 20">[nick:ラティ]「何だ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]「ここは？[page]
+<sn:pointer id="5" window="0" trigger="tile 20">[nick:イリア]「ここは？[page]
 衛兵「アストラル王国最大の娯楽施設、タトローイ闘技場です。腕に覚えのある荒くれ者が賞金と名声を求めて魔物を相手に1対1の戦いを繰り広げているんですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">傭兵トク「同業者なら知らない奴ぁいねぇ。[nick:アシュレイ]といやあエダール剣術の使い手の中でも五指に入る腕前として有名だからな。[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="傭兵トク">傭兵トク「同業者なら知らない奴ぁいねぇ。[nick:アシュレイ]といやあエダール剣術の使い手の中でも五指に入る腕前として有名だからな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">傭兵トク「魔界の王の名を知っているか？[page]
+<sn:pointer id="7" choice="yes-no" window="1" trigger="talk 18" npc="傭兵トク">傭兵トク「魔界の王の名を知っているか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 18" npc="傭兵トク">[end]</sn:pointer>
 
-<sn:pointer id="9">傭兵トク「アスモ[speed][0xa]・・・[speed][0x0]なんだっけ？[page]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="傭兵トク">傭兵トク「アスモ[speed][0xa]・・・[speed][0x0]なんだっけ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">子供「キューイシュゾクっての、僕が生まれる前にいなくなっちゃったんだって。なんで？[page]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="子供">子供「キューイシュゾクっての、僕が生まれる前にいなくなっちゃったんだって。なんで？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">剣士「[nick:アシュレイ]殿がお忍びで[color][0x4]アストラル[color][0x2]に帰郷するという話を聞いたんだが。[page]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="剣士">剣士「[nick:アシュレイ]殿がお忍びで[color][0x4]アストラル[color][0x2]に帰郷するという話を聞いたんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">剣士「[color][0x4]タトローイ[color][0x2]と言えば闘技場！別に呪紋を使っちゃダメってことも無いから、個人的に修行したい時にも便利だよね。[page]
+<sn:pointer id="12" window="0" trigger="talk 20" npc="剣士">剣士「[color][0x4]タトローイ[color][0x2]と言えば闘技場！別に呪紋を使っちゃダメってことも無いから、個人的に修行したい時にも便利だよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">若者ラスター「[color][0x4]アストラル城[color][0x2]は山岳の頂点にあるし、しかも中に入る手段が運河船と危険窮まりない洞窟だけ。まさに難攻不落の陸の孤島さ。[page]
+<sn:pointer id="13" window="0" trigger="talk 22" npc="若者ラスター">若者ラスター「[color][0x4]アストラル城[color][0x2]は山岳の頂点にあるし、しかも中に入る手段が運河船と危険窮まりない洞窟だけ。まさに難攻不落の陸の孤島さ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">衛兵「アストラル王国最大の娯楽施設、タトローイ闘技場です。腕に覚えのある荒くれ者が賞金と名声を求めて魔物を相手に1対1の戦いを繰り広げているんですよ。[page]
+<sn:pointer id="14" window="0" trigger="talk 26" npc="衛兵">衛兵「アストラル王国最大の娯楽施設、タトローイ闘技場です。腕に覚えのある荒くれ者が賞金と名声を求めて魔物を相手に1対1の戦いを繰り広げているんですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">冒険者「[color][0x4]アストラル洞窟[color][0x2]の中では、よく宝石が見つかるぜ。場所はそれっぽい所だけどわかるか？わかるよな。[page]
+<sn:pointer id="15" window="0" trigger="talk 27" npc="冒険者">冒険者「[color][0x4]アストラル洞窟[color][0x2]の中では、よく宝石が見つかるぜ。場所はそれっぽい所だけどわかるか？わかるよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">パフィ「・・・。[page]
+<sn:pointer id="16" window="0" trigger="talk 30" npc="パフィ">パフィ「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">パフィ「あなたとは、もうしない[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="17" window="0" trigger="talk 30" npc="パフィ">パフィ「あなたとは、もうしない[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">パフィ「私といいことしない[speed][0xa]？[speed][0x0]一回[color][0x5]600[color][0x2]フォルよ。[page]
+<sn:pointer id="18" choice="yes-no" window="1" trigger="talk 30" npc="パフィ">パフィ「私といいことしない[speed][0xa]？[speed][0x0]一回[color][0x5]600[color][0x2]フォルよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">お金が足りないわよ。[page]
+<sn:pointer id="19" window="0" trigger="talk 30" npc="パフィ">お金が足りないわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="21">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="22">パフィ「それじゃあとりあえず目をつぶって[speed][0x14]♥[speed][0x0]えーと[speed][0xa]・・・[speed][0x0]あなたは今洞窟にいます。道がふたまたに分かれています。どうしますか？[page]
+<sn:pointer id="22" window="1" trigger="talk 30" npc="パフィ">パフィ「それじゃあとりあえず目をつぶって[speed][0x14]♥[speed][0x0]えーと[speed][0xa]・・・[speed][0x0]あなたは今洞窟にいます。道がふたまたに分かれています。どうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">1．右に進もうかな
+<sn:pointer id="23" choice="3" window="1" trigger="talk 30" npc="パフィ">1．右に進もうかな
 2．左に進みたい
 3．なんだそりゃ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="25">パフィ「キャーッ！！罠よ！！
+<sn:pointer id="25" window="1" trigger="talk 30" npc="パフィ">パフィ「キャーッ！！罠よ！！
 落とし穴だわっ！！
 あなた落ちちゃった[speed][0x14]♪[speed][0x0]以上♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">パフィ「残念だけど今回はここで絆わり。ひまだったらまた付き合ってね♪[page]
+<sn:pointer id="26" window="0" trigger="talk 30" npc="パフィ">パフィ「残念だけど今回はここで絆わり。ひまだったらまた付き合ってね♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">パフィ「キャー！！スプラッタに引き裂かれた、私が見たら卒剖ものの死体が転がってるわ！！どうしますか？[page]
+<sn:pointer id="27" window="1" trigger="talk 30" npc="パフィ">パフィ「キャー！！スプラッタに引き裂かれた、私が見たら卒剖ものの死体が転がってるわ！！どうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">1．死体を調べる
+<sn:pointer id="28" choice="3" window="1" trigger="talk 30" npc="パフィ">1．死体を調べる
 2．冥福を析る
 3．かまわず先に進む[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">パフィ「本気[speed][0xf]？[speed][0x0]本当にいいの[speed][0xf]？[speed][0x0]ほんっとーにいい？[page]
+<sn:pointer id="29" window="1" trigger="talk 30" npc="パフィ">パフィ「本気[speed][0xf]？[speed][0x0]本当にいいの[speed][0xf]？[speed][0x0]ほんっとーにいい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1．いいから調べさせろ
+<sn:pointer id="30" choice="3" window="1" trigger="talk 30" npc="パフィ">1．いいから調べさせろ
 2．やっぱり無視して先に進もう
 3．やっぱり冥福を析る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">パフィ「チェッ[speed][0xf]、[speed][0x0]ひっかかんなかったか。[page]
+<sn:pointer id="31" window="1" trigger="talk 30" npc="パフィ">パフィ「チェッ[speed][0xf]、[speed][0x0]ひっかかんなかったか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">パフィ「スプラッタな死体を調べると[speed][0xa]、[speed][0x0]なななーんと！！“[color][0x6]フレアボム[color][0x2]”と“120フォル”出てきましたぁ！！[speed][0x14][speed][0x0]はい、あげる♪[page]
+<sn:pointer id="32" window="1" trigger="talk 30" npc="パフィ">パフィ「スプラッタな死体を調べると[speed][0xa]、[speed][0x0]なななーんと！！“[color][0x6]フレアボム[color][0x2]”と“120フォル”出てきましたぁ！！[speed][0x14][speed][0x0]はい、あげる♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]「え？[page]
+<sn:pointer id="33" window="1" trigger="talk 30" npc="パフィ">[nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[color][0x6]フレアボム[color][0x2]×1をもらいました。[page]
+<sn:pointer id="34" window="1" trigger="talk 30" npc="パフィ">[color][0x6]フレアボム[color][0x2]×1をもらいました。[page]
 [color][0x5]120[color][0x2]フォルをもらいました。[page]
 パフィ「さて、これからどうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">パフィ「スプラッタな死体を調べたけど、なにもなかったわ。[page]
+<sn:pointer id="35" window="1" trigger="talk 30" npc="パフィ">パフィ「スプラッタな死体を調べたけど、なにもなかったわ。[page]
 パフィ「さて、これからどうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">1．先に進む
+<sn:pointer id="36" choice="2" window="1" trigger="talk 30" npc="パフィ">1．先に進む
 2．冥福を析る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">パフィ「んもう！ちょっとくらいいいでしょ？[page]
+<sn:pointer id="37" window="1" trigger="talk 30" npc="パフィ">パフィ「んもう！ちょっとくらいいいでしょ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">パフィ「あなたね〜、仏さんから物盗っといて析るも何もあったもんじゃないでしょ？さっさと先に進むわよ。[page]
+<sn:pointer id="38" window="1" trigger="talk 30" npc="パフィ">パフィ「あなたね〜、仏さんから物盗っといて析るも何もあったもんじゃないでしょ？さっさと先に進むわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[end]</sn:pointer>
+<sn:pointer id="39" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="40">パフィ「あなたってホントの冒険でもそうなの？それとも、ギ[speed][0x5]・[speed][0x0]ゼ[speed][0x5]・[speed][0x0]ン？まあとにかく冥福を析りました。ナームー。それでは先に進みます。[page]
+<sn:pointer id="40" window="1" trigger="talk 30" npc="パフィ">パフィ「あなたってホントの冒険でもそうなの？それとも、ギ[speed][0x5]・[speed][0x0]ゼ[speed][0x5]・[speed][0x0]ン？まあとにかく冥福を析りました。ナームー。それでは先に進みます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="42">パフィ「たーいへんっ！！物陰からキメラが現れたのよ！！レベル1のよわっちぃあなたじゃたぶん[speed][0xa]・・・[speed][0x0]ううん、ぜぇったい勝てないと思うの。
+<sn:pointer id="42" window="1" trigger="talk 30" npc="パフィ">パフィ「たーいへんっ！！物陰からキメラが現れたのよ！！レベル1のよわっちぃあなたじゃたぶん[speed][0xa]・・・[speed][0x0]ううん、ぜぇったい勝てないと思うの。
 さてどうしますか？♪闘う場合は私とじゃんけんよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">1．キメラと闘ってやろうじゃん
+<sn:pointer id="43" choice="3" window="1" trigger="talk 30" npc="パフィ">1．キメラと闘ってやろうじゃん
 2．フレアボムを使う
 3．逃げ惑う[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 30" npc="パフィ">[end]</sn:pointer>
 
-<sn:pointer id="45">パフィ「それはナイス判断だワ。[page]
+<sn:pointer id="45" window="0" trigger="talk 30" npc="パフィ">パフィ「それはナイス判断だワ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">パフィ「あなたが投げた[color][0x6]フレアボム[color][0x2]は見事キメラを撃退しました！！[speed][0x14][speed][0x0]はい。それじゃ[color][0x6]フレアボム[color][0x2]はもらうわよ。[page]
+<sn:pointer id="46" window="1" trigger="talk 30" npc="パフィ">パフィ「あなたが投げた[color][0x6]フレアボム[color][0x2]は見事キメラを撃退しました！！[speed][0x14][speed][0x0]はい。それじゃ[color][0x6]フレアボム[color][0x2]はもらうわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ラティ]「え？[page]
+<sn:pointer id="47" window="1" trigger="talk 30" npc="パフィ">[nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[color][0x6]フレアボム[color][0x2]×1とられました。[page]
+<sn:pointer id="48" window="1" trigger="talk 30" npc="パフィ">[color][0x6]フレアボム[color][0x2]×1とられました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">パフィ「ダメよ、あなた持ってないじゃない。それじゃもう一度やり直すからね？[page]
+<sn:pointer id="49" window="1" trigger="talk 30" npc="パフィ">パフィ「ダメよ、あなた持ってないじゃない。それじゃもう一度やり直すからね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">パフィ「えーと、キメラを剖したあなたには“[color][0x6]メルトポーション[color][0x2]”が手に入りました。[page]
+<sn:pointer id="50" window="1" trigger="talk 30" npc="パフィ">パフィ「えーと、キメラを剖したあなたには“[color][0x6]メルトポーション[color][0x2]”が手に入りました。[page]
 [color][0x6]メルトポーション[color][0x2]×1を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">パフィ「それじゃ、逃げ惑ってみて。[page]
+<sn:pointer id="51" window="1" trigger="talk 30" npc="パフィ">パフィ「それじゃ、逃げ惑ってみて。[page]
 [nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">パフィ「逃げ惑うのよ。バーチャルなんだからそれくらいしないと気分でないわ。[page]
+<sn:pointer id="52" window="0" trigger="talk 30" npc="パフィ">パフィ「逃げ惑うのよ。バーチャルなんだからそれくらいしないと気分でないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]「そ、それじゃ[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="53" window="0" trigger="talk 30" npc="パフィ">[nick:ラティ]「そ、それじゃ[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ラティ]「[speed][0x2]はぁはぁ[speed][0xa]、[speed][0x0]こ[speed][0x5]、[speed][0x0]これでいい？[page]
+<sn:pointer id="54" window="0" trigger="talk 30" npc="パフィ">[nick:ラティ]「[speed][0x2]はぁはぁ[speed][0xa]、[speed][0x0]こ[speed][0x5]、[speed][0x0]これでいい？[page]
 パフィ「まぁまぁね[speed][0xa]。[speed][0x0]うまく敵から逃げられたけど[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">パフィ「たーいへんっ！あなた道に迷っちゃったみたい[speed][0xa]・・・[speed][0x0]ううん[speed][0xa]、[speed][0x0]これは絶対迷ったわ！！[page]
+<sn:pointer id="55" window="1" trigger="talk 30" npc="パフィ">パフィ「たーいへんっ！あなた道に迷っちゃったみたい[speed][0xa]・・・[speed][0x0]ううん[speed][0xa]、[speed][0x0]これは絶対迷ったわ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">パフィ「すっごーい！！闘うのねっ？[speed][0xa]♪[speed][0x0]ドンキホーテって呼んでいい[speed][0xf]？[speed][0x0]それじゃあ私とじゃんけんよ。ＯＫ[speed][0x14]？[speed][0x0]
+<sn:pointer id="56" window="1" trigger="talk 30" npc="パフィ">パフィ「すっごーい！！闘うのねっ？[speed][0xa]♪[speed][0x0]ドンキホーテって呼んでいい[speed][0xf]？[speed][0x0]それじゃあ私とじゃんけんよ。ＯＫ[speed][0x14]？[speed][0x0]
 じゃーんけーん[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">1．グー
+<sn:pointer id="57" choice="3" window="1" trigger="talk 30" npc="パフィ">1．グー
 2．チョキ
 3．パー[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">パフィ「グー！！[page]
+<sn:pointer id="58" window="1" trigger="talk 30" npc="パフィ">パフィ「グー！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">パフィ「チョキ！！[page]
+<sn:pointer id="59" window="1" trigger="talk 30" npc="パフィ">パフィ「チョキ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">パフィ「パー！！[page]
+<sn:pointer id="60" window="1" trigger="talk 30" npc="パフィ">パフィ「パー！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">パフィ「あいこだからもう一回ね。
+<sn:pointer id="61" window="1" trigger="talk 30" npc="パフィ">パフィ「あいこだからもう一回ね。
 じゃーんけーん[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">パフィ「なんと！！あなたの一撃はクリティカルしてキメラを剖してしまいました！！[page]
+<sn:pointer id="62" window="1" trigger="talk 30" npc="パフィ">パフィ「なんと！！あなたの一撃はクリティカルしてキメラを剖してしまいました！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">パフィ「残念ね[speed][0xa]・・・[speed][0x0]。あなたはまず右腕を引きちぎられ、次に左足を、あっ同時に左手もっ！！[page]
+<sn:pointer id="63" window="1" trigger="talk 30" npc="パフィ">パフィ「残念ね[speed][0xa]・・・[speed][0x0]。あなたはまず右腕を引きちぎられ、次に左足を、あっ同時に左手もっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">パフィ「もーダメッ、私にはとてもいえないわ！！[page]
+<sn:pointer id="64" window="1" trigger="talk 30" npc="パフィ">パフィ「もーダメッ、私にはとてもいえないわ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">パフィ「というわけで。[page]
+<sn:pointer id="65" window="1" trigger="talk 30" npc="パフィ">パフィ「というわけで。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">パフィ「さあーって！！あなたはいよいよ魔王ナオスの所までたどり着きました。ナオスが不敵に笑ってこういいました。オロカナムシケラガノコノコオトズレオッテ、ココマデツクルノタイヘンダッタガコレデオワリダ！！
+<sn:pointer id="66" window="1" trigger="talk 30" npc="パフィ">パフィ「さあーって！！あなたはいよいよ魔王ナオスの所までたどり着きました。ナオスが不敵に笑ってこういいました。オロカナムシケラガノコノコオトズレオッテ、ココマデツクルノタイヘンダッタガコレデオワリダ！！
 さて、どうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">1．戦うぜっ！！
+<sn:pointer id="67" choice="3" window="1" trigger="talk 30" npc="パフィ">1．戦うぜっ！！
 2．逃げまどう
 3．道具を使う[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">パフィ「[nick:ラティ]はナオスにきりかかった！！
+<sn:pointer id="68" window="1" trigger="talk 30" npc="パフィ">パフィ「[nick:ラティ]はナオスにきりかかった！！
 しかしダメージをあたえられない！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">パフィ「ナオスはしゃくねつのほのおをはいた！！
+<sn:pointer id="69" window="1" trigger="talk 30" npc="パフィ">パフィ「ナオスはしゃくねつのほのおをはいた！！
 [nick:ラティ]は63000のダメージ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">パフィ「[nick:ラティ]は死んでしまった！！[page]
+<sn:pointer id="70" window="1" trigger="talk 30" npc="パフィ">パフィ「[nick:ラティ]は死んでしまった！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">パフィ「なかなか鋭いわね。で、何を使うの？[page]
+<sn:pointer id="71" window="1" trigger="talk 30" npc="パフィ">パフィ「なかなか鋭いわね。で、何を使うの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">1．ウィルポーション
+<sn:pointer id="72" choice="2" window="1" trigger="talk 30" npc="パフィ">1．ウィルポーション
 2．メガフレアボム[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">パフィ「[nick:ラティ]はウィルポーションをつかった！！
+<sn:pointer id="73" window="1" trigger="talk 30" npc="パフィ">パフィ「[nick:ラティ]はウィルポーションをつかった！！
 こんじょうが30あがった！！[speed][0x14][speed][0x0][page]
 はい♪、それじゃ[color][0x6]ウィルポーション[color][0x2]一つもらうわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ラティ]「え？[page]
+<sn:pointer id="74" window="1" trigger="talk 30" npc="パフィ">[nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[color][0x6]ウィルポーション[color][0x2]×1とられました。[page]
+<sn:pointer id="75" window="1" trigger="talk 30" npc="パフィ">[color][0x6]ウィルポーション[color][0x2]×1とられました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">パフィ「ナオスのこうげき！！
+<sn:pointer id="76" window="1" trigger="talk 30" npc="パフィ">パフィ「ナオスのこうげき！！
 ナオスはしゃくねつのほのうをはいた！！
 [nick:ラティ]は63000のダメージ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">パフィ「[nick:ラティ]はしんでしまった！！[page]
+<sn:pointer id="77" window="1" trigger="talk 30" npc="パフィ">パフィ「[nick:ラティ]はしんでしまった！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
+<sn:pointer id="78" window="1" trigger="talk 30" npc="パフィ">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">パフィ「[nick:ラティ]のこうげき！！
+<sn:pointer id="79" window="1" trigger="talk 30" npc="パフィ">パフィ「[nick:ラティ]のこうげき！！
 [nick:ラティ]は[color][0x6]メガフレアボム[color][0x2]をナオスになげつけた！！きょだいなほのおがまきおこる！！
 ナオスに65000のダメージ！！
 ナオスをたおした！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
+<sn:pointer id="80" window="1" trigger="talk 30" npc="パフィ">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">パフィ「やったね！あなたは経験値100と600フォルそれに[color][0x6]サーベル[color][0x2]を手に入れました。[page]
+<sn:pointer id="81" window="1" trigger="talk 30" npc="パフィ">パフィ「やったね！あなたは経験値100と600フォルそれに[color][0x6]サーベル[color][0x2]を手に入れました。[page]
 経験値100を得ました。
 600フォル手に入れました。
 [color][0x6]サーベル[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">パフィ「なんと！！ナオスは起き上がり、命ごいをしてきました。薬をあげますか？[page]
+<sn:pointer id="82" window="1" trigger="talk 30" npc="パフィ">パフィ「なんと！！ナオスは起き上がり、命ごいをしてきました。薬をあげますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">1．ブルーベリィをあげる
+<sn:pointer id="83" choice="3" window="1" trigger="talk 30" npc="パフィ">1．ブルーベリィをあげる
 2．あげない
 3．バーチャルなんだからおまえが飲め[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">パフィ「ナオスは[color][0x6]ブルーベリィ[color][0x2]を食べると元気になり、逃げて行ってしまいました！！というわけで[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="84" window="1" trigger="talk 30" npc="パフィ">パフィ「ナオスは[color][0x6]ブルーベリィ[color][0x2]を食べると元気になり、逃げて行ってしまいました！！というわけで[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">パフィ「ナオスはそのまま剖れてしまいました。というわけで[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="85" window="1" trigger="talk 30" npc="パフィ">パフィ「ナオスはそのまま剖れてしまいました。というわけで[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">パフィ「え？わたし？[page]
+<sn:pointer id="86" window="0" trigger="talk 30" npc="パフィ">パフィ「え？わたし？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">パフィ「それじゃあ薬ちょうだい。[page]
+<sn:pointer id="87" window="1" trigger="talk 30" npc="パフィ">パフィ「それじゃあ薬ちょうだい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">1．ブルーベリィをわたす
+<sn:pointer id="88" choice="3" window="1" trigger="talk 30" npc="パフィ">1．ブルーベリィをわたす
 2．メルトポーションをわたす
 3．何もわたさない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">パフィ「ナオスは薬を飲むと[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="89" window="0" trigger="talk 30" npc="パフィ">パフィ「ナオスは薬を飲むと[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">パフィ「フグッ！！グホッ！！今の薬なん、なんなのこれ？？[page]
+<sn:pointer id="90" window="0" trigger="talk 30" npc="パフィ">パフィ「フグッ！！グホッ！！今の薬なん、なんなのこれ？？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
+<sn:pointer id="91" window="1" trigger="talk 30" npc="パフィ">パフィ「だめよ、もってないじゃない。それじゃ、もう一度いくからね、いい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">パフィ「ここはどこかしら？あなたはいつのまにか十字路に立っていました。さて、どうしますか？[page]
+<sn:pointer id="92" window="1" trigger="talk 30" npc="パフィ">パフィ「ここはどこかしら？あなたはいつのまにか十字路に立っていました。さて、どうしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">1．前進
+<sn:pointer id="93" choice="4" window="1" trigger="talk 30" npc="パフィ">1．前進
 2．右
 3．左
 4．後ろ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">パフィ「あら？これは何かしら？[page]
+<sn:pointer id="94" window="1" trigger="talk 30" npc="パフィ">パフィ「あら？これは何かしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[color][0x5]1[color][0x2]フォル手に入れました。[page]
+<sn:pointer id="95" window="1" trigger="talk 30" npc="パフィ">[color][0x5]1[color][0x2]フォル手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[color][0x6]スタールビー[color][0x2]を手に入れました。[page]
+<sn:pointer id="96" window="1" trigger="talk 30" npc="パフィ">[color][0x6]スタールビー[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:ティニーク]「格闘はいいっスよね！[page]
+<sn:pointer id="97" window="0" trigger="talk 7">[nick:ティニーク]「格闘はいいっスよね！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[nick:アシュレイ]「なんじゃ？そのバーチャリアン？？？というのは？[page]
+<sn:pointer id="98" window="0" trigger="talk 9 talk 30" npc="パフィ">[nick:アシュレイ]「なんじゃ？そのバーチャリアン？？？というのは？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">パフィ「んもう！バーチャルテーブルトークごっこよ！おじいちゃんにはちょっと難しかったかしら？[page]
+<sn:pointer id="99" window="0" trigger="talk 9 talk 30" npc="パフィ">パフィ「んもう！バーチャルテーブルトークごっこよ！おじいちゃんにはちょっと難しかったかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[nick:アシュレイ]「な[speed][0xa]、[speed][0x0]おじいちゃん？！[page]
+<sn:pointer id="100" window="0" trigger="talk 9 talk 30" npc="パフィ">[nick:アシュレイ]「な[speed][0xa]、[speed][0x0]おじいちゃん？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">[nick:アシュレイ]「えい！かりにもかつて魔界大戦で名を馳せたこのワシをジジィ呼ばわりするか！最近の娘はけしからんっ！[page]
+<sn:pointer id="101" window="0" trigger="talk 9 talk 30" npc="パフィ">[nick:アシュレイ]「えい！かりにもかつて魔界大戦で名を馳せたこのワシをジジィ呼ばわりするか！最近の娘はけしからんっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">パフィ「さ、最近の娘は[speed][0xa]・・・[speed][0x0]それって十分ジジィなんですけど。[page]
+<sn:pointer id="102" window="0" trigger="talk 9 talk 30" npc="パフィ">パフィ「さ、最近の娘は[speed][0xa]・・・[speed][0x0]それって十分ジジィなんですけど。[page]
 [nick:アシュレイ]「く[speed][0xa]・・・[speed][0x0]！☆[page]
 [end][0xff]</sn:pointer>
 

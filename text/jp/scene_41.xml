@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x40][0x0]トロップの港[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x40][0x0]トロップの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">船乗り「あーウニが食いてぇ。ガンゼの方だぞ、ノナじゃねぇ。[page]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="船乗り">船乗り「あーウニが食いてぇ。ガンゼの方だぞ、ノナじゃねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">船乗り「船に乗るのか？[page]
+<sn:pointer id="2" window="0" trigger="talk 17" npc="船乗り">船乗り「船に乗るのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">船乗り「船に乗って大海原を旅したいぜ、ちくしょーっ！！[page]
+<sn:pointer id="3" window="0" trigger="talk 18" npc="船乗り">船乗り「船に乗って大海原を旅したいぜ、ちくしょーっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">船乗り「[color][0x4]ポートミス[color][0x2]行きの臨時便がでてるぜ。ムーア大陸で起こった爆発に興味あったらＧＯだ！[page]
+<sn:pointer id="4" window="0" trigger="talk 19" npc="船乗り">船乗り「[color][0x4]ポートミス[color][0x2]行きの臨時便がでてるぜ。ムーア大陸で起こった爆発に興味あったらＧＯだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]「そういえば、[color][0x4]アストラル[color][0x2]に寄るんじゃなかったかしら？[page]
+<sn:pointer id="5" window="0" trigger="talk 20" npc="船員">[nick:イリア]「そういえば、[color][0x4]アストラル[color][0x2]に寄るんじゃなかったかしら？[page]
 [nick:イリア]「確か、アストラル大陸の中央だったわよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス]「[color][0x4]パージ神殿[color][0x2]に行くんじゃなかったのか？[page]
+<sn:pointer id="6" window="0" trigger="talk 20" npc="船員">[nick:シウス]「[color][0x4]パージ神殿[color][0x2]に行くんじゃなかったのか？[page]
 [nick:シウス]「[color][0x4]パージ神殿[color][0x2]なら[color][0x4]タトローイ[color][0x2]の北西だぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:イリア]「[color][0x4]パージ神殿[color][0x2]に行くんじゃなかったかしら？[page]
+<sn:pointer id="7" window="0" trigger="talk 20" npc="船員">[nick:イリア]「[color][0x4]パージ神殿[color][0x2]に行くんじゃなかったかしら？[page]
 [nick:ラティ]「[color][0x4]パージ神殿[color][0x2]は、確か[color][0x4]タトローイ[color][0x2]の北西だったと思います。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">船員「[color][0x4]ポートミス[color][0x2]行きの臨時便が出てるよ？行くなら料金を払っておくれ。一人60フォルになるよ。[page]
+<sn:pointer id="8" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]ポートミス[color][0x2]行きの臨時便が出てるよ？行くなら料金を払っておくれ。一人60フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">船員「[color][0x4]エクダート[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
+<sn:pointer id="9" choice="yes-no" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]エクダート[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">船員「お金が足りないよ。[page]
+<sn:pointer id="10" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[end]</sn:pointer>
+<sn:pointer id="11" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="13">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
+<sn:pointer id="13" window="1" trigger="talk 20" npc="船員">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1．ポートミス（ムーア王国）
+<sn:pointer id="14" choice="4" window="1" trigger="talk 20" npc="船員">1．ポートミス（ムーア王国）
 2．オタニム（アストラル王国）
 3．エクダート（ヴァン王国）
 4．シルヴァラント[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="16">船員「お金が足りないよ。[page]
+<sn:pointer id="16" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[end][0xff]</sn:pointer>
+<sn:pointer id="17" window="0" trigger="talk 20" npc="船員">[end][0xff]</sn:pointer>
 
 </sn:script>

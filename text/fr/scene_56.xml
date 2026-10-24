@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:フィア][br]
+<sn:pointer id="0" window="1" trigger="start">[nick:フィア][br]
 Désolée... Je vous ai fait courir pour rien avec mes on-dit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">1. T'inquiète pas.[br]
+<sn:pointer id="1" choice="2" window="1" trigger="start">1. T'inquiète pas.[br]
 2. ......[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ラティ][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ラティ][br]
 Tu n'as pas besoin de t'excuser[speed][0xa]...[speed][0x0] Aucune importance si nous n'avons pas l'[color][0x6]Œil de la Vérité[color][0x2]. Nous avons découvert que nos amis vont bien, et c'est tout ce qui compte.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:ラティ][br]
 Ah..... ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ヨシュア][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:ヨシュア][br]
 Ne t'inquiète pas pour moi. J'ai décidé de me ressaisir et de relancer mes recherches sur ma sœur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ヨシュア][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:ヨシュア][br]
 Prends soin de toi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">1. Le retenir[br]
+<sn:pointer id="6" choice="2" window="1" trigger="start">1. Le retenir[br]
 2. Lui dire adieu[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="9">[nick:フィア][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:フィア][br]
 Bon, ben je vais y aller, moi aussi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ][br]
+<sn:pointer id="10" window="1" trigger="start">[nick:ラティ][br]
 Attends !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ][br]
 Pourquoi ne pas venir avec nous ?[page]
 [nick:ヨシュア][br]
 Mais[speed][0xa]...[speed][0x0] J'ai l'impression de n'avoir été qu'un fardeau pour vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">1. Nous avons besoin de toi[br]
+<sn:pointer id="12" choice="2" window="1" trigger="start">1. Nous avons besoin de toi[br]
 2. Bon, ben...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:ラティ][br]
 Nous avons besoin de toi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ヨシュア][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:ヨシュア][br]
 C'est impossible d'ignorer ta demande, débordant de spontanéité et sincérité[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:フィア][br]
 Bon, ben je vais y aller, moi aussi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ヨシュア][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:ヨシュア][br]
 Ah... !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ヨシュア][br]
+<sn:pointer id="18" window="1" trigger="start">[nick:ヨシュア][br]
 Tu vas la laisser partir toute seule ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">1. Je ne peux pas faire ça ![br]
+<sn:pointer id="19" choice="2" window="1" trigger="start">1. Je ne peux pas faire ça ![br]
 2. Je le lui ai promis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ラティ][br]
 Bon[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ][br]
+<sn:pointer id="21" window="0" trigger="start">[nick:ラティ][br]
 Oh, [nick:イリア] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ヨシュア][br]
+<sn:pointer id="22" window="0" trigger="start">[nick:ヨシュア][br]
 Une promesse[speed][0xa]...[speed][0x0] ?! Toute combattante aguerrie qu'elle soit, c'est une femme ![page]
 [nick:ヨシュア][br]
 Je suis désolé, mais je ne peux pas la laisser partir seule. Moi, je sais ce que c'est d'être tout seul[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ][br]
+<sn:pointer id="23" window="0" trigger="start">[nick:ラティ][br]
 Je[speed][0xa]...[speed][0x0] Je pense que je me suis trompé, en fait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ][br]
+<sn:pointer id="24" window="1" trigger="start">[nick:ラティ][br]
 Je pense qu'on devrait aller au royaume de Van, non ?[page]
 [nick:イリア][br]
 [speed][0xa]...[speed][0x0]Oui.[page]
@@ -102,15 +102,15 @@ Je pense qu'on devrait aller au royaume de Van, non ?[page]
 Nous avons perdu beaucoup de temps, mais je ne pense pas que c'était en vain.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1. Je ne pense pas non plus[br]
+<sn:pointer id="25" choice="2" window="1" trigger="start">1. Je ne pense pas non plus[br]
 2. C'était une perte de temps[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ][br]
+<sn:pointer id="26" window="1" trigger="start">[nick:アシュレイ][br]
 Tout à fait. Le temps est une richesse inaltérable[speed][0xa]...[speed][0x0] C'est ce que tu allais dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:アシュレイ][br]
+<sn:pointer id="27" window="1" trigger="start">[nick:アシュレイ][br]
 Toutefois, avec notre force actuelle, plus nous avançons, plus ça va devenir difficile. Même les femmes doivent être armées au royaume de Van, c'est une nécessité absolue. Et encore, ce n'est même pas sûr qu'on puisse survivre. Progresser en s'aguerrissant, c'est aussi une "voie".[page]
 [nick:ラティ][br]
 [speed][0xa]....[speed][0x0][page]
@@ -118,25 +118,25 @@ Toutefois, avec notre force actuelle, plus nous avançons, plus ça va devenir d
 Difficile à imaginer, vu le calme d'ici[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:アシュレイ][br]
+<sn:pointer id="28" window="1" trigger="start">[nick:アシュレイ][br]
 Je comprends ce que tu ressens, cela dit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ][br]
+<sn:pointer id="29" window="1" trigger="start">[nick:アシュレイ][br]
 Par chance, il semblerait que vos camarades aient réussi à gagner le royaume de Van. Maintenant, il nous faut faire vite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:イリア][br]
+<sn:pointer id="30" window="1" trigger="start">[nick:イリア][br]
 C'est vrai.[speed][0x1e][speed][0x0] Alors, si nous sommes prêts...[page]
 [nick:ラティ][br]
 ... Allons vite au royaume de Van ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:イリア][br]
+<sn:pointer id="31" window="0" trigger="start">[nick:イリア][br]
 Oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ][br]
+<sn:pointer id="32" window="1" trigger="start">[nick:ラティ][br]
 Tout ce qu'il nous reste à faire, c'est nous rendre au royaume de Van ?[page]
 [nick:イリア][br]
 [speed][0xa]...[speed][0x0] Oui.[page]
@@ -144,53 +144,53 @@ Tout ce qu'il nous reste à faire, c'est nous rendre au royaume de Van ?[page]
 Mais bon, le temple nous a quand même servi à quelque chose, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1. Oui, tu as raison[br]
+<sn:pointer id="33" choice="2" window="1" trigger="start">1. Oui, tu as raison[br]
 2. Non, je ne pense pas[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:シウス][br]
+<sn:pointer id="34" window="0" trigger="start">[nick:シウス][br]
 [speed][0xa]...[speed][0x0] T'es inquiet à ce point ? Y'a pas d'raison, on sait qu'ils sont en sécurité, là, t'façon.[page]
 [nick:ラティ][br]
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:シウス][br]
+<sn:pointer id="35" window="0" trigger="start">[nick:シウス][br]
 Si t'essaies d'me dire qu'on aurait dû tomber sur eux avant si on n'avait pas perdu not' temps ici, alors... Mmm... Comment on appelle ça déjà... ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:シウス][br]
+<sn:pointer id="36" window="0" trigger="start">[nick:シウス][br]
 Mmmmm[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:シウス][br]
+<sn:pointer id="37" window="0" trigger="start">[nick:シウス][br]
 Ah ouais : facile à dire après coup ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:イリア][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:イリア][br]
 Je pense que tu as raison. On n'aurait pas dû gaspiller notre temps en bavardages. Nous devons partir. Le royaume de Van, c'est ça ? On sait même où ils sont.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ][br]
+<sn:pointer id="39" window="0" trigger="start">[nick:ラティ][br]
 Tu sais, même si on part tout de suite, avec notre puissance actuelle, on ne sera pas capable de tenir dix minutes face à l'armée des démons.[page]
 [nick:シウス][br]
 Il paraît qu'au royaume de Van, leur puissance est démentielle.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:イリア][br]
+<sn:pointer id="40" window="1" trigger="start">[nick:イリア][br]
 Qui ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス][br]
+<sn:pointer id="41" window="0" trigger="start">[nick:シウス][br]
 Les monstres là-bas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:イリア][br]
+<sn:pointer id="42" window="0" trigger="start">[nick:イリア][br]
 Dans ce cas, [nick:ミリー] est vraiment en danger ![page]
 [nick:シウス][br]
 Eh bien oui.[speed][0x1e][speed][0x0] Dans ce cas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:シウス][br]
+<sn:pointer id="43" window="0" trigger="start">[nick:シウス][br]
 Il faut y aller immédiatement ![page]
 [nick:ラティ][br]
 Le royaume de Van[speed][0xa]...[speed][0x0][page]
@@ -198,147 +198,147 @@ Le royaume de Van[speed][0xa]...[speed][0x0][page]
 Ils sont peut-être forts, ça n'empêche pas qu'on va quand même leur botter le cul ! Et ptet que tes amis sont eux aussi devenus super balèzes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ][br]
+<sn:pointer id="44" window="8" trigger="start">[nick:ラティ][br]
 ([nick:ミリー], plus forte que moi ?)[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ][br]
+<sn:pointer id="45" window="1" trigger="start">[nick:ラティ][br]
 C'est pas drôle du tout[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:イリア][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:イリア][br]
 Pourquoi, elle te traite déjà de mauviette ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア][br]
+<sn:pointer id="47" window="0" trigger="start">[nick:イリア][br]
 Qu'est-ce que tu comptes faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ヨシュア][br]
+<sn:pointer id="48" window="0" trigger="start">[nick:ヨシュア][br]
 Continuer de chercher ma sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ヨシュア][br]
+<sn:pointer id="49" window="0" trigger="start">[nick:ヨシュア][br]
 Prenez tous soin de vous[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">1. Le retenir[br]
+<sn:pointer id="50" choice="2" window="1" trigger="start">1. Le retenir[br]
 2. Lui dire adieu[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[end]</sn:pointer>
+<sn:pointer id="51" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ][br]
+<sn:pointer id="52" window="1" trigger="start">[nick:ラティ][br]
 Attends !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ][br]
+<sn:pointer id="53" window="0" trigger="start">[nick:ラティ][br]
 Pourquoi ne pas venir avec nous ?[page]
 [nick:ヨシュア][br]
 Mais[speed][0xa]...[speed][0x0] J'ai l'impression de n'avoir été qu'un fardeau pour vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">1. Nous avons besoin de toi[br]
+<sn:pointer id="54" choice="2" window="1" trigger="start">1. Nous avons besoin de toi[br]
 2. Bon, ben...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ラティ][br]
+<sn:pointer id="55" window="0" trigger="start">[nick:ラティ][br]
 Nous avons besoin de toi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ヨシュア][br]
+<sn:pointer id="56" window="0" trigger="start">[nick:ヨシュア][br]
 C'est impossible d'ignorer ta demande, débordant de spontanéité et sincérité[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[end]</sn:pointer>
+<sn:pointer id="57" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="58">[nick:イリア][br]
+<sn:pointer id="58" window="0" trigger="start">[nick:イリア][br]
 Allons au royaume de Van.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:シウス][br]
+<sn:pointer id="59" window="1" trigger="tile 64">[nick:シウス][br]
 Un passage secret[speed][0xa]...[speed][0x0] S'il est secret, on va pas le trouver, si ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:イリア][br]
+<sn:pointer id="60" window="0" trigger="tile 64">[nick:イリア][br]
 [nick:シウス], arrête de te plaindre, et viens voir par ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">???[br]
+<sn:pointer id="61" window="0" trigger="tile 64">???[br]
 Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vous baisser votre épée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス][br]
+<sn:pointer id="62" window="1" trigger="tile 64">[nick:シウス][br]
 Nom de zeus... Un pluméen[speed][0xa]...[speed][0x0][page]
 ???[br]
 Je me présente, [nick:ヨシュア]. Noble guerrier highlander [nick:シウス], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:イリア][br]
+<sn:pointer id="63" window="1" trigger="tile 64">[nick:イリア][br]
 C'est vrai ?[page]
 [nick:ヨシュア][br]
 Oui. Elle a été fermée par un rocher. Et en ce qui concerne les travaux de force, je ne suis malheureusement d'aucune aide[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:シウス][br]
+<sn:pointer id="64" window="0" trigger="tile 64">[nick:シウス][br]
 D'accord, je m'en charge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:シウス][br]
+<sn:pointer id="65" window="0" trigger="tile 64">[nick:シウス][br]
 ... GGGNnnnnnn !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ヨシュア][br]
+<sn:pointer id="66" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Fantastique ! Vous avez réussi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス][br]
+<sn:pointer id="67" window="1" trigger="tile 64">[nick:シウス][br]
 Attends une minute.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ヨシュア][br]
+<sn:pointer id="68" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Qu'y a-t-il ?[page]
 [nick:シウス][br]
 J'ai jamais entendu parler de pluméen partant à l'aventure. Je pensais que les types comme toi restaient terrés dans leurs montagnes toute leur vie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ヨシュア][br]
+<sn:pointer id="69" window="1" trigger="tile 64">[nick:ヨシュア][br]
 Les Highlanders, ce peuple des hauteurs[speed][0xa]...[speed][0x0] ne sont-ils pas pareils ? Quitter le royaume d'Astral, c'est déchoir, non[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
 Tu essaies de me dire de ne pas mettre mon nez dans les affaires des autres ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">1. Les arrêter[br]
+<sn:pointer id="70" choice="2" window="1" trigger="tile 64">1. Les arrêter[br]
 2. Rester calme et observer[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[end]</sn:pointer>
+<sn:pointer id="71" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ラティ][br]
+<sn:pointer id="72" window="0" trigger="tile 64">[nick:ラティ][br]
 Ça suffit vous deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:イリア][br]
+<sn:pointer id="73" window="0" trigger="tile 64">[nick:イリア][br]
 Ça suffit vous deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ヨシュア][br]
+<sn:pointer id="74" window="1" trigger="tile 64">[nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Je suis navré. Désolé d'avoir fait preuve d'une telle immaturité[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
 [speed][0xa]...[speed][0x0] Mpfff.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス][br]
+<sn:pointer id="75" window="0" trigger="tile 64">[nick:シウス][br]
 Bon[speed][0x14],[speed][0x0] si t'as pas envie d'en parler, c'est ton affaire[speed][0xa]...[speed][0x0] On y va, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:ヨシュア][br]
+<sn:pointer id="76" window="1" trigger="tile 64">[nick:ヨシュア][br]
 Parler de "déchéance" à un highlander aventurier, c'était maladroit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[end]</sn:pointer>
+<sn:pointer id="77" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="78">[nick:イリア][br]
+<sn:pointer id="78" window="0" trigger="tile 64">[nick:イリア][br]
 Il est juste comme ça, ne le prends pas pour toi.[page]
 [nick:ヨシュア][br]
 Hein ?[page]
@@ -350,7 +350,7 @@ Alors, c'est ça ?[page]
 On ne dirait pas qu'il est comme ça, hein ? Quand on l'a rencontré la première fois, ça nous a fait ça aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:イリア][br]
+<sn:pointer id="79" window="1" trigger="tile 64">[nick:イリア][br]
 Mais il doit y avoir quelque chose qui te préoccupe, non ? Sinon, tu n'aurais pas été capable de le mettre autant en colère.[page]
 [nick:ヨシュア][br]
 Juste ce qu'il a dit[speed][0xa]...[speed][0x0] La race de ceux qui peuvent voler[speed][0xa]...[speed][0x0] Un pluméen voyageant de par le monde est très inhabituel, quel que soit le point de vue où l'on se place. Je suis en quelque sorte un excentrique[speed][0xa]...[speed][0x0] C'est pour ça que je ne souhaite lier aucune amitié avec personne. C'est sans doute ce que je fais de mieux[speed][0xa]...[speed][0x0][page]
@@ -358,37 +358,37 @@ Juste ce qu'il a dit[speed][0xa]...[speed][0x0] La race de ceux qui peuvent vole
 Oh, côté secrets, on n'est pas en reste, tu sais ? Raconte. Il y a un vieux dicton qui raconte que toutes les rencontres que l'on fait et toutes les amitiés que l'on noue, sont directement liées aux personnes que l'on a rencontrées dans nos vies passées.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ラティ][br]
+<sn:pointer id="80" window="1" trigger="tile 64">[nick:ラティ][br]
 Qu'est-ce que c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:イリア][br]
+<sn:pointer id="81" window="0" trigger="tile 64">[nick:イリア][br]
 C'est un vieux dicton de la Terre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ヨシュア][br]
+<sn:pointer id="82" window="0" trigger="tile 64">[nick:ヨシュア][br]
 En vérité[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:アシュレイ][br]
+<sn:pointer id="83" window="1" trigger="tile 64">[nick:アシュレイ][br]
 Une entrée secrète[speed][0xa]...[speed][0x0] Je n'en avais jamais entendu parler au sujet de ce temple.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:イリア][br]
+<sn:pointer id="84" window="0" trigger="tile 64">[nick:イリア][br]
 Faisons-lui confiance, [nick:アシュレイ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">???[br]
+<sn:pointer id="85" window="0" trigger="tile 64">???[br]
 Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vous baisser votre épée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:アシュレイ][br]
+<sn:pointer id="86" window="1" trigger="tile 64">[nick:アシュレイ][br]
 Par la barbe de mes ancêtres... Un pluméen[speed][0xa]...[speed][0x0][page]
 ???[br]
 Je me présente, [nick:ヨシュア]. Noble guerrier highlander [nick:アシュレイ], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:イリア][br]
+<sn:pointer id="87" window="0" trigger="tile 64">[nick:イリア][br]
 C'est vrai ?[page]
 [nick:ヨシュア][br]
 Oui. Elle a été fermée par un rocher. Et en ce qui concerne les travaux de force, je ne suis malheureusement d'aucune aide[speed][0xa]...[speed][0x0][page]
@@ -396,7 +396,7 @@ Oui. Elle a été fermée par un rocher. Et en ce qui concerne les travaux de fo
 Parfait, montrez-nous le chemin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:アシュレイ][br]
+<sn:pointer id="88" window="0" trigger="tile 64">[nick:アシュレイ][br]
 Ça risque d'être difficile pour un vieillard comme moi.[page]
 [nick:ヨシュア][br]
 Pensez-vous pouvoir le faire ?[page]
@@ -404,19 +404,19 @@ Pensez-vous pouvoir le faire ?[page]
 Observe[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:アシュレイ][br]
+<sn:pointer id="89" window="0" trigger="tile 64">[nick:アシュレイ][br]
 GGGnnnnnnn.....[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:ヨシュア][br]
+<sn:pointer id="90" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Incroyable ! C'est ouvert ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:ヨシュア][br]
+<sn:pointer id="91" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Veuillez me pardonner, je vais partir devant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:イリア][br]
+<sn:pointer id="92" window="0" trigger="tile 64">[nick:イリア][br]
 Il est parti.[page]
 [nick:ラティ][br]
 Ouais.[page]
@@ -424,58 +424,58 @@ Ouais.[page]
 Le sorcier pluméen[speed][0xa]...[speed][0x0] S'en sortira-t-il, tout seul[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:イリア][br]
+<sn:pointer id="93" window="1" trigger="tile 64">[nick:イリア][br]
 C'est le temple de Parj ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:フィア][br]
+<sn:pointer id="94" window="0" trigger="tile 64">[nick:フィア][br]
 Oui. Il doit y avoir une entrée secrète quelque part[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">???[br]
+<sn:pointer id="95" window="0" trigger="tile 64">???[br]
 Navré de vous avoir effrayés. Je n'ai aucune mauvaise intention... Pourriez-vous baisser votre épée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:フィア][br]
+<sn:pointer id="96" window="1" trigger="tile 64">[nick:フィア][br]
 Hein[speed][0xa]...[speed][0x0] ?
 Un pluméen ?![page]
 ???[br]
 Je me présente, [nick:ヨシュア]. Noble guerrière highlander [nick:フィア], me viendriez-vous en aide ? Je viens de découvrir quelque chose qui semble être une entrée cachée sur la falaise.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:イリア][br]
+<sn:pointer id="97" window="1" trigger="tile 64">[nick:イリア][br]
 C'est vrai ?[page]
 [nick:ヨシュア][br]
 Oui. Elle a été fermée par un rocher. Et en ce qui concerne les travaux de force, je ne suis malheureusement d'aucune aide[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[nick:フィア][br]
+<sn:pointer id="98" choice="yes-no" window="1" trigger="tile 64">[nick:フィア][br]
 Je ne pense pas y arriver toute seule. Peux-tu m'aider, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">[nick:イリア][br]
+<sn:pointer id="99" window="0" trigger="tile 64">[nick:イリア][br]
 Qu'est-ce que tu attends ? Va l'aider ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[end]</sn:pointer>
+<sn:pointer id="100" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="101">[nick:フィア][br]
+<sn:pointer id="101" window="1" trigger="tile 64">[nick:フィア][br]
 Prêt, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">[nick:ラティ][br]
+<sn:pointer id="102" window="0" trigger="tile 64">[nick:ラティ][br]
 Prêt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">[nick:ヨシュア][br]
+<sn:pointer id="103" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Oui ! C'est ouvert ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="104">[nick:フィア][br]
+<sn:pointer id="104" window="1" trigger="tile 64">[nick:フィア][br]
 Attends une minute ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">[nick:ヨシュア][br]
+<sn:pointer id="105" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Qu'y a-t-il ?[page]
 [nick:フィア][br]
 Nous sommes à la recherche de l'[color][0x6]Œil de la Vérité[color][0x2]. Nous préfèrerions que vous ne partiez pas devant.[page]
@@ -490,41 +490,41 @@ Mais, POURQUOI en avez-vous besoin ? J'espère que vous êtes conscient que nous
 Vous avez le sang chaud[speed][0xa]...[speed][0x0] Mais je n'ai rien de plus à vous dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">1. Les arrêter[br]
+<sn:pointer id="106" choice="2" window="1" trigger="tile 64">1. Les arrêter[br]
 2. Rester calme et observer[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[end]</sn:pointer>
+<sn:pointer id="107" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="108">[nick:ラティ][br]
+<sn:pointer id="108" window="0" trigger="tile 64">[nick:ラティ][br]
 Ça suffit vous deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:ラティ][br]
+<sn:pointer id="109" window="0" trigger="tile 64">[nick:ラティ][br]
 [nick:ヨシュア][speed][0xa]...[speed][0x0] Voulez-vous vous servir de l'[color][0x6]Œil de la Vérité[color][0x2] ou quel que soit le nom que vous lui donnez, pour retrouver quelqu'un ? Si seulement nous savions où sont nos amis, nous n'en aurions pas besoin[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">[nick:ヨシュア][br]
+<sn:pointer id="110" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Ainsi, nous avons le même objectif[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">[nick:フィア][br]
+<sn:pointer id="111" window="1" trigger="tile 64">[nick:フィア][br]
 Pardonnez mes mauvaises manières.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[nick:フィア][br]
+<sn:pointer id="112" window="1" trigger="tile 64">[nick:フィア][br]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">[nick:ヨシュア][br]
+<sn:pointer id="113" window="1" trigger="tile 64">[nick:ヨシュア][br]
 Non, c'était ma faute[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">[nick:ラティ][br]
+<sn:pointer id="114" window="0" trigger="tile 64">[nick:ラティ][br]
 Parfait, dans ce cas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">[nick:イリア][br]
+<sn:pointer id="115" window="0" trigger="tile 64">[nick:イリア][br]
 Je ne poserai pas de questions indiscrètes. Alors, pourquoi ne pas vous joindre à nous ?[page]
 [nick:ヨシュア][br]
 Je ne serai rien d'autre qu'un fardeau pour vous, mais j'accepte[speed][0xa]...[speed][0x0][page]
@@ -532,7 +532,7 @@ Je ne serai rien d'autre qu'un fardeau pour vous, mais j'accepte[speed][0xa]...[
 Parfait, allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116">[nick:フィア][br]
+<sn:pointer id="116" window="0" trigger="tile 64">[nick:フィア][br]
 Ce n'est pas ainsi que les sorciers pluméens s'expriment ?[page]
 [nick:ラティ][br]
 Hein ?[page]
@@ -540,27 +540,27 @@ Hein ?[page]
 Si tu les sous-estimes, tu t'en mordras les doigts.[speed][0x23][speed][0x0] En d'autres termes, nous venons d'accueillir parmi nous un allié indispensable et extrêmement puissant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="117">[end]</sn:pointer>
+<sn:pointer id="117" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="118">[nick:ヨシュア][br]
+<sn:pointer id="118" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Je n'ai aucune mauvaise intention.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">[nick:ヨシュア][br]
+<sn:pointer id="119" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Si seulement je savais où ma sœur se trouve[speed][0xa]...[speed][0x1e][speed][0x0] Si je savais au moins si elle était en vie...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="120">[nick:ヨシュア][br]
+<sn:pointer id="120" window="0" trigger="tile 64">[nick:ヨシュア][br]
 J'en aurais au moins le cœur net[speed][0xa]...[speed][0x0] Je n'ai aucun intérêt pour les babioles antiques.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="121">[nick:ヨシュア][br]
+<sn:pointer id="121" window="0" trigger="tile 64">[nick:ヨシュア][br]
 Me permettez-vous de me joindre à vous ? Je pensais justement à quel point ma solitude me pesait. Mais avec de telles personnes à mes côtés[speed][0xa]...[speed][0x0][page]
 [nick:フィア][br]
 Oui, bien sûr.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="122">[nick:フィア][br]
+<sn:pointer id="122" window="0" trigger="tile 64">[nick:フィア][br]
 Ça ne vous dérange pas ?[page]
 [end]</sn:pointer>
 

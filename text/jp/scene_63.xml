@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">兵士「何か身分を証明するものはあるか？[page]
+<sn:pointer id="0" window="1" trigger="tile 20">兵士「何か身分を証明するものはあるか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[end]</sn:pointer>
+<sn:pointer id="1" window="0" trigger="tile 20">[end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ロニキス]「このエンブレムじゃだめか？[page]
+<sn:pointer id="2" window="0" trigger="tile 20">[nick:ロニキス]「このエンブレムじゃだめか？[page]
 兵士「これはヴァン王国の[speed][0xa]・・・[speed][0x0]よし、いいだろう。通っていいぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">兵士「無いなら通ることはできん！戻れ。[page]
+<sn:pointer id="3" window="0" trigger="tile 20">兵士「無いなら通ることはできん！戻れ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">兵士「通ってよし！[page]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">兵士「通ってよし！[page]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス]「[nick:ラティ]、金貸してくんねぇか？[page]
+<sn:pointer id="6" window="1" trigger="tile 126">[nick:シウス]「[nick:ラティ]、金貸してくんねぇか？[page]
 [nick:ラティ]「え？[page]
 [nick:シウス]「たまには買物でもしてみようと思ってな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1．1000フォル貸す
+<sn:pointer id="7" choice="2" window="1" trigger="tile 126">1．1000フォル貸す
 2．貸さない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:シウス]「サンキュー！[page]
+<sn:pointer id="8" window="0" trigger="tile 126">[nick:シウス]「サンキュー！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]「ちっ、ケチケチすんなよなあ。[page]
+<sn:pointer id="9" window="0" trigger="tile 126">[nick:シウス]「ちっ、ケチケチすんなよなあ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア]「まずは一緒に町を見て回りましょう。[page]
+<sn:pointer id="10" window="0" trigger="tile 126">[nick:イリア]「まずは一緒に町を見て回りましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:シウス]「休むのは後にしようぜ。[page]
+<sn:pointer id="11" window="0" trigger="tile 126">[nick:シウス]「休むのは後にしようぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア]「いきなり休むのか？[page]
+<sn:pointer id="12" window="0" trigger="tile 126">[nick:フィア]「いきなり休むのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:アシュレイ]「一服するのは後まわしじゃろう。[page]
+<sn:pointer id="13" window="0" trigger="tile 126">[nick:アシュレイ]「一服するのは後まわしじゃろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー]「まずはみんなで行動しようよ。[page]
+<sn:pointer id="14" window="0" trigger="tile 126">[nick:ミリー]「まずはみんなで行動しようよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ロニキス]「休憩するのは用事をすませてからにしないか？[page]
+<sn:pointer id="15" window="0" trigger="tile 126">[nick:ロニキス]「休憩するのは用事をすませてからにしないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「休憩してる暇があったらすぐにでも魔界に行った方がいいんじゃない？[page]
+<sn:pointer id="16" window="0" trigger="tile 126">[nick:イリア]「休憩してる暇があったらすぐにでも魔界に行った方がいいんじゃない？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「街を巡っているだけで本当にみんなと合流できるのかしら[speed][0xa]・・・？[speed][0x0][page]
+<sn:pointer id="17" window="0" trigger="tile 126">[nick:イリア]「街を巡っているだけで本当にみんなと合流できるのかしら[speed][0xa]・・・？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「休憩でもしていく？[page]
+<sn:pointer id="18" window="0" trigger="tile 126">[nick:イリア]「休憩でもしていく？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス]「本来の目的を忘れるんじゃないぞ。私達が今すべきことは魔界に行くことだからな。[page]
+<sn:pointer id="19" window="0" trigger="tile 126">[nick:ロニキス]「本来の目的を忘れるんじゃないぞ。私達が今すべきことは魔界に行くことだからな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス]「[nick:ラティ]はどうするんだ？　私はブラブラしてるとするよ。[page]
+<sn:pointer id="20" window="0" trigger="tile 126">[nick:ロニキス]「[nick:ラティ]はどうするんだ？　私はブラブラしてるとするよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ミリー]「[nick:ドーン]を助けるためにも、早く魔界に行こうよ。[page]
+<sn:pointer id="21" window="0" trigger="tile 126">[nick:ミリー]「[nick:ドーン]を助けるためにも、早く魔界に行こうよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ミリー]「少し休んでいこうか。[page]
+<sn:pointer id="22" window="0" trigger="tile 126">[nick:ミリー]「少し休んでいこうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス]「アスモデウスを退治しにいくんだろ？こんな所で遊んでていいのか？[page]
+<sn:pointer id="23" window="0" trigger="tile 126">[nick:シウス]「アスモデウスを退治しにいくんだろ？こんな所で遊んでていいのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:シウス]「先に行ってるぜ。[page]
+<sn:pointer id="24" window="0" trigger="tile 126">[nick:シウス]「先に行ってるぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ]「今はゆっくりしておる時ではないと思うがの。[page]
+<sn:pointer id="25" window="0" trigger="tile 126">[nick:アシュレイ]「今はゆっくりしておる時ではないと思うがの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ]「ゆっくりしているヒマは無いと思うがの。[page]
+<sn:pointer id="26" window="0" trigger="tile 126">[nick:アシュレイ]「ゆっくりしているヒマは無いと思うがの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:フィア]「魔界には行かないのか？[page]
+<sn:pointer id="27" window="0" trigger="tile 126">[nick:フィア]「魔界には行かないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:フィア]「[speed][0xa]・・・[speed][0x0]ゆっくりしてていいのか？[page]
+<sn:pointer id="28" window="0" trigger="tile 126">[nick:フィア]「[speed][0xa]・・・[speed][0x0]ゆっくりしてていいのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ヨシュア]「少し休んで行きましょう。[page]
+<sn:pointer id="29" window="0" trigger="tile 126">[nick:ヨシュア]「少し休んで行きましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:マーヴェル]「町によって行くんですね。[page]
+<sn:pointer id="30" window="0" trigger="tile 126">[nick:マーヴェル]「町によって行くんですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:シウス]「金ありがとよ。これはみやげだ。[page]
+<sn:pointer id="31" window="0" trigger="tile 22">[nick:シウス]「金ありがとよ。これはみやげだ。[page]
 [color][0x6][item][0x22][0x15][color][0x2]を手に入れました。
 [color][0x6][item][0xff][0x14][color][0x2]を手に入れました。
 [color][0x6][item][0x3][0x15][color][0x2]を手に入れました。
@@ -106,65 +106,65 @@
 [color][0x6][item][0x33][0x15][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ]「これって、とても[color][0x5]1000[color][0x2]フォルで買えるような物じゃないんですけど[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="32" window="0" trigger="tile 22">[nick:ラティ]「これって、とても[color][0x5]1000[color][0x2]フォルで買えるような物じゃないんですけど[speed][0xa]・・・。[speed][0x0][page]
 [nick:シウス]「細かいことは気にすんなって。はっはっは！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:イリア]「それじゃあ行きましょ。[page]
+<sn:pointer id="33" window="0" trigger="tile 22">[nick:イリア]「それじゃあ行きましょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア]「[nick:ラティ]は休憩になった？そろそろ[color][0x4]パージ神殿[color][0x2]に行きましょう。[page]
+<sn:pointer id="34" window="0" trigger="tile 22">[nick:イリア]「[nick:ラティ]は休憩になった？そろそろ[color][0x4]パージ神殿[color][0x2]に行きましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア]「それじゃあ先に進みましょ。[page]
+<sn:pointer id="35" window="0" trigger="tile 22">[nick:イリア]「それじゃあ先に進みましょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ロニキス]「さてと。休憩するのはこれくらいにして、各国の王に謁見してこようか。[page]
+<sn:pointer id="36" window="0" trigger="tile 22">[nick:ロニキス]「さてと。休憩するのはこれくらいにして、各国の王に謁見してこようか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ロニキス]「休むのはこれくらいにしておこう。[page]
+<sn:pointer id="37" window="0" trigger="tile 22">[nick:ロニキス]「休むのはこれくらいにしておこう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ミリー]「神殿ってたしか[color][0x4]タトローイ[color][0x2]の西だっけ？[page]
+<sn:pointer id="38" window="0" trigger="tile 22">[nick:ミリー]「神殿ってたしか[color][0x4]タトローイ[color][0x2]の西だっけ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:シウス]「さっさと魔界に行こうぜ。[page]
+<sn:pointer id="39" window="0" trigger="tile 22">[nick:シウス]「さっさと魔界に行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス]「[color][0x4]パージ神殿[color][0x2]にいかなきゃならねぇんだろ？だったらさっさと行こうぜ。[page]
+<sn:pointer id="40" window="0" trigger="tile 22">[nick:シウス]「[color][0x4]パージ神殿[color][0x2]にいかなきゃならねぇんだろ？だったらさっさと行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス]「俺はなんかフラフラしてるより闘ってた方が性にあうぜ。[page]
+<sn:pointer id="41" window="0" trigger="tile 22">[nick:シウス]「俺はなんかフラフラしてるより闘ってた方が性にあうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:アシュレイ]「国王から[color][0x6]真実の瞳[color][0x2]についての情報を得にいかんか？[page]
+<sn:pointer id="42" window="0" trigger="tile 22">[nick:アシュレイ]「国王から[color][0x6]真実の瞳[color][0x2]についての情報を得にいかんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:フィア]「[color][0x4]パージ神殿[color][0x2]の場所は覚えているか？[page]
+<sn:pointer id="43" window="0" trigger="tile 22">[nick:フィア]「[color][0x4]パージ神殿[color][0x2]の場所は覚えているか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア]「そろそろ先に行こうか。[page]
+<sn:pointer id="44" window="0" trigger="tile 22">[nick:フィア]「そろそろ先に行こうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ヨシュア]「魔界には行かないんですか？[color][0x4]シルヴァラント[color][0x2]からでしたよね。[page]
+<sn:pointer id="45" window="0" trigger="tile 22">[nick:ヨシュア]「魔界には行かないんですか？[color][0x4]シルヴァラント[color][0x2]からでしたよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ヨシュア]「[color][0x6]真実の瞳[color][0x2]を手に入れるためにも、早く謁見を済ませてしまいませんか？[page]
+<sn:pointer id="46" window="0" trigger="tile 22">[nick:ヨシュア]「[color][0x6]真実の瞳[color][0x2]を手に入れるためにも、早く謁見を済ませてしまいませんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ヨシュア]「たまにはこういうのもいいですね。[page]
+<sn:pointer id="47" window="0" trigger="tile 22">[nick:ヨシュア]「たまにはこういうのもいいですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">何も書いてない[page]
+<sn:pointer id="48" window="0" trigger="talk 18">何も書いてない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">西：ヴァン城下町[page]
+<sn:pointer id="49" window="0" trigger="talk 18">西：ヴァン城下町[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">もえちゃんげんき？[page]
+<sn:pointer id="50" window="0" trigger="talk 19">もえちゃんげんき？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">束：ドゥルス[page]
+<sn:pointer id="51" window="0" trigger="talk 19">束：ドゥルス[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

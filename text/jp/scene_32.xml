@@ -1,274 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x58][0x0]民家[page]
+<sn:pointer id="1" window="0 speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x58][0x0]民家[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x37][0x0]ライアスの屋敷[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x37][0x0]ライアスの屋敷[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x58][0x0]廊下[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x58][0x0]廊下[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x58][0x0]寝室[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x58][0x0]寝室[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x58][0x0]客間[page]
+<sn:pointer id="7" window="speaker" trigger="start">[pos][0x58][0x0]客間[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="8" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x58][0x0]書斎[page]
+<sn:pointer id="9" window="speaker" trigger="start">[pos][0x58][0x0]書斎[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="10" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">主人「あんたら知ってるかい？[page]
+<sn:pointer id="11" window="0" trigger="tile 31">主人「あんたら知ってるかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">主人「騎士団長ライアス様が殺されたらしいよ。犯人は娘の[nick:フィア]様だっていうじゃないか！わからないもんだよ。[page]
+<sn:pointer id="12" window="0" trigger="tile 31">主人「騎士団長ライアス様が殺されたらしいよ。犯人は娘の[nick:フィア]様だっていうじゃないか！わからないもんだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">寝ますか？[page]
+<sn:pointer id="13" choice="yes-no" window="0" trigger="tile 32">寝ますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:アシュレイ]「[color][0x4]アストラル[color][0x2]の町並みでも見てくるがいい。他の王国とは違い一応城の中にも入ることが出来るぞ。[page]
+<sn:pointer id="14" window="0" trigger="talk 9">[nick:アシュレイ]「[color][0x4]アストラル[color][0x2]の町並みでも見てくるがいい。他の王国とは違い一応城の中にも入ることが出来るぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:フィア]「義父もなんとか一命をとりとめることが出来ました。ありがとうございます。[page]
+<sn:pointer id="15" window="0" trigger="talk 11">[nick:フィア]「義父もなんとか一命をとりとめることが出来ました。ありがとうございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">ライアス「ゆっくりしていってくれ。[page]
+<sn:pointer id="16" window="0" trigger="talk 25" npc="ライアス">ライアス「ゆっくりしていってくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">ライアス「なんだね君たちは勝手に入って来て失礼だとは思わないのかね。[page]
+<sn:pointer id="17" window="0" trigger="talk 25" npc="ライアス">ライアス「なんだね君たちは勝手に入って来て失礼だとは思わないのかね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="18" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[mode8][0x20]1技術関連スキルＬＶ3　　5000
+<sn:pointer id="19" choice="4" window="1" trigger="talk 16" npc="ギルドマスター">[mode8][0x20]1技術関連スキルＬＶ3　　5000
 2戦闘関連スキルＬＶ1　　1000
 3戦闘関連スキルＬＶ2　　2000
 4戦闘関連スキルＬＶ3　20000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[mode8][0x0][end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="21">[mode8][0x0]ギルドマスター
+<sn:pointer id="21" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[mode8][0x0]ギルドマスター
+<sn:pointer id="22" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[mode8][0x0]ギルドマスター
+<sn:pointer id="23" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">アドバイザー「あなたは流派スキルのスキルレベルは上げてますか？[page]
+<sn:pointer id="24" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「あなたは流派スキルのスキルレベルは上げてますか？[page]
 アドバイザー「流派スキルのレベルを上げると必殺技のＭＰ消賃量が減るんです。[page]
 アドバイザー「それにまだ秘密があるんですが、それは秘密です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="25" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">1．技術関連スキルＬＶ3
+<sn:pointer id="26" choice="4" window="1" trigger="talk 18" npc="説明員">1．技術関連スキルＬＶ3
 2．戦闘関連スキルＬＶ1
 3．戦闘関連スキルＬＶ2
 4．戦闘関連スキルＬＶ3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">説明員「技術関連スキルＬＶ3の内訳は、
+<sn:pointer id="27" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ3の内訳は、
 科学技術と
 演奏と
 キャストよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">説明員「戦闘関連スキルＬＶ1の内訳は、
+<sn:pointer id="28" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ1の内訳は、
 衝撃波と
 真空波と
 めくりよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">説明員「戦闘関連スキルＬＶ2の内訳は、
+<sn:pointer id="29" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ2の内訳は、
 反撃と
 フェイントと
 練気よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">説明員「戦闘関連スキルＬＶ3の内訳は、
+<sn:pointer id="30" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ3の内訳は、
 オリジナルコンボと
 はやくちよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="32">お母さん「もうちょっとよ！ガマンしなさい。[page]
+<sn:pointer id="32" window="0" trigger="talk 19" npc="お母さん">お母さん「もうちょっとよ！ガマンしなさい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">男の子「お腹すいたよー！[page]
+<sn:pointer id="33" window="0" trigger="talk 20" npc="男の子">男の子「お腹すいたよー！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">女の子「男は我慢しなさいよ！お母さんお腹すいたよぉ！[page]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="女の子">女の子「男は我慢しなさいよ！お母さんお腹すいたよぉ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">博学のロイド「フェザーフォルクって知ってるかい？鳥のような翼を持った、天使みたいな種族のことさ。美男美女揃いなんだってさ。[page]
+<sn:pointer id="35" window="0" trigger="talk 22" npc="博学のロイド">博学のロイド「フェザーフォルクって知ってるかい？鳥のような翼を持った、天使みたいな種族のことさ。美男美女揃いなんだってさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">紋章法術師「私は現在“獣人化現象”について研究中なのだ。リカントロープと呼ばれる種族が極希に存在するのだが彼らは何と人の姿から狼に変身するのだ。なぜだろう？[page]
+<sn:pointer id="36" window="0" trigger="talk 23" npc="紋章法術師">紋章法術師「私は現在“獣人化現象”について研究中なのだ。リカントロープと呼ばれる種族が極希に存在するのだが彼らは何と人の姿から狼に変身するのだ。なぜだろう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">宿屋の主人「よく眠れたかい？[page]
+<sn:pointer id="37" window="0" trigger="talk 24" npc="宿屋の主人">宿屋の主人「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
+<sn:pointer id="38" window="1" trigger="talk 24" npc="宿屋の主人">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">泊まりますか？[page]
+<sn:pointer id="39" choice="yes-no" window="1" trigger="talk 24" npc="宿屋の主人">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[end]</sn:pointer>
+<sn:pointer id="40" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="41">お金が足りません。[page]
+<sn:pointer id="41" window="0" trigger="talk 24" npc="宿屋の主人">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:イリア]「せっかくライアスさんのことにお世話になってるのに泊まる必要ないでしょ。[page]
+<sn:pointer id="42" window="0" trigger="talk 24" npc="宿屋の主人">[nick:イリア]「せっかくライアスさんのことにお世話になってるのに泊まる必要ないでしょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[end]</sn:pointer>
+<sn:pointer id="43" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="45">殺気の漂う戦士「俺の背後に立つな[speed][0xa]・・・。[speed][0x0]この右腕は自分でも止められないのでな。[page]
+<sn:pointer id="45" window="0" trigger="talk 26" npc="殺気の漂う戦士">殺気の漂う戦士「俺の背後に立つな[speed][0xa]・・・。[speed][0x0]この右腕は自分でも止められないのでな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">剣士「魔界大戦の三大功労者の一人といえばまず最初にあがるのがライアス様だ！[page]
+<sn:pointer id="46" window="0" trigger="talk 27" npc="剣士">剣士「魔界大戦の三大功労者の一人といえばまず最初にあがるのがライアス様だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">マスター「知ってるかい？[nick:フィア]様が育ての親であるライアス様をザックリやっちまったらしい。人間てわかんねぇもんだよな。[page]
+<sn:pointer id="47" window="0" trigger="talk 28" npc="マスター">マスター「知ってるかい？[nick:フィア]様が育ての親であるライアス様をザックリやっちまったらしい。人間てわかんねぇもんだよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">魔物が人に化けて町の中に入ってくるなんて、安心してられねぇ話だよな。[page]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="マスター">魔物が人に化けて町の中に入ってくるなんて、安心してられねぇ話だよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">マスター「いらっしゃい。[page]
+<sn:pointer id="49" window="0" trigger="talk 28" npc="マスター">マスター「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:フィア]「ウォーレン様！！お客様が見えましたよ！！[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:フィア]「ウォーレン様！！お客様が見えましたよ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">？？？「家ではそう呼ぶなと言っとるだろうが[speed][0xa]、[speed][0x0]まったく[speed][0x14]。[speed][0x0]すぐ行く！[page]
+<sn:pointer id="51" window="0" trigger="start">？？？「家ではそう呼ぶなと言っとるだろうが[speed][0xa]、[speed][0x0]まったく[speed][0x14]。[speed][0x0]すぐ行く！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:フィア]「義父様。お客様はこちらですよ。[page]
+<sn:pointer id="52" window="0" trigger="start">[nick:フィア]「義父様。お客様はこちらですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">ライアス「[speed][0x1][nick:アシュレイ]？[speed][0x1e][speed][0x0][speed][0x1][nick:アシュレイ]か！[speed][0x0][page]
+<sn:pointer id="53" window="0" trigger="start">ライアス「[speed][0x1][nick:アシュレイ]？[speed][0x1e][speed][0x0][speed][0x1][nick:アシュレイ]か！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">ライアス「久しぶりだな。[page]
+<sn:pointer id="54" window="0" trigger="start">ライアス「久しぶりだな。[page]
 [nick:アシュレイ]「元気そうでなによりだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:アシュレイ]「小僧は？[page]
+<sn:pointer id="55" window="0" trigger="start">[nick:アシュレイ]「小僧は？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:アシュレイ]「[nick:シウス]は城にいるのか？[page]
+<sn:pointer id="56" window="0" trigger="start">[nick:アシュレイ]「[nick:シウス]は城にいるのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">ライアス「うむ[speed][0xa]、[speed][0x0]その話は後でな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="57" window="0" trigger="start">ライアス「うむ[speed][0xa]、[speed][0x0]その話は後でな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">ライアス「ところで、そこの方たちは？[page]
+<sn:pointer id="58" window="0" trigger="start">ライアス「ところで、そこの方たちは？[page]
 [nick:アシュレイ]「旅先で知り合ってな。[page]
 ライアス「そうか。[nick:アシュレイ]の知り合いであれば私にとっても大事な客人だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">ライアス「よく来てくれた。[color][0x4]アストラル[color][0x2]にいる間は粗末な所だが、この家でゆっくりしていってくれ。[page]
+<sn:pointer id="59" window="0" trigger="start">ライアス「よく来てくれた。[color][0x4]アストラル[color][0x2]にいる間は粗末な所だが、この家でゆっくりしていってくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ラティ]「粗末な所[speed][0x14]、[speed][0x0]ね。[page]
+<sn:pointer id="60" window="1" trigger="start">[nick:ラティ]「粗末な所[speed][0x14]、[speed][0x0]ね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:イリア]「地球じゃアンティークはちょっとしたブームだから、こんな所に住もうと思ったら提督クラスじゃないとムリよ。[page]
+<sn:pointer id="61" window="0" trigger="start">[nick:イリア]「地球じゃアンティークはちょっとしたブームだから、こんな所に住もうと思ったら提督クラスじゃないとムリよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:イリア]「ま[speed][0x14]、[speed][0x0]せっかくだから甘えさせてもらいましょ。[page]
+<sn:pointer id="62" window="1" trigger="start">[nick:イリア]「ま[speed][0x14]、[speed][0x0]せっかくだから甘えさせてもらいましょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:ラティ]「ええ。[page]
+<sn:pointer id="63" window="0" trigger="start">[nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:イリア]「で[speed][0x14]、[speed][0x0]これからどうする？艦長や[nick:ミリー]のことも捜さないといけないし[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="64" window="1" trigger="start">[nick:イリア]「で[speed][0x14]、[speed][0x0]これからどうする？艦長や[nick:ミリー]のことも捜さないといけないし[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">1．町中を散策してみよう
+<sn:pointer id="65" choice="2" window="1" trigger="start">1．町中を散策してみよう
 2．今日はもう休む[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
+<sn:pointer id="66" window="0" trigger="start">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[end]</sn:pointer>
+<sn:pointer id="67" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="68">[nick:アシュレイ]「吸うようになったのか？[page]
+<sn:pointer id="68" window="1" trigger="start">[nick:アシュレイ]「吸うようになったのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">ライアス「ん？ああ。[speed][0xa]・・・・[speed][0x0]息子が出て行ってからな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="69" window="1" trigger="start">ライアス「ん？ああ。[speed][0xa]・・・・[speed][0x0]息子が出て行ってからな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:アシュレイ]「[nick:シウス]か[speed][0xa]・・・[speed][0x0]。[speed][0x14][speed][0x0]一体何があったんじゃ？[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:アシュレイ]「[nick:シウス]か[speed][0xa]・・・[speed][0x0]。[speed][0x14][speed][0x0]一体何があったんじゃ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">ライアス「ちょうど息子が騎士団に入った頃、第1騎士団の隊長補佐職に空きが出てな。[page]
+<sn:pointer id="71" window="0" trigger="start">ライアス「ちょうど息子が騎士団に入った頃、第1騎士団の隊長補佐職に空きが出てな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">ライアス「実力的に適任者がどうしても見つからなくて、[nick:シウス]を推したんだが、やはり周囲の反発がきつくてな。それが結果的にあ奴を辛い目にあわせる原因にもなってしまって[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="72" window="0" trigger="start">ライアス「実力的に適任者がどうしても見つからなくて、[nick:シウス]を推したんだが、やはり周囲の反発がきつくてな。それが結果的にあ奴を辛い目にあわせる原因にもなってしまって[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">ライアス「ワシは決して親馬鹿な考えで[nick:シウス]を推したわけではないぞ。[page]
+<sn:pointer id="73" window="1" trigger="start">ライアス「ワシは決して親馬鹿な考えで[nick:シウス]を推したわけではないぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:アシュレイ]「わかっておる。それに[nick:シウス]の才能もな。[page]
+<sn:pointer id="74" window="0" trigger="start">[nick:アシュレイ]「わかっておる。それに[nick:シウス]の才能もな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:アシュレイ]「だが、当時のあ奴にはわからんかったのじゃろう。[page]
+<sn:pointer id="75" window="0" trigger="start">[nick:アシュレイ]「だが、当時のあ奴にはわからんかったのじゃろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">ライアス「早足を踏んだとは思っているが[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="76" window="0" trigger="start">ライアス「早足を踏んだとは思っているが[speed][0xa]・・・[speed][0x0]。[page]
 [nick:アシュレイ]「きっとすべてに対して疑心暗鬼になってしまったんじゃないのか[speed][0x14]？[speed][0x0]騎士団にも[speed][0xf]、[speed][0x0]父親にも[speed][0x1e]、[speed][0x0]そして自分自身にも[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">ライアス「うむ[speed][0xa]・・・[speed][0x0]。更に悪いことに、[nick:フィア]がひどく傷ついてな。あ奴には[nick:シウス]の話は禁句だ。[page]
+<sn:pointer id="77" window="0" trigger="start">ライアス「うむ[speed][0xa]・・・[speed][0x0]。更に悪いことに、[nick:フィア]がひどく傷ついてな。あ奴には[nick:シウス]の話は禁句だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">ライアス「その[speed][0xa]・・・[speed][0x0]ほれ[speed][0x14]、[speed][0x0]あ奴は[nick:シウス]を好いておったから、感情の裏返しというか[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="78" window="1" trigger="start">ライアス「その[speed][0xa]・・・[speed][0x0]ほれ[speed][0x14]、[speed][0x0]あ奴は[nick:シウス]を好いておったから、感情の裏返しというか[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:アシュレイ]「年頃の娘は難しいの。ここまでこじれるともう時間が解決してくれるのを待つしかないのではないか？[page]
+<sn:pointer id="79" window="1" trigger="start">[nick:アシュレイ]「年頃の娘は難しいの。ここまでこじれるともう時間が解決してくれるのを待つしかないのではないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">ライアス「そうは思っていてもな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="80" window="0" trigger="start">ライアス「そうは思っていてもな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:イリア]「それじゃ、行きましょうか。[page]
+<sn:pointer id="81" window="0" trigger="start">[nick:イリア]「それじゃ、行きましょうか。[page]
 [nick:アシュレイ]「うむ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:フィア]「[nick:アシュレイ]様も本当に行ってしまうんですか？[page]
+<sn:pointer id="82" window="0" trigger="start">[nick:フィア]「[nick:アシュレイ]様も本当に行ってしまうんですか？[page]
 [nick:アシュレイ]「ライアスが意識を取り戻したらよろしく言っておいてくれ。[page]
 [nick:フィア]「[speed][0xa]・・・[speed][0x0]はい。[page]
 [nick:アシュレイ]「それと[speed][0xa]・・・[speed][0x0][page]
@@ -277,112 +277,112 @@
 [nick:フィア]「別に！気にしてなんか[speed][0xa]・・・[speed][0x0]。あいつが一方的に皆を裏切って[speed][0xa]・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:アシュレイ]「たしかにそうなのかもしれんがな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="83" window="1" trigger="start">[nick:アシュレイ]「たしかにそうなのかもしれんがな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">1．[nick:シウス]ってもしかして
+<sn:pointer id="84" choice="2" window="1" trigger="start">1．[nick:シウス]ってもしかして
 2．黙ってる[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:ラティ]「[nick:シウス]ってもしかしてあの[speed][0xa]・・・？[speed][0x0][page]
+<sn:pointer id="85" window="0" trigger="start">[nick:ラティ]「[nick:シウス]ってもしかしてあの[speed][0xa]・・・？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:フィア]「会ったことがあるのか？！[page]
+<sn:pointer id="86" window="0" trigger="start">[nick:フィア]「会ったことがあるのか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:ラティ]「人違いでなければ、ですが。[page]
+<sn:pointer id="87" window="1" trigger="start">[nick:ラティ]「人違いでなければ、ですが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:フィア]「そう[speed][0xa]・・・[speed][0x0]とりあえずまだ生きてるんだな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="88" window="0" trigger="start">[nick:フィア]「そう[speed][0xa]・・・[speed][0x0]とりあえずまだ生きてるんだな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:フィア]「もしまた出会うことがあれば、言づけを頼むわ。[speed][0x14][speed][0x0][speed][0x5]“馬鹿野郎”[speed][0x0]って。[page]
+<sn:pointer id="89" window="1" trigger="start">[nick:フィア]「もしまた出会うことがあれば、言づけを頼むわ。[speed][0x14][speed][0x0][speed][0x5]“馬鹿野郎”[speed][0x0]って。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:ラティ]「は[speed][0x5]、[speed][0x0]はぁ。[page]
+<sn:pointer id="90" window="0" trigger="start">[nick:ラティ]「は[speed][0x5]、[speed][0x0]はぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:ラティ]
+<sn:pointer id="91" window="8" trigger="start">[nick:ラティ]
 （言ったら殺されるな[speed][0xa]・・・[speed][0x0]。）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:フィア]「で、これからは？[page]
+<sn:pointer id="92" window="1" trigger="start">[nick:フィア]「で、これからは？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:ラティ]「はぐれてしまった仲間捜しをしているんです。[page]
+<sn:pointer id="93" window="0" trigger="start">[nick:ラティ]「はぐれてしまった仲間捜しをしているんです。[page]
 [nick:フィア]「手掛かりは？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:ラティ]「何も[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="94" window="0" trigger="start">[nick:ラティ]「何も[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:フィア]「だったら一度[color][0x4]パージ神殿[color][0x2]に行ってみてはどうだ。[page]
+<sn:pointer id="95" window="1" trigger="start">[nick:フィア]「だったら一度[color][0x4]パージ神殿[color][0x2]に行ってみてはどうだ。[page]
 [nick:ラティ]「パージ[speed][0xa]・・・[speed][0x0]神殿？[page]
 [nick:フィア]「旧異種族の遺跡の一つで、そこには[color][0x6]真実の瞳[color][0x2]というアーティファクトが隠されているらしいんだが。[page]
 [nick:アシュレイ]「[color][0x6]真実の瞳[color][0x2]か。聞いたことはあるがな。たしか持ち主の望む風景や人物を映し出す水晶球のことじゃな？[page]
 [nick:フィア]「そう聞いています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:イリア]「どうする？[page]
+<sn:pointer id="96" window="1" trigger="start">[nick:イリア]「どうする？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">1．パージ神殿に行ってみよう
+<sn:pointer id="97" choice="2" window="1" trigger="start">1．パージ神殿に行ってみよう
 2．無難に町をしらみつぶしに巡ってみよう[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[end]</sn:pointer>
+<sn:pointer id="98" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="99">主人「じゃあ、[nick:イリア]さんの名前で登録しておきますね。[page]
+<sn:pointer id="99" window="0" trigger="start">主人「じゃあ、[nick:イリア]さんの名前で登録しておきますね。[page]
 [nick:イリア]「ええ、お願いね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[nick:イリア]「[nick:ラティ]、これからどうする？[color][0x4]アストラル[color][0x2]は色々と廻ってみる価値があると思うけど。[page]
+<sn:pointer id="100" window="1" trigger="start">[nick:イリア]「[nick:ラティ]、これからどうする？[color][0x4]アストラル[color][0x2]は色々と廻ってみる価値があると思うけど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">1．今日はもう休む
+<sn:pointer id="101" choice="2" window="1" trigger="start">1．今日はもう休む
 2．町中を散策してみよう[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">[end]</sn:pointer>
+<sn:pointer id="102" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="103">[end]</sn:pointer>
+<sn:pointer id="103" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="104">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
+<sn:pointer id="104" window="0" trigger="start">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">主人「[nick:シウス]って、ウォーレン様の？[speed][0xf]・・・[speed][0x0]そら似だよなぁ。[page]
+<sn:pointer id="105" window="0" trigger="start">主人「[nick:シウス]って、ウォーレン様の？[speed][0xf]・・・[speed][0x0]そら似だよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">[nick:イリア]「それじゃ、行きましょうか。[page]
+<sn:pointer id="106" window="0" trigger="start">[nick:イリア]「それじゃ、行きましょうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[nick:シウス]「ああ。[page]
+<sn:pointer id="107" window="0" trigger="start">[nick:シウス]「ああ。[page]
 [nick:イリア]「でも、[nick:シウス]いいの？[page]
 [nick:シウス]「あ？[page]
 [nick:イリア]「彼女のことよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="108">[nick:シウス]「[speed][0xf]・・・[speed][0x0]別にいいんだよ。[page]
+<sn:pointer id="108" window="0" trigger="start">[nick:シウス]「[speed][0xf]・・・[speed][0x0]別にいいんだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:シウス]「なんだ？[page]
+<sn:pointer id="109" window="0" trigger="start">[nick:シウス]「なんだ？[page]
 兵士「[nick:フィア]殿より預かり物を届けに参りました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">[nick:シウス]「これは？[page]
+<sn:pointer id="110" window="0" trigger="start">[nick:シウス]「これは？[page]
 兵士「昨晩の魔物を剖した時の礼だそうです。[page]
 [color][0x6][item][0x23][0x14][color][0x2]を手に入れました。
 [color][0x6][item][0x45][0x14][color][0x2]を手に入れました。
 ＳＰ30ポイント獲得しました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">兵士「それと、[nick:ラティ]様と[nick:イリア]様への伝言ですが。[page]
+<sn:pointer id="111" window="1" trigger="start">兵士「それと、[nick:ラティ]様と[nick:イリア]様への伝言ですが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[nick:イリア]「何かしら？[page]
+<sn:pointer id="112" window="1" trigger="start">[nick:イリア]「何かしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">兵士「人捜しをするなら一度[color][0x4]パージ神殿[color][0x2]に行ってみてはどうかということです。[page]
+<sn:pointer id="113" window="1" trigger="start">兵士「人捜しをするなら一度[color][0x4]パージ神殿[color][0x2]に行ってみてはどうかということです。[page]
 [nick:ラティ]「パージ[speed][0xa]・・・[speed][0x0]神殿？[page]
 兵士「旧異種族の遺跡の一つで、そこには[color][0x6]真実の瞳[color][0x2]というアーティファクトが隠されているらしいです。[page]
 [nick:シウス]「[color][0x6]真実の瞳[color][0x2]か。聞いたことはあるぜ。たしか持ち主の望む風景や人物を映し出す水晶球のことだろ？[page]
@@ -390,55 +390,55 @@
 [nick:シウス]「俺はこのまま[color][0x4]シルヴァラント[color][0x2]に向かいながら町を巡ってもいいし、[nick:フィア]の助言に従ってみてもいい。決定は二人に任せる、俺はどっちでもついて行くぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">[nick:イリア]「どうする？[page]
+<sn:pointer id="114" window="1" trigger="start">[nick:イリア]「どうする？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">1．パージ神殿に行ってみよう
+<sn:pointer id="115" choice="2" window="1" trigger="start">1．パージ神殿に行ってみよう
 2．無難に町をしらみつぶしに巡ってみよう[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116">[end]</sn:pointer>
+<sn:pointer id="116" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="117">主人「じゃあ、[nick:イリア]さんの名前で登録しておきますね。[page]
+<sn:pointer id="117" window="1" trigger="start">主人「じゃあ、[nick:イリア]さんの名前で登録しておきますね。[page]
 [nick:イリア]「ええ、お願いね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="118">[nick:イリア]「[nick:ラティ]、これからどうする？[color][0x4]アストラル[color][0x2]は色々と廻ってみる価値があると思うけど。[page]
+<sn:pointer id="118" window="1" trigger="start">[nick:イリア]「[nick:ラティ]、これからどうする？[color][0x4]アストラル[color][0x2]は色々と廻ってみる価値があると思うけど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">1．今日はもう休む
+<sn:pointer id="119" choice="2" window="1" trigger="start">1．今日はもう休む
 2．町中を散策してみよう[page]
 [end]</sn:pointer>
 
-<sn:pointer id="120">[end]</sn:pointer>
+<sn:pointer id="120" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="121">[end]</sn:pointer>
+<sn:pointer id="121" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="122">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
+<sn:pointer id="122" window="0" trigger="start">[nick:イリア]「じゃあ、一段落ついたらまたここに戻ってきましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="123">ライアス「奴が狙っていたのはこれだろう。だが、こんなものに一体何の価値が[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="123" window="0" trigger="start">ライアス「奴が狙っていたのはこれだろう。だが、こんなものに一体何の価値が[speed][0xa]・・・。[speed][0x0][page]
 [nick:ラティ]「本当につかだけなんですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="124">[nick:イリア]「ちょっと貸してみて。[page]
+<sn:pointer id="124" window="0" trigger="start">[nick:イリア]「ちょっと貸してみて。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="125">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]ビームソードか！[page]
+<sn:pointer id="125" window="0" trigger="start">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]ビームソードか！[page]
 [nick:イリア]「それも、高性能の。こんなの、連邦でも見たこと無いわ。[page]
 [nick:ロニキス]「これはアスモデウスに対して切り札になるぞ！[page]
 [nick:イリア]「そうね。奴ら、きっとそれを恐れたんだわ。[page]
 [color][0x6][item][0x80][0x15][color][0x2]×2を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="126">[nick:フィア]「奴が狙っていたのはこれだろう。だが、一体こんなものに何の価値が？[page]
+<sn:pointer id="126" window="0" trigger="start">[nick:フィア]「奴が狙っていたのはこれだろう。だが、一体こんなものに何の価値が？[page]
 [nick:ラティ]「本当につかだけなんですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="127">[nick:イリア]「ちょっと貸してみて。[page]
+<sn:pointer id="127" window="0" trigger="start">[nick:イリア]「ちょっと貸してみて。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="128">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]ビームソードか！[page]
+<sn:pointer id="128" unused="1">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]ビームソードか！[page]
 [nick:イリア]「それも、高性能の。こんなの、連邦でも見たこと無いわ。[page]
 [nick:ロニキス]「これはアスモデウスに対して切り札になるぞ！[page]
 [nick:イリア]「そうね。奴ら、きっとそれを恐れたんだわ。[page]

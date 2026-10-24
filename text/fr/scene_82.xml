@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア][br]
+<sn:pointer id="0" window="1" trigger="start">[nick:イリア][br]
 Il semblerait que nous ayons atteint le cœur du temple.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス][br]
+<sn:pointer id="1" window="1" trigger="start">[nick:シウス][br]
 Whaa[speed][0xa],[speed][0x0] aucun d'entre vous n'a la sensation qu'il y a un immense trésor ici ? ♪[speed][0x14][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="2">Toi aussi ?[page]
+<sn:pointer id="2" window="0" trigger="start">Toi aussi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:アシュレイ][br]
+<sn:pointer id="3" window="1" trigger="start">[nick:アシュレイ][br]
 On dirait bien l'endroit, en effet.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:フィア][br]
+<sn:pointer id="4" window="1" trigger="start">[nick:フィア][br]
 Alors, l'[color][0x6]œil de vérité[color][0x2] serait ici ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア][br]
+<sn:pointer id="5" window="1" trigger="start">[nick:イリア][br]
 As-tu une idée de ce que pourrait être ce flux énergétique ? Il ressemble à celui de notre monde, mais un peu différent[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:シウス][br]
 Mais qu'est-ce que tu racontes ? Commençons déjà par inspecter les lieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:アシュレイ][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:アシュレイ][br]
 En effet, une étrange énergie flotte dans cette salle[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:フィア][br]
+<sn:pointer id="8" window="0" trigger="start">[nick:フィア][br]
 Allons inspecter les lieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス][br]
+<sn:pointer id="9" window="1" trigger="start">[nick:シウス][br]
 Arrrgh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:アシュレイ][br]
+<sn:pointer id="10" window="1" trigger="start">[nick:アシュレイ][br]
 Arrrgh ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:フィア][br]
+<sn:pointer id="11" window="1" trigger="start">[nick:フィア][br]
 Haaaa ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ラティ][br]
+<sn:pointer id="12" window="1" trigger="start">[nick:ラティ][br]
 Ça va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:ラティ][br]
 Ça va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ][br]
+<sn:pointer id="14" window="1" trigger="start">[nick:ラティ][br]
 [nick:フィア], ça va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:シウス][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:シウス][br]
 Ouch[speed][0xa]...[speed][0x0] Oui, je crois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:アシュレイ][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:アシュレイ][br]
 Ouch, j'aurais pu avoir une meilleure idée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:フィア][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:フィア][br]
 Ça va, je suis plus surprise qu'autre chose[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[color][0x6]???[br]
+<sn:pointer id="18" window="0" trigger="start">[color][0x6]???[br]
 Quittez ces lieux ! Ce n'est pas un endroit pour ceux qui n'agissent que dans leur propre intérêt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[color][0x3]???[br]
+<sn:pointer id="19" window="1" trigger="start">[color][0x3]???[br]
 Du calme. Nul besoin de parler si rudement.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[color][0x3]???[br]
+<sn:pointer id="20" window="0" trigger="start">[color][0x3]???[br]
 Voudriez-vous bien quitter ces lieux ? Vous deux de ce monde et les autres d'une autre planète.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[color][0x2][nick:イリア][br]
+<sn:pointer id="21" window="1" trigger="start">[color][0x2][nick:イリア][br]
 Ça se voit ?![page]
 [color][0x4]???[br]
 Ben, vous avez un sceau d'axe temporel sur vous. Ça se remarque comme le nez au milieu de la figure.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[color][0x3]???[br]
+<sn:pointer id="22" window="0" trigger="start">[color][0x3]???[br]
 Surveille ton langage ! Tu te laisses toujours influencer par les humains ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[color][0x2][nick:ヨシュア][br]
+<sn:pointer id="23" window="1" trigger="start">[color][0x2][nick:ヨシュア][br]
 Vous êtes les Runes, c'est ça ? On raconte que vous êtes les premiers habitants de ce monde[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:シウス][br]
+<sn:pointer id="24" window="1" trigger="start">[nick:シウス][br]
 Tu sais qui c'est ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ][br]
+<sn:pointer id="25" window="1" trigger="start">[nick:アシュレイ][br]
 Tu les connais ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:フィア][br]
+<sn:pointer id="26" window="1" trigger="start">[nick:フィア][br]
 Tu sais qui ils sont ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ヨシュア][br]
+<sn:pointer id="27" window="0" trigger="start">[nick:ヨシュア][br]
 Un peu. Mais comme vous, c'est la première fois que je les rencontre.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[color][0x4]???[br]
+<sn:pointer id="28" window="0" trigger="start">[color][0x4]???[br]
 Alors ainsi vous connaissez notre existence. Habituellement, on nous appelle "source de magie" ou d'autres âneries du genre.[page]
 [color][0x2][nick:ヨシュア][br]
 Je suis venu ici dans l'espoir de retrouver ma sœur, disparue il y a longtemps. Je comprends que ça puisse être considéré comme un intérêt personnel, mais je suis venu ici la conscience tranquille[speed][0xa]... !![speed][0x0][page]
@@ -122,17 +122,17 @@ Navré de briser vos espoirs, mais il semblerait qu'elle ne soit pas là.[page]
 Il paraît que l'on peut voir tout ce que l'on désire avec l'[color][0x6]Œil de la Vérité[color][0x2]. N'est-il pas ici ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[color][0x4]???[br]
+<sn:pointer id="29" window="0" trigger="start">[color][0x4]???[br]
 Ahhh... L'œil de vérité[speed][0x5]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[color][0x3]???[br]
+<sn:pointer id="30" window="0" trigger="start">[color][0x3]???[br]
 Il est donc passé dans les légendes.[page]
 [color][0x4]???[br]
 Mais les légendes ont oublié ce à quoi il sert vraiment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[color][0x6]???[br]
+<sn:pointer id="31" window="0" trigger="start">[color][0x6]???[br]
 Un tel objet n'existe pas ici. Cependant[speed][0xa]...[speed][0x0] Vous recherchez tous les deux quelqu'un, c'est ça ?[page]
 [color][0x2][nick:ラティ][br]
 Oui.[page]
@@ -148,23 +148,23 @@ Vous pouvez nous dire où ils sont ?![page]
 À une seule condition. Ne jamais revenir ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[color][0x6]???[br]
+<sn:pointer id="32" window="1" trigger="start">[color][0x6]???[br]
 Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Je ressens une perturbation temporelle dans une ville sur ce continent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[color][0x2][nick:シウス][br]
+<sn:pointer id="33" window="1" trigger="start">[color][0x2][nick:シウス][br]
 Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Ça serait pas le royaume de Van ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[color][0x2][nick:アシュレイ][br]
+<sn:pointer id="34" window="1" trigger="start">[color][0x2][nick:アシュレイ][br]
 Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Ça ne serait pas le royaume de Van ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[color][0x2][nick:フィア][br]
+<sn:pointer id="35" window="1" trigger="start">[color][0x2][nick:フィア][br]
 Le continent des feuilles mortes[speed][0xa]...[speed][0x0] Et si c'était le royaume de Van ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[color][0x4]???[br]
+<sn:pointer id="36" window="1" trigger="start">[color][0x4]???[br]
 Mais il y a trois personnes et non deux ?[page]
 [color][0x2][nick:ラティ][br]
 Hein ?[page]
@@ -172,11 +172,11 @@ Hein ?[page]
 De toute façon, quelle importance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[color][0x6]???[br]
+<sn:pointer id="37" window="0" trigger="start">[color][0x6]???[br]
 Vous en avez fini ici. Quittez ces lieux immédiatement.[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ラティ][br]
+<sn:pointer id="38" window="0" trigger="tile 64">[nick:ラティ][br]
 Nous sommes ici, car le roi de Van nous a dit que l'[color][0x6]Œil de la Vérité[color][0x2] s'y trouvait. Cet emblème devrait prouver que nous disons la vérité.[page]
 [color][0x6]???[br]
 Je vois. Alors, ceux qui perpétuent la volonté des Mooriens sont enfin là[speed][0xa]...[speed][0x0][color][0x2][page]
@@ -186,7 +186,7 @@ La volonté des Mooriens ?[page]
 Venez, je vais vous montrer.[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[color][0x6]???[br]
+<sn:pointer id="39" window="0" trigger="tile 64">[color][0x6]???[br]
 Venez, je vais vous montrer.[color][0x2][page]
 [end]</sn:pointer>
 

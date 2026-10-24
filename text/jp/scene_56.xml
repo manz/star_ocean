@@ -1,358 +1,358 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:フィア]「ごめんなさい[speed][0xa]・・・。[speed][0x0]私が適当なことを言って無駄骨折らせてしまって[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="0" window="1" trigger="start">[nick:フィア]「ごめんなさい[speed][0xa]・・・。[speed][0x0]私が適当なことを言って無駄骨折らせてしまって[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">1．そんなことないさ
+<sn:pointer id="1" choice="2" window="1" trigger="start">1．そんなことないさ
 2．・・・・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ラティ]「そんなことないよ。[speed][0xa]・・・[speed][0x0][color][0x6]真実の瞳[color][0x2]がなかったのは大した問題じゃない。仲間が無事なのはわかったんだし、結果オーライさ。[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:ラティ]「そんなことないよ。[speed][0xa]・・・[speed][0x0][color][0x6]真実の瞳[color][0x2]がなかったのは大した問題じゃない。仲間が無事なのはわかったんだし、結果オーライさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「あ・・・！！[page]
+<sn:pointer id="3" window="0" trigger="start">[nick:ラティ]「あ・・・！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]僕のことは気にしないでください。また気を取り直して妹を捜しに行くことにします。[page]
+<sn:pointer id="4" window="0" trigger="start">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]僕のことは気にしないでください。また気を取り直して妹を捜しに行くことにします。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ヨシュア]「では、お元気で[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="5" window="0" trigger="start">[nick:ヨシュア]「では、お元気で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">1．引き止める
+<sn:pointer id="6" choice="2" window="1" trigger="start">1．引き止める
 2．見送る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="9">[nick:フィア]「それじゃあ、私もここで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="start">[nick:フィア]「それじゃあ、私もここで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]「待って！！[page]
+<sn:pointer id="10" window="1" trigger="start">[nick:ラティ]「待って！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]一緒に行かないか？[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]一緒に行かないか？[page]
 [nick:ヨシュア]「でも、一緒にいると貴方たちに迷惑しかかけないと思いますから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">1．力を貸してくれ
+<sn:pointer id="12" choice="2" window="1" trigger="start">1．力を貸してくれ
 2．・・・仕方ないか・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「力を貸してほしいんだ。[page]
+<sn:pointer id="13" window="0" trigger="start">[nick:ラティ]「力を貸してほしいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ヨシュア]「僕には[speed][0xa]・・・[speed][0x1e][speed][0x0]何度も投げかけられた想いを無視するようなことはできません[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="14" window="0" trigger="start">[nick:ヨシュア]「僕には[speed][0xa]・・・[speed][0x1e][speed][0x0]何度も投げかけられた想いを無視するようなことはできません[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア]「それじゃあ、私もここで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="start">[nick:フィア]「それじゃあ、私もここで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ヨシュア]「・・・あ！！[page]
+<sn:pointer id="17" window="0" trigger="start">[nick:ヨシュア]「・・・あ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ヨシュア]「彼女を一人で行かせるんですか？！[page]
+<sn:pointer id="18" window="1" trigger="start">[nick:ヨシュア]「彼女を一人で行かせるんですか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">1．やっぱりそれはできない！
+<sn:pointer id="19" choice="2" window="1" trigger="start">1．やっぱりそれはできない！
 2．そういう約東なんだ・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]「それは[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="20" window="0" trigger="start">[nick:ラティ]「それは[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]「あ、[nick:イリア]さん！[page]
+<sn:pointer id="21" window="0" trigger="start">[nick:ラティ]「あ、[nick:イリア]さん！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ヨシュア]「約東って[speed][0xa]・・・[speed][0x0]！！手練の戦士といえ、女性ですよ？！[page]
+<sn:pointer id="22" window="0" trigger="start">[nick:ヨシュア]「約東って[speed][0xa]・・・[speed][0x0]！！手練の戦士といえ、女性ですよ？！[page]
 [nick:ヨシュア]「すみません、やっぱり僕には彼女を放っておけません。一人っきりでいるということがどういうことなのか、わかってますから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ]「俺、[speed][0xa]・・・[speed][0x0]やっぱり間違ってたんでしょうか。[page]
+<sn:pointer id="23" window="0" trigger="start">[nick:ラティ]「俺、[speed][0xa]・・・[speed][0x0]やっぱり間違ってたんでしょうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ]「それじゃあ、ヴァン王国を目指せばいいんですね。[page]
+<sn:pointer id="24" window="1" trigger="start">[nick:ラティ]「それじゃあ、ヴァン王国を目指せばいいんですね。[page]
 [nick:イリア]「[speed][0xa]・・・[speed][0x0]そうね。[page]
 [nick:アシュレイ]「だが、多少時間はムダにしたが、得る物もあったと思うがの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1．そうですね
+<sn:pointer id="25" choice="2" window="1" trigger="start">1．そうですね
 2．う〜ん[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ]「ふむ、今は時間が何物にも代え難き宝[speed][0xa]・・・[speed][0x0]といったところか。[page]
+<sn:pointer id="26" window="1" trigger="start">[nick:アシュレイ]「ふむ、今は時間が何物にも代え難き宝[speed][0xa]・・・[speed][0x0]といったところか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:アシュレイ]「だが、今の力では先に進めば進むほど辛くなるぞ。ヴァン王国周辺なぞ、娘子でさえ武器を握らねばならぬ始末。それでも明日の命は無いに等しい。確実に力を蓄えて進むのもまた“道”じゃ。[page]
+<sn:pointer id="27" window="1" trigger="start">[nick:アシュレイ]「だが、今の力では先に進めば進むほど辛くなるぞ。ヴァン王国周辺なぞ、娘子でさえ武器を握らねばならぬ始末。それでも明日の命は無いに等しい。確実に力を蓄えて進むのもまた“道”じゃ。[page]
 [nick:ラティ]「[speed][0xa]・・・・。[speed][0x0][page]
 [nick:アシュレイ]「この辺りののどかさからは想像もできんじゃろうがな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:アシュレイ]「たしかに気持ちはわからんでもない。[page]
+<sn:pointer id="28" window="1" trigger="start">[nick:アシュレイ]「たしかに気持ちはわからんでもない。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ]「幸いにもヌシらの連れはヴァン王国で無事のようじゃ。あとはワシらが急ぐだけじゃろう。[page]
+<sn:pointer id="29" window="1" trigger="start">[nick:アシュレイ]「幸いにもヌシらの連れはヴァン王国で無事のようじゃ。あとはワシらが急ぐだけじゃろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:イリア]「そうですよね。[speed][0x1e][speed][0x0]そうと決まれば[page]
+<sn:pointer id="30" window="1" trigger="start">[nick:イリア]「そうですよね。[speed][0x1e][speed][0x0]そうと決まれば[page]
 [nick:ラティ]「ヴァン王国に急ぎましょう！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:イリア]「ええ。[page]
+<sn:pointer id="31" window="0" trigger="start">[nick:イリア]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ]「結局、ヴァン王国まで行くしかないんですね。[page]
+<sn:pointer id="32" window="1" trigger="start">[nick:ラティ]「結局、ヴァン王国まで行くしかないんですね。[page]
 [nick:イリア]「[speed][0xa]・・・[speed][0x0]そうね。[page]
 [nick:シウス]「でもよう、とりあえず神殿ではある程度実りがあったわけだし、いいんじゃねぇのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1．まぁたしかに
+<sn:pointer id="33" choice="2" window="1" trigger="start">1．まぁたしかに
 2．う〜ん[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:シウス]「[speed][0xa]・・・[speed][0x0]そんなに心配か？いや、心配ならとりあえず無事なのがわかったんだし、いいんじゃねぇか。[page]
+<sn:pointer id="34" window="0" trigger="start">[nick:シウス]「[speed][0xa]・・・[speed][0x0]そんなに心配か？いや、心配ならとりあえず無事なのがわかったんだし、いいんじゃねぇか。[page]
 [nick:ラティ]「[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:シウス]「ここに寄らずに進んでりゃあもっと早く会えたって言いたいんなら、それはなんて言ったっけ[page]
+<sn:pointer id="35" window="0" trigger="start">[nick:シウス]「ここに寄らずに進んでりゃあもっと早く会えたって言いたいんなら、それはなんて言ったっけ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:シウス]「ホラ[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="36" window="0" trigger="start">[nick:シウス]「ホラ[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:シウス]「そう！結果論ってやつだろうが。[page]
+<sn:pointer id="37" window="0" trigger="start">[nick:シウス]「そう！結果論ってやつだろうが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:イリア]「たしかにそうよね。こんな所でグジグジしてるヒマがあるならさっさと先に進みましょう。ヴァン王国でしょ？居場所はわかったんだしね。[page]
+<sn:pointer id="38" window="0" trigger="start">[nick:イリア]「たしかにそうよね。こんな所でグジグジしてるヒマがあるならさっさと先に進みましょう。ヴァン王国でしょ？居場所はわかったんだしね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ラティ]「確かに、急いで進んでもこのままで魔界の軍勢に歯が立つとは限らないしな。[page]
+<sn:pointer id="39" window="0" trigger="start">[nick:ラティ]「確かに、急いで進んでもこのままで魔界の軍勢に歯が立つとは限らないしな。[page]
 [nick:シウス]「ヴァン王国の方はものスゲェって話だぜ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:イリア]「何が？[page]
+<sn:pointer id="40" window="1" trigger="start">[nick:イリア]「何が？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス]「怪物どもの強さが、だよ。[page]
+<sn:pointer id="41" window="0" trigger="start">[nick:シウス]「怪物どもの強さが、だよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:イリア]「それじゃあ、艦長や[nick:ミリー]の命は常にものすごい危険にさらされているって事じゃないの！！[page]
+<sn:pointer id="42" window="0" trigger="start">[nick:イリア]「それじゃあ、艦長や[nick:ミリー]の命は常にものすごい危険にさらされているって事じゃないの！！[page]
 [nick:シウス]「ま、そうだわな。[speed][0x1e][speed][0x0]だから[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:シウス]「急ごうぜ。[page]
+<sn:pointer id="43" window="0" trigger="start">[nick:シウス]「急ごうぜ。[page]
 [nick:ラティ]「ヴァン王国か[speed][0xa]・・・。[speed][0x0][page]
 [nick:シウス]「まぁ強かろうが、け散らすだけよ！！案外その連れってのがものすごく強くなってたりしてな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ラティ]
+<sn:pointer id="44" window="8" trigger="start">[nick:ラティ]
 （[nick:ミリー]が俺より・・・？）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]「なんかシャレになってないんですけど[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="45" window="1" trigger="start">[nick:ラティ]「なんかシャレになってないんですけど[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:イリア]「“より一層”尻にしかれちゃう？[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:イリア]「“より一層”尻にしかれちゃう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]「あなたはどうするの・・・？[page]
+<sn:pointer id="47" window="0" trigger="start">[nick:イリア]「あなたはどうするの・・・？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ヨシュア]「僕は、妹を捜し続けます[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="48" window="0" trigger="start">[nick:ヨシュア]「僕は、妹を捜し続けます[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ヨシュア]「皆さんもお元気で[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="49" window="0" trigger="start">[nick:ヨシュア]「皆さんもお元気で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">1．引き止める
+<sn:pointer id="50" choice="2" window="1" trigger="start">1．引き止める
 2．見送る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[end]</sn:pointer>
+<sn:pointer id="51" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ラティ]「待って！！[page]
+<sn:pointer id="52" window="1" trigger="start">[nick:ラティ]「待って！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]一緒に行かないか？[page]
+<sn:pointer id="53" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]一緒に行かないか？[page]
 [nick:ヨシュア]「でも、一緒にいると貴方たちに迷惑しかかけないと思いますから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">1．力を貸してくれ
+<sn:pointer id="54" choice="2" window="1" trigger="start">1．力を貸してくれ
 2．・・・仕方ないか・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ラティ]「[nick:ヨシュア]さん、あなたの力を貸してほしいんだ！！[page]
+<sn:pointer id="55" window="0" trigger="start">[nick:ラティ]「[nick:ヨシュア]さん、あなたの力を貸してほしいんだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ヨシュア]「僕には[speed][0xa]・・・[speed][0x1e][speed][0x0]何度も投げかけられた想いを無視するようなことはできません[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="56" window="0" trigger="start">[nick:ヨシュア]「僕には[speed][0xa]・・・[speed][0x1e][speed][0x0]何度も投げかけられた想いを無視するようなことはできません[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[end]</sn:pointer>
+<sn:pointer id="57" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="58">[nick:イリア]「ヴァン王国に向かいましょう。[page]
+<sn:pointer id="58" window="0" trigger="start">[nick:イリア]「ヴァン王国に向かいましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:シウス]「隠し扉なんて[speed][0xa]・・・[speed][0x0]隠しっつーくらいだ、見つからねぇんじゃないのか？[page]
+<sn:pointer id="59" window="1" trigger="tile 64">[nick:シウス]「隠し扉なんて[speed][0xa]・・・[speed][0x0]隠しっつーくらいだ、見つからねぇんじゃないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:イリア]「[nick:シウス]、文句言ってないでそっち探して。[page]
+<sn:pointer id="60" window="0" trigger="tile 64">[nick:イリア]「[nick:シウス]、文句言ってないでそっち探して。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">？？？「驚かせて申しわけない。戦う気は無いんです・・・その剣を引いてはもらえませんか？[page]
+<sn:pointer id="61" window="0" trigger="tile 64">？？？「驚かせて申しわけない。戦う気は無いんです・・・その剣を引いてはもらえませんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:シウス]「[speed][0xa]・・・[speed][0x0]フェザーフォルクじゃねぇか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="62" window="1" trigger="tile 64">[nick:シウス]「[speed][0xa]・・・[speed][0x0]フェザーフォルクじゃねぇか[speed][0xa]・・・。[speed][0x0][page]
 ？？？「僕は[nick:ヨシュア]と申します。[nick:シウス]と呼ばれていたハイランダーの戦士殿、あなたの力を貸してもらえませんか？ちょうどこの壁の上に隠し扉らしき物を見つけたんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:イリア]「その話本当？[page]
+<sn:pointer id="63" window="1" trigger="tile 64">[nick:イリア]「その話本当？[page]
 [nick:ヨシュア]「ええ。岩にふさがれているんです。あいにく力仕事は苦手で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:シウス]「よし、まかせろ。[page]
+<sn:pointer id="64" window="0" trigger="tile 64">[nick:シウス]「よし、まかせろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:シウス]「・・・ムンッ！！[page]
+<sn:pointer id="65" window="0" trigger="tile 64">[nick:シウス]「・・・ムンッ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ヨシュア]「すごい！開いた。[page]
+<sn:pointer id="66" window="0" trigger="tile 64">[nick:ヨシュア]「すごい！開いた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]「ちょっと待ちな。[page]
+<sn:pointer id="67" window="1" trigger="tile 64">[nick:シウス]「ちょっと待ちな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:ヨシュア]「何か？[page]
+<sn:pointer id="68" window="0" trigger="tile 64">[nick:ヨシュア]「何か？[page]
 [nick:シウス]「フェザーフォルクの冒険者なんて聞いたことないぜ。おまえらみたいな種族は一生を山岳で暮らすんじゃなかったか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ヨシュア]「それは高地民族[speed][0xa]・・・[speed][0x0]ハイランダーとて同じことではありませんか？アストラル王国から下ることはたしか都落ち[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="69" window="1" trigger="tile 64">[nick:ヨシュア]「それは高地民族[speed][0xa]・・・[speed][0x0]ハイランダーとて同じことではありませんか？アストラル王国から下ることはたしか都落ち[speed][0xa]・・・[speed][0x0][page]
 [nick:シウス]「余計な詮索はするな[speed][0xa]・・・[speed][0x0]って言いてぇのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">1．二人を止める
+<sn:pointer id="70" choice="2" window="1" trigger="tile 64">1．二人を止める
 2．黙って見守る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[end]</sn:pointer>
+<sn:pointer id="71" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ラティ]「ちょっとちょっと、二人とも！[page]
+<sn:pointer id="72" window="0" trigger="tile 64">[nick:ラティ]「ちょっとちょっと、二人とも！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:イリア]「ちょっとちょっと、二人とも！[page]
+<sn:pointer id="73" window="0" trigger="tile 64">[nick:イリア]「ちょっとちょっと、二人とも！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]すみません。大人げなかったですね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="74" window="1" trigger="tile 64">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]すみません。大人げなかったですね[speed][0xa]・・・。[speed][0x0][page]
 [nick:シウス]「[speed][0xa]・・・[speed][0x0]おぅ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:シウス]「言いたかねぇんなら別にいいんだけどよ[speed][0x14]、[speed][0x0]チッ。[speed][0xa]・・・[speed][0x0][nick:ラティ]、行こうぜ。[page]
+<sn:pointer id="75" window="0" trigger="tile 64">[nick:シウス]「言いたかねぇんなら別にいいんだけどよ[speed][0x14]、[speed][0x0]チッ。[speed][0xa]・・・[speed][0x0][nick:ラティ]、行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]ハイランダーの冒険者に“都落ち”は禁句でしたね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="76" window="1" trigger="tile 64">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]ハイランダーの冒険者に“都落ち”は禁句でしたね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[end]</sn:pointer>
+<sn:pointer id="77" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="78">[nick:イリア]「ああいう性格だから、素直に聞けないのよ。[page]
+<sn:pointer id="78" window="0" trigger="tile 64">[nick:イリア]「ああいう性格だから、素直に聞けないのよ。[page]
 [nick:ヨシュア]「え？[page]
 [nick:イリア]「基本的に[speed][0xa]・・・[speed][0x0]、おせっかいで世話焼きなのよね。[page]
 [nick:ヨシュア]「そうなんですか？[page]
 [nick:イリア]「とてもそうは見えないでしょ？私たちと初めて出会ったときもそうだったし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:イリア]「でも、あなたもよっぽどのことがあるんでしょ？そうじゃなきゃ、[nick:シウス]を怒らせるようなことは、ね。[page]
+<sn:pointer id="79" window="1" trigger="tile 64">[nick:イリア]「でも、あなたもよっぽどのことがあるんでしょ？そうじゃなきゃ、[nick:シウス]を怒らせるようなことは、ね。[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]彼の言った通りなんです。有翼種[speed][0xa]・・・[speed][0x0]フェザーフォルクの僕のような者が方々を旅してまわっているなんてどう考えても普通じゃないんです。奇異の目でみられますし[speed][0xa]・・・。[speed][0x0]だからできるだけ周囲と関わりをもたないようにしてきたんですけど[speed][0xa]・・・[speed][0x0]。[page]
 [nick:イリア]「あら、ワケありレベルだったら私たちだって負けないわよ？[speed][0x1e][speed][0x0]聞かせてよ。“袖摺り合うも他生の縁”ってね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ラティ]「なんですか？それ。[page]
+<sn:pointer id="80" window="1" trigger="tile 64">[nick:ラティ]「なんですか？それ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:イリア]「地球のことわざよ。[page]
+<sn:pointer id="81" window="0" trigger="tile 64">[nick:イリア]「地球のことわざよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ヨシュア]「実は[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="82" window="0" trigger="tile 64">[nick:ヨシュア]「実は[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:アシュレイ]「隠し扉か[speed][0xa]・・・。[speed][0x0]この神殿にそんなものがあるとは聞いたことがないのう。[page]
+<sn:pointer id="83" window="1" trigger="tile 64">[nick:アシュレイ]「隠し扉か[speed][0xa]・・・。[speed][0x0]この神殿にそんなものがあるとは聞いたことがないのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:イリア]「彼女の言ったことを信じましょう、[nick:アシュレイ]さん。[page]
+<sn:pointer id="84" window="0" trigger="tile 64">[nick:イリア]「彼女の言ったことを信じましょう、[nick:アシュレイ]さん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">？？？「驚かせて申しわけない。戦う気は無いんです・・・その剣を引いてはもらえませんか？[page]
+<sn:pointer id="85" window="0" trigger="tile 64">？？？「驚かせて申しわけない。戦う気は無いんです・・・その剣を引いてはもらえませんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:アシュレイ]「なんと、有翼人ではないか。[page]
+<sn:pointer id="86" window="1" trigger="tile 64">[nick:アシュレイ]「なんと、有翼人ではないか。[page]
 ？？？「僕は[nick:ヨシュア]と申します。[nick:アシュレイ]と呼ばれましたか、そこのハイランダーの戦士殿、あなたの力を貸してもらえませんか？ちょうどこの壁の上に隠し扉らしき物を見つけたんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:イリア]「その話本当？[page]
+<sn:pointer id="87" window="0" trigger="tile 64">[nick:イリア]「その話本当？[page]
 [nick:ヨシュア]「ええ。岩にふさがれているんです。あいにく力仕事は苦手で・・・。[page]
 [nick:アシュレイ]「うむ、案内してみよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:アシュレイ]「これはちと年寄りには難儀な代物じゃのう。[page]
+<sn:pointer id="88" window="0" trigger="tile 64">[nick:アシュレイ]「これはちと年寄りには難儀な代物じゃのう。[page]
 [nick:ヨシュア]「できますか？[page]
 [nick:アシュレイ]「まぁ見ておれ[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[nick:アシュレイ]「ムンッ！！[page]
+<sn:pointer id="89" window="0" trigger="tile 64">[nick:アシュレイ]「ムンッ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">[nick:ヨシュア]「すごい！開いた。[page]
+<sn:pointer id="90" window="0" trigger="tile 64">[nick:ヨシュア]「すごい！開いた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:ヨシュア]「僕は先に行きますので、失礼します。[page]
+<sn:pointer id="91" window="0" trigger="tile 64">[nick:ヨシュア]「僕は先に行きますので、失礼します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:イリア]「行っちゃったわね。[page]
+<sn:pointer id="92" window="0" trigger="tile 64">[nick:イリア]「行っちゃったわね。[page]
 [nick:ラティ]「ええ。[page]
 [nick:アシュレイ]「あの翼人の紋章使い[speed][0xa]・・・[speed][0x0]一人で大丈夫かの[speed][0xa]・・・？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:イリア]「ここが、パージ神殿？[page]
+<sn:pointer id="93" window="1" trigger="tile 64">[nick:イリア]「ここが、パージ神殿？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:フィア]「ああ。どこかに隠し扉があるはずなんだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="94" window="0" trigger="tile 64">[nick:フィア]「ああ。どこかに隠し扉があるはずなんだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">？？？「驚かせて申しわけない。戦う気は無いんです[speed][0xa]・・・[speed][0x0]その剣を引いてはもらえませんか？[page]
+<sn:pointer id="95" window="0" trigger="tile 64">？？？「驚かせて申しわけない。戦う気は無いんです[speed][0xa]・・・[speed][0x0]その剣を引いてはもらえませんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:フィア]「フェザー[speed][0xa]・・・[speed][0x0]フォルク？！[page]
+<sn:pointer id="96" window="1" trigger="tile 64">[nick:フィア]「フェザー[speed][0xa]・・・[speed][0x0]フォルク？！[page]
 ？？？「僕は[nick:ヨシュア]と申します。[nick:フィア]と呼ばれていたハイランダーの戦士殿、あなたの力を貸してもらえませんか？ちょうどこの壁の上に隠し扉らしき物を見つけたんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:イリア]「その話本当？[page]
+<sn:pointer id="97" window="1" trigger="tile 64">[nick:イリア]「その話本当？[page]
 [nick:ヨシュア]「ええ。岩にふさがれているんです。あいにく力仕事は苦手で[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[nick:フィア]「私一人じゃ辛いな。[nick:ラティ]、手伝ってくれる？[page]
+<sn:pointer id="98" choice="yes-no" window="1" trigger="tile 64">[nick:フィア]「私一人じゃ辛いな。[nick:ラティ]、手伝ってくれる？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">[nick:イリア]「何言ってるのよ。ほら、一緒にいきなさい！[page]
+<sn:pointer id="99" window="0" trigger="tile 64">[nick:イリア]「何言ってるのよ。ほら、一緒にいきなさい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[end]</sn:pointer>
+<sn:pointer id="100" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="101">[nick:フィア]「[nick:ラティ]、いい？[page]
+<sn:pointer id="101" window="1" trigger="tile 64">[nick:フィア]「[nick:ラティ]、いい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">[nick:ラティ]「いいですよ。[page]
+<sn:pointer id="102" window="0" trigger="tile 64">[nick:ラティ]「いいですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">[nick:ヨシュア]「すごい！開いた。[page]
+<sn:pointer id="103" window="0" trigger="tile 64">[nick:ヨシュア]「すごい！開いた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104">[nick:フィア]「ちょっと待って！！[page]
+<sn:pointer id="104" window="1" trigger="tile 64">[nick:フィア]「ちょっと待って！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">[nick:ヨシュア]「何か？[page]
+<sn:pointer id="105" window="0" trigger="tile 64">[nick:ヨシュア]「何か？[page]
 [nick:フィア]「私たちは“[color][0x6]真実の瞳[color][0x2]”を探しているんだ。あんたに先を越されちゃ困るんだよ。[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そうですか、あなたたちも[speed][0xa]・・・。[speed][0x0][page]
 [nick:ラティ]「“も”？[page]
@@ -360,59 +360,59 @@
 [nick:ヨシュア]「血の気の多い人ですね。ですが、話すことは何も有りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">1．止める
+<sn:pointer id="106" choice="2" window="1" trigger="tile 64">1．止める
 2．黙って見守る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[end]</sn:pointer>
+<sn:pointer id="107" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="108">[nick:ラティ]「ちょ、ちょっと二人とも！！[page]
+<sn:pointer id="108" window="0" trigger="tile 64">[nick:ラティ]「ちょ、ちょっと二人とも！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ヨシュア]さんも[color][0x6]真実の瞳[color][0x2]を使って人捜しをするつもりなんですか？俺は仲間の居場所さえわかれば別に[color][0x6]真実の瞳[color][0x2]とやらはいりませんから[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="109" window="0" trigger="tile 64">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ヨシュア]さんも[color][0x6]真実の瞳[color][0x2]を使って人捜しをするつもりなんですか？俺は仲間の居場所さえわかれば別に[color][0x6]真実の瞳[color][0x2]とやらはいりませんから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">[nick:ヨシュア]「あ、それは僕だって同じですよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="110" window="0" trigger="tile 64">[nick:ヨシュア]「あ、それは僕だって同じですよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">[nick:フィア]「[speed][0xa]・・・[speed][0x0]私の聞き方が悪かった。[page]
+<sn:pointer id="111" window="1" trigger="tile 64">[nick:フィア]「[speed][0xa]・・・[speed][0x0]私の聞き方が悪かった。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">[nick:フィア]「あやまる[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="112" window="1" trigger="tile 64">[nick:フィア]「あやまる[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">[nick:ヨシュア]「いえ、僕の方こそ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="113" window="1" trigger="tile 64">[nick:ヨシュア]「いえ、僕の方こそ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">[nick:ラティ]「だったら[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="114" window="0" trigger="tile 64">[nick:ラティ]「だったら[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">[nick:イリア]「野暮なことは聞かないわ。だから一緒に探しましょ？[page]
+<sn:pointer id="115" window="0" trigger="tile 64">[nick:イリア]「野暮なことは聞かないわ。だから一緒に探しましょ？[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]はい。ご迷惑かけるかもしれませんが[speed][0xa]・・・。[speed][0x0][page]
 [nick:イリア]「それじゃあ行きましょう[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116">[nick:フィア]「あれはフェザーフォルク（有翼種）の紋章使いの言葉じゃないね。[page]
+<sn:pointer id="116" window="0" trigger="tile 64">[nick:フィア]「あれはフェザーフォルク（有翼種）の紋章使いの言葉じゃないね。[page]
 [nick:ラティ]「え？[page]
 [nick:フィア]「甘く見てると火傷するわよ。[speed][0x23][speed][0x0]要するに、何物にも代え難い力を味方にしたってことさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="117">[end]</sn:pointer>
+<sn:pointer id="117" window="0" trigger="tile 64">[end]</sn:pointer>
 
-<sn:pointer id="118">[nick:ヨシュア]「争う気はありませんから。[page]
+<sn:pointer id="118" window="0" trigger="tile 64">[nick:ヨシュア]「争う気はありませんから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">[nick:ヨシュア]「僕は妹の所在さえわかれば[speed][0xa]・・・[speed][0x1e][speed][0x0]生死さえわかれば、[page]
+<sn:pointer id="119" window="0" trigger="tile 64">[nick:ヨシュア]「僕は妹の所在さえわかれば[speed][0xa]・・・[speed][0x1e][speed][0x0]生死さえわかれば、[page]
 [end]</sn:pointer>
 
-<sn:pointer id="120">[nick:ヨシュア]「それでいいですから[speed][0xa]・・・。[speed][0x0]旧異種族の宝珠自体には興味ありません。[page]
+<sn:pointer id="120" window="0" trigger="tile 64">[nick:ヨシュア]「それでいいですから[speed][0xa]・・・。[speed][0x0]旧異種族の宝珠自体には興味ありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="121">[nick:ヨシュア]「ご一緒させてもらっていいですか？一人では心細く思っていた所なんです。あなたみたいな人が一緒なら[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="121" window="0" trigger="tile 64">[nick:ヨシュア]「ご一緒させてもらっていいですか？一人では心細く思っていた所なんです。あなたみたいな人が一緒なら[speed][0xa]・・・。[speed][0x0][page]
 [nick:フィア]「あ、ああ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="122">[nick:フィア]「かまわないわよね。[page]
+<sn:pointer id="122" window="0" trigger="tile 64">[nick:フィア]「かまわないわよね。[page]
 [end]</sn:pointer>
 
 </sn:script>

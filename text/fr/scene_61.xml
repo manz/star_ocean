@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ヨシュア][br]
+<sn:pointer id="0" window="0" trigger="tile 21">[nick:ヨシュア][br]
 Maintenant que j'y pense, lorsque mes parents sont décédés,
 j'ai été jeté du haut d'une falaise et laissé pour mort,
 mais un homme est venu me sauver.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア][br]
+<sn:pointer id="1" window="0" trigger="tile 21">[nick:イリア][br]
 Où est-ce qu'il habite ?[page]
 [nick:ヨシュア][br]
 Peu après cette trace.[page]

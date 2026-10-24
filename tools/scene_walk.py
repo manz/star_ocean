@@ -46,10 +46,11 @@ def roots(data: bytes) -> list[int]:
     return [start_up] + [head.length + e.address for e in head.entries]
 
 
-def walk(data: bytes) -> Walk:
+def walk(data: bytes, start: list[int] | None = None) -> Walk:
+    """From `start` (default: every root)."""
     head = header(data)
     code: dict[int, Instruction] = {}
-    todo = roots(data)
+    todo = roots(data) if start is None else list(start)
     while todo:
         pos = todo.pop()
         while pos < len(data) and pos not in code:

@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[mode8][0x38][narration][0x1][page]
+<sn:pointer id="0" window="8" trigger="start">[mode8][0x38][narration][0x1][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[mode8][0x38][narration][0x2][page]
+<sn:pointer id="1" window="8" trigger="start">[mode8][0x38][narration][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[mode8][0x38][narration][0x3][page]
+<sn:pointer id="2" window="8" trigger="start">[mode8][0x38][narration][0x3][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[mode8][0x38][narration][0x4][page]
+<sn:pointer id="3" window="8" trigger="start">[mode8][0x38][narration][0x4][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[mode8][0x38][narration][0x5][page]
+<sn:pointer id="4" window="8" trigger="start">[mode8][0x38][narration][0x5][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[mode8][0x38][narration][0x6][page]
+<sn:pointer id="5" window="8" trigger="start">[mode8][0x38][narration][0x6][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[mode8][0x38][narration][0x7][page]
+<sn:pointer id="6" window="8" trigger="start">[mode8][0x38][narration][0x7][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[mode8][0x38][narration][0x8][page]
+<sn:pointer id="7" window="8" trigger="start">[mode8][0x38][narration][0x8][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[mode8][0x38][narration][0x9][page]
+<sn:pointer id="8" window="8" trigger="start">[mode8][0x38][narration][0x9][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[mode8][0x38][narration][0xa][page]
+<sn:pointer id="9" window="8" trigger="start">[mode8][0x38][narration][0xa][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[mode8][0x38][narration][0xb][page]
+<sn:pointer id="10" window="8" trigger="start">[mode8][0x38][narration][0xb][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[mode8][0x38][narration][0xc][page]
+<sn:pointer id="11" window="8" trigger="start">[mode8][0x38][narration][0xc][page]
 [end]</sn:pointer>
 
 </sn:script>

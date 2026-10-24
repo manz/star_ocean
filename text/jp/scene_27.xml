@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x20][0x0]海賊ヴェルカントの洞くつ[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x20][0x0]海賊ヴェルカントの洞くつ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス]「ひでぇ場所だな。[page]
+<sn:pointer id="1" window="0" trigger="tile 22">[nick:シウス]「ひでぇ場所だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]「何か聞こえるわ。[page]
+<sn:pointer id="2" window="1" trigger="tile 22">[nick:イリア]「何か聞こえるわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「え？[page]
+<sn:pointer id="3" window="1" trigger="tile 22">[nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア]「ほら・・・。[page]
+<sn:pointer id="4" window="0" trigger="tile 22">[nick:イリア]「ほら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス]「笛の音か・・・？こんなところで。[page]
+<sn:pointer id="5" window="0" trigger="tile 22">[nick:シウス]「笛の音か・・・？こんなところで。[page]
 [nick:イリア]「奥よ。行ってみましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ]「ひどい場所だなぁ。[page]
+<sn:pointer id="6" window="0" trigger="tile 22">[nick:ラティ]「ひどい場所だなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:イリア]「何か聞こえるわ。[page]
+<sn:pointer id="7" window="1" trigger="tile 22">[nick:イリア]「何か聞こえるわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ]「え？[page]
+<sn:pointer id="8" window="1" trigger="tile 22">[nick:ラティ]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア]「ほら・・・。[page]
+<sn:pointer id="9" window="0" trigger="tile 22">[nick:イリア]「ほら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]「笛の音のようだな。こんなところで・・・。[page]
+<sn:pointer id="10" window="0" trigger="tile 22">[nick:ラティ]「笛の音のようだな。こんなところで・・・。[page]
 [nick:イリア]「奥よ。行ってみましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「大丈夫か？[page]
+<sn:pointer id="11" window="0" trigger="tile 23">[nick:ラティ]「大丈夫か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">？？？「[speed][0xa]・・・[speed][0x0]また縛るんでしょ。[page]
+<sn:pointer id="12" window="0" trigger="tile 23">？？？「[speed][0xa]・・・[speed][0x0]また縛るんでしょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「は？[page]
+<sn:pointer id="13" window="0" trigger="tile 23">[nick:ラティ]「は？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">？？？「・・・ぐるぐるにするんでしょっ。[page]
+<sn:pointer id="14" window="0" trigger="tile 23">？？？「・・・ぐるぐるにするんでしょっ。[page]
 [nick:シウス]「なに言ってやがる。助けてやろうってんだ、おとなしくついてこい！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]「そんな言い方ないでしょ。[page]
+<sn:pointer id="15" window="0" trigger="tile 23">[nick:イリア]「そんな言い方ないでしょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「私たちはあなたの敵じゃないわ。私は[nick:イリア]、あなたの名前は何て言うの？[page]
+<sn:pointer id="16" window="0" trigger="tile 23">[nick:イリア]「私たちはあなたの敵じゃないわ。私は[nick:イリア]、あなたの名前は何て言うの？[page]
 ？？？「[speed][0xa]・・・・・・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:シウス]「聞くだけ無駄さ。こいつらはこういう無愛想な種族なんだ。もう行こうぜ。[page]
+<sn:pointer id="17" window="0" trigger="tile 23">[nick:シウス]「聞くだけ無駄さ。こいつらはこういう無愛想な種族なんだ。もう行こうぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ]「大丈夫か？[page]
+<sn:pointer id="18" window="0" trigger="tile 23">[nick:ラティ]「大丈夫か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">？？？「[speed][0xa]・・・[speed][0x0]また縛るんでしょ。[page]
+<sn:pointer id="19" window="0" trigger="tile 23">？？？「[speed][0xa]・・・[speed][0x0]また縛るんでしょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]「は？[page]
+<sn:pointer id="20" window="0" trigger="tile 23">[nick:ラティ]「は？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">？？？「・・・ぐるぐるにするんでしょっ。[page]
+<sn:pointer id="21" window="0" trigger="tile 23">？？？「・・・ぐるぐるにするんでしょっ。[page]
 [nick:ラティ]「ずいぶん怖がってるな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア]「私たちはあなたの敵じゃないわ。私は[nick:イリア]、あなたの名前は何て言うの？[page]
+<sn:pointer id="22" window="0" trigger="tile 23">[nick:イリア]「私たちはあなたの敵じゃないわ。私は[nick:イリア]、あなたの名前は何て言うの？[page]
 ？？？「[speed][0xa]・・・・・・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア]「連れて行ってあげましょう。ここに置き去りにはできないわ。[page]
+<sn:pointer id="23" window="0" trigger="tile 23">[nick:イリア]「連れて行ってあげましょう。ここに置き去りにはできないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ]「ガスか？[page]
+<sn:pointer id="24" window="0" trigger="tile 25">[nick:ラティ]「ガスか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">ヴェルカント「なんだ？おまえは？！[page]
+<sn:pointer id="25" window="0" trigger="tile 27">ヴェルカント「なんだ？おまえは？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[color][0x6]火打ち石[color][0x2]を手に入れた。[page]
+<sn:pointer id="26" window="0" trigger="tile 27">[color][0x6]火打ち石[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ]「おまえが、海賊のボスだな！！[page]
+<sn:pointer id="27" window="0" trigger="tile 28">[nick:ラティ]「おまえが、海賊のボスだな！！[page]
 ヴェルカントのボス「じゃまな奴らだ！死ね！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア]「まだ奥があるわ。行ってみましょう。[page]
+<sn:pointer id="28" window="0" trigger="tile 29">[nick:イリア]「まだ奥があるわ。行ってみましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">スイッチを切り替えますか？[page]
+<sn:pointer id="29" choice="yes-no" window="1" trigger="talk 16">スイッチを切り替えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[end]</sn:pointer>
+<sn:pointer id="30" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ]「このドアは体当たりで壊れそうだな。[page]
+<sn:pointer id="32" window="0" trigger="talk 33">[nick:ラティ]「このドアは体当たりで壊れそうだな。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

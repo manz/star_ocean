@@ -29,6 +29,7 @@ NAME_TAG = re.compile(r"\[(?:nick|name):([^\]]*)\]")
 BREAK = "[br]\n"  # ends a line kept as written (a speaker, a choice), then a plain line break
 CENTER = "[center]"  # starts a line (a place name): becomes the [pos] that centres it
 CENTRE_WIDTH = 208  # pixels the Japanese [pos] x values centre on: x = (208 - 12 px * glyphs) / 2
+OPTION = re.compile(r"^(?:\[[^\]]*\])*\d\. ")  # a menu line: "1. ...", after any leading tags
 
 
 def _char_widths(font: Path, table: Path) -> dict[str, int]:
@@ -79,3 +80,19 @@ class DialogLayout:
         game prompts, then scrolls."""
         lines = text.partition(END)[0].replace(PAGE, "\n").split("\n")
         return [f"{self.measure(line)} px: {line[:30]!r}" for line in lines if self.measure(line) > WINDOW_WIDTH]
+
+    def menu_errors(self, text: str, count: int) -> list[str]:
+        """What keeps a `choose` menu of `count` options (tools/annotate.py) from showing one line per option: the
+        option count, an option the reflow would join to the next (no [br]), an option wider than the window. A
+        message with no numbered lines is fine: the menu is built elsewhere."""
+        lines = text.partition(END)[0].split("\n")
+        options = [(i, line) for i, line in enumerate(lines) if OPTION.match(line)]
+        if not options:
+            return []
+        errors = [f"{len(options)} options, choose shows {count}"] if len(options) != count else []
+        for i, line in options:
+            if not line.endswith(("[br]", "[page]")) and i != len(lines) - 1:
+                errors.append(f"no [br]: {line[:30]!r}")
+            if self.measure(line) > WINDOW_WIDTH:
+                errors.append(f"{self.measure(line)} px: {line[:30]!r}")
+        return errors

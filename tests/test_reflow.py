@@ -83,3 +83,26 @@ def test_a_spaced_mark_keeps_one_space(layout: DialogLayout) -> None:
 def test_a_mark_never_opens_a_line(layout: DialogLayout) -> None:
     text = "Allons-y ! [speed][0xa]...[speed][0x0] Mais juste nous, ça ne risque pas d'être un peu[speed][0xa]...[speed][0x0] ?"
     assert not [line for line in layout.page(text).split("\n") if line.startswith("?")]
+
+
+def test_menu_that_fits_has_no_errors(layout: DialogLayout) -> None:
+    assert layout.menu_errors("1. Oui[br]\n2. Non[page]\n[end]", 2) == []
+
+
+def test_menu_counts_its_options(layout: DialogLayout) -> None:
+    assert layout.menu_errors("1. Oui[br]\n2. Non[page]\n[end]", 3) == ["2 options, choose shows 3"]
+
+
+def test_menu_option_wider_than_window(layout: DialogLayout) -> None:
+    option = f"2. {LONG}"
+    assert layout.menu_errors(f"1. Oui[br]\n{option}[page]\n[end]", 2) == [
+        f"{layout.measure(option)} px: {option[:30]!r}"
+    ]
+
+
+def test_menu_option_without_break_would_be_joined(layout: DialogLayout) -> None:
+    assert layout.menu_errors("1. Oui\n2. Non[page]\n[end]", 2) == ["no [br]: '1. Oui'"]
+
+
+def test_menu_built_elsewhere_is_not_checked(layout: DialogLayout) -> None:
+    assert layout.menu_errors("[center]Ascenseur[page]\n[end]", 1) == []

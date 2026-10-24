@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Otanim[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Otanim[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Gamin[br]
+<sn:pointer id="1" window="1" trigger="tile 20">Gamin[br]
 Whaaaa ! Il a des ailes ![page]
 Fillette[br]
 Il est tellement beau ♥[page]
@@ -15,27 +15,27 @@ Mary[br]
 Quelle bande de groupies vous faites, toutes les deux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1. Aider [nick:ヨシュア][br]
+<sn:pointer id="2" choice="2" window="1" trigger="tile 20">1. Aider [nick:ヨシュア][br]
 2. Aller l'admirer[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ][br]
+<sn:pointer id="3" window="0" trigger="tile 20">[nick:ラティ][br]
 Dégagez, c'est pas une bête de foire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Chelsea[br]
+<sn:pointer id="4" window="0" trigger="tile 20">Chelsea[br]
 C'est quoi ton problème ?[page]
 Myuki[br]
 Allez, encore un peu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ][br]
+<sn:pointer id="5" window="0" trigger="tile 20">[nick:ラティ][br]
 Ça va ?[page]
 [nick:ヨシュア][br]
 [speed][0xa]...[speed][0x0] Oui, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ヨシュア][br]
+<sn:pointer id="6" window="0" trigger="tile 20">[nick:ヨシュア][br]
 Je devrais m'y habituer, mais ça me déstabilise vraiment quand les gens se pressent autour de moi de la sorte.[page]
 [nick:ラティ][br]
 Euh, ouais.[page]
@@ -43,192 +43,192 @@ Euh, ouais.[page]
 Je pense souvent que ça serait mieux si je n'avais pas d'ailes, mais c'est le corps que mes parents m'ont donné...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="tile 20">[nick:ラティ][br]
 Vous êtes tellement populaire, [nick:ヨシュア] ![page]
 [nick:ヨシュア][br]
 Croyez-vous que le moment soit approprié ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:シウス][br]
+<sn:pointer id="8" window="1" trigger="tile 20">[nick:シウス][br]
 [speed][0x1]Hé vous là ![speed][0x5]![speed][0x1] C'est pas carnaval[speed][0x5]![speed][0x1] Foutez le camp d'ici ![speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス][br]
+<sn:pointer id="9" window="1" trigger="tile 20">[nick:シウス][br]
 Ça va ?[page]
 [nick:ヨシュア][br]
 Oui, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:シウス][br]
+<sn:pointer id="10" window="0" trigger="tile 20">[nick:シウス][br]
 [nick:ラティ], t'avais quoi dans ta tronche d'aller piailler avec ces groupies ?[page]
 [nick:ヨシュア][br]
 [nick:シウス], tout va bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:アシュレイ][br]
+<sn:pointer id="11" window="1" trigger="tile 20">[nick:アシュレイ][br]
 Hé ! Vous faites quoi, là ? C'est pas une bête de foire ![end]</sn:pointer>
 
-<sn:pointer id="12">[nick:アシュレイ][br]
+<sn:pointer id="12" window="1" trigger="tile 20">[nick:アシュレイ][br]
 Ça va ?[page]
 [nick:ヨシュア][br]
 Oui, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:アシュレイ][br]
+<sn:pointer id="13" window="0" trigger="tile 20">[nick:アシュレイ][br]
 Tu n'aurais pas dû aller là-bas et les encourager.[page]
 [nick:ヨシュア][br]
 [nick:アシュレイ], tout va bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:フィア][br]
+<sn:pointer id="14" window="1" trigger="tile 20">[nick:フィア][br]
 Hé, vous ! [nick:ヨシュア] n'est pas une bête de foire ![end]</sn:pointer>
 
-<sn:pointer id="15">[nick:フィア][br]
+<sn:pointer id="15" window="1" trigger="tile 20">[nick:フィア][br]
 Ça va ?[page]
 [nick:ヨシュア][br]
 Oui, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア][br]
+<sn:pointer id="16" window="0" trigger="tile 20">[nick:フィア][br]
 [nick:ラティ], tu trouves ça drôle d'aller te joindre à eux et de te moquer ?[page]
 [nick:ヨシュア][br]
 [nick:フィア], tout va bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="1" trigger="tile 20">[nick:イリア][br]
 Qu'est-ce que vous faites ?! On n'est pas au cirque ![end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア][br]
+<sn:pointer id="18" window="1" trigger="tile 20">[nick:イリア][br]
 Ça va ?[page]
 [nick:ヨシュア][br]
 Oui, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:イリア][br]
+<sn:pointer id="19" window="0" trigger="tile 20">[nick:イリア][br]
 [nick:ラティ], tu n'aurais jamais dû te joindre à eux et agir de la sorte. Je t'ai mal jugé.[page]
 [nick:ヨシュア][br]
 [nick:イリア], tout va bien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[page]
+<sn:pointer id="20" window="0" trigger="tile 20">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Mage[br]
+<sn:pointer id="21" window="0" trigger="talk 16" npc="Mage">Mage[br]
 Connaissez-vous l'orichalque ? Il paraît que c'est un métal possédant la magie d'annuler la gravité.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Jeune homme[br]
+<sn:pointer id="22" window="0" trigger="talk 17" npc="Jeune homme">Jeune homme[br]
 Savez-vous d'où sortent les monstres du monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Rudoa l'aventurier[br]
+<sn:pointer id="23" window="0" trigger="talk 18" npc="Rudoa l'aventurier">Rudoa l'aventurier[br]
 En continuant au sud de la ville et en suivant le continent, vous irez à [color][0x4]Tatroï[color][0x2], une ville célèbre pour son arène.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Peintre en devenir[br]
+<sn:pointer id="24" window="1" trigger="talk 19" npc="Peintre en devenir">Peintre en devenir[br]
 Qu'en dites-vous ? Je vous fais un portrait pour [color][0x5]5[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1. Faire un portrait de [nick:ラティ][br]
+<sn:pointer id="25" choice="3" window="1" trigger="talk 19" npc="Peintre en devenir">1. Faire un portrait de [nick:ラティ][br]
 2. Faire un portrait de [nick:イリア][br]
 3. Décliner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="26" window="0" trigger="talk 19" npc="Peintre en devenir">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[end]</sn:pointer>
+<sn:pointer id="27" window="0" trigger="talk 19" npc="Peintre en devenir">[end]</sn:pointer>
 
-<sn:pointer id="28">Vous obtenez une [color][0x6]peinture ♂[color][0x2].[page]
+<sn:pointer id="28" window="0" trigger="talk 19" npc="Peintre en devenir">Vous obtenez une [color][0x6]peinture ♂[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Vous obtenez une [color][0x6]peinture ♀[color][0x2].[page]
+<sn:pointer id="29" window="0" trigger="talk 19" npc="Peintre en devenir">Vous obtenez une [color][0x6]peinture ♀[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:シウス][br]
+<sn:pointer id="30" window="0" trigger="talk 5">[nick:シウス][br]
 Bon sang ce que j'ai envie de me tirer dans une plus grosse ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ヨシュア][br]
+<sn:pointer id="31" window="0" trigger="talk 6">[nick:ヨシュア][br]
 Ça va bien maintenant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ペリシー][br]
+<sn:pointer id="32" window="0" trigger="talk 10">[nick:ペリシー][br]
 Miaaaaou.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">Peintre en devenir[br]
+<sn:pointer id="33" window="0" trigger="talk 8 talk 19" npc="Peintre en devenir">Peintre en devenir[br]
 Quelle femme sublime ! Je vous en prie, laissez-moi faire un portrait de vous.[page]
 [nick:マーヴェル][br]
 Hein ? Non-non merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">Rosario[br]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="Rosario">Rosario[br]
 Vous ne connaîtriez pas un bon peintre ? J'aimerais devenir son apprenti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">Rosario[br]
+<sn:pointer id="35" window="0" trigger="talk 21" npc="Rosario">Rosario[br]
 Ooohhh.... Gnnnn... Quoi ? Non je ne suis pas bourré.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">Chelsea[br]
+<sn:pointer id="36" window="0" trigger="talk 22" npc="Chelsea">Chelsea[br]
 Vous connaissez le groupe les Stalkers[speed][0xf]?[speed][0x0] Ils sont géniaux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Mary[br]
+<sn:pointer id="37" window="1" trigger="talk 23" npc="Mary">Mary[br]
 On vend des livres sur les Stalkers [speed][0xf]♥[speed][0x0]
 C'est [color][0x4]980[color][0x2] Fol. Vous en voulez un ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">1. Acheter un livre[br]
+<sn:pointer id="38" choice="2" window="1" trigger="talk 23" npc="Mary">1. Acheter un livre[br]
 2. Décliner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Vous obtenez un [color][0x6]FanArt 4[color][0x2].[page]
+<sn:pointer id="39" window="0" trigger="talk 23" npc="Mary">Vous obtenez un [color][0x6]FanArt 4[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Vous ne pouvez rien porter de plus.[page]
+<sn:pointer id="40" window="0" trigger="talk 23" npc="Mary">Vous ne pouvez rien porter de plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="41" window="0" trigger="talk 23" npc="Mary">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[end]</sn:pointer>
+<sn:pointer id="42" window="0" trigger="talk 23" npc="Mary">[end]</sn:pointer>
 
-<sn:pointer id="43">Myuki[br]
+<sn:pointer id="43" window="0" trigger="talk 24" npc="Myuki">Myuki[br]
 La voix de Morilyn est tellement suave[speed][0xf].[speed][0x0] Haaaaaaaan[speed][0x5] [speed][0x0]♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">Myuki[br]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="Myuki">Myuki[br]
 C'est tellement agréable de contempler les étoiles toute seule la nuit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">Ray[br]
+<sn:pointer id="45" window="0" trigger="talk 25" npc="Ray">Ray[br]
 Mon plat favori ? Je raffole du chou farci.[page]
 Ray[br]
 En mangeant votre plat préféré, vous récupérez tous vos PV et PM.[page]
 Je ne prends jamais aucun médicament, ils sont mauvais pour la santé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">Jeune homme[br]
+<sn:pointer id="46" window="0" trigger="talk 26" npc="Jeune homme">Jeune homme[br]
 On raconte que les Semi Felpurrs excellent dans tout ce qui touche au rythme. Mais moi, je suis sourd ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Rowell l'épéiste[br]
+<sn:pointer id="47" window="0" trigger="talk 27" npc="Rowell l'épéiste">Rowell l'épéiste[br]
 Il paraît qu'on peut remporter un arcane à l'arène de [color][0x4]Tatroï[color][0x2]... Vous pensez que c'est vrai ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">Fille[br]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="Fille">Fille[br]
 Vous êtes à [color][0x4]Otanim[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ロニキス][br]
+<sn:pointer id="49" window="0" trigger="talk 3">[nick:ロニキス][br]
 [nick:ラティ], que veux-tu faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">La porte est verrouillée.[page]
+<sn:pointer id="50" window="0" trigger="talk 32 talk 33 talk 34 talk 35 talk 36 talk 37">La porte est verrouillée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:イリア][br]
+<sn:pointer id="51" window="0" trigger="tile 1 tile 2">[nick:イリア][br]
 Allons d'abord passer la nuit à l'auberge.[page]
 [end]</sn:pointer>
 

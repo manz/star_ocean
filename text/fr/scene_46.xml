@@ -1,178 +1,178 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[color][0x6][item][0xfa][0x13][color][0x2] obtenu.[page]
+<sn:pointer id="0" window="1" trigger="search">[color][0x6][item][0xfa][0x13][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア][br]
+<sn:pointer id="1" window="1" trigger="tile 126">[nick:イリア][br]
 Il commence à se faire tard.
 On devrait rester à l'auberge pour cette nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:シウス][br]
+<sn:pointer id="2" window="0" trigger="tile 126">[nick:シウス][br]
 Ouaip ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="0" trigger="tile 126">[end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス][br]
+<sn:pointer id="4" window="0" trigger="tile 126">[nick:シウス][br]
 Il y a une superbe arène ici. Ça doit être
 trop cool d'y combattre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:アシュレイ][br]
+<sn:pointer id="5" window="0" trigger="tile 126">[nick:アシュレイ][br]
 [color][0x4]Tatroï[color][0x2]...
 Pour moi, c'est comme ma maison ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ミリー][br]
+<sn:pointer id="6" window="0" trigger="tile 126">[nick:ミリー][br]
 C'est pas là qu'il y a une arène ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:イリア][br]
+<sn:pointer id="7" window="0" trigger="tile 126">[nick:イリア][br]
 C'est d'ici qu'on rejoint la
 [color][0x4]ville d'Astral[color][0x2], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Vous ne pouvez plus rien porter.[page]
+<sn:pointer id="8" window="0" trigger="search">Vous ne pouvez plus rien porter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="search">[end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア][br]
+<sn:pointer id="10" window="0" trigger="start tile 51 tile 52">[nick:イリア][br]
 Allez, on y va ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:イリア][br]
+<sn:pointer id="11" window="0" trigger="start tile 51 tile 52">[nick:イリア][br]
 Tu t'es bien reposé, [nick:ラティ] ?
 Allons au [color][0x4]temple de Parj[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア][br]
+<sn:pointer id="12" window="0" trigger="start tile 51 tile 52">[nick:イリア][br]
 OK, on continue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ロニキス][br]
+<sn:pointer id="13" window="0" trigger="start tile 51 tile 52">[nick:ロニキス][br]
 Assez de repos. Allons demander audience
 aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ロニキス][br]
+<sn:pointer id="14" window="0" trigger="start tile 51 tile 52">[nick:ロニキス][br]
 Assez traîné.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ミリー][br]
+<sn:pointer id="15" window="0" trigger="start tile 51 tile 52">[nick:ミリー][br]
 Le temple est à l'ouest de [color][0x4]Tatroï[color][0x2], c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:シウス][br]
+<sn:pointer id="16" window="0" trigger="start tile 51 tile 52">[nick:シウス][br]
 Allez ! Direction le monde démoniaque ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:シウス][br]
+<sn:pointer id="17" window="0" trigger="start tile 51 tile 52">[nick:シウス][br]
 On n'était pas censés aller au [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:シウス][br]
+<sn:pointer id="18" window="0" trigger="start tile 51 tile 52">[nick:シウス][br]
 Le combat me sied mieux que la randonnée ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:アシュレイ][br]
+<sn:pointer id="19" window="0" trigger="start tile 51 tile 52">[nick:アシュレイ][br]
 On ne devait pas interroger les rois
 à propos de l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:フィア][br]
+<sn:pointer id="20" window="0" trigger="start tile 51 tile 52">[nick:フィア][br]
 Vous vous souvenez où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:フィア][br]
+<sn:pointer id="21" window="0" trigger="start tile 51 tile 52">[nick:フィア][br]
 On y va ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ヨシュア][br]
+<sn:pointer id="22" window="0" trigger="start tile 51 tile 52">[nick:ヨシュア][br]
 On ne va pas dans le monde démoniaque ?
 Nous pouvons y aller depuis [color][0x4]Sylvalant[color][0x2], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ヨシュア][br]
+<sn:pointer id="23" window="0" trigger="start tile 51 tile 52">[nick:ヨシュア][br]
 Nous devrions nous dépêcher de voir les rois et trouver
 l'[color][0x6]œil de vérité[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ヨシュア][br]
+<sn:pointer id="24" window="0" trigger="start tile 51 tile 52">[nick:ヨシュア][br]
 Parfois c'est sympa, aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア][br]
+<sn:pointer id="25" window="0" trigger="tile 126">[nick:イリア][br]
 Vous ne croyez pas qu'on devrait se dépêcher d'aller
 dans le monde démoniaque au lieu de glandouiller ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:イリア][br]
+<sn:pointer id="26" window="0" trigger="tile 126">[nick:イリア][br]
 On va vraiment retrouver les autres juste en se baladant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:イリア][br]
+<sn:pointer id="27" window="0" trigger="tile 126">[nick:イリア][br]
 On peut faire une pause ?
 J'ai les pieds en compote ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ロニキス][br]
+<sn:pointer id="28" window="0" trigger="tile 126">[nick:ロニキス][br]
 N'oublie pas notre but ; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ロニキス][br]
+<sn:pointer id="29" window="0" trigger="tile 126">[nick:ロニキス][br]
 Qu'est-ce que tu vas faire, [nick:ラティ] ?
 Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ミリー][br]
+<sn:pointer id="30" window="0" trigger="tile 126">[nick:ミリー][br]
 Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ミリー][br]
+<sn:pointer id="31" window="0" trigger="tile 126">[nick:ミリー][br]
 On peut se reposer un peu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:シウス][br]
+<sn:pointer id="32" window="0" trigger="tile 126">[nick:シウス][br]
 On devait pas aller poutrer
 Asmodeus ? C'est ptet pas une
 bonne idée de faire mumuse
 dans le coin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:シウス][br]
+<sn:pointer id="33" window="0" trigger="tile 126">[nick:シウス][br]
 J'pars devant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:アシュレイ][br]
+<sn:pointer id="34" window="0" trigger="tile 126">[nick:アシュレイ][br]
 Je doute que ce soit l'heure de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:アシュレイ][br]
+<sn:pointer id="35" window="0" trigger="tile 126">[nick:アシュレイ][br]
 Je doute que ce soit l'heure de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:フィア][br]
+<sn:pointer id="36" window="0" trigger="tile 126">[nick:フィア][br]
 Nous n'allons plus dans le monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:フィア][br]
+<sn:pointer id="37" window="0" trigger="tile 126">[nick:フィア][br]
 [speed][0xa][speed][0x0]On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ヨシュア][br]
+<sn:pointer id="38" window="0" trigger="tile 126">[nick:ヨシュア][br]
 On va s'arrêter un moment, nous repartirons ensuite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:マーヴェル][br]
+<sn:pointer id="39" window="0" trigger="tile 126">[nick:マーヴェル][br]
 Nous allons nous arrêter dans cette ville, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">Il n'y a rien d'écrit.[page]
+<sn:pointer id="40" window="0" trigger="talk 16">Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Nord-Est : Otanim[page]
+<sn:pointer id="41" window="0" trigger="talk 16">Nord-Est : Otanim[page]
 [end]</sn:pointer>
 
 </sn:script>

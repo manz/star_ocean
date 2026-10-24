@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x5c][0x0]民家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x5c][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x56][0x0]雑貨屋[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x56][0x0]雑貨屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">お婆さん「あれ、訪ね人とは珍しいのぉ。ささ、ここさねまれ。[page]
+<sn:pointer id="3" window="1" trigger="talk 16" npc="お婆さん">お婆さん「あれ、訪ね人とは珍しいのぉ。ささ、ここさねまれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">1．服のことを聞いてみる
+<sn:pointer id="4" choice="2" window="1" trigger="talk 16" npc="お婆さん">1．服のことを聞いてみる
 2．聞かない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]「あのぅ、若い女性用の服ってあれば譲ってもらいたいんですけど。[page]
+<sn:pointer id="5" window="0" trigger="talk 16" npc="お婆さん">[nick:ラティ]「あのぅ、若い女性用の服ってあれば譲ってもらいたいんですけど。[page]
 お婆さん「なんか訳ありかい？はいはい、そういうことなら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">お婆さん「嫁にいった娘のもんじゃけん、ちと古いけっどもこれでよかったら持っていきなんしょ。[page]
+<sn:pointer id="6" window="0" trigger="talk 16" npc="お婆さん">お婆さん「嫁にいった娘のもんじゃけん、ちと古いけっどもこれでよかったら持っていきなんしょ。[page]
 [nick:ラティ]「ありがとうございます。[page]
 お婆さん「なになに。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="talk 16" npc="お婆さん">[end]</sn:pointer>
 
-<sn:pointer id="8">お婆さん「嫁に行った娘は元気かのう。[page]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="お婆さん">お婆さん「嫁に行った娘は元気かのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">おやじ「いらっしゃい。お、見ない顔だな。[page]
+<sn:pointer id="9" window="1" trigger="talk 17" npc="おやじ">おやじ「いらっしゃい。お、見ない顔だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1．服のことを聞いてみる
+<sn:pointer id="10" choice="2" window="1" trigger="talk 17" npc="おやじ">1．服のことを聞いてみる
 2．買い物をする[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「あの[speed][0xa]・・・[speed][0x0]若い女性用の服って売ってますか？[page]
+<sn:pointer id="11" window="0" trigger="talk 17" npc="おやじ">[nick:ラティ]「あの[speed][0xa]・・・[speed][0x0]若い女性用の服って売ってますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">おやじ「コレへのプレゼントかい？[page]
+<sn:pointer id="12" window="0" trigger="talk 17" npc="おやじ">おやじ「コレへのプレゼントかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「いや、そうじゃなくて、もっと普通の・・・。[page]
+<sn:pointer id="13" window="0" trigger="talk 17" npc="おやじ">[nick:ラティ]「いや、そうじゃなくて、もっと普通の・・・。[page]
 おやじ「こんなんでいいのか？どっちかっていうと冒険者用の普段着だけどな。[page]
 [nick:ラティ]「それで・・いや[speed][0xf]、[speed][0x0]それがいいです！[page]
 おやじ「[color][0x5]5[color][0x2]・・・いや[color][0x5]10[color][0x2]フォルになるな[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1．アヤシイけどまぁいいか。
+<sn:pointer id="14" choice="2" window="1" trigger="talk 17" npc="おやじ">1．アヤシイけどまぁいいか。
 2．やめとく[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]「じゃあ、それください。[page]
+<sn:pointer id="15" window="0" trigger="talk 17" npc="おやじ">[nick:ラティ]「じゃあ、それください。[page]
 おやじ「ふぅ、まいどあり。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 17" npc="おやじ">[end]</sn:pointer>
 
-<sn:pointer id="17">[end]</sn:pointer>
+<sn:pointer id="17" window="0" trigger="talk 17" npc="おやじ">[end]</sn:pointer>
 
-<sn:pointer id="18">おやじ「いらっしゃい！[page]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="おやじ">おやじ「いらっしゃい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">宿屋のお婆さん「よく眠れたかい？[page]
+<sn:pointer id="19" window="0" trigger="talk 18" npc="宿屋のお婆さん">宿屋のお婆さん「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">宿屋のお婆さん「いらっしゃい。
+<sn:pointer id="20" choice="yes-no" window="1" trigger="talk 18" npc="宿屋のお婆さん">宿屋のお婆さん「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="talk 18" npc="宿屋のお婆さん">[end]</sn:pointer>
 
-<sn:pointer id="22">お金が足りません。[page]
+<sn:pointer id="22" window="0" trigger="talk 18" npc="宿屋のお婆さん">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 18" npc="宿屋のお婆さん">[end]</sn:pointer>
 
-<sn:pointer id="24">冒険者「そんな二人組はみてないなぁ。[page]
+<sn:pointer id="24" window="0" trigger="talk 19" npc="冒険者">冒険者「そんな二人組はみてないなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">冒険者「ふらふらとこんなイナカまで来てしまったが、ヒマでしょうがない！！[page]
+<sn:pointer id="25" window="0" trigger="talk 19" npc="冒険者">冒険者「ふらふらとこんなイナカまで来てしまったが、ヒマでしょうがない！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">年頃のリリー「え？その娘、かわいいの？[page]
+<sn:pointer id="26" window="1" trigger="talk 20" npc="年頃のリリー">年頃のリリー「え？その娘、かわいいの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">1．うん
+<sn:pointer id="27" choice="2" window="1" trigger="talk 20" npc="年頃のリリー">1．うん
 2．たいしたことないよ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">年頃のリリー「きゃー♪そうなんだ・・・。[page]
+<sn:pointer id="28" window="0" trigger="talk 20" npc="年頃のリリー">年頃のリリー「きゃー♪そうなんだ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">年頃のリリー「[speed][0xa]・・・[speed][0x0]ほんとぉ？[page]
+<sn:pointer id="29" window="0" trigger="talk 20" npc="年頃のリリー">年頃のリリー「[speed][0xa]・・・[speed][0x0]ほんとぉ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">年頃のリリー「あーもう、こんな雑貨屋の片隅で手伝いなんて、イヤ！[page]
+<sn:pointer id="30" window="0" trigger="talk 20" npc="年頃のリリー">年頃のリリー「あーもう、こんな雑貨屋の片隅で手伝いなんて、イヤ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:フィア]「[nick:ミリー]はまだ外でネコと遊んでるのか？本当に好きなんだな。[page]
+<sn:pointer id="31" window="0" trigger="talk 11">[nick:フィア]「[nick:ミリー]はまだ外でネコと遊んでるのか？本当に好きなんだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ロニキス]「[nick:イリア]までいっしょになってネコと遊んでるのか[page]
+<sn:pointer id="32" window="0" trigger="talk 3">[nick:ロニキス]「[nick:イリア]までいっしょになってネコと遊んでるのか[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ヨシュア]「僕はこういう人が少ない所のほうが好きですね。[page]
+<sn:pointer id="33" window="0" trigger="talk 6">[nick:ヨシュア]「僕はこういう人が少ない所のほうが好きですね。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

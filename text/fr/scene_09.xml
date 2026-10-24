@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Village de Laponia[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Village de Laponia[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Village de Laponia[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Village de Laponia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ドーン][br]
+<sn:pointer id="3" window="0" trigger="tile 2">[nick:ドーン][br]
 Hey ! Dépêchons-nous de retrouver
 [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ][br]
+<sn:pointer id="4" window="0" trigger="tile 2">[nick:ラティ][br]
 Par là, c'est le [color][0x4]mont Métox[color][0x2].
 Elle court un grand danger en s'y aventurant toute seule.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ドーン][br]
+<sn:pointer id="5" window="0" trigger="tile 9">[nick:ドーン][br]
 C'est [nick:ミリー][speed][0xf].[speed][0x0] Rattrapons-la ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Jeune homme[br]
+<sn:pointer id="6" window="0" trigger="talk 16" npc="Jeune homme">Jeune homme[br]
 Tu viens de [color][0x4]Clatos[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Vieille femme[br]
+<sn:pointer id="7" window="0" trigger="talk 17" npc="Vieille femme">Vieille femme[br]
 Tous les hommes du village sont partis travailler loin d'ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Femme[br]
+<sn:pointer id="8" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Aujourd'hui, il faut que je cuisine de mon mieux. Pour demain, vous savez.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Vieil homme[br]
+<sn:pointer id="9" window="0" trigger="talk 19" npc="Vieil homme">Vieil homme[br]
 C'est le [color][0x4]village de Laponia[color][0x2]. Au Nord, il y a le [color][0x4]mont Métox[color][0x2], mais c'est très dangereux.[page]
 Vieil homme[br]
 Mieux vaut rester ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Vieil homme[br]
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Vieil homme">Vieil homme[br]
 Vous ne devriez pas me toucher, je
 suis déjà contaminé.[page]
 Vieil homme[br]
@@ -51,7 +51,7 @@ Vieil homme[br]
 Mais avec des plantes médicinales poussant au [color][0x4]mont Métox[color][0x2], je pourrais être sauvé...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="talk 21">[nick:ラティ][br]
 (Il a été changé en pierre...
 Ne disait-il pas que le [color][0x4]mont Métox[color][0x2] se trouvait au Nord ?)[page]
 [end]</sn:pointer>

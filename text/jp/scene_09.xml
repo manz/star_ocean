@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4a][0x0]クール村[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x4a][0x0]クール村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x4a][0x0]クール村[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x4a][0x0]クール村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x4a][0x0]クール村[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x4a][0x0]クール村[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ドーン]「おい、早く[nick:ミリー]を捜さなきゃ。[page]
+<sn:pointer id="3" window="0" trigger="tile 2">[nick:ドーン]「おい、早く[nick:ミリー]を捜さなきゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ]「この先は[color][0x4]メトークス山[color][0x2]だ。一人じゃ危険だな。[page]
+<sn:pointer id="4" window="0" trigger="tile 2">[nick:ラティ]「この先は[color][0x4]メトークス山[color][0x2]だ。一人じゃ危険だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ドーン]「[nick:ミリー]だ[speed][0xf]。[speed][0x0]追いかけよう！！[page]
+<sn:pointer id="5" window="0" trigger="tile 9">[nick:ドーン]「[nick:ミリー]だ[speed][0xf]。[speed][0x0]追いかけよう！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">若者「君は[color][0x4]クラトス[color][0x2]から来たのかい？[page]
+<sn:pointer id="6" window="0" trigger="talk 16" npc="若者">若者「君は[color][0x4]クラトス[color][0x2]から来たのかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">老婆「この村の男たちはほとんどが出稼ぎに行っとるんじゃ。[page]
+<sn:pointer id="7" window="0" trigger="talk 17" npc="老婆">老婆「この村の男たちはほとんどが出稼ぎに行っとるんじゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">妻「今日は腕によりをかけて料理しなくちゃ。明日のためにね。[page]
+<sn:pointer id="8" window="0" trigger="talk 18" npc="妻">妻「今日は腕によりをかけて料理しなくちゃ。明日のためにね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">おじいさん「ここは[color][0x4]クール村[color][0x2]じゃ。
+<sn:pointer id="9" window="0" trigger="talk 19" npc="おじいさん">おじいさん「ここは[color][0x4]クール村[color][0x2]じゃ。
 町の北を出ると[color][0x4]メトークス山[color][0x2]だが、
 危険なのであまり近づくでないぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">おじいさん「あっ！
+<sn:pointer id="10" window="0" trigger="talk 20" npc="おじいさん">おじいさん「あっ！
 わしにさわってはイカン。
 もう、感染しとるんじゃ・・・。[page]
 おじいさん「この町ももう絆わりかの・・・。
@@ -40,7 +40,7 @@
 おじいさん「[color][0x4]メトークス山[color][0x2]にある薬草があれば助かるかもしれん・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]
+<sn:pointer id="11" window="0" trigger="talk 21">[nick:ラティ]
 （もう石になっている・・。
 “町の北を出ると[color][0x4]メトークス山[color][0x2]じゃ”とよく言っていたっけ・・・。）[page]
 [end]</sn:pointer>

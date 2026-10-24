@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Repaire de pirates[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Repaire de pirates[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス][br]
+<sn:pointer id="1" window="0" trigger="tile 22">[nick:シウス][br]
 Cet endroit est tout bonnement horrible ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア][br]
+<sn:pointer id="2" window="1" trigger="tile 22">[nick:イリア][br]
 J'entends quelque chose.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ][br]
+<sn:pointer id="3" window="1" trigger="tile 22">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア][br]
+<sn:pointer id="4" window="0" trigger="tile 22">[nick:イリア][br]
 Écoute...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス][br]
+<sn:pointer id="5" window="0" trigger="tile 22">[nick:シウス][br]
 Une flûte... ? Ici ?[page]
 [nick:イリア][br]
 Ça vient de là-dedans. Allons voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ][br]
+<sn:pointer id="6" window="0" trigger="tile 22">[nick:ラティ][br]
 Quel endroit sordide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:イリア][br]
+<sn:pointer id="7" window="1" trigger="tile 22">[nick:イリア][br]
 J'entends quelque chose...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ][br]
+<sn:pointer id="8" window="1" trigger="tile 22">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア][br]
+<sn:pointer id="9" window="0" trigger="tile 22">[nick:イリア][br]
 Écoute...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ][br]
+<sn:pointer id="10" window="0" trigger="tile 22">[nick:ラティ][br]
 On dirait une flûte.
 C'est étrange...[page]
 [nick:イリア][br]
 Ça vient de l'intérieur. Allons voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="tile 23">[nick:ラティ][br]
 Vous n'avez rien ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">???[br]
+<sn:pointer id="12" window="0" trigger="tile 23">???[br]
 [speed][0xa]...[speed][0x0]Vous allez encore m'attacher, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="tile 23">[nick:ラティ][br]
 Quoi !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">???[br]
+<sn:pointer id="14" window="0" trigger="tile 23">???[br]
 Vous allez encore me ligoter, c'est ça ?[page]
 [nick:シウス][br]
 Qu'est-ce que vous racontez ? On est là pour vous sauver.
 Suivez-nous si vous voulez rester en vie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア][br]
+<sn:pointer id="15" window="0" trigger="tile 23">[nick:イリア][br]
 Ne parle pas comme ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア][br]
+<sn:pointer id="16" window="0" trigger="tile 23">[nick:イリア][br]
 Nous ne vous voulons pas de mal.
 Je m'appelle [nick:イリア], et vous ?[page]
 ???[br]
 Je[speed][0xa].........[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:シウス][br]
+<sn:pointer id="17" window="0" trigger="tile 23">[nick:シウス][br]
 Inutile de discuter. C'est une race asociale.
 Continuons...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ][br]
+<sn:pointer id="18" window="0" trigger="tile 23">[nick:ラティ][br]
 Tout va bien ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">???[br]
+<sn:pointer id="19" window="0" trigger="tile 23">???[br]
 [speed][0xa]...[speed][0x0]Vous allez encore m'attacher, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ][br]
+<sn:pointer id="20" window="0" trigger="tile 23">[nick:ラティ][br]
 Quoi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">???[br]
+<sn:pointer id="21" window="0" trigger="tile 23">???[br]
 Vous allez encore me ligoter, c'est ça ?[page]
 [nick:ラティ][br]
 Elle est complètement secouée ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア][br]
+<sn:pointer id="22" window="0" trigger="tile 23">[nick:イリア][br]
 Nous ne te voulons aucun mal.
 Je m'appelle [nick:イリア], et toi ?[page]
 ???[br]
 [speed][0xa].........[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア][br]
+<sn:pointer id="23" window="0" trigger="tile 23">[nick:イリア][br]
 Emmenons-la, on ne peut pas
 la laisser ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ][br]
+<sn:pointer id="24" window="0" trigger="tile 25">[nick:ラティ][br]
 Du gaz ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Velcant[br]
+<sn:pointer id="25" window="0" trigger="tile 27">Velcant[br]
 Quoi ? Mais qui êtes-vous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Vous avez trouvé un [color][0x6]Silex[color][0x2].[page]
+<sn:pointer id="26" window="0" trigger="tile 27">Vous avez trouvé un [color][0x6]Silex[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ][br]
+<sn:pointer id="27" window="0" trigger="tile 28">[nick:ラティ][br]
 Alors c'est toi le chef des pirates ?![page]
 Chef Velcant[br]
 Sombres crétins ! Marins d'eau douce !
 Vous allez crever !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア][br]
+<sn:pointer id="28" window="0" trigger="tile 29">[nick:イリア][br]
 Nous pouvons continuer. Allons voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">Activer l'interrupteur ?[page]
+<sn:pointer id="29" choice="yes-no" window="1" trigger="talk 16">Activer l'interrupteur ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[end]</sn:pointer>
+<sn:pointer id="30" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 16">[end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ][br]
+<sn:pointer id="32" window="0" trigger="talk 33">[nick:ラティ][br]
 Je pense que cette porte peut être enfoncée.[page]
 [end]</sn:pointer>
 

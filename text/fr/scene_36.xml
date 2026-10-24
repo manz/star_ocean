@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Port d'Astral[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Port d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Port d'Astral[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Port d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア][br]
+<sn:pointer id="2" window="0" trigger="talk 20" npc="Marin">[nick:イリア][br]
 Je suis fatiguée. Allons dormir chez Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア][br]
+<sn:pointer id="3" window="0" trigger="talk 20" npc="Marin">[nick:イリア][br]
 Je suis fatiguée. Allons dormir à l'auberge...[page]
 [nick:シウス][br]
 Oui, j'ai aussi du mal à garder les yeux ouverts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア][br]
+<sn:pointer id="4" window="0" trigger="talk 20" npc="Marin">[nick:イリア][br]
 Je suis fatiguée. Allons dormir à l'auberge...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Marin[br]
+<sn:pointer id="5" choice="yes-no" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Vous allez à [color][0x4]Tatroï[color][0x2] ?
 Alors il faut payer d'avance. C'est 80 Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Marin[br]
+<sn:pointer id="6" window="0" trigger="talk 20" npc="Marin">Marin[br]
 Faudrait p'têt penser à faire l'appoint, là ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[end]</sn:pointer>
+<sn:pointer id="7" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
 </sn:script>

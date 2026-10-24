@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[end]</sn:pointer>
+<sn:pointer id="0" window="8" trigger="talk 17">[end]</sn:pointer>
 
-<sn:pointer id="1">鉱石があるようだが、
+<sn:pointer id="1" window="0" trigger="talk 17">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
+<sn:pointer id="2" window="0" trigger="talk 17">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="8" trigger="talk 18">[end]</sn:pointer>
 
-<sn:pointer id="4">鉱石があるようだが、
+<sn:pointer id="4" window="0" trigger="talk 18">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
+<sn:pointer id="5" window="0" trigger="talk 18">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[end]</sn:pointer>
+<sn:pointer id="6" window="8" trigger="talk 19">[end]</sn:pointer>
 
-<sn:pointer id="7">鉱石があるようだが、
+<sn:pointer id="7" window="0" trigger="talk 19">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
+<sn:pointer id="8" window="0" trigger="talk 19">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="8" trigger="talk 20">[end]</sn:pointer>
 
-<sn:pointer id="10">鉱石があるようだが、
+<sn:pointer id="10" window="0" trigger="talk 20">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
+<sn:pointer id="11" window="0" trigger="talk 20">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="8" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="13">鉱石があるようだが、
+<sn:pointer id="13" window="0" trigger="talk 21">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
+<sn:pointer id="14" window="0" trigger="talk 21">[color][0x6]ルーンメタル[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="8" trigger="talk 22">[end]</sn:pointer>
 
-<sn:pointer id="16">鉱石があるようだが、
+<sn:pointer id="16" window="0" trigger="talk 22">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
+<sn:pointer id="17" window="0" trigger="talk 22">[color][0x6]オリハルコン[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[end]</sn:pointer>
+<sn:pointer id="18" window="8" trigger="talk 23">[end]</sn:pointer>
 
-<sn:pointer id="19">鉱石があるようだが、
+<sn:pointer id="19" window="0" trigger="talk 23">鉱石があるようだが、
 固い岩で取ることができない。
 何かほるものがあればいいんだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[color][0x6]ミスリル[color][0x2]を手に入れた。[page]
+<sn:pointer id="20" window="0" trigger="talk 23">[color][0x6]ミスリル[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">パンクポンク「グフフフ。
+<sn:pointer id="21" window="0" trigger="tile 32">パンクポンク「グフフフ。
 ここは、通さん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[pos][0x40][0x0]廃坑地下1階[page]
+<sn:pointer id="22" window="speaker" trigger="start">[pos][0x40][0x0]廃坑地下1階[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[pos][0x40][0x0]廃坑地下2階[page]
+<sn:pointer id="23" window="speaker" trigger="start">[pos][0x40][0x0]廃坑地下2階[page]
 [end]</sn:pointer>
 
 </sn:script>

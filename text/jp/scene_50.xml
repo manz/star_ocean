@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">シルヴァラント国王「とうとうそのエンブレムを託された者がここに現れる時がきたのか。[page]
+<sn:pointer id="0" window="1" trigger="start">シルヴァラント国王「とうとうそのエンブレムを託された者がここに現れる時がきたのか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">国王「大臣よ、周りの者を下げさせよ。[page]
+<sn:pointer id="1" window="1" trigger="start">国王「大臣よ、周りの者を下げさせよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">大臣「はっ！[page]
+<sn:pointer id="2" window="0" trigger="start">大臣「はっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">国王「我が王家に伝わっているのは魔界の入口の場所についてだ。シルヴァラント大陸の南束にある無人島に魔界の入口はあるという話だ。[page]
+<sn:pointer id="3" window="1" trigger="start">国王「我が王家に伝わっているのは魔界の入口の場所についてだ。シルヴァラント大陸の南束にある無人島に魔界の入口はあるという話だ。[page]
 [nick:ロニキス]「無人島[speed][0xa]・・・[speed][0x0]ですか。[page]
 国王「うむ。城下町から束に行った所に船着き場がある。そこを自由に使えるようにしてやろうではないか。ムーア王国やアストラル王国に行くのに便利だろう。もちろん無人島にも行ける。[page]
 [nick:ロニキス]「ありがとうございます。[page]
@@ -19,60 +19,60 @@
 国王「シルヴァラント大陸には旧異種族の遺跡がまだいくつか残っている。その遺跡の中にはこの鍵を使ってしか入れない場所があるということなのだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[end]</sn:pointer>
+<sn:pointer id="4" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ロニキス]「ありがとうございます。[page]
+<sn:pointer id="5" window="0" trigger="start">[nick:ロニキス]「ありがとうございます。[page]
 国王「その鍵が一体なんの役にたつのかは知らされておらん。[page]
 [nick:ロニキス]「わかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">シルヴァラント国王「ついにアスモデウスを剖す時が来たのだな。期待しておるぞ。[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="シルヴァラント国王">シルヴァラント国王「ついにアスモデウスを剖す時が来たのだな。期待しておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">大臣「頑張って下さい。[page]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="大臣">大臣「頑張って下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">王妃「くれぐれもご無理はなさらぬように[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="王妃">王妃「くれぐれもご無理はなさらぬように[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">学者「[color][0x4]シルヴァラント[color][0x2]から更に北に行くと旧異種族の遺跡があるはずなんだが、私じゃ危険でとても行けない[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="学者">学者「[color][0x4]シルヴァラント[color][0x2]から更に北に行くと旧異種族の遺跡があるはずなんだが、私じゃ危険でとても行けない[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">老賢者「もと宮廷紋章術師のジェランド様は魔界大戦中のゴタゴタにまきこまれて殺されてしまった。我々は惜しい人物を亡くしてしまったよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="talk 23" npc="老賢者">老賢者「もと宮廷紋章術師のジェランド様は魔界大戦中のゴタゴタにまきこまれて殺されてしまった。我々は惜しい人物を亡くしてしまったよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">騎士ゼル「最近魔物の動向が静かなんです。何かの前触れでしょうか？[page]
+<sn:pointer id="11" window="0" trigger="talk 24" npc="騎士ゼル">騎士ゼル「最近魔物の動向が静かなんです。何かの前触れでしょうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">騎士クルト「最近魔界の軍勢が攻めてこないのは弾がなくなったんじゃないのか？[page]
+<sn:pointer id="12" window="0" trigger="talk 25" npc="騎士クルト">騎士クルト「最近魔界の軍勢が攻めてこないのは弾がなくなったんじゃないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">若い兵士「今日やっと久しぶりに家に帰れますよ。ずっと泊まり込みだったからなぁ。[page]
+<sn:pointer id="13" window="0" trigger="talk 26" npc="若い兵士">若い兵士「今日やっと久しぶりに家に帰れますよ。ずっと泊まり込みだったからなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">賢者ピロン「言い伝えではこの世界にはもともとルーンと呼ばれる魔法生命体しか住んでいなかったとか[speed][0xa]・・・。[speed][0x0]それじゃあ私たちの先祖はどこから来たんでしょう？ちなみに旧異種族は尾は無かったそうです。[page]
+<sn:pointer id="14" window="0" trigger="talk 27" npc="賢者ピロン">賢者ピロン「言い伝えではこの世界にはもともとルーンと呼ばれる魔法生命体しか住んでいなかったとか[speed][0xa]・・・。[speed][0x0]それじゃあ私たちの先祖はどこから来たんでしょう？ちなみに旧異種族は尾は無かったそうです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">衛兵トーク「仕様[speed][0xa]・・・[speed][0x0]いい言葉だぁ♥[page]
+<sn:pointer id="15" window="0" trigger="talk 28" npc="衛兵トーク">衛兵トーク「仕様[speed][0xa]・・・[speed][0x0]いい言葉だぁ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">衛兵ヤーマ「やっぱ1年じゃ短かすぎるよ。2年ほしいよなぁ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="talk 29" npc="衛兵ヤーマ">衛兵ヤーマ「やっぱ1年じゃ短かすぎるよ。2年ほしいよなぁ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">宮廷紋章術師「ジェランド殿を超えるような立派な宮廷紋章術師を目指しています。[page]
+<sn:pointer id="17" window="0" trigger="talk 22" npc="宮廷紋章術師">宮廷紋章術師「ジェランド殿を超えるような立派な宮廷紋章術師を目指しています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">男「宝石細工でその他装備のアクセサリーなんかを作ることができるらしいよ。試してみた？[page]
+<sn:pointer id="18" window="0" trigger="talk 30" npc="男">男「宝石細工でその他装備のアクセサリーなんかを作ることができるらしいよ。試してみた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">画家ジョン「ひそかに便利なアート。[speed][0x1e]・・・[speed][0x0]秘密だ！
+<sn:pointer id="19" window="0" trigger="talk 31" npc="画家ジョン">画家ジョン「ひそかに便利なアート。[speed][0x1e]・・・[speed][0x0]秘密だ！
 ちょっと根性が必要だけど・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ヨシュア]「あ、[nick:ラティ]さん。ほかの人達はどうしてますか？[page]
+<sn:pointer id="20" window="0" trigger="talk 6">[nick:ヨシュア]「あ、[nick:ラティ]さん。ほかの人達はどうしてますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">宮廷紋章術師「顔に面影が残っておりましたから、まさかとは思ったのですが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="21" window="0" trigger="tile 40">宮廷紋章術師「顔に面影が残っておりましたから、まさかとは思ったのですが[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「はい。僕が[nick:ヨシュア]＝ジェランドです。[page]
 宮廷紋章術師「おお[speed][0xa]・・・[speed][0x0]。当時私はジェランド様から教えをこうておりました。あのとき、私に力があれば[speed][0xa]・・・。[speed][0x0][page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]僕は今日、あなたをせめに来たわけではありません。顔をあげて下さい。[page]
@@ -83,40 +83,40 @@
 宮廷紋章術師「[speed][0xa]・・・[speed][0x0]あの事故から一度たりともその姿を見たことはありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">宮廷紋章術師「お役に立てなくて申しわけありません[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="22" window="0" trigger="tile 40">宮廷紋章術師「お役に立てなくて申しわけありません[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ヨシュア]「いえ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="23" window="0" trigger="tile 40">[nick:ヨシュア]「いえ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:アシュレイ]「ヌシがその奥義を極めることをワシは願っておるぞ。[page]
+<sn:pointer id="24" window="0" trigger="talk 9">[nick:アシュレイ]「ヌシがその奥義を極めることをワシは願っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ]「来たか。[page]
+<sn:pointer id="25" window="0" trigger="talk 9">[nick:アシュレイ]「来たか。[page]
 [nick:ラティ]「[speed][0xa]・・・[speed][0x0]なんでしょうか？[page]
 [nick:アシュレイ]「ワシは共に旅を続けてきて、今までずっとおまえの闘いぶりを見てきた。[page]
 [nick:ラティ]「はあ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ]「ワシの最後のわがままを聞いてはもらえんか？[page]
+<sn:pointer id="26" window="0" trigger="talk 9">[nick:アシュレイ]「ワシの最後のわがままを聞いてはもらえんか？[page]
 [nick:ラティ]「[speed][0xa]・・・[speed][0x0]なんですか？[page]
 [nick:アシュレイ]「ワシは、戦友の姿をとった魔物によって利き腕が不自由になってしまった[speed][0xa]・・・。[speed][0x0]それ以来ワシは、自分の知識を伝授するにふさわしい者を捜し求めてきたのじゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:アシュレイ]「曼けとってはもらえんか？奥義の極意を！[page]
+<sn:pointer id="27" window="1" trigger="talk 9">[nick:アシュレイ]「曼けとってはもらえんか？奥義の極意を！[page]
 [nick:ラティ]「お[speed][0xa]、[speed][0x0]俺なんかで、本当にいいんですか？！[page]
 [nick:アシュレイ]「ヌシだからこそ、じゃよ。[page]
 [nick:ラティ]「喜んで。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">皇龍奥義を覚えました。[page]
+<sn:pointer id="28" window="0" trigger="talk 9">皇龍奥義を覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">学者「私が調べた所によりますと、この世界の創造神が住むという異世界があるらしいです。
+<sn:pointer id="29" window="0" trigger="talk 36" npc="学者">学者「私が調べた所によりますと、この世界の創造神が住むという異世界があるらしいです。
 “オラクルルーム”という名前らしいのですが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">学者カノイ「シルヴァラントから束の方へ行くと岩壁の裂け目に遺跡への入り口があるらしい。[page]
+<sn:pointer id="30" window="0" trigger="talk 35" npc="学者カノイ">学者カノイ「シルヴァラントから束の方へ行くと岩壁の裂け目に遺跡への入り口があるらしい。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

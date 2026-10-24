@@ -1,222 +1,222 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]民家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x58][0x0]民家[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x50][0x0]食料品店[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x50][0x0]食料品店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="7" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="8" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">老人「魔界戦争[speed][0xa]・・・[speed][0x0]ワシらが若い頃はそりゃもう、今とは比べものにならないほど激しい争いがあったんじゃ。[page]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="老人">老人「魔界戦争[speed][0xa]・・・[speed][0x0]ワシらが若い頃はそりゃもう、今とは比べものにならないほど激しい争いがあったんじゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">純な男「魔界戦争以前にいたという旧異種族の遺跡が世界各地に残っているらしいですね。[page]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="純な男">純な男「魔界戦争以前にいたという旧異種族の遺跡が世界各地に残っているらしいですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">おばさん「なんでもすご腕の剣士がタトローイに来たって話よ。まだ居るのかしら？[page]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="おばさん">おばさん「なんでもすご腕の剣士がタトローイに来たって話よ。まだ居るのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">おばさん「今日もまた冒険者が[color][0x4]アストラル洞窟[color][0x2]に入っていったわ[speed][0xa]・・・[speed][0x0]。腕試しとは言っても、危険過ぎるわよ[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="12" window="0" trigger="talk 18" npc="おばさん">おばさん「今日もまた冒険者が[color][0x4]アストラル洞窟[color][0x2]に入っていったわ[speed][0xa]・・・[speed][0x0]。腕試しとは言っても、危険過ぎるわよ[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">モダンな老人「闘技場で観戦していると昔の血が騒ぐんじゃ。[page]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="モダンな老人">モダンな老人「闘技場で観戦していると昔の血が騒ぐんじゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">・・・[page]
+<sn:pointer id="14" window="0" trigger="talk 21">・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">食べ物屋「いらっしゃい。[page]
+<sn:pointer id="15" window="0" trigger="talk 22" npc="食べ物屋">食べ物屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">武器屋「いらっしゃい。[page]
+<sn:pointer id="16" window="0" trigger="talk 23" npc="武器屋">武器屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">道具屋「いらっしゃい。[page]
+<sn:pointer id="17" window="0" trigger="talk 24" npc="道具屋">道具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">酒場のマスター「いらっしゃい。[page]
+<sn:pointer id="18" window="0" trigger="talk 25" npc="酒場のマスター">酒場のマスター「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">ヤマ「業界初！[page]
+<sn:pointer id="19" window="0" trigger="talk 26" npc="ヤマ">ヤマ「業界初！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">男「ここの酒はうまいなぁ。[page]
+<sn:pointer id="20" window="0" trigger="talk 27" npc="男">男「ここの酒はうまいなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">宿屋のおばあさん「よく眠れたかい？[page]
+<sn:pointer id="21" window="0" trigger="talk 28" npc="宿屋のおばあさん">宿屋のおばあさん「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">宿屋のおばあさん「いらっしゃい。
+<sn:pointer id="22" window="1" trigger="talk 28" npc="宿屋のおばあさん">宿屋のおばあさん「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">泊まりますか？[page]
+<sn:pointer id="23" choice="yes-no" window="1" trigger="talk 28" npc="宿屋のおばあさん">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="talk 28" npc="宿屋のおばあさん">[end]</sn:pointer>
 
-<sn:pointer id="25">お金が足りません。[page]
+<sn:pointer id="25" window="0" trigger="talk 28" npc="宿屋のおばあさん">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[end]</sn:pointer>
+<sn:pointer id="26" window="0" trigger="talk 28" npc="宿屋のおばあさん">[end]</sn:pointer>
 
-<sn:pointer id="27">冒険者「このまま西に進んでいけば港町[color][0x4]トロップ[color][0x2]に行けるぜ。かなり遠いがな。[page]
+<sn:pointer id="27" window="0" trigger="talk 29" npc="冒険者">冒険者「このまま西に進んでいけば港町[color][0x4]トロップ[color][0x2]に行けるぜ。かなり遠いがな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">中年の男「この町から運河船に乗って川をさかのぼっていけば[color][0x4]アストラル城[color][0x2]にいけるぜ。[page]
+<sn:pointer id="28" window="0" trigger="talk 30" npc="中年の男">中年の男「この町から運河船に乗って川をさかのぼっていけば[color][0x4]アストラル城[color][0x2]にいけるぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="29" window="1" trigger="talk 40" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">1知識関連スキルＬＶ2　　600
+<sn:pointer id="30" choice="4" window="1" trigger="talk 40" npc="ギルドマスター">1知識関連スキルＬＶ2　　600
 2感覚関連スキルＬＶ2　　200
 3技術関連スキルＬＶ2　1200
 4戦闘関連スキルＬＶ2　2000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 40" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="32">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="32" window="0" trigger="talk 40" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="33" window="0" trigger="talk 40" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="34" window="0" trigger="talk 40" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">アドバイザー「話を聞かないか？[page]
+<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 41" npc="アドバイザー">アドバイザー「話を聞かないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">アドバイザー「ここは場所がら、戦闘スキルの話でもしようか。[page]
+<sn:pointer id="36" window="0" trigger="talk 41" npc="アドバイザー">アドバイザー「ここは場所がら、戦闘スキルの話でもしようか。[page]
 「・・・戦闘スキルは覚えてみればわかると思うが、必ず使えるものじゃない。[page]
 「大部分のものは攻撃を行ったときに一定の確率で発動するものなんだ。これはスキルレベルを上げることで確率そのものが上昇する。同時に威力もな。[page]
 「でも100％発動すると困ることだって当然ある。敵を大きくふっとばすスキルなんてものがあるが、毎回発動してたら連続して攻撃しにくいだろ？[page]
 「いたずらに上げりゃいいってもんでもないってこと、わかってくれたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 41" npc="アドバイザー">[end]</sn:pointer>
 
-<sn:pointer id="38">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="38" window="1" trigger="talk 42" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">1．知識関連スキルＬＶ2
+<sn:pointer id="39" choice="4" window="1" trigger="talk 42" npc="説明員">1．知識関連スキルＬＶ2
 2．感覚関連スキルＬＶ2
 3．技術関連スキルＬＶ2
 4．戦闘関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">説明員「知識関連スキルＬＶ2の内訳は、
+<sn:pointer id="40" window="0" trigger="talk 42" npc="説明員">説明員「知識関連スキルＬＶ2の内訳は、
 道具知識と
 オタマジャクシと
 生物学よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">説明員「感覚関連スキルＬＶ2の内訳は、
+<sn:pointer id="41" window="0" trigger="talk 42" npc="説明員">説明員「感覚関連スキルＬＶ2の内訳は、
 危険感知と
 遊び心と
 根性よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">説明員「技術関連スキルＬＶ2の内訳は、
+<sn:pointer id="42" window="0" trigger="talk 42" npc="説明員">説明員「技術関連スキルＬＶ2の内訳は、
 クラフトと
 文筆と
 調教よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">説明員「戦闘関連スキルＬＶ2の内訳は、
+<sn:pointer id="43" window="0" trigger="talk 42" npc="説明員">説明員「戦闘関連スキルＬＶ2の内訳は、
 反撃と
 フェイントと
 練気よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 42" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ラティ]「大丈夫？。[page]
+<sn:pointer id="45" window="1" trigger="start">[nick:ラティ]「大丈夫？。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ミリー]「気がついてよかった[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="46" window="1" trigger="start">[nick:ミリー]「気がついてよかった[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]「大丈夫？ムリするからよ。[page]
+<sn:pointer id="47" window="1" trigger="start">[nick:イリア]「大丈夫？ムリするからよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ロニキス]「生きてるか？[page]
+<sn:pointer id="48" window="1" trigger="start">[nick:ロニキス]「生きてるか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:シウス]「ホッとしたぜ。もう目を開かないかと思ったぞ。[page]
+<sn:pointer id="49" window="1" trigger="start">[nick:シウス]「ホッとしたぜ。もう目を開かないかと思ったぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:フィア]「動けるか？[page]
+<sn:pointer id="50" window="1" trigger="start">[nick:フィア]「動けるか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]負けはしたが決して悪い内容では無かったぞ。[page]
+<sn:pointer id="51" window="1" trigger="start">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]負けはしたが決して悪い内容では無かったぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:ヨシュア]「動けますか？チャンスは何度でもありますよ。[page]
+<sn:pointer id="52" window="1" trigger="start">[nick:ヨシュア]「動けますか？チャンスは何度でもありますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]よかった[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="53" window="1" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]よかった[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ペリシー]「あたし置いて天国いっちゃったかと思ったよぉ〜[page]
+<sn:pointer id="54" window="1" trigger="start">[nick:ペリシー]「あたし置いて天国いっちゃったかと思ったよぉ〜[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ティニーク]「また頑張りましょうよ。[page]
+<sn:pointer id="55" window="1" trigger="start">[nick:ティニーク]「また頑張りましょうよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]ここは、宿屋？[page]
+<sn:pointer id="56" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]ここは、宿屋？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ミリー]「あたし、生きてるの？[page]
+<sn:pointer id="57" window="0" trigger="start">[nick:ミリー]「あたし、生きてるの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:イリア]「[speed][0xa]・・・[speed][0x0]あたし[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="58" window="0" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0]あたし[speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ロニキス]「うっ、いたた[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="59" window="0" trigger="start">[nick:ロニキス]「うっ、いたた[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:シウス]「俺は[speed][0xa]・・・[speed][0x0]俺は、負けたのか[speed][0xa]・・・[speed][0x0]？[page]
+<sn:pointer id="60" window="0" trigger="start">[nick:シウス]「俺は[speed][0xa]・・・[speed][0x0]俺は、負けたのか[speed][0xa]・・・[speed][0x0]？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:フィア]「[speed][0xa]・・・[speed][0x0]悔しい[speed][0xa]・・・[speed][0x0]。わたしは負けたんだな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="61" window="0" trigger="start">[nick:フィア]「[speed][0xa]・・・[speed][0x0]悔しい[speed][0xa]・・・[speed][0x0]。わたしは負けたんだな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:アシュレイ]「クッ[speed][0xa]・・・[speed][0x0]ワシとしたことが[speed][0xa]・・・[speed][0x0]とんだ失態を見せてしまったな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="62" window="0" trigger="start">[nick:アシュレイ]「クッ[speed][0xa]・・・[speed][0x0]ワシとしたことが[speed][0xa]・・・[speed][0x0]とんだ失態を見せてしまったな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]ここは？[page]
+<sn:pointer id="63" window="0" trigger="start">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]ここは？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]よかった[speed][0xa]・・・[speed][0x0]。私、まだ死んでなかったんですね[page]
+<sn:pointer id="64" window="0" trigger="start">[nick:マーヴェル]「[speed][0xa]・・・[speed][0x0]よかった[speed][0xa]・・・[speed][0x0]。私、まだ死んでなかったんですね[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ペリシー]「はぁー、死ぬかと思っちゃった。[page]
+<sn:pointer id="65" window="0" trigger="start">[nick:ペリシー]「はぁー、死ぬかと思っちゃった。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ティニーク]「あイタッ！[speed][0xa]・・・[speed][0x0]トホホ、負けちゃいましたね[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="66" window="0" trigger="start">[nick:ティニーク]「あイタッ！[speed][0xa]・・・[speed][0x0]トホホ、負けちゃいましたね[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
 </sn:script>

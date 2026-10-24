@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ペリシー][br]
+<sn:pointer id="0" window="0" trigger="tile 3">[nick:ペリシー][br]
 On n'a pas fouillé partout !
 Il faut chercher encore ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ペリシー][br]
+<sn:pointer id="1" window="1" trigger="tile 64">[nick:ペリシー][br]
 Hein ? Mon ami dort dans le coin, mais maintenant, il est[speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 A[speed][0xa]-[speed][0x0]ami ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ペリシー][br]
+<sn:pointer id="2" window="1" trigger="tile 64">[nick:ペリシー][br]
 Ouais.[end]</sn:pointer>
 
-<sn:pointer id="3">C'est un mini-mignon lapinounet d'amourichou !
+<sn:pointer id="3" window="0" trigger="tile 64">C'est un mini-mignon lapinounet d'amourichou !
 Il est énorme, aussi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ラティ][br]
+<sn:pointer id="4" window="0" trigger="tile 64">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0]M[speed][0xa]-[speed][0x0]mini-mignon ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ][br]
+<sn:pointer id="5" window="0" trigger="tile 64">[nick:ラティ][br]
 [speed][0xa]...[speed][0x0][speed][0xa][speed][0x0]Énorme ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ラティ][br]
+<sn:pointer id="6" window="0" trigger="tile 64">[nick:ラティ][br]
 Je suis presque sûr d'avoir déjà vu une statue qui ressemble à ça...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ペリシー][br]
+<sn:pointer id="7" window="0" trigger="tile 64">[nick:ペリシー][br]
 Bingo ! Il ressemble à une statue quand il dort !
 Où est-ce que tu l'as vu ? Il faut y aller ![page]
 [nick:ラティ][br]
 C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ][br]
+<sn:pointer id="8" window="0" trigger="tile 64">[nick:ラティ][br]
 J'sais pas...[page]
 [nick:ペリシー][br]
 Oh[speed][0xa]...[speed][0x0] Je sais ! Peut-être que quelqu'un l'a vendu dans une boutique ![page]
@@ -49,74 +49,74 @@ Il ressemble à une statue quand il dort ![page]
 C'est ÇA que tu cherches ? [speed][0xa]...[speed][0x0]Bon, allons-y ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Succube[br]
+<sn:pointer id="9" window="0" trigger="tile 60">Succube[br]
 Que voulez-vous VOUS ? J'ai décidé que tous les trésors seraient miens !
 Maintenant, soyez de bons petits gars et de gentilles petites filles et allez avertir le roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Succube[br]
+<sn:pointer id="10" window="0" trigger="tile 60">Succube[br]
 Oubliez ça, j'ai changé d'avis...
 Il est temps pour vous de mourir !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="11" window="1" trigger="talk 48">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="12" window="1" trigger="talk 49">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="13" window="1" trigger="talk 50">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="14" window="1" trigger="talk 51">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="15" window="1" trigger="talk 52">[color][0x6][item][0x77][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="16" window="1" trigger="talk 53">[color][0x6][item][0x78][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="17" window="1" trigger="talk 54">[color][0x6][item][0x75][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[color][0x6][item][0x76][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="18" window="1" trigger="talk 55">[color][0x6][item][0x76][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[color][0x6][item][0x1f][0x14][color][0x2] obtenu.[page]
+<sn:pointer id="19" window="1" trigger="talk 56">[color][0x6][item][0x1f][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="20" window="1" trigger="talk 57">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[color][0x6][item][0x20][0x14][color][0x2] obtenu.[page]
+<sn:pointer id="21" window="1" trigger="talk 58">[color][0x6][item][0x20][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Arcane chat obtenu.[page]
+<sn:pointer id="22" window="0" trigger="talk 59">Arcane chat obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Ce n'est pas utile pour le moment.[page]
+<sn:pointer id="23" window="0" trigger="talk 59">Ce n'est pas utile pour le moment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[color][0x6][item][0x1b][0x14][color][0x2] obtenu.[page]
+<sn:pointer id="24" window="1" trigger="talk 40">[color][0x6][item][0x1b][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
+<sn:pointer id="25" window="1" trigger="talk 41">[color][0x6][item][0x81][0x15][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[color][0x6][item][0x31][0x14][color][0x2] obtenu.[page]
+<sn:pointer id="26" window="1" trigger="talk 42">[color][0x6][item][0x31][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ][br]
+<sn:pointer id="27" window="0" trigger="talk 40 talk 41 talk 42 talk 48 talk 49 talk 50 talk 51 talk 52 talk 53 talk 54 talk 55 talk 56 talk 57 talk 58 talk 59">[nick:ラティ][br]
 Ce ne serait pas une bonne idée de prendre ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Impossible d'en porter plus.[page]
+<sn:pointer id="28" window="0" trigger="talk 40 talk 41 talk 42 talk 48 talk 49 talk 50 talk 51 talk 52 talk 53 talk 54 talk 55 talk 56 talk 57 talk 58">Impossible d'en porter plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[end]</sn:pointer>
+<sn:pointer id="29" window="0" trigger="talk 40 talk 41 talk 42 talk 48 talk 49 talk 50 talk 51 talk 52 talk 53 talk 54 talk 55 talk 56 talk 57 talk 58">[end]</sn:pointer>
 
-<sn:pointer id="30">[center]Salle du trésor[page]
+<sn:pointer id="30" window="speaker" trigger="start">[center]Salle du trésor[page]
 [end]</sn:pointer>
 
 </sn:script>

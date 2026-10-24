@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ヨシュア]「そういえば両親が殺されたとき、僕は崖に突き落とされたんですが、その僕を助けてくれた人がいるんです。[page]
+<sn:pointer id="0" window="0" trigger="tile 21">[nick:ヨシュア]「そういえば両親が殺されたとき、僕は崖に突き落とされたんですが、その僕を助けてくれた人がいるんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア]「その人どこに住んでんの？[page]
+<sn:pointer id="1" window="0" trigger="tile 21">[nick:イリア]「その人どこに住んでんの？[page]
 [nick:ヨシュア]「ちょうどこの細い獣道を抜けたところなんですけど。[page]
 [nick:イリア]「だったら顔みせによってみましょう。ずいぶん会ってないでしょ？その人もきっと喜ぶわよ、きっと。[page]
 [nick:ヨシュア]「いいんですか？気持ちはうれしいんですけど、寄るかどうかはみなさんが決めてください。[page]

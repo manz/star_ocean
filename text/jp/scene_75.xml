@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">スイッチを切り替えますか？[page]
+<sn:pointer id="0" choice="yes-no" window="1" trigger="talk 32">スイッチを切り替えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[end]</sn:pointer>
+<sn:pointer id="1" window="0" trigger="talk 32">[end]</sn:pointer>
 
-<sn:pointer id="2">スイッチを切り替えますか？[page]
+<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 33">スイッチを切り替えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[end]</sn:pointer>
+<sn:pointer id="3" window="0" trigger="talk 33">[end]</sn:pointer>
 
-<sn:pointer id="4">[color][0x6][item][0x97][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="4" window="1" trigger="search">[color][0x6][item][0x97][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">「足音を立てるべからず。[page]
+<sn:pointer id="5" window="0" trigger="search">「足音を立てるべからず。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">「陽の登る所より○×○○○××[page]
+<sn:pointer id="6" window="0" trigger="search">「陽の登る所より○×○○○××[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「まさかここに潜って行くんですか？[page]
+<sn:pointer id="7" window="0" trigger="start">[nick:ラティ]「まさかここに潜って行くんですか？[page]
 大臣「そっちの扉ではありません。それはまた後です[speed][0xa]・・・。[speed][0x0][page]
 [nick:イリア]「また後？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">大臣「あ、いえ。こっちのことで。[page]
+<sn:pointer id="8" window="0" trigger="start">大臣「あ、いえ。こっちのことで。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">大臣「とりあえずあなたたちの力を知らなければなりません。[page]
+<sn:pointer id="9" window="0" trigger="start">大臣「とりあえずあなたたちの力を知らなければなりません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">大臣「そこでこっちの扉から入って出口まで無事たどり着いて見せて下さい。突破できれば“試し”はそれで絆わりです。無理だと思ったらいつでも戻ってきてかまいません。[page]
+<sn:pointer id="10" window="0" trigger="start">大臣「そこでこっちの扉から入って出口まで無事たどり着いて見せて下さい。突破できれば“試し”はそれで絆わりです。無理だと思ったらいつでも戻ってきてかまいません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">大臣「私は、出口で待っていますので。[page]
+<sn:pointer id="11" window="0" trigger="start">大臣「私は、出口で待っていますので。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">大臣「おお！本当にこの迷宮から抜けてくるとは。見事です！それでは王のもとへ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="12" window="0" trigger="start">大臣「おお！本当にこの迷宮から抜けてくるとは。見事です！それでは王のもとへ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">大臣「迷宮の魔物は強いですよ。つらいと思ったら外で修業してくるが。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="大臣">大臣「迷宮の魔物は強いですよ。つらいと思ったら外で修業してくるが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">持ち物がいっぱいです[page]
+<sn:pointer id="14" window="0" trigger="search">持ち物がいっぱいです[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="search">[end]</sn:pointer>
 
-<sn:pointer id="16">[pos][0x48][0x0]試練の迷宮[page]
+<sn:pointer id="16" window="speaker" trigger="start">[pos][0x48][0x0]試練の迷宮[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

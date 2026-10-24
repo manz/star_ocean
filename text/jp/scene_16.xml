@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">提督「それではレゾニアは我々と休戦協定を結びたいと申されるのだな？[page]
+<sn:pointer id="0" window="0" trigger="start">提督「それではレゾニアは我々と休戦協定を結びたいと申されるのだな？[page]
 レゾニア密使「はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">レゾニア密使「地球との戦いは我々としても本意ではなかったのです。[page]
+<sn:pointer id="1" window="0" trigger="start">レゾニア密使「地球との戦いは我々としても本意ではなかったのです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">提督「レゾニアの影に第3勢力の存在があるというのは本当だったのだな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="2" window="0" trigger="start">提督「レゾニアの影に第3勢力の存在があるというのは本当だったのだな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ロニキス]「第3勢力？！[page]
+<sn:pointer id="3" window="0" trigger="start">[nick:ロニキス]「第3勢力？！[page]
 レゾニア密使「はい。それは脅迫でした。
 高度な文明を持っているようで、半年前の惑星イセの爆破も
 彼らの手によるものなのです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">レゾニア密使「目的はわかりません。ですが我々にウイルスや新素材の技術を提供したのは[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="4" window="0" trigger="start">レゾニア密使「目的はわかりません。ですが我々にウイルスや新素材の技術を提供したのは[speed][0xa]・・・。[speed][0x0][page]
 提督「なるほど、
 話はだいたいわかった[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ロニキス]「惑星ロークに投下した細園兵器[speed][0xa]・・[speed][0x0]つまり例のウイルスのワクチンか宿主（ホスト）を
+<sn:pointer id="5" window="0" trigger="start">[nick:ロニキス]「惑星ロークに投下した細園兵器[speed][0xa]・・[speed][0x0]つまり例のウイルスのワクチンか宿主（ホスト）を
 こちらに引き渡してもらいたいのだが。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">レゾニア密使「それは、無理です。[page]
+<sn:pointer id="6" window="0" trigger="start">レゾニア密使「それは、無理です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">レゾニア密使「もうこの世にはワクチンもホストも存在しないのです。ですから、惑星ロークは残念ですが[speed][0xa]・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="start">レゾニア密使「もうこの世にはワクチンもホストも存在しないのです。ですから、惑星ロークは残念ですが[speed][0xa]・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ミリー]「そんな[speed][0xa]・・・[speed][0x0]！！[page]
+<sn:pointer id="8" window="0" trigger="start">[nick:ミリー]「そんな[speed][0xa]・・・[speed][0x0]！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">レゾニア密使「一応ウイルスの出所はわかっていますが、今となっては何の役にも立ちませんし[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="start">レゾニア密使「一応ウイルスの出所はわかっていますが、今となっては何の役にも立ちませんし[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">提督「しょうがあるまい。策が無いとわかった以上、ロークの救済作業もあきらめねばならんか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="start">提督「しょうがあるまい。策が無いとわかった以上、ロークの救済作業もあきらめねばならんか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]「なんだと？俺たちの星を見捨てるっていうのか？！[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ]「なんだと？俺たちの星を見捨てるっていうのか？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア]「[nick:ラティ]、落ち着いてちょうだい！！[page]
+<sn:pointer id="12" window="0" trigger="start">[nick:イリア]「[nick:ラティ]、落ち着いてちょうだい！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「ちくしょう！[end]</sn:pointer>
+<sn:pointer id="13" window="1" trigger="start">[nick:ラティ]「ちくしょう！[end]</sn:pointer>
 
-<sn:pointer id="14">[page]
+<sn:pointer id="14" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ]「みんなを助けるためにここまで来たのに[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="15" window="0" trigger="start">[nick:ラティ]「みんなを助けるためにここまで来たのに[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー]「私たち、一体これからどうすればいいんですか？[page]
+<sn:pointer id="16" window="0" trigger="start">[nick:ミリー]「私たち、一体これからどうすればいいんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「まさか、ウイルスを300年前のロークから入手して保存していたなんて・・・。[page]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア]「まさか、ウイルスを300年前のロークから入手して保存していたなんて・・・。[page]
 [nick:イリア]「これではワクチンの入手は不可能[speed][0xa]・・・。[speed][0x0]連邦は、惑星ロークの救済作業から手を引くことを決定したわ。[page]
 [nick:イリア]「あなたには、私からは謝ることしかできないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「本当に、ごめんなさい。[page]
+<sn:pointer id="18" window="0" trigger="start">[nick:イリア]「本当に、ごめんなさい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス]「不可能ではないな。[page]
+<sn:pointer id="19" window="0" trigger="start">[nick:ロニキス]「不可能ではないな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス]「ただ極端に可能性が低いだけ[speed][0xa]・・・[speed][0x0]だろ？[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:ロニキス]「ただ極端に可能性が低いだけ[speed][0xa]・・・[speed][0x0]だろ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア]「惑星[speed][0xa]・・・[speed][0x0]ストリーム[speed][0xa]・・・[speed][0x0]！！[page]
+<sn:pointer id="21" window="0" trigger="start">[nick:イリア]「惑星[speed][0xa]・・・[speed][0x0]ストリーム[speed][0xa]・・・[speed][0x0]！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア]「何を言い出すかと思ったら[speed][0xa]・・・・[speed][0x0]それは無茶です！！[page]
+<sn:pointer id="22" window="1" trigger="start">[nick:イリア]「何を言い出すかと思ったら[speed][0xa]・・・・[speed][0x0]それは無茶です！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス]「艦に乗り込むのは
+<sn:pointer id="23" window="0" trigger="start">[nick:ロニキス]「艦に乗り込むのは
 私が何とかしよう。[page]
 [nick:イリア]「ですが[speed][0xa]・・・！！[speed][0x0][page]
 [nick:ミリー]「まだ方法はあるんですか[speed][0xa]？[speed][0x0]
 だったら[speed][0xa]・・・[speed][0x0]お願いします！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ロニキス]「提督、どういうことですか？[page]
+<sn:pointer id="24" window="0" trigger="start">[nick:ロニキス]「提督、どういうことですか？[page]
 ベイズ提督「そういうことなんだよ、大佐。[page]
 [nick:ロニキス]「なんてことだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">提督「惑星ファーゲットの偵察艦を名乗る艦が突如連邦領域内に姿を現わし、降伏を求めてきたのだ。[page]
+<sn:pointer id="25" window="0" trigger="start">提督「惑星ファーゲットの偵察艦を名乗る艦が突如連邦領域内に姿を現わし、降伏を求めてきたのだ。[page]
 [nick:ロニキス]「それが例の第三勢力なんですね？[page]
 提督「うむ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">提督「我々は作戦スターダストを行うことに決定した。[nick:ロニキス]大佐、君がこの任務を担当することになる。[page]
+<sn:pointer id="26" window="0" trigger="start">提督「我々は作戦スターダストを行うことに決定した。[nick:ロニキス]大佐、君がこの任務を担当することになる。[page]
 [nick:ロニキス]「我々がこれを・・・。[page]
 提督「彼らの偵察艦が急に現れたところを科学班に調べさせたところ、あそこにワームホールの存在が確認された。そこを通ればファーゲットにたどり着くことができるだろう。[page]
 [nick:ロニキス]「[speed][0xa]・・・・・。[speed][0x0][page]

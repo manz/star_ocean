@@ -1,274 +1,274 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]民家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x58][0x0]民家[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x56][0x0]楽器屋[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x56][0x0]楽器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="7" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[pos][0x58][0x0]民家[page]
+<sn:pointer id="8" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[pos][0x50][0x0]食料品店[page]
+<sn:pointer id="9" window="speaker" trigger="start">[pos][0x50][0x0]食料品店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="10" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">1感覚関連スキルＬＶ1　　100
+<sn:pointer id="11" choice="4" window="1" trigger="talk 16" npc="ギルドマスター">1感覚関連スキルＬＶ1　　100
 2感覚関連スキルＬＶ2　　200
 3感覚関連スキルＬＶ3　　300
 4技術関連スキルＬＶ2　1200[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 16" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="13">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="14" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="15" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">アドバイザー「戦闘スキルのリンクコンボを覚えれば好きな必殺技を組み合わせて連続技にすることができるようになります。[page]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「戦闘スキルのリンクコンボを覚えれば好きな必殺技を組み合わせて連続技にすることができるようになります。[page]
 アドバイザー「必ず組み合わせた分のＭＰを消賃してしまうのが難点ですが、敵に反撃のスキをあたえないのがいいですよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="17" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">1．感覚関連スキルＬＶ1
+<sn:pointer id="18" choice="4" window="1" trigger="talk 18" npc="説明員">1．感覚関連スキルＬＶ1
 2．感覚関連スキルＬＶ2
 3．感覚関連スキルＬＶ3
 4．技術関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">説明員「感覚関連スキルＬＶ1の内訳は、
+<sn:pointer id="19" window="0" trigger="talk 18" npc="説明員">説明員「感覚関連スキルＬＶ1の内訳は、
 めききと
 美的感覚と
 忍耐です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">説明員「感覚関連スキルＬＶ2の内訳は、
+<sn:pointer id="20" window="0" trigger="talk 18" npc="説明員">説明員「感覚関連スキルＬＶ2の内訳は、
 危険感知と
 遊び心と
 根性です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">説明員「感覚関連スキルＬＶ3の内訳は、
+<sn:pointer id="21" window="0" trigger="talk 18" npc="説明員">説明員「感覚関連スキルＬＶ3の内訳は、
 機能美と
 でんぱと
 努力です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">説明員「技術関連スキルＬＶ2の内訳は、
+<sn:pointer id="22" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ2の内訳は、
 クラフトと
 文筆と
 調教です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="24">娘「あの宝石、奇麗よねぇ・・・。[page]
+<sn:pointer id="24" window="0" trigger="talk 19" npc="娘">娘「あの宝石、奇麗よねぇ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">おばさん「ここから南に行けば[color][0x4]イオニス[color][0x2]に行けるわ。ヴァン城下はその先よ。[page]
+<sn:pointer id="25" window="0" trigger="talk 20" npc="おばさん">おばさん「ここから南に行けば[color][0x4]イオニス[color][0x2]に行けるわ。ヴァン城下はその先よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">男「ふわぁぁぁぁ[speed][0xa]・・・[speed][0x0]眠ぃ。[page]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="男">男「ふわぁぁぁぁ[speed][0xa]・・・[speed][0x0]眠ぃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">冒険者「ヴァン国王が魔界討伐にあたり精鋭を集めているというウワサだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="冒険者">冒険者「ヴァン国王が魔界討伐にあたり精鋭を集めているというウワサだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">宿屋の主人「よく眠れたかい？[page]
+<sn:pointer id="28" window="0" trigger="talk 23" npc="宿屋の主人">宿屋の主人「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">宿屋の主人「いらっしゃい。
+<sn:pointer id="29" choice="yes-no" window="1" trigger="talk 23" npc="宿屋の主人">宿屋の主人「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[end]</sn:pointer>
+<sn:pointer id="30" window="0" trigger="talk 23" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="31">お金が足りません。[page]
+<sn:pointer id="31" window="0" trigger="talk 23" npc="宿屋の主人">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[end]</sn:pointer>
+<sn:pointer id="32" window="0" trigger="talk 23" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="33">剛腕の漁師「魚がほしいんだったらここの店で買いな。ここが一番よ！[page]
+<sn:pointer id="33" window="0" trigger="talk 24" npc="剛腕の漁師">剛腕の漁師「魚がほしいんだったらここの店で買いな。ここが一番よ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">目利きの男「うん！このマグロはいいな。イカも黒くて生きがいいなぁ。ん？こっちのアユは天然ものだな。え？海にアユはいないって？[page]
+<sn:pointer id="34" window="0" trigger="talk 25" npc="目利きの男">目利きの男「うん！このマグロはいいな。イカも黒くて生きがいいなぁ。ん？こっちのアユは天然ものだな。え？海にアユはいないって？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">セレナ「宝石はいかが？美しい宝石はあなたの内面をきっと輝かせてくれますよ。[page]
+<sn:pointer id="35" window="0" trigger="talk 26" npc="セレナ">セレナ「宝石はいかが？美しい宝石はあなたの内面をきっと輝かせてくれますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">オサトーの父「いらっしゃい！ワシが若いころは銀のトランペットはファーストが持つものとしてあこがれだったんじゃよ。[page]
+<sn:pointer id="36" window="0" trigger="talk 27" npc="オサトーの父">オサトーの父「いらっしゃい！ワシが若いころは銀のトランペットはファーストが持つものとしてあこがれだったんじゃよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">主人「いらっしゃい[page]
+<sn:pointer id="37" window="0" trigger="talk 28" npc="主人">主人「いらっしゃい[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">クロサン「名水あっての名酒！いいものがそろってますぜ。[page]
+<sn:pointer id="38" window="0" trigger="talk 29" npc="クロサン">クロサン「名水あっての名酒！いいものがそろってますぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">若い学者ベルナー「2つの薬草を組み合わせて調合するといろいろな薬ができ上がるのは知ってるかい？[page]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="若い学者ベルナー">若い学者ベルナー「2つの薬草を組み合わせて調合するといろいろな薬ができ上がるのは知ってるかい？[page]
 若い学者ベルナー「たとえばセボリー2つを調合するとＨＰ回復薬ができたりするよ。[page]
 若い学者ベルナー「こまめに組み合わせを調べて薬を作っておけばきっと報われると思うな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">男「へへっ、このハトかわいいだろ？てしおにかけて育てたかいあって、いまじゃお使いまでしてくれるんだ。[page]
+<sn:pointer id="40" window="0" trigger="talk 31" npc="男">男「へへっ、このハトかわいいだろ？てしおにかけて育てたかいあって、いまじゃお使いまでしてくれるんだ。[page]
 男「こういうのってやっぱ動物好きじゃないとちょっと無理だよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">クラリン「あたしの彼、錬金術ができるの♪
+<sn:pointer id="41" window="0" trigger="talk 32" npc="クラリン">クラリン「あたしの彼、錬金術ができるの♪
 もー宝石なんて見飽きちゃったわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ラティ]「[nick:ミリー]！[page]
+<sn:pointer id="42" window="0" trigger="start">[nick:ラティ]「[nick:ミリー]！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:ミリー]「[speed][0x1][nick:ラティ][speed][0xa]？[speed][0x0][nick:ラティ]なの？！[page]
+<sn:pointer id="43" window="1" trigger="start">[nick:ミリー]「[speed][0x1][nick:ラティ][speed][0xa]？[speed][0x0][nick:ラティ]なの？！[page]
 [nick:ラティ]「よかった。無事だったんだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ミリー]「ええ。でも[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="44" window="0" trigger="start">[nick:ミリー]「ええ。でも[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス]「彼女がおまえらのはぐれたっていう連れか？[page]
+<sn:pointer id="45" window="1" trigger="start">[nick:シウス]「彼女がおまえらのはぐれたっていう連れか？[page]
 [nick:ラティ]「ああ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:シウス]「俺は[nick:シウス]ってんだ。よろしくな。[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:シウス]「俺は[nick:シウス]ってんだ。よろしくな。[page]
 [nick:ミリー]「私は[nick:ミリー]。[nick:ラティ]と一緒に旅してたんですね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:アシュレイ]「この娘子がヌシらのはぐれたという連れかの？[page]
+<sn:pointer id="47" window="1" trigger="start">[nick:アシュレイ]「この娘子がヌシらのはぐれたという連れかの？[page]
 [nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:アシュレイ]「ワシは[nick:アシュレイ]。お嬢ちゃん、よろしくの。[page]
+<sn:pointer id="48" window="0" trigger="start">[nick:アシュレイ]「ワシは[nick:アシュレイ]。お嬢ちゃん、よろしくの。[page]
 [nick:ミリー]「私は[nick:ミリー]です。[nick:ラティ]と一緒に旅してたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:シウス]「彼女がおまえらのはぐれたっていう連れか？[page]
+<sn:pointer id="49" window="1" trigger="start">[nick:シウス]「彼女がおまえらのはぐれたっていう連れか？[page]
 [nick:ラティ]「ああ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:シウス]「俺は[nick:シウス]ってんだ。よろしくな。[page]
+<sn:pointer id="50" window="0" trigger="start">[nick:シウス]「俺は[nick:シウス]ってんだ。よろしくな。[page]
 [nick:ヨシュア]「初めまして。僕は[nick:ヨシュア]と申します。[page]
 [nick:ミリー]「私は[nick:ミリー]。[nick:ラティ]と一緒に旅してたんですね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ラティ]「そういえば[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="51" window="1" trigger="start">[nick:ラティ]「そういえば[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:イリア]「艦長は？[page]
+<sn:pointer id="52" window="0" trigger="start">[nick:イリア]「艦長は？[page]
 [nick:ミリー]「私が朝起きたら二人ともいなかったんです。[page]
 [nick:ラティ]「二人？[page]
 [nick:ミリー]「ええ、たぶん[nick:マーヴェル]さんていう紋章使いの女の人に付き添って[color][0x4]イオニス[color][0x2]に行ったんだと思うんだけど。[page]
 [nick:イリア]「[speed][0x1]女の人？！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ラティ]「なに怒ってるんですか？[page]
+<sn:pointer id="53" window="1" trigger="start">[nick:ラティ]「なに怒ってるんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:イリア]「え？[page]
+<sn:pointer id="54" window="1" trigger="start">[nick:イリア]「え？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー]「昨日、[color][0x4]イオニス[color][0x2]という町に“真紅の楯”と異名をとる剣士がやって来たって噂を聞いたんです。そしたら[nick:マーヴェル]さん、急に怖い顔になって[speed][0xa]・・・[speed][0x1e][speed][0x0]あ！その[nick:マーヴェル]さんて、すごい美人なんですよぉ！[end]</sn:pointer>
+<sn:pointer id="55" window="1" trigger="start">[nick:ミリー]「昨日、[color][0x4]イオニス[color][0x2]という町に“真紅の楯”と異名をとる剣士がやって来たって噂を聞いたんです。そしたら[nick:マーヴェル]さん、急に怖い顔になって[speed][0xa]・・・[speed][0x1e][speed][0x0]あ！その[nick:マーヴェル]さんて、すごい美人なんですよぉ！[end]</sn:pointer>
 
-<sn:pointer id="56">[page]
+<sn:pointer id="56" window="1" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">「色白で[page]
+<sn:pointer id="57" window="1" trigger="start">「色白で[page]
 「スタイルサイコーで[page]
 「足首もこーんなに細くて！[end]</sn:pointer>
 
-<sn:pointer id="58">[page]
+<sn:pointer id="58" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:ミリー]「初めて会ったとき、旅してるって聞いてムリヤリ一緒に行こうって言ったの私なんです。もう同性から見てもまいっちゃいました♥って感じですか？[page]
+<sn:pointer id="59" window="1" trigger="start">[nick:ミリー]「初めて会ったとき、旅してるって聞いてムリヤリ一緒に行こうって言ったの私なんです。もう同性から見てもまいっちゃいました♥って感じですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ミリー]、それくらいにしておけよ。[page]
+<sn:pointer id="60" window="1" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ミリー]、それくらいにしておけよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:ミリー]「なんで？[end]</sn:pointer>
+<sn:pointer id="61" window="1" trigger="start">[nick:ミリー]「なんで？[end]</sn:pointer>
 
-<sn:pointer id="62">あ！[page]
+<sn:pointer id="62" window="0" trigger="start">あ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:ミリー]「[nick:イリア]さん、勘違いしないで下さいね？[nick:ロニキス]さんは変な意味で一緒に行ったわけじゃあ[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="63" window="1" trigger="start">[nick:ミリー]「[nick:イリア]さん、勘違いしないで下さいね？[nick:ロニキス]さんは変な意味で一緒に行ったわけじゃあ[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:イリア]「わかってるわ。あの人にそんな甲斐性あるわけないもの。[color][0x4]イオニス[color][0x2]ってこの先の町？だったら早く行きましょう。[page]
+<sn:pointer id="64" window="0" trigger="start">[nick:イリア]「わかってるわ。あの人にそんな甲斐性あるわけないもの。[color][0x4]イオニス[color][0x2]ってこの先の町？だったら早く行きましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]で、なぜ[color][0x4]イオニス[color][0x2]に？[page]
+<sn:pointer id="65" window="1" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]で、なぜ[color][0x4]イオニス[color][0x2]に？[page]
 [nick:ミリー]「[nick:マーヴェル]さんの敵討ちなんだって[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ラティ]「その[color][0x4]イオニス[color][0x2]に現れたって言う剣士が？[page]
+<sn:pointer id="66" window="0" trigger="start">[nick:ラティ]「その[color][0x4]イオニス[color][0x2]に現れたって言う剣士が？[page]
 [nick:ミリー]「たぶん[speed][0xa]。[speed][0x0]私は置いてきぼりよ。[page]
 [nick:ラティ]「じゃあ俺たちも行った方がいいんじゃないか？[page]
 [nick:ミリー]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス]「真紅の楯なら知ってるぜ。エダール剣術の使い手の中でも屈指の腕前を持つって話だ。だが、武人としても名高い男だぜ？そいつが仇ってのはなんかおかしくねぇか？[page]
+<sn:pointer id="67" window="0" trigger="start">[nick:シウス]「真紅の楯なら知ってるぜ。エダール剣術の使い手の中でも屈指の腕前を持つって話だ。だが、武人としても名高い男だぜ？そいつが仇ってのはなんかおかしくねぇか？[page]
 [nick:ラティ]「その辺はちょっとわかんないけど[speed][0xa]・・・[speed][0x0]じゃあ俺たちも行った方がいいんじゃないか？[page]
 [nick:ミリー]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[end]</sn:pointer>
+<sn:pointer id="68" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ラティ]「どうかしたんですか？[page]
+<sn:pointer id="69" window="1" trigger="start">[nick:ラティ]「どうかしたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:アシュレイ]「いや[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="70" window="1" trigger="start">[nick:アシュレイ]「いや[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ラティ]「とにかく、俺たちも行った方がいいんじゃないか？[page]
+<sn:pointer id="71" window="0" trigger="start">[nick:ラティ]「とにかく、俺たちも行った方がいいんじゃないか？[page]
 [nick:ミリー]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:シウス]「しかし、また真紅の楯かよ？[page]
+<sn:pointer id="72" window="0" trigger="start">[nick:シウス]「しかし、また真紅の楯かよ？[page]
 [nick:ミリー]「知ってるの？[page]
 [nick:シウス]「ああ、知ってるぜ。エダール剣術の使い手の中でも屈指の腕前を持つって話だ。だが、武人としても名高い男だぜ？そいつが仇ってのはなんかなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ヨシュア]「そういえば僕が話した時も何か知ってそうなそぶりでしたけど、そういうことだったんですね。[page]
+<sn:pointer id="73" window="0" trigger="start">[nick:ヨシュア]「そういえば僕が話した時も何か知ってそうなそぶりでしたけど、そういうことだったんですね。[page]
 [nick:シウス]「[speed][0xa]・・・[speed][0x0]。[page]
 [nick:ミリー]「[nick:ヨシュア]さんの時？[page]
 [nick:シウス]「こいつは生き別れになった妹を捜してるんだと。そしてその原因が真紅の楯なんだとよ。[page]
 [nick:ヨシュア]「僕の記憶の中で真っ赤な楯が焼き付いていたというだけの話です！決め付けないで下さい。変な誤解の原因になりますから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:シウス]「へいへい。[page]
+<sn:pointer id="74" window="0" trigger="start">[nick:シウス]「へいへい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ラティ]「俺にはその辺はちょっとわかんないけど[speed][0xa]・・・[speed][0x0]とにかく俺たちも行った方がいいんじゃないか？[page]
+<sn:pointer id="75" window="0" trigger="start">[nick:ラティ]「俺にはその辺はちょっとわかんないけど[speed][0xa]・・・[speed][0x0]とにかく俺たちも行った方がいいんじゃないか？[page]
 [nick:ミリー]「そうよね。[page]
 [end]</sn:pointer>
 

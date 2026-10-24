@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Test[page]
+<sn:pointer id="0" window="0" trigger="talk 16">Test[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:イリア][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:イリア][br]
 Ça y'est ?[page]
 [nick:ヨシュア][br]
 Oui. Ça fait vraiment resurgir les souvenirs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ヨシュア][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ヨシュア][br]
 Foster ! C'est moi, [nick:ヨシュア] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Foster[br]
+<sn:pointer id="3" window="0" trigger="start">Foster[br]
 [speed][0x1][nick:ヨシュア][speed][0x5] ![speed][0x1] Oh,[speed][0x0] tu es revenu ![page]
 [nick:ヨシュア][br]
 C'est si bon de vous revoir, Foster.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Foster[br]
+<sn:pointer id="4" window="1" trigger="start">Foster[br]
 Tu connais ces gens ?[page]
 [nick:イリア][br]
 Enchantée, je m'appelle [nick:イリア].[page]
@@ -30,28 +30,28 @@ C'est rare de voir quelqu'un de si timide
 avoir autant d'amis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ヨシュア][br]
+<sn:pointer id="5" window="1" trigger="start">[nick:ヨシュア][br]
 Arrêtez, voyons...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Foster[br]
+<sn:pointer id="6" window="0" trigger="start">Foster[br]
 Hé hé hé ! Entrez, on parlera à l'intérieur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Foster[br]
+<sn:pointer id="7" window="0" trigger="start">Foster[br]
 Alors, [nick:ヨシュア] ! Navré de te demander ça comme ça, mais as-tu retrouvé ta sœur ?[page]
 [nick:ヨシュア][br]
 Non[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Foster[br]
+<sn:pointer id="8" window="0" trigger="start">Foster[br]
 Ne baisse pas les bras.
 Tu dois continuer à espérer ![page]
 [nick:ヨシュア][br]
 [speed][0xa][speed][0x0]Je sais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ヨシュア][br]
+<sn:pointer id="9" window="1" trigger="start">[nick:ヨシュア][br]
 Au fait, je ne vois aucun arc.
 Vous ne chassez plus ?[page]
 Foster[br]
@@ -67,26 +67,26 @@ Foster[br]
 Quand tu habitais ici, on allait tout le temps chasser, mais là[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">1. On va botter le cul de ces créatures ![br]
+<sn:pointer id="10" choice="2" window="1" trigger="start">1. Bottons le cul de ces créatures ![br]
 2. Ne rien dire[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="1" trigger="start">[nick:ラティ][br]
 Puisqu'on est là, pourquoi ne pas aller chasser ces monstres tous ensemble ?[page]
 Foster[br]
 Une chose aussi dangereuse ! Je ne peux pas demander ça à des invités ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:イリア][br]
+<sn:pointer id="12" window="1" trigger="start">[nick:イリア][br]
 C'est une excellente idée ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ヨシュア][br]
+<sn:pointer id="13" window="1" trigger="start">[nick:ヨシュア][br]
 Tu es sûr, [nick:ラティ] ?
 Ça va être long et fastidieux[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:ラティ][br]
 Allez ! On va leur montrer qui est le boss ![page]
 Foster[br]
 Je vous suis vraiment reconnaissant.
@@ -94,27 +94,27 @@ L'orée de la forêt est juste derrière la maison.
 Mais par pitié, faites attention ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Foster[br]
+<sn:pointer id="15" window="0" trigger="start">Foster[br]
 Vous devez être fatigués.
 Restez donc pour cette nuit.[page]
 [nick:イリア][br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Foster[br]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Merci. Prenez ça, c'est le moins que je puisse faire pour vous remercier.[page]
 [color][0x6][item][0xec][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Foster[br]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Je compte sur vous pour les monstres de la forêt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">Foster[br]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Merci beaucoup.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Foster[br]
+<sn:pointer id="19" window="0" trigger="talk 17" npc="Foster">Foster[br]
 [nick:ヨシュア], j'espère que tu trouveras bientôt ta sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

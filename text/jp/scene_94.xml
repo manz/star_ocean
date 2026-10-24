@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]「敵が！[page]
+<sn:pointer id="0" window="0" trigger="tile 98">[nick:イリア]「敵が！[page]
 [nick:ロニキス]「どういうことだ！？着陸場所が敵に知られているなんて！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「どうするんですか？[page]
+<sn:pointer id="1" window="0" trigger="tile 98">[nick:ラティ]「どうするんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">ファーゲット兵「周囲は全てを封鎮した。お前たちは囲まれている、無駄な抵抗はやめろ。[page]
+<sn:pointer id="2" window="0" trigger="tile 98">ファーゲット兵「周囲は全てを封鎮した。お前たちは囲まれている、無駄な抵抗はやめろ。[page]
 [end][0x80]</sn:pointer>
 
 </sn:script>

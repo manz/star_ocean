@@ -1,71 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Cachot[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Cachot[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Château d'Astral[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Château d'Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Prisonnier[br]
+<sn:pointer id="2" window="0" trigger="search">Prisonnier[br]
 Laissez-moi sortir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ][br]
+<sn:pointer id="3" window="0" trigger="tile 19">[nick:ラティ][br]
 Tirons [nick:フィア] de là.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:フィア][br]
+<sn:pointer id="4" window="0" trigger="tile 20">[nick:フィア][br]
 Qui êtes-vous ?[page]
 [nick:ラティ][br]
 Vous êtes [nick:フィア] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア][br]
+<sn:pointer id="5" window="0" trigger="tile 20">[nick:フィア][br]
 Qu'est-ce que c'est que ces manières ? Vous n'êtes pas censé vous présenter d'abord ?[page]
 [nick:ラティ][br]
 Oh, pardon. [name:ラティクス][speed][0xa]...[speed][0x0] Appelez-moi [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア][br]
+<sn:pointer id="6" window="1" trigger="tile 20">[nick:フィア][br]
 Qu'est-ce que vous me voulez ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1. Pas grand chose.[br]
-2. C'est au sujet du meurtre du commandant.[br]
+<sn:pointer id="7" choice="3" window="1" trigger="tile 20">1. Pas grand chose.[br]
+2. Le meurtre du commandant.[br]
 3. Ordure ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:フィア][br]
+<sn:pointer id="8" window="0" trigger="tile 20">[nick:フィア][br]
 Alors, foutez-moi la paix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ラティ][br]
+<sn:pointer id="9" window="0" trigger="tile 20">[nick:ラティ][br]
 T'es une ordure, tu le sais ? Assassiner froidement les gens comme ça !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:フィア][br]
+<sn:pointer id="10" window="0" trigger="tile 20">[nick:フィア][br]
 Quoi ?! Mais j'ai rien fait ! J'ai pas besoin de rester pour entendre des stupidités pareilles de gens comme VOUS ! Dégagez, connards ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="tile 20">[nick:ラティ][br]
 Vous avez vraiment tué le commandant de la cavalerie ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア][br]
+<sn:pointer id="12" window="1" trigger="tile 20">[nick:フィア][br]
 Combien de fois faudra que je le répète ? S'il n'avait pas été là, je serais restée orpheline à mendier dans les rues. Comment aurais-je pu tuer celui qui m'a élevée comme sa propre fille ? [speed][0x1e][speed][0x0]Je n'ai rien fait du tout. Ryas doit se retourner dans sa tombe maintenant...[speed][0x0] Je me chargerai moi-même de celui qui a fait ça[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">1. Que pouvons-nous faire ?[br]
+<sn:pointer id="13" choice="2" window="1" trigger="tile 20">1. Que pouvons-nous faire ?[br]
 2. Partir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[end]</sn:pointer>
+<sn:pointer id="14" window="0" trigger="tile 20">[end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="tile 20">[nick:ラティ][br]
 S'il y a quelque chose qu'on peut faire...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア][br]
+<sn:pointer id="16" window="1" trigger="tile 20">[nick:フィア][br]
 Pouvez-vous me faire sortir de là ?[page]
 [nick:ラティ][br]
 Hein ?[page]
@@ -77,15 +77,15 @@ Je vous en prie[speed][0xa]...[speed][0x0] Croyez-moi ![page]
 Vous plaisantez... ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">1. L'aider à s'évader[br]
+<sn:pointer id="17" choice="2" window="0" trigger="tile 20">1. L'aider à s'évader[br]
 2. Partir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア][br]
+<sn:pointer id="18" window="1" trigger="tile 20">[nick:イリア][br]
 [nick:ラティ] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ][br]
+<sn:pointer id="19" window="0" trigger="tile 20">[nick:ラティ][br]
 [nick:イリア], je lui fais confiance.[page]
 [nick:イリア][br]
 Ne perds pas la tête ! Tu as oublié notre mission ? Si on se retrouve impliqués et qu'on se fait prendre, on aura fait tout ça pour rien. Pour RIEN DU TOUT ![page]
@@ -93,23 +93,23 @@ Ne perds pas la tête ! Tu as oublié notre mission ? Si on se retrouve impliqu�
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ][br]
+<sn:pointer id="20" window="0" trigger="tile 20">[nick:ラティ][br]
 On ne peut plus revenir en arrière.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア][br]
+<sn:pointer id="21" window="1" trigger="tile 20">[nick:イリア][br]
 Tu as perdu la tête, [nick:ラティ] ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ][br]
+<sn:pointer id="22" window="0" trigger="tile 20">[nick:ラティ][br]
 J'ai toute ma tête, ne t'inquiète pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ラティ][br]
+<sn:pointer id="23" window="0" trigger="tile 20">[nick:ラティ][br]
 Bon, [nick:フィア], allons-y. Il faut qu'on sorte d'[color][0x4]Astral[color][0x2] au plus vite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:フィア][br]
+<sn:pointer id="24" window="0" trigger="tile 20">[nick:フィア][br]
 Je suis désolée[speed][0xa]...[speed][0x0] On ne reviendra jamais, c'est ça ?[page]
 [nick:イリア][br]
 Eh bien, je suis certaine que le véritable meurtrier est toujours en fuite, quelque part[speed][0xa]...[speed][0x0][page]
@@ -119,69 +119,69 @@ Hâtons-nous.[page]
 Le bateau, c'est exclu. Fuyons par les [color][0x4]grottes d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[mode8][0x0][speed][0x1]Soldat[br]
+<sn:pointer id="25" window="0" trigger="start">[mode8][0x0][speed][0x1]Soldat[br]
 Sire Warren ?![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Soldat[br]
+<sn:pointer id="26" window="0" trigger="start">Soldat[br]
 Sire Warren ! Que se passe-t-il ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Soldat[br]
+<sn:pointer id="27" window="0" trigger="start">Soldat[br]
 [nick:フィア] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Soldat[br]
+<sn:pointer id="28" window="1" trigger="start">Soldat[br]
 Q-Qu'avez-vous[speed][0xf]...[speed][0x0][page]
 Soldat[br]
 [speed][0x1][nick:フィア]...[speed][0x14][speed][0x1] Qu'avez-vous fait ?![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:フィア][br]
+<sn:pointer id="29" window="0" trigger="start">[nick:フィア][br]
 Gnnn[speed][0xf]... !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">Soldat[br]
+<sn:pointer id="30" window="0" trigger="start">Soldat[br]
 O[speed][0x14]-[speed][0x1]Oh non[speed][0x14]![speed][0x1] [nick:フィア]...[speed][0x14] ![speed][0x1] Elle a tué sire Warren ![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Soldat[br]
+<sn:pointer id="31" window="0" trigger="start">Soldat[br]
 Il a besoin de beaucoup de repos, mais il s'en sortira.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:フィア][br]
+<sn:pointer id="32" window="0" trigger="start">[nick:フィア][br]
 Je vois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:フィア][br]
+<sn:pointer id="33" window="0" trigger="start">[nick:フィア][br]
 Merci. Vous devriez partir.[page]
 Soldat[br]
 Bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:フィア][br]
+<sn:pointer id="34" window="0" trigger="start">[nick:フィア][br]
 [speed][0xa]...[speed][0x0]Il semblerait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:シウス][br]
+<sn:pointer id="35" window="0" trigger="start">[nick:シウス][br]
 Alors, j'men vais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:フィア][br]
+<sn:pointer id="36" window="0" trigger="start">[nick:フィア][br]
 Tu ne vas pas voir ton père ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:シウス][br]
+<sn:pointer id="37" window="0" trigger="start">[nick:シウス][br]
 Avec quelle tête j'irais le voir, maintenant ?[page]
 [nick:フィア][br]
 Tu ne sais plus où tu en es[speed][0xa]...[speed][0x0] Même aujourd'hui Warren espère que tu rentres à la maison ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:シウス][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:シウス][br]
 C'est pour ça que je ne peux pas aller le voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:シウス][br]
+<sn:pointer id="39" window="0" trigger="start">[nick:シウス][br]
 Je n'y croyais pas.[page]
 [nick:フィア][br]
 Hein ?[page]
@@ -189,27 +189,27 @@ Hein ?[page]
 C'est exactement comme ce que tu m'as dit quand on s'est croisés en ville tout à l'heure.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス][br]
+<sn:pointer id="40" window="0" trigger="start">[nick:シウス][br]
 À l'époque, ça m'a fichu un coup quand j'ai appris que mon vieux m'avait recommandé pour le poste de capitaine des chevaliers[speed][0xa]...[speed][0x0] Tout le monde n'a pas arrêté de m'insulter, et je n'ai pas voulu que mon père soit blessé par tout ça. Mais surtout, je ne croyais pas en mes propres compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス][br]
+<sn:pointer id="41" window="0" trigger="start">[nick:シウス][br]
 Je savais qu'il n'y avait pas de place pour moi, vu la situation.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:フィア][br]
+<sn:pointer id="42" window="0" trigger="start">[nick:フィア][br]
 C'est pour ça que tu as quitté [color][0x4]Astral[color][0x2] ?[page]
 [nick:シウス][br]
 Ouais. Je voulais surtout devenir plus fort.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:シウス][br]
+<sn:pointer id="43" window="0" trigger="start">[nick:シウス][br]
 Ne raconte à personne ce que je viens de te dire. Il n'y a qu'à toi que je peux en parler.[page]
 [nick:フィア][br]
 Hé hé ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア][br]
+<sn:pointer id="44" window="0" trigger="start">[nick:フィア][br]
 On grandit tous en doutant. Chevalier du roi ou mercenaire, c'est pareil. Seul change ce en quoi on croit.[page]
 [nick:シウス][br]
 Pourquoi tu sors ça maintenant ?[page]
@@ -217,63 +217,63 @@ Pourquoi tu sors ça maintenant ?[page]
 Laisse tomber.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス][br]
+<sn:pointer id="45" window="0" trigger="start">[nick:シウス][br]
 [speed][0xa]...[speed][0x0] Un chevalier meurt pour son roi.[page]
 [nick:フィア][br]
 Et le chevalier parcourant le monde sacrifie tout pour son épée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:フィア][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:フィア][br]
 Tu as la foi maintenant, non ?[page]
 [nick:シウス][br]
 Humm[speed][0xf]...[speed][0x0] J'sais pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:フィア][br]
+<sn:pointer id="47" window="0" trigger="start">[nick:フィア][br]
 Tu ne veux pas revenir ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:フィア][br]
+<sn:pointer id="48" window="0" trigger="start">[nick:フィア][br]
 Si c'est ce que je t'ai dit qui te retient, je te demande pardon[speed][0xa]...[speed][0x0] Ou ça ne suffit pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:フィア][br]
+<sn:pointer id="49" window="0" trigger="start">[nick:フィア][br]
 N'hésite pas à venir me voir si jamais tu as besoin d'aide[speed][0xa]...[speed][0x0] Je t'attendrai[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:シウス][br]
+<sn:pointer id="50" window="0" trigger="start">[nick:シウス][br]
 C'est pas ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:フィア][br]
+<sn:pointer id="51" window="0" trigger="start">[nick:フィア][br]
 Et alors[speed][0xa]...[speed][0x0] ?[page]
 [nick:シウス][br]
 Je n'ai toujours pas envie de revenir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[nick:フィア][br]
+<sn:pointer id="52" window="0" trigger="start">[nick:フィア][br]
 Mais pourquoi ?[page]
 [nick:シウス][br]
 Y'a ce type qui roxxe pas mal à l'épée. Il a bien moins d'expérience que moi, mais pas pour longtemps. Les plus talentueux sont faits du même bois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:シウス][br]
+<sn:pointer id="53" window="0" trigger="start">[nick:シウス][br]
 Pour l'instant j'ai envie de parcourir le monde avec lui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:フィア][br]
+<sn:pointer id="54" window="0" trigger="start">[nick:フィア][br]
 Je ne vais pas t'en empêcher. Tu es bien du genre à partir pour un long voyage sans rien me dire. Ce n'est pas comme si ça n'était jamais arrivé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア][br]
+<sn:pointer id="55" window="0" trigger="start">[nick:フィア][br]
 Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:フィア][br]
+<sn:pointer id="56" window="0" trigger="start">[nick:フィア][br]
 Idiot[speed][0x14]...[speed][0x0] Tu ne vois jamais rien !! Tu n'en fais toujours qu'à ta tête[speed][0xa]...[speed][0x0] Tu ne changeras donc jamais[speed][0xf]?![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Roi[br]
+<sn:pointer id="57" window="0" trigger="start">Roi[br]
 Vous. Je vous suis profondément redevable d'avoir endigué cet incident qui aurait pu devenir une tragédie.[page]
 [nick:アシュレイ][br]
 Merci, Sire.[page]
@@ -281,15 +281,15 @@ Roi[br]
 Pas la peine d'être si formel, [nick:アシュレイ]. Ça ne te ressemble pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Roi[br]
+<sn:pointer id="58" window="0" trigger="start">Roi[br]
 Ryas ne court plus aucun danger, et même si les circonstances ne sont pas les meilleures, nous nous retrouvons après toutes ces années.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:フィア][br]
+<sn:pointer id="59" window="0" trigger="start">[nick:フィア][br]
 Par contre, le soldat du monde démoniaque qui a attaqué Ryas... Pourquoi a-t-il voulu prendre mon apparence ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">Roi[br]
+<sn:pointer id="60" window="0" trigger="start">Roi[br]
 J'ai quelques informations à ce sujet[speed][0xa]...[speed][0x0] Cependant, l'heure n'est pas venue de les divulguer[speed][0xa]...[speed][0x0][page]
 [nick:フィア][br]
 [speed][0xa]...[speed][0x0] Je vois.[page]
@@ -299,36 +299,36 @@ Quoi qu'il en soit, il est de mon devoir de récompenser ces gens.[page]
 Très bien, Votre Majesté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:フィア][br]
+<sn:pointer id="61" window="0" trigger="start">[nick:フィア][br]
 Je vous remercie du fond du cœur. Si vous n'aviez pas été là, mon honneur et ma réputation auraient grandement été souillés.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:フィア][br]
+<sn:pointer id="62" window="0" trigger="start">[nick:フィア][br]
 Merci.[page]
 [nick:ラティ][br]
 Il n'y a pas de quoi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Reçu : [color][0x6][item][0x23][0x14][color][0x2].
+<sn:pointer id="63" window="0" trigger="start">Reçu : [color][0x6][item][0x23][0x14][color][0x2].
 Reçu : [color][0x6][item][0x45][0x14][color][0x2].
 Vous obtenez 30 PS.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">Roi d'Astral[br]
+<sn:pointer id="64" window="1" trigger="start">Roi d'Astral[br]
 Cet emblème[speed][0xa]...[speed][0x0] ![page]
 [nick:ロニキス][br]
 C'est le roi de Van qui nous l'a remis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">Roi d'Astral[br]
+<sn:pointer id="65" window="1" trigger="start">Roi d'Astral[br]
 C'est donc ça[speed][0xa]...[speed][0x14][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="66">Chancelier, demandez aux gardes de nous laisser.[page]
+<sn:pointer id="66" window="0" trigger="start">Chancelier, demandez aux gardes de nous laisser.[page]
 Chancelier[br]
 Oui, Votre Majesté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">Roi d'Astral[br]
+<sn:pointer id="67" window="0" trigger="start">Roi d'Astral[br]
 Je vais à présent tout vous révéler[speed][0x14].[speed][0x0] En ce qui concerne l'[color][0x6]Œil de la Vérité[color][0x2], ce qui s'est transmis de génération en génération dans la famille n'est pas un objet à proprement parler, mais quatre phrases courtes.[page]
 [nick:ロニキス][br]
 Des phrases ?[page]
@@ -336,27 +336,27 @@ Roi d'Astral[br]
 Tout à fait.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">Roi d'Astral[br]
+<sn:pointer id="68" window="0" trigger="start">Roi d'Astral[br]
 Acceptez votre destin sans pleurer.[page]
 Indomptable soit votre courage.[page]
 À vos héritiers, jusqu'à la fin des temps,[page]
 Gardez votre force sans faiblir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ロニキス][br]
+<sn:pointer id="69" window="0" trigger="start">[nick:ロニキス][br]
 C'est[speed][0xa]...[speed][0x0] tout ?[page]
 Roi d'Astral[br]
 J'ai bien peur que oui. Je n'ai moi-même pas la moindre idée de la signification de ces phrases, mais c'est bien normal, car elles ont été conçues pour être incompréhensibles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:イリア][br]
+<sn:pointer id="70" window="0" trigger="start">[nick:イリア][br]
 Acceptez votre destin sans pleurer ?[page]
 Indomptable soit votre courage ?[page]
 À vos héritiers, jusqu'à la fin des temps ?[page]
 Gardez votre force sans faiblir ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:イリア][br]
+<sn:pointer id="71" window="1" trigger="start">[nick:イリア][br]
 On dirait de la morale à deux balles, rien de plus[speed][0xa]...[speed][0x0][page]
 Roi d'Astral[br]
 Je le pense moi aussi. Cependant, on vous a remis l'emblème de Van. Alors, vous devriez être en mesure de résoudre l'énigme.[page]
@@ -364,13 +364,13 @@ Je le pense moi aussi. Cependant, on vous a remis l'emblème de Van. Alors, vous
 Je vois. Merci, Votre Majesté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[end]</sn:pointer>
+<sn:pointer id="72" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="73">[nick:フィア][br]
+<sn:pointer id="73" window="0" trigger="start">[nick:フィア][br]
 Votre Majesté. Puis-je avoir l'outrecuidance de vous demander la permission de me joindre à eux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">Roi d'Astral[br]
+<sn:pointer id="74" window="1" trigger="start">Roi d'Astral[br]
 [nick:フィア]. Qu'importe ma réponse, je ne pourrais vous en empêcher. Mais à une condition.[page]
 [nick:フィア][br]
 Laquelle ?[page]
@@ -380,120 +380,120 @@ Que vous gardiez à jamais en mémoire votre rang de chevalier d'[color][0x4]Ast
 Je m'en souviendrai. Merci, Votre Majesté.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">Roi d'Astral[br]
+<sn:pointer id="75" window="1" trigger="start">Roi d'Astral[br]
 Je vais prier pour le succès de votre périple. Oh, et prenez ceci.[page]
 Reçu : [color][0x6]Emblème d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">Roi d'Astral[br]
+<sn:pointer id="76" window="0" trigger="start">Roi d'Astral[br]
 Et je vous remets cet arcane. Je prierai pour votre réussite.[page]
 Arcane du dieu guerrier appris.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[end]</sn:pointer>
+<sn:pointer id="77" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="78">[nick:イリア][br]
+<sn:pointer id="78" window="0" trigger="talk 4">[nick:イリア][br]
 C'est impossible ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:フィア][br]
+<sn:pointer id="79" window="0" trigger="talk 11">[nick:フィア][br]
 .....[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:フィア][br]
+<sn:pointer id="80" window="0" trigger="talk 11">[nick:フィア][br]
 Je prie sincèrement pour que vous atteigniez votre but.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">Garde[br]
+<sn:pointer id="81" window="0" trigger="talk 16" npc="Garde">Garde[br]
 ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">Garde[br]
+<sn:pointer id="82" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Veuillez terminer rapidement votre audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">Garde[br]
+<sn:pointer id="83" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Veuillez terminer rapidement votre audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">Garde[br]
+<sn:pointer id="84" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Vous n'avez rien à faire ici ! Circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">Prisonnier[br]
+<sn:pointer id="85" window="0" trigger="talk 17" npc="Prisonnier">Prisonnier[br]
 Laissez-moi sortir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Roi d'Astral[br]
+<sn:pointer id="86" window="0" trigger="talk 18" npc="Roi d'Astral">Roi d'Astral[br]
 Je prie pour votre victoire contre Asmodeus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Chancelier[br]
+<sn:pointer id="87" window="0" trigger="talk 19" npc="Chancelier">Chancelier[br]
 Nous nous réjouissons de votre futur succès.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">Reine[br]
+<sn:pointer id="88" window="0" trigger="talk 20" npc="Reine">Reine[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">Garde[br]
+<sn:pointer id="89" window="0" trigger="talk 21" npc="Garde">Garde[br]
 Vous ne pouvez aller plus loin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90">Garde[br]
+<sn:pointer id="90" window="0" trigger="talk 22" npc="Garde">Garde[br]
 Le roi est dans la salle juste après.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">Sorcier[br]
+<sn:pointer id="91" window="0" trigger="talk 23" npc="Sorcier">Sorcier[br]
 On dit que des symboles sont cachés de par le monde. On doit pouvoir y apprendre des sorts inconnus, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">Sage[br]
+<sn:pointer id="92" window="0" trigger="talk 24" npc="Sage">Sage[br]
 Un grand nombre de savoirs doivent être acquis pour préparer des remèdes. L'herboristerie en fait partie[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">Mary[br]
+<sn:pointer id="93" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Je n'arrive pas à croire que [nick:フィア] ait pu tuer Ryas ! Il l'a élevée comme sa propre fille ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">Mary[br]
+<sn:pointer id="94" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Ça me fait froid dans le dos à chaque fois que je pense qu'un monstre a pris l'apparence de [nick:フィア] pour s'en prendre à Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">Mary[br]
+<sn:pointer id="95" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Je suis la femme de chambre du roi. Ne salissez rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">Garde[br]
+<sn:pointer id="96" window="0" trigger="talk 26" npc="Garde">Garde[br]
 Le roi non plus ne veut sûrement pas y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">Garde[br]
+<sn:pointer id="97" window="0" trigger="talk 26" npc="Garde">Garde[br]
 C'est la première fois qu'un monstre s'introduit dans Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">Garde[br]
+<sn:pointer id="98" window="0" trigger="talk 26" npc="Garde">Garde[br]
 Essayez de faire bonne figure devant le roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">Garde[br]
+<sn:pointer id="99" window="0" trigger="talk 27" npc="Garde">Garde[br]
 [nick:フィア] est prisonnière au cachot ? C'est impossible ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">Garde[br]
+<sn:pointer id="100" window="0" trigger="talk 27" npc="Garde">Garde[br]
 C'est juste une rumeur, mais on raconte que la raison pour laquelle le monstre a attaqué Ryas c'est qu'il était à la recherche d'un objet que le roi lui aurait donné.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">Garde[br]
+<sn:pointer id="101" window="0" trigger="talk 27" npc="Garde">Garde[br]
 [nick:フィア], vous partez ? Quelle tristesse...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">Garde[br]
+<sn:pointer id="102" window="0" trigger="talk 27" npc="Garde">Garde[br]
 Je faisais ma ronde et j'ai aperçu [nick:フィア][speed][0xa]...[speed][0x0]
 Je suis aux anges ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">Osato le musicien[br]
+<sn:pointer id="103" window="0" trigger="talk 28" npc="Osato le musicien">Osato le musicien[br]
 Voulez-vous entendre une de mes compositions ?[page]
 [end]</sn:pointer>
 

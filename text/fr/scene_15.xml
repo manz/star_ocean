@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ミリー][br]
+<sn:pointer id="0" window="0" trigger="start">[nick:ミリー][br]
 Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:ラティ][br]
 On est où ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ロニキス][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ロニキス][br]
 Bienvenue à bord de notre vaisseau.[page]
 [nick:ミリー][br]
 Vous ÊTES des dieux finalement ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:イリア][br]
 Nous ne sommes pas des dieux.
 Nous sommes juste un peu plus avancés que vous, c'est tout.[page]
 [nick:イリア][br]
@@ -23,26 +23,26 @@ Vous aussi, vous obtiendrez un jour ces pouvoirs.[page]
 [speed][0x14]........[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ロニキス][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:ロニキス][br]
 Bon, dépêchons-nous de le transporter au centre médical.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[center]Calnus - Salle du transporteur[page]
+<sn:pointer id="5" window="speaker" trigger="start">[center]Calnus - Salle du transporteur[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Membre de l'équipage[br]
+<sn:pointer id="6" window="0" trigger="start">Membre de l'équipage[br]
 Capitaine ! Ces monstres ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス][br]
+<sn:pointer id="7" window="0" trigger="start">[nick:ロニキス][br]
 Mais qu'est-ce que ...!?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:ラティ][br]
+<sn:pointer id="8" window="1" trigger="start">[nick:ラティ][br]
 Des vers cruels ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ロニキス][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:ロニキス][br]
 Qu'est-ce que c'est ?[page]
 [nick:ラティ][br]
 Ils ont dû pondre sur nous au mont Métox.[page]
@@ -52,13 +52,13 @@ Comment se fait-il que les capteurs lors de l'embarquement n'aient rien détect�
 Je n'en ai pas la moindre idée. Déjà, débarrassons-nous d'eux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Membre de l'équipage[br]
+<sn:pointer id="10" window="0" trigger="start">Membre de l'équipage[br]
 Les [color][0x6]phasers[color][0x2] n'ont aucun effet sur eux ![page]
 [nick:ロニキス][br]
 Quoi ?! C'est une plaisanterie, j'espère...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ][br]
 Laissez-nous faire.[page]
 [nick:ロニキス][br]
 Ça ira ?[page]
@@ -66,87 +66,87 @@ Laissez-nous faire.[page]
 Allons-y, [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ロニキス][br]
+<sn:pointer id="12" window="0" trigger="start">[nick:ロニキス][br]
 Vous n'avez rien ?[page]
 [nick:ラティ][br]
 Il y en a d'autres ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア][br]
+<sn:pointer id="13" window="0" trigger="start">[nick:イリア][br]
 [speed][0x1]Attention !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ラティ][br]
+<sn:pointer id="14" window="0" trigger="start">[nick:ラティ][br]
 [speed][0x1]Argh !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ラティ][br]
+<sn:pointer id="15" window="0" trigger="start">[nick:ラティ][br]
 Mince, il en restait un...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:ミリー][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:ミリー][br]
 Es-tu blessé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ラティ][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:ラティ][br]
 C'est qu'une égratignure.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ロニキス][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:ロニキス][br]
 Il a disparu[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ラティ][br]
+<sn:pointer id="19" window="1" trigger="start">[nick:ラティ][br]
 Hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ロニキス][br]
 Quand tu as été attaqué, cette créature a disparu. Et là, son corps a lui aussi disparu[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ミリー][br]
+<sn:pointer id="21" window="1" trigger="start">[nick:ミリー][br]
 Hein, mais il est là, juste ici.[end]</sn:pointer>
 
-<sn:pointer id="22">[pos][0x0][0x20]Juste ici.[page]
+<sn:pointer id="22" window="1" trigger="start">[pos][0x0][0x20]Juste ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ロニキス][br]
+<sn:pointer id="23" window="0" trigger="start">[nick:ロニキス][br]
 [speed][0x1]Quoi ???[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア][br]
+<sn:pointer id="24" window="0" trigger="start">[nick:イリア][br]
 Alors tous les deux vous pouvez les voir[speed][0x14]...[speed][0x0][page]
 [nick:イリア][br]
 Il a disparu au moment où ton sang a jailli.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア][br]
+<sn:pointer id="25" window="0" trigger="start">[nick:イリア][br]
 En route pour le centre médical.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ロニキス][br]
+<sn:pointer id="26" window="0" trigger="start">[nick:ロニキス][br]
 Je vous laisse la suite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ロニキス][br]
+<sn:pointer id="27" window="0" trigger="start">[nick:ロニキス][br]
 Docteur, transportons [nick:ドーン] directement dans son lit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Docteur[br]
+<sn:pointer id="28" window="0" trigger="start">Docteur[br]
 Reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ロニキス][br]
+<sn:pointer id="29" window="0" trigger="start">[nick:ロニキス][br]
 [nick:イリア], je te les confie.[page]
 [nick:イリア][br]
 Oui, Capitaine.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[mode8][0x18][nick:ミリー][br]
+<sn:pointer id="30" window="0" trigger="start">[mode8][0x18][nick:ミリー][br]
 [speed][0x1e]AAAAaaaahhhh.....[speed][0x0][page]
 [mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="31">Officier du téléporteur[br]
+<sn:pointer id="31" window="0" trigger="talk 22" npc="Officier du téléporteur">Officier du téléporteur[br]
 C'est la salle des téléporteurs. Jusqu'à une certaine taille, nous pouvons tout transporter dans un rayon de 100 000 km.[page]
 [end]</sn:pointer>
 

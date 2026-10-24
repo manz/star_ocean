@@ -1,179 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x4c][0x0]オタニム[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x4c][0x0]オタニム[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">少年「すげー！羽が生えてるぜ！[page]
+<sn:pointer id="1" window="1" trigger="tile 20">少年「すげー！羽が生えてるぜ！[page]
 少女「きれー♥いいなぁ！[page]
 チェルシー「キャーッすてきー♥[page]
 ミューキー「ちょっとすごいフェザーフォルクっていうんだっけ？ほんとに超美形なんだあ！[page]
 メイリィ「ちょっと二人とも！ストーカーズ一筋なんじゃなかったの？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">1．[nick:ヨシュア]を助ける
+<sn:pointer id="2" choice="2" window="1" trigger="tile 20">1．[nick:ヨシュア]を助ける
 2．一緒になって冷やかす[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「おい！見せ物じゃないんだからやめろ！！[page]
+<sn:pointer id="3" window="0" trigger="tile 20">[nick:ラティ]「おい！見せ物じゃないんだからやめろ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">チェルシー「なによお！[page]
+<sn:pointer id="4" window="0" trigger="tile 20">チェルシー「なによお！[page]
 ミューキー「ちょっとくらいいいじゃないのよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ]「大丈夫ですか？[page]
+<sn:pointer id="5" window="0" trigger="tile 20">[nick:ラティ]「大丈夫ですか？[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]ええ、助かりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ヨシュア]「こういうのはもう慣れっこのはずだったんですけど、さすがにあれだけ騒がれると参ってしまいますよ。[page]
+<sn:pointer id="6" window="0" trigger="tile 20">[nick:ヨシュア]「こういうのはもう慣れっこのはずだったんですけど、さすがにあれだけ騒がれると参ってしまいますよ。[page]
 [nick:ラティ]「う〜ん、さすがになぁ。[page]
 [nick:ヨシュア]「いっそのこと翼なんか無ければいいのに、なんて思うこともありますけど、親にもらった体ですしね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「[nick:ヨシュア]さんモテモテですね！[page]
+<sn:pointer id="7" window="0" trigger="tile 20">[nick:ラティ]「[nick:ヨシュア]さんモテモテですね！[page]
 [nick:ヨシュア]「そういう場合じゃ・・・！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:シウス]「[speed][0x1]おらぁおめぇら！[speed][0x5]！[speed][0x1]見せ物じゃねぇんだ[speed][0x5]！[speed][0x1]とっとと失せやがれ！[speed][0x0][end]</sn:pointer>
+<sn:pointer id="8" window="1" trigger="tile 20">[nick:シウス]「[speed][0x1]おらぁおめぇら！[speed][0x5]！[speed][0x1]見せ物じゃねぇんだ[speed][0x5]！[speed][0x1]とっとと失せやがれ！[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]「大丈夫か？[page]
+<sn:pointer id="9" window="1" trigger="tile 20">[nick:シウス]「大丈夫か？[page]
 [nick:ヨシュア]「ええ、すいません。たすかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:シウス]「[nick:ラティ]、おめぇ何考えてんだ？あんなミーハーどもと一緒になって騒ぎ立てやがって・・・！！[page]
+<sn:pointer id="10" window="0" trigger="tile 20">[nick:シウス]「[nick:ラティ]、おめぇ何考えてんだ？あんなミーハーどもと一緒になって騒ぎ立てやがって・・・！！[page]
 [nick:ヨシュア]「[nick:シウス]さん、もういいですから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:アシュレイ]「コラ！お前達何しとる！そやつは見せ物じゃないわ！[end]</sn:pointer>
+<sn:pointer id="11" window="1" trigger="tile 20">[nick:アシュレイ]「コラ！お前達何しとる！そやつは見せ物じゃないわ！[end]</sn:pointer>
 
-<sn:pointer id="12">[nick:アシュレイ]「大丈夫かの？[page]
+<sn:pointer id="12" window="1" trigger="tile 20">[nick:アシュレイ]「大丈夫かの？[page]
 [nick:ヨシュア]「ええ、すいません。たすかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:アシュレイ]「おヌシまでいっしょになって騒ぎ立てることはなかろう。[page]
+<sn:pointer id="13" window="0" trigger="tile 20">[nick:アシュレイ]「おヌシまでいっしょになって騒ぎ立てることはなかろう。[page]
 [nick:ヨシュア]「[nick:アシュレイ]さん、もういいですから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:フィア]「おいっ、お前達！[nick:ヨシュア]は見せ物じゃないぞ！[end]</sn:pointer>
+<sn:pointer id="14" window="1" trigger="tile 20">[nick:フィア]「おいっ、お前達！[nick:ヨシュア]は見せ物じゃないぞ！[end]</sn:pointer>
 
-<sn:pointer id="15">[nick:フィア]「大丈夫か？[page]
+<sn:pointer id="15" window="1" trigger="tile 20">[nick:フィア]「大丈夫か？[page]
 [nick:ヨシュア]「ええ、すいません。たすかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:フィア]「[nick:ラティ]！お前まで一緒になって騒ぐなんて、悪ふざけにもほどがあるぞ？！[page]
+<sn:pointer id="16" window="0" trigger="tile 20">[nick:フィア]「[nick:ラティ]！お前まで一緒になって騒ぐなんて、悪ふざけにもほどがあるぞ？！[page]
 [nick:ヨシュア]「[nick:フィア]さん、もういいですから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「あなたたち何やってるの？！彼は見せ物じゃないのよ！！[end]</sn:pointer>
+<sn:pointer id="17" window="1" trigger="tile 20">[nick:イリア]「あなたたち何やってるの？！彼は見せ物じゃないのよ！！[end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「大丈夫？[page]
+<sn:pointer id="18" window="1" trigger="tile 20">[nick:イリア]「大丈夫？[page]
 [nick:ヨシュア]「ええ、すいません。たすかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:イリア]「[nick:ラティ]、あなたまで一緒になって騒ぐことないでしょう？見損なったわよ。[page]
+<sn:pointer id="19" window="0" trigger="tile 20">[nick:イリア]「[nick:ラティ]、あなたまで一緒になって騒ぐことないでしょう？見損なったわよ。[page]
 [nick:ヨシュア]「[nick:イリア]さん、もういいですから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[page]
+<sn:pointer id="20" window="0" trigger="tile 20">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">紋章使い「オリハルコンって知ってるかね？重力を遮断する魔力を持つ金属らしいぞ。[page]
+<sn:pointer id="21" window="0" trigger="talk 16" npc="紋章使い">紋章使い「オリハルコンって知ってるかね？重力を遮断する魔力を持つ金属らしいぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">若者「魔界の怪物は一体どこから現れているんでしょうか？[page]
+<sn:pointer id="22" window="0" trigger="talk 17" npc="若者">若者「魔界の怪物は一体どこから現れているんでしょうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">冒険者ルドア「この町から南下して大陸沿いに西に進めば格闘場で有名な町[color][0x4]タトローイ[color][0x2]だ。[page]
+<sn:pointer id="23" window="0" trigger="talk 18" npc="冒険者ルドア">冒険者ルドア「この町から南下して大陸沿いに西に進めば格闘場で有名な町[color][0x4]タトローイ[color][0x2]だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">自称画家「どうだい？[color][0x5]5[color][0x2]フォルで似顔絵を描いてあげるんだけど・・・。[page]
+<sn:pointer id="24" window="1" trigger="talk 19" npc="自称画家">自称画家「どうだい？[color][0x5]5[color][0x2]フォルで似顔絵を描いてあげるんだけど・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">1．[nick:ラティ]の似顔絵を頼む
+<sn:pointer id="25" choice="3" window="1" trigger="talk 19" npc="自称画家">1．[nick:ラティ]の似顔絵を頼む
 2．[nick:イリア]の似顔絵を頼む
 3．頼まない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">お金が足りません。[page]
+<sn:pointer id="26" window="0" trigger="talk 19" npc="自称画家">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[end]</sn:pointer>
+<sn:pointer id="27" window="0" trigger="talk 19" npc="自称画家">[end]</sn:pointer>
 
-<sn:pointer id="28">[color][0x6]落書き♂[color][0x2]を手に入れました。[page]
+<sn:pointer id="28" window="0" trigger="talk 19" npc="自称画家">[color][0x6]落書き♂[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[color][0x6]落書き♀[color][0x2]を手に入れました。[page]
+<sn:pointer id="29" window="0" trigger="talk 19" npc="自称画家">[color][0x6]落書き♀[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:シウス]「俺はもっとでかい町に行きてぇなぁ。[page]
+<sn:pointer id="30" window="0" trigger="talk 5">[nick:シウス]「俺はもっとでかい町に行きてぇなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ヨシュア]「もう大丈夫ですから。[page]
+<sn:pointer id="31" window="0" trigger="talk 6">[nick:ヨシュア]「もう大丈夫ですから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ペリシー]「にゃーあ[page]
+<sn:pointer id="32" window="0" trigger="talk 10">[nick:ペリシー]「にゃーあ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">自称画家「なんて美しい人だ！お願いします！僕に絵を描かせて下さい！[page]
+<sn:pointer id="33" window="0" trigger="talk 8 talk 19" npc="自称画家">自称画家「なんて美しい人だ！お願いします！僕に絵を描かせて下さい！[page]
 [nick:マーヴェル]「えっ？ご、ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">ロザリオ「どこかにいい画家さんいないかなぁ。弟子入りしたいんだ。[page]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="ロザリオ">ロザリオ「どこかにいい画家さんいないかなぁ。弟子入りしたいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">ロザリオ「うぃ〜、なんだ？俺は酔っちゃねぇ〜ぞ！！[page]
+<sn:pointer id="35" window="0" trigger="talk 21" npc="ロザリオ">ロザリオ「うぃ〜、なんだ？俺は酔っちゃねぇ〜ぞ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">チェルシイ「ミュージシャンのストーカーズって知ってる[speed][0xf]？[speed][0x0]もうなんていうか超サイコーって感じ！！[page]
+<sn:pointer id="36" window="0" trigger="talk 22" npc="チェルシイ">チェルシイ「ミュージシャンのストーカーズって知ってる[speed][0xf]？[speed][0x0]もうなんていうか超サイコーって感じ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">メイリィ「私たち“ストーカーズ本”作ってるの[speed][0xf]♥[speed][0x0]
+<sn:pointer id="37" window="1" trigger="talk 23" npc="メイリィ">メイリィ「私たち“ストーカーズ本”作ってるの[speed][0xf]♥[speed][0x0]
 一冊買いませんか？[color][0x4]980[color][0x2]フォルよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">1．買う
+<sn:pointer id="38" choice="2" window="1" trigger="talk 23" npc="メイリィ">1．買う
 2．買わない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[color][0x6]どーじん4[color][0x2]を手に入れました。[page]
+<sn:pointer id="39" window="0" trigger="talk 23" npc="メイリィ">[color][0x6]どーじん4[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">持ち物がいっぱいです。[page]
+<sn:pointer id="40" window="0" trigger="talk 23" npc="メイリィ">持ち物がいっぱいです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">お金が足りないわよ。[page]
+<sn:pointer id="41" window="0" trigger="talk 23" npc="メイリィ">お金が足りないわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[end]</sn:pointer>
+<sn:pointer id="42" window="0" trigger="talk 23" npc="メイリィ">[end]</sn:pointer>
 
-<sn:pointer id="43">ミューキィ「モリリンって女性ボーカルが艶っぽくてＥのよ[speed][0xf]、[speed][0x0]ああ[speed][0x5]〜[speed][0x0]ん♪[page]
+<sn:pointer id="43" window="0" trigger="talk 24" npc="ミューキィ">ミューキィ「モリリンって女性ボーカルが艶っぽくてＥのよ[speed][0xf]、[speed][0x0]ああ[speed][0x5]〜[speed][0x0]ん♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">ミューキィ「夜空を一人で眺めてるとなんか、Ｅのよねぇ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="ミューキィ">ミューキィ「夜空を一人で眺めてるとなんか、Ｅのよねぇ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">若者レイ「君の好きな食べ物はなんだい？
+<sn:pointer id="45" window="0" trigger="talk 25" npc="若者レイ">若者レイ「君の好きな食べ物はなんだい？
 ぼくはロールキャベツが大好きなんだけど。[page]
 若者レイ「好物を食べればＨＰとＭＰなんか完全回復さ！[page]
 体に悪そうな薬なんか飲むことないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">若者「レッサーフェルプールという種族はリズム感や音感に優れているんだとさ。ちなみに俺はオンチ♪[page]
+<sn:pointer id="46" window="0" trigger="talk 26" npc="若者">若者「レッサーフェルプールという種族はリズム感や音感に優れているんだとさ。ちなみに俺はオンチ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">剣士ロウェル「[color][0x4]タトローイ[color][0x2]の闘技場で奥義書をもらえるってうわさを聞いたけど、ほんとか？[page]
+<sn:pointer id="47" window="0" trigger="talk 27" npc="剣士ロウェル">剣士ロウェル「[color][0x4]タトローイ[color][0x2]の闘技場で奥義書をもらえるってうわさを聞いたけど、ほんとか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">女の子「ここは[color][0x4]オタニム[color][0x2]よ。[page]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="女の子">女の子「ここは[color][0x4]オタニム[color][0x2]よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ロニキス]「[nick:ラティ]はどうするんだ？[page]
+<sn:pointer id="49" window="0" trigger="talk 3">[nick:ロニキス]「[nick:ラティ]はどうするんだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">鍵がかかっています。[page]
+<sn:pointer id="50" window="0" trigger="talk 32 talk 33 talk 34 talk 35 talk 36 talk 37">鍵がかかっています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:イリア]「今日はもう宿で休みましょう。[page]
+<sn:pointer id="51" window="0" trigger="tile 1 tile 2">[nick:イリア]「今日はもう宿で休みましょう。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

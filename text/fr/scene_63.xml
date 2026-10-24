@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Soldat[br]
+<sn:pointer id="0" window="1" trigger="tile 20">Soldat[br]
 Attendez, vous ne pouvez passer ici sans permission. Avez-vous quelque chose pour prouver votre habilitation ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[end]</sn:pointer>
+<sn:pointer id="1" window="0" trigger="tile 20">[end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ロニキス][br]
+<sn:pointer id="2" window="0" trigger="tile 20">[nick:ロニキス][br]
 Et avec cet emblème ?[page]
 Soldat[br]
 C'est celui du château de Van[speed][0xa]...[speed][0x0] ! Bon, circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Soldat[br]
+<sn:pointer id="3" window="0" trigger="tile 20">Soldat[br]
 Si vous ne pouvez pas le prouver, je ne peux pas vous laisser passer. Rentrez chez vous ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Soldat[br]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="Soldat">Soldat[br]
 Circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Soldat[br]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="Soldat">Soldat[br]
 Circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:シウス][br]
+<sn:pointer id="6" window="1" trigger="tile 126">[nick:シウス][br]
 Hé, [nick:ラティ]. Tu peux m'avancer un peu de thunes ?[page]
 [nick:ラティ][br]
 Gné ?[page]
@@ -32,103 +32,103 @@ Gné ?[page]
 Ouais, j'voulais aller faire un peu de shopping, là.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1. Lui prêter 1000 Fol[br]
+<sn:pointer id="7" choice="2" window="1" trigger="tile 126">1. Lui prêter 1000 Fol[br]
 2. Qu'il aille se faire voir[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:シウス][br]
+<sn:pointer id="8" window="0" trigger="tile 126">[nick:シウス][br]
 Merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス][br]
+<sn:pointer id="9" window="0" trigger="tile 126">[nick:シウス][br]
 Rhhaaa... Fais pas ton rat ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア][br]
+<sn:pointer id="10" window="0" trigger="tile 126">[nick:イリア][br]
 Commençons par faire ensemble le tour de la ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:シウス][br]
+<sn:pointer id="11" window="0" trigger="tile 126">[nick:シウス][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア][br]
+<sn:pointer id="12" window="0" trigger="tile 126">[nick:フィア][br]
 Tu veux te reposer, là maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:アシュレイ][br]
+<sn:pointer id="13" window="0" trigger="tile 126">[nick:アシュレイ][br]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー][br]
+<sn:pointer id="14" window="0" trigger="tile 126">[nick:ミリー][br]
 Commençons par unir nos forces, tous ensemble.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:ロニキス][br]
+<sn:pointer id="15" window="0" trigger="tile 126">[nick:ロニキス][br]
 Nous nous reposerons quand nous aurons fini ce que nous avons en cours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア][br]
+<sn:pointer id="16" window="0" trigger="tile 126">[nick:イリア][br]
 Vous ne croyez pas qu'on devrait se dépêcher d'aller dans le monde démoniaque au lieu de glandouiller ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="tile 126">[nick:イリア][br]
 On va vraiment retrouver les autres juste en se baladant[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア][br]
+<sn:pointer id="18" window="0" trigger="tile 126">[nick:イリア][br]
 On peut faire une pause ? J'ai les pieds en compote ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス][br]
+<sn:pointer id="19" window="0" trigger="tile 126">[nick:ロニキス][br]
 N'oublie pas notre but; nous devons aller dans le monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス][br]
+<sn:pointer id="20" window="0" trigger="tile 126">[nick:ロニキス][br]
 Qu'est-ce que tu vas faire, [nick:ラティ] ? Je vais rôder dans le coin...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ミリー][br]
+<sn:pointer id="21" window="0" trigger="tile 126">[nick:ミリー][br]
 Fonçons dans le monde démoniaque pour sauver [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ミリー][br]
+<sn:pointer id="22" window="0" trigger="tile 126">[nick:ミリー][br]
 On ne pourrait pas se reposer un peu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:シウス][br]
+<sn:pointer id="23" window="0" trigger="tile 126">[nick:シウス][br]
 On devait pas aller poutrer Asmodeus ? C'est ptet pas une bonne idée de faire mumuse dans le coin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:シウス][br]
+<sn:pointer id="24" window="0" trigger="tile 126">[nick:シウス][br]
 J'pars devant.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:アシュレイ][br]
+<sn:pointer id="25" window="0" trigger="tile 126">[nick:アシュレイ][br]
 Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:アシュレイ][br]
+<sn:pointer id="26" window="0" trigger="tile 126">[nick:アシュレイ][br]
 Je ne pense pas que ce soit le moment de se reposer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:フィア][br]
+<sn:pointer id="27" window="0" trigger="tile 126">[nick:フィア][br]
 Nous n'allons plus dans le monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:フィア][br]
+<sn:pointer id="28" window="0" trigger="tile 126">[nick:フィア][br]
 [speed][0xa]...[speed][0x0] On a vraiment le temps de traîner ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ヨシュア][br]
+<sn:pointer id="29" window="0" trigger="tile 126">[nick:ヨシュア][br]
 On va s'arrêter un moment, nous repartirons ensuite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:マーヴェル][br]
+<sn:pointer id="30" window="0" trigger="tile 126">[nick:マーヴェル][br]
 Nous allons nous arrêter dans cette ville, c'est ça ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:シウス][br]
+<sn:pointer id="31" window="0" trigger="tile 22">[nick:シウス][br]
 Merci pour les brouzoufs. Tiens j't'ai ramené ça.[page]
 [color][0x6][item][0x22][0x15][color][0x2] reçu !
 [color][0x6][item][0xff][0x14][color][0x2] reçu !
@@ -139,82 +139,82 @@ Merci pour les brouzoufs. Tiens j't'ai ramené ça.[page]
 [color][0x6][item][0x33][0x15][color][0x2] reçu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ][br]
+<sn:pointer id="32" window="0" trigger="tile 22">[nick:ラティ][br]
 J'sais pas si c'est juste moi, mais il me semble pas qu'on puisse avoir tout ça avec seulement [color][0x5]1000[color][0x2] Fol[speed][0xa]...[speed][0x0][page]
 [nick:シウス][br]
 J'te raconterai p'têt' un jour ! AHAHAH ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:イリア][br]
+<sn:pointer id="33" window="0" trigger="tile 22">[nick:イリア][br]
 Dans ce cas, on y va.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア][br]
+<sn:pointer id="34" window="0" trigger="tile 22">[nick:イリア][br]
 Tu t'es bien reposé, [nick:ラティ] ? En route pour le [color][0x4]temple de Parj[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:イリア][br]
+<sn:pointer id="35" window="0" trigger="tile 22">[nick:イリア][br]
 Bien, allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ロニキス][br]
+<sn:pointer id="36" window="0" trigger="tile 22">[nick:ロニキス][br]
 Bon, assez de repos. Allons demander audience aux rois de chaque royaume.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ロニキス][br]
+<sn:pointer id="37" window="0" trigger="tile 22">[nick:ロニキス][br]
 Assez traîné.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ミリー][br]
+<sn:pointer id="38" window="0" trigger="tile 22">[nick:ミリー][br]
 Le temple était à l'ouest de [color][0x4]Tatroï[color][0x2], non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:シウス][br]
+<sn:pointer id="39" window="0" trigger="tile 22">[nick:シウス][br]
 Viens, on s'casse au monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス][br]
+<sn:pointer id="40" window="0" trigger="tile 22">[nick:シウス][br]
 On devait pas aller au [color][0x4]temple de Parj[color][0x2] ? Allez, on bouge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:シウス][br]
+<sn:pointer id="41" window="0" trigger="tile 22">[nick:シウス][br]
 J'préfère mille fois poutrer du streum que rester là à glander.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:アシュレイ][br]
+<sn:pointer id="42" window="0" trigger="tile 22">[nick:アシュレイ][br]
 On ne devait pas aller se renseigner auprès du roi sur l'[color][0x6]Œil de la Vérité[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:フィア][br]
+<sn:pointer id="43" window="0" trigger="tile 22">[nick:フィア][br]
 Tu te souviens de là où se trouve le [color][0x4]temple de Parj[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:フィア][br]
+<sn:pointer id="44" window="0" trigger="tile 22">[nick:フィア][br]
 En route.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ヨシュア][br]
+<sn:pointer id="45" window="0" trigger="tile 22">[nick:ヨシュア][br]
 On ne va pas au monde démoniaque ? On doit pouvoir y entrer en passant par [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ヨシュア][br]
+<sn:pointer id="46" window="0" trigger="tile 22">[nick:ヨシュア][br]
 Pour obtenir l'Œil de la Vérité, ne devrions-nous pas finir nos audiences ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ヨシュア][br]
+<sn:pointer id="47" window="0" trigger="tile 22">[nick:ヨシュア][br]
 Parfois, c'est bien aussi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">Il n'y a rien d'écrit.[page]
+<sn:pointer id="48" window="0" trigger="talk 18">Il n'y a rien d'écrit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">Ouest : Ville fortifiée de Van[page]
+<sn:pointer id="49" window="0" trigger="talk 18">Ouest : Ville fortifiée de Van[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">Comment va Moe ?[page]
+<sn:pointer id="50" window="0" trigger="talk 19">Comment va Moe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">Est : Dulce[page]
+<sn:pointer id="51" window="0" trigger="talk 19">Est : Dulce[page]
 [end]</sn:pointer>
 
 </sn:script>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ruines des Sept Étoiles - Sous-sol [var][0x80][0x36][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">K[br]
+<sn:pointer id="1" window="0" trigger="talk 36" npc="K">K[br]
 Yuu[speed][0xa]...[speed][0x0]
 Ne t'en fais pas pour moi, vas-y[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Aventurier Pilon[br]
+<sn:pointer id="2" window="0" trigger="talk 37" npc="Aventurier Pilon">Aventurier Pilon[br]
 Argh ! J'veux rentrer, mais j'peux pas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Aventurier Yuu[br]
+<sn:pointer id="3" window="0" trigger="talk 38" npc="Aventurier Yuu">Aventurier Yuu[br]
 Argh, j'aurais jamais dû suivre ce type[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

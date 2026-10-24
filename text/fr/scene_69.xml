@@ -1,206 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Bar[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Bar[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Maison[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[center]Armurerie[page]
+<sn:pointer id="2" window="speaker" trigger="start">[center]Armurerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[center]Maison[page]
+<sn:pointer id="3" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[center]Guilde des savoirs[page]
+<sn:pointer id="4" window="speaker" trigger="start">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[center]Auberge[page]
+<sn:pointer id="5" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Maître de la guilde[br]
+<sn:pointer id="6" window="1" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">1. Culture niveau 3  1200[br]
+<sn:pointer id="7" choice="3" window="1" trigger="talk 16" npc="Maître de la guilde">1. Culture niveau 3  1200[br]
 2. Sens niveau 3  300[br]
 3. Technique niveau 3  5000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="9">Maître de la guilde[br]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Maître de la guilde[br]
+<sn:pointer id="10" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Maître de la guilde[br]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Conseiller[br]
+<sn:pointer id="12" window="0" trigger="talk 17" npc="Conseiller">Conseiller[br]
 Ce n'est pas parce que vous achetez un arcane que vous serez en mesure de l'utiliser. Mais une fois l'arcane appris, à force d'utiliser certaines techniques, vous pourrez découvrir une super-technique ![page]
 Conseiller[br]
 Y parvenir dépend de vos efforts et de votre maîtrise de l'escrime.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">Mentor[br]
+<sn:pointer id="13" window="1" trigger="talk 18" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">1. Culture niveau 3[br]
+<sn:pointer id="14" choice="3" window="1" trigger="talk 18" npc="Mentor">1. Culture niveau 3[br]
 2. Sens niveau 3[br]
 3. Technique niveau 3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">Mentor[br]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Culture niveau 3 comprend :
 Folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">Mentor[br]
+<sn:pointer id="16" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Sens niveau 3 comprend :
 Efficacité, ondes radio et obstination.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">Mentor[br]
+<sn:pointer id="17" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Technique niveau 3 comprend :
 Technoscience, interprétation et moulage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[end]</sn:pointer>
+<sn:pointer id="18" window="0" trigger="talk 18" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="19">Petite fille[br]
+<sn:pointer id="19" window="0" trigger="talk 19" npc="Petite fille">Petite fille[br]
 On n'a pas le droit de sortir sans autorisation, c'est nul ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">Gamin[br]
+<sn:pointer id="20" window="0" trigger="talk 20" npc="Gamin">Gamin[br]
 J'ai envie d'aller jouer dehors ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">Vieil homme[br]
+<sn:pointer id="21" window="0" trigger="talk 21" npc="Vieil homme">Vieil homme[br]
 Quel ennui[speed][0xa]...[speed][0x0] À ce train-là, je vais devenir gâteux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">Vieille femme[br]
+<sn:pointer id="22" window="0" trigger="talk 22" npc="Vieille femme">Vieille femme[br]
 J'espère que la paix reviendra bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">Sutea le mercenaire[br]
+<sn:pointer id="23" window="0" trigger="talk 23" npc="Sutea le mercenaire">Sutea le mercenaire[br]
 Avec Ralph, on se bat ensemble.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">Ralph le mercenaire[br]
+<sn:pointer id="24" window="0" trigger="talk 24" npc="Ralph le mercenaire">Ralph le mercenaire[br]
 Sutea est mon frère d'armes. Quand on est tous les deux, aucun monstre ne nous résiste.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">Chevalier[br]
+<sn:pointer id="25" window="0" trigger="talk 25" npc="Chevalier">Chevalier[br]
 Vous n'avez pas appris de techniques de combat ? Vous devriez, elles sont très utiles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">Barman[br]
+<sn:pointer id="26" window="0" trigger="talk 26" npc="Barman">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">Kikurin[br]
+<sn:pointer id="27" window="0" trigger="talk 27" npc="Kikurin">Kikurin[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">Judy[br]
+<sn:pointer id="28" window="1" trigger="talk 28" npc="Judy">Judy[br]
 Détendez-vous et passez une bonne nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[end]</sn:pointer>
+<sn:pointer id="29" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="30">Souhaitez-vous rester ?[page]
+<sn:pointer id="30" window="1" trigger="talk 28" npc="Judy">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">Judy[br]
+<sn:pointer id="31" window="0" trigger="talk 28" npc="Judy">Judy[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">Judy[br]
+<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28" npc="Judy">Judy[br]
 Bienvenue.
 C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="34">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="34" window="0" trigger="talk 28" npc="Judy">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="36">Lucio[br]
+<sn:pointer id="36" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 Arrêtez d'embêter [nick:ミリー], pigé ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">Lucio[br]
+<sn:pointer id="37" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 [nick:ミリー], s'ils recommencent, n'hésite pas à venir me voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">Lucio[br]
+<sn:pointer id="38" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 Vous dormez ici ? Notre auberge est la meilleure du monde ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">Étudiant[br]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="Étudiant">Étudiant[br]
 Je fais des recherches sur ce qu'on appelle le pacte d'âme que les anciens auraient fait.[page]
 Étudiant[br]
 Il y a encore beaucoup de détails à vérifier, mais ça ressemblait aux pactes avec le diable des légendes : un vœu exaucé en échange de son âme. Quelque chose comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:ミリー][br]
+<sn:pointer id="40" window="0" trigger="start">[nick:ミリー][br]
 Hey ! Mais qu'est-ce que tu fabriques ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">Lucio[br]
+<sn:pointer id="41" window="0" trigger="start">Lucio[br]
 Ça te regarde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ミリー][br]
+<sn:pointer id="42" window="0" trigger="start">[nick:ミリー][br]
 Tu ne devrais pas faire ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">Lucio[br]
+<sn:pointer id="43" window="0" trigger="start">Lucio[br]
 T'es bête ou quoi ?
 Écrire des lettres qui n'arriveront jamais ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:ミリー][br]
+<sn:pointer id="44" window="0" trigger="start">[nick:ミリー][br]
 Fous-moi la paix ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">Cher [nick:ラティ][speed][0xa]...[speed][0x0]
+<sn:pointer id="45" window="8" trigger="start">Cher [nick:ラティ][speed][0xa]...[speed][0x0]
 C'est [nick:ミリー] qui t'écrit. Tu as toujours été là pour moi, et je n'ai jamais songé à t'écrire[speed][0xa]...[speed][0x0]
 Mais c'est tout ce que je puis faire maintenant que je ne sais pas où tu es.[page]
 Es-tu vraiment ici, toi aussi, [nick:ラティ] ? Je ne compte plus les jours depuis ton départ. Tu me manques énormément.[page]
 J'espère te revoir bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:ミリー][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:ミリー][br]
 Tu me manques[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">Lucio[br]
+<sn:pointer id="47" window="0" trigger="start">Lucio[br]
 [nick:ミリー], tu pleures ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:ミリー][br]
+<sn:pointer id="48" window="0" trigger="start">[nick:ミリー][br]
 Raaah ! Ça ne me ressemble pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:ミリー][br]
+<sn:pointer id="49" window="0" trigger="start">[nick:ミリー][br]
 Tout est de TA faute[speed][0xa]!!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ミリー][br]
+<sn:pointer id="50" window="0" trigger="start">[nick:ミリー][br]
 [nick:ラティ] !![speed][0x1e][speed][0x0] Espèce de crétin !!![page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:ミリー][br]
+<sn:pointer id="51" window="0" trigger="start">[nick:ミリー][br]
 Merci m'dame pour tout ce que vous avez fait pour moi.[page]
 Judy[br]
 Pas besoin de me remercier. Ça m'a fait plaisir de vous aider. Dans un sens, c'est un peu comme si vous étiez devenue ma fille.[page]
@@ -208,106 +208,106 @@ Pas besoin de me remercier. Ça m'a fait plaisir de vous aider. Dans un sens, c'
 M'dame[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">Judy[br]
+<sn:pointer id="52" window="0" trigger="start">Judy[br]
 Viens, Lucio. Tu ne veux pas lui dire adieu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">Judy[br]
+<sn:pointer id="53" window="1" trigger="start">Judy[br]
 Quelle tête de mule quand il s'y met[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="54">Pardon, [nick:ミリー].[page]
+<sn:pointer id="54" window="0" trigger="start">Pardon, [nick:ミリー].[page]
 [nick:ミリー][br]
 T'inquiète, c'est rien[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:ミリー][br]
+<sn:pointer id="55" window="0" trigger="start">[nick:ミリー][br]
 Mes amis sont venus me chercher. Je dois partir à présent. Prends soin de toi, Lucio.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">Lucio[br]
+<sn:pointer id="56" window="0" trigger="start">Lucio[br]
 [nick:ミリー] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">Lucio[br]
+<sn:pointer id="57" window="1" trigger="start">Lucio[br]
 Tu pars pour de vrai ?[page]
 [nick:ミリー][br]
 Oui[speed][0xa]...[speed][0x0] Il le faut vraiment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">Lucio[br]
+<sn:pointer id="58" window="1" trigger="start">Lucio[br]
 [speed][0x1]Non...[speed][0x0][nick:ミリー], reste.[end]</sn:pointer>
 
-<sn:pointer id="59">[speed][0xa]...[speed][0x0] Je[speed][0xa]... Je[speed][0x0]... !![page]
+<sn:pointer id="59" window="0" trigger="start">[speed][0xa]...[speed][0x0] Je[speed][0xa]... Je[speed][0x0]... !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:ミリー][br]
+<sn:pointer id="60" window="0" trigger="start">[nick:ミリー][br]
 Ne pleure pas, Lucio[speed][0xa]...[speed][0x0] Où est passé le Lucio toujours heureux et plein d'entrain ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">Judy[br]
+<sn:pointer id="61" window="0" trigger="start">Judy[br]
 Lucio, tu es un homme, reprends-toi ! Dans cette situation, tu devrais lui dire adieu avec le sourire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">Lucio[br]
+<sn:pointer id="62" window="0" trigger="start">Lucio[br]
 Je sais, je sais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">Lucio[br]
+<sn:pointer id="63" window="0" trigger="start">Lucio[br]
 [speed][0xa]...[speed][0x0]
 Fais attention à toi, [nick:ミリー]. Et reviens nous voir de temps en temps.[page]
 [nick:ミリー][br]
 Oui, bien sûr. Et on jouera tous les deux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ミリー][br]
+<sn:pointer id="64" window="0" trigger="start">[nick:ミリー][br]
 Adieu[speed][0xa]...[speed][0x0][page]
 Lucio[br]
 Au revoir[speed][0xa],[speed][0x0] [nick:ミリー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ロニキス][br]
+<sn:pointer id="65" window="0" trigger="talk 3">[nick:ロニキス][br]
 Ça me donne envie de ne rien faire quand il caille comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:イリア][br]
+<sn:pointer id="66" window="0" trigger="talk 4">[nick:イリア][br]
 [nick:ラティ], tu veux un peu de thé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:シウス][br]
+<sn:pointer id="67" window="0" trigger="talk 5">[nick:シウス][br]
 [nick:ラティ][speed][0xa],[speed][0x0] ça va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:シウス][br]
+<sn:pointer id="68" window="0" trigger="talk 5">[nick:シウス][br]
 Bon sang, ma lame va finir par rouiller à rester dans un coin comme ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:フィア][br]
+<sn:pointer id="69" window="0" trigger="talk 11">[nick:フィア][br]
 Ça[speed][0x8]...[speed][0x0] C'est bizarre qu'on soit tous les deux ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:フィア][br]
+<sn:pointer id="70" window="0" trigger="talk 11">[nick:フィア][br]
 Par ce froid, il faut bien entretenir ses armes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ミリー][br]
+<sn:pointer id="71" window="0" trigger="start">[nick:ミリー][br]
 Bonjour, M'dame ! Ça fait plaisir de vous revoir ![page]
 Judy[br]
 Ma parole, c'est [nick:ミリー] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ミリー][br]
+<sn:pointer id="72" window="1" trigger="start">[nick:ミリー][br]
 Tu as été sage ? Tu n'as pas causé d'ennuis à ta mère ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">Lucio[br]
+<sn:pointer id="73" window="1" trigger="start">Lucio[br]
 Quoi ?! Tu sais bien que je ne suis pas comme ça ![end]</sn:pointer>
 
-<sn:pointer id="74">Alors, [nick:ミリー], tout s'est bien passé lors de ton voyage ? Tu peux revenir ici quand tu veux.[page]
+<sn:pointer id="74" window="0" trigger="start">Alors, [nick:ミリー], tout s'est bien passé lors de ton voyage ? Tu peux revenir ici quand tu veux.[page]
 [nick:ミリー][br]
 Hihi, merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ミリー][br]
+<sn:pointer id="75" window="0" trigger="talk 1">[nick:ミリー][br]
 Oh, [nick:ラティ]. Je vais rester ici à discuter un moment.[page]
 [end]</sn:pointer>
 

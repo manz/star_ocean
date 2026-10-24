@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ruines B des Sept Étoiles[var][0x80][0x36][page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ruines B des Sept Étoiles[var][0x80][0x36][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Il est écrit "Les femmes d'abord"[page]
+<sn:pointer id="1" window="0" trigger="tile 8">Il est écrit "Les femmes d'abord"[page]
 [end]</sn:pointer>
 
 </sn:script>

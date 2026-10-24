@@ -1,278 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]民家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x58][0x0]民家[page]
+<sn:pointer id="1" window="0 speaker" trigger="start talk 22" npc="説明員">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x58][0x0]民家[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x50][0x0]食料品店[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x50][0x0]食料品店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="7" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="8" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:シウス]「親父ィ！酒を6つよこせや！[page]
+<sn:pointer id="9" window="1" trigger="start">[nick:シウス]「親父ィ！酒を6つよこせや！[page]
 [nick:イリア]「何よ、その頼みかた。[page]
 [nick:ラティ]「そうだよ、もう少し丁寧に言えよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア]「違うわ[speed][0x19]。[speed][0x0][end]</sn:pointer>
+<sn:pointer id="10" window="1" trigger="start">[nick:イリア]「違うわ[speed][0x19]。[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="11">“酒”って何？漠然と言わないでよ。色々あるんだから！[page]
+<sn:pointer id="11" window="1" trigger="start">“酒”って何？漠然と言わないでよ。色々あるんだから！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:シウス]「俺は飲めりゃなんでもいいんだよ！[page]
+<sn:pointer id="12" window="1" trigger="start">[nick:シウス]「俺は飲めりゃなんでもいいんだよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]「あっそう。じゃあこの人だけ一番安いのでいいわ[speed][0xf]。[speed][0x0]くどいわよぉ。翌日になったら頭ガンガン★するんだから。[page]
+<sn:pointer id="13" window="1" trigger="start">[nick:イリア]「あっそう。じゃあこの人だけ一番安いのでいいわ[speed][0xf]。[speed][0x0]くどいわよぉ。翌日になったら頭ガンガン★するんだから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:シウス]「おっおい！[page]
+<sn:pointer id="14" window="1" trigger="start">[nick:シウス]「おっおい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]「冗談よ。[page]
+<sn:pointer id="15" window="0" trigger="start">[nick:イリア]「冗談よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「マスター、あとは何があるのかしら？[page]
+<sn:pointer id="16" window="1" trigger="start">[nick:イリア]「マスター、あとは何があるのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">店の親父「そうだなぁ、“ビジョウブ”なんてどうだい？[page]
+<sn:pointer id="17" window="0" trigger="start">店の親父「そうだなぁ、“ビジョウブ”なんてどうだい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:イリア]「いいわね。それちょうだい。[page]
+<sn:pointer id="18" window="0" trigger="start">[nick:イリア]「いいわね。それちょうだい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">店の親父「そうだなぁ、“センチュウ”なんてどうだい？[page]
+<sn:pointer id="19" window="0" trigger="start">店の親父「そうだなぁ、“センチュウ”なんてどうだい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア]「辛口ね？いいわね。それちょうだい。[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:イリア]「辛口ね？いいわね。それちょうだい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
+<sn:pointer id="21" window="1" trigger="start">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
 [nick:イリア]「男なら細かいことは気にしないものよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ミリー]「あのぉ、わたしはパインシェイクで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="22" window="1" trigger="start">[nick:ミリー]「あのぉ、わたしはパインシェイクで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:ミリー]「あのぉ、わたしはブルーベリィシェイクで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="23" window="1" trigger="start">[nick:ミリー]「あのぉ、わたしはブルーベリィシェイクで[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">店の親父「あいよ！[page]
+<sn:pointer id="24" window="0" trigger="start">店の親父「あいよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア]「マスター、お酒もらえるかしら？[page]
+<sn:pointer id="25" window="0" trigger="start">[nick:イリア]「マスター、お酒もらえるかしら？[page]
 店の親父「あいよ、何にしやすか？[page]
 [nick:イリア]「そうね[speed][0xa]・・・[speed][0x0]そこの“ムカンサ”もらえる？[page]
 店の親父「ほう、結構知ってるねぇ。これは値段以上の味があるいい酒さ。[page]
 [nick:イリア]「ふふ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:イリア]「お酒はいけるほうですか[speed][0xf]？[speed][0x0]
+<sn:pointer id="26" window="0" trigger="start">[nick:イリア]「お酒はいけるほうですか[speed][0xf]？[speed][0x0]
 オ[speed][0xa]・[speed][0x0]ジ[speed][0xa]・[speed][0x0]サ[speed][0xa]・[speed][0x0]マ♪[page]
 [nick:アシュレイ]「む、年寄りをちゃかすでないわ。酒なんぞ水と同じよ。それに、ワシなら黙って“ヒイラズ”を頼むがの。[page]
 [nick:イリア]「あら[speed][0xa]♪[speed][0x0]通ですわね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
+<sn:pointer id="27" window="1" trigger="start">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア]「男なら細かいことは気にしないものよ。[speed][0x14][speed][0x0][end]</sn:pointer>
+<sn:pointer id="28" window="1" trigger="start">[nick:イリア]「男なら細かいことは気にしないものよ。[speed][0x14][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="29">ね？[page]
+<sn:pointer id="29" window="1" trigger="start">ね？[page]
 [nick:アシュレイ]「うむ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:ミリー]「あのぉ、わたしはアップルシェイクで[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="30" window="0" trigger="start">[nick:ミリー]「あのぉ、わたしはアップルシェイクで[speed][0xa]・・・。[speed][0x0][page]
 店の親父「あいよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="32">[nick:イリア]「マスター、お酒もらえるかしら？[page]
+<sn:pointer id="32" window="0" trigger="start">[nick:イリア]「マスター、お酒もらえるかしら？[page]
 店の親父「あいよ。なんにしますか？[page]
 [nick:イリア]「え〜と[speed][0xa]、[speed][0x0]そこのお酒“せんちゅう”？[page]
 店の親父「お[speed][0xa]、[speed][0x0]知ってるねぇ。[page]
 [nick:イリア]「まぁね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
+<sn:pointer id="33" window="0" trigger="start">[nick:ラティ]「[nick:イリア]さん、いつの間にこの世界の酒を覚えたんですか？[page]
 [nick:イリア]「男なら細かいことは気にしないものよ。ＯＫ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ミリー]「あのぉ、わたしはストロベリィシェイクで[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="34" window="1" trigger="start">[nick:ミリー]「あのぉ、わたしはストロベリィシェイクで[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">1．俺も酒はやめとく
+<sn:pointer id="35" choice="2" window="1" trigger="start">1．俺も酒はやめとく
 2．酒でいいや[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ]「あ、俺もパインソーダにして下さい。[page]
+<sn:pointer id="36" window="1" trigger="start">[nick:ラティ]「あ、俺もパインソーダにして下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ]「俺も酒もらえます？[page]
+<sn:pointer id="37" window="1" trigger="start">[nick:ラティ]「俺も酒もらえます？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">店の親父「あいよ！[page]
+<sn:pointer id="38" window="0" trigger="start">店の親父「あいよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ロニキス]「そ[speed][0xa]、[speed][0x0]そろそろいいか？[page]
+<sn:pointer id="39" window="1" trigger="start">[nick:ロニキス]「そ[speed][0xa]、[speed][0x0]そろそろいいか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:イリア]「あら、ごめんなさい。[page]
+<sn:pointer id="40" window="0" trigger="start">[nick:イリア]「あら、ごめんなさい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:マーヴェル]「あの[speed][0xa]・・・[speed][0x0]私気分が悪いので外にいます[speed][0xa]・・・[speed][0x0]。ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="41" window="0" trigger="start">[nick:マーヴェル]「あの[speed][0xa]・・・[speed][0x0]私気分が悪いので外にいます[speed][0xa]・・・[speed][0x0]。ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「あ[speed][0xa]、[speed][0x0]ああ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[mode8][0x18][speed][0x3][nick:ロニキス]「コホン[speed][0xe]・・・[speed][0x0]それでは[speed][0xe]・・・[speed][0x0][end]</sn:pointer>
+<sn:pointer id="42" window="1" trigger="start">[mode8][0x18][speed][0x3][nick:ロニキス]「コホン[speed][0xe]・・・[speed][0x0]それでは[speed][0xe]・・・[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="43">[mode8][0x0][page]
+<sn:pointer id="43" window="0" trigger="start">[mode8][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">店の親父「[speed][0x1]へいお待ち[speed][0x5]！[speed][0x0]冷えてますぜ。[page]
+<sn:pointer id="44" window="1" trigger="start">店の親父「[speed][0x1]へいお待ち[speed][0x5]！[speed][0x0]冷えてますぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス]「よっしゃあ！来た来たあ！！[end]</sn:pointer>
+<sn:pointer id="45" window="1" trigger="start">[nick:シウス]「よっしゃあ！来た来たあ！！[end]</sn:pointer>
 
-<sn:pointer id="46">[page]
+<sn:pointer id="46" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:イリア]「来たわね♪[end]</sn:pointer>
+<sn:pointer id="47" window="1" trigger="start">[nick:イリア]「来たわね♪[end]</sn:pointer>
 
-<sn:pointer id="48">[page]
+<sn:pointer id="48" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:イリア]「来たわ♪[end]</sn:pointer>
+<sn:pointer id="49" window="1" trigger="start">[nick:イリア]「来たわ♪[end]</sn:pointer>
 
-<sn:pointer id="50">[page]
+<sn:pointer id="50" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:イリア]「来たわ♪[end]</sn:pointer>
+<sn:pointer id="51" window="1" trigger="start">[nick:イリア]「来たわ♪[end]</sn:pointer>
 
-<sn:pointer id="52">[page]
+<sn:pointer id="52" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ミリー]「あ[speed][0xa]、[speed][0x0]シェイクは私です。[page]
+<sn:pointer id="53" window="0" trigger="start">[nick:ミリー]「あ[speed][0xa]、[speed][0x0]シェイクは私です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:アシュレイ]「どれ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="54" window="0" trigger="start">[nick:アシュレイ]「どれ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="55">[nick:フィア]「私は酒は苦手なんだが[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="55" window="0" trigger="start">[nick:フィア]「私は酒は苦手なんだが[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:イリア]「きゃーこれ美味しい！[speed][0x1e][speed][0x0][end]</sn:pointer>
+<sn:pointer id="56" window="1" trigger="start">[nick:イリア]「きゃーこれ美味しい！[speed][0x1e][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="57">
+<sn:pointer id="57" window="0" trigger="start">
 ちょっと[nick:ラティ]も飲んでみなさいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:ラティ]「あ[speed][0xa]、[speed][0x0]ほんとだ！[page]
+<sn:pointer id="58" window="0" trigger="start">[nick:ラティ]「あ[speed][0xa]、[speed][0x0]ほんとだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:アシュレイ]「むう、この香り、味、喉越し[speed][0xa]・・・[speed][0x0]たまらんのう！[page]
+<sn:pointer id="59" window="0" trigger="start">[nick:アシュレイ]「むう、この香り、味、喉越し[speed][0xa]・・・[speed][0x0]たまらんのう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:アシュレイ]「うむ！この香り、味、今年もよか酒ができたようじゃのう。[page]
+<sn:pointer id="60" window="0" trigger="start">[nick:アシュレイ]「うむ！この香り、味、今年もよか酒ができたようじゃのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:フィア]「あ[speed][0xa]！[speed][0x0]でもこれは飲みやすいな♪[page]
+<sn:pointer id="61" window="1" trigger="start">[nick:フィア]「あ[speed][0xa]！[speed][0x0]でもこれは飲みやすいな♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:イリア]「でしょう？！[page]
+<sn:pointer id="62" window="0" trigger="start">[nick:イリア]「でしょう？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:ミリー]「おじさん違います！私パインっていったのに、これマンゴー味です！[page]
+<sn:pointer id="63" window="0" trigger="start">[nick:ミリー]「おじさん違います！私パインっていったのに、これマンゴー味です！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:ミリー]「おじさん違います！私ブルーベリィっていったのに、これマンゴー味です！[page]
+<sn:pointer id="64" window="0" trigger="start">[nick:ミリー]「おじさん違います！私ブルーベリィっていったのに、これマンゴー味です！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:ミリー]「おじさん違います！私アップルっていったのに、これマンゴー味です！[page]
+<sn:pointer id="65" window="0" trigger="start">[nick:ミリー]「おじさん違います！私アップルっていったのに、これマンゴー味です！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:ミリー]「おじさん違います！私ストロベリィっていったのに、これマンゴー味です！[page]
+<sn:pointer id="66" window="0" trigger="start">[nick:ミリー]「おじさん違います！私ストロベリィっていったのに、これマンゴー味です！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[mode8][0x38][pos][0x44][0x0]数時間後・・・[page]
+<sn:pointer id="67" window="8" trigger="start">[mode8][0x38][pos][0x44][0x0]数時間後・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[mode8][0x0][nick:ロニキス]「まったく[speed][0xa]・・・・。[speed][0x0][page]
+<sn:pointer id="68" window="0" trigger="start">[mode8][0x0][nick:ロニキス]「まったく[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:ロニキス]「[nick:ラティ]、起きろ[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="69" window="0" trigger="start">[nick:ロニキス]「[nick:ラティ]、起きろ[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ロニキス]「[nick:イリア]、カゼ引くぞ。[page]
+<sn:pointer id="70" window="0" trigger="start">[nick:ロニキス]「[nick:イリア]、カゼ引くぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:ロニキス]「[nick:ミリー]まで[speed][0xa]・・・[speed][0x0]まいったな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="71" window="1" trigger="start">[nick:ロニキス]「[nick:ミリー]まで[speed][0xa]・・・[speed][0x0]まいったな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]まいったな[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="72" window="1" trigger="start">[nick:ロニキス]「[speed][0xa]・・・[speed][0x0]まいったな[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:ラティ]「結局[nick:ミリー]も[nick:イリア]さんと一緒になって酒飲んじゃうから[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="73" window="0" trigger="start">[nick:ラティ]「結局[nick:ミリー]も[nick:イリア]さんと一緒になって酒飲んじゃうから[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="74">[nick:ラティ]「しかし[nick:ミリー]が酔うとあんなになるとは[speed][0xa]・・・・[speed][0x0]。[page]
+<sn:pointer id="74" window="0" trigger="start">[nick:ラティ]「しかし[nick:ミリー]が酔うとあんなになるとは[speed][0xa]・・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">どんなでしょう？[page]
+<sn:pointer id="75" window="8" trigger="start">どんなでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[end]</sn:pointer>
+<sn:pointer id="76" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="77">[nick:ラティ]「う[speed][0xa]、[speed][0x0]う〜ん。[page]
+<sn:pointer id="77" window="0" trigger="start">[nick:ラティ]「う[speed][0xa]、[speed][0x0]う〜ん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ラティ]「あ、[nick:ロニキス]さん[speed][0xa]・・・[speed][0x0][page]
+<sn:pointer id="78" window="0" trigger="start">[nick:ラティ]「あ、[nick:ロニキス]さん[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ロニキス]「どうした[nick:ラティ]？！[page]
+<sn:pointer id="79" window="1" trigger="start">[nick:ロニキス]「どうした[nick:ラティ]？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ラティ]「頭が[speed][0xa]・・・イタイ★[speed][0x0][end]</sn:pointer>
+<sn:pointer id="80" window="1" trigger="start">[nick:ラティ]「頭が[speed][0xa]・・・イタイ★[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="81">[page]
+<sn:pointer id="81" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">[nick:ロニキス]「あ、[nick:マーヴェル][speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="82" window="0" trigger="start">[nick:ロニキス]「あ、[nick:マーヴェル][speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">[nick:ヨシュア]「そういえば[speed][0xa]・・・[speed][0x0][nick:マーヴェル]さんどうしてるんでしょう？[page]
+<sn:pointer id="83" window="0" trigger="start">[nick:ヨシュア]「そういえば[speed][0xa]・・・[speed][0x0][nick:マーヴェル]さんどうしてるんでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">[nick:ロニキス]「そういえばそうだな。[page]
+<sn:pointer id="84" window="0" trigger="start">[nick:ロニキス]「そういえばそうだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">[nick:ロニキス]「[nick:マーヴェル]、いいんだな？[page]
+<sn:pointer id="85" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル]、いいんだな？[page]
 [nick:マーヴェル]「ええ。もうしばらくご一緒させて下さい。でも、今度は引き止めないで下さい。[page]
 [nick:ロニキス]「[speed][0xa]・・・[speed][0x0]わかった。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
+<sn:pointer id="86" window="1" trigger="start">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
+<sn:pointer id="87" window="0" trigger="start">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
 [nick:ラティ]「[color][0x4]ヴァン[color][0x2]、でしたっけ？[page]
 [nick:ロニキス]「ああ。イオニスから西にある王国という話だ。[page]
 [nick:マーヴェル]「でも驚きました。魔界の王アスモデウスを剖すために[nick:ロニキス]さんたちが旅をしているなんて[speed][0xa]・・・。[speed][0x0][page]
@@ -283,27 +283,27 @@
 [nick:イリア]「いいのよ。それじゃ、行きましょう。ヴァン王国に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">[nick:ミリー]「えぇ？！[nick:マーヴェル]さん、一人で行っちゃったの？[page]
+<sn:pointer id="88" window="1" trigger="start">[nick:ミリー]「えぇ？！[nick:マーヴェル]さん、一人で行っちゃったの？[page]
 [nick:ミリー]「[speed][0xa]・・・[speed][0x0]どうして[speed][0xa]・・・[speed][0x0]？私なんか悪いことした？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89">[end]</sn:pointer>
+<sn:pointer id="89" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="90">[nick:シウス]「お[speed][0xa]、[speed][0x0]俺か？[page]
+<sn:pointer id="90" window="1" trigger="start">[nick:シウス]「お[speed][0xa]、[speed][0x0]俺か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91">[nick:ロニキス]「違う。そんなんじゃないんだ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="91" window="0" trigger="start">[nick:ロニキス]「違う。そんなんじゃないんだ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="92">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
+<sn:pointer id="92" window="1" trigger="start">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
+<sn:pointer id="93" window="1" trigger="start">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
 [nick:ラティ]「[color][0x4]ヴァン[color][0x2]、でしたっけ？[page]
 [nick:ロニキス]「ああ。イオニスから西にある王国という話だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94">[nick:シウス]「まったく驚いたぜ。はぐれた仲間を捜してるだけかと思いきや、魔界の王アスモデウスを剖すだぁ？おめぇたちがそんな使命感に駆られて旅してたなんてよぉ。[page]
+<sn:pointer id="94" window="0" trigger="start">[nick:シウス]「まったく驚いたぜ。はぐれた仲間を捜してるだけかと思いきや、魔界の王アスモデウスを剖すだぁ？おめぇたちがそんな使命感に駆られて旅してたなんてよぉ。[page]
 [nick:イリア]「無理に、とは言わないわよ？[page]
 [nick:シウス]「行くさ。行くに決まってんだろ？[page]
 [nick:イリア]「正確には“剖す”じゃなくて“捕獲する”なんだけど。パラドックスが起こるからね。[page]
@@ -311,21 +311,21 @@
 [nick:イリア]「いいのよ。それじゃ、行きましょう。ヴァン王国に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95">[nick:イリア]「それじゃ、行きましょう。ヴァン王国に。[page]
+<sn:pointer id="95" window="0" trigger="start">[nick:イリア]「それじゃ、行きましょう。ヴァン王国に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96">[nick:ロニキス]「[nick:マーヴェル]、いいんだな？[page]
+<sn:pointer id="96" window="0" trigger="start">[nick:ロニキス]「[nick:マーヴェル]、いいんだな？[page]
 [nick:マーヴェル]「はい。[page]
 [nick:アシュレイ]「うむ、それがよい。これから先、ヌシの力が皆に必要になることが必ずあるじゃろう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
+<sn:pointer id="97" window="1" trigger="start">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
 [nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
 [nick:ラティ]「[color][0x4]ヴァン[color][0x2]、でしたっけ？[page]
 [nick:ロニキス]「ああ。[color][0x4]イオニス[color][0x2]から西にある王国という話だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98">[nick:アシュレイ]「しかし驚いたの。はぐれた仲間を捜してるだけかと思っておったが、魔界の王アスモデウスを剖すなどと言い出すとは。[page]
+<sn:pointer id="98" window="0" trigger="start">[nick:アシュレイ]「しかし驚いたの。はぐれた仲間を捜してるだけかと思っておったが、魔界の王アスモデウスを剖すなどと言い出すとは。[page]
 [nick:イリア]「どうしても、やらなければならないんです。[page]
 [nick:アシュレイ]「ふむ、決意は堅いようじゃの。[page]
 [nick:イリア]「正確には“剖す”じゃなくて“捕獲する”なんですけど。パラドックスが起こりますからね。[page]
@@ -333,157 +333,157 @@
 [nick:イリア]「いえ。それじゃ、行きましょう。ヴァン王国に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99">[nick:ロニキス]「おはよう。[page]
+<sn:pointer id="99" window="0" trigger="start">[nick:ロニキス]「おはよう。[page]
 [nick:マーヴェル]「おはようございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ミリー]はどうなったか知らないんですか？[page]
+<sn:pointer id="100" window="0" trigger="start">[nick:ラティ]「[speed][0xa]・・・[speed][0x0][nick:ミリー]はどうなったか知らないんですか？[page]
 [nick:イリア]「そうよ。てっきりいっしょかと思ったのに。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101">[nick:ロニキス]「すまん。実はこっちに来てすぐに魔物におそわれて、その時にはぐれてしまったんだ。[page]
+<sn:pointer id="101" window="0" trigger="start">[nick:ロニキス]「すまん。実はこっちに来てすぐに魔物におそわれて、その時にはぐれてしまったんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102">[nick:ラティ]「そんな！[page]
+<sn:pointer id="102" window="0" trigger="start">[nick:ラティ]「そんな！[page]
 [nick:ロニキス]「私もその時、大ケガしてしまってな。気を失っていた所を彼女に助けられたというわけなんだ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103">[nick:マーヴェル]「私が[nick:ロニキス]さんを見つけた時には、女の子の姿は見あたりませんでした。魔物は人をさらうくらいなら殺してしまいますから、きっとどこかで無事だったと思いますよ。[page]
+<sn:pointer id="103" window="0" trigger="start">[nick:マーヴェル]「私が[nick:ロニキス]さんを見つけた時には、女の子の姿は見あたりませんでした。魔物は人をさらうくらいなら殺してしまいますから、きっとどこかで無事だったと思いますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104">[nick:イリア]「それじゃあ。そろそろ出ましょう。[page]
+<sn:pointer id="104" window="1" trigger="start">[nick:イリア]「それじゃあ。そろそろ出ましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
+<sn:pointer id="105" window="1" trigger="start">[nick:イリア]「準備できたわ。そろそろ出ましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
+<sn:pointer id="106" window="1" trigger="start">[nick:ロニキス]「ん[speed][0xa]？[speed][0x0]ああ。[page]
 [nick:ラティ]「[color][0x4]ヴァン[color][0x2]、でしたっけ？[page]
 [nick:ロニキス]「ああ。[color][0x4]イオニス[color][0x2]から西にある王国という話だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="107">[nick:ヨシュア]「でもまったく驚きましたよ。はぐれた仲間を捜してるとしか聞いていませんでしたからね。魔界の王アスモデウスを剖すだなんて、そんな大それた事を考えていたなんて。[page]
+<sn:pointer id="107" window="1" trigger="start">[nick:ヨシュア]「でもまったく驚きましたよ。はぐれた仲間を捜してるとしか聞いていませんでしたからね。魔界の王アスモデウスを剖すだなんて、そんな大それた事を考えていたなんて。[page]
 [nick:イリア]「さすがに無理に、とは言わないわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="108">[nick:フィア]「行かせてもらうさ。私に化けて義父を襲ったのは間違いなく魔界の野郎だろうからな。[page]
+<sn:pointer id="108" window="1" trigger="start">[nick:フィア]「行かせてもらうさ。私に化けて義父を襲ったのは間違いなく魔界の野郎だろうからな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="109">[nick:ヨシュア]「行けるところまで一緒に行かせてもらいます。足を引っ張るようなら自分から身を引きますから。[page]
+<sn:pointer id="109" window="0" trigger="start">[nick:ヨシュア]「行けるところまで一緒に行かせてもらいます。足を引っ張るようなら自分から身を引きますから。[page]
 [nick:イリア]「相変わらずひかえめね。まぁ正確には“剖す”じゃなくて“捕獲する”なんだけど。パラドックスが起こるからね。[page]
 [nick:ヨシュア]「え？[page]
 [nick:イリア]「いいのよ。それじゃ、行きましょう。ヴァン王国に。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="110">[nick:ラティ]「[nick:イリア]さん、大丈夫ですか？[page]
+<sn:pointer id="110" window="0" trigger="talk 4">[nick:ラティ]「[nick:イリア]さん、大丈夫ですか？[page]
 [nick:イリア]「ヒック[speed][0xa]・・・[speed][0x0]艦長ぉ[speed][0xa]・・・・[speed][0x0]わたし[speed][0xa]、[speed][0x0]わたし[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="111">[nick:ラティ]「[nick:ミリー]、大丈夫か？[page]
+<sn:pointer id="111" window="0" trigger="talk 1">[nick:ラティ]「[nick:ミリー]、大丈夫か？[page]
 [nick:ミリー]「いや〜ん[nick:ラティ]ったらぁ[speed][0xa]・・・[speed][0x0]ぐぅぐぅ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112">店の親父「今日はもう店閉めるから別にいいよ。[page]
+<sn:pointer id="112" window="0" trigger="talk 16" npc="店の親父">店の親父「今日はもう店閉めるから別にいいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="113">店の親父「いらっしゃい。[page]
+<sn:pointer id="113" window="0" trigger="talk 16" npc="店の親父">店の親父「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114">冒険者「奥義の修得を目指して頑張っています。でも、どうすればいいんだろう？[page]
+<sn:pointer id="114" window="0" trigger="talk 17" npc="冒険者">冒険者「奥義の修得を目指して頑張っています。でも、どうすればいいんだろう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="115">おばさん「アストラル王国から来たのかい？だったらもう少しでヴァン城よ。[page]
+<sn:pointer id="115" window="0" trigger="talk 18" npc="おばさん">おばさん「アストラル王国から来たのかい？だったらもう少しでヴァン城よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116">若者「さーて、今日は何を作ろうかなぁ。どーでもいいけど食材は料理しないと食べらんないぜ。わかってるよね？[page]
+<sn:pointer id="116" window="0" trigger="talk 19" npc="若者">若者「さーて、今日は何を作ろうかなぁ。どーでもいいけど食材は料理しないと食べらんないぜ。わかってるよね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="117">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="117" window="1" trigger="talk 20" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="118">1感覚関連スキルＬＶ1　　100
+<sn:pointer id="118" choice="4" window="1" trigger="talk 20" npc="ギルドマスター">1感覚関連スキルＬＶ1　　100
 2感覚関連スキルＬＶ2　　200
 3感覚関連スキルＬＶ3　　300
 4技術関連スキルＬＶ2　1200[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119">[end]</sn:pointer>
+<sn:pointer id="119" window="0" trigger="talk 20" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="120">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="120" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="121">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="121" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="122">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="122" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="123">アドバイザー「ナゾのパラメータＧＵＴＳ。
+<sn:pointer id="123" window="0" trigger="talk 21" npc="アドバイザー">アドバイザー「ナゾのパラメータＧＵＴＳ。
 ステータス画面を見て“？？？”と思った人も多いと思います。[page]
 アドバイザー「これはキャラクターの根性を表しており、高いほど戦闘中にいろいろなボーナス効果が出やすくなります。[page]
 アドバイザー「たとえば、時々ダメージが2倍になったりします。また、敵からの即死の一撃を曼けても根性で生き残ったりすることがあります。[page]
 アドバイザー「どうです？少しは理解できましたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="124">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="124" window="1" trigger="talk 22" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="125">1．感覚関連スキルＬＶ1
+<sn:pointer id="125" choice="4" window="1" trigger="talk 22" npc="説明員">1．感覚関連スキルＬＶ1
 2．感覚関連スキルＬＶ2
 3．感覚関連スキルＬＶ3
 4．技術関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="126">説明員「感覚関連スキルＬＶ1の内訳は、
+<sn:pointer id="126" window="0" trigger="talk 22" npc="説明員">説明員「感覚関連スキルＬＶ1の内訳は、
 めききと
 危険感知と
 忍耐です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="127">説明員「感覚関連スキルＬＶ2の内訳は、
+<sn:pointer id="127" window="0" trigger="talk 22" npc="説明員">説明員「感覚関連スキルＬＶ2の内訳は、
 美的感覚と
 遊び心と
 根性です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="128">説明員「感覚関連スキルＬＶ3の内訳は、
+<sn:pointer id="128" unused="1">説明員「感覚関連スキルＬＶ3の内訳は、
 機能美と
 でんぱと
 努力です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="129">説明員「技術関連スキルＬＶ2の内訳は、
+<sn:pointer id="129" unused="1">説明員「技術関連スキルＬＶ2の内訳は、
 クラフトと
 文筆と
 調教です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="130">[end]</sn:pointer>
+<sn:pointer id="130" unused="1">[end]</sn:pointer>
 
-<sn:pointer id="131">宿屋の娘「よく眠れましたか？[page]
+<sn:pointer id="131" unused="1">宿屋の娘「よく眠れましたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="132">宿屋の娘「いらっしゃい。
+<sn:pointer id="132" unused="1">宿屋の娘「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルです。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="133">[end]</sn:pointer>
+<sn:pointer id="133" unused="1">[end]</sn:pointer>
 
-<sn:pointer id="134">お金が足りません。[page]
+<sn:pointer id="134" unused="1">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="135">[end]</sn:pointer>
+<sn:pointer id="135" unused="1">[end]</sn:pointer>
 
-<sn:pointer id="136">ウェルディー「いらっしゃい。[page]
+<sn:pointer id="136" unused="1">ウェルディー「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="137">ヴァイア「いらっしゃい。[page]
+<sn:pointer id="137" unused="1">ヴァイア「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="138">ジュン「アイテムクリエーションに必要なものならたいていのものをとりそろえております。どうぞごひいきに。[page]
+<sn:pointer id="138" unused="1">ジュン「アイテムクリエーションに必要なものならたいていのものをとりそろえております。どうぞごひいきに。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="139">若者「不確定アイテムは鑑定することで何か知ることができるよ。[page]
+<sn:pointer id="139" unused="1">若者「不確定アイテムは鑑定することで何か知ることができるよ。[page]
 若者「鑑定を覚えるには、えーと[speed][0x1e]・・・[speed][0x0]けっこういろいろな知識が必要だろうね。[page]
 [end][0xff]</sn:pointer>
 

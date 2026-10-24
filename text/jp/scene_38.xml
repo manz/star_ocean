@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x28][0x0]タトローイ運河船のりば[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x28][0x0]タトローイ運河船のりば[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「あ[speed][0x5]、[speed][0x0]あなたは[speed][0x5]・・・。[speed][0x0][page]
+<sn:pointer id="1" window="1" trigger="tile 2">[nick:ラティ]「あ[speed][0x5]、[speed][0x0]あなたは[speed][0x5]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:アシュレイ]「ワシも[color][0x4]アストラル[color][0x2]まで行くんじゃが、一緒にどうかの？[page]
+<sn:pointer id="2" window="1" trigger="talk 9 tile 2">[nick:アシュレイ]「ワシも[color][0x4]アストラル[color][0x2]まで行くんじゃが、一緒にどうかの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">1．ええ、いいですよ
+<sn:pointer id="3" choice="2" window="1" trigger="talk 9 tile 2">1．ええ、いいですよ
 2．アストラルには行かないので・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:アシュレイ]「実はな、お主の闘技場での戦いぶりは拝見させてもらったんじゃ。[page]
+<sn:pointer id="4" window="1" trigger="talk 9 tile 2">[nick:アシュレイ]「実はな、お主の闘技場での戦いぶりは拝見させてもらったんじゃ。[page]
 [nick:ラティ]「え[speed][0x5]？[speed][0x0]そうなんですか。[page]
 [nick:アシュレイ]「うむ。月並みに言えば、まだ荒削りだが光るものがあるという所かの。[page]
 [nick:ラティ]「そ[speed][0x5]、[speed][0x0]そうですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]「なに照れてるのよ。お世辞よ、[speed][0xa]オ[speed][0x0]・[speed][0xa]セ[speed][0x0]・[speed][0xa]ジ[speed][0x0]♪[page]
+<sn:pointer id="5" window="0" trigger="talk 9 tile 2">[nick:イリア]「なに照れてるのよ。お世辞よ、[speed][0xa]オ[speed][0x0]・[speed][0xa]セ[speed][0x0]・[speed][0xa]ジ[speed][0x0]♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:アシュレイ]「ふはは。そう解釈したほうが本人のためなのか。何ごともおぼれてはイカン。[page]
+<sn:pointer id="6" window="0" trigger="talk 9 tile 2">[nick:アシュレイ]「ふはは。そう解釈したほうが本人のためなのか。何ごともおぼれてはイカン。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ]「ハハ、そうですね。剣のこと褒められたなんて初めてだったんで。[page]
+<sn:pointer id="7" window="0" trigger="talk 9 tile 2">[nick:ラティ]「ハハ、そうですね。剣のこと褒められたなんて初めてだったんで。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:アシュレイ]「誰に習ったんじゃ？見たところエダール流剣術に似ているが、細かな所でずいぶんと違う。[page]
+<sn:pointer id="8" window="0" trigger="talk 9 tile 2">[nick:アシュレイ]「誰に習ったんじゃ？見たところエダール流剣術に似ているが、細かな所でずいぶんと違う。[page]
 [nick:ラティ]「型は父さんに習ったんです。[page]
 [nick:アシュレイ]「ほう！！既に完成された剣術をより実戦的に改良している所など、よほどの腕前と知識がないとできん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:イリア]「あ！！[nick:ラティ]、船が出るみたいよ。[page]
+<sn:pointer id="9" window="1" trigger="talk 9 tile 2">[nick:イリア]「あ！！[nick:ラティ]、船が出るみたいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]「乗りましょう。[page]
+<sn:pointer id="10" window="0" trigger="talk 9 tile 2">[nick:ラティ]「乗りましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:アシュレイ]「良い師と、そして血に恵まれた[speed][0xa]・・・[speed][0x0]ということか。このような所で巡り会えるとはなんたる幸運[speed][0xa]・・・[speed][0x0]。神よ、感謝するぞ。[page]
+<sn:pointer id="11" window="0" trigger="talk 9 tile 2">[nick:アシュレイ]「良い師と、そして血に恵まれた[speed][0xa]・・・[speed][0x0]ということか。このような所で巡り会えるとはなんたる幸運[speed][0xa]・・・[speed][0x0]。神よ、感謝するぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:アシュレイ]「そうか。それは残念だな。[page]
+<sn:pointer id="12" window="0" trigger="talk 9 tile 2">[nick:アシュレイ]「そうか。それは残念だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="船員">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">船員「[color][0x4]アストラル城下[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
+<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]アストラル城下[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">船員「お金が足りないよ。[page]
+<sn:pointer id="15" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「ダメよ。今アストラル城下に行ったらどうなるか、わかっているでしょう？[page]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="船員">[nick:イリア]「ダメよ。今アストラル城下に行ったらどうなるか、わかっているでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
+<sn:pointer id="18" window="0" trigger="talk 20" npc="船員">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="20">[end][0xff]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 20" npc="船員">[end][0xff]</sn:pointer>
 
 </sn:script>

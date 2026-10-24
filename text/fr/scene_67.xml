@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Ionis[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Ionis[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ][br]
+<sn:pointer id="1" window="0" trigger="start">[nick:ラティ][br]
 C'est[speed][0xa]...[speed][0x0] ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:アシュレイ][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:アシュレイ][br]
 Argasi[speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Bouclier écarlate[br]
+<sn:pointer id="3" window="1" trigger="start">Bouclier écarlate[br]
 Je ne sais pas de quoi vous parlez.[page]
 [nick:マーヴェル][br]
 Tu as assassiné mes parents et mon frère !![page]
@@ -21,43 +21,43 @@ Bouclier écarlate[br]
 Te confondre ?![speed][0x14][speed][0x0] Me fais pas rire !![speed][0x14][speed][0x0] [speed][0x1]Prépare-toi à mourir !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ロニキス][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:ロニキス][br]
 Hé ! T'es sûre que c'est la bonne personne ?[page]
 [nick:マーヴェル][br]
 Je ne PEUX PAS me tromper ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:マーヴェル][br]
+<sn:pointer id="5" window="0" trigger="start">[nick:マーヴェル][br]
 [speed][0x1]Ouch[speed][0x14],[speed][0x0] c'est pas encore fini ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Bouclier écarlate[br]
+<sn:pointer id="6" window="0" trigger="start">Bouclier écarlate[br]
 Femme. Si tu tiens à la vie, n'insiste pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="1" trigger="start">[nick:ラティ][br]
 Ça va ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:マーヴェル][br]
+<sn:pointer id="8" window="1" trigger="start">[nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0] Qui es-tu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:ロニキス][br]
+<sn:pointer id="9" window="0" trigger="start">[nick:ロニキス][br]
 Oh ! [nick:ラティ] et [nick:イリア] ! Vous êtes sains et saufs ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ロニキス][br]
+<sn:pointer id="10" window="1" trigger="start">[nick:ロニキス][br]
 C'est quoi le problème, [nick:イリア] ?[page]
 [nick:イリア][br]
 Tu as clairement du succès auprès des femmes, capitaine.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ロニキス][br]
+<sn:pointer id="11" window="0" trigger="start">[nick:ロニキス][br]
 Enfin, t'as vu la situation ? À peine arrivée, et c'est ça que tu trouves à dire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:マーヴェル][br]
+<sn:pointer id="12" window="1" trigger="start">[nick:マーヴェル][br]
 Qu'est-ce qu'il y a ?[page]
 [nick:イリア][br]
 Hein[speed][0x14] ?[speed][0x0] Oh, heu[speed][0x5]...[speed][0x0] Salut, je m'appelle [nick:イリア].[page]
@@ -65,23 +65,23 @@ Hein[speed][0x14] ?[speed][0x0] Oh, heu[speed][0x5]...[speed][0x0] Salut, je m'a
 Moi c'est [nick:マーヴェル].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="14">[nick:ミリー][br]
+<sn:pointer id="14" window="1" trigger="start">[nick:ミリー][br]
 [nick:マーヴェル] !! Ne sois pas si impulsive ! J'ai cru qu'il allait te tuer ![page]
 [nick:マーヴェル][br]
 [nick:ミリー][speed][0xa]...[speed][0x0] Je suis désolée de t'avoir causé du souci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:イリア][br]
 Il y a un problème ?[page]
 [nick:マーヴェル][br]
 N[speed][0x5]...[speed][0x0] Non, c'est rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:ヨシュア][br]
+<sn:pointer id="17" window="1" trigger="start">[nick:ヨシュア][br]
 Tes parents et ton frère[speed][0xa]...[speed][0x0] Ils ont été assassinés par le Bouclier écarlate ?[page]
 [nick:マーヴェル][br]
 O[speed][0xa]...[speed][0x0] Oui[page]
@@ -93,29 +93,29 @@ Je comprends[speed][0xa]...[speed][0x14] [speed][0x0]Mais je[speed][0x10]...[spe
 [speed][0xa]...[speed][0x0] En effet. Et si elle est encore en vie, elle ne pourrait qu'être "adorable", pas "superbe"[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ロニキス][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:ロニキス][br]
 Elle a pris soin de moi lorsque j'étais inconscient à la suite d'un petit incident. En tout cas, et si on allait se poser quelque part ? Nous reparlerons de tout ça après.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:ロニキス][br]
+<sn:pointer id="19" window="0" trigger="start">[nick:ロニキス][br]
 Et si on allait se poser quelque part ? Nous reparlerons de tout ça après.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ロニキス][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:ロニキス][br]
 [nick:マーヴェル][speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:ロニキス][br]
+<sn:pointer id="21" window="1" trigger="start">[nick:ロニキス][br]
 Navré qu'ils soient si turbulents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:マーヴェル][br]
+<sn:pointer id="22" window="0" trigger="start">[nick:マーヴェル][br]
 Non, ils ne le sont pas du tout[speed][0xa]...[speed][0x0] Ils sont tous adorables. Ça fait très longtemps que je ne m'étais pas autant amusée.[page]
 [nick:ロニキス][br]
 Oh[speed][0xa]...[speed][0x0] Dans ce cas, ravi que ça t'ait plu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:マーヴェル][br]
+<sn:pointer id="23" window="1" trigger="start">[nick:マーヴェル][br]
 Mais je pense que je vais continuer mon voyage seule.[page]
 [nick:ロニキス][br]
 Pourquoi[speed][0xa]?[speed][0x0] Tu n'as pas dit que ça te plaisait d'être avec nous ?[page]
@@ -129,23 +129,23 @@ J'ai peur que si je m'amuse trop, j'en vienne à tout oublier[speed][0xa]...[spe
 Je ne te demande pas de les oublier, mais tu ne devrais pas être si dure envers toi-même[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ラティ][br]
+<sn:pointer id="25" window="1" trigger="start">[nick:ラティ][br]
 [nick:ロニキス] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ロニキス][br]
+<sn:pointer id="26" window="1" trigger="start">[nick:ロニキス][br]
 Oh[speed][0xa],[speed][0x0] [nick:ラティ].[end]</sn:pointer>
 
-<sn:pointer id="27">[page]
+<sn:pointer id="27" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:マーヴェル][br]
+<sn:pointer id="28" window="1" trigger="start">[nick:マーヴェル][br]
 Bon, ben je crois que je vais y aller maintenant, [nick:ロニキス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ロニキス][br]
+<sn:pointer id="29" window="0" trigger="start">[nick:ロニキス][br]
 A... Attends. Il n'y a aucune raison pour que tu partes si vite, non ?[page]
 [nick:マーヴェル][br]
 Plus je resterai avec vous, plus ma détermination s'étiolera[speed][0xa]...[speed][0x0][page]
@@ -153,19 +153,19 @@ Plus je resterai avec vous, plus ma détermination s'étiolera[speed][0xa]...[sp
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:マーヴェル][br]
+<sn:pointer id="30" window="0" trigger="start">[nick:マーヴェル][br]
 Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">1. Attends ![br]
+<sn:pointer id="31" choice="2" window="1" trigger="start">1. Attends ![br]
 2. La regarder partir en silence[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:ラティ][br]
+<sn:pointer id="32" window="0" trigger="start">[nick:ラティ][br]
 Attends ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:マーヴェル][br]
+<sn:pointer id="33" window="0" trigger="start">[nick:マーヴェル][br]
 Qu'est-ce qu'il y a[speed][0xa]...[speed][0x0] ?[page]
 [nick:ラティ][br]
 Alors quoi qu'il advienne tu ne resteras pas avec nous ?[page]
@@ -173,7 +173,7 @@ Alors quoi qu'il advienne tu ne resteras pas avec nous ?[page]
 Je suis désolée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:ラティ][br]
+<sn:pointer id="34" window="0" trigger="start">[nick:ラティ][br]
 C'est parce que tu es tellement bien avec nous que tu as peur d'en oublier ta quête ?[page]
 [nick:マーヴェル][br]
 O[speed][0xa]...[speed][0x0] Oui[speed][0xa]...[speed][0x0][page]
@@ -182,39 +182,39 @@ Dans ce cas[speed][0xa]...[speed][0x0]
 Et si on faisait tous moins de bruit ? Ça irait ?[speed][0xa]...[speed][0x0] Non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">[nick:ロニキス][br]
+<sn:pointer id="35" window="1" trigger="start">[nick:ロニキス][br]
 [speed][0x1]Pfff[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="36">[speed][0x0]Ah ah ah ! C'était quoi ?[page]
+<sn:pointer id="36" window="0" trigger="start">[speed][0x0]Ah ah ah ! C'était quoi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:ラティ][br]
+<sn:pointer id="37" window="0" trigger="start">[nick:ラティ][br]
 Désolé, ça n'arrivera plus.[page]
 [nick:ロニキス][br]
 Hé hé[speed][0xa]...[speed][0x0] T'inquiète[speed][0xa],[speed][0x0] ça va.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:マーヴェル][br]
+<sn:pointer id="38" window="0" trigger="start">[nick:マーヴェル][br]
 Hi hi, [nick:ラティ], c'est pas du jeu, ça. C'est tricher[speed][0xa]...[speed][0x0] Hi hi, et maintenant, voilà que je pleure[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:ロニキス][br]
+<sn:pointer id="39" window="1" trigger="start">[nick:ロニキス][br]
 [nick:マーヴェル] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:マーヴェル][br]
+<sn:pointer id="40" window="0" trigger="start">[nick:マーヴェル][br]
 Oh non[speed][0xa]...[speed][0x0] Je ris tellement que mes larmes n'arrêtent pas de couler[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:ロニキス][br]
+<sn:pointer id="41" window="0" trigger="start">[nick:ロニキス][br]
 Viens avec nous, [nick:マーヴェル].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:マーヴェル][br]
+<sn:pointer id="42" window="0" trigger="start">[nick:マーヴェル][br]
 [nick:ロニキス], je[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:マーヴェル][br]
+<sn:pointer id="43" window="0" trigger="start">[nick:マーヴェル][br]
 Je suis désolée[speed][0xa]...[speed][0x0] Je ne souhaite qu'une chose, me venger. C'est la raison d'être de ce corps[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Hein[speed][0xa] ???[speed][0x0] Qu'est-ce que tu entends par là ?[page]
@@ -222,7 +222,7 @@ Hein[speed][0xa] ???[speed][0x0] Qu'est-ce que tu entends par là ?[page]
 [nick:ロニキス], ne le répète à personne. Ce que tu vois[speed][0xa]...[speed][0x0] Ce n'est pas ma véritable forme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[nick:マーヴェル][br]
+<sn:pointer id="44" window="0" trigger="start">[nick:マーヴェル][br]
 J'ai changé de corps grâce au pouvoir des anciens.[speed][0x1e][speed][0x0] Dans le but de me venger de celui qui a assassiné ma famille[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Changé de corps[speed][0xa] ?[speed][0x0] Mais ça ne se peut pas[speed][0xa]...[speed][0x0] ![page]
@@ -230,25 +230,25 @@ Changé de corps[speed][0xa] ?[speed][0x0] Mais ça ne se peut pas[speed][0xa]..
 J'ai subi un lavage de cerveau par le mage qui accompagne le chevalier surnommé Bouclier écarlate. Jusqu'il y a peu de temps, je décimais des foules d'innocents[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45">[nick:ロニキス][br]
+<sn:pointer id="45" window="0" trigger="start">[nick:ロニキス][br]
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:マーヴェル][br]
+<sn:pointer id="46" window="0" trigger="start">[nick:マーヴェル][br]
 Tu n'as pas compris ?! Plus je hais celui qui a massacré ma famille, plus le poids de mes propres crimes m'écrase[speed][0xa]...[speed][0x0][page]
 Ce n'est pas parce que j'ai été manipulée que je peux me le pardonner[speed][0xa]...[speed][0x0][page]
 Je suis comme tous les autres meurtriers[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ロニキス][br]
+<sn:pointer id="47" window="0" trigger="start">[nick:ロニキス][br]
 [nick:マーヴェル][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[nick:マーヴェル][br]
+<sn:pointer id="48" window="0" trigger="start">[nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0] Désolée, je me suis emportée[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="49">[nick:マーヴェル][br]
+<sn:pointer id="49" window="0" trigger="start">[nick:マーヴェル][br]
 Je n'ai qu'une requête.[page]
 [nick:ロニキス][br]
 Hmmm ?[page]
@@ -260,33 +260,33 @@ Si un jour tu viens à trouver mon véritable corps, s'il te plaît, n'y touche 
 Je suis vraiment désolée. Mais j'ai été heureuse d'avoir croisé ta route, [nick:ロニキス]. J'ai promis à [nick:ミリー] que je viendrais avec vous[speed][0xa]...[speed][0x0] Dis-lui que je suis désolée de devoir briser notre serment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">[nick:ロニキス][br]
+<sn:pointer id="50" window="0" trigger="start">[nick:ロニキス][br]
 [nick:マーヴェル][speed][0xa]...[speed][0x0] !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">[nick:マーヴェル][br]
+<sn:pointer id="51" window="0" trigger="start">[nick:マーヴェル][br]
 Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">[end]</sn:pointer>
+<sn:pointer id="52" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="53">[nick:ロニキス][br]
+<sn:pointer id="53" window="1" trigger="start">[nick:ロニキス][br]
 [nick:アシュレイ].[page]
 [nick:アシュレイ][br]
 Je n'aurais peut-être pas dû venir ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">[nick:ロニキス][br]
+<sn:pointer id="54" window="1" trigger="start">[nick:ロニキス][br]
 Non, pas du tout.[end]</sn:pointer>
 
-<sn:pointer id="55">[page]
+<sn:pointer id="55" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56">[nick:マーヴェル][br]
+<sn:pointer id="56" window="1" trigger="start">[nick:マーヴェル][br]
 Bon, je pense que c'est l'heure d'y aller, [nick:ロニキス][speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="57">[nick:ロニキス][br]
+<sn:pointer id="57" window="0" trigger="start">[nick:ロニキス][br]
 A[speed][0xa]...[speed][0x0] Attends un peu. Tu n'as pas besoin de partir si vite, non ?[page]
 [nick:マーヴェル][br]
 Plus je reste avec vous, plus je vais perdre ma détermination[speed][0xa]...[speed][0x0][page]
@@ -294,15 +294,15 @@ Plus je reste avec vous, plus je vais perdre ma détermination[speed][0xa]...[sp
 Mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="58">[nick:マーヴェル][br]
+<sn:pointer id="58" window="0" trigger="start">[nick:マーヴェル][br]
 Adieu[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="59">[nick:アシュレイ][br]
+<sn:pointer id="59" window="0" trigger="start">[nick:アシュレイ][br]
 Attends.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60">[nick:マーヴェル][br]
+<sn:pointer id="60" window="0" trigger="start">[nick:マーヴェル][br]
 Qu'est-ce qu'il y a ?[page]
 [nick:アシュレイ][br]
 Il paraît que tu es aux trousses du Bouclier écarlate.[page]
@@ -310,7 +310,7 @@ Il paraît que tu es aux trousses du Bouclier écarlate.[page]
 C'est ça. Je ne pense pas qu'il ait pu partir trop loin. Je pars à sa poursuite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61">[nick:アシュレイ][br]
+<sn:pointer id="61" window="1" trigger="start">[nick:アシュレイ][br]
 Ça ne servira à rien.[page]
 [nick:マーヴェル][br]
 [speed][0xa]...[speed][0x0][page]
@@ -322,13 +322,13 @@ Ne le prends pas mal. Ce que je veux te dire, c'est que même si ton ennemi jur�
 Es-tu en train de dire que c'est un imposteur ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62">[nick:アシュレイ][br]
+<sn:pointer id="62" window="0" trigger="start">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Ce serait facile de dire que c'est un imposteur. Mais en réalité ce n'est pas le cas, il n'est pas non plus le vrai, d'ailleurs.[page]
 [nick:ロニキス][br]
 Ni le vrai ni un imposteur ? C'est une devinette ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63">[nick:アシュレイ][br]
+<sn:pointer id="63" window="0" trigger="start">[nick:アシュレイ][br]
 C'est un ancien compagnon de champ de bataille.[speed][0x1e][speed][0x0] Enfin, compagnon... C'est pas vraiment ça, mais je ne trouve pas de mot approprié.[page]
 Lorsque la guerre contre le monde démoniaque touchait à sa fin, le roi l'a envoyé en mission secrète à la recherche de quelque chose au fin fond d'une grotte[speed][0xa]...[speed][0x0] Les légendes racontent que dans cette grotte se trouve un mystérieux trésor laissé par les anciens.[page]
 [nick:ロニキス][br]
@@ -341,39 +341,39 @@ Un miroir ?[page]
 Exactement. Mais ce n'est pas un miroir ordinaire. Il possède le pouvoir de dupliquer tout ce qui s'y reflète. Le roi pensait s'en servir comme botte secrète pour créer des armes à l'infini et ainsi terrasser le monde démoniaque. Cependant, le miroir n'était pas un trésor. Il s'est révélé être un miroir maléfique renfermant l'essence même du monde démoniaque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64">[nick:アシュレイ][br]
+<sn:pointer id="64" window="0" trigger="start">[nick:アシュレイ][br]
 Le miroir de réalité distord tout ce qui s'y reflète. Quelle pitié[speed][0xa]...[speed][0x0] Il est à l'origine de la création d'un double maléfique que l'on surnomme Bouclier écarlate[speed][0xa]...[speed][0x0][page]
 [nick:マーヴェル][br]
 Alors, c'était le reflet du véritable Bouclier écarlate qui a assassiné ma famille !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65">[nick:アシュレイ][br]
+<sn:pointer id="65" window="0" trigger="start">[nick:アシュレイ][br]
 Il y a de fortes chances. Et[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="66">[nick:アシュレイ][br]
+<sn:pointer id="66" window="1" trigger="start">[nick:アシュレイ][br]
 Lorsque moi aussi je l'ai vu pour la première fois, il était en tout point semblable au véritable Bouclier écarlate. Et à ce moment j'ai baissé ma garde[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="67">[nick:アシュレイ][br]
+<sn:pointer id="67" window="1" trigger="start">[nick:アシュレイ][br]
 Pour finir, j'ai perdu l'usage de mon bras gauche. Je manie encore l'épée, mais plus aucun arcane. Il ne me reste que mes savoirs.[page]
 [nick:マーヴェル][br]
 [speed][0xa].....[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="68">[nick:アシュレイ][br]
+<sn:pointer id="68" window="0" trigger="start">[nick:アシュレイ][br]
 [nick:マーヴェル]. Joins-toi à nous. Tu pourrais vraiment y gagner. Acceptes-tu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69">[nick:マーヴェル][br]
+<sn:pointer id="69" window="0" trigger="start">[nick:マーヴェル][br]
 Oui[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="70">[nick:ロニキス][br]
+<sn:pointer id="70" window="0" trigger="start">[nick:ロニキス][br]
 [nick:マーヴェル][speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="71">[nick:マーヴェル][br]
+<sn:pointer id="71" window="0" trigger="start">[nick:マーヴェル][br]
 Le destin[speed][0xa]...[speed][0x0]
 C'est si cruel[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
@@ -381,23 +381,23 @@ C'est si cruel[speed][0xa]...[speed][0x0][page]
 Tu pleures[speed][0xa]...[speed][0x0] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72">[nick:マーヴェル][br]
+<sn:pointer id="72" window="1" trigger="start">[nick:マーヴェル][br]
 Oh[speed][0xa], [speed][0x0][nick:ロニキス][speed][0xa]...[speed][0x0] Et [nick:ヨシュア][speed][0xa].[speed][0x0][page]
 [nick:ロニキス][br]
 On aurait peut-être dû te laisser tranquille[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="73">[nick:マーヴェル][br]
+<sn:pointer id="73" window="1" trigger="start">[nick:マーヴェル][br]
 Non, t'inquiète pas[speed][0xa]...[speed][0x0] Ça va, maintenant[speed][0xa]...[speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="74">[page]
+<sn:pointer id="74" window="0" trigger="start">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75">[nick:ロニキス][br]
+<sn:pointer id="75" window="0" trigger="start">[nick:ロニキス][br]
 Si tu vas bien maintenant, pourquoi ne pas en parler avec nous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76">[nick:マーヴェル][br]
+<sn:pointer id="76" window="0" trigger="start">[nick:マーヴェル][br]
 Je t'assure, ça va vraiment bien maintenant[speed][0xa]...[speed][0x0] Et de toute façon[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Hein ?[page]
@@ -409,13 +409,13 @@ Mais oui, bien sûr. Nous allions même te le demander.[page]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77">[nick:マーヴェル][br]
+<sn:pointer id="77" window="0" trigger="start">[nick:マーヴェル][br]
 Il se fait tard[speed][0xa]...[speed][0x0] Bonne nuit[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Bonne nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78">[nick:ヨシュア][br]
+<sn:pointer id="78" window="1" trigger="start">[nick:ヨシュア][br]
 Elle cache quelque chose. Et on a du mal à savoir ce qu'elle pense. Qu'en pensez-vous ?[page]
 [nick:ロニキス][br]
 Oui, y'a des chances.[page]
@@ -423,15 +423,15 @@ Oui, y'a des chances.[page]
 Ce n'est pas très gentil de dire ça, mais ça me gêne qu'elle vienne avec nous. Je ne sais pas trop comment l'expliquer, mais j'ai l'impression qu'elle n'est pas "vivante".[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79">[nick:ロニキス][br]
+<sn:pointer id="79" window="1" trigger="start">[nick:ロニキス][br]
 Hein ?! Tu penses qu'elle est morte !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80">[nick:ヨシュア][br]
+<sn:pointer id="80" window="0" trigger="start">[nick:ヨシュア][br]
 Non, j'ai pas dit ça[speed][0xa]...[speed][0x0] Même avec la magie noire la plus évoluée, on ne peut faire au mieux que des morts-vivants. Ça ne peut pas être un esprit non plus, ils ne possèdent pas une telle énergie vitale.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81">[nick:ヨシュア][br]
+<sn:pointer id="81" window="0" trigger="start">[nick:ヨシュア][br]
 J'espère me tromper sur elle[speed][0xa]...[speed][0x0][page]
 [nick:ロニキス][br]
 Je n'ai pas envie d'avoir de pensées négatives[speed][0xa].[speed][0x0][page]
@@ -439,31 +439,31 @@ Je n'ai pas envie d'avoir de pensées négatives[speed][0xa].[speed][0x0][page]
 Moi non plus[speed][0xa]...[speed][0x0] Elle m'intrigue, c'est tout.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82">Fille[br]
+<sn:pointer id="82" window="0" trigger="talk 17" npc="Fille">Fille[br]
 C'est l'automne[speed][0xa]...[speed][0x0] On devient plus sentimental ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83">Aventurier Meia[br]
+<sn:pointer id="83" window="0" trigger="talk 18" npc="Aventurier Meia">Aventurier Meia[br]
 Je vais me rendre sous peu à [color][0x4]Tatroï[color][0x2]. Mon but ? L'arène ! Quelle question... Je vais leur montrer ce que j'ai dans les tripes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="84">Lyan[br]
+<sn:pointer id="84" window="0" trigger="talk 19" npc="Lyan">Lyan[br]
 Je me suis récemment rendu compte qu'en persévérant encore et encore, on finissait toujours par être récompensé. Ce serait la fin de tout si j'abandonnais en pensant que je ne suis pas assez doué[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="85">Jeune fille[br]
+<sn:pointer id="85" window="0" trigger="talk 20" npc="Jeune fille">Jeune fille[br]
 Le type là-bas, on dirait qu'il sort à peine de son lit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86">Starck le sage[br]
+<sn:pointer id="86" window="0" trigger="talk 21" npc="Starck le sage">Starck le sage[br]
 J'ai eu de grandes difficultés à me procurer de l'orichalque, et je l'ai gâchée en ratant mon ouvrage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87">Lulu[br]
+<sn:pointer id="87" window="0" trigger="talk 22" npc="Lulu">Lulu[br]
 Le père Noël existe vraiment ? Il va vraiment mettre des cadeaux dans mes chaussures si je les laisse au pied du lit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88">Fille[br]
+<sn:pointer id="88" window="0" trigger="talk 23" npc="Fille">Fille[br]
 C'est la ville portuaire d'[color][0x4]Ionis[color][0x2].[page]
 [end]</sn:pointer>
 

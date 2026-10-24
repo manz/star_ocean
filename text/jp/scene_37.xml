@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]「魔物の首を持って城に行かなきゃ。[page]
+<sn:pointer id="0" window="0" trigger="tile 1">[nick:イリア]「魔物の首を持って城に行かなきゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:シウス]「すまん。[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:シウス]「すまん。[page]
 [nick:ラティ]「急ごう。[page]
 [nick:シウス]「おう！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">ダースウィドウ「[speed][0xa]・・・[speed][0x0]いつまでもしつこい奴らだな！貴様が来なければ目的を達せられたものを[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="2" window="0" trigger="tile 101">ダースウィドウ「[speed][0xa]・・・[speed][0x0]いつまでもしつこい奴らだな！貴様が来なければ目的を達せられたものを[speed][0xa]・・・。[speed][0x0][page]
 [nick:シウス]「なんだと？！[page]
 ダースウィドウ「いまいましい[speed][0xa]・・・[speed][0x0]。この場で殺してあげるわ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:フィア]「私はこの魔物の首を持って城に戻る。あなたたちには後で国王から報奨がでるでしょうから、宿で待っていてください。では。[page]
+<sn:pointer id="3" window="0" trigger="tile 101">[nick:フィア]「私はこの魔物の首を持って城に戻る。あなたたちには後で国王から報奨がでるでしょうから、宿で待っていてください。では。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:シウス]「待て。[speed][0x1e][speed][0xa]・・・[speed][0x0]俺も行く。[page]
+<sn:pointer id="4" window="0" trigger="tile 101">[nick:シウス]「待て。[speed][0x1e][speed][0xa]・・・[speed][0x0]俺も行く。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア]「好きにしろ。[page]
+<sn:pointer id="5" window="0" trigger="tile 101">[nick:フィア]「好きにしろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア]「[speed][0xa]・・・[speed][0x0]いつまでもしつこい奴らだな！[page]
+<sn:pointer id="6" window="0" trigger="tile 100">[nick:フィア]「[speed][0xa]・・・[speed][0x0]いつまでもしつこい奴らだな！[page]
 [nick:アシュレイ]「[nick:フィア]！おぬし一体自分が何をしたのか、わかっておるのか？！[page]
 [nick:フィア]「ふふ。あのジジイを殺した事か？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">ダースウィドウ「貴様が来なければ目的を達せられたものを[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="tile 100">ダースウィドウ「貴様が来なければ目的を達せられたものを[speed][0xa]・・・。[speed][0x0][page]
 [nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]魔界の刺客か！[page]
 ダースウィドウ「いまいましい・・・。この場で殺してあげるわ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:アシュレイ]「ワシはライアスの所に一度戻る。お主らはこの魔物の首を持って城に行って事情を説明してくれ。[page]
+<sn:pointer id="8" window="0" trigger="tile 100">[nick:アシュレイ]「ワシはライアスの所に一度戻る。お主らはこの魔物の首を持って城に行って事情を説明してくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="9" window="1" trigger="search">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="10" window="1" trigger="search">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[color][0x6][item][0x9f][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="11" window="1" trigger="search">[color][0x6][item][0x9f][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="12" window="1" trigger="search">[color][0x6][item][0x9d][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[color][0x6][item][0x9f][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="13" window="1" trigger="search">[color][0x6][item][0x9f][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[color][0x6][item][0xa4][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="14" window="1" trigger="search">[color][0x6][item][0xa4][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[color][0x6][item][0xa2][0x13][color][0x2]を手に入れました。[page]
+<sn:pointer id="15" window="1" trigger="search">[color][0x6][item][0xa2][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">スイッチを切り替えますか？[page]
+<sn:pointer id="16" choice="yes-no" window="1" trigger="search">スイッチを切り替えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[end]</sn:pointer>
+<sn:pointer id="17" window="0" trigger="search">[end]</sn:pointer>
 
-<sn:pointer id="18">スイッチを切り替えますか？[page]
+<sn:pointer id="18" choice="yes-no" window="1" trigger="talk 46">スイッチを切り替えますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 46">[end]</sn:pointer>
 
-<sn:pointer id="20">持ち物がいっぱいです[page]
+<sn:pointer id="20" window="0" trigger="search">持ち物がいっぱいです[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="search">[end]</sn:pointer>
 
-<sn:pointer id="22">何も書いてない[page]
+<sn:pointer id="22" window="0" trigger="talk 20">何も書いてない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">アストラル洞窟、この先危険[page]
+<sn:pointer id="23" window="0" trigger="talk 20">アストラル洞窟、この先危険[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">ＨＰ・ＭＰが回復した[page]
+<sn:pointer id="24" window="0" trigger="talk 47">ＨＰ・ＭＰが回復した[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[pos][0x3e][0x0]アストラル洞窟[page]
+<sn:pointer id="25" window="speaker" trigger="start">[pos][0x3e][0x0]アストラル洞窟[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

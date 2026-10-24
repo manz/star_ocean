@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Soldat[br]
+<sn:pointer id="0" window="0" trigger="talk 16" npc="Soldat">Soldat[br]
 Vous pouvez passer ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Soldat[br]
+<sn:pointer id="1" window="0" trigger="talk 17" npc="Soldat">Soldat[br]
 Vous pouvez passer ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[speed][0x1]Atchaaa !![speed][0x0][page]
+<sn:pointer id="2" window="0" trigger="start">[speed][0x1]Atchaaa !![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ロニキス][br]
+<sn:pointer id="3" window="0" trigger="start">[nick:ロニキス][br]
 Ça ne va pas ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー][br]
+<sn:pointer id="4" window="0" trigger="start">[nick:ミリー][br]
 Quand on éternue, c'est que quelqu'un pense à nous. Je suis tellement belle qu'on ne peut pas arrêter de parler de moi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ミリー][br]
+<sn:pointer id="5" window="1" trigger="start">[nick:ミリー][br]
 Bien. Dépêchons-nous de vous trouver des habits.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ロニキス][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ロニキス][br]
 Ah oui[speed][0x5],[speed][0x0] c'est vrai.[page]
 [nick:ミリー][br]
 Je vais vous trouver de super fringues top tendance ![page]
@@ -31,10 +31,10 @@ Je vais vous trouver de super fringues top tendance ![page]
 M[speed][0x5]-[speed][0x0]merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Comment va Ray ?[page]
+<sn:pointer id="7" window="0" trigger="talk 16" npc="Soldat">Comment va Ray ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Nord : Van
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Soldat">Nord : Van
 Sud : Ionis[page]
 [end]</sn:pointer>
 

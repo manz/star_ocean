@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[color][0x6]セキュリティＢ[color][0x2]を手に入れました。[page]
+<sn:pointer id="0" window="0" trigger="search">[color][0x6]セキュリティＢ[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[color][0x6]セキュリティＲ[color][0x2]を手に入れました。[page]
+<sn:pointer id="1" window="0" trigger="search">[color][0x6]セキュリティＲ[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]「これは[speed][0xa]・・・[speed][0x0]セキュリティカードのようね。[page]
+<sn:pointer id="2" window="0" trigger="search">[nick:イリア]「これは[speed][0xa]・・・[speed][0x0]セキュリティカードのようね。[page]
 [nick:ロニキス]「でもなぜ？ロークにこんな進んだ文明が[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ラティ]「な[speed][0x5]、[speed][0x0]なんだ？！ここは[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="3" window="0" trigger="start">[nick:ラティ]「な[speed][0x5]、[speed][0x0]なんだ？！ここは[speed][0xa]・・・。[speed][0x0][page]
 [nick:ロニキス]「とても未開惑星の技術とは思えん[speed][0xa]・・・。[speed][0x0][page]
 [nick:イリア]「[speed][0xa]・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x38][0x0]パージ神殿深層部[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x38][0x0]パージ神殿深層部[page]
 [end]</sn:pointer>
 
 </sn:script>

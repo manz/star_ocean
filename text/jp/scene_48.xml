@@ -1,180 +1,180 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:ヨシュア]「雨か[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="0" window="0" trigger="start">[nick:ヨシュア]「雨か[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">？？？「あんたを足止めするために降ってきたのさ。[page]
+<sn:pointer id="1" window="0" trigger="start">？？？「あんたを足止めするために降ってきたのさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ヨシュア]「[nick:フィア]さん[speed][0xa]・・・[speed][0x0]どうして？！[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:ヨシュア]「[nick:フィア]さん[speed][0xa]・・・[speed][0x0]どうして？！[page]
 [nick:フィア]「私もちょっとワケありでね。もう大手をふって歩ける身分じゃないんだ。[page]
 [nick:ヨシュア]「そうだったんですか[speed][0xa]・・・。[speed][0x0][page]
 [nick:フィア]「私、とりあえず人捜しをしてみようと思ってね。私がアストラルにいた頃、何も言わずに勝手に国を出ていった馬鹿がいてさ、[nick:シウス]ってんだけど[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ヨシュア]「だったら途中まででも一緒にいきませんか？神殿の中でも言ったような気もしますが、僕も生き別れになった妹を捜しているもので[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="3" window="0" trigger="start">[nick:ヨシュア]「だったら途中まででも一緒にいきませんか？神殿の中でも言ったような気もしますが、僕も生き別れになった妹を捜しているもので[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[speed][0x1]？？？「待ってください！！[speed][0x0][page]
+<sn:pointer id="4" window="0" trigger="start">[speed][0x1]？？？「待ってください！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:フィア]「あんた[speed][0xa]・・・[speed][0x0][nick:ラティ]たちと一緒に行くんじゃなかったのか？[page]
+<sn:pointer id="5" window="0" trigger="start">[nick:フィア]「あんた[speed][0xa]・・・[speed][0x0][nick:ラティ]たちと一緒に行くんじゃなかったのか？[page]
 [nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]一人っきりじゃ、寂しすぎますよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:フィア]「同情なら御免だ！！[speed][0x14][speed][0xa]・・・[speed][0x0]私は[speed][0xa]・・・[speed][0x0]、たとえ私は国を追われようとも誇り高きアストラルの騎士[speed][0xa]・・・！！[speed][0x0][page]
+<sn:pointer id="6" window="0" trigger="start">[nick:フィア]「同情なら御免だ！！[speed][0x14][speed][0xa]・・・[speed][0x0]私は[speed][0xa]・・・[speed][0x0]、たとえ私は国を追われようとも誇り高きアストラルの騎士[speed][0xa]・・・！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そんなに張り詰めていたらいつか切れてしまいますよ？だから、放っておけなかったんです。[page]
+<sn:pointer id="7" window="0" trigger="start">[nick:ヨシュア]「[speed][0xa]・・・[speed][0x0]そんなに張り詰めていたらいつか切れてしまいますよ？だから、放っておけなかったんです。[page]
 [nick:フィア]「[speed][0xa]・・・・。[speed][0x0][page]
 [nick:ヨシュア]「その気になったら話してください。とりあえず途中まででもご一緒させてもらえませんか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[nick:イリア]「待って！！[page]
+<sn:pointer id="8" window="0" trigger="start">[nick:イリア]「待って！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[nick:フィア]「[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="start">[nick:フィア]「[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:イリア]「[speed][0xa]・・・[speed][0x0][nick:ラティ]たちが、あなたを呼んでるの。だから、ちょっと戻ってくれないかしら。[page]
+<sn:pointer id="10" window="0" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0][nick:ラティ]たちが、あなたを呼んでるの。だから、ちょっと戻ってくれないかしら。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:フィア]「それを、あなたが言いに？[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:フィア]「それを、あなたが言いに？[page]
 [nick:イリア]「え[speed][0x14]？[speed][0x5]・・・[speed][0x0]ええ[speed][0xa]。[speed][0x0]悪い？[page]
 [nick:フィア]「[speed][0xa]・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:フィア]「[nick:ラティ]が言ってたから、しょうがなく呼びに来てくれた、と？[page]
+<sn:pointer id="12" window="0" trigger="start">[nick:フィア]「[nick:ラティ]が言ってたから、しょうがなく呼びに来てくれた、と？[page]
 [nick:イリア]「[speed][0xa]・・・[speed][0x0]そ、そういうことよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:イリア]「[speed][0xa]・・・[speed][0x0]少しだけ言わせて。[speed][0x1e][speed][0x0]私たちはこの世界でのゴタゴタに巻き込まれるワケには絶対いかないのよ。[page]
+<sn:pointer id="13" window="0" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0]少しだけ言わせて。[speed][0x1e][speed][0x0]私たちはこの世界でのゴタゴタに巻き込まれるワケには絶対いかないのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[nick:フィア]「そういえば、ルーンがなにか言ってたな[speed][0xa]・・・。[speed][0x0]たしか時間軸の、封印？[page]
+<sn:pointer id="14" window="0" trigger="start">[nick:フィア]「そういえば、ルーンがなにか言ってたな[speed][0xa]・・・。[speed][0x0]たしか時間軸の、封印？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[nick:イリア]「平たく言えばね、私たちはこの世界の住人じゃないのよ。ちょっとした目的があって、この世界に留まっているだけなの[speed][0xa]・・・。[speed][0x0]だからこの世界での行動が制限されるようなことはできるだけ避けたかっただけなのよ。決してあなたを疑っていたわけじゃ[page]
+<sn:pointer id="15" window="0" trigger="start">[nick:イリア]「平たく言えばね、私たちはこの世界の住人じゃないのよ。ちょっとした目的があって、この世界に留まっているだけなの[speed][0xa]・・・。[speed][0x0]だからこの世界での行動が制限されるようなことはできるだけ避けたかっただけなのよ。決してあなたを疑っていたわけじゃ[page]
 [nick:フィア]「それだけ言ってくれればもう充分よ。[speed][0x1e][speed][0x0]ありがとう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">[nick:イリア]「あの光は何かしら？！[page]
+<sn:pointer id="16" window="0" trigger="tile 65">[nick:イリア]「あの光は何かしら？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア]「何？今の。隕石の落下？[page]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア]「何？今の。隕石の落下？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:ラティ]「まさか、今のが星の船？[page]
+<sn:pointer id="18" window="0" trigger="start">[nick:ラティ]「まさか、今のが星の船？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">[nick:シウス]「なんだぁ？！[page]
+<sn:pointer id="19" window="1" trigger="start">[nick:シウス]「なんだぁ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア]「隕石が落下したのかしら？[page]
+<sn:pointer id="20" window="0" trigger="start">[nick:イリア]「隕石が落下したのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:アシュレイ]「なんじゃ？！[page]
+<sn:pointer id="21" window="1" trigger="start">[nick:アシュレイ]「なんじゃ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:イリア]「隕石が落下したのかしら？[page]
+<sn:pointer id="22" window="0" trigger="start">[nick:イリア]「隕石が落下したのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:フィア]「なんだ？！[page]
+<sn:pointer id="23" window="1" trigger="start">[nick:フィア]「なんだ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア]「隕石が落下したのかしら？[page]
+<sn:pointer id="24" window="1" trigger="start">[nick:イリア]「隕石が落下したのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ヨシュア]「術ではあんな強烈な光は出せませんよ？！[page]
+<sn:pointer id="25" window="0" trigger="start">[nick:ヨシュア]「術ではあんな強烈な光は出せませんよ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[end]</sn:pointer>
+<sn:pointer id="26" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ラティ]「まさか、今のが[speed][0xa]・・・[speed][0x0]星の船？[page]
+<sn:pointer id="27" window="0" trigger="start">[nick:ラティ]「まさか、今のが[speed][0xa]・・・[speed][0x0]星の船？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ヨシュア]「星の船？[page]
+<sn:pointer id="28" window="0" trigger="start">[nick:ヨシュア]「星の船？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="29" window="1" trigger="start">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[nick:アシュレイ]「星の船？[page]
+<sn:pointer id="30" window="0" trigger="start">[nick:アシュレイ]「星の船？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="31" window="1" trigger="start">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">[nick:フィア]「星の船？なんだそれは。[page]
+<sn:pointer id="32" window="0" trigger="start">[nick:フィア]「星の船？なんだそれは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="33" window="1" trigger="start">[nick:ラティ]「あ、いや[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">[nick:イリア]「[speed][0xa]・・・[speed][0x0]気になるわね。一度見に行った方がいいかもしれないわね。[page]
+<sn:pointer id="34" window="1" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0]気になるわね。一度見に行った方がいいかもしれないわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">1．こんなところから戻るんですか？
+<sn:pointer id="35" choice="2" window="1" trigger="start">1．こんなところから戻るんですか？
 2．ぜひ行きましょう！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">[nick:ラティ]「こんな所から戻るんですか[speed][0xa]・・・？[speed][0x0][page]
+<sn:pointer id="36" window="1" trigger="start">[nick:ラティ]「こんな所から戻るんですか[speed][0xa]・・・？[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">[nick:イリア]「[speed][0xa]・・・[speed][0x0]確かに。[speed][0x1e][speed][0x0]とりあえず[color][0x4]トロップ[color][0x2]まで行ってみましょう。そこの港で交渉してみるのも手でしょ？[page]
+<sn:pointer id="37" window="1" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0]確かに。[speed][0x1e][speed][0x0]とりあえず[color][0x4]トロップ[color][0x2]まで行ってみましょう。そこの港で交渉してみるのも手でしょ？[page]
 [nick:ラティ]「なるほど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">[nick:ラティ]「あれはたぶん、俺たちの世界では“星の船”と呼ばれていたものが実際に落下したんだと思います。[page]
+<sn:pointer id="38" window="1" trigger="start">[nick:ラティ]「あれはたぶん、俺たちの世界では“星の船”と呼ばれていたものが実際に落下したんだと思います。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[nick:イリア]「実際に落下？[page]
+<sn:pointer id="39" window="1" trigger="start">[nick:イリア]「実際に落下？[page]
 [nick:ラティ]「ええ。不思議な形の船の落下跡が俺たちの世界で残っているんです。それじゃないかと[speed][0xa]・・・。[speed][0x0][page]
 [nick:イリア]「なるほどね。[speed][0x1e][speed][0x0]とりあえず[color][0x4]トロップ[color][0x2]まで行ってみましょう。そこの港で[color][0x4]ポートミス[color][0x2]まで行けないか、交渉してみましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40">[nick:シウス]「そうだぜ。めんどうじゃねぇか？[page]
+<sn:pointer id="40" window="0" trigger="start">[nick:シウス]「そうだぜ。めんどうじゃねぇか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[nick:アシュレイ]「おぬしは気にならんのか？[page]
+<sn:pointer id="41" window="0" trigger="start">[nick:アシュレイ]「おぬしは気にならんのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42">[nick:ヨシュア]「僕はぜひ行ってみたいですね。どうやったらあんな光を起こせるのか興味あります。[page]
+<sn:pointer id="42" window="1" trigger="start">[nick:ヨシュア]「僕はぜひ行ってみたいですね。どうやったらあんな光を起こせるのか興味あります。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">[nick:フィア]「まぁ、気にはなるけど[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="43" window="0" trigger="start">[nick:フィア]「まぁ、気にはなるけど[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="44">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="45">[nick:シウス]「まじかよ？！[page]
+<sn:pointer id="45" window="0" trigger="start">[nick:シウス]「まじかよ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46">[nick:アシュレイ]「そうじゃの。[page]
+<sn:pointer id="46" window="0" trigger="start">[nick:アシュレイ]「そうじゃの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47">[nick:ヨシュア]「そうですね。[page]
+<sn:pointer id="47" window="0" trigger="start">[nick:ヨシュア]「そうですね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48">[end]</sn:pointer>
+<sn:pointer id="48" window="0" trigger="start">[end]</sn:pointer>
 
-<sn:pointer id="49">れいくんげんき？[page]
+<sn:pointer id="49" window="0" trigger="talk 16">れいくんげんき？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50">束：タトローイ
+<sn:pointer id="50" window="0" trigger="talk 16">束：タトローイ
 西：トロップ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51">もえちゃんげんき？[page]
+<sn:pointer id="51" window="0" trigger="talk 17">もえちゃんげんき？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52">北：パージ神殿[page]
+<sn:pointer id="52" window="0" trigger="talk 17">北：パージ神殿[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53">何も書いてない[page]
+<sn:pointer id="53" window="0" trigger="talk 18">何も書いてない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54">北西：トロップ[page]
+<sn:pointer id="54" window="0" trigger="talk 18">北西：トロップ[page]
 [end]</sn:pointer>
 
 </sn:script>

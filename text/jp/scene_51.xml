@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x30][0x0]シルヴァラント城下町[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x30][0x0]シルヴァラント城下町[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ラティ]「ん？[page]
+<sn:pointer id="1" window="0" trigger="start">[nick:ラティ]「ん？[page]
 [nick:イリア]「紙ヒコーキ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]「字が書いてあるわ。[page]
+<sn:pointer id="2" window="0" trigger="start">[nick:イリア]「字が書いてあるわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:イリア]「何書いてあるの？[page]
+<sn:pointer id="3" window="0" trigger="start">[nick:イリア]「何書いてあるの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア]「あ、ちょっと[nick:ラティ]！[page]
+<sn:pointer id="4" window="0" trigger="start">[nick:イリア]「あ、ちょっと[nick:ラティ]！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:シウス]「[nick:ラティ]の奴、どうしたんだ？[page]
+<sn:pointer id="5" window="0" trigger="start">[nick:シウス]「[nick:ラティ]の奴、どうしたんだ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:アシュレイ]「血相変えて走っていきおった[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="6" window="0" trigger="start">[nick:アシュレイ]「血相変えて走っていきおった[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ロニキス]「国王と謁見したいのだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="tile 16">[nick:ロニキス]「国王と謁見したいのだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">守衛「そのエンブレムはヴァン王国の[speed][0xa]・・・・[speed][0x0]少々お待ちください。[page]
+<sn:pointer id="8" window="0" trigger="tile 16">守衛「そのエンブレムはヴァン王国の[speed][0xa]・・・・[speed][0x0]少々お待ちください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">大臣「どうぞこちらへ。[page]
+<sn:pointer id="9" window="0" trigger="tile 16">大臣「どうぞこちらへ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[nick:ラティ]「[speed][0x1][nick:ミリー]？！[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="start">[nick:ラティ]「[speed][0x1][nick:ミリー]？！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[nick:ラティ]＆[nick:ミリー]「あ！[page]
+<sn:pointer id="11" window="0" trigger="start">[nick:ラティ]＆[nick:ミリー]「あ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[nick:ミリー]「[nick:ラティ]！[page]
+<sn:pointer id="12" window="0" trigger="start">[nick:ミリー]「[nick:ラティ]！[page]
 [nick:ラティ]「[nick:ミリー]！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">守衛「寒いなぁ[speed][0xa]・・・。[speed][0x0]いつまで続くんだろ、こんなこと。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="守衛">守衛「寒いなぁ[speed][0xa]・・・。[speed][0x0]いつまで続くんだろ、こんなこと。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">守衛「ほんと、寒いよなぁ。[page]
+<sn:pointer id="14" window="0" trigger="talk 17" npc="守衛">守衛「ほんと、寒いよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">巡回兵「異常無し[speed][0xa]・・・[speed][0x0]おや？他国の一般人はこちらには来れないはずですが？[page]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="巡回兵">巡回兵「異常無し[speed][0xa]・・・[speed][0x0]おや？他国の一般人はこちらには来れないはずですが？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">巡回兵「一般の人は許可が出ないと街の外に出られないんです。[page]
+<sn:pointer id="16" window="0" trigger="talk 19" npc="巡回兵">巡回兵「一般の人は許可が出ないと街の外に出られないんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">巡回兵「あの巨大な砂時計、意味あるのかなぁ。今何時かわかんないもんなぁ。[page]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="巡回兵">巡回兵「あの巨大な砂時計、意味あるのかなぁ。今何時かわかんないもんなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">ごつい傭兵「さすがにこの辺りは魔物が強くてきついぜ。[page]
+<sn:pointer id="18" window="0" trigger="talk 21" npc="ごつい傭兵">ごつい傭兵「さすがにこの辺りは魔物が強くてきついぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">道具屋「いらっしゃい。[page]
+<sn:pointer id="19" window="0" trigger="talk 22" npc="道具屋">道具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">食べ物屋「いらっしゃい。[page]
+<sn:pointer id="20" window="0" trigger="talk 23" npc="食べ物屋">食べ物屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">女の子「ここは雪の降る町[color][0x4]シルヴァラント城下[color][0x2]です。[page]
+<sn:pointer id="21" window="0" trigger="talk 24" npc="女の子">女の子「ここは雪の降る町[color][0x4]シルヴァラント城下[color][0x2]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">行商人サンタ「いいものがあるけど買うかい？[page]
+<sn:pointer id="22" window="0" trigger="talk 25" npc="行商人サンタ">行商人サンタ「いいものがあるけど買うかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">兵士「さっきあやしい男を見たんだけど、どこに行ったんだ？コラ出てこい！[page]
+<sn:pointer id="23" window="0" trigger="talk 26" npc="兵士">兵士「さっきあやしい男を見たんだけど、どこに行ったんだ？コラ出てこい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:マーヴェル]「[speed][0xa]・・・・・。[speed][0x0][page]
+<sn:pointer id="24" window="0" trigger="talk 8">[nick:マーヴェル]「[speed][0xa]・・・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]あたし寒い所ニガテなの。寒いニャン！[page]
+<sn:pointer id="25" window="0" trigger="talk 10">[nick:ペリシー]「[speed][0xa]・・・[speed][0x0]あたし寒い所ニガテなの。寒いニャン！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]う〜ん。[page]
+<sn:pointer id="26" window="0" trigger="talk 1">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]う〜ん。[page]
 [nick:ラティ]「どうした？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]「ん？いや、何でもないわ。[page]
+<sn:pointer id="27" window="0" trigger="talk 1">[nick:ミリー]「ん？いや、何でもないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]どうかしたんですか？[page]
+<sn:pointer id="28" window="0" trigger="talk 9">[nick:ラティ]「[speed][0xa]・・・[speed][0x0]どうかしたんですか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">[nick:アシュレイ]「いやなに、少し昔の事を思い出していただけじゃよ。[page]
+<sn:pointer id="29" window="0" trigger="talk 9">[nick:アシュレイ]「いやなに、少し昔の事を思い出していただけじゃよ。[page]
 [end]</sn:pointer>
 
 </sn:script>

@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[nick:イリア]「こ、これは？！[page]
+<sn:pointer id="0" window="0" trigger="tile 64">[nick:イリア]「こ、これは？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[nick:ロニキス]「これはまた、随分と悪趣味な標本だな[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="1" window="1" trigger="tile 64">[nick:ロニキス]「これはまた、随分と悪趣味な標本だな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:イリア]「これはどういうことなのかしら？[page]
+<sn:pointer id="2" window="0" trigger="tile 64">[nick:イリア]「これはどういうことなのかしら？[page]
 [nick:ラティ]「見覚えのある怪物も結構いますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー]「きゃっ！これ・・・生きてる！[page]
+<sn:pointer id="3" window="0" trigger="tile 64">[nick:ミリー]「きゃっ！これ・・・生きてる！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:イリア]「何かの研究施設のようね[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="4" window="0" trigger="tile 65">[nick:イリア]「何かの研究施設のようね[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:イリア]「データバンクにアクセスできないかしら？[page]
+<sn:pointer id="5" window="0" trigger="tile 65">[nick:イリア]「データバンクにアクセスできないかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[mode8][0x20][color][0x3]ＴＨＩＳ　ＩＳ　Ａ
+<sn:pointer id="6" window="8" trigger="tile 65">[mode8][0x20][color][0x3]ＴＨＩＳ　ＩＳ　Ａ
 　ＬＡＢＯＲＡＴＯＲＹ　ＯＦ
 　ＴＩＭＥ　ＡＮＤ　ＳＰＡＣＥ．
 ＷＨＡＴ　ＤＯ　ＹＯＵ　ＷＡＮＴ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[mode8][0x0][nick:イリア]「時空研究所？　なぜ、そんな高度な施設がこんなところに？[page]
+<sn:pointer id="7" window="0" trigger="tile 65">[mode8][0x0][nick:イリア]「時空研究所？　なぜ、そんな高度な施設がこんなところに？[page]
 [nick:ラティ]「なにかありますよね。ここはただの怪物が世界を征服するためだけの施設ではなさそうですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">[mode8][0x20]＞ＣＯＮＮＥＣＴ．[page]
+<sn:pointer id="8" window="8" trigger="tile 65">[mode8][0x20]＞ＣＯＮＮＥＣＴ．[page]
 [color][0x3]ＣＯＮＮＥＣＴ　ＷＩＴＨ
 　ＷＨＡＴ？[page]
 [color][0x2]＞ＤＡＴＡ　ＢＡＮＫ．[page]
@@ -37,80 +37,80 @@
 　ＹＯＵＲ　ＮＡＭＥ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[mode8][0x0][nick:イリア]「名前？[page]
+<sn:pointer id="9" window="0" trigger="tile 65">[mode8][0x0][nick:イリア]「名前？[page]
 [nick:ロニキス]「“アスモデウス”とでも入れてみろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[mode8][0x20]＞ＡＳＭＯＤＥＵＳ．[page]
+<sn:pointer id="10" window="8" trigger="tile 65">[mode8][0x20]＞ＡＳＭＯＤＥＵＳ．[page]
 [color][0x3]ＣＯＬＬＥＣＴ．
 ＰＬＥＡＳＥ　ＥＮＴＥＲ
 　ＰＡＳＳＷＯＲＤ．[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">[mode8][0x0][nick:ロニキス]「合っていたようだな。[page]
+<sn:pointer id="11" window="0" trigger="tile 65">[mode8][0x0][nick:ロニキス]「合っていたようだな。[page]
 [nick:イリア]「でも、ここからが問題よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">[mode8][0x20]＞※※※※※※[page]
+<sn:pointer id="12" window="8" trigger="tile 65">[mode8][0x20]＞※※※※※※[page]
 [color][0x3]ＮＥＧＡＴＩＶＥ．
 ＰＬＥＡＳＥ　ＥＮＴＥＲ　ＹＯＵＲ
 　ＰＡＳＳＷＯＲＤ．[color][0x2][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[mode8][0x0][nick:イリア]「やっぱり、だめよ。[page]
+<sn:pointer id="13" window="0" trigger="tile 65">[mode8][0x0][nick:イリア]「やっぱり、だめよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">[mode8][0x20][color][0x3]ＴＩＭＥ　ＩＳ　ＯＶＥＲ．
+<sn:pointer id="14" window="8" trigger="tile 65">[mode8][0x20][color][0x3]ＴＩＭＥ　ＩＳ　ＯＶＥＲ．
 ＷＡＲＮＩＮＧ．[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[mode8][0x0][nick:イリア]「時間切れ？　まずいわ、セキュリティシステムが働くわよ！[page]
+<sn:pointer id="15" window="0" trigger="tile 65">[mode8][0x0][nick:イリア]「時間切れ？　まずいわ、セキュリティシステムが働くわよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">？？？「貴様ら、ここに何の用だ？[page]
+<sn:pointer id="16" window="0" trigger="tile 65">？？？「貴様ら、ここに何の用だ？[page]
 [nick:ラティ]「お前達も含めて、アスモデウスを剖す為だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">？？？「くっくっく。当の本人の顔も知らずによく言ったものだ。アスモデウスとはこの私の事だ！[page]
+<sn:pointer id="17" window="0" trigger="tile 65">？？？「くっくっく。当の本人の顔も知らずによく言ったものだ。アスモデウスとはこの私の事だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">アスモデウス「それとも建物の一番奥に敵がいればそいつが私だとでも思っていたのか？[page]
+<sn:pointer id="18" window="0" trigger="tile 65">アスモデウス「それとも建物の一番奥に敵がいればそいつが私だとでも思っていたのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">アスモデウス「おいお前達、こいつらを始末しろ。[page]
+<sn:pointer id="19" window="0" trigger="tile 65">アスモデウス「おいお前達、こいつらを始末しろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:ラティ]「逃げられたか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="20" window="0" trigger="tile 65">[nick:ラティ]「逃げられたか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">？？？「よし、こいつを殺せ。[page]
+<sn:pointer id="21" window="0" trigger="tile 66">？？？「よし、こいつを殺せ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ]「待て！[page]
+<sn:pointer id="22" window="0" trigger="tile 66">[nick:ラティ]「待て！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">？？？「我々の任務は血液の採取だ。ここでやられてはもともこもない。逃げるぞ！[page]
+<sn:pointer id="23" window="0" trigger="tile 66">？？？「我々の任務は血液の採取だ。ここでやられてはもともこもない。逃げるぞ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:ラティ]「消えた？！[page]
+<sn:pointer id="24" window="0" trigger="tile 66">[nick:ラティ]「消えた？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">[nick:イリア]「逃げられたのね。[speed][0xa]・・・[speed][0x0]でもしかたないわ。ウィルスを持っていかれるのは歴史で決まっていることでそう簡単にはかえられないもの。[page]
+<sn:pointer id="25" window="0" trigger="tile 66">[nick:イリア]「逃げられたのね。[speed][0xa]・・・[speed][0x0]でもしかたないわ。ウィルスを持っていかれるのは歴史で決まっていることでそう簡単にはかえられないもの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">アスモデウス「く[speed][0xa]、[speed][0x0]忌々しい奴らよ！お前たちだけは逃がさんぞ！[page]
+<sn:pointer id="26" window="0" trigger="tile 66">アスモデウス「く[speed][0xa]、[speed][0x0]忌々しい奴らよ！お前たちだけは逃がさんぞ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]剖したの？[page]
+<sn:pointer id="27" window="0" trigger="tile 66">[nick:ミリー]「[speed][0xa]・・・[speed][0x0]剖したの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">[nick:イリア]「ええ。[speed][0xa]・・・[speed][0x0]血液を持って帰りましょう。[page]
+<sn:pointer id="28" window="0" trigger="tile 66">[nick:イリア]「ええ。[speed][0xa]・・・[speed][0x0]血液を持って帰りましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">グレムリンレアーを覚えました。[page]
+<sn:pointer id="29" window="0" trigger="talk 60">グレムリンレアーを覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">[pos][0x48][0x0]時空研究所[page]
+<sn:pointer id="30" window="speaker" trigger="start">[pos][0x48][0x0]時空研究所[page]
 [end]</sn:pointer>
 
 </sn:script>

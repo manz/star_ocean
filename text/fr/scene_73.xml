@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Dulce[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Dulce[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Lemia[br]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="Lemia">Lemia[br]
 Hop ! Hop ! Je vais en faire plein ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">Petit jeune[br]
+<sn:pointer id="2" window="0" trigger="talk 17" npc="Petit jeune">Petit jeune[br]
 Jusqu'à maintenant, tout va bien, mais si on entre
 en guerre notre village disparaîtra sans laisser de traces ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">Garçon[br]
+<sn:pointer id="3" window="0" trigger="talk 18" npc="Garçon">Garçon[br]
 Où a bien pu passer Lin ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">Vieil homme[br]
+<sn:pointer id="4" window="0" trigger="talk 19" npc="Vieil homme">Vieil homme[br]
 Plus personne n'habite ici...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Mère[br]
+<sn:pointer id="5" window="0" trigger="start">Mère[br]
 Lemia ! Rentre immédiatement !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">Lemia[br]
+<sn:pointer id="6" window="0" trigger="start">Lemia[br]
 Le ciel est[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

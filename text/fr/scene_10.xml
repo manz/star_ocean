@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">Maltos[br]
+<sn:pointer id="0" window="0" trigger="start">Maltos[br]
 Ne vous approchez pas de moi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">Maltos[br]
+<sn:pointer id="1" window="0" trigger="start">Maltos[br]
 [speed][0x14]...[speed][0x0]Vous ne devez pas me toucher.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ミリー][br]
+<sn:pointer id="2" window="0" trigger="start">[nick:ミリー][br]
 Papa[speed][0x14].......[speed][0x0][page]
 Maltos[br]
 Il est trop tard pour moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー][br]
+<sn:pointer id="3" window="1" trigger="start">[nick:ミリー][br]
 Je ne peux même pas prendre mon père
 dans mes bras ni lui tenir la main en
 pareille circonstance ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[speed][0x14]....[speed][0x0]Ce n'est pas juste[speed][0x14]...[speed][0x0][page]
+<sn:pointer id="4" window="0" trigger="start">[speed][0x14]....[speed][0x0]Ce n'est pas juste[speed][0x14]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">Maltos[br]
+<sn:pointer id="5" window="0" trigger="start">Maltos[br]
 [nick:ラティ] et [nick:ドーン].
 Pouvez-vous ramener ma fille à la
 maison ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:ドーン][br]
+<sn:pointer id="6" window="0" trigger="start">[nick:ドーン][br]
 [nick:ミリー][speed][0x14]...[speed][0x0] Allons-y.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">Maltos[br]
+<sn:pointer id="7" window="0" trigger="start">Maltos[br]
 [speed][0x1][nick:ミリー] !!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Maltos[br]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Maltos">Maltos[br]
 Ne t'avais-je pas demandé de ne pas venir ici ?[page]
 [nick:ミリー][br]
 Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">Vieillard[br]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="Vieillard">Vieillard[br]
 Il y a de moins en moins de jeunes. Que va-t-il advenir de ce village ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">Gamine[br]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="Gamine">Gamine[br]
 Je me demande ce que papa me ramènera cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11">Gamine[br]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="Gamine">Gamine[br]
 Que je suis impatiente qu'il rentre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">Femme[br]
+<sn:pointer id="12" window="0" trigger="talk 21" npc="Femme">Femme[br]
 Demain, mon mari rentre de son travail au loin. Ça fait six mois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="talk 22">[nick:ラティ][br]
 (Elle a été changée en pierre...
 Pourtant, c'est comme si elle était toujours en vie...)[page]
 [end]</sn:pointer>

@@ -1,156 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[pos][0x58][0x0]民家[page]
+<sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[pos][0x58][0x0]民家[page]
+<sn:pointer id="1" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[pos][0x56][0x0]道具屋[page]
+<sn:pointer id="2" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[pos][0x50][0x0]食料品店[page]
+<sn:pointer id="3" window="speaker" trigger="start">[pos][0x50][0x0]食料品店[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[pos][0x44][0x0]スキルギルド[page]
+<sn:pointer id="4" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[pos][0x56][0x0]武器屋[page]
+<sn:pointer id="5" window="speaker" trigger="start">[pos][0x56][0x0]武器屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[pos][0x58][0x0]酒場[page]
+<sn:pointer id="6" window="speaker" trigger="start">[pos][0x58][0x0]酒場[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[pos][0x5c][0x0]宿屋[page]
+<sn:pointer id="7" window="speaker" trigger="start">[pos][0x5c][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="8" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">1知識関連スキルＬＶ1　　300
+<sn:pointer id="9" choice="4" window="1" trigger="talk 16" npc="ギルドマスター">1知識関連スキルＬＶ1　　300
 2知識関連スキルＬＶ2　　600
 3知識関連スキルＬＶ3　1200
 4戦闘関連スキルＬＶ2　2000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 16" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="11">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="12" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14">アドバイザー「スキルポイントの最大値は999だから、あまり欲張ってため続けても、いいことはないわよ。[page]
+<sn:pointer id="14" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「スキルポイントの最大値は999だから、あまり欲張ってため続けても、いいことはないわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="15" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16">1．知識関連スキルＬＶ1
+<sn:pointer id="16" choice="4" window="1" trigger="talk 18" npc="説明員">1．知識関連スキルＬＶ1
 2．知識関連スキルＬＶ2
 3．知識関連スキルＬＶ3
 4．戦闘関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">説明員「知識関連スキルＬＶ1の内訳は、
+<sn:pointer id="17" window="0" trigger="talk 18" npc="説明員">説明員「知識関連スキルＬＶ1の内訳は、
 薬草学と
 鉱物学と
 レシピです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">説明員「知識関連スキルＬＶ2の内訳は、
+<sn:pointer id="18" window="0" trigger="talk 18" npc="説明員">説明員「知識関連スキルＬＶ2の内訳は、
 道具知識と
 オタマジャクシと
 生物学です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">説明員「知識関連スキルＬＶ3の内訳は、
+<sn:pointer id="19" window="0" trigger="talk 18" npc="説明員">説明員「知識関連スキルＬＶ3の内訳は、
 妖精論と
 精神学と
 ピエティです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">説明員「戦闘関連スキルＬＶ2の内訳は、
+<sn:pointer id="20" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ2の内訳は、
 反撃と
 フェイントと
 練気です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="22">おばさん「うちの亭主ったら、子供連れて[color][0x4]ムーア[color][0x2]に行っちまったよ。やじ馬根性まるだし。[page]
+<sn:pointer id="22" window="0" trigger="talk 19" npc="おばさん">おばさん「うちの亭主ったら、子供連れて[color][0x4]ムーア[color][0x2]に行っちまったよ。やじ馬根性まるだし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">おばさん「うちの亭主ったらいつも遊んでばかり。本気で見切りつけてやろうかね！[page]
+<sn:pointer id="23" window="0" trigger="talk 19" npc="おばさん">おばさん「うちの亭主ったらいつも遊んでばかり。本気で見切りつけてやろうかね！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">冒険者「ヴァン王国で鉱石探索の依頼を曼けたんだが[speed][0xa]・・・[speed][0x0]どこにあるんだそんなもの？[page]
+<sn:pointer id="24" window="0" trigger="talk 20" npc="冒険者">冒険者「ヴァン王国で鉱石探索の依頼を曼けたんだが[speed][0xa]・・・[speed][0x0]どこにあるんだそんなもの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25">男「なにやら[color][0x4]クラート[color][0x2]の方ですごい爆発が起こったみたいですね。隕石の落下ですかね？[page]
+<sn:pointer id="25" window="0" trigger="talk 21" npc="男">男「なにやら[color][0x4]クラート[color][0x2]の方ですごい爆発が起こったみたいですね。隕石の落下ですかね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26">男「私は[color][0x4]ドゥルス[color][0x2]から引っ越してきたんです。[color][0x4]シルヴァラント[color][0x2]の方は危険で一般人が生活できる場所じゃないですよ。[page]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="男">男「私は[color][0x4]ドゥルス[color][0x2]から引っ越してきたんです。[color][0x4]シルヴァラント[color][0x2]の方は危険で一般人が生活できる場所じゃないですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27">冒険者「俺はスカウトとダッシュを覚えたおかげで旅がすごく楽になったぜ。[page]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="冒険者">冒険者「俺はスカウトとダッシュを覚えたおかげで旅がすごく楽になったぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28">武器屋モーガン「いらっしゃい。[page]
+<sn:pointer id="28" window="0" trigger="talk 23" npc="武器屋モーガン">武器屋モーガン「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29">道具屋ペーター「いらっしゃい。[page]
+<sn:pointer id="29" window="0" trigger="talk 24" npc="道具屋ペーター">道具屋ペーター「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30">デニ屋「いらっしゃいませ。ご注文は何にいたしますか？[page]
+<sn:pointer id="30" window="1" trigger="talk 25" npc="デニ屋">デニ屋「いらっしゃいませ。ご注文は何にいたしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31">1．ステーキ130
+<sn:pointer id="31" choice="4" window="1" trigger="talk 25" npc="デニ屋">1．ステーキ130
 2．シーフードスパ
 3．シチュー
 4．けっこうです[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32">「食後のデザートは何にいたしますか？[page]
+<sn:pointer id="32" window="1" trigger="talk 25" npc="デニ屋">「食後のデザートは何にいたしますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33">1．フルーツパフェ
+<sn:pointer id="33" choice="4" window="1" trigger="talk 25" npc="デニ屋">1．フルーツパフェ
 2．アップルパイ
 3．シャーベット
 4．けっこうです[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34">お金が足りません。[page]
+<sn:pointer id="34" window="1" trigger="talk 25" npc="デニ屋">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35">「ありがとうごさいましたぁ♪[page]
+<sn:pointer id="35" window="0" trigger="talk 25" npc="デニ屋">「ありがとうごさいましたぁ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36">酒場の親父「いらっしゃい。[page]
+<sn:pointer id="36" window="0" trigger="talk 26" npc="酒場の親父">酒場の親父「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37">宿屋のお婆さん「よく眠れたかい？[page]
+<sn:pointer id="37" window="0" trigger="talk 27" npc="宿屋のお婆さん">宿屋のお婆さん「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38">宿屋のお婆さん「いらっしゃい。
+<sn:pointer id="38" choice="yes-no" window="1" trigger="talk 27" npc="宿屋のお婆さん">宿屋のお婆さん「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39">[end]</sn:pointer>
+<sn:pointer id="39" window="0" trigger="talk 27" npc="宿屋のお婆さん">[end]</sn:pointer>
 
-<sn:pointer id="40">お金が足りません。[page]
+<sn:pointer id="40" window="0" trigger="talk 27" npc="宿屋のお婆さん">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 27" npc="宿屋のお婆さん">[end]</sn:pointer>
 
-<sn:pointer id="42">老人「世紀末よのう[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="42" window="0" trigger="talk 28" npc="老人">老人「世紀末よのう[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43">老人「いつまた魔界戦争のような戦いが起こるかと思うと[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="43" window="0" trigger="talk 28" npc="老人">老人「いつまた魔界戦争のような戦いが起こるかと思うと[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
 </sn:script>

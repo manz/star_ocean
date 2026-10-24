@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0">[center]Port d'Otanim[page]
+<sn:pointer id="0" window="speaker" trigger="start">[center]Port d'Otanim[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1">[center]Port d'Otanim[page]
+<sn:pointer id="1" window="speaker" trigger="start">[center]Port d'Otanim[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2">[nick:ミリー][br]
+<sn:pointer id="2" window="0" trigger="tile 10">[nick:ミリー][br]
 Hé, [nick:シウス] ! À propos de [nick:ラティ][speed][0xa]... [speed][0x0][page]
 [nick:シウス][br]
 Oui ? Qu'est-ce qu'il y a ?[page]
@@ -23,7 +23,7 @@ il est tout attentionné ![page]
 Hum...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3">[nick:ミリー][br]
+<sn:pointer id="3" window="0" trigger="tile 10">[nick:ミリー][br]
 Hé, [nick:アシュレイ] ! À propos de [nick:ラティ]...[page]
 [nick:アシュレイ][br]
 Oui ? Qu'est-ce qu'il y a ?[page]
@@ -40,7 +40,7 @@ il est tout attentionné ![page]
 Hum...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4">[nick:ミリー][br]
+<sn:pointer id="4" window="0" trigger="tile 10">[nick:ミリー][br]
 Hé, [nick:イリア] ! À propos de [nick:ラティ]...[page]
 [nick:イリア][br]
 Oui, qu'y a-t-il ?[page]
@@ -59,61 +59,61 @@ Gloups.[page]
 [speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="5">[nick:ラティ][br]
+<sn:pointer id="5" window="0" trigger="tile 10">[nick:ラティ][br]
 Je pense qu'il serait judicieux
 d'aller un peu plus loin[speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="6">[nick:イリア][br]
+<sn:pointer id="6" window="0" trigger="talk 4">[nick:イリア][br]
 Tu prendras bien soin de [nick:ミリー], d'accord ?[page]
 [nick:ラティ][br]
 Qu-quoi, d'un coup[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="talk 20" npc="Marin">[nick:ラティ][br]
 Ce ne serait pas une bonne idée
 que j'y aille tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8">Marin[br]
+<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Alors ? On veut s'embarquer
 pour [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="10">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="11">Marin[br]
+<sn:pointer id="11" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Où vous allez ? Si vous embarquez,
 faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12">1. Portmith (Royaume de Moore)[br]
+<sn:pointer id="12" choice="4" window="1" trigger="talk 20" npc="Marin">1. Portmith (Royaume de Moore)[br]
 2. Tropp (Royaume d'Astral)[br]
 3. Ecdart (Royaume de Van)[br]
 4. Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="14">Marin[br]
+<sn:pointer id="14" window="0" trigger="talk 20" npc="Marin">Marin[br]
 Y'a pas assez d'sous ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="16">[nick:シウス][br]
+<sn:pointer id="16" window="0" trigger="start">[nick:シウス][br]
 Nous y voilà !
 [color][0x4]Otanim[color][0x2], royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="start">[nick:イリア][br]
 Comment se rend-on au
 [color][0x4]château d'Astral[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18">[nick:シウス][br]
+<sn:pointer id="18" window="0" trigger="start">[nick:シウス][br]
 T[speed][0x14]-Tu[speed][0x0] veux aller là-bas ?[page]
 [nick:イリア][br]
 C'est dangereux ?[page]
@@ -122,13 +122,13 @@ Non[speed][0xf],[speed][0x0] c'est pas ça.
 C'est juste que ça n'en vaut pas la peine[speed][0xa]... [speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19">Marin de passage[br]
+<sn:pointer id="19" window="0" trigger="start">Marin de passage[br]
 Si vous allez à [color][0x4]Astral[color][0x2],
 faut visiter la ville.
 Le saké qu'ils produisent est le top du top ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20">[nick:イリア][br]
+<sn:pointer id="20" window="0" trigger="start">[nick:イリア][br]
 Oh, c'est bon[speed][0x1e].[speed][0x0] Ils mettent
 du jus de fruits[speed][0x14] ? [speed][0x0]Du riz[speed][0x14] ? [speed][0x0]De l'orge, peut-être ?[page]
 Marin de passage[br]
@@ -140,21 +140,21 @@ Nan ! Ça tape à moins de 20 degrés.
 Si tu veux d'la boisson [speed][0x14]d'homme[speed][0x0], vaut mieux qu't'ailles à [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21">[nick:イリア][br]
+<sn:pointer id="21" window="1" trigger="start">[nick:イリア][br]
 En route ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22">[nick:ラティ][br]
+<sn:pointer id="22" window="1" trigger="start">[nick:ラティ][br]
 Pour aller où ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23">[nick:イリア][br]
+<sn:pointer id="23" window="1" trigger="start">[nick:イリア][br]
 Hein ?[page]
 [nick:ラティ][br]
 [color][0x4]Astral[color][0x2] ou [color][0x4]Sylvalant[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24">[nick:イリア][br]
+<sn:pointer id="24" window="0" trigger="start">[nick:イリア][br]
 Heu[speed][0xa]... [speed][0x0] Eh bien[speed][0x14],[speed][0x0] le plus proche est le mieux, j'imagine.[page]
 [end]</sn:pointer>
 
