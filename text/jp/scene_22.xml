@@ -193,178 +193,178 @@
 [nick:イリア]「年ごろの女の子なんてあんなものよ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57" window="0" trigger="talk 16">バダム「ああ、そのイヤリングかい？いいよいいよ、どうせ安物だし。持ってってよ。[page]
+<sn:pointer id="57" window="0" trigger="talk 16" npc="バダム">バダム「ああ、そのイヤリングかい？いいよいいよ、どうせ安物だし。持ってってよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58" window="1" trigger="talk 16">バダム「いらっしゃ・・・おっ♪あんたら冒険者だな。ちょいと話だけでも聞いてくれないか？[page]
+<sn:pointer id="58" window="1" trigger="talk 16" npc="バダム">バダム「いらっしゃ・・・おっ♪あんたら冒険者だな。ちょいと話だけでも聞いてくれないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59" choice="3" window="1" trigger="talk 16">1．聞かせてくれ
+<sn:pointer id="59" choice="3" window="1" trigger="talk 16" npc="バダム">1．聞かせてくれ
 2．結構です
 3．道具を買いたい[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60" window="0" trigger="talk 16">バダム「また明日来てくれ。[page]
+<sn:pointer id="60" window="0" trigger="talk 16" npc="バダム">バダム「また明日来てくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61" window="0" trigger="talk 16">バダム「ちゃんと[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてくれよ。[page]
+<sn:pointer id="61" window="0" trigger="talk 16" npc="バダム">バダム「ちゃんと[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてくれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62" window="0" trigger="talk 16">[nick:シウス]「ほらよ。持ってきたぜ。[page]
+<sn:pointer id="62" window="0" trigger="talk 16" npc="バダム">[nick:シウス]「ほらよ。持ってきたぜ。[page]
 バダム「お♪早かったな。
 これは報酬だ。[page]
 [color][0x5]600[color][0x2]フォル手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63" window="0" trigger="talk 16">バダム「いらっしゃい。[page]
+<sn:pointer id="63" window="0" trigger="talk 16" npc="バダム">バダム「いらっしゃい。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="64" window="0" trigger="talk 17">？？？「おう、おまえらも冒険者なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65" window="0" trigger="talk 18">娘「さぁ、そんな二人は知らないけど[speed][0xa]・・・[speed][0x0]。それにしてもどこではぐれたかもわからないってどういうこと？[page]
+<sn:pointer id="65" window="0" trigger="talk 18" npc="女">娘「さぁ、そんな二人は知らないけど[speed][0xa]・・・[speed][0x0]。それにしてもどこではぐれたかもわからないってどういうこと？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66" window="0" trigger="talk 18">女「そこの人、すごく言葉遣いがわるいのよ。
+<sn:pointer id="66" window="0" trigger="talk 18" npc="女">女「そこの人、すごく言葉遣いがわるいのよ。
 親の顔が見てみたいわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67" window="0" trigger="talk 18">女「こんにちは。[page]
+<sn:pointer id="67" window="0" trigger="talk 18" npc="女">女「こんにちは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68" window="0" trigger="talk 19">宿屋の娘「よく眠れましたか？[page]
+<sn:pointer id="68" window="0" trigger="talk 19" npc="宿屋の娘">宿屋の娘「よく眠れましたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69" choice="yes-no" window="1" trigger="talk 19">宿屋の娘「一泊[color][0x5]10[color][0x2]フォルです。泊まりますか？[page]
+<sn:pointer id="69" choice="yes-no" window="1" trigger="talk 19" npc="宿屋の娘">宿屋の娘「一泊[color][0x5]10[color][0x2]フォルです。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="70" window="0" trigger="talk 19" npc="宿屋の娘">[end]</sn:pointer>
 
-<sn:pointer id="71" window="0" trigger="talk 19">お金が足りません。[page]
+<sn:pointer id="71" window="0" trigger="talk 19" npc="宿屋の娘">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="72" window="0" trigger="talk 19" npc="宿屋の娘">[end]</sn:pointer>
 
-<sn:pointer id="73" window="0" trigger="talk 20">女剣士「あんたら冒険者かい？あたしは師匠の墓参りにわざわざ[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだ。こればかりはどうしてもすっぽかす気になれなくてね。[page]
+<sn:pointer id="73" window="0" trigger="talk 20" npc="女剣士">女剣士「あんたら冒険者かい？あたしは師匠の墓参りにわざわざ[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだ。こればかりはどうしてもすっぽかす気になれなくてね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74" window="0" trigger="talk 21">剣士「[color][0x4]アストラル[color][0x2]に有名な鍛冶師がいるらしいぜ。さすがは剣の王国と謳われるだけのことはあるよな。[page]
+<sn:pointer id="74" window="0" trigger="talk 21" npc="剣士">剣士「[color][0x4]アストラル[color][0x2]に有名な鍛冶師がいるらしいぜ。さすがは剣の王国と謳われるだけのことはあるよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75" window="0" trigger="talk 22">娘「冒険者はけっこう来るから、顔なんかいちいち覚えてないわ。ごめんなさいね、役に立てなくて。[page]
+<sn:pointer id="75" window="0" trigger="talk 22" npc="娘">娘「冒険者はけっこう来るから、顔なんかいちいち覚えてないわ。ごめんなさいね、役に立てなくて。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76" window="0" trigger="talk 22">娘「この辺りはいいわよ。[color][0x4]シルヴァラント[color][0x2]の方にいったらきっと魔物がすごくておちおち外も出歩けないわ。[page]
+<sn:pointer id="76" window="0" trigger="talk 22" npc="娘">娘「この辺りはいいわよ。[color][0x4]シルヴァラント[color][0x2]の方にいったらきっと魔物がすごくておちおち外も出歩けないわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77" window="0" trigger="talk 23">老婆「捜し人？わしゃあ、外に出んからのう。[page]
+<sn:pointer id="77" window="0" trigger="talk 23" npc="老婆">老婆「捜し人？わしゃあ、外に出んからのう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78" window="0" trigger="talk 23">老婆「孫が魔物を剖すと勇んで[color][0x4]シルヴァラント[color][0x2]に行ってしもうた[speed][0xa]・・・[speed][0x0]。あ奴の父親もそうじゃった。わしはただそばにいてくれさえすればええと言っとるのに・・・。[page]
+<sn:pointer id="78" window="0" trigger="talk 23" npc="老婆">老婆「孫が魔物を剖すと勇んで[color][0x4]シルヴァラント[color][0x2]に行ってしもうた[speed][0xa]・・・[speed][0x0]。あ奴の父親もそうじゃった。わしはただそばにいてくれさえすればええと言っとるのに・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79" choice="yes-no" window="1" trigger="talk 24">アドバイザー「話を聞くかい？[page]
+<sn:pointer id="79" choice="yes-no" window="1" trigger="talk 24" npc="アドバイザー">アドバイザー「話を聞くかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80" window="0" trigger="talk 24">アドバイザー「スキルを覚えることの目的は大きく分けて3つある。[page]
+<sn:pointer id="80" window="0" trigger="talk 24" npc="アドバイザー">アドバイザー「スキルを覚えることの目的は大きく分けて3つある。[page]
 「一つはスキル自体のボーナス効果を得ること。たとえばある知識のスキルを覚えるとＩＮＴが上昇する、みたいなやつだな。[page]
 「二つ目は特定のスキルの組み合わせによって覚える特技コマンドを修得すること。細工とか、ダッシュとか10種類以上あるから全部覚えようと思ったら大変だな。[page]
 「そして最後は1番目に言ったのと似てるけどちょっと違う。戦闘用のスキルを覚えることだ。戦闘用のスキルは覚えることで有利になるし、戦闘内容にもバリエーションができる。リンクコンボなんて覚えたらバトルジャンキーになってもおかしくないぜ。[page]
 「長くなったがようするに、スキルポイントはよく考えて、目的を持って使うのがよろしいと、そういうことだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="81" window="0" trigger="talk 24" npc="アドバイザー">[end]</sn:pointer>
 
-<sn:pointer id="82" window="1" trigger="talk 25">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="82" window="1" trigger="talk 25" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" choice="3" window="1" trigger="talk 25">1知識関連スキルＬＶ1　300
+<sn:pointer id="83" choice="3" window="1" trigger="talk 25" npc="ギルドマスター">1知識関連スキルＬＶ1　300
 2感覚関連スキルＬＶ1　100
 3技術関連スキルＬＶ1　600[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 25">[end]</sn:pointer>
+<sn:pointer id="84" window="0" trigger="talk 25" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 25">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="85" window="0" trigger="talk 25" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 25">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="86" window="0" trigger="talk 25" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 25">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="87" window="0" trigger="talk 25" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="1" trigger="talk 26">説明員「私はスキルセットの内訳をみなさんに教えています。
+<sn:pointer id="88" window="1" trigger="talk 26" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。
 どれの説明をしましょうか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89" choice="3" window="1" trigger="talk 26">1．知識関連スキルＬＶ1
+<sn:pointer id="89" choice="3" window="1" trigger="talk 26" npc="説明員">1．知識関連スキルＬＶ1
 2．感覚関連スキルＬＶ1
 3．技術関連スキルＬＶ1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90" window="0" trigger="talk 26">説明員「知識関連スキルＬＶ1の内訳は、
+<sn:pointer id="90" window="0" trigger="talk 26" npc="説明員">説明員「知識関連スキルＬＶ1の内訳は、
 薬草学と
 鉱物学と
 レシピよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91" window="0" trigger="talk 26">説明員「感覚関連スキルＬＶ1の内訳は、
+<sn:pointer id="91" window="0" trigger="talk 26" npc="説明員">説明員「感覚関連スキルＬＶ1の内訳は、
 めききと
 美的感覚と
 忍耐よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92" window="0" trigger="talk 26">説明員「技術関連スキルＬＶ1の内訳は、
+<sn:pointer id="92" window="0" trigger="talk 26" npc="説明員">説明員「技術関連スキルＬＶ1の内訳は、
 ダッシュと
 ほうちょうと
 デッサンと
 口笛よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93" window="0" trigger="talk 26">[end]</sn:pointer>
+<sn:pointer id="93" window="0" trigger="talk 26" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="94" window="0" trigger="talk 16">バダム「実は[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてほしい物があるんだ。最近はメトークス山道も物騒だからな。[page]
+<sn:pointer id="94" window="0" trigger="talk 16" npc="バダム">バダム「実は[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてほしい物があるんだ。最近はメトークス山道も物騒だからな。[page]
 「もちろん報酬は支払うし、[color][0x4]ポートミス[color][0x2]への通行証も付けるし、悪い話じゃないだろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95" window="0" trigger="talk 16">[nick:イリア]「[color][0x4]ポートミス[color][0x2]って・・・？[page]
+<sn:pointer id="95" window="0" trigger="talk 16" npc="バダム">[nick:イリア]「[color][0x4]ポートミス[color][0x2]って・・・？[page]
 バダム「ここから北にある町です。[page]
 [nick:イリア]「[color][0x6]通行証[color][0x2]が必要なの？[page]
 バダム「そうだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96" choice="2" window="1" trigger="talk 16">1．仕事を曼けたい
+<sn:pointer id="96" choice="2" window="1" trigger="talk 16" npc="バダム">1．仕事を曼けたい
 2．断る[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="97" window="0" trigger="talk 16" npc="バダム">[end]</sn:pointer>
 
-<sn:pointer id="98" window="0" trigger="talk 16">バダム「気持ちはうれしいんだが、それなりの武器くらい持ってないとねぇ。[page]
+<sn:pointer id="98" window="0" trigger="talk 16" npc="バダム">バダム「気持ちはうれしいんだが、それなりの武器くらい持ってないとねぇ。[page]
 [nick:イリア]「仕方ないわ。出直しましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99" window="0" trigger="talk 16">バダム「そうか・・・。[page]
+<sn:pointer id="99" window="0" trigger="talk 16" npc="バダム">バダム「そうか・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100" window="0" trigger="talk 16">バダム「そうか・・・。[page]
+<sn:pointer id="100" window="0" trigger="talk 16" npc="バダム">バダム「そうか・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101" window="0" trigger="talk 16">バダム「いらっしゃい[page]
+<sn:pointer id="101" window="0" trigger="talk 16" npc="バダム">バダム「いらっしゃい[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="102" window="0" trigger="talk 16" npc="バダム">[end]</sn:pointer>
 
-<sn:pointer id="103" window="1" trigger="talk 16">バダム「約東はおとといのはずだぞ。とにかく急いでくれよ。[page]
+<sn:pointer id="103" window="1" trigger="talk 16" npc="バダム">バダム「約東はおとといのはずだぞ。とにかく急いでくれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104" window="1" trigger="talk 16">バダム「約東は昨日のはずだぞ。とにかく急いでくれよ。[page]
+<sn:pointer id="104" window="1" trigger="talk 16" npc="バダム">バダム「約東は昨日のはずだぞ。とにかく急いでくれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105" window="1" trigger="talk 16">バダム「何日待たせるんだ！！とにかく急いでくれよ。[page]
+<sn:pointer id="105" window="1" trigger="talk 16" npc="バダム">バダム「何日待たせるんだ！！とにかく急いでくれよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106" window="0" trigger="talk 16">バダム「ほら、これが[color][0x6]通行証[color][0x2]だ。[page]
+<sn:pointer id="106" window="0" trigger="talk 16" npc="バダム">バダム「ほら、これが[color][0x6]通行証[color][0x2]だ。[page]
 [color][0x6]通行証[color][0x2]を手に入れました。[page]
 バダム「ちゃんと[color][0x4]ポートミス[color][0x2]の武器屋から持ってきてくれよ。[page]
 [end]</sn:pointer>

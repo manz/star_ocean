@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0" window="0" trigger="talk 16">Soldat[br]
+<sn:pointer id="0" window="0" trigger="talk 16" npc="Soldat">Soldat[br]
 Vous pouvez passer ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 17">Soldat[br]
+<sn:pointer id="1" window="0" trigger="talk 17" npc="Soldat">Soldat[br]
 Vous pouvez passer ![page]
 [end]</sn:pointer>
 
@@ -31,10 +31,10 @@ Je vais vous trouver de super fringues top tendance ![page]
 M[speed][0x5]-[speed][0x0]merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 16">Comment va Ray ?[page]
+<sn:pointer id="7" window="0" trigger="talk 16" npc="Soldat">Comment va Ray ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">Nord : Van
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Soldat">Nord : Van
 Sud : Ionis[page]
 [end]</sn:pointer>
 

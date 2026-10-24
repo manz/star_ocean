@@ -16,11 +16,11 @@ C'est celui du château de Van[speed][0xa]...[speed][0x0] ! Bon, circulez ![page
 Si vous ne pouvez pas le prouver, je ne peux pas vous laisser passer. Rentrez chez vous ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 16">Soldat[br]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="Soldat">Soldat[br]
 Circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">Soldat[br]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="Soldat">Soldat[br]
 Circulez ![page]
 [end]</sn:pointer>
 

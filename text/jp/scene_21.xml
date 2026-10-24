@@ -13,110 +13,110 @@
 <sn:pointer id="3" window="speaker" trigger="tile 6">[pos][0x56][0x0]ホット[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 16">男「道具屋のバダムが冒険者を捜してたぜ。[page]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="男">男「道具屋のバダムが冒険者を捜してたぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">知識人レミア「先日クラートの南に流れ星のような光が落ちるのが見えました。あれは何だったのでしょう？[page]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="知識人レミア">知識人レミア「先日クラートの南に流れ星のような光が落ちるのが見えました。あれは何だったのでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" choice="yes-no" window="1" trigger="talk 17">知識人レミア「この世界にある王国すべて知っている？[page]
+<sn:pointer id="6" choice="yes-no" window="1" trigger="talk 17" npc="知識人レミア">知識人レミア「この世界にある王国すべて知っている？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 17">「なら私が言うことはなにもないわね。[page]
+<sn:pointer id="7" window="0" trigger="talk 17" npc="知識人レミア">「なら私が言うことはなにもないわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 17">「まず一つはムーア王国。今あなたがいるこの大陸がそうよ。で、ここからはるか北にある港町[color][0x4]ポートミス[color][0x2]から船に乗っていけるのが最強と名高い騎士団の国アストラル王国。そこから西に進むとあるのがヴァン王国。そしてそこから北にあるのがシルヴァラント王国。どお、勉強になった？[page]
+<sn:pointer id="8" window="0" trigger="talk 17" npc="知識人レミア">「まず一つはムーア王国。今あなたがいるこの大陸がそうよ。で、ここからはるか北にある港町[color][0x4]ポートミス[color][0x2]から船に乗っていけるのが最強と名高い騎士団の国アストラル王国。そこから西に進むとあるのがヴァン王国。そしてそこから北にあるのがシルヴァラント王国。どお、勉強になった？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 17">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 17" npc="知識人レミア">[end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 18">男「[nick:ロニキス]？[nick:ミリー]？この辺には冒険者や傭兵なんかゴロゴロいるからなぁ。[page]
+<sn:pointer id="10" window="0" trigger="talk 18" npc="男">男「[nick:ロニキス]？[nick:ミリー]？この辺には冒険者や傭兵なんかゴロゴロいるからなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">男「仲間と会えたのかい。[page]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="男">男「仲間と会えたのかい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 19">ディーン「人を捜している？はぐれた場所もわからないのか？[page]
+<sn:pointer id="12" window="0" trigger="talk 19" npc="ディーン">ディーン「人を捜している？はぐれた場所もわからないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 19">ディーン「[color][0x4]ムーア王国[color][0x2]の城下町[color][0x4]ポートミス[color][0x2]は巨大な船が出入りする、各国との窓口みたいなもんさ。[page]
+<sn:pointer id="13" window="0" trigger="talk 19" npc="ディーン">ディーン「[color][0x4]ムーア王国[color][0x2]の城下町[color][0x4]ポートミス[color][0x2]は巨大な船が出入りする、各国との窓口みたいなもんさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 21">主人「・・・・・・・。[page]
+<sn:pointer id="14" window="0" trigger="talk 21" npc="主人">主人「・・・・・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 21">主人「いらっしゃい[page]
+<sn:pointer id="15" window="0" trigger="talk 21" npc="主人">主人「いらっしゃい[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 21">主人「この剣はどうだ？束方随一の鍛冶師の作だ。今なら安くしておくぞ。[page]
+<sn:pointer id="16" window="0" trigger="talk 21" npc="主人">主人「この剣はどうだ？束方随一の鍛冶師の作だ。今なら安くしておくぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 21">[nick:イリア]「立派な剣じゃない！買ったら？[nick:ラティ]。[page]
+<sn:pointer id="17" window="0" trigger="talk 21" npc="主人">[nick:イリア]「立派な剣じゃない！買ったら？[nick:ラティ]。[page]
 [nick:ラティ]「確かに長剣くらいないとこれから不安だな。[page]
 主人「半額の[color][0x5]20[color][0x2]フォルだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" choice="2" window="1" trigger="talk 21">1．買う
+<sn:pointer id="18" choice="2" window="1" trigger="talk 21" npc="主人">1．買う
 2．買わない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 21">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 21" npc="主人">[end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 21">主人「買っといた方がいいんじゃないか？[page]
+<sn:pointer id="20" window="0" trigger="talk 21" npc="主人">主人「買っといた方がいいんじゃないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 21">[nick:ラティ]「それじゃあ、買うか。[page]
+<sn:pointer id="21" window="0" trigger="talk 21" npc="主人">[nick:ラティ]「それじゃあ、買うか。[page]
 主人「まいど！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 21">？？？「どけどけ！[page]
+<sn:pointer id="22" window="0" trigger="talk 21" npc="主人">？？？「どけどけ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="1" trigger="talk 21">？？？「ちょっと待てよ！今度は何も知らねぇトーシロに売り付けようってのか？！[page]
+<sn:pointer id="23" window="1" trigger="talk 21" npc="主人">？？？「ちょっと待てよ！今度は何も知らねぇトーシロに売り付けようってのか？！[page]
 主人「またおまえか。商売の邪魔だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 21">？？？「うっるせぇ！！！[page]
+<sn:pointer id="24" window="0" trigger="talk 21" npc="主人">？？？「うっるせぇ！！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 21">？？？「おまえも冒険者なんだろ？こんなもん、まがい物に決まってんだろ。束方の名剣っていやぁもっとこう[speed][0x7]・・・[speed][0x0][page]
+<sn:pointer id="25" window="0" trigger="talk 21" npc="主人">？？？「おまえも冒険者なんだろ？こんなもん、まがい物に決まってんだろ。束方の名剣っていやぁもっとこう[speed][0x7]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 21">？？？「まぁ、とにかくそういうことだ。こんな腐った武器屋になめられてんじゃねぇぞ、じゃあな。[page]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="主人">？？？「まぁ、とにかくそういうことだ。こんな腐った武器屋になめられてんじゃねぇぞ、じゃあな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 21">[nick:イリア]「豪快なヒトね・・・。[page]
+<sn:pointer id="27" window="0" trigger="talk 21" npc="主人">[nick:イリア]「豪快なヒトね・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 21">主人「最近の客はまったく！[page]
+<sn:pointer id="28" window="0" trigger="talk 21" npc="主人">主人「最近の客はまったく！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 22">男の子「お手伝いしてるんだよ。[page]
+<sn:pointer id="29" window="0" trigger="talk 22" npc="男の子">男の子「お手伝いしてるんだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 23">リザ「いらっしゃい。[page]
+<sn:pointer id="30" window="0" trigger="talk 23" npc="リザ">リザ「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 24">魚屋のブラド「海賊だ海賊。あれを何とかせにゃあかん！！[page]
+<sn:pointer id="31" window="0" trigger="talk 24" npc="魚屋のブラド">魚屋のブラド「海賊だ海賊。あれを何とかせにゃあかん！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 24">魚屋のブラド「[color][0x4]ポートミス[color][0x2]から魚を仕入れているんだが、最近は海賊騒ぎが頻発して困ってんだ。[page]
+<sn:pointer id="32" window="0" trigger="talk 24" npc="魚屋のブラド">魚屋のブラド「[color][0x4]ポートミス[color][0x2]から魚を仕入れているんだが、最近は海賊騒ぎが頻発して困ってんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="1" trigger="talk 25">旅人ラドル「[color][0x4]ポートミス[color][0x2]ってどこ？[page]
+<sn:pointer id="33" window="1" trigger="talk 25" npc="旅人ラドル">旅人ラドル「[color][0x4]ポートミス[color][0x2]ってどこ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" choice="2" window="1" trigger="talk 25">1．北だよ
+<sn:pointer id="34" choice="2" window="1" trigger="talk 25" npc="旅人ラドル">1．北だよ
 2．南だよ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 25">旅人ラドル「ありがとう。[page]
+<sn:pointer id="35" window="0" trigger="talk 25" npc="旅人ラドル">旅人ラドル「ありがとう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 25">旅人ラドル「ありがとう。[page]
+<sn:pointer id="36" window="0" trigger="talk 25" npc="旅人ラドル">旅人ラドル「ありがとう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 25">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 25" npc="旅人ラドル">[end]</sn:pointer>
 
 <sn:pointer id="38" window="0" trigger="talk 10">[nick:ペリシー]「あのねー。[nick:ミリー]はパフェが好きなんだって♪カンチョウは[speed][0xa]・・・[speed][0x0]なんだっけ。タケマツ？あれ？ちがうなぁ、なんだっけ？[page]
 [end]</sn:pointer>
@@ -195,16 +195,16 @@
 <sn:pointer id="60" window="0" trigger="talk 1">[nick:ラティ]「きげんがいいみたいだな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61" window="1" trigger="talk 9">主人「どうだいこの剣は？束方随一の鍛冶師の作ですぜ！[page]
+<sn:pointer id="61" window="1" trigger="talk 9" npc="主人">主人「どうだいこの剣は？束方随一の鍛冶師の作ですぜ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62" window="0" trigger="talk 9">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]人を馬鹿にするのもたいがいにせい！束方随一じゃと？こんなナマクラを騙されて買うマヌケがおるか！[page]
+<sn:pointer id="62" window="0" trigger="talk 9" npc="主人">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]人を馬鹿にするのもたいがいにせい！束方随一じゃと？こんなナマクラを騙されて買うマヌケがおるか！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63" window="0" trigger="talk 9">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]そんな奴がおったら顔が見たいものよ！[page]
+<sn:pointer id="63" window="0" trigger="talk 9" npc="主人">[nick:アシュレイ]「[speed][0xa]・・・[speed][0x0]そんな奴がおったら顔が見たいものよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="64" window="0" trigger="talk 9">[nick:アシュレイ]「ん[speed][0x14]？[speed][0x0][nick:ラティ]か、どうしたんじゃ？[page]
+<sn:pointer id="64" window="0" trigger="talk 9" npc="主人">[nick:アシュレイ]「ん[speed][0x14]？[speed][0x0][nick:ラティ]か、どうしたんじゃ？[page]
 [end]</sn:pointer>
 
 <sn:pointer id="65" window="1" trigger="talk 4 talk 5">[nick:ラティ]「この壁画がどうかしたんですか？[page]

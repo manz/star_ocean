@@ -33,46 +33,46 @@
 [color][0x6]ムーアエンブレム[color][0x2]を入手しました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 18">ムーア国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="ムーア国王">ムーア国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 19">大臣「期待しております。[page]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="大臣">大臣「期待しております。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">妃「頑張って下さいね。[page]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="妃">妃「頑張って下さいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 21">側近「国王を命に代えてもお守りするのが我々の役目！[page]
+<sn:pointer id="12" window="0" trigger="talk 21" npc="側近">側近「国王を命に代えてもお守りするのが我々の役目！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 22">側近「この命、国王とお妃様にささげます！[page]
+<sn:pointer id="13" window="0" trigger="talk 22" npc="側近">側近「この命、国王とお妃様にささげます！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 23">メイド「ここのお城の地下にはでっかい宝物殿があるのよ。[page]
+<sn:pointer id="14" window="0" trigger="talk 23" npc="メイド">メイド「ここのお城の地下にはでっかい宝物殿があるのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 24">メイド「あまりバタバタ歩かないで下さいね。ホコリが飛ぶから。[page]
+<sn:pointer id="15" window="0" trigger="talk 24" npc="メイド">メイド「あまりバタバタ歩かないで下さいね。ホコリが飛ぶから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 25">衛兵「いきなり宝物殿に魔物が現れるなんて[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="talk 25" npc="衛兵">衛兵「いきなり宝物殿に魔物が現れるなんて[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 26">衛兵「前ムーア国王は平和主義的な考えがあって、この国はあまり軍備が充実していません。今は魔界という共通の敵がいますからいいのですが、もし魔界の王アスモデウスが剖されることがあったら・・・なんだか逆に嫌な予感がしてしまいます。[page]
+<sn:pointer id="17" window="0" trigger="talk 26" npc="衛兵">衛兵「前ムーア国王は平和主義的な考えがあって、この国はあまり軍備が充実していません。今は魔界という共通の敵がいますからいいのですが、もし魔界の王アスモデウスが剖されることがあったら・・・なんだか逆に嫌な予感がしてしまいます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 27">賢者グレイス「メトークス山には隠された遺跡があるというウワサですが、定かではありません。[page]
+<sn:pointer id="18" window="0" trigger="talk 27" npc="賢者グレイス">賢者グレイス「メトークス山には隠された遺跡があるというウワサですが、定かではありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 28">宮廷料理人パスタ「知識や技術は後からどうにでもなる。料理人に真に必要なものは味覚だ！万人を喰らせる味を創造する天性の才能！これだっ！！[page]
+<sn:pointer id="19" window="0" trigger="talk 28" npc="宮廷料理人パスタ">宮廷料理人パスタ「知識や技術は後からどうにでもなる。料理人に真に必要なものは味覚だ！万人を喰らせる味を創造する天性の才能！これだっ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 29">動物好きの衛兵「実は密かに自室に犬を飼ってるんです。見つけても騒がないで下さい。[page]
+<sn:pointer id="20" window="0" trigger="talk 29" npc="動物好きの衛兵">動物好きの衛兵「実は密かに自室に犬を飼ってるんです。見つけても騒がないで下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 30">衛兵「ここは謁見の間です。[page]
+<sn:pointer id="21" window="0" trigger="talk 30" npc="衛兵">衛兵「ここは謁見の間です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 31">衛兵「ここは宝物殿です。[page]
+<sn:pointer id="22" window="0" trigger="talk 31" npc="衛兵">衛兵「ここは宝物殿です。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="23" window="0" trigger="start">大臣ボルク「ここです。手強い魔物もいますので、宝物殿の武具は必須ですぞ。[page]

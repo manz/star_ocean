@@ -83,7 +83,7 @@ Ivina[br]
 Parfait. Je vais vous accompagner.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">Ivina[br]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="Ivina">Ivina[br]
 Je vais prier pour votre réussite.[page]
 [end]</sn:pointer>
 

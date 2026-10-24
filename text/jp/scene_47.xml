@@ -6,10 +6,10 @@
 <sn:pointer id="1" window="0" trigger="tile 3">[nick:イリア]「ダメよ。今アストラル城下に入ったらどうなるか、わかっているでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">見張り「悪いことは言わないからやめときな。こんなとこに入るのは冒険者か、酔っ払いぐらいのもんだって。[page]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="見張り">見張り「悪いことは言わないからやめときな。こんなとこに入るのは冒険者か、酔っ払いぐらいのもんだって。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 17">見張り「やめた方がいいぜ。[page]
+<sn:pointer id="3" window="0" trigger="talk 17" npc="見張り">見張り「やめた方がいいぜ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="4" window="0" trigger="start">[nick:フィア]「ちっ、しつこいな！！[page]

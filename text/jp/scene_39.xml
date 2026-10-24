@@ -294,74 +294,74 @@
 <sn:pointer id="80" window="0" trigger="talk 11">[nick:フィア]「お前たちの目的が達成されることを析っているぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81" window="0" trigger="talk 16">衛兵「・・・。[page]
+<sn:pointer id="81" window="0" trigger="talk 16" npc="衛兵">衛兵「・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82" window="0" trigger="talk 16">衛兵「面会は手早く済ませろよ。[page]
+<sn:pointer id="82" window="0" trigger="talk 16" npc="衛兵">衛兵「面会は手早く済ませろよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" window="0" trigger="talk 16">衛兵「面会は手早く済ませろよ。[page]
+<sn:pointer id="83" window="0" trigger="talk 16" npc="衛兵">衛兵「面会は手早く済ませろよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 16">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="84" window="0" trigger="talk 16" npc="衛兵">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 17">囚人「出してくれ！！[page]
+<sn:pointer id="85" window="0" trigger="talk 17" npc="囚人">囚人「出してくれ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 18">アストラル国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
+<sn:pointer id="86" window="0" trigger="talk 18" npc="アストラル国王">アストラル国王「アスモデウスを見事退治してくれるよう析っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 19">大臣「期待しております。[page]
+<sn:pointer id="87" window="0" trigger="talk 19" npc="大臣">大臣「期待しております。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="0" trigger="talk 20">妃「頑張って下さいね。[page]
+<sn:pointer id="88" window="0" trigger="talk 20" npc="妃">妃「頑張って下さいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89" window="0" trigger="talk 21">衛兵「ここから先に入ってはダメだ！[page]
+<sn:pointer id="89" window="0" trigger="talk 21" npc="衛兵">衛兵「ここから先に入ってはダメだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90" window="0" trigger="talk 22">衛兵「この先の広間には国王がいらっしゃる。[page]
+<sn:pointer id="90" window="0" trigger="talk 22" npc="衛兵">衛兵「この先の広間には国王がいらっしゃる。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91" window="0" trigger="talk 23">紋章使い「世界の各地には“紋章”が隠されているとか。まだ見ぬ呪紋もきっとそこで手に入れることができると思うんだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="91" window="0" trigger="talk 23" npc="紋章使い">紋章使い「世界の各地には“紋章”が隠されているとか。まだ見ぬ呪紋もきっとそこで手に入れることができると思うんだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="92" window="0" trigger="talk 24">賢者「薬の調合を修得するには色々な知識が必要だろうな。薬草学とか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="92" window="0" trigger="talk 24" npc="賢者">賢者「薬の調合を修得するには色々な知識が必要だろうな。薬草学とか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93" window="0" trigger="talk 25">メアリ「[nick:フィア]様が育ての親のライアス様を殺すなんてありえないわ！[page]
+<sn:pointer id="93" window="0" trigger="talk 25" npc="メアリ">メアリ「[nick:フィア]様が育ての親のライアス様を殺すなんてありえないわ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="94" window="0" trigger="talk 25">メアリ「[nick:フィア]様に化けてライアス様を襲おうだなんてひどい話だわ。[page]
+<sn:pointer id="94" window="0" trigger="talk 25" npc="メアリ">メアリ「[nick:フィア]様に化けてライアス様を襲おうだなんてひどい話だわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95" window="0" trigger="talk 25">メアリ「私は王室のメイドです。ホコリ落とさないで下さいね。[page]
+<sn:pointer id="95" window="0" trigger="talk 25" npc="メアリ">メアリ「私は王室のメイドです。ホコリ落とさないで下さいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96" window="0" trigger="talk 26">衛兵「国王様も本当なら信じたくないはず[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="96" window="0" trigger="talk 26" npc="衛兵">衛兵「国王様も本当なら信じたくないはず[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="97" window="0" trigger="talk 26">衛兵「アストラル城下に魔物が侵入して来たのは初めての話です。[page]
+<sn:pointer id="97" window="0" trigger="talk 26" npc="衛兵">衛兵「アストラル城下に魔物が侵入して来たのは初めての話です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98" window="0" trigger="talk 26">衛兵「国王の前ではそそうのないように。[page]
+<sn:pointer id="98" window="0" trigger="talk 26" npc="衛兵">衛兵「国王の前ではそそうのないように。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99" window="0" trigger="talk 27">衛兵「[nick:フィア]が地下牢に？ウソですよね？！[page]
+<sn:pointer id="99" window="0" trigger="talk 27" npc="衛兵">衛兵「[nick:フィア]が地下牢に？ウソですよね？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100" window="0" trigger="talk 27">衛兵「噂ですが、魔物がライアス様を襲ったのはライアス様が国王から授かった何かを狙ってのことではないかと言われてます。[page]
+<sn:pointer id="100" window="0" trigger="talk 27" npc="衛兵">衛兵「噂ですが、魔物がライアス様を襲ったのはライアス様が国王から授かった何かを狙ってのことではないかと言われてます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101" window="0" trigger="talk 27">衛兵「[nick:フィア]様行ってしまうんですか？！僕は悲しゅうございますよ。[page]
+<sn:pointer id="101" window="0" trigger="talk 27" npc="衛兵">衛兵「[nick:フィア]様行ってしまうんですか？！僕は悲しゅうございますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102" window="0" trigger="talk 27">衛兵「先程[nick:フィア]様と搾れ違った[speed][0xa]・・・[speed][0x0]
+<sn:pointer id="102" window="0" trigger="talk 27" npc="衛兵">衛兵「先程[nick:フィア]様と搾れ違った[speed][0xa]・・・[speed][0x0]
 幸せ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103" window="0" trigger="talk 28">宮廷音楽家オサトー「私の創った曲を聞いてみるかね？[page]
+<sn:pointer id="103" window="0" trigger="talk 28" npc="宮廷音楽家オサトー">宮廷音楽家オサトー「私の創った曲を聞いてみるかね？[page]
 [end]</sn:pointer>
 
 </sn:script>

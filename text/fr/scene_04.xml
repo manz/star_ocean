@@ -119,87 +119,87 @@ notre devoir.[page]
 Oh[speed][0x1e],[speed][0x0] la classe ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="25" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Vite, occupez-vous d'eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="26" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Hé, [nick:ラティ] ! Tu ne devrais pas être en train de bosser au quartier général de la brigade ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="27" window="0" trigger="talk 16" npc="Homme">Homme[br]
 [nick:ミリー] est partie par la porte nord. Tout va bien pour elle ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="28" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Ça va encore être la canicule aujourd'hui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 17">Fille[br]
+<sn:pointer id="29" window="0" trigger="talk 17" npc="Femme">Fille[br]
 À l'aide ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 17">Femme[br]
+<sn:pointer id="30" window="0" trigger="talk 17" npc="Femme">Femme[br]
 [nick:ドーン] s'est rendu au quartier général de la brigade de Clatos.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 17">Femme[br]
+<sn:pointer id="31" window="0" trigger="talk 17" npc="Femme">Femme[br]
 Maltos s'est rendu à [color][0x4]Laponia[color][0x2].
 J'espère qu'il va bien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 17">[nick:ラティ][br]
+<sn:pointer id="32" window="0" trigger="talk 17" npc="Femme">[nick:ラティ][br]
 Avez-vous remarqué quelque chose d'inhabituel ?[page]
 Dame[br]
 Tout va bien ici, grâce à vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 18">Shina[br]
+<sn:pointer id="33" window="0" trigger="talk 18" npc="Shina">Shina[br]
 [nick:ラティ], si tu es blessé, viens me voir pour que je te soigne ![page]
 [nick:ラティ][br]
 Ahah ! Merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 19">Homme[br]
+<sn:pointer id="34" window="0" trigger="talk 19" npc="Homme">Homme[br]
 Hey, bravo pour vos patrouilles ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 20">Femme[br]
+<sn:pointer id="35" window="0" trigger="talk 20" npc="Femme">Femme[br]
 [nick:ミリー] est partie en courant vers le Nord avec une drôle d'expression sur le visage.[page]
 Il s'est passé quelque chose ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 20">Femme[br]
+<sn:pointer id="36" window="0" trigger="talk 20" npc="Femme">Femme[br]
 Oh, [nick:ミリー] ne vous accompagne pas
 aujourd'hui ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 20">[nick:ミリー][br]
+<sn:pointer id="37" window="0" trigger="talk 20" npc="Femme">[nick:ミリー][br]
 Je suis contente que Shina aille mieux.[page]
 Femme[br]
 Merci, remerciez Maltos pour moi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 21">Gamin[br]
+<sn:pointer id="38" window="0" trigger="talk 21" npc="Gamin">Gamin[br]
 Je suis crevé... J'ai horreur que
 maman me dise de me lever...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 22">Vieil homme[br]
+<sn:pointer id="39" window="0" trigger="talk 22" npc="Vieil homme">Vieil homme[br]
 [nick:ミリー] est partie en direction de [color][0x4]Laponia[color][0x2].[page]
 Vieil homme[br]
 Si elle se rend au [color][0x4]mont Métox[color][0x2], au nord de [color][0x4]Laponia[color][0x2],
 elle court un grave danger ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="1" trigger="talk 22">Vieil homme[br]
+<sn:pointer id="40" window="1" trigger="talk 22" npc="Vieil homme">Vieil homme[br]
 Ça fait une éternité que je ne suis
 pas allé à [color][0x4]Laponia[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 22">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 22" npc="Vieil homme">[end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 22">Vieil homme[br]
+<sn:pointer id="42" window="0" trigger="talk 22" npc="Vieil homme">Vieil homme[br]
 Si pour une raison ou une autre vous devez
 vous rendre au nord,
 saluez-les pour moi.[page]

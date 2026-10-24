@@ -12,10 +12,10 @@
 <sn:pointer id="3" window="0" trigger="tile 20">兵士「無いなら通ることはできん！戻れ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 16">兵士「通ってよし！[page]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">兵士「通ってよし！[page]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6" window="1" trigger="tile 126">[nick:シウス]「[nick:ラティ]、金貸してくんねぇか？[page]

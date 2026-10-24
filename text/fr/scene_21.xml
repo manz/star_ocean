@@ -16,55 +16,55 @@ Personne n'est aussi stupide ! Me faites pas rire ![page]
 <sn:pointer id="3" window="speaker" trigger="tile 6">[center]Thermonia[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="4" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Badam, le vendeur de la quincaillerie, il était à la recherche d'aventuriers.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">Érudite Lemia[br]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="Érudite Lemia">Érudite Lemia[br]
 L'autre jour, j'ai vu une lumière, comme une étoile filante, tomber au sud de Crat. Qu'est-ce que c'était ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" choice="yes-no" window="1" trigger="talk 17">Érudite Lemia[br]
+<sn:pointer id="6" choice="yes-no" window="1" trigger="talk 17" npc="Érudite Lemia">Érudite Lemia[br]
 Connaissez-vous tous les royaumes du monde ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 17">Alors, je n'ai plus rien à dire.[page]
+<sn:pointer id="7" window="0" trigger="talk 17" npc="Érudite Lemia">Alors, je n'ai plus rien à dire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 17">D'abord, le royaume de Moore : c'est le continent où vous vous trouvez. Depuis [color][0x4]Portmith[color][0x2], loin au nord, un bateau mène au royaume d'Astral, célèbre pour ses chevaliers, les plus forts du monde. À l'ouest d'Astral se trouve le royaume de Van, et au nord de celui-ci, Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
+<sn:pointer id="8" window="0" trigger="talk 17" npc="Érudite Lemia">D'abord, le royaume de Moore : c'est le continent où vous vous trouvez. Depuis [color][0x4]Portmith[color][0x2], loin au nord, un bateau mène au royaume d'Astral, célèbre pour ses chevaliers, les plus forts du monde. À l'ouest d'Astral se trouve le royaume de Van, et au nord de celui-ci, Sylvalant. Alors ? Mon savoir correspond à vos attentes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 17">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 17" npc="Érudite Lemia">[end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 18">Homme[br]
+<sn:pointer id="10" window="0" trigger="talk 18" npc="Homme">Homme[br]
 [nick:ロニキス] ? [nick:ミリー] ? Ça grouille d'aventuriers et de mercenaires dans le coin, alors...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">Homme[br]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="Homme">Homme[br]
 Avez-vous pu trouver vos amis ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 19">Dean[br]
+<sn:pointer id="12" window="0" trigger="talk 19" npc="Dean">Dean[br]
 Vous cherchez quelqu'un et vous ne savez même pas où vous vous êtes perdus de vue ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 19">Dean[br]
+<sn:pointer id="13" window="0" trigger="talk 19" npc="Dean">Dean[br]
 La ville fortifiée du [color][0x4]royaume de Moore[color][0x2], [color][0x4]Portmith[color][0x2], c'est une plaque tournante du commerce entre les royaumes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 21">Armurier[br]
+<sn:pointer id="14" window="0" trigger="talk 21" npc="Armurier">Armurier[br]
 .......[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 21">Armurier[br]
+<sn:pointer id="15" window="0" trigger="talk 21" npc="Armurier">Armurier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 21">Armurier[br]
+<sn:pointer id="16" window="0" trigger="talk 21" npc="Armurier">Armurier[br]
 Pour cette épée ? C'est le travail du meilleur forgeron de tout l'Est. Si vous la prenez maintenant, je vous ferai un prix.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 21">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 21" npc="Armurier">[nick:イリア][br]
 C'est une très bonne épée ! Pourquoi tu ne l'achètes pas, [nick:ラティ] ?[page]
 [nick:ラティ][br]
 C'est vrai que je me sens tout nu, sans épée...[page]
@@ -73,85 +73,85 @@ J'vous fais moitié prix :
 [color][0x5]20[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" choice="2" window="1" trigger="talk 21">1. Faire affaire[br]
+<sn:pointer id="18" choice="2" window="1" trigger="talk 21" npc="Armurier">1. Faire affaire[br]
 2. Décliner l'offre[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 21">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 21" npc="Armurier">[end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 21">Armurier[br]
+<sn:pointer id="20" window="0" trigger="talk 21" npc="Armurier">Armurier[br]
 Ne serait-il pas mieux de vous équiper avant de quitter la ville ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 21">[nick:ラティ][br]
+<sn:pointer id="21" window="0" trigger="talk 21" npc="Armurier">[nick:ラティ][br]
 Bon, d'accord, on achète.[page]
 Armurier[br]
 Merci bien ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 21">???[br]
+<sn:pointer id="22" window="0" trigger="talk 21" npc="Armurier">???[br]
 Dégage ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="1" trigger="talk 21">???[br]
+<sn:pointer id="23" window="1" trigger="talk 21" npc="Armurier">???[br]
 Hé, minute ! Tu refourgues ta camelote à des bleus qui n'y connaissent rien, maintenant ?![page]
 Armurier[br]
 Encore toi ? Tu me gâches le commerce ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 21">???[br]
+<sn:pointer id="24" window="0" trigger="talk 21" npc="Armurier">???[br]
 La ferme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 21">???[br]
+<sn:pointer id="25" window="0" trigger="talk 21" npc="Armurier">???[br]
 T'es aventurier, toi aussi, non ? Ce truc, c'est du toc, forcément. Une grande épée de l'Est, c'est plutôt[speed][0x7]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 21">???[br]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="Armurier">???[br]
 Bref, voilà. Te laisse pas rouler par ce marchand d'armes pourri. Salut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 21">[nick:イリア][br]
+<sn:pointer id="27" window="0" trigger="talk 21" npc="Armurier">[nick:イリア][br]
 Il ne fait pas dans la dentelle, celui-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 21">Armurier[br]
+<sn:pointer id="28" window="0" trigger="talk 21" npc="Armurier">Armurier[br]
 Ah les clients ces derniers temps ! J'vous jure...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 22">Gamin[br]
+<sn:pointer id="29" window="0" trigger="talk 22" npc="Gamin">Gamin[br]
 J'donne juste un coup de main.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 23">Liza[br]
+<sn:pointer id="30" window="0" trigger="talk 23" npc="Liza">Liza[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 24">Poissonnier Brad[br]
+<sn:pointer id="31" window="0" trigger="talk 24" npc="Poissonnier Brad">Poissonnier Brad[br]
 Maudits pirates, il faut faire quelque chose contre eux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 24">Poissonnier Brad[br]
+<sn:pointer id="32" window="0" trigger="talk 24" npc="Poissonnier Brad">Poissonnier Brad[br]
 Je reçois mon poisson de [color][0x4]Portmith[color][0x2], mais je m'inquiète, il y a de plus en plus de pirates ces derniers temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="1" trigger="talk 25">Raddle l'aventurier[br]
+<sn:pointer id="33" window="1" trigger="talk 25" npc="Raddle l'aventurier">Raddle l'aventurier[br]
 C'est par où, [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" choice="2" window="1" trigger="talk 25">1. Au Nord[br]
+<sn:pointer id="34" choice="2" window="1" trigger="talk 25" npc="Raddle l'aventurier">1. Au Nord[br]
 2. Au Sud[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 25">Raddle l'aventurier[br]
+<sn:pointer id="35" window="0" trigger="talk 25" npc="Raddle l'aventurier">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 25">Raddle l'aventurier[br]
+<sn:pointer id="36" window="0" trigger="talk 25" npc="Raddle l'aventurier">Raddle l'aventurier[br]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 25">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 25" npc="Raddle l'aventurier">[end]</sn:pointer>
 
 <sn:pointer id="38" window="0" trigger="talk 10">[nick:ペリシー][br]
 Hé, [nick:ミリー] a dit qu'elle aimait les parfaits.♪ Mais pour [nick:ロニキス][speed][0xa]...[speed][0x0] ? C'était quoi ? Des champignons ? Non c'est pas ça. Mais c'était quoi déjà ?[page]
@@ -259,19 +259,19 @@ Elle n'est pas de bon poil.[page]
 Il semblerait qu'elle soit de bonne humeur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61" window="1" trigger="talk 9">Armurier[br]
+<sn:pointer id="61" window="1" trigger="talk 9" npc="Armurier">Armurier[br]
 Cette épée ? C'est le travail du plus grand forgeron de tout l'Est.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62" window="0" trigger="talk 9">[nick:アシュレイ][br]
+<sn:pointer id="62" window="0" trigger="talk 9" npc="Armurier">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0]Cesse de te moquer du monde ! Le plus grand forgeron de tout l'Est ? Qui serait assez sot pour acheter cette lame émoussée ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="63" window="0" trigger="talk 9">[nick:アシュレイ][br]
+<sn:pointer id="63" window="0" trigger="talk 9" npc="Armurier">[nick:アシュレイ][br]
 [speed][0xa]...[speed][0x0] Si une telle personne existe, j'aimerais bien voir sa tête ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="64" window="0" trigger="talk 9">[nick:アシュレイ][br]
+<sn:pointer id="64" window="0" trigger="talk 9" npc="Armurier">[nick:アシュレイ][br]
 Oh[speed][0x14] ?[speed][0x0] Y'a un problème, [nick:ラティ] ?[page]
 [end]</sn:pointer>
 

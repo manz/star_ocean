@@ -45,25 +45,25 @@
 <sn:pointer id="12" window="0" trigger="talk 9 tile 2">[nick:アシュレイ]「そうか。それは残念だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="船員">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20">船員「[color][0x4]アストラル城下[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
+<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]アストラル城下[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
+<sn:pointer id="15" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 20">[nick:イリア]「ダメよ。今アストラル城下に行ったらどうなるか、わかっているでしょう？[page]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="船員">[nick:イリア]「ダメよ。今アストラル城下に行ったらどうなるか、わかっているでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 20">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
+<sn:pointer id="18" window="0" trigger="talk 20" npc="船員">[nick:フィア]「私は[color][0x4]アストラル[color][0x2]には行けないから、ここで待っている。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 20">[end][0xff]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 20" npc="船員">[end][0xff]</sn:pointer>
 
 </sn:script>

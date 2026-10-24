@@ -3,20 +3,20 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x3e][0x0]シルヴァラントの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 20">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="1" window="0" trigger="talk 20" npc="船乗り">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="1" trigger="talk 20">船乗り「話は聞いています。どこに行きますか？[page]
+<sn:pointer id="2" window="1" trigger="talk 20" npc="船乗り">船乗り「話は聞いています。どこに行きますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" choice="3" window="1" trigger="talk 20">1．ポートミス（ムーア王国）
+<sn:pointer id="3" choice="3" window="1" trigger="talk 20" npc="船乗り">1．ポートミス（ムーア王国）
 2．オタニム（アストラル王国）
 3．南束の無人島[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="4" window="0" trigger="talk 20" npc="船乗り">[end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 20">船乗り「なんだお前たちは。ここは使えないぞ。帰った帰った！[page]
+<sn:pointer id="5" window="0" trigger="talk 20" npc="船乗り">船乗り「なんだお前たちは。ここは使えないぞ。帰った帰った！[page]
 [end][0x83]</sn:pointer>
 
 </sn:script>

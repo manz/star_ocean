@@ -134,7 +134,7 @@
 <sn:pointer id="38" window="0" trigger="start">[nick:ラティ]「暇って事は、平和って事だから[speed][0xf]、か・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 16">母親「こんな夜更けにどうしたの？[nick:ミリー]ちゃん。[page]
+<sn:pointer id="39" window="0" trigger="talk 16" npc="母親">母親「こんな夜更けにどうしたの？[nick:ミリー]ちゃん。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40" window="0" trigger="talk 32 talk 33 talk 34 talk 35 talk 36 talk 37">鍵がかかっています。[page]

@@ -34,12 +34,12 @@ et on explique la situation.[page]
 Ryas, ça va ? Tiens bon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">Soldat[br]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="Soldat">Soldat[br]
 Je n'arrive pas à croire qu'une telle
 chose soit arrivée à Ryas[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">Soldat[br]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="Soldat">Soldat[br]
 Ces saloperies de monstres vont le payer cher ![page]
 [end]</sn:pointer>
 
@@ -184,30 +184,30 @@ J'imagine que tu as raison.[page]
 Ben ouais♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="40" window="0" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="1" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="41" window="1" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 Une nuit vous coûtera [color][0x5]30[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" choice="yes-no" window="1" trigger="talk 24">Vous prenez une chambre ?[page]
+<sn:pointer id="42" choice="yes-no" window="1" trigger="talk 24" npc="Aubergiste">Vous prenez une chambre ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="43" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="45" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 24">[nick:ラティ][br]
+<sn:pointer id="46" window="0" trigger="talk 24" npc="Aubergiste">[nick:ラティ][br]
 On va prendre la tête du monstre et
 retourner vite fait bien fait au château ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 24">[nick:ラティ][br]
+<sn:pointer id="47" window="0" trigger="talk 24" npc="Aubergiste">[nick:ラティ][br]
 Pourchassons-la ![page]
 [end]</sn:pointer>
 

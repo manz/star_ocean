@@ -6,16 +6,16 @@
 <sn:pointer id="1" window="speaker" trigger="start">[pos][0x3e][0x0]アストラル城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">衛兵「ここは、アストラル城だ。[page]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="門番">衛兵「ここは、アストラル城だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">門番「こんな夜中に何のようだ！！[page]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="門番">門番「こんな夜中に何のようだ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">衛兵「中に入ってもいいぞ。[page]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="門番">衛兵「中に入ってもいいぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">門番「こんな夜中に何のようだ！！[page]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="門番">門番「こんな夜中に何のようだ！！[page]
 [end]</sn:pointer>
 
 <sn:pointer id="6" window="0" trigger="start">[nick:ラティ]「魔物を討ち取った。王に面会させてくれ。[page]

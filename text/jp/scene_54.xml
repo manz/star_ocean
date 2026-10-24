@@ -24,136 +24,136 @@
 <sn:pointer id="7" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">宿屋の親父「よく眠れたかい？[page]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="宿屋の親父">宿屋の親父「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="1" trigger="talk 16">宿屋の親父「いらっしゃい。
+<sn:pointer id="9" window="1" trigger="talk 16" npc="宿屋の親父">宿屋の親父「いらっしゃい。
 お金が足りないのかい？いいよ、今日はただで泊めてあげるよ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="1" trigger="talk 16">宿屋の親父「いらっしゃい。
+<sn:pointer id="10" window="1" trigger="talk 16" npc="宿屋の親父">宿屋の親父「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" choice="yes-no" window="1" trigger="talk 16">泊まりますか？[page]
+<sn:pointer id="11" choice="yes-no" window="1" trigger="talk 16" npc="宿屋の親父">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 16" npc="宿屋の親父">[end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">お金が足りません。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="宿屋の親父">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="14" window="0" trigger="talk 16" npc="宿屋の親父">[end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">隻眼の傭兵「俺は[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだが、結局金と左目を引き換えさ。[page]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="隻眼の傭兵">隻眼の傭兵「俺は[color][0x4]シルヴァラント[color][0x2]から戻ってきたんだが、結局金と左目を引き換えさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 19">傭兵ウォルス「アストラル騎士団は大陸最強との噂が高い。俺程度じゃとてもかなわんな。[page]
+<sn:pointer id="16" window="0" trigger="talk 19" npc="傭兵ウォルス">傭兵ウォルス「アストラル騎士団は大陸最強との噂が高い。俺程度じゃとてもかなわんな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 20">老婆「錬金術なんて夢みたいなもの、本気でできると考えておるのかねぇ。[page]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="老婆">老婆「錬金術なんて夢みたいなもの、本気でできると考えておるのかねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 21">老人「才能が無いと嘆く前にまず努力じゃ。努力すればきっと報われる！！忘れるでないぞ。[page]
+<sn:pointer id="18" window="0" trigger="talk 21" npc="老人">老人「才能が無いと嘆く前にまず努力じゃ。努力すればきっと報われる！！忘れるでないぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 22">武具屋「いらっしゃい。[page]
+<sn:pointer id="19" window="0" trigger="talk 22" npc="武具屋">武具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 23">若い剣士「いい剣は腕のいい鍛冶師に頼むしかないのかなぁ。[page]
+<sn:pointer id="20" window="0" trigger="talk 23" npc="若い剣士">若い剣士「いい剣は腕のいい鍛冶師に頼むしかないのかなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="1" trigger="talk 24">女剣士「アストラル騎士団に紅一点、女性の騎士長がいるらしいの。騎士団長ライアス様の娘という話だけど、あーもう、ステキよねぇ。[page]
+<sn:pointer id="21" window="1" trigger="talk 24" npc="女剣士">女剣士「アストラル騎士団に紅一点、女性の騎士長がいるらしいの。騎士団長ライアス様の娘という話だけど、あーもう、ステキよねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 24">[nick:シウス]「[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="22" window="0" trigger="talk 24" npc="女剣士">[nick:シウス]「[speed][0xa]・・・[speed][0x0]。[page]
 [nick:ラティ]「[nick:シウス]、どうした？[page]
 [nick:シウス]「いや、別に[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 24" npc="女剣士">[end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 9 talk 24">女剣士「あ、あなたはもしかして、ライアス様とともに魔界大戦で戦ったという[speed][0xa]・・・！[speed][0x0][page]
+<sn:pointer id="24" window="0" trigger="talk 9 talk 24" npc="女剣士">女剣士「あ、あなたはもしかして、ライアス様とともに魔界大戦で戦ったという[speed][0xa]・・・！[speed][0x0][page]
 [nick:アシュレイ]「古い話じゃ。あまりもちださんでくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 25">食料品店「いらっしゃい[page]
+<sn:pointer id="25" window="0" trigger="talk 25" npc="食料品店">食料品店「いらっしゃい[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 26">道具屋「いらっしゃい。[page]
+<sn:pointer id="26" window="0" trigger="talk 26" npc="道具屋">道具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 27">冒険者「エダール剣術を習いたいんだが、入門できるだろうか[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="27" window="0" trigger="talk 27" npc="冒険者">冒険者「エダール剣術を習いたいんだが、入門できるだろうか[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 28">むさくるしい男「アストラル騎士団の長は相当な腕前らしいな。[page]
+<sn:pointer id="28" window="0" trigger="talk 28" npc="むさくるしい男">むさくるしい男「アストラル騎士団の長は相当な腕前らしいな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="1" trigger="talk 29">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="29" window="1" trigger="talk 29" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" choice="4" window="1" trigger="talk 29">1知識関連スキルＬＶ1　　300
+<sn:pointer id="30" choice="4" window="1" trigger="talk 29" npc="ギルドマスター">1知識関連スキルＬＶ1　　300
 2知識関連スキルＬＶ2　　600
 3技術関連スキルＬＶ2　1200
 4戦闘関連スキルＬＶ1　1000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 29">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 29" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 29">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="32" window="0" trigger="talk 29" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 29">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="33" window="0" trigger="talk 29" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 29">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="34" window="0" trigger="talk 29" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 30">アドバイザー「話を聞きますか？[page]
+<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 30" npc="アドバイザー">アドバイザー「話を聞きますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 30">アドバイザー「特技コマンドを覚えようにも必要なスキルが見当たらないってことありませんでしたか？[page]
+<sn:pointer id="36" window="0" trigger="talk 30" npc="アドバイザー">アドバイザー「特技コマンドを覚えようにも必要なスキルが見当たらないってことありませんでしたか？[page]
 「そんなときはどんどん先の町に進んで新しいスキルセットを買うことをおすすめします。[page]
 「あたりまえすぎてつまらなかった？ごめんなさいね。それじゃあ、私のおすすめスキルを一つ。“努力”なんていかが？[page]
 「スキル修得に必要なスキルポイントが減るのよ。広くスキルを覚えようと思ったときなんか便利ですよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 30">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 30" npc="アドバイザー">[end]</sn:pointer>
 
-<sn:pointer id="38" window="1" trigger="talk 31">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="38" window="1" trigger="talk 31" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" choice="4" window="1" trigger="talk 31">1．知識関連スキルＬＶ1
+<sn:pointer id="39" choice="4" window="1" trigger="talk 31" npc="説明員">1．知識関連スキルＬＶ1
 2．知識関連スキルＬＶ2
 3．技術関連スキルＬＶ2
 4．戦闘関連スキルＬＶ1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 31">説明員「知識関連スキルＬＶ1の内訳は、
+<sn:pointer id="40" window="0" trigger="talk 31" npc="説明員">説明員「知識関連スキルＬＶ1の内訳は、
 薬草学と
 鉱物学と
 レシピです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 31">説明員「知識関連スキルＬＶ2の内訳は、
+<sn:pointer id="41" window="0" trigger="talk 31" npc="説明員">説明員「知識関連スキルＬＶ2の内訳は、
 道具知識と
 オタマジャクシと
 生物学です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 31">説明員「技術関連スキルＬＶ2の内訳は、
+<sn:pointer id="42" window="0" trigger="talk 31" npc="説明員">説明員「技術関連スキルＬＶ2の内訳は、
 クラフトと
 文筆と
 調教です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 31">説明員「戦闘関連スキルＬＶ1の内訳は、
+<sn:pointer id="43" window="0" trigger="talk 31" npc="説明員">説明員「戦闘関連スキルＬＶ1の内訳は、
 衝撃波と
 真空波と
 めくりです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 31">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 31" npc="説明員">[end]</sn:pointer>
 
 <sn:pointer id="45" window="0" trigger="talk 11">[nick:フィア]「ん、[nick:ラティ]か[speed][0xa]・・・。[speed][0x0][page]
 [nick:ラティ]「元気ないな。どうしたんだ？[page]

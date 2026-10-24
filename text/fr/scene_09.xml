@@ -23,25 +23,25 @@ Elle court un grand danger en s'y aventurant toute seule.[page]
 C'est [nick:ミリー][speed][0xf].[speed][0x0] Rattrapons-la ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 16">Jeune homme[br]
+<sn:pointer id="6" window="0" trigger="talk 16" npc="Jeune homme">Jeune homme[br]
 Tu viens de [color][0x4]Clatos[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 17">Vieille femme[br]
+<sn:pointer id="7" window="0" trigger="talk 17" npc="Vieille femme">Vieille femme[br]
 Tous les hommes du village sont partis travailler loin d'ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="8" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Aujourd'hui, il faut que je cuisine de mon mieux. Pour demain, vous savez.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 19">Vieil homme[br]
+<sn:pointer id="9" window="0" trigger="talk 19" npc="Vieil homme">Vieil homme[br]
 C'est le [color][0x4]village de Laponia[color][0x2]. Au Nord, il y a le [color][0x4]mont Métox[color][0x2], mais c'est très dangereux.[page]
 Vieil homme[br]
 Mieux vaut rester ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">Vieil homme[br]
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Vieil homme">Vieil homme[br]
 Vous ne devriez pas me toucher, je
 suis déjà contaminé.[page]
 Vieil homme[br]

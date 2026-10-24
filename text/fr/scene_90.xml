@@ -38,7 +38,7 @@
 <sn:pointer id="9" window="8" trigger="tile 40">"Attention aux pièges mortels..."[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">Membre Tri-Ace[br]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="Membre Tri-Ace">Membre Tri-Ace[br]
 Vous avez réussi...[page]
 Membre Tri-Ace[br]
 Les statues qu'on peut déplacer pourraient être importantes...[page]
@@ -80,7 +80,7 @@ Les statues qu'on peut déplacer pourraient être importantes...[page]
 <sn:pointer id="22" window="0" trigger="talk 32">C'est vide...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 35">Kuma l'aventurier[br]
+<sn:pointer id="23" window="0" trigger="talk 35" npc="Kuma l'aventurier">Kuma l'aventurier[br]
 F[speed][0xa]-[speed][0x0]faites attention...[page]
 [end]</sn:pointer>
 

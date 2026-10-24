@@ -24,57 +24,57 @@
 <sn:pointer id="7" window="speaker" trigger="start">[center]Guilde des savoirs[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">Aubergiste[br]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Aubergiste">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="1" trigger="talk 16">Aubergiste[br]
+<sn:pointer id="9" window="1" trigger="talk 16" npc="Aubergiste">Aubergiste[br]
 Bienvenue. Vous n'avez pas assez d'argent sur vous ? Aucun problème, je vous offre la nuit pour cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="1" trigger="talk 16">Aubergiste[br]
+<sn:pointer id="10" window="1" trigger="talk 16" npc="Aubergiste">Aubergiste[br]
 Bienvenue. C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" choice="yes-no" window="1" trigger="talk 16">Souhaitez-vous rester ?[page]
+<sn:pointer id="11" choice="yes-no" window="1" trigger="talk 16" npc="Aubergiste">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 16" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="14" window="0" trigger="talk 16" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">Mercenaire borgne[br]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="Mercenaire borgne">Mercenaire borgne[br]
 Je suis rentré de [color][0x4]Sylvalant[color][0x2], mais au final, j'ai échangé mon œil gauche contre de l'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 19">Worus le mercenaire[br]
+<sn:pointer id="16" window="0" trigger="talk 19" npc="Worus le mercenaire">Worus le mercenaire[br]
 Tout le monde parle des chevaliers d'Astral, les plus puissants de tout le continent. Pour être honnête, un type comme moi ne ferait pas le poids.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 20">Vieille femme[br]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="Vieille femme">Vieille femme[br]
 L'alchimie et toutes ces fariboles ne sont que des chimères. Sincèrement, je trouve difficile à croire que tout ça soit vraiment possible.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 21">Vieil homme[br]
+<sn:pointer id="18" window="0" trigger="talk 21" npc="Vieil homme">Vieil homme[br]
 C'est capital de faire des efforts pour réussir dans la vie au lieu de se morfondre et de geindre, car vous n'avez pas de talent. Plus vous persévérerez dans vos efforts, plus vous serez récompensé ! Ne l'oubliez pas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 22">Vendeur[br]
+<sn:pointer id="19" window="0" trigger="talk 22" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 23">Jeune chevalier[br]
+<sn:pointer id="20" window="0" trigger="talk 23" npc="Jeune chevalier">Jeune chevalier[br]
 Si vous cherchez une bonne épée, vous devriez aller voir un bon forgeron.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="1" trigger="talk 24">Femme chevalier[br]
+<sn:pointer id="21" window="1" trigger="talk 24" npc="Femme chevalier">Femme chevalier[br]
 Il paraît qu'une femme est capitaine chez les chevaliers d'Astral. Elle serait la fille de Ryas, leur commandant. Je l'envie tellement ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 24">[nick:シウス][br]
+<sn:pointer id="22" window="0" trigger="talk 24" npc="Femme chevalier">[nick:シウス][br]
 [speed][0xa]...[speed][0x0][page]
 [nick:ラティ][br]
 Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
@@ -82,98 +82,98 @@ Qu'est-ce qui ne va pas, [nick:シウス] ?[page]
 Rien, je t'assure[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 24" npc="Femme chevalier">[end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 9 talk 24">Femme chevalier[br]
+<sn:pointer id="24" window="0" trigger="talk 9 talk 24" npc="Femme chevalier">Femme chevalier[br]
 Hey ! C'est vous qui avez combattu aux côtés de Ryas lors de la guerre contre le monde démoniaque[speed][0xa]... ![speed][0x0][page]
 [nick:アシュレイ][br]
 C'est de l'histoire ancienne. N'en parlons plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 25">Vendeur[br]
+<sn:pointer id="25" window="0" trigger="talk 25" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 26">Vendeur[br]
+<sn:pointer id="26" window="0" trigger="talk 26" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 27">Aventurier[br]
+<sn:pointer id="27" window="0" trigger="talk 27" npc="Aventurier">Aventurier[br]
 Je voudrais aller apprendre le style de combat d'Edarl, mais je ne sais pas s'ils m'accepteront[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 28">Clochard[br]
+<sn:pointer id="28" window="0" trigger="talk 28" npc="Clochard">Clochard[br]
 Il paraît que le commandant des chevaliers d'Astral est plus que compétent pour remplir sa fonction.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="1" trigger="talk 29">Maître de la guilde[br]
+<sn:pointer id="29" window="1" trigger="talk 29" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" choice="4" window="1" trigger="talk 29">1. Culture niveau 1 300[br]
+<sn:pointer id="30" choice="4" window="1" trigger="talk 29" npc="Maître de la guilde">1. Culture niveau 1 300[br]
 2. Culture niveau 2 600[br]
 3. Technique niveau 2 1200[br]
 4. Combat niveau 1 1000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 29">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 29" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 29">Maître de la guilde[br]
+<sn:pointer id="32" window="0" trigger="talk 29" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 29">Maître de la guilde[br]
+<sn:pointer id="33" window="0" trigger="talk 29" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 29">Maître de la guilde[br]
+<sn:pointer id="34" window="0" trigger="talk 29" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 30">Conseiller[br]
+<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 30" npc="Conseiller">Conseiller[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 30">Conseiller[br]
+<sn:pointer id="36" window="0" trigger="talk 30" npc="Conseiller">Conseiller[br]
 Vous est-il déjà arrivé de ne pas trouver le savoir nécessaire à une commande de spécialité ?[page]
 Je vous conseille de continuer d'aller de ville en ville et de vous offrir toutes les compétences que vous n'avez pas.[page]
 Vous trouvez ça trop évident et paternaliste ? Pourquoi ne pas parler d'Obstination, un de mes savoirs préférés ?[page]
 Avec Obstination, les points nécessaires à l'apprentissage d'autres savoirs vont diminuer. C'est vraiment pratique lorsque vous êtes avide de savoir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 30">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 30" npc="Conseiller">[end]</sn:pointer>
 
-<sn:pointer id="38" window="1" trigger="talk 31">Mentor[br]
+<sn:pointer id="38" window="1" trigger="talk 31" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" choice="4" window="1" trigger="talk 31">1. Culture niveau 1[br]
+<sn:pointer id="39" choice="4" window="1" trigger="talk 31" npc="Mentor">1. Culture niveau 1[br]
 2. Culture niveau 2[br]
 3. Technique niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 31">Mentor[br]
+<sn:pointer id="40" window="0" trigger="talk 31" npc="Mentor">Mentor[br]
 Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 31">Mentor[br]
+<sn:pointer id="41" window="0" trigger="talk 31" npc="Mentor">Mentor[br]
 Culture niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 31">Mentor[br]
+<sn:pointer id="42" window="0" trigger="talk 31" npc="Mentor">Mentor[br]
 Technique niveau 2 comprend :
 Doigté, écriture et domptage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 31">Mentor[br]
+<sn:pointer id="43" window="0" trigger="talk 31" npc="Mentor">Mentor[br]
 Combat niveau 1 comprend :
 Onde de choc, impact aérien et volte face.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 31">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 31" npc="Mentor">[end]</sn:pointer>
 
 <sn:pointer id="45" window="0" trigger="talk 11">[nick:フィア][br]
 Dis, [nick:ラティ][speed][0xa]...[speed][0x0][page]

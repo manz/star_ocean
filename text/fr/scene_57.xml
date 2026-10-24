@@ -30,125 +30,125 @@
 <sn:pointer id="9" window="speaker" trigger="start">[center]Épicerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="1" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="10" window="1" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" choice="4" window="1" trigger="talk 16">1. Sens niveau 1  100[br]
+<sn:pointer id="11" choice="4" window="1" trigger="talk 16" npc="Maître de la guilde">1. Sens niveau 1  100[br]
 2. Sens niveau 2  200[br]
 3. Sens niveau 3  300[br]
 4. Technique niveau 2 1200[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="12" window="0" trigger="talk 16" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="14" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="15" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">Conseiller[br]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="Conseiller">Conseiller[br]
 Vous pourrez combiner des mouvements fatals comme bon vous semblera pour créer de puissants enchaînements en apprenant le savoir Combo.[page]
 Conseiller[br]
 Par contre, ça coûte les PM de chaque technique enchaînée, mais ça vaut la peine si on ne laisse pas la moindre chance à l'ennemi de contre-attaquer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="1" trigger="talk 18">Mentor[br]
+<sn:pointer id="17" window="1" trigger="talk 18" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" choice="4" window="1" trigger="talk 18">1. Sens niveau 1[br]
+<sn:pointer id="18" choice="4" window="1" trigger="talk 18" npc="Mentor">1. Sens niveau 1[br]
 2. Sens niveau 2[br]
 3. Sens niveau 3[br]
 4. Technique niveau 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="19" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Sens niveau 1 comprend :
 Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="20" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Sens niveau 2 comprend :
 Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="21" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Sens niveau 3 comprend :
 Efficacité, ondes radio et obstination.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="22" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Technique niveau 2 comprend :
 Doigté, écriture et domptage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 18" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 19">Fille[br]
+<sn:pointer id="24" window="0" trigger="talk 19" npc="Fille">Fille[br]
 Ce bijou est tellement beau...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 20">Femme[br]
+<sn:pointer id="25" window="0" trigger="talk 20" npc="Femme">Femme[br]
 [color][0x4]Ionis[color][0x2] se trouve au sud d'ici. Le château de Van est juste après.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 21">Homme[br]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="Homme">Homme[br]
 *Baille* Bon sang ce que j'ai sommeil[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">Aventurier[br]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="Aventurier">Aventurier[br]
 Il paraît que le roi de Van recrute des soldats pour fonder un corps d'élite anti-démons[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 23">Aubergiste[br]
+<sn:pointer id="28" window="0" trigger="talk 23" npc="Aubergiste">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" choice="yes-no" window="1" trigger="talk 23">Aubergiste[br]
+<sn:pointer id="29" choice="yes-no" window="1" trigger="talk 23" npc="Aubergiste">Aubergiste[br]
 Bienvenue.
 C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 23">[end]</sn:pointer>
+<sn:pointer id="30" window="0" trigger="talk 23" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 23">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="31" window="0" trigger="talk 23" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 23">[end]</sn:pointer>
+<sn:pointer id="32" window="0" trigger="talk 23" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 24">Expert en pêche[br]
+<sn:pointer id="33" window="0" trigger="talk 24" npc="Expert en pêche">Expert en pêche[br]
 S'tu veux bouffer du bon poisson, va à c'te boutique. C'est là qu'on trouve les meilleurs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 25">Homme de bon goût[br]
+<sn:pointer id="34" window="0" trigger="talk 25" npc="Homme de bon goût">Homme de bon goût[br]
 Mmmmm ! Ce thon est délicieux. Et le poulpe est si noir et frais ! Hin ? Oui, la truite fario est bien sauvage. Quoi ? Les truites ne vivent pas dans l'océan, voyons.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 26">Selena[br]
+<sn:pointer id="35" window="0" trigger="talk 26" npc="Selena">Selena[br]
 Et pourquoi pas un bijou ? Une belle pierre vous fera briller de l'intérieur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 27">Père d'Osato[br]
+<sn:pointer id="36" window="0" trigger="talk 27" npc="Père d'Osato">Père d'Osato[br]
 Bienvenue ! Lorsque j'étais jeune, la trompette d'argent, c'était celle du premier pupitre : on en rêvait tous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 28">Commerçant[br]
+<sn:pointer id="37" window="0" trigger="talk 28" npc="Commerçant">Commerçant[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 29">Kurosan[br]
+<sn:pointer id="38" window="0" trigger="talk 29" npc="Kurosan">Kurosan[br]
 De l'alcool supérieur aux meilleures eaux, j'ai tout ce qu'il vous faut ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 30">Belnar l'écolier[br]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="Belnar l'écolier">Belnar l'écolier[br]
 Saviez-vous que vous pouviez faire de nombreux médicaments en mélangeant deux herbes ?[page]
 Belnar l'écolier[br]
 Par exemple, avec deux sauges, vous pouvez faire un remède qui restaure des PV.[page]
@@ -156,13 +156,13 @@ Belnar l'écolier[br]
 Vous tirerez grand bénéfice à essayer de multiples combinaisons pour créer des remèdes.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 31">Homme[br]
+<sn:pointer id="40" window="0" trigger="talk 31" npc="Homme">Homme[br]
 Héhé, ce pigeon est tellement adorable, tu ne trouves pas ? Je l'ai pris sous mon aile, et à présent il m'assiste.[page]
 Homme[br]
 Vous devez vraiment aimer les animaux pour faire ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 32">Kuralin[br]
+<sn:pointer id="41" window="0" trigger="talk 32" npc="Kuralin">Kuralin[br]
 Mon amoureux sait faire de l'alchimie ♪
 Je me suis lassée des bijoux à présent.[page]
 [end]</sn:pointer>

@@ -161,22 +161,22 @@
 <sn:pointer id="50" window="0" trigger="tile 126">[nick:イリア]「休むのはほどほどにしましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51" window="0" trigger="talk 16">若者「いやあ、びっくりしましたよ！いきなりものすごい音がしたと思ったら、あたり一面このありさまだったんですから。[page]
+<sn:pointer id="51" window="0" trigger="talk 16" npc="若者">若者「いやあ、びっくりしましたよ！いきなりものすごい音がしたと思ったら、あたり一面このありさまだったんですから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52" window="0" trigger="talk 17">娘「一体これはなんなのかしら？[page]
+<sn:pointer id="52" window="0" trigger="talk 17" npc="娘">娘「一体これはなんなのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53" window="0" trigger="talk 18">父親ダラン「いても立ってもいられなくて[color][0x4]トロップ[color][0x2]から来てしまいました。てっきり流れ星が落ちてきたと思っていたんですけど、これはなんなのでしょう？[page]
+<sn:pointer id="53" window="0" trigger="talk 18" npc="父親ダラン">父親ダラン「いても立ってもいられなくて[color][0x4]トロップ[color][0x2]から来てしまいました。てっきり流れ星が落ちてきたと思っていたんですけど、これはなんなのでしょう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54" window="0" trigger="talk 19">息子ロト「これが本当に空からおっこちてきたのかなあ？[page]
+<sn:pointer id="54" window="0" trigger="talk 19" npc="息子ロト">息子ロト「これが本当に空からおっこちてきたのかなあ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55" window="0" trigger="talk 20">老人「いやな予感がするわい。これも魔物の仕業なのかのう[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="55" window="0" trigger="talk 20" npc="老人">老人「いやな予感がするわい。これも魔物の仕業なのかのう[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56" window="0" trigger="talk 21">老婆「世の中には不思議なことがあるもんじゃのう[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="56" window="0" trigger="talk 21" npc="老婆">老婆「世の中には不思議なことがあるもんじゃのう[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="57" window="0" trigger="start">[nick:ミリー]「[nick:ロニキス]さん！[page]

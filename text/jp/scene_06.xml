@@ -52,35 +52,35 @@
 （これは[nick:ドーン]の妹の形見のオルゴールだ・・・。）[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">母親「目が覚めた？[page]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="母親">母親「目が覚めた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">母親「気をつけてね、[nick:ラティ]。[page]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="母親">母親「気をつけてね、[nick:ラティ]。[page]
 [nick:ラティ]「大丈夫だって。
 ・・・父さんのぶんも頑張るから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 17">[nick:ラティ]「母さん、フレーゼおばさんが野菜入ったってさ。[page]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="母親">[nick:ラティ]「母さん、フレーゼおばさんが野菜入ったってさ。[page]
 母親「あら、そう？
 それじゃあさっそくいかなきゃ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 17">母親「さぁて、でかけましょう。[page]
+<sn:pointer id="19" window="0" trigger="talk 17" npc="母親">母親「さぁて、でかけましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 17">母親「どれにしようかしら？[page]
+<sn:pointer id="20" window="0" trigger="talk 17" npc="母親">母親「どれにしようかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 18">武器屋のおやじ「お主らは町の治安を守る者なんじゃから、いかなるときでも武器を装備しておかねばならんぞ。[page]
+<sn:pointer id="21" window="0" trigger="talk 18" npc="武器屋のおやじ">武器屋のおやじ「お主らは町の治安を守る者なんじゃから、いかなるときでも武器を装備しておかねばならんぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 18">[nick:ドーン]「んなのわかってるって。[page]
+<sn:pointer id="22" window="0" trigger="talk 18" npc="武器屋のおやじ">[nick:ドーン]「んなのわかってるって。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 19">自警団員「今日は[nick:ドーン]たちの見回りの番だぜ。[page]
+<sn:pointer id="23" window="0" trigger="talk 19" npc="自警団員">自警団員「今日は[nick:ドーン]たちの見回りの番だぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 20">自警団員「お、[nick:ミリー]ちゃん。いつもかわいいね。[page]
+<sn:pointer id="24" window="0" trigger="talk 20" npc="自警団員">自警団員「お、[nick:ミリー]ちゃん。いつもかわいいね。[page]
 [nick:ミリー]「やーだ。でもやっぱそう？[page]
 [nick:ドーン]「おい、おだてんなよ。[page]
 [nick:ミリー]「なによっ。[page]
@@ -94,37 +94,37 @@
 法術の修行もせずに毎日あそんでばかり・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">食料店のおばさんフレーゼ「[nick:ラティ]、新鮮な野菜が入ったから、お母さんに伝えておいてね。[page]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="フレーゼ">食料店のおばさんフレーゼ「[nick:ラティ]、新鮮な野菜が入ったから、お母さんに伝えておいてね。[page]
 [nick:ラティ]「ええ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 22">[nick:ドーン]「ブラックベリーは入った？[page]
+<sn:pointer id="28" window="0" trigger="talk 22" npc="フレーゼ">[nick:ドーン]「ブラックベリーは入った？[page]
 フレーゼ「まだしばらくかかりそうねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 22">フレーゼ「いらっしゃい。
+<sn:pointer id="29" window="0" trigger="talk 22" npc="フレーゼ">フレーゼ「いらっしゃい。
 ゆっくり選んでいってくださいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 23">道具屋のおやじ「いつもご苦労さん。[page]
+<sn:pointer id="30" window="0" trigger="talk 23" npc="道具屋のおやじ">道具屋のおやじ「いつもご苦労さん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="1" trigger="talk 24">道具屋の娘「私、料理も覚えたいけど細工も好きなの。楽器も弾いてみたいけど、才能ないからなぁ。[page]
+<sn:pointer id="31" window="1" trigger="talk 24" npc="ソフィア">道具屋の娘「私、料理も覚えたいけど細工も好きなの。楽器も弾いてみたいけど、才能ないからなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" choice="2" window="1" trigger="talk 24">1．はげます
+<sn:pointer id="32" choice="2" window="1" trigger="talk 24" npc="ソフィア">1．はげます
 2．ほっとく[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 24">[nick:ミリー]「諦めるなんてソフィアらしくないわよ。がんばればきっと、ね？隠れた才能があるかもよ？[page]
+<sn:pointer id="33" window="0" trigger="talk 24" npc="ソフィア">[nick:ミリー]「諦めるなんてソフィアらしくないわよ。がんばればきっと、ね？隠れた才能があるかもよ？[page]
 ソフィア「そうよね・・・ありがとう、[nick:ミリー]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 24">[nick:ラティ]「諦めるなんてソフィアらしくないぞ。がんばればきっと隠れた才能があるかもよ？[page]
+<sn:pointer id="34" window="0" trigger="talk 24" npc="ソフィア">[nick:ラティ]「諦めるなんてソフィアらしくないぞ。がんばればきっと隠れた才能があるかもよ？[page]
 ソフィア「そうよね・・・ありがとう、[nick:ラティ]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 24" npc="ソフィア">[end]</sn:pointer>
 
 <sn:pointer id="36" window="0" trigger="start">[nick:ドーン]「暇だなぁ。[page]
 [end]</sn:pointer>

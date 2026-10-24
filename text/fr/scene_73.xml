@@ -3,20 +3,20 @@
 <sn:pointer id="0" window="speaker" trigger="start">[center]Dulce[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">Lemia[br]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="Lemia">Lemia[br]
 Hop ! Hop ! Je vais en faire plein ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 17">Petit jeune[br]
+<sn:pointer id="2" window="0" trigger="talk 17" npc="Petit jeune">Petit jeune[br]
 Jusqu'à maintenant, tout va bien, mais si on entre
 en guerre notre village disparaîtra sans laisser de traces ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 18">Garçon[br]
+<sn:pointer id="3" window="0" trigger="talk 18" npc="Garçon">Garçon[br]
 Où a bien pu passer Lin ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 19">Vieil homme[br]
+<sn:pointer id="4" window="0" trigger="talk 19" npc="Vieil homme">Vieil homme[br]
 Plus personne n'habite ici...[page]
 [end]</sn:pointer>
 

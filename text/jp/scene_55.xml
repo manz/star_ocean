@@ -3,16 +3,16 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x48][0x0]ムーア城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">衛兵「入ってよし。[page]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="衛兵">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="衛兵">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 17">衛兵「入ってよし。[page]
+<sn:pointer id="3" window="0" trigger="talk 17" npc="衛兵">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="衛兵">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5" window="0" trigger="start">大臣ボルク「ヴァン国王から[color][0x6]真実の瞳[color][0x2]の探索をまかされた、そなたらの腕をみこんで頼みたいことがあるのだが、聞いてはもらえぬだろうか？[page]

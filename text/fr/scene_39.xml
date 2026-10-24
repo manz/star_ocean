@@ -404,96 +404,96 @@ C'est impossible ![page]
 Je prie sincèrement pour que vous atteigniez votre but.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="81" window="0" trigger="talk 16" npc="Garde">Garde[br]
 ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="82" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Veuillez terminer rapidement votre audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="83" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Veuillez terminer rapidement votre audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="84" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Vous n'avez rien à faire ici ! Circulez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 17">Prisonnier[br]
+<sn:pointer id="85" window="0" trigger="talk 17" npc="Prisonnier">Prisonnier[br]
 Laissez-moi sortir ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 18">Roi d'Astral[br]
+<sn:pointer id="86" window="0" trigger="talk 18" npc="Roi d'Astral">Roi d'Astral[br]
 Je prie pour votre victoire contre Asmodeus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 19">Chancelier[br]
+<sn:pointer id="87" window="0" trigger="talk 19" npc="Chancelier">Chancelier[br]
 Nous nous réjouissons de votre futur succès.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="0" trigger="talk 20">Reine[br]
+<sn:pointer id="88" window="0" trigger="talk 20" npc="Reine">Reine[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89" window="0" trigger="talk 21">Garde[br]
+<sn:pointer id="89" window="0" trigger="talk 21" npc="Garde">Garde[br]
 Vous ne pouvez aller plus loin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90" window="0" trigger="talk 22">Garde[br]
+<sn:pointer id="90" window="0" trigger="talk 22" npc="Garde">Garde[br]
 Le roi est dans la salle juste après.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91" window="0" trigger="talk 23">Sorcier[br]
+<sn:pointer id="91" window="0" trigger="talk 23" npc="Sorcier">Sorcier[br]
 On dit que des symboles sont cachés de par le monde. On doit pouvoir y apprendre des sorts inconnus, mais[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="92" window="0" trigger="talk 24">Sage[br]
+<sn:pointer id="92" window="0" trigger="talk 24" npc="Sage">Sage[br]
 Un grand nombre de savoirs doivent être acquis pour préparer des remèdes. L'herboristerie en fait partie[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="93" window="0" trigger="talk 25">Mary[br]
+<sn:pointer id="93" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Je n'arrive pas à croire que [nick:フィア] ait pu tuer Ryas ! Il l'a élevée comme sa propre fille ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="94" window="0" trigger="talk 25">Mary[br]
+<sn:pointer id="94" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Ça me fait froid dans le dos à chaque fois que je pense qu'un monstre a pris l'apparence de [nick:フィア] pour s'en prendre à Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95" window="0" trigger="talk 25">Mary[br]
+<sn:pointer id="95" window="0" trigger="talk 25" npc="Mary">Mary[br]
 Je suis la femme de chambre du roi. Ne salissez rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96" window="0" trigger="talk 26">Garde[br]
+<sn:pointer id="96" window="0" trigger="talk 26" npc="Garde">Garde[br]
 Le roi non plus ne veut sûrement pas y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="97" window="0" trigger="talk 26">Garde[br]
+<sn:pointer id="97" window="0" trigger="talk 26" npc="Garde">Garde[br]
 C'est la première fois qu'un monstre s'introduit dans Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="98" window="0" trigger="talk 26">Garde[br]
+<sn:pointer id="98" window="0" trigger="talk 26" npc="Garde">Garde[br]
 Essayez de faire bonne figure devant le roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99" window="0" trigger="talk 27">Garde[br]
+<sn:pointer id="99" window="0" trigger="talk 27" npc="Garde">Garde[br]
 [nick:フィア] est prisonnière au cachot ? C'est impossible ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="100" window="0" trigger="talk 27">Garde[br]
+<sn:pointer id="100" window="0" trigger="talk 27" npc="Garde">Garde[br]
 C'est juste une rumeur, mais on raconte que la raison pour laquelle le monstre a attaqué Ryas c'est qu'il était à la recherche d'un objet que le roi lui aurait donné.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101" window="0" trigger="talk 27">Garde[br]
+<sn:pointer id="101" window="0" trigger="talk 27" npc="Garde">Garde[br]
 [nick:フィア], vous partez ? Quelle tristesse...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102" window="0" trigger="talk 27">Garde[br]
+<sn:pointer id="102" window="0" trigger="talk 27" npc="Garde">Garde[br]
 Je faisais ma ronde et j'ai aperçu [nick:フィア][speed][0xa]...[speed][0x0]
 Je suis aux anges ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="103" window="0" trigger="talk 28">Osato le musicien[br]
+<sn:pointer id="103" window="0" trigger="talk 28" npc="Osato le musicien">Osato le musicien[br]
 Voulez-vous entendre une de mes compositions ?[page]
 [end]</sn:pointer>
 

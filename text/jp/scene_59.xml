@@ -34,25 +34,25 @@
 [nick:イリア]「まぁ、たしかにそうですけど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">衛兵「ようこそヴァン城下へ！[speed][0xa]・・・[speed][0x0]本当の名前はヴァン・イ・イルというんだけど、言いにくいからみんなそう呼ばないんです。[page]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="衛兵">衛兵「ようこそヴァン城下へ！[speed][0xa]・・・[speed][0x0]本当の名前はヴァン・イ・イルというんだけど、言いにくいからみんなそう呼ばないんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">若者「ヴァン・イ・イル城[speed][0xa]・・・[speed][0x0]略してヴァン城[speed][0xa]・・・[speed][0x0]なんか楽器みたいな名だな。[page]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="若者">若者「ヴァン・イ・イル城[speed][0xa]・・・[speed][0x0]略してヴァン城[speed][0xa]・・・[speed][0x0]なんか楽器みたいな名だな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">トんでる娘リーザ「枯れ葉舞う季節[speed][0xa]・・・[speed][0x0]降り積もる落ち葉のように私の想いは募る[speed][0xa]・・・[speed][0x0]ああ、詩人だわ。[page]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="トんでる娘リーザ">トんでる娘リーザ「枯れ葉舞う季節[speed][0xa]・・・[speed][0x0]降り積もる落ち葉のように私の想いは募る[speed][0xa]・・・[speed][0x0]ああ、詩人だわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 19">目つきの悪い若者「ん？なに見てんだよ！[page]
+<sn:pointer id="12" window="0" trigger="talk 19" npc="目つきの悪い若者">目つきの悪い若者「ん？なに見てんだよ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">衛兵「ヴァン国王はずいぶん前から魔界討伐の方法について悩んでおられるようでした。[page]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="衛兵">衛兵「ヴァン国王はずいぶん前から魔界討伐の方法について悩んでおられるようでした。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 21">たたずむ少女「水面に映らないだけで××より下だなんて[speed][0xa]・・・[speed][0x0]ひどいわボブったら。[page]
+<sn:pointer id="14" window="0" trigger="talk 21" npc="たたずむ少女">たたずむ少女「水面に映らないだけで××より下だなんて[speed][0xa]・・・[speed][0x0]ひどいわボブったら。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 22">エアリナ「おいしく料理するにはおいしい素材が必要よ？[page]
+<sn:pointer id="15" window="0" trigger="talk 22" npc="エアリナ">エアリナ「おいしく料理するにはおいしい素材が必要よ？[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16" window="1" trigger="talk 9">[nick:アシュレイ]「ぶしつけじゃが、[nick:ラティ]よ。おまえは剣の道を何と心得る？[page]
@@ -116,7 +116,7 @@
 <sn:pointer id="34" window="0" trigger="talk 5">[nick:シウス]「[speed][0xa]・・・[speed][0x0]退屈だぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 23">行商人「わいは行商人や、なんか買っていかへんかいな。[page]
+<sn:pointer id="35" window="0" trigger="talk 23" npc="行商人">行商人「わいは行商人や、なんか買っていかへんかいな。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="36" window="0" trigger="talk 7">[nick:ラティ]「寝てる[speed][0xa]・・・。[speed][0x0][page]

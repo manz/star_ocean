@@ -151,10 +151,10 @@
 <sn:pointer id="50" window="0" trigger="start">[nick:イリア]「[speed][0xa]・・・[speed][0x0]それじゃあ、定期船も復航したことだし、アストラル王国に行きましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51" window="0" trigger="talk 16">兵士「通ってよし！[page]
+<sn:pointer id="51" window="0" trigger="talk 16" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52" window="0" trigger="talk 17">兵士「不審な者が町に入らぬよう、見張りをしています。[page]
+<sn:pointer id="52" window="0" trigger="talk 17" npc="兵士">兵士「不審な者が町に入らぬよう、見張りをしています。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="53" window="0" trigger="talk 18">立て札の裏だ。

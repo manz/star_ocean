@@ -6,19 +6,19 @@
 <sn:pointer id="1" window="speaker" trigger="start">[center]Portes du château Astral[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="Gardien de la porte">Garde[br]
 Voici le château Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">Gardien de la porte[br]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="Gardien de la porte">Gardien de la porte[br]
 Que voulez-vous à cette heure de la nuit ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">Garde[br]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="Gardien de la porte">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">Gardien de la porte[br]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="Gardien de la porte">Gardien de la porte[br]
 Que voulez-vous à cette heure de la nuit ?![page]
 [end]</sn:pointer>
 

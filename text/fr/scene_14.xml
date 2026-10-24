@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0" window="0" trigger="talk 16">Docteur[br]
+<sn:pointer id="0" window="0" trigger="talk 16" npc="Docteur">Docteur[br]
 Jusqu'à maintenant, aucune forme de vie inconnue n'avait pu s'introduire dans le vaisseau...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">Docteur[br]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="Docteur">Docteur[br]
 Il semblerait que ça prenne un petit peu plus de temps.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">Docteur[br]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="Docteur">Docteur[br]
 Je crois que le capitaine vous attend sur le pont. Vous n'avez qu'à prendre l'ascenseur de gauche.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">Docteur[br]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="Docteur">Docteur[br]
 Quelque chose ne va pas ?[page]
 [nick:ラティ][br]
 Non, ce n'est rien.[page]

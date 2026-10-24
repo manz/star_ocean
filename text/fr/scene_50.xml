@@ -39,59 +39,59 @@ Roi[br]
 Je vois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">Roi de Sylvalant[br]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="Roi de Sylvalant">Roi de Sylvalant[br]
 L'heure est venue d'affronter Asmodeus. Je prierai pour votre victoire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">Chancelier[br]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="Chancelier">Chancelier[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">Reine[br]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Reine">Reine[br]
 Je prie du fond de mon cœur que vous ne vous épuisiez pas trop[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">Étudiant[br]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="Étudiant">Étudiant[br]
 En continuant loin au nord de [color][0x4]Sylvalant[color][0x2], vous trouverez des ruines des anciens. Mais c'est bien trop dangereux pour moi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 23">Vieux sage[br]
+<sn:pointer id="10" window="0" trigger="talk 23" npc="Vieux sage">Vieux sage[br]
 Jerand, l'ancien mage de la cour, a été tué dans les troubles de la guerre contre le monde démoniaque. Nous avons perdu ce jour-là un grand héros[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 24">Zel le chevalier[br]
+<sn:pointer id="11" window="0" trigger="talk 24" npc="Zel le chevalier">Zel le chevalier[br]
 Les monstres se sont tenus tranquilles ces derniers temps. Est-ce le calme avant la tempête ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 25">Kurt le chevalier[br]
+<sn:pointer id="12" window="0" trigger="talk 25" npc="Kurt le chevalier">Kurt le chevalier[br]
 Pensez-vous que les troupes du monde démoniaque ne nous ont pas attaqués dernièrement, car ils n'ont plus de vivres ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 26">Jeune soldat[br]
+<sn:pointer id="13" window="0" trigger="talk 26" npc="Jeune soldat">Jeune soldat[br]
 Ce soir, je rentre enfin chez moi, après une longue absence ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 27">Pilon le sage[br]
+<sn:pointer id="14" window="0" trigger="talk 27" npc="Pilon le sage">Pilon le sage[br]
 Selon la légende, à l'origine, seuls des êtres magiques appelés les Runes vivaient ici[speed][0xa]...[speed][0x0] Si c'est le cas, alors d'où viennent nos ancêtres ? Et il semblerait que les anciens n'avaient pas de queue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 28">Tork le garde[br]
+<sn:pointer id="15" window="0" trigger="talk 28" npc="Tork le garde">Tork le garde[br]
 "C'est voulu"[speed][0xa]...[speed][0x0] Quelle belle formule ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 29">Yarma le garde[br]
+<sn:pointer id="16" window="0" trigger="talk 29" npc="Yarma le garde">Yarma le garde[br]
 Un an, c'est bien trop court. Bon sang, j'aurais voulu en avoir deux[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 22">Mage[br]
+<sn:pointer id="17" window="0" trigger="talk 22" npc="Mage">Mage[br]
 Je travaille pour devenir un plus grand mage que Jerand.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 30">Homme[br]
+<sn:pointer id="18" window="0" trigger="talk 30" npc="Homme">Homme[br]
 Il paraît que vous pouvez créer de nombreux accessoires avec des gemmes. Avez-vous essayé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 31">Jon le peintre[br]
+<sn:pointer id="19" window="0" trigger="talk 31" npc="Jon le peintre">Jon le peintre[br]
 Il existe un art secret très utile[speed][0x1e]...[speed][0x0] Mais c'est un secret !
 Mais cependant, il faut être persévérant.[page]
 [end]</sn:pointer>
@@ -163,11 +163,11 @@ Dans ce cas, j'en suis honoré.[page]
 <sn:pointer id="28" window="0" trigger="talk 9">Vous avez appris l'arcane du dragon empereur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 36">Étudiant[br]
+<sn:pointer id="29" window="0" trigger="talk 36" npc="Étudiant">Étudiant[br]
 Selon les sources que j'ai pu consulter, il semblerait qu'il existe des réalités alternatives où vivent les créateurs de notre monde. Il semblerait que ce soit en rapport avec l'antichambre de l'oracle[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 35">Kanoi l'étudiant[br]
+<sn:pointer id="30" window="0" trigger="talk 35" npc="Kanoi l'étudiant">Kanoi l'étudiant[br]
 Il semblerait qu'il y ait une entrée de ruines dans une des fissures des falaises à l'est de Sylvalant.[page]
 [end]</sn:pointer>
 

@@ -197,7 +197,7 @@ Parce que calme[speed][0xf] ça veut dire en
 paix ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 16">Mère[br]
+<sn:pointer id="39" window="0" trigger="talk 16" npc="Mère">Mère[br]
 Pourquoi veilles-tu si tard, [nick:ミリー] ?[page]
 [end]</sn:pointer>
 

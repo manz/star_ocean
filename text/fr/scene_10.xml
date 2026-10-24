@@ -37,25 +37,25 @@ maison ?[page]
 [speed][0x1][nick:ミリー] !!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">Maltos[br]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Maltos">Maltos[br]
 Ne t'avais-je pas demandé de ne pas venir ici ?[page]
 [nick:ミリー][br]
 Mais...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 18">Vieillard[br]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="Vieillard">Vieillard[br]
 Il y a de moins en moins de jeunes. Que va-t-il advenir de ce village ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 19">Gamine[br]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="Gamine">Gamine[br]
 Je me demande ce que papa me ramènera cette fois.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">Gamine[br]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="Gamine">Gamine[br]
 Que je suis impatiente qu'il rentre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 21">Femme[br]
+<sn:pointer id="12" window="0" trigger="talk 21" npc="Femme">Femme[br]
 Demain, mon mari rentre de son travail au loin. Ça fait six mois.[page]
 [end]</sn:pointer>
 

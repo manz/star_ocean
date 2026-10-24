@@ -439,31 +439,31 @@ Je n'ai pas envie d'avoir de pensées négatives[speed][0xa].[speed][0x0][page]
 Moi non plus[speed][0xa]...[speed][0x0] Elle m'intrigue, c'est tout.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82" window="0" trigger="talk 17">Fille[br]
+<sn:pointer id="82" window="0" trigger="talk 17" npc="Fille">Fille[br]
 C'est l'automne[speed][0xa]...[speed][0x0] On devient plus sentimental ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" window="0" trigger="talk 18">Aventurier Meia[br]
+<sn:pointer id="83" window="0" trigger="talk 18" npc="Aventurier Meia">Aventurier Meia[br]
 Je vais me rendre sous peu à [color][0x4]Tatroï[color][0x2]. Mon but ? L'arène ! Quelle question... Je vais leur montrer ce que j'ai dans les tripes ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 19">Lyan[br]
+<sn:pointer id="84" window="0" trigger="talk 19" npc="Lyan">Lyan[br]
 Je me suis récemment rendu compte qu'en persévérant encore et encore, on finissait toujours par être récompensé. Ce serait la fin de tout si j'abandonnais en pensant que je ne suis pas assez doué[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 20">Jeune fille[br]
+<sn:pointer id="85" window="0" trigger="talk 20" npc="Jeune fille">Jeune fille[br]
 Le type là-bas, on dirait qu'il sort à peine de son lit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 21">Starck le sage[br]
+<sn:pointer id="86" window="0" trigger="talk 21" npc="Starck le sage">Starck le sage[br]
 J'ai eu de grandes difficultés à me procurer de l'orichalque, et je l'ai gâchée en ratant mon ouvrage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 22">Lulu[br]
+<sn:pointer id="87" window="0" trigger="talk 22" npc="Lulu">Lulu[br]
 Le père Noël existe vraiment ? Il va vraiment mettre des cadeaux dans mes chaussures si je les laisse au pied du lit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="0" trigger="talk 23">Fille[br]
+<sn:pointer id="88" window="0" trigger="talk 23" npc="Fille">Fille[br]
 C'est la ville portuaire d'[color][0x4]Ionis[color][0x2].[page]
 [end]</sn:pointer>
 

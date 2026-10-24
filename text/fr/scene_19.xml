@@ -46,35 +46,35 @@ Oh ! Ce chat préfère [nick:ラティ]. C'est pas juste ![page]
 Haha ! Te fâche pas ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="13" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Ça fait longtemps que je n'ai pas eu un moment à rien faire.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="14" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Hein ? Ce chat n'était pas là avant ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="15" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Difficile de se renseigner, il n'y a personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="16" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Les auriez-vous vus par ici ?[page]
 Homme[br]
 Non, ça ne me dit rien.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Je me demande s'il y avait déjà une sorte de poste 300 ans dans le passé sur Roak.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 4">[nick:イリア][br]
+<sn:pointer id="18" window="0" trigger="talk 4" npc="Homme">[nick:イリア][br]
 Je me demande s'il y avait déjà une sorte de poste 300 ans dans le passé sur Roak.[page]
 [nick:ラティ][br]
 Dans notre monde, nous correspondons par pigeons voyageurs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 4">[nick:ラティ][br]
+<sn:pointer id="19" window="0" trigger="talk 4" npc="Homme">[nick:ラティ][br]
 Mais on n'utilisait pas que des pigeons.[page]
 [nick:イリア][br]
 Tu veux dire que vous vous serviez d'autres animaux ?[page]
@@ -82,11 +82,11 @@ Tu veux dire que vous vous serviez d'autres animaux ?[page]
 Oui. Ah, ça me rappelle...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 4">[nick:ラティ][br]
+<sn:pointer id="20" window="0" trigger="talk 4" npc="Homme">[nick:ラティ][br]
 Il y a longtemps, [nick:ミリー] a essayé de dresser un chat voyageur ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 4">[nick:ラティ][br]
+<sn:pointer id="21" window="0" trigger="talk 4" npc="Homme">[nick:ラティ][br]
 C'est parce qu'elle aime beaucoup les chats...[page]
 [nick:イリア][br]
 Et alors ?[page]
@@ -96,7 +96,7 @@ Et alors ?[page]
 Oh, mais c'est plutôt mignon, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 4">[end]</sn:pointer>
+<sn:pointer id="22" window="0" trigger="talk 4" npc="Homme">[end]</sn:pointer>
 
 <sn:pointer id="23" window="0" trigger="talk 5">[nick:シウス][br]
 On s'tire d'ici.[page]
@@ -123,49 +123,49 @@ Minou ?
 Tu t'appelles [nick:ペリシー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="29" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Un homme et une femme[speed][0x5]?[speed][0x0] Êtes-vous allés voir du côté des grandes villes de [color][0x4]Portmith[color][0x2] et [color][0x4]Thermonia[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 16">Homme[br]
+<sn:pointer id="30" window="0" trigger="talk 16" npc="Homme">Homme[br]
 Les fruits récoltés au village sont expédiés aux quatre coins du monde et se revendent très cher.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 17">Homme[br]
+<sn:pointer id="31" window="0" trigger="talk 17" npc="Homme">Homme[br]
 Je n'ai vu personne dans le coin correspondant à cette description.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 17">Homme[br]
+<sn:pointer id="32" window="0" trigger="talk 17" npc="Homme">Homme[br]
 Oh, des voyageurs ? Vous avez goûté nos pommes-prunes ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="33" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Un homme et une jeune femme ? Aucune idée. C'est un tout petit village, ici. Ça se sait de suite s'il y a des étrangers en ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="34" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Au nord, c'est la ville de [color][0x4]Thermonia[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 19">Vieille femme[br]
+<sn:pointer id="35" window="0" trigger="talk 19" npc="Vieille femme">Vieille femme[br]
 Mon linge[speed][0xf]![speed][0x0] Il a disparu ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 20">[nick:ペリシー][br]
+<sn:pointer id="36" window="0" trigger="talk 20" npc="Chat">[nick:ペリシー][br]
 Miaou ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 20">Chat[br]
+<sn:pointer id="37" window="0" trigger="talk 20" npc="Chat">Chat[br]
 Miaou ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 21">Eliotte[br]
+<sn:pointer id="38" window="0" trigger="talk 21" npc="Eliotte">Eliotte[br]
 Vous devriez essayer de consulter au moins une fois l'écran de statut.[page]
 Eliotte[br]
 Et aussi l'écran des talents qui s'y trouve.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 22">Jeune fille[br]
+<sn:pointer id="39" window="0" trigger="talk 22" npc="Jeune fille">Jeune fille[br]
 C'est le village de [color][0x4]Crat[color][0x2].[page]
 [end]</sn:pointer>
 

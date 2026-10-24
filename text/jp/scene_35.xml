@@ -30,10 +30,10 @@
 <sn:pointer id="9" window="0" trigger="talk 16">[nick:アシュレイ]「ライアス大丈夫か？しっかりしろ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">兵士「ライアス様がこんなことになるなんて[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="兵士">兵士「ライアス様がこんなことになるなんて[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">兵士「魔物め許せん！[page]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="兵士">兵士「魔物め許せん！[page]
 [end]</sn:pointer>
 
 <sn:pointer id="12" window="0" trigger="talk 32 talk 33 talk 34 talk 35 talk 36 talk 37 talk 38">鍵がかかっています。[page]
@@ -126,26 +126,26 @@
 <sn:pointer id="39" window="0" trigger="start">[nick:ミリー]「ね♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 24">宿屋の主人「よく眠れたかい？[page]
+<sn:pointer id="40" window="0" trigger="talk 24" npc="宿屋の主人">宿屋の主人「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="1" trigger="talk 24">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
+<sn:pointer id="41" window="1" trigger="talk 24" npc="宿屋の主人">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" choice="yes-no" window="1" trigger="talk 24">泊まりますか？[page]
+<sn:pointer id="42" choice="yes-no" window="1" trigger="talk 24" npc="宿屋の主人">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="43" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">お金が足りません。[page]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="宿屋の主人">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="45" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 24">[nick:ラティ]「早く魔物の首を持って城に行こう。[page]
+<sn:pointer id="46" window="0" trigger="talk 24" npc="宿屋の主人">[nick:ラティ]「早く魔物の首を持って城に行こう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 24">[nick:ラティ]「早く追いかけよう。[page]
+<sn:pointer id="47" window="0" trigger="talk 24" npc="宿屋の主人">[nick:ラティ]「早く追いかけよう。[page]
 [end]</sn:pointer>
 
 </sn:script>

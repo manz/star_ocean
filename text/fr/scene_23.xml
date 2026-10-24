@@ -22,51 +22,51 @@ D'accord.[page]
 On se reposera plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 16">Jeune femme Alisa[br]
+<sn:pointer id="5" window="0" trigger="talk 16" npc="Jeune femme Alisa">Jeune femme Alisa[br]
 Une fois, j'ai vu quelqu'un avec des ailes.
 ♪ Elle était jolie et ressemblait à un ange.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">Vieillard au nez rouge[br]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="Vieillard au nez rouge">Vieillard au nez rouge[br]
 Si tu embarques dans le navire, tu pourras aller à [color][0x4]Otanim[color][0x2], dans le royaume d'Astral.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">Jeune homme à la mode[br]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="Jeune homme à la mode">Jeune homme à la mode[br]
 Le roi de Moore ? On le voit jamais, celui-là...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">Fille élégante[br]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Fille élégante">Fille élégante[br]
 Depuis que les sauvages sont apparus au nord, aller à [color][0x4]Portmith [color][0x2]est devenu difficile. Est-ce que ça serait lié à l'influence du monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">Fille avec des taches de rousseur[br]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="Fille avec des taches de rousseur">Fille avec des taches de rousseur[br]
 Qu'est-ce que Terry fabrique ? Il a encore oublié notre rendez-vous, je parie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 21">Fille avec des taches de rousseur[br]
+<sn:pointer id="10" window="0" trigger="talk 21" npc="Fille avec des taches de rousseur">Fille avec des taches de rousseur[br]
 Je compte pas pour lui, c'est ça ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 22">Terry[br]
+<sn:pointer id="11" window="0" trigger="talk 22" npc="Terry">Terry[br]
 Désolé, Candy ! Je te demande pardon ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 23">Whiskers[br]
+<sn:pointer id="12" window="0" trigger="talk 23" npc="Whiskers">Whiskers[br]
 ... Je déteste ce nom.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 24">Fille aînée[br]
+<sn:pointer id="13" window="0" trigger="talk 24" npc="Fille aînée">Fille aînée[br]
 Tu as déjà vu un renard ? C'est si mignon, mais je ne crois pas que j'arriverai à en attraper un.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 25">Raddle le voyageur[br]
+<sn:pointer id="14" window="0" trigger="talk 25" npc="Raddle le voyageur">Raddle le voyageur[br]
 J'ai oublié beaucoup de choses ces derniers temps et je me suis même perdu
 chez moi, mais je me souviens de vous.
 Merci.[page]
 Objet reçu : [color][0x6]Magixir[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 25">Raddle le voyageur[br]
+<sn:pointer id="15" window="0" trigger="talk 25" npc="Raddle le voyageur">Raddle le voyageur[br]
 J'oublie pas mal de trucs en ce moment.[page]
 [end]</sn:pointer>
 

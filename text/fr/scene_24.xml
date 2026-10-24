@@ -24,13 +24,13 @@
 <sn:pointer id="7" window="speaker" trigger="start">[center]Quincaillerie[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">[nick:シウス][br]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Armurier">[nick:シウス][br]
 Badam nous a demandé de passer.[page]
 Armurier[br]
 Ah, c'est vous. Remettez-lui ceci de ma part.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">[nick:シウス][br]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="Armurier">[nick:シウス][br]
 Et comment on est censés lui ramener un truc si gros ?[page]
 Armurier[br]
 Et pourtant, il va falloir.[page]
@@ -38,177 +38,177 @@ Et pourtant, il va falloir.[page]
 Bon ben, on s'en charge.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 16">Vous récupérez la [color][0x6]Statue[color][0x2].[page]
+<sn:pointer id="10" window="0" trigger="talk 16" npc="Armurier">Vous récupérez la [color][0x6]Statue[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 16">Papas[br]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="Armurier">Papas[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 17">Femme[br]
+<sn:pointer id="12" window="0" trigger="talk 17" npc="Femme">Femme[br]
 Vous avez dit que les pirates avaient à nouveau attaqué ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 17">Femme[br]
+<sn:pointer id="13" window="0" trigger="talk 17" npc="Femme">Femme[br]
 Le roi de Moore essaie-t-il de renforcer son armée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 17">Femme[br]
+<sn:pointer id="14" window="0" trigger="talk 17" npc="Femme">Femme[br]
 Comme ça vous êtes des aventuriers ? Et ça consiste en quoi ? Peut-être les mêmes genres de choses que mon mari, glander toute la journée ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">Vieille femme au visage rond[br]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="Vieille femme au visage rond">Vieille femme au visage rond[br]
 Je vais vraiment avoir des ennuis si le bateau est bloqué à quai à cause des pirates...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 18">Vieille femme au visage rond[br]
+<sn:pointer id="16" window="0" trigger="talk 18" npc="Vieille femme au visage rond">Vieille femme au visage rond[br]
 Reverrai-je la paix avant d'aller manger les pissenlits par la racine ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 18">Vieille femme au visage rond[br]
+<sn:pointer id="17" window="0" trigger="talk 18" npc="Vieille femme au visage rond">Vieille femme au visage rond[br]
 Il paraît que le monde démoniaque a une influence aux alentours de [color][0x4]Sylvalant[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 19">Homme au comptoir[br]
+<sn:pointer id="18" window="0" trigger="talk 19" npc="Homme au comptoir">Homme au comptoir[br]
 Salut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 20">Barman[br]
+<sn:pointer id="19" window="0" trigger="talk 20" npc="Barman">Barman[br]
 Ça craint, on est envahis par la racaille ces derniers temps.
 Fait chier.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 21">Marin[br]
+<sn:pointer id="20" window="0" trigger="talk 21" npc="Marin">Marin[br]
 *Hips*
 Ma vie pour un godet ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 22">Marin[br]
+<sn:pointer id="21" window="0" trigger="talk 22" npc="Marin">Marin[br]
 L'alcool est pas trop mauvais ici, mais ce qu'ils ont à [color][0x4]Sylvalant[color][0x2] est carrément mieux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 23">Vieille vendeuse[br]
+<sn:pointer id="22" window="0" trigger="talk 23" npc="Vieille vendeuse">Vieille vendeuse[br]
 Merci de votre visite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="23" window="0" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" choice="yes-no" window="1" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="24" choice="yes-no" window="1" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 C'est [color][0x5]30[color][0x2] Fol la nuit.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="25" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 24">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="26" window="0" trigger="talk 24" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="27" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 25">Cliente[br]
+<sn:pointer id="28" window="0" trigger="talk 25" npc="Cliente">Cliente[br]
 Cette chambre est pas mal.
 J'aime ce tapis.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 26">Client[br]
+<sn:pointer id="29" window="0" trigger="talk 26" npc="Client">Client[br]
 C'est quoi cette chambre !
 Il n'y a même pas de tapis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 27">Apprenti[br]
+<sn:pointer id="30" window="0" trigger="talk 27" npc="Apprenti">Apprenti[br]
 Ce comptoir est un peu haut.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="1" trigger="talk 28">Maître de la guilde[br]
+<sn:pointer id="31" window="1" trigger="talk 28" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" choice="4" window="1" trigger="talk 28">1. Culture niveau 2    600[br]
+<sn:pointer id="32" choice="4" window="1" trigger="talk 28" npc="Maître de la guilde">1. Culture niveau 2    600[br]
 2. Sens niveau 1       100[br]
 3. Sens niveau 2       200[br]
 4. Combat niveau 1     1000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 28" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 28">Maître de la guilde[br]
+<sn:pointer id="34" window="0" trigger="talk 28" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 28">Maître de la guilde[br]
+<sn:pointer id="35" window="0" trigger="talk 28" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 28">Maître de la guilde[br]
+<sn:pointer id="36" window="0" trigger="talk 28" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 29">Aventurier[br]
+<sn:pointer id="37" window="0" trigger="talk 29" npc="Aventurier">Aventurier[br]
 Il paraît qu'il y a des ruines au [color][0x4]mont Métox[color][0x2]...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 30">Mère[br]
+<sn:pointer id="38" window="0" trigger="talk 30" npc="Mère">Mère[br]
 Je m'inquiète pour Marie. Elle aime tant les sucreries.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 30">Mère[br]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="Mère">Mère[br]
 Qu'est-ce que vous avez donné à Marie !?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="1" trigger="talk 31">Marie[br]
+<sn:pointer id="40" window="1" trigger="talk 31" npc="Marie">Marie[br]
 Je veux un parfait [speed][0xa]...[speed][0x0]
 Maman dit que c'est pas bon parce que ça me donne des caries. Je me brosse les dents tous les jours vous savez.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 31">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 31" npc="Marie">[end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 31">Marie[br]
+<sn:pointer id="42" window="0" trigger="talk 31" npc="Marie">Marie[br]
 Miam miam ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 31">Marie[br]
+<sn:pointer id="43" window="0" trigger="talk 31" npc="Marie">Marie[br]
 J'ai un petit peu mal aux dents ...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="1" trigger="talk 40">Mentor[br]
+<sn:pointer id="44" window="1" trigger="talk 40" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir.
 Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" choice="4" window="1" trigger="talk 40">1. Culture niveau 2[br]
+<sn:pointer id="45" choice="4" window="1" trigger="talk 40" npc="Mentor">1. Culture niveau 2[br]
 2. Sens niveau 1[br]
 3. Sens niveau 2[br]
 4. Combat niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 40">Mentor[br]
+<sn:pointer id="46" window="0" trigger="talk 40" npc="Mentor">Mentor[br]
 Culture niveau 2 comprend :
 Biologie, connaissance des outils et solfège.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 40">Mentor[br]
+<sn:pointer id="47" window="0" trigger="talk 40" npc="Mentor">Mentor[br]
 Sens niveau 1 comprend :
 Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 40">Mentor[br]
+<sn:pointer id="48" window="0" trigger="talk 40" npc="Mentor">Mentor[br]
 Sens niveau 2 comprend :
 Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49" window="0" trigger="talk 40">Mentor[br]
+<sn:pointer id="49" window="0" trigger="talk 40" npc="Mentor">Mentor[br]
 Combat niveau 1 comprend : Onde de choc, impact aérien et volte-face.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50" window="0" trigger="talk 40">[end]</sn:pointer>
+<sn:pointer id="50" window="0" trigger="talk 40" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="51" choice="yes-no" window="1" trigger="talk 41">Entraîneur[br]
+<sn:pointer id="51" choice="yes-no" window="1" trigger="talk 41" npc="Entraîneur">Entraîneur[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52" window="1" trigger="talk 41">Entraineur[br]
+<sn:pointer id="52" window="1" trigger="talk 41" npc="Entraîneur">Entraineur[br]
 Lorsque vous souhaitez apprendre des compétences spéciales, n'oubliez pas d'aller sur l'écran des compétences, d'appuyer sur X et de consulter avec attention l'avancement de vos spécialités.[page]
 Par exemple, prenez une compétence et essayez de consulter l'état de la spécialité.
 Cuisine ★☆☆ Les symboles que vous devez consulter sont là.[page]
@@ -216,17 +216,17 @@ Cuisine ★☆☆ Les symboles que vous devez consulter sont là.[page]
 Et, comme pour les compétences nécessaires pour apprendre une commande spéciale, je pense que vous devriez comprendre en le voyant, mais pour le plus grand nombre d'entre eux, il y en a de 1 à 3. En consultant le nom de la commande spéciale et le nom des compétences, pour la plupart d'entre elles vous devriez pouvoir déterminer lesquelles sont en relation. Si c'est [mode8][0x20]cuisine, les compétences seront cordon bleu, couteau de cuisine, et... ? Des choses comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53" window="0" trigger="talk 41">[end]</sn:pointer>
+<sn:pointer id="53" window="0" trigger="talk 41" npc="Entraîneur">[end]</sn:pointer>
 
-<sn:pointer id="54" choice="2" window="1" trigger="talk 31">1. Lui donner un parfait[br]
+<sn:pointer id="54" choice="2" window="1" trigger="talk 31" npc="Marie">1. Lui donner un parfait[br]
 2. Ne rien lui donner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55" window="0" trigger="talk 31">Marie[br]
+<sn:pointer id="55" window="0" trigger="talk 31" npc="Marie">Marie[br]
 Oh ! Un parfait ? C'est pour moi ?! ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="56" window="0" trigger="talk 31">[end]</sn:pointer>
+<sn:pointer id="56" window="0" trigger="talk 31" npc="Marie">[end]</sn:pointer>
 
 <sn:pointer id="57" window="0" trigger="talk 5">[nick:シウス][br]
 Miam miam[page]

@@ -24,154 +24,154 @@
 <sn:pointer id="7" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="1" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="8" window="1" trigger="talk 16" npc="Maître de la Guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" choice="4" window="1" trigger="talk 16">1. Culture niveau 1   300[br]
+<sn:pointer id="9" choice="4" window="1" trigger="talk 16" npc="Maître de la Guilde">1. Culture niveau 1   300[br]
 2. Culture niveau 2   600[br]
 3. Culture niveau 3  1200[br]
 4. Combat niveau 2  2000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 16" npc="Maître de la Guilde">[end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 16">Maître de la Guilde[br]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="Maître de la Guilde">Maître de la Guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 16">Maître de la Guilde[br]
+<sn:pointer id="12" window="0" trigger="talk 16" npc="Maître de la Guilde">Maître de la Guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">Maître de la Guilde[br]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="Maître de la Guilde">Maître de la Guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 17">Conseiller[br]
+<sn:pointer id="14" window="0" trigger="talk 17" npc="Conseiller">Conseiller[br]
 Le nombre maximum de points de compétences possible est de 999, donc il est inutile d'être cupide et de les économiser.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="1" trigger="talk 18">Mentor[br]
+<sn:pointer id="15" window="1" trigger="talk 18" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" choice="4" window="1" trigger="talk 18">1. Culture niveau 1[br]
+<sn:pointer id="16" choice="4" window="1" trigger="talk 18" npc="Mentor">1. Culture niveau 1[br]
 2. Culture niveau 2[br]
 3. Culture niveau 3[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="17" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Culture niveau 1 consiste en
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="18" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Culture niveau 2 consiste en
 connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="19" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Culture niveau 3 consiste en
 folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="20" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Combat niveau 2 consiste en
 riposte, feinte et concentration[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="21" window="0" trigger="talk 18" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 19">Femme[br]
+<sn:pointer id="22" window="0" trigger="talk 19" npc="Femme">Femme[br]
 Mon mari a emmené les enfants à [color][0x4]Moore[color][0x2].
 Il est trop curieux, ça finira par lui jouer des tours.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 19">Femme[br]
+<sn:pointer id="23" window="0" trigger="talk 19" npc="Femme">Femme[br]
 Mon mari ne fait rien d'autre que gaffer tout le temps.
 Je vais finir par aller voir ailleurs, à ce rythme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 20">Aventurier[br]
+<sn:pointer id="24" window="0" trigger="talk 20" npc="Aventurier">Aventurier[br]
 J'ai accepté un job qui consiste à chercher
 des pierres dans le royaume de Van[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 21">Homme[br]
+<sn:pointer id="25" window="0" trigger="talk 21" npc="Homme">Homme[br]
 De ce que j'ai entendu, il y a eu une grosse explosion
 à [color][0x4]Crat[color][0x2]. C'était une météorite ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 21">Homme[br]
+<sn:pointer id="26" window="0" trigger="talk 21" npc="Homme">Homme[br]
 Je viens de [color][0x4]Dulce[color][0x2]. La région de [color][0x4]Sylvalant[color][0x2]
 est trop dangereuse et n'est vraiment pas un endroit où il fait bon vivre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">Aventurier[br]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="Aventurier">Aventurier[br]
 Mon voyage est devenu plus facile maintenant que
 je maîtrise Coureur et Pisteur.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 23">Morgan l'armurier[br]
+<sn:pointer id="28" window="0" trigger="talk 23" npc="Morgan l'armurier">Morgan l'armurier[br]
 Bienvenue ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 24">Peter le vendeur[br]
+<sn:pointer id="29" window="0" trigger="talk 24" npc="Peter le vendeur">Peter le vendeur[br]
 Salut ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="1" trigger="talk 25">Restaurant[br]
+<sn:pointer id="30" window="1" trigger="talk 25" npc="Restaurant">Restaurant[br]
 Bonjour. Que désirez-vous manger ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" choice="4" window="1" trigger="talk 25">1. Steak 130[br]
+<sn:pointer id="31" choice="4" window="1" trigger="talk 25" npc="Restaurant">1. Steak 130[br]
 2. Spaghetti aux fruits de mer[br]
 3. Ragoût de tripes au saindoux[br]
 4. Rien du tout[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="1" trigger="talk 25">Souhaitez-vous un dessert ?[page]
+<sn:pointer id="32" window="1" trigger="talk 25" npc="Restaurant">Souhaitez-vous un dessert ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" choice="4" window="1" trigger="talk 25">1. Parfait aux fruits[br]
+<sn:pointer id="33" choice="4" window="1" trigger="talk 25" npc="Restaurant">1. Parfait aux fruits[br]
 2. Tarte aux pommes[br]
 3. Sorbet[br]
 4. Ça ira, merci ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="1" trigger="talk 25">Vous n'avez pas assez pour payer l'addition.[page]
+<sn:pointer id="34" window="1" trigger="talk 25" npc="Restaurant">Vous n'avez pas assez pour payer l'addition.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 25">Merci♪[page]
+<sn:pointer id="35" window="0" trigger="talk 25" npc="Restaurant">Merci♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 26">Tenancier[br]
+<sn:pointer id="36" window="0" trigger="talk 26" npc="Tenancier">Tenancier[br]
 Bien le bonjour ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 27">Vieille aubergiste[br]
+<sn:pointer id="37" window="0" trigger="talk 27" npc="Vieille aubergiste">Vieille aubergiste[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" choice="yes-no" window="1" trigger="talk 27">Vieille aubergiste[br]
+<sn:pointer id="38" choice="yes-no" window="1" trigger="talk 27" npc="Vieille aubergiste">Vieille aubergiste[br]
 Bonjour. Une nuit coûte [color][0x5]30[color][0x2] Fol.
 Voulez-vous dormir un peu ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 27">[end]</sn:pointer>
+<sn:pointer id="39" window="0" trigger="talk 27" npc="Vieille aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 27">Désolé, c'est insuffisant pour payer la note.[page]
+<sn:pointer id="40" window="0" trigger="talk 27" npc="Vieille aubergiste">Désolé, c'est insuffisant pour payer la note.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 27">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 27" npc="Vieille aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 28">Vieil homme[br]
+<sn:pointer id="42" window="0" trigger="talk 28" npc="Vieil homme">Vieil homme[br]
 Ce siècle touche à son terme[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 28">Vieil homme[br]
+<sn:pointer id="43" window="0" trigger="talk 28" npc="Vieil homme">Vieil homme[br]
 Je me demandais si une nouvelle guerre allait se produire et voilà
 que le monde tombe en morceaux[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>

@@ -3,7 +3,7 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0 speaker" trigger="start talk 22">[pos][0x58][0x0]民家[page]
+<sn:pointer id="1" window="0 speaker" trigger="start talk 22" npc="説明員">[pos][0x58][0x0]民家[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2" window="speaker" trigger="start">[pos][0x44][0x0]スキルギルド[page]
@@ -383,64 +383,64 @@
 [nick:ミリー]「いや〜ん[nick:ラティ]ったらぁ[speed][0xa]・・・[speed][0x0]ぐぅぐぅ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112" window="0" trigger="talk 16">店の親父「今日はもう店閉めるから別にいいよ。[page]
+<sn:pointer id="112" window="0" trigger="talk 16" npc="店の親父">店の親父「今日はもう店閉めるから別にいいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="113" window="0" trigger="talk 16">店の親父「いらっしゃい。[page]
+<sn:pointer id="113" window="0" trigger="talk 16" npc="店の親父">店の親父「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114" window="0" trigger="talk 17">冒険者「奥義の修得を目指して頑張っています。でも、どうすればいいんだろう？[page]
+<sn:pointer id="114" window="0" trigger="talk 17" npc="冒険者">冒険者「奥義の修得を目指して頑張っています。でも、どうすればいいんだろう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="115" window="0" trigger="talk 18">おばさん「アストラル王国から来たのかい？だったらもう少しでヴァン城よ。[page]
+<sn:pointer id="115" window="0" trigger="talk 18" npc="おばさん">おばさん「アストラル王国から来たのかい？だったらもう少しでヴァン城よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116" window="0" trigger="talk 19">若者「さーて、今日は何を作ろうかなぁ。どーでもいいけど食材は料理しないと食べらんないぜ。わかってるよね？[page]
+<sn:pointer id="116" window="0" trigger="talk 19" npc="若者">若者「さーて、今日は何を作ろうかなぁ。どーでもいいけど食材は料理しないと食べらんないぜ。わかってるよね？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="117" window="1" trigger="talk 20">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="117" window="1" trigger="talk 20" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="118" choice="4" window="1" trigger="talk 20">1感覚関連スキルＬＶ1　　100
+<sn:pointer id="118" choice="4" window="1" trigger="talk 20" npc="ギルドマスター">1感覚関連スキルＬＶ1　　100
 2感覚関連スキルＬＶ2　　200
 3感覚関連スキルＬＶ3　　300
 4技術関連スキルＬＶ2　1200[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="119" window="0" trigger="talk 20" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="120" window="0" trigger="talk 20">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="120" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="121" window="0" trigger="talk 20">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="121" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="122" window="0" trigger="talk 20">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="122" window="0" trigger="talk 20" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="123" window="0" trigger="talk 21">アドバイザー「ナゾのパラメータＧＵＴＳ。
+<sn:pointer id="123" window="0" trigger="talk 21" npc="アドバイザー">アドバイザー「ナゾのパラメータＧＵＴＳ。
 ステータス画面を見て“？？？”と思った人も多いと思います。[page]
 アドバイザー「これはキャラクターの根性を表しており、高いほど戦闘中にいろいろなボーナス効果が出やすくなります。[page]
 アドバイザー「たとえば、時々ダメージが2倍になったりします。また、敵からの即死の一撃を曼けても根性で生き残ったりすることがあります。[page]
 アドバイザー「どうです？少しは理解できましたか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="124" window="1" trigger="talk 22">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="124" window="1" trigger="talk 22" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="125" choice="4" window="1" trigger="talk 22">1．感覚関連スキルＬＶ1
+<sn:pointer id="125" choice="4" window="1" trigger="talk 22" npc="説明員">1．感覚関連スキルＬＶ1
 2．感覚関連スキルＬＶ2
 3．感覚関連スキルＬＶ3
 4．技術関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="126" window="0" trigger="talk 22">説明員「感覚関連スキルＬＶ1の内訳は、
+<sn:pointer id="126" window="0" trigger="talk 22" npc="説明員">説明員「感覚関連スキルＬＶ1の内訳は、
 めききと
 危険感知と
 忍耐です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="127" window="0" trigger="talk 22">説明員「感覚関連スキルＬＶ2の内訳は、
+<sn:pointer id="127" window="0" trigger="talk 22" npc="説明員">説明員「感覚関連スキルＬＶ2の内訳は、
 美的感覚と
 遊び心と
 根性です。[page]

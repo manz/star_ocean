@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0" window="0" trigger="talk 16">ドクター「今まで、未確認生命体が艦内に侵入したことなど、一度もなかったのに[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="0" window="0" trigger="talk 16" npc="ドクター">ドクター「今まで、未確認生命体が艦内に侵入したことなど、一度もなかったのに[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">ドクター「もう少し時間がかかりそうです。[page]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="ドクター">ドクター「もう少し時間がかかりそうです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">ドクター「艦長が艦橋に来てほしいそうだ。左側のエレベーターに乗ればいいよ。[page]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="ドクター">ドクター「艦長が艦橋に来てほしいそうだ。左側のエレベーターに乗ればいいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">ドクター「どうかしましたか？[page]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="ドクター">ドクター「どうかしましたか？[page]
 [nick:ラティ]「なんでもないです。[page]
 [end]</sn:pointer>
 

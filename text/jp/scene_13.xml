@@ -49,30 +49,30 @@
 整備士「はっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 16">乗組員「艦の航行には支障はありません。[page]
+<sn:pointer id="14" window="0" trigger="talk 16" npc="乗組員">乗組員「艦の航行には支障はありません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 16">乗組員「今話しかけないでくれる？[page]
+<sn:pointer id="15" window="0" trigger="talk 16" npc="乗組員">乗組員「今話しかけないでくれる？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">乗組員「一体なにごとだ！[page]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="乗組員">乗組員「一体なにごとだ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">乗組員「異常無しっと。ん？君たちか、ロークから来たというのは。[page]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="乗組員">乗組員「異常無しっと。ん？君たちか、ロークから来たというのは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">女「保安部員へ！転送室に至急行ってください。[page]
+<sn:pointer id="18" window="0" trigger="talk 18" npc="女">女「保安部員へ！転送室に至急行ってください。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 18">女「見た目はあまり私たちと変わらないわね。[page]
+<sn:pointer id="19" window="0" trigger="talk 18" npc="女">女「見た目はあまり私たちと変わらないわね。[page]
 [nick:ラティ]「しっぽがないと動きづらくないですか？[page]
 女「そういうことは考えたこともなかったわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 19">女「未確認生物、データバンクに登録します。[page]
+<sn:pointer id="20" window="0" trigger="talk 19" npc="女">女「未確認生物、データバンクに登録します。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 19">女「かわいい♥[speed][0x14]
+<sn:pointer id="21" window="0" trigger="talk 19" npc="女">女「かわいい♥[speed][0x14]
 [speed][0x0]そのしっぽ本物？[page]
 [end]</sn:pointer>
 
@@ -86,10 +86,10 @@
 
 <sn:pointer id="25" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 22">男「ん？なにかあったのか？[page]
+<sn:pointer id="26" window="0" trigger="talk 22" npc="男">男「ん？なにかあったのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">男「今、宇宙物理学を勉強中なんだ。[page]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="男">男「今、宇宙物理学を勉強中なんだ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28" choice="1" window="speaker" trigger="tile 12">[pos][0x32][0x0]エレベーターポット[page]

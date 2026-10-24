@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sn:script xmlns:sn="http://snes.ninja/ScriptNS">
-<sn:pointer id="0" window="0" trigger="talk 16">兵士「通ってよし！[page]
+<sn:pointer id="0" window="0" trigger="talk 16" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 17">兵士「通ってよし！[page]
+<sn:pointer id="1" window="0" trigger="talk 17" npc="兵士">兵士「通ってよし！[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2" window="0" trigger="start">[speed][0x1]「クシュンッ！！[speed][0x0][page]
@@ -23,10 +23,10 @@
 [nick:ロニキス]「わ[speed][0x5]、[speed][0x0]わるいな[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 16">れいくんげんき？[page]
+<sn:pointer id="7" window="0" trigger="talk 16" npc="兵士">れいくんげんき？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">北：ヴァン城下町
+<sn:pointer id="8" window="0" trigger="talk 16" npc="兵士">北：ヴァン城下町
 南：イオニス[page]
 [end]</sn:pointer>
 

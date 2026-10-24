@@ -278,7 +278,7 @@ Allons-y, ça coûte rien d'y jeter un œil.[page]
 <sn:pointer id="52" window="0" trigger="tile 16">[mode8][0x18][nick:ミリー][br]
 [speed][0x1]Hi[speed][0x1e]iiiiiiiiiiiiiiii !!!![mode8][0x0][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="53" window="0" trigger="talk 16">Voyageur[br]
+<sn:pointer id="53" window="0" trigger="talk 16" npc="Voyageur">Voyageur[br]
 L'eau est délicieuse ici.[page]
 [end]</sn:pointer>
 

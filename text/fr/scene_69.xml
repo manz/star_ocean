@@ -18,135 +18,135 @@
 <sn:pointer id="5" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="1" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="6" window="1" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" choice="3" window="1" trigger="talk 16">1. Culture niveau 3  1200[br]
+<sn:pointer id="7" choice="3" window="1" trigger="talk 16" npc="Maître de la guilde">1. Culture niveau 3  1200[br]
 2. Sens niveau 3  300[br]
 3. Technique niveau 3  5000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 16" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="10" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 17">Conseiller[br]
+<sn:pointer id="12" window="0" trigger="talk 17" npc="Conseiller">Conseiller[br]
 Ce n'est pas parce que vous achetez un arcane que vous serez en mesure de l'utiliser. Mais une fois l'arcane appris, à force d'utiliser certaines techniques, vous pourrez découvrir une super-technique ![page]
 Conseiller[br]
 Y parvenir dépend de vos efforts et de votre maîtrise de l'escrime.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="1" trigger="talk 18">Mentor[br]
+<sn:pointer id="13" window="1" trigger="talk 18" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" choice="3" window="1" trigger="talk 18">1. Culture niveau 3[br]
+<sn:pointer id="14" choice="3" window="1" trigger="talk 18" npc="Mentor">1. Culture niveau 3[br]
 2. Sens niveau 3[br]
 3. Technique niveau 3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Culture niveau 3 comprend :
 Folklore, psychologie et piété.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="16" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Sens niveau 3 comprend :
 Efficacité, ondes radio et obstination.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="17" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Technique niveau 3 comprend :
 Technoscience, interprétation et moulage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="18" window="0" trigger="talk 18" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 19">Petite fille[br]
+<sn:pointer id="19" window="0" trigger="talk 19" npc="Petite fille">Petite fille[br]
 On n'a pas le droit de sortir sans autorisation, c'est nul ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 20">Gamin[br]
+<sn:pointer id="20" window="0" trigger="talk 20" npc="Gamin">Gamin[br]
 J'ai envie d'aller jouer dehors ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 21">Vieil homme[br]
+<sn:pointer id="21" window="0" trigger="talk 21" npc="Vieil homme">Vieil homme[br]
 Quel ennui[speed][0xa]...[speed][0x0] À ce train-là, je vais devenir gâteux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 22">Vieille femme[br]
+<sn:pointer id="22" window="0" trigger="talk 22" npc="Vieille femme">Vieille femme[br]
 J'espère que la paix reviendra bientôt[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 23">Sutea le mercenaire[br]
+<sn:pointer id="23" window="0" trigger="talk 23" npc="Sutea le mercenaire">Sutea le mercenaire[br]
 Avec Ralph, on se bat ensemble.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 24">Ralph le mercenaire[br]
+<sn:pointer id="24" window="0" trigger="talk 24" npc="Ralph le mercenaire">Ralph le mercenaire[br]
 Sutea est mon frère d'armes. Quand on est tous les deux, aucun monstre ne nous résiste.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 25">Chevalier[br]
+<sn:pointer id="25" window="0" trigger="talk 25" npc="Chevalier">Chevalier[br]
 Vous n'avez pas appris de techniques de combat ? Vous devriez, elles sont très utiles.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 26">Barman[br]
+<sn:pointer id="26" window="0" trigger="talk 26" npc="Barman">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 27">Kikurin[br]
+<sn:pointer id="27" window="0" trigger="talk 27" npc="Kikurin">Kikurin[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="1" trigger="talk 28">Judy[br]
+<sn:pointer id="28" window="1" trigger="talk 28" npc="Judy">Judy[br]
 Détendez-vous et passez une bonne nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="29" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="30" window="1" trigger="talk 28">Souhaitez-vous rester ?[page]
+<sn:pointer id="30" window="1" trigger="talk 28" npc="Judy">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 28">Judy[br]
+<sn:pointer id="31" window="0" trigger="talk 28" npc="Judy">Judy[br]
 Avez-vous bien dormi ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28">Judy[br]
+<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28" npc="Judy">Judy[br]
 Bienvenue.
 C'est [color][0x5]30[color][0x2] Fol la nuit. Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 28">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="34" window="0" trigger="talk 28" npc="Judy">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 28" npc="Judy">[end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 29">Lucio[br]
+<sn:pointer id="36" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 Arrêtez d'embêter [nick:ミリー], pigé ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 29">Lucio[br]
+<sn:pointer id="37" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 [nick:ミリー], s'ils recommencent, n'hésite pas à venir me voir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 29">Lucio[br]
+<sn:pointer id="38" window="0" trigger="talk 29" npc="Lucio">Lucio[br]
 Vous dormez ici ? Notre auberge est la meilleure du monde ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 30">Étudiant[br]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="Étudiant">Étudiant[br]
 Je fais des recherches sur ce qu'on appelle le pacte d'âme que les anciens auraient fait.[page]
 Étudiant[br]
 Il y a encore beaucoup de détails à vérifier, mais ça ressemblait aux pactes avec le diable des légendes : un vœu exaucé en échange de son âme. Quelque chose comme ça.[page]

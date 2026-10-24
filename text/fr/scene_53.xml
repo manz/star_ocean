@@ -27,109 +27,109 @@
 <sn:pointer id="8" window="speaker" trigger="start">[center]Auberge[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">Vieil homme[br]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="Vieil homme">Vieil homme[br]
 Dans mon jeune temps, il y a eu une guerre très meurtrière, la guerre contre le monde démoniaque[speed][0xa]...[speed][0x0] La guerre actuelle ne se compare même pas avec ces sombres années.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">Homme[br]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="Homme">Homme[br]
 Il paraît que certaines anciennes ruines qui existaient bien avant la guerre contre le monde démoniaque sont encore intactes et se trouvent sur chaque continent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Il paraît qu'un épéiste de grand talent est venu en ville il y a peu. Pensez-vous qu'il est toujours là ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="12" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Il y a eu pas mal d'aventuriers à partir pour les [color][0x4]grottes d'Astral[color][0x2] aujourd'hui[speed][0xa]...[speed][0x0] Ils disent tous qu'ils y vont pour tester leurs compétences, mais selon moi c'est bien trop dangereux[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">Vieil homme branché[br]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="Vieil homme branché">Vieil homme branché[br]
 À chaque fois que je vais voir les combats à l'arène, je retrouve l'excitation de mes 20 ans.[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14" window="0" trigger="talk 21">...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 22">Vendeur[br]
+<sn:pointer id="15" window="0" trigger="talk 22" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 23">Vendeur[br]
+<sn:pointer id="16" window="0" trigger="talk 23" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 24">Vendeur[br]
+<sn:pointer id="17" window="0" trigger="talk 24" npc="Vendeur">Vendeur[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 25">Barman[br]
+<sn:pointer id="18" window="0" trigger="talk 25" npc="Barman">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 26">Yama[br]
+<sn:pointer id="19" window="0" trigger="talk 26" npc="Yama">Yama[br]
 La perle de l'industrie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 27">Homme[br]
+<sn:pointer id="20" window="0" trigger="talk 27" npc="Homme">Homme[br]
 Ici, on sert de la boisson d'homme ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 28">Vieille femme[br]
+<sn:pointer id="21" window="0" trigger="talk 28" npc="Vieille femme">Vieille femme[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="1" trigger="talk 28">Vieille femme[br]
+<sn:pointer id="22" window="1" trigger="talk 28" npc="Vieille femme">Vieille femme[br]
 Bienvenue.
 C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" choice="yes-no" window="1" trigger="talk 28">Souhaitez-vous rester ?[page]
+<sn:pointer id="23" choice="yes-no" window="1" trigger="talk 28" npc="Vieille femme">Souhaitez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="24" window="0" trigger="talk 28" npc="Vieille femme">[end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 28">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="25" window="0" trigger="talk 28" npc="Vieille femme">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="26" window="0" trigger="talk 28" npc="Vieille femme">[end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 29">Aventurier[br]
+<sn:pointer id="27" window="0" trigger="talk 29" npc="Aventurier">Aventurier[br]
 En continuant vers l'ouest, vous pourrez aller à la ville portuaire de [color][0x4]Tropp[color][0x2]. Mais c'est assez loin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 30">Homme[br]
+<sn:pointer id="28" window="0" trigger="talk 30" npc="Homme">Homme[br]
 Vous pourrez vous rendre au [color][0x4]château d'Astral[color][0x2] en prenant le cargo qui navigue sur la rivière.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="1" trigger="talk 40">Maître de la guilde[br]
+<sn:pointer id="29" window="1" trigger="talk 40" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" choice="4" window="1" trigger="talk 40">1. Culture niveau 2  600[br]
+<sn:pointer id="30" choice="4" window="1" trigger="talk 40" npc="Maître de la guilde">1. Culture niveau 2  600[br]
 2. Sens niveau 2  200[br]
 3. Technique niveau 2  1200[br]
 4. Combat niveau 2 2000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 40">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 40" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 40">Maître de la guilde[br]
+<sn:pointer id="32" window="0" trigger="talk 40" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 40">Maître de la guilde[br]
+<sn:pointer id="33" window="0" trigger="talk 40" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 40">Maître de la guilde[br]
+<sn:pointer id="34" window="0" trigger="talk 40" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 41">Conseiller[br]
+<sn:pointer id="35" choice="yes-no" window="1" trigger="talk 41" npc="Conseiller">Conseiller[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 41">Conseiller[br]
+<sn:pointer id="36" window="0" trigger="talk 41" npc="Conseiller">Conseiller[br]
 Puisque le moment est opportun, nous parlerons brièvement des compétences de combat.[page]
 Il ne fait aucun doute que vous comprendrez quand vous essaierez de les apprendre par vous-même, mais elles ne se déclenchent pas à coup sûr.[page]
 La plupart s'activent avec une certaine probabilité quand vous attaquez. Ces probabilités augmentent en fonction de leur niveau.[page]
@@ -137,39 +137,39 @@ Mais si les effets bonus sont actifs en permanence, vous allez être désavantag
 Vous saisissez ce que j'essaie de vous dire ? Vous ne devriez pas monter vos compétences de combat à leur niveau maximal, l'effet sera inverse de celui recherché.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 41">[end]</sn:pointer>
+<sn:pointer id="37" window="0" trigger="talk 41" npc="Conseiller">[end]</sn:pointer>
 
-<sn:pointer id="38" window="1" trigger="talk 42">Mentor[br]
+<sn:pointer id="38" window="1" trigger="talk 42" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" choice="4" window="1" trigger="talk 42">1. Culture niveau 2[br]
+<sn:pointer id="39" choice="4" window="1" trigger="talk 42" npc="Mentor">1. Culture niveau 2[br]
 2. Sens niveau 2[br]
 3. Technique niveau 2[br]
 4. Combat niveau 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 42">Mentor[br]
+<sn:pointer id="40" window="0" trigger="talk 42" npc="Mentor">Mentor[br]
 Culture niveau 2 comprend :
 Connaissance des outils, solfège et biologie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 42">Mentor[br]
+<sn:pointer id="41" window="0" trigger="talk 42" npc="Mentor">Mentor[br]
 Sens niveau 2 comprend :
 Sens du danger, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 42">Mentor[br]
+<sn:pointer id="42" window="0" trigger="talk 42" npc="Mentor">Mentor[br]
 Technique niveau 2 comprend :
 Doigté, écriture et domptage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 42">Mentor[br]
+<sn:pointer id="43" window="0" trigger="talk 42" npc="Mentor">Mentor[br]
 Combat niveau 2 comprend :
 Riposte, feinte et concentrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 42">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 42" npc="Mentor">[end]</sn:pointer>
 
 <sn:pointer id="45" window="1" trigger="start">[nick:ラティ][br]
 Ça va ?[page]

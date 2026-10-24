@@ -38,31 +38,31 @@
 [nick:ラティ]「な、なんですかいきなり[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 20">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
+<sn:pointer id="7" window="0" trigger="talk 20" npc="船員">[nick:ラティ]「一人で先に行っちゃあまずいよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20">船員「[color][0x4]ポートミス[color][0x2]行きの船に乗りますか？[page]
+<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]ポートミス[color][0x2]行きの船に乗りますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="11" window="1" trigger="talk 20">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
+<sn:pointer id="11" window="1" trigger="talk 20" npc="船員">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" choice="4" window="1" trigger="talk 20">1．ポートミス（ムーア王国）
+<sn:pointer id="12" choice="4" window="1" trigger="talk 20" npc="船員">1．ポートミス（ムーア王国）
 2．トロップ（アストラル王国）
 3．エクダート（ヴァン王国）
 4．シルヴァラント[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
+<sn:pointer id="14" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
 <sn:pointer id="16" window="0" trigger="start">[nick:シウス]「ついたぜ[speed][0xf]。[speed][0x0]ここがアストラル王国領[color][0x4]オタニム[color][0x2]だ。[page]
 [end]</sn:pointer>

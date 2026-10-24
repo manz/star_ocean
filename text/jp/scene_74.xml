@@ -64,17 +64,17 @@
 [nick:イリア]「すいません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">フォスター「ありがとう。これはせめてものお礼だ。曼け取ってくれ。[page]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="フォスター">フォスター「ありがとう。これはせめてものお礼だ。曼け取ってくれ。[page]
 [color][0x6][item][0xec][0x14][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">フォスター「もりのモンスターのことは、よろしくお願いします。[page]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="フォスター">フォスター「もりのモンスターのことは、よろしくお願いします。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 17">フォスター「ありがとうございました。[page]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="フォスター">フォスター「ありがとうございました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 17">フォスター「[nick:ヨシュア]よ、いつか妹と再会出来るといいな・・・。[page]
+<sn:pointer id="19" window="0" trigger="talk 17" npc="フォスター">フォスター「[nick:ヨシュア]よ、いつか妹と再会出来るといいな・・・。[page]
 [end]</sn:pointer>
 
 </sn:script>

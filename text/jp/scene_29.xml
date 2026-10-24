@@ -17,48 +17,48 @@
 [nick:ラティ]「どうした？ん、鍵が掛かっているのか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 16">武具屋「いらっしゃい。[page]
+<sn:pointer id="5" window="0" trigger="talk 16" npc="武具屋">武具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 17">道具屋「いらっしゃい。[page]
+<sn:pointer id="6" window="0" trigger="talk 17" npc="道具屋">道具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 18">食料品店「いらっしゃい。[page]
+<sn:pointer id="7" window="0" trigger="talk 18" npc="食料品店">食料品店「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 19">新米巡回兵「[nick:フィア]様は城の地下牢につながれているようだ・・・。[page]
+<sn:pointer id="8" window="0" trigger="talk 19" npc="新米巡回兵">新米巡回兵「[nick:フィア]様は城の地下牢につながれているようだ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 19">新米巡回兵「[color][0x4]アストラル城下[color][0x2]へようこそ。[page]
+<sn:pointer id="9" window="0" trigger="talk 19" npc="新米巡回兵">新米巡回兵「[color][0x4]アストラル城下[color][0x2]へようこそ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">巡回兵「[color][0x4]タトローイ[color][0x2]側のアストラル洞窟の入口を護る兵士も殺されたらしい。目撃者はいないが、これも[nick:フィア]様の仕業だという話だ。[speed][0xa]・・・[speed][0x0]信じられん。[page]
+<sn:pointer id="10" window="0" trigger="talk 20" npc="巡回兵">巡回兵「[color][0x4]タトローイ[color][0x2]側のアストラル洞窟の入口を護る兵士も殺されたらしい。目撃者はいないが、これも[nick:フィア]様の仕業だという話だ。[speed][0xa]・・・[speed][0x0]信じられん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">巡回兵「なぜ魔物はライアス様を襲ったんだろう？こんな事は一度もなかったのに。[page]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="巡回兵">巡回兵「なぜ魔物はライアス様を襲ったんだろう？こんな事は一度もなかったのに。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 20">巡回兵「自慢じゃないがアストラルは世界一治安のいい所だと思うぞ。[page]
+<sn:pointer id="12" window="0" trigger="talk 20" npc="巡回兵">巡回兵「自慢じゃないがアストラルは世界一治安のいい所だと思うぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 21">左利きの傭兵「[color][0x4]アストラル[color][0x2]は[color][0x4]ヴァン[color][0x2]や[color][0x4]シルヴァラント[color][0x2]のように直接魔界の軍勢とは戦っていないが、ハイランダーの傭兵なんかはたくさん向こうで活躍してるんだ。[page]
+<sn:pointer id="13" window="0" trigger="talk 21" npc="左利きの傭兵">左利きの傭兵「[color][0x4]アストラル[color][0x2]は[color][0x4]ヴァン[color][0x2]や[color][0x4]シルヴァラント[color][0x2]のように直接魔界の軍勢とは戦っていないが、ハイランダーの傭兵なんかはたくさん向こうで活躍してるんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 22">賢者グイン「外を歩いていたら、時々でも岩の周囲を調べてみるといい。薬草はそういう所によくはえているからね。[page]
+<sn:pointer id="14" window="0" trigger="talk 22" npc="賢者グイン">賢者グイン「外を歩いていたら、時々でも岩の周囲を調べてみるといい。薬草はそういう所によくはえているからね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 23">剣士「アストラル騎士団長のライアス様は昔武勲をたてられ、国王から刃の無い剣を授かったとか。[page]
+<sn:pointer id="15" window="0" trigger="talk 23" npc="剣士">剣士「アストラル騎士団長のライアス様は昔武勲をたてられ、国王から刃の無い剣を授かったとか。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 24">鍛冶師ギム「お主に刀鍛冶についてのヒケツを教えてやろう。ワシもこれを生業としておるため詳しくは教えぬが、
+<sn:pointer id="16" window="0" trigger="talk 24" npc="鍛冶師ギム">鍛冶師ギム「お主に刀鍛冶についてのヒケツを教えてやろう。ワシもこれを生業としておるため詳しくは教えぬが、
 よい武器と鉱物を掛け合わせることがヒケツじゃ。[page]
 鍛冶師ギム「出し惜しみして安い剣を使ってもロクな結果にならんぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 25">傭兵「[color][0x4]アストラル王国[color][0x2]も剣の国なんだから奥義とかあってもよさそうなものなんだが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="17" window="0" trigger="talk 25" npc="傭兵">傭兵「[color][0x4]アストラル王国[color][0x2]も剣の国なんだから奥義とかあってもよさそうなものなんだが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 26">女の子「ここは[color][0x4]アストラル城下町[color][0x2]よ。強い人がおおい町よ。[page]
+<sn:pointer id="18" window="0" trigger="talk 26" npc="女の子">女の子「ここは[color][0x4]アストラル城下町[color][0x2]よ。強い人がおおい町よ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="19" window="1" trigger="start">[nick:ラティ]「[nick:シウス]、どうした？[page]

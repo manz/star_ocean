@@ -39,7 +39,7 @@
 <sn:pointer id="12" window="0" trigger="start">大臣「おお！本当にこの迷宮から抜けてくるとは。見事です！それでは王のもとへ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">大臣「迷宮の魔物は強いですよ。つらいと思ったら外で修業してくるが。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="大臣">大臣「迷宮の魔物は強いですよ。つらいと思ったら外で修業してくるが。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="14" window="0" trigger="search">持ち物がいっぱいです[page]

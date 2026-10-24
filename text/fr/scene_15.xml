@@ -146,7 +146,7 @@ Oui, Capitaine.[page]
 [speed][0x1e]AAAAaaaahhhh.....[speed][0x0][page]
 [mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 22">Officier du téléporteur[br]
+<sn:pointer id="31" window="0" trigger="talk 22" npc="Officier du téléporteur">Officier du téléporteur[br]
 C'est la salle des téléporteurs. Jusqu'à une certaine taille, nous pouvons tout transporter dans un rayon de 100 000 km.[page]
 [end]</sn:pointer>
 

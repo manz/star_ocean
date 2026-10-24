@@ -40,41 +40,41 @@
 <sn:pointer id="12" window="0" trigger="tile 7">[nick:ラティ]「はは、怒んなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 4">[nick:イリア]「こうやってボーッとしてるのってなんか久しぶりだわ。[page]
+<sn:pointer id="13" window="0" trigger="talk 4" npc="男">[nick:イリア]「こうやってボーッとしてるのってなんか久しぶりだわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 4">[nick:イリア]「あら、このネコたしか前はいなかったわよね。[page]
+<sn:pointer id="14" window="0" trigger="talk 4" npc="男">[nick:イリア]「あら、このネコたしか前はいなかったわよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 4">[nick:イリア]「尋ねようにもこう人がいないんじゃ話にならないわね。[page]
+<sn:pointer id="15" window="0" trigger="talk 4" npc="男">[nick:イリア]「尋ねようにもこう人がいないんじゃ話にならないわね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 4">[nick:イリア]「この辺りで見かけなかったかしら？[page]
+<sn:pointer id="16" window="0" trigger="talk 4" npc="男">[nick:イリア]「この辺りで見かけなかったかしら？[page]
 男「さぁねぇ。私は見てないけどねぇ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 4">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
+<sn:pointer id="17" window="0" trigger="talk 4" npc="男">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 4">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
+<sn:pointer id="18" window="0" trigger="talk 4" npc="男">[nick:イリア]「300年前のロークでも郵便というシステムはあるのかしら？[page]
 [nick:ラティ]「俺たちの世界では伝書鳩での手紙の曼け渡しが一般的だったけど[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 4">[nick:ラティ]「でも、鳩に限った話じゃないんですけどね。[page]
+<sn:pointer id="19" window="0" trigger="talk 4" npc="男">[nick:ラティ]「でも、鳩に限った話じゃないんですけどね。[page]
 [nick:イリア]「それは別な動物でもってこと？[page]
 [nick:ラティ]「ええ。あ、そういえば[speed][0xa]・・・[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 4">[nick:ラティ]「[nick:ミリー]が昔、猫を伝書猫にしようとしたっけ♪[page]
+<sn:pointer id="20" window="0" trigger="talk 4" npc="男">[nick:ラティ]「[nick:ミリー]が昔、猫を伝書猫にしようとしたっけ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 4">[nick:ラティ]「あいつ猫大好きだから。[page]
+<sn:pointer id="21" window="0" trigger="talk 4" npc="男">[nick:ラティ]「あいつ猫大好きだから。[page]
 [nick:イリア]「で、どうなったの？[page]
 [nick:ラティ]「ムリムリ。普通やる前にそう思うはずなのに、あいつどっか抜けてるから。[page]
 [nick:イリア]「あら、でもそういうのいいじゃない？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 4">[end]</sn:pointer>
+<sn:pointer id="22" window="0" trigger="talk 4" npc="男">[end]</sn:pointer>
 
 <sn:pointer id="23" window="0" trigger="talk 5">[nick:シウス]「こんな所さっさと行こうぜ。[page]
 [end]</sn:pointer>
@@ -94,38 +94,38 @@
 <sn:pointer id="28" window="0" trigger="talk 1">[nick:ミリー]「ネコちゃん？君の名前は[nick:ペリシー]だよ〜。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 16">男「二人連れ[speed][0x5]？[speed][0x0]う〜ん、もっと北の大きな町[speed][0xa]・・・[speed][0x0][color][0x4]ポートミス[color][0x2]や[color][0x4]ホット[color][0x2]では聞いてみたのかい？[page]
+<sn:pointer id="29" window="0" trigger="talk 16" npc="男">男「二人連れ[speed][0x5]？[speed][0x0]う〜ん、もっと北の大きな町[speed][0xa]・・・[speed][0x0][color][0x4]ポートミス[color][0x2]や[color][0x4]ホット[color][0x2]では聞いてみたのかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 16">男「この村で採れた果物は世界中で高値で売買されているんだ。[page]
+<sn:pointer id="30" window="0" trigger="talk 16" npc="男">男「この村で採れた果物は世界中で高値で売買されているんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 17">男「この辺じゃそんな二人組はみかけなかったなぁ。[page]
+<sn:pointer id="31" window="0" trigger="talk 17" npc="男">男「この辺じゃそんな二人組はみかけなかったなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 17">男「お、旅人だね。プラムアップルはもう食べてみた？[page]
+<sn:pointer id="32" window="0" trigger="talk 17" npc="男">男「お、旅人だね。プラムアップルはもう食べてみた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 18">女「二人組？知らないわね。この村小さいから外から人が来たらすぐにわかるし。[page]
+<sn:pointer id="33" window="0" trigger="talk 18" npc="女">女「二人組？知らないわね。この村小さいから外から人が来たらすぐにわかるし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 18">女「北に行くと[color][0x4]ホット[color][0x2]という町があるのよ。[page]
+<sn:pointer id="34" window="0" trigger="talk 18" npc="女">女「北に行くと[color][0x4]ホット[color][0x2]という町があるのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 19">お婆さん「はて[speed][0xf]、[speed][0x0]洗濯物がなくなってしもうたのぅ。[page]
+<sn:pointer id="35" window="0" trigger="talk 19" npc="お婆さん">お婆さん「はて[speed][0xf]、[speed][0x0]洗濯物がなくなってしもうたのぅ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 20">[nick:ペリシー]「にぁ〜！[page]
+<sn:pointer id="36" window="0" trigger="talk 20" npc="ネコ">[nick:ペリシー]「にぁ〜！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 20">ネコ「にぁ〜！[page]
+<sn:pointer id="37" window="0" trigger="talk 20" npc="ネコ">ネコ「にぁ〜！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 21">町娘エリオット「ステータス画面は1度でいいから見ておいた方がいいわよ。[page]
+<sn:pointer id="38" window="0" trigger="talk 21" npc="町娘エリオット">町娘エリオット「ステータス画面は1度でいいから見ておいた方がいいわよ。[page]
 町娘エリオット「そこにあるタレント画面もね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 22">女の子「ここが[color][0x4]クラートの村[color][0x2]です。[page]
+<sn:pointer id="39" window="0" trigger="talk 22" npc="女の子">女の子「ここが[color][0x4]クラートの村[color][0x2]です。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="40" window="0" trigger="search">[nick:ペリシー]「それあたしぃの。返してっ！！[page]

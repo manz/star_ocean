@@ -38,7 +38,7 @@
 <sn:pointer id="9" window="8" trigger="tile 40">「死の罠に気をつけろ・・・。」[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">トライアの一人「よく来たの・・・。
+<sn:pointer id="10" window="0" trigger="talk 17" npc="トライアの一人">トライアの一人「よく来たの・・・。
 たのしんでくれたまえ・・・。[page]
 トライアの一人「動かせる石像は重要かもしれんぞ・・・。[page]
 [end]</sn:pointer>
@@ -79,7 +79,7 @@
 <sn:pointer id="22" window="0" trigger="talk 32">「空っぽだ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 35">冒険者クマ「き、気をつけろ・・・。[page]
+<sn:pointer id="23" window="0" trigger="talk 35" npc="冒険者クマ">冒険者クマ「き、気をつけろ・・・。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24" window="8" trigger="talk 40">[end]</sn:pointer>

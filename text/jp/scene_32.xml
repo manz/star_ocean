@@ -48,123 +48,123 @@
 <sn:pointer id="15" window="0" trigger="talk 11">[nick:フィア]「義父もなんとか一命をとりとめることが出来ました。ありがとうございます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 25">ライアス「ゆっくりしていってくれ。[page]
+<sn:pointer id="16" window="0" trigger="talk 25" npc="ライアス">ライアス「ゆっくりしていってくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 25">ライアス「なんだね君たちは勝手に入って来て失礼だとは思わないのかね。[page]
+<sn:pointer id="17" window="0" trigger="talk 25" npc="ライアス">ライアス「なんだね君たちは勝手に入って来て失礼だとは思わないのかね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="1" trigger="talk 16">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="18" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" choice="4" window="1" trigger="talk 16">[mode8][0x20]1技術関連スキルＬＶ3　　5000
+<sn:pointer id="19" choice="4" window="1" trigger="talk 16" npc="ギルドマスター">[mode8][0x20]1技術関連スキルＬＶ3　　5000
 2戦闘関連スキルＬＶ1　　1000
 3戦闘関連スキルＬＶ2　　2000
 4戦闘関連スキルＬＶ3　20000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 16">[mode8][0x0][end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 16">[mode8][0x0]ギルドマスター
+<sn:pointer id="21" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 16">[mode8][0x0]ギルドマスター
+<sn:pointer id="22" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 16">[mode8][0x0]ギルドマスター
+<sn:pointer id="23" window="0" trigger="talk 16" npc="ギルドマスター">[mode8][0x0]ギルドマスター
 「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 17">アドバイザー「あなたは流派スキルのスキルレベルは上げてますか？[page]
+<sn:pointer id="24" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「あなたは流派スキルのスキルレベルは上げてますか？[page]
 アドバイザー「流派スキルのレベルを上げると必殺技のＭＰ消賃量が減るんです。[page]
 アドバイザー「それにまだ秘密があるんですが、それは秘密です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="1" trigger="talk 18">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="25" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" choice="4" window="1" trigger="talk 18">1．技術関連スキルＬＶ3
+<sn:pointer id="26" choice="4" window="1" trigger="talk 18" npc="説明員">1．技術関連スキルＬＶ3
 2．戦闘関連スキルＬＶ1
 3．戦闘関連スキルＬＶ2
 4．戦闘関連スキルＬＶ3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ3の内訳は、
+<sn:pointer id="27" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ3の内訳は、
 科学技術と
 演奏と
 キャストよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 18">説明員「戦闘関連スキルＬＶ1の内訳は、
+<sn:pointer id="28" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ1の内訳は、
 衝撃波と
 真空波と
 めくりよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 18">説明員「戦闘関連スキルＬＶ2の内訳は、
+<sn:pointer id="29" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ2の内訳は、
 反撃と
 フェイントと
 練気よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 18">説明員「戦闘関連スキルＬＶ3の内訳は、
+<sn:pointer id="30" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ3の内訳は、
 オリジナルコンボと
 はやくちよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 19">お母さん「もうちょっとよ！ガマンしなさい。[page]
+<sn:pointer id="32" window="0" trigger="talk 19" npc="お母さん">お母さん「もうちょっとよ！ガマンしなさい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 20">男の子「お腹すいたよー！[page]
+<sn:pointer id="33" window="0" trigger="talk 20" npc="男の子">男の子「お腹すいたよー！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 21">女の子「男は我慢しなさいよ！お母さんお腹すいたよぉ！[page]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="女の子">女の子「男は我慢しなさいよ！お母さんお腹すいたよぉ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 22">博学のロイド「フェザーフォルクって知ってるかい？鳥のような翼を持った、天使みたいな種族のことさ。美男美女揃いなんだってさ。[page]
+<sn:pointer id="35" window="0" trigger="talk 22" npc="博学のロイド">博学のロイド「フェザーフォルクって知ってるかい？鳥のような翼を持った、天使みたいな種族のことさ。美男美女揃いなんだってさ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 23">紋章法術師「私は現在“獣人化現象”について研究中なのだ。リカントロープと呼ばれる種族が極希に存在するのだが彼らは何と人の姿から狼に変身するのだ。なぜだろう？[page]
+<sn:pointer id="36" window="0" trigger="talk 23" npc="紋章法術師">紋章法術師「私は現在“獣人化現象”について研究中なのだ。リカントロープと呼ばれる種族が極希に存在するのだが彼らは何と人の姿から狼に変身するのだ。なぜだろう？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 24">宿屋の主人「よく眠れたかい？[page]
+<sn:pointer id="37" window="0" trigger="talk 24" npc="宿屋の主人">宿屋の主人「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="1" trigger="talk 24">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
+<sn:pointer id="38" window="1" trigger="talk 24" npc="宿屋の主人">宿屋の主人「一泊[color][0x5]30[color][0x2]フォルだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" choice="yes-no" window="1" trigger="talk 24">泊まりますか？[page]
+<sn:pointer id="39" choice="yes-no" window="1" trigger="talk 24" npc="宿屋の主人">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="40" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 24">お金が足りません。[page]
+<sn:pointer id="41" window="0" trigger="talk 24" npc="宿屋の主人">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 24">[nick:イリア]「せっかくライアスさんのことにお世話になってるのに泊まる必要ないでしょ。[page]
+<sn:pointer id="42" window="0" trigger="talk 24" npc="宿屋の主人">[nick:イリア]「せっかくライアスさんのことにお世話になってるのに泊まる必要ないでしょ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="43" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 24" npc="宿屋の主人">[end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 26">殺気の漂う戦士「俺の背後に立つな[speed][0xa]・・・。[speed][0x0]この右腕は自分でも止められないのでな。[page]
+<sn:pointer id="45" window="0" trigger="talk 26" npc="殺気の漂う戦士">殺気の漂う戦士「俺の背後に立つな[speed][0xa]・・・。[speed][0x0]この右腕は自分でも止められないのでな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 27">剣士「魔界大戦の三大功労者の一人といえばまず最初にあがるのがライアス様だ！[page]
+<sn:pointer id="46" window="0" trigger="talk 27" npc="剣士">剣士「魔界大戦の三大功労者の一人といえばまず最初にあがるのがライアス様だ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 28">マスター「知ってるかい？[nick:フィア]様が育ての親であるライアス様をザックリやっちまったらしい。人間てわかんねぇもんだよな。[page]
+<sn:pointer id="47" window="0" trigger="talk 28" npc="マスター">マスター「知ってるかい？[nick:フィア]様が育ての親であるライアス様をザックリやっちまったらしい。人間てわかんねぇもんだよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 28">魔物が人に化けて町の中に入ってくるなんて、安心してられねぇ話だよな。[page]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="マスター">魔物が人に化けて町の中に入ってくるなんて、安心してられねぇ話だよな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49" window="0" trigger="talk 28">マスター「いらっしゃい。[page]
+<sn:pointer id="49" window="0" trigger="talk 28" npc="マスター">マスター「いらっしゃい。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="50" window="0" trigger="start">[nick:フィア]「ウォーレン様！！お客様が見えましたよ！！[page]

@@ -3,16 +3,16 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x50][0x0]ドゥルス[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">レミア「んしょ！んしょ！いっぱい作るんだ♪[page]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="レミア">レミア「んしょ！んしょ！いっぱい作るんだ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 17">若者「今はまだいいが、もし戦いに巻き込まれたらこんな村、一瞬でなくなってしまうだろうな。[page]
+<sn:pointer id="2" window="0" trigger="talk 17" npc="若者">若者「今はまだいいが、もし戦いに巻き込まれたらこんな村、一瞬でなくなってしまうだろうな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 18">少年「リンちゃんち、どこかへ行っちゃった[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="3" window="0" trigger="talk 18" npc="少年">少年「リンちゃんち、どこかへ行っちゃった[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 19">おじさん「そこの家は今は誰もおらんよ。[page]
+<sn:pointer id="4" window="0" trigger="talk 19" npc="おじさん">おじさん「そこの家は今は誰もおらんよ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="5" window="0" trigger="start">母親「レミア、もう家に入りなさい。[page]

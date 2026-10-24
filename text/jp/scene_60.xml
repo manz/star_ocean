@@ -6,84 +6,84 @@
 <sn:pointer id="1" window="speaker" trigger="start">[pos][0x28][0x0]ヴァン・イ・イル城門[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16 talk 17">衛兵「入ってよし。[page]
+<sn:pointer id="2" window="0" trigger="talk 16 talk 17" npc="衛兵">衛兵「入ってよし。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16 talk 17">衛兵「用のないやつは、来るな。[page]
+<sn:pointer id="3" window="0" trigger="talk 16 talk 17" npc="衛兵">衛兵「用のないやつは、来るな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 18">ヴァン国王「各国の王と謁見を済ませたら必ず戻ってくるのだぞ。[page]
+<sn:pointer id="4" window="0" trigger="talk 18" npc="ヴァン国王">ヴァン国王「各国の王と謁見を済ませたら必ず戻ってくるのだぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 18">ヴァン国王「[color][0x6]真実の瞳[color][0x2]を無事もって帰ることを析っておるぞ。[page]
+<sn:pointer id="5" window="0" trigger="talk 18" npc="ヴァン国王">ヴァン国王「[color][0x6]真実の瞳[color][0x2]を無事もって帰ることを析っておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">ヴァン国王「人々の平和はそなたらの手にかかっておるぞ。がんばってくれ[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="ヴァン国王">ヴァン国王「人々の平和はそなたらの手にかかっておるぞ。がんばってくれ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">大臣「[color][0x6]真実の瞳[color][0x2]については無用の混乱を避ける為、内密にお願いいたしますぞ。[page]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="大臣">大臣「[color][0x6]真実の瞳[color][0x2]については無用の混乱を避ける為、内密にお願いいたしますぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">王妃「あなたたちの行く末に光が見えますよう析っています。[page]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="王妃">王妃「あなたたちの行く末に光が見えますよう析っています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 22">興奮ぎみの学者「僕は種族について研究しています。レッサーフェルプールという極めてネコに近い種族が現在でも存在しているらしいです。[speed][0xa]・・・[speed][0x0]ネコ耳[speed][0xa]・・・[speed][0x0]み、見たい[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="9" window="0" trigger="talk 22" npc="興奮ぎみの学者">興奮ぎみの学者「僕は種族について研究しています。レッサーフェルプールという極めてネコに近い種族が現在でも存在しているらしいです。[speed][0xa]・・・[speed][0x0]ネコ耳[speed][0xa]・・・[speed][0x0]み、見たい[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 23">宮廷絵師「魂を込めた絵はそれ自体が魔力を持つようになる。ちなみにワシは欲しいものがあったら自分で描いてしまう。買うより楽だからな。わっはっは！[page]
+<sn:pointer id="10" window="0" trigger="talk 23" npc="宮廷絵師">宮廷絵師「魂を込めた絵はそれ自体が魔力を持つようになる。ちなみにワシは欲しいものがあったら自分で描いてしまう。買うより楽だからな。わっはっは！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 24">衛兵「剣を志す者にとってハイランダーはうらやましい存在ですよね。生れつき才能があるなんて、いいなぁ。[page]
+<sn:pointer id="11" window="0" trigger="talk 24" npc="衛兵">衛兵「剣を志す者にとってハイランダーはうらやましい存在ですよね。生れつき才能があるなんて、いいなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 25">紋章使い「最近捕えた魔物から得た情報ですが、魔界の王アスモデウスが恐ろしい兵器を造っているとか。ムーア大陸のほうで爆発が起こったときはドキッとしましたよ。あれはあれでまた謎の事件ですけど。[page]
+<sn:pointer id="12" window="0" trigger="talk 25" npc="紋章使い">紋章使い「最近捕えた魔物から得た情報ですが、魔界の王アスモデウスが恐ろしい兵器を造っているとか。ムーア大陸のほうで爆発が起こったときはドキッとしましたよ。あれはあれでまた謎の事件ですけど。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 26">紋章使い「兵器か[speed][0xa]・・・[speed][0x0]こちらも決定打に欠ける所だしな[speed][0xa]・・・。[speed][0x0]せめて魔界に突入できれば[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="13" window="0" trigger="talk 26" npc="紋章使い">紋章使い「兵器か[speed][0xa]・・・[speed][0x0]こちらも決定打に欠ける所だしな[speed][0xa]・・・。[speed][0x0]せめて魔界に突入できれば[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 27">賢者リッド「魔界の入口は現在こちらからは自由に開く方法がないんです。魔界側は自由に開いてくるんですが[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="14" window="0" trigger="talk 27" npc="賢者リッド">賢者リッド「魔界の入口は現在こちらからは自由に開く方法がないんです。魔界側は自由に開いてくるんですが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 28">メイド「最近はみんなの話題が暗くてやんなっちゃうわ。[page]
+<sn:pointer id="15" window="0" trigger="talk 28" npc="メイド">メイド「最近はみんなの話題が暗くてやんなっちゃうわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 29">メイドのジュリオ「ロイドと私って名前があるお話の主人公とヒロインに似てるってことで意気投合しちゃって付き合い出したの。[speed][0xa]・・・[speed][0x0]変？[page]
+<sn:pointer id="16" window="0" trigger="talk 29" npc="メイドのジュリオ">メイドのジュリオ「ロイドと私って名前があるお話の主人公とヒロインに似てるってことで意気投合しちゃって付き合い出したの。[speed][0xa]・・・[speed][0x0]変？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 29">メイドのジュリオ「おおロイド！あなたはどうしてロイドなの？[page]
+<sn:pointer id="17" window="0" trigger="talk 29" npc="メイドのジュリオ">メイドのジュリオ「おおロイド！あなたはどうしてロイドなの？[page]
 衛兵ロイド「おおジュリオ！いまそこへ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="1" trigger="talk 29">上司「コラッ！持ち場を離れて何やっとるか！さっさとこっちへこい！[page]
+<sn:pointer id="18" window="1" trigger="talk 29" npc="メイドのジュリオ">上司「コラッ！持ち場を離れて何やっとるか！さっさとこっちへこい！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 29">衛兵ロイド「すっすいません！[page]
+<sn:pointer id="19" window="0" trigger="talk 29" npc="メイドのジュリオ">衛兵ロイド「すっすいません！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="1" trigger="talk 29">メイドのジュリオ「ああっ！行かないで！ロイドぉ〜〜っ！！[page]
+<sn:pointer id="20" window="1" trigger="talk 29" npc="メイドのジュリオ">メイドのジュリオ「ああっ！行かないで！ロイドぉ〜〜っ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 29">ロイド「待っててくれ、ジュリオ！必ず行くから！[page]
+<sn:pointer id="21" window="0" trigger="talk 29" npc="メイドのジュリオ">ロイド「待っててくれ、ジュリオ！必ず行くから！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 29">上司「コラ！[page]
+<sn:pointer id="22" window="0" trigger="talk 29" npc="メイドのジュリオ">上司「コラ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 30">兵士「さぼってます。誰にも言わないでね。[page]
+<sn:pointer id="23" window="0" trigger="talk 30" npc="兵士">兵士「さぼってます。誰にも言わないでね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 40">飾り気のない娘「タレントってなんのことか知ってる？これは要するに“才能”ってことよね。[page]
+<sn:pointer id="24" window="0" trigger="talk 40" npc="飾り気のない娘">飾り気のない娘「タレントってなんのことか知ってる？これは要するに“才能”ってことよね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 41">悩める剣士エルダー「今、この剣をカスタマイズするかどうか悩んでます。失敗したらガラクタになっちゃうんですよ？勇気がいりますよ、これは。[page]
+<sn:pointer id="25" window="0" trigger="talk 41" npc="悩める剣士エルダー">悩める剣士エルダー「今、この剣をカスタマイズするかどうか悩んでます。失敗したらガラクタになっちゃうんですよ？勇気がいりますよ、これは。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 42">傷心のエノル「君は10回プレゼントをもらったらその分だけその人を好きになれるかい？[speed][0x1e]・・・[speed][0x0]そんなわけないよな。[page]
+<sn:pointer id="26" window="0" trigger="talk 42" npc="傷心のエノル">傷心のエノル「君は10回プレゼントをもらったらその分だけその人を好きになれるかい？[speed][0x1e]・・・[speed][0x0]そんなわけないよな。[page]
 傷心のエノル「やっぱり、一緒に過ごした時間、互いの理解が重要なんじゃないかと思うんだよ。ああ、早くそのことに気がついていたら・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 43">賢者ヴァンク「映し出されたものとそっくりな複製を現実に作り出してしまうという不思議な臆があったらしいですね。[page]
+<sn:pointer id="27" window="0" trigger="talk 43" npc="賢者ヴァンク">賢者ヴァンク「映し出されたものとそっくりな複製を現実に作り出してしまうという不思議な臆があったらしいですね。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="28" window="0" trigger="start">衛兵「なんだお前たちは？城に入りたいなら用件を言ってみろ。[page]

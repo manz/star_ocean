@@ -49,34 +49,34 @@ Nous n'avons pas le choix. Et nous n'avons aucune connaissance pour nous introdu
 [speed][0xa]...[speed][0x0] Tu dois avoir raison.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Bienvenue dans la ville fortifiée de Van ! Son vrai nom est Van I Il, mais c'est difficile à prononcer, personne ne l'appelle comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 17">Jeune homme[br]
+<sn:pointer id="10" window="0" trigger="talk 17" npc="Jeune homme">Jeune homme[br]
 Le château de Van I Il[speed][0xa]...[speed][0x0] Van, pour faire court[speed][0xa]...[speed][0x0] On dirait un nom d'instrument, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 18">Leeza[br]
+<sn:pointer id="11" window="0" trigger="talk 18" npc="Leeza">Leeza[br]
 C'est la saison où les feuilles se mettent à danser[speed][0xa]...[speed][0x0]
 Et au sol, elles s'accumulent une à une[speed][0xa]...[speed][0x0]
 Tout comme le font mes pensées.[speed][0xa]...[speed][0x0]
 Eh oui, je suis une poétesse.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 19">Jeune homme patibulaire[br]
+<sn:pointer id="12" window="0" trigger="talk 19" npc="Jeune homme patibulaire">Jeune homme patibulaire[br]
 Tu veux ma photo ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">Garde[br]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="Garde">Garde[br]
 Il semblerait que le roi de Van soit préoccupé par la lutte contre l'influence du monde démoniaque depuis des années.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 21">Fille[br]
+<sn:pointer id="14" window="0" trigger="talk 21" npc="Fille">Fille[br]
 Bob n'est qu'un crétin[speed][0xa]...[speed][0x0] Il est allé faire de sales commentaires quand il a rencontré mes parents.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 22">Elina[br]
+<sn:pointer id="15" window="0" trigger="talk 22" npc="Elina">Elina[br]
 Recherchez-vous de bons ingrédients pour de la bonne cuisine ?[page]
 [end]</sn:pointer>
 
@@ -158,7 +158,7 @@ Tu n'es pas très cohérent. N'as-tu pas répondu que tu suivais la voie de l'é
 [speed][0xa]...[speed][0x0] Bon sang, j'en ai ma claque.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 23">Vendeur itinérant[br]
+<sn:pointer id="35" window="0" trigger="talk 23" npc="Vendeur itinérant">Vendeur itinérant[br]
 Je suis un vendeur itinérant. Quelque chose vous intéresse ?[page]
 [end]</sn:pointer>
 

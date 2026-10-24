@@ -26,20 +26,20 @@
 <sn:pointer id="7" window="0" trigger="start">マルトス「[speed][0x1][nick:ミリー]！！[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">マルトス「来るなと言ったろう！[page]
+<sn:pointer id="8" window="0" trigger="talk 16" npc="マルトス">マルトス「来るなと言ったろう！[page]
 [nick:ミリー]「でも・・・[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 18">老人「若者は少なくなるばかり。この村もどうなるのか・・・。[page]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="老人">老人「若者は少なくなるばかり。この村もどうなるのか・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 19">子供「お父さん、今度はなに買ってきてくれるのかしら。[page]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="子供">子供「お父さん、今度はなに買ってきてくれるのかしら。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">子供「早く明日にならないかなぁ。[page]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="子供">子供「早く明日にならないかなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 21">妻「明日、夫が出稼ぎから帰ってくるんです。半年ぶりなんですよ。[page]
+<sn:pointer id="12" window="0" trigger="talk 21" npc="妻">妻「明日、夫が出稼ぎから帰ってくるんです。半年ぶりなんですよ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="13" window="0" trigger="talk 22">[nick:ラティ]

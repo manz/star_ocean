@@ -107,7 +107,7 @@
 <sn:pointer id="30" window="0" trigger="start">[mode8][0x18][nick:ミリー]「[speed][0x1e]ぁぁぁぁぁぁぁぁぁぁ・・・[speed][0x0][page]
 [mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 22">転送士官「ここは、転送室です。
+<sn:pointer id="31" window="0" trigger="talk 22" npc="転送士官">転送士官「ここは、転送室です。
 ある程度の大きさまでなら、
 10万キロ以内に転送可能です。[page]
 [end]</sn:pointer>

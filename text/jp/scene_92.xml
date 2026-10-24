@@ -3,13 +3,13 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x30][0x0]七星の遺跡地下[var][0x80][0x36]階[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 36">Ｋ「ユウちゃん・・・おれにかまわず先に行ってくれ・・・。[page]
+<sn:pointer id="1" window="0" trigger="talk 36" npc="Ｋ">Ｋ「ユウちゃん・・・おれにかまわず先に行ってくれ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 37">冒険者ピロン「うう、戻りたいけど戻れない・・・。[page]
+<sn:pointer id="2" window="0" trigger="talk 37" npc="冒険者ピロン">冒険者ピロン「うう、戻りたいけど戻れない・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 38">冒険者ユウ「うう、この人についてきたのがまちがいだった・・・。[page]
+<sn:pointer id="3" window="0" trigger="talk 38" npc="冒険者ユウ">冒険者ユウ「うう、この人についてきたのがまちがいだった・・・。[page]
 [end][0x80]</sn:pointer>
 
 </sn:script>

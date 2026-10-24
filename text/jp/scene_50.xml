@@ -26,46 +26,46 @@
 [nick:ロニキス]「わかりました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">シルヴァラント国王「ついにアスモデウスを剖す時が来たのだな。期待しておるぞ。[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="シルヴァラント国王">シルヴァラント国王「ついにアスモデウスを剖す時が来たのだな。期待しておるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">大臣「頑張って下さい。[page]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="大臣">大臣「頑張って下さい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">王妃「くれぐれもご無理はなさらぬように[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="王妃">王妃「くれぐれもご無理はなさらぬように[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">学者「[color][0x4]シルヴァラント[color][0x2]から更に北に行くと旧異種族の遺跡があるはずなんだが、私じゃ危険でとても行けない[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="学者">学者「[color][0x4]シルヴァラント[color][0x2]から更に北に行くと旧異種族の遺跡があるはずなんだが、私じゃ危険でとても行けない[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 23">老賢者「もと宮廷紋章術師のジェランド様は魔界大戦中のゴタゴタにまきこまれて殺されてしまった。我々は惜しい人物を亡くしてしまったよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="10" window="0" trigger="talk 23" npc="老賢者">老賢者「もと宮廷紋章術師のジェランド様は魔界大戦中のゴタゴタにまきこまれて殺されてしまった。我々は惜しい人物を亡くしてしまったよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 24">騎士ゼル「最近魔物の動向が静かなんです。何かの前触れでしょうか？[page]
+<sn:pointer id="11" window="0" trigger="talk 24" npc="騎士ゼル">騎士ゼル「最近魔物の動向が静かなんです。何かの前触れでしょうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 25">騎士クルト「最近魔界の軍勢が攻めてこないのは弾がなくなったんじゃないのか？[page]
+<sn:pointer id="12" window="0" trigger="talk 25" npc="騎士クルト">騎士クルト「最近魔界の軍勢が攻めてこないのは弾がなくなったんじゃないのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 26">若い兵士「今日やっと久しぶりに家に帰れますよ。ずっと泊まり込みだったからなぁ。[page]
+<sn:pointer id="13" window="0" trigger="talk 26" npc="若い兵士">若い兵士「今日やっと久しぶりに家に帰れますよ。ずっと泊まり込みだったからなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 27">賢者ピロン「言い伝えではこの世界にはもともとルーンと呼ばれる魔法生命体しか住んでいなかったとか[speed][0xa]・・・。[speed][0x0]それじゃあ私たちの先祖はどこから来たんでしょう？ちなみに旧異種族は尾は無かったそうです。[page]
+<sn:pointer id="14" window="0" trigger="talk 27" npc="賢者ピロン">賢者ピロン「言い伝えではこの世界にはもともとルーンと呼ばれる魔法生命体しか住んでいなかったとか[speed][0xa]・・・。[speed][0x0]それじゃあ私たちの先祖はどこから来たんでしょう？ちなみに旧異種族は尾は無かったそうです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 28">衛兵トーク「仕様[speed][0xa]・・・[speed][0x0]いい言葉だぁ♥[page]
+<sn:pointer id="15" window="0" trigger="talk 28" npc="衛兵トーク">衛兵トーク「仕様[speed][0xa]・・・[speed][0x0]いい言葉だぁ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 29">衛兵ヤーマ「やっぱ1年じゃ短かすぎるよ。2年ほしいよなぁ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="16" window="0" trigger="talk 29" npc="衛兵ヤーマ">衛兵ヤーマ「やっぱ1年じゃ短かすぎるよ。2年ほしいよなぁ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 22">宮廷紋章術師「ジェランド殿を超えるような立派な宮廷紋章術師を目指しています。[page]
+<sn:pointer id="17" window="0" trigger="talk 22" npc="宮廷紋章術師">宮廷紋章術師「ジェランド殿を超えるような立派な宮廷紋章術師を目指しています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 30">男「宝石細工でその他装備のアクセサリーなんかを作ることができるらしいよ。試してみた？[page]
+<sn:pointer id="18" window="0" trigger="talk 30" npc="男">男「宝石細工でその他装備のアクセサリーなんかを作ることができるらしいよ。試してみた？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 31">画家ジョン「ひそかに便利なアート。[speed][0x1e]・・・[speed][0x0]秘密だ！
+<sn:pointer id="19" window="0" trigger="talk 31" npc="画家ジョン">画家ジョン「ひそかに便利なアート。[speed][0x1e]・・・[speed][0x0]秘密だ！
 ちょっと根性が必要だけど・・・。[page]
 [end]</sn:pointer>
 
@@ -112,11 +112,11 @@
 <sn:pointer id="28" window="0" trigger="talk 9">皇龍奥義を覚えました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 36">学者「私が調べた所によりますと、この世界の創造神が住むという異世界があるらしいです。
+<sn:pointer id="29" window="0" trigger="talk 36" npc="学者">学者「私が調べた所によりますと、この世界の創造神が住むという異世界があるらしいです。
 “オラクルルーム”という名前らしいのですが[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 35">学者カノイ「シルヴァラントから束の方へ行くと岩壁の裂け目に遺跡への入り口があるらしい。[page]
+<sn:pointer id="30" window="0" trigger="talk 35" npc="学者カノイ">学者カノイ「シルヴァラントから束の方へ行くと岩壁の裂け目に遺跡への入り口があるらしい。[page]
 [end][0xff]</sn:pointer>
 
 </sn:script>

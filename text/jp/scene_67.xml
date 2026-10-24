@@ -303,26 +303,26 @@
 [nick:ヨシュア]「それは僕だって同じです。もしかしたら[speed][0xa]・・・[speed][0x0]という話ですから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="82" window="0" trigger="talk 17">女の子「秋よねぇ[speed][0xa]・・・。[speed][0x0]ちょっとセンチメンタル♥[page]
+<sn:pointer id="82" window="0" trigger="talk 17" npc="女の子">女の子「秋よねぇ[speed][0xa]・・・。[speed][0x0]ちょっとセンチメンタル♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" window="0" trigger="talk 18">冒険者メイアー「これから[color][0x4]タトローイ[color][0x2]に行くつもりです。目的はもちろん闘技場！がんばるぞぉ！[page]
+<sn:pointer id="83" window="0" trigger="talk 18" npc="冒険者メイアー">冒険者メイアー「これから[color][0x4]タトローイ[color][0x2]に行くつもりです。目的はもちろん闘技場！がんばるぞぉ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 19">しみじみな男「がんばれば報われるんだって、最近さとりましたよ。才能無いってあきらめたら絆わりですよね[speed][0xa]・・・[speed][0x0]。[page]
+<sn:pointer id="84" window="0" trigger="talk 19" npc="しみじみな男">しみじみな男「がんばれば報われるんだって、最近さとりましたよ。才能無いってあきらめたら絆わりですよね[speed][0xa]・・・[speed][0x0]。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 20">若い娘「あそこでしみじみしてる男の人、なんか最近目覚めたらしいわよ。[page]
+<sn:pointer id="85" window="0" trigger="talk 20" npc="若い娘">若い娘「あそこでしみじみしてる男の人、なんか最近目覚めたらしいわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 21">賢者サーク「[speed][0x1e]・・・[speed][0x0]せっかくオリハルコンを入手したのに細工に失敗してなくなっちゃいました・・・。[page]
+<sn:pointer id="86" window="0" trigger="talk 21" npc="賢者サーク">賢者サーク「[speed][0x1e]・・・[speed][0x0]せっかくオリハルコンを入手したのに細工に失敗してなくなっちゃいました・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 22">ルルー「サンタさんって本当にいるの？
+<sn:pointer id="87" window="0" trigger="talk 22" npc="ルルー">ルルー「サンタさんって本当にいるの？
 マクラもとにクツをおいて寝たらプレゼントくれるかなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="0" trigger="talk 23">女の子「ここは港町[color][0x4]イオニス[color][0x2]です。[page]
+<sn:pointer id="88" window="0" trigger="talk 23" npc="女の子">女の子「ここは港町[color][0x4]イオニス[color][0x2]です。[page]
 [end]</sn:pointer>
 
 </sn:script>

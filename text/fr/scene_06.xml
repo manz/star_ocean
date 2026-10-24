@@ -67,18 +67,18 @@ Cette boîte à musique est un
 souvenir de la sœur de [nick:ドーン].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">Mère[br]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="Mère">Mère[br]
 Tu es réveillé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">Mère[br]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="Mère">Mère[br]
 Sois prudent, [nick:ラティ].[page]
 [nick:ラティ][br]
 Je t'ai dit que ça se passerait bien.
 Je vais faire de mon mieux, pour papa.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 17">[nick:ラティ][br]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="Mère">[nick:ラティ][br]
 Maman, Mme Fraise m'a dit
 qu'elle avait des légumes frais.[page]
 Mère[br]
@@ -86,31 +86,31 @@ Ah oui ?
 Alors je vais aller la voir de suite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 17">Mère[br]
+<sn:pointer id="19" window="0" trigger="talk 17" npc="Mère">Mère[br]
 D'accord, on y va.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 17">Mère[br]
+<sn:pointer id="20" window="0" trigger="talk 17" npc="Mère">Mère[br]
 Lesquels devrais-je prendre...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 18">Armurier[br]
+<sn:pointer id="21" window="0" trigger="talk 18" npc="Armurier">Armurier[br]
 Puisque vous assurez la sécurité
 de la ville,[page]
 vous devez être armés
 en permanence.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 18">[nick:ドーン][br]
+<sn:pointer id="22" window="0" trigger="talk 18" npc="Armurier">[nick:ドーン][br]
 Oui, je sais.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 19">Membre de la brigade de Clatos[br]
+<sn:pointer id="23" window="0" trigger="talk 19" npc="Membre de la brigade de Clatos">Membre de la brigade de Clatos[br]
 C'est au tour de [nick:ドーン] et des
 autres de patrouiller aujourd'hui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 20">Membre de la brigade de Clatos[br]
+<sn:pointer id="24" window="0" trigger="talk 20" npc="Membre de la brigade de Clatos">Membre de la brigade de Clatos[br]
 Oh, [nick:ミリー]. Tu es ravissante,
 comme toujours.[page]
 [nick:ミリー][br]
@@ -138,29 +138,29 @@ Elle passe ses journées à jouer
 au détriment de ses études de magie.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">Mme Fraise, épicière[br]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="Mme Fraise">Mme Fraise, épicière[br]
 [nick:ラティ], va dire à ta mère
 que j'ai un arrivage de légumes.[page]
 [nick:ラティ][br]
 Pas de soucis ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 22">[nick:ドーン][br]
+<sn:pointer id="28" window="0" trigger="talk 22" npc="Mme Fraise">[nick:ドーン][br]
 Avez-vous des mûres ?[page]
 Mme Fraise[br]
 Je ne crois pas en avoir encore reçu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 22">Mme Fraise[br]
+<sn:pointer id="29" window="0" trigger="talk 22" npc="Mme Fraise">Mme Fraise[br]
 Bienvenue !
 Prends ton temps ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 23">Quincailler[br]
+<sn:pointer id="30" window="0" trigger="talk 23" npc="Quincailler">Quincailler[br]
 Nous apprécions vos efforts.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="1" trigger="talk 24">Vendeuse[br]
+<sn:pointer id="31" window="1" trigger="talk 24" npc="Sophia">Vendeuse[br]
 J'aimerais apprendre à cuisiner,
 mais j'aime aussi l'orfèvrerie.[page]
 J'aimerais essayer de faire de la
@@ -168,11 +168,11 @@ musique un jour, mais je ne pense
 pas être douée pour ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" choice="2" window="1" trigger="talk 24">1. L'encourager[br]
+<sn:pointer id="32" choice="2" window="1" trigger="talk 24" npc="Sophia">1. L'encourager[br]
 2. La laisser tranquille[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 24">[nick:ミリー][br]
+<sn:pointer id="33" window="0" trigger="talk 24" npc="Sophia">[nick:ミリー][br]
 Ça ne te ressemble pas de baisser
 les bras.[page]
 Tu y arriveras en t'entraînant
@@ -183,7 +183,7 @@ Sophia[br]
 Oui... Merci, [nick:ミリー].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 24">[nick:ラティ][br]
+<sn:pointer id="34" window="0" trigger="talk 24" npc="Sophia">[nick:ラティ][br]
 Ça ne te ressemble pas de baisser
 les bras.[page]
 En t'entraînant sans relâche,
@@ -193,7 +193,7 @@ Sophia[br]
 Oui... Merci, [nick:ラティ].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 24" npc="Sophia">[end]</sn:pointer>
 
 <sn:pointer id="36" window="0" trigger="start">[nick:ドーン][br]
 Bon sang, c'est calme comme coin.[page]

@@ -21,80 +21,80 @@
 <sn:pointer id="6" window="speaker" trigger="start">[pos][0x56][0x0]道具屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="1" trigger="talk 16">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="7" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" choice="4" window="1" trigger="talk 16">1技術関連スキルＬＶ1　　600
+<sn:pointer id="8" choice="4" window="1" trigger="talk 16" npc="ギルドマスター">1技術関連スキルＬＶ1　　600
 2技術関連スキルＬＶ2　1200
 3技術関連スキルＬＶ3　5000
 4戦闘関連スキルＬＶ2　2000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 16" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 16">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="10" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 16">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 16">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="12" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 17">アドバイザー「ナゾのパラメータＳＴＭ。これはキャラクターのスタミナを表しており、高いほど戦闘絆了時にＨＰ、ＭＰが自動的に回復しやすくなります。[page]
+<sn:pointer id="13" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「ナゾのパラメータＳＴＭ。これはキャラクターのスタミナを表しており、高いほど戦闘絆了時にＨＰ、ＭＰが自動的に回復しやすくなります。[page]
 アドバイザー「戦闘中はなんらかの行動を取ることでスタミナは減っていきます。つまり戦闘絆了時により多くＨＰ、ＭＰを回復させたかったらその人は休んでいればいいんです。[page]
 アドバイザー「別に、スタミナが切れたから動けなくなるということはありませんから安心してくださいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="1" trigger="talk 18">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="14" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" choice="4" window="1" trigger="talk 18">1．技術関連スキルＬＶ1
+<sn:pointer id="15" choice="4" window="1" trigger="talk 18" npc="説明員">1．技術関連スキルＬＶ1
 2．技術関連スキルＬＶ2
 3．技術関連スキルＬＶ3
 4．戦闘関連スキルＬＶ2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ1の内訳は、
+<sn:pointer id="16" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ1の内訳は、
 ダッシュと
 ほうちょうと
 デッサンと
 口笛よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ2の内訳は、
+<sn:pointer id="17" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ2の内訳は、
 クラフトと
 文筆と
 調教よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ3の内訳は、
+<sn:pointer id="18" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ3の内訳は、
 科学技術と
 演奏と
 キャストよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 18">説明員「戦闘関連スキルＬＶ2の内訳は、
+<sn:pointer id="19" window="0" trigger="talk 18" npc="説明員">説明員「戦闘関連スキルＬＶ2の内訳は、
 反撃と
 フェイントと
 練気よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 19">恰幅のいい女将「よく眠れたかい？[page]
+<sn:pointer id="21" window="0" trigger="talk 19" npc="恰幅のいい女将">恰幅のいい女将「よく眠れたかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" choice="yes-no" window="1" trigger="talk 19">恰幅のいい女将「いらっしゃい。
+<sn:pointer id="22" choice="yes-no" window="1" trigger="talk 19" npc="恰幅のいい女将">恰幅のいい女将「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルだよ。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="23" window="0" trigger="talk 19" npc="恰幅のいい女将">[end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 19">お金が足りません。[page]
+<sn:pointer id="24" window="0" trigger="talk 19" npc="恰幅のいい女将">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="25" window="0" trigger="talk 19" npc="恰幅のいい女将">[end]</sn:pointer>
 
 <sn:pointer id="26" window="0" trigger="start">[nick:イリア]「艦長はヴァン国王の話、どう思いますか？[page]
 [nick:ロニキス]「[speed][0xa]・・・・[speed][0x0]神か[speed][0xa]・・・・。[speed][0x0][page]
@@ -174,34 +174,34 @@
 [nick:ラティ]「はい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 21">おばさん「ヴァンはとても歴史の古い国なんですよ。[page]
+<sn:pointer id="42" window="0" trigger="talk 21" npc="おばさん">おばさん「ヴァンはとても歴史の古い国なんですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 22">剣士「魔物は[color][0x4]シルヴァラント[color][0x2]より更に先からやってくるとか[speed][0xa]・・・。[speed][0x0]たぶんそっちに魔界の入口があるんでしょうね。[page]
+<sn:pointer id="43" window="0" trigger="talk 22" npc="剣士">剣士「魔物は[color][0x4]シルヴァラント[color][0x2]より更に先からやってくるとか[speed][0xa]・・・。[speed][0x0]たぶんそっちに魔界の入口があるんでしょうね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 23">娘「あした[color][0x4]シルヴァラント[color][0x2]から彼氏が帰ってくるの♪腕によりをかけて料理しちゃうわ♥[page]
+<sn:pointer id="44" window="0" trigger="talk 23" npc="娘">娘「あした[color][0x4]シルヴァラント[color][0x2]から彼氏が帰ってくるの♪腕によりをかけて料理しちゃうわ♥[page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 24">老婆「ヘックシ！[speed][0xa]・・・[speed][0x0]あらやだ。[page]
+<sn:pointer id="45" window="0" trigger="talk 24" npc="老婆">老婆「ヘックシ！[speed][0xa]・・・[speed][0x0]あらやだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 25">冒険者ジル「[color][0x4]シルヴァラント[color][0x2]にはヴァン国王の許可が無いと行けません。行っても途中に挟問があって追い返されますよ。[page]
+<sn:pointer id="46" window="0" trigger="talk 25" npc="冒険者ジル">冒険者ジル「[color][0x4]シルヴァラント[color][0x2]にはヴァン国王の許可が無いと行けません。行っても途中に挟問があって追い返されますよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 26">傭兵「くそっ！いつのまにあんなところに挟問ができたんだ？聞いてねぇぞ！[page]
+<sn:pointer id="47" window="0" trigger="talk 26" npc="傭兵">傭兵「くそっ！いつのまにあんなところに挟問ができたんだ？聞いてねぇぞ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 27">老人「ほう、これはいい武器じゃな。[speed][0xa]・・・[speed][0x0]ん？ワシは昔、鍛冶師をしとったんじゃよ。[page]
+<sn:pointer id="48" window="0" trigger="talk 27" npc="老人">老人「ほう、これはいい武器じゃな。[speed][0xa]・・・[speed][0x0]ん？ワシは昔、鍛冶師をしとったんじゃよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49" window="0" trigger="talk 28">オヤジ「少しでもいい物がほしいならここで買ってってくれ。[page]
+<sn:pointer id="49" window="0" trigger="talk 28" npc="オヤジ">オヤジ「少しでもいい物がほしいならここで買ってってくれ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="50" window="0" trigger="talk 29">マスター「いらっしゃい。[page]
+<sn:pointer id="50" window="0" trigger="talk 29" npc="マスター">マスター「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51" window="0" trigger="talk 30">はき物屋ビクトル「いらっしゃい。[page]
+<sn:pointer id="51" window="0" trigger="talk 30" npc="はき物屋ビクトル">はき物屋ビクトル「いらっしゃい。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="52" window="0" trigger="talk 5">[nick:シウス]「こうやって物色してると結構面白いもんだな。[page]

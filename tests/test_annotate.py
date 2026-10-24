@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import xml.etree.ElementTree as ET
 
-from tools.annotate import annotate, choice, menu_counts, scene_usage, trigger_name
+from tools.annotate import annotate, choice, labels, menu_counts, scene_usage, trigger_name
 from tools.rom import ROOT
 from tools.scene_script import scene_data
 from tools.scene_walk import walk
@@ -22,11 +22,20 @@ def test_annotations_are_up_to_date() -> None:
 
 
 def test_portmith_pirate_menu() -> None:
-    assert attributes(25, 49) == {"choice": "3", "window": "1", "trigger": "talk 20"}
+    assert attributes(25, 49) == {"choice": "3", "window": "1", "trigger": "talk 20", "npc": "Ben le Marin"}
 
 
-def test_japanese_carries_the_same_attributes() -> None:
-    assert attributes(25, 49, "jp") == attributes(25, 49)
+def test_japanese_names_the_npc_in_japanese() -> None:
+    assert attributes(25, 49, "jp") == attributes(25, 49) | {"npc": "船乗りベン"}
+
+
+def test_french_labels_skip_party_members_and_unknowns() -> None:
+    text = "Ben le Marin[br]\nAhoy ![page]\n[nick:ラティ][br]\nSalut.[page]\n???[br]\nQui ?[page]\n[end]"
+    assert labels(text, japanese=False) == ["Ben le Marin"]
+
+
+def test_japanese_label_is_the_name_before_the_quote() -> None:
+    assert labels("船乗りベン「よう。[page]\n[nick:ラティ]「うん。[page]\n[end]", japanese=True) == ["船乗りベン"]
 
 
 def test_a_question_is_yes_no() -> None:

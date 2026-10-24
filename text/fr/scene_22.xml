@@ -258,35 +258,35 @@ Oh, elles sont jolies ces boucles d'oreilles ![page]
 Les filles de son âge sont comme ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="57" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="57" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Oh, ces boucles-là ? C'est du toc. Allez-y, prenez-les.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="58" window="1" trigger="talk 16">Badam[br]
+<sn:pointer id="58" window="1" trigger="talk 16" npc="Badam">Badam[br]
 Bienvenue... Oh ♪ Des aventuriers ! Vous voulez bien m'écouter un instant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="59" choice="3" window="1" trigger="talk 16">1. Je vous écoute.[br]
+<sn:pointer id="59" choice="3" window="1" trigger="talk 16" npc="Badam">1. Je vous écoute.[br]
 2. Sans façon.[br]
 3. Nous venons acheter.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="60" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="60" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Revenez demain.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="61" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="61" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Surtout, rapportez-le bien de l'armurerie de [color][0x4]Portmith[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="62" window="0" trigger="talk 16">[nick:シウス][br]
+<sn:pointer id="62" window="0" trigger="talk 16" npc="Badam">[nick:シウス][br]
 Et voilà.[page]
 Badam[br]
 Oh ♪ Vous avez fait vite. Tenez, votre récompense.[page]
 Vous recevez [color][0x5]600[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="63" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="63" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
@@ -294,63 +294,63 @@ Bienvenue.[page]
 Vous êtes aussi des aventuriers ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="65" window="0" trigger="talk 18">Fille[br]
+<sn:pointer id="65" window="0" trigger="talk 18" npc="Femme">Fille[br]
 Non, ça ne me dit rien[speed][0xa]...[speed][0x0] Et comment ça se fait que vous ne sachiez pas où vous vous êtes séparés ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="66" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="66" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Ce type est vraiment vulgaire. On se demande qui l'a élevé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="67" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="67" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Bonjour.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="68" window="0" trigger="talk 19">Aubergiste[br]
+<sn:pointer id="68" window="0" trigger="talk 19" npc="Aubergiste">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="69" choice="yes-no" window="1" trigger="talk 19">Aubergiste[br]
+<sn:pointer id="69" choice="yes-no" window="1" trigger="talk 19" npc="Aubergiste">Aubergiste[br]
 C'est [color][0x5]10[color][0x2] Fol pour la nuit.
 Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="70" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="70" window="0" trigger="talk 19" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="71" window="0" trigger="talk 19">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="71" window="0" trigger="talk 19" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="72" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="72" window="0" trigger="talk 19" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="73" window="0" trigger="talk 20">Épéiste[br]
+<sn:pointer id="73" window="0" trigger="talk 20" npc="Épéiste">Épéiste[br]
 Vous êtes des aventuriers ? Je suis venue de [color][0x4]Sylvalant[color][0x2] pour me rendre sur la tombe de mon maître. Ça, je ne peux pas le manquer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="74" window="0" trigger="talk 21">Épéiste[br]
+<sn:pointer id="74" window="0" trigger="talk 21" npc="Épéiste">Épéiste[br]
 J'ai entendu parler d'un forgeron renommé à [color][0x4]Astral[color][0x2]. Normal, pour le royaume de l'épée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="75" window="0" trigger="talk 22">Fille[br]
+<sn:pointer id="75" window="0" trigger="talk 22" npc="Fille">Fille[br]
 Beaucoup d'aventuriers viennent ici, je ne me rappelle pas le visage de chacun. Désolée de ne pouvoir vous venir en aide.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="76" window="0" trigger="talk 22">Fille[br]
+<sn:pointer id="76" window="0" trigger="talk 22" npc="Fille">Fille[br]
 C'est très agréable ici. Si nous étions dans la région de [color][0x4]Sylvalant[color][0x2], nous serions infestés de monstres et c'est clair qu'on ne pourrait pas mettre un orteil dehors.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="77" window="0" trigger="talk 23">Vieille femme[br]
+<sn:pointer id="77" window="0" trigger="talk 23" npc="Vieille femme">Vieille femme[br]
 Vous cherchez quelqu'un ? Je ne sors que très peu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="78" window="0" trigger="talk 23">Vieille femme[br]
+<sn:pointer id="78" window="0" trigger="talk 23" npc="Vieille femme">Vieille femme[br]
 Mon petit-fils est parti pour [color][0x4]Sylvalant[color][0x2], plein d'ardeur, combattre les monstres[speed][0xa]...[speed][0x0] Son père était pareil. Je voudrais juste les avoir près de moi...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="79" choice="yes-no" window="1" trigger="talk 24">Entraîneur[br]
+<sn:pointer id="79" choice="yes-no" window="1" trigger="talk 24" npc="Entraîneur">Entraîneur[br]
 Souhaitez-vous entendre mes conseils ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="80" window="0" trigger="talk 24">Entraîneur[br]
+<sn:pointer id="80" window="0" trigger="talk 24" npc="Entraîneur">Entraîneur[br]
 L'apprentissage des compétences est divisé en trois buts principaux.[page]
 La première est d'acquérir les effets bonus des savoirs. Par exemple, apprendre un savoir culturel augmentera votre INT.[page]
 La seconde est d'obtenir des commandes spéciales en apprenant différentes combinaisons de savoirs. Par exemple Marathon et Artisanat. Il en existe plus de 10 sortes alors si vous décidez de toutes les apprendre, la route sera longue.[page]
@@ -358,63 +358,63 @@ La dernière ressemble à la première, mais est un peu différente. Elle concer
 C'était un peu long, mais pour faire court, il est important d'utiliser vos points de savoir à bon escient et de le faire avec une vision à long terme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="81" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="81" window="0" trigger="talk 24" npc="Entraîneur">[end]</sn:pointer>
 
-<sn:pointer id="82" window="1" trigger="talk 25">Maître de la guilde[br]
+<sn:pointer id="82" window="1" trigger="talk 25" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="83" choice="3" window="1" trigger="talk 25">1. Culture niveau 1    300[br]
+<sn:pointer id="83" choice="3" window="1" trigger="talk 25" npc="Maître de la guilde">1. Culture niveau 1    300[br]
 2. Sens niveau 1      100[br]
 3. Technique niveau 1  600[page]
 [end]</sn:pointer>
 
-<sn:pointer id="84" window="0" trigger="talk 25">[end]</sn:pointer>
+<sn:pointer id="84" window="0" trigger="talk 25" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="85" window="0" trigger="talk 25">Maître de la guilde[br]
+<sn:pointer id="85" window="0" trigger="talk 25" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="86" window="0" trigger="talk 25">Maître de la guilde[br]
+<sn:pointer id="86" window="0" trigger="talk 25" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="87" window="0" trigger="talk 25">Maître de la guilde[br]
+<sn:pointer id="87" window="0" trigger="talk 25" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="88" window="1" trigger="talk 26">Mentor[br]
+<sn:pointer id="88" window="1" trigger="talk 26" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="89" choice="3" window="1" trigger="talk 26">1. Culture niveau 1[br]
+<sn:pointer id="89" choice="3" window="1" trigger="talk 26" npc="Mentor">1. Culture niveau 1[br]
 2. Sens niveau 1[br]
 3. Technique niveau 1[page]
 [end]</sn:pointer>
 
-<sn:pointer id="90" window="0" trigger="talk 26">Mentor[br]
+<sn:pointer id="90" window="0" trigger="talk 26" npc="Mentor">Mentor[br]
 Culture niveau 1 comprend :
 Botanique, minéralogie et cordon bleu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="91" window="0" trigger="talk 26">Mentor[br]
+<sn:pointer id="91" window="0" trigger="talk 26" npc="Mentor">Mentor[br]
 Sens niveau 1 comprend :
 Expert, esthétisme et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="92" window="0" trigger="talk 26">Mentor[br]
+<sn:pointer id="92" window="0" trigger="talk 26" npc="Mentor">Mentor[br]
 Technique niveau 1 comprend :
 Marathon, couteau de cuisine, dessin et siffler.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="93" window="0" trigger="talk 26">[end]</sn:pointer>
+<sn:pointer id="93" window="0" trigger="talk 26" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="94" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="94" window="0" trigger="talk 16" npc="Badam">Badam[br]
 En fait, j'aimerais que vous me rapportiez quelque chose de l'armurerie de [color][0x4]Portmith[color][0x2]. Le chemin du mont Métox est devenu dangereux ces derniers temps.[page]
 Bien sûr, vous serez payés, et je vous fournis un laissez-passer pour [color][0x4]Portmith[color][0x2]. Pas mal, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="95" window="0" trigger="talk 16">[nick:イリア][br]
+<sn:pointer id="95" window="0" trigger="talk 16" npc="Badam">[nick:イリア][br]
 [color][0x4]Portmith[color][0x2]... ?[page]
 Badam[br]
 C'est une ville au nord d'ici.[page]
@@ -424,45 +424,45 @@ Badam[br]
 Eh oui.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="96" choice="2" window="1" trigger="talk 16">1. Accepter la mission[br]
+<sn:pointer id="96" choice="2" window="1" trigger="talk 16" npc="Badam">1. Accepter la mission[br]
 2. Refuser[page]
 [end]</sn:pointer>
 
-<sn:pointer id="97" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="97" window="0" trigger="talk 16" npc="Badam">[end]</sn:pointer>
 
-<sn:pointer id="98" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="98" window="0" trigger="talk 16" npc="Badam">Badam[br]
 C'est gentil, mais il vous faudrait au moins des armes dignes de ce nom.[page]
 [nick:イリア][br]
 Tant pis. Repassons plus tard.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="99" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="99" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Ah... bon.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="100" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="100" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Ah... bon.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="101" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="101" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="102" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="102" window="0" trigger="talk 16" npc="Badam">[end]</sn:pointer>
 
-<sn:pointer id="103" window="1" trigger="talk 16">Badam[br]
+<sn:pointer id="103" window="1" trigger="talk 16" npc="Badam">Badam[br]
 C'était prévu pour avant-hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="104" window="1" trigger="talk 16">Badam[br]
+<sn:pointer id="104" window="1" trigger="talk 16" npc="Badam">Badam[br]
 C'était prévu pour hier ! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="105" window="1" trigger="talk 16">Badam[br]
+<sn:pointer id="105" window="1" trigger="talk 16" npc="Badam">Badam[br]
 Vous allez me faire attendre combien de jours ?! Bref, dépêchez-vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="106" window="0" trigger="talk 16">Badam[br]
+<sn:pointer id="106" window="0" trigger="talk 16" npc="Badam">Badam[br]
 Tenez, voici le [color][0x6]laissez-passer[color][0x2].[page]
 Vous obtenez le [color][0x6]laissez-passer[color][0x2].[page]
 Badam[br]

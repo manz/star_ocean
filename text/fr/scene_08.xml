@@ -21,7 +21,7 @@
 <sn:pointer id="6" window="1" trigger="search">[color][0x6][item][0x8c][0x13][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 16">Raddle le voyageur[br]
+<sn:pointer id="7" window="0" trigger="talk 16" npc="Raddle le voyageur">Raddle le voyageur[br]
 Je me suis encore perdu[speed][0xa]...[speed][0x0] J'en ai marre.[page]
 [end]</sn:pointer>
 

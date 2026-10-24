@@ -6,112 +6,112 @@
 <sn:pointer id="1" window="speaker" trigger="start">[center]Portes de Van I Il[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16 talk 17">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16 talk 17" npc="Garde">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16 talk 17">Garde[br]
+<sn:pointer id="3" window="0" trigger="talk 16 talk 17" npc="Garde">Garde[br]
 Vous n'avez rien à faire ici, filez de là ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 18">Roi de Van[br]
+<sn:pointer id="4" window="0" trigger="talk 18" npc="Roi de Van">Roi de Van[br]
 Quand vous aurez rencontré chaque roi de chaque royaume, n'oubliez pas de revenir ici.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 18">Roi de Van[br]
+<sn:pointer id="5" window="0" trigger="talk 18" npc="Roi de Van">Roi de Van[br]
 Puissiez-vous ramener l'[color][0x6]œil de la vérité[color][0x2] indemne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">Roi de Van[br]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="Roi de Van">Roi de Van[br]
 L'avenir de notre monde est entre vos mains. Ne perdez jamais espoir.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">Chancelier[br]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="Chancelier">Chancelier[br]
 Afin d'éviter toute panique inutile, veuillez garder secrète l'existence de l'[color][0x6]œil de la vérité[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">Reine[br]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Reine">Reine[br]
 Puisse votre avenir avoir l'éclat du soleil.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 22">Étudiant excité[br]
+<sn:pointer id="9" window="0" trigger="talk 22" npc="Étudiant excité">Étudiant excité[br]
 Je fais des recherches sur les différentes races existantes[speed][0xa].[speed][0x0] Il semblerait que l'une d'elles, apparentée aux chats, les Semi Felpurrs, perdure à ce jour. Oh, j'aimerais tellement voir une femme-chat[speed][0xa]!!![speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 23">Peintre royal[br]
+<sn:pointer id="10" window="0" trigger="talk 23" npc="Peintre royal">Peintre royal[br]
 Lorsqu'on insuffle une âme aux peintures, elles en deviennent magiques. Lorsque j'ai envie de quelque chose, je n'ai qu'à le dessiner. C'est bien mieux que devoir les acheter ! Ahahahah ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 24">Garde[br]
+<sn:pointer id="11" window="0" trigger="talk 24" npc="Garde">Garde[br]
 Les Highlanders sont enviés de tous ceux qui étudient l'escrime. Ça doit être tellement bien d'avoir ça dans le sang ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 25">Mage[br]
+<sn:pointer id="12" window="0" trigger="talk 25" npc="Mage">Mage[br]
 Nous avons collecté quelques informations sur les derniers monstres capturés. Apparemment, Asmodeus, roi du monde démoniaque, est en train de réaliser une arme pire que tout ce que l'on puisse imaginer. Quand il y a eu l'explosion sur le continent de Moore, j'ai eu peur. Apparemment, ça n'a rien à voir. Ça reste un mystère, d'ailleurs.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 26">Mage[br]
+<sn:pointer id="13" window="0" trigger="talk 26" npc="Mage">Mage[br]
 Alors, ils auraient une nouvelle arme... Notre royaume n'est pas pourvu de stratégie offensive[speed][0xa]...[speed][0x0] Si seulement nous pouvions pénétrer dans le monde démoniaque[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 27">Sage Riddo[br]
+<sn:pointer id="14" window="0" trigger="talk 27" npc="Sage Riddo">Sage Riddo[br]
 Il n'y a aucun moyen d'ouvrir et de refermer librement les portes du monde démoniaque d'ici. Par contre, depuis l'autre côté, c'est une autre histoire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 28">Servante[br]
+<sn:pointer id="15" window="0" trigger="talk 28" npc="Servante">Servante[br]
 Tout le monde est si triste et de mauvais poil ces derniers temps ! J'ai horreur de ça.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 29">Servante Juliette[br]
+<sn:pointer id="16" window="0" trigger="talk 29" npc="Servante Juliette">Servante Juliette[br]
 Roméo et moi avons trippé quand on a su qu'on avait les noms de héros d'une histoire très populaire. Vous trouvez ça bizarre, vous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 29">Servante Juliette[br]
+<sn:pointer id="17" window="0" trigger="talk 29" npc="Servante Juliette">Servante Juliette[br]
 Oh Roméo ! Pourquoi es-tu Roméo ?[page]
 Garde Roméo[br]
 Dois-je l'écouter encore ou lui répondre[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="1" trigger="talk 29">Officier[br]
+<sn:pointer id="18" window="1" trigger="talk 29" npc="Servante Juliette">Officier[br]
 Hey, toi ! Pourquoi as-tu quitté ton poste ?! Reviens ici et plus vite que ça ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 29">Garde Roméo[br]
+<sn:pointer id="19" window="0" trigger="talk 29" npc="Servante Juliette">Garde Roméo[br]
 D-Désolé...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="1" trigger="talk 29">Servante Juliette[br]
+<sn:pointer id="20" window="1" trigger="talk 29" npc="Servante Juliette">Servante Juliette[br]
 Oh non, Roméo !
 Ne me laisse pas seule ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 29">Roméo[br]
+<sn:pointer id="21" window="0" trigger="talk 29" npc="Servante Juliette">Roméo[br]
 Attends-moi, Juliette ! Car sans faute, je reviendrai à tes côtés ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 29">Officier[br]
+<sn:pointer id="22" window="0" trigger="talk 29" npc="Servante Juliette">Officier[br]
 Hey ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 30">Soldat[br]
+<sn:pointer id="23" window="0" trigger="talk 30" npc="Soldat">Soldat[br]
 J'ai pas envie d'aller bosser. Dites à personne que je suis là, hein ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 40">Jeune fille[br]
+<sn:pointer id="24" window="0" trigger="talk 40" npc="Jeune fille">Jeune fille[br]
 Tu sais ce que sont les "dons innés", hein ? J'espère que oui ! Ce sont des aptitudes qu'on a de naissance.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 41">Chevalier indécis[br]
+<sn:pointer id="25" window="0" trigger="talk 41" npc="Chevalier indécis">Chevalier indécis[br]
 En ce moment, j'hésite à améliorer cette épée. Si je manque mon coup, elle ne vaudra pas plus qu'un bout de ferraille. Il faut pas mal de courage pour modifier son propre équipement.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 42">Enoru au cœur brisé[br]
+<sn:pointer id="26" window="0" trigger="talk 42" npc="Enoru au cœur brisé">Enoru au cœur brisé[br]
 Est-ce que tu pourrais aimer quelqu'un juste s'il t'offrait dix cadeaux ? Tu ne pourrais pas, hein ? Je pense que personne ne pourrait.[page]
 Enoru au cœur brisé[br]
 Je pense que ce qui compte le plus c'est le respect mutuel, et le temps qu'on passe ensemble. Si seulement j'avais réalisé ça plus tôt...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 43">Vank le sage[br]
+<sn:pointer id="27" window="0" trigger="talk 43" npc="Vank le sage">Vank le sage[br]
 J'ai entendu parler d'un miroir qui pouvait faire une copie exacte de tout ce qui se reflétait dedans.[page]
 [end]</sn:pointer>
 

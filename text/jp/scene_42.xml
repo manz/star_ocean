@@ -9,28 +9,28 @@
 <sn:pointer id="2" window="0" trigger="start">[nick:イリア]「そうよ！早く追いましょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">大柄な戦士「ヴァン王国で魔界討伐隊を作るっていう話は本当なのか？[page]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="大柄な戦士">大柄な戦士「ヴァン王国で魔界討伐隊を作るっていう話は本当なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">若い娘「これあげるわ。拾ったんだけどよくわからないから。[page]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="若い娘">若い娘「これあげるわ。拾ったんだけどよくわからないから。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">若い娘「あれは、なんだったの？[page]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="若い娘">若い娘「あれは、なんだったの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">子供「俺、ミュージシャンになりたいんだ。[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="子供">子供「俺、ミュージシャンになりたいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">女の子「ここは港町[color][0x4]エクダート[color][0x2]よ。[page]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="女の子">女の子「ここは港町[color][0x4]エクダート[color][0x2]よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">冒険者「ヴァン王家に何か特別な奥義が伝わっているらしいな。知りたいと思わないか？[page]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="冒険者">冒険者「ヴァン王家に何か特別な奥義が伝わっているらしいな。知りたいと思わないか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">女の子「どお？私の犬、かわいいでしょ[speed][0x14]。[speed][0x0]ラッキーちゃんっていうのよ。[page]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="女の子">女の子「どお？私の犬、かわいいでしょ[speed][0x14]。[speed][0x0]ラッキーちゃんっていうのよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 22">女の子「こら、おとなしくしなさい！[page]
+<sn:pointer id="10" window="0" trigger="talk 22" npc="女の子">女の子「こら、おとなしくしなさい！[page]
 [end]</sn:pointer>
 
 </sn:script>

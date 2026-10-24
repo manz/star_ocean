@@ -23,61 +23,61 @@ Je suis fatiguée, allons nous reposer à l'auberge.[page]
 Y'a un problème ? C'est fermé ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 16">Armurier[br]
+<sn:pointer id="5" window="0" trigger="talk 16" npc="Armurier">Armurier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 17">Quincaillier[br]
+<sn:pointer id="6" window="0" trigger="talk 17" npc="Quincaillier">Quincaillier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 18">Épicier[br]
+<sn:pointer id="7" window="0" trigger="talk 18" npc="Épicier">Épicier[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 19">Garde novice[br]
+<sn:pointer id="8" window="0" trigger="talk 19" npc="Garde novice">Garde novice[br]
 Il paraît que [nick:フィア] est détenue au cachot du château.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 19">Garde novice[br]
+<sn:pointer id="9" window="0" trigger="talk 19" npc="Garde novice">Garde novice[br]
 Bienvenue à la [color][0x4]ville fortifiée d'Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">Garde[br]
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Garde">Garde[br]
 Il paraît que les soldats qui gardaient l'entrée de la grotte d'Astral, côté [color][0x4]Tatroï[color][0x2], ont aussi été tués. On raconte que c'est l'œuvre de [nick:フィア]. Je n'arrive pas à y croire[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">Garde[br]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="Garde">Garde[br]
 Pourquoi un monstre aurait attaqué Ryas ? Ça ne s'est jamais produit avant...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 20">Garde[br]
+<sn:pointer id="12" window="0" trigger="talk 20" npc="Garde">Garde[br]
 C'est pas pour me vanter, mais je pense qu'Astral est un des endroits les plus sûrs au monde.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 21">Mercenaire gaucher[br]
+<sn:pointer id="13" window="0" trigger="talk 21" npc="Mercenaire gaucher">Mercenaire gaucher[br]
 [color][0x4]Astral[color][0x2] n'est pas ouvertement en guerre contre le monde démoniaque, au contraire de l'armée de [color][0x4]Van[color][0x2] ou de celle de [color][0x4]Sylvalant[color][0x2], mais beaucoup de mercenaires highlanders se battent là-bas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 22">Xerus le sage[br]
+<sn:pointer id="14" window="0" trigger="talk 22" npc="Xerus le sage">Xerus le sage[br]
 Quand vous vous promenez, n'hésitez pas à examiner les zones rocailleuses, c'est là que poussent les herbes médicinales.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 23">Chevalier[br]
+<sn:pointer id="15" window="0" trigger="talk 23" npc="Chevalier">Chevalier[br]
 Il paraît que Ryas, le célèbre héros de guerre et capitaine des chevaliers d'Astral, a accepté une épée sans lame du roi.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 24">Gim le forgeron[br]
+<sn:pointer id="16" window="0" trigger="talk 24" npc="Gim le forgeron">Gim le forgeron[br]
 Je devrais vous apprendre les secrets de la forge. Mais comme c'est mon gagne-pain, je ne vais pas vous expliquer tous les détails. Cependant, la clé est d'employer de bonnes armes et de bons minéraux.[page]
 Gim le forgeron[br]
 En étant radin à utiliser des épées bas de gamme, vous n'obtiendrez jamais de bons résultats.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 25">Mercenaire[br]
+<sn:pointer id="17" window="0" trigger="talk 25" npc="Mercenaire">Mercenaire[br]
 Pour un royaume de l'épée comme [color][0x4]Astral[color][0x2], on s'attendrait à y trouver des arcanes[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 26">Fille[br]
+<sn:pointer id="18" window="0" trigger="talk 26" npc="Fille">Fille[br]
 Voici la ville fortifiée [color][0x4]d'Astral[color][0x2]. Les gens d'ici sont très forts.[page]
 [end]</sn:pointer>
 

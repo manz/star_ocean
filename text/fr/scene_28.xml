@@ -112,36 +112,36 @@ Oui, merci.[page]
 <sn:pointer id="20" window="0" trigger="tile 20">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 16">Mage[br]
+<sn:pointer id="21" window="0" trigger="talk 16" npc="Mage">Mage[br]
 Connaissez-vous l'orichalque ? Il paraît que c'est un métal possédant la magie d'annuler la gravité.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 17">Jeune homme[br]
+<sn:pointer id="22" window="0" trigger="talk 17" npc="Jeune homme">Jeune homme[br]
 Savez-vous d'où sortent les monstres du monde démoniaque ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 18">Rudoa l'aventurier[br]
+<sn:pointer id="23" window="0" trigger="talk 18" npc="Rudoa l'aventurier">Rudoa l'aventurier[br]
 En continuant au sud de la ville et en suivant le continent, vous irez à [color][0x4]Tatroï[color][0x2], une ville célèbre pour son arène.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="1" trigger="talk 19">Peintre en devenir[br]
+<sn:pointer id="24" window="1" trigger="talk 19" npc="Peintre en devenir">Peintre en devenir[br]
 Qu'en dites-vous ? Je vous fais un portrait pour [color][0x5]5[color][0x2] Fol.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" choice="3" window="1" trigger="talk 19">1. Faire un portrait de [nick:ラティ][br]
+<sn:pointer id="25" choice="3" window="1" trigger="talk 19" npc="Peintre en devenir">1. Faire un portrait de [nick:ラティ][br]
 2. Faire un portrait de [nick:イリア][br]
 3. Décliner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 19">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="26" window="0" trigger="talk 19" npc="Peintre en devenir">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="27" window="0" trigger="talk 19" npc="Peintre en devenir">[end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 19">Vous obtenez une [color][0x6]peinture ♂[color][0x2].[page]
+<sn:pointer id="28" window="0" trigger="talk 19" npc="Peintre en devenir">Vous obtenez une [color][0x6]peinture ♂[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 19">Vous obtenez une [color][0x6]peinture ♀[color][0x2].[page]
+<sn:pointer id="29" window="0" trigger="talk 19" npc="Peintre en devenir">Vous obtenez une [color][0x6]peinture ♀[color][0x2].[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30" window="0" trigger="talk 5">[nick:シウス][br]
@@ -156,68 +156,68 @@ Bon sang ce que j'ai envie de me tirer dans une plus grosse ville.[page]
 Miaaaaou.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 8 talk 19">Peintre en devenir[br]
+<sn:pointer id="33" window="0" trigger="talk 8 talk 19" npc="Peintre en devenir">Peintre en devenir[br]
 Quelle femme sublime ! Je vous en prie, laissez-moi faire un portrait de vous.[page]
 [nick:マーヴェル][br]
 Hein ? Non-non merci[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 21">Rosario[br]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="Rosario">Rosario[br]
 Vous ne connaîtriez pas un bon peintre ? J'aimerais devenir son apprenti.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 21">Rosario[br]
+<sn:pointer id="35" window="0" trigger="talk 21" npc="Rosario">Rosario[br]
 Ooohhh.... Gnnnn... Quoi ? Non je ne suis pas bourré.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 22">Chelsea[br]
+<sn:pointer id="36" window="0" trigger="talk 22" npc="Chelsea">Chelsea[br]
 Vous connaissez le groupe les Stalkers[speed][0xf]?[speed][0x0] Ils sont géniaux ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="1" trigger="talk 23">Mary[br]
+<sn:pointer id="37" window="1" trigger="talk 23" npc="Mary">Mary[br]
 On vend des livres sur les Stalkers [speed][0xf]♥[speed][0x0]
 C'est [color][0x4]980[color][0x2] Fol. Vous en voulez un ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" choice="2" window="1" trigger="talk 23">1. Acheter un livre[br]
+<sn:pointer id="38" choice="2" window="1" trigger="talk 23" npc="Mary">1. Acheter un livre[br]
 2. Décliner[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 23">Vous obtenez un [color][0x6]FanArt 4[color][0x2].[page]
+<sn:pointer id="39" window="0" trigger="talk 23" npc="Mary">Vous obtenez un [color][0x6]FanArt 4[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 23">Vous ne pouvez rien porter de plus.[page]
+<sn:pointer id="40" window="0" trigger="talk 23" npc="Mary">Vous ne pouvez rien porter de plus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 23">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="41" window="0" trigger="talk 23" npc="Mary">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 23">[end]</sn:pointer>
+<sn:pointer id="42" window="0" trigger="talk 23" npc="Mary">[end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">Myuki[br]
+<sn:pointer id="43" window="0" trigger="talk 24" npc="Myuki">Myuki[br]
 La voix de Morilyn est tellement suave[speed][0xf].[speed][0x0] Haaaaaaaan[speed][0x5] [speed][0x0]♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">Myuki[br]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="Myuki">Myuki[br]
 C'est tellement agréable de contempler les étoiles toute seule la nuit[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 25">Ray[br]
+<sn:pointer id="45" window="0" trigger="talk 25" npc="Ray">Ray[br]
 Mon plat favori ? Je raffole du chou farci.[page]
 Ray[br]
 En mangeant votre plat préféré, vous récupérez tous vos PV et PM.[page]
 Je ne prends jamais aucun médicament, ils sont mauvais pour la santé.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 26">Jeune homme[br]
+<sn:pointer id="46" window="0" trigger="talk 26" npc="Jeune homme">Jeune homme[br]
 On raconte que les Semi Felpurrs excellent dans tout ce qui touche au rythme. Mais moi, je suis sourd ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 27">Rowell l'épéiste[br]
+<sn:pointer id="47" window="0" trigger="talk 27" npc="Rowell l'épéiste">Rowell l'épéiste[br]
 Il paraît qu'on peut remporter un arcane à l'arène de [color][0x4]Tatroï[color][0x2]... Vous pensez que c'est vrai ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 28">Fille[br]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="Fille">Fille[br]
 Vous êtes à [color][0x4]Otanim[color][0x2].[page]
 [end]</sn:pointer>
 

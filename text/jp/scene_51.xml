@@ -41,37 +41,37 @@
 [nick:ラティ]「[nick:ミリー]！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">守衛「寒いなぁ[speed][0xa]・・・。[speed][0x0]いつまで続くんだろ、こんなこと。[page]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="守衛">守衛「寒いなぁ[speed][0xa]・・・。[speed][0x0]いつまで続くんだろ、こんなこと。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 17">守衛「ほんと、寒いよなぁ。[page]
+<sn:pointer id="14" window="0" trigger="talk 17" npc="守衛">守衛「ほんと、寒いよなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">巡回兵「異常無し[speed][0xa]・・・[speed][0x0]おや？他国の一般人はこちらには来れないはずですが？[page]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="巡回兵">巡回兵「異常無し[speed][0xa]・・・[speed][0x0]おや？他国の一般人はこちらには来れないはずですが？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 19">巡回兵「一般の人は許可が出ないと街の外に出られないんです。[page]
+<sn:pointer id="16" window="0" trigger="talk 19" npc="巡回兵">巡回兵「一般の人は許可が出ないと街の外に出られないんです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 20">巡回兵「あの巨大な砂時計、意味あるのかなぁ。今何時かわかんないもんなぁ。[page]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="巡回兵">巡回兵「あの巨大な砂時計、意味あるのかなぁ。今何時かわかんないもんなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 21">ごつい傭兵「さすがにこの辺りは魔物が強くてきついぜ。[page]
+<sn:pointer id="18" window="0" trigger="talk 21" npc="ごつい傭兵">ごつい傭兵「さすがにこの辺りは魔物が強くてきついぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 22">道具屋「いらっしゃい。[page]
+<sn:pointer id="19" window="0" trigger="talk 22" npc="道具屋">道具屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 23">食べ物屋「いらっしゃい。[page]
+<sn:pointer id="20" window="0" trigger="talk 23" npc="食べ物屋">食べ物屋「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 24">女の子「ここは雪の降る町[color][0x4]シルヴァラント城下[color][0x2]です。[page]
+<sn:pointer id="21" window="0" trigger="talk 24" npc="女の子">女の子「ここは雪の降る町[color][0x4]シルヴァラント城下[color][0x2]です。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 25">行商人サンタ「いいものがあるけど買うかい？[page]
+<sn:pointer id="22" window="0" trigger="talk 25" npc="行商人サンタ">行商人サンタ「いいものがあるけど買うかい？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 26">兵士「さっきあやしい男を見たんだけど、どこに行ったんだ？コラ出てこい！[page]
+<sn:pointer id="23" window="0" trigger="talk 26" npc="兵士">兵士「さっきあやしい男を見たんだけど、どこに行ったんだ？コラ出てこい！[page]
 [end]</sn:pointer>
 
 <sn:pointer id="24" window="0" trigger="talk 8">[nick:マーヴェル]「[speed][0xa]・・・・・。[speed][0x0][page]

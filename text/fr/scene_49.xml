@@ -45,62 +45,62 @@ Prenez ça. J'attends de bonnes nouvelles...[page]
 [color][0x6]Emblème de Moore[color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 18">Roi de Moore[br]
+<sn:pointer id="9" window="0" trigger="talk 18" npc="Roi de Moore">Roi de Moore[br]
 J'espère que vous vaincrez Asmodeus.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 19">Chancelier[br]
+<sn:pointer id="10" window="0" trigger="talk 19" npc="Chancelier">Chancelier[br]
 Nous prierons pour votre réussite.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 20">Reine[br]
+<sn:pointer id="11" window="0" trigger="talk 20" npc="Reine">Reine[br]
 Faites de votre mieux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 21">Garde royal[br]
+<sn:pointer id="12" window="0" trigger="talk 21" npc="Garde royal">Garde royal[br]
 Il est de mon devoir de protéger le roi, même au péril de ma vie ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 22">Garde royal[br]
+<sn:pointer id="13" window="0" trigger="talk 22" npc="Garde royal">Garde royal[br]
 J'ai dédié ma vie au roi et à la reine ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 23">Servante[br]
+<sn:pointer id="14" window="0" trigger="talk 23" npc="Servante">Servante[br]
 La salle du trésor est dans le sous-sol du château.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 24">Servante[br]
+<sn:pointer id="15" window="0" trigger="talk 24" npc="Servante">Servante[br]
 Ne courez pas dans les couloirs, ça soulève la poussière ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 25">Garde[br]
+<sn:pointer id="16" window="0" trigger="talk 25" npc="Garde">Garde[br]
 J'arrive pas à y croire !
 Des monstres sont apparus dans la salle du trésor[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 26">Garde[br]
+<sn:pointer id="17" window="0" trigger="talk 26" npc="Garde">Garde[br]
 Le feu roi de Moore était pacifiste : le royaume n'a pas beaucoup de troupes. Pour l'instant, le monde démoniaque est notre ennemi commun, mais si Asmodeus venait à tomber[speed][0xa]...[speed][0x0] J'ai comme un mauvais pressentiment.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 27">Sage Grace[br]
+<sn:pointer id="18" window="0" trigger="talk 27" npc="Sage Grace">Sage Grace[br]
 Une rumeur raconte que le mont Métox cacherait d'anciennes ruines, mais on n'en a aucune preuve...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 28">Pasta, chef du palais[br]
+<sn:pointer id="19" window="0" trigger="talk 28" npc="Pasta, chef du palais">Pasta, chef du palais[br]
 Le savoir et la technique, ça s'apprend !
 Pour un chef, le plus important est le sens gustatif.
 Si tu as le don pour marier les saveurs, tu peux faire fondre les gens de bonheur ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 29">Garde aimant les animaux[br]
+<sn:pointer id="20" window="0" trigger="talk 29" npc="Garde aimant les animaux">Garde aimant les animaux[br]
 Ne le dites à personne, mais je garde un animal dans ma chambre. Ne soyez pas surpris si vous le voyez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 30">Garde[br]
+<sn:pointer id="21" window="0" trigger="talk 30" npc="Garde">Garde[br]
 C'est la salle d'audience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 31">Garde[br]
+<sn:pointer id="22" window="0" trigger="talk 31" npc="Garde">Garde[br]
 C'est la salle du trésor.[page]
 [end]</sn:pointer>
 

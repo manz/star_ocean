@@ -85,63 +85,63 @@
 <sn:pointer id="24" window="0" trigger="tile 10 tile 11">[nick:ミリー]「あら[speed][0x1e]、[speed][0x0]かっこいいじゃない？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 16">男「早くあいつらをなんとかしてくれ！[page]
+<sn:pointer id="25" window="0" trigger="talk 16" npc="男">男「早くあいつらをなんとかしてくれ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 16">男「よう、[nick:ラティ]。
+<sn:pointer id="26" window="0" trigger="talk 16" npc="男">男「よう、[nick:ラティ]。
 自警団に出勤しなくていいのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 16">男「[nick:ミリー]なら北門から出て行ったぞ。一人で大丈夫なのか？[page]
+<sn:pointer id="27" window="0" trigger="talk 16" npc="男">男「[nick:ミリー]なら北門から出て行ったぞ。一人で大丈夫なのか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 16">男「今日も署くなりそうだなぁ。[page]
+<sn:pointer id="28" window="0" trigger="talk 16" npc="男">男「今日も署くなりそうだなぁ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 17">娘「助けて！[page]
+<sn:pointer id="29" window="0" trigger="talk 17" npc="女">娘「助けて！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 17">女「[nick:ドーン]も自警団に行ったわよ。[page]
+<sn:pointer id="30" window="0" trigger="talk 17" npc="女">女「[nick:ドーン]も自警団に行ったわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 17">女「[color][0x4]クール[color][0x2]に行ったマルトスさん大丈夫かしら？[page]
+<sn:pointer id="31" window="0" trigger="talk 17" npc="女">女「[color][0x4]クール[color][0x2]に行ったマルトスさん大丈夫かしら？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 17">[nick:ラティ]「何か変わったことはありませんか？[page]
+<sn:pointer id="32" window="0" trigger="talk 17" npc="女">[nick:ラティ]「何か変わったことはありませんか？[page]
 おばさん「平和なものよ。
 あなたたちのおかげさね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 18">シーナ「[nick:ラティ]がケガしたらシーナが治してあげる！キラキラ〜って。[page]
+<sn:pointer id="33" window="0" trigger="talk 18" npc="シーナ">シーナ「[nick:ラティ]がケガしたらシーナが治してあげる！キラキラ〜って。[page]
 [nick:ラティ]「はは、ありがとな。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 19">男「よう、見回りご苦労さん。[page]
+<sn:pointer id="34" window="0" trigger="talk 19" npc="男">男「よう、見回りご苦労さん。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 20">女「[nick:ミリー]ちゃんが血相変えて北の方に走っていったけど、何かあったの？[page]
+<sn:pointer id="35" window="0" trigger="talk 20" npc="女">女「[nick:ミリー]ちゃんが血相変えて北の方に走っていったけど、何かあったの？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 20">女「あら、今日は[nick:ミリー]ちゃんと一緒じゃないのね。[page]
+<sn:pointer id="36" window="0" trigger="talk 20" npc="女">女「あら、今日は[nick:ミリー]ちゃんと一緒じゃないのね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 20">[nick:ミリー]「シーナちゃん元気になってよかったですね。[page]
+<sn:pointer id="37" window="0" trigger="talk 20" npc="女">[nick:ミリー]「シーナちゃん元気になってよかったですね。[page]
 女「ええ、マルトスさんによろしく言っておいてちょうだいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 21">子供「眠いよ・・・。母ちゃん起きろってうるさいんだもん・・・。[page]
+<sn:pointer id="38" window="0" trigger="talk 21" npc="子供">子供「眠いよ・・・。母ちゃん起きろってうるさいんだもん・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 22">おじいさん「[nick:ミリー]が[color][0x4]クール[color][0x2]の方に走って行ったぞ。[page]
+<sn:pointer id="39" window="0" trigger="talk 22" npc="おじいさん">おじいさん「[nick:ミリー]が[color][0x4]クール[color][0x2]の方に走って行ったぞ。[page]
 おじいさん「[color][0x4]クール[color][0x2]の北の[color][0x4]メトークス山[color][0x2]にまで行っていたら、危険じゃの。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="1" trigger="talk 22">おじいさん「最近[color][0x4]クール[color][0x2]に行っていないのぉ。[page]
+<sn:pointer id="40" window="1" trigger="talk 22" npc="おじいさん">おじいさん「最近[color][0x4]クール[color][0x2]に行っていないのぉ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 22">[end]</sn:pointer>
+<sn:pointer id="41" window="0" trigger="talk 22" npc="おじいさん">[end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 22">おじいさん「北のほうに行く用があったら
+<sn:pointer id="42" window="0" trigger="talk 22" npc="おじいさん">おじいさん「北のほうに行く用があったら
 よろしく言っておいてくれ。[page]
 [nick:ラティ]「はい。[page]
 [end][0xff]</sn:pointer>

@@ -65,31 +65,31 @@ Que les dieux en soient remerciés ![page]
 Je vois. Pas de chance...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">[nick:ラティ][br]
+<sn:pointer id="13" window="0" trigger="talk 20" npc="Marin">[nick:ラティ][br]
 Ça ne serait pas une bonne idée que j'y aille tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20">Marin[br]
+<sn:pointer id="14" choice="yes-no" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Z'allez à [color][0x4]Astral[color][0x2] ? Si c'est l'cas, faut payer d'avance.
 C'est 80 Fol chacun.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 20">Marin[br]
+<sn:pointer id="15" window="0" trigger="talk 20" npc="Marin">Marin[br]
 T'as les poches vides, mon gars ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="16" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 20">[nick:イリア][br]
+<sn:pointer id="17" window="0" trigger="talk 20" npc="Marin">[nick:イリア][br]
 Hé, stop ! Tu sais ce qu'il arrivera si nous allons à Astral maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 20">[nick:フィア][br]
+<sn:pointer id="18" window="0" trigger="talk 20" npc="Marin">[nick:フィア][br]
 J'attendrai ici. Je ne peux pas me montrer à [color][0x4]Astral[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="19" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
 </sn:script>

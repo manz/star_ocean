@@ -62,27 +62,27 @@ Mécanicien[br]
 Oui, Capitaine ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 16">Membre de l'équipage[br]
+<sn:pointer id="14" window="0" trigger="talk 16" npc="Membre de l'équipage">Membre de l'équipage[br]
 Aucun obstacle détecté sur la trajectoire du vaisseau.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 16">Membre de l'équipage[br]
+<sn:pointer id="15" window="0" trigger="talk 16" npc="Membre de l'équipage">Membre de l'équipage[br]
 Arrêtez de me déconcentrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">Membre de l'équipage[br]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="Membre de l'équipage">Membre de l'équipage[br]
 Mais qu'est-ce qui se passe ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">Membre de l'équipage[br]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="Membre de l'équipage">Membre de l'équipage[br]
 R.A.S. Hm ? C'est vous, les gens de Roak ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="18" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Sécurité ! À la salle du transporteur immédiatement ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="19" window="0" trigger="talk 18" npc="Femme">Femme[br]
 De ce que j'en vois, vous n'êtes pas si différents de nous.[page]
 [nick:ラティ][br]
 Ce n'est pas trop difficile de se déplacer sans queue ?[page]
@@ -90,11 +90,11 @@ Femme[br]
 Je n'y avais jamais pensé jusqu'à maintenant...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 19">Femme[br]
+<sn:pointer id="20" window="0" trigger="talk 19" npc="Femme">Femme[br]
 Nous collectons des informations sur les formes de vie non identifiées dans notre base de données.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 19">Femme[br]
+<sn:pointer id="21" window="0" trigger="talk 19" npc="Femme">Femme[br]
 Comme c'est mignon ♥[speed][0x14] [speed][0x0]C'est une vraie queue ?[page]
 [end]</sn:pointer>
 
@@ -110,11 +110,11 @@ Tu en as assez ?[page]
 
 <sn:pointer id="25" window="0" trigger="talk 21">[end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 22">Homme[br]
+<sn:pointer id="26" window="0" trigger="talk 22" npc="Homme">Homme[br]
 Il s'est passé quelque chose ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 22">Homme[br]
+<sn:pointer id="27" window="0" trigger="talk 22" npc="Homme">Homme[br]
 J'étudie l'astrophysique en ce moment.[page]
 [end]</sn:pointer>
 

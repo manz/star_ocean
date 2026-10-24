@@ -61,7 +61,7 @@
 イヴィーナ「それでは途中まで案内いたします。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">イヴィーナ「ご武運をお析りしています。[page]
+<sn:pointer id="15" window="0" trigger="talk 18" npc="イヴィーナ">イヴィーナ「ご武運をお析りしています。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16" window="0" trigger="talk 60">メテオスオームを覚えました。[page]

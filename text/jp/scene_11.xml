@@ -212,7 +212,7 @@
 
 <sn:pointer id="52" window="0" trigger="tile 16">[mode8][0x18][nick:ミリー]「[speed][0x1]きゃぁ[speed][0x1e]ぁぁぁぁぁぁ[mode8][0x0][speed][0x0][end]</sn:pointer>
 
-<sn:pointer id="53" window="0" trigger="talk 16">旅人「ここの水は、うまいなぁ。[page]
+<sn:pointer id="53" window="0" trigger="talk 16" npc="旅人">旅人「ここの水は、うまいなぁ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="54" window="0" trigger="start">[nick:ドーン]「そういえば、春はもうすぎていたな。[page]

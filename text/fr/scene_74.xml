@@ -101,20 +101,20 @@ Restez donc pour cette nuit.[page]
 Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 17">Foster[br]
+<sn:pointer id="16" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Merci. Prenez ça, c'est le moins que je puisse faire pour vous remercier.[page]
 [color][0x6][item][0xec][0x14][color][0x2] obtenu.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 17">Foster[br]
+<sn:pointer id="17" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Je compte sur vous pour les monstres de la forêt.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 17">Foster[br]
+<sn:pointer id="18" window="0" trigger="talk 17" npc="Foster">Foster[br]
 Merci beaucoup.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 17">Foster[br]
+<sn:pointer id="19" window="0" trigger="talk 17" npc="Foster">Foster[br]
 [nick:ヨシュア], j'espère que tu trouveras bientôt ta sœur[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

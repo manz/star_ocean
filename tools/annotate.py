@@ -8,6 +8,9 @@
 - trigger: the header entries whose scripts reach it: `start`, `talk N` (A facing actor N), `search` (A with no one
   in front), `touch` (an actor touching the hero), `tile N` (the hero on a trigger tile or zone), `actor N` (an
   actor on an actor trigger) (notes/text/scene_triggers.md).
+- npc: who the hero talks to for the `talk N` entries reaching it, named from the speaker labels of the messages
+  that actor's script says, in the file's own language (`Ben le Marin`, `船乗りベン`); party members (`[nick:...]`)
+  and `???` never name an actor, so one that is a party member stays unnamed. Several are joined by `; `.
 - unused="1": no reached `say` names it.
 
 Scripts are read with tools.scene_events edits applied, as the patch ships them.
@@ -19,7 +22,8 @@ from __future__ import annotations
 
 import argparse
 import re
-from collections import defaultdict
+import xml.etree.ElementTree as ET
+from collections import Counter, defaultdict
 from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -32,7 +36,12 @@ from tools.scene_walk import roots, walk
 TEXTS = [ROOT / "text" / "fr", ROOT / "text" / "jp"]
 WINDOWS = {"say": "speaker", "say_mode0": "0", "say_mode1": "1", "say_mode8": "8", "say_mode9": "9"}
 SEARCH, TOUCH = 0x7F, 0x7D  # kind 2 entries fired by A with no one in front, and by an actor touching the hero
-POINTER = re.compile(r'<sn:pointer id="(\d+)"[^>]*>')
+PREFIX, NAMESPACE = "sn", "http://snes.ninja/ScriptNS"
+ET.register_namespace(PREFIX, NAMESPACE)
+OPTION = re.compile(r"^(?:\[[^\]]*\])*\d\. ")
+PARTY = re.compile(r"\[(?:nick|name):")
+TAG = re.compile(r"\[[^\]]*\]")
+LABEL_CHARS = 40  # a French speaker label is one short line; longer [br] lines are speech
 
 
 @dataclass
@@ -40,8 +49,9 @@ class Usage:
     choices: set[int | str] = field(default_factory=set)
     windows: set[str] = field(default_factory=set)
     triggers: set[str] = field(default_factory=set)
+    talks: set[int] = field(default_factory=set)  # actors whose talk entry reaches it
 
-    def attributes(self) -> dict[str, str]:
+    def attributes(self, npcs: dict[int, str]) -> dict[str, str]:
         if not self.windows:
             return {"unused": "1"}
         out = {}
@@ -49,6 +59,9 @@ class Usage:
             out["choice"] = choice(self.choices)
         out["window"] = " ".join(sorted(self.windows))
         out["trigger"] = " ".join(sorted(self.triggers, key=_trigger_order))
+        names = sorted({npcs[n] for n in self.talks if n in npcs})
+        if names:
+            out["npc"] = "; ".join(names)
         return out
 
 
@@ -98,17 +111,54 @@ def scene_usage(data: bytes) -> dict[int, Usage]:
             if ins.message is not None:
                 usage[ins.message].windows.add(WINDOWS[ins.name])
                 usage[ins.message].triggers.add(name)
+                if name.startswith("talk "):
+                    usage[ins.message].talks.add(int(name[5:]))
     for message, counts in menu_counts(walk(data).code).items():
         usage[message].choices |= counts
     return usage
 
 
-def annotated(text: str, usage: dict[int, Usage]) -> str:
-    def tag(m: re.Match[str]) -> str:
-        attrs = usage.get(int(m[1]), Usage()).attributes()
-        return f'<sn:pointer id="{m[1]}"' + "".join(f' {k}="{v}"' for k, v in attrs.items()) + ">"
+def labels(text: str, japanese: bool) -> list[str]:
+    """The speaker labels opening the message's pages, party members and `???` left out. French: a short first line
+    ending in [br]; Japanese: the name before 「."""
+    out = []
+    for page in text.split("[page]"):
+        first = page.lstrip("\n").split("\n")[0]
+        if japanese:
+            label = first.partition("「")[0] if "「" in first else ""
+        elif first.endswith("[br]") and not OPTION.match(first) and not first.startswith("[center]"):
+            label = first.removesuffix("[br]")
+        else:
+            label = ""
+        if PARTY.search(label):
+            continue
+        name = TAG.sub("", label).strip()
+        if name.strip("?？") and len(name) <= LABEL_CHARS:
+            out.append(name)
+    return out
 
-    return POINTER.sub(tag, text)
+
+def npc_names(texts: dict[int, str], usage: dict[int, Usage], japanese: bool) -> dict[int, str]:
+    """Actor -> its most frequent speaker label over the messages its talk entry reaches."""
+    counts: dict[int, Counter[str]] = defaultdict(Counter)
+    for message, use in usage.items():
+        for actor in use.talks:
+            counts[actor].update(labels(texts.get(message, ""), japanese))
+    return {actor: c.most_common(1)[0][0] for actor, c in counts.items() if c}
+
+
+def annotated(text: str, usage: dict[int, Usage], japanese: bool = False) -> str:
+    """The scene file with each pointer's attributes replaced by `id` plus its usage's; the prolog stays as written
+    (ElementTree writes its own)."""
+    root = ET.fromstring(text.encode("utf-8"))
+    npcs = npc_names({int(node.attrib["id"]): node.text or "" for node in root}, usage, japanese)
+    for node in root:
+        message = node.attrib["id"]
+        node.attrib.clear()
+        node.attrib.update({"id": message, **usage.get(int(message), Usage()).attributes(npcs)})
+    end = f"</{PREFIX}:script>"
+    head, tail = text[: text.index(f"<{PREFIX}:script")], text[text.rindex(end) + len(end) :]
+    return head + ET.tostring(root, encoding="unicode") + tail
 
 
 def annotate(write: bool = True, dirs: list[Path] = TEXTS) -> list[Path]:
@@ -120,7 +170,7 @@ def annotate(write: bool = True, dirs: list[Path] = TEXTS) -> list[Path]:
             if not path.exists():
                 continue
             text = path.read_text(encoding="utf-8")
-            new = annotated(text, usage)
+            new = annotated(text, usage, japanese=path.parent.name == "jp")
             if new == text:
                 continue
             out.append(path)

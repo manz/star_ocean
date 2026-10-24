@@ -3,38 +3,38 @@
 <sn:pointer id="0" window="speaker" trigger="start">[center]Port d'Ecdart[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">Marin[br]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="Marin">Marin[br]
 Moi, j'mange de tout ! Violets, concombres de mer... Mais l'ormeau, c'est meilleur séché. J'viens de m'en rendre compte.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 20">Marin[br]
+<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Vous allez à [color][0x4]Tropp[color][0x2] ? Si c'est le cas, il faut payer d'avance. C'est 80 Fol chacun.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 20">Marin[br]
+<sn:pointer id="3" window="0" trigger="talk 20" npc="Marin">Marin[br]
 T'as pas assez ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="4" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="5" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="6" window="1" trigger="talk 20">Marin[br]
+<sn:pointer id="6" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Où vous allez ? Si vous embarquez, faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" choice="4" window="1" trigger="talk 20">1. Portmith (Royaume de Moore)[br]
+<sn:pointer id="7" choice="4" window="1" trigger="talk 20" npc="Marin">1. Portmith (Royaume de Moore)[br]
 2. Otanim (Royaume d'Astral)[br]
 3. Tropp (Royaume d'Astral)[br]
 4. Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 20">Marin[br]
+<sn:pointer id="9" window="0" trigger="talk 20" npc="Marin">Marin[br]
 T'as pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
 </sn:script>

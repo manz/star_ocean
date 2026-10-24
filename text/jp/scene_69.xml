@@ -18,116 +18,116 @@
 <sn:pointer id="5" window="speaker" trigger="start">[pos][0x58][0x0]宿屋[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="1" trigger="talk 16">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
+<sn:pointer id="6" window="1" trigger="talk 16" npc="ギルドマスター">ギルドマスター「よう、スキルの情報を買わないか？知らなきゃ覚えることもできんぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" choice="3" window="1" trigger="talk 16">1知識関連スキルＬＶ3　1200
+<sn:pointer id="7" choice="3" window="1" trigger="talk 16" npc="ギルドマスター">1知識関連スキルＬＶ3　1200
 2感覚関連スキルＬＶ3　　300
 3技術関連スキルＬＶ3　5000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 16">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 16" npc="ギルドマスター">[end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 16">ギルドマスター「精進しなよ。[page]
+<sn:pointer id="9" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「精進しなよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 16">ギルドマスター「お金が足りないぜ。[page]
+<sn:pointer id="10" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「お金が足りないぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 16">ギルドマスター「もう、持っているぜ。[page]
+<sn:pointer id="11" window="0" trigger="talk 16" npc="ギルドマスター">ギルドマスター「もう、持っているぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 17">アドバイザー「奥義は覚えるだけではなにも起こりません。ですが、奥義を覚えた後に特定の必殺技を使っているとさらに昇華した超必殺技をひらめくことがあるんです！[page]
+<sn:pointer id="12" window="0" trigger="talk 17" npc="アドバイザー">アドバイザー「奥義は覚えるだけではなにも起こりません。ですが、奥義を覚えた後に特定の必殺技を使っているとさらに昇華した超必殺技をひらめくことがあるんです！[page]
 アドバイザー「超必殺技を覚えられるかどうかは、ひとえに本人の努力と剣術の習熟具合にかかわってくるでしょう。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="1" trigger="talk 18">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
+<sn:pointer id="13" window="1" trigger="talk 18" npc="説明員">説明員「私はスキルセットの内訳をみなさんに教えています。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" choice="3" window="1" trigger="talk 18">1．知識関連スキルＬＶ3
+<sn:pointer id="14" choice="3" window="1" trigger="talk 18" npc="説明員">1．知識関連スキルＬＶ3
 2．感覚関連スキルＬＶ3
 3．技術関連スキルＬＶ3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 18">説明員「知識関連スキルＬＶ3の内訳は、
+<sn:pointer id="15" window="0" trigger="talk 18" npc="説明員">説明員「知識関連スキルＬＶ3の内訳は、
 妖精論と
 精神学と
 ピエティよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 18">説明員「感覚関連スキルＬＶ3の内訳は、
+<sn:pointer id="16" window="0" trigger="talk 18" npc="説明員">説明員「感覚関連スキルＬＶ3の内訳は、
 機能美と
 でんぱと
 努力よ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 18">説明員「技術関連スキルＬＶ3の内訳は、
+<sn:pointer id="17" window="0" trigger="talk 18" npc="説明員">説明員「技術関連スキルＬＶ3の内訳は、
 科学技術と
 演奏と
 キャストよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="18" window="0" trigger="talk 18" npc="説明員">[end]</sn:pointer>
 
-<sn:pointer id="19" window="0" trigger="talk 19">若い娘「許しが出ないと外にも出られないのよ。いやんなっちゃう！[page]
+<sn:pointer id="19" window="0" trigger="talk 19" npc="若い娘">若い娘「許しが出ないと外にも出られないのよ。いやんなっちゃう！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 20">少年「外であそびたいよお！[page]
+<sn:pointer id="20" window="0" trigger="talk 20" npc="少年">少年「外であそびたいよお！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 21">老人「暇だ[speed][0xa]・・・。[speed][0x0]これじゃボケてしまうわいっ！[page]
+<sn:pointer id="21" window="0" trigger="talk 21" npc="老人">老人「暇だ[speed][0xa]・・・。[speed][0x0]これじゃボケてしまうわいっ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 22">老婆「早く平和な日がこないものかのう[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="22" window="0" trigger="talk 22" npc="老婆">老婆「早く平和な日がこないものかのう[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 23">傭兵ステア「ラルフとコンビを組んで戦ってます。[page]
+<sn:pointer id="23" window="0" trigger="talk 23" npc="傭兵ステア">傭兵ステア「ラルフとコンビを組んで戦ってます。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 24">傭兵ラルフ「ステアは俺の相棒よ。俺たち二人が組めば魔物なんかにゃ絶対に負けねぇ自信があるぜ。[page]
+<sn:pointer id="24" window="0" trigger="talk 24" npc="傭兵ラルフ">傭兵ラルフ「ステアは俺の相棒よ。俺たち二人が組めば魔物なんかにゃ絶対に負けねぇ自信があるぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="0" trigger="talk 25">剣士「戦闘のスキルは覚えました？あると結構便利ですよ。[page]
+<sn:pointer id="25" window="0" trigger="talk 25" npc="剣士">剣士「戦闘のスキルは覚えました？あると結構便利ですよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 26">酒場の主人「いらっしゃい。[page]
+<sn:pointer id="26" window="0" trigger="talk 26" npc="酒場の主人">酒場の主人「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 27">キクリン「いらっしゃい。[page]
+<sn:pointer id="27" window="0" trigger="talk 27" npc="キクリン">キクリン「いらっしゃい。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="1" trigger="talk 28">宿の女将ジュディ「ゆっくししていってちょうだいね。[page]
+<sn:pointer id="28" window="1" trigger="talk 28" npc="宿の女将ジュディ">宿の女将ジュディ「ゆっくししていってちょうだいね。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="29" window="0" trigger="talk 28" npc="宿の女将ジュディ">[end]</sn:pointer>
 
-<sn:pointer id="30" window="1" trigger="talk 28">泊まりますか？[page]
+<sn:pointer id="30" window="1" trigger="talk 28" npc="宿の女将ジュディ">泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 28">宿の女将ジュディ「よく眠れました？[page]
+<sn:pointer id="31" window="0" trigger="talk 28" npc="宿の女将ジュディ">宿の女将ジュディ「よく眠れました？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28">宿の女将ジュディ「いらっしゃい。
+<sn:pointer id="32" choice="yes-no" window="1" trigger="talk 28" npc="宿の女将ジュディ">宿の女将ジュディ「いらっしゃい。
 一泊[color][0x5]30[color][0x2]フォルです。泊まりますか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="33" window="0" trigger="talk 28" npc="宿の女将ジュディ">[end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 28">お金が足りません。[page]
+<sn:pointer id="34" window="0" trigger="talk 28" npc="宿の女将ジュディ">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 28">[end]</sn:pointer>
+<sn:pointer id="35" window="0" trigger="talk 28" npc="宿の女将ジュディ">[end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 29">ルシオ「[nick:ミリー]にひどいことすんなよ？！[page]
+<sn:pointer id="36" window="0" trigger="talk 29" npc="ルシオ">ルシオ「[nick:ミリー]にひどいことすんなよ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 29">ルシオ「[nick:ミリー]嫌なことがあったらいつでも戻ってこいよ。[page]
+<sn:pointer id="37" window="0" trigger="talk 29" npc="ルシオ">ルシオ「[nick:ミリー]嫌なことがあったらいつでも戻ってこいよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="0" trigger="talk 29">ルシオ「おまえらここに泊まるのか？うちの宿屋は世界一だぜ！[page]
+<sn:pointer id="38" window="0" trigger="talk 29" npc="ルシオ">ルシオ「おまえらここに泊まるのか？うちの宿屋は世界一だぜ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 30">若い学者「私は旧異種族の間に伝わっていたという魂のけいやくについて研究しています。[page]
+<sn:pointer id="39" window="0" trigger="talk 30" npc="若い学者">若い学者「私は旧異種族の間に伝わっていたという魂のけいやくについて研究しています。[page]
 若い学者「まだわからないことが多いのですが、伝説にある悪魔とのけいやく・・望みを叶える代わりに
 ってやつですね。それと似たようなものだったらしいです。[page]
 [end]</sn:pointer>

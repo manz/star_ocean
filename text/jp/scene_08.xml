@@ -21,7 +21,7 @@
 <sn:pointer id="6" window="1" trigger="search">[color][0x6][item][0x8c][0x13][color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 16">旅人ラドル「ますます迷ったみたいだ。もうやだよ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="7" window="0" trigger="talk 16" npc="旅人ラドル">旅人ラドル「ますます迷ったみたいだ。もうやだよ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
 <sn:pointer id="8" window="0" trigger="talk 17">立て札の裏だ。

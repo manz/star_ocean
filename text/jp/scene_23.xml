@@ -17,39 +17,39 @@
 <sn:pointer id="4" window="0" trigger="talk 5">[nick:シウス]「休むのは後にしようぜ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 16">年頃のアリサ「私ねぇ、一度だけ翼の生えた人を見たことがあるの♪
+<sn:pointer id="5" window="0" trigger="talk 16" npc="年頃のアリサ">年頃のアリサ「私ねぇ、一度だけ翼の生えた人を見たことがあるの♪
 きれいで、ホント天使みたいだったわ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">赤鼻のオヤジ「定期船に乗ればアストラル王国の[color][0x4]オタニム[color][0x2]に行けるぞ。[page]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="赤鼻のオヤジ">赤鼻のオヤジ「定期船に乗ればアストラル王国の[color][0x4]オタニム[color][0x2]に行けるぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">今風の若者「ムーア国王ってあんま顔見たことないぜ？[page]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="今風の若者">今風の若者「ムーア国王ってあんま顔見たことないぜ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">清楚な女性「[color][0x4]ポートミス[color][0x2]の通行が不便になったのは北方の蛮族が現れるようになってからなんです。これも魔界の勢力が関わりあるんでしょうか・・・。[page]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="清楚な女性">清楚な女性「[color][0x4]ポートミス[color][0x2]の通行が不便になったのは北方の蛮族が現れるようになってからなんです。これも魔界の勢力が関わりあるんでしょうか・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">そばかすの娘「テリーったら何してるのかしら。また待ち合わせの時間忘れてるの？！[page]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="そばかすの娘">そばかすの娘「テリーったら何してるのかしら。また待ち合わせの時間忘れてるの？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 21">そばかすの娘「私のことなんてどうでもいいんでしょ？！[page]
+<sn:pointer id="10" window="0" trigger="talk 21" npc="そばかすの娘">そばかすの娘「私のことなんてどうでもいいんでしょ？！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="11" window="0" trigger="talk 22">テリー「ごめんキャンディ！！許してくれ！[page]
+<sn:pointer id="11" window="0" trigger="talk 22" npc="テリー">テリー「ごめんキャンディ！！許してくれ！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" window="0" trigger="talk 23">チョビン「ぼく・・・この名前嫌なんだよなぁ・・・。[page]
+<sn:pointer id="12" window="0" trigger="talk 23" npc="チョビン">チョビン「ぼく・・・この名前嫌なんだよなぁ・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 24">おねぇさん「キツネ見た[speed][0x14]？[speed][0x0]カワイーけど捕まえられるのかなぁ？[page]
+<sn:pointer id="13" window="0" trigger="talk 24" npc="おねぇさん">おねぇさん「キツネ見た[speed][0x14]？[speed][0x0]カワイーけど捕まえられるのかなぁ？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 25">旅人ラドル「最近物忘れがはげしくてね。よく道に迷うんだ。でも君のことは覚えてるよ。ありがとうな。[page]
+<sn:pointer id="14" window="0" trigger="talk 25" npc="旅人ラドル">旅人ラドル「最近物忘れがはげしくてね。よく道に迷うんだ。でも君のことは覚えてるよ。ありがとうな。[page]
 [color][0x6]スペルポーション[color][0x2]を手に入れた。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 25">旅人ラドル「最近物忘れがはげしくてね。[page]
+<sn:pointer id="15" window="0" trigger="talk 25" npc="旅人ラドル">旅人ラドル「最近物忘れがはげしくてね。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="16" window="0" trigger="start">[nick:ラティ]「はれ？なんか[speed][0xa]・・・[speed][0x0]体が、変らぞ♪[page]

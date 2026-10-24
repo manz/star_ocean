@@ -46,7 +46,7 @@ Je vous attendrai à la sortie.[page]
 Oh, vous avez traversé le labyrinthe ! Excellent !! Bien, allons voir le roi[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 16">Chancelier[br]
+<sn:pointer id="13" window="0" trigger="talk 16" npc="Chancelier">Chancelier[br]
 Les monstres seront coriaces. Si c'est trop dur, allez vous entraîner dehors et revenez plus tard.[page]
 [end]</sn:pointer>
 

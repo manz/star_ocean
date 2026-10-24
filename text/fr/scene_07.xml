@@ -211,28 +211,28 @@ La pause a assez duré.[page]
 La pause a assez duré.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="51" window="0" trigger="talk 16">Jeune homme[br]
+<sn:pointer id="51" window="0" trigger="talk 16" npc="Jeune homme">Jeune homme[br]
 Ahh !! Quelle frayeur ! Un bruit énorme, et tout le coin s'est retrouvé dans cet état.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="52" window="0" trigger="talk 17">Fille[br]
+<sn:pointer id="52" window="0" trigger="talk 17" npc="Fille">Fille[br]
 Mais qu'est-ce que c'est que ce machin ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="53" window="0" trigger="talk 18">Dalan[br]
+<sn:pointer id="53" window="0" trigger="talk 18" npc="Dalan">Dalan[br]
 J'ai fait tout le chemin depuis [color][0x4]Tropp[color][0x2] pour le voir.
 J'étais persuadé que c'était une comète qui s'était écrasée. Mais qu'est-ce que ça peut bien être ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="54" window="0" trigger="talk 19">Lot[br]
+<sn:pointer id="54" window="0" trigger="talk 19" npc="Lot">Lot[br]
 C'est vraiment tombé du ciel ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="55" window="0" trigger="talk 20">Vieil homme[br]
+<sn:pointer id="55" window="0" trigger="talk 20" npc="Vieil homme">Vieil homme[br]
 J'ai un mauvais pressentiment. Je suppose que les monstres sont derrière tout ça[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="56" window="0" trigger="talk 21">Vieille femme[br]
+<sn:pointer id="56" window="0" trigger="talk 21" npc="Vieille femme">Vieille femme[br]
 Il se passe vraiment de drôles de choses dans ce monde[speed][0xa]...[speed][0x0][page]
 [end]</sn:pointer>
 

@@ -77,32 +77,32 @@
 <sn:pointer id="20" window="0" trigger="tile 20">[page]
 [end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 16">紋章使い「オリハルコンって知ってるかね？重力を遮断する魔力を持つ金属らしいぞ。[page]
+<sn:pointer id="21" window="0" trigger="talk 16" npc="紋章使い">紋章使い「オリハルコンって知ってるかね？重力を遮断する魔力を持つ金属らしいぞ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 17">若者「魔界の怪物は一体どこから現れているんでしょうか？[page]
+<sn:pointer id="22" window="0" trigger="talk 17" npc="若者">若者「魔界の怪物は一体どこから現れているんでしょうか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 18">冒険者ルドア「この町から南下して大陸沿いに西に進めば格闘場で有名な町[color][0x4]タトローイ[color][0x2]だ。[page]
+<sn:pointer id="23" window="0" trigger="talk 18" npc="冒険者ルドア">冒険者ルドア「この町から南下して大陸沿いに西に進めば格闘場で有名な町[color][0x4]タトローイ[color][0x2]だ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="1" trigger="talk 19">自称画家「どうだい？[color][0x5]5[color][0x2]フォルで似顔絵を描いてあげるんだけど・・・。[page]
+<sn:pointer id="24" window="1" trigger="talk 19" npc="自称画家">自称画家「どうだい？[color][0x5]5[color][0x2]フォルで似顔絵を描いてあげるんだけど・・・。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" choice="3" window="1" trigger="talk 19">1．[nick:ラティ]の似顔絵を頼む
+<sn:pointer id="25" choice="3" window="1" trigger="talk 19" npc="自称画家">1．[nick:ラティ]の似顔絵を頼む
 2．[nick:イリア]の似顔絵を頼む
 3．頼まない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" window="0" trigger="talk 19">お金が足りません。[page]
+<sn:pointer id="26" window="0" trigger="talk 19" npc="自称画家">お金が足りません。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 19">[end]</sn:pointer>
+<sn:pointer id="27" window="0" trigger="talk 19" npc="自称画家">[end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 19">[color][0x6]落書き♂[color][0x2]を手に入れました。[page]
+<sn:pointer id="28" window="0" trigger="talk 19" npc="自称画家">[color][0x6]落書き♂[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 19">[color][0x6]落書き♀[color][0x2]を手に入れました。[page]
+<sn:pointer id="29" window="0" trigger="talk 19" npc="自称画家">[color][0x6]落書き♀[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="30" window="0" trigger="talk 5">[nick:シウス]「俺はもっとでかい町に行きてぇなぁ。[page]
@@ -114,57 +114,57 @@
 <sn:pointer id="32" window="0" trigger="talk 10">[nick:ペリシー]「にゃーあ[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 8 talk 19">自称画家「なんて美しい人だ！お願いします！僕に絵を描かせて下さい！[page]
+<sn:pointer id="33" window="0" trigger="talk 8 talk 19" npc="自称画家">自称画家「なんて美しい人だ！お願いします！僕に絵を描かせて下さい！[page]
 [nick:マーヴェル]「えっ？ご、ごめんなさい[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 21">ロザリオ「どこかにいい画家さんいないかなぁ。弟子入りしたいんだ。[page]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="ロザリオ">ロザリオ「どこかにいい画家さんいないかなぁ。弟子入りしたいんだ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 21">ロザリオ「うぃ〜、なんだ？俺は酔っちゃねぇ〜ぞ！！[page]
+<sn:pointer id="35" window="0" trigger="talk 21" npc="ロザリオ">ロザリオ「うぃ〜、なんだ？俺は酔っちゃねぇ〜ぞ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 22">チェルシイ「ミュージシャンのストーカーズって知ってる[speed][0xf]？[speed][0x0]もうなんていうか超サイコーって感じ！！[page]
+<sn:pointer id="36" window="0" trigger="talk 22" npc="チェルシイ">チェルシイ「ミュージシャンのストーカーズって知ってる[speed][0xf]？[speed][0x0]もうなんていうか超サイコーって感じ！！[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="1" trigger="talk 23">メイリィ「私たち“ストーカーズ本”作ってるの[speed][0xf]♥[speed][0x0]
+<sn:pointer id="37" window="1" trigger="talk 23" npc="メイリィ">メイリィ「私たち“ストーカーズ本”作ってるの[speed][0xf]♥[speed][0x0]
 一冊買いませんか？[color][0x4]980[color][0x2]フォルよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" choice="2" window="1" trigger="talk 23">1．買う
+<sn:pointer id="38" choice="2" window="1" trigger="talk 23" npc="メイリィ">1．買う
 2．買わない[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" window="0" trigger="talk 23">[color][0x6]どーじん4[color][0x2]を手に入れました。[page]
+<sn:pointer id="39" window="0" trigger="talk 23" npc="メイリィ">[color][0x6]どーじん4[color][0x2]を手に入れました。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 23">持ち物がいっぱいです。[page]
+<sn:pointer id="40" window="0" trigger="talk 23" npc="メイリィ">持ち物がいっぱいです。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 23">お金が足りないわよ。[page]
+<sn:pointer id="41" window="0" trigger="talk 23" npc="メイリィ">お金が足りないわよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 23">[end]</sn:pointer>
+<sn:pointer id="42" window="0" trigger="talk 23" npc="メイリィ">[end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">ミューキィ「モリリンって女性ボーカルが艶っぽくてＥのよ[speed][0xf]、[speed][0x0]ああ[speed][0x5]〜[speed][0x0]ん♪[page]
+<sn:pointer id="43" window="0" trigger="talk 24" npc="ミューキィ">ミューキィ「モリリンって女性ボーカルが艶っぽくてＥのよ[speed][0xf]、[speed][0x0]ああ[speed][0x5]〜[speed][0x0]ん♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">ミューキィ「夜空を一人で眺めてるとなんか、Ｅのよねぇ[speed][0xa]・・・。[speed][0x0][page]
+<sn:pointer id="44" window="0" trigger="talk 24" npc="ミューキィ">ミューキィ「夜空を一人で眺めてるとなんか、Ｅのよねぇ[speed][0xa]・・・。[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 25">若者レイ「君の好きな食べ物はなんだい？
+<sn:pointer id="45" window="0" trigger="talk 25" npc="若者レイ">若者レイ「君の好きな食べ物はなんだい？
 ぼくはロールキャベツが大好きなんだけど。[page]
 若者レイ「好物を食べればＨＰとＭＰなんか完全回復さ！[page]
 体に悪そうな薬なんか飲むことないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 26">若者「レッサーフェルプールという種族はリズム感や音感に優れているんだとさ。ちなみに俺はオンチ♪[page]
+<sn:pointer id="46" window="0" trigger="talk 26" npc="若者">若者「レッサーフェルプールという種族はリズム感や音感に優れているんだとさ。ちなみに俺はオンチ♪[page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 27">剣士ロウェル「[color][0x4]タトローイ[color][0x2]の闘技場で奥義書をもらえるってうわさを聞いたけど、ほんとか？[page]
+<sn:pointer id="47" window="0" trigger="talk 27" npc="剣士ロウェル">剣士ロウェル「[color][0x4]タトローイ[color][0x2]の闘技場で奥義書をもらえるってうわさを聞いたけど、ほんとか？[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 28">女の子「ここは[color][0x4]オタニム[color][0x2]よ。[page]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="女の子">女の子「ここは[color][0x4]オタニム[color][0x2]よ。[page]
 [end]</sn:pointer>
 
 <sn:pointer id="49" window="0" trigger="talk 3">[nick:ロニキス]「[nick:ラティ]はどうするんだ？[page]

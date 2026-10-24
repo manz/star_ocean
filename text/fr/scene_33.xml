@@ -70,38 +70,38 @@ Tu prendras bien soin de [nick:ミリー], d'accord ?[page]
 Qu-quoi, d'un coup[speed][0xa]... ?[speed][0x0][page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 20">[nick:ラティ][br]
+<sn:pointer id="7" window="0" trigger="talk 20" npc="Marin">[nick:ラティ][br]
 Ce ne serait pas une bonne idée
 que j'y aille tout seul.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20">Marin[br]
+<sn:pointer id="8" choice="yes-no" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Alors ? On veut s'embarquer
 pour [color][0x4]Portmith[color][0x2] ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="9" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="11" window="1" trigger="talk 20">Marin[br]
+<sn:pointer id="11" window="1" trigger="talk 20" npc="Marin">Marin[br]
 Où vous allez ? Si vous embarquez,
 faut payer d'avance. C'est [color][0x5]200[color][0x2] Fol par personne.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="12" choice="4" window="1" trigger="talk 20">1. Portmith (Royaume de Moore)[br]
+<sn:pointer id="12" choice="4" window="1" trigger="talk 20" npc="Marin">1. Portmith (Royaume de Moore)[br]
 2. Tropp (Royaume d'Astral)[br]
 3. Ecdart (Royaume de Van)[br]
 4. Sylvalant[page]
 [end]</sn:pointer>
 
-<sn:pointer id="13" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="13" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
-<sn:pointer id="14" window="0" trigger="talk 20">Marin[br]
+<sn:pointer id="14" window="0" trigger="talk 20" npc="Marin">Marin[br]
 Y'a pas assez d'sous ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="15" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="15" window="0" trigger="talk 20" npc="Marin">[end]</sn:pointer>
 
 <sn:pointer id="16" window="0" trigger="start">[nick:シウス][br]
 Nous y voilà !

@@ -3,20 +3,20 @@
 <sn:pointer id="0" window="speaker" trigger="start">[center]Portes de Moore[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Ha, j'crois qu'ça va pas être possible !
 Z'avez rien à faire ici ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 17">Garde[br]
+<sn:pointer id="3" window="0" trigger="talk 17" npc="Garde">Garde[br]
 Vous pouvez entrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">Garde[br]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="Garde">Garde[br]
 Ha, j'crois qu'ça va pas être possible !
 Z'avez rien à faire ici ![page]
 [end]</sn:pointer>

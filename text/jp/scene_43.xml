@@ -3,33 +3,33 @@
 <sn:pointer id="0" window="speaker" trigger="start">[pos][0x40][0x0]エクダートの港[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0" trigger="talk 16">船乗り「おら好き嫌いはねぇだ。ホヤもナマコもだいじょうぶだべ。でもアワビは干した方がうめぇな。最近気がついたんだべ。[page]
+<sn:pointer id="1" window="0" trigger="talk 16" npc="船乗り">船乗り「おら好き嫌いはねぇだ。ホヤもナマコもだいじょうぶだべ。でもアワビは干した方がうめぇな。最近気がついたんだべ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 20">船員「[color][0x4]トロップ[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
+<sn:pointer id="2" choice="yes-no" window="1" trigger="talk 20" npc="船員">船員「[color][0x4]トロップ[color][0x2]に行くのかい？行くなら料金を払っておくれ。一人80フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
+<sn:pointer id="3" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="4" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="5" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="6" window="1" trigger="talk 20">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
+<sn:pointer id="6" window="1" trigger="talk 20" npc="船員">船乗り「どこに行きますか？行くなら料金を払っておくれ。一人[color][0x5]200[color][0x2]フォルになるよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" choice="4" window="1" trigger="talk 20">1．ポートミス（ムーア王国）
+<sn:pointer id="7" choice="4" window="1" trigger="talk 20" npc="船員">1．ポートミス（ムーア王国）
 2．オタニム（アストラル王国）
 3．トロップ（アストラル王国）
 4．シルヴァラント[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="8" window="0" trigger="talk 20" npc="船員">[end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 20">船員「お金が足りないよ。[page]
+<sn:pointer id="9" window="0" trigger="talk 20" npc="船員">船員「お金が足りないよ。[page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 20">[end][0xff]</sn:pointer>
+<sn:pointer id="10" window="0" trigger="talk 20" npc="船員">[end][0xff]</sn:pointer>
 
 </sn:script>

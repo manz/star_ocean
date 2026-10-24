@@ -11,36 +11,36 @@ On dirait [nick:ミリー] ![page]
 C'est elle ! Rattrapons-la ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 16">Guerrier baraqué[br]
+<sn:pointer id="3" window="0" trigger="talk 16" npc="Guerrier baraqué">Guerrier baraqué[br]
 C'est vrai qu'ils montent une force anti-monde démoniaque au royaume de Van ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="4" window="0" trigger="talk 17">Jeune fille[br]
+<sn:pointer id="4" window="0" trigger="talk 17" npc="Jeune fille">Jeune fille[br]
 Tiens, je te le donne. Je l'ai trouvé par terre, mais je ne sais pas ce que c'est.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="5" window="0" trigger="talk 17">Jeune fille[br]
+<sn:pointer id="5" window="0" trigger="talk 17" npc="Jeune fille">Jeune fille[br]
 Qu'est-ce que c'était ?![page]
 [end]</sn:pointer>
 
-<sn:pointer id="6" window="0" trigger="talk 18">Gamin[br]
+<sn:pointer id="6" window="0" trigger="talk 18" npc="Gamin">Gamin[br]
 Quand j's'rai grand, j's'rai musicien ! J'jouerai du trombacoulisse pistonneux !![page]
 [end]</sn:pointer>
 
-<sn:pointer id="7" window="0" trigger="talk 19">Fillette[br]
+<sn:pointer id="7" window="0" trigger="talk 19" npc="Fillette">Fillette[br]
 C'est la ville portuaire d'[color][0x4]Ecdart[color][0x2].[page]
 [end]</sn:pointer>
 
-<sn:pointer id="8" window="0" trigger="talk 20">Aventurier[br]
+<sn:pointer id="8" window="0" trigger="talk 20" npc="Aventurier">Aventurier[br]
 On dit que la famille royale de Van se transmet un arcane de génération en génération. Ça te dirait de le connaître ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="9" window="0" trigger="talk 21">Fillette[br]
+<sn:pointer id="9" window="0" trigger="talk 21" npc="Fillette">Fillette[br]
 Il est mignon mon chien, hein ?[speed][0x14][speed][0x0]
 Il s'appelle Lucky ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="10" window="0" trigger="talk 22">Fillette[br]
+<sn:pointer id="10" window="0" trigger="talk 22" npc="Fillette">Fillette[br]
 Hé, tiens-toi tranquille ![page]
 [end]</sn:pointer>
 

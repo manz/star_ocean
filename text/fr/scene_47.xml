@@ -8,11 +8,11 @@
 Attends. Tu sais ce qu'il va se passer si on va à Astral maintenant ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="2" window="0" trigger="talk 16">Garde[br]
+<sn:pointer id="2" window="0" trigger="talk 16" npc="Garde">Garde[br]
 Écoutez mon conseil, arrêtez-vous avant qu'il ne soit trop tard. Il n'y a que des aventuriers ou des types bourrés pour oser entrer là-dedans.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="3" window="0" trigger="talk 17">Garde[br]
+<sn:pointer id="3" window="0" trigger="talk 17" npc="Garde">Garde[br]
 Mieux vaut partir tant que vous le pouvez encore.[page]
 [end]</sn:pointer>
 

@@ -3,7 +3,7 @@
 <sn:pointer id="0" window="speaker" trigger="start">[center]Maison[page]
 [end]</sn:pointer>
 
-<sn:pointer id="1" window="0 speaker" trigger="start talk 22">[center]Maison[page]
+<sn:pointer id="1" window="0 speaker" trigger="start talk 22" npc="Mentor">[center]Maison[page]
 [end]</sn:pointer>
 
 <sn:pointer id="2" window="speaker" trigger="start">[center]Guilde des savoirs[page]
@@ -541,52 +541,52 @@ Hiii, arrête, [nick:ラティ][speed][0xa]...[speed][0x0]
 ZZZzzzzz....[page]
 [end]</sn:pointer>
 
-<sn:pointer id="112" window="0" trigger="talk 16">Barman[br]
+<sn:pointer id="112" window="0" trigger="talk 16" npc="Barman">Barman[br]
 Pas de problème. On est de toute façon fermé pour le reste de la journée.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="113" window="0" trigger="talk 16">Barman[br]
+<sn:pointer id="113" window="0" trigger="talk 16" npc="Barman">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="114" window="0" trigger="talk 17">Aventurier[br]
+<sn:pointer id="114" window="0" trigger="talk 17" npc="Aventurier">Aventurier[br]
 Je voudrais apprendre autant que possible d'arcanes. Mais comment faire ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="115" window="0" trigger="talk 18">Femme[br]
+<sn:pointer id="115" window="0" trigger="talk 18" npc="Femme">Femme[br]
 Vous venez du royaume d'Astral ? Le château de Van est juste un peu plus loin.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="116" window="0" trigger="talk 19">Jeune homme[br]
+<sn:pointer id="116" window="0" trigger="talk 19" npc="Jeune homme">Jeune homme[br]
 Mmmm... Qu'est-ce que je vais bien pouvoir faire aujourd'hui ?
 Un truc de cool, de toute façon. En tout cas, les ingrédients, faut les cuisiner avant de les manger. Logique, non ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="117" window="1" trigger="talk 20">Maître de la guilde[br]
+<sn:pointer id="117" window="1" trigger="talk 20" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="118" choice="4" window="1" trigger="talk 20">1. Sens niveau 1  100[br]
+<sn:pointer id="118" choice="4" window="1" trigger="talk 20" npc="Maître de la guilde">1. Sens niveau 1  100[br]
 2. Sens niveau 2  200[br]
 3. Sens niveau 3  300[br]
 4. Technique niveau 2 1200[page]
 [end]</sn:pointer>
 
-<sn:pointer id="119" window="0" trigger="talk 20">[end]</sn:pointer>
+<sn:pointer id="119" window="0" trigger="talk 20" npc="Maître de la guilde">[end]</sn:pointer>
 
-<sn:pointer id="120" window="0" trigger="talk 20">Maître de la guilde[br]
+<sn:pointer id="120" window="0" trigger="talk 20" npc="Maître de la guilde">Maître de la guilde[br]
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="121" window="0" trigger="talk 20">Maître de la guilde[br]
+<sn:pointer id="121" window="0" trigger="talk 20" npc="Maître de la guilde">Maître de la guilde[br]
 Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="122" window="0" trigger="talk 20">Maître de la guilde[br]
+<sn:pointer id="122" window="0" trigger="talk 20" npc="Maître de la guilde">Maître de la guilde[br]
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="123" window="0" trigger="talk 21">Entraîneur[br]
+<sn:pointer id="123" window="0" trigger="talk 21" npc="Entraîneur">Entraîneur[br]
 Le Cran, quel paramètre mystérieux. Je parie que tout un tas de personnes voient ça sur leur écran de statut et se demandent à quoi ça peut bien servir.[page]
 Entraîneur[br]
 Ce paramètre indique le Cran de la personne. Plus il est élevé, plus les effets bonus vont se produire au cours des combats.[page]
@@ -596,22 +596,22 @@ Entraîneur[br]
 Est-ce à présent un peu plus clair pour vous ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="124" window="1" trigger="talk 22">Mentor[br]
+<sn:pointer id="124" window="1" trigger="talk 22" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="125" choice="4" window="1" trigger="talk 22">1. Sens niveau 1[br]
+<sn:pointer id="125" choice="4" window="1" trigger="talk 22" npc="Mentor">1. Sens niveau 1[br]
 2. Sens niveau 2[br]
 3. Sens niveau 3[br]
 4. Technique niveau 2[page]
 [end]</sn:pointer>
 
-<sn:pointer id="126" window="0" trigger="talk 22">Mentor[br]
+<sn:pointer id="126" window="0" trigger="talk 22" npc="Mentor">Mentor[br]
 Sens niveau 1 comprend :
 Expert, sens du danger et stoïcisme.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="127" window="0" trigger="talk 22">Mentor[br]
+<sn:pointer id="127" window="0" trigger="talk 22" npc="Mentor">Mentor[br]
 Sens niveau 2 comprend :
 Sens de l'esthétique, sens de l'humour et persévérance.[page]
 [end]</sn:pointer>

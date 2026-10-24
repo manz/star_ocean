@@ -52,41 +52,41 @@ Regarde les rues et les maisons d'[color][0x4]Astral[color][0x2]. Ce qui est dif
 D'une certaine manière, nous avons pu sauver la vie de mon père adoptif. Merci.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="16" window="0" trigger="talk 25">Ryas[br]
+<sn:pointer id="16" window="0" trigger="talk 25" npc="Ryas">Ryas[br]
 Faites comme chez vous.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="17" window="0" trigger="talk 25">Ryas[br]
+<sn:pointer id="17" window="0" trigger="talk 25" npc="Ryas">Ryas[br]
 Mais que... ?
 Quelle impolitesse de nous interrompre ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="18" window="1" trigger="talk 16">Maître de la guilde[br]
+<sn:pointer id="18" window="1" trigger="talk 16" npc="Maître de la guilde">Maître de la guilde[br]
 Hey, vous ne voulez pas acheter quelques savoirs ? Sans ça, impossible d'apprendre de nouvelles compétences.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="19" choice="4" window="1" trigger="talk 16">[mode8][0x20]1. Technique niveau 3  5000[br]
+<sn:pointer id="19" choice="4" window="1" trigger="talk 16" npc="Maître de la guilde">[mode8][0x20]1. Technique niveau 3  5000[br]
 2. Combat niveau 1   1000[br]
 3. Combat niveau 2   2000[br]
 4. Combat niveau 3  20000[page]
 [end]</sn:pointer>
 
-<sn:pointer id="20" window="0" trigger="talk 16">[mode8][0x0][end]</sn:pointer>
+<sn:pointer id="20" window="0" trigger="talk 16" npc="Maître de la guilde">[mode8][0x0][end]</sn:pointer>
 
-<sn:pointer id="21" window="0" trigger="talk 16">[mode8][0x0]Maître de la guilde
+<sn:pointer id="21" window="0" trigger="talk 16" npc="Maître de la guilde">[mode8][0x0]Maître de la guilde
 Faites-en bon usage.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="22" window="0" trigger="talk 16">[mode8][0x0]Maître de la guilde
+<sn:pointer id="22" window="0" trigger="talk 16" npc="Maître de la guilde">[mode8][0x0]Maître de la guilde
 Vous n'avez pas assez d'argent.
 [page]
 [end]</sn:pointer>
 
-<sn:pointer id="23" window="0" trigger="talk 16">[mode8][0x0]Maître de la guilde
+<sn:pointer id="23" window="0" trigger="talk 16" npc="Maître de la guilde">[mode8][0x0]Maître de la guilde
 Vous l'avez déjà.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="24" window="0" trigger="talk 17">Conseiller[br]
+<sn:pointer id="24" window="0" trigger="talk 17" npc="Conseiller">Conseiller[br]
 Avez-vous gagné des niveaux dans votre savoir de Style ?[page]
 Conseiller[br]
 En améliorant votre Style, la consommation de PM des attaques létales diminue.[page]
@@ -94,98 +94,98 @@ Conseiller[br]
 Et il y a encore un secret à son sujet... Mais je ne vous dirai pas quoi ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="25" window="1" trigger="talk 18">Mentor[br]
+<sn:pointer id="25" window="1" trigger="talk 18" npc="Mentor">Mentor[br]
 Je vais vous détailler le contenu de chaque savoir. Pour lequel voulez-vous une explication ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="26" choice="4" window="1" trigger="talk 18">1. Technique niveau 3[br]
+<sn:pointer id="26" choice="4" window="1" trigger="talk 18" npc="Mentor">1. Technique niveau 3[br]
 2. Combat niveau 1[br]
 3. Combat niveau 2[br]
 4. Combat niveau 3[page]
 [end]</sn:pointer>
 
-<sn:pointer id="27" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="27" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Technique niveau 3 comprend :
 Technoscience, interprétation et invocation.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="28" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="28" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Combat niveau 1 comprend :
 Onde de choc, impact aérien et volte face.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="29" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="29" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Combat niveau 2 comprend :
 Riposte, feinte et concentrer.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="30" window="0" trigger="talk 18">Mentor[br]
+<sn:pointer id="30" window="0" trigger="talk 18" npc="Mentor">Mentor[br]
 Combat niveau 3 comprend :
 Combo et prolixe.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="31" window="0" trigger="talk 18">[end]</sn:pointer>
+<sn:pointer id="31" window="0" trigger="talk 18" npc="Mentor">[end]</sn:pointer>
 
-<sn:pointer id="32" window="0" trigger="talk 19">Maman[br]
+<sn:pointer id="32" window="0" trigger="talk 19" npc="Maman">Maman[br]
 Il n'y en a plus pour longtemps, fais preuve d'un peu de patience.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="33" window="0" trigger="talk 20">Petit garçon[br]
+<sn:pointer id="33" window="0" trigger="talk 20" npc="Petit garçon">Petit garçon[br]
 J'ai faim ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="34" window="0" trigger="talk 21">Petite fille[br]
+<sn:pointer id="34" window="0" trigger="talk 21" npc="Petite fille">Petite fille[br]
 T'es bien un garçon. T'as qu'à attendre. Maman, j'ai faim ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="35" window="0" trigger="talk 22">Loid l'étudiant[br]
+<sn:pointer id="35" window="0" trigger="talk 22" npc="Loid l'étudiant">Loid l'étudiant[br]
 Que savez-vous à propos des pluméens ? Ils ressemblent à des anges et ont des ailes comme les oiseaux.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="36" window="0" trigger="talk 23">Mage héraldique[br]
+<sn:pointer id="36" window="0" trigger="talk 23" npc="Mage héraldique">Mage héraldique[br]
 Je suis en train de faire des recherches sur le phénomène des transformations humano-bestiales. La race dont traite mon étude est les lycanthropes et ne recense que peu d'individus. Pour des raisons indéterminées, ils peuvent passer de forme humaine à animale. Mais pourquoi donc ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="37" window="0" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="37" window="0" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 Avez-vous passé une bonne nuit ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="38" window="1" trigger="talk 24">Aubergiste[br]
+<sn:pointer id="38" window="1" trigger="talk 24" npc="Aubergiste">Aubergiste[br]
 C'est [color][0x5]30[color][0x2] Fol la nuit.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="39" choice="yes-no" window="1" trigger="talk 24">Voulez-vous rester ?[page]
+<sn:pointer id="39" choice="yes-no" window="1" trigger="talk 24" npc="Aubergiste">Voulez-vous rester ?[page]
 [end]</sn:pointer>
 
-<sn:pointer id="40" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="40" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="41" window="0" trigger="talk 24">Vous n'avez pas assez d'argent.[page]
+<sn:pointer id="41" window="0" trigger="talk 24" npc="Aubergiste">Vous n'avez pas assez d'argent.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="42" window="0" trigger="talk 24">[nick:イリア][br]
+<sn:pointer id="42" window="0" trigger="talk 24" npc="Aubergiste">[nick:イリア][br]
 Pas besoin d'aller à l'auberge, nous avons tout ce qu'il faut chez Ryas.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="43" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="43" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="44" window="0" trigger="talk 24">[end]</sn:pointer>
+<sn:pointer id="44" window="0" trigger="talk 24" npc="Aubergiste">[end]</sn:pointer>
 
-<sn:pointer id="45" window="0" trigger="talk 26">Soldat assassin[br]
+<sn:pointer id="45" window="0" trigger="talk 26" npc="Soldat assassin">Soldat assassin[br]
 Ne restez pas derrière moi. Même moi, je suis incapable de stopper la fureur de mon bras.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="46" window="0" trigger="talk 27">Chevalier[br]
+<sn:pointer id="46" window="0" trigger="talk 27" npc="Chevalier">Chevalier[br]
 S'il fallait citer trois des plus valeureux combattants de la guerre contre le monde démoniaque, Ryas est le premier qui me vient à l'esprit ![page]
 [end]</sn:pointer>
 
-<sn:pointer id="47" window="0" trigger="talk 28">Barman[br]
+<sn:pointer id="47" window="0" trigger="talk 28" npc="Barman">Barman[br]
 Vous avez entendu ? Il paraît que [nick:フィア] a poignardé Ryas, son père adoptif, celui qui l'a élevée. Mais où va le monde...[page]
 [end]</sn:pointer>
 
-<sn:pointer id="48" window="0" trigger="talk 28">Avec ces monstres qui prennent forme humaine, on n'est même plus en sécurité quand on vient en ville.[page]
+<sn:pointer id="48" window="0" trigger="talk 28" npc="Barman">Avec ces monstres qui prennent forme humaine, on n'est même plus en sécurité quand on vient en ville.[page]
 [end]</sn:pointer>
 
-<sn:pointer id="49" window="0" trigger="talk 28">Barman[br]
+<sn:pointer id="49" window="0" trigger="talk 28" npc="Barman">Barman[br]
 Bienvenue.[page]
 [end]</sn:pointer>
 
