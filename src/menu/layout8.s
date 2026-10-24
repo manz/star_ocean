@@ -75,10 +75,10 @@ Where menu labels sit (`ldx #label / ldy #row:column / jsr C3A5`), moved where t
 }
 
 .alloc menu_hand_cave at 0xCAFFB3 size 0x4D {
-    jsr.w 0x5456
+    jsr 0x5456
     php
     rep #0x30
-    lda.w 0x06A6
+    lda 0x06A6
     and.w #0x00FF
     clc
     adc.w #0x0070
@@ -99,7 +99,7 @@ _shift:
 _bit:
     sep #0x20
     pha
-    lda.w 0x0696
+    lda 0x0696
     cmp.b #0xF0
     pla
     bcc _clear
@@ -167,7 +167,7 @@ button_icon(5, 175)  ; Arcane 2
 ; Settings, sound mode: the game lit a 5-cell rect at column 0x0E + 5 * mode; the French options are 6, 4 and 2
 ; cells wide (Stéréo Mono 3D).
 .alloc at 0xCACE50 size 0x26 {
-    lda.w 0x0715
+    lda 0x0715
     sta.b 0x30
     stz.b 0x31
     ldx.b 0x30
@@ -181,7 +181,7 @@ button_icon(5, 175)  ; Arcane 2
     sta.b 0x23
     lda.b #0x03
     sta.b 0x24
-    jsr.w 0xD23D
+    jsr 0xD23D
     rts
 }
 

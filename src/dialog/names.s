@@ -113,5 +113,5 @@ _done:
     plx
     plb
     plp
-    jml.l 0xC2D795
+    jml 0xC2D795
 }

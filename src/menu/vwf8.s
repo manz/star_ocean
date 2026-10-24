@@ -118,7 +118,7 @@ _game:
 vwf8_cave_drain:
     jsl vwf8_drain
     lda.b #0x20
-    trb.w 0x0601
+    trb 0x0601
     rts
 }
 
@@ -209,14 +209,14 @@ battle16 printer's.
     ldy.w #_COMBO_CELLS
     lda.w #0
 _combo_clear:
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     sta.l 0x7E0000 + _ROW, x
     inx
     inx
     dey
     bne _combo_clear
     sep #0x20
-    lda.w 0x06E6
+    lda 0x06E6
     asl
     asl
     sta.b _attribute
@@ -583,7 +583,7 @@ _glyph:
     cmp.b #0
     bne _tiled
     lda.b #_BLANK
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     lda.b _attribute
     bra _attribute_out
 _tiled:
@@ -593,11 +593,11 @@ _tiled:
     adc.l vwf8.tile
     dec
     sep #0x20
-    sta.l 0x7E0000, x
+    sta 0x7E0000, x
     xba
     ora.b _attribute
 _attribute_out:
-    sta.l 0x7E0001, x
+    sta 0x7E0001, x
     inx
     inx
     iny

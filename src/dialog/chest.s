@@ -58,7 +58,7 @@ X = the message ($7E:6100): each non-zero word of $02EF as [color] 6, [item] id,
     sta 0x06
 _slot:
     ldy 0x00
-    lda.w 0x02EF, y
+    lda 0x02EF, y
     beq _next
     bpl _low
     and.w #0xFF
