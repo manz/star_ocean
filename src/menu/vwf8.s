@@ -16,6 +16,7 @@ The Talents combo slots print their special moves' battle16 names with the 16x16
 
 .import "core/preamble"
 .import "menu/text16"
+.import "@std/snes/sdd1"
 
 .include "vwf8.i"
 
@@ -662,8 +663,6 @@ _upload:
     asl
     tax
     sep #0x20
-    lda.b #0x01
-    sta.l 0x004800
     lda.b #0x09
     sta.l 0x004300
     lda.b #0x18
@@ -682,11 +681,7 @@ _upload:
     adc.l vwf8.queue + 3, x
     sta.l vwf8.budget
     sep #0x20
-    lda.b #0x01
-    sta.l 0x004801
-    sta.l 0x00420B
-    lda.b #0
-    sta.l 0x004800
+    sdd1_decompress(0x01)
     lda.l vwf8.head
     inc
     and.b #_QUEUE_SLOTS - 1
