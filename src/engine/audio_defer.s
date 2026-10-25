@@ -27,7 +27,7 @@ the IRQ as before: one send a frame, at most a frame late. Off unless AUDIO_DEFE
 """In the line-258 IRQ (M8 X16, D and DB 0): send last frame's audio if the main loop never did, mark this one."""
         lda.l audio_defer.pending
         beq _mark
-        jsr.w 0x032D
+        jsr 0x032D
         sep #0x20
 _mark:
         lda.b #0x01
@@ -87,7 +87,7 @@ _send:
         sep #0x20
         pha
         plb
-        jsr.w 0x032D
+        jsr 0x032D
         rep #0x30
         pld
         plb

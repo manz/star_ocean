@@ -46,22 +46,22 @@ rest, and the rare paths (piece off screen, OAM full), stay on the original code
         bne _done
         ldx.w #0xB073
 _step:
-        test_slot(0x00, _1)
-_1:
-        test_slot(0x20, _2)
-_2:
-        test_slot(0x40, _3)
-_3:
-        test_slot(0x60, _4)
-_4:
-        test_slot(0x80, _5)
-_5:
-        test_slot(0xA0, _6)
-_6:
-        test_slot(0xC0, _7)
-_7:
-        test_slot(0xE0, _8)
-_8:
+        test_slot(0x00, _slot1)
+_slot1:
+        test_slot(0x20, _slot2)
+_slot2:
+        test_slot(0x40, _slot3)
+_slot3:
+        test_slot(0x60, _slot4)
+_slot4:
+        test_slot(0x80, _slot5)
+_slot5:
+        test_slot(0xA0, _slot6)
+_slot6:
+        test_slot(0xC0, _slot7)
+_slot7:
+        test_slot(0xE0, _next_step)
+_next_step:
         rep #0x20
         txa
         clc
@@ -91,7 +91,7 @@ _busy:
         cmp.b #0x72
         bcs _skip
 _call:
-        jsr.w 0x51F3
+        jsr 0x51F3
         sep #0x20
 _skip:
         plx
@@ -113,14 +113,14 @@ _skip:
         plb
         ldx.w #0xC073
 _step:
-        test_slot(0x00, _1)
-_1:
-        test_slot(0x40, _2)
-_2:
-        test_slot(0x80, _3)
-_3:
-        test_slot(0xC0, _4)
-_4:
+        test_slot(0x00, _slot1)
+_slot1:
+        test_slot(0x40, _slot2)
+_slot2:
+        test_slot(0x80, _slot3)
+_slot3:
+        test_slot(0xC0, _next_step)
+_next_step:
         rep #0x20
         txa
         clc
@@ -248,7 +248,7 @@ _loop:
 
     .alloc cel_call in code_c3 {
 """C3:917C (sprite cel stream) for the piece loop: jsl here. Out: carry as C3:917C left it."""
-        jsr.w 0x917C
+        jsr 0x917C
         rtl
     }
 
