@@ -91,7 +91,7 @@ _busy:
         cmp.b #0x72
         bcs _skip
 _call:
-        jsr.w 0x51F3
+        jsr 0x51F3
         sep #0x20
 _skip:
         plx
@@ -248,7 +248,7 @@ _loop:
 
     .alloc cel_call in code_c3 {
 """C3:917C (sprite cel stream) for the piece loop: jsl here. Out: carry as C3:917C left it."""
-        jsr.w 0x917C
+        jsr 0x917C
         rtl
     }
 
