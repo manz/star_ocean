@@ -8,10 +8,9 @@ table = "text/so_8x8.tbl"
 output = "build/gen/small_font.dat"
 widths = { "0xFF" = 3 }
 
-# 8x16 dialog VWF (FF4's dialog font remapped to the Star Ocean stream codes: tools/seed_dialog_font.py).
+# 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes.
 [fonts.dialog]
-png = "fonts/so_dialog.png"
-cell = [8, 16]
+builtin = "sumi/16"
 table = "text/so_fr.tbl"
 output = "build/gen/dialog_font.dat"
 widths = { "0x05" = 4 }

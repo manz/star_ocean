@@ -1,4 +1,4 @@
-"""The 16x16 menu font is the dialog font: build/gen/dialog_font.dat (katsuji, fonts/so_dialog.png) -> the game's
+"""The 16x16 menu font is the dialog font: build/gen/dialog_font.dat (katsuji, builtin sumi/16) -> the game's
 1bpp glyphs at FF:0000, a width per glyph, and the 16x16 table.
 
 Glyph g is dialog code g + 5 (so C0:4B60 serves the dialog [item] inserts and the 16x16 menus alike) and 16x16
