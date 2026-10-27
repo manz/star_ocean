@@ -12,8 +12,10 @@ import tempfile
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+import numpy as np
 import pytest
-from PIL import Image, ImageChops
+from katsuji import png
+from katsuji.png import Pixels
 
 from tools.rom import ROOT
 
@@ -24,7 +26,7 @@ ROM = ROOT / "build" / "star_ocean.sfc"
 IPS = ROOT / "build" / "star_ocean.ips"
 STATES = Path(__file__).parent / "states"
 GOLDENS = Path(__file__).parent / "goldens"
-PICTURE = (13, 9, 13 + 256, 9 + 224)  # the SNES picture inside kintsuki's framebuffer
+PICTURE = np.s_[9 : 9 + 224, 13 : 13 + 256]  # the SNES picture inside kintsuki's framebuffer, [y, x]
 HOLD, GAP = 4, 90  # frames a tap holds the button, then waits (menus animate their windows in)
 
 
@@ -69,11 +71,26 @@ def tap(emu: Emu, buttons: str) -> None:
         emu.run_frames(GAP)
 
 
-def picture(emu: Emu) -> Image.Image:
+def rgb(path: Path) -> Pixels:
+    """The PNG's pixels as (height, width, 3) RGB."""
+    pixels, palette = png.read(path)
+    if palette is not None:
+        pixels = np.array(palette, dtype=np.uint8).reshape(-1, 3)[pixels]
+    elif pixels.ndim == 2:
+        pixels = np.stack([pixels] * 3, axis=-1)
+    return np.ascontiguousarray(pixels[..., :3])
+
+
+def picture(emu: Emu) -> Pixels:
+    """The SNES picture, (224, 256, 3) RGB."""
     with tempfile.TemporaryDirectory() as tmp:
         shot = Path(tmp) / "frame.png"
         emu.screenshot(str(shot))
-        return Image.open(shot).convert("RGB").crop(PICTURE)
+        return np.ascontiguousarray(rgb(shot)[PICTURE])
+
+
+def changed_pixels(a: Pixels, b: Pixels) -> int:
+    return int(np.any(a != b, axis=-1).sum())
 
 
 def assert_matches_golden(emu: Emu, name: str) -> None:
@@ -82,10 +99,9 @@ def assert_matches_golden(emu: Emu, name: str) -> None:
     actual = picture(emu)
     if not golden.exists() or os.environ.get("UPDATE_GOLDENS") == "1":
         golden.parent.mkdir(parents=True, exist_ok=True)
-        actual.save(golden)
+        png.write(golden, actual)
         pytest.skip(f"recorded {golden.name}: check it, commit it")
-    expected = Image.open(golden).convert("RGB")
-    bad = ImageChops.difference(expected, actual).convert("L").point(lambda v: 255 if v else 0).histogram()[255]
+    bad = changed_pixels(rgb(golden), actual)
     if bad:
-        actual.save(golden.with_suffix(".actual.png"))
+        png.write(golden.with_suffix(".actual.png"), actual)
     assert bad == 0, f"{bad} pixels differ from {golden.name}"

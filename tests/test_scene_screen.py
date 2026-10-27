@@ -12,9 +12,8 @@ from collections.abc import Iterator, Sequence
 from typing import TYPE_CHECKING
 
 import pytest
-from PIL import Image, ImageChops
 
-from tests.screens import assert_matches_golden, picture, tap
+from tests.screens import assert_matches_golden, changed_pixels, picture, tap
 from tests.warp import EVENTS, field, run_script, warp
 from tools.scene_asm import assemble, assign, op, var
 
@@ -57,11 +56,6 @@ def lab() -> Iterator[Lab]:
 def syscall(n: int, *args: int) -> list[Instruction]:
     """`syscall n` with var.w[0], var.w[2], ... = args (word stores: a byte store keeps the old high byte)."""
     return [*(assign(var(2 * i, 1), a) for i, a in enumerate(args)), op("syscall", n)]
-
-
-def changed_pixels(a: Image.Image, b: Image.Image) -> int:
-    diff = ImageChops.difference(a, b).convert("L")
-    return int(diff.point(lambda v: 255 if v else 0).histogram()[255])
 
 
 def brightness_after(lab: Lab, items: Sequence[Instruction], frames: int) -> int:
@@ -295,10 +289,9 @@ def test_syscall_41_derives_a_palette(lab: Lab, mode: int) -> None:
 
 
 def bars(emu: Emu) -> int:
-    img = picture(emu)
-    px = img.load()
-    assert px is not None
-    return next(y for y in range(img.height) if any(px[x, y] != (0, 0, 0) for x in range(40, 216)))
+    lit = picture(emu)[:, 40:216].any(axis=(1, 2))
+    assert lit.any(), "the picture is black"
+    return int(lit.argmax())
 
 
 @pytest.mark.parametrize(("value", "height"), [(8, 0), (10, 8), (16, 32), (20, 48), (28, 80)])
@@ -369,7 +362,7 @@ def preset_change(lab: Lab, preset: int) -> int:
     emu = lab.reset()
     run_script(emu, syscall(12, preset), 1)
     emu.run_frames(8)
-    return changed_pixels(picture(emu).crop((96, 88, 176, 168)), calm.crop((96, 88, 176, 168)))
+    return changed_pixels(picture(emu)[88:168, 96:176], calm[88:168, 96:176])
 
 
 def test_syscall_12_preset_1_explodes_on_the_hero(lab: Lab) -> None:

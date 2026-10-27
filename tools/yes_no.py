@@ -16,7 +16,8 @@ import argparse
 from dataclasses import dataclass
 from pathlib import Path
 
-from PIL import Image
+import numpy as np
+from katsuji import png
 
 from tools import sdd1
 from tools.cutscene_text import preview, tile
@@ -195,12 +196,12 @@ def build(out: Path = ROOT / "build" / "gen") -> dict[str, Grid]:
             name = f"yes_no_{bubble.name}_{n}"
             (out / f"{name}.bin").write_bytes(b"".join(parts))
             lines += asm(name, cel, parts)
-    sheet = Image.new("L", (max(len(g[0]) for g in grids.values()), sum(len(g) for g in grids.values())))
+    sheet = np.zeros((sum(len(g) for g in grids.values()), max(len(g[0]) for g in grids.values())), dtype=np.uint8)
     y = 0
     for grid in grids.values():
-        sheet.paste(preview(grid), (0, y))
+        sheet[y : y + len(grid), : len(grid[0])] = preview(grid)
         y += len(grid)
-    sheet.resize((sheet.width * 4, sheet.height * 4), Image.Resampling.NEAREST).save(out / "yes_no.png")
+    png.write(out / "yes_no.png", sheet.repeat(4, 0).repeat(4, 1))
     (out / "yes_no.i").write_text("\n".join(lines) + "\n")
     return grids
 

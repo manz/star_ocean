@@ -10,7 +10,9 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from PIL import Image
+import numpy as np
+from katsuji import png
+from katsuji.png import Pixels
 
 from tools import sdd1
 from tools.rom import ROOT
@@ -23,38 +25,42 @@ SLOT = 1954  # the game's compressed stream at DB:A078
 LEVEL = 85
 
 
-def tiles_to_png(data: bytes) -> Image.Image:
-    image = Image.new("L", (COLS * 8, TILES // COLS * 8))
+def tiles_to_png(data: bytes) -> Pixels:
+    """Grey pixels: 8-bit, one channel."""
+    image = np.zeros((TILES // COLS * 8, COLS * 8), dtype=np.uint8)
     for tile in range(TILES):
         for y in range(8):
             low, high = data[tile * 16 + y * 2], data[tile * 16 + y * 2 + 1]
             for x in range(8):
                 colour = (low >> (7 - x) & 1) | (high >> (7 - x) & 1) << 1
-                image.putpixel((tile % COLS * 8 + x, tile // COLS * 8 + y), colour * LEVEL)
+                image[tile // COLS * 8 + y, tile % COLS * 8 + x] = colour * LEVEL
     return image
 
 
-def png_to_tiles(image: Image.Image) -> bytes:
-    grey = image.convert("L")
+def png_to_tiles(grey: Pixels) -> bytes:
+    """`grey`: 8-bit, one channel, as `tiles_to_png` makes it."""
+    if grey.ndim != 2:
+        raise ValueError(f"menu font: grey pixels expected, got shape {grey.shape}")
     out = bytearray()
     for tile in range(TILES):
         for y in range(8):
             low = high = 0
             for x in range(8):
-                value = grey.getpixel((tile % COLS * 8 + x, tile // COLS * 8 + y))
-                assert isinstance(value, int)  # "L": one channel
-                colour = round(value / LEVEL)
+                colour = round(int(grey[tile // COLS * 8 + y, tile % COLS * 8 + x]) / LEVEL)
                 low |= (colour & 1) << (7 - x)
                 high |= (colour >> 1) << (7 - x)
             out += bytes([low, high])
     return bytes(out)
 
 
-def build(png: Path = PNG, out: Path = OUT) -> int:
+def build(png_path: Path = PNG, out: Path = OUT) -> int:
     """Compressed size; the stream is padded to the game's slot."""
-    packed = sdd1.compress(png_to_tiles(Image.open(png)))
+    pixels, palette = png.read(png_path)
+    if palette is not None:
+        raise ValueError(f"{png_path.name}: palettized, the menu font is greyscale")
+    packed = sdd1.compress(png_to_tiles(pixels))
     if len(packed) > SLOT:
-        raise ValueError(f"{png.name}: {len(packed)} bytes compressed, DB:A078 holds {SLOT}")
+        raise ValueError(f"{png_path.name}: {len(packed)} bytes compressed, DB:A078 holds {SLOT}")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(packed + bytes(SLOT - len(packed)))
     return len(packed)
@@ -65,7 +71,7 @@ def main() -> None:
     ap.add_argument("--seed", type=Path, help="old project's Font_8x8.bin: write the png from it")
     args = ap.parse_args()
     if args.seed:
-        tiles_to_png(args.seed.read_bytes()[:SIZE]).save(PNG)
+        png.write(PNG, tiles_to_png(args.seed.read_bytes()[:SIZE]))
         print(f"{args.seed.name} -> {PNG.relative_to(ROOT)}")
     print(f"{build()} / {SLOT} bytes -> {OUT.relative_to(ROOT)}")
 

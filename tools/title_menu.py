@@ -14,6 +14,8 @@ import tomllib
 from pathlib import Path
 from typing import Any
 
+from katsuji import png
+
 from tools import sdd1
 from tools.cutscene_text import CEL, preview, render, tile
 from tools.rom import ROOT, Rom
@@ -45,7 +47,7 @@ def build(src: Path = ROOT / "text" / "fr" / "title_menu.toml", out: Path = ROOT
     slots, asm = iter(SLOTS), []
     for n, item in enumerate(items):
         grid = render([item["text"]], "menu", left=1)
-        preview(grid).save(out / "title_menu" / f"{n}.png")
+        png.write(out / "title_menu" / f"{n}.png", preview(grid))
         old = rom.read(frame_at(rom, item["entry"]), 3)
         cels = [x for x in range(0, len(grid[0]), CEL) if any(v for row in grid for v in row[x : x + CEL])]
         records = [f"    .db 0x{0x80 | len(cels):02X}, 0x{old[1]:02X}, 0x{old[2]:02X}"]

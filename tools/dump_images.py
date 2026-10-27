@@ -6,6 +6,8 @@ import argparse
 import json
 from pathlib import Path
 
+from katsuji import png
+
 from tools import sdd1
 from tools.gfx import bgr555, cells_image, tiles_image
 from tools.rom import Rom
@@ -32,7 +34,7 @@ def narration(rom: Rom, out: Path) -> list[dict[str, str | int]]:
             name = f"narration/{screen:02d}_{line}.png"
             path = out / name
             path.parent.mkdir(parents=True, exist_ok=True)
-            cells_image(data, 2, 26, palette).save(path)
+            png.write(path, *cells_image(data, 2, 26, palette))
             entries.append(
                 {
                     "file": name,
@@ -60,7 +62,7 @@ def element_sprites(rom: Rom, out: Path) -> list[dict[str, str | int]]:
     data, packed = sdd1.decompress(ELEMENT_SPRITES, ELEMENT_SPRITES_BYTES)
     name = "menu/element_sprites.png"
     (out / name).parent.mkdir(parents=True, exist_ok=True)
-    tiles_image(data, 4, 16).save(out / name)
+    png.write(out / name, *tiles_image(data, 4, 16))
     return [
         {
             "file": name,

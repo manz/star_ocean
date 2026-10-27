@@ -12,7 +12,7 @@ import argparse
 from collections.abc import Sequence
 from pathlib import Path
 
-from PIL import Image
+from katsuji import png
 
 from tools import sdd1
 from tools.cutscene_text import preview, tile
@@ -75,7 +75,7 @@ def build(out: Path = ROOT / "build" / "gen") -> Grid:
     """badge_N.bin per cel, badge.png, badge.i (the cels in text16, the frame's sources repointed)."""
     grid = french(original(Rom()))
     out.mkdir(parents=True, exist_ok=True)
-    preview(grid).resize((WIDTH * 4, HEIGHT * 4), Image.Resampling.NEAREST).save(out / "badge.png")
+    png.write(out / "badge.png", preview(grid).repeat(4, 0).repeat(4, 1))
     asm = []
     for cel in range(CELS):
         top, bottom = streams(grid, cel)
