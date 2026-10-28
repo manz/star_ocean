@@ -23,8 +23,6 @@ package = false
 
 [tool.ruff]
 line-length = 120
-# build.py predates the current a816 API; left as is until the patch build is rewritten.
-extend-exclude = ["build.py"]
 
 [tool.mypy]
 python_version = "3.14"
