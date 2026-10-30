@@ -1,9 +1,9 @@
 """The narration, cutscene and title menu text renders, tracked in src_assets/renders/ for machines without the
-macOS fonts.
+fonts.
 
-tools/narration.py, tools/cutscene_text.py and tools/title_menu.py draw with /System/Library/Fonts (Helvetica, Times),
-which only macOS has. Where the fonts are, the build renders as usual and refreshes the tracked copy of what a816
-reads (the .i and .bin files); elsewhere (CI) it copies them back into build/gen. `inputs.sha256` hashes the renders'
+tools/narration.py, tools/cutscene_text.py and tools/title_menu.py draw with the Noto fonts in fonts/noto. Where the
+fonts are, the build renders as usual and refreshes the tracked copy of what a816 reads (the .i and .bin files);
+elsewhere it copies them back into build/gen. `inputs.sha256` hashes the renders'
 inputs, so a copy older than the text or the tools fails the build instead of shipping.
 """
 
@@ -25,6 +25,7 @@ INPUTS = (
     ROOT / "tools" / "narration.py",
     ROOT / "tools" / "cutscene_text.py",
     ROOT / "tools" / "title_menu.py",
+    *sorted((ROOT / "fonts" / "noto").glob("*.ttf")),
 )
 PATTERNS = (
     "narration.i",
@@ -66,7 +67,7 @@ def build(gen: Path, renders: Path = RENDERS) -> None:
         (renders / STAMP).write_text(stamp())
         return
     if not (renders / STAMP).exists() or (renders / STAMP).read_text() != stamp():
-        raise RuntimeError(f"{renders} is older than the text it renders: rebuild on macOS and commit it")
+        raise RuntimeError(f"{renders} is older than the text it renders: rebuild with the fonts and commit it")
     gen.mkdir(parents=True, exist_ok=True)
     for path in outputs(renders):
         shutil.copy2(path, gen / path.name)

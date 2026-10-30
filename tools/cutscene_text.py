@@ -16,23 +16,23 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+from kappan import Font
 from katsuji import png
 from katsuji.png import Pixels
-from PIL import Image, ImageDraw, ImageFont
 
 from tools import sdd1
 from tools.rom import ROOT, Rom
 
 Grid = list[list[int]]
 
-SCALE, CEL = 4, 16
+CEL = 16
+NOTO = ROOT / "fonts" / "noto"
 # style -> font, px size, ground colour, darkest..brightest ink colours, blank cels kept (opaque ground)
 STYLES: dict[str, tuple[Path, int, int, range, bool]] = {
-    "subtitle": (Path("/System/Library/Fonts/Helvetica.ttc"), 12, 11, range(12, 16), True),
-    "credit": (Path("/System/Library/Fonts/Times.ttc"), 13, 0, range(1, 4), False),
-    "menu": (Path("/System/Library/Fonts/Helvetica.ttc"), 15, 0, range(1, 4), False),
+    "subtitle": (NOTO / "NotoSans-Medium.ttf", 11, 11, range(12, 16), True),
+    "credit": (NOTO / "NotoSerif-Regular.ttf", 13, 0, range(1, 4), False),
+    "menu": (NOTO / "NotoSans-Bold.ttf", 14, 0, range(1, 4), False),
 }
-FACES = {"menu": 1}  # style -> face in the font collection (Helvetica Bold)
 MAX_WIDTH = 256
 LINE_STEP = 14  # credit lines
 TITLE_BYTES = 0x400  # BG credit title (C2:DB33)
@@ -42,20 +42,19 @@ def render(lines: list[str], style: str, width: int = 0, left: int | None = None
     """The lines on a grid of whole cels (or `width` px), as the style's colour indices: centred, or starting at
     `left`, or ending at `right`."""
     path, size, ground, inks, _ = STYLES[style]
-    font = ImageFont.truetype(str(path), size * SCALE, index=FACES.get(style, 0))
-    widths = [font.getlength(line) / SCALE for line in lines]
+    font = Font(path, size, hinting="full")
+    widths = [font.length(line) for line in lines]
     if max(widths) > MAX_WIDTH - 2:
         raise ValueError(f"cutscene line {lines[widths.index(max(widths))]!r} is {max(widths):.0f} px")
     width = width or -(-int(max(widths) + 2) // CEL) * CEL
     height = -(-(CEL + LINE_STEP * (len(lines) - 1)) // CEL) * CEL
-    big = Image.new("L", (width * SCALE, height * SCALE))
-    draw = ImageDraw.Draw(big)
+    canvas = np.zeros((height, width), dtype=np.uint8)
     for i, (line, w) in enumerate(zip(lines, widths, strict=True)):
         x = left if left is not None else right - w if right is not None else (width - w) / 2
         if not 0 <= x <= width - w:
             raise ValueError(f"cutscene line {line!r} does not fit its {width} px")
-        draw.text((round(x) * SCALE, (13 + i * LINE_STEP) * SCALE), line, font=font, fill=255, anchor="ls")
-    small = big.resize((width, height), Image.Resampling.BOX).tobytes()
+        font.draw(canvas, round(x), 13 + i * LINE_STEP, line)
+    small = canvas.tobytes()
     levels = len(inks)
     return [
         [
