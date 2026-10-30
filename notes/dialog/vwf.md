@@ -1,7 +1,7 @@
 # Dialog VWF (patch: src/dialog/vwf.s)
 
-- Font: `fonts/so_dialog.png` (katsuji 8x16, cell index = stream code; seeded once by
-  `tools/seed_dialog_font.py` from FF4's `fonts/vwf.png`, 19 glyphs drawn in its style) + `text/so_fr.tbl`.
+- Font: katsuji's builtin `sumi/16` (8x16, FF4's VWF font) on `text/so_fr.tbl` (cell index = stream code,
+  `katsuji.toml` `[fonts.dialog]`).
   `05` space, `06-0F` digits (numbers print as digit + 1, Japanese layout kept), `10-29` A-Z, `2A-43` a-z,
   accents, punctuation, ○★☆♀♂♥♪; 112 glyphs, all one byte (< `$80`).
 - Data: codes `00-7F` of the katsuji record file (17 B each: 16 rows + width) at `FF:BF80-C7FF`, over 16x16
