@@ -13,10 +13,12 @@ import hashlib
 from collections.abc import Iterator
 from typing import TYPE_CHECKING
 
+import numpy as np
 import pytest
-from PIL import Image
+from katsuji import png
+from katsuji.png import Pixels
 
-from tests.screens import GOLDENS, STATES, picture, tap
+from tests.screens import GOLDENS, STATES, picture, rgb, tap
 from tests.warp import EVENTS, LOADED, SAVES, VARS, field, run_script, walk
 from tools.scene_asm import assemble, assign, op, var
 
@@ -262,7 +264,7 @@ def _look(emu: Emu, steps: list[Instruction]) -> list[str]:
     out = []
     for _ in range(6):
         emu.run_frames(8)
-        out.append(hashlib.md5(picture(emu).crop((144, 88, 176, 136)).tobytes()).hexdigest())
+        out.append(hashlib.md5(picture(emu)[88:136, 144:176].tobytes()).hexdigest())
     return out
 
 
@@ -290,11 +292,11 @@ def test_anims_1_to_3_and_8_to_11_cycle(saves: tuple[Emu, dict[int, bytes]], ani
 # Syscalls 1-4, 23, 24: +0x2C is the sprite's width in 16ths, +0x2D its vertical step (8.8, 0x100 = 1:1)
 
 
-def _strip(emu: Emu, steps: list[Instruction], frames: int = 2, count: int = 12) -> Image.Image:
+def _strip(emu: Emu, steps: list[Instruction], frames: int = 2, count: int = 12) -> Pixels:
     run_script(emu, [_create(), *steps], 1)
-    strip = Image.new("RGB", (48 * count, 64))
+    strip = np.zeros((64, 48 * count, 3), dtype=np.uint8)
     for k in range(count):
-        strip.paste(picture(emu).crop((136, 72, 184, 136)), (48 * k, 0))
+        strip[:, 48 * k : 48 * (k + 1)] = picture(emu)[72:136, 136:184]
         emu.run_frames(frames)
     return strip
 
@@ -312,12 +314,12 @@ def test_vanish_and_appear_pictures(saves: tuple[Emu, dict[int, bytes]], n: int)
     _assert_strip(strip, f"actors_syscall{n}")
 
 
-def _assert_strip(strip: Image.Image, name: str) -> None:
+def _assert_strip(strip: Pixels, name: str) -> None:
     golden = GOLDENS / f"{name}.png"
     if not golden.exists():
-        strip.save(golden)
+        png.write(golden, strip)
         pytest.skip(f"recorded {golden.name}")
-    assert Image.open(golden).convert("RGB").tobytes() == strip.tobytes()
+    assert np.array_equal(rgb(golden), strip)
 
 
 @pytest.mark.parametrize(("n", "priority", "end"), [(1, 3, 0), (3, 2, 0), (2, 2, 0x80), (4, 2, 0x80), (23, 2, 0)])

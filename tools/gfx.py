@@ -1,8 +1,11 @@
-"""SNES planar tiles <-> PIL images."""
+"""SNES planar tiles <-> palettized pixels for `katsuji.png`."""
 
 from __future__ import annotations
 
-from PIL import Image
+import numpy as np
+from katsuji.png import Pixels
+
+Indexed = tuple[Pixels, tuple[int, ...]]  # colour indices and their flat RGB palette: `png.write(path, *indexed)`
 
 GREYS = {1: [0, 255], 2: [0, 85, 170, 255], 4: [i * 17 for i in range(16)]}
 
@@ -32,40 +35,31 @@ def bgr555(data: bytes) -> list[tuple[int, int, int]]:
     return out
 
 
-def palette_image(width: int, height: int, bpp: int) -> Image.Image:
-    im = Image.new("P", (width, height))
-    pal = []
-    for g in GREYS[bpp]:
-        pal += [g, g, g]
-    im.putpalette(pal)
-    return im
+def grey_palette(bpp: int) -> tuple[int, ...]:
+    return tuple(g for g in GREYS[bpp] for _ in range(3))
 
 
-def tiles_image(data: bytes, bpp: int, cols: int = 16) -> Image.Image:
+def tiles_image(data: bytes, bpp: int, cols: int = 16) -> Indexed:
     """All tiles of ``data`` on a ``cols``-wide grid, palette index = pixel value."""
     n = len(data) // (8 * bpp)
-    im = palette_image(cols * 8, max(1, -(-n // cols)) * 8, bpp)
+    im = np.zeros((max(1, -(-n // cols)) * 8, cols * 8), dtype=np.uint8)
     for t in range(n):
-        for y, row in enumerate(tile_pixels(data, t * 8 * bpp, bpp)):
-            for x, v in enumerate(row):
-                im.putpixel(((t % cols) * 8 + x, (t // cols) * 8 + y), v)
-    return im
+        y, x = (t // cols) * 8, (t % cols) * 8
+        im[y : y + 8, x : x + 8] = tile_pixels(data, t * 8 * bpp, bpp)
+    return im, grey_palette(bpp)
 
 
 def cells_image(
     data: bytes, bpp: int, cells_per_row: int, palette: list[tuple[int, int, int]] | None = None
-) -> Image.Image:
+) -> Indexed:
     """Text-window layout: each 8x16 cell is a top/bottom tile pair, cells left to right."""
     tile = 8 * bpp
     n = len(data) // (2 * tile)
     rows = max(1, -(-n // cells_per_row))
-    im = palette_image(cells_per_row * 8, rows * 16, bpp)
+    im = np.zeros((rows * 16, cells_per_row * 8), dtype=np.uint8)
     for c in range(n):
         ox, oy = (c % cells_per_row) * 8, (c // cells_per_row) * 16
         for half in range(2):
-            for y, row in enumerate(tile_pixels(data, (2 * c + half) * tile, bpp)):
-                for x, v in enumerate(row):
-                    im.putpixel((ox + x, oy + half * 8 + y), v)
-    if palette:
-        im.putpalette([c for rgb in palette for c in rgb])
-    return im
+            y = oy + half * 8
+            im[y : y + 8, ox : ox + 8] = tile_pixels(data, (2 * c + half) * tile, bpp)
+    return im, tuple(c for rgb in palette for c in rgb) if palette else grey_palette(bpp)

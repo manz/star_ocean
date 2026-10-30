@@ -13,6 +13,9 @@ import tomllib
 from pathlib import Path
 from typing import Any
 
+import numpy as np
+from katsuji import png
+from katsuji.png import Pixels
 from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from tools import sdd1
@@ -30,7 +33,7 @@ MARGIN = 4  # px kept clear on each side of a Calnus line
 BASELINE, STEP = 13, 16  # the Japanese lines sit on y = 13 of their 16
 LETTER_MARGIN = 10  # inside the torn edge
 INK, CREASE, PAPER = 1, 2, 3  # letter colours (palette FE:FDFB)
-PREVIEW = [0, 0, 0, 85, 85, 85, 170, 170, 170, 255, 255, 255]
+PREVIEW = (0, 0, 0, 85, 85, 85, 170, 170, 170, 255, 255, 255)
 
 
 def coverage(screen: dict[str, Any], margin: int) -> Grid:
@@ -123,10 +126,9 @@ def cells(grid: Grid, line: int) -> bytes:
     return bytes(out)
 
 
-def preview(grid: Grid) -> Image.Image:
-    im = Image.frombytes("P", (WIDTH, HEIGHT), bytes(v for row in grid for v in row))
-    im.putpalette(PREVIEW)
-    return im
+def preview(grid: Grid) -> tuple[Pixels, tuple[int, ...]]:
+    """Colour indices and their palette, for `png.write`."""
+    return np.array(grid, dtype=np.uint8), PREVIEW
 
 
 def build(src: Path = ROOT / "text" / "fr" / "narration.toml", out: Path = ROOT / "build" / "gen") -> int:
@@ -139,7 +141,7 @@ def build(src: Path = ROOT / "text" / "fr" / "narration.toml", out: Path = ROOT 
     asm, lines = [], 0
     for s, screen in enumerate(screens):
         grid = letter(rom, screen) if s == 0 else calnus(screen)
-        preview(grid).save(out / "narration" / f"{s:02d}.png")
+        png.write(out / "narration" / f"{s:02d}.png", *preview(grid))
         for line in range(LINES):
             data = cells(grid, line)
             entry = f"0x{NARRATION_TABLE + s * 16 + line * 3:06X}"

@@ -15,6 +15,9 @@ import tomllib
 from pathlib import Path
 from typing import Any
 
+import numpy as np
+from katsuji import png
+from katsuji.png import Pixels
 from PIL import Image, ImageDraw, ImageFont
 
 from tools import sdd1
@@ -138,8 +141,9 @@ def spans(ranges: list[tuple[int, int]]) -> list[tuple[int, int]]:
     return out
 
 
-def preview(grid: Grid) -> Image.Image:
-    return Image.frombytes("L", (len(grid[0]), len(grid)), bytes(v * 17 for row in grid for v in row))
+def preview(grid: Grid) -> Pixels:
+    """Grey pixels for `png.write`, colour c as c * 17."""
+    return np.array(grid, dtype=np.uint8) * 17
 
 
 def build(src: Path = ROOT / "text" / "fr" / "cutscenes.toml", out: Path = ROOT / "build" / "gen") -> int:
@@ -156,7 +160,7 @@ def build(src: Path = ROOT / "text" / "fr" / "cutscenes.toml", out: Path = ROOT 
         grid = render(frame["text"], style, left=1 if align == "left" else None)
         if align == "right":
             grid = render(frame["text"], style, width=len(grid[0]), right=len(grid[0]) - 1)
-        preview(grid).save(out / "cutscenes" / f"{n:02d}.png")
+        png.write(out / "cutscenes" / f"{n:02d}.png", preview(grid))
         cx, cy, size = old_centre(rom, frame["at"])
         if not frame.get("keep"):
             reclaimed.append((frame["at"], frame["at"] + size))
@@ -180,7 +184,7 @@ def build(src: Path = ROOT / "text" / "fr" / "cutscenes.toml", out: Path = ROOT 
         first, last = title_edges(rom, title["at"])
         side = {"left": first} if title["align"] == "left" else {"right": last + 1}
         grid = render([title["text"]], "credit", width=256, **side)
-        preview(grid).save(out / "cutscenes" / f"title_{n}.png")
+        png.write(out / "cutscenes" / f"title_{n}.png", preview(grid))
         name = f"credit_title_{n}"
         (out / f"{name}.bin").write_bytes(sdd1.compress(title_stream(grid)))
         asm.append(f'.alloc {name} in text16 {{\n    .incbin "{name}.bin"\n}}')
