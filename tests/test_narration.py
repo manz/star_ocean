@@ -4,12 +4,16 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import numpy as np
 import pytest
 from kappan import Font
 
+from tests.screens import assert_matches_golden
+from tests.warp import field, run_script, warp
 from tools import narration, sdd1
 from tools.dump_images import NARRATION_LINE_BYTES
 from tools.rom import DEFAULT_ROM, Rom
+from tools.scene_asm import op
 
 pytestmark = pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not present")
 
@@ -43,3 +47,16 @@ def test_letter_creases_clear_around_the_ink() -> None:
 def test_too_wide_line_is_refused() -> None:
     with pytest.raises(ValueError, match="px fit"):
         narration.coverage({"text": ["W" * 40]}, narration.MARGIN, Font(narration.FONT, narration.SIZE))
+
+
+KURT = 4  # a scene 6 map (its start-up branches on map ids 4-13)
+CHIEF_LETTER = 52  # scene 6's `say_mode8 52`: [narration][0x0], the chief's letter
+LETTER_ROWS = np.s_[144:]  # the parchment; a candle flickers above it
+
+
+def test_the_chief_letter_shows_in_kurt() -> None:
+    emu = field("fantasyanime_4")
+    warp(emu, KURT, 8, 8, 2)
+    emu.run_frames(60)
+    run_script(emu, [op("say_mode8", CHIEF_LETTER)], frames=120)
+    assert_matches_golden(emu, "chief_letter", LETTER_ROWS)
