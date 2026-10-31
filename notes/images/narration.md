@@ -14,7 +14,8 @@ Pre-rendered text, not font text. Shown by the text VM (`C2:38AB → C2:56AA →
 
 ## French (src/dialog/narration.s)
 
-- `text/fr/narration.toml` → `tools/narration.py`: Helvetica 12 drawn at 4×, box-filtered to the 3 greys; the
+- `text/fr/narration.toml` → `tools/narration.py`: Noto Sans Medium 11 (`fonts/noto`), fully hinted by kappan,
+  quantised to the 3 greys; the
   letter's Japanese ink is erased (ink not touching the torn edge takes the paper around it), French drawn in ink.
 - Streams go in the `text16` pool, which narration.s grows with the 19 freed Japanese slots and the 0xFF padding
   before the FE / FF bank ends. 13 French lines are ≥ 255 B against 12 freed slots that size: no in-place fit.

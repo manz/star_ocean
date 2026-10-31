@@ -14,9 +14,9 @@ from pathlib import Path
 from typing import Any
 
 import numpy as np
+from kappan import Font
 from katsuji import png
 from katsuji.png import Pixels
-from PIL import Image, ImageChops, ImageDraw, ImageFont
 
 from tools import sdd1
 from tools.dump_images import BLANK_LINE, NARRATION_LINE_BYTES, NARRATION_SCREENS, NARRATION_TABLE
@@ -25,8 +25,8 @@ from tools.rom import ROOT, Rom
 
 Grid = list[list[int]]  # [y][x] colour indices or coverage
 
-FONT = Path("/System/Library/Fonts/Helvetica.ttc")
-SIZE, SCALE = 12, 4  # px; drawn SCALE times larger, then box-filtered down to grey levels
+FONT = ROOT / "fonts" / "noto" / "NotoSans-Medium.ttf"
+SIZE = 11  # px per em
 WIDTH, LINE, LINES = 208, 16, 4
 HEIGHT = LINE * LINES
 MARGIN = 4  # px kept clear on each side of a Calnus line
@@ -38,23 +38,21 @@ PREVIEW = (0, 0, 0, 85, 85, 85, 170, 170, 170, 255, 255, 255)
 
 def coverage(screen: dict[str, Any], margin: int) -> Grid:
     """The screen's text as 0-255 coverage. A line starting with ">" is right-aligned."""
-    font = ImageFont.truetype(str(FONT), SIZE * SCALE)
-    canvas = Image.new("L", (WIDTH, HEIGHT))
+    font = Font(FONT, SIZE, hinting="full")
+    canvas = np.zeros((HEIGHT, WIDTH), dtype=np.uint8)
     for i, line in enumerate(screen["text"]):
         if not line:
             continue
         align = "right" if line.startswith(">") else screen.get("align", "center")
         text = line.removeprefix(">")
-        width = font.getlength(text) / SCALE
+        width = font.length(text)
         if width > WIDTH - 2 * margin:
             raise ValueError(f"narration line {text!r} is {width:.0f} px, {WIDTH - 2 * margin} px fit")
         left = {"left": margin, "right": WIDTH - margin - width, "center": (WIDTH - width) / 2}[align]
         baseline = screen.get("baseline", BASELINE) + i * screen.get("step", STEP)
-        big = Image.new("L", (WIDTH * SCALE, HEIGHT * SCALE))
-        ImageDraw.Draw(big).text((round(left) * SCALE, baseline * SCALE), text, font=font, fill=255, anchor="ls")
-        canvas = ImageChops.lighter(canvas, big.resize((WIDTH, HEIGHT), Image.Resampling.BOX))
-    flat = canvas.tobytes()
-    return [list(flat[y * WIDTH : (y + 1) * WIDTH]) for y in range(HEIGHT)]
+        font.draw(canvas, round(left), baseline, text)
+    grid: Grid = canvas.tolist()
+    return grid
 
 
 def original(rom: Rom, screen: int) -> Grid:

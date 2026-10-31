@@ -32,31 +32,31 @@
     .incbin "cutscene_00_05_bottom.bin"
 }
 .alloc cutscene_00 in cutscene_frames {
-    .db 6, 0x0b, 0x07
+    .db 6, 0x0f, 0x07
     .db 1
-    .dw 8 & 0xFFFF, 4 & 0xFFFF
+    .dw 16 & 0xFFFF, 4 & 0xFFFF
     .dl cutscene_00_00
-    .db 11
-    .db 1
-    .dw 24 & 0xFFFF, 4 & 0xFFFF
-    .dl cutscene_00_01
     .db 20
     .db 1
-    .dw 40 & 0xFFFF, 4 & 0xFFFF
+    .dw 32 & 0xFFFF, 4 & 0xFFFF
+    .dl cutscene_00_01
+    .db 21
+    .db 1
+    .dw 0 & 0xFFFF, 20 & 0xFFFF
     .dl cutscene_00_02
-    .db 12
+    .db 17
     .db 1
-    .dw 8 & 0xFFFF, 20 & 0xFFFF
+    .dw 16 & 0xFFFF, 20 & 0xFFFF
     .dl cutscene_00_03
-    .db 19
+    .db 28
     .db 1
-    .dw 24 & 0xFFFF, 20 & 0xFFFF
+    .dw 32 & 0xFFFF, 20 & 0xFFFF
     .dl cutscene_00_04
     .db 23
     .db 1
-    .dw 40 & 0xFFFF, 20 & 0xFFFF
+    .dw 48 & 0xFFFF, 20 & 0xFFFF
     .dl cutscene_00_05
-    .db 19
+    .db 20
 }
 .alloc at 0xCC090F size 2 {
     .dw cutscene_00 & 0xFFFF
@@ -99,35 +99,35 @@
     .db 1
     .dw -8 & 0xFFFF, 8 & 0xFFFF
     .dl cutscene_01_00
-    .db 12
+    .db 20
     .db 1
     .dw 8 & 0xFFFF, 8 & 0xFFFF
     .dl cutscene_01_01
-    .db 9
+    .db 13
     .db 1
     .dw 24 & 0xFFFF, 8 & 0xFFFF
     .dl cutscene_01_02
-    .db 15
+    .db 19
     .db 1
     .dw 40 & 0xFFFF, 8 & 0xFFFF
     .dl cutscene_01_03
-    .db 15
+    .db 21
     .db 1
     .dw 56 & 0xFFFF, 8 & 0xFFFF
     .dl cutscene_01_04
-    .db 8
+    .db 15
     .db 1
     .dw 8 & 0xFFFF, 24 & 0xFFFF
     .dl cutscene_01_05
-    .db 18
+    .db 19
     .db 1
     .dw 24 & 0xFFFF, 24 & 0xFFFF
     .dl cutscene_01_06
-    .db 16
+    .db 24
     .db 1
     .dw 40 & 0xFFFF, 24 & 0xFFFF
     .dl cutscene_01_07
-    .db 15
+    .db 21
 }
 .alloc at 0xCC0914 size 2 {
     .dw cutscene_01 & 0xFFFF
@@ -173,56 +173,48 @@
     .incbin "cutscene_02_09_top.bin"
     .incbin "cutscene_02_09_bottom.bin"
 }
-.alloc cutscene_02_10 in text16 {
-    .incbin "cutscene_02_10_top.bin"
-    .incbin "cutscene_02_10_bottom.bin"
-}
 .alloc cutscene_02 in cutscene_frames {
-    .db 11, 0x2b, 0x03
+    .db 10, 0x27, 0x03
     .db 1
-    .dw -20 & 0xFFFF, 0 & 0xFFFF
+    .dw -12 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_00
-    .db 14
+    .db 18
     .db 1
-    .dw -4 & 0xFFFF, 0 & 0xFFFF
+    .dw 4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_01
-    .db 24
+    .db 18
     .db 1
-    .dw 12 & 0xFFFF, 0 & 0xFFFF
+    .dw 20 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_02
-    .db 27
+    .db 15
     .db 1
-    .dw 28 & 0xFFFF, 0 & 0xFFFF
+    .dw 36 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_03
-    .db 24
+    .db 18
     .db 1
-    .dw 44 & 0xFFFF, 0 & 0xFFFF
+    .dw 52 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_04
+    .db 17
+    .db 1
+    .dw 68 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_02_05
+    .db 20
+    .db 1
+    .dw 84 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_02_06
+    .db 16
+    .db 1
+    .dw 100 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_02_07
+    .db 15
+    .db 1
+    .dw 116 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_02_08
     .db 21
     .db 1
-    .dw 60 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_02_05
-    .db 29
-    .db 1
-    .dw 76 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_02_06
-    .db 30
-    .db 1
-    .dw 92 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_02_07
-    .db 14
-    .db 1
-    .dw 108 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_02_08
-    .db 25
-    .db 1
-    .dw 124 & 0xFFFF, 0 & 0xFFFF
+    .dw 132 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_02_09
-    .db 29
-    .db 1
-    .dw 140 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_02_10
-    .db 22
+    .db 23
 }
 .alloc at 0xCC091E size 2 {
     .dw cutscene_02 & 0xFFFF
@@ -289,59 +281,59 @@
     .db 1
     .dw 0 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_00
-    .db 24
+    .db 19
     .db 1
     .dw 16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_01
-    .db 25
+    .db 16
     .db 1
     .dw 32 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_02
-    .db 25
+    .db 19
     .db 1
     .dw 48 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_03
-    .db 22
+    .db 18
     .db 1
     .dw 64 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_04
-    .db 27
+    .db 17
     .db 1
     .dw 80 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_05
-    .db 25
+    .db 19
     .db 1
     .dw 96 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_06
-    .db 33
+    .db 27
     .db 1
     .dw 112 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_07
-    .db 27
+    .db 18
     .db 1
     .dw 128 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_08
-    .db 30
+    .db 17
     .db 1
     .dw 144 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_09
-    .db 23
+    .db 19
     .db 1
     .dw 160 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_10
-    .db 29
+    .db 20
     .db 1
     .dw 176 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_11
-    .db 29
+    .db 19
     .db 1
     .dw 192 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_12
-    .db 28
+    .db 18
     .db 1
     .dw 208 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_03_13
-    .db 22
+    .db 15
 }
 .alloc at 0xCC1A37 size 2 {
     .dw cutscene_03 & 0xFFFF
@@ -383,52 +375,44 @@
     .incbin "cutscene_04_08_top.bin"
     .incbin "cutscene_04_08_bottom.bin"
 }
-.alloc cutscene_04_09 in text16 {
-    .incbin "cutscene_04_09_top.bin"
-    .incbin "cutscene_04_09_bottom.bin"
-}
 .alloc cutscene_04 in cutscene_frames {
-    .db 10, 0x27, 0x03
+    .db 9, 0x23, 0x03
     .db 1
-    .dw -4 & 0xFFFF, 0 & 0xFFFF
+    .dw 4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_00
     .db 16
     .db 1
-    .dw 12 & 0xFFFF, 0 & 0xFFFF
+    .dw 20 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_01
-    .db 22
+    .db 17
     .db 1
-    .dw 28 & 0xFFFF, 0 & 0xFFFF
+    .dw 36 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_02
-    .db 25
+    .db 19
     .db 1
-    .dw 44 & 0xFFFF, 0 & 0xFFFF
+    .dw 52 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_03
-    .db 26
+    .db 19
     .db 1
-    .dw 60 & 0xFFFF, 0 & 0xFFFF
+    .dw 68 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_04
-    .db 26
+    .db 18
     .db 1
-    .dw 76 & 0xFFFF, 0 & 0xFFFF
+    .dw 84 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_04_05
-    .db 27
-    .db 1
-    .dw 92 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_04_06
-    .db 25
-    .db 1
-    .dw 108 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_04_07
-    .db 27
-    .db 1
-    .dw 124 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_04_08
-    .db 26
-    .db 1
-    .dw 140 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_04_09
     .db 16
+    .db 1
+    .dw 100 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_04_06
+    .db 19
+    .db 1
+    .dw 116 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_04_07
+    .db 19
+    .db 1
+    .dw 132 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_04_08
+    .db 19
 }
 .alloc at 0xCC1A3C size 2 {
     .dw cutscene_04 & 0xFFFF
@@ -455,19 +439,19 @@
     .db 1
     .dw 12 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_05_00
-    .db 26
+    .db 22
     .db 1
     .dw 28 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_05_01
-    .db 25
+    .db 17
     .db 1
     .dw 44 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_05_02
-    .db 30
+    .db 19
     .db 1
     .dw 60 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_05_03
-    .db 21
+    .db 18
 }
 .alloc at 0xCC1A41 size 2 {
     .dw cutscene_05 & 0xFFFF
@@ -510,35 +494,35 @@
     .db 1
     .dw -24 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_00
-    .db 27
+    .db 19
     .db 1
     .dw -8 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_01
-    .db 29
+    .db 25
     .db 1
     .dw 8 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_02
-    .db 29
+    .db 22
     .db 1
     .dw 24 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_03
-    .db 25
+    .db 19
     .db 1
     .dw 40 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_04
-    .db 29
+    .db 23
     .db 1
     .dw 56 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_05
-    .db 22
+    .db 16
     .db 1
     .dw 72 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_06
-    .db 32
+    .db 20
     .db 1
     .dw 88 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_06_07
-    .db 23
+    .db 17
 }
 .alloc at 0xCC2344 size 2 {
     .dw cutscene_06 & 0xFFFF
@@ -589,43 +573,43 @@
     .db 1
     .dw -16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_00
-    .db 25
+    .db 20
     .db 1
     .dw 0 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_01
-    .db 30
+    .db 23
     .db 1
     .dw 16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_02
-    .db 24
+    .db 18
     .db 1
     .dw 32 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_03
-    .db 23
+    .db 18
     .db 1
     .dw 48 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_04
-    .db 27
+    .db 23
     .db 1
     .dw 64 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_05
-    .db 26
+    .db 17
     .db 1
     .dw 80 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_06
-    .db 27
+    .db 15
     .db 1
     .dw 96 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_07
-    .db 26
+    .db 19
     .db 1
     .dw 112 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_08
-    .db 23
+    .db 17
     .db 1
     .dw 128 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_07_09
-    .db 18
+    .db 13
 }
 .alloc at 0xCC2349 size 2 {
     .dw cutscene_07 & 0xFFFF
@@ -684,51 +668,51 @@
     .db 1
     .dw 12 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_00
-    .db 23
+    .db 13
     .db 1
     .dw 28 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_01
-    .db 23
+    .db 17
     .db 1
     .dw 44 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_02
-    .db 26
+    .db 18
     .db 1
     .dw 60 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_03
-    .db 26
+    .db 19
     .db 1
     .dw 76 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_04
-    .db 25
+    .db 20
     .db 1
     .dw 92 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_05
-    .db 23
+    .db 20
     .db 1
     .dw 108 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_06
-    .db 26
+    .db 16
     .db 1
     .dw 124 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_07
-    .db 30
+    .db 22
     .db 1
     .dw 140 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_08
-    .db 26
+    .db 18
     .db 1
     .dw 156 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_09
-    .db 26
+    .db 19
     .db 1
     .dw 172 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_10
-    .db 26
+    .db 18
     .db 1
     .dw 188 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_08_11
-    .db 20
+    .db 16
 }
 .alloc at 0xCC234E size 2 {
     .dw cutscene_08 & 0xFFFF
@@ -779,43 +763,43 @@
     .db 1
     .dw -16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_00
-    .db 32
+    .db 22
     .db 1
     .dw 0 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_01
-    .db 32
+    .db 22
     .db 1
     .dw 16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_02
-    .db 23
+    .db 16
     .db 1
     .dw 32 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_03
-    .db 24
+    .db 16
     .db 1
     .dw 48 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_04
-    .db 27
+    .db 18
     .db 1
     .dw 64 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_05
-    .db 30
+    .db 20
     .db 1
     .dw 80 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_06
-    .db 28
+    .db 24
     .db 1
     .dw 96 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_07
-    .db 26
+    .db 23
     .db 1
     .dw 112 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_08
-    .db 31
+    .db 18
     .db 1
     .dw 128 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_09_09
-    .db 21
+    .db 17
 }
 .alloc at 0xCC2353 size 2 {
     .dw cutscene_09 & 0xFFFF
@@ -870,47 +854,47 @@
     .db 1
     .dw 4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_00
-    .db 23
+    .db 18
     .db 1
     .dw 20 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_01
-    .db 21
+    .db 15
     .db 1
     .dw 36 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_02
-    .db 27
+    .db 20
     .db 1
     .dw 52 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_03
-    .db 22
+    .db 16
     .db 1
     .dw 68 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_04
-    .db 23
+    .db 17
     .db 1
     .dw 84 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_05
-    .db 29
+    .db 18
     .db 1
     .dw 100 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_06
-    .db 23
+    .db 18
     .db 1
     .dw 116 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_07
-    .db 23
+    .db 17
     .db 1
     .dw 132 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_08
-    .db 26
+    .db 20
     .db 1
     .dw 148 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_09
-    .db 30
+    .db 21
     .db 1
     .dw 164 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_10_10
-    .db 22
+    .db 16
 }
 .alloc at 0xCC2358 size 2 {
     .dw cutscene_10 & 0xFFFF
@@ -961,43 +945,43 @@
     .db 1
     .dw -28 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_00
-    .db 24
+    .db 21
     .db 1
     .dw -12 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_01
-    .db 27
+    .db 18
     .db 1
     .dw 4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_02
-    .db 23
+    .db 19
     .db 1
     .dw 20 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_03
-    .db 29
+    .db 17
     .db 1
     .dw 36 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_04
-    .db 23
+    .db 15
     .db 1
     .dw 52 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_05
-    .db 30
+    .db 20
     .db 1
     .dw 68 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_06
-    .db 22
+    .db 20
     .db 1
     .dw 84 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_07
-    .db 27
+    .db 17
     .db 1
     .dw 100 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_08
-    .db 24
+    .db 17
     .db 1
     .dw 116 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_11_09
-    .db 28
+    .db 24
 }
 .alloc at 0xCC235D size 2 {
     .dw cutscene_11 & 0xFFFF
@@ -1035,48 +1019,40 @@
     .incbin "cutscene_12_07_top.bin"
     .incbin "cutscene_12_07_bottom.bin"
 }
-.alloc cutscene_12_08 in text16 {
-    .incbin "cutscene_12_08_top.bin"
-    .incbin "cutscene_12_08_bottom.bin"
-}
 .alloc cutscene_12 in cutscene_frames {
-    .db 9, 0x23, 0x03
+    .db 8, 0x1f, 0x03
     .db 1
-    .dw -4 & 0xFFFF, 0 & 0xFFFF
+    .dw 4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_00
+    .db 20
+    .db 1
+    .dw 20 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_12_01
     .db 18
     .db 1
-    .dw 12 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_12_01
-    .db 27
-    .db 1
-    .dw 28 & 0xFFFF, 0 & 0xFFFF
+    .dw 36 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_02
-    .db 26
+    .db 18
     .db 1
-    .dw 44 & 0xFFFF, 0 & 0xFFFF
+    .dw 52 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_03
-    .db 25
+    .db 18
     .db 1
-    .dw 60 & 0xFFFF, 0 & 0xFFFF
+    .dw 68 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_04
-    .db 25
+    .db 20
     .db 1
-    .dw 76 & 0xFFFF, 0 & 0xFFFF
+    .dw 84 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_05
-    .db 31
+    .db 18
     .db 1
-    .dw 92 & 0xFFFF, 0 & 0xFFFF
+    .dw 100 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_06
-    .db 26
+    .db 17
     .db 1
-    .dw 108 & 0xFFFF, 0 & 0xFFFF
+    .dw 116 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_12_07
-    .db 25
-    .db 1
-    .dw 124 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_12_08
-    .db 10
+    .db 15
 }
 .alloc at 0xCC2362 size 2 {
     .dw cutscene_12 & 0xFFFF
@@ -1103,19 +1079,19 @@
     .db 1
     .dw -4 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_13_00
-    .db 25
+    .db 21
     .db 1
     .dw 12 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_13_01
-    .db 25
+    .db 18
     .db 1
     .dw 28 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_13_02
-    .db 26
+    .db 18
     .db 1
     .dw 44 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_13_03
-    .db 20
+    .db 17
 }
 .alloc at 0xCC2367 size 2 {
     .dw cutscene_13 & 0xFFFF
@@ -1165,59 +1141,51 @@
     .incbin "cutscene_14_10_top.bin"
     .incbin "cutscene_14_10_bottom.bin"
 }
-.alloc cutscene_14_11 in text16 {
-    .incbin "cutscene_14_11_top.bin"
-    .incbin "cutscene_14_11_bottom.bin"
-}
 .alloc cutscene_14 in cutscene_frames {
-    .db 12, 0x2f, 0x03
+    .db 11, 0x2b, 0x03
     .db 1
-    .dw -28 & 0xFFFF, 0 & 0xFFFF
+    .dw -20 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_00
-    .db 16
-    .db 1
-    .dw -12 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_01
-    .db 27
-    .db 1
-    .dw 4 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_02
-    .db 25
-    .db 1
-    .dw 20 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_03
-    .db 24
-    .db 1
-    .dw 36 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_04
-    .db 27
-    .db 1
-    .dw 52 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_05
     .db 22
     .db 1
-    .dw 68 & 0xFFFF, 0 & 0xFFFF
+    .dw -4 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_14_01
+    .db 18
+    .db 1
+    .dw 12 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_14_02
+    .db 19
+    .db 1
+    .dw 28 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_14_03
+    .db 16
+    .db 1
+    .dw 44 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_14_04
+    .db 18
+    .db 1
+    .dw 60 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_14_05
+    .db 15
+    .db 1
+    .dw 76 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_06
-    .db 27
+    .db 21
     .db 1
-    .dw 84 & 0xFFFF, 0 & 0xFFFF
+    .dw 92 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_07
-    .db 28
+    .db 18
     .db 1
-    .dw 100 & 0xFFFF, 0 & 0xFFFF
+    .dw 108 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_08
-    .db 27
+    .db 29
     .db 1
-    .dw 116 & 0xFFFF, 0 & 0xFFFF
+    .dw 124 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_09
-    .db 31
+    .db 16
     .db 1
-    .dw 132 & 0xFFFF, 0 & 0xFFFF
+    .dw 140 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_14_10
-    .db 26
-    .db 1
-    .dw 148 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_14_11
     .db 18
 }
 .alloc at 0xCC236C size 2 {
@@ -1240,24 +1208,32 @@
     .incbin "cutscene_15_03_top.bin"
     .incbin "cutscene_15_03_bottom.bin"
 }
+.alloc cutscene_15_04 in text16 {
+    .incbin "cutscene_15_04_top.bin"
+    .incbin "cutscene_15_04_bottom.bin"
+}
 .alloc cutscene_15 in cutscene_frames {
-    .db 4, 0x0f, 0x03
+    .db 5, 0x13, 0x03
     .db 1
     .dw 0 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_15_00
-    .db 16
+    .db 19
     .db 1
     .dw 16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_15_01
-    .db 15
+    .db 16
     .db 1
     .dw 32 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_15_02
-    .db 14
+    .db 22
     .db 1
     .dw 48 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_15_03
-    .db 11
+    .db 15
+    .db 1
+    .dw 64 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_15_04
+    .db 13
 }
 .alloc at 0xCC2371 size 2 {
     .dw cutscene_15 & 0xFFFF
@@ -1275,20 +1251,28 @@
     .incbin "cutscene_16_02_top.bin"
     .incbin "cutscene_16_02_bottom.bin"
 }
+.alloc cutscene_16_03 in text16 {
+    .incbin "cutscene_16_03_top.bin"
+    .incbin "cutscene_16_03_bottom.bin"
+}
 .alloc cutscene_16 in cutscene_frames {
-    .db 3, 0x0b, 0x03
+    .db 4, 0x0f, 0x03
+    .db 1
+    .dw -24 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_16_00
+    .db 10
     .db 1
     .dw -8 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_16_00
-    .db 17
+    .dl cutscene_16_01
+    .db 18
     .db 1
     .dw 8 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_16_01
-    .db 15
+    .dl cutscene_16_02
+    .db 19
     .db 1
     .dw 24 & 0xFFFF, 0 & 0xFFFF
-    .dl cutscene_16_02
-    .db 12
+    .dl cutscene_16_03
+    .db 15
 }
 .alloc at 0xCC2376 size 2 {
     .dw cutscene_16 & 0xFFFF
@@ -1310,23 +1294,31 @@
     .incbin "cutscene_17_03_top.bin"
     .incbin "cutscene_17_03_bottom.bin"
 }
+.alloc cutscene_17_04 in text16 {
+    .incbin "cutscene_17_04_top.bin"
+    .incbin "cutscene_17_04_bottom.bin"
+}
 .alloc cutscene_17 in cutscene_frames {
-    .db 4, 0x0f, 0x03
+    .db 5, 0x13, 0x03
     .db 1
     .dw 0 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_17_00
-    .db 17
+    .db 21
     .db 1
     .dw 16 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_17_01
-    .db 16
+    .db 18
     .db 1
     .dw 32 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_17_02
-    .db 15
+    .db 16
     .db 1
     .dw 48 & 0xFFFF, 0 & 0xFFFF
     .dl cutscene_17_03
+    .db 19
+    .db 1
+    .dw 64 & 0xFFFF, 0 & 0xFFFF
+    .dl cutscene_17_04
     .db 9
 }
 .alloc at 0xCC237B size 2 {

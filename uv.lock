@@ -124,6 +124,21 @@ wheels = [
 ]
 
 [[package]]
+name = "kappan"
+version = "0.1.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/2b/c8/8b41409a17cda9545bf6fba44f745193eb60abe93329f4858c032c8c6d49/kappan-0.1.0.tar.gz", hash = "sha256:a4546cf26ed1dcb83beaa8a9b0f7ed89ae2cec48097d3e8608c80a8477e5f362", size = 343968, upload-time = "2026-10-31T06:20:13.499Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/43/2c/8b6d18f2fe1032ceebe3be2958e90ec918a2b366309107be1bd11ab45c92/kappan-0.1.0-cp312-abi3-macosx_10_12_x86_64.whl", hash = "sha256:34afb549f5a99d8000912ad9e2b6c372c6ee4cf67defdcb11e046c56732dcd7b", size = 1154367, upload-time = "2026-10-31T06:20:07.787Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/a9/69eaf95b9a86b6f55400a1e74fa3ee73eb34b97046a9959693382424768a/kappan-0.1.0-cp312-abi3-macosx_11_0_arm64.whl", hash = "sha256:f56acd0aff76264abac52e6c7007037f37bb738576cd0e89679fbee1f95c0aa4", size = 1125603, upload-time = "2026-10-31T06:20:09.643Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/53/57edff43b0782ce085835f30ff84e1245821dbace0055c8b54e2a8442d50/kappan-0.1.0-cp312-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:fdadf09f8e80cb480f747f4ef7f8755c0df085e0a9aba3865b3206f0c773ecaa", size = 1249264, upload-time = "2026-10-31T06:20:11.177Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/41/6667f3b20693fddb5ade74b89c50a13c2ae8ccd7a962cb125fc3dff8996f/kappan-0.1.0-cp312-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:93388b725664bc7779b084b4b81bf7094780e543630c88ffa1542652f9c826d0", size = 1238025, upload-time = "2026-10-31T06:20:12.328Z" },
+]
+
+[[package]]
 name = "katsuji"
 version = "0.6.0a3"
 source = { registry = "https://pypi.org/simple" }
@@ -479,6 +494,7 @@ version = "0.0.0"
 source = { virtual = "." }
 dependencies = [
     { name = "a816" },
+    { name = "kappan" },
     { name = "katsuji", extra = ["render"] },
 ]
 
@@ -493,6 +509,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "a816", specifier = "==1.3.0a3" },
+    { name = "kappan", specifier = "==0.1.0" },
     { name = "katsuji", extras = ["render"], specifier = "==0.6.0a3" },
 ]
 
