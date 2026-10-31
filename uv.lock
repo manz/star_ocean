@@ -125,17 +125,15 @@ wheels = [
 
 [[package]]
 name = "kappan"
-version = "0.1.0"
+version = "0.2.0a0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/2b/c8/8b41409a17cda9545bf6fba44f745193eb60abe93329f4858c032c8c6d49/kappan-0.1.0.tar.gz", hash = "sha256:a4546cf26ed1dcb83beaa8a9b0f7ed89ae2cec48097d3e8608c80a8477e5f362", size = 343968, upload-time = "2026-10-31T06:20:13.499Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c7/90/6cc98e323594fc8a3263c090bef6557bd083d2e0947ddd29ad20d7e9c96b/kappan-0.2.0a0.tar.gz", hash = "sha256:4b47c9344015e5f37e8fdfc3499fe9f85c261377cbbb5538310c6fb8d88ed6d2", size = 344088, upload-time = "2026-10-31T07:17:31.061Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/43/2c/8b6d18f2fe1032ceebe3be2958e90ec918a2b366309107be1bd11ab45c92/kappan-0.1.0-cp312-abi3-macosx_10_12_x86_64.whl", hash = "sha256:34afb549f5a99d8000912ad9e2b6c372c6ee4cf67defdcb11e046c56732dcd7b", size = 1154367, upload-time = "2026-10-31T06:20:07.787Z" },
-    { url = "https://files.pythonhosted.org/packages/0a/a9/69eaf95b9a86b6f55400a1e74fa3ee73eb34b97046a9959693382424768a/kappan-0.1.0-cp312-abi3-macosx_11_0_arm64.whl", hash = "sha256:f56acd0aff76264abac52e6c7007037f37bb738576cd0e89679fbee1f95c0aa4", size = 1125603, upload-time = "2026-10-31T06:20:09.643Z" },
-    { url = "https://files.pythonhosted.org/packages/1a/53/57edff43b0782ce085835f30ff84e1245821dbace0055c8b54e2a8442d50/kappan-0.1.0-cp312-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:fdadf09f8e80cb480f747f4ef7f8755c0df085e0a9aba3865b3206f0c773ecaa", size = 1249264, upload-time = "2026-10-31T06:20:11.177Z" },
-    { url = "https://files.pythonhosted.org/packages/2d/41/6667f3b20693fddb5ade74b89c50a13c2ae8ccd7a962cb125fc3dff8996f/kappan-0.1.0-cp312-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:93388b725664bc7779b084b4b81bf7094780e543630c88ffa1542652f9c826d0", size = 1238025, upload-time = "2026-10-31T06:20:12.328Z" },
+    { url = "https://files.pythonhosted.org/packages/5d/e8/6abc76aac3de256b4f364149c0d6dd730576d8062c7bc59a511c317e633a/kappan-0.2.0a0-cp312-abi3-macosx_11_0_arm64.whl", hash = "sha256:3918fc2ad35cac55005d29657bfe229f1a1c85864128a11264f7a028137d2118", size = 1125558, upload-time = "2026-10-31T07:17:28.168Z" },
+    { url = "https://files.pythonhosted.org/packages/aa/96/a21080cd00e7d72227db47aa0e5087a00f2224968d055a7d39a6e4c4103e/kappan-0.2.0a0-cp312-abi3-manylinux2014_aarch64.manylinux_2_17_aarch64.whl", hash = "sha256:41ad071a5cbad1300b2c7afb95b5fedbd51cdcf478ecc065519b321be2248196", size = 1248591, upload-time = "2026-10-31T07:17:29.538Z" },
 ]
 
 [[package]]
@@ -509,7 +507,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "a816", specifier = "==1.3.0a3" },
-    { name = "kappan", specifier = "==0.1.0" },
+    { name = "kappan", specifier = "==0.2.0a0" },
     { name = "katsuji", extras = ["render"], specifier = "==0.6.0a3" },
 ]
 
