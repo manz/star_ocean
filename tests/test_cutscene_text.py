@@ -10,13 +10,9 @@ from tools import cutscene_text, sdd1
 from tools.rom import DEFAULT_ROM, Rom
 
 needs_rom = pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not present")
-needs_fonts = pytest.mark.skipif(
-    not all(style[0].exists() for style in cutscene_text.STYLES.values()), reason="cutscene fonts not present"
-)
 
 
 @needs_rom
-@needs_fonts
 def test_every_frame_and_title_is_written(tmp_path: Path) -> None:
     frames = cutscene_text.build(out=tmp_path)
     asm = (tmp_path / "cutscenes.i").read_text()
@@ -34,7 +30,6 @@ def test_japanese_title_edges() -> None:
     assert first < 32 < last < 128
 
 
-@needs_fonts
 def test_title_stream_round_trips() -> None:
     grid = cutscene_text.render(["Avec"], "credit", width=256, right=220)
     stream = cutscene_text.title_stream(grid)

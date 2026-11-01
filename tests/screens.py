@@ -93,10 +93,11 @@ def changed_pixels(a: Pixels, b: Pixels) -> int:
     return int(np.any(a != b, axis=-1).sum())
 
 
-def assert_matches_golden(emu: Emu, name: str) -> None:
-    """The picture is tests/goldens/<name>.png, pixel for pixel; a mismatch leaves <name>.actual.png beside it."""
+def assert_matches_golden(emu: Emu, name: str, rows: slice = np.s_[:]) -> None:
+    """The picture (or its `rows`, to leave out an animation) is tests/goldens/<name>.png, pixel for pixel; a
+    mismatch leaves <name>.actual.png beside it."""
     golden = GOLDENS / f"{name}.png"
-    actual = picture(emu)
+    actual = np.ascontiguousarray(picture(emu)[rows])
     if not golden.exists() or os.environ.get("UPDATE_GOLDENS") == "1":
         golden.parent.mkdir(parents=True, exist_ok=True)
         png.write(golden, actual)

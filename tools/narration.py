@@ -27,6 +27,9 @@ Grid = list[list[int]]  # [y][x] colour indices or coverage
 
 FONT = ROOT / "fonts" / "noto" / "NotoSans-Medium.ttf"
 SIZE = 11  # px per em
+LETTER_FONT = ROOT / "fonts" / "kalam" / "Kalam-Regular.ttf"  # the chief's letter is handwritten
+LETTER_SIZE = 13
+LETTER_INK = 80  # coverage drawn in ink: low enough for a solid pen stroke
 WIDTH, LINE, LINES = 208, 16, 4
 HEIGHT = LINE * LINES
 MARGIN = 4  # px kept clear on each side of a Calnus line
@@ -36,9 +39,8 @@ INK, CREASE, PAPER = 1, 2, 3  # letter colours (palette FE:FDFB)
 PREVIEW = (0, 0, 0, 85, 85, 85, 170, 170, 170, 255, 255, 255)
 
 
-def coverage(screen: dict[str, Any], margin: int) -> Grid:
+def coverage(screen: dict[str, Any], margin: int, font: Font) -> Grid:
     """The screen's text as 0-255 coverage. A line starting with ">" is right-aligned."""
-    font = Font(FONT, SIZE, hinting="full")
     canvas = np.zeros((HEIGHT, WIDTH), dtype=np.uint8)
     for i, line in enumerate(screen["text"]):
         if not line:
@@ -98,17 +100,23 @@ def erase_ink(grid: Grid) -> Grid:
 
 
 def letter(rom: Rom, screen: dict[str, Any]) -> Grid:
+    """The French in ink on the erased parchment; creases next to the ink take the paper colour, so they don't run
+    into the letters."""
     grid = erase_ink(original(rom, 0))
-    cover = coverage(screen, LETTER_MARGIN)
-    for y in range(HEIGHT):
-        for x in range(WIDTH):
-            if grid[y][x] and cover[y][x] >= 112:
-                grid[y][x] = INK
+    cover = coverage(screen, LETTER_MARGIN, Font(LETTER_FONT, LETTER_SIZE, hinting="full"))
+    ink = {(x, y) for y in range(HEIGHT) for x in range(WIDTH) if grid[y][x] and cover[y][x] >= LETTER_INK}
+    for x, y in ink:
+        for j in range(max(0, y - 1), min(HEIGHT, y + 2)):
+            for i in range(max(0, x - 1), min(WIDTH, x + 2)):
+                if grid[j][i] == CREASE:
+                    grid[j][i] = PAPER
+    for x, y in ink:
+        grid[y][x] = INK
     return grid
 
 
 def calnus(screen: dict[str, Any]) -> Grid:
-    return [[min(3, (v + 40) // 80) for v in row] for row in coverage(screen, MARGIN)]
+    return [[min(3, (v + 40) // 80) for v in row] for row in coverage(screen, MARGIN, Font(FONT, SIZE, hinting="full"))]
 
 
 def cells(grid: Grid, line: int) -> bytes:
