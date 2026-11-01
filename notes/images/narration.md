@@ -15,8 +15,9 @@ Pre-rendered text, not font text. Shown by the text VM (`C2:38AB → C2:56AA →
 ## French (src/dialog/narration.s)
 
 - `text/fr/narration.toml` → `tools/narration.py`: Noto Sans Medium 11 (`fonts/noto`), fully hinted by kappan,
-  quantised to the 3 greys; the
-  letter's Japanese ink is erased (ink not touching the torn edge takes the paper around it), French drawn in ink.
+  quantised to the 3 greys. The chief's letter is handwritten in Kalam 13 (`fonts/kalam`): its Japanese ink is
+  erased (ink not touching the torn edge takes the paper around it), the French drawn in ink where coverage is
+  >= 80, and creases next to the ink cleared to paper so they don't run into the letters.
 - Streams go in the `text16` pool, which narration.s grows with the 19 freed Japanese slots and the 0xFF padding
   before the FE / FF bank ends. 13 French lines are ≥ 255 B against 12 freed slots that size: no in-place fit.
 - Scene 30 is the Calnus intro (`[narration][1..c]`). Its other subtitles (爆発の際…, シールドしろ, 宇宙暦346年…)

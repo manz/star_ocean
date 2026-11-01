@@ -8,30 +8,26 @@ from pathlib import Path
 import pytest
 
 from tests.screens import power_on, tap
-from tools import renders, sdd1, title_menu
+from tools import sdd1, title_menu
 from tools.rom import DEFAULT_ROM, ROOT
 
 pytestmark = pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not present")
-needs_fonts = pytest.mark.skipif(not renders.fonts_present(), reason="macOS fonts not present")
 
 TITLE = 1200  # power on to the title
 MENU = 200  # after START
 SHEET_VRAM = 0x7000  # the word CC:2441 sends the sheet to
 
 
-@needs_fonts
 def test_the_items_take_every_freed_cel(tmp_path: Path) -> None:
     assert title_menu.build(out=tmp_path) == len(title_menu.SLOTS)
 
 
-@needs_fonts
 def test_the_sheet_compresses_back_to_its_size(tmp_path: Path) -> None:
     title_menu.build(out=tmp_path)
     data, _ = sdd1.decompress_bytes((tmp_path / "title_sheet.bin").read_bytes(), title_menu.SHEET_BYTES)
     assert len(data) == title_menu.SHEET_BYTES
 
 
-@needs_fonts
 def test_an_item_too_long_for_the_sheet_is_refused(tmp_path: Path) -> None:
     src = tmp_path / "menu.toml"
     item = '[[item]]\nentry = 0xCC2BD0\ntext = "Nouvelle partie Nouvelle partie"\n'
