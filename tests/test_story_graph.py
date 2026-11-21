@@ -7,7 +7,7 @@ from pathlib import Path
 from tools import save_slot
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
-from tools.story_graph import DEBUG_SCENE, graphs, main, scene_graph
+from tools.story_graph import DEBUG_SCENE, export, graphs, main, scene_graph
 
 SAVES = Path(__file__).parent / "saves"
 
@@ -101,3 +101,12 @@ def test_the_first_step_is_laponia_s_zone() -> None:
 def test_a_set_adds_to_the_counter() -> None:
     """Scene 17's `set var.w[0x10] += 2` at 98 (map 233's arrival)."""
     assert any((s.at, s.to) == (98, 100) for s in scene_graph(17).steps())
+
+
+def test_the_export_carries_the_counter_each_exit_needs() -> None:
+    """Map 22's inn door: map 25 up to 11, map 26 after."""
+    data = export()
+    exits = data["exits"]
+    assert isinstance(exits, list)
+    inn = {e["to"]: e["counter"] for e in exits if e["maps"] == [22] and e["box"] == [32, 8, 33, 8]}
+    assert inn[25] == list(range(12)) and inn[26] == list(range(12, 256))
