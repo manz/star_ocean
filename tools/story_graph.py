@@ -6,24 +6,41 @@ every path of the setup with the set of maps it can be on (the scene's, from the
 narrows it, any other condition becomes a guard on both sides. Each placed trigger's entry is then walked the same
 way for its effects.
 
-    uv run python -m tools.story_graph [MAP ...]      # every map's exits and what its entries do
+The story counter `var.w[0x10]` only goes up over the game; `steps` are its writes, each pinned to the value(s) its
+guards allow: what the drive does next from a save's value.
+
+    uv run python -m tools.story_graph [MAP ...]      # every map's exits
+    uv run python -m tools.story_graph --story [V ...] # the counter's steps (from value V)
 """
 
 from __future__ import annotations
 
 import argparse
-from collections.abc import Callable, Iterator
+from collections.abc import Callable
 from dataclasses import dataclass
 from functools import cache
 
 from tools.dialog import SCENES
 from tools.map_table import scene_maps
-from tools.scene_script import Condition, Instruction, Jump, Value, header, instruction, scene_data
+from tools.scene_script import (
+    STORES,
+    Condition,
+    Expression,
+    Instruction,
+    Jump,
+    Term,
+    Value,
+    header,
+    instruction,
+    scene_data,
+)
 from tools.scene_walk import walk
 
 MAP_ID = ("sys", 0xC)
+DEBUG_SCENE = 1  # map 0's start menu: sets the counter to any chapter's value, not a story step
 MAX_CALLS = 32  # nested calls a path may hold: a script calling itself stays finite
 PLACEMENTS = {"trigger_tile", "trigger_zone", "npc_create", "chest_create", "actor_create"}
+STORY = "var.w[0x10]"  # the story counter: only goes up over the game (12 at the start, 173 at the Seven Star Ruins)
 EFFECTS = {
     "map_change",
     "map_change_continue",
@@ -35,6 +52,8 @@ EFFECTS = {
     "item_add",
     "party_join",
     "party_leave",
+    "inc",
+    "dec",
 }
 TALK, STEP = 0, 2  # entry kinds: A facing actor n / stepping on a trigger
 
@@ -77,10 +96,57 @@ class Exit:
     guards: frozenset[Guard]  # the trigger's and the entry's
 
 
+@dataclass(frozen=True)
+class Trigger:
+    kind: str  # arrive (the setup itself), step (a trigger tile / zone), talk (A facing an actor)
+    box: tuple[Arg, Arg, Arg, Arg] | None = None
+    actor: int | None = None
+
+
+ARRIVE = Trigger("arrive")
+
+
+@dataclass(frozen=True)
+class Action:
+    """An effect and what fires it, on the maps both cover, with the guards of both."""
+
+    scene: int
+    maps: frozenset[int]
+    trigger: Trigger
+    name: str
+    args: tuple[Arg, ...]
+    guards: frozenset[Guard]
+
+
+@dataclass(frozen=True)
+class Step:
+    """One move of the story counter."""
+
+    scene: int
+    maps: frozenset[int]
+    at: int | None  # the value it needs (None: no guard pins one)
+    to: Arg | None  # the value it writes (None: an `inc` from an unpinned value)
+    trigger: Trigger
+    guards: frozenset[Guard]
+
+
 def arg(value: object) -> Arg:
     if isinstance(value, Value):
         return value.n if value.table in ("imm", "byte") else str(value)
+    if isinstance(value, Expression):
+        if len(value.tokens) == 1:
+            return arg(value.tokens[0])
+        return " ".join(map(str, value.tokens))
     return str(value)
+
+
+def _args(ins: Instruction) -> tuple[Arg, ...]:
+    """The operands; a `set` as (variable, store, value): `=`, `+=`, ... (scene_script.STORES)."""
+    if ins.name == "set":
+        dest, value = ins.args
+        assert isinstance(dest, Value)
+        return arg(dest), STORES[(dest.flags >> 3) & 7], arg(value)
+    return tuple(arg(a) for a in ins.args)
 
 
 def map_test(condition: Condition) -> int | None:
@@ -134,7 +200,7 @@ class _Walker:
         for point, guards in self.guards.items():
             ins = instruction(self.data, point.pos, self.base)
             if ins.name in self.keep:
-                found.add(Op(self.scene, point.maps, ins.name, tuple(arg(a) for a in ins.args), guards))
+                found.add(Op(self.scene, point.maps, ins.name, _args(ins), guards))
         return found
 
     def _step(self, p: _Point, guards: frozenset[Guard]) -> list[tuple[_Point, frozenset[Guard]]]:
@@ -172,44 +238,125 @@ class _Walker:
 class SceneGraph:
     scene: int
     placements: frozenset[Op]
+    arrivals: frozenset[Op]  # effects the setup runs itself, on arrival
     effects: dict[tuple[int, int], frozenset[Op]]  # by entry (kind, id), walked on the maps its placements cover
 
-    def exits(self) -> set[Exit]:
-        return set(self._exits())
-
-    def _exits(self) -> Iterator[Exit]:
+    def actions(self) -> set[Action]:
+        out = {Action(self.scene, a.maps, ARRIVE, a.name, a.args, a.guards) for a in self.arrivals}
         for p in self.placements:
-            if p.name not in ("trigger_tile", "trigger_zone"):
+            trigger, entry = _trigger(p)
+            if trigger is None:
                 continue
-            box = (p.args[0], p.args[1], p.args[0], p.args[1]) if p.name == "trigger_tile" else p.args[:4]
-            entry = p.args[-1]
-            for e in self.effects.get((STEP, entry), frozenset()) if isinstance(entry, int) else ():
-                if e.name in ("map_change", "map_change_continue") and e.maps & p.maps:
-                    to, kind, x, y = e.args[:4]
-                    facing = e.args[4] if e.name == "map_change" else None
-                    yield Exit(
-                        self.scene,
-                        e.maps & p.maps,
-                        (box[0], box[1], box[2], box[3]),
-                        to,
-                        kind,
-                        x,
-                        y,
-                        facing,
-                        p.guards | e.guards,
-                    )
+            for e in self.effects.get(entry, frozenset()):
+                if e.maps & p.maps:
+                    out.add(Action(self.scene, e.maps & p.maps, trigger, e.name, e.args, p.guards | e.guards))
+        return out
+
+    def exits(self) -> set[Exit]:
+        """Map changes fired by stepping on a trigger."""
+        out = set()
+        for a in self.actions():
+            if a.name in ("map_change", "map_change_continue") and a.trigger.box is not None:
+                to, kind, x, y = a.args[:4]
+                facing = a.args[4] if a.name == "map_change" else None
+                out.add(Exit(self.scene, a.maps, a.trigger.box, to, kind, x, y, facing, a.guards))
+        return out
+
+    def steps(self) -> set[Step]:
+        """Writes to the story counter, one per value the guards pin (`var.w[0x10] == v`, or a list of them)."""
+        out = set()
+        for a in self.actions():
+            if not a.args or a.args[0] != STORY or a.name not in ("inc", "set") or not _allowed(a.guards):
+                continue
+            ats: list[int | None] = [*sorted(_pinned(a.guards))] or [None]
+            for at in ats:
+                to = _written(a, at)
+                out.add(Step(self.scene, a.maps, at, to, a.trigger, a.guards))
+        return out
+
+
+def _written(a: Action, at: int | None) -> Arg | None:
+    """The counter after the action, from `at` (None when it depends on an unknown value)."""
+    if a.name == "inc":
+        return at + 1 if at is not None else None
+    _, store, value = a.args
+    if store == "=":
+        return value
+    if store == "+=" and isinstance(value, int) and at is not None:
+        return at + value
+    return None
+
+
+def _trigger(p: Op) -> tuple[Trigger | None, tuple[int, int]]:
+    """What fires a placement's entry, and the entry."""
+    if p.name in ("trigger_tile", "trigger_zone") and isinstance(p.args[-1], int):
+        box = (p.args[0], p.args[1], p.args[0], p.args[1]) if p.name == "trigger_tile" else p.args[:4]
+        return Trigger("step", box=(box[0], box[1], box[2], box[3])), (STEP, p.args[-1])
+    if p.name in ("npc_create", "actor_create") and isinstance(p.args[0], int):
+        return Trigger("talk", actor=p.args[0]), (TALK, p.args[0])
+    return None, (0, 0)
+
+
+COUNTER = frozenset(range(0x100))  # the values the story counter takes (the debug start sets up to 200)
+PINNED = 8  # at most this many values left: the step is pinned to each of them
+
+
+def _allowed(guards: frozenset[Guard]) -> frozenset[int]:
+    """The counter values every guard allows. Empty: the guards contradict (a placement of an actor paired with the
+    entry path of another placement), the action never happens."""
+    allowed = COUNTER
+    for g in guards:
+        values = _story_values(g.condition)
+        if values is not None:
+            allowed &= values if g.holds else COUNTER - values
+    return allowed
+
+
+def _pinned(guards: frozenset[Guard]) -> frozenset[int]:
+    """The counter values allowed, when few enough to name (`var.w[0x10] == v`, a list of them, a short range)."""
+    allowed = _allowed(guards)
+    return allowed if len(allowed) <= PINNED else frozenset()
+
+
+def _story_values(c: Condition) -> frozenset[int] | None:
+    """The counter values that make the condition true, when it reads nothing but the counter (an `&&` may also
+    test other things: the counter part still bounds it). None: the condition says nothing about the counter."""
+    tests = [_story_test(t) for t in c.terms]
+    if all(j == 0 for j in c.joiners):  # ||
+        known = [v for v in tests if v is not None]
+        return frozenset().union(*known) if len(known) == len(tests) else None
+    if all(j == 1 for j in c.joiners):  # &&
+        known = [v for v in tests if v is not None]
+        return COUNTER.intersection(*known) if known else None
+    return None
+
+
+COMPARE_TEST: dict[int, Callable[[int, int], bool]] = {
+    0: lambda v, n: v == n,
+    1: lambda v, n: v > n,
+    2: lambda v, n: v < n,
+    3: lambda v, n: v != n,
+    4: lambda v, n: v >= n,
+    5: lambda v, n: v <= n,
+}
+
+
+def _story_test(t: Term) -> frozenset[int] | None:
+    if t.compare not in COMPARE_TEST or len(t.values) != 2:
+        return None
+    a, b = t.values
+    if str(a) != STORY or b.table not in ("imm", "byte"):
+        return None
+    test = COMPARE_TEST[t.compare]
+    return frozenset(v for v in COUNTER if test(v, b.n))
 
 
 def _entries(placements: frozenset[Op]) -> dict[tuple[int, int], frozenset[int]]:
     """The entries the placements fire, with the maps each is placed on."""
     out: dict[tuple[int, int], frozenset[int]] = {}
     for p in placements:
-        key = None
-        if p.name in ("trigger_tile", "trigger_zone") and isinstance(p.args[-1], int):
-            key = (STEP, p.args[-1])
-        elif p.name in ("npc_create", "actor_create") and isinstance(p.args[0], int):
-            key = (TALK, p.args[0])
-        if key is not None:
+        trigger, key = _trigger(p)
+        if trigger is not None:
             out[key] = out.get(key, frozenset()) | p.maps
     return out
 
@@ -220,13 +367,15 @@ def scene_graph(scene: int) -> SceneGraph:
     head = header(data)
     maps = scene_maps().get(scene, frozenset()) | _tested_maps(scene, data)
     start = head.length + int.from_bytes(data[2:4], "little")
-    placements = frozenset(_Walker(scene, data, PLACEMENTS).run(start, maps))
+    setup = _Walker(scene, data, PLACEMENTS | EFFECTS).run(start, maps)
+    placements = frozenset(op for op in setup if op.name in PLACEMENTS)
+    arrivals = frozenset(op for op in setup if op.name in EFFECTS)
     addresses = {(e.kind, e.id): head.length + e.address for e in head.entries}
     effects = {}
     for key, on in _entries(placements).items():
         if key in addresses:
             effects[key] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[key], on))
-    return SceneGraph(scene, placements, effects)
+    return SceneGraph(scene, placements, arrivals, effects)
 
 
 def _tested_maps(scene: int, data: bytes) -> frozenset[int]:
@@ -242,14 +391,31 @@ def graphs() -> list[SceneGraph]:
 
 def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("maps", type=int, nargs="*")
+    parser.add_argument("numbers", type=int, nargs="*", help="maps (or counter values with --story)")
+    parser.add_argument("--story", action="store_true", help="the story counter's steps instead of exits")
     args = parser.parse_args(argv)
+    if args.story:
+        for line in _story_lines(set(args.numbers)):
+            echo(line)
+        return
     for g in graphs():
         for e in sorted(g.exits(), key=lambda e: (sorted(e.maps), str(e.box), str(e.to))):
-            if args.maps and not e.maps & set(args.maps):
+            if args.numbers and not e.maps & set(args.numbers):
                 continue
             guards = " && ".join(sorted(map(str, e.guards)))
             echo(f"scene {g.scene:2} maps {sorted(e.maps)} {e.box} -> {e.to} ({e.x}, {e.y}) {guards}".rstrip())
+
+
+def _story_lines(values: set[int]) -> list[str]:
+    steps = [s for g in graphs() if g.scene != DEBUG_SCENE for s in g.steps()]
+    lines = []
+    for s in sorted(steps, key=lambda s: (s.at is None, s.at or 0, s.scene, sorted(s.maps), str(s.trigger))):
+        if values and s.at not in values:
+            continue
+        t = s.trigger
+        how = t.kind if t.kind == "arrive" else f"{t.kind} {t.box if t.box is not None else t.actor}"
+        lines.append(f"{s.at} -> {s.to}: scene {s.scene} maps {sorted(s.maps)} {how}")
+    return lines
 
 
 if __name__ == "__main__":
