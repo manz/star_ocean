@@ -30,3 +30,23 @@ symbol, other conditions kept as guards:
 - Map 22's north zone (entry 2) only pushes the hero back: no exit, and none in the graph.
 
 `uv run python -m tools.story_graph [MAP ...]` (`tools/map_table.py` for the records).
+
+## Story counter `var.w[0x10]`
+
+- Only goes up over the game: 12 at the start save, then 43, 55, 64, 93, 102, 125, 133, 142, 155, 171, 173 over
+  fantasyanime's twelve slots (Seven Star Ruins). The scene flags `$FE73` grow with it.
+- Its writes (`inc`, `set =`, `set +=`) are the story's steps: `--story [V ...]` lists them with the value(s) their
+  guards allow (any comparison, `&&` / `||`, negated on the else side; pinned when 8 values or fewer remain), the
+  map and what fires them (arrival setup, trigger zone, talking to an actor). Guards that contradict (one placement of
+  an actor with the entry path of another) are dropped.
+- Every value from 12 to 173 has a step out of it, or a jump over it (`set` to a later value), except 59, 109, 110,
+  143, 144, 149. 109: scene 48's zone 65 (placed at 109) runs a cutscene that never writes the counter; something
+  else moves it (a syscall or an indirect write?). Open.
+- Every save slot's value has a next step (`tests/test_story_graph.py`).
+- Scene 1 (map 0) is a chapter select that sets the counter to dozens of values: not a story step, a start.
+
+## Save slot layout (C2:D119)
+
+Records of (count, WRAM address), read in order from slot + 0x25C by the loader `C2:D53E`: map `$043D` (+0x271),
+hero position (`$2013`, `$2016`, facing), Fol, then flags `$FE73` (32 bytes, +0x2AD), chest flags `$FE93` (48),
+variables from `var.w[0x10]` (`$FED3`, 56 bytes, +0x2FD). `tools/save_slot.py`.
