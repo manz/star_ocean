@@ -29,6 +29,7 @@ from tools.scene_script import (
     STORES,
     Condition,
     Expression,
+    Index,
     Instruction,
     Jump,
     Term,
@@ -63,13 +64,24 @@ TALK, STEP = 0, 2  # entry kinds: A facing actor n / stepping on a trigger
 
 @dataclass(frozen=True)
 class Guard:
-    """A condition the path took (holds) or went around (not holds)."""
+    """A condition the path took (holds) or went around (not holds). `flag`: the condition tests a story flag, its
+    `flag_test` result stored in the system variable it reads (`flag_test 1; store_result sys[8]; if sys.w[0x8] ==
+    0`)."""
 
     condition: Condition
     holds: bool
+    flag: int | None = None
 
     def __str__(self) -> str:
+        if self.flag is not None:
+            return f"flag[{self.flag}]" if self.flag_on() else f"!flag[{self.flag}]"
         return str(self.condition) if self.holds else f"!({self.condition})"
+
+    def flag_on(self) -> bool | None:
+        """The flag's state the guard needs (None: not a flag guard)."""
+        if self.flag is None:
+            return None
+        return self.holds != (self.condition.terms[0].compare == 0)  # holds `== 0` or fails `!= 0`: off
 
 
 Arg = int | str  # a number, or a variable's name (var.w[0x10])
@@ -172,6 +184,14 @@ class _Point:
     pos: int
     maps: frozenset[int]
     returns: tuple[int, ...]
+    tested: int | None = None  # the flag the last instruction tested
+    results: frozenset[tuple[int, int]] = frozenset()  # (system variable, flag) the flag tests stored
+
+    def at(self, pos: int, maps: frozenset[int] | None = None, returns: tuple[int, ...] | None = None) -> _Point:
+        """The path moved on: the test result stays only right after its `flag_test`."""
+        return _Point(
+            pos, self.maps if maps is None else maps, self.returns if returns is None else returns, None, self.results
+        )
 
 
 class _Walker:
@@ -213,28 +233,59 @@ class _Walker:
             case "if":
                 return self._branch(p, guards, ins)
             case "goto":
-                return [(_Point(_target(ins.args[0]), p.maps, p.returns), guards)]
+                return [(p.at(_target(ins.args[0])), guards)]
             case "call":
-                return [(_Point(_target(ins.args[0]), p.maps, (*p.returns, nxt)), guards)]
+                return [(p.at(_target(ins.args[0]), returns=(*p.returns, nxt)), guards)]
             case "ret":
-                return [(_Point(p.returns[-1], p.maps, p.returns[:-1]), guards)] if p.returns else []
+                return [(p.at(p.returns[-1], returns=p.returns[:-1]), guards)] if p.returns else []
             case "end":
                 return []
-        return [(_Point(nxt, p.maps, p.returns), guards)]
+            case "flag_test" if isinstance(ins.args[0], Value) and ins.args[0].table == "imm":
+                return [(_Point(nxt, p.maps, p.returns, ins.args[0].n, p.results), guards)]
+        return [(_with_result(p.at(nxt), ins, p.tested), guards)]
 
     def _branch(self, p: _Point, guards: frozenset[Guard], ins: Instruction) -> list[tuple[_Point, frozenset[Guard]]]:
         then, other, condition = _target(ins.args[0]), _target(ins.args[1]), ins.args[2]
         assert isinstance(condition, Condition)
         m = map_test(condition)
         if m is None:
+            flag = _flag_test(condition, p.results)
             return [
-                (_Point(then, p.maps, p.returns), guards | {Guard(condition, True)}),
-                (_Point(other, p.maps, p.returns), guards | {Guard(condition, False)}),
+                (p.at(then), guards | {Guard(condition, True, flag)}),
+                (p.at(other), guards | {Guard(condition, False, flag)}),
             ]
-        out = [(_Point(other, p.maps - {m}, p.returns), guards)] if p.maps - {m} else []
+        out = [(p.at(other, maps=p.maps - {m}), guards)] if p.maps - {m} else []
         if m in p.maps:
-            out.append((_Point(then, frozenset({m}), p.returns), guards))
+            out.append((p.at(then, maps=frozenset({m})), guards))
         return out
+
+
+def _with_result(p: _Point, ins: Instruction, tested: int | None) -> _Point:
+    """`store_result sys[n]` right after a `flag_test`: sys[n] holds that flag; any other write to sys[n] forgets it."""
+    if (
+        ins.name == "store_result"
+        and isinstance(ins.args[0], Index)
+        or ins.name == "set"
+        and isinstance(ins.args[0], Value)
+        and ins.args[0].table == "sys"
+    ):
+        n = ins.args[0].n
+    else:
+        return p
+    kept = frozenset(r for r in p.results if r[0] != n)
+    if ins.name == "store_result" and tested is not None:
+        kept |= {(n, tested)}
+    return _Point(p.pos, p.maps, p.returns, None, kept)
+
+
+def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:
+    """The flag a condition tests: exactly `sys.w[n] == 0` (or `!= 0`) on a system variable holding a flag result."""
+    if len(c.terms) != 1 or c.terms[0].compare not in (0, 3) or len(c.terms[0].values) != 2:
+        return None
+    a, b = c.terms[0].values
+    if a.table != "sys" or b.table != "imm" or b.n != 0:
+        return None
+    return next((flag for n, flag in results if n == a.n), None)
 
 
 @dataclass(frozen=True)
@@ -414,6 +465,31 @@ def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> 
             echo(f"scene {g.scene:2} maps {sorted(e.maps)} {e.box} -> {e.to} ({e.x}, {e.y}) {guards}".rstrip())
 
 
+def _flags(guards: frozenset[Guard]) -> dict[str, bool] | None:
+    """The story flags the guards need, on or off; None when they contradict (the path never runs)."""
+    out: dict[str, bool] = {}
+    for g in guards:
+        on = g.flag_on()
+        if on is None:
+            continue
+        if out.setdefault(str(g.flag), on) != on:
+            return None
+    return out
+
+
+def _possible(guards: frozenset[Guard]) -> bool:
+    return bool(_allowed(guards)) and _flags(guards) is not None
+
+
+def flag_actions(g: SceneGraph) -> set[Action]:
+    """The actions that turn a story flag on or off."""
+    return {a for a in g.actions() if a.name in ("flag_on", "flag_off") and isinstance(a.args[0], int)}
+
+
+def _trigger_data(t: Trigger) -> dict[str, object]:
+    return {"kind": t.kind, "box": t.box and list(t.box), "actor": t.actor}
+
+
 def _counter(guards: frozenset[Guard]) -> list[int] | None:
     """The counter values the guards allow, None for any."""
     allowed = _allowed(guards)
@@ -421,8 +497,8 @@ def _counter(guards: frozenset[Guard]) -> list[int] | None:
 
 
 def export() -> dict[str, object]:
-    """The graph as plain data: map scenes, exits and story steps, each with the counter values it needs (`counter`,
-    null for any) and its other guards as text. Exit boxes are 16 px cells (inclusive), arrivals 8 px units."""
+    """The graph as plain data: map scenes, exits, story steps and the actions that set story flags, each with the
+    counter values it needs (`counter`, null for any), the flags (`flags`, {"n": on}) and its guards as text. Exit boxes are 16 px cells (inclusive), arrivals 8 px units."""
     gs = graphs()
     exits = [
         {
@@ -435,11 +511,12 @@ def export() -> dict[str, object]:
             "y": e.y,
             "facing": e.facing,
             "counter": _counter(e.guards),
+            "flags": _flags(e.guards),
             "guards": sorted(map(str, e.guards)),
         }
         for g in gs
         for e in g.exits()
-        if _allowed(e.guards)
+        if _possible(e.guards)
     ]
     steps = [
         {
@@ -447,18 +524,37 @@ def export() -> dict[str, object]:
             "maps": sorted(s.maps),
             "at": s.at,
             "to": s.to,
-            "trigger": {"kind": s.trigger.kind, "box": s.trigger.box and list(s.trigger.box), "actor": s.trigger.actor},
+            "trigger": _trigger_data(s.trigger),
+            "flags": _flags(s.guards),
             "guards": sorted(map(str, s.guards)),
         }
         for g in gs
         if g.scene != DEBUG_SCENE
         for s in g.steps()
+        if _flags(s.guards) is not None
+    ]
+    flags = [
+        {
+            "scene": a.scene,
+            "maps": sorted(a.maps),
+            "flag": a.args[0],
+            "on": a.name == "flag_on",
+            "trigger": _trigger_data(a.trigger),
+            "counter": _counter(a.guards),
+            "flags": _flags(a.guards),
+            "guards": sorted(map(str, a.guards)),
+        }
+        for g in gs
+        if g.scene != DEBUG_SCENE
+        for a in flag_actions(g)
+        if _possible(a.guards)
     ]
     order = lambda d: json.dumps(d, sort_keys=True)
     return {
         "scenes": {str(m): scene for m, scene in sorted(map_scenes().items())},
         "exits": sorted(exits, key=order),
         "steps": sorted(steps, key=order),
+        "flags": sorted(flags, key=order),
     }
 
 

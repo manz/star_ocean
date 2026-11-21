@@ -110,3 +110,17 @@ def test_the_export_carries_the_counter_each_exit_needs() -> None:
     assert isinstance(exits, list)
     inn = {e["to"]: e["counter"] for e in exits if e["maps"] == [22] and e["box"] == [32, 8, 33, 8]}
     assert inn[25] == list(range(12)) and inn[26] == list(range(12, 256))
+
+
+def test_a_flag_test_stored_in_a_system_variable_is_a_flag_guard() -> None:
+    """Map 31's arrival at 46 (scene 7: `flag_test 1; store_result sys[8]; if sys.w[0x8] == 0`) needs flag 1 on."""
+    (step,) = [s for s in scene_graph(7).steps() if s.at == 46]
+    assert "flag[1]" in map(str, step.guards)
+
+
+def test_the_export_lists_what_sets_each_flag() -> None:
+    """Flag 1 comes on as scene 72's cutscene ends on map 14, at 41."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    ones = [(f["scene"], f["maps"], f["on"], f["counter"]) for f in flags if f["flag"] == 1]
+    assert ones == [(72, [14], True, [41])]
