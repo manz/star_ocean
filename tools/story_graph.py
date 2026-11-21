@@ -322,7 +322,7 @@ class SceneGraph:
         for a in self.actions():
             if not a.args or a.args[0] != STORY or a.name not in ("inc", "set") or not _allowed(a.guards):
                 continue
-            ats: list[int | None] = [*sorted(_pinned(a.guards))] or [None]
+            ats: list[int | None] = [*sorted(_pinned(a.guards))] or [_floor(a.guards)]
             for at in ats:
                 to = _written(a, at)
                 out.add(Step(self.scene, a.maps, at, to, a.trigger, a.guards))
@@ -370,6 +370,14 @@ def _pinned(guards: frozenset[Guard]) -> frozenset[int]:
     """The counter values allowed, when few enough to name (`var.w[0x10] == v`, a list of them, a short range)."""
     allowed = _allowed(guards)
     return allowed if len(allowed) <= PINNED else frozenset()
+
+
+def _floor(guards: frozenset[Guard]) -> int | None:
+    """Too many values to pin, but a lower bound (`!(var.w[0x10] < 59)`): the counter only goes up, so the step is
+    met first at that bound. None: no bound (0 allowed)."""
+    allowed = _allowed(guards)
+    low = min(allowed)
+    return low if low > 0 else None
 
 
 def _story_values(c: Condition) -> frozenset[int] | None:
