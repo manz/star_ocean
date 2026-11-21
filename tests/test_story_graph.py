@@ -103,6 +103,11 @@ def test_a_set_adds_to_the_counter() -> None:
     assert any((s.at, s.to) == (98, 100) for s in scene_graph(17).steps())
 
 
+def test_a_lower_bound_pins_the_step_to_it() -> None:
+    """Scene 25: Ashlay's choice past `!(var.w[0x10] < 59)` moves 59 on to 60."""
+    assert any((s.at, s.to) == (59, 60) for s in scene_graph(25).steps())
+
+
 def test_the_export_carries_the_counter_each_exit_needs() -> None:
     """Map 22's inn door: map 25 up to 11, map 26 after."""
     data = export()
