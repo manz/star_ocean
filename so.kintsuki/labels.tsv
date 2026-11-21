@@ -2,6 +2,7 @@
 00FE80	main_idle					bra * idle loop between NMIs
 7E00F5	field_lock	data				bit1 player has no control (cutscene/menu/battle), bit3 dialog window up
 7E0231	scene_vm_off	data				negative: VM skipped
+7E0232	scene_current	data				scene whose event data is at $7E:3100
 7E0234	scene_vm_wait	data				frames before the VM runs again
 7E0238	scene_vm_pc	data				VM pc, absolute ($3100 + offset)
 7E0258	choice_state	data				bit7 choice open (op 30)
@@ -25,6 +26,7 @@
 7E6FE1	char_records	data				8 x 0x100: +1 id, +0x22 status, +0x50/52 HP, +0x56/58 MP, +0xD8 SP; slots 0-3 at $73E1 = battle party
 7E7FE1	inventory_ids	data				512 item ids (low byte)
 7E81E1	inventory_counts	data				count bits 0-5, bit 7 = id bit 8
+7E8743	map_record	data				the current map's 0x30-byte record (from FF:C800)
 7EA353	text_framebuffer	data				WRAM 2bpp text window bitmap, tile 0x328.. (4 lines x 26 cols x 16px), mirrors VRAM $5940
 7EBE00	script_buffer	data				WRAM unpacked scene script (many strings, FFFF-terminated), filled at scene load
 7EE613	scene_entries	data				entry pointers: +kind*0x100+(id*2&FF), cleared $E613-EE72 at load
@@ -278,9 +280,11 @@ C2A8B2	actor_mode_run	function				actor +0x07 scripted mode through C2:A8E9, cou
 C2FDF0	title_anim_stream	function				S-DD1 0x40-byte streams -> $7F:E000.. on title/name screens
 C3917C	obj_anim_stream	function				per-frame S-DD1 sprite frame streams -> $7F:E000.. (OBJ staging)
 C60911	scene_load	function				scene/map loader; unpacks map/gfx/script blobs via unpack
+C610CA	scene_switch	function				scene = $7E:8764 (record +0x21); unpack E4:(scene-1)*6 to $7E:3100 only if != $0232
 C610E0	scene_load_tables	code				index scene_table, unpack event + text blocks
 C610FF	scene_load_events	function				unpacks scene data (e.g. E6:B87D -> $7E:3100)
 C61137	scene_load_script	function				unpacks scene script (e.g. E8:41FC -> $7E:B873)
+C62093	map_record_load	function				unpack FF:C800 to $7F:0000, copy record $043D*0x30 to $7E:8743
 C654BB	scene_zone_test	function				hero tile vs zone table $EB8E+5n (x1,y1,x2,y2,..), $0241 end; while walking
 C6D6B9	inventory_add	function				$00 item, $02 count, $03 clamp-to-20: carry set = failed
 C6D766	inventory_remove	function				$00 item, $02 count
@@ -329,3 +333,4 @@ FEA2E0	labels8_offsets	data				u16 offsets, base FE:A8BE
 FEA5CE	labels8_ids	data				u16 ids EA60+ (375)
 FEA8BE	labels8_strings	data				8x8 menu labels FF-terminated
 FF0000	font_dialog_16x16	gfx				dialog/menu font: uncompressed 16x16 1bpp, 32B/glyph (left 8px col 16B, right col 16B), <=0x640 glyphs (FF:C800 is a compressed blob). glyph=code-5; 0=space 1..10 digits, kana, A-Z ~0xE4, kanji after
+FFC800	map_table_lz	data				LZ: 0x30-byte map records by map id, unpacked to $7F:0000 (C6:2093); +0x21 scene (notes/text/map_table.md)
