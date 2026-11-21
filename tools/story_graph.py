@@ -11,17 +11,20 @@ guards allow: what the drive does next from a save's value.
 
     uv run python -m tools.story_graph [MAP ...]      # every map's exits
     uv run python -m tools.story_graph --story [V ...] # the counter's steps (from value V)
+    uv run python -m tools.story_graph --json build/story_graph.json  # all of it for the drive
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 from collections.abc import Callable
 from dataclasses import dataclass
 from functools import cache
+from pathlib import Path
 
 from tools.dialog import SCENES
-from tools.map_table import scene_maps
+from tools.map_table import map_scenes, scene_maps
 from tools.scene_script import (
     STORES,
     Condition,
@@ -393,7 +396,12 @@ def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> 
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("numbers", type=int, nargs="*", help="maps (or counter values with --story)")
     parser.add_argument("--story", action="store_true", help="the story counter's steps instead of exits")
+    parser.add_argument("--json", type=Path, help="write the whole graph here for the drive (betaplayer_so)")
     args = parser.parse_args(argv)
+    if args.json:
+        args.json.write_text(json.dumps(export(), indent=1))
+        echo(f"{args.json}")
+        return
     if args.story:
         for line in _story_lines(set(args.numbers)):
             echo(line)
@@ -404,6 +412,54 @@ def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> 
                 continue
             guards = " && ".join(sorted(map(str, e.guards)))
             echo(f"scene {g.scene:2} maps {sorted(e.maps)} {e.box} -> {e.to} ({e.x}, {e.y}) {guards}".rstrip())
+
+
+def _counter(guards: frozenset[Guard]) -> list[int] | None:
+    """The counter values the guards allow, None for any."""
+    allowed = _allowed(guards)
+    return None if allowed == COUNTER else sorted(allowed)
+
+
+def export() -> dict[str, object]:
+    """The graph as plain data: map scenes, exits and story steps, each with the counter values it needs (`counter`,
+    null for any) and its other guards as text. Exit boxes are 16 px cells (inclusive), arrivals 8 px units."""
+    gs = graphs()
+    exits = [
+        {
+            "scene": e.scene,
+            "maps": sorted(e.maps),
+            "box": list(e.box),
+            "to": e.to,
+            "kind": e.kind,
+            "x": e.x,
+            "y": e.y,
+            "facing": e.facing,
+            "counter": _counter(e.guards),
+            "guards": sorted(map(str, e.guards)),
+        }
+        for g in gs
+        for e in g.exits()
+        if _allowed(e.guards)
+    ]
+    steps = [
+        {
+            "scene": s.scene,
+            "maps": sorted(s.maps),
+            "at": s.at,
+            "to": s.to,
+            "trigger": {"kind": s.trigger.kind, "box": s.trigger.box and list(s.trigger.box), "actor": s.trigger.actor},
+            "guards": sorted(map(str, s.guards)),
+        }
+        for g in gs
+        if g.scene != DEBUG_SCENE
+        for s in g.steps()
+    ]
+    order = lambda d: json.dumps(d, sort_keys=True)
+    return {
+        "scenes": {str(m): scene for m, scene in sorted(map_scenes().items())},
+        "exits": sorted(exits, key=order),
+        "steps": sorted(steps, key=order),
+    }
 
 
 def _story_lines(values: set[int]) -> list[str]:
