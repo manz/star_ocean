@@ -20,9 +20,13 @@ A scene's setup branches on `sys.w[0xc] == map` and places that map's triggers (
 chests); entries then do `map_change`, flags, story vars, battles, shops. Walking each setup with the map id as a
 symbol, other conditions kept as guards:
 
-- 535 maps named in setups; 534 agree with the record's scene. Map 548: scene 83 tests it, its record says 88.
+- 535 maps named in setups; all but three agree with the record's scene: 548 (tested by scene 83, record 88), 559
+  (91, record 90), 578 (90, record 93).
 - The other 73 maps of the table belong to scenes whose setup does not test the map (one-map scenes, e.g. scene 4).
-- 3174 trigger → `map_change` edges (with their guards: `var.w[0x10]` story progress, `var.w[0x38]`, ...), before
-  removing duplicates.
+- 1490 exits (trigger box → map, x, y, facing) from 547 maps, all to maps of the table, each with the guards it
+  needs (`var.w[0x10]` story progress, `var.w[0x38]`, ...). 59 maps have no exit and are no exit's destination.
+- Guards are what every path to an instruction took (a data flow keeping their intersection): the conditions that
+  must hold, not one path's history. A scene with independent `if`s would otherwise multiply its paths.
+- Map 22's north zone (entry 2) only pushes the hero back: no exit, and none in the graph.
 
-Prototype walker: not in tools/ yet.
+`uv run python -m tools.story_graph [MAP ...]` (`tools/map_table.py` for the records).
