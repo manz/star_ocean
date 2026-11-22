@@ -21,3 +21,17 @@
   (offset list `D7:0000` from id `0x1388`). A savestate keeps the table of the build it was made on: an older
   names8 layout shows strings cut at the start ("ing" for "Stylo d'étude"). Not a patch bug; refresh the states.
 - The list draws 8 cells a name: French names past 8 letters are cut ("Artisana").
+
+## 8x8 VWF in battle (BATTLE_VWF8, src/battle/vwf8.s)
+
+- `C0:3FA3` (names8 by id) and `C0:4154` (string at A:Y) draw strings that have a vwf8 record from the shared pool:
+  tiles `0D9-113` and `13C-1FF` of BG3 CHR `$4000`, written into both shadows. The rest (party names from RAM,
+  numbers) stays on the fixed font.
+- The fight start (`C1:0006`) opens the battle pool, its end (`C0:20F7`) the menus' again; a string drawn first in
+  a savestate taken mid-fight opens it too.
+- Uploads: the line-216 IRQ's DMA list end (`C0:0188`, its V-blank wait) runs the S-DD1 streams on channel 1 with
+  the E / F windows on pages 2 / 3, until line 250 (the audio IRQ at 258); what is left waits a frame. The drain
+  trusts the ring only while the battle pool is open and each slot targets the battle CHR (the state is in SRAM:
+  a cold boot or another build leaves bytes there).
+- Cost (`battle_chest` / `battle_busy`, 600 frames): 0.3% / 1.2% of a frame on average. `tools.battle_bench`
+  step counts are not comparable across builds: the fights' RNG follows the timing and the fights diverge.
