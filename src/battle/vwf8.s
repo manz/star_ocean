@@ -79,8 +79,8 @@ _string_drawn:
 
 _draw:
 """
-    The string at DB:Y into the battle shadows from $22: carry set and X past its cells when drawn, else X = $22 and Y
-    kept. M16 X16; vwf8's direct page ($20-$27) saved around the call.
+The string at DB:Y into the battle shadows from $22: carry set and X past its cells when drawn, else X = $22 and Y
+kept. M16 X16; vwf8's direct page ($20-$27) saved around the call.
 """
         phy
         sep #0x20
