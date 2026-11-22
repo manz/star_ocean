@@ -23,7 +23,7 @@ from tools.rom import ROOT, Rom
 
 TABLE = ROOT / "text" / "so_fr.tbl"
 GEN = ROOT / "build" / "gen"
-SRAM_TEXT = 0x5000  # src/dialog/sram_text.s: sram_text
+SRAM_TEXT = 0x4800  # src/dialog/sram_text.s: sram_text
 SCENE_RECORD, TEXT_POINTER = 6, 3  # scene table: event pointer, then text pointer
 
 

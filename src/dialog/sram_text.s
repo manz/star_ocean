@@ -10,7 +10,7 @@ that one message.
 
 TEXT_BUFFER := 0xB873  ; $7E:B873, the engine's script buffer
 
-.reserve sram_text 0x5000 in sram  ; 20 KB: the largest French block is 13.1 KB
+.reserve sram_text 0x4800 in sram  ; 18 KB: the largest French block is 13.1 KB
 .reserve sram_text_size 2 in sram
 .reserve text_saved_page 1 in sram  ; $4806 before the unpack switched it, 0 when it did not
 
