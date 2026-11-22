@@ -213,3 +213,10 @@ def test_exits_split_on_a_test_fold_back() -> None:
     """Map 79's door, reached through `flag[146]` and through `!flag[146]` on both sides of a counter test."""
     (e,) = (e for e in scene_graph(3).exits() if e.maps == {79})
     assert not e.guards
+
+
+def test_a_test_on_a_variable_the_script_set_is_no_guard() -> None:
+    """Map 507's cutscene counts `var[0x40]` to 32 before it sets the counter: the step needs nothing of it."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert all(not s["guards"] for s in steps if s["maps"] == [507])

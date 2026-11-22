@@ -19,7 +19,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections.abc import Callable
-from dataclasses import dataclass, replace
+from dataclasses import dataclass, field, replace
 from functools import cache
 from pathlib import Path
 from typing import Any
@@ -202,6 +202,8 @@ class _Point:
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
     # it apart stay apart: map 203's zone is placed at 93 and at 109, a meet would keep neither
+    written: frozenset[str] = field(default=frozenset(), compare=False)  # variables the path set: a test on one is
+    # the script's own (map 507's `var[0x40]` loop), not something the story needs first
 
     def at(self, pos: int, maps: frozenset[int] | None = None, returns: tuple[int, ...] | None = None) -> _Point:
         """The path moved on: the test result stays only right after its `flag_test`."""
@@ -341,7 +343,7 @@ class _Walker:
                 return [(replace(p, pos=nxt, tested=flag), guards)]
             case "syscall" if _is_box_test(ins):
                 return [(p.at(nxt).boxed(), guards)]
-        return [(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), guards)]
+        return [(_wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), ins), guards)]
 
     def _keep_const(self, p: _Point, ins: Instruction) -> _Point:
         if (c := _const_set(ins)) is None or c[0] not in self.tracked:
@@ -356,6 +358,8 @@ class _Walker:
         """Both ways past a test, each with its guard; a test on the counter narrows the values each way keeps and
         drops a way none are left on. Failing an `&&` says nothing of its counter part."""
         flag = _flag_test(condition, p.results)
+        if _reads(condition) & p.written:
+            return [(p.at(then), guards), (p.at(other), guards)]
         values = _story_values(condition)
         if values is None:
             return [
@@ -380,6 +384,21 @@ class _Walker:
         if m in p.maps:
             out.append((p.at(then, maps=frozenset({m})), guards))
         return out
+
+
+WRITES = ("set", "inc", "dec")
+
+
+def _wrote(p: _Point, ins: Instruction) -> _Point:
+    """The path past a write to a variable: tests on it from here on are the script's own."""
+    dest = ins.args[0] if ins.name in WRITES and ins.args else None
+    if not isinstance(dest, Value) or dest.table != "var" or str(dest) == STORY:
+        return p
+    return replace(p, written=p.written | {str(dest)})
+
+
+def _reads(c: Condition) -> frozenset[str]:
+    return frozenset(str(v) for t in c.terms for v in t.values if v.table == "var")
 
 
 def _counted(p: _Point, ins: Instruction) -> _Point:
