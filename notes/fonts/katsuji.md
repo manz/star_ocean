@@ -1,5 +1,9 @@
 # Fonts (katsuji)
 
-`uv run katsuji build` → `build/gen/small_font.dat` (FF4 format: 256 × [8 rows 1bpp + width]
-+ kerning count + triples + height). Seeded from FF4's `fonts/8x8vwf.png` + `ff4_menus.tbl`
-(`text/so_8x8.tbl`); the table is a placeholder until the Star Ocean encoding is decided.
+All text fonts are katsuji's bundled sumi family (`katsuji.toml`, `uv run katsuji build`, run by `tools.patch`):
+
+- `sumi/16` (8x16): the dialog VWF on `text/so_fr.tbl` → `build/gen/dialog_font.dat`; the 16x16 menus
+  (menu16, battle16) draw from the same glyphs (tools/menu_font16.py).
+- `sumi/8`: the menu 8x8 VWF. tools/vwf8.py bakes labels8 / names8 / Talent names with it (uppercase accents sumi/8
+  lacks folded to their letter, icons and codes it lacks kept as menu font tiles) and tools/pen8.py feeds the runtime
+  pen (party names) the same glyphs, both straight from `katsuji.fonts.bundled("sumi/8")`: no katsuji.toml entry.

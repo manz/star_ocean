@@ -1,8 +1,8 @@
 """Bake the 8x8 menu strings (labels8, names8) as proportional tiles for src/menu/vwf8.s.
 
-Glyphs are the menu font's own (fonts/so_menu8.png, tile = string byte) as 1bpp ink, set by katsuji's auto mode
-(widths from the ink, each pair kerned on the glyphs), or FF4's 8x8 VWF font (`FF4`); the run then gets the shadow
-the menu font draws its letters with; codes in FIXED (icons, words drawn across tiles) keep their whole tile. A
+Glyphs are katsuji's sumi/8 (SMALL), uppercase accents it lacks folded to their letter, each pair kerned on the
+glyphs; the run then gets the shadow the menu font draws its letters with. Codes in FIXED (icons, words drawn across
+tiles) and codes sumi/8 does not draw keep their whole menu font tile (fonts/so_menu8.png, tile = string byte). A
 string keeps its cells: words run proportional, SPACE_PX apart, up to its last inked tile and the trailing spaces it
 spells out (the game's text only drew its own characters: padding to the fixed-width length ran over window borders);
 a word after two spaces or more starts at the column it had in fixed width, every word of a COLUMNS string does
@@ -30,6 +30,7 @@ from pathlib import Path
 
 import numpy as np
 from katsuji import Atlas, VwfFont, pair_kerning, render
+from katsuji.fonts import BundledFont, bundled
 from katsuji.script import Table
 
 from tools import sdd1
@@ -83,8 +84,7 @@ LR_TALENTS = {
 }
 NO_TALENT = 0xFF
 INK, SHADOW = 3, 1  # the menu font's letter colours
-FF4 = True  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) instead of the menu font's letters
-FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
+SMALL = "sumi/8"  # katsuji's bundled 8x8 font, as src/menu/pen8.s draws names at run time (tools/pen8.py)
 FOLD = {"É": "E", "È": "E", "Ê": "E", "Ë": "E", "Â": "A", "À": "A", "Ô": "O", "Ù": "U", "Ï": "I", "Î": "I", "Ç": "C"}
 Pixels = np.ndarray[tuple[int, int], np.dtype[np.uint8]]
 
@@ -113,46 +113,32 @@ def glyph(code: int) -> Pixels:
 
 
 @cache
-def menu_ink() -> Atlas:
-    """The menu font as 1bpp: its letters' ink colour, shadow left out."""
-    return menu_atlas().ink_only([INK])
+def small() -> BundledFont:
+    return bundled(SMALL)
 
 
 @cache
-def menu_font() -> VwfFont:
-    return VwfFont.from_atlas(menu_ink())
-
-
-def menu_run(codes: list[int]) -> Pixels:
-    """Menu font letters kerned on their ink (katsuji's auto mode), then shadowed as the font draws them."""
-    return shadowed(kerned(menu_font(), menu_ink(), codes))
+def small_font() -> VwfFont:
+    return VwfFont.from_atlas(small().atlas)
 
 
 @cache
-def ff4_atlas() -> Atlas:
-    return Atlas.open(FF4_FONT, 8, 8)
-
-
-@cache
-def ff4_font() -> VwfFont:
-    return VwfFont.from_atlas(ff4_atlas())
-
-
-@cache
-def ff4_code(code: int) -> int | None:
-    """The FF4 font cell for a menu code, uppercase accents (blank there) folded to their letter."""
-    cells = {char: cell for cell, char in _table(FF4_TABLE).items()}
+def small_cells(code: int) -> tuple[int, ...]:
+    """The sumi/8 cells of a menu code (two for a wide letter), uppercase accents it lacks folded to their letter;
+    none for FIXED codes and the ones sumi/8 does not draw."""
     char = _table(TABLE).get(code)
-    if char is None or code in FIXED or char not in cells:
-        return None
-    if char in FOLD and ff4_font().widths[cells[char]] == 0:
-        char = FOLD[char]
-    return cells.get(char)
+    if char is None or code in FIXED:
+        return ()
+    if char not in small().charmap and char not in small().wide:
+        char = FOLD.get(char, char)
+    if char in small().wide:
+        return tuple(small().wide[char])
+    return (small().charmap[char],) if char in small().charmap else ()
 
 
-def ff4_run(cells: list[int]) -> Pixels:
-    """FF4 glyphs kerned pair by pair, shadowed as the menu font draws its letters."""
-    return shadowed(kerned(ff4_font(), ff4_atlas(), cells))
+def small_run(cells: list[int]) -> Pixels:
+    """sumi/8 glyphs kerned pair by pair, shadowed as the menu font draws its letters."""
+    return shadowed(kerned(small_font(), small().atlas, cells))
 
 
 def kerned(font: VwfFont, atlas: Atlas, codes: list[int]) -> Pixels:
@@ -174,20 +160,19 @@ def shadowed(ink: Pixels) -> Pixels:
 
 
 def _pieces(codes: bytes) -> list[Pixels]:
-    """The word as kerned runs, FIXED codes (and, with FF4, codes its font lacks) as whole menu tiles."""
+    """The word as kerned sumi/8 runs, FIXED codes and the ones sumi/8 lacks as whole menu tiles."""
     out: list[Pixels] = []
     cells: list[int] = []
     for code in codes:
-        cell = ff4_code(code) if FF4 else (None if code in FIXED else code)
-        if cell is not None:
-            cells.append(cell)
+        if found := small_cells(code):
+            cells.extend(found)
             continue
         if cells:
-            out.append(ff4_run(cells) if FF4 else menu_run(cells))
+            out.append(small_run(cells))
             cells = []
         out.append(glyph(code))
     if cells:
-        out.append(ff4_run(cells) if FF4 else menu_run(cells))
+        out.append(small_run(cells))
     return out
 
 
