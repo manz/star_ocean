@@ -22,6 +22,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from functools import cache
 from pathlib import Path
+from typing import Any
 
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
@@ -597,6 +598,30 @@ def _counter(guards: frozenset[Guard]) -> list[int] | None:
     return None if allowed == COUNTER else sorted(allowed)
 
 
+def _negated(guard: str) -> str | None:
+    """`!(c)` for a single compare `c`: `c`; None for anything else."""
+    body = guard[2:-1]
+    simple = not any(op in body for op in ("&&", "||", "(", "flag["))
+    return body if guard.startswith("!(") and guard.endswith(")") and simple else None
+
+
+def _complement(exits: list[dict[str, Any]]) -> None:
+    """Two exits on one box, one guarded by `!(a)`, `!(b)`, the other by nothing: the other runs when a or b holds.
+    The guards keep what every path took, so the branch both `a` and `b` jump to loses them (map 179's edges: by
+    `var.w[0x23]`, the map the hero came from). Give it `a || b` back."""
+    boxes: dict[tuple[object, ...], list[dict[str, Any]]] = {}
+    for e in exits:
+        if e["box"] is not None:
+            boxes.setdefault((e["scene"], tuple(e["maps"]), tuple(e["box"])), []).append(e)
+    for pair in boxes.values():
+        guarded = [e for e in pair if e["guards"]]
+        if len(pair) != 2 or len(guarded) != 1:
+            continue
+        terms = [_negated(g) for g in guarded[0]["guards"]]
+        if all(terms):
+            next(e for e in pair if not e["guards"])["guards"] = [" || ".join(t for t in terms if t)]
+
+
 def export() -> dict[str, object]:
     """The graph as plain data: map scenes, exits, story steps and the actions that set story flags, each with the
     counter values it needs (`counter`, null for any), the flags (`flags`, {"n": on}) and its guards as text. Exit boxes are 16 px cells (inclusive), arrivals 8 px units."""
@@ -620,6 +645,7 @@ def export() -> dict[str, object]:
         for e in g.exits() | g.talk_exits()
         if _possible(e.guards)
     ]
+    _complement(exits)
     steps = [
         {
             "scene": s.scene,
