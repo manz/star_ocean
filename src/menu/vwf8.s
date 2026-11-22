@@ -935,7 +935,7 @@ _battle_done:
     lda.l vwf8.queued
     beq _vblank
     lda.b #0x04
-    tsb.w 0x094A
+    tsb 0x094A
 _vblank:
     lda.l 0x004212
     bpl _vblank
