@@ -64,6 +64,8 @@ EFFECTS = {
     "tile_attr_set",
     "actor_field_or",
 }
+HERO_FIELDS = {0x13: 0, 0x16: 1}  # `actor_get 0, n` fields: x (px), feet y less 16 (px): a landing (8 px units) x * 8,
+# y * 8 - 16
 WALL = 0x40  # the collision code of a wall cell
 WALL_OPS = ("tile_attr_fill", "tile_attr_set")  # the last operand: the cells' collision code (0: open floor)
 TALK, STEP = 0, 2  # entry kinds: A facing actor n / stepping on a trigger
@@ -80,6 +82,7 @@ class Guard:
     condition: Condition
     holds: bool
     flag: int | None = None
+    place: bool = False  # the setup tests where the hero landed: variables its path filled from the hero's place
 
     def __str__(self) -> str:
         if self.flag is not None:
@@ -208,6 +211,8 @@ class _Point:
     sets: frozenset[tuple[str, int]] = field(default=frozenset(), compare=False)  # the variables every path here
     # set to a number and kept: what a map change takes along (map 57's east edge leads to 62 or 58 by `var[0x25]`,
     # which the exit into 57 sets). Paths that meet keep the sets they agree on
+    placed: frozenset[str] = field(default=frozenset(), compare=False)  # variables every path here filled from the
+    # hero's place (_hero_vars)
     written: frozenset[str] = field(default=frozenset(), compare=False)  # variables every path here set: a test on
     # one is the script's own (map 507's `var[0x40]` loop), not something the story needs first
 
@@ -283,12 +288,14 @@ class _Walker:
     """Every path from one root, as a data flow: each point keeps the guards common to every path reaching it (the
     conditions that must hold there), narrowed until nothing changes. `keep` picks the instructions recorded."""
 
-    def __init__(self, scene: int, data: bytes, keep: set[str]) -> None:
+    def __init__(self, scene: int, data: bytes, keep: set[str], setup: bool = False) -> None:
         self.scene, self.data, self.keep = scene, data, keep
         self.base = header(data).length
         self.guards: dict[_Point, frozenset[Guard]] = {}
         self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
+        self.fills = {pos: var for pos, var, _ in _hero_fills(data)} if setup else {}  # the setup's writes of
+        # the hero's place, by position: tests on them are where the hero landed, not the script's own
 
     def run(self, pos: int, maps: frozenset[int]) -> set[Op]:
         self._flow(pos, maps)
@@ -316,8 +323,13 @@ class _Walker:
             old = self.guards.get(point)
             if old is not None:
                 was = self.sets[point]
-                met = replace(point, sets=was.sets & point.sets, written=was.written & point.written)
-                if old <= guards and (met.sets, met.written) == (was.sets, was.written):
+                met = replace(
+                    point,
+                    sets=was.sets & point.sets,
+                    written=was.written & point.written,
+                    placed=was.placed & point.placed,
+                )
+                if old <= guards and (met.sets, met.written, met.placed) == (was.sets, was.written, was.placed):
                     continue
                 guards, point = old & guards, met
             self.guards[point] = guards
@@ -354,7 +366,10 @@ class _Walker:
                 return [(replace(p, pos=nxt, tested=flag), guards)]
             case "syscall" if _is_box_test(ins):
                 return [(p.at(nxt).boxed(), guards)]
-        return [(_wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), ins), guards)]
+        q = _wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), ins)
+        if (var := self.fills.get(p.pos)) is not None:
+            q = replace(q, placed=q.placed | {var})
+        return [(q, guards)]
 
     def _keep_const(self, p: _Point, ins: Instruction) -> _Point:
         if (c := _const_set(ins)) is None or c[0] not in self.tracked:
@@ -369,7 +384,12 @@ class _Walker:
         """Both ways past a test, each with its guard; a test on the counter narrows the values each way keeps and
         drops a way none are left on. Failing an `&&` says nothing of its counter part."""
         flag = _flag_test(condition, p.results)
-        if _reads(condition) & p.written:
+        if (read := _reads(condition)) and read <= p.placed:
+            return [
+                (p.at(to), guards | {Guard(condition, holds, place=True)})
+                for to, holds in ((then, True), (other, False))
+            ]
+        if read & p.written:
             return [(p.at(then), guards), (p.at(other), guards)]
         values = _story_values(condition)
         if values is None:
@@ -411,7 +431,7 @@ def _wrote(p: _Point, ins: Instruction) -> _Point:
     value = operand.tokens[0] if isinstance(operand, Expression) and len(operand.tokens) == 1 else operand
     if isinstance(value, Value) and value.table in ("imm", "byte") and STORES[(dest.flags >> 3) & 7] == "=":
         kept |= {(name, value.n)}
-    return replace(p, written=p.written | {name}, sets=kept)
+    return replace(p, written=p.written | {name}, sets=kept, placed=p.placed - {name})
 
 
 def _reads(c: Condition) -> frozenset[str]:
@@ -470,6 +490,7 @@ class SceneGraph:
     placements: frozenset[Op]
     arrivals: frozenset[Op]  # effects the setup runs itself, on arrival
     effects: dict[tuple[int, int], frozenset[Op]]  # by entry (kind, id), walked on the maps its placements cover
+    hero: tuple[tuple[str, int], ...] = ()  # variables the script fills with the hero's x (0) or y (1): _hero_vars
 
     def actions(self) -> set[Action]:
         return set(_actions(self.scene))
@@ -536,7 +557,14 @@ class SceneGraph:
 @cache
 def _actions(scene: int) -> frozenset[Action]:
     g = scene_graph(scene)
-    return frozenset(g._placed())
+    return frozenset(_placeless(a) for a in g._placed())
+
+
+def _placeless(a: Action) -> Action:
+    """The action without the setup's tests of the hero's place, but on an arrival the place it needs (its landing):
+    a talk or a zone the drive reaches any way it can."""
+    keep = frozenset(g for g in a.guards if not g.place or (a.trigger.kind == "arrive" and g.holds))
+    return a if keep == a.guards else replace(a, guards=keep)
 
 
 def _resolved(actions: set[Action]) -> set[Action]:
@@ -719,7 +747,7 @@ def scene_graph(scene: int) -> SceneGraph:
     head = header(data)
     maps = scene_maps().get(scene, frozenset()) | _tested_maps(scene, data)
     start = head.length + int.from_bytes(data[2:4], "little")
-    setup = _Walker(scene, data, PLACEMENTS | EFFECTS).run(start, maps)
+    setup = _Walker(scene, data, PLACEMENTS | EFFECTS, setup=True).run(start, maps)
     placements = frozenset(op for op in setup if op.name in PLACEMENTS)
     arrivals = frozenset(op for op in setup if op.name in EFFECTS)
     addresses = {(e.kind, e.id): head.length + e.address for e in head.entries}
@@ -729,7 +757,53 @@ def scene_graph(scene: int) -> SceneGraph:
             effects[key] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[key], on))
     if USE in addresses:
         effects[USE] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[USE], maps))
-    return SceneGraph(scene, placements, arrivals, effects)
+    return SceneGraph(scene, placements, arrivals, effects, _hero_vars(data))
+
+
+def _hero_vars(data: bytes) -> tuple[tuple[str, int], ...]:
+    """The variables a script fills with the hero's place, by axis (0: x, 1: y)."""
+    return tuple(sorted({(var, axis) for _, var, axis in _hero_fills(data)}))
+
+
+def _hero_fills(data: bytes) -> list[tuple[int, str, int]]:
+    """The writes of the hero's place, (position of the `set`, variable, axis): `actor_get 0, 19; store_result
+    sys[8]; set var.w[0x3c] = sys.w[0x8]` (map 466 at 129 moves the story only when the hero landed from 463)."""
+    code = walk(data).code
+    at = sorted(code)
+    ins = [code[k] for k in at]
+    out = []
+    for pos, get, store, put in zip(at[2:], ins, ins[1:], ins[2:], strict=False):
+        if (get.name, store.name, put.name) != ("actor_get", "store_result", "set"):
+            continue
+        actor, n = get.args[0], get.args[1]
+        held, (dest, value) = store.args[0], put.args
+        source = value.tokens[0] if isinstance(value, Expression) and len(value.tokens) == 1 else value
+        if (
+            isinstance(actor, Value)
+            and actor.n == 0
+            and isinstance(n, Value)
+            and n.n in HERO_FIELDS
+            and isinstance(held, Index)
+            and isinstance(source, Value)
+            and isinstance(dest, Value)
+            and (source.table, source.n) == ("sys", held.n)
+        ):
+            out.append((pos, str(dest), HERO_FIELDS[n.n]))
+    return out
+
+
+def _landing(guards: frozenset[Guard], hero: tuple[tuple[str, int], ...]) -> tuple[list[int] | None, frozenset[Guard]]:
+    """The landing (8 px units) a guard pins the hero to (`var.w[0x3c] == 184 && var.w[0x3e] == 240`), and the
+    guards without it."""
+    axes = dict(hero)
+    for g in guards:
+        terms = g.condition.terms
+        if not g.place or not g.holds or set(g.condition.joiners) - {1} or any(t.compare != 0 for t in terms):
+            continue
+        place = {axes.get(str(t.values[0])): t.values[1].n for t in terms if t.values[1].table in ("imm", "byte")}
+        if len(place) == len(terms) and set(place) == {0, 1}:
+            return [place[0] // 8, (place[1] + 16) // 8], guards - {g}
+    return None, guards
 
 
 def _tested_maps(scene: int, data: bytes) -> frozenset[int]:
@@ -920,7 +994,8 @@ def export() -> dict[str, object]:
             "to": s.to,
             "trigger": _trigger_data(s.trigger),
             "flags": _flags(s.guards),
-            "guards": sorted(map(str, s.guards)),
+            "guards": sorted(map(str, _landing(s.guards, g.hero)[1])),
+            "landing": _landing(s.guards, g.hero)[0],
         }
         for g in gs
         if g.scene != DEBUG_SCENE

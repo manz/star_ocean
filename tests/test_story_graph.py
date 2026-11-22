@@ -228,3 +228,11 @@ def test_an_exit_carries_the_variables_its_script_set() -> None:
     assert isinstance(exits, list)
     west = [e for e in exits if e["maps"] == [58] and e["to"] == 57 and e["box"] == [0, 8, 0, 12]]
     assert [e["sets"] for e in west] == [{"var[0x25]": 0}]
+
+
+def test_an_arrival_step_that_tests_where_the_hero_stands_has_a_landing() -> None:
+    """Map 466 at 129 moves the story when the hero lands at x 184, feet 240: the landing from 463 (23, 32)."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    at = [s for s in steps if s["maps"] == [466] and s["at"] == 129]
+    assert [(s["landing"], s["guards"]) for s in at] == [([23, 32], ["var.w[0x10] == 129"])]
