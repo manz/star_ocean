@@ -1,7 +1,9 @@
 """French dialog laid out to the window with katsuji reflow: each page's lines re-wrapped to the window's pixels.
 
 A page is the text between two [page] codes. A line ending with [br] (a speaker, a choice) stays as written; what
-follows the last one is reflowed by sentences, spaced the French way: a space before ? ! ; : that never breaks.
+follows the last one is reflowed by sentences, spaced the French way: a space before ? ! ; : that never breaks; a
+sentence over several lines is filled the way TeX fills a paragraph (katsuji's `fill`): full lines, short words kept
+off a line's end, no last line of a word or two.
 A line starting with [center] gets the [pos] x that centres it. Widths are the katsuji font's advance (width + 1 px),
 a name tag measures as the French name it inserts, other tags measure nothing. The window keeps room for a line's 1 px of shade each side.
 """
@@ -21,7 +23,6 @@ from tools.rom import ROOT
 FONT = ROOT / "build" / "gen" / "dialog_font.dat"
 TABLE = ROOT / "text" / "so_fr.tbl"
 WINDOW_WIDTH = 196 - 2  # pixels: the dispatcher peeks for a break once the pen passes $C5, less the shade
-MIN_BALANCED_WIDTH = WINDOW_WIDTH * 2 // 3  # a sentence broken at spaces never balances narrower
 PAGE = "[page]\n"
 END = "[end]"
 TAG = re.compile(r"\[[^\]]*\]")
@@ -52,9 +53,7 @@ class DialogLayout:
 
     @property
     def layout(self) -> TextLayout:
-        return TextLayout(
-            measure=self.measure, width=WINDOW_WIDTH, min_balanced_width=MIN_BALANCED_WIDTH, typography=FRENCH
-        )
+        return TextLayout(measure=self.measure, width=WINDOW_WIDTH, typography=FRENCH, fill=True)
 
     def page(self, text: str) -> str:
         text = re.sub(r"^ (?! )", "", text)  # a sentence split across [page]: katsuji keeps an indented line as is
