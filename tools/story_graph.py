@@ -398,8 +398,8 @@ class _Walker:
                 (p.at(to), guards | {Guard(condition, holds, place=True)})
                 for to, holds in ((then, True), (other, False))
             ]
-        if (both := _flag_tests(condition, p.results)) is not None:
-            took = frozenset(Guard(Condition((t,), ()), True, f) for t, f in both)
+        if (each := _flag_tests(condition, p.results)) is not None:
+            took = frozenset(Guard(Condition((t,), ()), True, f) for t, f in each)
             return [(p.at(then), guards | took), (p.at(other), guards | {Guard(condition, False)})]
         if (read - self.packed) & p.written:
             return [(p.at(then), guards), (p.at(other), guards)]
