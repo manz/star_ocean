@@ -54,11 +54,13 @@ def lines(codes: bytes, widths: bytes) -> int:
 
 
 def table_lines(dialog_table: Path) -> list[str]:
+    """The 16x16 table: each dialog glyph code moved to its 16x16 code, a wide glyph's run of codes (œ, Œ) too."""
     lines = [f"{NEWLINE:02X}=\\n"]
     for line in dialog_table.read_text(encoding="utf-8").splitlines():
         code, sep, text = line.partition("=")
-        if sep and len(code) == 2 and DIALOG_BASE <= int(code, 16) < DIALOG_END:
-            lines.append(f"{int(code, 16) - DIALOG_BASE + BASE:02X}={text}")
+        codes = bytes.fromhex(code) if sep and len(code) % 2 == 0 else b""
+        if codes and all(DIALOG_BASE <= each < DIALOG_END for each in codes):
+            lines.append("".join(f"{each - DIALOG_BASE + BASE:02X}" for each in codes) + f"={text}")
     return [*lines, f"{END:02X}=[end]"]
 
 

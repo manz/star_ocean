@@ -38,7 +38,7 @@ def _char_widths(font: Path, table: Path) -> dict[str, int]:
     out = {}
     for line in table.read_text(encoding="utf-8").splitlines():
         code, _, char = line.partition("=")
-        out[char] = widths[int(code, 16)] + 1
+        out[char] = sum(widths[each] + 1 for each in bytes.fromhex(code))  # a wide glyph (œ) is a run of codes
     return out
 
 
