@@ -236,3 +236,13 @@ def test_an_arrival_step_that_tests_where_the_hero_stands_has_a_landing() -> Non
     assert isinstance(steps, list)
     at = [s for s in steps if s["maps"] == [466] and s["at"] == 129]
     assert [(s["landing"], s["guards"]) for s in at] == [([23, 32], ["var.w[0x10] == 129"])]
+
+
+def test_a_test_chain_into_one_branch_keeps_either_value() -> None:
+    """Map 471's way back to 469: `== 13` and `== 14` both jump to the (27, 40) landing; the hole sets the column."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    hole = [e for e in exits if e["maps"] == [469] and e["box"] == [13, 19, 14, 19]]
+    back = [e for e in exits if e["maps"] == [471] and (e["x"], e["y"]) == (27, 40)]
+    assert [e["sets"] for e in hole] == [{"var.w[0x3c]": "x"}]
+    assert all("var.w[0x3c] == 13 || var.w[0x3c] == 14" in e["guards"] for e in back)
