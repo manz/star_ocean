@@ -296,7 +296,9 @@ class _Walker:
         self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
         self.setup = setup
-        self.packed = frozenset(var for var, _, _ in _packed(data)) if setup else frozenset()  # flags packed in a variable: its tests are on
+        self.packed = (
+            frozenset(var for var, _, _ in _packed(data)) if setup else frozenset()
+        )  # flags packed in a variable: its tests are on
         # those flags, not the script's own
         self.fills = {pos: (var, axis) for pos, var, axis in _hero_fills(data)}  # the writes of
         # the hero's place, by position: tests on them are where the hero landed, not the script's own
@@ -396,6 +398,9 @@ class _Walker:
                 (p.at(to), guards | {Guard(condition, holds, place=True)})
                 for to, holds in ((then, True), (other, False))
             ]
+        if (both := _flag_tests(condition, p.results)) is not None:
+            took = frozenset(Guard(Condition((t,), ()), True, f) for t, f in both)
+            return [(p.at(then), guards | took), (p.at(other), guards | {Guard(condition, False)})]
         if (read - self.packed) & p.written:
             return [(p.at(then), guards), (p.at(other), guards)]
         values = _story_values(condition)
@@ -489,6 +494,15 @@ def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:
     if a.table != "sys":
         return None
     return next((flag for n, flag in results if n == a.n), None)
+
+
+def _flag_tests(c: Condition, results: frozenset[tuple[int, int]]) -> list[tuple[Term, int]] | None:
+    """`a && b` on flag results, each term with its flag: taking it needs every flag so (map 84 at 137 moves on to
+    140 with flags 93 and 94 on, else back to 133)."""
+    if len(c.terms) < 2 or set(c.joiners) != {1}:
+        return None
+    out = [(t, _flag_test(Condition((t,), ()), results)) for t in c.terms]
+    return None if any(f is None for _, f in out) else [(t, f) for t, f in out if f is not None]
 
 
 @dataclass(frozen=True)

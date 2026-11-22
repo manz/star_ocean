@@ -255,3 +255,11 @@ def test_flags_packed_in_a_variable_wall_an_exit() -> None:
     north = [e for e in exits if e["maps"] == [469] and e["to"] == 470]
     want = {"83": False, "84": False, "85": True, "86": True, "87": True, "88": False, "89": True}
     assert [e["flags"] for e in north] == [want]
+
+
+def test_a_step_on_two_flag_results_needs_both_flags() -> None:
+    """Map 84 at 137: `flag_test 93; flag_test 94; if sys.w[0x8] && sys.w[0x9]` moves on to 140, else back to 133."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    on = [s["flags"] for s in steps if s["maps"] == [84] and s["at"] == 137 and s["to"] == 140]
+    assert on == [{"93": True, "94": True}]
