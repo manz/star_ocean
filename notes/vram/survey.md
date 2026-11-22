@@ -4,10 +4,11 @@
 |---|---|---|---|
 | field | 1 + BG3 prio | BG3 chr `$4000`, map `$7400` | `$5940-$5FBF` (208, idle dialog buffer), `$53F0-$54FF` (34) |
 | dialog | 1 + BG3 prio | BG3 chr `$4000`, map `$5800` | `$5990-$5ADF` (42), `$5C60-$5FBF` (108) |
+| battle | 1 + BG3 prio | BG3 chr `$4000`, map `$5C00` (shadows `$7E:5100` / `$5900`) | tiles `C0-113`, `13C-27F` unread (see `battle.md`) |
 | menu | 0 | BG4 chr `$4000` map `$5800`; BG1-3 chr `$2000` | `$48C0-$4BFF` (104), `$5520-$595F` (136), `$5A20-$5FBF` (180) |
 
 Free = all-zero CHR runs at capture time; recheck per screen before claiming a pool.
-Battle not surveyed yet.
+Battle: `battle.md`.
 
 ## Menu BG1-3 window (chr `$2000`, tiles 0x000-0x3FF), what writes it
 
