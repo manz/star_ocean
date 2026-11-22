@@ -833,6 +833,20 @@ def _complement(exits: list[dict[str, Any]]) -> None:
             next(e for e in pair if not e["guards"])["guards"] = [" || ".join(t for t in terms if t)]
 
 
+def _entered(steps: list[dict[str, Any]], exits: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """An arrival step with no counter value of its own takes the values of the exits into its map, when each of
+    them has some: map 507's cutscene moves the counter to 111 on arrival, and only map 203's zone, at 93 or 109,
+    leads there."""
+    out = []
+    for s in steps:
+        into = [e["counter"] for e in exits if set(s["maps"]) & {e["to"]}]
+        if s["at"] is not None or s["trigger"]["kind"] != "arrive" or not into or None in into:
+            out.append(s)
+            continue
+        out += [{**s, "at": v} for v in sorted(set().union(*into))]
+    return out
+
+
 def export() -> dict[str, object]:
     """The graph as plain data: map scenes, exits, story steps and the actions that set story flags, each with the
     counter values it needs (`counter`, null for any), the flags (`flags`, {"n": on}) and its guards as text. Exit boxes are 16 px cells (inclusive), arrivals 8 px units."""
@@ -872,6 +886,7 @@ def export() -> dict[str, object]:
         for s in g.steps()
         if _flags(s.guards) is not None
     ]
+    steps = _entered(steps, exits)
     flags = [
         {
             "scene": a.scene,

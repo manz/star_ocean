@@ -202,6 +202,13 @@ def test_a_zone_placed_at_two_counter_values_keeps_both() -> None:
     assert zone == {((93,), 507), ((109,), 507)}
 
 
+def test_an_arrival_step_takes_the_counter_of_the_exits_into_its_map() -> None:
+    """Map 507's cutscene sets the counter to 111 on arrival; map 203's zone at 109 leads there."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert (109, 111) in {(s["at"], s["to"]) for s in steps if s["maps"] == [507]}
+
+
 def test_exits_split_on_a_test_fold_back() -> None:
     """Map 79's door, reached through `flag[146]` and through `!flag[146]` on both sides of a counter test."""
     (e,) = (e for e in scene_graph(3).exits() if e.maps == {79})
