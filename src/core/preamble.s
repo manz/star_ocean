@@ -42,6 +42,12 @@ Build context every module imports: free ROM, cart SRAM layout. The bus map live
     strategy order
 }
 
+; Bank $C9 padding (power-on page 0, mapped in IRQs too): code reached by `jsl`.
+.pool code_c9 {
+    range 0xC9FC86 0xC9FFFF
+    strategy order
+}
+
 ; Cart SRAM once the header says 32 KB: the saves sit at $70:0000-1E6A (core/saves moves them there), the rest is ours.
 .pool sram {
     bss

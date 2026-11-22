@@ -10,6 +10,10 @@ index space. A string's tiles stay where they were uploaded and are reused while
 three tilemap shadows ($7E:3100/3900/4100) are scanned once per frame for the tiles still shown. Uploads queue in
 a ring drained after the game's own (`CA:6CD1`), BUDGET bytes per frame.
 
+In battle (src/battle/vwf8.s) the same records draw into BG3 (CHR $4000): pool tiles 0D9-113 as in the menus and
+13C-1FF in place of 300-3EF, the pool's tail past them never taken. `vwf8.battle` picks the battle tiles, the two
+battle shadows ($7E:5100 / $5900, written together) and the battle drain (`vwf8_drain_battle`, in the line-216 IRQ).
+
 The Talents combo slots print their special moves' battle16 names with the 16x16 VWF over two rows (`CA:5A95`);
 `vwf8_combos` has those names baked for the 8x8 VWF instead, the long ones wrapped onto the slot's second row.
 """
@@ -30,6 +34,13 @@ _BUDGET := 0x0800
 _SHADOWS := 0x7E3100  ; three 0x800-byte maps
 _SHADOW_BYTES := 0x1800
 _CHR := 0x2000
+_BATTLE_HIGH_FIRST := 0x13C
+_BATTLE_POOL_TILES := _LOW_TILES + 0x1FF - _BATTLE_HIGH_FIRST + 1
+_BATTLE_SHADOWS := 0x7E5100  ; two 0x800-byte maps, the same tiles
+_BATTLE_SHADOW_BYTES := 0x1000
+_BATTLE_SECOND := 0x0800  ; the second shadow, from the first
+_BATTLE_CHR := 0x4000
+_BATTLE_LAST_LINE := 250  ; the drain stops past it: the line-258 IRQ (audio) waits for this one
 _BLANK := 0xBF  ; the font's space
 _NEWLINE := 0xFE
 _END := 0xFF
@@ -50,6 +61,7 @@ _cells = 0x27
     byte frame  ; counts drains
     byte scanned  ; frame of the last scan
     byte stale  ; 1: scan before the next allocation
+    byte battle  ; 1: the battle pool, shadows and CHR
     word cursor  ; next-fit start
     word low  ; binary search
     word high
@@ -478,6 +490,10 @@ _clear:
     sta.l vwf8.used, x
     dex
     bpl _clear
+    lda.l vwf8.battle
+    beq _menu_scan
+    jmp.w _battle_rescan
+_menu_scan:
     rep #0x20
     ldx.w #0
 _entry:
@@ -509,6 +525,46 @@ _next:
     sep #0x20
     rts
 
+_battle_rescan:
+"""_rescan's battle half: the two battle shadows, then the pool's tail past the battle tiles taken for good."""
+    rep #0x20
+    ldx.w #0
+_battle_entry:
+    lda.l _BATTLE_SHADOWS, x
+    and.w #0x03FF
+    cmp.w #_BATTLE_HIGH_FIRST
+    bcs _battle_high
+    sbc.w #_LOW_FIRST - 1  ; carry clear: - _LOW_FIRST
+    cmp.w #_LOW_TILES
+    bcs _battle_next
+    bra _battle_shown
+_battle_high:
+    sbc.w #_BATTLE_HIGH_FIRST - _LOW_TILES
+    cmp.w #_BATTLE_POOL_TILES
+    bcs _battle_next
+_battle_shown:
+    phx
+    tax
+    sep #0x20
+    lda.b #1
+    sta.l vwf8.used, x
+    rep #0x20
+    plx
+_battle_next:
+    inx
+    inx
+    cpx.w #_BATTLE_SHADOW_BYTES
+    bcc _battle_entry
+    sep #0x20
+    ldx.w #_BATTLE_POOL_TILES
+    lda.b #1
+_tail:
+    sta.l vwf8.used, x
+    inx
+    cpx.w #_POOL_TILES
+    bcc _tail
+    rts
+
 _tile_of:
 """vwf8.tile: the tile number of pool index vwf8.first."""
     rep #0x20
@@ -518,14 +574,27 @@ _tile_of:
     adc.w #_LOW_FIRST
     bra _tile
 _upper:
-    adc.w #_HIGH_FIRST - _LOW_TILES - 1  ; carry set
+    tax
+    lda.l vwf8.battle
+    and.w #0x00FF
+    beq _menu_upper
+    txa
+    sec
+    adc.w #_BATTLE_HIGH_FIRST - _LOW_TILES - 1
+    bra _tile
+_menu_upper:
+    txa
+    sec
+    adc.w #_HIGH_FIRST - _LOW_TILES - 1
 _tile:
     sta.l vwf8.tile
     sep #0x20
     rts
 
 _enqueue:
-"""The record's stream into the ring, for its tiles' CHR."""
+"""The record's stream into the ring, for its tiles' CHR. IRQs off: the battle drain runs in one."""
+    php
+    sei
     jsr.w _tile_of
     lda.l vwf8.head
     clc
@@ -548,17 +617,27 @@ _enqueue:
     asl
     asl
     sta.l vwf8.queue + 3, x
+    lda.l vwf8.battle
+    and.w #0x00FF
+    beq _menu_chr
+    lda.w #_BATTLE_CHR
+    bra _chr
+_menu_chr:
+    lda.w #_CHR
+_chr:
+    sta.l vwf8.middle  ; scratch
     lda.l vwf8.tile
     asl
     asl
     asl
     clc
-    adc.w #_CHR
+    adc.l vwf8.middle
     sta.l vwf8.queue + 5, x
     sep #0x20
     lda.l vwf8.queued
     inc
     sta.l vwf8.queued
+    plp
     rts
 
 _cells_out:
@@ -599,6 +678,13 @@ _tiled:
     ora.b _attribute
 _attribute_out:
     sta 0x7E0001, x
+    lda.l vwf8.battle
+    beq _one_shadow
+    rep #0x20
+    lda 0x7E0000, x
+    sta.l 0x7E0000 + _BATTLE_SECOND, x
+    sep #0x20
+_one_shadow:
     inx
     inx
     iny
@@ -619,6 +705,21 @@ _done:
 vwf8_open:
 """A menu opens: nothing uploaded is trusted, nothing queued, the next allocation scans the maps."""
     lda.b #0
+    bra _open
+
+vwf8_battle_ready:
+"""vwf8_battle_open unless the battle pool is open (a savestate taken mid-fight never ran the fight's start)."""
+    lda.l vwf8.battle
+    cmp.b #1
+    bne vwf8_battle_open
+    rtl
+
+vwf8_battle_open:
+"""vwf8_open for a battle: the battle pool from here on (8-bit A)."""
+    lda.b #1
+_open:
+    sta.l vwf8.battle
+    lda.b #0
     sta.l vwf8.queued
     sta.l vwf8.head
     lda.b #1
@@ -636,11 +737,121 @@ _forget:
     rtl
 }
 
-.alloc vwf8_upload in code_c0 {
+.macro vwf8_send(channel, mask) {
+    """Queue slot X's stream into VRAM through DMA `channel` (S-DD1, `mask` its bit). M8 X16; A clobbered."""
+    lda.b #0x09
+    sta.l 0x004300 + channel
+    lda.b #0x18
+    sta.l 0x004301 + channel
+    rep #0x20
+    lda.l vwf8.queue, x
+    sta.l 0x004302 + channel
+    lda.l vwf8.queue + 2, x  ; bank, then the size's low byte
+    sta.l 0x004304 + channel
+    lda.l vwf8.queue + 3, x
+    sta.l 0x004305 + channel
+    lda.l vwf8.queue + 5, x
+    sta.l 0x002116
+    sep #0x20
+    sdd1_decompress(mask)
+}
+
+.alloc vwf8_upload in code_c9 {
     .a8
     .i16
 vwf8_drain:
 """Queued streams into VRAM (S-DD1 DMA, channel 0) until BUDGET bytes, in the frame's upload."""
+    jsr.w _begin
+_slot:
+    jsr.w _next
+    bcc _done
+    vwf8_send(0x00, 0x01)
+    bra _slot
+_done:
+    rtl
+
+vwf8_drain_battle:
+"""
+The battle's: in the line-216 IRQ's DMA list (M8 X16, DB 0), channel 1 as the list's own jobs (channel 0 may be
+half set up by the cel streamer), the E / F windows on pages 2 / 3 (text16) and back, until BATTLE_LAST_LINE. What
+is left asks the list for the next frame (its BG3 map job). Then the list's wait for V-blank, which this replaces.
+"""
+    lda.l vwf8.battle
+    cmp.b #1
+    bne _no_drain
+    lda.l vwf8.queued
+    beq _no_drain
+    cmp.b #_QUEUE_SLOTS + 1
+    bcc _battle_drain
+    lda.b #0  ; SRAM left by another build or a cold boot: nothing in it was queued here
+    sta.l vwf8.queued
+_no_drain:
+    jmp.w _vblank
+_battle_drain:
+    lda.l 0x004800
+    pha
+    lda.l 0x004806
+    pha
+    lda.l 0x004807
+    pha
+    lda.b #2
+    sta.l 0x004806
+    lda.b #3
+    sta.l 0x004807
+    jsr.w _begin
+_battle_slot:
+    jsr.w _line
+    cmp.w #_BATTLE_LAST_LINE
+    sep #0x20
+    bcs _battle_done
+    jsr.w _next
+    bcc _battle_done
+    rep #0x20
+    lda.l vwf8.queue + 5, x
+    cmp.w #_BATTLE_CHR
+    bcc _not_ours
+    cmp.w #_BATTLE_CHR + 0x1000
+    bcs _not_ours
+    sep #0x20
+    vwf8_send(0x10, 0x02)
+    bra _battle_slot
+_not_ours:
+    sep #0x20  ; a slot outside the battle pool's CHR: the ring is not ours, drop it
+    lda.b #0
+    sta.l vwf8.queued
+_battle_done:
+    pla
+    sta.l 0x004807
+    pla
+    sta.l 0x004806
+    pla
+    sta.l 0x004800
+    lda.b #0x01  ; channel 1 as the list leaves it
+    sta.l 0x004310
+    lda.l vwf8.queued
+    beq _vblank
+    lda.b #0x04
+    tsb.w 0x094A
+_vblank:
+    lda.l 0x004212
+    bpl _vblank
+    rtl
+
+_line:
+"""A (16-bit on return) = the scanline now."""
+    lda.b #0xFF
+    sta.l 0x004201
+    lda.l 0x002137
+    lda.l 0x00213F
+    lda.l 0x00213D
+    xba
+    lda.l 0x00213D
+    and.b #0x01
+    xba
+    rep #0x20
+    rts
+
+_begin:
     lda.l vwf8.frame
     inc
     sta.l vwf8.frame
@@ -648,11 +859,17 @@ vwf8_drain:
     lda.w #0
     sta.l vwf8.budget
     sep #0x20
-_slot:
+    rts
+
+_next:
+"""The ring's head slot: carry set, X its offset, popped and counted; carry clear when empty or BUDGET spent."""
+    rep #0x20
+    lda.l vwf8.budget
+    cmp.w #_BUDGET
+    sep #0x20
+    bcs _empty
     lda.l vwf8.queued
-    bne _upload
-    rtl
-_upload:
+    beq _empty
     dec
     sta.l vwf8.queued
     lda.l vwf8.head
@@ -662,36 +879,18 @@ _upload:
     asl
     asl
     tax
-    sep #0x20
-    lda.b #0x09
-    sta.l 0x004300
-    lda.b #0x18
-    sta.l 0x004301
-    rep #0x20
-    lda.l vwf8.queue, x
-    sta.l 0x004302
-    lda.l vwf8.queue + 2, x  ; bank, then the size's low byte
-    sta.l 0x004304
-    lda.l vwf8.queue + 3, x
-    sta.l 0x004305
-    lda.l vwf8.queue + 5, x
-    sta.l 0x002116
     lda.l vwf8.budget
     clc
     adc.l vwf8.queue + 3, x
     sta.l vwf8.budget
     sep #0x20
-    sdd1_decompress(0x01)
     lda.l vwf8.head
     inc
     and.b #_QUEUE_SLOTS - 1
     sta.l vwf8.head
-    rep #0x20
-    lda.l vwf8.budget
-    cmp.w #_BUDGET
-    sep #0x20
-    bcs _done
-    jmp.w _slot
-_done:
-    rtl
+    sec
+    rts
+_empty:
+    clc
+    rts
 }

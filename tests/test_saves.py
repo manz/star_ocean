@@ -16,6 +16,7 @@ SITES = [
 SAVES_END = 0x701E6B  # slots 0x700000-0x701DFF, system bytes to 0x701E6A
 OURS = range(0xC06B72, 0xC07000)  # code_c0: the SRAM text routines, the 8x8 VWF upload
 TEXT16 = range(0xE40000, 0x1000000)  # the 8x8 VWF (src/menu/vwf8.s): code in the text16 pool
+CODE_C9 = range(0xC9FC86, 0xCA0000)  # the 8x8 VWF's uploads (src/menu/vwf8.s), menus and battle IRQ
 SAVE_SLOT_2 = "A,A,A,X,RIGHT,RIGHT,RIGHT,DOWN,A,RIGHT,A,A"  # menu > Sauver > slot 2 > Oui
 
 
@@ -32,7 +33,7 @@ def _save_slot_2() -> tuple[bytes, set[int]]:
 
     def note(address: int, _value: int) -> None:
         pc = emu.get_state().pc & 0xFFFFFF
-        if address >= SAVES_END and pc not in OURS and pc not in TEXT16:
+        if address >= SAVES_END and pc not in OURS and pc not in TEXT16 and pc not in CODE_C9:
             strays.add(pc)
 
     emu.add_read_callback(SAVES_END, 0x707FFF, note)
