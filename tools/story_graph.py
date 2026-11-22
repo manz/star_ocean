@@ -58,8 +58,14 @@ EFFECTS = {
     "party_leave",
     "inc",
     "dec",
+    "tile_attr_fill",
+    "tile_attr_set",
+    "actor_field_or",
 }
+WALL_OPS = ("tile_attr_fill", "tile_attr_set")  # the last operand: the cells' collision code (0: open floor)
 TALK, STEP = 0, 2  # entry kinds: A facing actor n / stepping on a trigger
+USE = (STEP, 0x7F)  # A with no actor in front: C8:0000 puts the equipped item ($0592) in var.w[0xc] first
+ITEM = "var.w[0xc]"
 
 
 @dataclass(frozen=True)
@@ -102,20 +108,22 @@ class Op:
 class Exit:
     scene: int
     maps: frozenset[int]  # the maps the trigger is placed on
-    box: tuple[Arg, Arg, Arg, Arg]  # x1, y1, x2, y2 in 16 px cells (a tile: x, y, x, y)
+    box: tuple[Arg, Arg, Arg, Arg] | None  # x1, y1, x2, y2 in 16 px cells (a tile: x, y, x, y); None: a talk
     to: Arg  # the map
     kind: Arg  # 0 fade, 1 none, 2 door
     x: Arg
     y: Arg
     facing: Arg | None  # map_change_continue has none
     guards: frozenset[Guard]  # the trigger's and the entry's
+    actor: int | None = None  # talking to this actor takes the hero there (the boat to Astral)
 
 
 @dataclass(frozen=True)
 class Trigger:
-    kind: str  # arrive (the setup itself), step (a trigger tile / zone), talk (A facing an actor)
+    kind: str  # arrive (the setup itself), step (a trigger tile / zone), talk (A facing an actor), use (A, an item on)
     box: tuple[Arg, Arg, Arg, Arg] | None = None
     actor: int | None = None
+    item: int | None = None  # use: the item to equip
 
 
 ARRIVE = Trigger("arrive")
@@ -304,16 +312,35 @@ class SceneGraph:
             for e in self.effects.get(entry, frozenset()):
                 if e.maps & p.maps:
                     out.add(Action(self.scene, e.maps & p.maps, trigger, e.name, e.args, p.guards | e.guards))
+        return out | self._uses(out)
+
+    def _uses(self, placed: set[Action]) -> set[Action]:
+        """The A script's effects that need an item equipped, at the zones that set the variables it also reads (map
+        129's gas: the zones set var.w[0xa], the Silex blows the wall)."""
+        out = set()
+        for e in self.effects.get(USE, frozenset()):
+            item = _item(e.guards)
+            if item is None:
+                continue
+            for box in _where(e, placed):
+                out.add(Action(self.scene, e.maps, Trigger("use", box=box, item=item), e.name, e.args, e.guards))
         return out
 
     def exits(self) -> set[Exit]:
         """Map changes fired by stepping on a trigger."""
+        return self._exits("step")
+
+    def talk_exits(self) -> set[Exit]:
+        """Map changes fired by talking to an actor (a boatman, a guide)."""
+        return self._exits("talk")
+
+    def _exits(self, kind: str) -> set[Exit]:
         out = set()
         for a in self.actions():
-            if a.name in ("map_change", "map_change_continue") and a.trigger.box is not None:
-                to, kind, x, y = a.args[:4]
+            if a.name in ("map_change", "map_change_continue") and a.trigger.kind == kind:
+                to, how, x, y = a.args[:4]
                 facing = a.args[4] if a.name == "map_change" else None
-                out.add(Exit(self.scene, a.maps, a.trigger.box, to, kind, x, y, facing, a.guards))
+                out.add(Exit(self.scene, a.maps, a.trigger.box, to, how, x, y, facing, a.guards, a.trigger.actor))
         return out
 
     def steps(self) -> set[Step]:
@@ -380,6 +407,52 @@ def _floor(guards: frozenset[Guard]) -> int | None:
     return low if low > 0 else None
 
 
+def _single(g: Guard) -> tuple[str, Callable[[int], bool]] | None:
+    """A guard on one variable against a number: its name and the values it lets through."""
+    terms = g.condition.terms
+    if len(terms) != 1 or terms[0].compare not in COMPARE_TEST or len(terms[0].values) != 2:
+        return None
+    a, b = terms[0].values
+    if b.table not in ("imm", "byte"):
+        return None
+    test, n = COMPARE_TEST[terms[0].compare], b.n
+    return str(a), lambda v: test(v, n) == g.holds
+
+
+def _item(guards: frozenset[Guard]) -> int | None:
+    """The item a `use` needs: the one value its guards on var.w[0xc] let through, if they pin one."""
+    for g in guards:
+        single = _single(g)
+        if single is not None and single[0] == ITEM:
+            items = [v for v in range(0x400) if single[1](v)]
+            if len(items) == 1:
+                return items[0]
+    return None
+
+
+def _where(use: Op, placed: set[Action]) -> list[tuple[Arg, Arg, Arg, Arg] | None]:
+    """Where the hero stands for a `use`: the step zones that set the other variables its guards read to a value
+    they let through (None: anywhere on its maps, it reads no other)."""
+    needs = [s for g in use.guards if (s := _single(g)) is not None and s[0] != ITEM and s[0].startswith("var")]
+    if not needs:
+        return [None]
+    return sorted(
+        {
+            a.trigger.box
+            for a in placed
+            if a.trigger.kind == "step"
+            and a.trigger.box is not None
+            and a.maps & use.maps
+            and a.name == "set"
+            and any(
+                a.args[0] == name and a.args[1] == "=" and isinstance(a.args[2], int) and ok(a.args[2])
+                for name, ok in needs
+            )
+        },
+        key=str,
+    )
+
+
 def _story_values(c: Condition) -> frozenset[int] | None:
     """The counter values that make the condition true, when it reads nothing but the counter (an `&&` may also
     test other things: the counter part still bounds it). None: the condition says nothing about the counter."""
@@ -437,6 +510,8 @@ def scene_graph(scene: int) -> SceneGraph:
     for key, on in _entries(placements).items():
         if key in addresses:
             effects[key] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[key], on))
+    if USE in addresses:
+        effects[USE] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[USE], maps))
     return SceneGraph(scene, placements, arrivals, effects)
 
 
@@ -489,13 +564,31 @@ def _possible(guards: frozenset[Guard]) -> bool:
     return bool(_allowed(guards)) and _flags(guards) is not None
 
 
+def openers(g: SceneGraph) -> set[Trigger]:
+    """The triggers whose entry clears collision cells: a door the hero opens (map 123's, rammed three times)."""
+    return {a.trigger for a in g.actions() if a.name in WALL_OPS and a.args[-1] == 0 and a.trigger != ARRIVE}
+
+
+def gate_actions(g: SceneGraph) -> set[Action]:
+    """Actors that open when talked to: their entry sets their own byte 1 bits 0-1 (map 126's cell gates)."""
+    return {
+        a
+        for a in g.actions()
+        if a.trigger.kind == "talk"
+        and a.name == "actor_field_or"
+        and a.args[:2] == (a.trigger.actor, 1)
+        and isinstance(a.args[2], int)
+        and a.args[2] & 3 == 3
+    }
+
+
 def flag_actions(g: SceneGraph) -> set[Action]:
     """The actions that turn a story flag on or off."""
     return {a for a in g.actions() if a.name in ("flag_on", "flag_off") and isinstance(a.args[0], int)}
 
 
 def _trigger_data(t: Trigger) -> dict[str, object]:
-    return {"kind": t.kind, "box": t.box and list(t.box), "actor": t.actor}
+    return {"kind": t.kind, "box": t.box and list(t.box), "actor": t.actor, "item": t.item}
 
 
 def _counter(guards: frozenset[Guard]) -> list[int] | None:
@@ -512,7 +605,8 @@ def export() -> dict[str, object]:
         {
             "scene": e.scene,
             "maps": sorted(e.maps),
-            "box": list(e.box),
+            "box": e.box and list(e.box),
+            "actor": e.actor,
             "to": e.to,
             "kind": e.kind,
             "x": e.x,
@@ -523,7 +617,7 @@ def export() -> dict[str, object]:
             "guards": sorted(map(str, e.guards)),
         }
         for g in gs
-        for e in g.exits()
+        for e in g.exits() | g.talk_exits()
         if _possible(e.guards)
     ]
     steps = [
@@ -551,10 +645,34 @@ def export() -> dict[str, object]:
             "counter": _counter(a.guards),
             "flags": _flags(a.guards),
             "guards": sorted(map(str, a.guards)),
+            "opens": a.trigger in opens,
         }
         for g in gs
         if g.scene != DEBUG_SCENE
+        for opens in [openers(g)]
         for a in flag_actions(g)
+        if _possible(a.guards)
+    ]
+    items = [
+        {
+            "scene": a.scene,
+            "maps": sorted(a.maps),
+            "item": a.args[0],
+            "trigger": _trigger_data(a.trigger),
+            "counter": _counter(a.guards),
+            "flags": _flags(a.guards),
+            "guards": sorted(map(str, a.guards)),
+        }
+        for g in gs
+        if g.scene != DEBUG_SCENE
+        for a in g.actions()
+        if a.name == "item_add" and isinstance(a.args[0], int) and a.trigger.kind != "use" and _possible(a.guards)
+    ]
+    gates = [
+        {"scene": g.scene, "maps": sorted(a.maps), "actor": a.trigger.actor, "counter": _counter(a.guards)}
+        for g in gs
+        if g.scene != DEBUG_SCENE
+        for a in gate_actions(g)
         if _possible(a.guards)
     ]
     order = lambda d: json.dumps(d, sort_keys=True)
@@ -563,6 +681,8 @@ def export() -> dict[str, object]:
         "exits": sorted(exits, key=order),
         "steps": sorted(steps, key=order),
         "flags": sorted(flags, key=order),
+        "items": sorted(items, key=order),
+        "gates": sorted(gates, key=order),
     }
 
 

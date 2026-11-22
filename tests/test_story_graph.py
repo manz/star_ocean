@@ -7,7 +7,7 @@ from pathlib import Path
 from tools import save_slot
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
-from tools.story_graph import DEBUG_SCENE, export, graphs, main, scene_graph
+from tools.story_graph import DEBUG_SCENE, export, gate_actions, graphs, main, openers, scene_graph
 
 SAVES = Path(__file__).parent / "saves"
 
@@ -106,6 +106,37 @@ def test_a_set_adds_to_the_counter() -> None:
 def test_a_lower_bound_pins_the_step_to_it() -> None:
     """Scene 25: Ashlay's choice past `!(var.w[0x10] < 59)` moves 59 on to 60."""
     assert any((s.at, s.to) == (59, 60) for s in scene_graph(25).steps())
+
+
+def test_a_trigger_that_clears_walls_is_an_opener() -> None:
+    """Map 123's door: zone (23, 35)-(24, 35) clears the cells above it on the third hit."""
+    assert any(t.box == (23, 35, 24, 35) for t in openers(scene_graph(27)))
+
+
+def test_the_silex_blows_the_gas_on_map_129() -> None:
+    """Scene 27's A script: the Silex equipped, in a gas zone (var.w[0xa] set), flag 19 opens the east wall."""
+    uses = {
+        (a.trigger.box, a.trigger.item)
+        for a in scene_graph(27).actions()
+        if a.trigger.kind == "use" and a.name == "flag_on" and a.args[0] == 19
+    }
+    assert uses == {((22, 5, 22, 7), 510), ((23, 5, 23, 7), 510)}
+
+
+def test_the_export_lists_where_the_silex_is_found() -> None:
+    """Map 125: the zone before Velcant's fight."""
+    items = export()["items"]
+    assert isinstance(items, list)
+    assert any(i["item"] == 510 and i["maps"] == [125] and i["trigger"]["box"] == [15, 14, 29, 14] for i in items)
+
+
+def test_map_126_s_cell_gates_open_when_talked_to() -> None:
+    assert {a.trigger.actor for a in gate_actions(scene_graph(27)) if 126 in a.maps} == {34, 35, 36, 37}
+
+
+def test_the_boat_to_astral_is_a_talk_exit() -> None:
+    """Map 83's boatman (actor 20), past the Yes: map 144."""
+    assert any(e.actor == 20 and e.to == 144 and 83 in e.maps for e in scene_graph(25).talk_exits())
 
 
 def test_the_export_carries_the_counter_each_exit_needs() -> None:
