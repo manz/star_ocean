@@ -1,7 +1,7 @@
 """
 The fight's top (or bottom) windows: enemy names, the party member's name / PV / PM, the L/R special moves.
 The enemy window gives a cell to the L/R one, the party member window moving with it: 11 / 11 / 12 wide at
-cells 0 / 10 / 20 instead of 12 / 11 / 11 at 0 / 11 / 21, so a special move's name has 9 cells (cells 22-30).
+cells 0 / 10 / 20 instead of 12 / 11 / 11 at 0 / 11 / 21, so a special move's name has 10 cells (cells 21-30).
 Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offsets (2 bytes a cell, 0x40 a row).
 """
 
@@ -97,8 +97,8 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
     .dw 0x65E
 }
 
-; L/R window contents one cell left (`C1:5619`: the L / R labels, then the two special moves' names,
-; 9 cells from cell 22).
+; L/R window contents one cell left (`C1:5619`: the L / R labels, then the two special moves' names
+; under them from cell 21: 10 cells, the labels' column being empty on the names' rows).
 .alloc at 0xC1564C size 2 {  ; 0x6C
     .dw 0x6A
 }
@@ -118,7 +118,7 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
     .dw 0xEA
 }
 .alloc at 0xC15688 size 2 {  ; 0xAE names
-    .dw 0xAC
+    .dw 0xAA
 }
 .alloc at 0xC15698 size 2 {  ; 0x5AC
     .dw 0x5AA
@@ -139,7 +139,7 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
     .dw 0x62A
 }
 .alloc at 0xC156D4 size 2 {  ; 0x5EE bottom: names
-    .dw 0x5EC
+    .dw 0x5EA
 }
 
 ; The bottom copy drew PV and max PV with 3 digits (`lda #3` before `C0:4501`), the top one with 4:
