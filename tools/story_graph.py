@@ -19,7 +19,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections.abc import Callable
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from functools import cache
 from pathlib import Path
 from typing import Any
@@ -200,17 +200,17 @@ class _Point:
     results: frozenset[tuple[int, int]] = frozenset()  # (system variable, flag) the flag tests stored
     consts: frozenset[tuple[int, int]] = frozenset()  # (variable, value): a flag op's variable set to a number
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
+    story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
+    # it apart stay apart: map 203's zone is placed at 93 and at 109, a meet would keep neither
 
     def at(self, pos: int, maps: frozenset[int] | None = None, returns: tuple[int, ...] | None = None) -> _Point:
         """The path moved on: the test result stays only right after its `flag_test`."""
-        return _Point(
-            pos,
-            self.maps if maps is None else maps,
-            self.returns if returns is None else returns,
-            None,
-            self.results,
-            self.consts,
-            self.zone,
+        return replace(
+            self,
+            pos=pos,
+            maps=self.maps if maps is None else maps,
+            returns=self.returns if returns is None else returns,
+            tested=None,
         )
 
     def boxed(self) -> _Point:
@@ -219,7 +219,7 @@ class _Point:
         if held.get(0) != 0 or any(n not in held for n in BOX_VARS[1:]):
             return self
         x1, y1, x2, y2 = (held[n] // 2 for n in BOX_VARS[1:])
-        return _Point(self.pos, self.maps, self.returns, self.tested, self.results, self.consts, (x1, y1, x2, y2))
+        return replace(self, zone=(x1, y1, x2, y2))
 
     def flag(self, operand: object) -> int | None:
         """A flag op's operand as a number: an immediate, or a variable a `set` gave one (map 234's switch: `set
@@ -338,32 +338,61 @@ class _Walker:
             case "end":
                 return []
             case "flag_test" if (flag := p.flag(ins.args[0])) is not None:
-                return [(_Point(nxt, p.maps, p.returns, flag, p.results, p.consts, p.zone), guards)]
+                return [(replace(p, pos=nxt, tested=flag), guards)]
             case "syscall" if _is_box_test(ins):
                 return [(p.at(nxt).boxed(), guards)]
-        return [(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), guards)]
+        return [(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), guards)]
 
     def _keep_const(self, p: _Point, ins: Instruction) -> _Point:
         if (c := _const_set(ins)) is None or c[0] not in self.tracked:
             return p
         n, value = c
         consts = frozenset(k for k in p.consts if k[0] != n) | ({(n, value)} if value is not None else set())
-        return _Point(p.pos, p.maps, p.returns, p.tested, p.results, consts, p.zone)
+        return replace(p, consts=consts)
+
+    def _test(
+        self, p: _Point, guards: frozenset[Guard], condition: Condition, then: int, other: int
+    ) -> list[tuple[_Point, frozenset[Guard]]]:
+        """Both ways past a test, each with its guard; a test on the counter narrows the values each way keeps and
+        drops a way none are left on. Failing an `&&` says nothing of its counter part."""
+        flag = _flag_test(condition, p.results)
+        values = _story_values(condition)
+        if values is None:
+            return [
+                (p.at(to), guards | {Guard(condition, holds, flag)}) for to, holds in ((then, True), (other, False))
+            ]
+        was = COUNTER if p.story is None else p.story
+        both = any(j == 1 for j in condition.joiners)
+        sides = ((then, True, was & values), (other, False, was if both else was - values))
+        return [
+            (replace(p.at(to), story=story), guards | {Guard(condition, holds, flag)})
+            for to, holds, story in sides
+            if story
+        ]
 
     def _branch(self, p: _Point, guards: frozenset[Guard], ins: Instruction) -> list[tuple[_Point, frozenset[Guard]]]:
         then, other, condition = _target(ins.args[0]), _target(ins.args[1]), ins.args[2]
         assert isinstance(condition, Condition)
         m = map_test(condition)
         if m is None:
-            flag = _flag_test(condition, p.results)
-            return [
-                (p.at(then), guards | {Guard(condition, True, flag)}),
-                (p.at(other), guards | {Guard(condition, False, flag)}),
-            ]
+            return self._test(p, guards, condition, then, other)
         out = [(p.at(other, maps=p.maps - {m}), guards)] if p.maps - {m} else []
         if m in p.maps:
             out.append((p.at(then, maps=frozenset({m})), guards))
         return out
+
+
+def _counted(p: _Point, ins: Instruction) -> _Point:
+    """The counter values after a write to it: `inc` moves them on, `set` to a number pins them, anything else
+    forgets them."""
+    args = _args(ins)
+    if not args or args[0] != STORY or p.story is None:
+        return p
+    if ins.name == "inc":
+        return replace(p, story=frozenset(v + 1 for v in p.story))
+    if ins.name == "set" and args[1] == "=" and isinstance(args[2], int):
+        return replace(p, story=frozenset({args[2]}))
+    return replace(p, story=None)
 
 
 def _with_result(p: _Point, ins: Instruction, tested: int | None) -> _Point:
@@ -381,7 +410,7 @@ def _with_result(p: _Point, ins: Instruction, tested: int | None) -> _Point:
     kept = frozenset(r for r in p.results if r[0] != n)
     if ins.name == "store_result" and tested is not None:
         kept |= {(n, tested)}
-    return _Point(p.pos, p.maps, p.returns, None, kept, p.consts, p.zone)
+    return replace(p, tested=None, results=kept)
 
 
 def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:
@@ -407,6 +436,9 @@ class SceneGraph:
     effects: dict[tuple[int, int], frozenset[Op]]  # by entry (kind, id), walked on the maps its placements cover
 
     def actions(self) -> set[Action]:
+        return set(_actions(self.scene))
+
+    def _placed(self) -> set[Action]:
         out = {Action(self.scene, a.maps, ARRIVE, a.name, a.args, a.guards) for a in self.arrivals}
         for p in self.placements:
             trigger, entry = _trigger(p)
@@ -415,7 +447,7 @@ class SceneGraph:
             for e in self.effects.get(entry, frozenset()):
                 if e.maps & p.maps:
                     out.add(Action(self.scene, e.maps & p.maps, trigger, e.name, e.args, p.guards | e.guards))
-        return out | self._uses(out)
+        return _resolved(out | self._uses(out))
 
     def _uses(self, placed: set[Action]) -> set[Action]:
         """The A script's effects that need an item equipped, at the zones that set the variables it also reads (map
@@ -459,6 +491,46 @@ class SceneGraph:
                 to = _written(a, at)
                 out.add(Step(self.scene, a.maps, at, to, a.trigger, a.guards))
         return out
+
+
+@cache
+def _actions(scene: int) -> frozenset[Action]:
+    g = scene_graph(scene)
+    return frozenset(g._placed())
+
+
+def _resolved(actions: set[Action]) -> set[Action]:
+    """One action for paths that differ by a test alone: `a && c` and `a && !c` make `a`. Paths that tested the counter apart reach an action with guards a meet would have dropped (map 79's
+    door: through `flag[146]`, and through `!flag[146]` either side of `var.w[0x10] != 26`)."""
+    groups: dict[Action, list[Action]] = {}
+    for a in actions:
+        groups.setdefault(replace(a, guards=frozenset()), []).append(a)
+    out: set[Action] = set()
+    for same in groups.values():
+        out |= _folded(same)
+    return out
+
+
+def _folded(same: list[Action]) -> set[Action]:
+    """Copies of one action folded until none fold: two whose guards differ by one test taken and not taken make one
+    without it. A tighter copy stays beside a looser one: its guards may pin the counter (map 9's `inc` at 5)."""
+    kept = set(same)
+    while len(kept) > 1:
+        halves: dict[tuple[frozenset[Guard], Condition], dict[bool, Action]] = {}
+        pair = None
+        for a in sorted(kept, key=str):
+            for g in a.guards:
+                side = halves.setdefault((a.guards - {g}, g.condition), {})
+                side[g.holds] = a
+                if len(side) == 2:
+                    pair = (side[True], side[False])
+                    break
+            if pair:
+                break
+        if pair is None:
+            return kept
+        kept = (kept - set(pair)) | {replace(pair[0], guards=pair[0].guards & pair[1].guards)}
+    return kept
 
 
 def _written(a: Action, at: int | None) -> Arg | None:

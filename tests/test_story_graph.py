@@ -191,3 +191,18 @@ def test_the_export_lists_walls_a_flag_opens() -> None:
     assert isinstance(walls, list)
     north = {w["flag"]: w["box"] for w in walls if w["maps"] == [239]}
     assert north == {56: [7, 24, 8, 24], 57: [7, 40, 8, 40]}
+
+
+def test_a_zone_placed_at_two_counter_values_keeps_both() -> None:
+    """Map 203's zone to map 507 is placed when the counter is 93 and when it is 109: a meet of the two paths kept
+    neither."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    zone = {(tuple(e["counter"] or ()), e["to"]) for e in exits if e["maps"] == [203] and e["to"] == 507}
+    assert zone == {((93,), 507), ((109,), 507)}
+
+
+def test_exits_split_on_a_test_fold_back() -> None:
+    """Map 79's door, reached through `flag[146]` and through `!flag[146]` on both sides of a counter test."""
+    (e,) = (e for e in scene_graph(3).exits() if e.maps == {79})
+    assert not e.guards
