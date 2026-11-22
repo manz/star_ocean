@@ -15,9 +15,10 @@ a word after two spaces or more starts at the column it had in fixed width, ever
 `vwf8_keys` sorts the records by the string's address (encode_menus.place): 8 bytes each, address word, bank, 0,
 record pointer, 0. Strings with a code the writer draws over two rows (C0+) have no record: the game draws them.
 `vwf8_combos` holds, per special move id from COMBO_FIRST, its battle16 name's record (.dl, then 0; 0: none) for the
-Talents combo slots (src/menu/vwf8.s), wrapped onto the slot's second row past COMBO_PX. `vwf8_lr` gives, per names8
-id from LR_FIRST (the battle's L/R window: a block of 0x20 per character), the combo position whose record the fight
-draws instead (0xFF: the names8 string stays), for names that fit LR_PX on one row.
+Talents combo slots and list (src/menu/vwf8.s), wrapped onto the slot's second row past COMBO_PX, then the list's
+"(Vide)" (COMBO_EMPTY). `vwf8_lr` gives, per names8 id from LR_FIRST
+(the battle's L/R window: a block of 0x20 per character), the combo position whose record the fight draws instead
+(0xFF: the names8 string stays), for names that fit LR_PX on one row.
 """
 
 from __future__ import annotations
@@ -49,6 +50,7 @@ STOPS = {0xEAD0: (0, 5), 0xEAD2: (0, 5, 10), 0xEAD3: (0, 5, 10)}  # shop tabs: s
 GAP = 1  # between runs and whole tiles
 COMBO_FIRST, COMBO_COUNT = 0x2710, 0x82  # special moves, by battle16 id
 COMBO_PX = 96  # a combo slot's row: 12 cells
+COMBO_EMPTY = 0xEA74  # menu16 "(Vide)": the Talents list's first row, after the special moves in vwf8_combos
 LR_FIRST, LR_COUNT = 0x0BB8, 0x180  # names8 ids of the battle L/R window's special moves, 0x20 a character
 LR_PX = 80  # the L/R window's name row: 10 cells (src/battle/windows.s)
 # Each character's L/R names8 block, in order, as battle16 special move ids (matched on the Japanese names8 kana).
@@ -295,14 +297,23 @@ def wrapped(codes: bytes, limit: int) -> bytes:
 
 
 def combo_records(rom: Rom, source: Path) -> dict[int, tuple[bytes, bytes]]:
-    """Special move position (id - COMBO_FIRST) -> (tiles, cells) of its battle16 name."""
-    encoded, _ = wide_values(rom, "battle16", Table(str(TABLE)), source / "battle16.xml")
+    """Special move position (id - COMBO_FIRST) -> (tiles, cells) of its battle16 name; COMBO_EMPTY's menu16 string
+    at position COMBO_COUNT."""
+    table = Table(str(TABLE))
+    encoded, _ = wide_values(rom, "battle16", table, source / "battle16.xml")
+    names = {
+        sid - COMBO_FIRST: value
+        for sid, value in zip(id_list(rom, "battle16"), encoded, strict=True)
+        if COMBO_FIRST <= sid < COMBO_FIRST + COMBO_COUNT
+    }
+    menu, _ = wide_values(rom, "menu16", table, source / "menu16.xml")
+    names[COMBO_COUNT] = dict(zip(id_list(rom, "menu16"), menu, strict=True))[COMBO_EMPTY]
     out = {}
-    for sid, value in zip(id_list(rom, "battle16"), encoded, strict=True):
-        if COMBO_FIRST <= sid < COMBO_FIRST + COMBO_COUNT and value[:1] != bytes([END]):
+    for k, value in names.items():
+        if value[:1] != bytes([END]):
             body = value[: value.index(END)]
             if (baked := bake(wrapped(body, COMBO_PX) + bytes([END]), False)) is not None:
-                out[sid - COMBO_FIRST] = baked
+                out[k] = baked
     return out
 
 
@@ -347,7 +358,8 @@ def build(source: Path = ROOT / "text" / "fr", out: Path = ROOT / "build" / "gen
         f"VWF8_KEYS := {len(baked)}",
         f"VWF8_COMBO_FIRST := 0x{COMBO_FIRST:04X}",
         f"VWF8_COMBOS := {COMBO_COUNT}",
-        f"VWF8_RECORDS := {len(baked) + COMBO_COUNT}",
+        f"VWF8_COMBO_EMPTY := 0x{COMBO_EMPTY:04X}",
+        f"VWF8_RECORDS := {len(baked) + COMBO_COUNT + 1}",
     ]
     keys = []
     for n, (address, tiles, cells) in enumerate(baked):
@@ -357,7 +369,7 @@ def build(source: Path = ROOT / "text" / "fr", out: Path = ROOT / "build" / "gen
         )
     asm.append(".alloc vwf8_keys in text16 {\n" + "\n".join(keys) + "\n}")
     rows = []
-    for k in range(COMBO_COUNT):
+    for k in range(COMBO_COUNT + 1):
         if k in combos:
             _record(len(baked) + k, *combos[k], streams, asm, out)
             rows.append(f"    .dl vwf8_record_{len(baked) + k}\n    .db 0")

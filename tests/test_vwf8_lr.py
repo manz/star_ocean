@@ -8,7 +8,18 @@ from katsuji.script import Table
 from tools.encode_menus import TABLE, wide_values
 from tools.import_menus import id_list
 from tools.rom import DEFAULT_ROM, ROOT, Rom
-from tools.vwf8 import COMBO_FIRST, END, LR_FIRST, LR_PX, LR_TALENTS, NO_TALENT, lr_table, width
+from tools.vwf8 import (
+    COMBO_COUNT,
+    COMBO_FIRST,
+    END,
+    LR_FIRST,
+    LR_PX,
+    LR_TALENTS,
+    NO_TALENT,
+    combo_records,
+    lr_table,
+    width,
+)
 
 pytestmark = pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not present")
 
@@ -36,3 +47,9 @@ def test_a_name_maps_exactly_when_it_fits_the_row(table: bytes) -> None:
 def test_ids_outside_the_blocks_are_left_to_the_game(table: bytes) -> None:
     mapped = {first - LR_FIRST + k for first, talents in LR_TALENTS.items() for k in range(len(talents))}
     assert all(b == NO_TALENT for i, b in enumerate(table) if i not in mapped)
+
+
+def test_the_talents_list_empty_row_has_a_record_after_the_moves() -> None:
+    """menu16 "(Vide)" bakes at position COMBO_COUNT, its parentheses drawn by sumi/8 (proportional: fewer tiles)."""
+    tiles, _ = combo_records(Rom(), ROOT / "text" / "fr")[COMBO_COUNT]
+    assert len(tiles) // 16 < len("(Vide)")

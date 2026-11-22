@@ -46,6 +46,7 @@ _NEWLINE := 0xFE
 _END := 0xFF
 _ROW := 0x40
 _COMBO_CELLS := 12  ; a combo slot's row, up to the window's border
+_MENU16_IDS := 0xEA60  ; the Talents list's menu16 rows (CA:5A90)
 
 _record = 0x00  ; long pointer, saved and restored
 _count = 0x04
@@ -108,8 +109,12 @@ _cells = 0x27
     }
 }
 
-; Talents combo slot: `jsr BAFD` (A = special move id, X = shadow address, M16 X16: the battle16 printer).
+; Talents combo slot and list row: `jsr BAFD` (A = special move id, X = shadow address, M16 X16: the battle16
+; printer), or `jsr BB02` for a menu16 id (the list's "(Vide)": the menu16 printer).
 .alloc at 0xCA5A95 size 3 {
+    jsr.w vwf8_cave_combo
+}
+.alloc at 0xCA5A9A size 3 {
     jsr.w vwf8_cave_combo
 }
 
@@ -245,8 +250,8 @@ _name_game:
 
 vwf8_combo:
 """
-A = special move id, X = shadow address (M16 X16): its name over the slot's two rows from the 8x8 VWF, else the
-battle16 printer's.
+A = special move id or VWF8_COMBO_EMPTY, X = shadow address (M16 X16): its name over the slot's two rows from the
+8x8 VWF, else the battle16 printer's (the menu16 printer's for a menu16 id, MENU16_IDS and up).
 """
     php
     rep #0x30
@@ -256,10 +261,16 @@ battle16 printer's.
     pei (_bank)
     pei (_cursor)
     pei (_attribute)
+    cmp.w #VWF8_COMBO_EMPTY
+    bne _combo_move
+    lda.w #VWF8_COMBOS  ; the position after the special moves
+    bra _combo_record
+_combo_move:
     sec
     sbc.w #VWF8_COMBO_FIRST
     cmp.w #VWF8_COMBOS
     bcs _combo_printer
+_combo_record:
     pha
     asl
     asl
@@ -321,7 +332,11 @@ _combo_printer:
     plx
     pla
     plp
+    cmp.w #_MENU16_IDS
+    bcs _combo_menu16
     jml 0xC6F5FA
+_combo_menu16:
+    jml 0xC6F6F9
 
 _draw:
     jsr.w _find
