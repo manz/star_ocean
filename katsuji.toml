@@ -8,9 +8,11 @@ table = "text/so_8x8.tbl"
 output = "build/gen/small_font.dat"
 widths = { "0xFF" = 3 }
 
-# 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes.
+# 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes. sumi/16 draws Œ and œ only wide, on two codes;
+# the overrides keep them on one cell (glyphs from sumi/16 up to katsuji 0.6, as far_fast_of_eden_zero's).
 [fonts.dialog]
 builtin = "sumi/16"
+overrides = "fonts/dialog_overrides.png"
 table = "text/so_fr.tbl"
 output = "build/gen/dialog_font.dat"
 widths = { "0x05" = 4 }
