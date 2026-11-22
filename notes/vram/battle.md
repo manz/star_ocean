@@ -21,6 +21,8 @@
 - Item list: `C8:1050` (from `C1:0006`, fight start) fills `$7E:A353` with each inventory slot's names8 string
   (offset list `D7:0000` from id `0x1388`). A savestate keeps the table of the build it was made on: an older
   names8 layout shows strings cut at the start ("ing" for "Stylo d'étude"). Not a patch bug; refresh the states.
+- Laid out as the field's Bagage (src/battle/items.s): columns 16 cells apart, not 14, the second one's icon, name,
+  `:` and count at cells 18 / 19 / 27 / 28-29; the hand's x follows (`C1:330E`).
 - The list gives a name 8 cells (`C1:2FA7`): the `:` before the count is drawn at cell 9 (`X + 0x12`) and covers what
   ran past. `C0:4154` has no limit of its own. With BATTLE_VWF8 a name takes its inked tiles, not its codes: of 696
   names8 strings from `0x1388`, 22 run past 8 cells, monster names but one ("Épée longue+2", 9); the list stays as is.
