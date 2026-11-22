@@ -191,3 +191,75 @@ def test_the_export_lists_walls_a_flag_opens() -> None:
     assert isinstance(walls, list)
     north = {w["flag"]: w["box"] for w in walls if w["maps"] == [239]}
     assert north == {56: [7, 24, 8, 24], 57: [7, 40, 8, 40]}
+
+
+def test_a_zone_placed_at_two_counter_values_keeps_both() -> None:
+    """Map 203's zone to map 507 is placed when the counter is 93 and when it is 109: a meet of the two paths kept
+    neither."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    zone = {(tuple(e["counter"] or ()), e["to"]) for e in exits if e["maps"] == [203] and e["to"] == 507}
+    assert zone == {((93,), 507), ((109,), 507)}
+
+
+def test_an_arrival_step_takes_the_counter_of_the_exits_into_its_map() -> None:
+    """Map 507's cutscene sets the counter to 111 on arrival; map 203's zone at 109 leads there."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert (109, 111) in {(s["at"], s["to"]) for s in steps if s["maps"] == [507]}
+
+
+def test_exits_split_on_a_test_fold_back() -> None:
+    """Map 79's door, reached through `flag[146]` and through `!flag[146]` on both sides of a counter test."""
+    (e,) = (e for e in scene_graph(3).exits() if e.maps == {79})
+    assert not e.guards
+
+
+def test_a_test_on_a_variable_the_script_set_is_no_guard() -> None:
+    """Map 507's cutscene counts `var[0x40]` to 32 before it sets the counter: the step needs nothing of it."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert all(not s["guards"] for s in steps if s["maps"] == [507])
+
+
+def test_an_exit_carries_the_variables_its_script_set() -> None:
+    """Map 58's west edge sets `var[0x25]` to 0 on its way into 57: 57's east edge then leads back to 58, not 62."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    west = [e for e in exits if e["maps"] == [58] and e["to"] == 57 and e["box"] == [0, 8, 0, 12]]
+    assert [e["sets"] for e in west] == [{"var[0x25]": 0}]
+
+
+def test_an_arrival_step_that_tests_where_the_hero_stands_has_a_landing() -> None:
+    """Map 466 at 129 moves the story when the hero lands at x 184, feet 240: the landing from 463 (23, 32)."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    at = [s for s in steps if s["maps"] == [466] and s["at"] == 129]
+    assert [(s["landing"], s["guards"]) for s in at] == [([23, 32], ["var.w[0x10] == 129"])]
+
+
+def test_a_test_chain_into_one_branch_keeps_either_value() -> None:
+    """Map 471's way back to 469: `== 13` and `== 14` both jump to the (27, 40) landing; the hole sets the column."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    hole = [e for e in exits if e["maps"] == [469] and e["box"] == [13, 19, 14, 19]]
+    back = [e for e in exits if e["maps"] == [471] and (e["x"], e["y"]) == (27, 40)]
+    assert [e["sets"] for e in hole] == [{"var.w[0x3c]": "x"}]
+    assert all("var.w[0x3c] == 13 || var.w[0x3c] == 14" in e["guards"] for e in back)
+
+
+def test_flags_packed_in_a_variable_wall_an_exit() -> None:
+    """Map 469's way north opens when flags 83-89 read 29 (0011101): the exit needs each of them so."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    north = [e for e in exits if e["maps"] == [469] and e["to"] == 470]
+    want = {"83": False, "84": False, "85": True, "86": True, "87": True, "88": False, "89": True}
+    assert [e["flags"] for e in north] == [want]
+
+
+def test_a_step_on_two_flag_results_needs_both_flags() -> None:
+    """Map 84 at 137: `flag_test 93; flag_test 94; if sys.w[0x8] && sys.w[0x9]` moves on to 140, else back to 133."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    on = [s["flags"] for s in steps if s["maps"] == [84] and s["at"] == 137 and s["to"] == 140]
+    assert on == [{"93": True, "94": True}]

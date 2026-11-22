@@ -23,6 +23,7 @@ from tools import (
     menu_font16,
     narration,
     party_names,
+    pen8,
     scene_events,
     title_menu,
     vwf8,
@@ -60,6 +61,7 @@ def build_assets() -> None:
     badge.build(out=GEN)
     yes_no.build(out=GEN)
     vwf8.build(out=GEN)
+    pen8.build(out=GEN)
 
 
 def build(out: Path = BUILD) -> Patch:
