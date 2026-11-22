@@ -30,9 +30,9 @@ _SPACE_PX := 3
 _END := 0xFF
 _PARTY := 0x1548  ; 12 records of 12 bytes: name, nickname
 _PARTY_END := 0x15D8
-_ACTOR_NAMES := 0x748F  ; the fight's party: full names (the command window), $100 apart, 4 actors
-_ACTORS := 0x7497  ; and nicknames (the party window)
-_ACTOR_MASK := 0xFCFF
+_ACTOR_NAMES := 0x708F  ; the actors' full names (field menus, the fight's command window), $100 apart, 8 actors
+_ACTORS := 0x7097  ; and nicknames (the fight's party window)
+_ACTOR_MASK := 0xF8FF
 
 _record = 0x00
 _string = 0x20
