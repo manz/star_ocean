@@ -98,7 +98,7 @@ Attaque/Foudre. Provoque une électrocution.</sn:string>
 <sn:string id="0xFA09">Lésions
 Attaque/Ombre.</sn:string>
 <sn:string id="0xFA0A">Rayons
-Attaque/Lumière. Brûle l'ennemi avec rayon lumineux.</sn:string>
+Attaque/Lumière. Brûle l'ennemi d'un rayon ardent.</sn:string>
 <sn:string id="0xFA0B">Traction
 Attaque/Non élémental. Manipule la gravité, soulève les ennemis et les projette au sol.</sn:string>
 <sn:string id="0xFA0C">Pyros
@@ -116,9 +116,9 @@ Attaque/Lumière.</sn:string>
 <sn:string id="0xFA13">Météores
 Attaque/Lumière.</sn:string>
 <sn:string id="0xFA14">Néant
-Attaque/non élémental. Désintègre l'ennemi.</sn:string>
+Attaque/Non élémental. Désintègre l'ennemi.</sn:string>
 <sn:string id="0xFA15">Gremlins
-Attaque/non élémental. Invoque une horde d'esprits démoniaques affamés.</sn:string>
+Attaque/Non élémental. Invoque une horde d'esprits démoniaques affamés.</sn:string>
 <sn:string id="0xFA16">Astre
 Attaque/Non élémental. Fait tomber une pluie de météores.</sn:string>
 <sn:string id="0xFA17">Macabre
@@ -162,14 +162,14 @@ Ranime un allié inconscient.</sn:string>
 <sn:string id="0xFA2A">Double tranchant
 En deux mouvements : un coup vers le haut, puis un coup rapide vers le bas.</sn:string>
 <sn:string id="0xFA2B">Rafale
-Vague d'attaque à distance.</sn:string>
+Onde de choc à distance.</sn:string>
 <sn:string id="0xFA2C">Contre fente
 Onde de choc autour de vous.</sn:string>
 <sn:string id="0xFA2D">Boutoir mental
 Lance une onde de choc.</sn:string>
 <sn:string id="0xFA2E">Épée éclair
 Attaque élémentale de foudre (1 ennemi).</sn:string>
-<sn:string id="0xFA2F">Épée vermeil
+<sn:string id="0xFA2F">Épée vermeille
 Attaque élémentale de feu (1 ennemi).</sn:string>
 <sn:string id="0xFA30">Épée flash
 Attaque l'ennemi avec des éclairs lumineux.</sn:string>
@@ -204,11 +204,11 @@ Boutoir mental, ohgi des 4 bêtes sacrées.</sn:string>
 <sn:string id="0xFA41">Tigre blanc
 Contre fente, ohgi des 4 bêtes sacrées.</sn:string>
 <sn:string id="0xFA42">Vermeil 7 étoiles
-Épée vermeil, ohgi de la Grande Ourse.</sn:string>
+Épée vermeille, ohgi de la Grande Ourse.</sn:string>
 <sn:string id="0xFA43">Épée du corbeau
-Épée volante. Dotée d'une volonté propre.</sn:string>
+Épée volante, lancée et guidée à volonté.</sn:string>
 <sn:string id="0xFA44">Lame dansante
-Attire la cible et l'achève.</sn:string>
+Attire la cible et la frappe vers le haut.</sn:string>
 <sn:string id="0xFA45">3 volées
 Lance trois épées successivement.</sn:string>
 <sn:string id="0xFA46">3 directions
@@ -217,7 +217,7 @@ Lance trois épées dans trois directions.</sn:string>
 Lame ayant la force de l'eau.</sn:string>
 <sn:string id="0xFA51">Souffle divin
 Lame ayant la force des astres.</sn:string>
-<sn:string id="0xFA52">Jet Sylvanien
+<sn:string id="0xFA52">Jet sylvanien
 3 directions, ohgi de Hachiman.</sn:string>
 <sn:string id="0xFA53">Terreur impie
 Souffle divin, ohgi de Hachiman.</sn:string>
@@ -230,13 +230,13 @@ Coup de poing puissant vers le bas.</sn:string>
 <sn:string id="0xFA57">Poing psychique
 L'énergie psychique est accumulée puis libérée par salves.</sn:string>
 <sn:string id="0xFA58">Pied Qigong
-L'énergie psychique est utilisée pour donner de violents coups de pieds.</sn:string>
+L'énergie psychique est utilisée pour donner de violents coups de pied.</sn:string>
 <sn:string id="0xFA59"></sn:string>
 <sn:string id="0xFA5A"></sn:string>
 <sn:string id="0xFA5B">Tonnerre azur
 Paume Qigong, ohgi des 4 bêtes sacrées.</sn:string>
 <sn:string id="0xFA5C">Poing tortue
-Coup de pied Qigong, ohgi des 4 bêtes sacrées.</sn:string>
+Pied Qigong, ohgi des 4 bêtes sacrées.</sn:string>
 <sn:string id="0xFA5D">Tigre rugissant
 Poing psychique, ohgi des 4 bêtes sacrées.</sn:string>
 <sn:string id="0xFA5E">Envol vermillon
@@ -246,7 +246,7 @@ Technique née de l'ohgi du Baguazhang.</sn:string>
 <sn:string id="0xFA60">Cerisier inversé
 Coup du cerisier, ohgi du cerisier inversé.</sn:string>
 <sn:string id="0xFA61">Orbe du corbeau
-Orbe flottante. L'orbe de cristal flotte librement, telle le corbeau.</sn:string>
+Orbe flottante. L'orbe de cristal flotte librement, tel un corbeau.</sn:string>
 <sn:string id="0xFA62">Orbe ardente
 Orbe de cristal couverte de flammes (1 ennemi).</sn:string>
 <sn:string id="0xFA63">Orbe de grêle
@@ -257,7 +257,7 @@ Orbe de cristal couverte de foudre (1 ennemi).</sn:string>
 Empêche l'ennemi d'attaquer.</sn:string>
 <sn:string id="0xFA66">Cristal-sceau
 Empêche l'ennemi de se déplacer.</sn:string>
-<sn:string id="0xFA67">Croix du sud
+<sn:string id="0xFA67">Croix du Sud
 Attaque avec la puissance de la Croix du Sud.</sn:string>
 <sn:string id="0xFA68">Grande Ourse
 Attaque avec la puissance de la Grande Ourse.</sn:string>
@@ -275,11 +275,11 @@ Des copycats apparaissent et frappent ensemble : les sœurs minettes.</sn:string
 Bombe explosant au-dessus d'une vaste zone.</sn:string>
 <sn:string id="0xFA6F">Coup de talon♪
 Frappe avec le talon vers le bas.</sn:string>
-<sn:string id="0xFA70">Une ! Deux !♪
+<sn:string id="0xFA70">Un ! Deux ! Trois !♪
 Combinaison de trois coups.</sn:string>
 <sn:string id="0xFA71">Combo salto♪
-Coup de poing en sautant, puis coup de poing, et enfin une galipette explosive.</sn:string>
-<sn:string id="0xFA72">Danse Panique
+Coup de poing en sautant, puis accroupi, et enfin une galipette (mdr).</sn:string>
+<sn:string id="0xFA72">Danse panique
 Danse hispanique perturbant qui la regarde.</sn:string>
 <sn:string id="0xFA73">Pose charmeuse
 Une pose aguicheuse. Qui ne lui pardonnerait pas, en la voyant ainsi ?</sn:string>
@@ -302,11 +302,11 @@ Technique en quatre temps, où votre bâton déclenche une bourrasque.</sn:strin
 Lance de l'air glacial.</sn:string>
 <sn:string id="0xFA7D">Réservé.</sn:string>
 <sn:string id="0xFA7E">Tranche miroir
-Une attaque unique, assez acérée pour trancher le reflet de la lune dans l'eau.</sn:string>
+Un coup assez acéré pour trancher le reflet de la lune dans l'eau.</sn:string>
 <sn:string id="0xFA7F">Réservé.</sn:string>
 <sn:string id="0xFA80">Danse 7 étoiles
 Ohgi du Baguazhang, ohgi de la Grande Ourse.</sn:string>
-<sn:string id="0xFA81">Cristal de la Mort
+<sn:string id="0xFA81">Cristal de la mort
 Attaque avec la puissance de la mort.</sn:string>
 <sn:string id="0xFB2C"></sn:string>
 <sn:string id="0xFB2D">Obtenu 50 PS en bonus.</sn:string>

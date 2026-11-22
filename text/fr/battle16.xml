@@ -607,7 +607,7 @@
 <sn:string id="0x273C">Contre fente</sn:string>
 <sn:string id="0x273D">Boutoir mental</sn:string>
 <sn:string id="0x273E">Épée éclair</sn:string>
-<sn:string id="0x273F">Épée vermeil</sn:string>
+<sn:string id="0x273F">Épée vermeille</sn:string>
 <sn:string id="0x2740">Épée flash</sn:string>
 <sn:string id="0x2741">Dragon de foudre</sn:string>
 <sn:string id="0x2742">Envol vermillon</sn:string>
@@ -630,7 +630,7 @@
 <sn:string id="0x2756">3 directions</sn:string>
 <sn:string id="0x2760">Jet d'eau</sn:string>
 <sn:string id="0x2761">Souffle divin</sn:string>
-<sn:string id="0x2762">Jet Sylvanien</sn:string>
+<sn:string id="0x2762">Jet sylvanien</sn:string>
 <sn:string id="0x2763">Terreur impie</sn:string>
 <sn:string id="0x2764">Terreur victorieuse</sn:string>
 <sn:string id="0x2765">Paume Qigong</sn:string>
@@ -649,7 +649,7 @@
 <sn:string id="0x2774">Orbe de foudre</sn:string>
 <sn:string id="0x2775">Arche de cristal</sn:string>
 <sn:string id="0x2776">Cristal-sceau</sn:string>
-<sn:string id="0x2777">Croix du sud</sn:string>
+<sn:string id="0x2777">Croix du Sud</sn:string>
 <sn:string id="0x2778">Grande Ourse</sn:string>
 <sn:string id="0x2779">Galaxie</sn:string>
 <sn:string id="0x277A">Danse brillante</sn:string>
@@ -658,9 +658,9 @@
 <sn:string id="0x277D">Multipoing</sn:string>
 <sn:string id="0x277E">Missile éclaté</sn:string>
 <sn:string id="0x277F">Coup de talon♪</sn:string>
-<sn:string id="0x2780">Une ! Deux !♪</sn:string>
+<sn:string id="0x2780">Un ! Deux ! Trois !♪</sn:string>
 <sn:string id="0x2781">Combo salto♪</sn:string>
-<sn:string id="0x2782">Danse Panique</sn:string>
+<sn:string id="0x2782">Danse panique</sn:string>
 <sn:string id="0x2783">Pose charmeuse</sn:string>
 <sn:string id="0x2784">Combo de rêve</sn:string>
 <sn:string id="0x2785">Regarde le ciel♪</sn:string>
@@ -672,5 +672,5 @@
 <sn:string id="0x278C">Bâton frimas</sn:string>
 <sn:string id="0x278E">Tranche miroir</sn:string>
 <sn:string id="0x2790">Danse 7 étoiles</sn:string>
-<sn:string id="0x2791">Cristal de la Mort</sn:string>
+<sn:string id="0x2791">Cristal de la mort</sn:string>
 </sn:strings>
