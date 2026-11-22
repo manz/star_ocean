@@ -141,3 +141,12 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
 .alloc at 0xC156D4 size 2 {  ; 0x5EE bottom: names
     .dw 0x5EC
 }
+
+; The bottom copy drew PV and max PV with 3 digits (`lda #3` before `C0:4501`), the top one with 4:
+; 6746 showed as 746.
+.alloc at 0xC15599 size 2 {  ; 3 PV digits
+    .dw 4
+}
+.alloc at 0xC155B2 size 2 {  ; 3 max PV digits
+    .dw 4
+}

@@ -16,8 +16,8 @@
   the party member (name, PV, PM), the L/R special moves. The patch makes them 11 / 11 / 12 wide at cells 0 / 10 / 20
   (were 12 / 11 / 11 at 0 / 11 / 21): a special move's name gets 9 cells (22-30). `C1:521B` frames the full-width
   party window (4 members, PV / PM rows from `C1:5402` / `C1:5842`), untouched.
-- The bottom copy of the party member window (`C1:5557`) put the name and PV one cell right of the top's; the patch
-  draws it at the top's cells.
+- The bottom copy of the party member window (`C1:5557`) put the name and PV one cell right of the top's and drew PV
+  with 3 digits: 6746 showed as 746. The patch draws it as the top one.
 
 ## Writers (fixed font into the shadows)
 
