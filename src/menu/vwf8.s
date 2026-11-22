@@ -11,7 +11,7 @@ three tilemap shadows ($7E:3100/3900/4100) are scanned once per frame for the ti
 a ring drained after the game's own (`CA:6CD1`), BUDGET bytes per frame.
 
 In battle (src/battle/vwf8.s) the same records draw into BG3 (CHR $4000): pool tiles 0D9-113 as in the menus and
-13C-1FF in place of 300-3EF, the pool's tail past them never taken. `vwf8.battle` picks the battle tiles, the two
+14C-1FF in place of 300-3EF, the pool's tail past them never taken. `vwf8.battle` picks the battle tiles, the two
 battle shadows ($7E:5100 / $5900, written together) and the battle drain (`vwf8_drain_battle`, in the line-216 IRQ).
 
 The Talents combo slots print their special moves' battle16 names with the 16x16 VWF over two rows (`CA:5A95`);
@@ -34,7 +34,7 @@ _BUDGET := 0x0800
 _SHADOWS := 0x7E3100  ; three 0x800-byte maps
 _SHADOW_BYTES := 0x1800
 _CHR := 0x2000
-_BATTLE_HIGH_FIRST := 0x13C
+_BATTLE_HIGH_FIRST := 0x14C  ; past the 16x16 help line: 2 tiles a column from 114, up to 28 columns
 _BATTLE_POOL_TILES := _LOW_TILES + 0x1FF - _BATTLE_HIGH_FIRST + 1
 _BATTLE_SHADOWS := 0x7E5100  ; two 0x800-byte maps, the same tiles
 _BATTLE_SHADOW_BYTES := 0x1000

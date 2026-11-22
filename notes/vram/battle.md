@@ -5,7 +5,8 @@
 - BG3 tiles `280+` are the BG1-3 maps: the text CHR window is tiles `000-27F`.
 - Tiles the map reads in a fight (3 states x 3 seeds, random presses until the fight ends): `000-0BF` (menu font,
   borders `B4-BF`) and `114-13B` (16x16 message, uploaded by `C0:0188`). Blanking `C0-113` or `13C-27F` changes no
-  frame while `$02C2` bit 0 is set.
+  frame while `$02C2` bit 0 is set. Those runs never showed a long help line: the item list's ("Restaure les PV des
+  alliés proches") goes to `13F`, and the line's 28 columns (2 tiles each from `114`) can reach `14B`.
 - `C0-EF` hold field leftovers ("Attaque / Esquive / Défense", window pieces), never drawn in a fight. `200-27F`
   is filled by `C6:0B5D...` after the fight.
 
@@ -27,7 +28,7 @@
 ## 8x8 VWF in battle (BATTLE_VWF8, src/battle/vwf8.s)
 
 - `C0:3FA3` (names8 by id) and `C0:4154` (string at A:Y) draw strings that have a vwf8 record from the shared pool:
-  tiles `0D9-113` and `13C-1FF` of BG3 CHR `$4000`, written into both shadows. Party nicknames (`$7E:7497`, $100
+  tiles `0D9-113` and `14C-1FF` of BG3 CHR `$4000`, written into both shadows. Party nicknames (`$7E:7497`, $100
   apart) come from the runtime pen (notes/vram/pen8.md); numbers stay on the fixed font.
 - The fight start (`C1:0006`) opens the battle pool, its end (`C0:20F7`) the menus' again; a string drawn first in
   a savestate taken mid-fight opens it too.
