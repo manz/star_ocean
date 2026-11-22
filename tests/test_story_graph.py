@@ -246,3 +246,12 @@ def test_a_test_chain_into_one_branch_keeps_either_value() -> None:
     back = [e for e in exits if e["maps"] == [471] and (e["x"], e["y"]) == (27, 40)]
     assert [e["sets"] for e in hole] == [{"var.w[0x3c]": "x"}]
     assert all("var.w[0x3c] == 13 || var.w[0x3c] == 14" in e["guards"] for e in back)
+
+
+def test_flags_packed_in_a_variable_wall_an_exit() -> None:
+    """Map 469's way north opens when flags 83-89 read 29 (0011101): the exit needs each of them so."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    north = [e for e in exits if e["maps"] == [469] and e["to"] == 470]
+    want = {"83": False, "84": False, "85": True, "86": True, "87": True, "88": False, "89": True}
+    assert [e["flags"] for e in north] == [want]

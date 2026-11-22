@@ -296,6 +296,8 @@ class _Walker:
         self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
         self.setup = setup
+        self.packed = frozenset(var for var, _, _ in _packed(data))  # flags packed in a variable: its tests are on
+        # those flags, not the script's own
         self.fills = {pos: (var, axis) for pos, var, axis in _hero_fills(data)}  # the writes of
         # the hero's place, by position: tests on them are where the hero landed, not the script's own
 
@@ -394,7 +396,7 @@ class _Walker:
                 (p.at(to), guards | {Guard(condition, holds, place=True)})
                 for to, holds in ((then, True), (other, False))
             ]
-        if read & p.written:
+        if (read - self.packed) & p.written:
             return [(p.at(then), guards), (p.at(other), guards)]
         values = _story_values(condition)
         if values is None:
@@ -496,6 +498,7 @@ class SceneGraph:
     arrivals: frozenset[Op]  # effects the setup runs itself, on arrival
     effects: dict[tuple[int, int], frozenset[Op]]  # by entry (kind, id), walked on the maps its placements cover
     hero: tuple[tuple[str, int], ...] = ()  # variables the script fills with the hero's x (0) or y (1): _hero_vars
+    packed: tuple[tuple[str, int, int], ...] = ()  # (variable, first flag, count): _packed
 
     def actions(self) -> set[Action]:
         return set(_actions(self.scene))
@@ -762,7 +765,7 @@ def scene_graph(scene: int) -> SceneGraph:
             effects[key] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[key], on))
     if USE in addresses:
         effects[USE] = frozenset(_Walker(scene, data, EFFECTS).run(addresses[USE], maps))
-    return SceneGraph(scene, placements, arrivals, effects, _hero_vars(data))
+    return SceneGraph(scene, placements, arrivals, effects, _hero_vars(data), tuple(_packed(data)))
 
 
 AXES = ("x", "y")
@@ -787,19 +790,25 @@ def _equals(c: Condition) -> tuple[str, list[Term]] | None:
 
 
 def _either(first: frozenset[Guard], then: frozenset[Guard]) -> Guard | None:
-    """`first` is {v == a}, `then` is {!(v == a), v == b}: the guard v == a || v == b."""
-    if len(first) != 1 or len(then) != 2:
+    """`first` is {v == a}, `then` is {v == b}, maybe with !(v == a) for each a: the guard v == a || v == b (the
+    values of both, `a` itself a list of them once one meet made it)."""
+    if len(first) != 1:
         return None
     (a,) = first
     took = _equals(a.condition) if a.holds and a.flag is None and not a.place else None
-    if took is None or Guard(a.condition, False) not in then:
+    if took is None:
         return None
-    (b,) = then - {Guard(a.condition, False)}
+    var, terms = took
+    nots = {Guard(Condition((t,), ()), False) for t in terms} | {Guard(a.condition, False)}
+    rest = then - nots
+    if len(rest) != 1:
+        return None
+    (b,) = rest
     other = _equals(b.condition) if b.holds and b.flag is None and not b.place else None
-    if other is None or other[0] != took[0]:
+    if other is None or other[0] != var:
         return None
-    terms = (*took[1], *other[1])
-    return Guard(Condition(terms, (0,) * (len(terms) - 1)), True)
+    union = list(terms) + [t for t in other[1] if t not in terms]
+    return Guard(Condition(tuple(union), (0,) * (len(union) - 1)), True)
 
 
 def _celled(p: _Point, ins: Instruction) -> tuple[str, Set] | None:
@@ -814,6 +823,30 @@ def _celled(p: _Point, ins: Instruction) -> tuple[str, Set] | None:
     if STORES[(dest.flags >> 3) & 7] != "/=" or value.n != 16:
         return None
     return str(dest), px[str(dest)].removesuffix("px")
+
+
+COMPARE_LT = 2  # scene_script.COMPARE
+PACK = ("set", "set", "set", "set", "flag_test", "store_result", "set", "set", "inc", "inc", "if")
+
+
+def _packed(data: bytes) -> list[tuple[str, int, int]]:
+    """Story flags packed in a variable, first one highest: `m = 0; f = 83; c = 0; do { m *= 2; m |= flag[f]; f++;
+    c++ } while (c < 7)` (map 469's door opens when flags 83-89 read 29). (variable, first flag, count)."""
+    code = walk(data).code
+    ins = [code[k] for k in sorted(code)]
+    out = []
+    for i in range(len(ins) - len(PACK) + 1):
+        w = ins[i : i + len(PACK)]
+        if tuple(x.name for x in w) != PACK:
+            continue
+        (m, _), (f, first), cond = w[0].args, w[1].args, w[10].args[2]
+        value = first.tokens[0] if isinstance(first, Expression) and len(first.tokens) == 1 else first
+        if not (isinstance(m, Value) and isinstance(f, Value) and isinstance(value, Value)) or w[4].args[0] != f:
+            continue
+        if not isinstance(cond, Condition) or len(cond.terms) != 1 or cond.terms[0].compare != COMPARE_LT:
+            continue
+        out.append((str(m), value.n, cond.terms[0].values[1].n))
+    return out
 
 
 def _hero_vars(data: bytes) -> tuple[tuple[str, int], ...]:
@@ -910,6 +943,17 @@ def walled(g: SceneGraph, e: Exit) -> frozenset[Guard]:
     return frozenset(out)
 
 
+def _with_packed(flags: dict[str, bool] | None, g: SceneGraph, e: Exit) -> dict[str, bool] | None:
+    """The exit's flags and those a packed-flags wall over its box needs (map 469's way north: flags 83-89)."""
+    if flags is None or e.box is None or not all(isinstance(v, int) for v in e.box):
+        return flags
+    for w in _packed_walls(g):
+        box, maps = w["box"], w["maps"]
+        if isinstance(maps, list) and set(maps) & e.maps and isinstance(box, list) and _covers(tuple(box), e.box):
+            flags = {**flags, str(w["flag"]): bool(w["on"])}
+    return flags
+
+
 def walls(g: SceneGraph) -> list[dict[str, object]]:
     """The cells a map's setup opens under a story flag (`tile_attr_fill ..., 0` past `flag_test`): map 239's ways
     north, shut until the switches on 242 and 243. `flag` / `on`: the state that opens them."""
@@ -921,6 +965,27 @@ def walls(g: SceneGraph) -> list[dict[str, object]]:
         needs = [f for f in a.guards if f.flag is not None]
         if len(needs) == 1 and all(isinstance(v, int) for v in cells):
             out.append({"maps": sorted(a.maps), "box": list(cells), "flag": needs[0].flag, "on": needs[0].flag_on()})
+    return out + _packed_walls(g)
+
+
+def _packed_walls(g: SceneGraph) -> list[dict[str, object]]:
+    """The cells a setup walls unless flags packed in a variable read one value (map 469's way north: `if m == 29`
+    opens it, else `tile_attr_fill 18, 5, 19, 5, 64`): one wall a flag, all of them to open it."""
+    out = []
+    packs = {var: (first, n) for var, first, n in g.packed}
+    for a in g.actions():
+        if a.trigger != ARRIVE or a.name not in WALL_OPS or a.args[-1] != WALL or len(a.args) != 5:
+            continue
+        for guard in a.guards:
+            terms = guard.condition.terms
+            if guard.holds or len(terms) != 1 or terms[0].compare != 0 or str(terms[0].values[0]) not in packs:
+                continue
+            first, n = packs[str(terms[0].values[0])]
+            k = terms[0].values[1].n
+            out += [
+                {"maps": sorted(a.maps), "box": list(a.args[:4]), "flag": first + i, "on": bool(k >> (n - 1 - i) & 1)}
+                for i in range(n)
+            ]
     return out
 
 
@@ -1033,7 +1098,7 @@ def export() -> dict[str, object]:
             "y": e.y,
             "facing": e.facing,
             "counter": _counter(e.guards),
-            "flags": _flags(e.guards | walled(g, e)),
+            "flags": _with_packed(_flags(e.guards | walled(g, e)), g, e),
             "guards": sorted(map(str, e.guards)),
             "sets": {var: value for var, value in sorted(e.sets) if value not in ("xpx", "ypx")},
         }
