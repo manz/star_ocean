@@ -160,3 +160,11 @@ def test_the_export_lists_what_sets_each_flag() -> None:
     assert isinstance(flags, list)
     ones = [(f["scene"], f["maps"], f["on"], f["counter"]) for f in flags if f["flag"] == 1]
     assert ones == [(72, [14], True, [41])]
+
+
+def test_an_unguarded_sibling_exit_gets_the_complement() -> None:
+    """Map 179's south edge: to 192 unless the hero came from 174 or 180, to 180 when it did."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    south = {e["to"]: e["guards"] for e in exits if e["maps"] == [179] and e["box"] == [1, 31, 14, 31]}
+    assert south[180] == ["var.w[0x23] == 174 || var.w[0x23] == 180"]
