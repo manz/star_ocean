@@ -296,7 +296,7 @@ class _Walker:
         self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
         self.setup = setup
-        self.packed = frozenset(var for var, _, _ in _packed(data))  # flags packed in a variable: its tests are on
+        self.packed = frozenset(var for var, _, _ in _packed(data)) if setup else frozenset()  # flags packed in a variable: its tests are on
         # those flags, not the script's own
         self.fills = {pos: (var, axis) for pos, var, axis in _hero_fills(data)}  # the writes of
         # the hero's place, by position: tests on them are where the hero landed, not the script's own
