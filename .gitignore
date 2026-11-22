@@ -7,3 +7,4 @@ __pycache__/
 extracted/
 so.kintsuki/map.bin
 !tests/states/*.kss
+tests/goldens/*.actual.png
