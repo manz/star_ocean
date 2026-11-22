@@ -220,3 +220,11 @@ def test_a_test_on_a_variable_the_script_set_is_no_guard() -> None:
     steps = export()["steps"]
     assert isinstance(steps, list)
     assert all(not s["guards"] for s in steps if s["maps"] == [507])
+
+
+def test_an_exit_carries_the_variables_its_script_set() -> None:
+    """Map 58's west edge sets `var[0x25]` to 0 on its way into 57: 57's east edge then leads back to 58, not 62."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    west = [e for e in exits if e["maps"] == [58] and e["to"] == 57 and e["box"] == [0, 8, 0, 12]]
+    assert [e["sets"] for e in west] == [{"var[0x25]": 0}]

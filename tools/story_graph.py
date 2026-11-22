@@ -106,6 +106,7 @@ class Op:
     args: tuple[Arg, ...]
     guards: frozenset[Guard]  # what must hold: the conditions every path to it took
     zone: tuple[int, int, int, int] | None = None  # the hero's box an `actor_in_box` before it checked (16 px cells)
+    sets: frozenset[tuple[str, int]] = frozenset()  # a map change's: the variables set before it (_Point.sets)
 
 
 @dataclass(frozen=True)
@@ -120,6 +121,7 @@ class Exit:
     facing: Arg | None  # map_change_continue has none
     guards: frozenset[Guard]  # the trigger's and the entry's
     actor: int | None = None  # talking to this actor takes the hero there (the boat to Astral)
+    sets: frozenset[tuple[str, int]] = frozenset()  # the variables the script set on its way out
 
 
 @dataclass(frozen=True)
@@ -143,6 +145,7 @@ class Action:
     name: str
     args: tuple[Arg, ...]
     guards: frozenset[Guard]
+    sets: frozenset[tuple[str, int]] = frozenset()  # a map change's (Op.sets)
 
 
 @dataclass(frozen=True)
@@ -202,8 +205,11 @@ class _Point:
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
     # it apart stay apart: map 203's zone is placed at 93 and at 109, a meet would keep neither
-    written: frozenset[str] = field(default=frozenset(), compare=False)  # variables the path set: a test on one is
-    # the script's own (map 507's `var[0x40]` loop), not something the story needs first
+    sets: frozenset[tuple[str, int]] = field(default=frozenset(), compare=False)  # the variables every path here
+    # set to a number and kept: what a map change takes along (map 57's east edge leads to 62 or 58 by `var[0x25]`,
+    # which the exit into 57 sets). Paths that meet keep the sets they agree on
+    written: frozenset[str] = field(default=frozenset(), compare=False)  # variables every path here set: a test on
+    # one is the script's own (map 507's `var[0x40]` loop), not something the story needs first
 
     def at(self, pos: int, maps: frozenset[int] | None = None, returns: tuple[int, ...] | None = None) -> _Point:
         """The path moved on: the test result stays only right after its `flag_test`."""
@@ -281,6 +287,7 @@ class _Walker:
         self.scene, self.data, self.keep = scene, data, keep
         self.base = header(data).length
         self.guards: dict[_Point, frozenset[Guard]] = {}
+        self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
 
     def run(self, pos: int, maps: frozenset[int]) -> set[Op]:
@@ -296,7 +303,7 @@ class _Walker:
         if any(_is_box_test(instruction(self.data, point.pos, self.base)) for point in self.guards):
             tracked |= frozenset(BOX_VARS)
         if tracked:  # again, keeping what those variables hold
-            self.guards, self.tracked = {}, tracked
+            self.guards, self.sets, self.tracked = {}, {}, tracked
             self._flow(pos, maps)
         return self._found()
 
@@ -308,10 +315,13 @@ class _Walker:
                 continue
             old = self.guards.get(point)
             if old is not None:
-                if old <= guards:
+                was = self.sets[point]
+                met = replace(point, sets=was.sets & point.sets, written=was.written & point.written)
+                if old <= guards and (met.sets, met.written) == (was.sets, was.written):
                     continue
-                guards = old & guards
+                guards, point = old & guards, met
             self.guards[point] = guards
+            self.sets[point] = point
             todo += self._step(point, guards)
 
     def _found(self) -> set[Op]:
@@ -322,7 +332,8 @@ class _Walker:
                 args = _args(ins)
                 if ins.name in FLAG_OPS and (n := point.flag(ins.args[0])) is not None:
                     args = (n,)
-                found.add(Op(self.scene, point.maps, ins.name, args, guards, point.zone))
+                sets = self.sets[point].sets if ins.name in ("map_change", "map_change_continue") else frozenset()
+                found.add(Op(self.scene, point.maps, ins.name, args, guards, point.zone, sets))
         return found
 
     def _step(self, p: _Point, guards: frozenset[Guard]) -> list[tuple[_Point, frozenset[Guard]]]:
@@ -394,7 +405,13 @@ def _wrote(p: _Point, ins: Instruction) -> _Point:
     dest = ins.args[0] if ins.name in WRITES and ins.args else None
     if not isinstance(dest, Value) or dest.table != "var" or str(dest) == STORY:
         return p
-    return replace(p, written=p.written | {str(dest)})
+    name = str(dest)
+    kept = frozenset(kv for kv in p.sets if kv[0] != name)
+    operand = ins.args[1] if ins.name == "set" else None
+    value = operand.tokens[0] if isinstance(operand, Expression) and len(operand.tokens) == 1 else operand
+    if isinstance(value, Value) and value.table in ("imm", "byte") and STORES[(dest.flags >> 3) & 7] == "=":
+        kept |= {(name, value.n)}
+    return replace(p, written=p.written | {name}, sets=kept)
 
 
 def _reads(c: Condition) -> frozenset[str]:
@@ -458,14 +475,14 @@ class SceneGraph:
         return set(_actions(self.scene))
 
     def _placed(self) -> set[Action]:
-        out = {Action(self.scene, a.maps, ARRIVE, a.name, a.args, a.guards) for a in self.arrivals}
+        out = {Action(self.scene, a.maps, ARRIVE, a.name, a.args, a.guards, a.sets) for a in self.arrivals}
         for p in self.placements:
             trigger, entry = _trigger(p)
             if trigger is None:
                 continue
             for e in self.effects.get(entry, frozenset()):
                 if e.maps & p.maps:
-                    out.add(Action(self.scene, e.maps & p.maps, trigger, e.name, e.args, p.guards | e.guards))
+                    out.add(Action(self.scene, e.maps & p.maps, trigger, e.name, e.args, p.guards | e.guards, e.sets))
         return _resolved(out | self._uses(out))
 
     def _uses(self, placed: set[Action]) -> set[Action]:
@@ -476,10 +493,12 @@ class SceneGraph:
             item = _item(e.guards)
             if item is None:
                 if e.zone is not None and e.name in ("flag_on", "flag_off"):  # a switch: A in its box (map 234's)
-                    out.add(Action(self.scene, e.maps, Trigger("use", box=e.zone), e.name, e.args, e.guards))
+                    out.add(Action(self.scene, e.maps, Trigger("use", box=e.zone), e.name, e.args, e.guards, e.sets))
                 continue
             for box in _where(e, placed):
-                out.add(Action(self.scene, e.maps, Trigger("use", box=box, item=item), e.name, e.args, e.guards))
+                out.add(
+                    Action(self.scene, e.maps, Trigger("use", box=box, item=item), e.name, e.args, e.guards, e.sets)
+                )
         return out
 
     def exits(self) -> set[Exit]:
@@ -496,7 +515,9 @@ class SceneGraph:
             if a.name in ("map_change", "map_change_continue") and a.trigger.kind == kind:
                 to, how, x, y = a.args[:4]
                 facing = a.args[4] if a.name == "map_change" else None
-                out.add(Exit(self.scene, a.maps, a.trigger.box, to, how, x, y, facing, a.guards, a.trigger.actor))
+                out.add(
+                    Exit(self.scene, a.maps, a.trigger.box, to, how, x, y, facing, a.guards, a.trigger.actor, a.sets)
+                )
         return out
 
     def steps(self) -> set[Step]:
@@ -884,6 +905,7 @@ def export() -> dict[str, object]:
             "counter": _counter(e.guards),
             "flags": _flags(e.guards | walled(g, e)),
             "guards": sorted(map(str, e.guards)),
+            "sets": dict(sorted(e.sets)),
         }
         for g in gs
         for e in g.exits() | g.talk_exits()
