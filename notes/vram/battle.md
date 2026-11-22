@@ -42,6 +42,11 @@
 - `C0:3FA3` (names8 by id) and `C0:4154` (string at A:Y) draw strings that have a vwf8 record from the shared pool:
   tiles `0D9-113` and `14C-1FF` of BG3 CHR `$4000`, written into both shadows. Party nicknames (`$7E:7497`, $100
   apart) come from the runtime pen (notes/vram/pen8.md); numbers stay on the fixed font.
+- The L/R window's names are names8 ids `0x0BB8 + character * 0x20 + slot` (`C1:56E3`), short forms of each
+  character's special moves. `battle_vwf8_name` draws the move's battle16 record (the field Talents combo slot's,
+  `vwf8_combos`) instead when it fits the 10-cell row (`vwf8_lr`, tools/vwf8.py LR_TALENTS: matched on the Japanese
+  kana); longer names keep the names8 string. The French names8 block of character 4 did not follow the Japanese
+  order (entry 0 was "Pd.Qigong" for 気功掌).
 - The fight start (`C1:0006`) opens the battle pool, its end (`C0:20F7`) the menus' again; a string drawn first in
   a savestate taken mid-fight opens it too.
 - Uploads: the line-216 IRQ's DMA list end (`C0:0188`, its V-blank wait) runs the S-DD1 streams on channel 1 with
