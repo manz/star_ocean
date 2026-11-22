@@ -10,6 +10,7 @@ CEL_DMA_ANYTIME = 1  # src/engine/cel_dma.s: no H-blank wait before cel DMAs; ma
 AUDIO_DEFERRED = 1  # src/engine/audio_defer.s: battle audio sent from the main loop's wait, not the IRQ
 NAME_INDEX = 1  # src/engine/name_index.s: names found by id through a run table, not a scan
 BATTLE_VWF8 = 1  # src/battle/vwf8.s: battle names from the menus' 8x8 VWF records (notes/vram/battle.md)
+VWF8_PEN = 1  # src/menu/pen8.s: party names and nicknames from RAM drawn with sumi/8, cached in SRAM
 
 # ROM pages 6-7 (physical 0x600000-0x7FFFFF) have no fixed bus address: code reads them through the E window
 # with $4806 set to 6 or 7. The patch addresses them as pseudo-banks $40-$5F (sram_text.s translates).

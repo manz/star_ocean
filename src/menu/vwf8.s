@@ -20,7 +20,7 @@ The Talents combo slots print their special moves' battle16 names with the 16x16
 
 .import "core/preamble"
 .import "menu/text16"
-.import "@std/snes/sdd1"
+.import "menu/pen8"
 
 .include "vwf8.i"
 
@@ -29,7 +29,7 @@ _LOW_TILES := 0x113 - _LOW_FIRST + 1
 _HIGH_FIRST := 0x300
 _POOL_TILES := _LOW_TILES + 0x3EF - _HIGH_FIRST + 1
 _QUEUE_SLOTS := 64  ; a power of 2
-_SLOT := 8  ; stream (3), bytes (2), VRAM word (2), 0
+_SLOT := 8  ; stream (3), bytes (2), VRAM word (2), 1: raw tiles (pen8)
 _BUDGET := 0x0800
 _SHADOWS := 0x7E3100  ; three 0x800-byte maps
 _SHADOW_BYTES := 0x1800
@@ -73,7 +73,7 @@ _cells = 0x27
     byte[_QUEUE_SLOTS * _SLOT] queue
     byte[_POOL_TILES] used  ; 1: shown, or taken since the last scan
     word[_POOL_TILES] owner  ; id + 1 of the record whose tiles these are
-    word[VWF8_RECORDS] home  ; first pool index + 1, 0: not uploaded
+    word[VWF8_RECORDS + PEN8_SLOTS] home  ; first pool index + 1, 0: not uploaded; past the baked: pen8's slots
 }
 
 .reserve vwf8 as Vwf8 in sram
@@ -343,6 +343,30 @@ _hit:
     rts
 _absent:
     sep #0x20
+    .if VWF8_PEN {
+        jsl pen8_find
+        bcc _unknown
+        rep #0x20
+        lda.l pen8.slot
+        and.w #0x00FF
+        clc
+        adc.w #VWF8_RECORDS
+        sta.l vwf8.id
+        sep #0x20
+        lda.l pen8.fresh
+        beq _drawn
+        rep #0x20
+        lda.l vwf8.id
+        asl
+        tax
+        lda.w #0
+        sta.l vwf8.home, x  ; new tiles in the slot: upload them
+        sep #0x20
+_drawn:
+        sec
+        rts
+_unknown:
+    }
     clc
     rts
 
@@ -633,7 +657,12 @@ _chr:
     clc
     adc.l vwf8.middle
     sta.l vwf8.queue + 5, x
+    lda.l vwf8.id
+    cmp.w #VWF8_RECORDS
     sep #0x20
+    lda.b #0
+    rol
+    sta.l vwf8.queue + 7, x
     lda.l vwf8.queued
     inc
     sta.l vwf8.queued
@@ -727,7 +756,7 @@ _open:
     rep #0x20
     lda.w #0
     sta.l vwf8.cursor
-    ldx.w #2 * VWF8_RECORDS - 2
+    ldx.w #2 * ( VWF8_RECORDS + PEN8_SLOTS ) - 2
 _forget:
     sta.l vwf8.home, x
     dex
@@ -738,8 +767,16 @@ _forget:
 }
 
 .macro vwf8_send(channel, mask) {
-    """Queue slot X's stream into VRAM through DMA `channel` (S-DD1, `mask` its bit). M8 X16; A clobbered."""
-    lda.b #0x09
+    """
+    Queue slot X's tiles into VRAM through DMA `channel` (`mask` its bit): an S-DD1 stream, or pen8's tiles as they
+    are. M8 X16; A clobbered.
+    """
+    lda.l vwf8.queue + 7, x
+    eor.b #1
+    asl
+    asl
+    asl
+    ora.b #0x01  ; 0x09 through the S-DD1, 0x01 raw
     sta.l 0x004300 + channel
     lda.b #0x18
     sta.l 0x004301 + channel
@@ -753,7 +790,15 @@ _forget:
     lda.l vwf8.queue + 5, x
     sta.l 0x002116
     sep #0x20
-    sdd1_decompress(mask)
+    lda.l vwf8.queue + 7, x
+    dec
+    and.b #mask  ; the S-DD1 decompresses the stream, not the raw tiles
+    sta.l 0x004800
+    sta.l 0x004801
+    lda.b #mask
+    sta.l 0x00420B
+    lda.b #0
+    sta.l 0x004800
 }
 
 .alloc vwf8_upload in code_c9 {
