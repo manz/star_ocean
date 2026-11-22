@@ -20,13 +20,15 @@
 - Item list: `C8:1050` (from `C1:0006`, fight start) fills `$7E:A353` with each inventory slot's names8 string
   (offset list `D7:0000` from id `0x1388`). A savestate keeps the table of the build it was made on: an older
   names8 layout shows strings cut at the start ("ing" for "Stylo d'étude"). Not a patch bug; refresh the states.
-- The list draws 8 cells a name: French names past 8 letters are cut ("Artisana").
+- The list gives a name 8 cells (`C1:2FA7`): the `:` before the count is drawn at cell 9 (`X + 0x12`) and covers what
+  ran past. `C0:4154` has no limit of its own. With BATTLE_VWF8 a name takes its inked tiles, not its codes: of 696
+  names8 strings from `0x1388`, 22 run past 8 cells, monster names but one ("Épée longue+2", 9); the list stays as is.
 
 ## 8x8 VWF in battle (BATTLE_VWF8, src/battle/vwf8.s)
 
 - `C0:3FA3` (names8 by id) and `C0:4154` (string at A:Y) draw strings that have a vwf8 record from the shared pool:
-  tiles `0D9-113` and `13C-1FF` of BG3 CHR `$4000`, written into both shadows. The rest (party names from RAM,
-  numbers) stays on the fixed font.
+  tiles `0D9-113` and `13C-1FF` of BG3 CHR `$4000`, written into both shadows. Party nicknames (`$7E:7497`, $100
+  apart) come from the runtime pen (notes/vram/pen8.md); numbers stay on the fixed font.
 - The fight start (`C1:0006`) opens the battle pool, its end (`C0:20F7`) the menus' again; a string drawn first in
   a savestate taken mid-fight opens it too.
 - Uploads: the line-216 IRQ's DMA list end (`C0:0188`, its V-blank wait) runs the S-DD1 streams on channel 1 with
