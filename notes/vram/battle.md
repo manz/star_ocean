@@ -10,6 +10,16 @@
 - `C0-EF` hold field leftovers ("Attaque / Esquive / Défense", window pieces), never drawn in a fight. `200-27F`
   is filled by `C6:0B5D...` after the fight.
 
+## Windows (src/battle/windows.s)
+
+- `C1:527D` frames three windows at the top (X = 0) or the bottom (X = 0x540, the command ring open): enemy names,
+  the party member (name, PV, PM), the L/R special moves. The patch makes them 11 / 11 / 12 wide at cells 0 / 10 / 20
+  (were 12 / 11 / 11 at 0 / 11 / 21): a special move's name gets 10 cells (21-30, under
+  the L / R labels). `C1:521B` frames the full-width
+  party window (4 members, PV / PM rows from `C1:5402` / `C1:5842`), untouched.
+- The bottom copy of the party member window (`C1:5557`) put the name and PV one cell right of the top's and drew PV
+  with 3 digits: 6746 showed as 746. The patch draws it as the top one.
+
 ## Writers (fixed font into the shadows)
 
 | routine | draws | callers |
