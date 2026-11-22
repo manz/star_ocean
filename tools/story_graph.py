@@ -668,6 +668,20 @@ def walled(g: SceneGraph, e: Exit) -> frozenset[Guard]:
     return frozenset(out)
 
 
+def walls(g: SceneGraph) -> list[dict[str, object]]:
+    """The cells a map's setup opens under a story flag (`tile_attr_fill ..., 0` past `flag_test`): map 239's ways
+    north, shut until the switches on 242 and 243. `flag` / `on`: the state that opens them."""
+    out = []
+    for a in g.actions():
+        if a.trigger != ARRIVE or a.name not in WALL_OPS or a.args[-1] != 0:
+            continue
+        cells = a.args[:-1] if len(a.args) == 5 else (*a.args[:2], *a.args[:2])
+        needs = [f for f in a.guards if f.flag is not None]
+        if len(needs) == 1 and all(isinstance(v, int) for v in cells):
+            out.append({"maps": sorted(a.maps), "box": list(cells), "flag": needs[0].flag, "on": needs[0].flag_on()})
+    return out
+
+
 def _covers(wall: tuple[Arg, ...], box: tuple[Arg, ...]) -> bool:
     x1, y1, x2, y2 = (int(v) for v in wall)
     bx1, by1, bx2, by2 = (int(v) for v in box)
@@ -834,6 +848,7 @@ def export() -> dict[str, object]:
         "flags": sorted(flags, key=order),
         "items": sorted(items, key=order),
         "gates": sorted(gates, key=order),
+        "walls": sorted((w for g in gs for w in walls(g)), key=order),
     }
 
 

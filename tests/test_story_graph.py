@@ -183,3 +183,11 @@ def test_an_exit_walled_until_a_flag_needs_it() -> None:
     exits = export()["exits"]
     assert isinstance(exits, list)
     assert [e["flags"] for e in exits if e["maps"] == [233] and e["to"] == 235] == [{"55": True}]
+
+
+def test_the_export_lists_walls_a_flag_opens() -> None:
+    """Map 239's ways north: walled until the switches on 242 (flag 56) and 243 (flag 57)."""
+    walls = export()["walls"]
+    assert isinstance(walls, list)
+    north = {w["flag"]: w["box"] for w in walls if w["maps"] == [239]}
+    assert north == {56: [7, 24, 8, 24], 57: [7, 40, 8, 40]}
