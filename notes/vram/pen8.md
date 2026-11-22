@@ -3,8 +3,8 @@
 Names typed in game have no baked record: vwf8's `_find` misses, then `pen8_find` draws the string with katsuji's
 `sumi/8` (glyph rows and advances baked by tools/pen8.py) and serves it as a vwf8 record.
 
-- Sources: bank `$7E`, the party records (`$1548-$15D7`, name then nickname) or the fight's party names
-  (`$7E:7497 + n * $100`, 4 codes and `FF`). Anything else stays with the caller.
+- Sources: bank `$7E`, the party records (`$1548-$15D7`, name then nickname) or the fight's party: full names
+  (`$7E:748F + n * $100`, the command window) and nicknames (`$7E:7497 + n * $100`, the party window). Anything else stays with the caller.
 - Cache: 12 SRAM slots keyed by the codes (up to 6), round robin. A name is drawn once, then found by every later
   draw, across fights, menus and resets. `PEN8_MAGIC` (crc of the glyph tables) drops a cache another font left.
 - Drawing: ink advances by its width plus 1 pixel, the space by 3, then the menu font's shadow (right, down,

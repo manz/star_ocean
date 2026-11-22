@@ -30,7 +30,8 @@ _SPACE_PX := 3
 _END := 0xFF
 _PARTY := 0x1548  ; 12 records of 12 bytes: name, nickname
 _PARTY_END := 0x15D8
-_ACTORS := 0x7497  ; the fight's party names, $100 apart, 4 actors
+_ACTOR_NAMES := 0x748F  ; the fight's party: full names (the command window), $100 apart, 4 actors
+_ACTORS := 0x7497  ; and nicknames (the party window)
 _ACTOR_MASK := 0xFCFF
 
 _record = 0x00
@@ -78,6 +79,8 @@ its tiles were drawn now. Carry clear: not a name, or one the game draws. X, Y a
 _actor:
     and.w #_ACTOR_MASK
     cmp.w #_ACTORS
+    beq _name
+    cmp.w #_ACTOR_NAMES
     beq _name
     sep #0x20
 _refuse:
