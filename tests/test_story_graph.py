@@ -168,3 +168,18 @@ def test_an_unguarded_sibling_exit_gets_the_complement() -> None:
     assert isinstance(exits, list)
     south = {e["to"]: e["guards"] for e in exits if e["maps"] == [179] and e["box"] == [1, 31, 14, 31]}
     assert south[180] == ["var.w[0x23] == 174 || var.w[0x23] == 180"]
+
+
+def test_a_wall_switch_sets_its_flag_through_a_variable() -> None:
+    """Map 234's switch: `set var.w[0x4f] = 55`, A facing it in (14..15, 7), Yes: `flag_on var.w[0x4f]`."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    switch = [f for f in flags if f["flag"] == 55 and f["on"]]
+    assert [(f["maps"], f["trigger"]["kind"], f["trigger"]["box"]) for f in switch] == [([234], "use", [14, 7, 15, 7])]
+
+
+def test_an_exit_walled_until_a_flag_needs_it() -> None:
+    """Map 233's door to 235: the setup walls it unless flag 55 is on."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    assert [e["flags"] for e in exits if e["maps"] == [233] and e["to"] == 235] == [{"55": True}]
