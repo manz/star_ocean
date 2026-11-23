@@ -314,3 +314,12 @@ def test_a_box_thinner_than_a_cell_is_the_cell_a_hero_on_the_grid_stands_in() ->
     assert isinstance(flags, list)
     switch = [f["trigger"]["box"] for f in flags if f["flag"] == 102 and f["on"] and f["maps"] == [158]]
     assert switch == [[30, 44, 30, 44]]
+
+
+def test_a_map_change_takes_the_hero_before_one_it_runs_into() -> None:
+    """Map 312's door: from 315 or 320 the script changes to 320, then runs on into the change to 324; only the first
+    takes the hero."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    to_324 = [e["guards"] for e in exits if e["maps"] == [312] and e["to"] == 324]
+    assert to_324 == [["!(var.w[0x23] == 315)", "!(var.w[0x23] == 320)"]]

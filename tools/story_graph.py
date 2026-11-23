@@ -213,6 +213,8 @@ class _Point:
     flagged: frozenset[tuple[int, bool]] = frozenset()  # (flag, on): what the path's own flag ops left: a test on one
     # is known, and paths that left it apart stay apart (map 158's plate 69 toggles flag 99, then tests it again)
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
+    left: bool = False  # past a `map_change`: another one on the path does not take the hero. Paths apart stay
+    # apart (map 312: the way past 320's change meets the one to 324)
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
     # it apart stay apart: map 203's zone is placed at 93 and at 109, a meet would keep neither
     sets: frozenset[tuple[str, Set]] = field(default=frozenset(), compare=False)  # the variables every path here
@@ -363,7 +365,7 @@ class _Walker:
         found = set()
         for point, guards in self.guards.items():
             ins = instruction(self.data, point.pos, self.base)
-            if ins.name in self.keep:
+            if ins.name in self.keep and not (point.left and ins.name == "map_change"):
                 args = _args(ins)
                 if ins.name in FLAG_OPS and (n := point.flag(ins.args[0])) is not None:
                     args = (n,)
@@ -385,6 +387,8 @@ class _Walker:
                 return [(p.at(p.returns[-1], returns=p.returns[:-1]), guards)] if p.returns else []
             case "end":
                 return []
+            case "map_change":  # the script runs on (scene 4 counts the story past one), but the first one takes
+                return [(replace(p.at(nxt), left=True), guards)]  # the hero (map 312's way to 320 runs into 324's)
             case "flag_test" if (flag := p.flag(ins.args[0])) is not None:
                 return [(replace(p, pos=nxt, tested=flag), guards)]
             case "choose":
