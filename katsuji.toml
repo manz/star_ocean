@@ -8,7 +8,7 @@ table = "text/so_8x8.tbl"
 output = "build/gen/small_font.dat"
 widths = { "0xFF" = 3 }
 
-# 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes.
+# 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes; Œ and œ wide, cut across two codes.
 [fonts.dialog]
 builtin = "sumi/16"
 table = "text/so_fr.tbl"
