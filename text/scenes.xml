@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sn:scenes xmlns:sn="http://snes.ninja/ScriptNS">
+  <sn:scene title="scene 01">
+    <sn:scene title="start"><sn:say ref="scene_01:0"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_01:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 03" place="scene_03:0">
+    <sn:scene title="start"><sn:say ref="scene_03:0"/><sn:say ref="scene_03:1"/><sn:say ref="scene_03:2"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 04" place="scene_04:4">
+    <sn:scene title="start"><sn:say ref="scene_04:0"/><sn:say ref="scene_04:1"/><sn:say ref="scene_04:2"/><sn:say ref="scene_04:3"/><sn:say ref="scene_04:4"/><sn:say ref="scene_04:5"/><sn:say ref="scene_04:6"/><sn:say ref="scene_04:7"/></sn:scene>
+    <sn:scene title="talk 16 · Homme"><sn:say ref="scene_04:25"/><sn:say ref="scene_04:26"/><sn:say ref="scene_04:27"/><sn:say ref="scene_04:28"/></sn:scene>
+    <sn:scene title="talk 17 · Femme"><sn:say ref="scene_04:29"/><sn:say ref="scene_04:30"/><sn:say ref="scene_04:31"/><sn:say ref="scene_04:32"/></sn:scene>
+    <sn:scene title="talk 18 · Shina"><sn:say ref="scene_04:33"/></sn:scene>
+    <sn:scene title="talk 19 · Homme"><sn:say ref="scene_04:34"/></sn:scene>
+    <sn:scene title="talk 20 · Femme"><sn:say ref="scene_04:35"/><sn:say ref="scene_04:36"/><sn:say ref="scene_04:37"/></sn:scene>
+    <sn:scene title="talk 21 · Gamin"><sn:say ref="scene_04:38"/></sn:scene>
+    <sn:scene title="talk 22 · Vieil homme"><sn:say ref="scene_04:39"/><sn:say ref="scene_04:40"/><sn:say ref="scene_04:41"/><sn:say ref="scene_04:42"/></sn:scene>
+    <sn:scene title="tiles 1-7"><sn:say ref="scene_04:14"/><sn:say ref="scene_04:15"/></sn:scene>
+    <sn:scene title="tile 8"><sn:say ref="scene_04:8"/><sn:say ref="scene_04:9"/></sn:scene>
+    <sn:scene title="tile 9"><sn:say ref="scene_04:10"/></sn:scene>
+    <sn:scene title="tile 10"><sn:say ref="scene_04:11"/></sn:scene>
+    <sn:scene title="tiles 10-11"><sn:say ref="scene_04:16"/><sn:say ref="scene_04:17"/><sn:say ref="scene_04:18"/><sn:say ref="scene_04:19"/><sn:say ref="scene_04:20"/><sn:say ref="scene_04:21"/><sn:say ref="scene_04:22"/><sn:say ref="scene_04:23"/><sn:say ref="scene_04:24"/></sn:scene>
+    <sn:scene title="tile 11"><sn:say ref="scene_04:12"/></sn:scene>
+    <sn:scene title="tile 12"><sn:say ref="scene_04:13"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 05" place="scene_05:0">
+    <sn:scene title="start"><sn:say ref="scene_05:0"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 06" place="scene_06:0">
+    <sn:scene title="start"><sn:say ref="scene_06:0"/><sn:say ref="scene_06:1"/><sn:say ref="scene_06:2"/><sn:say ref="scene_06:3"/><sn:say ref="scene_06:4"/><sn:say ref="scene_06:5"/><sn:say ref="scene_06:6"/><sn:say ref="scene_06:7"/><sn:say ref="scene_06:8"/><sn:say ref="scene_06:9"/><sn:say ref="scene_06:10"/><sn:say ref="scene_06:36"/><sn:say ref="scene_06:37"/><sn:say ref="scene_06:38"/><sn:say ref="scene_06:39"/><sn:say ref="scene_06:40"/><sn:say ref="scene_06:41"/><sn:say ref="scene_06:42"/><sn:say ref="scene_06:43"/><sn:say ref="scene_06:44"/><sn:say ref="scene_06:45"/><sn:say ref="scene_06:46"/><sn:say ref="scene_06:47"/><sn:say ref="scene_06:48"/><sn:say ref="scene_06:49"/><sn:say ref="scene_06:50"/><sn:say ref="scene_06:51"/><sn:say ref="scene_06:52"/><sn:say ref="scene_06:53"/><sn:say ref="scene_06:54"/><sn:say ref="scene_06:55"/><sn:say ref="scene_06:56"/><sn:say ref="scene_06:57"/><sn:say ref="scene_06:58"/><sn:say ref="scene_06:59"/><sn:say ref="scene_06:60"/><sn:say ref="scene_06:61"/><sn:say ref="scene_06:62"/><sn:say ref="scene_06:63"/><sn:say ref="scene_06:64"/><sn:say ref="scene_06:65"/><sn:say ref="scene_06:66"/><sn:say ref="scene_06:67"/><sn:say ref="scene_06:68"/><sn:say ref="scene_06:69"/><sn:say ref="scene_06:70"/><sn:say ref="scene_06:71"/><sn:say ref="scene_06:72"/><sn:say ref="scene_06:73"/><sn:say ref="scene_06:74"/><sn:say ref="scene_06:75"/><sn:say ref="scene_06:76"/><sn:say ref="scene_06:77"/><sn:say ref="scene_06:78"/><sn:say ref="scene_06:79"/><sn:say ref="scene_06:80"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_06:14"/><sn:say ref="scene_06:15"/></sn:scene>
+    <sn:scene title="talk 17 · Mère"><sn:say ref="scene_06:16"/><sn:say ref="scene_06:17"/><sn:say ref="scene_06:18"/><sn:say ref="scene_06:19"/><sn:say ref="scene_06:20"/></sn:scene>
+    <sn:scene title="talk 18 · Armurier"><sn:say ref="scene_06:21"/><sn:say ref="scene_06:22"/></sn:scene>
+    <sn:scene title="talk 19 · Membre de la brigade de Clatos"><sn:say ref="scene_06:23"/></sn:scene>
+    <sn:scene title="talk 20 · Membre de la brigade de Clatos"><sn:say ref="scene_06:24"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_06:25"/><sn:say ref="scene_06:26"/></sn:scene>
+    <sn:scene title="talk 22 · Mme Fraise"><sn:say ref="scene_06:27"/><sn:say ref="scene_06:28"/><sn:say ref="scene_06:29"/></sn:scene>
+    <sn:scene title="talk 23 · Quincailler"><sn:say ref="scene_06:30"/></sn:scene>
+    <sn:scene title="talk 24 · Sophia"><sn:say ref="scene_06:31"/><sn:say ref="scene_06:32"/><sn:say ref="scene_06:33"/><sn:say ref="scene_06:34"/><sn:say ref="scene_06:35"/></sn:scene>
+    <sn:scene title="tile 11"><sn:say ref="scene_06:11"/><sn:say ref="scene_06:12"/><sn:say ref="scene_06:13"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 07" place="scene_07:1">
+    <sn:scene title="start"><sn:say ref="scene_07:0"/><sn:say ref="scene_07:1"/><sn:say ref="scene_07:2"/><sn:say ref="scene_07:16"/><sn:say ref="scene_07:17"/><sn:say ref="scene_07:18"/><sn:say ref="scene_07:19"/><sn:say ref="scene_07:20"/><sn:say ref="scene_07:21"/><sn:say ref="scene_07:22"/><sn:say ref="scene_07:23"/><sn:say ref="scene_07:24"/><sn:say ref="scene_07:25"/><sn:say ref="scene_07:26"/><sn:say ref="scene_07:27"/><sn:say ref="scene_07:28"/><sn:say ref="scene_07:57"/><sn:say ref="scene_07:58"/><sn:say ref="scene_07:59"/><sn:say ref="scene_07:60"/><sn:say ref="scene_07:61"/><sn:say ref="scene_07:62"/><sn:say ref="scene_07:63"/></sn:scene>
+    <sn:scene title="start tile 20 tile 21"><sn:say ref="scene_07:79"/><sn:say ref="scene_07:80"/><sn:say ref="scene_07:81"/><sn:say ref="scene_07:82"/><sn:say ref="scene_07:83"/><sn:say ref="scene_07:84"/><sn:say ref="scene_07:85"/><sn:say ref="scene_07:86"/><sn:say ref="scene_07:87"/><sn:say ref="scene_07:88"/><sn:say ref="scene_07:89"/><sn:say ref="scene_07:90"/><sn:say ref="scene_07:91"/><sn:say ref="scene_07:92"/><sn:say ref="scene_07:93"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_07:15"/></sn:scene>
+    <sn:scene title="talk 16 · Jeune homme"><sn:say ref="scene_07:51"/></sn:scene>
+    <sn:scene title="talk 17 · Fille"><sn:say ref="scene_07:52"/></sn:scene>
+    <sn:scene title="talk 18 · Dalan"><sn:say ref="scene_07:53"/></sn:scene>
+    <sn:scene title="talk 19 · Lot"><sn:say ref="scene_07:54"/></sn:scene>
+    <sn:scene title="talk 20 · Vieil homme"><sn:say ref="scene_07:55"/></sn:scene>
+    <sn:scene title="talk 21 · Vieille femme"><sn:say ref="scene_07:56"/></sn:scene>
+    <sn:scene title="tile 5"><sn:say ref="scene_07:3"/><sn:say ref="scene_07:4"/><sn:say ref="scene_07:5"/><sn:say ref="scene_07:6"/><sn:say ref="scene_07:7"/><sn:say ref="scene_07:8"/><sn:say ref="scene_07:9"/><sn:say ref="scene_07:10"/></sn:scene>
+    <sn:scene title="tile 6"><sn:say ref="scene_07:11"/><sn:say ref="scene_07:12"/></sn:scene>
+    <sn:scene title="tile 13"><sn:say ref="scene_07:13"/><sn:say ref="scene_07:14"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_07:29"/></sn:scene>
+    <sn:scene title="tile 21"><sn:say ref="scene_07:30"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_07:31"/><sn:say ref="scene_07:32"/><sn:say ref="scene_07:33"/><sn:say ref="scene_07:34"/><sn:say ref="scene_07:35"/><sn:say ref="scene_07:36"/><sn:say ref="scene_07:37"/><sn:say ref="scene_07:38"/><sn:say ref="scene_07:39"/><sn:say ref="scene_07:40"/><sn:say ref="scene_07:41"/><sn:say ref="scene_07:42"/><sn:say ref="scene_07:43"/><sn:say ref="scene_07:44"/><sn:say ref="scene_07:45"/><sn:say ref="scene_07:46"/><sn:say ref="scene_07:47"/><sn:say ref="scene_07:48"/><sn:say ref="scene_07:49"/><sn:say ref="scene_07:50"/><sn:say ref="scene_07:64"/><sn:say ref="scene_07:65"/><sn:say ref="scene_07:66"/><sn:say ref="scene_07:67"/><sn:say ref="scene_07:68"/><sn:say ref="scene_07:69"/><sn:say ref="scene_07:70"/><sn:say ref="scene_07:71"/><sn:say ref="scene_07:72"/><sn:say ref="scene_07:73"/><sn:say ref="scene_07:74"/><sn:say ref="scene_07:75"/><sn:say ref="scene_07:76"/><sn:say ref="scene_07:77"/><sn:say ref="scene_07:78"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 08">
+    <sn:scene title="talk 16 · Raddle le voyageur"><sn:say ref="scene_08:7"/></sn:scene>
+    <sn:scene title="talk 17"><sn:say ref="scene_08:8"/><sn:say ref="scene_08:9"/><sn:say ref="scene_08:10"/><sn:say ref="scene_08:11"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_08:12"/><sn:say ref="scene_08:13"/><sn:say ref="scene_08:14"/><sn:say ref="scene_08:15"/></sn:scene>
+    <sn:scene title="talk 19"><sn:say ref="scene_08:16"/><sn:say ref="scene_08:17"/><sn:say ref="scene_08:18"/><sn:say ref="scene_08:19"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_08:0"/><sn:say ref="scene_08:1"/><sn:say ref="scene_08:2"/><sn:say ref="scene_08:3"/><sn:say ref="scene_08:4"/><sn:say ref="scene_08:5"/><sn:say ref="scene_08:6"/><sn:say ref="scene_08:20"/><sn:say ref="scene_08:21"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 09" place="scene_09:0">
+    <sn:scene title="start"><sn:say ref="scene_09:0"/><sn:say ref="scene_09:1"/><sn:say ref="scene_09:2"/></sn:scene>
+    <sn:scene title="talk 16 · Jeune homme"><sn:say ref="scene_09:6"/></sn:scene>
+    <sn:scene title="talk 17 · Vieille femme"><sn:say ref="scene_09:7"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_09:8"/></sn:scene>
+    <sn:scene title="talk 19 · Vieil homme"><sn:say ref="scene_09:9"/></sn:scene>
+    <sn:scene title="talk 20 · Vieil homme"><sn:say ref="scene_09:10"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_09:11"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_09:3"/><sn:say ref="scene_09:4"/></sn:scene>
+    <sn:scene title="tile 9"><sn:say ref="scene_09:5"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 10">
+    <sn:scene title="start"><sn:say ref="scene_10:0"/><sn:say ref="scene_10:1"/><sn:say ref="scene_10:2"/><sn:say ref="scene_10:3"/><sn:say ref="scene_10:4"/><sn:say ref="scene_10:5"/><sn:say ref="scene_10:6"/><sn:say ref="scene_10:7"/></sn:scene>
+    <sn:scene title="talk 16 · Maltos"><sn:say ref="scene_10:8"/></sn:scene>
+    <sn:scene title="talk 18 · Vieillard"><sn:say ref="scene_10:9"/></sn:scene>
+    <sn:scene title="talk 19 · Gamine"><sn:say ref="scene_10:10"/></sn:scene>
+    <sn:scene title="talk 20 · Gamine"><sn:say ref="scene_10:11"/></sn:scene>
+    <sn:scene title="talk 21 · Femme"><sn:say ref="scene_10:12"/></sn:scene>
+    <sn:scene title="talk 22"><sn:say ref="scene_10:13"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 11" place="scene_11:0">
+    <sn:scene title="start"><sn:say ref="scene_11:0"/><sn:say ref="scene_11:1"/><sn:say ref="scene_11:2"/><sn:say ref="scene_11:3"/><sn:say ref="scene_11:4"/><sn:say ref="scene_11:5"/><sn:say ref="scene_11:54"/><sn:say ref="scene_11:55"/></sn:scene>
+    <sn:scene title="talk 16 · Voyageur"><sn:say ref="scene_11:53"/></sn:scene>
+    <sn:scene title="tile 14"><sn:say ref="scene_11:8"/></sn:scene>
+    <sn:scene title="tile 15"><sn:say ref="scene_11:9"/><sn:say ref="scene_11:10"/><sn:say ref="scene_11:11"/><sn:say ref="scene_11:12"/><sn:say ref="scene_11:13"/><sn:say ref="scene_11:14"/><sn:say ref="scene_11:15"/></sn:scene>
+    <sn:scene title="tile 16"><sn:say ref="scene_11:16"/><sn:say ref="scene_11:17"/><sn:say ref="scene_11:18"/><sn:say ref="scene_11:19"/><sn:say ref="scene_11:20"/><sn:say ref="scene_11:21"/><sn:say ref="scene_11:22"/><sn:say ref="scene_11:23"/><sn:say ref="scene_11:24"/><sn:say ref="scene_11:25"/><sn:say ref="scene_11:26"/><sn:say ref="scene_11:27"/><sn:say ref="scene_11:28"/><sn:say ref="scene_11:29"/><sn:say ref="scene_11:30"/><sn:say ref="scene_11:31"/><sn:say ref="scene_11:32"/><sn:say ref="scene_11:33"/><sn:say ref="scene_11:34"/><sn:say ref="scene_11:35"/><sn:say ref="scene_11:36"/><sn:say ref="scene_11:37"/><sn:say ref="scene_11:38"/><sn:say ref="scene_11:39"/><sn:say ref="scene_11:40"/><sn:say ref="scene_11:41"/><sn:say ref="scene_11:42"/><sn:say ref="scene_11:52"/></sn:scene>
+    <sn:scene title="tile 17"><sn:say ref="scene_11:43"/><sn:say ref="scene_11:44"/><sn:say ref="scene_11:45"/><sn:say ref="scene_11:46"/><sn:say ref="scene_11:47"/><sn:say ref="scene_11:48"/></sn:scene>
+    <sn:scene title="tile 18"><sn:say ref="scene_11:49"/><sn:say ref="scene_11:50"/><sn:say ref="scene_11:51"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_11:6"/><sn:say ref="scene_11:7"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 12" place="scene_12:0">
+    <sn:scene title="start"><sn:say ref="scene_12:0"/><sn:say ref="scene_12:2"/><sn:say ref="scene_12:3"/><sn:say ref="scene_12:4"/><sn:say ref="scene_12:5"/><sn:say ref="scene_12:6"/><sn:say ref="scene_12:7"/><sn:say ref="scene_12:8"/><sn:say ref="scene_12:9"/><sn:say ref="scene_12:10"/><sn:say ref="scene_12:11"/><sn:say ref="scene_12:12"/><sn:say ref="scene_12:13"/><sn:say ref="scene_12:14"/><sn:say ref="scene_12:15"/><sn:say ref="scene_12:16"/><sn:say ref="scene_12:17"/><sn:say ref="scene_12:18"/><sn:say ref="scene_12:19"/><sn:say ref="scene_12:20"/><sn:say ref="scene_12:21"/><sn:say ref="scene_12:22"/><sn:say ref="scene_12:23"/><sn:say ref="scene_12:25"/><sn:say ref="scene_12:26"/><sn:say ref="scene_12:27"/><sn:say ref="scene_12:28"/><sn:say ref="scene_12:29"/><sn:say ref="scene_12:30"/><sn:say ref="scene_12:31"/><sn:say ref="scene_12:32"/><sn:say ref="scene_12:33"/><sn:say ref="scene_12:34"/><sn:say ref="scene_12:35"/><sn:say ref="scene_12:36"/><sn:say ref="scene_12:37"/><sn:say ref="scene_12:38"/></sn:scene>
+    <sn:scene title="talk 16 · Mère"><sn:say ref="scene_12:39"/></sn:scene>
+    <sn:scene title="talks 32-37"><sn:say ref="scene_12:40"/></sn:scene>
+    <sn:scene title="tile 10"><sn:say ref="scene_12:1"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_12:24"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 13" place="scene_13:9">
+    <sn:scene title="start"><sn:say ref="scene_13:0"/><sn:say ref="scene_13:1"/><sn:say ref="scene_13:2"/><sn:say ref="scene_13:3"/><sn:say ref="scene_13:4"/><sn:say ref="scene_13:5"/><sn:say ref="scene_13:6"/><sn:say ref="scene_13:7"/><sn:say ref="scene_13:8"/><sn:say ref="scene_13:9"/><sn:say ref="scene_13:10"/><sn:say ref="scene_13:11"/><sn:say ref="scene_13:12"/><sn:say ref="scene_13:13"/><sn:say ref="scene_13:43"/><sn:say ref="scene_13:44"/><sn:say ref="scene_13:45"/><sn:say ref="scene_13:46"/><sn:say ref="scene_13:47"/><sn:say ref="scene_13:48"/><sn:say ref="scene_13:49"/><sn:say ref="scene_13:50"/><sn:say ref="scene_13:51"/><sn:say ref="scene_13:52"/><sn:say ref="scene_13:53"/><sn:say ref="scene_13:54"/><sn:say ref="scene_13:55"/><sn:say ref="scene_13:56"/><sn:say ref="scene_13:57"/><sn:say ref="scene_13:58"/><sn:say ref="scene_13:59"/><sn:say ref="scene_13:60"/><sn:say ref="scene_13:61"/><sn:say ref="scene_13:62"/><sn:say ref="scene_13:63"/><sn:say ref="scene_13:64"/><sn:say ref="scene_13:65"/><sn:say ref="scene_13:66"/><sn:say ref="scene_13:67"/><sn:say ref="scene_13:68"/><sn:say ref="scene_13:69"/><sn:say ref="scene_13:70"/><sn:say ref="scene_13:71"/><sn:say ref="scene_13:72"/><sn:say ref="scene_13:73"/><sn:say ref="scene_13:74"/><sn:say ref="scene_13:75"/><sn:say ref="scene_13:76"/><sn:say ref="scene_13:77"/><sn:say ref="scene_13:78"/><sn:say ref="scene_13:79"/><sn:say ref="scene_13:80"/><sn:say ref="scene_13:81"/><sn:say ref="scene_13:82"/><sn:say ref="scene_13:83"/><sn:say ref="scene_13:84"/><sn:say ref="scene_13:85"/><sn:say ref="scene_13:86"/><sn:say ref="scene_13:87"/><sn:say ref="scene_13:88"/><sn:say ref="scene_13:89"/><sn:say ref="scene_13:90"/><sn:say ref="scene_13:91"/><sn:say ref="scene_13:92"/><sn:say ref="scene_13:93"/><sn:say ref="scene_13:94"/><sn:say ref="scene_13:95"/><sn:say ref="scene_13:96"/><sn:say ref="scene_13:97"/></sn:scene>
+    <sn:scene title="talk 16 · Membre de l'équipage"><sn:say ref="scene_13:14"/><sn:say ref="scene_13:15"/></sn:scene>
+    <sn:scene title="talk 17 · Membre de l'équipage"><sn:say ref="scene_13:16"/><sn:say ref="scene_13:17"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_13:18"/><sn:say ref="scene_13:19"/></sn:scene>
+    <sn:scene title="talk 19 · Femme"><sn:say ref="scene_13:20"/><sn:say ref="scene_13:21"/></sn:scene>
+    <sn:scene title="talk 20"><sn:say ref="scene_13:22"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_13:23"/><sn:say ref="scene_13:24"/><sn:say ref="scene_13:25"/></sn:scene>
+    <sn:scene title="talk 22 · Homme"><sn:say ref="scene_13:26"/><sn:say ref="scene_13:27"/></sn:scene>
+    <sn:scene title="tile 12"><sn:say ref="scene_13:28"/></sn:scene>
+    <sn:scene title="tile 13"><sn:say ref="scene_13:29"/></sn:scene>
+    <sn:scene title="tile 21"><sn:say ref="scene_13:30"/><sn:say ref="scene_13:31"/><sn:say ref="scene_13:32"/><sn:say ref="scene_13:33"/><sn:say ref="scene_13:34"/><sn:say ref="scene_13:35"/></sn:scene>
+    <sn:scene title="tile 22"><sn:say ref="scene_13:36"/><sn:say ref="scene_13:37"/><sn:say ref="scene_13:38"/><sn:say ref="scene_13:39"/></sn:scene>
+    <sn:scene title="tile 23"><sn:say ref="scene_13:40"/><sn:say ref="scene_13:41"/></sn:scene>
+    <sn:scene title="tile 31"><sn:say ref="scene_13:42"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 14" place="scene_14:64">
+    <sn:scene title="start"><sn:say ref="scene_14:4"/><sn:say ref="scene_14:5"/><sn:say ref="scene_14:6"/><sn:say ref="scene_14:7"/><sn:say ref="scene_14:8"/><sn:say ref="scene_14:9"/><sn:say ref="scene_14:10"/><sn:say ref="scene_14:11"/><sn:say ref="scene_14:12"/><sn:say ref="scene_14:13"/><sn:say ref="scene_14:14"/><sn:say ref="scene_14:15"/><sn:say ref="scene_14:16"/><sn:say ref="scene_14:17"/><sn:say ref="scene_14:18"/><sn:say ref="scene_14:19"/><sn:say ref="scene_14:20"/><sn:say ref="scene_14:21"/><sn:say ref="scene_14:22"/><sn:say ref="scene_14:23"/><sn:say ref="scene_14:24"/><sn:say ref="scene_14:25"/><sn:say ref="scene_14:26"/><sn:say ref="scene_14:27"/><sn:say ref="scene_14:28"/><sn:say ref="scene_14:29"/><sn:say ref="scene_14:30"/><sn:say ref="scene_14:31"/><sn:say ref="scene_14:32"/><sn:say ref="scene_14:33"/><sn:say ref="scene_14:34"/><sn:say ref="scene_14:35"/><sn:say ref="scene_14:36"/><sn:say ref="scene_14:37"/><sn:say ref="scene_14:38"/><sn:say ref="scene_14:39"/><sn:say ref="scene_14:40"/><sn:say ref="scene_14:41"/><sn:say ref="scene_14:42"/><sn:say ref="scene_14:43"/><sn:say ref="scene_14:44"/><sn:say ref="scene_14:45"/><sn:say ref="scene_14:46"/><sn:say ref="scene_14:47"/><sn:say ref="scene_14:48"/><sn:say ref="scene_14:49"/><sn:say ref="scene_14:50"/><sn:say ref="scene_14:51"/><sn:say ref="scene_14:52"/><sn:say ref="scene_14:53"/><sn:say ref="scene_14:54"/><sn:say ref="scene_14:55"/><sn:say ref="scene_14:56"/><sn:say ref="scene_14:57"/><sn:say ref="scene_14:58"/><sn:say ref="scene_14:59"/><sn:say ref="scene_14:60"/><sn:say ref="scene_14:61"/><sn:say ref="scene_14:62"/><sn:say ref="scene_14:63"/><sn:say ref="scene_14:64"/><sn:say ref="scene_14:65"/></sn:scene>
+    <sn:scene title="talk 16 · Docteur"><sn:say ref="scene_14:0"/><sn:say ref="scene_14:1"/><sn:say ref="scene_14:2"/><sn:say ref="scene_14:3"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 15" place="scene_15:5">
+    <sn:scene title="start"><sn:say ref="scene_15:0"/><sn:say ref="scene_15:1"/><sn:say ref="scene_15:2"/><sn:say ref="scene_15:3"/><sn:say ref="scene_15:4"/><sn:say ref="scene_15:5"/><sn:say ref="scene_15:6"/><sn:say ref="scene_15:7"/><sn:say ref="scene_15:8"/><sn:say ref="scene_15:9"/><sn:say ref="scene_15:10"/><sn:say ref="scene_15:11"/><sn:say ref="scene_15:12"/><sn:say ref="scene_15:13"/><sn:say ref="scene_15:14"/><sn:say ref="scene_15:15"/><sn:say ref="scene_15:16"/><sn:say ref="scene_15:17"/><sn:say ref="scene_15:18"/><sn:say ref="scene_15:19"/><sn:say ref="scene_15:20"/><sn:say ref="scene_15:21"/><sn:say ref="scene_15:22"/><sn:say ref="scene_15:23"/><sn:say ref="scene_15:24"/><sn:say ref="scene_15:25"/><sn:say ref="scene_15:26"/><sn:say ref="scene_15:27"/><sn:say ref="scene_15:28"/><sn:say ref="scene_15:29"/><sn:say ref="scene_15:30"/></sn:scene>
+    <sn:scene title="talk 22 · Officier du téléporteur"><sn:say ref="scene_15:31"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 16">
+    <sn:scene title="start"><sn:say ref="scene_16:0"/><sn:say ref="scene_16:1"/><sn:say ref="scene_16:2"/><sn:say ref="scene_16:3"/><sn:say ref="scene_16:4"/><sn:say ref="scene_16:5"/><sn:say ref="scene_16:6"/><sn:say ref="scene_16:7"/><sn:say ref="scene_16:8"/><sn:say ref="scene_16:9"/><sn:say ref="scene_16:10"/><sn:say ref="scene_16:11"/><sn:say ref="scene_16:12"/><sn:say ref="scene_16:13"/><sn:say ref="scene_16:14"/><sn:say ref="scene_16:15"/><sn:say ref="scene_16:16"/><sn:say ref="scene_16:17"/><sn:say ref="scene_16:18"/><sn:say ref="scene_16:19"/><sn:say ref="scene_16:20"/><sn:say ref="scene_16:21"/><sn:say ref="scene_16:22"/><sn:say ref="scene_16:23"/><sn:say ref="scene_16:24"/><sn:say ref="scene_16:25"/><sn:say ref="scene_16:26"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 17" place="scene_17:31">
+    <sn:scene title="start"><sn:say ref="scene_17:3"/><sn:say ref="scene_17:4"/><sn:say ref="scene_17:5"/><sn:say ref="scene_17:6"/><sn:say ref="scene_17:7"/><sn:say ref="scene_17:8"/><sn:say ref="scene_17:9"/><sn:say ref="scene_17:10"/><sn:say ref="scene_17:11"/><sn:say ref="scene_17:12"/><sn:say ref="scene_17:13"/><sn:say ref="scene_17:14"/><sn:say ref="scene_17:15"/><sn:say ref="scene_17:16"/><sn:say ref="scene_17:17"/><sn:say ref="scene_17:18"/><sn:say ref="scene_17:19"/><sn:say ref="scene_17:20"/><sn:say ref="scene_17:21"/><sn:say ref="scene_17:22"/><sn:say ref="scene_17:23"/><sn:say ref="scene_17:24"/><sn:say ref="scene_17:31"/></sn:scene>
+    <sn:scene title="talk 40"><sn:say ref="scene_17:26"/></sn:scene>
+    <sn:scene title="talk 41"><sn:say ref="scene_17:27"/></sn:scene>
+    <sn:scene title="talk 42"><sn:say ref="scene_17:28"/></sn:scene>
+    <sn:scene title="talk 45"><sn:say ref="scene_17:29"/></sn:scene>
+    <sn:scene title="talk 46"><sn:say ref="scene_17:30"/></sn:scene>
+    <sn:scene title="tile 65"><sn:say ref="scene_17:25"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_17:0"/><sn:say ref="scene_17:1"/><sn:say ref="scene_17:2"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 18" place="scene_18:0">
+    <sn:scene title="start"><sn:say ref="scene_18:0"/><sn:say ref="scene_18:1"/><sn:say ref="scene_18:6"/><sn:say ref="scene_18:7"/><sn:say ref="scene_18:8"/><sn:say ref="scene_18:9"/><sn:say ref="scene_18:10"/><sn:say ref="scene_18:11"/><sn:say ref="scene_18:12"/><sn:say ref="scene_18:13"/><sn:say ref="scene_18:14"/><sn:say ref="scene_18:15"/><sn:say ref="scene_18:16"/><sn:say ref="scene_18:17"/><sn:say ref="scene_18:18"/><sn:say ref="scene_18:19"/><sn:say ref="scene_18:20"/><sn:say ref="scene_18:21"/><sn:say ref="scene_18:22"/><sn:say ref="scene_18:23"/><sn:say ref="scene_18:24"/></sn:scene>
+    <sn:scene title="talk 16 · Gardien de la porte"><sn:say ref="scene_18:2"/><sn:say ref="scene_18:3"/></sn:scene>
+    <sn:scene title="talk 17 · Gardien de la porte"><sn:say ref="scene_18:4"/><sn:say ref="scene_18:5"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 19" place="scene_19:1">
+    <sn:scene title="start"><sn:say ref="scene_19:0"/><sn:say ref="scene_19:1"/><sn:say ref="scene_19:2"/><sn:say ref="scene_19:3"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_19:28"/><sn:say ref="scene_19:55"/><sn:say ref="scene_19:56"/><sn:say ref="scene_19:57"/><sn:say ref="scene_19:58"/><sn:say ref="scene_19:59"/><sn:say ref="scene_19:60"/><sn:say ref="scene_19:61"/><sn:say ref="scene_19:62"/><sn:say ref="scene_19:63"/><sn:say ref="scene_19:64"/><sn:say ref="scene_19:65"/><sn:say ref="scene_19:66"/></sn:scene>
+    <sn:scene title="talk 4 · Homme"><sn:say ref="scene_19:13"/><sn:say ref="scene_19:14"/><sn:say ref="scene_19:15"/><sn:say ref="scene_19:16"/><sn:say ref="scene_19:17"/><sn:say ref="scene_19:18"/><sn:say ref="scene_19:19"/><sn:say ref="scene_19:20"/><sn:say ref="scene_19:21"/><sn:say ref="scene_19:22"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_19:23"/><sn:say ref="scene_19:25"/><sn:say ref="scene_19:26"/><sn:say ref="scene_19:27"/></sn:scene>
+    <sn:scene title="talk 8"><sn:say ref="scene_19:54"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_19:24"/></sn:scene>
+    <sn:scene title="talk 16 · Homme"><sn:say ref="scene_19:29"/><sn:say ref="scene_19:30"/></sn:scene>
+    <sn:scene title="talk 17 · Homme"><sn:say ref="scene_19:31"/><sn:say ref="scene_19:32"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_19:33"/><sn:say ref="scene_19:34"/></sn:scene>
+    <sn:scene title="talk 19 · Vieille femme"><sn:say ref="scene_19:35"/></sn:scene>
+    <sn:scene title="talk 20 · Chat"><sn:say ref="scene_19:36"/><sn:say ref="scene_19:37"/></sn:scene>
+    <sn:scene title="talk 21 · Eliotte"><sn:say ref="scene_19:38"/></sn:scene>
+    <sn:scene title="talk 22 · Jeune fille"><sn:say ref="scene_19:39"/></sn:scene>
+    <sn:scene title="tile 1"><sn:say ref="scene_19:4"/></sn:scene>
+    <sn:scene title="tile 6"><sn:say ref="scene_19:5"/><sn:say ref="scene_19:6"/><sn:say ref="scene_19:7"/><sn:say ref="scene_19:8"/><sn:say ref="scene_19:9"/><sn:say ref="scene_19:10"/></sn:scene>
+    <sn:scene title="tile 7"><sn:say ref="scene_19:11"/><sn:say ref="scene_19:12"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_19:40"/><sn:say ref="scene_19:41"/><sn:say ref="scene_19:42"/><sn:say ref="scene_19:43"/><sn:say ref="scene_19:44"/><sn:say ref="scene_19:45"/><sn:say ref="scene_19:46"/><sn:say ref="scene_19:47"/><sn:say ref="scene_19:48"/><sn:say ref="scene_19:49"/><sn:say ref="scene_19:50"/><sn:say ref="scene_19:51"/><sn:say ref="scene_19:52"/><sn:say ref="scene_19:53"/><sn:say ref="scene_19:67"/><sn:say ref="scene_19:68"/><sn:say ref="scene_19:69"/><sn:say ref="scene_19:70"/><sn:say ref="scene_19:71"/><sn:say ref="scene_19:72"/><sn:say ref="scene_19:73"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 20" place="scene_20:0">
+    <sn:scene title="start"><sn:say ref="scene_20:0"/><sn:say ref="scene_20:1"/><sn:say ref="scene_20:2"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_20:32"/></sn:scene>
+    <sn:scene title="talk 6"><sn:say ref="scene_20:33"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_20:31"/></sn:scene>
+    <sn:scene title="talk 16 · Petite vieille"><sn:say ref="scene_20:3"/><sn:say ref="scene_20:4"/><sn:say ref="scene_20:5"/><sn:say ref="scene_20:6"/><sn:say ref="scene_20:7"/><sn:say ref="scene_20:8"/></sn:scene>
+    <sn:scene title="talk 17 · Patron"><sn:say ref="scene_20:9"/><sn:say ref="scene_20:10"/><sn:say ref="scene_20:11"/><sn:say ref="scene_20:12"/><sn:say ref="scene_20:13"/><sn:say ref="scene_20:14"/><sn:say ref="scene_20:15"/><sn:say ref="scene_20:16"/><sn:say ref="scene_20:17"/><sn:say ref="scene_20:18"/></sn:scene>
+    <sn:scene title="talk 18 · Vieille femme"><sn:say ref="scene_20:19"/><sn:say ref="scene_20:20"/><sn:say ref="scene_20:21"/><sn:say ref="scene_20:22"/><sn:say ref="scene_20:23"/></sn:scene>
+    <sn:scene title="talk 19 · Aventurier"><sn:say ref="scene_20:24"/><sn:say ref="scene_20:25"/></sn:scene>
+    <sn:scene title="talk 20 · Lily l'ado"><sn:say ref="scene_20:26"/><sn:say ref="scene_20:27"/><sn:say ref="scene_20:28"/><sn:say ref="scene_20:29"/><sn:say ref="scene_20:30"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 21" place="scene_21:1">
+    <sn:scene title="start"><sn:say ref="scene_21:0"/><sn:say ref="scene_21:1"/><sn:say ref="scene_21:72"/><sn:say ref="scene_21:73"/><sn:say ref="scene_21:74"/><sn:say ref="scene_21:75"/><sn:say ref="scene_21:76"/><sn:say ref="scene_21:77"/><sn:say ref="scene_21:78"/><sn:say ref="scene_21:79"/><sn:say ref="scene_21:90"/><sn:say ref="scene_21:91"/><sn:say ref="scene_21:92"/><sn:say ref="scene_21:93"/><sn:say ref="scene_21:94"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_21:58"/><sn:say ref="scene_21:59"/><sn:say ref="scene_21:60"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_21:80"/></sn:scene>
+    <sn:scene title="talks 3, 6"><sn:say ref="scene_21:83"/><sn:say ref="scene_21:84"/><sn:say ref="scene_21:85"/></sn:scene>
+    <sn:scene title="talks 3, 6, 8"><sn:say ref="scene_21:88"/><sn:say ref="scene_21:89"/></sn:scene>
+    <sn:scene title="talks 3, 8"><sn:say ref="scene_21:86"/><sn:say ref="scene_21:87"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_21:54"/><sn:say ref="scene_21:55"/><sn:say ref="scene_21:56"/><sn:say ref="scene_21:57"/></sn:scene>
+    <sn:scene title="talks 4-5"><sn:say ref="scene_21:65"/><sn:say ref="scene_21:66"/><sn:say ref="scene_21:67"/><sn:say ref="scene_21:68"/><sn:say ref="scene_21:69"/><sn:say ref="scene_21:70"/><sn:say ref="scene_21:71"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_21:52"/><sn:say ref="scene_21:53"/></sn:scene>
+    <sn:scene title="talk 6"><sn:say ref="scene_21:82"/></sn:scene>
+    <sn:scene title="talk 8"><sn:say ref="scene_21:81"/></sn:scene>
+    <sn:scene title="talk 9 · Armurier"><sn:say ref="scene_21:61"/><sn:say ref="scene_21:62"/><sn:say ref="scene_21:63"/><sn:say ref="scene_21:64"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_21:38"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_21:39"/><sn:say ref="scene_21:40"/><sn:say ref="scene_21:41"/><sn:say ref="scene_21:42"/><sn:say ref="scene_21:43"/><sn:say ref="scene_21:44"/><sn:say ref="scene_21:45"/><sn:say ref="scene_21:46"/><sn:say ref="scene_21:47"/><sn:say ref="scene_21:48"/><sn:say ref="scene_21:49"/><sn:say ref="scene_21:50"/><sn:say ref="scene_21:51"/></sn:scene>
+    <sn:scene title="talk 16 · Homme"><sn:say ref="scene_21:4"/></sn:scene>
+    <sn:scene title="talk 17 · Érudite Lemia"><sn:say ref="scene_21:5"/><sn:say ref="scene_21:6"/><sn:say ref="scene_21:7"/><sn:say ref="scene_21:8"/><sn:say ref="scene_21:9"/></sn:scene>
+    <sn:scene title="talk 18 · Homme"><sn:say ref="scene_21:10"/><sn:say ref="scene_21:11"/></sn:scene>
+    <sn:scene title="talk 19 · Dean"><sn:say ref="scene_21:12"/><sn:say ref="scene_21:13"/></sn:scene>
+    <sn:scene title="talk 21 · Armurier"><sn:say ref="scene_21:14"/><sn:say ref="scene_21:15"/><sn:say ref="scene_21:16"/><sn:say ref="scene_21:17"/><sn:say ref="scene_21:18"/><sn:say ref="scene_21:19"/><sn:say ref="scene_21:20"/><sn:say ref="scene_21:21"/><sn:say ref="scene_21:22"/><sn:say ref="scene_21:23"/><sn:say ref="scene_21:24"/><sn:say ref="scene_21:25"/><sn:say ref="scene_21:26"/><sn:say ref="scene_21:27"/><sn:say ref="scene_21:28"/></sn:scene>
+    <sn:scene title="talk 22 · Gamin"><sn:say ref="scene_21:29"/></sn:scene>
+    <sn:scene title="talk 23 · Liza"><sn:say ref="scene_21:30"/></sn:scene>
+    <sn:scene title="talk 24 · Poissonnier Brad"><sn:say ref="scene_21:31"/><sn:say ref="scene_21:32"/></sn:scene>
+    <sn:scene title="talk 25 · Raddle l'aventurier"><sn:say ref="scene_21:33"/><sn:say ref="scene_21:34"/><sn:say ref="scene_21:35"/><sn:say ref="scene_21:36"/><sn:say ref="scene_21:37"/></sn:scene>
+    <sn:scene title="tile 6"><sn:say ref="scene_21:2"/><sn:say ref="scene_21:3"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 22" place="scene_22:0">
+    <sn:scene title="start"><sn:say ref="scene_22:0"/><sn:say ref="scene_22:1"/><sn:say ref="scene_22:2"/><sn:say ref="scene_22:107"/><sn:say ref="scene_22:108"/><sn:say ref="scene_22:109"/><sn:say ref="scene_22:110"/><sn:say ref="scene_22:111"/><sn:say ref="scene_22:112"/><sn:say ref="scene_22:113"/><sn:say ref="scene_22:114"/></sn:scene>
+    <sn:scene title="start talk 4"><sn:say ref="scene_22:39"/><sn:say ref="scene_22:40"/><sn:say ref="scene_22:41"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_22:55"/><sn:say ref="scene_22:56"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_22:17"/><sn:say ref="scene_22:18"/><sn:say ref="scene_22:19"/><sn:say ref="scene_22:20"/><sn:say ref="scene_22:21"/><sn:say ref="scene_22:22"/><sn:say ref="scene_22:23"/><sn:say ref="scene_22:24"/><sn:say ref="scene_22:25"/><sn:say ref="scene_22:26"/><sn:say ref="scene_22:27"/><sn:say ref="scene_22:28"/><sn:say ref="scene_22:29"/><sn:say ref="scene_22:30"/><sn:say ref="scene_22:31"/><sn:say ref="scene_22:32"/><sn:say ref="scene_22:33"/><sn:say ref="scene_22:34"/><sn:say ref="scene_22:35"/><sn:say ref="scene_22:36"/><sn:say ref="scene_22:37"/><sn:say ref="scene_22:38"/><sn:say ref="scene_22:42"/><sn:say ref="scene_22:43"/><sn:say ref="scene_22:44"/><sn:say ref="scene_22:45"/><sn:say ref="scene_22:46"/><sn:say ref="scene_22:47"/><sn:say ref="scene_22:48"/><sn:say ref="scene_22:49"/><sn:say ref="scene_22:50"/><sn:say ref="scene_22:51"/><sn:say ref="scene_22:52"/><sn:say ref="scene_22:53"/></sn:scene>
+    <sn:scene title="talk 7"><sn:say ref="scene_22:54"/></sn:scene>
+    <sn:scene title="talk 16 · Badam"><sn:say ref="scene_22:57"/><sn:say ref="scene_22:58"/><sn:say ref="scene_22:59"/><sn:say ref="scene_22:60"/><sn:say ref="scene_22:61"/><sn:say ref="scene_22:62"/><sn:say ref="scene_22:63"/><sn:say ref="scene_22:94"/><sn:say ref="scene_22:95"/><sn:say ref="scene_22:96"/><sn:say ref="scene_22:97"/><sn:say ref="scene_22:98"/><sn:say ref="scene_22:99"/><sn:say ref="scene_22:100"/><sn:say ref="scene_22:101"/><sn:say ref="scene_22:102"/><sn:say ref="scene_22:103"/><sn:say ref="scene_22:104"/><sn:say ref="scene_22:105"/><sn:say ref="scene_22:106"/></sn:scene>
+    <sn:scene title="talk 17"><sn:say ref="scene_22:64"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_22:65"/><sn:say ref="scene_22:66"/><sn:say ref="scene_22:67"/></sn:scene>
+    <sn:scene title="talk 19 · Aubergiste"><sn:say ref="scene_22:68"/><sn:say ref="scene_22:69"/><sn:say ref="scene_22:70"/><sn:say ref="scene_22:71"/><sn:say ref="scene_22:72"/></sn:scene>
+    <sn:scene title="talk 20 · Épéiste"><sn:say ref="scene_22:73"/></sn:scene>
+    <sn:scene title="talk 21 · Épéiste"><sn:say ref="scene_22:74"/></sn:scene>
+    <sn:scene title="talk 22 · Fille"><sn:say ref="scene_22:75"/><sn:say ref="scene_22:76"/></sn:scene>
+    <sn:scene title="talk 23 · Vieille femme"><sn:say ref="scene_22:77"/><sn:say ref="scene_22:78"/></sn:scene>
+    <sn:scene title="talk 24 · Entraîneur"><sn:say ref="scene_22:79"/><sn:say ref="scene_22:80"/><sn:say ref="scene_22:81"/></sn:scene>
+    <sn:scene title="talk 25 · Maître de la guilde"><sn:say ref="scene_22:82"/><sn:say ref="scene_22:83"/><sn:say ref="scene_22:84"/><sn:say ref="scene_22:85"/><sn:say ref="scene_22:86"/><sn:say ref="scene_22:87"/></sn:scene>
+    <sn:scene title="talk 26 · Mentor"><sn:say ref="scene_22:88"/><sn:say ref="scene_22:89"/><sn:say ref="scene_22:90"/><sn:say ref="scene_22:91"/><sn:say ref="scene_22:92"/><sn:say ref="scene_22:93"/></sn:scene>
+    <sn:scene title="tile 1"><sn:say ref="scene_22:3"/></sn:scene>
+    <sn:scene title="tile 4"><sn:say ref="scene_22:4"/><sn:say ref="scene_22:5"/><sn:say ref="scene_22:6"/><sn:say ref="scene_22:7"/><sn:say ref="scene_22:8"/><sn:say ref="scene_22:9"/><sn:say ref="scene_22:10"/><sn:say ref="scene_22:11"/><sn:say ref="scene_22:12"/><sn:say ref="scene_22:13"/><sn:say ref="scene_22:14"/><sn:say ref="scene_22:15"/><sn:say ref="scene_22:16"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 23" place="scene_23:2">
+    <sn:scene title="start"><sn:say ref="scene_23:0"/><sn:say ref="scene_23:1"/><sn:say ref="scene_23:2"/><sn:say ref="scene_23:3"/><sn:say ref="scene_23:16"/><sn:say ref="scene_23:17"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_23:20"/><sn:say ref="scene_23:21"/><sn:say ref="scene_23:22"/><sn:say ref="scene_23:23"/><sn:say ref="scene_23:27"/><sn:say ref="scene_23:28"/><sn:say ref="scene_23:29"/><sn:say ref="scene_23:30"/></sn:scene>
+    <sn:scene title="talks 1, 8"><sn:say ref="scene_23:24"/><sn:say ref="scene_23:25"/><sn:say ref="scene_23:26"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_23:4"/></sn:scene>
+    <sn:scene title="talk 6"><sn:say ref="scene_23:31"/><sn:say ref="scene_23:32"/><sn:say ref="scene_23:33"/></sn:scene>
+    <sn:scene title="talk 8"><sn:say ref="scene_23:18"/><sn:say ref="scene_23:19"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_23:34"/></sn:scene>
+    <sn:scene title="talk 16 · Jeune femme Alisa"><sn:say ref="scene_23:5"/></sn:scene>
+    <sn:scene title="talk 18 · Vieillard au nez rouge"><sn:say ref="scene_23:6"/></sn:scene>
+    <sn:scene title="talk 19 · Jeune homme à la mode"><sn:say ref="scene_23:7"/></sn:scene>
+    <sn:scene title="talk 20 · Fille élégante"><sn:say ref="scene_23:8"/></sn:scene>
+    <sn:scene title="talk 21 · Fille avec des taches de rousseur"><sn:say ref="scene_23:9"/><sn:say ref="scene_23:10"/></sn:scene>
+    <sn:scene title="talk 22 · Terry"><sn:say ref="scene_23:11"/></sn:scene>
+    <sn:scene title="talk 23 · Whiskers"><sn:say ref="scene_23:12"/></sn:scene>
+    <sn:scene title="talk 24 · Fille aînée"><sn:say ref="scene_23:13"/></sn:scene>
+    <sn:scene title="talk 25 · Raddle le voyageur"><sn:say ref="scene_23:14"/><sn:say ref="scene_23:15"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 24" place="scene_24:0">
+    <sn:scene title="start"><sn:say ref="scene_24:0"/><sn:say ref="scene_24:1"/><sn:say ref="scene_24:2"/><sn:say ref="scene_24:3"/><sn:say ref="scene_24:4"/><sn:say ref="scene_24:5"/><sn:say ref="scene_24:6"/><sn:say ref="scene_24:7"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_24:57"/><sn:say ref="scene_24:58"/><sn:say ref="scene_24:59"/><sn:say ref="scene_24:60"/><sn:say ref="scene_24:61"/><sn:say ref="scene_24:62"/><sn:say ref="scene_24:63"/><sn:say ref="scene_24:64"/><sn:say ref="scene_24:65"/><sn:say ref="scene_24:66"/></sn:scene>
+    <sn:scene title="talk 7"><sn:say ref="scene_24:89"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_24:67"/><sn:say ref="scene_24:68"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_24:69"/><sn:say ref="scene_24:70"/><sn:say ref="scene_24:71"/></sn:scene>
+    <sn:scene title="talk 16 · Armurier"><sn:say ref="scene_24:8"/><sn:say ref="scene_24:9"/><sn:say ref="scene_24:10"/><sn:say ref="scene_24:11"/></sn:scene>
+    <sn:scene title="talk 17 · Femme"><sn:say ref="scene_24:12"/><sn:say ref="scene_24:13"/><sn:say ref="scene_24:14"/></sn:scene>
+    <sn:scene title="talk 18 · Vieille femme au visage rond"><sn:say ref="scene_24:15"/><sn:say ref="scene_24:16"/><sn:say ref="scene_24:17"/></sn:scene>
+    <sn:scene title="talk 19 · Homme au comptoir"><sn:say ref="scene_24:18"/></sn:scene>
+    <sn:scene title="talk 20 · Barman"><sn:say ref="scene_24:19"/></sn:scene>
+    <sn:scene title="talk 21 · Marin"><sn:say ref="scene_24:20"/></sn:scene>
+    <sn:scene title="talk 22 · Marin"><sn:say ref="scene_24:21"/></sn:scene>
+    <sn:scene title="talk 23 · Vieille vendeuse"><sn:say ref="scene_24:22"/></sn:scene>
+    <sn:scene title="talk 24 · Aubergiste"><sn:say ref="scene_24:23"/><sn:say ref="scene_24:24"/><sn:say ref="scene_24:25"/><sn:say ref="scene_24:26"/><sn:say ref="scene_24:27"/></sn:scene>
+    <sn:scene title="talk 25 · Cliente"><sn:say ref="scene_24:28"/></sn:scene>
+    <sn:scene title="talk 26 · Client"><sn:say ref="scene_24:29"/></sn:scene>
+    <sn:scene title="talk 27 · Apprenti"><sn:say ref="scene_24:30"/></sn:scene>
+    <sn:scene title="talk 28 · Maître de la guilde"><sn:say ref="scene_24:31"/><sn:say ref="scene_24:32"/><sn:say ref="scene_24:33"/><sn:say ref="scene_24:34"/><sn:say ref="scene_24:35"/><sn:say ref="scene_24:36"/></sn:scene>
+    <sn:scene title="talk 29 · Aventurier"><sn:say ref="scene_24:37"/></sn:scene>
+    <sn:scene title="talk 30 · Mère"><sn:say ref="scene_24:38"/><sn:say ref="scene_24:39"/></sn:scene>
+    <sn:scene title="talk 31 · Marie"><sn:say ref="scene_24:40"/><sn:say ref="scene_24:41"/><sn:say ref="scene_24:42"/><sn:say ref="scene_24:43"/><sn:say ref="scene_24:54"/><sn:say ref="scene_24:55"/><sn:say ref="scene_24:56"/></sn:scene>
+    <sn:scene title="talk 40 · Mentor"><sn:say ref="scene_24:44"/><sn:say ref="scene_24:45"/><sn:say ref="scene_24:46"/><sn:say ref="scene_24:47"/><sn:say ref="scene_24:48"/><sn:say ref="scene_24:49"/><sn:say ref="scene_24:50"/></sn:scene>
+    <sn:scene title="talk 41 · Entraîneur"><sn:say ref="scene_24:51"/><sn:say ref="scene_24:52"/><sn:say ref="scene_24:53"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_24:72"/><sn:say ref="scene_24:73"/><sn:say ref="scene_24:74"/><sn:say ref="scene_24:75"/><sn:say ref="scene_24:76"/><sn:say ref="scene_24:77"/><sn:say ref="scene_24:78"/><sn:say ref="scene_24:79"/><sn:say ref="scene_24:80"/></sn:scene>
+    <sn:scene title="tile 21"><sn:say ref="scene_24:81"/><sn:say ref="scene_24:82"/></sn:scene>
+    <sn:scene title="tile 22"><sn:say ref="scene_24:83"/><sn:say ref="scene_24:84"/><sn:say ref="scene_24:85"/><sn:say ref="scene_24:86"/><sn:say ref="scene_24:87"/><sn:say ref="scene_24:88"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 25" place="scene_25:0">
+    <sn:scene title="start"><sn:say ref="scene_25:0"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_25:16"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_25:15"/></sn:scene>
+    <sn:scene title="talk 16 · Marin rustre"><sn:say ref="scene_25:17"/><sn:say ref="scene_25:18"/></sn:scene>
+    <sn:scene title="talk 17 · Gros marin"><sn:say ref="scene_25:19"/><sn:say ref="scene_25:20"/></sn:scene>
+    <sn:scene title="talk 18 · Vieux marin"><sn:say ref="scene_25:21"/><sn:say ref="scene_25:22"/></sn:scene>
+    <sn:scene title="talk 19 · Garçon aux yeux bleus"><sn:say ref="scene_25:23"/><sn:say ref="scene_25:24"/><sn:say ref="scene_25:25"/></sn:scene>
+    <sn:scene title="talk 20 · Ben le Marin"><sn:say ref="scene_25:26"/><sn:say ref="scene_25:27"/><sn:say ref="scene_25:28"/><sn:say ref="scene_25:29"/><sn:say ref="scene_25:30"/><sn:say ref="scene_25:31"/><sn:say ref="scene_25:32"/><sn:say ref="scene_25:33"/><sn:say ref="scene_25:34"/><sn:say ref="scene_25:35"/><sn:say ref="scene_25:36"/><sn:say ref="scene_25:47"/><sn:say ref="scene_25:48"/><sn:say ref="scene_25:49"/><sn:say ref="scene_25:50"/><sn:say ref="scene_25:51"/><sn:say ref="scene_25:52"/><sn:say ref="scene_25:53"/><sn:say ref="scene_25:54"/><sn:say ref="scene_25:55"/><sn:say ref="scene_25:56"/><sn:say ref="scene_25:57"/><sn:say ref="scene_25:58"/><sn:say ref="scene_25:59"/><sn:say ref="scene_25:60"/><sn:say ref="scene_25:61"/><sn:say ref="scene_25:62"/><sn:say ref="scene_25:63"/><sn:say ref="scene_25:64"/><sn:say ref="scene_25:65"/><sn:say ref="scene_25:66"/><sn:say ref="scene_25:67"/><sn:say ref="scene_25:68"/><sn:say ref="scene_25:69"/><sn:say ref="scene_25:70"/><sn:say ref="scene_25:71"/><sn:say ref="scene_25:72"/><sn:say ref="scene_25:73"/><sn:say ref="scene_25:74"/><sn:say ref="scene_25:75"/><sn:say ref="scene_25:76"/><sn:say ref="scene_25:77"/></sn:scene>
+    <sn:scene title="talk 21 · Terry le borgne"><sn:say ref="scene_25:37"/><sn:say ref="scene_25:38"/><sn:say ref="scene_25:39"/><sn:say ref="scene_25:40"/><sn:say ref="scene_25:41"/></sn:scene>
+    <sn:scene title="talk 22 · Marin romantique"><sn:say ref="scene_25:42"/><sn:say ref="scene_25:43"/><sn:say ref="scene_25:44"/><sn:say ref="scene_25:45"/></sn:scene>
+    <sn:scene title="talk 23 · Marin"><sn:say ref="scene_25:46"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_25:2"/><sn:say ref="scene_25:3"/><sn:say ref="scene_25:4"/><sn:say ref="scene_25:5"/></sn:scene>
+    <sn:scene title="tile 3"><sn:say ref="scene_25:6"/><sn:say ref="scene_25:7"/></sn:scene>
+    <sn:scene title="tile 10"><sn:say ref="scene_25:8"/><sn:say ref="scene_25:9"/><sn:say ref="scene_25:10"/><sn:say ref="scene_25:11"/><sn:say ref="scene_25:12"/><sn:say ref="scene_25:13"/><sn:say ref="scene_25:14"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_25:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 26">
+    <sn:scene title="tile 2"><sn:say ref="scene_26:0"/><sn:say ref="scene_26:1"/><sn:say ref="scene_26:2"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 27" place="scene_27:0">
+    <sn:scene title="start"><sn:say ref="scene_27:0"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_27:29"/><sn:say ref="scene_27:30"/><sn:say ref="scene_27:31"/></sn:scene>
+    <sn:scene title="talk 33"><sn:say ref="scene_27:32"/></sn:scene>
+    <sn:scene title="tile 22"><sn:say ref="scene_27:1"/><sn:say ref="scene_27:2"/><sn:say ref="scene_27:3"/><sn:say ref="scene_27:4"/><sn:say ref="scene_27:5"/><sn:say ref="scene_27:6"/><sn:say ref="scene_27:7"/><sn:say ref="scene_27:8"/><sn:say ref="scene_27:9"/><sn:say ref="scene_27:10"/></sn:scene>
+    <sn:scene title="tile 23"><sn:say ref="scene_27:11"/><sn:say ref="scene_27:12"/><sn:say ref="scene_27:13"/><sn:say ref="scene_27:14"/><sn:say ref="scene_27:15"/><sn:say ref="scene_27:16"/><sn:say ref="scene_27:17"/><sn:say ref="scene_27:18"/><sn:say ref="scene_27:19"/><sn:say ref="scene_27:20"/><sn:say ref="scene_27:21"/><sn:say ref="scene_27:22"/><sn:say ref="scene_27:23"/></sn:scene>
+    <sn:scene title="tile 25"><sn:say ref="scene_27:24"/></sn:scene>
+    <sn:scene title="tile 27"><sn:say ref="scene_27:25"/><sn:say ref="scene_27:26"/></sn:scene>
+    <sn:scene title="tile 28"><sn:say ref="scene_27:27"/></sn:scene>
+    <sn:scene title="tile 29"><sn:say ref="scene_27:28"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 28" place="scene_28:0">
+    <sn:scene title="start"><sn:say ref="scene_28:0"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_28:49"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_28:30"/></sn:scene>
+    <sn:scene title="talk 6"><sn:say ref="scene_28:31"/></sn:scene>
+    <sn:scene title="talks 8, 19 · Peintre en devenir"><sn:say ref="scene_28:33"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_28:32"/></sn:scene>
+    <sn:scene title="talk 16 · Mage"><sn:say ref="scene_28:21"/></sn:scene>
+    <sn:scene title="talk 17 · Jeune homme"><sn:say ref="scene_28:22"/></sn:scene>
+    <sn:scene title="talk 18 · Rudoa l'aventurier"><sn:say ref="scene_28:23"/></sn:scene>
+    <sn:scene title="talk 19 · Peintre en devenir"><sn:say ref="scene_28:24"/><sn:say ref="scene_28:25"/><sn:say ref="scene_28:26"/><sn:say ref="scene_28:27"/><sn:say ref="scene_28:28"/><sn:say ref="scene_28:29"/></sn:scene>
+    <sn:scene title="talk 21 · Rosario"><sn:say ref="scene_28:34"/><sn:say ref="scene_28:35"/></sn:scene>
+    <sn:scene title="talk 22 · Chelsea"><sn:say ref="scene_28:36"/></sn:scene>
+    <sn:scene title="talk 23 · Mary"><sn:say ref="scene_28:37"/><sn:say ref="scene_28:38"/><sn:say ref="scene_28:39"/><sn:say ref="scene_28:40"/><sn:say ref="scene_28:41"/><sn:say ref="scene_28:42"/></sn:scene>
+    <sn:scene title="talk 24 · Myuki"><sn:say ref="scene_28:43"/><sn:say ref="scene_28:44"/></sn:scene>
+    <sn:scene title="talk 25 · Ray"><sn:say ref="scene_28:45"/></sn:scene>
+    <sn:scene title="talk 26 · Jeune homme"><sn:say ref="scene_28:46"/></sn:scene>
+    <sn:scene title="talk 27 · Rowell l'épéiste"><sn:say ref="scene_28:47"/></sn:scene>
+    <sn:scene title="talk 28 · Fille"><sn:say ref="scene_28:48"/></sn:scene>
+    <sn:scene title="talks 32-37"><sn:say ref="scene_28:50"/></sn:scene>
+    <sn:scene title="tiles 1-2"><sn:say ref="scene_28:51"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_28:1"/><sn:say ref="scene_28:2"/><sn:say ref="scene_28:3"/><sn:say ref="scene_28:4"/><sn:say ref="scene_28:5"/><sn:say ref="scene_28:6"/><sn:say ref="scene_28:7"/><sn:say ref="scene_28:8"/><sn:say ref="scene_28:9"/><sn:say ref="scene_28:10"/><sn:say ref="scene_28:11"/><sn:say ref="scene_28:12"/><sn:say ref="scene_28:13"/><sn:say ref="scene_28:14"/><sn:say ref="scene_28:15"/><sn:say ref="scene_28:16"/><sn:say ref="scene_28:17"/><sn:say ref="scene_28:18"/><sn:say ref="scene_28:19"/><sn:say ref="scene_28:20"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 29" place="scene_29:0">
+    <sn:scene title="start"><sn:say ref="scene_29:0"/><sn:say ref="scene_29:19"/><sn:say ref="scene_29:20"/><sn:say ref="scene_29:21"/><sn:say ref="scene_29:22"/><sn:say ref="scene_29:23"/><sn:say ref="scene_29:24"/><sn:say ref="scene_29:25"/><sn:say ref="scene_29:26"/><sn:say ref="scene_29:27"/><sn:say ref="scene_29:28"/><sn:say ref="scene_29:29"/><sn:say ref="scene_29:30"/><sn:say ref="scene_29:31"/><sn:say ref="scene_29:32"/><sn:say ref="scene_29:33"/><sn:say ref="scene_29:34"/><sn:say ref="scene_29:35"/><sn:say ref="scene_29:36"/><sn:say ref="scene_29:37"/><sn:say ref="scene_29:38"/><sn:say ref="scene_29:39"/><sn:say ref="scene_29:40"/><sn:say ref="scene_29:41"/><sn:say ref="scene_29:42"/><sn:say ref="scene_29:43"/><sn:say ref="scene_29:44"/><sn:say ref="scene_29:45"/><sn:say ref="scene_29:46"/><sn:say ref="scene_29:47"/><sn:say ref="scene_29:48"/><sn:say ref="scene_29:49"/><sn:say ref="scene_29:50"/></sn:scene>
+    <sn:scene title="talk 16 · Armurier"><sn:say ref="scene_29:5"/></sn:scene>
+    <sn:scene title="talk 17 · Quincaillier"><sn:say ref="scene_29:6"/></sn:scene>
+    <sn:scene title="talk 18 · Épicier"><sn:say ref="scene_29:7"/></sn:scene>
+    <sn:scene title="talk 19 · Garde novice"><sn:say ref="scene_29:8"/><sn:say ref="scene_29:9"/></sn:scene>
+    <sn:scene title="talk 20 · Garde"><sn:say ref="scene_29:10"/><sn:say ref="scene_29:11"/><sn:say ref="scene_29:12"/></sn:scene>
+    <sn:scene title="talk 21 · Mercenaire gaucher"><sn:say ref="scene_29:13"/></sn:scene>
+    <sn:scene title="talk 22 · Xerus le sage"><sn:say ref="scene_29:14"/></sn:scene>
+    <sn:scene title="talk 23 · Chevalier"><sn:say ref="scene_29:15"/></sn:scene>
+    <sn:scene title="talk 24 · Gim le forgeron"><sn:say ref="scene_29:16"/></sn:scene>
+    <sn:scene title="talk 25 · Mercenaire"><sn:say ref="scene_29:17"/></sn:scene>
+    <sn:scene title="talk 26 · Fille"><sn:say ref="scene_29:18"/></sn:scene>
+    <sn:scene title="tile 10"><sn:say ref="scene_29:1"/><sn:say ref="scene_29:2"/><sn:say ref="scene_29:3"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_29:4"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 30">
+    <sn:scene title="start"><sn:say ref="scene_30:0"/><sn:say ref="scene_30:1"/><sn:say ref="scene_30:2"/><sn:say ref="scene_30:3"/><sn:say ref="scene_30:4"/><sn:say ref="scene_30:5"/><sn:say ref="scene_30:6"/><sn:say ref="scene_30:7"/><sn:say ref="scene_30:8"/><sn:say ref="scene_30:9"/><sn:say ref="scene_30:10"/><sn:say ref="scene_30:11"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 31">
+    <sn:scene title="start"><sn:say ref="scene_31:47"/><sn:say ref="scene_31:48"/><sn:say ref="scene_31:49"/><sn:say ref="scene_31:50"/></sn:scene>
+    <sn:scene title="talk 16 · Soldat"><sn:say ref="scene_31:51"/></sn:scene>
+    <sn:scene title="talk 17 · Soldat"><sn:say ref="scene_31:52"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_31:53"/><sn:say ref="scene_31:54"/></sn:scene>
+    <sn:scene title="tile 46"><sn:say ref="scene_31:0"/><sn:say ref="scene_31:1"/></sn:scene>
+    <sn:scene title="tile 51"><sn:say ref="scene_31:26"/><sn:say ref="scene_31:27"/><sn:say ref="scene_31:28"/><sn:say ref="scene_31:29"/><sn:say ref="scene_31:30"/><sn:say ref="scene_31:31"/><sn:say ref="scene_31:32"/><sn:say ref="scene_31:33"/><sn:say ref="scene_31:34"/><sn:say ref="scene_31:35"/><sn:say ref="scene_31:36"/><sn:say ref="scene_31:37"/><sn:say ref="scene_31:38"/><sn:say ref="scene_31:39"/><sn:say ref="scene_31:40"/><sn:say ref="scene_31:41"/><sn:say ref="scene_31:42"/><sn:say ref="scene_31:43"/><sn:say ref="scene_31:44"/><sn:say ref="scene_31:45"/><sn:say ref="scene_31:46"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_31:5"/><sn:say ref="scene_31:6"/><sn:say ref="scene_31:7"/><sn:say ref="scene_31:8"/><sn:say ref="scene_31:9"/><sn:say ref="scene_31:10"/><sn:say ref="scene_31:11"/><sn:say ref="scene_31:12"/><sn:say ref="scene_31:13"/><sn:say ref="scene_31:14"/><sn:say ref="scene_31:15"/><sn:say ref="scene_31:16"/><sn:say ref="scene_31:17"/><sn:say ref="scene_31:18"/><sn:say ref="scene_31:19"/><sn:say ref="scene_31:20"/><sn:say ref="scene_31:21"/><sn:say ref="scene_31:22"/><sn:say ref="scene_31:23"/><sn:say ref="scene_31:24"/><sn:say ref="scene_31:25"/><sn:say ref="scene_31:57"/><sn:say ref="scene_31:58"/><sn:say ref="scene_31:59"/><sn:say ref="scene_31:60"/><sn:say ref="scene_31:61"/><sn:say ref="scene_31:62"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_31:2"/><sn:say ref="scene_31:3"/><sn:say ref="scene_31:4"/><sn:say ref="scene_31:55"/><sn:say ref="scene_31:56"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 32" place="scene_32:0">
+    <sn:scene title="start"><sn:say ref="scene_32:0"/><sn:say ref="scene_32:1"/><sn:say ref="scene_32:2"/><sn:say ref="scene_32:3"/><sn:say ref="scene_32:4"/><sn:say ref="scene_32:5"/><sn:say ref="scene_32:6"/><sn:say ref="scene_32:7"/><sn:say ref="scene_32:8"/><sn:say ref="scene_32:9"/><sn:say ref="scene_32:10"/><sn:say ref="scene_32:50"/><sn:say ref="scene_32:51"/><sn:say ref="scene_32:52"/><sn:say ref="scene_32:53"/><sn:say ref="scene_32:54"/><sn:say ref="scene_32:55"/><sn:say ref="scene_32:56"/><sn:say ref="scene_32:57"/><sn:say ref="scene_32:58"/><sn:say ref="scene_32:59"/><sn:say ref="scene_32:60"/><sn:say ref="scene_32:61"/><sn:say ref="scene_32:62"/><sn:say ref="scene_32:63"/><sn:say ref="scene_32:64"/><sn:say ref="scene_32:65"/><sn:say ref="scene_32:66"/><sn:say ref="scene_32:67"/><sn:say ref="scene_32:68"/><sn:say ref="scene_32:69"/><sn:say ref="scene_32:70"/><sn:say ref="scene_32:71"/><sn:say ref="scene_32:72"/><sn:say ref="scene_32:73"/><sn:say ref="scene_32:74"/><sn:say ref="scene_32:75"/><sn:say ref="scene_32:76"/><sn:say ref="scene_32:77"/><sn:say ref="scene_32:78"/><sn:say ref="scene_32:79"/><sn:say ref="scene_32:80"/><sn:say ref="scene_32:81"/><sn:say ref="scene_32:82"/><sn:say ref="scene_32:83"/><sn:say ref="scene_32:84"/><sn:say ref="scene_32:85"/><sn:say ref="scene_32:86"/><sn:say ref="scene_32:87"/><sn:say ref="scene_32:88"/><sn:say ref="scene_32:89"/><sn:say ref="scene_32:90"/><sn:say ref="scene_32:91"/><sn:say ref="scene_32:92"/><sn:say ref="scene_32:93"/><sn:say ref="scene_32:94"/><sn:say ref="scene_32:95"/><sn:say ref="scene_32:96"/><sn:say ref="scene_32:97"/><sn:say ref="scene_32:98"/><sn:say ref="scene_32:99"/><sn:say ref="scene_32:100"/><sn:say ref="scene_32:101"/><sn:say ref="scene_32:102"/><sn:say ref="scene_32:103"/><sn:say ref="scene_32:104"/><sn:say ref="scene_32:105"/><sn:say ref="scene_32:106"/><sn:say ref="scene_32:107"/><sn:say ref="scene_32:108"/><sn:say ref="scene_32:109"/><sn:say ref="scene_32:110"/><sn:say ref="scene_32:111"/><sn:say ref="scene_32:112"/><sn:say ref="scene_32:113"/><sn:say ref="scene_32:114"/><sn:say ref="scene_32:115"/><sn:say ref="scene_32:116"/><sn:say ref="scene_32:117"/><sn:say ref="scene_32:118"/><sn:say ref="scene_32:119"/><sn:say ref="scene_32:120"/><sn:say ref="scene_32:121"/><sn:say ref="scene_32:122"/><sn:say ref="scene_32:123"/><sn:say ref="scene_32:124"/><sn:say ref="scene_32:125"/><sn:say ref="scene_32:126"/><sn:say ref="scene_32:127"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_32:14"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_32:15"/></sn:scene>
+    <sn:scene title="talk 16 · Maître de la guilde"><sn:say ref="scene_32:18"/><sn:say ref="scene_32:19"/><sn:say ref="scene_32:20"/><sn:say ref="scene_32:21"/><sn:say ref="scene_32:22"/><sn:say ref="scene_32:23"/></sn:scene>
+    <sn:scene title="talk 17 · Conseiller"><sn:say ref="scene_32:24"/></sn:scene>
+    <sn:scene title="talk 18 · Mentor"><sn:say ref="scene_32:25"/><sn:say ref="scene_32:26"/><sn:say ref="scene_32:27"/><sn:say ref="scene_32:28"/><sn:say ref="scene_32:29"/><sn:say ref="scene_32:30"/><sn:say ref="scene_32:31"/></sn:scene>
+    <sn:scene title="talk 19 · Maman"><sn:say ref="scene_32:32"/></sn:scene>
+    <sn:scene title="talk 20 · Petit garçon"><sn:say ref="scene_32:33"/></sn:scene>
+    <sn:scene title="talk 21 · Petite fille"><sn:say ref="scene_32:34"/></sn:scene>
+    <sn:scene title="talk 22 · Loid l'étudiant"><sn:say ref="scene_32:35"/></sn:scene>
+    <sn:scene title="talk 23 · Mage héraldique"><sn:say ref="scene_32:36"/></sn:scene>
+    <sn:scene title="talk 24 · Aubergiste"><sn:say ref="scene_32:37"/><sn:say ref="scene_32:38"/><sn:say ref="scene_32:39"/><sn:say ref="scene_32:40"/><sn:say ref="scene_32:41"/><sn:say ref="scene_32:42"/><sn:say ref="scene_32:43"/><sn:say ref="scene_32:44"/></sn:scene>
+    <sn:scene title="talk 25 · Ryas"><sn:say ref="scene_32:16"/><sn:say ref="scene_32:17"/></sn:scene>
+    <sn:scene title="talk 26 · Soldat assassin"><sn:say ref="scene_32:45"/></sn:scene>
+    <sn:scene title="talk 27 · Chevalier"><sn:say ref="scene_32:46"/></sn:scene>
+    <sn:scene title="talk 28 · Barman"><sn:say ref="scene_32:47"/><sn:say ref="scene_32:48"/><sn:say ref="scene_32:49"/></sn:scene>
+    <sn:scene title="tile 31"><sn:say ref="scene_32:11"/><sn:say ref="scene_32:12"/></sn:scene>
+    <sn:scene title="tile 32"><sn:say ref="scene_32:13"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 33" place="scene_33:0">
+    <sn:scene title="start"><sn:say ref="scene_33:0"/><sn:say ref="scene_33:1"/><sn:say ref="scene_33:16"/><sn:say ref="scene_33:17"/><sn:say ref="scene_33:18"/><sn:say ref="scene_33:19"/><sn:say ref="scene_33:20"/><sn:say ref="scene_33:21"/><sn:say ref="scene_33:22"/><sn:say ref="scene_33:23"/><sn:say ref="scene_33:24"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_33:6"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_33:7"/><sn:say ref="scene_33:8"/><sn:say ref="scene_33:9"/><sn:say ref="scene_33:10"/><sn:say ref="scene_33:11"/><sn:say ref="scene_33:12"/><sn:say ref="scene_33:13"/><sn:say ref="scene_33:14"/><sn:say ref="scene_33:15"/></sn:scene>
+    <sn:scene title="tile 10"><sn:say ref="scene_33:2"/><sn:say ref="scene_33:3"/><sn:say ref="scene_33:4"/><sn:say ref="scene_33:5"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 34" place="scene_34:0">
+    <sn:scene title="start"><sn:say ref="scene_34:0"/></sn:scene>
+    <sn:scene title="talk 7"><sn:say ref="scene_34:97"/></sn:scene>
+    <sn:scene title="talks 9, 30 · Puffy"><sn:say ref="scene_34:98"/><sn:say ref="scene_34:99"/><sn:say ref="scene_34:100"/><sn:say ref="scene_34:101"/><sn:say ref="scene_34:102"/></sn:scene>
+    <sn:scene title="talk 18 · Mercenaire Toku"><sn:say ref="scene_34:6"/><sn:say ref="scene_34:7"/><sn:say ref="scene_34:8"/><sn:say ref="scene_34:9"/></sn:scene>
+    <sn:scene title="talk 19 · Enfant"><sn:say ref="scene_34:10"/></sn:scene>
+    <sn:scene title="talk 20 · Épéiste"><sn:say ref="scene_34:11"/><sn:say ref="scene_34:12"/></sn:scene>
+    <sn:scene title="talk 22 · Adolescent"><sn:say ref="scene_34:13"/></sn:scene>
+    <sn:scene title="talk 26 · Garde"><sn:say ref="scene_34:14"/></sn:scene>
+    <sn:scene title="talk 27 · Aventurier"><sn:say ref="scene_34:15"/></sn:scene>
+    <sn:scene title="talk 30 · Puffy"><sn:say ref="scene_34:16"/><sn:say ref="scene_34:17"/><sn:say ref="scene_34:18"/><sn:say ref="scene_34:19"/><sn:say ref="scene_34:20"/><sn:say ref="scene_34:21"/><sn:say ref="scene_34:22"/><sn:say ref="scene_34:23"/><sn:say ref="scene_34:24"/><sn:say ref="scene_34:25"/><sn:say ref="scene_34:26"/><sn:say ref="scene_34:27"/><sn:say ref="scene_34:28"/><sn:say ref="scene_34:29"/><sn:say ref="scene_34:30"/><sn:say ref="scene_34:31"/><sn:say ref="scene_34:32"/><sn:say ref="scene_34:33"/><sn:say ref="scene_34:34"/><sn:say ref="scene_34:35"/><sn:say ref="scene_34:36"/><sn:say ref="scene_34:37"/><sn:say ref="scene_34:38"/><sn:say ref="scene_34:39"/><sn:say ref="scene_34:40"/><sn:say ref="scene_34:41"/><sn:say ref="scene_34:42"/><sn:say ref="scene_34:43"/><sn:say ref="scene_34:44"/><sn:say ref="scene_34:45"/><sn:say ref="scene_34:46"/><sn:say ref="scene_34:47"/><sn:say ref="scene_34:48"/><sn:say ref="scene_34:49"/><sn:say ref="scene_34:50"/><sn:say ref="scene_34:51"/><sn:say ref="scene_34:52"/><sn:say ref="scene_34:53"/><sn:say ref="scene_34:54"/><sn:say ref="scene_34:55"/><sn:say ref="scene_34:56"/><sn:say ref="scene_34:57"/><sn:say ref="scene_34:58"/><sn:say ref="scene_34:59"/><sn:say ref="scene_34:60"/><sn:say ref="scene_34:61"/><sn:say ref="scene_34:62"/><sn:say ref="scene_34:63"/><sn:say ref="scene_34:64"/><sn:say ref="scene_34:65"/><sn:say ref="scene_34:66"/><sn:say ref="scene_34:67"/><sn:say ref="scene_34:68"/><sn:say ref="scene_34:69"/><sn:say ref="scene_34:70"/><sn:say ref="scene_34:71"/><sn:say ref="scene_34:72"/><sn:say ref="scene_34:73"/><sn:say ref="scene_34:74"/><sn:say ref="scene_34:75"/><sn:say ref="scene_34:76"/><sn:say ref="scene_34:77"/><sn:say ref="scene_34:78"/><sn:say ref="scene_34:79"/><sn:say ref="scene_34:80"/><sn:say ref="scene_34:81"/><sn:say ref="scene_34:82"/><sn:say ref="scene_34:83"/><sn:say ref="scene_34:84"/><sn:say ref="scene_34:85"/><sn:say ref="scene_34:86"/><sn:say ref="scene_34:87"/><sn:say ref="scene_34:88"/><sn:say ref="scene_34:89"/><sn:say ref="scene_34:90"/><sn:say ref="scene_34:91"/><sn:say ref="scene_34:92"/><sn:say ref="scene_34:93"/><sn:say ref="scene_34:94"/><sn:say ref="scene_34:95"/><sn:say ref="scene_34:96"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_34:1"/><sn:say ref="scene_34:2"/></sn:scene>
+    <sn:scene title="tile 4"><sn:say ref="scene_34:3"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_34:4"/><sn:say ref="scene_34:5"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 35" place="scene_35:0">
+    <sn:scene title="start"><sn:say ref="scene_35:0"/><sn:say ref="scene_35:1"/><sn:say ref="scene_35:2"/><sn:say ref="scene_35:3"/><sn:say ref="scene_35:4"/><sn:say ref="scene_35:5"/><sn:say ref="scene_35:6"/><sn:say ref="scene_35:13"/><sn:say ref="scene_35:14"/><sn:say ref="scene_35:15"/><sn:say ref="scene_35:16"/><sn:say ref="scene_35:17"/><sn:say ref="scene_35:18"/><sn:say ref="scene_35:19"/><sn:say ref="scene_35:20"/><sn:say ref="scene_35:21"/><sn:say ref="scene_35:22"/><sn:say ref="scene_35:23"/><sn:say ref="scene_35:24"/><sn:say ref="scene_35:25"/><sn:say ref="scene_35:26"/><sn:say ref="scene_35:27"/><sn:say ref="scene_35:28"/><sn:say ref="scene_35:29"/><sn:say ref="scene_35:30"/><sn:say ref="scene_35:31"/><sn:say ref="scene_35:32"/><sn:say ref="scene_35:33"/><sn:say ref="scene_35:34"/><sn:say ref="scene_35:35"/><sn:say ref="scene_35:36"/><sn:say ref="scene_35:37"/><sn:say ref="scene_35:38"/><sn:say ref="scene_35:39"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_35:8"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_35:9"/></sn:scene>
+    <sn:scene title="talk 17 · Soldat"><sn:say ref="scene_35:10"/></sn:scene>
+    <sn:scene title="talk 18 · Soldat"><sn:say ref="scene_35:11"/></sn:scene>
+    <sn:scene title="talk 24 · Aubergiste"><sn:say ref="scene_35:40"/><sn:say ref="scene_35:41"/><sn:say ref="scene_35:42"/><sn:say ref="scene_35:43"/><sn:say ref="scene_35:44"/><sn:say ref="scene_35:45"/><sn:say ref="scene_35:46"/><sn:say ref="scene_35:47"/></sn:scene>
+    <sn:scene title="talks 32-38"><sn:say ref="scene_35:12"/></sn:scene>
+    <sn:scene title="tile 3"><sn:say ref="scene_35:7"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 36" place="scene_36:0">
+    <sn:scene title="start"><sn:say ref="scene_36:0"/><sn:say ref="scene_36:1"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_36:2"/><sn:say ref="scene_36:3"/><sn:say ref="scene_36:4"/><sn:say ref="scene_36:5"/><sn:say ref="scene_36:6"/><sn:say ref="scene_36:7"/><sn:say ref="scene_36:8"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 37" place="scene_37:25">
+    <sn:scene title="start"><sn:say ref="scene_37:1"/><sn:say ref="scene_37:25"/></sn:scene>
+    <sn:scene title="talk 20"><sn:say ref="scene_37:22"/><sn:say ref="scene_37:23"/></sn:scene>
+    <sn:scene title="talk 46"><sn:say ref="scene_37:18"/><sn:say ref="scene_37:19"/></sn:scene>
+    <sn:scene title="talk 47"><sn:say ref="scene_37:24"/></sn:scene>
+    <sn:scene title="tile 1"><sn:say ref="scene_37:0"/></sn:scene>
+    <sn:scene title="tile 100"><sn:say ref="scene_37:6"/><sn:say ref="scene_37:7"/><sn:say ref="scene_37:8"/></sn:scene>
+    <sn:scene title="tile 101"><sn:say ref="scene_37:2"/><sn:say ref="scene_37:3"/><sn:say ref="scene_37:4"/><sn:say ref="scene_37:5"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_37:9"/><sn:say ref="scene_37:10"/><sn:say ref="scene_37:11"/><sn:say ref="scene_37:12"/><sn:say ref="scene_37:13"/><sn:say ref="scene_37:14"/><sn:say ref="scene_37:15"/><sn:say ref="scene_37:16"/><sn:say ref="scene_37:17"/><sn:say ref="scene_37:20"/><sn:say ref="scene_37:21"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 38" place="scene_38:0">
+    <sn:scene title="start"><sn:say ref="scene_38:0"/></sn:scene>
+    <sn:scene title="talk 9 tile 2"><sn:say ref="scene_38:2"/><sn:say ref="scene_38:3"/><sn:say ref="scene_38:4"/><sn:say ref="scene_38:5"/><sn:say ref="scene_38:6"/><sn:say ref="scene_38:7"/><sn:say ref="scene_38:8"/><sn:say ref="scene_38:9"/><sn:say ref="scene_38:10"/><sn:say ref="scene_38:11"/><sn:say ref="scene_38:12"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_38:13"/><sn:say ref="scene_38:14"/><sn:say ref="scene_38:15"/><sn:say ref="scene_38:16"/><sn:say ref="scene_38:17"/><sn:say ref="scene_38:18"/><sn:say ref="scene_38:19"/><sn:say ref="scene_38:20"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_38:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 39" place="scene_39:0">
+    <sn:scene title="start"><sn:say ref="scene_39:0"/><sn:say ref="scene_39:1"/><sn:say ref="scene_39:25"/><sn:say ref="scene_39:26"/><sn:say ref="scene_39:27"/><sn:say ref="scene_39:28"/><sn:say ref="scene_39:29"/><sn:say ref="scene_39:30"/><sn:say ref="scene_39:31"/><sn:say ref="scene_39:32"/><sn:say ref="scene_39:33"/><sn:say ref="scene_39:34"/><sn:say ref="scene_39:35"/><sn:say ref="scene_39:36"/><sn:say ref="scene_39:37"/><sn:say ref="scene_39:38"/><sn:say ref="scene_39:39"/><sn:say ref="scene_39:40"/><sn:say ref="scene_39:41"/><sn:say ref="scene_39:42"/><sn:say ref="scene_39:43"/><sn:say ref="scene_39:44"/><sn:say ref="scene_39:45"/><sn:say ref="scene_39:46"/><sn:say ref="scene_39:47"/><sn:say ref="scene_39:48"/><sn:say ref="scene_39:49"/><sn:say ref="scene_39:50"/><sn:say ref="scene_39:51"/><sn:say ref="scene_39:52"/><sn:say ref="scene_39:53"/><sn:say ref="scene_39:54"/><sn:say ref="scene_39:55"/><sn:say ref="scene_39:56"/><sn:say ref="scene_39:57"/><sn:say ref="scene_39:58"/><sn:say ref="scene_39:59"/><sn:say ref="scene_39:60"/><sn:say ref="scene_39:61"/><sn:say ref="scene_39:62"/><sn:say ref="scene_39:63"/><sn:say ref="scene_39:64"/><sn:say ref="scene_39:65"/><sn:say ref="scene_39:66"/><sn:say ref="scene_39:67"/><sn:say ref="scene_39:68"/><sn:say ref="scene_39:69"/><sn:say ref="scene_39:70"/><sn:say ref="scene_39:71"/><sn:say ref="scene_39:72"/><sn:say ref="scene_39:73"/><sn:say ref="scene_39:74"/><sn:say ref="scene_39:75"/><sn:say ref="scene_39:76"/><sn:say ref="scene_39:77"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_39:78"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_39:79"/><sn:say ref="scene_39:80"/></sn:scene>
+    <sn:scene title="talk 16 · Garde"><sn:say ref="scene_39:81"/><sn:say ref="scene_39:82"/><sn:say ref="scene_39:83"/><sn:say ref="scene_39:84"/></sn:scene>
+    <sn:scene title="talk 17 · Prisonnier"><sn:say ref="scene_39:85"/></sn:scene>
+    <sn:scene title="talk 18 · Roi d'Astral"><sn:say ref="scene_39:86"/></sn:scene>
+    <sn:scene title="talk 19 · Chancelier"><sn:say ref="scene_39:87"/></sn:scene>
+    <sn:scene title="talk 20 · Reine"><sn:say ref="scene_39:88"/></sn:scene>
+    <sn:scene title="talk 21 · Garde"><sn:say ref="scene_39:89"/></sn:scene>
+    <sn:scene title="talk 22 · Garde"><sn:say ref="scene_39:90"/></sn:scene>
+    <sn:scene title="talk 23 · Sorcier"><sn:say ref="scene_39:91"/></sn:scene>
+    <sn:scene title="talk 24 · Sage"><sn:say ref="scene_39:92"/></sn:scene>
+    <sn:scene title="talk 25 · Mary"><sn:say ref="scene_39:93"/><sn:say ref="scene_39:94"/><sn:say ref="scene_39:95"/></sn:scene>
+    <sn:scene title="talk 26 · Garde"><sn:say ref="scene_39:96"/><sn:say ref="scene_39:97"/><sn:say ref="scene_39:98"/></sn:scene>
+    <sn:scene title="talk 27 · Garde"><sn:say ref="scene_39:99"/><sn:say ref="scene_39:100"/><sn:say ref="scene_39:101"/><sn:say ref="scene_39:102"/></sn:scene>
+    <sn:scene title="talk 28 · Osato le musicien"><sn:say ref="scene_39:103"/></sn:scene>
+    <sn:scene title="tile 19"><sn:say ref="scene_39:3"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_39:4"/><sn:say ref="scene_39:5"/><sn:say ref="scene_39:6"/><sn:say ref="scene_39:7"/><sn:say ref="scene_39:8"/><sn:say ref="scene_39:9"/><sn:say ref="scene_39:10"/><sn:say ref="scene_39:11"/><sn:say ref="scene_39:12"/><sn:say ref="scene_39:13"/><sn:say ref="scene_39:14"/><sn:say ref="scene_39:15"/><sn:say ref="scene_39:16"/><sn:say ref="scene_39:17"/><sn:say ref="scene_39:18"/><sn:say ref="scene_39:19"/><sn:say ref="scene_39:20"/><sn:say ref="scene_39:21"/><sn:say ref="scene_39:22"/><sn:say ref="scene_39:23"/><sn:say ref="scene_39:24"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_39:2"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 40" place="scene_40:0">
+    <sn:scene title="start"><sn:say ref="scene_40:0"/></sn:scene>
+    <sn:scene title="talk 16 · Jeune fille"><sn:say ref="scene_40:1"/></sn:scene>
+    <sn:scene title="talk 17 · Jeune homme"><sn:say ref="scene_40:2"/><sn:say ref="scene_40:3"/></sn:scene>
+    <sn:scene title="talk 18 · Jeune fille"><sn:say ref="scene_40:4"/><sn:say ref="scene_40:5"/></sn:scene>
+    <sn:scene title="talk 19 · Jeune homme"><sn:say ref="scene_40:6"/><sn:say ref="scene_40:7"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 41" place="scene_41:0">
+    <sn:scene title="start"><sn:say ref="scene_41:0"/></sn:scene>
+    <sn:scene title="talk 16 · Marin"><sn:say ref="scene_41:1"/></sn:scene>
+    <sn:scene title="talk 17 · Marin"><sn:say ref="scene_41:2"/></sn:scene>
+    <sn:scene title="talk 18 · Marin"><sn:say ref="scene_41:3"/></sn:scene>
+    <sn:scene title="talk 19 · Marin"><sn:say ref="scene_41:4"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_41:5"/><sn:say ref="scene_41:6"/><sn:say ref="scene_41:7"/><sn:say ref="scene_41:8"/><sn:say ref="scene_41:9"/><sn:say ref="scene_41:10"/><sn:say ref="scene_41:11"/><sn:say ref="scene_41:12"/><sn:say ref="scene_41:13"/><sn:say ref="scene_41:14"/><sn:say ref="scene_41:15"/><sn:say ref="scene_41:16"/><sn:say ref="scene_41:17"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 42" place="scene_42:0">
+    <sn:scene title="start"><sn:say ref="scene_42:0"/><sn:say ref="scene_42:1"/><sn:say ref="scene_42:2"/></sn:scene>
+    <sn:scene title="talk 16 · Guerrier baraqué"><sn:say ref="scene_42:3"/></sn:scene>
+    <sn:scene title="talk 17 · Jeune fille"><sn:say ref="scene_42:4"/><sn:say ref="scene_42:5"/></sn:scene>
+    <sn:scene title="talk 18 · Gamin"><sn:say ref="scene_42:6"/></sn:scene>
+    <sn:scene title="talk 19 · Fillette"><sn:say ref="scene_42:7"/></sn:scene>
+    <sn:scene title="talk 20 · Aventurier"><sn:say ref="scene_42:8"/></sn:scene>
+    <sn:scene title="talk 21 · Fillette"><sn:say ref="scene_42:9"/></sn:scene>
+    <sn:scene title="talk 22 · Fillette"><sn:say ref="scene_42:10"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 43" place="scene_43:0">
+    <sn:scene title="start"><sn:say ref="scene_43:0"/></sn:scene>
+    <sn:scene title="talk 16 · Marin"><sn:say ref="scene_43:1"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_43:2"/><sn:say ref="scene_43:3"/><sn:say ref="scene_43:4"/><sn:say ref="scene_43:5"/><sn:say ref="scene_43:6"/><sn:say ref="scene_43:7"/><sn:say ref="scene_43:8"/><sn:say ref="scene_43:9"/><sn:say ref="scene_43:10"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 44" place="scene_44:0">
+    <sn:scene title="start"><sn:say ref="scene_44:0"/><sn:say ref="scene_44:98"/><sn:say ref="scene_44:99"/><sn:say ref="scene_44:100"/><sn:say ref="scene_44:101"/><sn:say ref="scene_44:102"/><sn:say ref="scene_44:103"/><sn:say ref="scene_44:104"/><sn:say ref="scene_44:105"/><sn:say ref="scene_44:106"/><sn:say ref="scene_44:107"/><sn:say ref="scene_44:108"/><sn:say ref="scene_44:109"/><sn:say ref="scene_44:110"/><sn:say ref="scene_44:111"/><sn:say ref="scene_44:112"/><sn:say ref="scene_44:113"/><sn:say ref="scene_44:114"/><sn:say ref="scene_44:115"/><sn:say ref="scene_44:116"/><sn:say ref="scene_44:117"/><sn:say ref="scene_44:118"/><sn:say ref="scene_44:119"/><sn:say ref="scene_44:120"/><sn:say ref="scene_44:121"/><sn:say ref="scene_44:122"/><sn:say ref="scene_44:123"/><sn:say ref="scene_44:124"/><sn:say ref="scene_44:125"/><sn:say ref="scene_44:126"/><sn:say ref="scene_44:127"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_44:95"/><sn:say ref="scene_44:96"/><sn:say ref="scene_44:97"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_44:2"/><sn:say ref="scene_44:3"/><sn:say ref="scene_44:4"/><sn:say ref="scene_44:5"/><sn:say ref="scene_44:6"/><sn:say ref="scene_44:7"/><sn:say ref="scene_44:8"/><sn:say ref="scene_44:9"/><sn:say ref="scene_44:10"/><sn:say ref="scene_44:11"/><sn:say ref="scene_44:12"/><sn:say ref="scene_44:13"/><sn:say ref="scene_44:14"/><sn:say ref="scene_44:15"/><sn:say ref="scene_44:16"/><sn:say ref="scene_44:17"/><sn:say ref="scene_44:18"/><sn:say ref="scene_44:19"/><sn:say ref="scene_44:20"/><sn:say ref="scene_44:21"/><sn:say ref="scene_44:22"/><sn:say ref="scene_44:23"/><sn:say ref="scene_44:24"/><sn:say ref="scene_44:25"/><sn:say ref="scene_44:26"/><sn:say ref="scene_44:27"/><sn:say ref="scene_44:28"/><sn:say ref="scene_44:29"/><sn:say ref="scene_44:30"/><sn:say ref="scene_44:31"/><sn:say ref="scene_44:32"/><sn:say ref="scene_44:33"/><sn:say ref="scene_44:34"/><sn:say ref="scene_44:35"/><sn:say ref="scene_44:36"/><sn:say ref="scene_44:37"/><sn:say ref="scene_44:38"/><sn:say ref="scene_44:39"/><sn:say ref="scene_44:40"/><sn:say ref="scene_44:41"/><sn:say ref="scene_44:42"/><sn:say ref="scene_44:43"/><sn:say ref="scene_44:44"/><sn:say ref="scene_44:45"/><sn:say ref="scene_44:46"/><sn:say ref="scene_44:47"/><sn:say ref="scene_44:48"/><sn:say ref="scene_44:49"/><sn:say ref="scene_44:50"/><sn:say ref="scene_44:51"/><sn:say ref="scene_44:52"/><sn:say ref="scene_44:53"/><sn:say ref="scene_44:54"/><sn:say ref="scene_44:55"/><sn:say ref="scene_44:56"/><sn:say ref="scene_44:57"/><sn:say ref="scene_44:58"/><sn:say ref="scene_44:59"/><sn:say ref="scene_44:60"/><sn:say ref="scene_44:61"/><sn:say ref="scene_44:62"/><sn:say ref="scene_44:63"/><sn:say ref="scene_44:64"/><sn:say ref="scene_44:65"/><sn:say ref="scene_44:66"/><sn:say ref="scene_44:67"/><sn:say ref="scene_44:68"/><sn:say ref="scene_44:69"/><sn:say ref="scene_44:70"/><sn:say ref="scene_44:71"/><sn:say ref="scene_44:72"/><sn:say ref="scene_44:73"/><sn:say ref="scene_44:74"/><sn:say ref="scene_44:75"/><sn:say ref="scene_44:76"/><sn:say ref="scene_44:77"/><sn:say ref="scene_44:78"/><sn:say ref="scene_44:79"/><sn:say ref="scene_44:80"/><sn:say ref="scene_44:81"/><sn:say ref="scene_44:82"/><sn:say ref="scene_44:83"/><sn:say ref="scene_44:84"/><sn:say ref="scene_44:85"/><sn:say ref="scene_44:86"/><sn:say ref="scene_44:87"/><sn:say ref="scene_44:88"/><sn:say ref="scene_44:89"/><sn:say ref="scene_44:90"/><sn:say ref="scene_44:91"/><sn:say ref="scene_44:92"/><sn:say ref="scene_44:93"/><sn:say ref="scene_44:94"/></sn:scene>
+    <sn:scene title="search start"><sn:say ref="scene_44:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 45" place="scene_45:4">
+    <sn:scene title="start"><sn:say ref="scene_45:3"/><sn:say ref="scene_45:4"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_45:0"/><sn:say ref="scene_45:1"/><sn:say ref="scene_45:2"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 46">
+    <sn:scene title="start tile 51 tile 52"><sn:say ref="scene_46:10"/><sn:say ref="scene_46:11"/><sn:say ref="scene_46:12"/><sn:say ref="scene_46:13"/><sn:say ref="scene_46:14"/><sn:say ref="scene_46:15"/><sn:say ref="scene_46:16"/><sn:say ref="scene_46:17"/><sn:say ref="scene_46:18"/><sn:say ref="scene_46:19"/><sn:say ref="scene_46:20"/><sn:say ref="scene_46:21"/><sn:say ref="scene_46:22"/><sn:say ref="scene_46:23"/><sn:say ref="scene_46:24"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_46:40"/><sn:say ref="scene_46:41"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_46:1"/><sn:say ref="scene_46:2"/><sn:say ref="scene_46:3"/><sn:say ref="scene_46:4"/><sn:say ref="scene_46:5"/><sn:say ref="scene_46:6"/><sn:say ref="scene_46:7"/><sn:say ref="scene_46:25"/><sn:say ref="scene_46:26"/><sn:say ref="scene_46:27"/><sn:say ref="scene_46:28"/><sn:say ref="scene_46:29"/><sn:say ref="scene_46:30"/><sn:say ref="scene_46:31"/><sn:say ref="scene_46:32"/><sn:say ref="scene_46:33"/><sn:say ref="scene_46:34"/><sn:say ref="scene_46:35"/><sn:say ref="scene_46:36"/><sn:say ref="scene_46:37"/><sn:say ref="scene_46:38"/><sn:say ref="scene_46:39"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_46:0"/><sn:say ref="scene_46:8"/><sn:say ref="scene_46:9"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 47">
+    <sn:scene title="start"><sn:say ref="scene_47:4"/><sn:say ref="scene_47:5"/><sn:say ref="scene_47:6"/><sn:say ref="scene_47:7"/><sn:say ref="scene_47:8"/><sn:say ref="scene_47:9"/><sn:say ref="scene_47:10"/><sn:say ref="scene_47:11"/><sn:say ref="scene_47:12"/><sn:say ref="scene_47:13"/><sn:say ref="scene_47:14"/><sn:say ref="scene_47:15"/><sn:say ref="scene_47:16"/><sn:say ref="scene_47:17"/><sn:say ref="scene_47:18"/><sn:say ref="scene_47:19"/><sn:say ref="scene_47:20"/><sn:say ref="scene_47:21"/><sn:say ref="scene_47:22"/><sn:say ref="scene_47:23"/><sn:say ref="scene_47:24"/><sn:say ref="scene_47:25"/><sn:say ref="scene_47:26"/><sn:say ref="scene_47:27"/><sn:say ref="scene_47:28"/><sn:say ref="scene_47:29"/><sn:say ref="scene_47:30"/><sn:say ref="scene_47:31"/><sn:say ref="scene_47:32"/><sn:say ref="scene_47:33"/><sn:say ref="scene_47:34"/><sn:say ref="scene_47:35"/><sn:say ref="scene_47:36"/><sn:say ref="scene_47:37"/><sn:say ref="scene_47:38"/><sn:say ref="scene_47:39"/><sn:say ref="scene_47:40"/><sn:say ref="scene_47:41"/></sn:scene>
+    <sn:scene title="talk 16 · Garde"><sn:say ref="scene_47:2"/></sn:scene>
+    <sn:scene title="talk 17 · Garde"><sn:say ref="scene_47:3"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_47:0"/></sn:scene>
+    <sn:scene title="tile 3"><sn:say ref="scene_47:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 48">
+    <sn:scene title="start"><sn:say ref="scene_48:0"/><sn:say ref="scene_48:1"/><sn:say ref="scene_48:2"/><sn:say ref="scene_48:3"/><sn:say ref="scene_48:4"/><sn:say ref="scene_48:5"/><sn:say ref="scene_48:6"/><sn:say ref="scene_48:7"/><sn:say ref="scene_48:8"/><sn:say ref="scene_48:9"/><sn:say ref="scene_48:10"/><sn:say ref="scene_48:11"/><sn:say ref="scene_48:12"/><sn:say ref="scene_48:13"/><sn:say ref="scene_48:14"/><sn:say ref="scene_48:15"/><sn:say ref="scene_48:17"/><sn:say ref="scene_48:18"/><sn:say ref="scene_48:19"/><sn:say ref="scene_48:20"/><sn:say ref="scene_48:21"/><sn:say ref="scene_48:22"/><sn:say ref="scene_48:23"/><sn:say ref="scene_48:24"/><sn:say ref="scene_48:25"/><sn:say ref="scene_48:26"/><sn:say ref="scene_48:27"/><sn:say ref="scene_48:28"/><sn:say ref="scene_48:29"/><sn:say ref="scene_48:30"/><sn:say ref="scene_48:31"/><sn:say ref="scene_48:32"/><sn:say ref="scene_48:33"/><sn:say ref="scene_48:34"/><sn:say ref="scene_48:35"/><sn:say ref="scene_48:36"/><sn:say ref="scene_48:37"/><sn:say ref="scene_48:38"/><sn:say ref="scene_48:39"/><sn:say ref="scene_48:40"/><sn:say ref="scene_48:41"/><sn:say ref="scene_48:42"/><sn:say ref="scene_48:43"/><sn:say ref="scene_48:44"/><sn:say ref="scene_48:45"/><sn:say ref="scene_48:46"/><sn:say ref="scene_48:47"/><sn:say ref="scene_48:48"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_48:49"/><sn:say ref="scene_48:50"/></sn:scene>
+    <sn:scene title="talk 17"><sn:say ref="scene_48:51"/><sn:say ref="scene_48:52"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_48:53"/><sn:say ref="scene_48:54"/></sn:scene>
+    <sn:scene title="tile 65"><sn:say ref="scene_48:16"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 49" place="scene_49:0">
+    <sn:scene title="start"><sn:say ref="scene_49:0"/><sn:say ref="scene_49:1"/><sn:say ref="scene_49:2"/><sn:say ref="scene_49:3"/><sn:say ref="scene_49:4"/><sn:say ref="scene_49:5"/><sn:say ref="scene_49:6"/><sn:say ref="scene_49:7"/><sn:say ref="scene_49:8"/><sn:say ref="scene_49:23"/><sn:say ref="scene_49:24"/></sn:scene>
+    <sn:scene title="talk 18 · Roi de Moore"><sn:say ref="scene_49:9"/></sn:scene>
+    <sn:scene title="talk 19 · Chancelier"><sn:say ref="scene_49:10"/></sn:scene>
+    <sn:scene title="talk 20 · Reine"><sn:say ref="scene_49:11"/></sn:scene>
+    <sn:scene title="talk 21 · Garde royal"><sn:say ref="scene_49:12"/></sn:scene>
+    <sn:scene title="talk 22 · Garde royal"><sn:say ref="scene_49:13"/></sn:scene>
+    <sn:scene title="talk 23 · Servante"><sn:say ref="scene_49:14"/></sn:scene>
+    <sn:scene title="talk 24 · Servante"><sn:say ref="scene_49:15"/></sn:scene>
+    <sn:scene title="talk 25 · Garde"><sn:say ref="scene_49:16"/></sn:scene>
+    <sn:scene title="talk 26 · Garde"><sn:say ref="scene_49:17"/></sn:scene>
+    <sn:scene title="talk 27 · Sage Grace"><sn:say ref="scene_49:18"/></sn:scene>
+    <sn:scene title="talk 28 · Pasta, chef du palais"><sn:say ref="scene_49:19"/></sn:scene>
+    <sn:scene title="talk 29 · Garde aimant les animaux"><sn:say ref="scene_49:20"/></sn:scene>
+    <sn:scene title="talk 30 · Garde"><sn:say ref="scene_49:21"/></sn:scene>
+    <sn:scene title="talk 31 · Garde"><sn:say ref="scene_49:22"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 50">
+    <sn:scene title="start"><sn:say ref="scene_50:0"/><sn:say ref="scene_50:1"/><sn:say ref="scene_50:2"/><sn:say ref="scene_50:3"/><sn:say ref="scene_50:4"/><sn:say ref="scene_50:5"/></sn:scene>
+    <sn:scene title="talk 6"><sn:say ref="scene_50:20"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_50:24"/><sn:say ref="scene_50:25"/><sn:say ref="scene_50:26"/><sn:say ref="scene_50:27"/><sn:say ref="scene_50:28"/></sn:scene>
+    <sn:scene title="talk 18 · Roi de Sylvalant"><sn:say ref="scene_50:6"/></sn:scene>
+    <sn:scene title="talk 19 · Chancelier"><sn:say ref="scene_50:7"/></sn:scene>
+    <sn:scene title="talk 20 · Reine"><sn:say ref="scene_50:8"/></sn:scene>
+    <sn:scene title="talk 21 · Étudiant"><sn:say ref="scene_50:9"/></sn:scene>
+    <sn:scene title="talk 22 · Mage"><sn:say ref="scene_50:17"/></sn:scene>
+    <sn:scene title="talk 23 · Vieux sage"><sn:say ref="scene_50:10"/></sn:scene>
+    <sn:scene title="talk 24 · Zel le chevalier"><sn:say ref="scene_50:11"/></sn:scene>
+    <sn:scene title="talk 25 · Kurt le chevalier"><sn:say ref="scene_50:12"/></sn:scene>
+    <sn:scene title="talk 26 · Jeune soldat"><sn:say ref="scene_50:13"/></sn:scene>
+    <sn:scene title="talk 27 · Pilon le sage"><sn:say ref="scene_50:14"/></sn:scene>
+    <sn:scene title="talk 28 · Tork le garde"><sn:say ref="scene_50:15"/></sn:scene>
+    <sn:scene title="talk 29 · Yarma le garde"><sn:say ref="scene_50:16"/></sn:scene>
+    <sn:scene title="talk 30 · Homme"><sn:say ref="scene_50:18"/></sn:scene>
+    <sn:scene title="talk 31 · Jon le peintre"><sn:say ref="scene_50:19"/></sn:scene>
+    <sn:scene title="talk 35 · Kanoi l'étudiant"><sn:say ref="scene_50:30"/></sn:scene>
+    <sn:scene title="talk 36 · Étudiant"><sn:say ref="scene_50:29"/></sn:scene>
+    <sn:scene title="tile 40"><sn:say ref="scene_50:21"/><sn:say ref="scene_50:22"/><sn:say ref="scene_50:23"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 51" place="scene_51:0">
+    <sn:scene title="start"><sn:say ref="scene_51:0"/><sn:say ref="scene_51:1"/><sn:say ref="scene_51:2"/><sn:say ref="scene_51:3"/><sn:say ref="scene_51:4"/><sn:say ref="scene_51:5"/><sn:say ref="scene_51:6"/><sn:say ref="scene_51:10"/><sn:say ref="scene_51:11"/><sn:say ref="scene_51:12"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_51:26"/><sn:say ref="scene_51:27"/></sn:scene>
+    <sn:scene title="talk 8"><sn:say ref="scene_51:24"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_51:28"/><sn:say ref="scene_51:29"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_51:25"/></sn:scene>
+    <sn:scene title="talk 16 · Garde"><sn:say ref="scene_51:13"/></sn:scene>
+    <sn:scene title="talk 17 · Garde"><sn:say ref="scene_51:14"/></sn:scene>
+    <sn:scene title="talk 18 · Patrouilleur"><sn:say ref="scene_51:15"/></sn:scene>
+    <sn:scene title="talk 19 · Patrouilleur"><sn:say ref="scene_51:16"/></sn:scene>
+    <sn:scene title="talk 20 · Patrouilleur"><sn:say ref="scene_51:17"/></sn:scene>
+    <sn:scene title="talk 21 · Mercenaire robuste"><sn:say ref="scene_51:18"/></sn:scene>
+    <sn:scene title="talk 22 · Vendeur"><sn:say ref="scene_51:19"/></sn:scene>
+    <sn:scene title="talk 23 · Commerçant"><sn:say ref="scene_51:20"/></sn:scene>
+    <sn:scene title="talk 24 · Fille"><sn:say ref="scene_51:21"/></sn:scene>
+    <sn:scene title="talk 25 · Santa, camelot"><sn:say ref="scene_51:22"/></sn:scene>
+    <sn:scene title="talk 26 · Soldat"><sn:say ref="scene_51:23"/></sn:scene>
+    <sn:scene title="tile 16"><sn:say ref="scene_51:7"/><sn:say ref="scene_51:8"/><sn:say ref="scene_51:9"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 52">
+    <sn:scene title="start"><sn:say ref="scene_52:0"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 53" place="scene_53:0">
+    <sn:scene title="start"><sn:say ref="scene_53:0"/><sn:say ref="scene_53:1"/><sn:say ref="scene_53:2"/><sn:say ref="scene_53:3"/><sn:say ref="scene_53:4"/><sn:say ref="scene_53:5"/><sn:say ref="scene_53:6"/><sn:say ref="scene_53:7"/><sn:say ref="scene_53:8"/><sn:say ref="scene_53:45"/><sn:say ref="scene_53:46"/><sn:say ref="scene_53:47"/><sn:say ref="scene_53:48"/><sn:say ref="scene_53:49"/><sn:say ref="scene_53:50"/><sn:say ref="scene_53:51"/><sn:say ref="scene_53:52"/><sn:say ref="scene_53:53"/><sn:say ref="scene_53:54"/><sn:say ref="scene_53:55"/><sn:say ref="scene_53:56"/><sn:say ref="scene_53:57"/><sn:say ref="scene_53:58"/><sn:say ref="scene_53:59"/><sn:say ref="scene_53:60"/><sn:say ref="scene_53:61"/><sn:say ref="scene_53:62"/><sn:say ref="scene_53:63"/><sn:say ref="scene_53:64"/><sn:say ref="scene_53:65"/><sn:say ref="scene_53:66"/></sn:scene>
+    <sn:scene title="talk 16 · Vieil homme"><sn:say ref="scene_53:9"/></sn:scene>
+    <sn:scene title="talk 17 · Homme"><sn:say ref="scene_53:10"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_53:11"/><sn:say ref="scene_53:12"/></sn:scene>
+    <sn:scene title="talk 20 · Vieil homme branché"><sn:say ref="scene_53:13"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_53:14"/></sn:scene>
+    <sn:scene title="talk 22 · Vendeur"><sn:say ref="scene_53:15"/></sn:scene>
+    <sn:scene title="talk 23 · Vendeur"><sn:say ref="scene_53:16"/></sn:scene>
+    <sn:scene title="talk 24 · Vendeur"><sn:say ref="scene_53:17"/></sn:scene>
+    <sn:scene title="talk 25 · Barman"><sn:say ref="scene_53:18"/></sn:scene>
+    <sn:scene title="talk 26 · Yama"><sn:say ref="scene_53:19"/></sn:scene>
+    <sn:scene title="talk 27 · Homme"><sn:say ref="scene_53:20"/></sn:scene>
+    <sn:scene title="talk 28 · Vieille femme"><sn:say ref="scene_53:21"/><sn:say ref="scene_53:22"/><sn:say ref="scene_53:23"/><sn:say ref="scene_53:24"/><sn:say ref="scene_53:25"/><sn:say ref="scene_53:26"/></sn:scene>
+    <sn:scene title="talk 29 · Aventurier"><sn:say ref="scene_53:27"/></sn:scene>
+    <sn:scene title="talk 30 · Homme"><sn:say ref="scene_53:28"/></sn:scene>
+    <sn:scene title="talk 40 · Maître de la guilde"><sn:say ref="scene_53:29"/><sn:say ref="scene_53:30"/><sn:say ref="scene_53:31"/><sn:say ref="scene_53:32"/><sn:say ref="scene_53:33"/><sn:say ref="scene_53:34"/></sn:scene>
+    <sn:scene title="talk 41 · Conseiller"><sn:say ref="scene_53:35"/><sn:say ref="scene_53:36"/><sn:say ref="scene_53:37"/></sn:scene>
+    <sn:scene title="talk 42 · Mentor"><sn:say ref="scene_53:38"/><sn:say ref="scene_53:39"/><sn:say ref="scene_53:40"/><sn:say ref="scene_53:41"/><sn:say ref="scene_53:42"/><sn:say ref="scene_53:43"/><sn:say ref="scene_53:44"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 54" place="scene_54:0">
+    <sn:scene title="start"><sn:say ref="scene_54:0"/><sn:say ref="scene_54:1"/><sn:say ref="scene_54:2"/><sn:say ref="scene_54:3"/><sn:say ref="scene_54:4"/><sn:say ref="scene_54:5"/><sn:say ref="scene_54:6"/><sn:say ref="scene_54:7"/></sn:scene>
+    <sn:scene title="talks 9, 24 · Femme chevalier"><sn:say ref="scene_54:24"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_54:45"/><sn:say ref="scene_54:46"/><sn:say ref="scene_54:47"/><sn:say ref="scene_54:48"/><sn:say ref="scene_54:49"/><sn:say ref="scene_54:50"/><sn:say ref="scene_54:51"/><sn:say ref="scene_54:52"/><sn:say ref="scene_54:53"/><sn:say ref="scene_54:54"/><sn:say ref="scene_54:55"/><sn:say ref="scene_54:56"/><sn:say ref="scene_54:57"/><sn:say ref="scene_54:58"/><sn:say ref="scene_54:59"/></sn:scene>
+    <sn:scene title="talk 16 · Aubergiste"><sn:say ref="scene_54:8"/><sn:say ref="scene_54:9"/><sn:say ref="scene_54:10"/><sn:say ref="scene_54:11"/><sn:say ref="scene_54:12"/><sn:say ref="scene_54:13"/><sn:say ref="scene_54:14"/></sn:scene>
+    <sn:scene title="talk 18 · Mercenaire borgne"><sn:say ref="scene_54:15"/></sn:scene>
+    <sn:scene title="talk 19 · Worus le mercenaire"><sn:say ref="scene_54:16"/></sn:scene>
+    <sn:scene title="talk 20 · Vieille femme"><sn:say ref="scene_54:17"/></sn:scene>
+    <sn:scene title="talk 21 · Vieil homme"><sn:say ref="scene_54:18"/></sn:scene>
+    <sn:scene title="talk 22 · Vendeur"><sn:say ref="scene_54:19"/></sn:scene>
+    <sn:scene title="talk 23 · Jeune chevalier"><sn:say ref="scene_54:20"/></sn:scene>
+    <sn:scene title="talk 24 · Femme chevalier"><sn:say ref="scene_54:21"/><sn:say ref="scene_54:22"/><sn:say ref="scene_54:23"/></sn:scene>
+    <sn:scene title="talk 25 · Vendeur"><sn:say ref="scene_54:25"/></sn:scene>
+    <sn:scene title="talk 26 · Vendeur"><sn:say ref="scene_54:26"/></sn:scene>
+    <sn:scene title="talk 27 · Aventurier"><sn:say ref="scene_54:27"/></sn:scene>
+    <sn:scene title="talk 28 · Clochard"><sn:say ref="scene_54:28"/></sn:scene>
+    <sn:scene title="talk 29 · Maître de la guilde"><sn:say ref="scene_54:29"/><sn:say ref="scene_54:30"/><sn:say ref="scene_54:31"/><sn:say ref="scene_54:32"/><sn:say ref="scene_54:33"/><sn:say ref="scene_54:34"/></sn:scene>
+    <sn:scene title="talk 30 · Conseiller"><sn:say ref="scene_54:35"/><sn:say ref="scene_54:36"/><sn:say ref="scene_54:37"/></sn:scene>
+    <sn:scene title="talk 31 · Mentor"><sn:say ref="scene_54:38"/><sn:say ref="scene_54:39"/><sn:say ref="scene_54:40"/><sn:say ref="scene_54:41"/><sn:say ref="scene_54:42"/><sn:say ref="scene_54:43"/><sn:say ref="scene_54:44"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 55" place="scene_55:0">
+    <sn:scene title="start"><sn:say ref="scene_55:0"/><sn:say ref="scene_55:5"/><sn:say ref="scene_55:6"/><sn:say ref="scene_55:7"/><sn:say ref="scene_55:11"/><sn:say ref="scene_55:12"/><sn:say ref="scene_55:13"/><sn:say ref="scene_55:14"/><sn:say ref="scene_55:15"/><sn:say ref="scene_55:16"/><sn:say ref="scene_55:17"/><sn:say ref="scene_55:18"/><sn:say ref="scene_55:19"/><sn:say ref="scene_55:20"/><sn:say ref="scene_55:21"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_55:22"/></sn:scene>
+    <sn:scene title="talk 16 · Garde"><sn:say ref="scene_55:1"/><sn:say ref="scene_55:2"/></sn:scene>
+    <sn:scene title="talk 17 · Garde"><sn:say ref="scene_55:3"/><sn:say ref="scene_55:4"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 56">
+    <sn:scene title="start"><sn:say ref="scene_56:0"/><sn:say ref="scene_56:1"/><sn:say ref="scene_56:2"/><sn:say ref="scene_56:3"/><sn:say ref="scene_56:4"/><sn:say ref="scene_56:5"/><sn:say ref="scene_56:6"/><sn:say ref="scene_56:7"/><sn:say ref="scene_56:8"/><sn:say ref="scene_56:9"/><sn:say ref="scene_56:10"/><sn:say ref="scene_56:11"/><sn:say ref="scene_56:12"/><sn:say ref="scene_56:13"/><sn:say ref="scene_56:14"/><sn:say ref="scene_56:15"/><sn:say ref="scene_56:16"/><sn:say ref="scene_56:17"/><sn:say ref="scene_56:18"/><sn:say ref="scene_56:19"/><sn:say ref="scene_56:20"/><sn:say ref="scene_56:21"/><sn:say ref="scene_56:22"/><sn:say ref="scene_56:23"/><sn:say ref="scene_56:24"/><sn:say ref="scene_56:25"/><sn:say ref="scene_56:26"/><sn:say ref="scene_56:27"/><sn:say ref="scene_56:28"/><sn:say ref="scene_56:29"/><sn:say ref="scene_56:30"/><sn:say ref="scene_56:31"/><sn:say ref="scene_56:32"/><sn:say ref="scene_56:33"/><sn:say ref="scene_56:34"/><sn:say ref="scene_56:35"/><sn:say ref="scene_56:36"/><sn:say ref="scene_56:37"/><sn:say ref="scene_56:38"/><sn:say ref="scene_56:39"/><sn:say ref="scene_56:40"/><sn:say ref="scene_56:41"/><sn:say ref="scene_56:42"/><sn:say ref="scene_56:43"/><sn:say ref="scene_56:44"/><sn:say ref="scene_56:45"/><sn:say ref="scene_56:46"/><sn:say ref="scene_56:47"/><sn:say ref="scene_56:48"/><sn:say ref="scene_56:49"/><sn:say ref="scene_56:50"/><sn:say ref="scene_56:51"/><sn:say ref="scene_56:52"/><sn:say ref="scene_56:53"/><sn:say ref="scene_56:54"/><sn:say ref="scene_56:55"/><sn:say ref="scene_56:56"/><sn:say ref="scene_56:57"/><sn:say ref="scene_56:58"/></sn:scene>
+    <sn:scene title="tile 64"><sn:say ref="scene_56:59"/><sn:say ref="scene_56:60"/><sn:say ref="scene_56:61"/><sn:say ref="scene_56:62"/><sn:say ref="scene_56:63"/><sn:say ref="scene_56:64"/><sn:say ref="scene_56:65"/><sn:say ref="scene_56:66"/><sn:say ref="scene_56:67"/><sn:say ref="scene_56:68"/><sn:say ref="scene_56:69"/><sn:say ref="scene_56:70"/><sn:say ref="scene_56:71"/><sn:say ref="scene_56:72"/><sn:say ref="scene_56:73"/><sn:say ref="scene_56:74"/><sn:say ref="scene_56:75"/><sn:say ref="scene_56:76"/><sn:say ref="scene_56:77"/><sn:say ref="scene_56:78"/><sn:say ref="scene_56:79"/><sn:say ref="scene_56:80"/><sn:say ref="scene_56:81"/><sn:say ref="scene_56:82"/><sn:say ref="scene_56:83"/><sn:say ref="scene_56:84"/><sn:say ref="scene_56:85"/><sn:say ref="scene_56:86"/><sn:say ref="scene_56:87"/><sn:say ref="scene_56:88"/><sn:say ref="scene_56:89"/><sn:say ref="scene_56:90"/><sn:say ref="scene_56:91"/><sn:say ref="scene_56:92"/><sn:say ref="scene_56:93"/><sn:say ref="scene_56:94"/><sn:say ref="scene_56:95"/><sn:say ref="scene_56:96"/><sn:say ref="scene_56:97"/><sn:say ref="scene_56:98"/><sn:say ref="scene_56:99"/><sn:say ref="scene_56:100"/><sn:say ref="scene_56:101"/><sn:say ref="scene_56:102"/><sn:say ref="scene_56:103"/><sn:say ref="scene_56:104"/><sn:say ref="scene_56:105"/><sn:say ref="scene_56:106"/><sn:say ref="scene_56:107"/><sn:say ref="scene_56:108"/><sn:say ref="scene_56:109"/><sn:say ref="scene_56:110"/><sn:say ref="scene_56:111"/><sn:say ref="scene_56:112"/><sn:say ref="scene_56:113"/><sn:say ref="scene_56:114"/><sn:say ref="scene_56:115"/><sn:say ref="scene_56:116"/><sn:say ref="scene_56:117"/><sn:say ref="scene_56:118"/><sn:say ref="scene_56:119"/><sn:say ref="scene_56:120"/><sn:say ref="scene_56:121"/><sn:say ref="scene_56:122"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 57" place="scene_57:0">
+    <sn:scene title="start"><sn:say ref="scene_57:0"/><sn:say ref="scene_57:1"/><sn:say ref="scene_57:2"/><sn:say ref="scene_57:3"/><sn:say ref="scene_57:4"/><sn:say ref="scene_57:5"/><sn:say ref="scene_57:6"/><sn:say ref="scene_57:7"/><sn:say ref="scene_57:8"/><sn:say ref="scene_57:9"/><sn:say ref="scene_57:42"/><sn:say ref="scene_57:43"/><sn:say ref="scene_57:44"/><sn:say ref="scene_57:45"/><sn:say ref="scene_57:46"/><sn:say ref="scene_57:47"/><sn:say ref="scene_57:48"/><sn:say ref="scene_57:49"/><sn:say ref="scene_57:50"/><sn:say ref="scene_57:51"/><sn:say ref="scene_57:52"/><sn:say ref="scene_57:53"/><sn:say ref="scene_57:54"/><sn:say ref="scene_57:55"/><sn:say ref="scene_57:56"/><sn:say ref="scene_57:57"/><sn:say ref="scene_57:58"/><sn:say ref="scene_57:59"/><sn:say ref="scene_57:60"/><sn:say ref="scene_57:61"/><sn:say ref="scene_57:62"/><sn:say ref="scene_57:63"/><sn:say ref="scene_57:64"/><sn:say ref="scene_57:65"/><sn:say ref="scene_57:66"/><sn:say ref="scene_57:67"/><sn:say ref="scene_57:68"/><sn:say ref="scene_57:69"/><sn:say ref="scene_57:70"/><sn:say ref="scene_57:71"/><sn:say ref="scene_57:72"/><sn:say ref="scene_57:73"/><sn:say ref="scene_57:74"/><sn:say ref="scene_57:75"/></sn:scene>
+    <sn:scene title="talk 16 · Maître de la guilde"><sn:say ref="scene_57:10"/><sn:say ref="scene_57:11"/><sn:say ref="scene_57:12"/><sn:say ref="scene_57:13"/><sn:say ref="scene_57:14"/><sn:say ref="scene_57:15"/></sn:scene>
+    <sn:scene title="talk 17 · Conseiller"><sn:say ref="scene_57:16"/></sn:scene>
+    <sn:scene title="talk 18 · Mentor"><sn:say ref="scene_57:17"/><sn:say ref="scene_57:18"/><sn:say ref="scene_57:19"/><sn:say ref="scene_57:20"/><sn:say ref="scene_57:21"/><sn:say ref="scene_57:22"/><sn:say ref="scene_57:23"/></sn:scene>
+    <sn:scene title="talk 19 · Fille"><sn:say ref="scene_57:24"/></sn:scene>
+    <sn:scene title="talk 20 · Femme"><sn:say ref="scene_57:25"/></sn:scene>
+    <sn:scene title="talk 21 · Homme"><sn:say ref="scene_57:26"/></sn:scene>
+    <sn:scene title="talk 22 · Aventurier"><sn:say ref="scene_57:27"/></sn:scene>
+    <sn:scene title="talk 23 · Aubergiste"><sn:say ref="scene_57:28"/><sn:say ref="scene_57:29"/><sn:say ref="scene_57:30"/><sn:say ref="scene_57:31"/><sn:say ref="scene_57:32"/></sn:scene>
+    <sn:scene title="talk 24 · Expert en pêche"><sn:say ref="scene_57:33"/></sn:scene>
+    <sn:scene title="talk 25 · Homme de bon goût"><sn:say ref="scene_57:34"/></sn:scene>
+    <sn:scene title="talk 26 · Selena"><sn:say ref="scene_57:35"/></sn:scene>
+    <sn:scene title="talk 27 · Père d'Osato"><sn:say ref="scene_57:36"/></sn:scene>
+    <sn:scene title="talk 28 · Commerçant"><sn:say ref="scene_57:37"/></sn:scene>
+    <sn:scene title="talk 29 · Kurosan"><sn:say ref="scene_57:38"/></sn:scene>
+    <sn:scene title="talk 30 · Belnar l'écolier"><sn:say ref="scene_57:39"/></sn:scene>
+    <sn:scene title="talk 31 · Homme"><sn:say ref="scene_57:40"/></sn:scene>
+    <sn:scene title="talk 32 · Kuralin"><sn:say ref="scene_57:41"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 58" place="scene_58:0">
+    <sn:scene title="start"><sn:say ref="scene_58:0"/><sn:say ref="scene_58:1"/><sn:say ref="scene_58:2"/><sn:say ref="scene_58:3"/><sn:say ref="scene_58:4"/><sn:say ref="scene_58:5"/><sn:say ref="scene_58:6"/><sn:say ref="scene_58:7"/></sn:scene>
+    <sn:scene title="talk 16 · Maître de la Guilde"><sn:say ref="scene_58:8"/><sn:say ref="scene_58:9"/><sn:say ref="scene_58:10"/><sn:say ref="scene_58:11"/><sn:say ref="scene_58:12"/><sn:say ref="scene_58:13"/></sn:scene>
+    <sn:scene title="talk 17 · Conseiller"><sn:say ref="scene_58:14"/></sn:scene>
+    <sn:scene title="talk 18 · Mentor"><sn:say ref="scene_58:15"/><sn:say ref="scene_58:16"/><sn:say ref="scene_58:17"/><sn:say ref="scene_58:18"/><sn:say ref="scene_58:19"/><sn:say ref="scene_58:20"/><sn:say ref="scene_58:21"/></sn:scene>
+    <sn:scene title="talk 19 · Femme"><sn:say ref="scene_58:22"/><sn:say ref="scene_58:23"/></sn:scene>
+    <sn:scene title="talk 20 · Aventurier"><sn:say ref="scene_58:24"/></sn:scene>
+    <sn:scene title="talk 21 · Homme"><sn:say ref="scene_58:25"/><sn:say ref="scene_58:26"/></sn:scene>
+    <sn:scene title="talk 22 · Aventurier"><sn:say ref="scene_58:27"/></sn:scene>
+    <sn:scene title="talk 23 · Morgan l'armurier"><sn:say ref="scene_58:28"/></sn:scene>
+    <sn:scene title="talk 24 · Peter le vendeur"><sn:say ref="scene_58:29"/></sn:scene>
+    <sn:scene title="talk 25 · Restaurant"><sn:say ref="scene_58:30"/><sn:say ref="scene_58:31"/><sn:say ref="scene_58:32"/><sn:say ref="scene_58:33"/><sn:say ref="scene_58:34"/><sn:say ref="scene_58:35"/></sn:scene>
+    <sn:scene title="talk 26 · Tenancier"><sn:say ref="scene_58:36"/></sn:scene>
+    <sn:scene title="talk 27 · Vieille aubergiste"><sn:say ref="scene_58:37"/><sn:say ref="scene_58:38"/><sn:say ref="scene_58:39"/><sn:say ref="scene_58:40"/><sn:say ref="scene_58:41"/></sn:scene>
+    <sn:scene title="talk 28 · Vieil homme"><sn:say ref="scene_58:42"/><sn:say ref="scene_58:43"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 59" place="scene_59:0">
+    <sn:scene title="start"><sn:say ref="scene_59:0"/><sn:say ref="scene_59:1"/><sn:say ref="scene_59:2"/><sn:say ref="scene_59:3"/><sn:say ref="scene_59:4"/><sn:say ref="scene_59:5"/><sn:say ref="scene_59:6"/><sn:say ref="scene_59:7"/><sn:say ref="scene_59:8"/><sn:say ref="scene_59:37"/><sn:say ref="scene_59:38"/><sn:say ref="scene_59:39"/><sn:say ref="scene_59:40"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_59:34"/></sn:scene>
+    <sn:scene title="talk 7"><sn:say ref="scene_59:36"/></sn:scene>
+    <sn:scene title="talk 9"><sn:say ref="scene_59:16"/><sn:say ref="scene_59:17"/><sn:say ref="scene_59:18"/><sn:say ref="scene_59:19"/><sn:say ref="scene_59:20"/><sn:say ref="scene_59:21"/><sn:say ref="scene_59:22"/><sn:say ref="scene_59:23"/><sn:say ref="scene_59:24"/><sn:say ref="scene_59:25"/><sn:say ref="scene_59:26"/><sn:say ref="scene_59:27"/><sn:say ref="scene_59:28"/><sn:say ref="scene_59:29"/><sn:say ref="scene_59:30"/><sn:say ref="scene_59:31"/><sn:say ref="scene_59:32"/><sn:say ref="scene_59:33"/></sn:scene>
+    <sn:scene title="talk 10"><sn:say ref="scene_59:41"/></sn:scene>
+    <sn:scene title="talk 16 · Garde"><sn:say ref="scene_59:9"/></sn:scene>
+    <sn:scene title="talk 17 · Jeune homme"><sn:say ref="scene_59:10"/></sn:scene>
+    <sn:scene title="talk 18 · Leeza"><sn:say ref="scene_59:11"/></sn:scene>
+    <sn:scene title="talk 19 · Jeune homme patibulaire"><sn:say ref="scene_59:12"/></sn:scene>
+    <sn:scene title="talk 20 · Garde"><sn:say ref="scene_59:13"/></sn:scene>
+    <sn:scene title="talk 21 · Fille"><sn:say ref="scene_59:14"/></sn:scene>
+    <sn:scene title="talk 22 · Elina"><sn:say ref="scene_59:15"/></sn:scene>
+    <sn:scene title="talk 23 · Vendeur itinérant"><sn:say ref="scene_59:35"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 60" place="scene_60:0">
+    <sn:scene title="start"><sn:say ref="scene_60:0"/><sn:say ref="scene_60:1"/><sn:say ref="scene_60:28"/><sn:say ref="scene_60:29"/><sn:say ref="scene_60:30"/><sn:say ref="scene_60:31"/><sn:say ref="scene_60:32"/><sn:say ref="scene_60:33"/><sn:say ref="scene_60:34"/><sn:say ref="scene_60:35"/><sn:say ref="scene_60:36"/><sn:say ref="scene_60:37"/><sn:say ref="scene_60:38"/><sn:say ref="scene_60:39"/><sn:say ref="scene_60:40"/><sn:say ref="scene_60:41"/><sn:say ref="scene_60:42"/><sn:say ref="scene_60:43"/><sn:say ref="scene_60:44"/><sn:say ref="scene_60:45"/><sn:say ref="scene_60:46"/><sn:say ref="scene_60:47"/><sn:say ref="scene_60:48"/><sn:say ref="scene_60:49"/><sn:say ref="scene_60:50"/><sn:say ref="scene_60:51"/><sn:say ref="scene_60:52"/><sn:say ref="scene_60:53"/><sn:say ref="scene_60:54"/><sn:say ref="scene_60:55"/><sn:say ref="scene_60:56"/><sn:say ref="scene_60:57"/><sn:say ref="scene_60:58"/><sn:say ref="scene_60:59"/><sn:say ref="scene_60:60"/><sn:say ref="scene_60:61"/><sn:say ref="scene_60:62"/><sn:say ref="scene_60:63"/><sn:say ref="scene_60:64"/><sn:say ref="scene_60:65"/><sn:say ref="scene_60:66"/><sn:say ref="scene_60:67"/><sn:say ref="scene_60:68"/><sn:say ref="scene_60:69"/><sn:say ref="scene_60:70"/><sn:say ref="scene_60:71"/><sn:say ref="scene_60:72"/><sn:say ref="scene_60:73"/><sn:say ref="scene_60:74"/><sn:say ref="scene_60:75"/><sn:say ref="scene_60:76"/><sn:say ref="scene_60:77"/><sn:say ref="scene_60:78"/><sn:say ref="scene_60:79"/><sn:say ref="scene_60:80"/><sn:say ref="scene_60:81"/><sn:say ref="scene_60:82"/><sn:say ref="scene_60:83"/><sn:say ref="scene_60:84"/><sn:say ref="scene_60:98"/><sn:say ref="scene_60:99"/><sn:say ref="scene_60:100"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_60:88"/><sn:say ref="scene_60:93"/><sn:say ref="scene_60:95"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_60:92"/><sn:say ref="scene_60:97"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_60:89"/><sn:say ref="scene_60:94"/></sn:scene>
+    <sn:scene title="talk 8"><sn:say ref="scene_60:91"/><sn:say ref="scene_60:96"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_60:90"/></sn:scene>
+    <sn:scene title="talks 16-17 · Garde"><sn:say ref="scene_60:2"/><sn:say ref="scene_60:3"/></sn:scene>
+    <sn:scene title="talk 18 · Roi de Van"><sn:say ref="scene_60:4"/><sn:say ref="scene_60:5"/><sn:say ref="scene_60:6"/></sn:scene>
+    <sn:scene title="talk 19 · Chancelier"><sn:say ref="scene_60:7"/></sn:scene>
+    <sn:scene title="talk 20 · Reine"><sn:say ref="scene_60:8"/></sn:scene>
+    <sn:scene title="talk 22 · Étudiant excité"><sn:say ref="scene_60:9"/></sn:scene>
+    <sn:scene title="talk 23 · Peintre royal"><sn:say ref="scene_60:10"/></sn:scene>
+    <sn:scene title="talk 24 · Garde"><sn:say ref="scene_60:11"/></sn:scene>
+    <sn:scene title="talk 25 · Mage"><sn:say ref="scene_60:12"/></sn:scene>
+    <sn:scene title="talk 26 · Mage"><sn:say ref="scene_60:13"/></sn:scene>
+    <sn:scene title="talk 27 · Sage Riddo"><sn:say ref="scene_60:14"/></sn:scene>
+    <sn:scene title="talk 28 · Servante"><sn:say ref="scene_60:15"/></sn:scene>
+    <sn:scene title="talk 29 · Servante Juliette"><sn:say ref="scene_60:16"/><sn:say ref="scene_60:17"/><sn:say ref="scene_60:18"/><sn:say ref="scene_60:19"/><sn:say ref="scene_60:20"/><sn:say ref="scene_60:21"/><sn:say ref="scene_60:22"/></sn:scene>
+    <sn:scene title="talk 30 · Soldat"><sn:say ref="scene_60:23"/></sn:scene>
+    <sn:scene title="talk 40 · Jeune fille"><sn:say ref="scene_60:24"/></sn:scene>
+    <sn:scene title="talk 41 · Chevalier indécis"><sn:say ref="scene_60:25"/></sn:scene>
+    <sn:scene title="talk 42 · Enoru au cœur brisé"><sn:say ref="scene_60:26"/></sn:scene>
+    <sn:scene title="talk 43 · Vank le sage"><sn:say ref="scene_60:27"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 61">
+    <sn:scene title="tile 21"><sn:say ref="scene_61:0"/><sn:say ref="scene_61:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 62">
+    <sn:scene title="start"><sn:say ref="scene_62:2"/><sn:say ref="scene_62:3"/><sn:say ref="scene_62:4"/><sn:say ref="scene_62:5"/><sn:say ref="scene_62:6"/></sn:scene>
+    <sn:scene title="talk 16 · Soldat"><sn:say ref="scene_62:0"/><sn:say ref="scene_62:7"/><sn:say ref="scene_62:8"/></sn:scene>
+    <sn:scene title="talk 17 · Soldat"><sn:say ref="scene_62:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 63">
+    <sn:scene title="talk 16 · Soldat"><sn:say ref="scene_63:4"/></sn:scene>
+    <sn:scene title="talk 17 · Soldat"><sn:say ref="scene_63:5"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_63:48"/><sn:say ref="scene_63:49"/></sn:scene>
+    <sn:scene title="talk 19"><sn:say ref="scene_63:50"/><sn:say ref="scene_63:51"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_63:0"/><sn:say ref="scene_63:1"/><sn:say ref="scene_63:2"/><sn:say ref="scene_63:3"/></sn:scene>
+    <sn:scene title="tile 22"><sn:say ref="scene_63:31"/><sn:say ref="scene_63:32"/><sn:say ref="scene_63:33"/><sn:say ref="scene_63:34"/><sn:say ref="scene_63:35"/><sn:say ref="scene_63:36"/><sn:say ref="scene_63:37"/><sn:say ref="scene_63:38"/><sn:say ref="scene_63:39"/><sn:say ref="scene_63:40"/><sn:say ref="scene_63:41"/><sn:say ref="scene_63:42"/><sn:say ref="scene_63:43"/><sn:say ref="scene_63:44"/><sn:say ref="scene_63:45"/><sn:say ref="scene_63:46"/><sn:say ref="scene_63:47"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_63:6"/><sn:say ref="scene_63:7"/><sn:say ref="scene_63:8"/><sn:say ref="scene_63:9"/><sn:say ref="scene_63:10"/><sn:say ref="scene_63:11"/><sn:say ref="scene_63:12"/><sn:say ref="scene_63:13"/><sn:say ref="scene_63:14"/><sn:say ref="scene_63:15"/><sn:say ref="scene_63:16"/><sn:say ref="scene_63:17"/><sn:say ref="scene_63:18"/><sn:say ref="scene_63:19"/><sn:say ref="scene_63:20"/><sn:say ref="scene_63:21"/><sn:say ref="scene_63:22"/><sn:say ref="scene_63:23"/><sn:say ref="scene_63:24"/><sn:say ref="scene_63:25"/><sn:say ref="scene_63:26"/><sn:say ref="scene_63:27"/><sn:say ref="scene_63:28"/><sn:say ref="scene_63:29"/><sn:say ref="scene_63:30"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 64">
+    <sn:scene title="talk 16"><sn:say ref="scene_64:0"/><sn:say ref="scene_64:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 65">
+    <sn:scene title="talk 16"><sn:say ref="scene_65:51"/><sn:say ref="scene_65:52"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_65:1"/><sn:say ref="scene_65:2"/><sn:say ref="scene_65:3"/><sn:say ref="scene_65:4"/><sn:say ref="scene_65:5"/><sn:say ref="scene_65:6"/><sn:say ref="scene_65:7"/><sn:say ref="scene_65:8"/><sn:say ref="scene_65:9"/><sn:say ref="scene_65:10"/><sn:say ref="scene_65:11"/><sn:say ref="scene_65:12"/></sn:scene>
+    <sn:scene title="tile 22"><sn:say ref="scene_65:13"/></sn:scene>
+    <sn:scene title="tile 33"><sn:say ref="scene_65:14"/><sn:say ref="scene_65:36"/><sn:say ref="scene_65:37"/><sn:say ref="scene_65:38"/><sn:say ref="scene_65:39"/><sn:say ref="scene_65:40"/><sn:say ref="scene_65:41"/><sn:say ref="scene_65:42"/><sn:say ref="scene_65:43"/><sn:say ref="scene_65:44"/><sn:say ref="scene_65:45"/><sn:say ref="scene_65:46"/><sn:say ref="scene_65:47"/><sn:say ref="scene_65:48"/><sn:say ref="scene_65:49"/><sn:say ref="scene_65:50"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_65:0"/><sn:say ref="scene_65:15"/><sn:say ref="scene_65:16"/><sn:say ref="scene_65:17"/><sn:say ref="scene_65:18"/><sn:say ref="scene_65:19"/><sn:say ref="scene_65:20"/><sn:say ref="scene_65:21"/><sn:say ref="scene_65:22"/><sn:say ref="scene_65:23"/><sn:say ref="scene_65:24"/><sn:say ref="scene_65:25"/><sn:say ref="scene_65:26"/><sn:say ref="scene_65:27"/><sn:say ref="scene_65:28"/><sn:say ref="scene_65:29"/><sn:say ref="scene_65:30"/><sn:say ref="scene_65:31"/><sn:say ref="scene_65:32"/><sn:say ref="scene_65:33"/><sn:say ref="scene_65:34"/><sn:say ref="scene_65:35"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 66">
+    <sn:scene title="start"><sn:say ref="scene_66:1"/><sn:say ref="scene_66:2"/><sn:say ref="scene_66:3"/><sn:say ref="scene_66:4"/><sn:say ref="scene_66:5"/><sn:say ref="scene_66:6"/><sn:say ref="scene_66:7"/><sn:say ref="scene_66:8"/><sn:say ref="scene_66:9"/></sn:scene>
+    <sn:scene title="talk 17"><sn:say ref="scene_66:10"/><sn:say ref="scene_66:11"/></sn:scene>
+    <sn:scene title="tile 60"><sn:say ref="scene_66:0"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 67" place="scene_67:0">
+    <sn:scene title="start"><sn:say ref="scene_67:0"/><sn:say ref="scene_67:1"/><sn:say ref="scene_67:2"/><sn:say ref="scene_67:3"/><sn:say ref="scene_67:4"/><sn:say ref="scene_67:5"/><sn:say ref="scene_67:6"/><sn:say ref="scene_67:7"/><sn:say ref="scene_67:8"/><sn:say ref="scene_67:9"/><sn:say ref="scene_67:10"/><sn:say ref="scene_67:11"/><sn:say ref="scene_67:12"/><sn:say ref="scene_67:13"/><sn:say ref="scene_67:14"/><sn:say ref="scene_67:15"/><sn:say ref="scene_67:16"/><sn:say ref="scene_67:17"/><sn:say ref="scene_67:18"/><sn:say ref="scene_67:19"/><sn:say ref="scene_67:20"/><sn:say ref="scene_67:21"/><sn:say ref="scene_67:22"/><sn:say ref="scene_67:23"/><sn:say ref="scene_67:24"/><sn:say ref="scene_67:25"/><sn:say ref="scene_67:26"/><sn:say ref="scene_67:27"/><sn:say ref="scene_67:28"/><sn:say ref="scene_67:29"/><sn:say ref="scene_67:30"/><sn:say ref="scene_67:31"/><sn:say ref="scene_67:32"/><sn:say ref="scene_67:33"/><sn:say ref="scene_67:34"/><sn:say ref="scene_67:35"/><sn:say ref="scene_67:36"/><sn:say ref="scene_67:37"/><sn:say ref="scene_67:38"/><sn:say ref="scene_67:39"/><sn:say ref="scene_67:40"/><sn:say ref="scene_67:41"/><sn:say ref="scene_67:42"/><sn:say ref="scene_67:43"/><sn:say ref="scene_67:44"/><sn:say ref="scene_67:45"/><sn:say ref="scene_67:46"/><sn:say ref="scene_67:47"/><sn:say ref="scene_67:48"/><sn:say ref="scene_67:49"/><sn:say ref="scene_67:50"/><sn:say ref="scene_67:51"/><sn:say ref="scene_67:52"/><sn:say ref="scene_67:53"/><sn:say ref="scene_67:54"/><sn:say ref="scene_67:55"/><sn:say ref="scene_67:56"/><sn:say ref="scene_67:57"/><sn:say ref="scene_67:58"/><sn:say ref="scene_67:59"/><sn:say ref="scene_67:60"/><sn:say ref="scene_67:61"/><sn:say ref="scene_67:62"/><sn:say ref="scene_67:63"/><sn:say ref="scene_67:64"/><sn:say ref="scene_67:65"/><sn:say ref="scene_67:66"/><sn:say ref="scene_67:67"/><sn:say ref="scene_67:68"/><sn:say ref="scene_67:69"/><sn:say ref="scene_67:70"/><sn:say ref="scene_67:71"/><sn:say ref="scene_67:72"/><sn:say ref="scene_67:73"/><sn:say ref="scene_67:74"/><sn:say ref="scene_67:75"/><sn:say ref="scene_67:76"/><sn:say ref="scene_67:77"/><sn:say ref="scene_67:78"/><sn:say ref="scene_67:79"/><sn:say ref="scene_67:80"/><sn:say ref="scene_67:81"/></sn:scene>
+    <sn:scene title="talk 17 · Fille"><sn:say ref="scene_67:82"/></sn:scene>
+    <sn:scene title="talk 18 · Aventurier Meia"><sn:say ref="scene_67:83"/></sn:scene>
+    <sn:scene title="talk 19 · Lyan"><sn:say ref="scene_67:84"/></sn:scene>
+    <sn:scene title="talk 20 · Jeune fille"><sn:say ref="scene_67:85"/></sn:scene>
+    <sn:scene title="talk 21 · Starck le sage"><sn:say ref="scene_67:86"/></sn:scene>
+    <sn:scene title="talk 22 · Lulu"><sn:say ref="scene_67:87"/></sn:scene>
+    <sn:scene title="talk 23 · Fille"><sn:say ref="scene_67:88"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 68" place="scene_68:0">
+    <sn:scene title="start"><sn:say ref="scene_68:0"/><sn:say ref="scene_68:2"/><sn:say ref="scene_68:3"/><sn:say ref="scene_68:4"/><sn:say ref="scene_68:5"/><sn:say ref="scene_68:6"/><sn:say ref="scene_68:7"/><sn:say ref="scene_68:8"/><sn:say ref="scene_68:9"/><sn:say ref="scene_68:10"/><sn:say ref="scene_68:11"/><sn:say ref="scene_68:12"/><sn:say ref="scene_68:13"/><sn:say ref="scene_68:14"/><sn:say ref="scene_68:15"/><sn:say ref="scene_68:16"/><sn:say ref="scene_68:17"/><sn:say ref="scene_68:18"/><sn:say ref="scene_68:19"/><sn:say ref="scene_68:20"/><sn:say ref="scene_68:21"/><sn:say ref="scene_68:22"/><sn:say ref="scene_68:23"/><sn:say ref="scene_68:24"/><sn:say ref="scene_68:25"/><sn:say ref="scene_68:26"/><sn:say ref="scene_68:27"/><sn:say ref="scene_68:28"/><sn:say ref="scene_68:29"/><sn:say ref="scene_68:30"/><sn:say ref="scene_68:31"/><sn:say ref="scene_68:32"/><sn:say ref="scene_68:33"/><sn:say ref="scene_68:34"/><sn:say ref="scene_68:35"/><sn:say ref="scene_68:36"/><sn:say ref="scene_68:37"/><sn:say ref="scene_68:38"/><sn:say ref="scene_68:39"/><sn:say ref="scene_68:40"/><sn:say ref="scene_68:41"/><sn:say ref="scene_68:42"/><sn:say ref="scene_68:43"/><sn:say ref="scene_68:44"/><sn:say ref="scene_68:45"/><sn:say ref="scene_68:46"/><sn:say ref="scene_68:47"/><sn:say ref="scene_68:48"/><sn:say ref="scene_68:49"/><sn:say ref="scene_68:50"/><sn:say ref="scene_68:51"/><sn:say ref="scene_68:52"/><sn:say ref="scene_68:53"/><sn:say ref="scene_68:54"/><sn:say ref="scene_68:55"/><sn:say ref="scene_68:56"/><sn:say ref="scene_68:57"/><sn:say ref="scene_68:58"/><sn:say ref="scene_68:59"/><sn:say ref="scene_68:60"/><sn:say ref="scene_68:61"/><sn:say ref="scene_68:62"/><sn:say ref="scene_68:63"/><sn:say ref="scene_68:64"/><sn:say ref="scene_68:65"/><sn:say ref="scene_68:66"/><sn:say ref="scene_68:67"/><sn:say ref="scene_68:68"/><sn:say ref="scene_68:69"/><sn:say ref="scene_68:70"/><sn:say ref="scene_68:71"/><sn:say ref="scene_68:72"/><sn:say ref="scene_68:73"/><sn:say ref="scene_68:74"/><sn:say ref="scene_68:75"/><sn:say ref="scene_68:76"/><sn:say ref="scene_68:77"/><sn:say ref="scene_68:78"/><sn:say ref="scene_68:79"/><sn:say ref="scene_68:80"/><sn:say ref="scene_68:81"/><sn:say ref="scene_68:82"/><sn:say ref="scene_68:83"/><sn:say ref="scene_68:84"/><sn:say ref="scene_68:85"/><sn:say ref="scene_68:86"/><sn:say ref="scene_68:87"/><sn:say ref="scene_68:88"/><sn:say ref="scene_68:89"/><sn:say ref="scene_68:90"/><sn:say ref="scene_68:91"/><sn:say ref="scene_68:92"/><sn:say ref="scene_68:93"/><sn:say ref="scene_68:94"/><sn:say ref="scene_68:95"/><sn:say ref="scene_68:96"/><sn:say ref="scene_68:97"/><sn:say ref="scene_68:98"/><sn:say ref="scene_68:99"/><sn:say ref="scene_68:100"/><sn:say ref="scene_68:101"/><sn:say ref="scene_68:102"/><sn:say ref="scene_68:103"/><sn:say ref="scene_68:104"/><sn:say ref="scene_68:105"/><sn:say ref="scene_68:106"/><sn:say ref="scene_68:107"/><sn:say ref="scene_68:108"/><sn:say ref="scene_68:109"/></sn:scene>
+    <sn:scene title="start talk 22 · Mentor"><sn:say ref="scene_68:1"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_68:111"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_68:110"/></sn:scene>
+    <sn:scene title="talk 16 · Barman"><sn:say ref="scene_68:112"/><sn:say ref="scene_68:113"/></sn:scene>
+    <sn:scene title="talk 17 · Aventurier"><sn:say ref="scene_68:114"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_68:115"/></sn:scene>
+    <sn:scene title="talk 19 · Jeune homme"><sn:say ref="scene_68:116"/></sn:scene>
+    <sn:scene title="talk 20 · Maître de la guilde"><sn:say ref="scene_68:117"/><sn:say ref="scene_68:118"/><sn:say ref="scene_68:119"/><sn:say ref="scene_68:120"/><sn:say ref="scene_68:121"/><sn:say ref="scene_68:122"/></sn:scene>
+    <sn:scene title="talk 21 · Entraîneur"><sn:say ref="scene_68:123"/></sn:scene>
+    <sn:scene title="talk 22 · Mentor"><sn:say ref="scene_68:124"/><sn:say ref="scene_68:125"/><sn:say ref="scene_68:126"/><sn:say ref="scene_68:127"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 69" place="scene_69:0">
+    <sn:scene title="start"><sn:say ref="scene_69:0"/><sn:say ref="scene_69:1"/><sn:say ref="scene_69:2"/><sn:say ref="scene_69:3"/><sn:say ref="scene_69:4"/><sn:say ref="scene_69:5"/><sn:say ref="scene_69:40"/><sn:say ref="scene_69:41"/><sn:say ref="scene_69:42"/><sn:say ref="scene_69:43"/><sn:say ref="scene_69:44"/><sn:say ref="scene_69:45"/><sn:say ref="scene_69:46"/><sn:say ref="scene_69:47"/><sn:say ref="scene_69:48"/><sn:say ref="scene_69:49"/><sn:say ref="scene_69:50"/><sn:say ref="scene_69:51"/><sn:say ref="scene_69:52"/><sn:say ref="scene_69:53"/><sn:say ref="scene_69:54"/><sn:say ref="scene_69:55"/><sn:say ref="scene_69:56"/><sn:say ref="scene_69:57"/><sn:say ref="scene_69:58"/><sn:say ref="scene_69:59"/><sn:say ref="scene_69:60"/><sn:say ref="scene_69:61"/><sn:say ref="scene_69:62"/><sn:say ref="scene_69:63"/><sn:say ref="scene_69:64"/><sn:say ref="scene_69:71"/><sn:say ref="scene_69:72"/><sn:say ref="scene_69:73"/><sn:say ref="scene_69:74"/></sn:scene>
+    <sn:scene title="talk 1"><sn:say ref="scene_69:75"/></sn:scene>
+    <sn:scene title="talk 3"><sn:say ref="scene_69:65"/></sn:scene>
+    <sn:scene title="talk 4"><sn:say ref="scene_69:66"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_69:67"/><sn:say ref="scene_69:68"/></sn:scene>
+    <sn:scene title="talk 11"><sn:say ref="scene_69:69"/><sn:say ref="scene_69:70"/></sn:scene>
+    <sn:scene title="talk 16 · Maître de la guilde"><sn:say ref="scene_69:6"/><sn:say ref="scene_69:7"/><sn:say ref="scene_69:8"/><sn:say ref="scene_69:9"/><sn:say ref="scene_69:10"/><sn:say ref="scene_69:11"/></sn:scene>
+    <sn:scene title="talk 17 · Conseiller"><sn:say ref="scene_69:12"/></sn:scene>
+    <sn:scene title="talk 18 · Mentor"><sn:say ref="scene_69:13"/><sn:say ref="scene_69:14"/><sn:say ref="scene_69:15"/><sn:say ref="scene_69:16"/><sn:say ref="scene_69:17"/><sn:say ref="scene_69:18"/></sn:scene>
+    <sn:scene title="talk 19 · Petite fille"><sn:say ref="scene_69:19"/></sn:scene>
+    <sn:scene title="talk 20 · Gamin"><sn:say ref="scene_69:20"/></sn:scene>
+    <sn:scene title="talk 21 · Vieil homme"><sn:say ref="scene_69:21"/></sn:scene>
+    <sn:scene title="talk 22 · Vieille femme"><sn:say ref="scene_69:22"/></sn:scene>
+    <sn:scene title="talk 23 · Sutea le mercenaire"><sn:say ref="scene_69:23"/></sn:scene>
+    <sn:scene title="talk 24 · Ralph le mercenaire"><sn:say ref="scene_69:24"/></sn:scene>
+    <sn:scene title="talk 25 · Chevalier"><sn:say ref="scene_69:25"/></sn:scene>
+    <sn:scene title="talk 26 · Barman"><sn:say ref="scene_69:26"/></sn:scene>
+    <sn:scene title="talk 27 · Kikurin"><sn:say ref="scene_69:27"/></sn:scene>
+    <sn:scene title="talk 28 · Judy"><sn:say ref="scene_69:28"/><sn:say ref="scene_69:29"/><sn:say ref="scene_69:30"/><sn:say ref="scene_69:31"/><sn:say ref="scene_69:32"/><sn:say ref="scene_69:33"/><sn:say ref="scene_69:34"/><sn:say ref="scene_69:35"/></sn:scene>
+    <sn:scene title="talk 29 · Lucio"><sn:say ref="scene_69:36"/><sn:say ref="scene_69:37"/><sn:say ref="scene_69:38"/></sn:scene>
+    <sn:scene title="talk 30 · Étudiant"><sn:say ref="scene_69:39"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 70" place="scene_70:0">
+    <sn:scene title="start"><sn:say ref="scene_70:0"/><sn:say ref="scene_70:1"/><sn:say ref="scene_70:2"/><sn:say ref="scene_70:3"/><sn:say ref="scene_70:4"/><sn:say ref="scene_70:5"/><sn:say ref="scene_70:6"/><sn:say ref="scene_70:26"/><sn:say ref="scene_70:27"/><sn:say ref="scene_70:28"/><sn:say ref="scene_70:29"/><sn:say ref="scene_70:30"/><sn:say ref="scene_70:31"/><sn:say ref="scene_70:32"/><sn:say ref="scene_70:33"/><sn:say ref="scene_70:34"/><sn:say ref="scene_70:35"/><sn:say ref="scene_70:36"/><sn:say ref="scene_70:37"/><sn:say ref="scene_70:38"/><sn:say ref="scene_70:39"/><sn:say ref="scene_70:40"/><sn:say ref="scene_70:41"/></sn:scene>
+    <sn:scene title="talk 5"><sn:say ref="scene_70:52"/></sn:scene>
+    <sn:scene title="talk 16 · Maître de la guilde"><sn:say ref="scene_70:7"/><sn:say ref="scene_70:8"/><sn:say ref="scene_70:9"/><sn:say ref="scene_70:10"/><sn:say ref="scene_70:11"/><sn:say ref="scene_70:12"/></sn:scene>
+    <sn:scene title="talk 17 · Conseiller"><sn:say ref="scene_70:13"/></sn:scene>
+    <sn:scene title="talk 18 · Mentor"><sn:say ref="scene_70:14"/><sn:say ref="scene_70:15"/><sn:say ref="scene_70:16"/><sn:say ref="scene_70:17"/><sn:say ref="scene_70:18"/><sn:say ref="scene_70:19"/><sn:say ref="scene_70:20"/></sn:scene>
+    <sn:scene title="talk 19 · Aubergiste bien gaulée"><sn:say ref="scene_70:21"/><sn:say ref="scene_70:22"/><sn:say ref="scene_70:23"/><sn:say ref="scene_70:24"/><sn:say ref="scene_70:25"/></sn:scene>
+    <sn:scene title="talk 21 · Femme"><sn:say ref="scene_70:42"/></sn:scene>
+    <sn:scene title="talk 22 · Chevalier"><sn:say ref="scene_70:43"/></sn:scene>
+    <sn:scene title="talk 23 · Jeune fille"><sn:say ref="scene_70:44"/></sn:scene>
+    <sn:scene title="talk 24 · Vieille femme"><sn:say ref="scene_70:45"/></sn:scene>
+    <sn:scene title="talk 25 · Jiru l'aventurier"><sn:say ref="scene_70:46"/></sn:scene>
+    <sn:scene title="talk 26 · Mercenaire"><sn:say ref="scene_70:47"/></sn:scene>
+    <sn:scene title="talk 27 · Vieil homme"><sn:say ref="scene_70:48"/></sn:scene>
+    <sn:scene title="talk 28 · Patron"><sn:say ref="scene_70:49"/></sn:scene>
+    <sn:scene title="talk 29 · Barman"><sn:say ref="scene_70:50"/></sn:scene>
+    <sn:scene title="talk 30 · Victor le cordonnier"><sn:say ref="scene_70:51"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 71" place="scene_71:0">
+    <sn:scene title="start"><sn:say ref="scene_71:0"/><sn:say ref="scene_71:1"/><sn:say ref="scene_71:2"/><sn:say ref="scene_71:3"/><sn:say ref="scene_71:4"/><sn:say ref="scene_71:5"/><sn:say ref="scene_71:6"/></sn:scene>
+    <sn:scene title="talk 16 · Homme"><sn:say ref="scene_71:7"/></sn:scene>
+    <sn:scene title="talk 17 · Vieillard"><sn:say ref="scene_71:8"/></sn:scene>
+    <sn:scene title="talk 18 · Femme"><sn:say ref="scene_71:9"/></sn:scene>
+    <sn:scene title="talk 19 · Femme"><sn:say ref="scene_71:10"/></sn:scene>
+    <sn:scene title="talk 20 · Vieil homme"><sn:say ref="scene_71:11"/><sn:say ref="scene_71:12"/><sn:say ref="scene_71:13"/><sn:say ref="scene_71:14"/><sn:say ref="scene_71:15"/></sn:scene>
+    <sn:scene title="talk 21 · Temujin l'épicier"><sn:say ref="scene_71:16"/></sn:scene>
+    <sn:scene title="talk 22 · Barman"><sn:say ref="scene_71:17"/></sn:scene>
+    <sn:scene title="talk 23 · Mère de Lemia"><sn:say ref="scene_71:18"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 72">
+    <sn:scene title="start"><sn:say ref="scene_72:0"/><sn:say ref="scene_72:1"/><sn:say ref="scene_72:2"/><sn:say ref="scene_72:3"/><sn:say ref="scene_72:4"/><sn:say ref="scene_72:5"/><sn:say ref="scene_72:6"/><sn:say ref="scene_72:7"/><sn:say ref="scene_72:8"/><sn:say ref="scene_72:9"/><sn:say ref="scene_72:10"/><sn:say ref="scene_72:11"/><sn:say ref="scene_72:12"/><sn:say ref="scene_72:13"/><sn:say ref="scene_72:14"/><sn:say ref="scene_72:15"/><sn:say ref="scene_72:16"/><sn:say ref="scene_72:17"/><sn:say ref="scene_72:18"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 73" place="scene_73:0">
+    <sn:scene title="start"><sn:say ref="scene_73:0"/><sn:say ref="scene_73:5"/><sn:say ref="scene_73:6"/></sn:scene>
+    <sn:scene title="talk 16 · Lemia"><sn:say ref="scene_73:1"/></sn:scene>
+    <sn:scene title="talk 17 · Petit jeune"><sn:say ref="scene_73:2"/></sn:scene>
+    <sn:scene title="talk 18 · Garçon"><sn:say ref="scene_73:3"/></sn:scene>
+    <sn:scene title="talk 19 · Vieil homme"><sn:say ref="scene_73:4"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 74">
+    <sn:scene title="start"><sn:say ref="scene_74:1"/><sn:say ref="scene_74:2"/><sn:say ref="scene_74:3"/><sn:say ref="scene_74:4"/><sn:say ref="scene_74:5"/><sn:say ref="scene_74:6"/><sn:say ref="scene_74:7"/><sn:say ref="scene_74:8"/><sn:say ref="scene_74:9"/><sn:say ref="scene_74:10"/><sn:say ref="scene_74:11"/><sn:say ref="scene_74:12"/><sn:say ref="scene_74:13"/><sn:say ref="scene_74:14"/><sn:say ref="scene_74:15"/></sn:scene>
+    <sn:scene title="talk 16"><sn:say ref="scene_74:0"/></sn:scene>
+    <sn:scene title="talk 17 · Foster"><sn:say ref="scene_74:16"/><sn:say ref="scene_74:17"/><sn:say ref="scene_74:18"/><sn:say ref="scene_74:19"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 75" place="scene_75:16">
+    <sn:scene title="start"><sn:say ref="scene_75:7"/><sn:say ref="scene_75:8"/><sn:say ref="scene_75:9"/><sn:say ref="scene_75:10"/><sn:say ref="scene_75:11"/><sn:say ref="scene_75:12"/><sn:say ref="scene_75:16"/></sn:scene>
+    <sn:scene title="talk 16 · Chancelier"><sn:say ref="scene_75:13"/></sn:scene>
+    <sn:scene title="talk 32"><sn:say ref="scene_75:0"/><sn:say ref="scene_75:1"/></sn:scene>
+    <sn:scene title="talk 33"><sn:say ref="scene_75:2"/><sn:say ref="scene_75:3"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_75:4"/><sn:say ref="scene_75:5"/><sn:say ref="scene_75:6"/><sn:say ref="scene_75:14"/><sn:say ref="scene_75:15"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 76" place="scene_76:0">
+    <sn:scene title="start"><sn:say ref="scene_76:0"/></sn:scene>
+    <sn:scene title="talk 20 · Marin"><sn:say ref="scene_76:1"/><sn:say ref="scene_76:2"/><sn:say ref="scene_76:3"/><sn:say ref="scene_76:4"/><sn:say ref="scene_76:5"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 77" place="scene_77:22">
+    <sn:scene title="start"><sn:say ref="scene_77:22"/><sn:say ref="scene_77:23"/></sn:scene>
+    <sn:scene title="talk 17"><sn:say ref="scene_77:0"/><sn:say ref="scene_77:1"/><sn:say ref="scene_77:2"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_77:3"/><sn:say ref="scene_77:4"/><sn:say ref="scene_77:5"/></sn:scene>
+    <sn:scene title="talk 19"><sn:say ref="scene_77:6"/><sn:say ref="scene_77:7"/><sn:say ref="scene_77:8"/></sn:scene>
+    <sn:scene title="talk 20"><sn:say ref="scene_77:9"/><sn:say ref="scene_77:10"/><sn:say ref="scene_77:11"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_77:12"/><sn:say ref="scene_77:13"/><sn:say ref="scene_77:14"/></sn:scene>
+    <sn:scene title="talk 22"><sn:say ref="scene_77:15"/><sn:say ref="scene_77:16"/><sn:say ref="scene_77:17"/></sn:scene>
+    <sn:scene title="talk 23"><sn:say ref="scene_77:18"/><sn:say ref="scene_77:19"/><sn:say ref="scene_77:20"/></sn:scene>
+    <sn:scene title="tile 32"><sn:say ref="scene_77:21"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 78" place="scene_78:50">
+    <sn:scene title="start"><sn:say ref="scene_78:50"/></sn:scene>
+    <sn:scene title="talk 47"><sn:say ref="scene_78:51"/></sn:scene>
+    <sn:scene title="tile 20"><sn:say ref="scene_78:0"/><sn:say ref="scene_78:1"/><sn:say ref="scene_78:2"/><sn:say ref="scene_78:3"/><sn:say ref="scene_78:4"/><sn:say ref="scene_78:5"/><sn:say ref="scene_78:6"/><sn:say ref="scene_78:7"/><sn:say ref="scene_78:8"/><sn:say ref="scene_78:9"/><sn:say ref="scene_78:10"/><sn:say ref="scene_78:11"/><sn:say ref="scene_78:12"/><sn:say ref="scene_78:13"/><sn:say ref="scene_78:14"/><sn:say ref="scene_78:15"/><sn:say ref="scene_78:16"/><sn:say ref="scene_78:17"/><sn:say ref="scene_78:18"/><sn:say ref="scene_78:19"/><sn:say ref="scene_78:20"/><sn:say ref="scene_78:21"/><sn:say ref="scene_78:22"/><sn:say ref="scene_78:23"/><sn:say ref="scene_78:24"/><sn:say ref="scene_78:25"/><sn:say ref="scene_78:26"/><sn:say ref="scene_78:27"/><sn:say ref="scene_78:28"/><sn:say ref="scene_78:29"/><sn:say ref="scene_78:30"/><sn:say ref="scene_78:31"/><sn:say ref="scene_78:32"/><sn:say ref="scene_78:33"/><sn:say ref="scene_78:34"/><sn:say ref="scene_78:35"/><sn:say ref="scene_78:36"/><sn:say ref="scene_78:37"/><sn:say ref="scene_78:38"/><sn:say ref="scene_78:39"/><sn:say ref="scene_78:40"/><sn:say ref="scene_78:41"/><sn:say ref="scene_78:42"/><sn:say ref="scene_78:43"/><sn:say ref="scene_78:44"/><sn:say ref="scene_78:45"/><sn:say ref="scene_78:46"/></sn:scene>
+    <sn:scene title="tile 21"><sn:say ref="scene_78:47"/><sn:say ref="scene_78:48"/><sn:say ref="scene_78:49"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 79" place="scene_79:30">
+    <sn:scene title="start"><sn:say ref="scene_79:30"/></sn:scene>
+    <sn:scene title="talk 60"><sn:say ref="scene_79:29"/></sn:scene>
+    <sn:scene title="tile 64"><sn:say ref="scene_79:0"/><sn:say ref="scene_79:1"/><sn:say ref="scene_79:2"/><sn:say ref="scene_79:3"/></sn:scene>
+    <sn:scene title="tile 65"><sn:say ref="scene_79:4"/><sn:say ref="scene_79:5"/><sn:say ref="scene_79:6"/><sn:say ref="scene_79:7"/><sn:say ref="scene_79:8"/><sn:say ref="scene_79:9"/><sn:say ref="scene_79:10"/><sn:say ref="scene_79:11"/><sn:say ref="scene_79:12"/><sn:say ref="scene_79:13"/><sn:say ref="scene_79:14"/><sn:say ref="scene_79:15"/><sn:say ref="scene_79:16"/><sn:say ref="scene_79:17"/><sn:say ref="scene_79:18"/><sn:say ref="scene_79:19"/><sn:say ref="scene_79:20"/></sn:scene>
+    <sn:scene title="tile 66"><sn:say ref="scene_79:21"/><sn:say ref="scene_79:22"/><sn:say ref="scene_79:23"/><sn:say ref="scene_79:24"/><sn:say ref="scene_79:25"/><sn:say ref="scene_79:26"/><sn:say ref="scene_79:27"/><sn:say ref="scene_79:28"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 80" place="scene_80:57">
+    <sn:scene title="start"><sn:say ref="scene_80:44"/><sn:say ref="scene_80:45"/><sn:say ref="scene_80:46"/><sn:say ref="scene_80:47"/><sn:say ref="scene_80:48"/><sn:say ref="scene_80:49"/><sn:say ref="scene_80:50"/><sn:say ref="scene_80:51"/><sn:say ref="scene_80:52"/><sn:say ref="scene_80:53"/><sn:say ref="scene_80:54"/><sn:say ref="scene_80:55"/><sn:say ref="scene_80:56"/><sn:say ref="scene_80:57"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_80:0"/><sn:say ref="scene_80:1"/><sn:say ref="scene_80:2"/><sn:say ref="scene_80:3"/><sn:say ref="scene_80:4"/><sn:say ref="scene_80:5"/><sn:say ref="scene_80:6"/><sn:say ref="scene_80:7"/><sn:say ref="scene_80:8"/><sn:say ref="scene_80:9"/><sn:say ref="scene_80:10"/><sn:say ref="scene_80:11"/><sn:say ref="scene_80:12"/><sn:say ref="scene_80:13"/><sn:say ref="scene_80:14"/><sn:say ref="scene_80:15"/><sn:say ref="scene_80:16"/><sn:say ref="scene_80:17"/><sn:say ref="scene_80:18"/><sn:say ref="scene_80:19"/><sn:say ref="scene_80:20"/><sn:say ref="scene_80:21"/><sn:say ref="scene_80:22"/><sn:say ref="scene_80:23"/><sn:say ref="scene_80:24"/><sn:say ref="scene_80:25"/><sn:say ref="scene_80:26"/><sn:say ref="scene_80:27"/><sn:say ref="scene_80:28"/><sn:say ref="scene_80:29"/><sn:say ref="scene_80:30"/><sn:say ref="scene_80:31"/><sn:say ref="scene_80:32"/><sn:say ref="scene_80:33"/><sn:say ref="scene_80:34"/><sn:say ref="scene_80:35"/><sn:say ref="scene_80:36"/><sn:say ref="scene_80:37"/><sn:say ref="scene_80:38"/><sn:say ref="scene_80:39"/><sn:say ref="scene_80:40"/><sn:say ref="scene_80:41"/><sn:say ref="scene_80:42"/><sn:say ref="scene_80:43"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 81" place="scene_81:0">
+    <sn:scene title="start"><sn:say ref="scene_81:0"/><sn:say ref="scene_81:15"/><sn:say ref="scene_81:16"/></sn:scene>
+    <sn:scene title="talk 50"><sn:say ref="scene_81:51"/></sn:scene>
+    <sn:scene title="talk 53"><sn:say ref="scene_81:47"/></sn:scene>
+    <sn:scene title="talk 54"><sn:say ref="scene_81:48"/></sn:scene>
+    <sn:scene title="tile 96"><sn:say ref="scene_81:49"/></sn:scene>
+    <sn:scene title="tile 99"><sn:say ref="scene_81:1"/><sn:say ref="scene_81:2"/><sn:say ref="scene_81:3"/><sn:say ref="scene_81:4"/><sn:say ref="scene_81:5"/><sn:say ref="scene_81:6"/><sn:say ref="scene_81:7"/><sn:say ref="scene_81:8"/><sn:say ref="scene_81:9"/><sn:say ref="scene_81:10"/><sn:say ref="scene_81:11"/><sn:say ref="scene_81:12"/><sn:say ref="scene_81:13"/><sn:say ref="scene_81:14"/><sn:say ref="scene_81:17"/><sn:say ref="scene_81:18"/><sn:say ref="scene_81:19"/><sn:say ref="scene_81:20"/><sn:say ref="scene_81:21"/><sn:say ref="scene_81:22"/><sn:say ref="scene_81:23"/><sn:say ref="scene_81:24"/><sn:say ref="scene_81:25"/><sn:say ref="scene_81:26"/><sn:say ref="scene_81:27"/><sn:say ref="scene_81:28"/><sn:say ref="scene_81:29"/><sn:say ref="scene_81:30"/><sn:say ref="scene_81:31"/><sn:say ref="scene_81:32"/><sn:say ref="scene_81:33"/><sn:say ref="scene_81:34"/><sn:say ref="scene_81:35"/><sn:say ref="scene_81:36"/><sn:say ref="scene_81:37"/><sn:say ref="scene_81:38"/><sn:say ref="scene_81:39"/><sn:say ref="scene_81:40"/><sn:say ref="scene_81:41"/><sn:say ref="scene_81:42"/><sn:say ref="scene_81:43"/><sn:say ref="scene_81:44"/><sn:say ref="scene_81:45"/><sn:say ref="scene_81:46"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 82">
+    <sn:scene title="start"><sn:say ref="scene_82:0"/><sn:say ref="scene_82:1"/><sn:say ref="scene_82:2"/><sn:say ref="scene_82:3"/><sn:say ref="scene_82:4"/><sn:say ref="scene_82:5"/><sn:say ref="scene_82:6"/><sn:say ref="scene_82:7"/><sn:say ref="scene_82:8"/><sn:say ref="scene_82:9"/><sn:say ref="scene_82:10"/><sn:say ref="scene_82:11"/><sn:say ref="scene_82:12"/><sn:say ref="scene_82:13"/><sn:say ref="scene_82:14"/><sn:say ref="scene_82:15"/><sn:say ref="scene_82:16"/><sn:say ref="scene_82:17"/><sn:say ref="scene_82:18"/><sn:say ref="scene_82:19"/><sn:say ref="scene_82:20"/><sn:say ref="scene_82:21"/><sn:say ref="scene_82:22"/><sn:say ref="scene_82:23"/><sn:say ref="scene_82:24"/><sn:say ref="scene_82:25"/><sn:say ref="scene_82:26"/><sn:say ref="scene_82:27"/><sn:say ref="scene_82:28"/><sn:say ref="scene_82:29"/><sn:say ref="scene_82:30"/><sn:say ref="scene_82:31"/><sn:say ref="scene_82:32"/><sn:say ref="scene_82:33"/><sn:say ref="scene_82:34"/><sn:say ref="scene_82:35"/><sn:say ref="scene_82:36"/><sn:say ref="scene_82:37"/></sn:scene>
+    <sn:scene title="tile 64"><sn:say ref="scene_82:38"/><sn:say ref="scene_82:39"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 83" place="scene_83:17">
+    <sn:scene title="start"><sn:say ref="scene_83:0"/><sn:say ref="scene_83:6"/><sn:say ref="scene_83:7"/><sn:say ref="scene_83:8"/><sn:say ref="scene_83:9"/><sn:say ref="scene_83:10"/><sn:say ref="scene_83:11"/><sn:say ref="scene_83:12"/><sn:say ref="scene_83:13"/><sn:say ref="scene_83:14"/><sn:say ref="scene_83:17"/></sn:scene>
+    <sn:scene title="talk 18 · Ivina"><sn:say ref="scene_83:15"/></sn:scene>
+    <sn:scene title="talk 47"><sn:say ref="scene_83:18"/></sn:scene>
+    <sn:scene title="talk 60"><sn:say ref="scene_83:16"/></sn:scene>
+    <sn:scene title="tile 99"><sn:say ref="scene_83:5"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_83:1"/><sn:say ref="scene_83:2"/><sn:say ref="scene_83:3"/><sn:say ref="scene_83:4"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 84" place="scene_84:30">
+    <sn:scene title="start"><sn:say ref="scene_84:30"/></sn:scene>
+    <sn:scene title="talk 40"><sn:say ref="scene_84:24"/></sn:scene>
+    <sn:scene title="talks 40-42, 48-58"><sn:say ref="scene_84:28"/><sn:say ref="scene_84:29"/></sn:scene>
+    <sn:scene title="talks 40-42, 48-59"><sn:say ref="scene_84:27"/></sn:scene>
+    <sn:scene title="talk 41"><sn:say ref="scene_84:25"/></sn:scene>
+    <sn:scene title="talk 42"><sn:say ref="scene_84:26"/></sn:scene>
+    <sn:scene title="talk 48"><sn:say ref="scene_84:11"/></sn:scene>
+    <sn:scene title="talk 49"><sn:say ref="scene_84:12"/></sn:scene>
+    <sn:scene title="talk 50"><sn:say ref="scene_84:13"/></sn:scene>
+    <sn:scene title="talk 51"><sn:say ref="scene_84:14"/></sn:scene>
+    <sn:scene title="talk 52"><sn:say ref="scene_84:15"/></sn:scene>
+    <sn:scene title="talk 53"><sn:say ref="scene_84:16"/></sn:scene>
+    <sn:scene title="talk 54"><sn:say ref="scene_84:17"/></sn:scene>
+    <sn:scene title="talk 55"><sn:say ref="scene_84:18"/></sn:scene>
+    <sn:scene title="talk 56"><sn:say ref="scene_84:19"/></sn:scene>
+    <sn:scene title="talk 57"><sn:say ref="scene_84:20"/></sn:scene>
+    <sn:scene title="talk 58"><sn:say ref="scene_84:21"/></sn:scene>
+    <sn:scene title="talk 59"><sn:say ref="scene_84:22"/><sn:say ref="scene_84:23"/></sn:scene>
+    <sn:scene title="tile 3"><sn:say ref="scene_84:0"/></sn:scene>
+    <sn:scene title="tile 60"><sn:say ref="scene_84:9"/><sn:say ref="scene_84:10"/></sn:scene>
+    <sn:scene title="tile 64"><sn:say ref="scene_84:1"/><sn:say ref="scene_84:2"/><sn:say ref="scene_84:3"/><sn:say ref="scene_84:4"/><sn:say ref="scene_84:5"/><sn:say ref="scene_84:6"/><sn:say ref="scene_84:7"/><sn:say ref="scene_84:8"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 85" place="scene_85:0">
+    <sn:scene title="start"><sn:say ref="scene_85:0"/><sn:say ref="scene_85:25"/><sn:say ref="scene_85:26"/><sn:say ref="scene_85:27"/><sn:say ref="scene_85:28"/><sn:say ref="scene_85:29"/><sn:say ref="scene_85:30"/></sn:scene>
+    <sn:scene title="talk 16 · Information 1"><sn:say ref="scene_85:1"/></sn:scene>
+    <sn:scene title="talk 17 · Information 2"><sn:say ref="scene_85:2"/></sn:scene>
+    <sn:scene title="talk 18 · Information 3"><sn:say ref="scene_85:3"/></sn:scene>
+    <sn:scene title="talk 19 · Information 4"><sn:say ref="scene_85:4"/><sn:say ref="scene_85:5"/><sn:say ref="scene_85:6"/><sn:say ref="scene_85:7"/><sn:say ref="scene_85:8"/><sn:say ref="scene_85:9"/><sn:say ref="scene_85:16"/><sn:say ref="scene_85:17"/><sn:say ref="scene_85:18"/><sn:say ref="scene_85:19"/><sn:say ref="scene_85:20"/><sn:say ref="scene_85:21"/><sn:say ref="scene_85:22"/><sn:say ref="scene_85:23"/><sn:say ref="scene_85:24"/></sn:scene>
+    <sn:scene title="talk 20 · Guerrier A"><sn:say ref="scene_85:10"/></sn:scene>
+    <sn:scene title="talk 21 · Guerrier B"><sn:say ref="scene_85:11"/></sn:scene>
+    <sn:scene title="talk 22 · Guerrier C"><sn:say ref="scene_85:12"/></sn:scene>
+    <sn:scene title="talk 23 · Femme"><sn:say ref="scene_85:13"/></sn:scene>
+    <sn:scene title="talk 24 · Aventurier"><sn:say ref="scene_85:14"/></sn:scene>
+    <sn:scene title="talk 25 · Fille"><sn:say ref="scene_85:15"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 86" place="scene_86:49">
+    <sn:scene title="start"><sn:say ref="scene_86:0"/><sn:say ref="scene_86:1"/><sn:say ref="scene_86:2"/><sn:say ref="scene_86:3"/><sn:say ref="scene_86:4"/><sn:say ref="scene_86:5"/><sn:say ref="scene_86:6"/><sn:say ref="scene_86:7"/><sn:say ref="scene_86:8"/><sn:say ref="scene_86:9"/><sn:say ref="scene_86:10"/><sn:say ref="scene_86:11"/><sn:say ref="scene_86:12"/><sn:say ref="scene_86:13"/><sn:say ref="scene_86:14"/><sn:say ref="scene_86:15"/><sn:say ref="scene_86:16"/><sn:say ref="scene_86:17"/><sn:say ref="scene_86:18"/><sn:say ref="scene_86:19"/><sn:say ref="scene_86:20"/><sn:say ref="scene_86:21"/><sn:say ref="scene_86:22"/><sn:say ref="scene_86:23"/><sn:say ref="scene_86:24"/><sn:say ref="scene_86:25"/><sn:say ref="scene_86:26"/><sn:say ref="scene_86:27"/><sn:say ref="scene_86:28"/><sn:say ref="scene_86:29"/><sn:say ref="scene_86:30"/><sn:say ref="scene_86:31"/><sn:say ref="scene_86:32"/><sn:say ref="scene_86:33"/><sn:say ref="scene_86:34"/><sn:say ref="scene_86:35"/><sn:say ref="scene_86:36"/><sn:say ref="scene_86:37"/><sn:say ref="scene_86:38"/><sn:say ref="scene_86:39"/><sn:say ref="scene_86:40"/><sn:say ref="scene_86:41"/><sn:say ref="scene_86:42"/><sn:say ref="scene_86:43"/><sn:say ref="scene_86:44"/><sn:say ref="scene_86:45"/><sn:say ref="scene_86:46"/><sn:say ref="scene_86:47"/><sn:say ref="scene_86:48"/><sn:say ref="scene_86:49"/><sn:say ref="scene_86:50"/><sn:say ref="scene_86:51"/><sn:say ref="scene_86:52"/><sn:say ref="scene_86:53"/><sn:say ref="scene_86:54"/><sn:say ref="scene_86:55"/><sn:say ref="scene_86:56"/><sn:say ref="scene_86:57"/><sn:say ref="scene_86:58"/><sn:say ref="scene_86:59"/><sn:say ref="scene_86:60"/><sn:say ref="scene_86:61"/><sn:say ref="scene_86:62"/><sn:say ref="scene_86:63"/><sn:say ref="scene_86:64"/><sn:say ref="scene_86:65"/><sn:say ref="scene_86:66"/><sn:say ref="scene_86:67"/><sn:say ref="scene_86:68"/><sn:say ref="scene_86:69"/><sn:say ref="scene_86:70"/><sn:say ref="scene_86:71"/><sn:say ref="scene_86:72"/><sn:say ref="scene_86:73"/><sn:say ref="scene_86:74"/><sn:say ref="scene_86:75"/><sn:say ref="scene_86:76"/><sn:say ref="scene_86:77"/><sn:say ref="scene_86:78"/><sn:say ref="scene_86:79"/><sn:say ref="scene_86:80"/><sn:say ref="scene_86:81"/><sn:say ref="scene_86:82"/><sn:say ref="scene_86:83"/><sn:say ref="scene_86:84"/><sn:say ref="scene_86:85"/><sn:say ref="scene_86:86"/><sn:say ref="scene_86:87"/><sn:say ref="scene_86:88"/><sn:say ref="scene_86:89"/><sn:say ref="scene_86:90"/><sn:say ref="scene_86:91"/><sn:say ref="scene_86:92"/><sn:say ref="scene_86:93"/><sn:say ref="scene_86:94"/><sn:say ref="scene_86:95"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 87">
+    <sn:scene title="start tile 51 tile 52"><sn:say ref="scene_87:42"/><sn:say ref="scene_87:43"/><sn:say ref="scene_87:44"/><sn:say ref="scene_87:45"/><sn:say ref="scene_87:46"/><sn:say ref="scene_87:47"/><sn:say ref="scene_87:48"/><sn:say ref="scene_87:49"/><sn:say ref="scene_87:50"/><sn:say ref="scene_87:51"/><sn:say ref="scene_87:52"/><sn:say ref="scene_87:53"/><sn:say ref="scene_87:54"/><sn:say ref="scene_87:55"/><sn:say ref="scene_87:56"/></sn:scene>
+    <sn:scene title="start tile 52"><sn:say ref="scene_87:25"/><sn:say ref="scene_87:26"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_87:0"/><sn:say ref="scene_87:1"/></sn:scene>
+    <sn:scene title="tile 51"><sn:say ref="scene_87:23"/><sn:say ref="scene_87:24"/></sn:scene>
+    <sn:scene title="tile 126"><sn:say ref="scene_87:3"/><sn:say ref="scene_87:4"/><sn:say ref="scene_87:5"/><sn:say ref="scene_87:6"/><sn:say ref="scene_87:7"/><sn:say ref="scene_87:8"/><sn:say ref="scene_87:9"/><sn:say ref="scene_87:10"/><sn:say ref="scene_87:11"/><sn:say ref="scene_87:12"/><sn:say ref="scene_87:13"/><sn:say ref="scene_87:14"/><sn:say ref="scene_87:15"/><sn:say ref="scene_87:16"/><sn:say ref="scene_87:17"/><sn:say ref="scene_87:18"/><sn:say ref="scene_87:19"/><sn:say ref="scene_87:20"/><sn:say ref="scene_87:21"/><sn:say ref="scene_87:22"/><sn:say ref="scene_87:27"/><sn:say ref="scene_87:28"/><sn:say ref="scene_87:29"/><sn:say ref="scene_87:30"/><sn:say ref="scene_87:31"/><sn:say ref="scene_87:32"/><sn:say ref="scene_87:33"/><sn:say ref="scene_87:34"/><sn:say ref="scene_87:35"/><sn:say ref="scene_87:36"/><sn:say ref="scene_87:37"/><sn:say ref="scene_87:38"/><sn:say ref="scene_87:39"/><sn:say ref="scene_87:40"/><sn:say ref="scene_87:41"/></sn:scene>
+    <sn:scene title="search"><sn:say ref="scene_87:2"/><sn:say ref="scene_87:57"/><sn:say ref="scene_87:58"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 88">
+    <sn:scene title="start"><sn:say ref="scene_88:15"/><sn:say ref="scene_88:16"/><sn:say ref="scene_88:17"/><sn:say ref="scene_88:18"/><sn:say ref="scene_88:19"/><sn:say ref="scene_88:20"/><sn:say ref="scene_88:21"/><sn:say ref="scene_88:22"/><sn:say ref="scene_88:23"/><sn:say ref="scene_88:24"/><sn:say ref="scene_88:25"/><sn:say ref="scene_88:26"/><sn:say ref="scene_88:27"/><sn:say ref="scene_88:28"/><sn:say ref="scene_88:29"/><sn:say ref="scene_88:30"/></sn:scene>
+    <sn:scene title="tile 99"><sn:say ref="scene_88:0"/><sn:say ref="scene_88:1"/><sn:say ref="scene_88:2"/><sn:say ref="scene_88:3"/><sn:say ref="scene_88:4"/><sn:say ref="scene_88:5"/><sn:say ref="scene_88:6"/><sn:say ref="scene_88:7"/><sn:say ref="scene_88:8"/><sn:say ref="scene_88:9"/><sn:say ref="scene_88:10"/><sn:say ref="scene_88:11"/><sn:say ref="scene_88:12"/><sn:say ref="scene_88:13"/><sn:say ref="scene_88:14"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 89" place="scene_89:0">
+    <sn:scene title="start"><sn:say ref="scene_89:0"/><sn:say ref="scene_89:1"/><sn:say ref="scene_89:2"/><sn:say ref="scene_89:3"/><sn:say ref="scene_89:4"/><sn:say ref="scene_89:5"/></sn:scene>
+    <sn:scene title="talk 16 · Dev Tri-Ace"><sn:say ref="scene_89:11"/></sn:scene>
+    <sn:scene title="talk 17 · Happex"><sn:say ref="scene_89:12"/></sn:scene>
+    <sn:scene title="talk 18 · Pinky"><sn:say ref="scene_89:13"/></sn:scene>
+    <sn:scene title="talk 19 · Pinky"><sn:say ref="scene_89:14"/></sn:scene>
+    <sn:scene title="talk 20 · Happex"><sn:say ref="scene_89:15"/></sn:scene>
+    <sn:scene title="talk 21 · Bahabulle"><sn:say ref="scene_89:16"/></sn:scene>
+    <sn:scene title="talk 22 · Bahabulle"><sn:say ref="scene_89:17"/></sn:scene>
+    <sn:scene title="talk 23 · Sasatchi"><sn:say ref="scene_89:18"/></sn:scene>
+    <sn:scene title="talk 24 · Jin"><sn:say ref="scene_89:19"/></sn:scene>
+    <sn:scene title="talk 25 · Miyamoto"><sn:say ref="scene_89:20"/></sn:scene>
+    <sn:scene title="talk 26 · Kawakami"><sn:say ref="scene_89:21"/></sn:scene>
+    <sn:scene title="talk 27 · Joyua"><sn:say ref="scene_89:22"/></sn:scene>
+    <sn:scene title="talk 28 · Kenichi"><sn:say ref="scene_89:23"/><sn:say ref="scene_89:24"/></sn:scene>
+    <sn:scene title="talk 29 · Nishitani"><sn:say ref="scene_89:25"/></sn:scene>
+    <sn:scene title="talk 30 · Marichii"><sn:say ref="scene_89:26"/></sn:scene>
+    <sn:scene title="talk 31 · Hamayan"><sn:say ref="scene_89:27"/></sn:scene>
+    <sn:scene title="talk 32 · Toku"><sn:say ref="scene_89:28"/></sn:scene>
+    <sn:scene title="talk 33 · Yama-chan"><sn:say ref="scene_89:29"/></sn:scene>
+    <sn:scene title="talk 34 · Hasshii"><sn:say ref="scene_89:30"/></sn:scene>
+    <sn:scene title="talk 35 · Masaking"><sn:say ref="scene_89:31"/><sn:say ref="scene_89:32"/><sn:say ref="scene_89:33"/><sn:say ref="scene_89:34"/></sn:scene>
+    <sn:scene title="talk 36 · Double de Sutoreto"><sn:say ref="scene_89:35"/></sn:scene>
+    <sn:scene title="talk 37 · Sutoreto"><sn:say ref="scene_89:36"/><sn:say ref="scene_89:37"/><sn:say ref="scene_89:38"/><sn:say ref="scene_89:39"/><sn:say ref="scene_89:40"/><sn:say ref="scene_89:41"/></sn:scene>
+    <sn:scene title="talk 38 · Double de Sutoreto"><sn:say ref="scene_89:42"/></sn:scene>
+    <sn:scene title="talk 39 · Sutoreto"><sn:say ref="scene_89:43"/></sn:scene>
+    <sn:scene title="tile 1"><sn:say ref="scene_89:7"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_89:8"/></sn:scene>
+    <sn:scene title="tile 3"><sn:say ref="scene_89:9"/></sn:scene>
+    <sn:scene title="tile 4"><sn:say ref="scene_89:10"/></sn:scene>
+    <sn:scene title="tile 5"><sn:say ref="scene_89:6"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 90" place="scene_90:0">
+    <sn:scene title="start"><sn:say ref="scene_90:0"/></sn:scene>
+    <sn:scene title="talk 17 · Membre Tri-Ace"><sn:say ref="scene_90:10"/></sn:scene>
+    <sn:scene title="talk 18"><sn:say ref="scene_90:11"/></sn:scene>
+    <sn:scene title="talk 19"><sn:say ref="scene_90:12"/></sn:scene>
+    <sn:scene title="talk 20"><sn:say ref="scene_90:13"/></sn:scene>
+    <sn:scene title="talk 21"><sn:say ref="scene_90:14"/></sn:scene>
+    <sn:scene title="talk 22"><sn:say ref="scene_90:15"/></sn:scene>
+    <sn:scene title="talk 23"><sn:say ref="scene_90:16"/></sn:scene>
+    <sn:scene title="talk 24"><sn:say ref="scene_90:17"/></sn:scene>
+    <sn:scene title="talk 28"><sn:say ref="scene_90:18"/></sn:scene>
+    <sn:scene title="talk 29"><sn:say ref="scene_90:19"/></sn:scene>
+    <sn:scene title="talk 30"><sn:say ref="scene_90:20"/></sn:scene>
+    <sn:scene title="talk 31"><sn:say ref="scene_90:21"/></sn:scene>
+    <sn:scene title="talk 32"><sn:say ref="scene_90:22"/></sn:scene>
+    <sn:scene title="talk 35 · Kuma l'aventurier"><sn:say ref="scene_90:23"/></sn:scene>
+    <sn:scene title="talk 40"><sn:say ref="scene_90:24"/></sn:scene>
+    <sn:scene title="talk 41"><sn:say ref="scene_90:25"/></sn:scene>
+    <sn:scene title="talk 42"><sn:say ref="scene_90:26"/></sn:scene>
+    <sn:scene title="tile 2"><sn:say ref="scene_90:1"/><sn:say ref="scene_90:2"/><sn:say ref="scene_90:3"/></sn:scene>
+    <sn:scene title="tile 6"><sn:say ref="scene_90:4"/><sn:say ref="scene_90:5"/></sn:scene>
+    <sn:scene title="tile 8"><sn:say ref="scene_90:6"/><sn:say ref="scene_90:7"/><sn:say ref="scene_90:8"/></sn:scene>
+    <sn:scene title="tile 40"><sn:say ref="scene_90:9"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 91" place="scene_91:0">
+    <sn:scene title="start"><sn:say ref="scene_91:0"/></sn:scene>
+    <sn:scene title="tile 8"><sn:say ref="scene_91:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 92" place="scene_92:0">
+    <sn:scene title="start"><sn:say ref="scene_92:0"/></sn:scene>
+    <sn:scene title="talk 36 · K"><sn:say ref="scene_92:1"/></sn:scene>
+    <sn:scene title="talk 37 · Aventurier Pilon"><sn:say ref="scene_92:2"/></sn:scene>
+    <sn:scene title="talk 38 · Aventurier Yuu"><sn:say ref="scene_92:3"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 93" place="scene_93:0">
+    <sn:scene title="start"><sn:say ref="scene_93:0"/></sn:scene>
+    <sn:scene title="talk 44"><sn:say ref="scene_93:2"/><sn:say ref="scene_93:3"/></sn:scene>
+    <sn:scene title="tile 14"><sn:say ref="scene_93:1"/></sn:scene>
+  </sn:scene>
+  <sn:scene title="scene 94">
+    <sn:scene title="tile 98"><sn:say ref="scene_94:0"/><sn:say ref="scene_94:1"/><sn:say ref="scene_94:2"/></sn:scene>
+  </sn:scene>
+</sn:scenes>

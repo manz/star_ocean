@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from tools.reflow import BREAK, CENTER, CENTRE_WIDTH, FONT, MIN_BALANCED_WIDTH, WINDOW_WIDTH, DialogLayout
+from tools.reflow import BREAK, CENTER, CENTRE_WIDTH, FONT, WINDOW_WIDTH, DialogLayout
 
 pytestmark = pytest.mark.skipif(not FONT.exists(), reason="font not built (python -m tools.patch)")
 
@@ -60,11 +60,14 @@ def test_centered_name_measures_as_the_french_name(layout: DialogLayout) -> None
     assert out == layout.message(f"{CENTER}Maison de Dorn[page]\n[end]").replace("Dorn", "[nick:ドーン]")
 
 
-def test_a_broken_sentence_balances_no_narrower_than_two_thirds(layout: DialogLayout) -> None:
-    """198 px, 2 px over the window: balanced with no floor, "que" went to the second line."""
-    first = layout.page("Ça ne signifie pas que tout est perdu.").split("\n")[0]
-    assert first == "Ça ne signifie pas que"
-    assert layout.measure(first) <= MIN_BALANCED_WIDTH < layout.measure(f"{first} tout")
+def test_a_broken_sentence_fills_its_first_line(layout: DialogLayout) -> None:
+    """198 px, 2 px over the window: filled the way TeX fills it, not balanced: "tout" stays on the first line."""
+    assert layout.page("Ça ne signifie pas que tout est perdu.") == "Ça ne signifie pas que tout\nest perdu."
+
+
+def test_a_last_line_is_never_one_word(layout: DialogLayout) -> None:
+    last = layout.page(LONG).split("\n")[-1]
+    assert " " in last
 
 
 def test_choices_ending_with_a_break_stay_on_their_lines(layout: DialogLayout) -> None:
