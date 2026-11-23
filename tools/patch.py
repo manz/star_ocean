@@ -18,6 +18,7 @@ from tools import (
     cutscene_text,
     encode_menus,
     encode_text,
+    ending_credits,
     item_list,
     menu_font,
     menu_font16,
@@ -44,7 +45,7 @@ class Patch:
 
 
 def build_assets() -> None:
-    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, item name widths, scene event edits, menus, narration, cutscenes, title menu, badge, yes / no bubbles."""
+    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, item name widths, scene event edits, menus, narration, cutscenes, ending credits, title menu, badge, yes / no bubbles."""
     katsuji_build.build(katsuji_config.load(ROOT / "katsuji.toml"))
     font = (GEN / "dialog_font.dat").read_bytes()
     (GEN / "dialog_font_low.bin").write_bytes(font[: DIALOG_FONT_GLYPHS * DIALOG_FONT_RECORD])
@@ -57,6 +58,7 @@ def build_assets() -> None:
     party_names.build(GEN)
     narration.build(out=GEN)
     cutscene_text.build(out=GEN)
+    ending_credits.build(out=GEN)
     title_menu.build(out=GEN)
     badge.build(out=GEN)
     yes_no.build(out=GEN)
