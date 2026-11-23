@@ -306,3 +306,11 @@ def test_an_engraving_read_with_a_moves_the_story() -> None:
     assert [s["trigger"] for s in steps if s["maps"] == [164] and s["at"] == 143] == [
         {"kind": "use", "box": [4, 4, 4, 4], "actor": None, "item": None}
     ]
+
+
+def test_a_box_thinner_than_a_cell_is_the_cell_a_hero_on_the_grid_stands_in() -> None:
+    """Map 158's switch: 8 px x 59 to 60, A only where the hero's x is cell 30."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    switch = [f["trigger"]["box"] for f in flags if f["flag"] == 102 and f["on"] and f["maps"] == [158]]
+    assert switch == [[30, 44, 30, 44]]

@@ -253,11 +253,12 @@ class _Point:
 
 
 def _inner(x1: int, y1: int, x2: int, y2: int) -> tuple[int, int, int, int]:
-    """An 8 px box (inclusive) as the 16 px cells wholly in it, else those it touches (map 168's switch: x 14 to 16
-    holds cell 7, and only half of 8)."""
+    """An 8 px box (inclusive) as the 16 px cells wholly in it (map 168's switch: x 14 to 16 holds cell 7, and only
+    half of 8), else those whose edge is in it, where a hero standing on the grid is (map 158's switch: x 59 to 60,
+    cell 30)."""
     xs, ys = ((x1 + 1) // 2, (x2 - 1) // 2), ((y1 + 1) // 2, (y2 - 1) // 2)
-    xs = xs if xs[0] <= xs[1] else (x1 // 2, x2 // 2)
-    ys = ys if ys[0] <= ys[1] else (y1 // 2, y2 // 2)
+    xs = xs if xs[0] <= xs[1] else ((x1 + 1) // 2, x2 // 2)
+    ys = ys if ys[0] <= ys[1] else ((y1 + 1) // 2, y2 // 2)
     return xs[0], ys[0], xs[1], ys[1]
 
 
