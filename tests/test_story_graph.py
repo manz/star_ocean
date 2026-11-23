@@ -279,3 +279,12 @@ def test_a_party_lookup_is_named_for_its_character() -> None:
     assert isinstance(steps, list)
     guards = [s["guards"] for s in steps if s["maps"] == [222] and s["at"] == 133 and s["to"] == 134]
     assert guards == [["var[0x13] == 0 && var.w[0x10] == 133 && party[1] == 0"]]
+
+
+def test_a_choice_answer_is_named_choice() -> None:
+    """Port 83's boatman: `choose 0, 4; store_result sys[8]; set var.w[0x46] = sys.w[0x8]`, the third line sails to
+    Ecdart (156)."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    boat = [e["guards"] for e in exits if e["maps"] == [83] and e["actor"] == 20 and e["to"] == 156]
+    assert boat and all("choice == 3" in g for g in boat)

@@ -207,6 +207,8 @@ class _Point:
     results: frozenset[tuple[int, int]] = frozenset()  # (system variable, flag) the flag tests stored
     asked: int | None = None  # the character the last instruction looked for in the party
     party: frozenset[tuple[int, int]] = frozenset()  # (system variable, character) the party lookups stored
+    chose: bool = False  # the last instruction opened a choice
+    choice: frozenset[str] = frozenset()  # the variables holding the answer to the last choice
     consts: frozenset[tuple[int, int]] = frozenset()  # (variable, value): a flag op's variable set to a number
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
@@ -228,6 +230,7 @@ class _Point:
             returns=self.returns if returns is None else returns,
             tested=None,
             asked=None,
+            chose=False,
         )
 
     def boxed(self) -> _Point:
@@ -373,11 +376,14 @@ class _Walker:
                 return []
             case "flag_test" if (flag := p.flag(ins.args[0])) is not None:
                 return [(replace(p, pos=nxt, tested=flag), guards)]
+            case "choose":
+                return [(replace(p, pos=nxt, chose=True), guards)]
             case "char_party_pos" if isinstance(ins.args[0], Value) and ins.args[0].table == "imm":
                 return [(replace(p, pos=nxt, asked=ins.args[0].n), guards)]
             case "syscall" if _is_box_test(ins):
                 return [(p.at(nxt).boxed(), guards)]
-        q = _wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested, p.asked), ins), ins), ins)
+        q = _answered(_with_result(p.at(nxt), ins, p.tested, p.asked), ins, p.chose)
+        q = _wrote(_counted(self._keep_const(q, ins), ins), ins)
         if (fill := self.fills.get(p.pos)) is not None:
             q = replace(q, placed=q.placed | {fill[0]}, sets=q.sets | {(fill[0], AXES[fill[1]] + "px")})
         elif (cell := _celled(p, ins)) is not None:
@@ -426,7 +432,7 @@ class _Walker:
     def _branch(self, p: _Point, guards: frozenset[Guard], ins: Instruction) -> list[tuple[_Point, frozenset[Guard]]]:
         then, other, condition = _target(ins.args[0]), _target(ins.args[1]), ins.args[2]
         assert isinstance(condition, Condition)
-        condition = _party_named(condition, p.party)
+        condition = _choice_named(_party_named(condition, p.party), p.choice)
         m = map_test(condition)
         if m is None:
             return self._test(p, guards, condition, then, other)
@@ -490,6 +496,44 @@ def _with_result(p: _Point, ins: Instruction, tested: int | None, asked: int | N
     if ins.name == "store_result" and asked is not None:
         party |= {(n, asked)}
     return replace(p, tested=None, results=kept, party=party)
+
+
+def _answered(p: _Point, ins: Instruction, chose: bool) -> _Point:
+    """The variables holding a choice's answer: `store_result sys[n]` right after `choose`, then a `set` copying it
+    (port 83's boat: `choose 0, 4; store_result sys[8]; set var.w[0x46] = sys.w[0x8]`). Any other write forgets one."""
+    dest = ins.args[0] if ins.args else None
+    if ins.name == "store_result" and isinstance(dest, Index):
+        name = f"sys.w[{dest.n:#x}]"
+        return replace(p, choice=(p.choice | {name}) if chose else p.choice - {name})
+    if ins.name not in WRITES or not isinstance(dest, Value):
+        return p
+    operand = ins.args[1] if ins.name == "set" and len(ins.args) > 1 else None
+    value = operand.tokens[0] if isinstance(operand, Expression) and len(operand.tokens) == 1 else operand
+    copied = isinstance(value, Value) and _wide(value) in p.choice and STORES[(dest.flags >> 3) & 7] == "="
+    return replace(p, choice=(p.choice | {_wide(dest)}) if copied else p.choice - {_wide(dest)})
+
+
+def _wide(v: Value) -> str:
+    return f"{v.table}.w[{v.n:#x}]"
+
+
+@dataclass(frozen=True)
+class Answer(Value):
+    """A variable holding the answer to a choice: `choice`, the line from 1, 0 backing out (port 83's boatman: 3, Ecdart)."""
+
+    def __str__(self) -> str:
+        return "choice"
+
+
+def _choice_named(c: Condition, choice: frozenset[str]) -> Condition:
+    """The condition with each variable holding a choice's answer named `choice`."""
+    if not choice:
+        return c
+
+    def named(v: Value) -> Value:
+        return Answer("choice", 0) if v.table in ("var", "sys") and _wide(v) in choice else v
+
+    return replace(c, terms=tuple(replace(t, values=tuple(named(v) for v in t.values)) for t in c.terms))
 
 
 @dataclass(frozen=True)
