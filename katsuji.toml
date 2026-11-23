@@ -1,13 +1,5 @@
 # Fonts katsuji builds for the patch: `uv run katsuji build`.
 
-# 8x8 VWF shared by dialog and menus (seeded from the FF4 menu font).
-[fonts.small]
-png = "fonts/8x8vwf.png"
-cell = [8, 8]
-table = "text/so_8x8.tbl"
-output = "build/gen/small_font.dat"
-widths = { "0xFF" = 3 }
-
 # 8x16 dialog VWF: katsuji's sumi/16 on the Star Ocean stream codes; Œ and œ wide, cut across two codes.
 [fonts.dialog]
 builtin = "sumi/16"
