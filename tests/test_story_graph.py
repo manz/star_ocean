@@ -296,3 +296,12 @@ def test_a_choice_answer_is_named_choice() -> None:
     assert isinstance(exits, list)
     boat = [e["guards"] for e in exits if e["maps"] == [83] and e["actor"] == 20 and e["to"] == 156]
     assert boat and all("choice == 3" in g for g in boat)
+
+
+def test_an_engraving_read_with_a_moves_the_story() -> None:
+    """Map 164 at 143: A facing the engraving in its box (scene 80's A script, `actor_in_box`) moves the story on."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert [s["trigger"] for s in steps if s["maps"] == [164] and s["at"] == 143] == [
+        {"kind": "use", "box": [3, 4, 4, 4], "actor": None, "item": None}
+    ]

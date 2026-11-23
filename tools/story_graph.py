@@ -631,7 +631,8 @@ class SceneGraph:
         for e in self.effects.get(USE, frozenset()):
             item = _item(e.guards)
             if item is None:
-                if e.zone is not None and e.name in ("flag_on", "flag_off"):  # a switch: A in its box (map 234's)
+                if e.zone is not None and (e.name in ("flag_on", "flag_off") or _counts(e)):  # a switch: A in its
+                    # box (map 234's); an engraving read moves the story (map 164's at 143)
                     out.add(Action(self.scene, e.maps, Trigger("use", box=e.zone), e.name, e.args, e.guards, e.sets))
                 continue
             for box in _where(e, placed):
@@ -670,6 +671,11 @@ class SceneGraph:
                 to = _written(a, at)
                 out.add(Step(self.scene, a.maps, at, to, a.trigger, a.guards))
         return out
+
+
+def _counts(e: Op) -> bool:
+    """The effect writes the story counter."""
+    return e.name in ("inc", "set") and bool(e.args) and e.args[0] == STORY
 
 
 @cache
