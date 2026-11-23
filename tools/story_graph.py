@@ -205,6 +205,8 @@ class _Point:
     returns: tuple[int, ...]
     tested: int | None = None  # the flag the last instruction tested
     results: frozenset[tuple[int, int]] = frozenset()  # (system variable, flag) the flag tests stored
+    asked: int | None = None  # the character the last instruction looked for in the party
+    party: frozenset[tuple[int, int]] = frozenset()  # (system variable, character) the party lookups stored
     consts: frozenset[tuple[int, int]] = frozenset()  # (variable, value): a flag op's variable set to a number
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
@@ -225,6 +227,7 @@ class _Point:
             maps=self.maps if maps is None else maps,
             returns=self.returns if returns is None else returns,
             tested=None,
+            asked=None,
         )
 
     def boxed(self) -> _Point:
@@ -370,9 +373,11 @@ class _Walker:
                 return []
             case "flag_test" if (flag := p.flag(ins.args[0])) is not None:
                 return [(replace(p, pos=nxt, tested=flag), guards)]
+            case "char_party_pos" if isinstance(ins.args[0], Value) and ins.args[0].table == "imm":
+                return [(replace(p, pos=nxt, asked=ins.args[0].n), guards)]
             case "syscall" if _is_box_test(ins):
                 return [(p.at(nxt).boxed(), guards)]
-        q = _wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested), ins), ins), ins)
+        q = _wrote(_counted(self._keep_const(_with_result(p.at(nxt), ins, p.tested, p.asked), ins), ins), ins)
         if (fill := self.fills.get(p.pos)) is not None:
             q = replace(q, placed=q.placed | {fill[0]}, sets=q.sets | {(fill[0], AXES[fill[1]] + "px")})
         elif (cell := _celled(p, ins)) is not None:
@@ -421,6 +426,7 @@ class _Walker:
     def _branch(self, p: _Point, guards: frozenset[Guard], ins: Instruction) -> list[tuple[_Point, frozenset[Guard]]]:
         then, other, condition = _target(ins.args[0]), _target(ins.args[1]), ins.args[2]
         assert isinstance(condition, Condition)
+        condition = _party_named(condition, p.party)
         m = map_test(condition)
         if m is None:
             return self._test(p, guards, condition, then, other)
@@ -464,8 +470,9 @@ def _counted(p: _Point, ins: Instruction) -> _Point:
     return replace(p, story=None)
 
 
-def _with_result(p: _Point, ins: Instruction, tested: int | None) -> _Point:
-    """`store_result sys[n]` right after a `flag_test`: sys[n] holds that flag; any other write to sys[n] forgets it."""
+def _with_result(p: _Point, ins: Instruction, tested: int | None, asked: int | None = None) -> _Point:
+    """`store_result sys[n]` right after a `flag_test`: sys[n] holds that flag; right after a `char_party_pos`, that
+    character's place in the party. Any other write to sys[n] forgets it."""
     if (
         ins.name == "store_result"
         and isinstance(ins.args[0], Index)
@@ -479,7 +486,31 @@ def _with_result(p: _Point, ins: Instruction, tested: int | None) -> _Point:
     kept = frozenset(r for r in p.results if r[0] != n)
     if ins.name == "store_result" and tested is not None:
         kept |= {(n, tested)}
-    return replace(p, tested=None, results=kept)
+    party = frozenset(r for r in p.party if r[0] != n)
+    if ins.name == "store_result" and asked is not None:
+        party |= {(n, asked)}
+    return replace(p, tested=None, results=kept, party=party)
+
+
+@dataclass(frozen=True)
+class PartyPlace(Value):
+    """A system variable holding a `char_party_pos` result: `party[c]`, character c's place (1-4 fighting, 5-8 in
+    reserve, 0 not in the party or away: map 222 at 133 waits on character 1 gone)."""
+
+    def __str__(self) -> str:
+        return f"party[{self.n}]"
+
+
+def _party_named(c: Condition, party: frozenset[tuple[int, int]]) -> Condition:
+    """The condition with each system variable holding a party lookup named for its character."""
+    if not party:
+        return c
+    chars = dict(party)
+
+    def named(v: Value) -> Value:
+        return PartyPlace("party", chars[v.n]) if v.table == "sys" and v.n in chars else v
+
+    return replace(c, terms=tuple(replace(t, values=tuple(named(v) for v in t.values)) for t in c.terms))
 
 
 def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:

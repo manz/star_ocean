@@ -271,3 +271,11 @@ def test_a_flag_result_anded_with_the_counter_is_a_flag_guard() -> None:
     assert isinstance(steps, list)
     on = [s["flags"] for s in steps if s["maps"] == [87] and s["at"] == 133 and s["to"] == 137]
     assert on == [{"92": False}]
+
+
+def test_a_party_lookup_is_named_for_its_character() -> None:
+    """Map 222 at 133: `char_party_pos 1; store_result sys[8]` moves on to 134 only with character 1 away."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    guards = [s["guards"] for s in steps if s["maps"] == [222] and s["at"] == 133 and s["to"] == 134]
+    assert guards == [["var[0x13] == 0 && var.w[0x10] == 133 && party[1] == 0"]]
