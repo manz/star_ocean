@@ -143,6 +143,34 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
     .dw 0x5EA
 }
 
+; The L/R window clears its four rows before drawing (`ldx #row / lda #8 / jsl C0:45CA`): 8 cells, the Japanese
+; names' width. The names run 10 cells now; a shorter name left the end of the previous one (the other page's set,
+; Double tranchant's last tile) on cells 29-30.
+.alloc at 0xC1564F size 2 {  ; 8 cells, top: L row
+    .dw 10
+}
+.alloc at 0xC15659 size 2 {  ; 8 cells, top: L name
+    .dw 10
+}
+.alloc at 0xC15663 size 2 {  ; 8 cells, top: R row
+    .dw 10
+}
+.alloc at 0xC1566D size 2 {  ; 8 cells, top: R name
+    .dw 10
+}
+.alloc at 0xC1569B size 2 {  ; 8 cells, bottom: L row
+    .dw 10
+}
+.alloc at 0xC156A5 size 2 {  ; 8 cells, bottom: L name
+    .dw 10
+}
+.alloc at 0xC156AF size 2 {  ; 8 cells, bottom: R row
+    .dw 10
+}
+.alloc at 0xC156B9 size 2 {  ; 8 cells, bottom: R name
+    .dw 10
+}
+
 ; The bottom copy drew PV and max PV with 3 digits (`lda #3` before `C0:4501`), the top one with 4:
 ; 6746 showed as 746.
 .alloc at 0xC15599 size 2 {  ; 3 PV digits
