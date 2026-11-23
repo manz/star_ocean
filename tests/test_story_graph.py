@@ -263,3 +263,11 @@ def test_a_step_on_two_flag_results_needs_both_flags() -> None:
     assert isinstance(steps, list)
     on = [s["flags"] for s in steps if s["maps"] == [84] and s["at"] == 137 and s["to"] == 140]
     assert on == [{"93": True, "94": True}]
+
+
+def test_a_flag_result_anded_with_the_counter_is_a_flag_guard() -> None:
+    """Map 87 at 133: `flag_test 92; if var.w[0x10] == 133 && sys.w[0x8] == 0` moves on to 137 with flag 92 off."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    on = [s["flags"] for s in steps if s["maps"] == [87] and s["at"] == 133 and s["to"] == 137]
+    assert on == [{"92": False}]

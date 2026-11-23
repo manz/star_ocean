@@ -411,8 +411,9 @@ class _Walker:
         was = COUNTER if p.story is None else p.story
         both = any(j == 1 for j in condition.joiners)
         sides = ((then, True, was & values), (other, False, was if both else was - values))
+        took = _anded_flags(condition, p.results)
         return [
-            (replace(p.at(to), story=story), guards | {Guard(condition, holds, flag)})
+            (replace(p.at(to), story=story), guards | {Guard(condition, holds, flag)} | (took if holds else set()))
             for to, holds, story in sides
             if story
         ]
@@ -503,6 +504,15 @@ def _flag_tests(c: Condition, results: frozenset[tuple[int, int]]) -> list[tuple
         return None
     out = [(t, _flag_test(Condition((t,), ()), results)) for t in c.terms]
     return None if any(f is None for _, f in out) else [(t, f) for t, f in out if f is not None]
+
+
+def _anded_flags(c: Condition, results: frozenset[tuple[int, int]]) -> frozenset[Guard]:
+    """The flag terms of an `a && b` that also tests something else, each a guard taking the test needs (map 87 at
+    133: `var.w[0x10] == 133 && sys.w[0x8] == 0` after `flag_test 92` moves on only with flag 92 off)."""
+    if len(c.terms) < 2 or set(c.joiners) != {1}:
+        return frozenset()
+    found = ((t, _flag_test(Condition((t,), ()), results)) for t in c.terms)
+    return frozenset(Guard(Condition((t,), ()), True, f) for t, f in found if f is not None)
 
 
 @dataclass(frozen=True)
@@ -655,6 +665,8 @@ def _allowed(guards: frozenset[Guard]) -> frozenset[int]:
     allowed = COUNTER
     for g in guards:
         values = _story_values(g.condition)
+        if not g.holds and _anded_other(g.condition):
+            continue  # failing `a && b` says nothing of its counter part (map 87 at 133 with flag 92 on)
         if values is not None:
             allowed &= values if g.holds else COUNTER - values
     return allowed
@@ -718,6 +730,11 @@ def _where(use: Op, placed: set[Action]) -> list[tuple[Arg, Arg, Arg, Arg] | Non
         },
         key=str,
     )
+
+
+def _anded_other(c: Condition) -> bool:
+    """An `&&` with a term that does not test the counter."""
+    return len(c.terms) > 1 and all(j == 1 for j in c.joiners) and any(_story_test(t) is None for t in c.terms)
 
 
 def _story_values(c: Condition) -> frozenset[int] | None:
