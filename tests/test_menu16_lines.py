@@ -1,5 +1,6 @@
 """menu16 strings against the 16x16 description box: the printer clears LINES lines, a longer text leaves its
-last line on the screen below (the window border, the next description)."""
+last line on the screen below (the window border, the next description). battle16 strings against the battle's help
+row: a longer one runs past the window and its columns over the 8x8 VWF pool's tiles (scrolled spell names)."""
 
 from __future__ import annotations
 
@@ -10,7 +11,7 @@ from katsuji.script import Table
 
 from tools.encode_menus import wide_values
 from tools.import_menus import id_list
-from tools.menu_font16 import BASE, DIALOG_BASE, GEN, LINES, TABLE, lines, table_lines
+from tools.menu_font16 import BASE, BATTLE_PIXELS, DIALOG_BASE, GEN, LINES, TABLE, lines, pixels, table_lines
 from tools.rom import DEFAULT_ROM, ROOT, Rom
 
 WIDTHS = GEN / "menu_font16_widths.bin"
@@ -31,6 +32,18 @@ def test_every_menu16_string_fits_the_box() -> None:
     widths = WIDTHS.read_bytes()
     over = [
         f"{sid:04X}" for sid, value in zip(id_list(rom, "menu16"), encoded, strict=True) if lines(value, widths) > LINES
+    ]
+    assert over == []
+
+
+def test_every_battle16_string_fits_the_help_row() -> None:
+    rom = Rom()
+    encoded, _ = wide_values(rom, "battle16", Table(str(TABLE)), ROOT / "text" / "fr" / "battle16.xml")
+    widths = WIDTHS.read_bytes()
+    over = [
+        f"{sid:04X}"
+        for sid, value in zip(id_list(rom, "battle16"), encoded, strict=True)
+        if pixels(value, widths) > BATTLE_PIXELS
     ]
     assert over == []
 
