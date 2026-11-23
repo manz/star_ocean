@@ -323,3 +323,11 @@ def test_a_map_change_takes_the_hero_before_one_it_runs_into() -> None:
     assert isinstance(exits, list)
     to_324 = [e["guards"] for e in exits if e["maps"] == [312] and e["to"] == 324]
     assert to_324 == [["!(var.w[0x23] == 315)", "!(var.w[0x23] == 320)"]]
+
+
+def test_a_wall_reads_flag_results_copied_into_variables() -> None:
+    """Map 544's door: flags 119 to 123 tested, each result copied into `var.w[0x38]` on, then all of them anded."""
+    walls = export()["walls"]
+    assert isinstance(walls, list)
+    door = [w["flags"] for w in walls if w["maps"] == [544]]
+    assert door == [{str(f): True for f in range(119, 124)}]

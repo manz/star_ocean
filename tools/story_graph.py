@@ -204,7 +204,7 @@ class _Point:
     maps: frozenset[int]
     returns: tuple[int, ...]
     tested: int | None = None  # the flag the last instruction tested
-    results: frozenset[tuple[int, int]] = frozenset()  # (system variable, flag) the flag tests stored
+    results: frozenset[tuple[str, int]] = frozenset()  # (variable, flag) the flag tests stored, and copies of them
     asked: int | None = None  # the character the last instruction looked for in the party
     party: frozenset[tuple[int, int]] = frozenset()  # (system variable, character) the party lookups stored
     chose: bool = False  # the last instruction opened a choice
@@ -501,25 +501,42 @@ def _counted(p: _Point, ins: Instruction) -> _Point:
 
 
 def _with_result(p: _Point, ins: Instruction, tested: int | None, asked: int | None = None) -> _Point:
-    """`store_result sys[n]` right after a `flag_test`: sys[n] holds that flag; right after a `char_party_pos`, that
-    character's place in the party. Any other write to sys[n] forgets it."""
-    if (
-        ins.name == "store_result"
-        and isinstance(ins.args[0], Index)
-        or ins.name == "set"
-        and isinstance(ins.args[0], Value)
-        and ins.args[0].table == "sys"
-    ):
-        n = ins.args[0].n
+    """`store_result sys[n]` right after a `flag_test`: sys[n] holds that flag, and a `set` copying it (map 544's
+    `set var.w[0x38] = sys.w[0x8]`, flags 119 to 123 open its door); right after a `char_party_pos`, that
+    character's place in the party. Any other write forgets it."""
+    dest = ins.args[0] if ins.args else None
+    if ins.name == "store_result" and isinstance(dest, Index):
+        name = f"sys.w[{dest.n:#x}]"
+    elif ins.name in WRITES and isinstance(dest, Value) and dest.table in ("sys", "var"):
+        name = _wide(dest)
     else:
         return p
-    kept = frozenset(r for r in p.results if r[0] != n)
+    kept = frozenset(r for r in p.results if r[0] != name)
     if ins.name == "store_result" and tested is not None:
-        kept |= {(n, tested)}
+        kept |= {(name, tested)}
+    elif (flag := _copied(ins, p.results)) is not None:
+        kept |= {(name, flag)}
+    sys_set = ins.name == "set" and isinstance(dest, Value) and dest.table == "sys"
+    if not (isinstance(dest, Index) or sys_set):
+        return replace(p, tested=None, results=kept)
+    assert dest is not None
+    n = dest.n
     party = frozenset(r for r in p.party if r[0] != n)
     if ins.name == "store_result" and asked is not None:
         party |= {(n, asked)}
     return replace(p, tested=None, results=kept, party=party)
+
+
+def _copied(ins: Instruction, results: frozenset[tuple[str, int]]) -> int | None:
+    """The flag a plain `set` copies from a variable holding a flag result."""
+    dest = ins.args[0] if ins.args else None
+    if ins.name != "set" or len(ins.args) < 2 or not isinstance(dest, Value) or STORES[(dest.flags >> 3) & 7] != "=":
+        return None
+    operand = ins.args[1]
+    value = operand.tokens[0] if isinstance(operand, Expression) and len(operand.tokens) == 1 else operand
+    if not isinstance(value, Value) or value.table not in ("sys", "var"):
+        return None
+    return next((flag for name, flag in results if name == _wide(value)), None)
 
 
 def _answered(p: _Point, ins: Instruction, chose: bool) -> _Point:
@@ -581,7 +598,7 @@ def _party_named(c: Condition, party: frozenset[tuple[int, int]]) -> Condition:
     return replace(c, terms=tuple(replace(t, values=tuple(named(v) for v in t.values)) for t in c.terms))
 
 
-def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:
+def _flag_test(c: Condition, results: frozenset[tuple[str, int]]) -> int | None:
     """The flag a condition tests: exactly `sys.w[n] == 0` (or `!= 0`, or `sys.w[n]` alone: map 233's door) on a
     system variable holding a flag result."""
     if len(c.terms) != 1:
@@ -591,12 +608,12 @@ def _flag_test(c: Condition, results: frozenset[tuple[int, int]]) -> int | None:
     if not (term.compare == 6 or term.compare in (0, 3) and zero):
         return None
     a = term.values[0]
-    if a.table != "sys":
+    if a.table not in ("sys", "var"):
         return None
-    return next((flag for n, flag in results if n == a.n), None)
+    return next((flag for name, flag in results if name == _wide(a)), None)
 
 
-def _flag_tests(c: Condition, results: frozenset[tuple[int, int]]) -> list[tuple[Term, int]] | None:
+def _flag_tests(c: Condition, results: frozenset[tuple[str, int]]) -> list[tuple[Term, int]] | None:
     """`a && b` on flag results, each term with its flag: taking it needs every flag so (map 84 at 137 moves on to
     140 with flags 93 and 94 on, else back to 133)."""
     if len(c.terms) < 2 or set(c.joiners) != {1}:
@@ -605,7 +622,7 @@ def _flag_tests(c: Condition, results: frozenset[tuple[int, int]]) -> list[tuple
     return None if any(f is None for _, f in out) else [(t, f) for t, f in out if f is not None]
 
 
-def _anded_flags(c: Condition, results: frozenset[tuple[int, int]]) -> frozenset[Guard]:
+def _anded_flags(c: Condition, results: frozenset[tuple[str, int]]) -> frozenset[Guard]:
     """The flag terms of an `a && b` that also tests something else, each a guard taking the test needs (map 87 at
     133: `var.w[0x10] == 133 && sys.w[0x8] == 0` after `flag_test 92` moves on only with flag 92 off)."""
     if len(c.terms) < 2 or set(c.joiners) != {1}:
