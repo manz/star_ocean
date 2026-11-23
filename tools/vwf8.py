@@ -15,7 +15,9 @@ a word after two spaces or more starts at the column it had in fixed width, ever
 `vwf8_keys` sorts the records by the string's address (encode_menus.place): 8 bytes each, address word, bank, 0,
 record pointer, 0. Strings with a code the writer draws over two rows (C0+) have no record: the game draws them.
 `vwf8_combos` holds, per special move id from COMBO_FIRST, its battle16 name's record (.dl, then 0; 0: none) for the
-Talents combo slots (src/menu/vwf8.s), wrapped onto the slot's second row past COMBO_PX.
+Talents combo slots (src/menu/vwf8.s), wrapped onto the slot's second row past COMBO_PX. `vwf8_lr` gives, per names8
+id from LR_FIRST (the battle's L/R window: a block of 0x20 per character), the combo position whose record the fight
+draws instead (0xFF: the names8 string stays), for names that fit LR_PX on one row.
 """
 
 from __future__ import annotations
@@ -47,6 +49,37 @@ STOPS = {0xEAD0: (0, 5), 0xEAD2: (0, 5, 10), 0xEAD3: (0, 5, 10)}  # shop tabs: s
 GAP = 1  # between runs and whole tiles
 COMBO_FIRST, COMBO_COUNT = 0x2710, 0x82  # special moves, by battle16 id
 COMBO_PX = 96  # a combo slot's row: 12 cells
+LR_FIRST, LR_COUNT = 0x0BB8, 0x180  # names8 ids of the battle L/R window's special moves, 0x20 a character
+LR_PX = 80  # the L/R window's name row: 10 cells (src/battle/windows.s)
+# Each character's L/R names8 block, in order, as battle16 special move ids (matched on the Japanese names8 kana).
+LR_TALENTS = {
+    0x0BB8: (
+        0x273A,
+        0x273B,
+        0x273C,
+        0x273D,
+        0x273E,
+        0x273F,
+        0x2740,
+        0x2741,
+        0x2742,
+        0x2743,
+        0x2744,
+        0x2745,
+        0x2749,
+        0x274A,
+        0x274B,
+        0x274C,
+    ),
+    0x0C38: (0x2765, 0x2766, 0x2767, 0x2768, 0x276B, 0x276C, 0x276D, 0x276E, 0x276F, 0x2770),
+    0x0C58: (0x273A, 0x273C, 0x273D, 0x273E, 0x273F, 0x2740, 0x274F, 0x2750, 0x2751, 0x2743, 0x2752, 0x2745),
+    0x0C98: (0x2786, 0x2788, 0x2789, 0x278A, 0x278B, 0x278C, 0x278E, 0x2790, 0x276F),
+    0x0CB8: (0x2771, 0x2772, 0x2773, 0x2774, 0x2775, 0x2776, 0x2777, 0x2778, 0x2779, 0x2791),
+    0x0CD8: (0x273A, 0x273C, 0x273E, 0x273F, 0x2740, 0x2741, 0x2742, 0x2743, 0x2745),
+    0x0CF8: (0x277A, 0x277B, 0x277C, 0x277D, 0x277E, 0x277F, 0x2780, 0x2781, 0x2782, 0x2783, 0x2784, 0x2785),
+    0x0D18: (0x2753, 0x2754, 0x2755, 0x2756, 0x2760, 0x2761, 0x2762, 0x2763, 0x2764),
+}
+NO_TALENT = 0xFF
 INK, SHADOW = 3, 1  # the menu font's letter colours
 FF4 = True  # FF4's 8x8 VWF font (fonts/8x8vwf.png, 1bpp) instead of the menu font's letters
 FF4_FONT, FF4_TABLE = ROOT / "fonts" / "8x8vwf.png", ROOT / "text" / "so_8x8.tbl"
@@ -273,6 +306,25 @@ def combo_records(rom: Rom, source: Path) -> dict[int, tuple[bytes, bytes]]:
     return out
 
 
+def lr_table(rom: Rom, source: Path) -> bytes:
+    """Per names8 id from LR_FIRST: the combo position of its special move when its battle16 name fits LR_PX on one
+    row and has a record, else NO_TALENT."""
+    encoded, _ = wide_values(rom, "battle16", Table(str(TABLE)), source / "battle16.xml")
+    fits = {
+        sid - COMBO_FIRST
+        for sid, value in zip(id_list(rom, "battle16"), encoded, strict=True)
+        if COMBO_FIRST <= sid < COMBO_FIRST + COMBO_COUNT
+        and value[:1] != bytes([END])
+        and width(value[: value.index(END)]) <= LR_PX
+    }
+    out = bytearray([NO_TALENT] * LR_COUNT)
+    for first, talents in LR_TALENTS.items():
+        for k, sid in enumerate(talents):
+            if sid - COMBO_FIRST in fits:
+                out[first - LR_FIRST + k] = sid - COMBO_FIRST
+    return bytes(out)
+
+
 def _record(n: int, tiles: bytes, cells: bytes, streams: dict[bytes, str], asm: list[str], out: Path) -> None:
     stream = "0"
     if tiles:
@@ -312,6 +364,13 @@ def build(source: Path = ROOT / "text" / "fr", out: Path = ROOT / "build" / "gen
         else:
             rows.append("    .dl 0\n    .db 0")
     asm.append(".alloc vwf8_combos in text16 {\n" + "\n".join(rows) + "\n}")
+    lr = lr_table(rom, source)
+    asm += [
+        f"VWF8_LR_FIRST := 0x{LR_FIRST:04X}",
+        f"VWF8_LR_COUNT := {LR_COUNT}",
+        f"VWF8_NO_TALENT := 0x{NO_TALENT:02X}",
+    ]
+    asm.append(".alloc vwf8_lr in text16 {\n    .db " + ", ".join(f"0x{b:02X}" for b in lr) + "\n}")
     for old in out.glob("names8_vwf*"):
         old.unlink()
     (out / "vwf8.i").write_text("\n".join(asm) + "\n")

@@ -52,7 +52,25 @@ battle_vwf8_open:
         jml 0xC81050
 
 battle_vwf8_name:
-"""The name's offset into Y; drawn from its record (C0:4061: the writer's return) or by the game (C0:3FD6)."""
+"""
+The name's offset into Y; drawn from its record (C0:4061: the writer's return) or by the game (C0:3FD6). An L/R
+window name ($20 = its names8 id) whose special move fits the row is drawn from the move's battle16 record instead.
+"""
+        lda.b 0x20
+        sec
+        sbc.w #VWF8_LR_FIRST
+        cmp.w #VWF8_LR_COUNT
+        bcs _plain
+        tax
+        lda.l vwf8_lr, x
+        and.w #0x00FF
+        cmp.w #VWF8_NO_TALENT
+        beq _plain
+        phy
+        jsr.w _draw_talent
+        ply
+        bcs _name_drawn
+_plain:
         lda.w 0x0000, y
         tay
         phy
@@ -77,10 +95,76 @@ battle_vwf8_string:
 _string_drawn:
         jml 0xC041E1
 
+_draw_talent:
+"""
+The special move at combo position A (vwf8_combos) into the battle shadows from $22: carry set and X past its cells
+when drawn, else X = $22. M16 X16; vwf8's direct page ($20-$27) saved around the call.
+"""
+        pha
+        sep #0x20
+        jsl vwf8_battle_ready
+        rep #0x20
+        pei (0x20)
+        pei (0x22)
+        pei (0x24)
+        pei (0x26)
+        lda 9, s  ; the combo position
+        clc
+        adc.w #VWF8_KEYS
+        sta.l vwf8.id
+        lda 9, s
+        asl
+        asl
+        tax
+        lda.l vwf8_combos, x
+        sta.b 0x20
+        lda.l vwf8_combos + 2, x
+        sta.b 0x22
+        lda 5, s  ; the game's $22
+        clc
+        adc.w #_SHADOW
+        sta.b 0x24  ; the cursor
+        lda 3, s  ; the game's $24
+        xba
+        and.w #0x00FF
+        sta.b 0x26  ; the attribute, $27 = 0
+        sep #0x20
+        jsl vwf8_record
+        rep #0x20
+        bcc _talent_refused
+        txa
+        sec
+        sbc.w #_SHADOW
+        tax
+        pla
+        sta.b 0x26
+        pla
+        sta.b 0x24
+        pla
+        sta.b 0x22
+        pla
+        sta.b 0x20
+        pla
+        sec
+        rts
+_talent_refused:
+        pla
+        sta.b 0x26
+        pla
+        sta.b 0x24
+        pla
+        sta.b 0x22
+        pla
+        sta.b 0x20
+        pla
+        ldx.b _OFFSET
+        clc
+        rts
+
 _draw:
 """
-    The string at DB:Y into the battle shadows from $22: carry set and X past its cells when drawn, else X = $22 and Y
-    kept. M16 X16; vwf8's direct page ($20-$27) saved around the call.
+The string at DB:Y into the battle shadows from $22: carry set and X past its cells when drawn, else X = $22 and Y
+kept. M16 X16; vwf8's direct page ($20-$27) saved around the call.
 """
         phy
         sep #0x20

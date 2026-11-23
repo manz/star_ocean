@@ -100,6 +100,14 @@ _cells = 0x27
     jsr.w vwf8_cave_open
 }
 
+.if VWF8_PEN {
+; The names' 8x8 writer (`CA:BED0`, jsl from `CA:BECB`): `php / sep #0x20 / phb`, A = the string's bank, Y its
+; address, X the shadow address, $06 the palette.
+    .alloc at 0xCABED0 size 4 {
+        jml vwf8_name
+    }
+}
+
 ; Talents combo slot: `jsr BAFD` (A = special move id, X = shadow address, M16 X16: the battle16 printer).
 .alloc at 0xCA5A95 size 3 {
     jsr.w vwf8_cave_combo
@@ -183,6 +191,57 @@ vwf8_record:
     sta.b _record
     sep #0x20
     rtl
+
+    .if VWF8_PEN {
+vwf8_name:
+"""
+The names' writer (`CA:BED0`): a party name in RAM drawn by the pen (src/menu/pen8.s), anything else by the game.
+"""
+        php
+        rep #0x30
+        pha
+        phx
+        phy
+        pei (_string)
+        pei (_bank)
+        pei (_cursor)
+        pei (_attribute)
+        tya
+        sta.b _string
+        lda 13, s  ; A: the bank
+        and.w #0x00FF
+        sta.b _bank
+        txa
+        sta.b _cursor
+        sep #0x20
+        lda.b 0x06
+        asl
+        asl
+        sta.b _attribute
+        stz.b _cells
+        jsl vwf8_string
+        rep #0x30
+        pla
+        sta.b _attribute
+        pla
+        sta.b _cursor
+        pla
+        sta.b _bank
+        pla
+        sta.b _string
+        ply
+        plx
+        pla
+        bcc _name_game
+        plp
+        rtl
+_name_game:
+        plp
+        php
+        sep #0x20
+        phb
+        jml 0xCABED4
+    }
 
 vwf8_combo:
 """
@@ -876,7 +935,7 @@ _battle_done:
     lda.l vwf8.queued
     beq _vblank
     lda.b #0x04
-    tsb.w 0x094A
+    tsb 0x094A
 _vblank:
     lda.l 0x004212
     bpl _vblank

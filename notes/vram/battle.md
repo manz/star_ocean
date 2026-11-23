@@ -10,6 +10,16 @@
 - `C0-EF` hold field leftovers ("Attaque / Esquive / Défense", window pieces), never drawn in a fight. `200-27F`
   is filled by `C6:0B5D...` after the fight.
 
+## Windows (src/battle/windows.s)
+
+- `C1:527D` frames three windows at the top (X = 0) or the bottom (X = 0x540, the command ring open): enemy names,
+  the party member (name, PV, PM), the L/R special moves. The patch makes them 11 / 11 / 12 wide at cells 0 / 10 / 20
+  (were 12 / 11 / 11 at 0 / 11 / 21): a special move's name gets 10 cells (21-30, under
+  the L / R labels). `C1:521B` frames the full-width
+  party window (4 members, PV / PM rows from `C1:5402` / `C1:5842`), untouched.
+- The bottom copy of the party member window (`C1:5557`) put the name and PV one cell right of the top's and drew PV
+  with 3 digits: 6746 showed as 746. The patch draws it as the top one.
+
 ## Writers (fixed font into the shadows)
 
 | routine | draws | callers |
@@ -32,6 +42,11 @@
 - `C0:3FA3` (names8 by id) and `C0:4154` (string at A:Y) draw strings that have a vwf8 record from the shared pool:
   tiles `0D9-113` and `14C-1FF` of BG3 CHR `$4000`, written into both shadows. Party nicknames (`$7E:7497`, $100
   apart) come from the runtime pen (notes/vram/pen8.md); numbers stay on the fixed font.
+- The L/R window's names are names8 ids `0x0BB8 + character * 0x20 + slot` (`C1:56E3`), short forms of each
+  character's special moves. `battle_vwf8_name` draws the move's battle16 record (the field Talents combo slot's,
+  `vwf8_combos`) instead when it fits the 10-cell row (`vwf8_lr`, tools/vwf8.py LR_TALENTS: matched on the Japanese
+  kana); longer names keep the names8 string. The French names8 block of character 4 did not follow the Japanese
+  order (entry 0 was "Pd.Qigong" for 気功掌).
 - The fight start (`C1:0006`) opens the battle pool, its end (`C0:20F7`) the menus' again; a string drawn first in
   a savestate taken mid-fight opens it too.
 - Uploads: the line-216 IRQ's DMA list end (`C0:0188`, its V-blank wait) runs the S-DD1 streams on channel 1 with

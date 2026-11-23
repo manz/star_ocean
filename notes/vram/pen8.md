@@ -3,8 +3,9 @@
 Names typed in game have no baked record: vwf8's `_find` misses, then `pen8_find` draws the string with katsuji's
 `sumi/8` (glyph rows and advances baked by tools/pen8.py) and serves it as a vwf8 record.
 
-- Sources: bank `$7E`, the party records (`$1548-$15D7`, name then nickname) or the fight's party: full names
-  (`$7E:748F + n * $100`, the command window) and nicknames (`$7E:7497 + n * $100`, the party window). Anything else stays with the caller.
+- Sources: bank `$7E`, the party records (`$1548-$15D7`, name then nickname) or the 8 actors: full names
+  (`$7E:708F + n * $100`: the field menus, the load screen, the fight's command window) and nicknames
+  (`$7E:7097 + n * $100`, the fight's party window). Anything else stays with the caller.
 - Cache: 12 SRAM slots keyed by the codes (up to 6), round robin. A name is drawn once, then found by every later
   draw, across fights, menus and resets. `PEN8_MAGIC` (crc of the glyph tables) drops a cache another font left.
 - Drawing: ink advances by its width plus 1 pixel, the space by 3, then the menu font's shadow (right, down,
@@ -13,4 +14,6 @@ Names typed in game have no baked record: vwf8's `_find` misses, then `pen8_find
   (mode 1), not through the S-DD1. The vwf8 record id is `VWF8_RECORDS + slot`; a redrawn slot clears its home.
 - SRAM: 1.6 KB. `sram_text` went from 20 KB to 18 KB to make room (the largest French scene block is 13.1 KB);
   about 700 bytes of the `sram` pool stay free.
-- The field menus do not draw names through this path yet (no golden changed): they print them elsewhere.
+- The field menus and the load screen print names with `CA:BED0` (A = bank, Y = string, X = shadow address, `$06` =
+  palette), not `CA:BCAD`: `vwf8_name` (src/menu/vwf8.s) sends them to the pen first. A name in kana (an old save)
+  has codes sumi/8 does not draw and stays with the game.
