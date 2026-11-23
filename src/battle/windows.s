@@ -98,7 +98,8 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
 }
 
 ; L/R window contents one cell left (`C1:5619`: the L / R labels, then the two special moves' names
-; under them from cell 21: 10 cells, the labels' column being empty on the names' rows).
+; under them from cell 21: 10 cells, the labels' column being empty on the names' rows). The labels sit in the
+; window's last cell (30), right of their names' row.
 .alloc at 0xC1564C size 2 {  ; 0x6C
     .dw 0x6A
 }
@@ -111,11 +112,11 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
 .alloc at 0xC1566A size 2 {  ; 0x12C
     .dw 0x12A
 }
-.alloc at 0xC15674 size 2 {  ; 0x6C
-    .dw 0x6A
+.alloc at 0xC15674 size 2 {  ; 0x6C L label: the window's last cell
+    .dw 0x7C
 }
-.alloc at 0xC1567E size 2 {  ; 0xEC
-    .dw 0xEA
+.alloc at 0xC1567E size 2 {  ; 0xEC R label
+    .dw 0xFC
 }
 .alloc at 0xC15688 size 2 {  ; 0xAE names
     .dw 0xAA
@@ -132,11 +133,11 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
 .alloc at 0xC156B6 size 2 {  ; 0x66C
     .dw 0x66A
 }
-.alloc at 0xC156C0 size 2 {  ; 0x5AC
-    .dw 0x5AA
+.alloc at 0xC156C0 size 2 {  ; 0x5AC bottom: L label
+    .dw 0x5BC
 }
-.alloc at 0xC156CA size 2 {  ; 0x62C
-    .dw 0x62A
+.alloc at 0xC156CA size 2 {  ; 0x62C bottom: R label
+    .dw 0x63C
 }
 .alloc at 0xC156D4 size 2 {  ; 0x5EE bottom: names
     .dw 0x5EA
