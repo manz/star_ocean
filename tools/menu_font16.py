@@ -23,6 +23,7 @@ NEWLINE, END = 0x0D, 0xFF
 GLYPHS = DIALOG_END - DIALOG_BASE
 SPACE = BASE  # glyph 0
 LINES, LINE_PIXELS = 3, 28 * 8  # src/menu/vwf16.s: the lines the description printer clears, and their width
+BATTLE_PIXELS = 28 * 8  # a battle16 line: the help window's row, and the BG3 tiles 114-14B kept for its columns
 
 
 def glyph(record: bytes) -> bytes:
@@ -31,6 +32,11 @@ def glyph(record: bytes) -> bytes:
 
 def width(record: bytes) -> int:
     return max(record[ROWS], 1)
+
+
+def pixels(codes: bytes, widths: bytes) -> int:
+    """The pen's advance over terminated 16x16 codes on one line: a glyph's width + 1."""
+    return sum(widths[code - BASE] + 1 for code in codes[: codes.index(END)] if code != NEWLINE)
 
 
 def lines(codes: bytes, widths: bytes) -> int:
