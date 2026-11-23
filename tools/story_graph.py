@@ -18,7 +18,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from collections.abc import Callable
+from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field, replace
 from functools import cache
 from pathlib import Path
@@ -210,6 +210,8 @@ class _Point:
     chose: bool = False  # the last instruction opened a choice
     choice: frozenset[str] = frozenset()  # the variables holding the answer to the last choice
     consts: frozenset[tuple[int, int]] = frozenset()  # (variable, value): a flag op's variable set to a number
+    flagged: frozenset[tuple[int, bool]] = frozenset()  # (flag, on): what the path's own flag ops left: a test on one
+    # is known, and paths that left it apart stay apart (map 158's plate 69 toggles flag 99, then tests it again)
     zone: tuple[int, int, int, int] | None = None  # the hero's box the last `actor_in_box` checked
     story: frozenset[int] | None = None  # the counter values the path's tests left (None: any). Paths that tested
     # it apart stay apart: map 203's zone is placed at 93 and at 109, a meet would keep neither
@@ -384,6 +386,8 @@ class _Walker:
                 return [(p.at(nxt).boxed(), guards)]
         q = _answered(_with_result(p.at(nxt), ins, p.tested, p.asked), ins, p.chose)
         q = _wrote(_counted(self._keep_const(q, ins), ins), ins)
+        if ins.name in ("flag_on", "flag_off") and (flag := p.flag(ins.args[0])) is not None:
+            q = replace(q, flagged=frozenset(k for k in q.flagged if k[0] != flag) | {(flag, ins.name == "flag_on")})
         if (fill := self.fills.get(p.pos)) is not None:
             q = replace(q, placed=q.placed | {fill[0]}, sets=q.sets | {(fill[0], AXES[fill[1]] + "px")})
         elif (cell := _celled(p, ins)) is not None:
@@ -403,6 +407,13 @@ class _Walker:
         """Both ways past a test, each with its guard; a test on the counter narrows the values each way keeps and
         drops a way none are left on. Failing an `&&` says nothing of its counter part."""
         flag = _flag_test(condition, p.results)
+        known = dict(p.flagged).get(flag) if flag is not None else None
+        if known is not None:  # the path set that flag itself: one way only
+            return [
+                (p.at(to), guards)
+                for to, holds in ((then, True), (other, False))
+                if Guard(condition, holds, flag).flag_on() == known
+            ]
         read = _reads(condition)
         if self.setup and read and read <= p.placed:
             return [
@@ -1056,27 +1067,30 @@ def _with_packed(flags: dict[str, bool] | None, g: SceneGraph, e: Exit) -> dict[
     for w in _packed_walls(g):
         box, maps = w["box"], w["maps"]
         if isinstance(maps, list) and set(maps) & e.maps and isinstance(box, list) and _covers(tuple(box), e.box):
-            flags = {**flags, str(w["flag"]): bool(w["on"])}
+            opens = w["flags"]
+            assert isinstance(opens, dict)
+            flags = {**flags, **opens}
     return flags
 
 
 def walls(g: SceneGraph) -> list[dict[str, object]]:
-    """The cells a map's setup opens under a story flag (`tile_attr_fill ..., 0` past `flag_test`): map 239's ways
-    north, shut until the switches on 242 and 243. `flag` / `on`: the state that opens them."""
+    """The cells a map's setup opens under story flags (`tile_attr_fill ..., 0` past `flag_test`s): map 239's ways
+    north, shut until the switches on 242 and 243. `flags`: the states that open them, all of them; two entries on
+    one box are two ways to open it (map 158's x 28: flag 102 on, or 99 and 102 off)."""
     out = []
     for a in g.actions():
         if a.trigger != ARRIVE or a.name not in WALL_OPS or a.args[-1] != 0:
             continue
         cells = a.args[:-1] if len(a.args) == 5 else (*a.args[:2], *a.args[:2])
-        needs = [f for f in a.guards if f.flag is not None]
-        if len(needs) == 1 and all(isinstance(v, int) for v in cells):
-            out.append({"maps": sorted(a.maps), "box": list(cells), "flag": needs[0].flag, "on": needs[0].flag_on()})
+        needs = _flags(frozenset(f for f in a.guards if f.flag is not None))
+        if needs and all(isinstance(v, int) for v in cells):
+            out.append({"maps": sorted(a.maps), "box": list(cells), "flags": needs})
     return out + _packed_walls(g)
 
 
 def _packed_walls(g: SceneGraph) -> list[dict[str, object]]:
     """The cells a setup walls unless flags packed in a variable read one value (map 469's way north: `if m == 29`
-    opens it, else `tile_attr_fill 18, 5, 19, 5, 64`): one wall a flag, all of them to open it."""
+    opens it, else `tile_attr_fill 18, 5, 19, 5, 64`): all of those flags open it."""
     out = []
     packs = {var: (first, n) for var, first, n in g.packed}
     for a in g.actions():
@@ -1088,10 +1102,8 @@ def _packed_walls(g: SceneGraph) -> list[dict[str, object]]:
                 continue
             first, n = packs[str(terms[0].values[0])]
             k = terms[0].values[1].n
-            out += [
-                {"maps": sorted(a.maps), "box": list(a.args[:4]), "flag": first + i, "on": bool(k >> (n - 1 - i) & 1)}
-                for i in range(n)
-            ]
+            flags = {str(first + i): bool(k >> (n - 1 - i) & 1) for i in range(n)}
+            out.append({"maps": sorted(a.maps), "box": list(a.args[:4]), "flags": flags})
     return out
 
 
@@ -1117,9 +1129,16 @@ def _possible(guards: frozenset[Guard]) -> bool:
     return bool(_allowed(guards)) and _flags(guards) is not None
 
 
-def openers(g: SceneGraph) -> set[Trigger]:
-    """The triggers whose entry clears collision cells: a door the hero opens (map 123's, rammed three times)."""
-    return {a.trigger for a in g.actions() if a.name in WALL_OPS and a.args[-1] == 0 and a.trigger != ARRIVE}
+def clearings(g: SceneGraph) -> list[Action]:
+    """The actions a trigger fires that clear collision cells: a door the hero opens (map 123's, rammed three
+    times)."""
+    return [a for a in g.actions() if a.name in WALL_OPS and a.args[-1] == 0 and a.trigger != ARRIVE]
+
+
+def _opens(a: Action, clears: Iterable[Action]) -> bool:
+    """The flag action runs on a path that clears cells: its trigger's clearing under guards that agree with its own
+    (map 158's plate 69 clears its wall turning flag 99 off, walls it turning it on)."""
+    return any(c.trigger == a.trigger and _flags(c.guards | a.guards) is not None for c in clears)
 
 
 def gate_actions(g: SceneGraph) -> set[Action]:
@@ -1240,11 +1259,11 @@ def export() -> dict[str, object]:
             "counter": _counter(a.guards),
             "flags": _flags(a.guards),
             "guards": sorted(map(str, a.guards)),
-            "opens": a.trigger in opens,
+            "opens": _opens(a, clears),
         }
         for g in gs
         if g.scene != DEBUG_SCENE
-        for opens in [openers(g)]
+        for clears in [clearings(g)]
         for a in flag_actions(g)
         if _possible(a.guards)
     ]

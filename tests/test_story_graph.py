@@ -7,7 +7,7 @@ from pathlib import Path
 from tools import save_slot
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
-from tools.story_graph import DEBUG_SCENE, export, gate_actions, graphs, main, openers, scene_graph
+from tools.story_graph import DEBUG_SCENE, clearings, export, gate_actions, graphs, main, scene_graph
 
 SAVES = Path(__file__).parent / "saves"
 
@@ -110,7 +110,7 @@ def test_a_lower_bound_pins_the_step_to_it() -> None:
 
 def test_a_trigger_that_clears_walls_is_an_opener() -> None:
     """Map 123's door: zone (23, 35)-(24, 35) clears the cells above it on the third hit."""
-    assert any(t.box == (23, 35, 24, 35) for t in openers(scene_graph(27)))
+    assert any(a.trigger.box == (23, 35, 24, 35) for a in clearings(scene_graph(27)))
 
 
 def test_the_silex_blows_the_gas_on_map_129() -> None:
@@ -189,8 +189,16 @@ def test_the_export_lists_walls_a_flag_opens() -> None:
     """Map 239's ways north: walled until the switches on 242 (flag 56) and 243 (flag 57)."""
     walls = export()["walls"]
     assert isinstance(walls, list)
-    north = {w["flag"]: w["box"] for w in walls if w["maps"] == [239]}
-    assert north == {56: [7, 24, 8, 24], 57: [7, 40, 8, 40]}
+    north = [(w["flags"], w["box"]) for w in walls if w["maps"] == [239]]
+    assert north == [({"56": True}, [7, 24, 8, 24]), ({"57": True}, [7, 40, 8, 40])]
+
+
+def test_a_wall_two_flag_states_open_is_listed_twice() -> None:
+    """Map 158's x 28: open with the switch's flag 102 on, or with plate 69's flag 99 off and 102 off."""
+    walls = export()["walls"]
+    assert isinstance(walls, list)
+    ways = [w["flags"] for w in walls if w["maps"] == [158] and w["box"] == [28, 41, 28, 43]]
+    assert sorted(ways, key=len) == [{"102": True}, {"99": False, "102": False}]
 
 
 def test_a_zone_placed_at_two_counter_values_keeps_both() -> None:
