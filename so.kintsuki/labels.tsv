@@ -1,12 +1,19 @@
 # addr	name	type	m	x	e	comment
 00FE80	main_idle					bra * idle loop between NMIs
+7E00F5	field_lock	data				bit1 player has no control (cutscene/menu/battle), bit3 dialog window up
 7E0231	scene_vm_off	data				negative: VM skipped
+7E0232	scene_current	data				scene whose event data is at $7E:3100
 7E0234	scene_vm_wait	data				frames before the VM runs again
 7E0238	scene_vm_pc	data				VM pc, absolute ($3100 + offset)
+7E0258	choice_state	data				bit7 choice open (op 30)
+7E025E	choice_cursor	data				1-based choice cursor (yes/no: 1 Oui, 2 Non)
 7E0273	fol	data				24-bit money
 7E0278	scene_vm_result	data				result register: actor_get, flag_test, ...; store_result writes it out
+7E027A	choice_answer	data				sys[8]: the picked choice after A
 7E028E	tm_shadow	data				TM, $028F TS
 7E0294	mosaic_shadow	data				MOSAIC
+7E02C2	battle_flags	data				bit0 in battle / swirl, bit1 encounter requested, bit4 music saved, bit5 no game over
+7E02E8	menu_request	data				nonzero asks CB:0000 for the menu; bit1 shop ($077A); bit7 menu open
 7E03D2	text_flags	data				WRAM: text engine flags
 7E03D5	text_cursor	data				WRAM: script read cursor (bank 7E)
 7E03D7	text_rewind	data				WRAM: rewind target for FFFE
@@ -19,6 +26,7 @@
 7E6FE1	char_records	data				8 x 0x100: +1 id, +0x22 status, +0x50/52 HP, +0x56/58 MP, +0xD8 SP; slots 0-3 at $73E1 = battle party
 7E7FE1	inventory_ids	data				512 item ids (low byte)
 7E81E1	inventory_counts	data				count bits 0-5, bit 7 = id bit 8
+7E8743	map_record	data				the current map's 0x30-byte record (from FF:C800)
 7EA353	text_framebuffer	data				WRAM 2bpp text window bitmap, tile 0x328.. (4 lines x 26 cols x 16px), mirrors VRAM $5940
 7EBE00	script_buffer	data				WRAM unpacked scene script (many strings, FFFF-terminated), filled at scene load
 7EE613	scene_entries	data				entry pointers: +kind*0x100+(id*2&FF), cleared $E613-EE72 at load
@@ -26,8 +34,12 @@
 7EFE73	scene_flags	data				flag_on/off/test (ops 31-33)
 7EFE93	scene_flags2	data				flags tested by op 5B
 7EFEC3	scene_vars	data				VM variables var[i]
+C020EA	battle_run	function				jsl C1:0000: whole battle as a subroutine of the field loop
 C04C53	unpack					LZ: dest = DB:X; DB=$7E path uses its own copy, any other bank: literals sta.w 0,x but back-refs mvn $7F,$7F (hardcoded)
+C08001	main_entry	function				reset lands here (from 00:FF96 jmp)
 C08594	apu_command	function				A = command, args $4C-$4E
+C10000	battle_main	function				battle module entry
+C20000	field_main_loop	function				field frame: ~35 subsystems jsl'd in order, then nmi_dma_jobs, jmp back (notes/engine/modes.md)
 C20009	sched_main	function				cooperative task scheduler root; all task chains start here (shadow-stack switches)
 C20047	sched_dispatch	function				task dispatch/yield point
 C20B51	wait_vblank	function				wait for the start of vblank
@@ -57,7 +69,7 @@ C21B5D	scene_op_0c_actor_trigger_rect	function				scene op 0C actor_trigger_rect
 C21BDC	scene_op_0d_say	function				scene op 0D say (notes/text/scene_opcodes.md)
 C21C47	text_message_select_event					event op path: same `lda $B873,x / adc #$B873 / sta $03D5` as text_message_select (patched: sram_text)
 C21C6E	scene_op_0e_say_mode0	function				scene op 0E say_mode0 (notes/text/scene_opcodes.md)
-C21C72	scene_vm_say_mode	function				say ops: window mode in A then the message (0D/0E/25/39/3C)
+C21C72	scene_vm_say_mode	function				say ops: window mode in A then the message (0D/0E/25/39/3C); sets $F5 bit3 (window up), $048A bit5, cursor $03D5
 C21CAC	text_message_select					X=msg*2: $03D5 = $B873 + [$B873+X]; hook point to stream one message into the buffer
 C21CBD	scene_op_syscall	function				op 0F N: jsl C2:8B46 with X = N*2, A = var.w[0]; services take var.w[2..], answer in $0278
 C21CCA	scene_op_10_actor_walk_to	function				scene op 10 actor_walk_to (notes/text/scene_opcodes.md)
@@ -90,7 +102,7 @@ C22656	scene_op_2c_item_add	function				scene op 2C item_add (notes/text/scene_o
 C22671	scene_op_2d_cutscene_begin	function				scene op 2D cutscene_begin (notes/text/scene_opcodes.md)
 C226F4	scene_op_2e_cutscene_end	function				scene op 2E cutscene_end (notes/text/scene_opcodes.md)
 C2273E	scene_op_2f_actor_set	function				scene op 2F actor_set (notes/text/scene_opcodes.md)
-C22781	scene_op_30_choose	function				scene op 30 choose (notes/text/scene_opcodes.md)
+C22781	scene_op_30_choose	function				scene op 30 choose (notes/text/scene_opcodes.md): $0258 |= C0, $025A=1, $025B first, $0260 count; cursor $025E; answer sys[8] $027A
 C227C6	scene_op_31_flag_on	function				scene op 31 flag_on (notes/text/scene_opcodes.md)
 C227E5	scene_op_32_flag_off	function				scene op 32 flag_off (notes/text/scene_opcodes.md)
 C22804	scene_op_33_flag_test	function				scene op 33 flag_test (notes/text/scene_opcodes.md)
@@ -164,6 +176,7 @@ C263A0	text_blit_glyph	function	0	0		A=glyph: FF:(A*32) 16x16 1bpp (L col 16B, R
 C26791	narration_line_load	function				text-VM op: S-DD1 line image for screen $03E6, line $0490 -> VRAM 5940/5AE0/5C80/5E20 + palette -> $03E0
 C2681A	narration_table	data				13 x 16B: four 3B S-DD1 line ptrs (E3FFF7=blank), 3B palette ptr (colours 1-3 at +2), pad. 0x340 B/line = 208x16 2bpp cells
 C268EE	text_code_hi	function	0	0		handler for codes >= 0x140 (TBD)
+C26A21	field_battle_step	function				encounter roll + battle swirl; $02C2 bit1 request, bit0 in battle; calls C0:20EA
 C27FF8	display_reinit	function				force blank, clear OAM/CGRAM, base palettes
 C28B46	scene_syscall	function				jsr (C2:8B4C,x); rtl
 C28B4C	scene_syscalls	data				94 syscall services (op 0F), word per N
@@ -267,9 +280,11 @@ C2A8B2	actor_mode_run	function				actor +0x07 scripted mode through C2:A8E9, cou
 C2FDF0	title_anim_stream	function				S-DD1 0x40-byte streams -> $7F:E000.. on title/name screens
 C3917C	obj_anim_stream	function				per-frame S-DD1 sprite frame streams -> $7F:E000.. (OBJ staging)
 C60911	scene_load	function				scene/map loader; unpacks map/gfx/script blobs via unpack
+C610CA	scene_switch	function				scene = $7E:8764 (record +0x21); unpack E4:(scene-1)*6 to $7E:3100 only if != $0232
 C610E0	scene_load_tables	code				index scene_table, unpack event + text blocks
 C610FF	scene_load_events	function				unpacks scene data (e.g. E6:B87D -> $7E:3100)
 C61137	scene_load_script	function				unpacks scene script (e.g. E8:41FC -> $7E:B873)
+C62093	map_record_load	function				unpack FF:C800 to $7F:0000, copy record $043D*0x30 to $7E:8743
 C654BB	scene_zone_test	function				hero tile vs zone table $EB8E+5n (x1,y1,x2,y2,..), $0241 end; while walking
 C6D6B9	inventory_add	function				$00 item, $02 count, $03 clamp-to-20: carry set = failed
 C6D766	inventory_remove	function				$00 item, $02 count
@@ -294,6 +309,7 @@ CABCAD	menu_draw_string8	function				8x8 string -> tilemap shadow at X, attr $26
 CABE98	menu_dakuten_base	data				41 base tiles for codes C0-E8
 CABEC1	menu_handakuten_base	data				10 base tiles for codes E9-F2
 CAC9B2	party_refresh	function				recompute $02EE/$02EB/$02F8/$02FA after party changes
+CB0000	field_menu_step	function				opens the menu when $02E8 != 0; bit7 = menu open
 CB068F	mul_signed	function				$00 * $02 -> $20
 CB0923	random	function				16-bit random
 CC0000	char_find	function				A = id from 1: carry clear, X = record ($7E:6FE1 + k*0x100); else carry set
@@ -317,3 +333,4 @@ FEA2E0	labels8_offsets	data				u16 offsets, base FE:A8BE
 FEA5CE	labels8_ids	data				u16 ids EA60+ (375)
 FEA8BE	labels8_strings	data				8x8 menu labels FF-terminated
 FF0000	font_dialog_16x16	gfx				dialog/menu font: uncompressed 16x16 1bpp, 32B/glyph (left 8px col 16B, right col 16B), <=0x640 glyphs (FF:C800 is a compressed blob). glyph=code-5; 0=space 1..10 digits, kana, A-Z ~0xE4, kanji after
+FFC800	map_table_lz	data				LZ: 0x30-byte map records by map id, unpacked to $7F:0000 (C6:2093); +0x21 scene (notes/text/map_table.md)
