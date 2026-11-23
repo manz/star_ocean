@@ -315,9 +315,8 @@ class _Walker:
         self.sets: dict[_Point, _Point] = {}  # the point with the sets and writes met paths have in common
         self.tracked: frozenset[int] = frozenset()  # the variables flag ops read their flag from
         self.setup = setup
-        self.packed = (
-            frozenset(var for var, _, _ in _packed(data)) if setup else frozenset()
-        )  # flags packed in a variable: its tests are on
+        self.packs = {var: (first, n) for var, first, n in _packed(data)}
+        self.packed = frozenset(self.packs) if setup else frozenset()  # flags packed in a variable: its tests are on
         # those flags, not the script's own
         self.fills = {pos: (var, axis) for pos, var, axis in _hero_fills(data)}  # the writes of
         # the hero's place, by position: tests on them are where the hero landed, not the script's own
@@ -427,6 +426,8 @@ class _Walker:
                 for to, holds in ((then, True), (other, False))
                 if Guard(condition, holds, flag).flag_on() == known
             ]
+        if (known_way := _const_way(condition, p)) is not None:  # a number the path set the variable to
+            return [(p.at(then if known_way else other), guards)]
         read = _reads(condition)
         if self.setup and read and read <= p.placed:
             return [
@@ -437,6 +438,9 @@ class _Walker:
             took = frozenset(Guard(Condition((t,), ()), True, f) for t, f in each)
             return [(p.at(then), guards | took), (p.at(other), guards | {Guard(condition, False)})]
         if (read - self.packed) & p.written:
+            if (matched := self._pack_matched(condition, then, other)) is not None:
+                to, flags = matched
+                return [(p.at(to), guards | flags)]
             return [(p.at(then), guards), (p.at(other), guards)]
         values = _story_values(condition)
         if values is None:
@@ -452,6 +456,23 @@ class _Walker:
             for to, holds, story in sides
             if story
         ]
+
+    def _pack_matched(self, condition: Condition, then: int, other: int) -> tuple[int, frozenset[Guard]] | None:
+        """A test of flags the path packed in a variable against one value (map 544's switches: `if m != 24` resets
+        them, out of order): the way they match, as those flags; the other way is not followed."""
+        if self.setup or len(condition.terms) != 1:
+            return None
+        term = condition.terms[0]
+        if term.compare not in (COMPARE_EQ, COMPARE_NE) or len(term.values) != 2:
+            return None
+        m, k = term.values
+        if str(m) not in self.packs or k.table != "imm":
+            return None
+        first, n = self.packs[str(m)]
+        flags = frozenset(
+            Guard(Condition((Term(6, (m,)),), ()), bool(k.n >> (n - 1 - i) & 1), first + i) for i in range(n)
+        )
+        return (then if term.compare == COMPARE_EQ else other), flags
 
     def _branch(self, p: _Point, guards: frozenset[Guard], ins: Instruction) -> list[tuple[_Point, frozenset[Guard]]]:
         then, other, condition = _target(ins.args[0]), _target(ins.args[1]), ins.args[2]
@@ -525,6 +546,20 @@ def _with_result(p: _Point, ins: Instruction, tested: int | None, asked: int | N
     if ins.name == "store_result" and asked is not None:
         party |= {(n, asked)}
     return replace(p, tested=None, results=kept, party=party)
+
+
+def _const_way(condition: Condition, p: _Point) -> bool | None:
+    """Whether `var == n` (or `!=`) holds on a variable the path set to a number itself (map 544's switches: `set
+    var.w[0x0] = 121`, then `if var.w[0x0] == 119` past the shared code); None when it reads anything else."""
+    if len(condition.terms) != 1:
+        return None
+    term = condition.terms[0]
+    if term.compare not in (COMPARE_EQ, COMPARE_NE) or len(term.values) != 2:
+        return None
+    a, b = term.values
+    if a.table != "var" or b.table != "imm" or (value := p.flag(a)) is None:
+        return None
+    return (value == b.n) == (term.compare == COMPARE_EQ)
 
 
 def _copied(ins: Instruction, results: frozenset[tuple[str, int]]) -> int | None:
@@ -979,18 +1014,23 @@ def _celled(p: _Point, ins: Instruction) -> tuple[str, Set] | None:
 
 
 COMPARE_LT = 2  # scene_script.COMPARE
-PACK = ("set", "set", "set", "set", "flag_test", "store_result", "set", "set", "inc", "inc", "if")
+PACKS = (
+    ("set", "set", "set", "set", "flag_test", "store_result", "set", "set", "inc", "inc", "if"),
+    ("set", "set", "set", "set", "flag_test", "store_result", "if", "set", "inc", "inc", "if"),  # `if (flag) m |= 1`
+)
+COMPARE_EQ, COMPARE_NE = 0, 3
 
 
 def _packed(data: bytes) -> list[tuple[str, int, int]]:
     """Story flags packed in a variable, first one highest: `m = 0; f = 83; c = 0; do { m *= 2; m |= flag[f]; f++;
-    c++ } while (c < 7)` (map 469's door opens when flags 83-89 read 29). (variable, first flag, count)."""
+    c++ } while (c < 7)` (map 469's door opens when flags 83-89 read 29; map 544's switches, flags 119-123, read
+    `if (flag[f]) m |= 1`). (variable, first flag, count)."""
     code = walk(data).code
     ins = [code[k] for k in sorted(code)]
     out = []
-    for i in range(len(ins) - len(PACK) + 1):
-        w = ins[i : i + len(PACK)]
-        if tuple(x.name for x in w) != PACK:
+    for i in range(len(ins) - len(PACKS[0]) + 1):
+        w = ins[i : i + len(PACKS[0])]
+        if tuple(x.name for x in w) not in PACKS:
             continue
         (m, _), (f, first), cond = w[0].args, w[1].args, w[10].args[2]
         value = first.tokens[0] if isinstance(first, Expression) and len(first.tokens) == 1 else first

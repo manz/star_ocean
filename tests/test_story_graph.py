@@ -331,3 +331,12 @@ def test_a_wall_reads_flag_results_copied_into_variables() -> None:
     assert isinstance(walls, list)
     door = [w["flags"] for w in walls if w["maps"] == [544]]
     assert door == [{str(f): True for f in range(119, 124)}]
+
+
+def test_switches_packed_in_a_variable_need_the_ones_before_them() -> None:
+    """Map 544's door: switches on maps 542, 541, 540, 541 and 543 set flags 119 to 123, each only after the ones
+    before it (`if m != 24` resets them all)."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    needs = {f["flag"]: f["flags"] for f in flags if f["on"] and 120 <= f["flag"] <= 123}
+    assert needs[121] == {"119": True, "120": True, "121": False, "122": False, "123": False}
