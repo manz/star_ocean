@@ -14,6 +14,7 @@ The root imports one module per area; a816 links every imported module.
 .import "dialog/chest"
 .import "dialog/narration"
 .import "dialog/cutscenes"
+.import "dialog/ending_credits"
 .import "dialog/badge"
 .import "dialog/yes_no"
 .import "dialog/title_menu"
