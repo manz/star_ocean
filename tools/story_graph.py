@@ -775,8 +775,8 @@ def _folded(same: list[Action]) -> set[Action]:
     while len(kept) > 1:
         halves: dict[tuple[frozenset[Guard], Condition], dict[bool, Action]] = {}
         pair = None
-        for a in sorted(kept, key=str):
-            for g in a.guards:
+        for a in sorted(kept, key=_order):  # in a fixed order: which pair folds first decides the rest
+            for g in sorted(a.guards, key=str):
                 side = halves.setdefault((a.guards - {g}, g.condition), {})
                 side[g.holds] = a
                 if len(side) == 2:
@@ -788,6 +788,13 @@ def _folded(same: list[Action]) -> set[Action]:
             return kept
         kept = (kept - set(pair)) | {replace(pair[0], guards=pair[0].guards & pair[1].guards)}
     return kept
+
+
+def _order(a: Action) -> str:
+    """The action as text with its sets sorted (a frozenset prints in hash order, PYTHONHASHSEED's)."""
+    return str(
+        (a.scene, sorted(a.maps), a.trigger, a.name, a.args, sorted(map(str, a.guards)), sorted(map(str, a.sets)))
+    )
 
 
 def _written(a: Action, at: int | None) -> Arg | None:
@@ -1106,7 +1113,7 @@ def main(argv: list[str] | None = None, echo: Callable[[str], None] = print) -> 
     parser.add_argument("--json", type=Path, help="write the whole graph here for the drive (betaplayer_so)")
     args = parser.parse_args(argv)
     if args.json:
-        args.json.write_text(json.dumps(export(), indent=1))
+        args.json.write_text(json.dumps(export(), indent=1, sort_keys=True))
         echo(f"{args.json}")
         return
     if args.story:

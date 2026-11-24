@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
+import os
+import subprocess
+import sys
 from pathlib import Path
 
 from tools import save_slot
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
+from tools.rom import ROOT
 from tools.story_graph import DEBUG_SCENE, clearings, export, gate_actions, graphs, main, scene_graph
 
 SAVES = Path(__file__).parent / "saves"
@@ -340,3 +344,21 @@ def test_switches_packed_in_a_variable_need_the_ones_before_them() -> None:
     assert isinstance(flags, list)
     needs = {f["flag"]: f["flags"] for f in flags if f["on"] and 120 <= f["flag"] <= 123}
     assert needs[121] == {"119": True, "120": True, "121": False, "122": False, "123": False}
+
+
+def test_a_scene_folds_the_same_whatever_the_hash_seed() -> None:
+    """Copies fold in a fixed order: a frozenset printed in PYTHONHASHSEED's order made scene 7's actions differ
+    from run to run."""
+    code = "from tools import story_graph as sg\nprint(sorted(sg._order(a) for a in sg.scene_graph(7).actions()))\n"
+    runs = {
+        subprocess.run(
+            [sys.executable, "-c", code],
+            cwd=ROOT,
+            env={**os.environ, "PYTHONHASHSEED": seed},
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout
+        for seed in ("1", "2")
+    }
+    assert len(runs) == 1
