@@ -26,6 +26,7 @@ from tools import (
     narration,
     party_names,
     pen8,
+    ring_labels,
     scene_events,
     title_menu,
     vwf8,
@@ -46,7 +47,7 @@ class Patch:
 
 
 def build_assets() -> None:
-    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, item name widths, scene event edits, menus, narration, cutscenes, ending credits, title menu, badge, yes / no bubbles, fight popups."""
+    """katsuji fonts, the slice of the dialog font the patch holds (codes below 0x80), French text, item name widths, scene event edits, menus, narration, cutscenes, ending credits, title menu, badge, yes / no bubbles, fight popups, command ring labels."""
     katsuji_build.build(katsuji_config.load(ROOT / "katsuji.toml"))
     font = (GEN / "dialog_font.dat").read_bytes()
     (GEN / "dialog_font_low.bin").write_bytes(font[: DIALOG_FONT_GLYPHS * DIALOG_FONT_RECORD])
@@ -64,6 +65,7 @@ def build_assets() -> None:
     badge.build(out=GEN)
     yes_no.build(out=GEN)
     battle_obj.build(out=GEN / "battle_obj.bin")
+    ring_labels.build(out=GEN / "ring_labels.bin")
     vwf8.build(out=GEN)
     pen8.build(out=GEN)
 

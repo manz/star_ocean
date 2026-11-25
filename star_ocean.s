@@ -31,6 +31,7 @@ The root imports one module per area; a816 links every imported module.
 .import "battle/items"
 .import "battle/windows"
 .import "battle/popups"
+.import "battle/ring_labels"
 .import "engine/battle_speed"
 .import "engine/cel_dma"
 .import "engine/audio_defer"
