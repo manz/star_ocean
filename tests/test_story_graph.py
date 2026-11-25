@@ -362,3 +362,11 @@ def test_a_scene_folds_the_same_whatever_the_hash_seed() -> None:
         for seed in ("1", "2")
     }
     assert len(runs) == 1
+
+
+def test_a_zone_placed_after_the_counter_moves_on_is_guarded_by_its_new_value() -> None:
+    """Map 1's thieves' zones: the cutscene at 4 counts on to 5, then places them; at 5 they lead to 11."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    zones = [e for e in exits if e["maps"] == [1] and e["to"] == 11 and e["box"] == [18, 23, 24, 31]]
+    assert any("var.w[0x10] == 5" in e["guards"] for e in zones)

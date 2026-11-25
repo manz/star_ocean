@@ -369,6 +369,8 @@ class _Walker:
                 if ins.name in FLAG_OPS and (n := point.flag(ins.args[0])) is not None:
                     args = (n,)
                 sets = self.sets[point].sets if ins.name in ("map_change", "map_change_continue") else frozenset()
+                if ins.name in PLACEMENTS and point.story is not None and not point.story <= _allowed(guards):
+                    guards = _recounted(guards, point.story)  # placed after the path counted the story on
                 found.add(Op(self.scene, point.maps, ins.name, args, guards, point.zone, sets))
         return found
 
@@ -519,6 +521,15 @@ def _counted(p: _Point, ins: Instruction) -> _Point:
     if ins.name == "set" and args[1] == "=" and isinstance(args[2], int):
         return replace(p, story=frozenset({args[2]}))
     return replace(p, story=None)
+
+
+def _recounted(guards: frozenset[Guard], story: frozenset[int]) -> frozenset[Guard]:
+    """The guards of a placement made after its path wrote the counter: its earlier tests give way to the values it
+    holds now (scene 4's thieves' zones, placed after the cutscene counts 4 on to 5, are 5's)."""
+    kept = frozenset(g for g in guards if g.flag is not None or _story_values(g.condition) is None)
+    counter = Value("var", 0x10, 1)
+    terms = tuple(Term(COMPARE_EQ, (counter, Value("imm", n))) for n in sorted(story))
+    return kept | {Guard(Condition(terms, (0,) * (len(terms) - 1)), True)}
 
 
 def _with_result(p: _Point, ins: Instruction, tested: int | None, asked: int | None = None) -> _Point:
