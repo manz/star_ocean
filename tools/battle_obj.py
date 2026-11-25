@@ -5,6 +5,9 @@ The words sit on the sheet's tile row 14, each in its own run of tiles: Short (0
 special move on L / R, then Guard (5-7), Guts!! (8-10), Heal (11-12), MISS!! (13-15). A letter is ink on rows 1-6
 (the top three in one colour, the bottom three in another, a pair per word) with a colour 1 outline on its four
 sides. A word is wiped from its run and the French drawn from x 1 in the same colours; Long stays.
+
+SKILL! (frame C8:84C4, a combat skill going off) is three tiles away from the row, 1A6 / 1CA / 1B6 left to right:
+Talent!, kerned, fills their 24 px.
 """
 
 from __future__ import annotations
@@ -30,11 +33,13 @@ GLYPHS: letters.Glyphs = {  # rows 1-6; lowercase from the sheet's own words, th
     "G": (".##.", "#..#", "#...", "#.##", "#..#", ".###"),
     "R": ("###.", "#..#", "#..#", "###.", "#.#.", "#..#"),
     "S": ("####", "#...", "####", "...#", "...#", "####"),
+    "T": ("###", ".#.", ".#.", ".#.", ".#.", ".#."),
     "a": ("...", ".#.", "..#", ".##", "#.#", ".##"),
     "d": ("..#", "..#", ".##", "#.#", "#.#", ".##"),
     "e": ("...", ".#.", "#.#", "###", "#..", ".##"),
     "é": ("..#", ".#.", "#.#", "###", "#..", ".##"),
     "i": ("#", ".", "#", "#", "#", "#"),
+    "l": ("#", "#", "#", "#", "#", "#"),
     "n": ("...", "...", "##.", "#.#", "#.#", "#.#"),
     "o": ("...", "...", "###", "#.#", "#.#", "###"),
     "r": ("...", "...", "#.#", "##.", "#..", "#.."),
@@ -47,19 +52,24 @@ GLYPHS: letters.Glyphs = {  # rows 1-6; lowercase from the sheet's own words, th
 
 @dataclass(frozen=True)
 class Word:
-    first: int  # tile on the row
-    tiles: int
+    tiles: tuple[int, ...]  # sheet tiles, left to right
     text: str
     top: int  # ink colour, rows 1-3
     bottom: int  # rows 4-6
 
 
+def run(first: int, count: int) -> tuple[int, ...]:
+    """`count` tiles from `first` on the words' row."""
+    return tuple(range(ROW * COLS + first, ROW * COLS + first + count))
+
+
 WORDS = (
-    Word(0, 3, "Court", 11, 10),
-    Word(5, 3, "Garde", 4, 3),
-    Word(8, 3, "Cran!!", 15, 11),
-    Word(11, 2, "Soin", 15, 4),
-    Word(13, 3, "Raté!!", 15, 14),
+    Word(run(0, 3), "Court", 11, 10),
+    Word(run(5, 3), "Garde", 4, 3),
+    Word(run(8, 3), "Cran!!", 15, 11),
+    Word(run(11, 2), "Soin", 15, 4),
+    Word(run(13, 3), "Raté!!", 15, 14),
+    Word((0xA6, 0xCA, 0xB6), "Talent!", 15, 11),
 )
 
 
@@ -68,10 +78,10 @@ def ink(text: str) -> list[list[bool]]:
 
 
 def draw(data: bytearray, word: Word) -> None:
-    grid = letters.paint(word.text, GLYPHS, word.tiles * 8, word.top, word.bottom)
+    grid = letters.paint(word.text, GLYPHS, len(word.tiles) * 8, word.top, word.bottom)
     for y, row in enumerate(grid):
         for x, colour in enumerate(row):
-            letters.put(data, (ROW * COLS + word.first + x // 8) * 32, x % 8, y, colour)
+            letters.put(data, word.tiles[x // 8] * 32, x % 8, y, colour)
 
 
 def sheet() -> bytes:

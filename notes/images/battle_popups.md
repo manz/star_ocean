@@ -10,7 +10,10 @@
   sheet packs to 4043 B, so the stream moves to the text16 pool and the two operands point there.
 - Popup letters are kerned pairwise (`tools/obj_letters.py`): a letter moves left while a blank column stays between
   it and the previous one on its row and the rows next to it.
-- "SKILL!" (above a fighter while the ring is open) is three tiles of the same sheet, `$A6` `$CA` `$B6`. Not translated.
+- "SKILL!": frame `C8:84C4` (OBJ `$1A6` `$1CA` `$1B6`, only user), a sibling of the Guts!! (`C8:79B8`) and MISS!!
+  (`C8:79D9`) frames, all played from the script table `C8:76E0`; likely a combat skill going off (the manual: skills
+  "trigger special effects ... at a given rate"). Rare: never seen in ~25k frames of mashed fights. Patch: Talent!,
+  kerned to 24 px in place.
 
 # Command ring labels
 

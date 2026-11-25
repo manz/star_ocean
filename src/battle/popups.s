@@ -1,8 +1,8 @@
 """
 The fight's popup words in French (tools/battle_obj.py): the battle sprite sheet's S-DD1 stream, D9:0000 in the
 game, redrawn: Short / Long (the L / R special's range) become Court / Long, Guard Garde, Guts!! Cran!!, Heal Soin,
-MISS!! Raté!!. The new letters pack 5 bytes past the game's 4038 and the next stream follows it, so the stream moves
-to the text16 pool and its loader (C0:23C3, run with each map load, its only reader) points there.
+MISS!! Raté!!, SKILL! Talent!. The new letters pack past the game's 4038 bytes and the next stream follows it, so
+the stream moves to the text16 pool and its loader (C0:23C3, run with each map load, its only reader) points there.
 """
 
 .import "core/preamble"
