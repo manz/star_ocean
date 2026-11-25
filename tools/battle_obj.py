@@ -13,6 +13,7 @@ import argparse
 from dataclasses import dataclass
 from pathlib import Path
 
+from tools import obj_letters as letters
 from tools import sdd1
 from tools.rom import ROOT
 
@@ -21,10 +22,10 @@ SIZE = 0x2000  # bytes the fight start DMAs
 OUT = ROOT / "build" / "gen" / "battle_obj.bin"
 ROW = 14  # tile row of the words
 COLS = 16
-OUTLINE = 1
+OUTLINE = letters.OUTLINE
 
 # fmt: off
-GLYPHS: dict[str, tuple[str, ...]] = {  # rows 1-6; lowercase from the sheet's own words, the rest drawn alike
+GLYPHS: letters.Glyphs = {  # rows 1-6; lowercase from the sheet's own words, the rest drawn alike
     "C": (".##.", "#..#", "#...", "#...", "#..#", ".##."),
     "G": (".##.", "#..#", "#...", "#.##", "#..#", ".###"),
     "R": ("###.", "#..#", "#..#", "###.", "#.#.", "#..#"),
@@ -62,69 +63,15 @@ WORDS = (
 )
 
 
-def _tile_offset(tile: int) -> int:
-    return (ROW * COLS + tile) * 32
-
-
-def _set(data: bytearray, tile: int, x: int, y: int, colour: int) -> None:
-    off = _tile_offset(tile)
-    bit = 7 - x
-    for n, at in enumerate((off + y * 2, off + y * 2 + 1, off + 16 + y * 2, off + 16 + y * 2 + 1)):
-        data[at] = data[at] & ~(1 << bit) | ((colour >> n) & 1) << bit
-
-
-def _edges(glyph: tuple[str, ...]) -> list[tuple[int, int] | None]:
-    """Per row, the first and last inked column (None for a blank row)."""
-    return [(line.index("#"), line.rindex("#")) if "#" in line else None for line in glyph]
-
-
-def _kerned(left: list[tuple[int, int] | None], right: tuple[str, ...], at: int) -> int:
-    """Leftmost start for `right` keeping a blank column between it and the ink so far, on its row and the rows next to
-    it (letters touching on a diagonal read as one)."""
-    edges = _edges(right)
-    pairs = [
-        (a[1], b[0]) for y, b in enumerate(edges) if b is not None for a in left[max(0, y - 1) : y + 2] if a is not None
-    ]
-    return max((last + 2 - first for last, first in pairs), default=at)
-
-
 def ink(text: str) -> list[list[bool]]:
-    """The word's ink, 8 rows (0 and 7 left for the outline), from column 1, each letter kerned: as far left as a
-    blank column against its own and the next rows allows, never past a column after the previous letter's box."""
-    rows = [[False] for _ in range(8)]
-    reach: list[tuple[int, int] | None] = [None] * 6  # rightmost ink so far, per glyph row
-    for n, ch in enumerate(text):
-        glyph = GLYPHS[ch]
-        start = len(rows[0]) + (1 if n else 0)
-        if n:
-            start = min(start, _kerned(reach, glyph, start))
-        width = len(glyph[0])
-        for row in rows:
-            row.extend([False] * (start + width - len(row)))
-        for y, line in enumerate(glyph, 1):
-            for x, c in enumerate(line):
-                if c == "#":
-                    rows[y][start + x] = True
-        for y, edge in enumerate(_edges(glyph)):
-            if edge is not None:
-                reach[y] = (0, start + edge[1])
-    return rows
+    return letters.ink(text, GLYPHS)
 
 
 def draw(data: bytearray, word: Word) -> None:
-    width = word.tiles * 8
-    mask = ink(word.text)
-    if len(mask[0]) + 1 > width:
-        raise ValueError(f"{word.text!r}: {len(mask[0]) + 1} px, its run holds {width}")
-    for y in range(8):
-        for x in range(width):
-            here = x < len(mask[0]) and mask[y][x]
-            near = any(
-                0 <= x + dx < len(mask[0]) and 0 <= y + dy < 8 and mask[y + dy][x + dx]
-                for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
-            )
-            colour = (word.top if y <= 3 else word.bottom) if here else OUTLINE if near else 0
-            _set(data, word.first + x // 8, x % 8, y, colour)
+    grid = letters.paint(word.text, GLYPHS, word.tiles * 8, word.top, word.bottom)
+    for y, row in enumerate(grid):
+        for x, colour in enumerate(row):
+            letters.put(data, (ROW * COLS + word.first + x // 8) * 32, x % 8, y, colour)
 
 
 def sheet() -> bytes:
