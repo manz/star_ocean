@@ -35,6 +35,7 @@
 7EFE93	scene_flags2	data				flags tested by op 5B
 7EFEC3	scene_vars	data				VM variables var[i]
 C020EA	battle_run	function				jsl C1:0000: whole battle as a subroutine of the field loop
+C023C3	map_obj_sheet_dma					map load: S-DD1 DMA D9:0000 (0x2000) -> VRAM word 7000; src operands C0:23D3 (addr) / C0:23D9 (bank), only reader
 C04C53	unpack					LZ: dest = DB:X; DB=$7E path uses its own copy, any other bank: literals sta.w 0,x but back-refs mvn $7F,$7F (hardcoded)
 C08001	main_entry	function				reset lands here (from 00:FF96 jmp)
 C08594	apu_command	function				A = command, args $4C-$4E
@@ -320,6 +321,7 @@ D70DF6	names8_strings	data				8x8 names, FF-terminated
 D7254B	battle16_offsets	data				u16 offsets, base D7:2FD1
 D72A8D	battle16_ids	data				u16 ids (673)
 D72FD1	battle16_strings	data				u16 codes glyph+0x10, 000D nl, FFFF end
+D90000	obj_sheet_sdd1					shared OBJ sheet, 4bpp 8 KB, 4038 B compressed; row 14 = fight popups Short Long Guard Guts!! Heal MISS!!, row 13 = digits
 DBA078	font_menu_8x8	gfx				S-DD1 0xC00: 192 2bpp 8x8 tiles -> VRAM $2000; ASCII 0x20-0x5F then katakana, hiragana
 E3FFF7	narration_blank_line	gfx				S-DD1 blank 0x340 line
 E40000	scene_table	data				94 x 6B: event LZ ptr (-> $7E:3100), text LZ ptr (-> $7E:B873); scene id-1
