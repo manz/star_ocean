@@ -8,5 +8,16 @@
   colour 1 outline. Row 13: the big digits; row 15: small digits.
 - Patch (`src/battle/popups.s`, `tools/battle_obj.py`): Court / Long / Garde / Cran!! / Soin / Raté!!. The redrawn
   sheet packs to 4043 B, so the stream moves to the text16 pool and the two operands point there.
-- Not done: the command ring labels (SPECIAL, CHANGE, TACTICS, RUN, ITEM, SKILL): S-DD1 cels streamed to
-  `$7F:E000` each frame and DMA'd to VRAM word `$6000` by `C1:01BA`.
+- Popup letters are kerned pairwise (`tools/obj_letters.py`): a letter moves left while a blank column stays between
+  it and the previous one on its row and the rows next to it.
+- "SKILL!" (above a fighter while the ring is open) is three tiles of the same sheet, `$A6` `$CA` `$B6`. Not translated.
+
+# Command ring labels
+
+- `C1:4F36`: 5 entries (flags, dx, dy, 16-bit pointer) to the 32x32 icon frames; `C1:4F4F`: 5 entries (`0x20`,
+  16-bit pointer) to the label frames. Frames are the `C3:8ECB` format; `C3:917C` streams each cel (S-DD1, `0x20` per
+  8x8) into `$7F:E000+` and the NMI DMAs it to VRAM word `$6000`.
+- Label frames, 8x8 cels, 6-row capitals in colour 15 with a colour 1 outline: SPECIAL `C1:5052` (4 cels), ITEM `5075`
+  (3), RUN `5090` (2), TACTICS `50A3` (4), CHANGE `50C6` (4). Streams `DC:1113-DC:12A0`.
+- Patch (`src/battle/ring_labels.s`, `tools/ring_labels.py`): SPÉCIAL / OBJET / FUIR / TACTIQUE / ÉCHANGE in the same
+  cel counts (STRATÉGIE, the menu's word, needs 35 px); the cel records point at new streams in text16.

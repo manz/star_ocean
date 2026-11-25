@@ -40,6 +40,8 @@ C04C53	unpack					LZ: dest = DB:X; DB=$7E path uses its own copy, any other bank
 C08001	main_entry	function				reset lands here (from 00:FF96 jmp)
 C08594	apu_command	function				A = command, args $4C-$4E
 C10000	battle_main	function				battle module entry
+C14F36	ring_icon_frames					command ring: 5 x (flags, dx, dy, ptr16) to 32x32 icon frames; then 5 x (0x20, ptr16) at C1:4F4F to label frames
+C15052	ring_label_frames					C3:8ECB frames, 8x8 cels: SPECIAL C1:5052 (4), ITEM 5075 (3), RUN 5090 (2), TACTICS 50A3 (4), CHANGE 50C6 (4); cels S-DD1 DC:1113-DC:12A0
 C20000	field_main_loop	function				field frame: ~35 subsystems jsl'd in order, then nmi_dma_jobs, jmp back (notes/engine/modes.md)
 C20009	sched_main	function				cooperative task scheduler root; all task chains start here (shadow-stack switches)
 C20047	sched_dispatch	function				task dispatch/yield point
