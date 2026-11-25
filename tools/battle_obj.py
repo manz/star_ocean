@@ -73,17 +73,41 @@ def _set(data: bytearray, tile: int, x: int, y: int, colour: int) -> None:
         data[at] = data[at] & ~(1 << bit) | ((colour >> n) & 1) << bit
 
 
+def _edges(glyph: tuple[str, ...]) -> list[tuple[int, int] | None]:
+    """Per row, the first and last inked column (None for a blank row)."""
+    return [(line.index("#"), line.rindex("#")) if "#" in line else None for line in glyph]
+
+
+def _kerned(left: list[tuple[int, int] | None], right: tuple[str, ...], at: int) -> int:
+    """Leftmost start for `right` keeping a blank column between it and the ink so far, on its row and the rows next to
+    it (letters touching on a diagonal read as one)."""
+    edges = _edges(right)
+    pairs = [
+        (a[1], b[0]) for y, b in enumerate(edges) if b is not None for a in left[max(0, y - 1) : y + 2] if a is not None
+    ]
+    return max((last + 2 - first for last, first in pairs), default=at)
+
+
 def ink(text: str) -> list[list[bool]]:
-    """The word's ink, 8 rows (0 and 7 left for the outline), letters a column apart, from column 1."""
+    """The word's ink, 8 rows (0 and 7 left for the outline), from column 1, each letter kerned: as far left as a
+    blank column against its own and the next rows allows, never past a column after the previous letter's box."""
     rows = [[False] for _ in range(8)]
+    reach: list[tuple[int, int] | None] = [None] * 6  # rightmost ink so far, per glyph row
     for n, ch in enumerate(text):
         glyph = GLYPHS[ch]
+        start = len(rows[0]) + (1 if n else 0)
         if n:
-            for row in rows:
-                row.append(False)
-        for y in range(8):
-            line = glyph[y - 1] if 1 <= y <= 6 else "." * len(glyph[0])
-            rows[y].extend(c == "#" for c in line)
+            start = min(start, _kerned(reach, glyph, start))
+        width = len(glyph[0])
+        for row in rows:
+            row.extend([False] * (start + width - len(row)))
+        for y, line in enumerate(glyph, 1):
+            for x, c in enumerate(line):
+                if c == "#":
+                    rows[y][start + x] = True
+        for y, edge in enumerate(_edges(glyph)):
+            if edge is not None:
+                reach[y] = (0, start + edge[1])
     return rows
 
 

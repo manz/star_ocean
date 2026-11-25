@@ -53,3 +53,16 @@ def test_only_the_words_row_changes() -> None:
 def test_the_sheet_compresses_back() -> None:
     sheet = battle_obj.sheet()
     assert sdd1.decompress_bytes(sdd1.compress(sheet), battle_obj.SIZE)[0][: battle_obj.SIZE] == sheet
+
+
+def test_a_letter_kerns_into_the_previous_one_s_empty_corner() -> None:
+    assert ["".join("#" if v else "." for v in row) for row in battle_obj.ink("ra")] == [
+        ".......",
+        ".......",
+        ".....#.",
+        ".#.#..#",
+        ".##..##",
+        ".#..#.#",
+        ".#...##",
+        ".......",
+    ]
