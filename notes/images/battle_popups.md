@@ -19,5 +19,5 @@
   8x8) into `$7F:E000+` and the NMI DMAs it to VRAM word `$6000`.
 - Label frames, 8x8 cels, 6-row capitals in colour 15 with a colour 1 outline: SPECIAL `C1:5052` (4 cels), ITEM `5075`
   (3), RUN `5090` (2), TACTICS `50A3` (4), CHANGE `50C6` (4). Streams `DC:1113-DC:12A0`.
-- Patch (`src/battle/ring_labels.s`, `tools/ring_labels.py`): SPÉCIAL / OBJET / FUIR / TACTIQUE / ÉCHANGE in the same
-  cel counts (STRATÉGIE, the menu's word, needs 35 px); the cel records point at new streams in text16.
+- Patch (`src/battle/ring_labels.s`, `tools/ring_labels.py`): SPECIAL / OBJET / FUIR / TACTIQUE / ECHANGE in the same
+  cel counts (STRATEGIE, the menu's word, needs 35 px; capitals take no accent); the cel records point at new streams in text16.

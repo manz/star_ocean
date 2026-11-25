@@ -1,6 +1,6 @@
 """
 The fight's command ring labels in French (tools/ring_labels.py): SPECIAL, ITEM, RUN, TACTICS and CHANGE become
-SPÉCIAL, OBJET, FUIR, TACTIQUE and ÉCHANGE. Each label is a sprite frame of 8x8 cels (C1:4F50 holds the frame
+SPECIAL, OBJET, FUIR, TACTIQUE and ECHANGE. Each label is a sprite frame of 8x8 cels (C1:4F50 holds the frame
 pointers); the frames stay, every cel record's 24-bit source points at its new S-DD1 stream: cel n of the five labels,
 in frame order, at ring_labels + 0x40 * n.
 """
@@ -12,7 +12,7 @@ in frame order, at ring_labels + 0x40 * n.
     .incbin "ring_labels.bin"
 }
 
-; SPÉCIAL: the frame at C1:5052.
+; SPECIAL: the frame at C1:5052.
 .alloc at 0xC1505A size 3 {
     .dl ring_labels + 0x000
 }
@@ -59,7 +59,7 @@ in frame order, at ring_labels + 0x40 * n.
     .dl ring_labels + 0x300
 }
 
-; ÉCHANGE: the frame at C1:50C6.
+; ECHANGE: the frame at C1:50C6.
 .alloc at 0xC150CE size 3 {
     .dl ring_labels + 0x340
 }

@@ -1,5 +1,5 @@
-"""The fight's command ring labels in French: SPECIAL, ITEM, RUN, TACTICS and CHANGE redrawn as SPÉCIAL, OBJET, FUIR,
-TACTIQUE and ÉCHANGE, written to ring_labels.bin for src/battle/ring_labels.s.
+"""The fight's command ring labels in French: SPECIAL, ITEM, RUN, TACTICS and CHANGE redrawn as SPECIAL, OBJET, FUIR,
+TACTIQUE and ECHANGE (capitals take no accent), written to ring_labels.bin for src/battle/ring_labels.s.
 
 The ring shows the picked command's label as a sprite frame of the C3:8ECB format (C1:4F50 holds the five frame
 pointers): a 3-byte header, then one 8-byte record per 8x8 cel (size 0, dx, dy, a 24-bit source), each cel one
@@ -25,12 +25,11 @@ INK = 15
 RECORD = 8
 
 # fmt: off
-GLYPHS: letters.Glyphs = {  # rows 1-6, as the game's own labels draw them; B F J O Q É drawn alike
+GLYPHS: letters.Glyphs = {  # rows 1-6, as the game's own labels draw them; B F J O Q drawn alike
     "A": (".#.", "#.#", "#.#", "###", "#.#", "#.#"),
     "B": ("##.", "#.#", "##.", "#.#", "#.#", "##."),
     "C": (".##", "#..", "#..", "#..", "#..", ".##"),
     "E": ("###", "#..", "##.", "#..", "#..", "###"),
-    "É": ("..#", "###", "#..", "##.", "#..", "#..", "###"),  # the accent on row 0
     "F": ("###", "#..", "##.", "#..", "#..", "#.."),
     "G": (".##.", "#..#", "#...", "#.##", "#..#", ".###"),
     "H": ("#.#", "#.#", "###", "#.#", "#.#", "#.#"),
@@ -61,11 +60,11 @@ class Label:
 
 
 LABELS = (
-    Label(0xC15052, 4, "SPÉCIAL"),
+    Label(0xC15052, 4, "SPECIAL"),
     Label(0xC15075, 3, "OBJET"),
     Label(0xC15090, 2, "FUIR"),
     Label(0xC150A3, 4, "TACTIQUE"),
-    Label(0xC150C6, 4, "ÉCHANGE"),
+    Label(0xC150C6, 4, "ECHANGE"),
 )
 
 

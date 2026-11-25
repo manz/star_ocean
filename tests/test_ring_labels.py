@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import pytest
 
-from tools import obj_letters, ring_labels, sdd1
+from tools import ring_labels, sdd1
 from tools.rom import DEFAULT_ROM, Rom
 
 
@@ -21,11 +21,6 @@ def test_a_slot_unpacks_to_its_cel() -> None:
     label = ring_labels.LABELS[0]
     slot = ring_labels.blob()[: ring_labels.SLOT]
     assert sdd1.decompress_bytes(slot, ring_labels.CEL)[0][: ring_labels.CEL] == ring_labels.tiles(label)[0]
-
-
-def test_an_accent_takes_the_row_above_the_capitals() -> None:
-    grid = obj_letters.paint("É", ring_labels.GLYPHS, 8, ring_labels.INK, ring_labels.INK)
-    assert grid[0][3] == ring_labels.INK
 
 
 @pytest.mark.skipif(not DEFAULT_ROM.exists(), reason="base ROM not present")
