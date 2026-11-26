@@ -42,6 +42,10 @@ def test_tags_and_end_kept(layout: DialogLayout) -> None:
     assert (out.startswith("[color][0x4]"), out.endswith("[page]\n[end]")) == (True, True)
 
 
+def test_a_page_right_before_the_end_gets_its_newline(layout: DialogLayout) -> None:
+    assert layout.message("Asmodeus ![page][end]") == "Asmodeus ![page]\n[end]"
+
+
 def test_stray_leading_space_dropped(layout: DialogLayout) -> None:
     assert layout.page(" poussant au Mt Métox, je pourrais être sauvé... " * 2)[0] != " "
 

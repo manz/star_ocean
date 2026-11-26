@@ -63,6 +63,8 @@ class DialogLayout:
     def message(self, text: str) -> str:
         """One message's XML text, `[end]` included, laid out."""
         body, end, rest = text.partition(END)
+        body = re.sub(r"\[page\](?!\n)", PAGE, body)  # the table's page code is `[page]` and its newline: a bare
+        # one (`Terre.[page][end]`) encoded as letters, no prompt, the next message drawn over it
         pages = body.split(PAGE)
         laid = PAGE.join(self.page(page) if page else page for page in pages)
         return "\n".join(self.centre(line) for line in laid.split("\n")) + end + rest
