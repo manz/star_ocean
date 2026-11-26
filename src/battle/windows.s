@@ -45,6 +45,21 @@ Each operand below is the `ldx #` (or `lda #` width) of a draw, in BG3 map offse
 .alloc at 0xC157C7 size 2 {  ; 0x584
     .dw 0x582
 }
+
+; Its clears (`lda #8 / jsl C0:45CA` after each `ldx`): 8 cells were a Japanese name's; the window now has 9 inside
+; and an 8x8 VWF name fills them, so its 9th cell stayed on screen after the name went.
+.alloc at 0xC157AA size 2 {  ; 8 top
+    .dw 9
+}
+.alloc at 0xC157B4 size 2 {  ; 8 top, the row above
+    .dw 9
+}
+.alloc at 0xC157C0 size 2 {  ; 8 bottom
+    .dw 9
+}
+.alloc at 0xC157CA size 2 {  ; 8 bottom, the row above
+    .dw 9
+}
 .alloc at 0xC157F7 size 2 {  ; 0x84
     .dw 0x82
 }
