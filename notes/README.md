@@ -10,7 +10,7 @@ One folder per component, small files. Labels for every address live in `so.kint
 - `vram/`: per-screen VRAM layout, 8x8 VWF budget
 - `fonts/`: game fonts, katsuji assets
 - `text/`: dialog script, string databases, character tables
-- `images/`: graphics with Japanese text (narration, menu sprites), the ending staff roll
+- `images/`: graphics with Japanese text (narration, menu sprites, fight popups), the ending staff roll
 
 Patch: `uv run python -m tools.patch` (a816 → `build/star_ocean.ips` + soft-patched `build/star_ocean.sfc`).
 Tools: `uv run python -m tools.dump_font`, `uv run python -m tools.dump_images`, `uv run python -m tools.dump_text` (fonts/images → gitignored `extracted/`; text → `text/script/`, `text/menu/`).
