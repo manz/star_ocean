@@ -312,6 +312,15 @@ def test_an_engraving_read_with_a_moves_the_story() -> None:
     ]
 
 
+def test_a_second_box_test_forgets_the_first_answer() -> None:
+    """Scene 80's A script tests the hero's box twice: the step at 143 keeps the second answer only, not both it
+    and the first one's `!(sys.w[0x7] == 1)`."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    (guards,) = [s["guards"] for s in steps if s["maps"] == [164] and s["at"] == 143]
+    assert "!(sys.w[0x7] == 1)" not in guards
+
+
 def test_a_box_thinner_than_a_cell_is_the_cell_a_hero_on_the_grid_stands_in() -> None:
     """Map 158's switch: 8 px x 59 to 60, A only where the hero's x is cell 30."""
     flags = export()["flags"]

@@ -296,6 +296,7 @@ def _number(e: Expression) -> int | None:
 
 
 ACTOR_IN_BOX = 22  # syscall: is actor var.w[0x0] in the 8 px box var.w[0x2], [0x4] to [0x6], [0x8]
+BOX_ANSWER = "sys.w[0x7]"  # its answer ($0278)
 BOX_VARS = (0, 2, 4, 6, 8)
 
 
@@ -396,8 +397,8 @@ class _Walker:
                 return [(replace(p, pos=nxt, chose=True), guards)]
             case "char_party_pos" if isinstance(ins.args[0], Value) and ins.args[0].table == "imm":
                 return [(replace(p, pos=nxt, asked=ins.args[0].n), guards)]
-            case "syscall" if _is_box_test(ins):
-                return [(p.at(nxt).boxed(), guards)]
+            case "syscall" if _is_box_test(ins):  # a new answer: the tests of the last box's say nothing of it
+                return [(p.at(nxt).boxed(), frozenset(g for g in guards if BOX_ANSWER not in _names(g.condition)))]
         q = _answered(_with_result(p.at(nxt), ins, p.tested, p.asked), ins, p.chose)
         q = _wrote(_counted(self._keep_const(q, ins), ins), ins)
         if ins.name in ("flag_on", "flag_off") and (flag := p.flag(ins.args[0])) is not None:
@@ -504,6 +505,11 @@ def _wrote(p: _Point, ins: Instruction) -> _Point:
     if isinstance(value, Value) and value.table in ("imm", "byte") and STORES[(dest.flags >> 3) & 7] == "=":
         kept |= {(name, value.n)}
     return replace(p, written=p.written | {name}, sets=kept, placed=p.placed - {name})
+
+
+def _names(c: Condition) -> frozenset[str]:
+    """Every variable the condition reads."""
+    return frozenset(str(v) for t in c.terms for v in t.values)
 
 
 def _reads(c: Condition) -> frozenset[str]:
