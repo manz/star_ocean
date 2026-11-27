@@ -420,6 +420,13 @@ _absent:
     .if VWF8_PEN {
         jsl pen8_find
         bcc _unknown
+        lda.l vwf8.battle  ; in a fight, a name only over its tiles: the blanks after them (one cell per code, they
+        beq _cells_kept  ; wipe a longer name in the menus' fields) put a 6-letter nickname's on the party window's
+        lda.b _cells  ; border
+        bne _cells_kept
+        lda.l pen8.count
+        sta.b _cells
+_cells_kept:
         rep #0x20
         lda.l pen8.slot
         and.w #0x00FF
