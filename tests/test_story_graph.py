@@ -2,12 +2,16 @@
 
 from __future__ import annotations
 
+import os
+import subprocess
+import sys
 from pathlib import Path
 
 from tools import save_slot
 from tools.dialog import SCENES
 from tools.map_table import map_scenes, scene_maps
-from tools.story_graph import DEBUG_SCENE, export, gate_actions, graphs, main, openers, scene_graph
+from tools.rom import ROOT
+from tools.story_graph import DEBUG_SCENE, clearings, export, gate_actions, graphs, main, scene_graph
 
 SAVES = Path(__file__).parent / "saves"
 
@@ -110,7 +114,7 @@ def test_a_lower_bound_pins_the_step_to_it() -> None:
 
 def test_a_trigger_that_clears_walls_is_an_opener() -> None:
     """Map 123's door: zone (23, 35)-(24, 35) clears the cells above it on the third hit."""
-    assert any(t.box == (23, 35, 24, 35) for t in openers(scene_graph(27)))
+    assert any(a.trigger.box == (23, 35, 24, 35) for a in clearings(scene_graph(27)))
 
 
 def test_the_silex_blows_the_gas_on_map_129() -> None:
@@ -171,11 +175,12 @@ def test_an_unguarded_sibling_exit_gets_the_complement() -> None:
 
 
 def test_a_wall_switch_sets_its_flag_through_a_variable() -> None:
-    """Map 234's switch: `set var.w[0x4f] = 55`, A facing it in (14..15, 7), Yes: `flag_on var.w[0x4f]`."""
+    """Map 234's switch: `set var.w[0x4f] = 55`, A facing it in (14, 7) (its box holds half of 15), Yes: `flag_on
+    var.w[0x4f]`."""
     flags = export()["flags"]
     assert isinstance(flags, list)
     switch = [f for f in flags if f["flag"] == 55 and f["on"]]
-    assert [(f["maps"], f["trigger"]["kind"], f["trigger"]["box"]) for f in switch] == [([234], "use", [14, 7, 15, 7])]
+    assert [(f["maps"], f["trigger"]["kind"], f["trigger"]["box"]) for f in switch] == [([234], "use", [14, 7, 14, 7])]
 
 
 def test_an_exit_walled_until_a_flag_needs_it() -> None:
@@ -189,8 +194,16 @@ def test_the_export_lists_walls_a_flag_opens() -> None:
     """Map 239's ways north: walled until the switches on 242 (flag 56) and 243 (flag 57)."""
     walls = export()["walls"]
     assert isinstance(walls, list)
-    north = {w["flag"]: w["box"] for w in walls if w["maps"] == [239]}
-    assert north == {56: [7, 24, 8, 24], 57: [7, 40, 8, 40]}
+    north = [(w["flags"], w["box"]) for w in walls if w["maps"] == [239]]
+    assert north == [({"56": True}, [7, 24, 8, 24]), ({"57": True}, [7, 40, 8, 40])]
+
+
+def test_a_wall_two_flag_states_open_is_listed_twice() -> None:
+    """Map 158's x 28: open with the switch's flag 102 on, or with plate 69's flag 99 off and 102 off."""
+    walls = export()["walls"]
+    assert isinstance(walls, list)
+    ways = [w["flags"] for w in walls if w["maps"] == [158] and w["box"] == [28, 41, 28, 43]]
+    assert sorted(ways, key=len) == [{"102": True}, {"99": False, "102": False}]
 
 
 def test_a_zone_placed_at_two_counter_values_keeps_both() -> None:
@@ -263,3 +276,106 @@ def test_a_step_on_two_flag_results_needs_both_flags() -> None:
     assert isinstance(steps, list)
     on = [s["flags"] for s in steps if s["maps"] == [84] and s["at"] == 137 and s["to"] == 140]
     assert on == [{"93": True, "94": True}]
+
+
+def test_a_flag_result_anded_with_the_counter_is_a_flag_guard() -> None:
+    """Map 87 at 133: `flag_test 92; if var.w[0x10] == 133 && sys.w[0x8] == 0` moves on to 137 with flag 92 off."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    on = [s["flags"] for s in steps if s["maps"] == [87] and s["at"] == 133 and s["to"] == 137]
+    assert on == [{"92": False}]
+
+
+def test_a_party_lookup_is_named_for_its_character() -> None:
+    """Map 222 at 133: `char_party_pos 1; store_result sys[8]` moves on to 134 only with character 1 away."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    guards = [s["guards"] for s in steps if s["maps"] == [222] and s["at"] == 133 and s["to"] == 134]
+    assert guards == [["var[0x13] == 0 && var.w[0x10] == 133 && party[1] == 0"]]
+
+
+def test_a_choice_answer_is_named_choice() -> None:
+    """Port 83's boatman: `choose 0, 4; store_result sys[8]; set var.w[0x46] = sys.w[0x8]`, the third line sails to
+    Ecdart (156)."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    boat = [e["guards"] for e in exits if e["maps"] == [83] and e["actor"] == 20 and e["to"] == 156]
+    assert boat and all("choice == 3" in g for g in boat)
+
+
+def test_an_engraving_read_with_a_moves_the_story() -> None:
+    """Map 164 at 143: A facing the engraving in its box (scene 80's A script, `actor_in_box`) moves the story on."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    assert [s["trigger"] for s in steps if s["maps"] == [164] and s["at"] == 143] == [
+        {"kind": "use", "box": [4, 4, 4, 4], "actor": None, "item": None}
+    ]
+
+
+def test_a_second_box_test_forgets_the_first_answer() -> None:
+    """Scene 80's A script tests the hero's box twice: the step at 143 keeps the second answer only, not both it
+    and the first one's `!(sys.w[0x7] == 1)`."""
+    steps = export()["steps"]
+    assert isinstance(steps, list)
+    (guards,) = [s["guards"] for s in steps if s["maps"] == [164] and s["at"] == 143]
+    assert "!(sys.w[0x7] == 1)" not in guards
+
+
+def test_a_box_thinner_than_a_cell_is_the_cell_a_hero_on_the_grid_stands_in() -> None:
+    """Map 158's switch: 8 px x 59 to 60, A only where the hero's x is cell 30."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    switch = [f["trigger"]["box"] for f in flags if f["flag"] == 102 and f["on"] and f["maps"] == [158]]
+    assert switch == [[30, 44, 30, 44]]
+
+
+def test_a_map_change_takes_the_hero_before_one_it_runs_into() -> None:
+    """Map 312's door: from 315 or 320 the script changes to 320, then runs on into the change to 324; only the first
+    takes the hero."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    to_324 = [e["guards"] for e in exits if e["maps"] == [312] and e["to"] == 324]
+    assert to_324 == [["!(var.w[0x23] == 315)", "!(var.w[0x23] == 320)"]]
+
+
+def test_a_wall_reads_flag_results_copied_into_variables() -> None:
+    """Map 544's door: flags 119 to 123 tested, each result copied into `var.w[0x38]` on, then all of them anded."""
+    walls = export()["walls"]
+    assert isinstance(walls, list)
+    door = [w["flags"] for w in walls if w["maps"] == [544]]
+    assert door == [{str(f): True for f in range(119, 124)}]
+
+
+def test_switches_packed_in_a_variable_need_the_ones_before_them() -> None:
+    """Map 544's door: switches on maps 542, 541, 540, 541 and 543 set flags 119 to 123, each only after the ones
+    before it (`if m != 24` resets them all)."""
+    flags = export()["flags"]
+    assert isinstance(flags, list)
+    needs = {f["flag"]: f["flags"] for f in flags if f["on"] and 120 <= f["flag"] <= 123}
+    assert needs[121] == {"119": True, "120": True, "121": False, "122": False, "123": False}
+
+
+def test_a_scene_folds_the_same_whatever_the_hash_seed() -> None:
+    """Copies fold in a fixed order: a frozenset printed in PYTHONHASHSEED's order made scene 7's actions differ
+    from run to run."""
+    code = "from tools import story_graph as sg\nprint(sorted(sg._order(a) for a in sg.scene_graph(7).actions()))\n"
+    runs = {
+        subprocess.run(
+            [sys.executable, "-c", code],
+            cwd=ROOT,
+            env={**os.environ, "PYTHONHASHSEED": seed},
+            capture_output=True,
+            text=True,
+            check=True,
+        ).stdout
+        for seed in ("1", "2")
+    }
+    assert len(runs) == 1
+
+
+def test_a_zone_placed_after_the_counter_moves_on_is_guarded_by_its_new_value() -> None:
+    """Map 1's thieves' zones: the cutscene at 4 counts on to 5, then places them; at 5 they lead to 11."""
+    exits = export()["exits"]
+    assert isinstance(exits, list)
+    zones = [e for e in exits if e["maps"] == [1] and e["to"] == 11 and e["box"] == [18, 23, 24, 31]]
+    assert any("var.w[0x10] == 5" in e["guards"] for e in zones)
